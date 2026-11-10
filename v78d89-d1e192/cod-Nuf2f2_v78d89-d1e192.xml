@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="16"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e192"><!-- q2m3 -->
+        <head xml:id="v78d89-d1e192-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-d1e192-Hd1e103" type="question-title">De sacramento poenitentiae tempore legis naturae</head>
+        <p xml:id="v78d89-d1e192-d1e106">
+          <lb ed="#N" n="8"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-d1e192-d1e111">
+          <lb ed="#N" n="9"/>COnsequenter queritur de sacramento penitentie.
+          Cir<lb ed="#N" n="10" break="no"/>ca quod queritur primo. vtrum institutum fuerit
+          <lb ed="#N" n="11"/>in paradiso. Secundo vtrum aliquam rationem habeat
+          <lb ed="#N" n="12"/>a natura.
+        </p>
+        <div xml:id="v78d89-d1e192-Dd1e122">
+          <head xml:id="v78d89-d1e192-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-d1e192-d1e126">
+            <lb ed="#N" n="13"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e192-d1e131">
+            <lb ed="#N" n="14"/>CIrca primum sic. Non fuit necessaria penitentia ante
+            la<lb ed="#N" n="15" break="no"/>psum peccati: non ergo necessarium fuit sacramentum
+            peniten<lb ed="#N" n="16" break="no"/>tie antequam homo peccasset. In statu ergo in quo homo
+            fu<lb ed="#N" n="17" break="no"/>it in peradiso non fuit necessarium sacramentum penitentie maxime ante
+            <lb ed="#N" n="18"/>peccatum.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e144">
+            ⁋ Pre. non fit alicubi mentio de sacramento penitentie. Nam
+            si<lb ed="#N" n="19" break="no"/>facta esset: aut hoc esset antequam homo peccassit: aut cum homo
+            pecca<lb ed="#N" n="20" break="no"/>ret. aut post. Andte non fuit: cum pro nihilo esset. nec fit ibi
+            men<lb ed="#N" n="21" break="no"/>tio nisi de preceptis et prohibitionibus et comminatione. Nec tune
+            <lb ed="#N" n="22"/>quando perpetratum fuit peccatum: ibi enim non agitur nisi de peccato et caus
+            <lb ed="#N" n="23"/>eius et sequala ipsius. Postea vero non agitur nisi de pena
+            multi<lb ed="#N" n="24" break="no"/>plici: ex quibus colligitur quod non fuit institutio facta in paradiso
+            <lb ed="#N" n="25"/>Contra. penitentia est medicina quedam spiritualis. sed dupliciter
+            <lb ed="#N" n="26"/>est medicina corporalis. quedam enim est preseruatiua a morbo:
+            <lb ed="#N" n="27"/>quedam expulsiua morbi. Similiter debet esse medicina spiritualis
+            du<lb ed="#N" n="28" break="no"/>plex scilicet preseruatiua a morbo: et expulsiua morbi. Preserua
+            <lb ed="#N" n="29"/>tiua autem necessaria fuit ante peccatum. ergo necessaria fuit penitentie
+            institu<lb ed="#N" n="30" break="no"/>tio ante peccatum sed nihil quod erat humane saluti necessarium fuit
+            <lb ed="#N" n="31"/>pretermissum a diuina prouidentia: ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e175">
+            ⁋ Quod concedunt quidam
+            <lb ed="#N" n="32"/>dicentes penitentiam fuisse institutam in paradiso antequam morbus
+            es<lb ed="#N" n="33" break="no"/>set. vt sic esset medicina preseruatia a morbo: ne fiet lapsus in
+            <lb ed="#N" n="34"/>peccatum. et hoc fieri dicitur quando facta est comminatio. quacumque die
+            co<lb ed="#N" n="35" break="no"/>mederis morte morieris: sed postea illa que fuit preseruatiua
+            <lb ed="#N" n="36"/>facta est expulsiua morbi. et conueniebat vt in paradiso
+            consti<lb ed="#N" n="37" break="no"/>tueretur ad cauendum a morbo actualis peccati. Si enim fuisset
+            <lb ed="#N" n="38"/>cautela a morbo actualis peccati: non fuisset secutum originale
+            <lb ed="#N" n="39"/>peccatum: nec alii defectus multiplices in quorum remedium sunt
+            <lb ed="#N" n="40"/>alia sacramenta et sic tantum fuerunt duo sacramenta in
+            peradi<lb ed="#N" n="41" break="no"/>so. scilicet matrimonium ad multiplicandum nunerum fidelium: et in
+            si<lb ed="#N" n="42" break="no"/>gnum vnionis membrorum ecclesie cum capite. et aliud
+            conseruati<lb ed="#N" n="43" break="no"/>uum hominis in sanitate: ne scilicet caderet in egritudinem. Cum
+            <lb ed="#N" n="44"/>enim penitentia duo habeat. commissa flerer et flenda non committere. quam
+            <lb ed="#N" n="45"/>tum ad primam partem est expulsiua morbi iam contracti: quantum
+            <lb ed="#N" n="46"/>ad secundam partem preseruatiua a morbo futuro. Si enim institu
+            <lb ed="#N" n="47"/>ta fuit ante peccatum: hoc fuit ad preseruandum a morbo. Si vero
+            <lb ed="#N" n="48"/>fuit instituta post peccatum in ipsa expulsione: hoc fuit ad
+            cura<lb ed="#N" n="49" break="no"/>tionem peccati.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e218">
+            ⁋ Sed planum est quod hoc nihil est. quia cum
+            peniten<lb ed="#N" n="50" break="no"/>tia concernat siue importet in corde dolorem de peccato. nec sine
+            <lb ed="#N" n="51"/>hoc esse potest penitentia. ho autem nullo modo congruebat statui
+            inno<lb ed="#N" n="52" break="no"/>centie: ergo nec penitentia. Post lapsum autem posset penitentia
+            <lb ed="#N" n="53"/>esse medicina preseruatiua scilicet ab iteratione peccati siue
+            recidi<lb ed="#N" n="54" break="no"/>uo: sed ante nequaquam. Nec hoc quod dico flenda non comittere
+            <lb ed="#N" n="55"/>dicit esse penitentie: quia tunc esset penitentia in patria. Ideo alii dixerunt
+            <lb ed="#N" n="56"/>quod institutio penitentie non aliud fuit nisi ipsa inspiratio. qua dominus
+            <lb ed="#N" n="57"/>primis parentibus inspirauit penitentiam super primo peccato: maxime
+            <lb ed="#N" n="58"/>cum inflixit penas. Pena enim sicut dicit glo. oculos aperit:
+            <lb ed="#N" n="59"/>quos culpa claudit.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e242">
+            ⁋ Aliter vero dicendum. quod in eo quod posuit dominus
+            <lb ed="#N" n="60"/>cherubin et flammen gladium ante paradisum. ad custodiendam
+            <lb ed="#N" n="61"/>viam ligni vite. dabatur intelligi sustinentia pene qui per flammeum
+            <lb ed="#N" n="62"/>gladium designatur ex gratia siue ex caritate. Per ista enim oper
+            <lb ed="#N" n="63"/>tet incedere actualiter peccantem: si debet peruenire ad viam
+            ligni<lb ed="#N" n="64" break="no"/>vite. et secundum hoc dicitur institui in paradiso. quia in exitu a peradiso
+            di<lb ed="#N" n="65" break="no"/>sponebatur vt per illud fieret reuersio. hoc etiam videtur
+            signficari<lb ed="#N" n="66" break="no"/>per illud quod dici magister in historiis. Eiectionem primorum perentum
+            re<lb ed="#N" n="67" break="no"/>presentat ecclesia in capite ieiunii: cum eiicit extra ecclesiam aliquos.
+            <lb ed="#N" n="68"/>cilicium dat: in signum tunicarum pellicearum. Cinerem sub his
+            ver<lb ed="#N" n="69" break="no"/>bis. Cinis es et in cinerem reuerteris. In memoriam vero
+            ma<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>ledictionis eiecti: candelas ferunt ardentes. quia pro opere d
+            <lb ed="#N" n="71"/>porrexerunt manus ad pomum vetitum. apposita est ignea
+            rum<lb ed="#N" n="72" break="no"/>phea paradiso. clauduntur fores: in signum aditus paradisi
+            quon<lb ed="#N" n="73" break="no"/>dam obclusi. Ex quibus designatur quod ibi sacramentum penitentie designa
+            <lb ed="#N" n="74"/>batur.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e278">
+            ⁋ Quod autem hec veritatem non habeant patet. aliud est enim
+            <lb ed="#N" n="75"/>penam cominari ne committatur offensa: et aliud est instituere
+            pe<lb ed="#N" n="76" break="no"/>tentiam in sacramentum. Pre. aliud est infligere penam pro offensa
+            con<lb ed="#N" n="77" break="no"/>missa sicut punire transgressorem: et aliud instituere
+            sacra<lb ed="#N" n="78" break="no"/>mentum penitentie. vnde dico quod non sint instituta in
+            pa<lb ed="#N" n="79" break="no"/>radiso: hec infra plenius patebunt.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e192-Dd1e293">
+          <head xml:id="v78d89-d1e192-Hd1e295">Articulus 2</head>
+          <p xml:id="v78d89-d1e192-d1e297">
+            <lb ed="#N" n="80"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e192-d1e302">
+            <lb ed="#N" n="81"/>SEcundo queritur. vtrum rationem aliquam habuerit a
+            <lb ed="#N" n="82"/>natura et videtur quod non. natura enim in statu
+            inno<lb ed="#N" n="83" break="no"/>centie nondum erat vulnerata. non ergo tunc temporis dicta
+            <lb ed="#N" n="84"/>bat remedium vulneris. Peccatum autem est vulnus anime: non ergo
+            di<lb ed="#N" n="85" break="no"/>ctabat natura penitentiam que est in remedium vulneris quod est pec
+            <lb ed="#N" n="86"/>catum actuale. non ergo sacramentum penitentie tunc temporis dictamen
+            ha<lb ed="#N" n="87" break="no"/>buit nature.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e320">
+            ⁋ Pre. penitentia inquantum penitentia respicit peccatum
+            preex<lb ed="#N" n="88" break="no"/>istens. penitere enim est dolere de hoc quod iudicatur esse malum.
+            <lb ed="#N" n="89"/>Si ergo sacramentum penitentie supponit ante se peccatum. non dicit
+            medi<lb ed="#N" n="90" break="no"/>cinam vt preseruatiuam: sed tantum vt curatiuam: ergo non videtur esse ex in
+            <lb ed="#N" n="91"/>stinctu nature existente in integritate. ergo sacramentum penitentie non
+            <lb ed="#N" n="92"/>videtur esse ex instinctu nature secundum statum innocentie.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e333">
+            ⁋
+            Si<lb ed="#N" n="93" break="no"/>vero dicatur quod fuerit secundum instinctum nature lapse: hoc non videtur
+            <lb ed="#N" n="94"/>Quod enim insitum est nature: a conditione nature est et
+            insi<lb ed="#N" n="95" break="no"/>tum. Et ita si est secundum inftinctum nature lapse: erit insitum etiam
+            <lb ed="#N" n="96"/>nature cum non erat lapsa. licet tunc non moueret actu ad illam
+            <lb ed="#N" n="97"/>Quod etiam videtur per simile. precepta enim que sunt ex dictamine
+            na<lb ed="#N" n="98" break="no"/>ture. a principio insita erant ipsi nature: et cum non erat
+            la<lb ed="#N" n="99" break="no"/>psa. Eodem modo videtur esse de aliis que sunt ex instinctu naftre.
+            <lb ed="#N" n="100"/>Lex enim nature est. qua intelligit homo quid sit bonum et quid sit
+            ma<lb ed="#N" n="101" break="no"/>lum. nec per peccatum imago dei ita deteriorata est: vt nulla in ea
+            <lb ed="#N" n="102"/>lineamenta remanserint: nec omnino deleretur quod ibi per imaginem
+            <lb ed="#N" n="103"/>dei cum crearetur impressum est. Si ergo sacramentum penitentie fuit inditum in
+            <lb ed="#N" n="104"/>natura lapsa: fuit et inditum in natura non lapsa.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e363">
+            ⁋ Ad quod
+            <lb ed="#N" n="105"/>dicendum est. quod sacramentum penitentie aliquo modo inditum est a natura:
+            pro<lb ed="#N" n="106" break="no"/>ut hoc loquimur de sacramento penitentie. loquimur enim hic de dolore
+            peniten<lb ed="#N" n="107" break="no"/>tiali. non enim tantum inditum fuit nature a conditore nature illud
+            <lb ed="#N" n="108"/>per quod poterat conseruari in integritate et proficere in illo: sed
+            <lb ed="#N" n="109"/>et per quod poterat reparari si deterioraretur. quia ergo per peccatum
+            <lb ed="#N" n="110"/>actualem facta est primo deterioratio nature. insertum est
+            ipsi<lb ed="#N" n="111" break="no"/>nature rationali remedium contra huiusmodi deteriorationem. Hoc autem
+            <lb ed="#N" n="112"/>est primum et per se remedium penitentia. et ideo a natura est aliquo modo
+            <lb ed="#N" n="113"/>inditum sacramentum penitentie.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e385">
+            ⁋ Ad obiectum autem in contrarium dicendum est
+            <lb ed="#N" n="114"/>quod licet natura prmitus instituta. non tunc indigeret illo
+            rtrme<lb ed="#N" n="115" break="no"/>dio cum nondum esset vulnerata: nihilominus tamen indigebat
+            co<lb ed="#N" n="116" break="no"/>gnitione illius remedii. quia de se possibilis erat ad lapsum.
+            Co<lb ed="#N" n="117" break="no"/>gnitio autem ad hoc vtilis fuit. vt si laberetur huiusmodi remedium:
+            que<lb ed="#N" n="118" break="no"/>reret per quod sanaretur.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e398">
+            ⁋ Ad secundum vero dicendum. quod penitentia prout maxime
+            <lb ed="#N" n="119"/>proprie accipitur respicit peccatum preexistens. est tamen aliqua conditio
+            <lb ed="#N" n="120"/>penitentie que potest esse peccato non existente: sicut est illa que est de non
+            <lb ed="#N" n="121"/>committendo in posterum.
+          </p>
+          <p xml:id="v78d89-d1e192-d1e407">
+            ⁋ Ad tercium vero dicendum. quod aliter sunt
+            <lb ed="#N" n="122"/>inserta ipsi nature seminia iusticie: et aliter semnia medicine
+            <lb ed="#N" n="123"/>spiritualis. Semina enim iusticie inserta sunt. vt quibus indiget
+            <lb ed="#N" n="124"/>homo secundum omnem statum. Semnia vero medicine spiritualis inserta. vt
+            <lb ed="#N" n="125"/>quibus iuuaretur homo secundum nature lapse: et quo tempore lapsa est. nec
+            <lb ed="#N" n="126"/>est dicendum quod tunc primo inditum sit nature quod pertinet ad
+            co<lb ed="#N" n="127" break="no"/>gnitionem remedii cum ipsa natura vulnerata: sed prius fuit
+            <lb ed="#N" n="128"/>ei inditum. vt tunc ex instinctu nature quereretur
+            remedium<lb ed="#N" n="129" break="no"/>cum esset necessarium.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 99, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 99, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="627"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ahdtkk"><!-- q99m2 -->
+        <head xml:id="v78d89-ahdtkk-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ahdtkk-Hd1e103" type="question-title">Utrum magis abstinendum sit tempore ieiunii a quanto vel a quali</head>
+        <p xml:id="v78d89-ahdtkk-d1e106">
+          <lb ed="#N" n="47"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e111">
+          <lb ed="#N" n="48"/>COnsequenter queritur. vtrum magis abstinendum
+          <lb ed="#N" n="49"/>sit tempore ieiunii a quanto vel a quali. hoc est
+          qua<lb ed="#N" n="50" break="no"/>rere. vtrum magis abstinendum est a superfluitate
+          <lb ed="#N" n="51"/>ciborum: vel a cibariis delicatis. Quod magis
+          <lb ed="#N" n="52"/>abstinendum sit a quali: videtur sic. Dan. x. Panem desidera
+          <lb ed="#N" n="53"/>bilem non comedi. Glo. a cibis delicatis abstinuit. quod
+          ma<lb ed="#N" n="54" break="no"/>xime faciendum est nobis tempore ieiunii. ergo abstinendum est a quali.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e129">
+          <lb ed="#N" n="55"/>⁋ Pret. Hugo de s. vic. secunda parte de sacramentis. Si in
+          correpti<lb ed="#N" n="56" break="no"/>one minor est afflictio quam in culpa fuit delectatio: non est
+          di<lb ed="#N" n="57" break="no"/>gnus fructus penitentie. pensanda ergo est afflictio penes vel secundum
+          <lb ed="#N" n="58"/>quantitatem delectationis. et ita penes qualitatem. quare a
+          quali<lb ed="#N" n="59" break="no"/>magis abstinendum.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e143">
+          ⁋ Pret. idem dicit. quod penitentia directe
+          ra<lb ed="#N" n="60" break="no"/>dicem aspicit peccati que est libido. et libido magis
+          respi<lb ed="#N" n="61" break="no"/>cit quale: quare penitentia magis penes qualitatem pensatur. et
+          <lb ed="#N" n="62"/>ita magis abstinendum est a quali.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e152">
+          ⁋ Pret. phs. volenti
+          in<lb ed="#N" n="63" break="no"/>tendere ad virtutem opertet inspicere ad contrarium. sed maxime
+          con<lb ed="#N" n="64" break="no"/>trarium virtuti in omnibus est delectationis excessus: quare vt
+          ie<lb ed="#N" n="65" break="no"/>iunio perueniatur ad virtutem: maxime abstinendum est a quali.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e161">
+          ⁋ Pret.
+          <lb ed="#N" n="66"/>delectatio secundum phscum finis est desiderii et delectatio coniunctio
+          <lb ed="#N" n="67"/>conuenientis cum conuenienti. et conuenientia attenditur penes
+          qualita<lb ed="#N" n="68" break="no"/>tem. quare et delectatio. ergo etc.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e170">
+          ⁋ Pret. propter quod vnunquodque
+          <lb ed="#N" n="69"/>et illud magis. sed quantum non appetitur nisi inquantum quale. vnde
+          <lb ed="#N" n="70"/>cibus amarus non appetitur nec libenter recipitur. ergo quale magis
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>apprsetitur. ergo etc.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e181">
+          ⁋ Pret. in nobis triplex est potentia. sensus et
+          <lb ed="#N" n="72"/>imaginatio et intellectus. Et sensus proprie pro obiecto habet qua
+          <lb ed="#N" n="73"/>litatem: imaginatio quantum: et intellectus habet quid proprie pro obie
+          <lb ed="#N" n="74"/>cto. sed ieiunium est institutum ad reprimendum delectationem
+          preci<lb ed="#N" n="75" break="no"/>pue secundum sensum gestum. ergo institutum ad reprimendam
+          delecta<lb ed="#N" n="76" break="no"/>tionem penes quale. quare a quali magis est abstinendum.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e194">
+          <lb ed="#N" n="77"/>Contra. Augustinus. dicit de ieiunio sabbati. Animalia ratione
+          <lb ed="#N" n="78"/>carentia dicuntur a loga: quibus similes sunt ventri dediti propter
+          <lb ed="#N" n="79"/>immoderatum conuiuium quo mens obruitur. ab illo autem magis
+          <lb ed="#N" n="80"/>est abstinendum quo mens magis obruitur. magis autem
+          obru<lb ed="#N" n="81" break="no"/>itur per superfluitatem cibi quam per qualitatem: vt dicit auctoritas. ergo
+          ma<lb ed="#N" n="82" break="no"/>gis abstinendum est a quanto quam a quali.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e211">
+          ⁋ Pret. Ysido. de
+          <lb ed="#N" n="83"/>summo bono. Quicquid cum modo et temporamento recipitur
+          salu<lb ed="#N" n="84" break="no"/>tare est: quicquid modum excesserit periculosum est. ergo magis
+          ver<lb ed="#N" n="85" break="no"/>satur periculum circa quantum. quare etc.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e220">
+          ⁋ Pret. cuius excessus est
+          <lb ed="#N" n="86"/>minus excusabilis ab illo magis est abstinendum. excessus
+          <lb ed="#N" n="87"/>in quanto minus est excusabilis: quia minor est pronitas
+          <lb ed="#N" n="88"/>ibi. magis proni sumus ad comedendum delectabilia quom ad
+          <lb ed="#N" n="89"/>multum cibum quod non est delectabile. quare etc.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e231">
+          ⁋ Pret. cuius
+          ex<lb ed="#N" n="90" break="no"/>cessus est magis contra naturam: ab illo est magis abstinendum
+          <lb ed="#N" n="91"/>excessus in quanto est huiusmodi: quoniam magis grauat naturam et
+          <lb ed="#N" n="92"/>corrumpit cibus superfluus quam cibus delicatus. quare etc.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e240">
+          ⁋ Pret.
+          <lb ed="#N" n="93"/>cuius excessus est magis contra essentiam virtutis: ab illo est
+          <lb ed="#N" n="94"/>magis abstinendum. sed excessus in quanto est huiusmodi: quia
+          vir<lb ed="#N" n="95" break="no"/>tus querit medium et immoderatum fugit: et consistit inter
+          super<lb ed="#N" n="96" break="no"/>fluum et diminutum. vnde medium magis impugnat
+          superfluita<lb ed="#N" n="97" break="no"/>tes quam qualitas. quare etc.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e253">
+          ⁋ Pret. cuius excessus magis
+          red<lb ed="#N" n="98" break="no"/>dit hominem inhabilem ad operationes spirituales ab eo magis est
+          <lb ed="#N" n="99"/>abstinendum. sed per excessum in quantitate magis efficitur homo
+          <lb ed="#N" n="100"/>inhabilis ad operationes spirituales: quam per excessum in qualitate
+          <lb ed="#N" n="101"/>vt patet per se in omnibus. quare etc.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e264">
+          ⁋ Pret. virtus consistit
+          cir<lb ed="#N" n="102" break="no"/>ca difficile. sed quando homo habet plura fercula delectabilia.
+          dif<lb ed="#N" n="103" break="no"/>ficilius abstinet a quanto quam a quali. ergo magis consistit
+          circa<lb ed="#N" n="104" break="no"/>quantum quam circa quale. et ita circa abstinentiam a quanto
+          ma<lb ed="#N" n="105" break="no"/>gis est virtus.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e276">
+          ⁋ Responsio. Est iudicare de huiusmodi abstinentia
+          <lb ed="#N" n="106"/>dupliciter. aut secundum legem constitutionis ecclesiastice: aut secundum legem
+          <lb ed="#N" n="107"/>virtutis que est sobrietas. secundum constitutionem ecclesiasticam magis est
+          <lb ed="#N" n="108"/>abstinendum in ieiunio a quali quam a quanto: eo quod circa
+          ab<lb ed="#N" n="109" break="no"/>stinentiam a quali periculum est minus: et iudicium certius: et
+          con<lb ed="#N" n="110" break="no"/>modum maius. Periculum minus: quia quantum ad sustentationem
+          na<lb ed="#N" n="111" break="no"/>ture et nutrimentum non refert cuiusmodi sumantur alimenta
+          <lb ed="#N" n="112"/>dummodo natura sustentetur. Item iudicium est certius: quia non
+          po<lb ed="#N" n="113" break="no"/>tuit iudicare ecclesia quantum deberet sufficere. quia quod parum est
+          <lb ed="#N" n="114"/>vni: multum est alii. sed circa qualitatem potuit diffinire
+          dicen<lb ed="#N" n="115" break="no"/>do talia cibaria non esse sumenda tempore tali. Item commodum maius
+          <lb ed="#N" n="116"/>est abstinendo a quali: quia ieiunium institutum est propter
+          pau<lb ed="#N" n="117" break="no"/>peres. quia circa magis delectabilia maiores fiunt expense
+          <lb ed="#N" n="118"/>siue in delectabilibus. et huiusmodi expense magis erogande sunt
+          <lb ed="#N" n="119"/>pauperibus. et etiam plus sustentantur pauperes de residuo quanti
+          <lb ed="#N" n="120"/>quam de residuo delectabilis. nec est curandum dare pauperibus
+          <lb ed="#N" n="121"/>delectabilia: immo malum est. sed danda eis sustentatio. Ideo
+          <lb ed="#N" n="122"/>dico propter istas rationes secundum constitutionem ecclesiasticam magis
+          <lb ed="#N" n="123"/>abstinendum est a quali quam a quanto. Secundum autem legem virtutis
+          <lb ed="#N" n="124"/>sobrietatis distinguendum est. quoniam autm queritur de quanto et
+          quali<lb ed="#N" n="125" break="no"/>illicito: aut licito. In illicito magis abstinendum est a
+          quali<lb ed="#N" n="126" break="no"/>quam a quanto. vnde maius peccatum esset tempore ieiunii commedere mor
+          <lb ed="#N" n="127"/>sellum carnis quam comedere multum de licitis. Si autem loquamur
+          <lb ed="#N" n="128"/>de quanto et quali licito: dico tunc quod non est hic dare generalem
+          <lb ed="#N" n="129"/>regulam. nec potuit ecclesia determinare a quo magis. Aliqui enim
+          <lb ed="#N" n="130"/>delectantur in quanto: aliqui in quali. Suntem autem aliqui ita
+          eda<lb ed="#N" n="131" break="no"/>ces quod non querunt nisi superfluitatem. aliqui vero magis
+          delectan<lb ed="#N" n="132" break="no"/>tur in bono et sufficit eis parum dummodo sit delectabile et
+          <lb ed="#N" n="133"/>suaue. vnde magis delectantur in suauitate ciborum quam in
+          plura<lb ed="#N" n="134" break="no"/>litate. et illis qui proniores sunt ad edacitatem maior virtus est
+          <lb ed="#N" n="135"/>abstinere a quanto. Eis vero qui plus delectantur in
+          suaui<lb ed="#N" n="136" break="no"/>tate istorum maior est virtus abstinere a quali quam a quanto.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e346">
+          <lb ed="#N" n="137"/>⁋ Et ad illud quod primo obiicitur. quod maxime abstinendum est
+          <lb ed="#N" n="138"/>tempore ieiunii a delectabilibus. Dico quod hoc intelligitur per
+          <lb ed="#N" n="139"/>comparationem ad quantum. vnde tempore ieiunii plus quam in alio a
+          de<lb ed="#N" n="140" break="no"/>lectabilibus abstinendum est.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e357">
+          ⁋ Ad illud quod ab eodem habetur.
+          <lb ed="#N" n="141"/>suod penitentia directe respicit radicem peccatt id est libidinem. Potest
+          <pb ed="#N" n="628"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>dici quod libido in gustu potest considerari secundum quod viget in palato
+          <lb ed="#N" n="2"/>et lingua: et sic magis respicit quale. Uel potest considerari secundum
+          <lb ed="#N" n="3"/>quod gustus est instrumentum deseruiens virtuti nutritiue. et sic
+          <lb ed="#N" n="4"/>eius libido maxime respicit quantum quam quale.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e375">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="5"/>obiicitur. quod contrarium virtuti est excessus delectationis etc. potest
+          dici<lb ed="#N" n="6" break="no"/>quod non solum delectatio intensa est virtuti contraria: sed et superfluitas
+          <lb ed="#N" n="7"/>et etiam magis peccaret qui non comederet ad sustentationem
+          na<lb ed="#N" n="8" break="no"/>ture: quam commedendo delicata. quia magis grauaret naturam.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e386">
+          <lb ed="#N" n="9"/>⁋ Ad illud quod obiicitur secundum phoscsum. quod delectatio est finis
+          desi<lb ed="#N" n="10" break="no"/>derii ratione conuenientie etc. potest dici quod desiderium quandoque causatur
+          <lb ed="#N" n="11"/>ex indigentia: quandoque ex conuenientia coniunctorum delectabilium.
+          <lb ed="#N" n="12"/>delectatio autem illa que est finis desiderii ratione conuenientie
+          re<lb ed="#N" n="13" break="no"/>spicit quale: delectatio autem que est finis desiderii ratione
+          indi<lb ed="#N" n="14" break="no"/>gentie magis respicit quantum.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e402">
+          ⁋ Ad illud quod obiicitur. quod non
+          <lb ed="#N" n="15"/>appetitur quantum nisi ratione qualis etc. potest dici quod falsum est.
+          <lb ed="#N" n="16"/>immo ratione deordinationis appetitus potest aliter esse. vnus enim
+          appe<lb ed="#N" n="17" break="no"/>tit satisfacere virtuti nutritiue: et alius libidini gustui secundum se.
+          <lb ed="#N" n="18"/>secundum quod viget in palato et lingua. et ideo iste magis appetit
+          <lb ed="#N" n="19"/>suauitatem ciborum: alius magis quantitatem.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e416">
+          ⁋ Aliud
+          sol<lb ed="#N" n="20" break="no"/>uitur vt prius. quoniam gustus secundum quod seruit nutritiue magis
+          respi<lb ed="#N" n="21" break="no"/>cit quantum. secundum se tamen et secundum quod viget libido eius in lingua et
+          pa<lb ed="#N" n="22" break="no"/>lato magis respicit gustus quale.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e425">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="23"/>ad partem aliam. Dico ad primum. quod immoderatum conuiuium
+          po<lb ed="#N" n="24" break="no"/>test esse in quali sicut in quanto. Pre. loquitur augustinus. in illicitis
+          <lb ed="#N" n="25"/>de quibus non est questio. Pre. magis effrenate feruntur
+          ho<lb ed="#N" n="26" break="no"/>mines et immoderatius vtuntur cibo suaui.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e436">
+          ⁋ Ad illud quod obum
+          <lb ed="#N" n="27"/>citur per Ysido. quicquid modum excesserit periculosum est etc. potest
+          di<lb ed="#N" n="28" break="no"/>ci quod excessus et grauamen nature accidit ex quali sicut ex quanto.
+          <lb ed="#N" n="29"/>et minus se sciunt homines refrenare circa quale quam circa quantum.
+          <lb ed="#N" n="30"/>ideo pluribus magis abstinendum est a quali.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e447">
+          ⁋ Ad illud quod obii
+          <lb ed="#N" n="31"/>citur. cuius excessus est minus excusabilis etc. potest dici quod excessus
+          <lb ed="#N" n="32"/>in licitis in quanto: magis est excusabilis ratione virtutis
+          nutri<lb ed="#N" n="33" break="no"/>tiue. sed in illicitis est magis excusabilis excessus in quali: quia
+          <lb ed="#N" n="34"/>quale magis mouet et trahit ad excessum.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e458">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="35"/>obiicitur. quod excessus in quanto magis grauat naturam. potest dici
+          <lb ed="#N" n="36"/>quod excessus in quali grauat naturam sicut excessus in quanto. et
+          <lb ed="#N" n="37"/>plus quandoque: quia minus sciunt se homines refrenare circa quale. et
+          <lb ed="#N" n="38"/>propter hoc talibus magis abstinendum est a quali.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e469">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="39"/>obiicitur. quod excessus in quanto est magis contra essentiam virtutis etc. potest
+          <lb ed="#N" n="40"/>dici quod est superfluitas in quali sicut in quanto: et vtrumque virtuten
+          <lb ed="#N" n="41"/>impugnat. excessus enim in quali inducit excessum in quanto
+          <lb ed="#N" n="42"/>frequenter: et sic impedit efficaciam rationis. sicut excellens
+          sa<lb ed="#N" n="43" break="no"/>por in vino facit quod homo nimis bibit: nec ponit medium in
+          bi<lb ed="#N" n="44" break="no"/>bendo.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e486">
+          ⁋ Ad illud quod obiicitur. quod excessus in quanto reddit
+          <lb ed="#N" n="45"/>hominem magis inhabilem etc. potest dici quod excessus in quali magis
+          <lb ed="#N" n="46"/>auget carnalem concupiscentiam quom excessus in quanto. vnde magis im
+          <lb ed="#N" n="47"/>pedit memoriam et eleuationem mentis in deum: et reddit hominem
+          <lb ed="#N" n="48"/>magis inhabilem ad spiritualia simpliciter quam excessus in quanto.
+          <lb ed="#N" n="49"/>licet enim excessus in quanto magia efficiat hominem inhabilem ad
+          tem<lb ed="#N" n="50" break="no"/>pus: excessus tamen in quali magis reddit inhabilem simpliciter.
+        </p>
+        <p xml:id="v78d89-ahdtkk-d1e502">
+          <lb ed="#N" n="51"/>⁋ Ad vltimum dicendum. quod reuera difficilius abstinet homo quando habet
+          <lb ed="#N" n="52"/>plura fercula delectabilia a quanto quom a quali. hoc est verum. sed sed
+          <lb ed="#N" n="53"/>est magis propter prouocationem qualis quod quanti. propter quod
+          <lb ed="#N" n="54"/>se loquendo difficilius est ponere modum circa quale quam
+          circs<lb ed="#N" n="55" break="no"/>quantum. vnde ratio illa videtur peccare per locum sophisticum secundum quiod
+          <lb ed="#N" n="56"/>et simpliciter. Similiter et plures alie in hoc probleumate posite.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

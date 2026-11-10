@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 101, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 101, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="640"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ahlrbd"><!-- q101m3 -->
+        <head xml:id="v78d89-ahlrbd-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ahlrbd-Hd1e103" type="question-title">De ratione efficacie</head>
+        <p xml:id="v78d89-ahlrbd-d1e106">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-ahlrbd-d1e113">
+          <lb ed="#N" n="70"/>SEquitur de ratione efficacie ieiunii quantum ad
+          satis<lb ed="#N" n="71" break="no"/>factionem. Et quia satisfactio in via non fit sine
+          <lb ed="#N" n="72"/>merito: meritum autem est in caritate. Queritur
+          <lb ed="#N" n="73"/>hic primo. vtrum teneamur ieiunare ex caritate
+          <lb ed="#N" n="74"/>Secundo vtrum teneamur ieiunare in caritate. Tercio vtrum
+          <lb ed="#N" n="75"/>ieiunium in caritate sit satisfactorium. Quarto quid sit
+          preci<lb ed="#N" n="76" break="no"/>se causa: quare ieiunium sit satisfactorium.
+        </p>
+        <div xml:id="v78d89-ahlrbd-Dd1e131">
+          <head xml:id="v78d89-ahlrbd-Hd1e133">Articulus 1</head>
+          <p xml:id="v78d89-ahlrbd-d1e135">
+            <lb ed="#N" n="77"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e140">
+            <lb ed="#N" n="78"/>QUeritur ergo primo. vtrum penitentes teneantur
+            ieiu<lb ed="#N" n="79" break="no"/>nare ex caritate. Quod sic: videtur per hoc. quod ieiunare
+            <lb ed="#N" n="80"/>preceptum est penitentibus. et hoc preceptum est vt
+            ieiu<lb ed="#N" n="81" break="no"/>nando satisfaciant: ergo tenentur ieiunare vt satisfaciant. sed satis
+            <lb ed="#N" n="82"/>facere ieiunando non posunt qui ieiunant in affectu peccandi. vel
+            <lb ed="#N" n="83"/>etiam nisi moueantur ex dilectione dei. ergo ad hoc quod exercitium
+            <lb ed="#N" n="84"/>ieiunii satisfaciat: oportet quod fiat ex caritate. et quod moueatur
+            <lb ed="#N" n="85"/>ieiunans ad satisfaciendum ieiunio ex caritate siue dei dilectio
+            <lb ed="#N" n="86"/>ne. Si autem aliquid preeligatur deo in actu ieiunii: non
+            satisfa<lb ed="#N" n="87" break="no"/>cit ieiunans.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e164">
+            ⁋ Pre. prima et potissima ratio institutionis
+            <lb ed="#N" n="88"/>ieiunii est. vt illo penitens satisfaciat. non enim instituitur
+            ie<lb ed="#N" n="89" break="no"/>iunium quia ieiunium: sed quia satisfactorium. ergo institutio non
+            <lb ed="#N" n="90"/>respicit substantiam corporis: sed potius efficaciam scilicet satisfaciendi
+            <lb ed="#N" n="91"/>hanc autem efficaciam non habet ieiunium vbi aliquod preeligitur deo:
+            <lb ed="#N" n="92"/>et ita vt prius.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e177">
+            ⁋ Pre. ieiunium est debitum. ergo modo conuenienti et
+            <lb ed="#N" n="93"/>debito soluendum. tunc autem soluitur modo debito et conuenienti:
+            <lb ed="#N" n="94"/>quando soluitur ex caritate quod redditur.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e185">
+            ⁋ Pre. duo sunt motima ad
+            <lb ed="#N" n="95"/>exercitia bonorum scilicet timor et amor. vnde quidem motu timoris
+            <lb ed="#N" n="96"/>adimplent precepta. qui autem precepta adimplent ex timore non
+            <lb ed="#N" n="97"/>adimplent sicut deberent. Unde glo. Exo. xxxv. Non placent
+            <lb ed="#N" n="98"/>deo coacta seruitia. amore ei seruitur non timore: mente non
+            <lb ed="#N" n="99"/>corpore. ergo adimplere debet ex amore. Ieiunium autem preceptum est: ergo
+            <lb ed="#N" n="100"/>etc.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e201">
+            ⁋ Pre. qui in vno offendit factus est omnium reus. Iac. ii. hoc
+            <lb ed="#N" n="101"/>non est propter substantiam operis: ergo propter carentiam caritatis. ergo ad
+            <lb ed="#N" n="102"/>hoc quod non fiat reus debet procedere opus ex caritate. ergo etc.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e208">
+            <lb ed="#N" n="103"/>⁋ Pre. omne opus virtutis includit finem. sed ieiunare est opus
+            <lb ed="#N" n="104"/>virtutis scilicet vel obedientie vel temporantie: ergo includit finem
+            ieiu<lb ed="#N" n="105" break="no"/>nii. sed finis ieiunii est placere deo et eius amorem acquirere
+            <lb ed="#N" n="106"/>quem per peccatum amiserat: hoc autem non fit nisi ex amore fiat
+            <lb ed="#N" n="107"/>ieiunium. ergo etc.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e221">
+            ⁋ Pre. super illud Math. vi. Nemo potest
+            duo<lb ed="#N" n="108" break="no"/>bus dominis seruire. Glo. quic quid facis: vel ex amore dei
+            vel<lb ed="#N" n="109" break="no"/>ex seruitute dyaboli facis. ergo si non est ieiunium ex caritate
+            <lb ed="#N" n="110"/>ex seruitute dyaboli est. cum ergo quilibet teneatur hoc vitare
+            <lb ed="#N" n="111"/>tenetur ex necessitate ieiunare ex caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e232">
+            ⁋ Contra. Ecesasti.
+            <lb ed="#N" n="112"/>i. timor domini expellit peccatum. expulsio autem peccati timore
+            di<lb ed="#N" n="113" break="no"/>fit exercitio alicuius operis conuenientis. opus autem conueniens
+            <lb ed="#N" n="114"/>ad peccatorum expulsionem est ieiunium: ergo ieiunii exercitium
+            <lb ed="#N" n="115"/>ex timore non displicet deo. ergo licitum est ieiunare ex timore
+            <lb ed="#N" n="116"/>neque tenetur penitena ieiunare ex caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e245">
+            ⁋ Pre. cum
+            ieiu<lb ed="#N" n="117" break="no"/>nium meroris siue satisfactorium magis spectet ad statum im
+            <lb ed="#N" n="118"/>prfectionis quam perfectionis. ieiunium exultationis econuerso:
+            vi<lb ed="#N" n="119" break="no"/>detur quod licitum est. immo conuenit penitentibus ieiunare ex timo
+            <lb ed="#N" n="120"/>re.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e257">
+            ⁋ Pre. debitori alicuius debiti corporalis sufficit quod soluat
+            <lb ed="#N" n="121"/>debitum ad quod tenetur quocumque modo. nec oportet quod soluat
+            <lb ed="#N" n="122"/>ex caritate: similiter videtur de debito spirituali cuiusmodi est
+            ieiu<lb ed="#N" n="123" break="no"/>nium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e266">
+            ⁋ Pre. cui datur preceptum de aliquo exequendo.
+            suffi<lb ed="#N" n="124" break="no"/>cit quod exequatur illud non ex caritate: similiter videtur de precepto ie
+            <lb ed="#N" n="125"/>iunii. Et solet queri. quare non dicitur non obedire qui obedit
+            <lb ed="#N" n="126"/>ex timore: sicut dicitur non sati sfacere qui non satisfacit ex
+            cari<lb ed="#N" n="127" break="no"/>tate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e277">
+            ⁋ Responsio sine preiudicio. quod nullus tenetur ieiunare ex
+            cari<lb ed="#N" n="128" break="no"/>tate. tenetur dico ita quod incurrat offensam et transgrediatur
+            <lb ed="#N" n="129"/>si non ieiunat sic.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e284">
+            ⁋ Ad illud quod primo obiicitur. quod ieiunare
+            <lb ed="#N" n="130"/>est preceptum et ad hoc quod penitentes satisfaciant etc. potest dici quod
+            <lb ed="#N" n="131"/>ille cui preceptum est ab ecclesia vt satisfaciat ieiunando: tenetur
+            <lb ed="#N" n="132"/>obedire ecclesie ieiunando vt satisfaciat. sed cum non sit
+            illi<lb ed="#N" n="133" break="no"/>iniunctum vt ieiunando satisfaciat ex caritate. quia tamen ieiunare
+            <lb ed="#N" n="134"/>ex vel in caritate tenetur quilibet vt satisfaciat in foro dei
+            <lb ed="#N" n="135"/>et assequatur remissionem peccatorum. et vitam eternam: ad
+            <lb ed="#N" n="136"/>que assequenda vnusquisque tenetur ieiunare ex vel in caritate
+            <lb ed="#N" n="137"/>sed non ex precepto ecclesie.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e304">
+            ⁋ Ad illud quod obiicitur. quod non posunt
+            <pb ed="#N" n="641"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>satisfacere qui ieiunant in affectu peccandi etc. potest dici quod
+            me<lb ed="#N" n="2" break="no"/>dium est inter ieiunare in affectu peccandi: et ex anectu
+            cari<lb ed="#N" n="3" break="no"/>tatis. vnde non sequitur. non ieiunat ex affectu caritatis: ergo
+            ieiu<lb ed="#N" n="4" break="no"/>nat ex vel in affectu peccandi. quia quandoque mouetur quis solummodo
+            <lb ed="#N" n="5"/>ad ieiunium vt penam debitam euadat: et non ex caritate neque ex
+            <lb ed="#N" n="6"/>affectu peccandi.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e324">
+            ⁋ Ad illud quod obicitur. quod ieiunium institutum est
+            <lb ed="#N" n="7"/>ad hoc vt penitens satisficiat. efficaciam autem satisfaciendi non habet
+            <lb ed="#N" n="8"/>quis vbi aliquod preeligitur deo etc. potest dici. ieiunium institutum est
+            <lb ed="#N" n="9"/>vt ieiunando satisfaciat quis in foro ecclesie. et banc efficaciam
+            sa<lb ed="#N" n="10" break="no"/>tisfaciendi habet ieiunium. licet non ieiunetur ex caritate. vice quod in
+            <lb ed="#N" n="11"/>caritate ieiunat. nam vt tactum est: ista non se habent consequenter: non
+            <lb ed="#N" n="12"/>ieiunare ex caritate: et ieiunare cum affectu peccandi. Unde
+            <lb ed="#N" n="13"/>non sequitur. iste ieiunat non ex caritate: ergo cum affectu
+            peccandi<lb ed="#N" n="14" break="no"/>⁋ Ad illud quod obicitur. quod ieiunium est debitum etc. potest dici. quod licet
+            <lb ed="#N" n="15"/>debitum solui debeat modo debito et conuenienti: non tamen sequitur ex
+            <lb ed="#N" n="16"/>hoc quod omni modo debito et conuenienti. quando enim aliquis soluit
+            sum<lb ed="#N" n="17" break="no"/>mam pecunie debitam: licet non soluat etiam conuenientissimo modo
+            <lb ed="#N" n="18"/>quo debet vel potest: nihilominus solutio reputatur. Prete. ieiunium
+            <lb ed="#N" n="19"/>est debitum. quia institutum siue preceptum. et obligat ad executionem
+            <lb ed="#N" n="20"/>actus: non autem ad modum executionis.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e358">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="21"/>duo sunt motiua ad executionem precepti scilicet timor et amor etc.
+            <lb ed="#N" n="22"/>potest dici quod hec est falsa. qui adimplet preceptum ex timore non ad
+            <lb ed="#N" n="23"/>implet eo modo quo debet. quia quando datur preceptum absolute siue
+            sim<lb ed="#N" n="24" break="no"/>pliciter de precepto adimplendo modo non expresso. siue
+            adimple<lb ed="#N" n="25" break="no"/>atur ex timore vel ex amore simpliciter adimpletur. Licet non
+            <lb ed="#N" n="26"/>potissimo modo siue vtilissimo illi qui implet. et licet coacta
+            seui<lb ed="#N" n="27" break="no"/>cia deo non placent: tamen sufficienti in casu. quidam autem deo
+            serui<lb ed="#N" n="28" break="no"/>unt et multa bona faciunt ex timore. et sic operando placent deo
+            <lb ed="#N" n="29"/>et qunodammodo deo appropinquant et disponunt se ad statum
+            me<lb ed="#N" n="30" break="no"/>liorem: licet non placent ad obtinendum premium remunerationis
+            <lb ed="#N" n="31"/>vite eterne.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e384">
+            ⁋ Ad illud Iac. ii. Qui offendit in vno etc. potest
+            <lb ed="#N" n="32"/>dici. quod non dicitur in omnibus offendere quia sit omnium transgressor. et
+            puni<lb ed="#N" n="33" break="no"/>endus pro omnibus seu debitor pene pro omnibus: sed hoc dicitur quantum ad
+            <lb ed="#N" n="34"/>priuationem meriti. precepta enim habent connexionem ratione meriti et
+            vi<lb ed="#N" n="35" break="no"/>tationis pene: sed non per substantiam operum. Eclesstici. ix. Qui in vno pec
+            <lb ed="#N" n="36"/>cauit multa bona perdet. vicia enim habent connexionem in
+            priuati<lb ed="#N" n="37" break="no"/>one: quia animam preuant caritate et vita eterna. Uirtutes autem
+            <lb ed="#N" n="38"/>habent colligantiam non quantum ad actus eorum. sed quantum ad
+            grat<lb ed="#N" n="39" break="no"/>tiam et caritaam: et propter hoc dicitur. Qui in vno
+            offen<lb ed="#N" n="40" break="no"/>derit factus est omnium reus. scilicet dignus priuatione
+            om<lb ed="#N" n="41" break="no"/>nium bonorum gratuitorum: ac si esset transgressor omnium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e408">
+            <lb ed="#N" n="42"/>⁋ Ad illud quod obiicitur. quod ieiunium sit opus virtutis et
+            <lb ed="#N" n="43"/>includit finem etc. potest dici ieiunii finis est honorare deum
+            <lb ed="#N" n="44"/>sed non complete honoratur deus nisi sola caritate. tamen
+            lar<lb ed="#N" n="45" break="no"/>ge dicitur honorari in actibus virtutum informium: vt
+            obedi<lb ed="#N" n="46" break="no"/>entie et iusticie informis. ita et ieiunare factum non in
+            cari<lb ed="#N" n="47" break="no"/>tate honorat deum quodammodo. et est honor dei: sed non per
+            <lb ed="#N" n="48"/>fectus. et ad talem tenetur non ad alium qui est in peccato
+            <lb ed="#N" n="49"/>mortali. nec transgreditur etiam si non ex caritate faciat: quia
+            <lb ed="#N" n="50"/>ieiunium vel alius actus virtutis dupliciter potest accipi.
+            <lb ed="#N" n="51"/>vel quantum ad obligationem quod potest fieri etiam in
+            morta<lb ed="#N" n="52" break="no"/>li: vel quantum ad meritum. scilicet vt habeat ad quod ordinatum
+            <lb ed="#N" n="53"/>est preceptum et illud non assequitur nisi ex vel in caritate
+            <lb ed="#N" n="54"/>fiat.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e439">
+            ⁋ Ad illud Math. vi. Nemo potest duobus dominis
+            <lb ed="#N" n="55"/>seruire etc. potest dici. quod sensus est quicquid facis. vel existens
+            <lb ed="#N" n="56"/>in caritate facis: vel in peccato facis. Unde in illa glo. Quic
+            <lb ed="#N" n="57"/>quid facis vel ex amore dei facis etc. hec prepositio ex: non
+            di<lb ed="#N" n="58" break="no"/>cit radicem facti: sed potius est nota existentis in facto.
+            Si<lb ed="#N" n="59" break="no"/>autem diceret radicem tunc venialia et indifferentia fierent vel
+            <lb ed="#N" n="60"/>ex caritate vel ex seruitio dyaboli.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e455">
+            ⁋ Ad illud quod
+            queri<lb ed="#N" n="61" break="no"/>tur. quare non dicitur. non obedire qui obedit ex timore etc.
+            <lb ed="#N" n="62"/>potest dici. quod hoc est: quia obedientia respicit actum exterio
+            <lb ed="#N" n="63"/>rem: satisfactio factum. Uel aliter potest dici. quod sicut qui
+            <lb ed="#N" n="64"/>non obedit vt debet dicitur non obediere: eo quod non habet
+            <lb ed="#N" n="65"/>fructum obedientie: sic non dicitur satisfacere qui non
+            effi<lb ed="#N" n="66" break="no"/>caciter satisfacit: licet obediendo in actu non sit
+            transgres<lb ed="#N" n="67" break="no"/>sor qui opus satisfactorium non facit ex caritate: quamuis in
+            <lb ed="#N" n="68"/>terpretatiue dicatur non facere ratione predicta.
+          </p>
+        </div>
+        <div xml:id="v78d89-ahlrbd-Dd1e477">
+          <head xml:id="v78d89-ahlrbd-Hd1e479">Articulus 2</head>
+          <p xml:id="v78d89-ahlrbd-d1e481">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e488">
+            <lb ed="#N" n="70"/>COnsequenter queritur. si tenetur quis ieiunare in
+            cari<lb ed="#N" n="71" break="no"/>tate. Quod sic: videtur per hoc quod ita ieiunandum est quod
+            ie<lb ed="#N" n="72" break="no"/>iunium sit fructuosum. sed hoc non est nisi fiat in
+            cari<lb ed="#N" n="73" break="no"/>tate. vt enim dicit Greg. in quadam omlis. Non habet aliquid
+            vi<lb ed="#N" n="74" break="no"/>riditatis ramus boni operis: si non manet in radice caritatis.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e501">
+            <lb ed="#N" n="75"/>⁋ Pre. ad istud tenetur homo cuius oppositum est transgressio. sed
+            qui<lb ed="#N" n="76" break="no"/>ieiunat et non in caritate transgressor est: ergo omnes tenentur ieiuna
+            <lb ed="#N" n="77"/>re in caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e510">
+            ⁋ Pre. Gen. iiii. secundum aliam literam. Si recte
+            offe<lb ed="#N" n="78" break="no"/>ras et si non recte diuidas peccasti. sed qui ieiunat et non in
+            ca<lb ed="#N" n="79" break="no"/>ritate recte offert ieiunando: quia conffert ieiunium suum deo et
+            <lb ed="#N" n="80"/>ecclesie. sed non recte diuidit: quia non dat seipsum deo. Unde dat deo
+            <lb ed="#N" n="81"/>partem deteriorem: et ita peccat.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e522">
+            ⁋ Pre. qui est in caritate tenetur
+            <lb ed="#N" n="82"/>ieiunare in caritate. quia tenetur conseruare se in suo statu. ergo cum
+            <lb ed="#N" n="83"/>nullus reportet emolimentum de malicia sua: similiter debet qui est in
+            pec<lb ed="#N" n="84" break="no"/>cato. et ita iustus et iniustus debet ieiunare in caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e531">
+            ⁋
+            Contra<lb ed="#N" n="85" break="no"/>si aliquis homo tenetur ieiunare in caritate. ergo quicunque ieiunat
+            <lb ed="#N" n="86"/>in peccato mortali peccat mortaliter. quod falsum est: ergo et primum.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e538">
+            <lb ed="#N" n="87"/>⁋ Preterea. nullus confitens in peccato mortali peccat. ergo similiter nullus i
+            <lb ed="#N" n="88"/>mortali confitendo peccat ieiunando. Ieiunans autem non in
+            cari<lb ed="#N" n="89" break="no"/>tate ieiunat in mortali: ergo nullus ieiunans non in caritate peccat
+            <lb ed="#N" n="90"/>ergo non tenetur ieiunare in caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e549">
+            ⁋ Pre nullus peccat
+            preparan<lb ed="#N" n="91" break="no"/>do se ad gratiam. ieiunans in mortali siue non in caritate
+            exi<lb ed="#N" n="92" break="no"/>stendo est huiusmodi: ergo non peccat. sed nullus tenetur facere illud cuius
+            <lb ed="#N" n="93"/>opperositum sibi non est peccatum: ergo nullus tenetur ieiunare in caritate
+            <lb ed="#N" n="94"/>Responio. quod homo non tenetur ieiunare neque in caritate neque ex
+            ca<lb ed="#N" n="95" break="no"/>ritate. Unde ieiunando non in caritate neque ex caritate non
+            trans<lb ed="#N" n="96" break="no"/>greditur sic ieiunando. quia institutio siue iniunctio ieiunii ad
+            <lb ed="#N" n="97"/>actum obligat non ad modum. et maxime non ad talem.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e567">
+            ⁋ Ad illud
+            <lb ed="#N" n="98"/>quod obiicitur. quod debet ita ieiunare quod ieiunium suum sit fructuosum
+            <lb ed="#N" n="99"/>potest dici quod debet id est expedit. Sed quod debet prout debet importat ne
+            <lb ed="#N" n="100"/>cessitatem ita quod transgrediatur nisi sic ieiunet: non est verum.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e576">
+            <lb ed="#N" n="101"/>⁋ Ad illud quod obiicitur. quod illud tenetur homo cuius oppositum est trans
+            <lb ed="#N" n="102"/>gressio etc. potest dici quod ieiunans non in caritate non
+            transgredi<lb ed="#N" n="103" break="no"/>tur ieiunando sic. Unde ratione ieiunii non est iudicandus
+            trans<lb ed="#N" n="104" break="no"/>gressor: sed ratione casus a caritate est transgressor. quia casus a
+            cari<lb ed="#N" n="105" break="no"/>tate propter quem non ieiunat in caritate: inducit transgre
+            <lb ed="#N" n="106"/>sionem.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e593">
+            ⁋ Ad illud quod obiicitur. si recte offeras et non recte
+            di<lb ed="#N" n="107" break="no"/>uidas etc. potest dici quod verbum propositum nihil facit ad propositum
+            <lb ed="#N" n="108"/>secundum expositionem beati Greg. qui dicit. oblata recte diuidere est
+            <lb ed="#N" n="109"/>bona studia sollicite pensare. quod qui agere dissimulat: et
+            re<lb ed="#N" n="110" break="no"/>cte offerens peccat. sepe etemm quod bono studio agimus dum
+            <lb ed="#N" n="111"/>discernere caute negligimus: quo non iudicetur fine nescimus.
+            <lb ed="#N" n="112"/>et fit reatus criminis quod putatur causa virtutis. secundum ergo Greg. non
+            <lb ed="#N" n="113"/>diuidere id est non discernere: sed negligentia discretionis
+            bo<lb ed="#N" n="114" break="no"/>norum studiorum est causa peccati. ex hoc non sequitur. quod debemus
+            ie<lb ed="#N" n="115" break="no"/>iunare ex vel in caritate. Hiero. exponit sic. Iudei recte
+            <lb ed="#N" n="116"/>offerebant secundum legem suam. sed quia non distinxerunt
+            no<lb ed="#N" n="117" break="no"/>uum testamentum a veteri: peccauerunt. Secundum autem quod hoc
+            <lb ed="#N" n="118"/>obiicitur. quod qui ieiunat non in caritate non recte diuidit.
+            <lb ed="#N" n="119"/>dando deo partem deteriorem: potest dici quod secundum magistrum
+            <lb ed="#N" n="120"/>in historiis. qui sic exponit de Cayn. qui deteriora
+            offere<lb ed="#N" n="121" break="no"/>bat deo. Unde sua offerebat deo: seipsum dyabolo. vnde bene
+            <lb ed="#N" n="122"/>potest concedi quod qui non recte diuidit. scilicet dando sua deo. et
+            <lb ed="#N" n="123"/>se dyabolo peccat: scilicet dando se dyabolo. sed hoc non facit
+            <lb ed="#N" n="124"/>qui ieiunat extra caritatem. Si autem ieiunat propter vanam
+            <lb ed="#N" n="125"/>gloriam: tunc donat se dyabolo in ipso actu ieiunii.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e637">
+            ⁋ Ad
+            vl<lb ed="#N" n="126" break="no"/>timum potest dici. quod qui est in caritate tenetur ieiunare in caritate.
+            <lb ed="#N" n="127"/>quia tenetur conseruare se in statu suo. qui autem est extra caritatem non
+            <lb ed="#N" n="128"/>tenetur: quia non potest. et vt dicunt quidam proposita questione in communi.
+            <lb ed="#N" n="129"/>vtrum teneatur homo ieiunare ex vel in caritate: quod non tenetur.
+            <lb ed="#N" n="130"/>licet ad hoc quod ieiunium sit fructuosum et ad salutem tenetur:
+            <lb ed="#N" n="131"/>id est non est talem nisi sic ieiunet.
+          </p>
+        </div>
+        <div xml:id="v78d89-ahlrbd-Dd1e654">
+          <head xml:id="v78d89-ahlrbd-Hd1e656">Articulus 3</head>
+          <p xml:id="v78d89-ahlrbd-d1e658">
+            <lb ed="#N" n="132"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e663">
+            <lb ed="#N" n="133"/>COnsequenter queritur. vtrum ieiunium in caritate
+            fa<lb ed="#N" n="134" break="no"/>ctum sit satisfactorium. Et primo queritur de
+            satis<lb ed="#N" n="135" break="no"/>factione talis ieiunii. Secundo de existentia siue
+            mo<lb ed="#N" n="136" break="no"/>de existendi ipsius caritatis cooperantis.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e674">
+            <pb ed="#N" n="642"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Queritur ersoo vtrum.)§. i.
+            <lb ed="#N" n="2"/>ad hoc quod ieiunium sit satis factorium sufficit quod fiat in caritate
+            <lb ed="#N" n="3"/>vel requiritur quod fiat ex caritate. Quod autem fiat in caritate vide
+            <lb ed="#N" n="4"/>tur sufficere: quia omne virtutis formate opst est meritorium: et
+            si<lb ed="#N" n="5" break="no"/>sit penale aptum est ad satisfaciendum. ergo ad hoc quod opus sit
+            <lb ed="#N" n="6"/>satisfactorium: sufficit quod sit opust virtutis informate et penale.
+            <lb ed="#N" n="7"/>tale est ieiunium factum in caritate: ergo etc.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e696">
+            ⁋ Pre. ieiunium est opus
+            <lb ed="#N" n="8"/>temparantie vel obedientie vel iusticie vel alicuius alterius virtutis
+            <lb ed="#N" n="9"/>vt ex dictis patet. ergo si exercetur in caritate meritorium est. inquantum
+            <lb ed="#N" n="10"/>ergo tale habet efficaciam merendi: multo fortius satisfaciendi:
+            cum<lb ed="#N" n="11" break="no"/>maius sit mereri regnum quam satisfacere de pena.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e708">
+            ⁋ Pre. ioh.
+            <lb ed="#N" n="12"/>xv. Qui manet in me et ego in eo: hic fert fructum multum
+            <lb ed="#N" n="13"/>Sed in deo manemus per caritatem: quia deus caritas est: et qui
+            ma<lb ed="#N" n="14" break="no"/>net in caritate in deo manet etc. i. Ioh. iiii. ergo existentia in
+            <lb ed="#N" n="15"/>cauiritate multum proficit homini et fructificat: et ita vt supra.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e719">
+            <lb ed="#N" n="16"/>Contra. est preceptum cuius opus siue actus est meritorium vite.
+            <lb ed="#N" n="17"/>sed preceptum cuius opus siue actus est satisfactorium pene illud quod
+            <lb ed="#N" n="18"/>est meritorium vite vt est honorare parentes. siue propinquos
+            dili<lb ed="#N" n="19" break="no"/>gere. ad hoc quod sit meritorium vite: non sufficit quod exerceat in
+            <lb ed="#N" n="20"/>caritate: sed quod fiat ex caritate. diligere enim propinquos et
+            hono<lb ed="#N" n="21" break="no"/>rare parentes si fiant ex instinctu nature non merentur vitam.
+            <lb ed="#N" n="22"/>Unde greg. super illud Ioh. xv. in omelis. hoc est preceptum meum vt
+            <lb ed="#N" n="23"/>diligatis inuicem etc. Suntm nonnulli qui diligunt proximos: sed per
+            <lb ed="#N" n="24"/>affectum cognationis et carnis. quibus tamen in hac dilectione sacra
+            <lb ed="#N" n="25"/>eloquia non contradicunt. sed aliud est quod sponte impenditur
+            na<lb ed="#N" n="26" break="no"/>ture: aliud quod preceptis dominicis ex caritate debetur obedientie
+            <lb ed="#N" n="27"/>hi nimirum et proximum diligunt: et tamen illa sublimia dilectionis
+            <lb ed="#N" n="28"/>primia non assequuntur: quia amorem suum non spiritualiter sed carnaliter
+            <lb ed="#N" n="29"/>impendunt. A simili videtur quod si aliquod fiat in caritate non ex
+            ca<lb ed="#N" n="30" break="no"/>ritate: quod non est satis factorium pene: cum debitum pene fortius ad
+            <lb ed="#N" n="31"/>hereat quom dignitas vite.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e756">
+            ⁋ Pre. corporalis medicina nisi
+            mo<lb ed="#N" n="32" break="no"/>ta sit a corporali calore naturali non sanat: ergo a simili nec
+            spi<lb ed="#N" n="33" break="no"/>ritualis sanat nisi mota sit a calore spirituali scilicet caritate que est
+            <lb ed="#N" n="34"/>spiritualis calor anime. sed ieiunium est medicina qua sanantur
+            <lb ed="#N" n="35"/>pestes anime: ergo ad hoc quod sanat id est satisfaciat oportet quod
+            mo<lb ed="#N" n="36" break="no"/>ueatur a caritate et non sufficit quod fiat in caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e769">
+            ⁋ Prete.
+            <lb ed="#N" n="37"/>nullum peccatum venialem est satisfactorium. sed ieiunium factum in
+            ca<lb ed="#N" n="38" break="no"/>ritate propter vanam gloriam venialem est. huiusmodi ergo ieiunium factum
+            <lb ed="#N" n="39"/>in caritate cum per illud comittatur peccatum venialem non est
+            satisfa<lb ed="#N" n="40" break="no"/>ctorium: immo requiritur quod sit factum ex caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e780">
+            ⁋ Responsio. quod ad
+            <lb ed="#N" n="41"/>hoc quod ieiunium sit satisfactorium sufficit quod fiat in caritate.
+            <lb ed="#N" n="42"/>nec requiritur quod ieiunus moueatur actuali affectu caritatis.
+            <lb ed="#N" n="43"/>Ad cuius euidentiam notandum. quod in penitentia sunt tria
+            ne<lb ed="#N" n="44" break="no"/>cessaria scilicet contritio: confessio: et satisfactio. Contritio debet ess
+            <lb ed="#N" n="45"/>ex caritate ad hoc quod sit efficax. quia sicut culpa oritur ex
+            <lb ed="#N" n="46"/>actuali motu libidinis siue auersione a summo bono: sic
+            <lb ed="#N" n="47"/>et deletio culpe cum sit in contritione fit existente actuali motu
+            ca<lb ed="#N" n="48" break="no"/>ritatis: satisfactio etiam debet esse in caritate ad hoc quod sit
+            ef<lb ed="#N" n="49" break="no"/>ficax. Sicut enim peccator meretur subiacere pene ex
+            nimia<lb ed="#N" n="50" break="no"/>vnione cum creatura: sic satis factio que meretur remissionem
+            <lb ed="#N" n="51"/>pene debet esse in vnione cum creatore. Confessio vere et
+            si<lb ed="#N" n="52" break="no"/>non fiat in caritate valet. confessio enim est actus hominis
+            exte<lb ed="#N" n="53" break="no"/>rioris: et fit homini proprie: propter quod illi sufficit opst exterius
+            <lb ed="#N" n="54"/>Pre. contritio refertur ad deletionem culpe satisfactio ad remis
+            <lb ed="#N" n="55"/>sionem pene hec autem fiunt per gratiam. propter quod oportet quod hec
+            fi<lb ed="#N" n="56" break="no"/>ant in gratia. Confessio sit gratia innotescendi siue
+            manifestandi<lb ed="#N" n="57" break="no"/>miseriam peccatoris. hoc autem bene potest fieri sine caritate vel gratia:
+            <lb ed="#N" n="58"/>potest ergo dici quod ieiunium potest esse efficax si fiat in caritate: licet non
+            <lb ed="#N" n="59"/>fiat ex caritate. qualiter tamen explanabitur in probleumate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e824">
+            <lb ed="#N" n="60"/>⁋ Ad illud quod obiicitur. quod ad hoc quod opus virtutis sit
+            meri<lb ed="#N" n="61" break="no"/>torium vite: oportet quod fiat ex caritate etc. potest dici quod non est
+            <lb ed="#N" n="62"/>verum. immo omne opus virtutis informata caritate vel
+            gra<lb ed="#N" n="63" break="no"/>tia est meritorium vite et aliter non. vnde actus
+            honoratio<lb ed="#N" n="64" break="no"/>nis parentum si veniat tantum ex instinctu nature: non est merito
+            <lb ed="#N" n="65"/>rius vite. etiam si fiat in caritate. quia opus inquantum talem scilicet
+            so<lb ed="#N" n="66" break="no"/>lo instinctu nature productum inesse: non est informatum gratia
+            <lb ed="#N" n="67"/>Unde qui habet caritatem et gratiam est dignus vita
+            eter<lb ed="#N" n="68" break="no"/>na. et hoc est propter informationem subiecti gratie vel carita
+            <lb ed="#N" n="69"/>tis: non tamen opus quod fit ab illo solo instinctu nature est
+            il<lb ed="#N" n="70" break="no"/>li meritorium vite eterne.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e851">
+            ⁋ Ad illud quod obiicitur de
+            corperali<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>medicina. quod non sanat nisi mota calore naturali etc.
+            dicen<lb ed="#N" n="72" break="no"/>dum quod calor spiritualis est amor. Hic autem est duplex. scilicet
+            pro<lb ed="#N" n="73" break="no"/>prie dictus: et communiter. amor enim proprie dictus est caritas:
+            con<lb ed="#N" n="74" break="no"/>muniter sic omnis virtus est amor. ita enim dicit Augustinus. quod omnis
+            <lb ed="#N" n="75"/>virtus est summus amor dei: vnde fides est amor prime
+            veri<lb ed="#N" n="76" break="no"/>tatis. Spes est amor summe maiestatis: caritas est amor
+            <lb ed="#N" n="77"/>summe bonitatis. Cardinales etiam diffinit per amorem. et
+            <lb ed="#N" n="78"/>hic est duplex calor spiritualis in anima est: sicut duplex
+            ca<lb ed="#N" n="79" break="no"/>lor naturalis in corpore nostro scilicet calor essentialis scilicet cordis
+            <lb ed="#N" n="80"/>et preter hunc est calor in singulis membris. Quauis ergo
+            medi<lb ed="#N" n="81" break="no"/>cina que est ieiunium moueatur non actualiter a calore qui est
+            <lb ed="#N" n="82"/>caritas: potest tamen moueri a calore qui est alia virtus. vt a
+            <lb ed="#N" n="83"/>temparantia: vel iusticia informata caritate. Uel dicendum
+            <lb ed="#N" n="84"/>quod prima est vera de corporali medicina interiori non de
+            exte<lb ed="#N" n="85" break="no"/>riori: ita etiam est spiritualis medicina duplex. interior scilicet
+            <lb ed="#N" n="86"/>motus contritionis: et exterior scilicet opus satisfactionis.
+            Quad<lb ed="#N" n="87" break="no"/>uis ergo oporteat vt dictum est. quod contritionis motus sit ex
+            <lb ed="#N" n="88"/>caritate: non tamen oportet quod satisfactionis opus sit ex
+            carita<lb ed="#N" n="89" break="no"/>te: sed sufficit quod sit in caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e896">
+            ⁋ Ad illud quod vltimo
+            obiici<lb ed="#N" n="90" break="no"/>tur de veniali. dicendum quod non omne opus in caritate est
+            satis<lb ed="#N" n="91" break="no"/>factorium. Unde hec prepositio in: potest dicere
+            concomitan<lb ed="#N" n="92" break="no"/>tiam: vel causam formalem. primo modo non est necesse quod
+            sa<lb ed="#N" n="93" break="no"/>tisfactorium est quod fit in caritate: secundo modo oportet: si
+            ta<lb ed="#N" n="94" break="no"/>men quantum est de genere operis sit satisfactorium. et in eodem
+            <lb ed="#N" n="95"/>actu ratione differenti est peccatum veniale et opus meritorium
+            <lb ed="#N" n="96"/>vel satisfactorium. etiam vtpote cum principalis procedit actus a
+            vo<lb ed="#N" n="97" break="no"/>luntate informata a caritate. et ille actus est actus
+            virtu<lb ed="#N" n="98" break="no"/>tis. vel de genere operis satisfactorii: nihilominus potest se eti
+            <lb ed="#N" n="99"/>am immiscere occasionaliter aliqua vana gloria. vel aliquid
+            <lb ed="#N" n="100"/>huiusmodi ratione cuius est ibi peccatum veniale. vt potest esse in predicatio
+            <lb ed="#N" n="101"/>ne et in carnis mortificatione. sed quod est meritorium et
+            satis<lb ed="#N" n="102" break="no"/>factorium fit ex caritate formaliter. quod autem ibi est veniale: hoc fit
+            <lb ed="#N" n="103"/>in caritate concomitatiue non formaliter.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e929">
+            <lb ed="#N" n="104"/>Cosequenter querit §. ii.
+            <lb ed="#N" n="105"/>tur de modo existendi caritatis cooperantis ad satis factionem
+            <lb ed="#N" n="106"/>ieiunii. Queritur ergo vtrum ad hoc quod ieiunium sit satisfactorium
+            <lb ed="#N" n="107"/>requiratur quod fiat in vel ex caritate in actuse habitu. videtur
+            <lb ed="#N" n="108"/>quod sic: quia Salomon meruit dormienquoe idetur velle augustinus
+            <lb ed="#N" n="109"/>xii. super Gen. ad lrateram dicens sic. propter gnime affectionem
+            <lb ed="#N" n="110"/>bonam que desiderio mundata meliore multas interficit
+            cu<lb ed="#N" n="111" break="no"/>piditates que ad naturalem carnis motum non pertinent.
+            <lb ed="#N" n="112"/>que casti vigilantes cohibent et refrenant: dormientes autem
+            <lb ed="#N" n="113"/>ideo non possunt. quia non habent in potestate que moueatur
+            <lb ed="#N" n="114"/>expressio carnalis imaginationis que discerni non possit a
+            cor<lb ed="#N" n="115" break="no"/>pore: propter illam ergo affectionem anime bonam. etiam in somnis
+            <lb ed="#N" n="116"/>quedam eius merita clarent. veram etiam dormiens salomon
+            sa<lb ed="#N" n="117" break="no"/>pientiam preposuit omnibus rebus: eamque neglectis ceteris est
+            pre<lb ed="#N" n="118" break="no"/>catus a deo: sicut scpietura testatur. sed constat quod salomon
+            dor<lb ed="#N" n="119" break="no"/>miens caritatem habuit in habitu. et non in ea actu moueba
+            <lb ed="#N" n="120"/>tur. ex quo videtur quod caritas in habitu sufficiat ad hoc quod
+            ieiu<lb ed="#N" n="121" break="no"/>nium sit meritorium vel satisfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e971">
+            ⁋ Pre. idem videtur per
+            <lb ed="#N" n="122"/>hoc quod in ministerio sacramentorum vt in baptismate sufficit
+            inten<lb ed="#N" n="123" break="no"/>tio generalis: et voluntas habitualis in baptismo.
+            Simili<lb ed="#N" n="124" break="no"/>ter in conficiente corpus christi sufficit intentio generalis: et
+            vo<lb ed="#N" n="125" break="no"/>luntas habitualis. quod patet per hoc quod si quis vellet et postula
+            <lb ed="#N" n="126"/>ret baptismum et post statim caderet in furiam. vel in
+            letargian<lb ed="#N" n="127" break="no"/>si in furia ille baptizaretur: licet in eo non esset voluntas
+            <lb ed="#N" n="128"/>actu. sed tantum habitualis: assequeretur efficaciam baptism
+            <lb ed="#N" n="129"/>Similiter videtur in actibus virtutum meritoriis vel
+            satis<lb ed="#N" n="130" break="no"/>factoriis. quod sufficit habitualis caritas: et non requiritur
+            <lb ed="#N" n="131"/>actualis.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e995">
+            ⁋ Pre. caritas habitualis sufficit ad salutem. vt
+            <lb ed="#N" n="132"/>patet. si aliquis decederet existens in caritate dormiendo.
+            <lb ed="#N" n="133"/>constat quod saluaretur.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1002">
+            ⁋ Pre. certius et verius imponit nomen
+            <lb ed="#N" n="134"/>habitus quam actus. Unde verius et certius dicitur bonus quis ex bonitate
+            <lb ed="#N" n="135"/>habituali quam actuali. Actualis enim bonitas non denomnat
+            ali<lb ed="#N" n="136" break="no"/>quod bonum simpliciter: sed bonum vt nature. habitualis denomnat
+            bo<lb ed="#N" n="137" break="no"/>num simpliciter. Similiter videtur in actibus virtutum quod certius et
+            veri<lb ed="#N" n="138" break="no"/>us dicendum est satisfactorius vel meritorius ex habitu quam ex
+            actu<lb ed="#N" n="139" break="no"/>et ita ieiunium est magis satisfactorium ex habituali caritate
+            <lb ed="#N" n="140"/>quam ex actuali.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1021">
+            ⁋ Contra. nullus non habens vsum liberi arbitrii
+            <pb ed="#N" n="643"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>satisfacit pro peccatis. ieiunans existens in habitu caritatis
+            <lb ed="#N" n="2"/>non in actu est huiusmodi quantum ad efficaciam huiusmodi ieiunii requiritur
+            <lb ed="#N" n="3"/>quia caritas ex qua est efficacia ieiunii est quasi extra vsum libe.
+            <lb ed="#N" n="4"/>arbi. ergo nullus talis ieiunando satisfacit nisi habeat actum
+            <lb ed="#N" n="5"/>siue vsum caritatis.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1039">
+            ⁋ Pre. Amb. dicit de officio: affectus
+            tu<lb ed="#N" n="6" break="no"/>us operi tuo nomn imponit. quantum enim intendis tantum facis: ergo
+            <lb ed="#N" n="7"/>speciali operi spiectialis intentio. ergo generalis non sufficit: sed
+            ieiu<lb ed="#N" n="8" break="no"/>nium est opst speciale: ergo exigitur caritatis actus specialis. ergo
+            <lb ed="#N" n="9"/>non sufficit quod sit in habitu ad hoc quod tale ieiunium sit
+            satisfa<lb ed="#N" n="10" break="no"/>ctorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1052">
+            ⁋ Iuxta hoc etiam queritur. vtrum posset aliquis ieiunare
+            <lb ed="#N" n="11"/>satisfactorie ex caritate que fuit et non est. vtpote iste recipit
+            <lb ed="#N" n="12"/>in caritate vel ex caritate aliquod ieiunium in satisfactionem pro
+            <lb ed="#N" n="13"/>peccatis suis: et incipit illud exequi in caritate vel ex
+            ca<lb ed="#N" n="14" break="no"/>ritate. sed antequam impleuerat vel cito postquam inceperit peccauit
+            <lb ed="#N" n="15"/>mortaliter: nihilominus facit penitentiam pro peccatis confessis iniunctam
+            <lb ed="#N" n="16"/>et perficit quod sibi iniunctum est. Questio est vtrum satisfaciat post
+            <lb ed="#N" n="17"/>quoam fuit in peccato. videtur quod sic: quia si homini currenti fortiter. abscieida
+            <lb ed="#N" n="18"/>tur caput in currendo: potest aliquantulum mortuus procedere: et
+            si<lb ed="#N" n="19" break="no"/>non diu et moueri ad terminum. ergo similter et mortuus spiritualiter
+            <lb ed="#N" n="20"/>postquam mortuus est: potest aliquantulum ex precedente virtute
+            mo<lb ed="#N" n="21" break="no"/>ueri et progredi ad terminum satis factorium: sed qua ratione aliquam
+            <lb ed="#N" n="22"/>tulum eadem ratione et plus: et sic vsquedum perueniat ad finem. ergo
+            <lb ed="#N" n="23"/>etc.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1083">
+            ⁋ Pre. videtur idem esse motus continuus ieiunium isti
+            iniun<lb ed="#N" n="24" break="no"/>ctum: cum iste illud exequitur. ergo qua ratione in vna parte est
+            satis<lb ed="#N" n="25" break="no"/>factorium: et in omni. cum continuum eiusmodi et nature sit in
+            qua<lb ed="#N" n="26" break="no"/>libet parte: ergo etc.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1092">
+            ⁋ Contra. Ioh. xv. Sine me nihil potestis
+            <lb ed="#N" n="27"/>facere. Si quis in me non manserit mittetur foras etc. ergo nisi in
+            <lb ed="#N" n="28"/>deo manserimus: arescemus et nihil possumus facere. sed qui non est
+            <lb ed="#N" n="29"/>in caritate in deo non manet: ergo nec satisfacit. ergo huiusmodi
+            ieiu<lb ed="#N" n="30" break="no"/>nium non est satisfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1103">
+            ⁋ Pre. Grego. nihil viriditatis habet
+            <lb ed="#N" n="31"/>ramus boni operis si non manet in radice caritatis. ergo nihil
+            <lb ed="#N" n="32"/>valet tale ieiunium: nec per illud soluitur debitum ad quod tenetur.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1111">
+            <lb ed="#N" n="33"/>Responsio ad hoc quod ieiunium factum in caritate sit satisfactorium
+            <lb ed="#N" n="34"/>vel meritorium: requiritur quod sit alicuius virtutis actu mouentis
+            <lb ed="#N" n="35"/>Si autem sit in actu tantum: nec illi aliquo modo cooperatur lib. arbi.
+            <lb ed="#N" n="36"/>nec est meritorium nec demeritorium existens huiusmodi. Habens
+            <lb ed="#N" n="37"/>enim vsum lib. ar. neque meretur et neque demeretur: nisi aliquid
+            <lb ed="#N" n="38"/>opus eliciat ex virtute qua informatur vel imparatur. vel elicere
+            <lb ed="#N" n="39"/>negligat: propter quod peccatum negligentie merito dicitur
+            incur<lb ed="#N" n="40" break="no"/>rere.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1131">
+            ⁋ Pre. ad euidentiam quesitorum notandum. quod aliquod
+            fieri<lb ed="#N" n="41" break="no"/>in caritate dicitur dupliciter scilicet vel per quandam concomitam
+            <lb ed="#N" n="42"/>tiam: vel formaliter. verbigratia. quandoque fit ab illo aliquid qui est
+            <lb ed="#N" n="43"/>in caritate: non tamen fit ab illo ex aliquo motu caritatis. neque
+            in<lb ed="#N" n="44" break="no"/>quantum est in caritate: sed ex aliqua occasione extrinseca et
+            ca<lb ed="#N" n="45" break="no"/>ritate aliena. Quandoque fit aliquid ab eo qui est in caritate vel ex
+            <lb ed="#N" n="46"/>motu vel instinctu aliquo caritatis. primo modo fit quando est pec
+            <lb ed="#N" n="47"/>catum veniale in caritate: et hoc dico quando indicit
+            concomitan<lb ed="#N" n="48" break="no"/>tiam. nec formatur huiusmodi opus caritatis forma: immo est opst
+            <lb ed="#N" n="49"/>deforme. et similiter opust indifferens fit in caritate: nec
+            tamen<lb ed="#N" n="50" break="no"/>opus formatum nec deformatum. opus autem virtutis fit in carita
+            <lb ed="#N" n="51"/>te. quod si sit informatum caritate est meritorium: et quandoque
+            satisfa<lb ed="#N" n="52" break="no"/>ctorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1160">
+            ⁋ Adhuc notandum. quod aliquid ex caritate fieri dupliciter
+            <lb ed="#N" n="53"/>potest intelligi. immediate: vel mediate. Immediate est deter
+            <lb ed="#N" n="54"/>minate et distincte mouente caritate fieri: sicut qundo quis
+            inci<lb ed="#N" n="55" break="no"/>pit cogitare de deo cuius instinctu hoc facit. contingente autem
+            <lb ed="#N" n="56"/>quod postea non cogitat de deo: exequitur tamen illud quod
+            ince<lb ed="#N" n="57" break="no"/>ptum est. et illud quod executum est mediate ex caritate. et hoc
+            <lb ed="#N" n="58"/>dicitur aliis verbis ex caritate in generali vel in speciali: vel
+            <lb ed="#N" n="59"/>ex caritate actu vel habitu. sufficit ergo quod ieiunium fiat in
+            cari<lb ed="#N" n="60" break="no"/>tate. nec requiritur quod fiat ex caritate mouente nisi habitua
+            <lb ed="#N" n="61"/>liter. non autem oportet quod fiat ex caritate neque immediate vel in
+            <lb ed="#N" n="62"/>speciali mouente: sed sufficit quod fiat mediate vel in
+            genera<lb ed="#N" n="63" break="no"/>lib.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1186">
+            ⁋ Adhuc moueri ex caritate est dupliciter. elicitiue: vt
+            <lb ed="#N" n="64"/>diligere. imparatiue: vt dare elemosynam. vnde ieiunare est
+            <lb ed="#N" n="65"/>opsttemparantie elicitiue. quandoque tamen est obedientie: quandque
+            cari<lb ed="#N" n="66" break="no"/>tatis imparatiue tamen. et sic est ex caritate mouente. non
+            ta<lb ed="#N" n="67" break="no"/>men oportet quod caritas moueat actualiter sed habitualiter.
+            <lb ed="#N" n="68"/>vt dictum est. et hoc sufficit ad hoc quod opus sit
+            satisfactori<lb ed="#N" n="69" break="no"/>um: quando opus de genere operis est satisfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1202">
+            ⁋ Ad
+            <lb ed="#N" n="70"/>illud quod obiicitur de Salomone. dicendum quod salomon
+            <lb ed="#N" n="71"/>dormiens meruit interpretatiue. non motu actuali: sed
+            desi<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>derio precedente quod fuit in somno continuatum quantum ad
+            <lb ed="#N" n="73"/>habitum. Unde existens ipse in caritate dormiens meruit.
+            <lb ed="#N" n="74"/>sicut ego video stellas in celo: vel quia sum in celo: vel quia
+            <lb ed="#N" n="75"/>stelle quas video sunt in celo. Sic salomon dormiens in
+            ca<lb ed="#N" n="76" break="no"/>ritate meruit. non quod dormiens mereretur: sed quia quod
+            <lb ed="#N" n="77"/>prius desiderio bono meruerat vigilans: assecutus est
+            di<lb ed="#N" n="78" break="no"/>uine gratie largitate cum dormiret. et quia bonum deside
+            <lb ed="#N" n="79"/>rium habuerat vigilans: reuoluebat fantasia cum ille
+            dor<lb ed="#N" n="80" break="no"/>miret. de qua re dicit phlms. non sunt talia fantasmata iustorum
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1229">
+            ⁋
+            <lb ed="#N" n="81"/>lia quorumcunque. propter sollicitudinem enim vigilie mouetur
+            fan<lb ed="#N" n="82" break="no"/>tasia in dormiente ad desiderium precedens sicut fuit in
+            sa<lb ed="#N" n="83" break="no"/>lomone. Unde tunc non meruit: sed meritum precedens in
+            somno<lb ed="#N" n="84" break="no"/>apparuit et claruit. Unde dicit Augustinus cum clarent merita in
+            <lb ed="#N" n="85"/>somno dixit merentur in somniis. Uel dicendum quod non simpliciter
+            <lb ed="#N" n="86"/>dormiebat salomon: sed sicut erat in oraculo et visione:
+            vi<lb ed="#N" n="87" break="no"/>gebat ratio quantum ad actum superiorem: et hec erat gratia
+            speci<lb ed="#N" n="88" break="no"/>alis.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1250">
+            ⁋ Ad illud quod obiicitur. quod in sacramentis sufficit intentio etc.
+            <lb ed="#N" n="89"/>potest dici quod verum est etiam in generali siue in habitu. simliter
+            <lb ed="#N" n="90"/>est in merito si tamen est opust virtutis spectialiter mouentis virtutis
+            <lb ed="#N" n="91"/>dico informate. Uel potest dici quod non est simile de intentione in
+            sa<lb ed="#N" n="92" break="no"/>cramentis et in meritoriis. quia in sacramentis est
+            inten<lb ed="#N" n="93" break="no"/>tio ministri. et si sit peruersa non nocet: dummodo intendat
+            <lb ed="#N" n="94"/>facere quod facit ecclesia: vnde si quis baptizando
+            inten<lb ed="#N" n="95" break="no"/>dat facere quod facit ecclesia. licet quantum ad aliquid
+            circa<lb ed="#N" n="96" break="no"/>hoc habeat intentionem peruersam: baptizat in veritate. sed
+            <lb ed="#N" n="97"/>ad hoc quod opus virtutis sit meritorium: requiritur recta
+            in<lb ed="#N" n="98" break="no"/>tentio. in operibus enim meritoriis homo cooperatur gratie:
+            <lb ed="#N" n="99"/>etiam in opere specialis virtutis. in sacramentis homo
+            solum<lb ed="#N" n="100" break="no"/>est minister: opus autem est dei.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1279">
+            ⁋ Ad hoc quod in eodem
+            ar<lb ed="#N" n="101" break="no"/>gumento additur de furioso. dicendum quod et si ante habuerit
+            <lb ed="#N" n="102"/>caritatem et voluntatem non discontinuatam: potest recipere sacramentum
+            <lb ed="#N" n="103"/>non tamen meretur in operando opera virtutum: quamuis in tali
+            continuati<lb ed="#N" n="104" break="no"/>one voluntatis versus sit in furiam. Dico ergo postquam talis sit in
+            <lb ed="#N" n="105"/>furia non meretur: quia ad meritum exigitur actualis voluntas.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1292">
+            <lb ed="#N" n="106"/>⁋ Ad illud quod obiicitur. quod caritas habitualis sufficit ad
+            sa<lb ed="#N" n="107" break="no"/>lutem etc. potest dici et si sufficiat ad salutem recipiendam: non
+            <lb ed="#N" n="108"/>tamen sufficit ad salutem merendam. Ad susceptionem enim salutis
+            <lb ed="#N" n="109"/>sufficit dignitas suscipientis quam facit habitus virtutis. ad
+            sa<lb ed="#N" n="110" break="no"/>lutem merendam requiritur vsus siue motus libe. arbt. sine quo
+            <lb ed="#N" n="111"/>vt dictum est non potest mereri. vere dico et directe: licet vt
+            di<lb ed="#N" n="112" break="no"/>cunt quidam interpretatiue et ex quodam modo congruo.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1310">
+            <lb ed="#N" n="113"/>⁋ Ad illud quod obiicitur. quod habitus verius et certius denomnat
+            <lb ed="#N" n="114"/>quam actus etc. potest dici. quod habitus vno modo diuidit contra
+            di<lb ed="#N" n="115" break="no"/>spositionem. secundum quod dispositio dicitur facile mobilis: habitus
+            <lb ed="#N" n="116"/>difficile mobilis. Alio modo diuiditur contra actum. secundum quod dicitur.
+            <lb ed="#N" n="117"/>Equus iacens in stabulo bene currit scilicet habitu. et hoc modo
+            ha<lb ed="#N" n="118" break="no"/>bitus dicitur ab habilitate ad actum. primo modo sumpto habitu
+            <lb ed="#N" n="119"/>verius et certius denomnat habitus quam actus. secundo modo non. verius
+            <lb ed="#N" n="120"/>enim et certius dicitur bonus vel iustus qui iuste operatur: quam qui
+            habi<lb ed="#N" n="121" break="no"/>lis est ad operandum.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1332">
+            ⁋ Ad ea que contraria parte obiiciuntur. quorum
+            <lb ed="#N" n="122"/>quedam dubitationem non immerito habent. respondendum est. et
+            pri<lb ed="#N" n="123" break="no"/>mo ad illud quod obiicitur per simile de illo qui caret vsu libro arbtro. et qui
+            <lb ed="#N" n="124"/>habet caritatem in habitu. Ad quod potest dici. quod non est simile.
+            <lb ed="#N" n="125"/>quia carens lib. arb. vsu. in nulla speciali virtute mouetur nec
+            <lb ed="#N" n="126"/>moueri potest inquantum huiusmodi: sed habens caritatem in habitu potest
+            <lb ed="#N" n="127"/>moueri speciali virtute: et hoc sufficit et ad meritum et ad
+            sa<lb ed="#N" n="128" break="no"/>tis factionem. vnde minor est falsa scilicet hec. ieiunans habitu carita
+            <lb ed="#N" n="129"/>tis tantum est huiusmodi id est similis non habenti vsum libro ar.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1352">
+            ⁋ Ad
+            il<lb ed="#N" n="130" break="no"/>lud quod obiicitur. quod affectus et intentio operi nomen imponit.
+            <lb ed="#N" n="131"/>vnde et spietiali operi spietialis intentio etc. potest dici quod non solum
+            spe<lb ed="#N" n="132" break="no"/>cialis affectus vel intentio nomen imponit operi spietiali: sed et
+            in<lb ed="#N" n="133" break="no"/>tentio et affectus generalis. vnde si aliquis intret religionem ex
+            <lb ed="#N" n="134"/>caritate vt satisfaciat pro peccatis suis et vitam mereatur eternam
+            <lb ed="#N" n="135"/>et hanc intentionem habeat actualiter quando intrat vel intrare
+            di<lb ed="#N" n="136" break="no"/>sponit: non oportet ad hoc quod satisfaciat vel mereatur quod
+            po<lb ed="#N" n="137" break="no"/>stea in singulis actibus suis habeat primam intentionem: sed
+            <lb ed="#N" n="138"/>sufficit quod solum in habitu illam habeat et totum quod facit ad illam
+            <lb ed="#N" n="139"/>refertur.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1377">
+            ⁋ Ad illud quod postea queritur. vtrum inchoans satisfacere in
+            <lb ed="#N" n="140"/>vel ex caritate. et post cadens a caritate consummat inceptum
+            sa<lb ed="#N" n="141" break="no"/>tisfaciat etc. potest dici quod nullus meretur aut satisfacit nisi in
+            <lb ed="#N" n="142"/>caritate. nec est aliquiod opus ex caritate nisi sit in caritate.
+            <pb ed="#N" n="644"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Unde qui sunt in peccato mortali neque merentur neque
+            satis<lb ed="#N" n="2" break="no"/>faciunt. vnde quantum ad illams partem satisfactionis. que facta fuit
+            <lb ed="#N" n="3"/>in mortali: non fuit sati sfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1397">
+            ⁋ Ad illud quod obiicitur de
+            <lb ed="#N" n="4"/>homine currente post capitis abscisionem. potest dici quod nondum
+            cessa<lb ed="#N" n="5" break="no"/>uit omnino vita esse in corpore currente: immo vigebat adhuc
+            vi<lb ed="#N" n="6" break="no"/>ta in illo a quo fuit motus ille. nec est simile de illo qui cecidit a
+            ca<lb ed="#N" n="7" break="no"/>ritate in qua cepit satisfacere. quia statim existente casu illo:
+            de<lb ed="#N" n="8" break="no"/>sinit esse vita spiritualis: et motus ille caritatis extinguitur. vnde
+            <lb ed="#N" n="9"/>ille motus caritatis cessauit esse meritorius et satisfactorius:
+            <lb ed="#N" n="10"/>quia defuit ibi radix meriti. et cessante vita cessauit et motus
+            <lb ed="#N" n="11"/>vite.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1417">
+            ⁋ Ad illud quod obiicitur. quod est idem motus etc. dicendum quod actus
+            <lb ed="#N" n="12"/>inchoatus in caritate et continuatus extra caritatem. licet videatur
+            <lb ed="#N" n="13"/>idem motus continuus: tamen non est idem: quia discontinuatur per
+            contra<lb ed="#N" n="14" break="no"/>rium habitum. Licet idem posset dici actus in natura: non est tamen
+            <lb ed="#N" n="15"/>idem actus virtutis gratuite: quamuis posset esse idem moralis
+            <lb ed="#N" n="16"/>secundum phsum. quia libido que hec interdicit contrariatur gratie.
+            <lb ed="#N" n="17"/>vnde non potest iam elicere motum caritatis. non igitur
+            <lb ed="#N" n="18"/>potest esse ex caritate nec per essentiam. nec per efficaciam siue
+            <lb ed="#N" n="19"/>per virtutem. vnde non est meritorium siue satisfactorium
+            pro<lb ed="#N" n="20" break="no"/>prie talem opus.
+          </p>
+        </div>
+        <div xml:id="v78d89-ahlrbd-Dd1e1440">
+          <head xml:id="v78d89-ahlrbd-Hd1e1442">Articulus 4</head>
+          <p xml:id="v78d89-ahlrbd-d1e1444">
+            <lb ed="#N" n="21"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1449">
+            <lb ed="#N" n="22"/>COnsequenter queritur que est precise ratio. quare
+            ie<lb ed="#N" n="23" break="no"/>iunium est satisfactorium. vtrum scilicet caritas vel
+            affli<lb ed="#N" n="24" break="no"/>ctio siue penalitatis siue vtrumque. quod caritas non
+            <lb ed="#N" n="25"/>videtur sic: quia si hoc: ergo et quodlibet opus factum in caritate esset
+            <lb ed="#N" n="26"/>in caritate satisfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1462">
+            ⁋ Pre. si hoc: ergo opst elicitum ex
+            cari<lb ed="#N" n="27" break="no"/>tate esset maxime satisfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1467">
+            ⁋ Pre. si hoc. cum vnumquodque propter
+            <lb ed="#N" n="28"/>quod tale: et ipsum magis. tunc magis omnis actus caritatis esset
+            <lb ed="#N" n="29"/>magis satisfactorius: immo ipsa caritas. hec autem falsa sunt: quia
+            <lb ed="#N" n="30"/>diligere deum vel proximum. et si sit meritorium: non tamen satisfacto
+            <lb ed="#N" n="31"/>rium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1479">
+            ⁋ Pre. nec afflictio siue penalitas. quia si ieiunium esset
+            <lb ed="#N" n="32"/>satisfactorium. quia penale siue afflictiuum: ergo omne penale esset
+            sa<lb ed="#N" n="33" break="no"/>tisfactorium. et magis siue esset extra caritatem siue non.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1486">
+            ⁋ Pre.
+            <lb ed="#N" n="34"/>si ratione vtriusque. sicut ponunt quidam de lixiuia que est calida et
+            <lb ed="#N" n="35"/>aspera et mortificatiua. quod habet vim mundificatiuam non ratione
+            <lb ed="#N" n="36"/>alterutrius: sed ratione vtriusque. ergo cum virtus consistat circa bonum
+            <lb ed="#N" n="37"/>et difficile: et in executionue difficilis est pena: omnis actus
+            virtu<lb ed="#N" n="38" break="no"/>tis est penalis: ergo omnis actus virtutis informatus caritate est
+            sati<lb ed="#N" n="39" break="no"/>factorius. et ita idem vt supraa.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1502">
+            ⁋ Pre. cum neutrum istorum sit
+            sa<lb ed="#N" n="40" break="no"/>tisfac torium. quomo ex illis confluentibus erit aliquod vnum
+            satis<lb ed="#N" n="41" break="no"/>factorium: cum totum integratum sapiat naturam illorum ex quibus
+            <lb ed="#N" n="42"/>integratum est. non enim ex duobus frigidis fit vnum calidum: neque
+            <lb ed="#N" n="43"/>ex duobus calidis fit vnum frigidum.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1513">
+            ⁋ Pre. aliquod opst est
+            pe<lb ed="#N" n="44" break="no"/>nalem et ex caritate. ad quod homo tenetur ex dictamine nature.
+            <lb ed="#N" n="45"/>vt est afflictis siue infirmis compati et coaffligi. quod non est
+            sa<lb ed="#N" n="46" break="no"/>tisfactorium. vt enim habetur ex regulis fidei. nullus satisfacit ex
+            <lb ed="#N" n="47"/>illis ad que tenetur dictamine nature: et ita vt prius.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1524">
+            ⁋ Pre.
+            ieiu<lb ed="#N" n="48" break="no"/>nium est preceptum discipline. aut ergo est satisfactorium quia preceptum:
+            <lb ed="#N" n="49"/>aut quia discipline. non quia preceptum: quia tunc omne preceptum. neque quia
+            <lb ed="#N" n="50"/>discipline: multa enim indicta sunt causa discipline que non sunt
+            <lb ed="#N" n="51"/>satisfactoria. neque quia vtrumque: quia a deo fiunt siue facta sunt
+            pre<lb ed="#N" n="52" break="no"/>cepta discipline. que non sunt nec fuerunt satisfactoria pro peccatis
+            <lb ed="#N" n="53"/>sicut fuisset de precepto abrahe.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1540">
+            ⁋ Pre. ieiunium est opst
+            neces<lb ed="#N" n="54" break="no"/>sitatis et etiam supererogationis necessitatis. quia iniunctum ab
+            <lb ed="#N" n="55"/>ecclesia su perogationis: quia consilium. Aut ergo est satisfactorium. quia
+            <lb ed="#N" n="56"/>necessitatis: aut quia supererogationis. non quia est necessitatis: quia
+            <lb ed="#N" n="57"/>et tunc al ia que sunt necessitatis essent satisfactoria. nec quia est
+            <lb ed="#N" n="58"/>supererogationis eadem ratione. Non enim quod supererogatur est
+            satis<lb ed="#N" n="59" break="no"/>factorium vt patet de virginitate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1557">
+            ⁋ Item si diceretur. quod ieiunium
+            <lb ed="#N" n="60"/>esset satisfactorium. quia iniunctum: ergo ieiunium assumptum non esset
+            <lb ed="#N" n="61"/>satisfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1564">
+            ⁋ Pre. tunc ieiunium indictum vtpote quadragest
+            <lb ed="#N" n="62"/>male et quatuor temporum non esse satisfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1569">
+            ⁋ Responio. ad hoc dici
+            <lb ed="#N" n="63"/>potest sine preiudicio. quod ieiunium est satisfactorium directe et
+            sacra<lb ed="#N" n="64" break="no"/>mentaliter: et quodammodo indirecte et realiter. ad hoc quod sit
+            <lb ed="#N" n="65"/>satisfactorium primo modo directe et sacramentaliter: nec sola
+            cari<lb ed="#N" n="66" break="no"/>tas. nec sola penalitas. nec sola iniunctio dicenda est causa
+            preci<lb ed="#N" n="67" break="no"/>se quare sit satisfactorium. sed ad diffinitionem causae precise requiruntur
+            <lb ed="#N" n="68"/>plura scilicet caritas. penalitas. contrarietas. et auctoritas. Ad hoc
+            <lb ed="#N" n="69"/>enim quod ieiunium sit proprie et directe et sacramentaliter satisfactorium
+            op<lb ed="#N" n="70" break="no"/>tet quod fiat in caritate: quod fiat afflictiuum: quod habeat quandam
+            con<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>trarietatem resx cctu peccati pro quo debet satisfacere. vt sic
+            ex<lb ed="#N" n="72" break="no"/>cidatur causa peccati: et contrarium contrario curetur. oportem etiam quod in
+            <lb ed="#N" n="73"/>iungatur virtute clauium. hec autem quatuor quando concurrunt precise et
+            <lb ed="#N" n="74"/>proprie reddunt ieiunium efficax scilicet caritas: penalitas:
+            contrarie<lb ed="#N" n="75" break="no"/>tas: clauium auctoritas. Ad hoc autem quod sit satisfactorium
+            rea<lb ed="#N" n="76" break="no"/>liter tria predictorum sufficiunt scilicet caritas. penalitas:
+            auctori<lb ed="#N" n="77" break="no"/>tas clauium. vel duo secundum quosdam sicut in ieiunio assumpto
+            <lb ed="#N" n="78"/>vtpote si aliquis satisfacit de peccato superbie vel auaricie
+            ieiu<lb ed="#N" n="79" break="no"/>nando: hec satisfactio est magis proprie realis quam sacramentalis. nec
+            <lb ed="#N" n="80"/>sic satisfaciendo requiritur conrrietas nec excisio cause peccati per
+            con<lb ed="#N" n="81" break="no"/>trarium: sicut quando fit satisfactio ieiunando de peccato carnis et
+            <lb ed="#N" n="82"/>luxurie. Ratiotines ergo supraposite et si ratione termini possent
+            con<lb ed="#N" n="83" break="no"/>cedi: quia tamen sunt minus efficaces ad illas respondendum est.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1618">
+            ⁋ Ad
+            <lb ed="#N" n="84"/>illud ergo quod obiicitur. quod si caritas esset ratio quare ieiunium esset
+            <lb ed="#N" n="85"/>satisfactorium: ergo et quodlibet ops factum in caritate. potest dici
+            <lb ed="#N" n="86"/>quod non sequitur. quia ieiunium ratione generis operis congrue coopera
+            <lb ed="#N" n="87"/>tur cum caritate. quod non facit et quodcunque opus factum in
+            <lb ed="#N" n="88"/>caritate: nec etiam opus elicitum ex caritate.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1631">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="89"/>obiicitur. quod vnumquodque propter quod illud magis etc. potest dici quod
+            <lb ed="#N" n="90"/>vis facienda in hoc est quod dicitur. propter quod illud. verum est
+            <lb ed="#N" n="91"/>vbi illud alterum est sufficiens causa huiusmodi. et hoc sine altero
+            <lb ed="#N" n="92"/>non est causa huiusmodi. vt dicitur. ignis non est causa sufficiens
+            ca<lb ed="#N" n="93" break="no"/>lefactionis: nec ferrum sine igne calefieret. sed sic non est in
+            pro<lb ed="#N" n="94" break="no"/>posito. quia quamuis non sit ops satisfactorium sine caritate: tamen
+            so<lb ed="#N" n="95" break="no"/>la caritas non sufficit cum opere: immo exiguntur conditiones alie que
+            <lb ed="#N" n="96"/>pretacte sunt. et ideo quamuis caritas exigatur ad satisfactionem
+            <lb ed="#N" n="97"/>non tamen sola caritas de se satisfacit: quia nullum opost ad quod
+            tenen<lb ed="#N" n="98" break="no"/>tur omnes. et sine quo non est salus est satisfactorium.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1655">
+            ⁋ Ad
+            il<lb ed="#N" n="99" break="no"/>lud quod obiicitur. quod non est satisfactorium. quia afflictiuum: ergo et
+            ma<lb ed="#N" n="100" break="no"/>gis etc. potest dici quod non sequitur. quia vt dicit phs. idem facit plus
+            <lb ed="#N" n="101"/>quam minus scilicet vicium. Pre. cum ieiunium inquantum est satisfactorium
+            <lb ed="#N" n="102"/>est actus virtutis. et etiam inquantum est penale: necessarium es
+            <lb ed="#N" n="103"/>illam penalitatem stare in quadam medietate: et non
+            nimi<lb ed="#N" n="104" break="no"/>um siue in excessum deuiare. propter quod argumentum predictum
+            <lb ed="#N" n="105"/>non valet.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1674">
+            ⁋ Ad illud quod obiicitur. quod secundum hoc omnis actus virtutis
+            <lb ed="#N" n="106"/>esset satisfactorius. quia est penalis cum virtus omnis consistat
+            circa<lb ed="#N" n="107" break="no"/>difficile. dicendum quod est alia ratione penalis. et alia difficilis.
+            pe<lb ed="#N" n="108" break="no"/>nale enim penam ingerit in sustinendo: difficile vsum virtutis
+            <lb ed="#N" n="109"/>dicit in agendo.
+          </p>
+          <p xml:id="v78d89-ahlrbd-d1e1685">
+            ⁋ Ad illud quod obiicitur. quod cum neutrum pretacto
+            <lb ed="#N" n="110"/>rum sit satisfactorium. ergo ex illis concurrentibus non erit aliquod
+            sa<lb ed="#N" n="111" break="no"/>tisfactorium etc. potest dici quod argumentum huiusmodi non valet. quoniam
+            <lb ed="#N" n="112"/>et plura confluunt ad aliquod integrandum vt in proposito.
+            <lb ed="#N" n="113"/>alia patent.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 28, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 28, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="173"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6bssb"><!-- q28m1 -->
+        <head xml:id="v78d89-a6bssb-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a6bssb-Hd1e103" type="question-title">Quis potest confirmare</head>
+        <p xml:id="v78d89-a6bssb-d1e106">
+          <lb ed="#N" n="71"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a6bssb-d1e111">
+          <lb ed="#N" n="72"/>CIrca primum primo queritur. vtrum non
+          con<lb ed="#N" n="73" break="no"/>firmatus possit confirmare. Secundo. vtrum
+        </p>
+        <p xml:id="v78d89-a6bssb-d1e118">
+          <lb ed="#N" n="74"/>quilibet sacerdos: vel episcopus tantum.
+        </p>
+        <div xml:id="v78d89-a6bssb-Dd1e124">
+          <head xml:id="v78d89-a6bssb-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-a6bssb-d1e128">
+            <lb ed="#N" n="75"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e133">
+            <lb ed="#N" n="76"/>QUeritur ergo primo. vtrum non confirmatus potest
+          confirma<lb ed="#N" n="77" break="no"/>re. Quod sic: videtur primo. quia non baptizatus potest
+          ba<lb ed="#N" n="78" break="no"/>ptizare vt ex supradictis patet. ergo cum baptismus sit
+            <lb ed="#N" n="79"/>maioris efficacie quam confirmatio. Illo enim non tantum gratia confertur
+            <lb ed="#N" n="80"/>sed etiam culpa tollitur. videtur quod et non confirmatus possit
+          confirma<lb ed="#N" n="81" break="no"/>re.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e149">
+            ⁋ Item indultum est cuilibet instante necessitate posse
+          bapti<lb ed="#N" n="82" break="no"/>zare propter periculum quod posset contingere. similiter videtur quod debeat
+            <lb ed="#N" n="83"/>fieri de hoc sacramento propter periculum quod imminere posset ex
+          di<lb ed="#N" n="84" break="no"/>latione. Dicit enim Hug. In gestis pontificalibus legitur. quod
+            <lb ed="#N" n="85"/>sanctus Siluester constituit vt baptizatum presbiter in
+          verti<lb ed="#N" n="86" break="no"/>ce crismate liniat. propter occasionem quidem mortis: ne
+          for<lb ed="#N" n="87" break="no"/>te per absentiam episcopi et difficultatem eum consequendi: sine manus im
+            <lb ed="#N" n="88"/>positione baptizatum ab hac vita migrare contingeret. quod
+          qui<lb ed="#N" n="89" break="no"/>dem omnino periculosum esset.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e169">
+            ⁋ Item Augustinus. accedit verbum ad
+          <lb ed="#N" n="90"/>elementum et fit sacramentum. vnde virtus sacramenti est a virtute
+          ver<lb ed="#N" n="91" break="no"/>borum: non a confirmatione alicuius. Non enim confirmat quis per virtu
+            <lb ed="#N" n="92"/>tem illam qua confirmatus est. ergo a quocumque verba proferantur:
+          con<lb ed="#N" n="93" break="no"/>currente materia vel elemento debito: videtur quod efficiatur
+          sa<lb ed="#N" n="94" break="no"/>cramentum.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e183">
+            ⁋ Contra. ostenditur. i. q. i. Gratia. quod symoniaci quia
+          <lb ed="#N" n="95"/>gratiam non habent: gratiam dare non posunt ordinando. Idem habetur in
+            <lb ed="#N" n="96"/>eadem causa. q. vii. Daybertum. vbi ostenditur. quod ordinatus ab
+          he<lb ed="#N" n="97" break="no"/>retico eo quod nihil accepit nihil dare potest. a simili videtur quod non
+            <lb ed="#N" n="98"/>habentes gratiam confirmationis scilicet non confirmanti: gratiam illam conferre
+            <lb ed="#N" n="99"/>non posunt.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e196">
+            ⁋ Item quod habet esse imperfectum in aliquo genere: non
+          <lb ed="#N" n="100"/>ordinatur communiter ad dandum esse perfectum in eodem genere. vnde
+            <lb ed="#N" n="101"/>hominis imperfecti non est hominem generare: hoc est potius
+          impos<lb ed="#N" n="102" break="no"/>sibile in natura. ergo nec non confirmatus cum sit imperfectus
+          christia<lb ed="#N" n="103" break="no"/>nus: poterit alium confirmare: cum hoc sit habentis perfectum esse
+            <lb ed="#N" n="104"/>christianitatis dare.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e209">
+            ⁋ Responsio. concedo quod non confirmatus non
+          po<lb ed="#N" n="105" break="no"/>test confirmare. huius autem ratio est. quod confirmans quandam habet
+            <lb ed="#N" n="106"/>auctoritatem respectu confirmandi. et ideo cum auctoritatem non habeat
+          par<lb ed="#N" n="107" break="no"/>in parem: non confirmatus non potest confirmare non confirmatum cum
+            <lb ed="#N" n="108"/>sint pares: nisi prestita esset auctoritas aliunde: vt ab ecclesia.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e220">
+            <lb ed="#N" n="109"/>⁋ Ad primum obiectum contra hoc dicendum. quod non est simile. eo enim quod
+            <lb ed="#N" n="110"/>sacramentum est baptismus necessitatis: non potest in collatione ipsius
+            <lb ed="#N" n="111"/>omnimoda congruitas obseruari propter diuersos euentus et
+          pe<lb ed="#N" n="112" break="no"/>ricula que solent accidere ex infirmitate paruulorum. vnde
+          ne<lb ed="#N" n="113" break="no"/>accidat periculum damnationis si expectaretur persona congrua:
+          in<lb ed="#N" n="114" break="no"/>dultum est vnicuique in casu posse baptizare. non similiter est de
+          sa<lb ed="#N" n="115" break="no"/>cramento confirmationis. propter quod potest et conuenit personam
+          congruam<lb ed="#N" n="116" break="no"/>ad dispensandum hoc sacramentum expectare: cum sine illo possit esse
+            <lb ed="#N" n="117"/>salus.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e242">
+            ⁋ Ad illud quod dicit Hanugstis. dicendum est periculum omnino esse
+          <lb ed="#N" n="118"/>si negligeretur vel contemneretur. et ita intelligit Hug.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e247">
+            ⁋ Ad
+          il<lb ed="#N" n="119" break="no"/>lud quod obiicitur. quod verbum accedens ad elementum fit
+          sacramen<lb ed="#N" n="120" break="no"/>tum. Dicendum quod hoc verum est: concurrentibus aliis que sunt de
+            <lb ed="#N" n="121"/>necessitate sacramenti scilicet persona congrua et materia debita. et si qua sunt
+            <lb ed="#N" n="122"/>alia que necessario requiruntur. in dispensatione huius sacramenti requiritur
+            <lb ed="#N" n="123"/>persona que idonea est ad hoc secundum institutionem ecclesie et dispositi
+            <lb ed="#N" n="124"/>onem diuine sapicentie. vnde idoneitas persone est ad institutionem
+          ec<lb ed="#N" n="125" break="no"/>clesie. institutio autem ecclesie rationem habet a congruitate.
+          Congrui<lb ed="#N" n="126" break="no"/>tas autem requirit quod dispensator huius sacramenti illud suscepe
+            <lb ed="#N" n="127"/>rit gratie salutaris quod aliis ministrat. vnde oportet quod sit
+          con<lb ed="#N" n="128" break="no"/>firmatus.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e272">
+            ⁋ Ad illud quod obiicitur quod virtus non est a
+          confirma<lb ed="#N" n="129" break="no"/>tione ministri etc. Dicendum quod in dispensatione non solum
+          requi<lb ed="#N" n="130" break="no"/>ritur id a quo est virtus effectiua: sed et alia. et maxime
+          perso<lb ed="#N" n="131" break="no"/>na idonea. Unde licet confirmatio qua aliquis est confirmatus non sit
+            <lb ed="#N" n="132"/>causa vt a qua confirmatus possit alium confirmare: est tamen
+            <lb ed="#N" n="133"/>causa sine qua non.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6bssb-Dd1e286">
+          <head xml:id="v78d89-a6bssb-Hd1e288">Articulus 2</head>
+          <p xml:id="v78d89-a6bssb-d1e290">
+            <lb ed="#N" n="134"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e295">
+            <lb ed="#N" n="135"/>Consequenter queritur. vtrum qulibet confirmatus
+            pos<lb ed="#N" n="136" break="no"/>sit confirmare. Quod sic: videtur. Actio exit ab agente
+            <lb ed="#N" n="137"/>Auocuque i quo est proprietas siue dispositio propria ad
+            <pb ed="#N" n="174"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>actionem illam. sicut ignire ab eo in quo est igneitas: et
+            inflam<lb ed="#N" n="2" break="no"/>mare ab eo in quo est inflammatio. sed in confirmato est proprietas
+            <lb ed="#N" n="3"/>ad actionem confirmationis vt videtur. sicut ignire se habet ad
+            ignei<lb ed="#N" n="4" break="no"/>tatem: sic confirmare ad confirmationem. ergo actio confirmationis habet
+            <lb ed="#N" n="5"/>exire a confirmato sicut ignire ab igne.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e319">
+            ⁋ Item actio exit ab
+            <lb ed="#N" n="6"/>agente secundum dispositionem existentem in agente. vt opus
+            merito<lb ed="#N" n="7" break="no"/>rium a persona merente secundum dispositionem caritatis existentis in ipsa
+            <lb ed="#N" n="8"/>nec actio excedit dispositionem agentis nec econuerso. vnde nec
+            <lb ed="#N" n="9"/>meritum operis excedit caritatem merentis nec econuerso. vnde
+            <lb ed="#N" n="10"/>omnis talis et solus potest mereri. Sed confirmatio est dispositio
+            <lb ed="#N" n="11"/>secundum quam agit ipse confirmans. vt autem dictum est: congruum est in hoc
+            <lb ed="#N" n="12"/>sacramento quod minister habeat in se id gratie salutaris quod aliis
+            mi<lb ed="#N" n="13" break="no"/>nistrat. ergo nec actio confirmantis excedit hanc dispositionem nec
+            <lb ed="#N" n="14"/>econuerso. ergo solus confirmatus et omnis potest confirmare.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e341">
+            ⁋
+            Con<lb ed="#N" n="15" break="no"/>tra. dicit Hugo libo de sacramentis. Qmnis ecclesiastica
+            administra<lb ed="#N" n="16" break="no"/>tio in tribus consistit. in ordinibus. in sacramentis. in preceptis.
+            Ordi<lb ed="#N" n="17" break="no"/>nes consideramus in personis praelatorum: sacramenta in ministerio eorum.
+            <lb ed="#N" n="18"/>Ex his patet quod ministrorum ecclesie est ministrare sacramenta ecclesie. sed non
+            <lb ed="#N" n="19"/>omnis confirmatus est minister ecclesie. ergo etc.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e355">
+            ⁋ Respondeo. quod non omnis
+            <lb ed="#N" n="20"/>confirmatus potest confirmare: sed solum minister ecclesie. Ron huius est. quia
+            <lb ed="#N" n="21"/>vt patet ex verbis Hugo. Sacramentorum dispensatio credita
+            <lb ed="#N" n="22"/>est ministris ecclesie. et maxime illius sacramenti quod magna
+            venera<lb ed="#N" n="23" break="no"/>tione colendum est id est confirmationis: sicut dicit Hugo. Et habetur
+            <lb ed="#N" n="24"/>de conse. di. iiii. de his. Quia vero confirmare est habentis
+            digni<lb ed="#N" n="25" break="no"/>tatem et auctoritatem: ideo ad illos solos pertinet qui sunt capita
+            <lb ed="#N" n="26"/>in ecclesia id est ad solos prelatos: a quibus vt a capitibus motus
+            <lb ed="#N" n="27"/>et sensus spiritualis descendit in membra per ministerium sacramentorum.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e375">
+            <lb ed="#N" n="28"/>⁋ Ad primum obiectum contra hoc dicendum. quod confirmatio dupliciter
+            accipi<lb ed="#N" n="29" break="no"/>potest scilicet actiue: et sic est actio dignitatis et poetantis date in
+            con<lb ed="#N" n="30" break="no"/>secratione maioribus pralatis. et secundum hec sumpta non est dispositio
+            <lb ed="#N" n="31"/>siue proprietas secundum quam actio aliqua exit a confirmato. Et
+            <lb ed="#N" n="32"/>passiue: et sic est ipsius confirmati vt qua confirmatus. et sic
+            <lb ed="#N" n="33"/>sumpta non est dispositio actiua ad confirmandum: sed solum ad
+            <lb ed="#N" n="34"/>confitendum nomen christi. Nullum enim sacramentum ordinat suscipientem
+            <lb ed="#N" n="35"/>ad se conferendum sed solum ad alium actum. vt baptismus non
+            ordi<lb ed="#N" n="36" break="no"/>nat baptizatum ad baptizandum: sed ad credendum.
+            sacerdo<lb ed="#N" n="37" break="no"/>tium similiter non ad dandum ordines: sed ad consecrandum hostiam
+            sa<lb ed="#N" n="38" break="no"/>lutis. similiter nec confirmatio ad confirmandum: sed solummodo ad
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e401">
+            <lb ed="#N" n="39"/>standum in confessione fidei coram inimicis et persecutoribus
+            fi<lb ed="#N" n="40" break="no"/>dei. Nec est simile de actu igniendi et igneitate: et actu
+            con<lb ed="#N" n="41" break="no"/>firmandi et confirmatione secundum quod confirmatio est sacramentum ministratum
+            <lb ed="#N" n="42"/>confirmato: vt ex dictis patet. actus enim confirmandi non est a
+            confir<lb ed="#N" n="43" break="no"/>matione que est sacramentum: sed potius a poetante prelati cuius est hunc
+            <lb ed="#N" n="44"/>actum exercere.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e417">
+            ⁋ Ex iamm dictis patet responsio in parte ad aliud:
+            <lb ed="#N" n="45"/>quia concedendum est quod nullus actus excedit dispositionem
+            exi<lb ed="#N" n="46" break="no"/>stentem in agente propriam et actiuam. Sed confirmatio vt est passi
+            <lb ed="#N" n="47"/>ue sumpta non est proprietas actiua respectu confirmationis que
+            <lb ed="#N" n="48"/>est sacramentum vt dictum est. vnde obiectio procedit in suppositione
+            <lb ed="#N" n="49"/>falsi. Unde confirmatio que est sacramentum: non est causa a qua est actus
+            <lb ed="#N" n="50"/>confirmandi. nisi extenso nomine dicatur causa scilicet sine qua non.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e433">
+            ⁋ Ex iam
+            <lb ed="#N" n="51"/>dictis patet responsio ad illud quod solet queri. vtrum laicus siue non
+            ordi<lb ed="#N" n="52" break="no"/>natus potest confirmare. Quod solet ostendi argumento tali. In
+            na<lb ed="#N" n="53" break="no"/>turis ita est. quod vbi res est ibi operatur: et non vbi debet esse et
+            <lb ed="#N" n="54"/>non est. ergo cum ordo gratie non contrariatur ordini nature: videtur quod in
+            <lb ed="#N" n="55"/>gratia sit similiter. ergo vbi abundat gratia: citius et abundantius
+            trans<lb ed="#N" n="56" break="no"/>fundit se quam vbi non est. licet ibi deberet esse. Sed in bono laico
+            <lb ed="#N" n="57"/>frequenter gratia magis abundat quom in episcopo. vel in laico est abum
+            <lb ed="#N" n="58"/>dans gratia: in episcopo non. ergo videtur quod gratia transfunderet se abundam
+            <lb ed="#N" n="59"/>tius a bono laico si confirmaret: quom ab episcopo malo vel minus
+            <lb ed="#N" n="60"/>bono. Et si hoc: laicus potest confirmare. Et respondendum est ad
+            <lb ed="#N" n="61"/>hoc. quod solummodo ministrorum ecclesie est sacramenta dispensare: non
+            <lb ed="#N" n="62"/>laici siue non ordinati quantumcunque sit bonus. Ad
+            argumen<lb ed="#N" n="63" break="no"/>tum potest dici. quod aliter est de gratia siue bonitate persone
+            in<lb ed="#N" n="64" break="no"/>quantum est membrum christi: et aliter est de gratia siue bonitate persone
+            in<lb ed="#N" n="65" break="no"/>quantum est minister christi et ecclesie. Bonitas enim persone inquantum est mem
+            <lb ed="#N" n="66"/>brum est transfusiua sui ad vite meritum scilicet commenbrorum.
+            boni<lb ed="#N" n="67" break="no"/>tas enim membri ad commembra quodammodo transfunditur
+            <lb ed="#N" n="68"/>quia bonum membrum meretur commembro. Bonitas autem
+            ministri<lb ed="#N" n="69" break="no"/>non transfundit se in ministerio sacramentorum. Ita enim est efficax
+            <lb ed="#N" n="70"/>sacramentum dispensatum a malo ministro sicut a bono. Non enim est
+            <lb ed="#N" n="71"/>cefficacia siue virtus sacramentorum alligata bonitati
+            mini<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>strorum: sed eiusdem est virtutis a quocumque ministretur et
+            effica<lb ed="#N" n="73" break="no"/>cie. Bonitas ergo in persona diffundit se merendo: non autem
+            <lb ed="#N" n="74"/>diffundit se dispensando sacramenta. ex dispensatione enim diuina est
+            <lb ed="#N" n="75"/>quod salus subditi non impeditur propter maliciam ministri siue
+            <lb ed="#N" n="76"/>prelati. In argumento autem est peccatum secundum consequens.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6bssb-Dd1e494">
+          <head xml:id="v78d89-a6bssb-Hd1e496">Articulus 3</head>
+          <p xml:id="v78d89-a6bssb-d1e498">
+            <lb ed="#N" n="77"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e503">
+            <lb ed="#N" n="78"/>COnsequenter queritur. si quilibet sacerdos potest
+            <lb ed="#N" n="79"/>confirmare: vel episcopus tantum. Circa hoc queritur sic.
+            Pri<lb ed="#N" n="80" break="no"/>mo queritur. vtrum sacerdos simplex ex sua
+            pote<lb ed="#N" n="81" break="no"/>state potest confirmare: vel episcopus tantum. Secundo. vtrum potest ex demanda
+            <lb ed="#N" n="82"/>tione domini pape. Tercio. si confirmaret de facto: vtrum
+            confir<lb ed="#N" n="83" break="no"/>maretur siue confirmatum esset.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e519">
+            <lb ed="#N" n="84"/>Qttcaprimumsto. §§.1.
+            <lb ed="#N" n="85"/>Uidetur quod hoc sacramentum possit conferri a simplici sacerdote.
+            <lb ed="#N" n="86"/>quia qui potest quod maius est: potest quod minus est. sed simplex
+            sacer<lb ed="#N" n="87" break="no"/>dos potest conferre sacramentum efficacius scilicet baptismatis: et dignius
+            <lb ed="#N" n="88"/>scilicet eucharistie. ergo et hoc sacramentum.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e532">
+            ⁋ Item simplices sacerdotes
+            <lb ed="#N" n="89"/>prosunt signare crismate in vertice. et ita in excellentissima
+            p<lb ed="#N" n="90" break="no"/>te corporis. posunt igitur vt videtur in inferiori scilicet in fronte.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e540">
+            ⁋ Itio
+            <lb ed="#N" n="91"/>quod episcopi habent hanc poetantem. aut hoc est ratione ordinis: et tunc idem
+            <lb ed="#N" n="92"/>posunt presbiteri: cum eiusdem ordinis sint simplices
+            presbi<lb ed="#N" n="93" break="no"/>teri. aut ratione iurisditionis: quod esse non potest. quia tunc clerici
+            non<lb ed="#N" n="94" break="no"/>dum ordinati possent idem facere. quod non est verum.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e551">
+            ⁋ Item secundum
+            <lb ed="#N" n="95"/>ordinem causarum est ordo effectuum. superioris enim cause
+            natu<lb ed="#N" n="96" break="no"/>ralis superior et dignior est effectus: vt patet in corporibus
+            superi<lb ed="#N" n="97" break="no"/>oribus. Sed ad episcoum pertinet ordines conferre. sed conferre
+            or<lb ed="#N" n="98" break="no"/>dines est dignior actus quam confirmare: quia confirmare quasi
+            mate<lb ed="#N" n="99" break="no"/>rialem exigitur in susceptione ordinum. ergo cum confirmare sit
+            in<lb ed="#N" n="100" break="no"/>ferior actus quam ordines conferre: et ita inferioris ministerii.
+            <lb ed="#N" n="101"/>et inferior minister et immediate suppositus episcopo est simplex
+            <lb ed="#N" n="102"/>sacerdos. ergo sacerdotis inquantum est sacerdos: ipsius est
+            confir<lb ed="#N" n="103" break="no"/>mare.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e573">
+            ⁋ Contrarium habetur. iiii. sententim. di. vii. vbi dicitur. quod non
+            po<lb ed="#N" n="104" break="no"/>test hoc sacramentum nisi a summis sacerdotibus perfici.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e578">
+            ⁋ Idem
+            <lb ed="#N" n="105"/>habetur ab Hug.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e583">
+            ⁋ Quod concedimus. Unde Eusebius
+            pa<lb ed="#N" n="106" break="no"/>pa de conse. di. iiii. Manus quoe impositionis sacramentum tenendum
+            <lb ed="#N" n="107"/>est magna veneratione. quod ab aliis perfici non potest nisi a
+            sum<lb ed="#N" n="108" break="no"/>mis sacerdotibus. nec tempore apostolorum ab aliis quam ab ipsis
+            <lb ed="#N" n="109"/>apostolis legitur ac scitur paractum esse. nec ab aliis quam qui
+            il<lb ed="#N" n="110" break="no"/>lorum locum tenent vnquam perfici potest vel fieri debet. nam si
+            ali<lb ed="#N" n="111" break="no"/>ter presumptum fuerit: irritum et vanum habetur. nec inter
+            eccle<lb ed="#N" n="112" break="no"/>siastica vnquam sacramenta reputabitur.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e601">
+            ⁋ Item di. xxi. Cleros.
+            <lb ed="#N" n="113"/>Presbiteri sacerdotes vocantur quia sacramentum dant sicut
+            <lb ed="#N" n="114"/>episcopi. qui licet sint sacerdotes: tamen pontificatus apicem non
+            <lb ed="#N" n="115"/>habent. quia nec crismate frontem signant nec paraclitum
+            <lb ed="#N" n="116"/>spiritum dant. quod solum deberi episcopis lectio actuum
+            apo<lb ed="#N" n="117" break="no"/>stolorum demonstrat .
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e615">
+            ⁋ Ad hoc quod primo obiicitur dicendum.
+            <lb ed="#N" n="118"/>quod causa quare non potest sacerdos simplex confirmare
+            si<lb ed="#N" n="119" break="no"/>cut baptizare vel conficere: est institutio. vt enim dicit Hug.
+            <lb ed="#N" n="120"/>Sacramentum quod contra institutionem celebratur: irritum
+            depu<lb ed="#N" n="121" break="no"/>tatur. soli enim apostoli suo tempore confirmauerunt. et ideo
+            institu<lb ed="#N" n="122" break="no"/>tum est in ecclesia: vt eorum vicarii id est episcopi solummodo confir
+            <lb ed="#N" n="123"/>ment. Dignum enim est quod auctoritas ecclesie secundum ordinem sui originis
+            <lb ed="#N" n="124"/>ad posterius deriuetur. et licet sacramenta pretacta sint aliquo modo
+            <lb ed="#N" n="125"/>maiora: hoc tamen modo alio maius est illis: vt alibi patet.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e635">
+            <lb ed="#N" n="126"/>⁋ Si queratur ratio quare apostoli soli retinuerunt potestatem
+            <lb ed="#N" n="127"/>confirmandi et ordinandi: et solis episcopis fuit concessum. Potest
+            <lb ed="#N" n="128"/>dici quod erat propter status perfectionem id est recipientium hec duo
+            <lb ed="#N" n="129"/>sacramenta. propter hoc enim quod in his duobus sacramentis
+            da<lb ed="#N" n="130" break="no"/>tur gratie plenitudo vt dicunt quidam: ab his debent dari qu
+            <lb ed="#N" n="131"/>habent plenitudinem auctoritatis. Item facere rem
+            plu<lb ed="#N" n="132" break="no"/>rium est: sed factam confirmare et infirmare maiorum est. et
+            <lb ed="#N" n="133"/>ideo baptizare est plurium: baptisma firmare est maiorum
+            <lb ed="#N" n="134"/>scilicet episcoporum. Sed confirmare. benedicere abbates.
+            <lb ed="#N" n="135"/>ordinare. ecclesias consecrare. sunt opera perfectionis: pro
+            <lb ed="#N" n="136"/>pter quod illa exercent episcopi de consuetudine qui
+            sunt<lb ed="#N" n="137" break="no"/>in ecclesia maiores. Item in grege domini sunt quidam pro
+            <lb ed="#N" n="138"/>quibus pugnatur. quidam vero qui pugnant et pro se et pro
+            <lb ed="#N" n="139"/>aliis: quibus necesse est habere gratiam roboratam siue
+            <lb ed="#N" n="140"/>cumulum gratie. rnde congruit vt minister ad hanc gratiam a
+            do<pb ed="#N" n="175"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>mino tribuendam sit superior in ecclesia. Cum ergo ad sacerdotes
+            per<lb ed="#N" n="2" break="no"/>tineat dare sacramenta baptismi. et potissime que sunt sacramenta
+            debi<lb ed="#N" n="3" break="no"/>lium: congruit summis sacerdotibus dare sacramenta confirmationis
+            <lb ed="#N" n="4"/>et ordinis que sunt sacramenta fortiorum.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e681">
+            ⁋ Ad aliud dicendum. quod hoc
+            <lb ed="#N" n="5"/>non presunt soli episcopi: neque ratione ordinis neque ratione iurisditionis:
+            <lb ed="#N" n="6"/>sed ratione institutionis.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e688">
+            ⁋ Ad hoc quod obiicitur. quod vertex est
+            excel<lb ed="#N" n="7" break="no"/>lentior pars in fronte. Dicendum hoc est verum in positione siue
+            <lb ed="#N" n="8"/>situ: non tamen dignitate significationis. vnctio in hac parte vel
+            il<lb ed="#N" n="9" break="no"/>la plus fit ratione significationis quam nobilitatis substantie. Non igitur
+            <lb ed="#N" n="10"/>quod crisiua in vertice significat fidem dari in baptismo que est
+            <lb ed="#N" n="11"/>in vertice id est in superiori parte rationis id est. in synderesi. vnde Hier.
+            <lb ed="#N" n="12"/>ii. Filii mempheos et thaneos id est heretici constuprauerunt te
+            <lb ed="#N" n="13"/>vsque ad verticem id est vsque ad fidem quam corruperant in te.
+            Cri<lb ed="#N" n="14" break="no"/>sma vero in fronte significat fortitudinem et audaciam qua cum
+            <lb ed="#N" n="15"/>fiducia predicatur nomen christi. vnde Act. iiii. Repleti sunt omnes
+            <lb ed="#N" n="16"/>spiritu sancto et loquebantur verbum dei cum fiducia.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e712">
+            ⁋ Ad vltimum
+            <lb ed="#N" n="17"/>dicendum. quod ad dignitatem episcopalem pertinet ministratio
+            sacramento<lb ed="#N" n="18" break="no"/>rum quorum effectus sunt perfectionis qui presunt esse perfecti et
+            perfecti<lb ed="#N" n="19" break="no"/>ores. et loquor de perfecte abundantie non sufficientie tantum. vnde
+            <lb ed="#N" n="20"/>omnis ministratio que est abundatis perfectionis ad episcopos
+            dino<lb ed="#N" n="21" break="no"/>scitur pertinere.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e725">
+            ⁋ Quod ergo obiicit quod inferior ministratio est ipsius
+            <lb ed="#N" n="22"/>confirmationis quam collationis ordinum. ergo pertinet ad inferiorem
+            prela<lb ed="#N" n="23" break="no"/>tum scilicet simplicem sacerdotem. Dicendum quod non sequitur. quia licet sit
+            <lb ed="#N" n="24"/>inferior ministratio: tamen semper est abundantis perfectionis. vnde
+            <lb ed="#N" n="25"/>concludit ex insufficienti. debuit enim dicere. Est inferioris
+            mi<lb ed="#N" n="26" break="no"/>nistrationis et sufficientis perfectionis tantum: vt baptizare comnunicare.
+            <lb ed="#N" n="27"/>et non perfectionis abundantis: quod esset falsum in confirmatione. et
+            <lb ed="#N" n="28"/>ideo non valuit argumentum.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e744">
+            <lb ed="#N" n="29"/>Consequenter que .§. ii.
+            <lb ed="#N" n="30"/>ritur. Si simplex sacerdos ex demandatione pape potest
+            con<lb ed="#N" n="31" break="no"/>ferre sacramentum confirmationis. Quod sic: videtur. Gregorinus.
+            Ia<lb ed="#N" n="32" break="no"/>nuario episcopo xcv. dis. peruenit ad nos quosdam scandalizatos
+            <lb ed="#N" n="33"/>fuisse: quod presbiteros crismate tangere eos qui baptizati sunt
+            <lb ed="#N" n="34"/>prohibuimus. et nos quidem secundum veterem vsum nostre ecclesie
+            <lb ed="#N" n="35"/>fecimus. Sed si omnino de hac re aliqui contristantur. vbi
+            episco<lb ed="#N" n="36" break="no"/>pi desunt: vt presbiteri etiam in frontibus baptizatos
+            crisma<lb ed="#N" n="37" break="no"/>te tangere debeant concedimus. Sed numquam faciendum est aliquid contra
+            <lb ed="#N" n="38"/>veritatem vite vel iusticie vel doctrine propter scandalum. Ex
+            <lb ed="#N" n="39"/>quo videtur quod sacerdos simplex ex demandatione pape potest
+            <lb ed="#N" n="40"/>confirmare.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e773">
+            ⁋ Contra hoc obiicitur ex sententia Gelasii pape et
+            <lb ed="#N" n="41"/>Leonis ibidem scilicet di. xcv. vbi dicitur. Presbros vltra suum
+            mo<lb ed="#N" n="42" break="no"/>dum contendere prohibemus. nec episcopali fastigii debita sibimet
+            <lb ed="#N" n="43"/>audaciter assumere: non conficiendi crismatis: non
+            consignati<lb ed="#N" n="44" break="no"/>onis pontificalis adhibende sibimet arripere facultatem.
+            <lb ed="#N" n="45"/>Ad hoc est auctoritas Eusebii de conse. di. iiii. Manus. et dis.
+            <lb ed="#N" n="46"/>xxi. Cleros. Huius autem contrarietatis subditur determinatio
+            ibi<lb ed="#N" n="47" break="no"/>dem scilicet dis. xcv. cum subiungitur. sed istud Grego. propter
+            scanda<lb ed="#N" n="48" break="no"/>lum sedandum semel concessum legitur. illud autem Leonis et
+            Ge<lb ed="#N" n="49" break="no"/>lasii vsu approbante preualuit: nisi forte vbi aliquorum
+            con<lb ed="#N" n="50" break="no"/>suetudo hoc admisit. vt in absentia episcopi extrema necessitate
+            co<lb ed="#N" n="51" break="no"/>gente ex concessione Greg. presbiteri baptizatos in
+            fronti<lb ed="#N" n="52" break="no"/>bus liniant. Prohibitio vero Leonis et Gelasii in eo casu
+            <lb ed="#N" n="53"/>intelligatur: cum episcopi presentes sunt. vel cum non cogit vltima
+            ne<lb ed="#N" n="54" break="no"/>cessitas. Ex hac responsione videtur quod simplex sacerdos ex
+            de<lb ed="#N" n="55" break="no"/>mandatione domini pape possit confirmare.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e808">
+            ⁋ Circa hec
+            diuer<lb ed="#N" n="56" break="no"/>si diuersa sentiunt. Quidam dicunt quod papa potest demandare hoc
+            <lb ed="#N" n="57"/>sacerdoti. et quod omnia sacramenta que presbiter recipit ex
+            de<lb ed="#N" n="58" break="no"/>legatione pape conferre potest. argumentum ad hoc sumunt ex
+            au<lb ed="#N" n="59" break="no"/>ctoritate Greg. predicta. Similiter dicunt quod ex demandatione domini
+            <lb ed="#N" n="60"/>pape ordinatus potest conferre ordinem quem habet. et confirmatus
+            con<lb ed="#N" n="61" break="no"/>firmationem. et quilibet quod habet. Et ad hoc accipiunt argumentum
+            <lb ed="#N" n="62"/>i. q. I Gratia. Et. i. q. vii. Daybertum. sed non potest alicui
+            deman<lb ed="#N" n="63" break="no"/>dare vt conferat ordinem quem non habet vel etiam quod perficiat corpus
+            <lb ed="#N" n="64"/>christi: quia solis presbris dictum est. hoc facite in meam
+            commemo<lb ed="#N" n="65" break="no"/>rationem. hoc dicit Hug. Alii dicunt quod non potest delegare
+            presbi<lb ed="#N" n="66" break="no"/>tero vt crismet in fronte. vnde isti nihil conferebant. Si
+            obiici<lb ed="#N" n="67" break="no"/>tur. quare hoc permisit Grego. illis: cum videatur illis dare
+            <lb ed="#N" n="68"/>licentiam peccandi. Dicunt quod inuitus permisit ob nimium
+            scan<lb ed="#N" n="69" break="no"/>dalum. nec dabat eis occasionem mali: quia inuitus hoc
+            con<lb ed="#N" n="70" break="no"/>cedebat. Uel vt dicunt quidam. illa concessio dissimulatio
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>fuit propter scandalum vitandum et bonum pacis sernandum. vnde
+            <lb ed="#N" n="72"/>exponunt sic. concedimus id est dissimulamus.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e850">
+            ⁋ Harum autem
+            opinio<lb ed="#N" n="73" break="no"/>num videtur medium esse tenendum scilicet quod dominus papa potest in casu
+            de<lb ed="#N" n="74" break="no"/>mandare sacerdoti quod confirmet et quod ipse obediendo
+            confir<lb ed="#N" n="75" break="no"/>met. Sed non videtur quod possit demandare vnicuique quod conferat
+            <lb ed="#N" n="76"/>quod habet. Nec argumenta que inducunt ponentes hoc: alicuius sunt
+            <lb ed="#N" n="77"/>necessitatis neque probabilitatis: vt patet intuenti. quia secundum hoc
+            sim<lb ed="#N" n="78" break="no"/>plex laicus posset confirmare: si esset confirmatus. Potest ergo dici.
+            <lb ed="#N" n="79"/>quod quamuis sacerdos non possit confirmare propria auctoritate: tamen pro
+            <lb ed="#N" n="80"/>causa vtili vel necessaria summus pontifex in quo est plenitudo
+            <lb ed="#N" n="81"/>potestantis: potest alii quam episcopo committere. et ille non facit auctoritate sua sed
+            <lb ed="#N" n="82"/>auctoritate sibi commissa. vnde ille potius facit cuius auctoritate
+            <lb ed="#N" n="83"/>fit. Unde non est dubium quin pontificalis auctoritas sit de
+            necessi<lb ed="#N" n="84" break="no"/>tate huius sacramenti. Alii tamen dicunt quod non concessit eis conferre
+            sa<lb ed="#N" n="85" break="no"/>cramentum: sed solum aliquid sacramentalem. sicut aliquando datur
+            la<lb ed="#N" n="86" break="no"/>icis panis benedictus loco corporis dominici.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e883">
+            <lb ed="#N" n="87"/>Consequenter queritur .§. iii.
+            <lb ed="#N" n="88"/>Si sacerdos propria auctorite confirmet. vtrum sit confirmatum. Quod
+            <lb ed="#N" n="89"/>sic: videtur per hoc. quod ex sola institutione ecclesie siue prohibitione
+            <lb ed="#N" n="90"/>est quod talis non confirmet. ergo causa ita sit quod episcopos precisos ab ecclesia
+            <lb ed="#N" n="91"/>prohibeat ordines conferre: tamen si conferunt collatum est. Eodem modo
+            <lb ed="#N" n="92"/>videtur quod si confirmet sacerdos simplex: quod confirmatum est.
+            <lb ed="#N" n="93"/>Et similiter si aliqui contrahant clandestine matrimonium
+            con<lb ed="#N" n="94" break="no"/>tractum est. ergo similiter in proposito.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e903">
+            ⁋ Item tota causalitas
+            sa<lb ed="#N" n="95" break="no"/>cramenti est in ipso sacramento ex virtute verborum. nec impeditur
+            <lb ed="#N" n="96"/>ab effectu suo coexistente materia debita nisi sit
+            impedimen<lb ed="#N" n="97" break="no"/>tum ex parte ministri. ergo prolata forma verborum sacramenti
+            confir<lb ed="#N" n="98" break="no"/>mationis a sacerdote simplici coexistente materia debita. cum
+            <lb ed="#N" n="99"/>nihil sit in sacerdote quod impediat vel repugnet: videtur quod
+            <lb ed="#N" n="100"/>confirmatum sit. Omnis enim causa sufficiens ad effectum aliquem
+            <lb ed="#N" n="101"/>non impedita. si exeat ad suum actum: producit suum effectum.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e922">
+            <lb ed="#N" n="102"/>⁋ Contra hoc habetur manifeste ab Eusebio de conse. di. iiii.
+            <lb ed="#N" n="103"/>Manus. Et dis. xxi. Cleros. Et ab Hug. dicente. quod
+            sacra<lb ed="#N" n="104" break="no"/>mentum quod contra institutionem celebratur irritum deputatur.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e931">
+            <lb ed="#N" n="105"/>⁋ Responsio. dicendum quod collatio sacramenti dupliciter pertinet ad
+            ali<lb ed="#N" n="106" break="no"/>quem ministrum ecclesie. ratione ordinis et officii. et tunc si exequatur
+            <lb ed="#N" n="107"/>etiam prohibitus collatum est quod ipse confert. vt ix. q. i.
+            ordina<lb ed="#N" n="108" break="no"/>tiones. vbi habetur ab Urbano papa. quod ordinati ab
+            episco<lb ed="#N" n="109" break="no"/>pis separatis ab ecclesia. cum redeant ad ecclesiam seruatis
+            pro<lb ed="#N" n="110" break="no"/>priis ordinibus suscipi debent. simile. i. q. i. Quod quidam. Uel
+            colla<lb ed="#N" n="111" break="no"/>tio pertinet ad aliquem ex amminiculo ordinis et demandatione
+            <lb ed="#N" n="112"/>domini pape: vt confirmatio in fronte sacerdoti. et talis cum
+            pro<lb ed="#N" n="113" break="no"/>hibitus fuerit: si attemptat aliquid conferre nihil facit. vt
+            ha<lb ed="#N" n="114" break="no"/>betur auctoritatibus pretactis.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e955">
+            ⁋ Ad primum ergo obiectum contra hoc
+            <lb ed="#N" n="115"/>dicendum. quod non est simile de episcopis prohibitis conferre ordines: et
+            <lb ed="#N" n="116"/>de sacerdote prohibito confirmare. quia potestas conferendi
+            ordi<lb ed="#N" n="117" break="no"/>nem collata fuit episcopo cum collatione dignitatis. vnde ratione sui
+            <lb ed="#N" n="118"/>officii et ordinis sibi competit. Simul enim vtrumque recipit. et
+            <lb ed="#N" n="119"/>ideo non potest vnum ab alio separari. vnde executio potest
+            prohibe<lb ed="#N" n="120" break="no"/>ri: tamen si exequatur: effectus non potest impediri. Sed sacerdoti
+            <lb ed="#N" n="121"/>simplici numquam collatum fuit vt posset confirmare ratione sui
+            offi<lb ed="#N" n="122" break="no"/>cii vel ordinis. posset tamen hoc ex demandatione domini pape. et ideo
+            <lb ed="#N" n="123"/>cum nec collatum sibi sit: et preter hoc sit prohibitum secundum canones
+            <lb ed="#N" n="124"/>prohibetur executio et impeditur effectus. Secus autem esset in episcopo
+            <lb ed="#N" n="125"/>ab ecclesia preciso. quia etsi prohiberetur confirmare: non tamen
+            impedi<lb ed="#N" n="126" break="no"/>tur effectus quin si confirmaret confirmatum esset.
+          </p>
+          <p xml:id="v78d89-a6bssb-d1e984">
+            ⁋ Ad aliud
+            <lb ed="#N" n="127"/>dicendum. quod tota causalitas a qua proprie loquendo est
+            confirma<lb ed="#N" n="128" break="no"/>tis: est virtus verborum. sed non tota sine qua non. hec autem est
+            <lb ed="#N" n="129"/>dispositio aliqua vel dignitas in ministerio. quamuis enim virtus
+            <lb ed="#N" n="130"/>tota confirmandi sit in verbis: tamen si desit ordo sacerdotalis
+            <lb ed="#N" n="131"/>cum auctoritate et dignitate episcopali: non sequitur effectus. quia totalitas
+            <lb ed="#N" n="132"/>causalitatis sacramenti ex ista duplici causa integratur scilicet a que sequitur
+            <lb ed="#N" n="133"/>effectus: et sine qua minime sequitur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

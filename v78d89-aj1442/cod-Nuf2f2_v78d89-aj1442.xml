@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 112, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 112, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="696"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aj1442"><!-- q112m3 -->
+        <head xml:id="v78d89-aj1442-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-aj1442-Hd1e103" type="question-title">Utrum a filiofamilias</head>
+        <p xml:id="v78d89-aj1442-d1e106">
+          <lb ed="#N" n="12"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-aj1442-d1e111">
+          <lb ed="#N" n="13"/>COnsequenter queritur de filiofamilias si potest
+          fa<lb ed="#N" n="14" break="no"/>cere elemosnam. et videtur quod sic: per hoc quod ipse est heres
+          <lb ed="#N" n="15"/>patriffamilias. popter quod videtur quod possit facere de
+          il<lb ed="#N" n="16" break="no"/>lo quod spectat and hereditatem quasi de suo. hoc autem videtur per hoc: quod non
+          <lb ed="#N" n="17"/>tenetur ad restituendum alicui illud de quo fecit elemosynam ptus
+          deces<lb ed="#N" n="18" break="no"/>sum pratris nam ad Gal. iiii. dicitur. dominus omnium licet sit paruulus
+          <lb ed="#N" n="19"/>propter hoc videtur quod de suo fecerit elemosynam.
+        </p>
+        <p xml:id="v78d89-aj1442-d1e129">
+          ⁋ Pre. licet illud quod
+          <lb ed="#N" n="20"/>mouetur pertim sit in termino a quo: partim in termino ad quem:
+          nihilo<lb ed="#N" n="21" break="no"/>minus motus potius sortitur esse a termino in quem. quam a termino in quo. Similiter
+          <lb ed="#N" n="22"/>vdeur de passione vel hereditate habita ab aliquo. quod plus spectat ad
+          <lb ed="#N" n="23"/>illum ad quem deuoluitur quoam ad illum a quo deuoluitur. et ita plus ad
+          fi<lb ed="#N" n="24" break="no"/>lium quam ad pratrem: et ita vt prius.
+        </p>
+        <p xml:id="v78d89-aj1442-d1e143">
+          ⁋ Contra. ad Gal. iiii.
+          quan<lb ed="#N" n="25" break="no"/>to tempore heres paruulus est nihil differt a seruo cum sit dominus omnium
+          <lb ed="#N" n="26"/>ergo si seruus non potest facere elemosnam de bonis domini sui: nec filius de
+          <lb ed="#N" n="27"/>bonis pratis sui.
+        </p>
+        <p xml:id="v78d89-aj1442-d1e152">
+          ⁋ Pre. si omnes illi quorum omnia sunt commnia. sicut
+          <lb ed="#N" n="28"/>religiosorum non posunt de illis facere eleosynam. sed illi soli quibus
+          con<lb ed="#N" n="29" break="no"/>missum est ministerium distributionis eorum: multo fortius nec
+          illi<lb ed="#N" n="30" break="no"/>posunt facere elemosynam de rebus illis quorum non sibi possessores nec
+          <lb ed="#N" n="31"/>in proprio neque in communi: ergo etc.
+        </p>
+        <p xml:id="v78d89-aj1442-d1e163">
+          ⁋ Responio. sine preiudicio melioris
+          sen<lb ed="#N" n="32" break="no"/>tentie. quod filiusfamilias elemosnas leues et modicas sine
+          consen<lb ed="#N" n="33" break="no"/>su pratris et sclestia potest facere. non magnas siue notabiles. et hoc
+          <lb ed="#N" n="34"/>intelligo de illo filio familias cui nec capitale nec procuratio
+          <lb ed="#N" n="35"/>nec villicatio est commissa. talis enim vt opinor posset elemosnas
+          <lb ed="#N" n="36"/>ampliores facere dummodo non fierent in damnum possessoris.
+        </p>
+        <p xml:id="v78d89-aj1442-d1e176">
+          ⁋ Ad
+          <lb ed="#N" n="37"/>illud quod obicitur. quod est heres propter quod vidtur quod de illo quod spectat ad
+          <lb ed="#N" n="38"/>hereditatem suam potest facere elemosnam quasi de suo. dicendum quod licet sit
+          <lb ed="#N" n="39"/>heres tamen res que spectant ad hereditatem non sunt actualiter sue: sed
+          <lb ed="#N" n="40"/>habitualiter siue possibiliter sed de sic possessis non posunt fieri elemosyne
+        </p>
+        <p xml:id="v78d89-aj1442-d1e187">
+          <lb ed="#N" n="41"/>⁋ Ad illud quod obicitur. quod non tenetur ad restitutionem post decessum
+          <lb ed="#N" n="42"/>patis. Dicendum quod hoc est. quia tunc deuoluta sunt ad ipsum bona pratris
+          <lb ed="#N" n="43"/>cui si suppetisset facultas: forte debuit ipso viuente
+          restituis<lb ed="#N" n="44" break="no"/>se.
+        </p>
+        <p xml:id="v78d89-aj1442-d1e198">
+          ⁋ Ad illud quod additur. quod paruulus heres est omnium dominus. vt dicitur ad
+          <lb ed="#N" n="45"/>Gal. iiii. Dicendum quod hic non intelligitur simpliciter sed secundum quid. quia dominus
+          <lb ed="#N" n="46"/>futurus sicut dicit glo. vnde sensus est: cum sit dominus omnium futurus.
+        </p>
+        <p xml:id="v78d89-aj1442-d1e206">
+          ⁋ Ad
+          <lb ed="#N" n="47"/>illud quod obicitur. quod hereditas siue possessio plus spectat ad illum
+          <lb ed="#N" n="48"/>ad quem deuoluitur quom ad illum a quo deuoluitur a simili illius quod moue
+          <lb ed="#N" n="49"/>tur. potest dici quod non est simile. immo est contrario modo. quia et si
+          here<lb ed="#N" n="50" break="no"/>ditas vel possessio deuoluitur ad illum qui est dominus futurus: tamen
+          de<lb ed="#N" n="51" break="no"/>uoluitur ab illo qui est verus dominus. vnde motus secundum nomen et
+          modum<lb ed="#N" n="52" break="no"/>plus est in termino ad quem quam in termino a quo. Dominium enim
+          rei<lb ed="#N" n="53" break="no"/>cuiuscumque plus est in eo a quo deuoluitur: quam in illo ad quem deuoluitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

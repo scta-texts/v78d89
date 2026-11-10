@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 32, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 32, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="200"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6yy3t"><!-- q32m7 -->
+        <head xml:id="v78d89-a6yy3t-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-a6yy3t-Hd1e103" type="question-title">Si potest confici ex omni genere vini</head>
+        <p xml:id="v78d89-a6yy3t-d1e106">
+          <lb ed="#N" n="80"/>Membrum septimum
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e111">
+          <lb ed="#N" n="81"/>COnsequenter queritur. si potest confici ex omni
+          ge<lb ed="#N" n="82" break="no"/>nere vini. vtpote ex vino de moris: de
+          fru<lb ed="#N" n="83" break="no"/>mento. Et hoc ostenditur per hoc. quod aqua cuiuscumque
+          <lb ed="#N" n="84"/>generis sint siue sint amare siue dulces
+          si<lb ed="#N" n="85" break="no"/>ue fontium siue viarum conueniunt sacramento baptismatis: et in illis
+          <lb ed="#N" n="86"/>potest baptizari. A simili videtur quod omne genus vini
+          compe<lb ed="#N" n="87" break="no"/>tat huic sacramento.
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e129">
+          ⁋ Preterea. in aliquibus terris neque
+          cre<lb ed="#N" n="88" break="no"/>scunt vinee nec vinum de vite potest ad illas transferri. et
+          ita<lb ed="#N" n="89" break="no"/>ex quo non licet conficere sub specie panis nisi similiter conficiatur sub
+          <lb ed="#N" n="90"/>specie vini: nunquam ibi consecraretur hoc sacramentum nisi possit
+          con<lb ed="#N" n="91" break="no"/>fici sub specie alterius generis vini quam de vite. quod esset
+          ma<lb ed="#N" n="92" break="no"/>gnum periculum viatoribus illius terre: et insufficienter esset illis
+          <lb ed="#N" n="93"/>prouisum a domino in illis que sunt ad salutem.
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e146">
+          ⁋ Item prouisum
+          <lb ed="#N" n="94"/>est a dei sapicentia quod sacramentum baptismatis celebretur in materia
+          <lb ed="#N" n="95"/>communi propter excusationem pauperum. Similiter videtur quod conueniat
+          <lb ed="#N" n="96"/>diuine sapientie cuius prouidentia subuenitur vtiliter isti
+          sacramen<lb ed="#N" n="97" break="no"/>to ordinate quod fiat in materia communi que ab omnibus
+          ha<lb ed="#N" n="98" break="no"/>beri posset.
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e159">
+          ⁋ Preterea. videtur maxime congruere quod sanguis
+          con<lb ed="#N" n="99" break="no"/>ficiatur ex vino de frumento: sicut congruit quod caro
+          confi<lb ed="#N" n="100" break="no"/>ciatur de pane de frumento. In vino enim de frumento cum hoc quod est
+          <lb ed="#N" n="101"/>ibi substantia frumenti est substantia aque: sicut in pane
+          de<lb ed="#N" n="102" break="no"/>eodem. Unde quantum ad congruitatem significationis et proprie
+          <lb ed="#N" n="103"/>tates alias: videtur quod potissime conueniat sanguini confici
+          <lb ed="#N" n="104"/>de vino huiusmodi.
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e175">
+          ⁋ Responsio. quod sicut panis de quo conficitur
+          <lb ed="#N" n="105"/>debet esse de frumento: sic vinum debet esse de vite. Quia
+          <lb ed="#N" n="106"/>christus comparauit se frumento: cum ait Io. xii. Nisi granum
+          <lb ed="#N" n="107"/>frumenti ca. in ter. mor. fu. ip. so. manet. Et viti cum dixit.
+          <lb ed="#N" n="108"/>Ego sum vitis vera Io. xv. Preterea. non solum ratione qua
+          <lb ed="#N" n="109"/>dominus comparauit se viti solummodo conficitur ex vino de vite: sed
+          <lb ed="#N" n="110"/>quia ipse dominus solummodo de hoc genere vini confecit.
+          <lb ed="#N" n="111"/>vnde de conse. di. ii cilt in sacramento: dicitur sic. In
+          sacramen<lb ed="#N" n="112" break="no"/>to corporis et sanguinis domini nihil amplius offeratur quom
+          <lb ed="#N" n="113"/>quod ipse dominus tradidit. hoc est panis et vinum aque
+          mi<lb ed="#N" n="114" break="no"/>xtum. nec amplius in sacrificiis offeratur quam de vuis et
+          fru<lb ed="#N" n="115" break="no"/>mentis. tum ergo ratione comparationis: tum ratione confectio
+          <lb ed="#N" n="116"/>nis dominice solummodo de vino tali conficiendum est. Alie
+          <lb ed="#N" n="117"/>autem rationes scd. tacte sunt.
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e206">
+          ⁋ Ad illud ergo quod primo
+          ob<lb ed="#N" n="118" break="no"/>iicitur dicendum. quod omnis aqua naturaliter est eiusdem
+          speciei<lb ed="#N" n="119" break="no"/>cum alia: et quod solum differunt accidente. non sic est de vino.
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e213">
+          <lb ed="#N" n="120"/>⁋ Ad aliud quod obiicitur. quod maximum periculum esset
+          ali<lb ed="#N" n="121" break="no"/>quibus viatoribus si non possit confici ex omni genere
+          vi<lb ed="#N" n="122" break="no"/>ni: quia penitus defraudati essent beneficio huius
+          sacra<lb ed="#N" n="123" break="no"/>menti. Dicendum quod si forte casus suppositus accideret:
+          do<lb ed="#N" n="124" break="no"/>minus aliter prouideret incolis illius terre. virtus enim
+          do<lb ed="#N" n="125" break="no"/>mini non est alligata sacramentis. semper enim prouideret
+          il<lb ed="#N" n="126" break="no"/>lis sufficienter in necessariis ad salutem. Uel potest dici
+          <lb ed="#N" n="127"/>sine preiudicio. quod non est aliqua terra fidelium ad quam
+          <lb ed="#N" n="128"/>non posset transferri vinum saltem viciatum de quo
+          pos<lb ed="#N" n="129" break="no"/>sit confici.
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e237">
+          ⁋ Ad aliud quod obiicitur de communitate.
+          Dicen<lb ed="#N" n="130" break="no"/>dum quod non solum necessitas est hic attendenda sed
+          congru<lb ed="#N" n="131" break="no"/>itas. Preterea. sacramentum baptismatis est sacramentum
+          ne<lb ed="#N" n="132" break="no"/>cessitatis. hoc autem sacramentum nequaquam. propter quod non
+          <lb ed="#N" n="133"/>est simile.
+        </p>
+        <p xml:id="v78d89-a6yy3t-d1e249">
+          ⁋ Ad illud quod obiicitur de vino de
+          frumen<lb ed="#N" n="134" break="no"/>to. Dicendum quod non est de illo consecrandum propter
+          ra<lb ed="#N" n="135" break="no"/>tiones predictas. scilicet propter comparationem dominicam et
+          in<lb ed="#N" n="136" break="no"/>stitutionem. Item licet conueniret quod de eo conficeretur propter
+          <lb ed="#N" n="137"/>congruentiam signationis: non tamen conueniret propter
+          <lb ed="#N" n="138"/>congruentiam proprietatum. propter quas congruit quod
+          confi<lb ed="#N" n="139" break="no"/>ciatur de vino vitis. quia per has magis assimilatur ipsi
+          si<lb ed="#N" n="140" break="no"/>gnato cuius est signum. Cuius ratio multiplex est. Una
+          <lb ed="#N" n="141"/>est que habetur ab Ysaac de dietis perticularibus. Uinum
+          bo<pb ed="#N" n="201"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>num dat nutrimentum corpori: sanitatem reddit et
+          custo<lb ed="#N" n="2" break="no"/>dit si accipiatur secundum quod oportet. Ex hoc patet quod vinum est
+          <lb ed="#N" n="3"/>alimentum et medicamentum. similiter christus digne
+          accipien<lb ed="#N" n="4" break="no"/>tibus. Sapienti. xvi. Neque herba etc. Luc. vi. Uirtus exibat
+          <lb ed="#N" n="5"/>de illo et sanabat omnes. Idem in eodem. Uinum
+          familia<lb ed="#N" n="6" break="no"/>ritatis consortium cum natura humana habet. Est enim
+          <lb ed="#N" n="7"/>conueniens nostris corporibus: eiusque color similis est
+          co<lb ed="#N" n="8" break="no"/>lori naturali. Et nos christo efficiamur similes per hoc
+          sacra<lb ed="#N" n="9" break="no"/>mentum: quia mutamur in ipsum secundum Augustinus. Item antiqui
+          <lb ed="#N" n="10"/>assimilauerunt vinum tiriace. calefacit enim corpora
+          fri<lb ed="#N" n="11" break="no"/>gida et infrigidat calida. sic christus calefacit corda
+          frigi<lb ed="#N" n="12" break="no"/>da. nec mirum. est enim diuinus carbo secundum Dam. psalmus. Nec
+          <lb ed="#N" n="13"/>est qui se abscondat a calore eius. Et infrigidat calida.
+          Ef<lb ed="#N" n="14" break="no"/>fectus eucharistie est: quod mirabiliter minuit feruorem
+          con<lb ed="#N" n="15" break="no"/>cupiscentie. Ecesiastici. xxiii. Anima calida quasi ignis ardens
+          <lb ed="#N" n="16"/>non extinguetur donec aliquid glutiat. Item vinum tollit
+          <lb ed="#N" n="17"/>tristiciam et excitat leticiam. Eccessastic. xxxi. Uinum in
+          iocun<lb ed="#N" n="18" break="no"/>ditate creatum est. et in eodem. Exultatio anime et
+          corpo<lb ed="#N" n="19" break="no"/>ris vinum moderate potatum. psalmus. Uinum letificat cor
+          ho<lb ed="#N" n="20" break="no"/>minis. sic christus. Sapienti. viii. Non habet amaritudinem
+          con<lb ed="#N" n="21" break="no"/>uersatio illius: nec tedium conuictus illius. sed leticiam
+          <lb ed="#N" n="22"/>et gaudium. Item vinum odoriferum liquorem habet
+          sub<lb ed="#N" n="23" break="no"/>tilissimum: temparatum: omni sorde mundificatum. hoc
+          ma<lb ed="#N" n="24" break="no"/>xime est cordis confortatiuum. animam letificat quia expellit
+          <lb ed="#N" n="25"/>fumum grossum sordidum et obscurum: qui solet
+          natura<lb ed="#N" n="26" break="no"/>lis caloris lumen obfuscare. mundificat a sorde in corde
+          <lb ed="#N" n="27"/>existente. vnde Ypocras. Uinum odoriferum subtilius
+          le<lb ed="#N" n="28" break="no"/>uius nutribilius ceteris: signat naturam suam
+          comple<lb ed="#N" n="29" break="no"/>uisse actionem et omne contrarium ab eo esse ablatum. et
+          <lb ed="#N" n="30"/>facile inebriat: quia cito ad caput ascendit. Sed quid
+          san<lb ed="#N" n="31" break="no"/>guine christi magis purum et defecatum de purissimis
+          san<lb ed="#N" n="32" break="no"/>guinibus virginis mundissime contracto: proinde
+          odo<lb ed="#N" n="33" break="no"/>riferum: et ideo effectus habet enumeratos. propter has
+          pro<lb ed="#N" n="34" break="no"/>prietates et consimiles quas non conuenit reperire in
+          vino<lb ed="#N" n="35" break="no"/>de frumento: magis congruit quod sanguis christi conficiatur
+          <lb ed="#N" n="36"/>de vino de vite quam de vino de frumento vel alio aliquo
+          ge<lb ed="#N" n="37" break="no"/>nere vini. Non igitur solum ratione similitudinis
+          exte<lb ed="#N" n="38" break="no"/>rioris sed interioris virtutis: conuenientius fuit quod
+          sacra<lb ed="#N" n="39" break="no"/>mentum sanguinis sub specie vini de vite institueretur: quam sub
+          <lb ed="#N" n="40"/>specie alterius vini.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

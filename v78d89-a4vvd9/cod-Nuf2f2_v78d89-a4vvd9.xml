@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 19, Membrum 8</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 19, Membrum 8</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="141"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4vvd9"><!-- q19m8 -->
+        <head xml:id="v78d89-a4vvd9-Hd1e101">Membrum 8</head>
+        <head xml:id="v78d89-a4vvd9-Hd1e103" type="question-title">De comparatione caracterum inter se</head>
+        <p xml:id="v78d89-a4vvd9-d1e106">
+          <lb ed="#N" n="6"/>⁋ Membrum octauum
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e111">
+          <lb ed="#N" n="7"/>DEinde queritur de comparatione caracterum.
+          Circa<lb ed="#N" n="8" break="no"/>quam primo queritur. vtrum idem sit caracter
+          ba<lb ed="#N" n="9" break="no"/>ptismi et confirmationis. quod videtur per
+          diffini<lb ed="#N" n="10" break="no"/>tionem datam a beato dyo. Caracter est signum
+          <lb ed="#N" n="11"/>communionis fidei et ordinationis sancte etc. et per hoc quod
+          dici<lb ed="#N" n="12" break="no"/>tur signum communionis fidei tangitur caracter baptismi. Per
+          <lb ed="#N" n="13"/>hoc quod dicitur signum ordinationis sancte: tangitur caracter
+          <lb ed="#N" n="14"/>ordinis. non fit autem mentio de caractere confirmationis: ergo
+          ce<lb ed="#N" n="15" break="no"/>dit in idem cum altero illorum sed non cum caractere ordinis. quia
+          <lb ed="#N" n="16"/>multi recipiunt caracterem confirmationis qui propter hoc non
+          <lb ed="#N" n="17"/>dicuntur habere caracterem ordinis. ergo erit idem cum
+          sacramen<lb ed="#N" n="18" break="no"/>to baptismi. vel diminute datur diffinitio.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e140">
+          ⁋ Preterea.
+          dif<lb ed="#N" n="19" break="no"/>ferunt signa sicut et signata: sed signata per caracterem baptis
+          <lb ed="#N" n="20"/>mi et per caracterem confirmationis differunt solum secundum accidens
+          <lb ed="#N" n="21"/>quia differunt secundum roboratum et non roboratum. dicitur enim quod gratia
+          <lb ed="#N" n="22"/>que infunditur in baptismo roboratur in confirmatione.
+          <lb ed="#N" n="23"/>ergo similiter signa que respondent illi gratie differunt soloo secundum
+          <lb ed="#N" n="24"/>accidens. et idem erunt in essentia.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e157">
+          ⁋ Contra. sacramentum
+          ba<lb ed="#N" n="25" break="no"/>ptismi et sacramentum confirmationis sunt sacramenta
+          diffe<lb ed="#N" n="26" break="no"/>rentia secundum essentiam: sed caracter est de essentia sacramenti.
+          er<lb ed="#N" n="27" break="no"/>go caracteres erunt differentes secundum essentiam.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e166">
+          ⁋ Ad quod
+          <lb ed="#N" n="28"/>dicendum. quod differunt per essentiam caracter baptismi et
+          confirma<lb ed="#N" n="29" break="no"/>tionis.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e173">
+          ⁋ Ad primo obiectum dicendum. quod in hoc quod dicitur signum
+          <lb ed="#N" n="30"/>communionis fidei: complectitur caracter baptismi et
+          confir<lb ed="#N" n="31" break="no"/>mationis. et est sicut genus ad vtrumque caracterem. Unde
+          <lb ed="#N" n="32"/>non sequitur ex hoc quod sint idem: sed potius differentes. Non
+          <lb ed="#N" n="33"/>sic autem est de caractere ordinis. quia non est signum fidei sed
+          po<lb ed="#N" n="34" break="no"/>testatis.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e186">
+          ⁋ Ad aliud foluimus per interemptionem quia non
+          <lb ed="#N" n="35"/>solum differt secundum accidens gratia baptismalis et gratia
+          con<lb ed="#N" n="36" break="no"/>firmationis: immo gratia baptismalis est gratia ad credem
+          <lb ed="#N" n="37"/>dum: gratia vero confirmationis est ad fortiter operandum vel
+          mi<lb ed="#N" n="38" break="no"/>litandum in militia christi secundum quod huiusmodi. et hec est alia gratia quam
+          pri<lb ed="#N" n="39" break="no"/>ma. nec statim datur cum gratia iustificante in baptismo
+          si<lb ed="#N" n="40" break="no"/>cut gratia ad perseuerandum. Alia est a gratia iustificante nec
+          <lb ed="#N" n="41"/>statim datur cum illa. dicimus ergo quod sicut differunt
+          gra<lb ed="#N" n="42" break="no"/>tie ille: sic differunt caracteres qui illarum sunt signa.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e206">
+          <lb ed="#N" n="43"/>veinde queritur.§. i
+          <lb ed="#N" n="44"/>de comparatione caracteris ordinis ad caracterem baptismi.
+          <lb ed="#N" n="45"/>vtrum scilicet caracter ordinis possit dari sine caractere baptil
+          <lb ed="#N" n="46"/>mi. videtur quod non. quia non potest caracter confirmationis dari ni
+          <lb ed="#N" n="47"/>fi data caractere baptismali. ergo nec caracter ordinis nist
+          <lb ed="#N" n="48"/>precedente caractere baptismi.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e222">
+          ⁋ Contra. sicut sacramentum
+          <lb ed="#N" n="49"/>scilicet ordinis se habet ad sacramentum baptismi: ita caracter
+          <lb ed="#N" n="50"/>huius ad caracterem illius. sed sacramentum ordtnis non fundatur
+          <lb ed="#N" n="51"/>super baptismum quod patet. quia ordo fuit in veteri lege et
+          po<lb ed="#N" n="52" break="no"/>testas sacerdotalis et non baptismus: ergo nec caracter
+          ordi<lb ed="#N" n="53" break="no"/>nis fundatur super caracterem baptismi.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e236">
+          ⁋ Si dicatur quod non est
+          or<lb ed="#N" n="54" break="no"/>do in noua lege sicut tunc fuit in veteri. Unde licet ordo ille
+          <lb ed="#N" n="55"/>non fundatur super baptismum. tamen ille qui modo est fundatur super baptii
+          <lb ed="#N" n="56"/>mum. Obiicitur contra. quiadniugium quod erat in veteri lege remanet in
+          <lb ed="#N" n="57"/>nouo. quare similiter videtur quod rtrmaneat in noua lege ordo
+          <lb ed="#N" n="58"/>qui erat in veteri.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e249">
+          ⁋ Responsio. dicimus quod ordo secundum quod est in
+          <lb ed="#N" n="59"/>noua lege fundatur super baptismum. nec est ordo nisi precedente
+          <lb ed="#N" n="60"/>baptismo.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e256">
+          ⁋ Ad obiectum dicimus quod equiuoce tunc erat
+          <lb ed="#N" n="61"/>ordo in veteri et nunc in nouo. quia nunc ordo est ordinata potestas de
+          <lb ed="#N" n="62"/>scendens a christo sacerdote: tunc autem erat ordo solum signum
+          sa<lb ed="#N" n="63" break="no"/>cerdotalis potestatis que fuit in christo. nec oportuit fundari super
+          <lb ed="#N" n="64"/>baptismum: illum autem qui nunc est om: et caracterem ordinis super
+          cara<lb ed="#N" n="65" break="no"/>cterem baptismi.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e269">
+          ⁋ Ad id quod obiicit de coniugio. dicendum. quod non est
+          <lb ed="#N" n="66"/>simile: quia coniugium cum sit de lege nature et ita non tantum est in figura:
+          <lb ed="#N" n="67"/>non euacuatur a noua lege. ordo autem qui erat de sacramentis
+          ve<lb ed="#N" n="68" break="no"/>teris legis euacuatur. quia sacramenta veteris legis cessant
+          <lb ed="#N" n="69"/>adueniente veritate quia statuta sunt in figura. dicimus tamen quod
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>coniugium licet possit initiari non precedente baptismo vt in
+          iu<lb ed="#N" n="71" break="no"/>deis vel paganis. non tamen simpliciter ratificatur. nisi fundetur
+          <lb ed="#N" n="72"/>super baptismum secundum quod dicit apostolus. i. corum. vii. Si infidelis
+          disce<lb ed="#N" n="73" break="no"/>dit discendat etc.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e291">
+          ⁋ Si autem queratur quid agendum sit in hoc casu scilicet sic
+          <lb ed="#N" n="74"/>aliquis non baptizatus ordinetur in episcoum. et ipse postmodum multos
+          <lb ed="#N" n="75"/>sacerdotes ordinet. Utrum illi sint ordinati vel non. Si enim
+          <lb ed="#N" n="76"/>ipse non erat ordinatus: qualiter poterat alios ordinare:
+          Si<lb ed="#N" n="77" break="no"/>autem non sunt ordinati hoc durum videtur. Et dicendum quod tales non sunt
+          or<lb ed="#N" n="78" break="no"/>dinati. quia ille episcopus non habuit potstatem ordinandi. cum nec ipse
+          or<lb ed="#N" n="79" break="no"/>dinatus esset. quia sacramentum ordinis oportet fundari super
+          <lb ed="#N" n="80"/>baptismum. sicut dicit decre. iii. libro de presbitero non baptizato
+          <lb ed="#N" n="81"/>Si quis presbiter deprehenderit se non esse baptiza tum: baptizet
+          <lb ed="#N" n="82"/>et iterum ordinetur. Et in alia decretali determinatur. quod debeat
+          <lb ed="#N" n="83"/>baptizari. et postea per singlos ordines promoueri.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e315">
+          ⁋ Sed qu
+          <lb ed="#N" n="84"/>ritur in quo dinoscitur quando imprimitur caracter in quolibet dictorum trium
+          <lb ed="#N" n="85"/>sacramentorum cum plura sint sacramentalia in quolibet eorum. quare
+          <lb ed="#N" n="86"/>scilicet magis imprimitur in baptismo. p in ablutione quam in vnctione
+          <lb ed="#N" n="87"/>crismatis: et quare in confirmatione imprimitur in ipsa vnctione.
+        </p>
+        <p xml:id="v78d89-a4vvd9-d1e327">
+          <lb ed="#N" n="88"/>⁋ Solutio. dicimus quod in baptismo est caracter ad credendum
+          <lb ed="#N" n="89"/>redemptorem in quo intelligitur ipsa trinitas et incarnatio: ideo
+          <lb ed="#N" n="90"/>congrue datur baptismalis quando aduenit verbum trinitatis ad
+          <lb ed="#N" n="91"/>elementum et abluitur ipse baptizatus. Caracter autem confirmationis
+          <lb ed="#N" n="92"/>quia est sanctificationis vt dictum est: conuenienter imprimitur in ipsa
+          vn<lb ed="#N" n="93" break="no"/>ctione crismatis quod est signum sanctificationis. Quia vero
+          cara<lb ed="#N" n="94" break="no"/>cter ordinis est caracter potestatis: ideo in traditione libri vel alicus
+          <lb ed="#N" n="95"/>talis congrue imprimitur. vnde semper debet esse aliqua congruentia operis
+          <lb ed="#N" n="96"/>sacramentalis in quo imprimitur caracter ad ipsum
+          cara<lb ed="#N" n="97" break="no"/>cterem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

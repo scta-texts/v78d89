@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 112, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 112, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="696"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aj2obe"><!-- q112m4 -->
+        <head xml:id="v78d89-aj2obe-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aj2obe-Hd1e103" type="question-title">Utrum a servo vel ancilla</head>
+        <p xml:id="v78d89-aj2obe-d1e106">
+          <lb ed="#N" n="54"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-aj2obe-d1e111">
+          <lb ed="#N" n="55"/>COnsequenter queritur. si seruus vel ancilla potest
+          fa<lb ed="#N" n="56" break="no"/>cere elemosynam de rebus domini sui. Quod sic: vdtur per hoc. quod
+          <lb ed="#N" n="57"/>fidelitati serui vel ancille committit dominus fidelem
+          <lb ed="#N" n="58"/>custodiam rerum suarum: sed nunquam fidelius conseruantur res quam cum
+          pau<lb ed="#N" n="59" break="no"/>peribus in elemosynis distribuuntur. quia que sic distribuuntur: in
+          thesau<lb ed="#N" n="60" break="no"/>ro celesti vbi nec erugo nec tinea demolitur conseruantur Mat.
+          <lb ed="#N" n="61"/>vi. Exemplum de hoc est de villico iniquitatis qui cum dissipasset
+          <lb ed="#N" n="62"/>bona domini sui: nihilominus a domino commendatur. multo fortius
+          ser<lb ed="#N" n="63" break="no"/>uus videtur commendandus qui bona domini sui distribuisset
+          pauperi<lb ed="#N" n="64" break="no"/>bus.
+        </p>
+        <p xml:id="v78d89-aj2obe-d1e135">
+          ⁋ Contra. seui non dominantur rebus dominorum suorum: ergo non habent
+          <lb ed="#N" n="65"/>posse in distributione earum.
+        </p>
+        <p xml:id="v78d89-aj2obe-d1e141">
+          ⁋ Responsio. sicut est supratactum. ad hoc quod
+          ali<lb ed="#N" n="66" break="no"/>quis habet potstatem faciendi elemosnas. requiritur libera facltas:
+          <lb ed="#N" n="67"/>iustum dominium: et ordinatum ministerium. quorum nullum est reperire in
+          <lb ed="#N" n="68"/>seruo respectu rerum domini sui propter quod simpliciter dici potest. quod sine
+          <lb ed="#N" n="69"/>consensu expresso vel presumpto domini sui vel ratihabitione neque
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>magnas neque paruas elemosnas facere potest.
+        </p>
+        <p xml:id="v78d89-aj2obe-d1e157">
+          ⁋ Et si obiicitur
+          <lb ed="#N" n="71"/>quod eadem ratione nec filius nec famulus: quia nec est illius libera
+          fa<lb ed="#N" n="72" break="no"/>cultas. nec iustum dominium nec ordinatum ministerium. potest dici quod
+          <lb ed="#N" n="73"/>non est simile. quia seruus nec actu nec habitu dominatur rebus domini. filius
+          <lb ed="#N" n="74"/>et si non dominatur actu: tamen dominatur habitu rebus pratris.
+        </p>
+        <p xml:id="v78d89-aj2obe-d1e168">
+          ⁋ Ad
+          il<lb ed="#N" n="75" break="no"/>lud quod obicitur. quod res domini commisse sunt fidei seruorum. potest dici quiod
+          <lb ed="#N" n="76"/>verum est quantum ad aliquid: et quantum ad aliquid non. fidelitas enim
+          con<lb ed="#N" n="77" break="no"/>missi aitenditur quantum ad duo scilicet quantum ad fidelem custodiam: et quantum
+          <lb ed="#N" n="78"/>ad fidelem dispensationem. quantum ad primum modum comittitur res
+          <lb ed="#N" n="79"/>domini fidei siue fidelitati seui: non quantum ad secundum.
+        </p>
+        <p xml:id="v78d89-aj2obe-d1e181">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="80"/>obitur de villico iniquitatis. potest dici. quod non comendatur a domino
+          pro<lb ed="#N" n="81" break="no"/>pter dissipationem bonorum domini sui: sed propter prudentiam eius in
+          sub<lb ed="#N" n="82" break="no"/>uentione sui post amotionem a villicatione. vnde glo. ibidem laudat
+          <lb ed="#N" n="83"/>prudentiam eius quod non aduersus dominum fraudulenter sed quod
+          pruden<lb ed="#N" n="84" break="no"/>ter pro se egerit.
+        </p>
+        <p xml:id="v78d89-aj2obe-d1e194">
+          ⁋ Adhuc queritur hoc de illo qui non habet pecuniam
+          <lb ed="#N" n="85"/>propriam sed depositam. et videt pauperes in extrema necessitate:
+          <lb ed="#N" n="86"/>ant debet illis dispensare depositum. videtur quod sic: quia omnia sunt commnia
+          <lb ed="#N" n="87"/>et communicanda in extrema necessitate. Contra. depositum illud
+          <lb ed="#N" n="88"/>non est suum sed commissum fidei sue. tenetur ergo illud seruare fideliter ei qui
+          <lb ed="#N" n="89"/>deposuit illud: ergo tenetur non dare. Si enim dat: contractat rem
+          alie<lb ed="#N" n="90" break="no"/>nam inuito domino et ita furtum facit.
+        </p>
+        <p xml:id="v78d89-aj2obe-d1e210">
+          ⁋ Responso. quod depositum est
+          dan<lb ed="#N" n="91" break="no"/>dum in extrema necessitate dummodo dans non haberet de suo vt
+          pos<lb ed="#N" n="92" break="no"/>set tali pauperi subuenire. nec est ibi contrectatio rei aliene
+          inui<lb ed="#N" n="93" break="no"/>to domino: quia dominus si presns esset consentire deberet. Uidetur autem mihi
+          <lb ed="#N" n="94"/>quod si ad pinguiorem fortunam venerit ille qui dat: tenetur ei red
+          <lb ed="#N" n="95"/>dere qui deposuit ac si ab illo habuisset per contractum mutui: licet
+          <lb ed="#N" n="96"/>forte aliud aliquibus videatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

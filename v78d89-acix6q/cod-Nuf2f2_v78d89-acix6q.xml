@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 65, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 65, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="425"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acix6q"><!-- q65m4 -->
+        <head xml:id="v78d89-acix6q-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-acix6q-Hd1e103" type="question-title">Declarantur verba Apostoli vocantis ea lignum fenum et stipulam</head>
+        <p xml:id="v78d89-acix6q-d1e106">
+          <lb ed="#N" n="130"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-acix6q-d1e111">
+          <lb ed="#N" n="131"/>SEquitur de illis peccatis que tanguntur. i. corum.
+          <lb ed="#N" n="132"/>iii. que apostolus vocat lignum fenum et stipulam. Primo
+          <lb ed="#N" n="133"/>ergo queritur. an sint mortalia: an venialia.
+          Se<lb ed="#N" n="134" break="no"/>cundo queritur de fundamento super quod edificantur.
+          <lb ed="#N" n="135"/>Tercio queritur de superedificatione huic fundamento. Quarto.
+          <lb ed="#N" n="136"/>de purgatione eorum que superedificantur.
+        </p>
+        <div xml:id="v78d89-acix6q-Dd1e127">
+          <head xml:id="v78d89-acix6q-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-acix6q-d1e131">
+            <lb ed="#N" n="137"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-acix6q-d1e136">
+            <lb ed="#N" n="138"/>CIrca primum obiicitur sic. In glo. i. corum. iii. Si quis
+            <lb ed="#N" n="139"/>luperedificat etc. Ille qui circa diuitias suas quodam
+            <pb ed="#N" n="426"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>carnali tenetur affectu: et tamen ex eis multas elemosynas
+            fa<lb ed="#N" n="2" break="no"/>cit. nec tamen ad eas augendas aliquid fraudis vel rapine
+            mo<lb ed="#N" n="3" break="no"/>litur: nec earum minuendarum vel amittendarum metu in aliquod
+            cri<lb ed="#N" n="4" break="no"/>men labitur: lignum fenum stipulam edificat. Ex hoc patet quia
+            edifi<lb ed="#N" n="5" break="no"/>care lignum fenum stipulam est venialia comittere.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e158">
+            ⁋ Item magister
+            <lb ed="#N" n="6"/>iiii. sententim. Non omnis qui venialiter peccat lignum fenum stipulam
+            <lb ed="#N" n="7"/>edificat siue econuerso etc. vbi patet idem.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e165">
+            ⁋ Item super
+            funda<lb ed="#N" n="8" break="no"/>mentum fidei non potest aliquid mortale edificari. ergo si per lignum
+            fe<lb ed="#N" n="9" break="no"/>num stipulam significantur peccata aliqua: necesse est illa esse venialia.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e173">
+            <lb ed="#N" n="10"/>Contra. v. ysa. Ue qui coniungitis domum ad domum etc. super hoc
+            <lb ed="#N" n="11"/>Hiero. heretici dogmata dogmatibus coniungunt. et qui supra
+            fun<lb ed="#N" n="12" break="no"/>bamentum debuerunt edificare aurum et argentum lapides precio
+            <lb ed="#N" n="13"/>fos: econtra edificant lignum fenum stipulam. sed constat quod heretici ent
+            <lb ed="#N" n="14"/>fictione dogmatum suorum mortaliter peccant. ergo illud non intelligitur
+            <lb ed="#N" n="15"/>de venialibus.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e189">
+            ⁋ Item per lignum se. sti. significantur quedam apta
+            <lb ed="#N" n="16"/>combustioni et humiditate radicis carentia. vnde tropo
+            con<lb ed="#N" n="17" break="no"/>uenienti illis significantur homines humore gratie carentes: et sic
+            <lb ed="#N" n="18"/>existentes in peccato mortali.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e198">
+            ⁋ Item videtur quod edificare hec:
+            <lb ed="#N" n="19"/>neque est committere veniale neque mortale. quia supra fidem nihil
+            <lb ed="#N" n="20"/>edificatur nisi bonum. ergo nullum peccatum scilicet neque veniale neque
+            <lb ed="#N" n="21"/>mortale.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e207">
+            ⁋ Item nihil comburitur quod est de spiritali edificio.
+            <lb ed="#N" n="22"/>sed lignum fenum stipulam superedificantur. ergo per hec cremabilia
+            ali<lb ed="#N" n="23" break="no"/>qua non significantur.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e214">
+            ⁋ Item queritur quo tropo dicuntur venialia
+            <lb ed="#N" n="24"/>lignum fenum stipula. et qumo cum multe sint differentie venialium:
+            <lb ed="#N" n="25"/>ad hec tria reducantur.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e221">
+            ⁋ Similiter potest incidenter queri de alio
+            <lb ed="#N" n="26"/>trinario scilicet auro argento et lapidibus preciosis scilicet de eorum
+            suf<lb ed="#N" n="27" break="no"/>ficientia et distinctione
+          </p>
+          <p xml:id="v78d89-acix6q-d1e229">
+            ⁋ Responsio. dicendum ad hec. quod vna sententia
+            <lb ed="#N" n="28"/>sacre scripture multis protest modis exponi. licet enim vnus sit
+            in<lb ed="#N" n="29" break="no"/>tellectus principalis scilicet latenalis: plures tamen posunt esse secundum
+            plu<lb ed="#N" n="30" break="no"/>res modos adoptionis. vnde in proposito literalis intellectus secundum
+            <lb ed="#N" n="31"/>quod patet ex serie textus et glo. est de peccatis venialibus. Hiero.
+            <lb ed="#N" n="32"/>autem secundum quandam adaptationem dogmatizationi hereticorum
+            ex<lb ed="#N" n="33" break="no"/>ponit.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e245">
+            ⁋ Ad aliud dicendum. quod licet venialia gratiam non destruunt
+            <lb ed="#N" n="34"/>in committentibus illa: nihilominus tamen ipsa in se nihil gratie
+            ha<lb ed="#N" n="35" break="no"/>bent. neque enim causantur a gratia neque informantur. Pret.
+            graui<lb ed="#N" n="36" break="no"/>pene committentes ea obligant. vnde non immerito quantum est
+            <lb ed="#N" n="37"/>de illis: significantur per illa que apta sunt incendio et carent
+            <lb ed="#N" n="38"/>humiditate radicis.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e258">
+            ⁋ Ad aliud quod obiicitur. quod supra funda
+            <lb ed="#N" n="39"/>mentum fidei nihil edificatur nisi bonum etc. Dicendum quod lignum
+            <lb ed="#N" n="40"/>fenum et stipula superedificari dicuntur dupliciter: secundum quod dupliciter
+            <lb ed="#N" n="41"/>possumus exponere. potest enim intelligi per lignum opus bonum
+            <lb ed="#N" n="42"/>cui tamen est annexum aliquiod veniale peccatum. sicut patet in multis
+            <lb ed="#N" n="43"/>actibus. et talem opus ex alio habet quod sit de edificio: ex alio
+            ha<lb ed="#N" n="44" break="no"/>bet quod sit cremabile. nam superedificatur ea ratione qua bonum
+            <lb ed="#N" n="45"/>est propter principalem intentionem. sed cremabilem est ea ratione que
+            <lb ed="#N" n="46"/>habet amorem terrenis annexum. et vix contingit nisi in perfectis quin
+            <lb ed="#N" n="47"/>in bonis cadat aliquid a latere reprehensibilem. Aliter potest
+            ex<lb ed="#N" n="48" break="no"/>poni. vt per lignum se. sti. recte intelliguntur venialia. et ita
+            dicun<lb ed="#N" n="49" break="no"/>tur superedificari vt non sint de edificio. sed quoniam fundamentum
+            <lb ed="#N" n="50"/>edificii non subuertunt sed simul stant cum illis. non sic est de
+            mor<lb ed="#N" n="51" break="no"/>talibus peccatis. et pro tanto dicuntur edificari: tamen nihilominus
+            <lb ed="#N" n="52"/>cremabuntur. Ex his patet responsio ad aliud quod sequitur.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e291">
+            ⁋ Ad
+            il<lb ed="#N" n="53" break="no"/>lud quod queritur quo tropo dicuntur venialia lignum etc. Potest
+            <lb ed="#N" n="54"/>dici quod apostolus loquitur de venialibus inquantum sunt cremabilia:
+            <lb ed="#N" n="55"/>siue efficiunt committentem dignum crematione. propter quod tropo
+            con<lb ed="#N" n="56" break="no"/>gruo predictis significantur. Cremabile autem quod prestat
+            pabu<lb ed="#N" n="57" break="no"/>sum igni et consumitur ab illo: se habent in triplici differentia. quoddam
+            <lb ed="#N" n="58"/>enim est quod diutius durat: quoddam quod citissime consumitur:
+            <lb ed="#N" n="59"/>quoddam quod medio modo se habet. Primum dicitur lignum: secundum
+            <lb ed="#N" n="60"/>stipula: tercium fenum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e311">
+            ⁋ Ad illud quod obiicitur de alio
+            terna<lb ed="#N" n="61" break="no"/>rio. Dicendum quod sicut habetur in glo. i. Corm. iii. hec tria scilicet
+            <lb ed="#N" n="62"/>aurum argentum et lapides preciosi superedificant seculi contem
+            <lb ed="#N" n="63"/>ptores. aurum edificant in contemplatione dei et amore. argentum
+            <lb ed="#N" n="64"/>in dilectione proximi. lapides preciosos in operibus bonis. Hec
+            <lb ed="#N" n="65"/>autem distinctio patet sic. consideranda est mens humana inquantum est
+            <lb ed="#N" n="66"/>ordinata quantum ad superiorem partem: et sic est contemplatio et
+            <lb ed="#N" n="67"/>amor dei. et quoniam hoc dicitur eminentissimum in anima: recte per
+            au<lb ed="#N" n="68" break="no"/>rum intelligitur. Est autem consideranda quantum ad inferiorem partem.
+            <lb ed="#N" n="69"/>et hoc dupliciter. aut vt ipsa voluntas ordinata est in se: hoc est
+            quan<lb ed="#N" n="70" break="no"/>tum dirigitur in actu interiori: et sic est dilectio proximi. et
+            intel<lb ed="#N" n="71" break="no"/>ligitur per argentum. Aut prout est ordinata et directa quantum ad
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>opera exteriora: et intelligitur per lapides preciosos. dilectio
+            au<lb ed="#N" n="73" break="no"/>tem proximi comparatur ad opera bona sicut argentum ad lapides
+            <lb ed="#N" n="74"/>preciosos: pro eo quod sicut argentum substernitur lapidibus preciosis
+            <lb ed="#N" n="75"/>et per illos ornatur: sic dilectio per opera virtutum.
+          </p>
+        </div>
+        <div xml:id="v78d89-acix6q-Dd1e350">
+          <head xml:id="v78d89-acix6q-Hd1e352">Articulus 2</head>
+          <p xml:id="v78d89-acix6q-d1e354">
+            <lb ed="#N" n="76"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-acix6q-d1e359">
+            <lb ed="#N" n="77"/>COnsequenter queritur de fundamento vtriusque
+            <lb ed="#N" n="78"/>edificii pretacti. quia vnum est vtriusque vt pate i.
+            <lb ed="#N" n="79"/>Corum. iii. Et vt habetur ibidem. Fundamentum aliud
+            <lb ed="#N" n="80"/>nemodo potest ponere preter id quod positum est: quod est christus ihs. Et
+            <lb ed="#N" n="81"/>glo. dicit id est fides christi. sed que per dilectionem operatur: ergo secundum hoc
+            <lb ed="#N" n="82"/>fides est fundamentum in illis edificiis.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e375">
+            ⁋ Item videtur per
+            il<lb ed="#N" n="83" break="no"/>lud Hebre. xi. Fides est substantia rerum sperandarum. vbi
+            <lb ed="#N" n="84"/>dicit glo. quod fides est fundamentum omnium bonorum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e382">
+            ⁋ Item
+            <lb ed="#N" n="85"/>super fundamentum spirituale edificantur opera bona
+            <lb ed="#N" n="86"/>quorum causa est fundamentum. sed fides est causa bonorum.
+            <lb ed="#N" n="87"/>vnde Iaco. ii. Ego ostendam tibi ex operibus fidem meam.
+            <lb ed="#N" n="88"/>opera enim ostendunt fidem sicut effectus causam. et ita
+            fi<lb ed="#N" n="89" break="no"/>des est causa bonorum operum: et ita competit ei esse fundamr
+            <lb ed="#N" n="90"/>tum
+          </p>
+          <p xml:id="v78d89-acix6q-d1e399">
+            ⁋ Contra. Epheo. iii. In caritate radicati et
+            funda<lb ed="#N" n="91" break="no"/>ti. ergo caritas est fundamentum in spirituali edificio.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e404">
+            ⁋ Item sup
+            <lb ed="#N" n="92"/>textum prime Corum. dicit glo. sicut corporalis fabrice
+            fun<lb ed="#N" n="93" break="no"/>damentum est in imo: ita fundamentum spiritualis fabrice e
+            <lb ed="#N" n="94"/>in summo. sed caritas est in summo scilicet in patria: fides
+            au<lb ed="#N" n="95" break="no"/>tem non. ergo potius est caritas fundamentum quam fides.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e415">
+            ⁋ Item
+            <lb ed="#N" n="96"/>secundum Ambro. videtur quod apostolica doctrina sit fundamentum. Am
+            <lb ed="#N" n="97"/>brosius enim loquens de edificio huiusmodi exponit sic. Sapiens
+            <lb ed="#N" n="98"/>architectus est qui secundum disciplinam auctoris collocat
+            fun<lb ed="#N" n="99" break="no"/>damentum id est qui secundum doctrinam saluatoris euangelizat.
+            <lb ed="#N" n="100"/>alius autem superedificat scilicet ille qui veniens post apostolos
+            do<lb ed="#N" n="101" break="no"/>cet siue bonus siue malus secundum Ambro. ergo fundamentum est
+            <lb ed="#N" n="102"/>apostolica doctrina. non ergo fides neque caritas.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e433">
+            ⁋ Resposio. quod
+            ma<lb ed="#N" n="103" break="no"/>gis proprie fides dicitur fundamentum quam caritas tribus de
+            cau<lb ed="#N" n="104" break="no"/>sis. Prima est propter prioritatem fidei que prima est virtutum.
+            <lb ed="#N" n="105"/>Secunda est: quia opus fidei est dilectio ipsa vt dicit glo.
+            <lb ed="#N" n="106"/>super illud Gal. v. Fides que per caritatem operatur. fides enim
+            <lb ed="#N" n="107"/>est causa dilectionis. Tercia est: quia fides non habet aliud
+            <lb ed="#N" n="108"/>subiectum vel materiam quam deum vel christum. quia omnes
+            articu<lb ed="#N" n="109" break="no"/>li fidei de deo vel christo sunt. Caritas autem non habet solum deum
+            <lb ed="#N" n="110"/>vel christum materiam: immo aliquando proximum. duplex enim est
+            <lb ed="#N" n="111"/>preceptum caritatis. christus autem verissime fundamentum est.
+            <lb ed="#N" n="112"/>vnde super illud Epheo. ii. superedificati super fundamentum
+            apo<lb ed="#N" n="113" break="no"/>stolorum et prophetarum etc. dicit glo. Si sacramentum cogites
+            <lb ed="#N" n="114"/>christus est sanctus sanctorum. Si gregem subditum: christus est
+            pa<lb ed="#N" n="115" break="no"/>stor pastorum. Si fabricam cogites: christus est fundamentum
+            <lb ed="#N" n="116"/>fundamentorum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e466">
+            ⁋ Ad primo obiectum contra hoc. Dicendum
+            <lb ed="#N" n="117"/>quod caritas dicitur fundamentum quia fides non est fundamentum
+            <lb ed="#N" n="118"/>sine illa. quia si fides sit sine caritate mortua est: et sic non
+            <lb ed="#N" n="119"/>fundamentum. vel dicitur caritas fundamentum respectu
+            illo<lb ed="#N" n="120" break="no"/>rum motuum qui proprie eliciuntur ab ipsa.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e477">
+            ⁋ Ad secundo
+            ob<lb ed="#N" n="121" break="no"/>iectum dicendum. quod licet fides non sit in patria: fundamentum tame
+            <lb ed="#N" n="122"/>est spiritualis edificii. vnde apostolus ad Coloc. i. In fide funda
+            <lb ed="#N" n="123"/>ti etc. Dicitur autem fides esse in summo. non propter essentiam suam:
+            <lb ed="#N" n="124"/>sed propter subiectum de quo est scilicet christum. De distinctione et
+            diuersi<lb ed="#N" n="125" break="no"/>tate fundamentorum habent sert. plenius in questione de funda
+            <lb ed="#N" n="126"/>mento penitentie.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e494">
+            ⁋ Ad illud quod dicit Ambrous. Dicendum quod
+            <lb ed="#N" n="127"/>apostolica doctrina dicitur fundamentum ratione illius quo
+            doce<lb ed="#N" n="128" break="no"/>batur scilicet fides christi. vnde secundum hanc acceptionem idem fundamentum
+            <lb ed="#N" n="129"/>ponit Ambro. quod apostolus. quia apostolica doctrina fides
+            <lb ed="#N" n="130"/>est. Apostoli enim idem docuerunt quod christus id est symbolum fidei
+            <lb ed="#N" n="131"/>composuerunt.
+          </p>
+        </div>
+        <div xml:id="v78d89-acix6q-Dd1e508">
+          <head xml:id="v78d89-acix6q-Hd1e510">Articulus 3</head>
+          <p xml:id="v78d89-acix6q-d1e512">
+            <lb ed="#N" n="132"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-acix6q-d1e517">
+            <lb ed="#N" n="133"/>COnsequenter queritur de superedificatione huic
+            fun<lb ed="#N" n="134" break="no"/>damento. Circa hoc queruntur duo. Primum est.
+            <lb ed="#N" n="135"/>an aliquid superedificetur huic fundamento. Secun
+            <lb ed="#N" n="136"/>dum est de expositione superedificationis.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e528">
+            <lb ed="#N" n="137"/>Circa pmu. q aliqua v. 1
+            <lb ed="#N" n="138"/>superedificentur: patet ex verbis apostoli et illis que tacta sunt.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e535">
+            ⁋ Contra
+            <lb ed="#N" n="139"/>rium autem videtur. scilicet quod nihil huic fundamento superedificetur.
+            <pb ed="#N" n="427"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quia vt habetur ex glo. sdum. tacta. fundamentum spiritualis
+            fabri<lb ed="#N" n="2" break="no"/>ce est in summo. sed supra summum nihil edificatur: alioqun non
+            <lb ed="#N" n="3"/>esset summum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e552">
+            ⁋ Item illud dicitur esse summum in fabrica
+            spi<lb ed="#N" n="4" break="no"/>rituali quod est maximum in merito. vnde quia ipsum
+            fundamen<lb ed="#N" n="5" break="no"/>tum est maxime in merito: dicitur esse summum. sed opera virtutum
+            <lb ed="#N" n="6"/>minoris efficacie sunt in merito quam ipse virtutes: quia quod ipsis
+            <lb ed="#N" n="7"/>meretur aliquis hoc est ex ipsis virtutibus. ergo opera ordine sunt
+            in<lb ed="#N" n="8" break="no"/>feriora quam virtutes. ergo non sunt dicenda superedificari tali sum
+            <lb ed="#N" n="9"/>damento.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e568">
+            ⁋ Responsio. dicendum quod licet fundamentum in hac
+            fabri<lb ed="#N" n="10" break="no"/>ca sit summum: nihilominus illi superedificantur tam bomnoia quam
+            ma<lb ed="#N" n="11" break="no"/>la. quo intellectu mala dicuntur superedificari: tactum est smpu.
+            <lb ed="#N" n="12"/>Bona autem dicuntur huic fundamento licet sit in summo
+            super<lb ed="#N" n="13" break="no"/>edificari duabus de causis. Una est: quia innituntur
+            funda<lb ed="#N" n="14" break="no"/>mento tanquam cause sue et ab illo fulciuntur. Alia est: quia hoc
+            <lb ed="#N" n="15"/>fundamentum scilicet fides viua prout est habitus: facit
+            subie<lb ed="#N" n="16" break="no"/>ctum dignum vita eterna. Opst autem meritorium ex fide elicitum
+            <lb ed="#N" n="17"/>facit operantem quadam congruentia iusticie habere ius in vita
+            <lb ed="#N" n="18"/>eterna. debetur enim vita eterna merenti quadam congruentia
+            de<lb ed="#N" n="19" break="no"/>biti. vnde. ii. Thio. iiii. Reposita est mihi corona iusticie quam
+            <lb ed="#N" n="20"/>reddet mihi in illa die iustus iudex. Status autem iste scilicet qui
+            <lb ed="#N" n="21"/>acquiritur ius quoddam in vita eterna: est excellentior quam
+            sta<lb ed="#N" n="22" break="no"/>tus ille quo efficitur quis dignus vita eterna ex sola informa
+            <lb ed="#N" n="23"/>tione habitus fidei. et ob hoc huiusmodi opera dicuntur esse super
+            fundamen<lb ed="#N" n="24" break="no"/>tum. sicut in capitulo aliquo aliqua bona persona est digna episcopa
+            <lb ed="#N" n="25"/>tu. ille tamen qui eligitur quia habet ius in episcopatu dicitur esse super alios.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e605">
+            <lb ed="#N" n="26"/>⁋ Ad hoc ergo quod obiicitur. quod super summum nihil edificatur. Dicen
+            <lb ed="#N" n="27"/>dum quod licet fundamentum sit summum in efficacia siue in
+            cau<lb ed="#N" n="28" break="no"/>sa merendi et efficiendi subiectum suum dignum premio
+            <lb ed="#N" n="29"/>eterno: nihilominus opera meritoria non incongrue dicuntur
+            <lb ed="#N" n="30"/>superedificari ratione pretacta.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e618">
+            ⁋ Ex his patet responsio ad aliud
+            <lb ed="#N" n="31"/>quia licet opera sint meriti minoris quam virtutes modo iam
+            di<lb ed="#N" n="32" break="no"/>cto: et ob hoc ordine inferiora: nihilominus non absque ratione
+            <lb ed="#N" n="33"/>dicuntur superedificari modo iam dicto.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e627">
+            <lb ed="#N" n="34"/>Quantum ad secundum .§. ii.
+            <lb ed="#N" n="35"/>queritur de expositione superedificationis. secundum enim diuersos
+            expo<lb ed="#N" n="36" break="no"/>sitores diuerse ponsentur superedificationis expositiones.
+            Di<lb ed="#N" n="37" break="no"/>cit enim Augustinus. quod ille super fundamentum edificat aurum argere
+            <lb ed="#N" n="38"/>tum lapides preciosos: qui cogitat tantum que dei sunt qumo
+            pla<lb ed="#N" n="39" break="no"/>ceat deo. Alius edificat super hoc fundamentum lignum
+            fe<lb ed="#N" n="40" break="no"/>num stipulam: qui cogitat que mundi sunt quo placeat
+            <lb ed="#N" n="41"/>mundo. vocat autem Augustinus. aurum contemplationem dei. argentum
+            <lb ed="#N" n="42"/>dilectionem proximi. lapides preciosos opera bona. lignum
+            <lb ed="#N" n="43"/>fenum stipulam vocat venialia peccata maiora et minora.
+            <lb ed="#N" n="44"/>Sed secundum hanc expositionem videtur. quod quilibet adultus qui
+            ca<lb ed="#N" n="45" break="no"/>ritatem habet super hoc fundamentum edificat aurum argentum
+            <lb ed="#N" n="46"/>lapides preciosos. quilibet enim talis aliquando contemplatur deum
+            <lb ed="#N" n="47"/>scilicet fide vel alio genere contemplationis. non enim intelligitur
+            <lb ed="#N" n="48"/>de continua contemplatione que impossibilis est homini in via.
+            <lb ed="#N" n="49"/>vt in signum huius Iacob vidit angelos ascendentes et
+            descen<lb ed="#N" n="50" break="no"/>dentes per scalam. cuius cacumen tangebat celum Gen. xxviii.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e666">
+            <lb ed="#N" n="51"/>⁋ Item Io. i. Uidebitis angelos ascendentes et
+            descenden<lb ed="#N" n="52" break="no"/>tes super filium hominis. Non enim diu posunt esse homines in
+            arce<lb ed="#N" n="53" break="no"/>contemplationis: sed necesse habent descendere ad campum
+            acti<lb ed="#N" n="54" break="no"/>onis. Similiter quilibet adultus habens caritatem diligit
+            pro<lb ed="#N" n="55" break="no"/>ximum et facit bona opera: aliter enim moreretur fides et
+            extin<lb ed="#N" n="56" break="no"/>gueretur caritas. quia fides si non habeat opera mortua est:
+            <lb ed="#N" n="57"/>vt habetur Iac. ii. Et vt dicit auctoritas. Caritas aut proficit:
+            <lb ed="#N" n="58"/>autm deficit. patet ergo quod quilibet adultus habens caritatem edificat
+            <lb ed="#N" n="59"/>aurum argentum lapides preciosos. sed quilibet talis
+            edifi<lb ed="#N" n="60" break="no"/>cator de vtroque igne securiis est: vt dicit augustinus. ergo si adultus
+            <lb ed="#N" n="61"/>habens caritatem decendat: non punietur nec in inferno nec in
+            pur<lb ed="#N" n="62" break="no"/>gatorio. hoc autem est falsum: quia ecclesia facit suffragia
+            pro<lb ed="#N" n="63" break="no"/>huiusmodi defunctis.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e698">
+            ⁋ Item quod quilibet habens caritatem
+            quantun<lb ed="#N" n="64" break="no"/>cumque sanctus sit edificat lig. se. sti. quia dicitur Eclesatius. vii. Non
+            <lb ed="#N" n="65"/>est iustus in terra qui faciat bonum et non peccet. ergo si decedat
+            <lb ed="#N" n="66"/>quantuncumque sanctus portat secum cremabilia. sed non
+            crema<lb ed="#N" n="67" break="no"/>bilia in inferno. ergo in purgatorio: cuiusmodi sunt lig. se.
+            <lb ed="#N" n="68"/>sti.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e711">
+            ⁋ Item secundum Amb. apostolica doctrina est fundamentum. ille
+            <lb ed="#N" n="69"/>autem superedificat qui veniens post aptos docet siue bonus siue
+            <lb ed="#N" n="70"/>malus sit. Sed boni docentes post apostolos edificent super hoc
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>fundamentum aurum argen. la. pre. in quibus doctrina
+            precla<lb ed="#N" n="72" break="no"/>ra signatur. Mali lig. se. sti. in quibus vana et friuola
+            doctri<lb ed="#N" n="73" break="no"/>na signatur. hec habentur ab Amb. De hac expositione
+            dubi<lb ed="#N" n="74" break="no"/>tatur. quia si aliqui docentes post apostolos mali sunt. videlicet quia
+            edi<lb ed="#N" n="75" break="no"/>ficant lig. se. sti. ergo non habent fidem operantem per caritatem. ergo
+            destru<lb ed="#N" n="76" break="no"/>ctum est in eis fundamentum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e733">
+            ⁋ Item in auro arbtro la. preci.
+            si<lb ed="#N" n="77" break="no"/>gnatur preclara doctrina. dicitur autem doctrina preclara que
+            du<lb ed="#N" n="78" break="no"/>cit ad hereditatem preclaram. de qua dicitur in psalmus. xv. Eteni
+            <lb ed="#N" n="79"/>hereditas mea preclara est mihi. talis autem doctrina est de
+            fi<lb ed="#N" n="80" break="no"/>de et moribus. ergo opposita doctrina scilicet ligi. se. et sti. contra fidem et
+            <lb ed="#N" n="81"/>mores est. ergo non est super fundamentum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e746">
+            ⁋ Item. ii. corum. iiii.
+            <lb ed="#N" n="82"/>Si opertum est euangelium nostrum: in his qui pereunt est oper
+            <lb ed="#N" n="83"/>tum. ergo si aliqui post apostolos docent opertam doctrinam id est non
+            cla<lb ed="#N" n="84" break="no"/>ram: pareuntes sunt. ergo non habent fidem operantem per dilectionem.
+            <lb ed="#N" n="85"/>ergo nec fundamentum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e757">
+            ⁋ Item noua et friuola doctrina quam
+            <lb ed="#N" n="86"/>dicit Ambro. significari in lig. se. sti. autm est de veris aut
+            <lb ed="#N" n="87"/>de falsis. Si de veris: non videtur esse vana. quia defectus
+            ve<lb ed="#N" n="88" break="no"/>ritatis vanitatem inducit. vnde psalmus. v. Quoniam non est in ore eorum
+            <lb ed="#N" n="89"/>veritas: cor eorum vanum est. Si est de falsis: non ob hoc est
+            cre<lb ed="#N" n="90" break="no"/>mabilis. quia nullum opus meritorium vite eterne
+            cremabi<lb ed="#N" n="91" break="no"/>le est. contingit autem meritorie docere falsum. si falsum sit illud
+            <lb ed="#N" n="92"/>in doctrina religionis vbi non est saluum fundamentum: sed
+            <lb ed="#N" n="93"/>subuertitur. sed falsum quod non subuertit fundamentum potest
+            do<lb ed="#N" n="94" break="no"/>ceri meritorie. Quidam enim doctores theologice docent: quod
+            <lb ed="#N" n="95"/>omnis actio est a deo. alii quod non omnis. et constat quod aliqui illorum
+            <lb ed="#N" n="96"/>docent falsum: cum due contradictorie non sint vere. et tam
+            hi<lb ed="#N" n="97" break="no"/>quam illi sunt in caritate. sic ita ergo non est necesse doctrinam de
+            fal<lb ed="#N" n="98" break="no"/>sis esse lignum se. et sti. que sunt cremabilia.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e788">
+            ⁋ Et queritur hoc
+            <lb ed="#N" n="99"/>incidenter. qualiter possit falsum doceri meritorie: cum omne
+            <lb ed="#N" n="100"/>opus meritorium sit a spiritusancto. ergo si aliquis doctor docet
+            me<lb ed="#N" n="101" break="no"/>ritorie falsum: docet illud a spiritusancto. ergo doctrinam falsi habet
+            <lb ed="#N" n="102"/>a spiritusancto. ergo spiritus sanctus docet eum falsum. hoc autem est
+            fal<lb ed="#N" n="103" break="no"/>sum: cum tantum sit spiritus veritatis vt habetur Io. xiiii. xv. xvi.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e802">
+            <lb ed="#N" n="104"/>⁋ Item supposita expositione Augustinus. videtur esse diuisio
+            edi<lb ed="#N" n="105" break="no"/>ficiorum quam assignat apostolus per duos pretactos ternarins.
+            <lb ed="#N" n="106"/>Ponatur enim quod im perfectus qui cogitat que mundi sunt qumo
+            <lb ed="#N" n="107"/>placeat mundo: faciat bona opera. edificat super
+            fundamen<lb ed="#N" n="108" break="no"/>tum et non edificat lignum se. sti. quia bona opera non sunt
+            ve<lb ed="#N" n="109" break="no"/>nialia peccata. nec edificat aurum arbto. la. pre. hoc enim
+            conue<lb ed="#N" n="110" break="no"/>nit illi qui cogitat tantum que dei sunt vt dicit Augustinus. ergo non
+            qui<lb ed="#N" n="111" break="no"/>libet habens caritatem edificat hec vel illa. ergo insufficiens est
+            apo<lb ed="#N" n="112" break="no"/>stolus in diuisione illa.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e824">
+            ⁋ Responsio. dicendum quod de edificatione
+            <lb ed="#N" n="113"/>au. arge. et la. preci. duplex potest esse intellectus. Potest enim
+            intel<lb ed="#N" n="114" break="no"/>ligi quod omnis edificatio bonorum operum siue sint exteriora
+            si<lb ed="#N" n="115" break="no"/>ue interiora siue in habente caritatem perfectam siue imperfectam:
+            <lb ed="#N" n="116"/>est edificatio auri arbtio. et la. pre. dummodo fiunt cum
+            immuni<lb ed="#N" n="117" break="no"/>tate ab omni peccato. Si enim immisceantur venialia: est
+            edi<lb ed="#N" n="118" break="no"/>ficatio bonorum: non tamen auri ar. et la. pre. Patet ergo quod
+            edificam<lb ed="#N" n="119" break="no"/>tes aurum etc. de vtroque igne sunt securi. quia non ferunt secum
+            si<lb ed="#N" n="120" break="no"/>decendunt nisi bona opera que nullo igne cremabilia sunt.
+            <lb ed="#N" n="121"/>et sic dicendo omnis edificatio que fit super fundamentum: aut
+            <lb ed="#N" n="122"/>est aurum arbtio la. pre. aut ligi. se. sti. Uel potest dici quod non omnia
+            <lb ed="#N" n="123"/>bona opera etiam si sint sine venialibus sunt au. arbto la. pre. sed
+            <lb ed="#N" n="124"/>tantum opera excellentia que faciunt viri perfecti et qui cogitant
+            <lb ed="#N" n="125"/>que dei sunt. et secundum hoc non omnis edificatio que fit super
+            fun<lb ed="#N" n="126" break="no"/>damentum continetur sub altero illorum duorum ternariorum
+            predi<lb ed="#N" n="127" break="no"/>ctorum. quia bona opera mediocria nec sunt aurum arbto. lapi.
+            <lb ed="#N" n="128"/>preci. nec lig. se. sti. et ita per premissam distinctionem patet qua
+            <lb ed="#N" n="129"/>liter respondendum est ad primo obiectum. Patet autem quod non omnis
+            <lb ed="#N" n="130"/>adultus exstns in caritate edificat au. argustis la. pre. sed vel
+            ille<lb ed="#N" n="131" break="no"/>qui opera meritoria omnino impermixta venialibus operatur:
+            <lb ed="#N" n="132"/>vel opera excellentis perfectionis. vnde licet quis deum contem
+            <lb ed="#N" n="133"/>pletur et proximum diligat et opera bona faciat: non propter hoc
+            edi<lb ed="#N" n="134" break="no"/>ficat super fundamentum aurum arbt. et la. pre. nisi hec fiant cum
+            <lb ed="#N" n="135"/>immunitate peccati.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e876">
+            ⁋ Ad aliud quod obiicitur. quod perfecti quandoque
+            <lb ed="#N" n="136"/>edificant lig. se. sti. quia non est iustus in terra qui non peccet
+            <lb ed="#N" n="137"/>etc. et ita non est securus. Dicendum quod licet viri perfecti quandoque
+            <lb ed="#N" n="138"/>edificent ligi. se. sti. tamen de vtroque igne sunt securi. quia
+            <lb ed="#N" n="139"/>caritas perfecta valde vigilans est et frequenter recurrens ad
+            <lb ed="#N" n="140"/>remedia contra venialia. Preterea. ardor caritatis ipsa
+            ve<lb ed="#N" n="141" break="no"/>nialia tollit. secundum quod habetur in glo. Luc. vii. ibi. Dimissa sunt
+            <pb ed="#N" n="428"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>ei peccata multa. que est. Ardor caritatis in ea rubiginen
+            <lb ed="#N" n="2"/>delictorum combussit. vnde etsi perfectus quandoque edificet ligtinu. se. sti.
+            <lb ed="#N" n="3"/>statim ardore caritatis vel alio aliquo remedio delet.
+            iu<lb ed="#N" n="4" break="no"/>xta illud prouer. xxiiii. Septies in die cadit iustus et resur
+            <lb ed="#N" n="5"/>git. cadit in caritate per veniale: et resurgit de casu
+            veniali<lb ed="#N" n="6" break="no"/>modo predicto. Si autem contingeret aliquem perfectum decedere cumn
+            <lb ed="#N" n="7"/>reatu venialis. quod dicit Augustinus. quod qui edificant au. arbtro. et
+            la<lb ed="#N" n="8" break="no"/>pides preci. etc. intelligendum est vt frequenter et in pluribus: et
+            <lb ed="#N" n="9"/>non semper. Uel potest dici vt dicitur. quod aliud est edificare super
+            <lb ed="#N" n="10"/>fundamentum ligi. se. sti. quam venialia committere. Tunc autem
+            <lb ed="#N" n="11"/>dicuntur venialia superedificari: quando in vsum vel in habitum
+            con<lb ed="#N" n="12" break="no"/>uertuntur. non autem quando committuntur: sicut accidit de dilectione
+            <lb ed="#N" n="13"/>vxoris et filiorum et huiusmodi. et sine tali habitu et vsu bene potest esse
+            <lb ed="#N" n="14"/>homo et maxime perfectus: quamuis ab actu peccati non potest cauere.
+            <lb ed="#N" n="15"/>vtputa que ex subreptione vel ignorantia oriuntur. licet ergo non sit
+            <lb ed="#N" n="16"/>aliquis qui non peccet: multi tamen sunt qui non edificant ligtinu. se.
+            <lb ed="#N" n="17"/>sti.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e933">
+            ⁋ Ad illud quod obiicitur. quod videtur secundum expositionem Amb.
+            <lb ed="#N" n="18"/>quod qui edificat ligti. se. sti. destruit fundamentum: et non
+            edifi<lb ed="#N" n="19" break="no"/>cat super fundamentum. Potest dici quod mali docentes post
+            apo<lb ed="#N" n="20" break="no"/>stolos edificant ligi. se. sti. super fundamentum auditorum ad
+            <lb ed="#N" n="21"/>quos peruenit doctrina malorum. Uel potest dici. quod qui taliter
+            <lb ed="#N" n="22"/>docent: non dicuntur mali malicia culpe mortalis qua
+            sub<lb ed="#N" n="23" break="no"/>uertitur fundamentum: sed quia deficiunt quantum ad perfectionem
+            do<lb ed="#N" n="24" break="no"/>ctrine. iuxta illud augustinus. defectus boni nomen mali accepit.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e951">
+            <lb ed="#N" n="25"/>⁋ Ad aliud dicendum. quod preclara doctrina est de fide et
+            mori<lb ed="#N" n="26" break="no"/>bus. sed non quelibet alia doctrina est ei contraria. vnde non est
+            <lb ed="#N" n="27"/>necesse lignum se. sti. esse conraria: licet aliquid habeat vanitatis.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e960">
+            ⁋ Ad
+            <lb ed="#N" n="28"/>illud apostoli. si oportum est euangelium nostrum etc. Dicendum quod
+            <lb ed="#N" n="29"/>apostolus intendit de doctrina sua que fuit preclara. quia
+            du<lb ed="#N" n="30" break="no"/>cens in hereditatem preclaram: non fuit oporta alicui id est non
+            cre<lb ed="#N" n="31" break="no"/>dita: nisi his qui fuerunt in statu pereuntium. vtpote
+            incredu<lb ed="#N" n="32" break="no"/>lis: qui splendorem veritatis non vident merito perfidie
+            ex<lb ed="#N" n="33" break="no"/>cecantis. vt habetur in glo. Doctrina autem signata per lignum
+            <lb ed="#N" n="34"/>se. sti. non est doctrina oporta: neque in hac significatione
+            sumi<lb ed="#N" n="35" break="no"/>tur. vnde ratio ista nihil facit ad propositum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e981">
+            ⁋ Ad illud quod
+            que<lb ed="#N" n="36" break="no"/>ritur de doctrina vana et friuola que signatur per lig. se. stio. secundum
+            <lb ed="#N" n="37"/>Ambro. aut est vera etc. Dicendum quod vana et friuola
+            do<lb ed="#N" n="38" break="no"/>ctrina potest esse de falsis. et talis doctrina induit rationem
+            cre<lb ed="#N" n="39" break="no"/>mabilis scilicet lig. se. sti. quando immiscetur peccatum. Quando enim aliquis
+            <lb ed="#N" n="40"/>doctor docet verum cum peccato. vt si nimis sit pertinax in
+            sen<lb ed="#N" n="41" break="no"/>tentia sua: et eam velit omni modo defendere et aliorum
+            do<lb ed="#N" n="42" break="no"/>ctrine preferre. aut si dimittat vtiliora et minus vtilia
+            do<lb ed="#N" n="43" break="no"/>ceat: vt videatur nouorum inuentor. In hoc casu a vanitate
+            do<lb ed="#N" n="44" break="no"/>centis et eorum que docentur dicitur doctrina vana et friuola. aut
+            <lb ed="#N" n="45"/>etiam si erubescat puram doctrinam theologicam docere sub verbis
+            <lb ed="#N" n="46"/>theologicis. sed vult videri phous et sumit verba physica:
+            si<lb ed="#N" n="47" break="no"/>cut multi faciunt vt videantur phsopi. qui signati sunt per illos de
+            <lb ed="#N" n="48"/>quibus dicitur. ii. Mach. iiii. patrios quidem honores nihil
+            ha<lb ed="#N" n="49" break="no"/>bentes: grecas glorias optimas arbitrabantur. De quibus
+            <lb ed="#N" n="50"/>dicitur Iohelis. iii. Filios iuda vendidistis filiis grecorum. et
+            <lb ed="#N" n="51"/>sic licet doctrina sit de veris: nihilominus concurrentibus
+            predi<lb ed="#N" n="52" break="no"/>ctis potest esse vana.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1020">
+            ⁋ Ad illud quod queritur. qualiter possit
+            fal<lb ed="#N" n="53" break="no"/>sum doceri meritorie etc. Dicunt quod contingit quandoque aliquem
+            <lb ed="#N" n="54"/>docere falsum meritorie: nec est vana et friuola doctrina.
+            <lb ed="#N" n="55"/>quia non est immixtum peccatum. et est illa actio a spiritusancto.
+            <lb ed="#N" n="56"/>scilicet et caritate mouente ad hoc. non tamen sequitur quod spiritus sanctus
+            <lb ed="#N" n="57"/>doceat falsum: immo neganda est hec. spiritus sanctus docet
+            fal<lb ed="#N" n="58" break="no"/>sum. quia omnis docens a sermone intelligibili: incipit et
+            pro<lb ed="#N" n="59" break="no"/>cedit ad sermonem sensibilem. Sprintus autem sanctus non
+            inspi<lb ed="#N" n="60" break="no"/>rat intelligentiam falsi in anima doctoris. cum ipse sciat
+            il<lb ed="#N" n="61" break="no"/>lud quod docetur esse falsum: quia nec ipse doctor hoc doceret
+            <lb ed="#N" n="62"/>si sciret esse falsum illud. sed spiritus sanctus sine inspiratione
+            <lb ed="#N" n="63"/>falsi mouet docentem ad docendum falsum: prout docere falsum
+            <lb ed="#N" n="64"/>induit rationem boni. quia spiritus sanctus mouet ad bonum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1049">
+            ⁋ Ad
+            il<lb ed="#N" n="65" break="no"/>lud quod vltimo obiicitur de insufficienti diuisione edificiorum.
+            <lb ed="#N" n="66"/>Dicendum quod vt smmum. tactum est: vno intellectu illi dicuntur
+            edifi<lb ed="#N" n="67" break="no"/>care aurum arbto. la. pre. qui faciunt bona opera quecumque:
+            dummo<lb ed="#N" n="68" break="no"/>do fiant immunitate peccati. Alio modo dicuntur illi soli
+            edifi<lb ed="#N" n="69" break="no"/>care aurum arbtio la. pre. qui faciunt opera excellentia:
+            cuius<lb ed="#N" n="70" break="no"/>modi sunt virorum perfectorum opera. Secundum primum intellectum est
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1065">
+            <lb ed="#N" n="71"/>diuisio sufficiens: quia quicumque superedisicat fundamento
+            super<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>edificat bona opera in immunitate peccati: aut eum commixti
+            <lb ed="#N" n="73"/>one peccati. omne enim opus bonum autm est omnino purum scilicet
+            si<lb ed="#N" n="74" break="no"/>ne peccato: aut habet peccatum immixtum. Secundum secundum
+            intel<lb ed="#N" n="75" break="no"/>lectum non est sufficiens. et sic procedit ipsa obiectio.
+          </p>
+        </div>
+        <div xml:id="v78d89-acix6q-Dd1e1080">
+          <head xml:id="v78d89-acix6q-Hd1e1082">Articulus 4</head>
+          <p xml:id="v78d89-acix6q-d1e1084">
+            <lb ed="#N" n="76"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1089">
+            <lb ed="#N" n="77"/>COnsequenter queritur de purgatione illorum scilicet
+            ligni<lb ed="#N" n="78" break="no"/>feni stipule. Circa hoc queruntur quatuor. Primum
+            <lb ed="#N" n="79"/>est. vtrum purgentur per ignem purgatorium: dico quantum
+            <lb ed="#N" n="80"/>ad penam. Secundum est. vtrum illa purgatio est per ignem
+            ma<lb ed="#N" n="81" break="no"/>terialem: an spiritualem. Tercium. vtrum vnus citius
+            pur<lb ed="#N" n="82" break="no"/>gabitur quam alius. Quartum. vtrum facta purgatione statim euolat
+            <lb ed="#N" n="83"/>purgatus scilicet ante iudicium generale.
+            <lb ed="#N" n="84"/>Qantuad primu pro l
+            <lb ed="#N" n="85"/>ceditur sic. i. Corum. iii. Uniuscuiusque opus quale sit ignis
+            pro<lb ed="#N" n="86" break="no"/>babit. Glo. duos ignes legimus futuros. vnum eternum quo
+            <lb ed="#N" n="87"/>eternaliter punientur reprobi: qui sequetur iudicium. alterum
+            <lb ed="#N" n="88"/>qui precedet quo exuretur facies mundi huius: qui emundabit
+            <lb ed="#N" n="89"/>eos qui superedificauerunt lig. se. sti.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1120">
+            ⁋ Item augustinus. in
+            enche<lb ed="#N" n="90" break="no"/>Post hanc vitam incredibile non est: nonnullos fideles
+            per<lb ed="#N" n="91" break="no"/>ignem quendam purgatorium: quantomagis minusue
+            peren<lb ed="#N" n="92" break="no"/>tia bona dilexerunt: tanto tardius citiusque saluari. vnde
+            <lb ed="#N" n="93"/>non frustra illa tria distinxit apostolus: lignum se. sti. que illi
+            ed<lb ed="#N" n="94" break="no"/>ficant. qui etsi aliena non rapiunt: rebus tamen infirmitati conces.
+            <lb ed="#N" n="95"/>sis aliqua dilectioni inherent. qui secundum suos amandi hec
+            <lb ed="#N" n="96"/>modos diutius vt lignum: minus vt fenum: vel minimum vt
+            sti<lb ed="#N" n="97" break="no"/>pula ignem sustinebunt. Ex his patet ratio quod peccata predicta
+            <lb ed="#N" n="98"/>per ignem purgatorium purgabuntur.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1142">
+            ⁋ Contra. quod aliud
+            pur<lb ed="#N" n="99" break="no"/>gat habet oppositionem aliquo modo ad illud quod purgat. sed pecia
+            <lb ed="#N" n="100"/>pene siue ignis purgatorius reatui non opponitur. ergo anima a
+            re<lb ed="#N" n="101" break="no"/>atu per ignem siue penam purgatoriam non purgatur.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1152">
+            ⁋ Item quod
+            <lb ed="#N" n="102"/>est cremabile siue purgabile: aut est reatus aut macula
+            a<lb ed="#N" n="103" break="no"/>liqua relicta in anima ex ipsa culpa. non reatus: quia reatus no
+            <lb ed="#N" n="104"/>est nisi obligatio ad penam. hoc non ponit aliquid ad
+            purgu<lb ed="#N" n="105" break="no"/>dum: sed potius debitum soluendi penam. Si macula
+            ali<lb ed="#N" n="106" break="no"/>qua. aut illa est natura aliqua et tunc bona et a deo: et tune
+            <lb ed="#N" n="107"/>non est purgabilis. aut nihil: et tunc similiter non est purgabilis.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1168">
+            <lb ed="#N" n="108"/>⁋ Item. i. Corum. iii. vbi apostolus determinat de purgatione
+            ve<lb ed="#N" n="109" break="no"/>nialium dicit. Saluus erit sic tamen quasi per ignem. ibi glo. Iste
+            <lb ed="#N" n="110"/>ignis est temptatio tribulationis de qua scriptum est. Uasa
+            <lb ed="#N" n="111"/>figuli probat fornax: et homines iustos temptatio tribulati
+            <lb ed="#N" n="112"/>onis Eccessti. xxvii. Sed constat quod ignis iste non est purgatorus.
+            <lb ed="#N" n="113"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1184">
+            ⁋ Responsio. dicendum quod sicut habetur ex glo. i. Corm. ii. Et
+            <lb ed="#N" n="114"/>xxi. di. iiii. sententim. vbi recitantur sententie sanctorum. quod ex hoc quod
+            edi<lb ed="#N" n="115" break="no"/>ficant lignum se. sti. descendunt cum quibusdam cremabilibus
+            <lb ed="#N" n="116"/>purgabuntur igne purgatorii.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1193">
+            ⁋ Ad hoc quod primo obiicitur
+            <lb ed="#N" n="117"/>atra. dicendum quod etsi ignis purgatorius non opponatur reatui:
+            <lb ed="#N" n="118"/>tamen inquantum data est sibipsi virtus purgandi animas a reliquis
+            <lb ed="#N" n="119"/>peccati aliquibus: ignis purgatorius et ipsa anima habent
+            quodan<lb ed="#N" n="120" break="no"/>modo illud genus oppositionis que est inter actiuum et
+            passi<lb ed="#N" n="121" break="no"/>uum. vnde ignis purgatorius non dicitur purgare penam siue
+            <lb ed="#N" n="122"/>reatum ad que tenetur ex commissione peccati: sed ipsam anima
+            ali<lb ed="#N" n="123" break="no"/>quo modo maculatam ex peccato commilso. Preterea. non semper est
+            <lb ed="#N" n="124"/>curatio per contrarium: sed quandoque per simile. Unde Grego. in morals
+            <lb ed="#N" n="125"/>Mos medicine est vt aliquando similibus aliquando contrariis contraria
+            <lb ed="#N" n="126"/>curet. nam sepe calida calidis: sepe autem calida frigidis:
+            fri<lb ed="#N" n="127" break="no"/>gida calidis sanare consueuit. vnde potest dici. quod non nesseest
+            <lb ed="#N" n="128"/>animam semper purgari per contrarium illi a quo purganda est:
+            <lb ed="#N" n="129"/>sed quandoque purgatur per simile. maxime cum eius purgatio est de
+            ob<lb ed="#N" n="130" break="no"/>ligatione. quod est in proposito. Anima enim edificando ligti. se. sti.
+            <lb ed="#N" n="131"/>descendens in purgatorium obligata est ad penam.
+            absol<lb ed="#N" n="132" break="no"/>uitur autem ab ista obligatione per penam quam sustineti
+            pur<lb ed="#N" n="133" break="no"/>gatorio. Ista autem absolutio purgatio dicitur: que maxime
+            con<lb ed="#N" n="134" break="no"/>uenit fieri per simile. maxime enim conuenit absolui a debito
+            <lb ed="#N" n="135"/>pene per sustinentiam pene.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1237">
+            ⁋ Ad aliud quod obiicitur. quod
+            cmbu<lb ed="#N" n="136" break="no"/>stibile siue purgabile in anima autm est reatus aut maca etc
+            <lb ed="#N" n="137"/>Dicunt quod vno modo dicitur macula reatus: et sic non dicit
+            qua<lb ed="#N" n="138" break="no"/>dam deformitatem in anima: sed debitum pene secundum quantitatem
+            de<lb ed="#N" n="139" break="no"/>licti. Alio modo dicitur quedam deformitas contracta ex ipso
+            <lb ed="#N" n="140"/>peccato commisso. Ad hoc ergo quod obiicitur. quod reatus non ponit
+            <pb ed="#N" n="429"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>aliquid purgandum. potest dici quod etsi inquantum huiusmodi non ponit a
+            li<lb ed="#N" n="2" break="no"/>quid purgandum proprie sumptum vocabulo purgationis. ponit
+            <lb ed="#N" n="3"/>tamen aliquid soluendum quod fiendum est per pene sustinentiam. Preterea.
+            <lb ed="#N" n="4"/>etsi macula sit natura aliqua in se: quia ipsi anime non est
+            conue<lb ed="#N" n="5" break="no"/>niens sed potius illam deformat: tollenda est per ignem cui data
+            <lb ed="#N" n="6"/>est virtus ad hoc ex diuina dispensatione.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1268">
+            ⁋ Ad vltimum
+            dicen<lb ed="#N" n="7" break="no"/>dum. quod licet verborum sacre scripture vnus sit intellectus primus:
+            <lb ed="#N" n="8"/>multi tamen sunt consequentes. propter quod et multe sunt eorundem
+            expo<lb ed="#N" n="9" break="no"/>sitiones et a spiritusancto. et sic est in proposito. vnde licet primus
+            <lb ed="#N" n="10"/>intellectus verbi propositi saluabitur sic tamen quasi per ignem: sit de
+            <lb ed="#N" n="11"/>igne purgatorii. alius tamen qui est de igne tribulationis
+            pre<lb ed="#N" n="12" break="no"/>sentis congruit materie. Ignis enim tribulationis multos
+            <lb ed="#N" n="13"/>iustos purgat a reatu venialium et etiam mortalium.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1287">
+            <lb ed="#N" n="14"/>Qntum ad secunduus due c§. ii.
+            <lb ed="#N" n="15"/>ritur. vtrum purgatio ista sit per ignem materialem an spiritualem. Quod
+            <lb ed="#N" n="16"/>per spualem: videtur. Dicit enim augustinus. xxi. de ci. dei. et idem habetur
+            <lb ed="#N" n="17"/>prima corum. iii. in glo. super illud. Si cuius opus arserit: eorum
+            <lb ed="#N" n="18"/>amissione cruciabitur. et iterum. eorum amissione tantum necesse est
+            <lb ed="#N" n="19"/>vt vrat: quantum heserat amor. Iste dolor spiritualis esse videtur
+            <lb ed="#N" n="20"/>et ita ignis purgatorius non est nisi spirituale quid.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1305">
+            ⁋ Item quod
+            <lb ed="#N" n="21"/>purgatur et a quo purgatur et ipsa purgatio spirituale quid est.
+            <lb ed="#N" n="22"/>ergo eodem modo erit et illud per quod purgatur. hoc autem est ignis
+            <lb ed="#N" n="23"/>purgatorius. ergo etc.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1314">
+            ⁋ Item si anima purgatur per penam corporalem
+            <lb ed="#N" n="24"/>videtur quod sufficienter puniri possit per penam mortis: cum illa sit
+            <lb ed="#N" n="25"/>suprama penarum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1321">
+            ⁋ Item nihil corporale extrinsecum facit
+            ali<lb ed="#N" n="26" break="no"/>quid ad anime iustificationem: ergo nec ad reatus eiusdem
+            remissio<lb ed="#N" n="27" break="no"/>nem. sed in purgatorio absoluitur a reatu. non ergo videtur quod hoc fiat
+            <lb ed="#N" n="28"/>nisi ab igne materiali.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1330">
+            ⁋ Item anima separata existente in gratia
+            <lb ed="#N" n="29"/>libro arbtro omnino consonat gratie. ergo ipsi feruentior est caritas tunc
+            <lb ed="#N" n="30"/>et intensior dolor de peccatis quibuscumque scilicet mortalibus et
+            <lb ed="#N" n="31"/>venialibus: quam ante scilicet ante mortem. cum ergo feruore caritatis
+            <lb ed="#N" n="32"/>et intensione doloris remittitur pena venialis in vita ista in
+            <lb ed="#N" n="33"/>qua anima omnino non est ita consona gratie: multo fortius et tunc.
+            <lb ed="#N" n="34"/>et ita nulla est necessitas ignis materialis ad purgationem etc.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1346">
+            <lb ed="#N" n="35"/>⁋ Contra. habetur ab Augustinus. et habetur. iiii. sententium. di. xxi.
+            Gra<lb ed="#N" n="36" break="no"/>umior erit ille ignis quam quicquid potest homo pati in hac vita. ergo
+            <lb ed="#N" n="37"/>anima habebit aliquod affligens extra. illud autem autem erit
+            corpo<lb ed="#N" n="38" break="no"/>rale aut spirituale. Non spirituale: quia tunc esset deus vel angelus vel
+            <lb ed="#N" n="39"/>anima quorum nullum esse potest. ergo corporale.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1360">
+            ⁋ Item iuste fit vt anima
+            <lb ed="#N" n="40"/>que corporalibus libidinose se subiecit: per materialia et
+            corpo<lb ed="#N" n="41" break="no"/>ralia sacramenta iustificetur. ergo pari ratione iustum est quod soluatur a
+            <lb ed="#N" n="42"/>reatu per affligens corporale.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1369">
+            ⁋ Item si anima post mortem punitur
+            <lb ed="#N" n="43"/>ergo aut dolore qui venit ex contritione: aut qui venit ex
+            tempo<lb ed="#N" n="44" break="no"/>ralium amissione: aut qui venit ex interiori afflictione. Non
+            <lb ed="#N" n="45"/>primo modo: quia non est amplius locus meriti nec quantum ad
+            con<lb ed="#N" n="46" break="no"/>tritionem nec quantum ad alios actus virtutum. Non secundo modo
+            <lb ed="#N" n="47"/>quia dolor de huiusmodi amissione potius sapit rationem culpe
+            <lb ed="#N" n="48"/>quam purgationis: quia venit ex inordinato amore. ergo tercio
+            mo<lb ed="#N" n="49" break="no"/>do purgatur et punitur scilicet dolore qui venit ex afflictione
+            exterio<lb ed="#N" n="50" break="no"/>ri. ergo etc.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1389">
+            ⁋ Item si ignis ille esset spiritualis: cum spirituale non possit
+            <lb ed="#N" n="51"/>dilatari siue diffundi localiter: necesse esset in diuersis
+            purgan<lb ed="#N" n="52" break="no"/>dis diuersificari. et ita quot essent anime purgande: tot essent
+            <lb ed="#N" n="53"/>ignes purgatorii. hoc autem ponere esset inconueniens. ergo etc.
+            <lb ed="#N" n="54"/>Responsio. Circa hanc questionem videtur augustinus dubitare.
+            <lb ed="#N" n="55"/>vtrum ille scilicet ignis purgatorius sit materialis an spiritualis
+            <lb ed="#N" n="56"/>et de igne infernali similiter in quo ille diues ardebat Lu.
+            <lb ed="#N" n="57"/>xvi. In libro. enim de ciui. dei. xxi. ca. x. dicit de diuite illo.
+            <lb ed="#N" n="58"/>Sic ergo incorporalis et illa flamma qua exarsit et illa gutta quam
+            <lb ed="#N" n="59"/>poposcit sunt. qualia visa dormientium etc. et satis
+            rationa<lb ed="#N" n="60" break="no"/>bilis videtur sua dubitatio. diues enim qui erat in
+            inferno<lb ed="#N" n="61" break="no"/>et cuius lingua vrebatur lingua corporalem non habebat. vnde augustinus
+            <lb ed="#N" n="62"/>ibidem. talis illa flamma quales oculos quos leuauit et
+            la<lb ed="#N" n="63" break="no"/>zarum vidit: qualis lingua cui humorem exiguum desidera
+            <lb ed="#N" n="64"/>uit infundi: qualis digitus lazari de quo id sibi fieri
+            po<lb ed="#N" n="65" break="no"/>stulauit. Sed alii doctores nobis hanc dubitationem auferunt
+            <lb ed="#N" n="66"/>vt Grego. in. iiii. dyalogorum. et Ysiud. de ordine creaturarum.
+            <lb ed="#N" n="67"/>et communiter doctores moderni tenent ignem purgatorium
+            corpo<lb ed="#N" n="68" break="no"/>ralem esse. Nec putandum est Augustinus. in his dubitasse. Quod
+            au<lb ed="#N" n="69" break="no"/>tem habetur libro. de cio. dei. et recitatur in glo. i. corum. iii. Animas
+            <lb ed="#N" n="70"/>post hanc purgari igne spirituali. cui additur. non reda: guo quia
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>forsitan verum est. non dicit dubitando: sed sic posse contingere
+            <lb ed="#N" n="72"/>insinuando scilicet animas purgari posse igne spirituali. Satis ei
+            <lb ed="#N" n="73"/>in verbis suis innuit quod ille ignis purgatorius est
+            materi<lb ed="#N" n="74" break="no"/>alis sicut ignis infernalis. Qualiter autem ignis materia
+            <lb ed="#N" n="75"/>lis agat in animas a corpore separatas: dubitationem habet. et qualiter
+            <lb ed="#N" n="76"/>illas purget. Et hoc determinant quidam sic dicentes. quod per
+            <lb ed="#N" n="77"/>vim punitiuam data est illi igni vis purgatiua: ratione cuius
+            <lb ed="#N" n="78"/>purgat a veniali macula vel etiam a peccati scoria: sicut
+            <lb ed="#N" n="79"/>sacramenta habent vim satisfaciendi sibi datam. Et illud
+            <lb ed="#N" n="80"/>videtur per hoc quod Augustinus. dicit huius flamme esse
+            rationa<lb ed="#N" n="81" break="no"/>bilem disciplinam. Alii aliter. scilicet quod ille ignis per eandem
+            na<lb ed="#N" n="82" break="no"/>turam punit et purgat. quia puniendo iuuat gratiam. et
+            gra<lb ed="#N" n="83" break="no"/>tia adiuta per penam et consensum voluntatis: potest purgare
+            <lb ed="#N" n="84"/>maculam et peccati scoriam. ita quod talis purgatio sit a
+            ergo<lb ed="#N" n="85" break="no"/>tia libro. arbtro. consentiente: et pena exteriore adiuuante. sicut fit
+            <lb ed="#N" n="86"/>in remissione venialium in hac vita.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1472">
+            ⁋ Si autem queritur:
+            <lb ed="#N" n="87"/>qumdo pena adiuuat gratiam ad delendum siue purgandum
+            ma<lb ed="#N" n="88" break="no"/>culam. Respondetur quod hoc facit diuina iusticia. Uel hoc
+            po<lb ed="#N" n="89" break="no"/>test intelligi eo modo loquendi quo dicitur. quod grauis
+            infir<lb ed="#N" n="90" break="no"/>mitas sobriam facit animam id est virtus hoc facit quodam modo
+            <lb ed="#N" n="91"/>adiuta per penam. Concedendum est igitur ignem illum esse
+            <lb ed="#N" n="92"/>materialem.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1488">
+            ⁋ Ad primo obiectum contra hoc potest dici.
+            <lb ed="#N" n="93"/>quod Augustinus. non intendit dicere quin ille ignis materialis
+            <lb ed="#N" n="94"/>sit qui animas purgat: sed exponit de spirituali hoc posse
+            in<lb ed="#N" n="95" break="no"/>telligi. Uel vt dicunt quidam. ille dolor perdendi idem est quod
+            <lb ed="#N" n="96"/>amor retinendi: qui fuit cupiditas venialis et peccatum.
+            <lb ed="#N" n="97"/>vnde iste dolor peccatum est: et propter istum dolorem punietur
+            <lb ed="#N" n="98"/>anima in purgatorio et sentiet alium dolorem ab igne scilicet
+            pu<lb ed="#N" n="99" break="no"/>niente. Uel melius potest dici ad hoc. Ibi erit duplex
+            do<lb ed="#N" n="100" break="no"/>lor. corporalis scilicet siue corporis: et anime. quos describit Augustinus.
+            <lb ed="#N" n="101"/>libo de natura boni sic. In anima dolorem facit voluntas
+            resi<lb ed="#N" n="102" break="no"/>stens potestati maiori. In corpore dolorem facit sensus
+            re<lb ed="#N" n="103" break="no"/>sistens corpori potentiori. Uel breuiter potest dici. quod ibi erit
+            <lb ed="#N" n="104"/>dolor spiritualis et tamen ignis materialis.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1517">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="105" break="no"/>citur. quod spiritualis est purgatio. Dicendum quod hoc verum est
+            effe<lb ed="#N" n="106" break="no"/>ctiue scilicet formaliter. per quod enim fit purgatio illa
+            forma<lb ed="#N" n="107" break="no"/>liter siue effectiue gratia est. materialiter etiam fit per
+            cor<lb ed="#N" n="108" break="no"/>porale. quia anima peccauit in carne: et ita peccando
+            cor<lb ed="#N" n="109" break="no"/>porale preposuit spirituali. diuina decreuit iusticia quod in
+            pur<lb ed="#N" n="110" break="no"/>gatione debuit rei subiici corporali siue materiali.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1534">
+            ⁋ Ad
+            il<lb ed="#N" n="111" break="no"/>lud quod obiicitur. quod per penam mortis etc. Dicendum quod ipsa
+            pe<lb ed="#N" n="112" break="no"/>na debitum est originalis peccati. nec est ordinata ad anime
+            <lb ed="#N" n="113"/>purgationem nisi voluntarie suscipiatur cum vitari potest. vt
+            <lb ed="#N" n="114"/>in martiribus. vel etiam nisi suscipiatur voluntarie et
+            susti<lb ed="#N" n="115" break="no"/>neatur cum vitari non possit: ratione illius a quo
+            inftigi<lb ed="#N" n="116" break="no"/>tur. pena autem purgatoria ad hoc specialiter ordinata est.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1550">
+            <lb ed="#N" n="117"/>⁋ Ad illud quod obiicitur. quod nihil corporale extrinsecum
+            fa<lb ed="#N" n="118" break="no"/>cit ad iustificationem etc. Dicendum quod hoc verum est per se: tamen
+            pu<lb ed="#N" n="119" break="no"/>nitio exterior quandoque reddit hominem dispositum ad susceptionen
+            <lb ed="#N" n="120"/>gratie iustificantis. et adiuuat ipsam gratiam vt possit perducere
+            <lb ed="#N" n="121"/>ad iustificationem perfectam. vnde licet non operetur ad
+            iustificati<lb ed="#N" n="122" break="no"/>onem: operatur tamen ad iustificationis consummationem.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1566">
+            ⁋ Ad
+            il<lb ed="#N" n="123" break="no"/>lud quod obiicitur. quod feruentior est caritas facta separatione
+            <lb ed="#N" n="124"/>corporis et anime etc. Dicendum quod supposito quod caritas sit
+            fer<lb ed="#N" n="125" break="no"/>uentior tunc quam ante et dolor maior: tamen quia tunc non est status
+            me<lb ed="#N" n="126" break="no"/>rendi: non fit huiusmodi purgatio tunc per feruorem huiusmodi corporis:
+            <lb ed="#N" n="127"/>sed potius ad similandum et veniendum cum summo bono. vnde
+            <lb ed="#N" n="128"/>ordinatione iusticie diuine necesse est ignem exteriorem scilicet
+            <lb ed="#N" n="129"/>purgatorium adhiberi. sicut paruulis qui mereri non possunt
+            <lb ed="#N" n="130"/>subuenit baptismatis sacramentum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1586">
+            <lb ed="#N" n="131"/>Quatum ad tercium .§. tii.
+            <lb ed="#N" n="132"/>queritur. Utrum vnus liberetur ante alium a purgatorio.
+            <lb ed="#N" n="133"/>Et videtur quod sic per Augustinus in enche. dicentem. Post hanc
+            <lb ed="#N" n="134"/>vitam incredibile non est nonnullos fideles per ignem
+            quen<lb ed="#N" n="135" break="no"/>dam purgatorium. quantomagis minusue pereuntia bona
+            <lb ed="#N" n="136"/>dilexerunt: tanto tardius citiusque saluari. qui secundum suos
+            <lb ed="#N" n="137"/>amandi hoc modos diutius vt lignum: vel minus vt fenum:
+            <lb ed="#N" n="138"/>vel minimum vt stipula sustinebunt.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1606">
+            ⁋ Item in foro
+            peni<lb ed="#N" n="139" break="no"/>tentie grauiori culpe respondet grauior pena. non solum
+            quam<lb ed="#N" n="140" break="no"/>tum ad intensionem: sed etiam quantum ad durationem. vt patet
+            in<pb ed="#N" n="430"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>spicienti canones in quibus penitentie taxantur. si ergo iudicium
+            ecclesie<lb ed="#N" n="2" break="no"/>conforme est diuino iudicio. patet etc.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1619">
+            ⁋ Item per peccatum non
+            so<lb ed="#N" n="3" break="no"/>lum meruit anima igne cremari: sed dei visione priuari. ergo
+            <lb ed="#N" n="4"/>vtroque modo debet temporaliter puniri. ergo qui grauius peccauit
+            <lb ed="#N" n="5"/>non solum acerbius puniri: sed etiam diutius debet a dei
+            visi<lb ed="#N" n="6" break="no"/>one separari. ergo tardius purgari.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1631">
+            ⁋ Contra. quantumcunque
+            <lb ed="#N" n="7"/>merita sunt inequalia: tam in celo quam in inferno sunt
+            pre<lb ed="#N" n="8" break="no"/>mia et supplicia equaliter durantia. ergo pari ratione vt videtur de
+            <lb ed="#N" n="9"/>bet esse pena purgatoria.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1640">
+            ⁋ Item secundum quod intensior est culpa:
+            in<lb ed="#N" n="10" break="no"/>tensior et ei pena reddatur. sed quantum potest minor pena super
+            <lb ed="#N" n="11"/>minorem culpam: tantum potest maior super maiorem. ergo quamcito libe
+            <lb ed="#N" n="12"/>ratur in purgatorio paruus peccator per paruam penam: tam
+            <lb ed="#N" n="13"/>cito liberatur magnus peccator per magnam penam.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1651">
+            ⁋ Item si alius
+            <lb ed="#N" n="14"/>citius alio liberatur: aut hoc est ratione maioris caritatis: aut
+            <lb ed="#N" n="15"/>ratione minoris reatus. Quod ratione maioris caritatis videtur: quia
+            <lb ed="#N" n="16"/>quanto est caritas maior tanto anima est deo similior: et quanto
+            <lb ed="#N" n="17"/>deo similior tanto statui glorie vicinior. ergo tanto citius curatur et
+            <lb ed="#N" n="18"/>purgatur et in celum fertur. Sed contra. videtur quod ratione minoris reatus:
+            <lb ed="#N" n="19"/>quia anima non est in purgatorio nisi ad soluendum quod traxit ex
+            <lb ed="#N" n="20"/>hac vita. sed quanto debitum est minus: tanto citius soluitur. ergo
+            vi<lb ed="#N" n="21" break="no"/>detur quod talis citius purgetur et in celum feratur.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1671">
+            ⁋ Responsio. dicendum
+            <lb ed="#N" n="22"/>quod sicut dicit Augustinus. expresse in illo igne citius purgatur vnus sro
+            <lb ed="#N" n="23"/>alius. Qui enim diutius in peccato permansit: dignum est vt
+            diu<lb ed="#N" n="24" break="no"/>tius sustineat penam. Rursus qui grauius offendit: dignum est
+            <lb ed="#N" n="25"/>vt puniatur pena acerbiori: et dilatione patrie longiori. diuina
+            <lb ed="#N" n="26"/>hoc iusticia faciente: que omnibus decentissime reddit stipendia
+            <lb ed="#N" n="27"/>meritorum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1687">
+            ⁋ Ad illud quod obiicitur in contrrium de equalitate
+            durati<lb ed="#N" n="28" break="no"/>onis in celo. dicendum quod non est simile: quia cum in inferno pena eter
+            <lb ed="#N" n="29"/>na infligitur: et eterno non est maius et minus: ex parte possum ex
+            <lb ed="#N" n="30"/>parte ea que est eternum. similiter in celo premium eternum datur. In
+            <lb ed="#N" n="31"/>purgatorio vero sola pena temporalis infligitur. et in hac est
+            diutio<lb ed="#N" n="32" break="no"/>breuius.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1700">
+            ⁋ Ad illud quod obiicitur. quod pena grauis eque cito
+            de<lb ed="#N" n="33" break="no"/>let grauem etc. Dicendum quod verum esset si omnino pena intenderetur
+            <lb ed="#N" n="34"/>secundum quod intenditur culpa. sed diuina dispensatio sic ordinat vt
+            <lb ed="#N" n="35"/>non omnino intendatur pena quantum ad acerbitatem propter magnam
+            dif<lb ed="#N" n="36" break="no"/>ficultatem patiendi: siue etiam quia vult vtroque modo puinre.
+            ita<lb ed="#N" n="37" break="no"/>vt maior acerbitas et diuturnitas recompensent si quid in
+            al<lb ed="#N" n="38" break="no"/>tero deficiebat.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1717">
+            ⁋ Ad illud quod queritur: quis citius purgatur.
+            <lb ed="#N" n="39"/>dicendum quod ille qui minorem habet reatum. quoniam locus purgatorius non
+            <lb ed="#N" n="40"/>est debitus nisi ratione reatus.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1724">
+            ⁋ Ad illud quod obiicitur secundum quod
+            ca<lb ed="#N" n="41" break="no"/>ritas est maior citius etc. Dicendum quod caritas maior auget
+            <lb ed="#N" n="42"/>gloriam intensiue non extensiue siue secundum durationem. Si enim duo
+            <lb ed="#N" n="43"/>innocentes inequalis caritatis simul morerentur: simul
+            euo<lb ed="#N" n="44" break="no"/>larent. non tamen equaliter beati essent. Quod ergo dicit. quod quanto
+            cari<lb ed="#N" n="45" break="no"/>tas est maior tanto est similior statui glore. Dicendum quod
+            ve<lb ed="#N" n="46" break="no"/>rum est ratione ordinationis ad bonum: sed non magis quantum ad
+            li<lb ed="#N" n="47" break="no"/>berationem a malo. velocior autem purgatio respicit ereptionem a
+            <lb ed="#N" n="48"/>malo directe non habilitationem ad bonum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1744">
+            <lb ed="#N" n="49"/>Qutuus ad quartum. §. ttum
+            <lb ed="#N" n="50"/>queritur de euolatione purgatorum. Queritur ergo hoc. vtrum aliquis
+            <lb ed="#N" n="51"/>purgatorum siue sanctorum euolet in celum ante iudicium. Et
+            vi<lb ed="#N" n="52" break="no"/>detur quod sic. Luc. xxiii. Hodie mecum eris in paradiso. ergo anima
+            la<lb ed="#N" n="53" break="no"/>tronis illo die fuit cum christo. sed constat quod christus quod promisit
+            post<lb ed="#N" n="54" break="no"/>modum non abstulit. ergo semper fuit cum christo post. Sed christus
+            ascen<lb ed="#N" n="55" break="no"/>dit in celum. ergo anima latronis ascendit. pari ergo ratione et alie sanctorum
+            <lb ed="#N" n="56"/>anime.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1764">
+            ⁋ Item Phio. i. Cupio dissolui et esse cum christo: ita dicebat
+            <lb ed="#N" n="57"/>apostolus. sed constat quod desiderium suum non erat cassum. ergo statim post
+            <lb ed="#N" n="58"/>dissolutionem fuit cum christo.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1771">
+            ⁋ Item apociu. vi. Data sunt illis
+            <lb ed="#N" n="59"/>singule stole. sed non est stola nisi gloria anime vel corporis. ergo etc.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1776">
+            <lb ed="#N" n="60"/>⁋ Item caritas est pondus spirituum sufficienter inclinans
+            sur<lb ed="#N" n="61" break="no"/>sum et eleuans. ergo si non sit aliquid retardans: statim per carita
+            <lb ed="#N" n="62"/>tem anima sursum eleuatur. sed qui purgatur in purgatorio post
+            pur<lb ed="#N" n="63" break="no"/>gationem non habet aliquid retardans. ergo statim euolat.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1788">
+            ⁋ Item
+            differ<lb ed="#N" n="64" break="no"/>re mercedem mercenarii facit preiudicium iusticie. sed deus est
+            <lb ed="#N" n="65"/>summe iustus. ergo statim quando inuenit hominem dignum retribuit.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1795">
+            <lb ed="#N" n="66"/>⁋ Item prouerbi. xiii. Spes que differtur affligit animam. Si ergo
+            <lb ed="#N" n="67"/>differtur premium sanctorum vsque ad iudicium: videtur quod sint in
+            con<lb ed="#N" n="68" break="no"/>tinua afflictione et gemitu et expectatione. ergo si tantum deus
+            dif<lb ed="#N" n="69" break="no"/>fert: videtur quod ipse sit illis crudelis.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1806">
+            ⁋ Contra. Apstolus loquens
+            <lb ed="#N" n="70"/>de martiribus sanctis et fidelibus dicit Heb. xi. Hi omnes
+            te<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>stimonio fidei probati: non acceperunt remissionem deo pro
+            no<lb ed="#N" n="72" break="no"/>bis melius aliquid prouidente. vt non sine nobis consummaretur.
+            <lb ed="#N" n="73"/>ergo si sancti priores non debuerunt consummari sine aliis sanctis
+            <lb ed="#N" n="74"/>apostolis: cum vsque ad diem iudicii crescat numerus sanctorum: vide
+            <lb ed="#N" n="75"/>tur quod vnus non euolet ante alium.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1823">
+            ⁋ Item Math. xxd.
+            Sta<lb ed="#N" n="76" break="no"/>tuet agnos a dextris: hedos autem a sinistris. et dicet his o
+            <lb ed="#N" n="77"/>a dextris eius erunt: Uenite benedicti patris mei percipite
+            re<lb ed="#N" n="78" break="no"/>gnum. ergo videtur quod non sint ante illud iudicium regnum percepturi.
+            <lb ed="#N" n="79"/>Si enim prius percepissent non diceret dominus: percipite regnum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1834">
+            <lb ed="#N" n="80"/>⁋ Item nullius possessio que habetur per sententiam obtinetur ante
+            <lb ed="#N" n="81"/>lationem sententie. sed vite eterne possessio habetur per sententiam. ergo cum
+            <lb ed="#N" n="82"/>sententia detur in die iudicii non euolat aliqua anima in celum.
+            <lb ed="#N" n="83"/>magnifici regis est eo modo stipendia elargiri per que eius
+            <lb ed="#N" n="84"/>magnificentia magis declaratur. sed hoc est precipue cum
+            <lb ed="#N" n="85"/>ria vna ex multitudine et aggregatione multorum. ergo videtur o
+            <lb ed="#N" n="86"/>dominus reseruet gloriam eternam vt eam omnibus simul conferat
+            <lb ed="#N" n="87"/>anima peccauit in carne. ergo videtur quod in carne deberet puniri.
+            <lb ed="#N" n="88"/>et nupli pr facante puingatur nec punitur qusque resumet corpusi
+            <lb ed="#N" n="89"/>quo purgetur. sed ante perfectam purgationem non euolat anima in
+            ce<lb ed="#N" n="90" break="no"/>lum. ergo non ante diem iudicii.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1860">
+            ⁋ Item corpora non
+            glorificabu<lb ed="#N" n="91" break="no"/>ante diem iudicii quantumcunque sit sanctus qui moritr. ergo
+            pa<lb ed="#N" n="92" break="no"/>ri ratione nec anime.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1868">
+            ⁋ Responsio. quod quidam errantes
+            poneb<lb ed="#N" n="93" break="no"/>nullus sanctorum ante iudicium generale in celum ascendit.
+            si<lb ed="#N" n="94" break="no"/>quibusdam grecis imponitur. Et pro isto errore videtur
+            <lb ed="#N" n="95"/>glo. quedam super psalmus. Noli emulari. vbi dicitur. quod iusti qui
+            mo<lb ed="#N" n="96" break="no"/>riuntur non statim sunt vbi erunt etiam post iudicium: hoc in illa
+            re<lb ed="#N" n="97" break="no"/>quie vbi erat lazarus cum abraham. sed sicut in ipla glo.
+            <lb ed="#N" n="98"/>ex consequentibus: istud est dictum quantum ad stolam corporis: non quantum
+            <lb ed="#N" n="99"/>ad gloriam anime vel locum. Certum est enim quod christus expoliauit
+            <lb ed="#N" n="100"/>principatus et poetantes Coloc. ii. Ac per hoc constat sanctos o
+            <lb ed="#N" n="101"/>in lymbo sunt ad celum cum christo esse sublimatos. ac per hoc et omnes
+            <lb ed="#N" n="102"/>iustos qui non habebant reatum pene modo consimili
+            sublima<lb ed="#N" n="103" break="no"/>tos.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1894">
+            ⁋ Ad illud quod obiicitur. quod non acceperunt repromissiones.
+            <lb ed="#N" n="104"/>Dicendum quod apostolus vocat consummationem quantum ad illius superne
+            <lb ed="#N" n="105"/>ciuitatis impletionem. Uel dicendum. quod apostolus intelligit quantum ad
+            <lb ed="#N" n="106"/>tempus gratie quod conseruauit vsque ad nos. vt nos facti pertia
+            <lb ed="#N" n="107"/>pes gratia: in abundantia perticipes etiam fieremus et glorie.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1905">
+            <lb ed="#N" n="108"/>⁋ Ad illud quod obiicitur. statuet agnos etc. Dicendum quod
+            iu<lb ed="#N" n="109" break="no"/>dicium illud erit quantum ad consummatam glorificationem in anima et
+            <lb ed="#N" n="110"/>carne. quam nondum habent mortui: quamuis anime iam sunt beate i
+            <lb ed="#N" n="111"/>celo.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1916">
+            ⁋ Ad illud quod obiicitur de sententia. Dicendum quod sien duplite
+            <lb ed="#N" n="112"/>contingit regnum obtinere scilicet integre et perfecte siue intoto: et
+            <lb ed="#N" n="113"/>alio modo secundum animam siue in parte. sic duplex est iudicium siue
+            <lb ed="#N" n="114"/>duplex sententia. Nam sicut homo glorificatur secundum partem: ita et part
+            <lb ed="#N" n="115"/>culariter iudicatur et de eo sententia fertur quando anima de corpore egreditur.
+            <lb ed="#N" n="116"/>Iudicium autem vniuersale erit quando homo erit glorificandus
+            tota<lb ed="#N" n="117" break="no"/>liter: et tunc consummabitur curia celestis. Et sic duplex
+            indi<lb ed="#N" n="118" break="no"/>cium competit modo duplici possidendi gloram. et duplex
+            mo<lb ed="#N" n="119" break="no"/>dus competit duobus scilicet diuine magnificentie: et nostre
+            indi<lb ed="#N" n="120" break="no"/>gentie. propter nostram indigentiam tollendam statim quando anima est
+            <lb ed="#N" n="121"/>apta sublimatur ad gloriam: quia frustra expectaret enm non
+            <lb ed="#N" n="122"/>possit amplius mereri. propter diuinam magnificentiam
+            ossen<lb ed="#N" n="123" break="no"/>dendam reseruatur vniuersalis et generalis resurrectio
+            corpo<lb ed="#N" n="124" break="no"/>rum in fine seculorum. Et sic in nullo preiudicatur commodo nsto
+            <lb ed="#N" n="125"/>dum anima assumitur in gloriam ante iudicium generale. necsimiliter
+            di<lb ed="#N" n="126" break="no"/>uine magnificentie: cum in fine seculi consummabitur gain
+            cor<lb ed="#N" n="127" break="no"/>porum resumptione et glorificatione. et totum fiet quod fieret etiam
+            <lb ed="#N" n="128"/>si differetur gloria animarum.
+          </p>
+          <p xml:id="v78d89-acix6q-d1e1955">
+            ⁋ Ex his patet quod ad vltimo obiecta sgniod
+            <lb ed="#N" n="129"/>de possessione per sententiam et de dei magnificentia et corporum
+            re<lb ed="#N" n="130" break="no"/>surrectione. de quo habebitur questio infra.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

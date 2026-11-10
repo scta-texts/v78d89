@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 41, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 41, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="305"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8gxlx"><!-- q41m2 -->
+        <head xml:id="v78d89-a8gxlx-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a8gxlx-Hd1e103" type="question-title">De effectu huius sacramenti qui attenditur in collatione boni</head>
+        <p xml:id="v78d89-a8gxlx-d1e106">
+          <lb ed="#N" n="117"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e111">
+          <lb ed="#N" n="118"/>COnsequenter queritur de effectu huius
+          sacra<lb ed="#N" n="119" break="no"/>menti qui attenditur in collatione boni.
+          Que<lb ed="#N" n="120" break="no"/>ritur ergo vtrum hoc sacramento augeantur
+          <lb ed="#N" n="121"/>virtutes. Quod sic: videtur. dicit enim
+          Innocen<lb ed="#N" n="122" break="no"/>tius. per huius sacramenti virtutem vniuerse virtutes
+          augen<lb ed="#N" n="123" break="no"/>tur: et omnium gratiarum fructus exuberant.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e127">
+          ⁋ Item magister sentnti.
+          <lb ed="#N" n="124"/>in. iiii. di. xii. ponit illum eundem effectum.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e133">
+          ⁋ Item hoc
+          sa<lb ed="#N" n="125" break="no"/>cramentum proprie est sacramentum vnionis. aut ergo quia
+          <lb ed="#N" n="126"/>de nouo vnit: aut quia vnitos magis vnit constat quia
+          vni<lb ed="#N" n="127" break="no"/>tos magis vnit: sed hoc fit per augmentum virtutum. ergo etc.
+          <lb ed="#N" n="128"/>Contra. si hoc sacramento augentur virtutes. videtur quod
+          <lb ed="#N" n="129"/>totiens posset sumi quod contingeret peruenire in hac vita ad
+          sun<lb ed="#N" n="130" break="no"/>mum gradum virtutis: et maxime ad summum gradum
+          ca<lb ed="#N" n="131" break="no"/>ritatis. Cuius contrarium dicit Augustinus dicens quod illud
+          prece<lb ed="#N" n="132" break="no"/>ptum. vi. Deutron. Diliges dominum deum tuum ex toto
+          <lb ed="#N" n="133"/>non potest adimpleri in via.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e155">
+          ⁋ Item augmentum virtutum
+          <lb ed="#N" n="134"/>est effectus baptismi et confirmationis non ergo huius sacra
+          <lb ed="#N" n="135"/>menti.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e162">
+          ⁋ Item vnius sacramenti vnus est effectus. Quare
+          <lb ed="#N" n="136"/>ergo magister assignat plures. preterea quis est ille vnus.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e167">
+          <lb ed="#N" n="137"/>⁋ Item cum aucta vna virtute augentur omnes vt habetur
+          <lb ed="#N" n="138"/>Apoca. xxi. ibi. Ciuitas in quadro posita. Glo. quatuor
+          <lb ed="#N" n="139"/>latera. qua tuor principales virtutes. quarum vna non
+          de<lb ed="#N" n="140" break="no"/>bet aliam excedere. Quare inter effectus huius
+          sacramenti<pb ed="#N" n="306"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>assignatur specialiter augmentum caritatis magis quam
+          alte<lb ed="#N" n="2" break="no"/>rius virtutis.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e185">
+          ⁋ Responsio. quod hoc sacramento augentur virtutes.
+          <lb ed="#N" n="3"/>nec ex hoc sequitur quod contingantur peruenire ad summum gradum
+          <lb ed="#N" n="4"/>virtutis in via frequenti sumptione huius sacramenti. quia et
+          <lb ed="#N" n="5"/>si virtutes augentur hoc sacramento. quia hoc sacramentum datur in
+          <lb ed="#N" n="6"/>robur medicinam et remedium: magis fit hec augmentatio
+          quan<lb ed="#N" n="7" break="no"/>tum ad robur ne succumbat temptatione aduersitatis. et in
+          re<lb ed="#N" n="8" break="no"/>medium ne succumbat temptatione voluptatis. et in medicinam
+          <lb ed="#N" n="9"/>quantum ad curationem venialium: quam quantum ad augmentum secundum es
+          <lb ed="#N" n="10"/>sentiam virtutum. Unde quantum ad tria augentur hoc sacramento
+          <lb ed="#N" n="11"/>virtutes. scilicet quantum ad roborandum contra temptionem
+          aduersi<lb ed="#N" n="12" break="no"/>tatis. Unde dicitur panis confirmat cor hominis. et quantum ad
+          <lb ed="#N" n="13"/>efficaciam efficiendi animam sobriam contra incentiua
+          volupta<lb ed="#N" n="14" break="no"/>tis. Unde glo. super illud Marci. xiiii. Accepit ihs panem.
+          <lb ed="#N" n="15"/>Ebrietas felix. salutaris sacietas: que quanto copiosius
+          su<lb ed="#N" n="16" break="no"/>mitur: tanto sobrietatem mentibus donare dignatur. et quantum
+          <lb ed="#N" n="17"/>ad curationem venialium. Uude Grego. in omeees
+          paschali<lb ed="#N" n="18" break="no"/>Dedit nobis hoc sacramentum salutis. vt quia nos quotidie
+          pec<lb ed="#N" n="19" break="no"/>camus et ille iam mori non potest: per istud sacramentum
+          remissi<lb ed="#N" n="20" break="no"/>onem peccatorum consequamur.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e227">
+          ⁋ Ad illud quod obiicitur. quod virtutes
+          <lb ed="#N" n="21"/>augentur per baptismum et confirmationem etc. Dicendum quod quantum
+          <lb ed="#N" n="22"/>ad plura augmentantur et diuersa et differenter per diuersa
+          sa<lb ed="#N" n="23" break="no"/>cramenta. Per baptismum enim augontur quantum ad
+          expeditio<lb ed="#N" n="24" break="no"/>nem suorum actuum. Eo enim quod per baptismum tolluntur peccata quantum
+          <lb ed="#N" n="25"/>ad culpam et penam que sunt magna impedimenta exitus
+          virtu<lb ed="#N" n="26" break="no"/>tum in suos actus: efficiuntur expedite ad exercitium eorundem.
+          <lb ed="#N" n="27"/>Per confirmationem augentur quantum ad facilitatem
+          aggrediendi<lb ed="#N" n="28" break="no"/>ardua et difficilia. eius est confiteri publice fidem christi. Per hoc
+          sa<lb ed="#N" n="29" break="no"/>cramentum augerentur quantum ad radicationem. Eo enim quod per hoc
+          <lb ed="#N" n="30"/>sacramentum redditur caritas feruentior et fortior que est radix
+          vir<lb ed="#N" n="31" break="no"/>tutum et ipsa caritas firmius radicatur et alie virtutes consequenter.
+          <lb ed="#N" n="32"/>et ex ista firmiori radicatione augentur quantum ad tr ia
+          predi<lb ed="#N" n="33" break="no"/>cta scilicet robur. remedium. et medicinam.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e259">
+          ⁋ Ad illud quod
+          subiun<lb ed="#N" n="34" break="no"/>gitur. quod vnius sacramenti vnus est effectus etc. Dicendum quod hoc
+          ve<lb ed="#N" n="35" break="no"/>rum est primus et proprius. plures tamen sunt consequentes. Effectus
+          <lb ed="#N" n="36"/>auiem huius sacramenti primus est vnio membrorum cum capite
+          <lb ed="#N" n="37"/>christo et membrorum adinuicem caritate mediante. Unde Iugu.
+          <lb ed="#N" n="38"/>vnus panis et vnum corpus ecclesia dicitur. pro eo quod sicut vnus
+          pa<lb ed="#N" n="39" break="no"/>nis ex multis granis et vnum corpus ex multis componitur
+          mern<lb ed="#N" n="40" break="no"/>bris: sic ecclesia ex multis fidelibus caritate mediante et
+          co<lb ed="#N" n="41" break="no"/>pulante connectitur.
+        </p>
+        <p xml:id="v78d89-a8gxlx-d1e279">
+          ⁋ Ad hoc quod quod queritur quare magister in
+          <lb ed="#N" n="42"/>senten. spetialiter dicit de caritate quod per hoc sacramentum augertur
+          ma<lb ed="#N" n="43" break="no"/>gis quam de aliis virtutibus. Dicendum quod eodem spiritu vegetantur
+          <lb ed="#N" n="44"/>omnia membra corporis vnius scilicet spiritu proprio istius corporis
+          cu<lb ed="#N" n="45" break="no"/>ius sunt membra. sed quedam magis quedam minus: secundum quod
+          mem<lb ed="#N" n="46" break="no"/>bra illa magis vel minus vniuntur corpori viuificato per spiritum
+          <lb ed="#N" n="47"/>illum. Similiter dico de corpore spiritualiter viuificato scilicet
+          cor<lb ed="#N" n="48" break="no"/>pore christi mistico. quod sumendo eucharistiam christo incorporatur et
+          <lb ed="#N" n="49"/>ei spiritualiter ob hoc vnitur. et eoipso spiritu eius amplius
+          viui<lb ed="#N" n="50" break="no"/>ficatur. Sed spiritus christi. spiritus sanctus est. qui et caritas est per
+          <lb ed="#N" n="51"/>appropriationem. igitur sumendo eucharistiam proprie et
+          spetiuali<lb ed="#N" n="52" break="no"/>ter eoipso caritate accendimur. et ideo dicit specialiter quod
+          <lb ed="#N" n="53"/>eucharistia est ad augmentum caritatis. dicitur enim
+          sa<lb ed="#N" n="54" break="no"/>cramentum amoris et vnitatis: quia specialiter nos vnit
+          <lb ed="#N" n="55"/>christo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

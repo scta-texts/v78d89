@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="28"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e342"><!-- q5m3 -->
+        <head xml:id="v78d89-d1e342-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-d1e342-Hd1e103" type="question-title">De efficacia horum remediorum</head>
+        <p xml:id="v78d89-d1e342-d1e106">
+          <lb ed="#N" n="107"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-d1e342-d1e111">
+          <lb ed="#N" n="108"/>TErcio queritur supposito vt dic hugo. quod
+          ob<lb ed="#N" n="109" break="no"/>latio decimarum erat remedium contra originale.
+          <lb ed="#N" n="110"/>vel sacrificiorum secundum greg. vtrum erant eiusdem
+          <lb ed="#N" n="111"/>virtutis et eandem habebant efficaciam quam
+          ha<lb ed="#N" n="112" break="no"/>buerunt sacramenta segis et euangelii. quod non videtur. Hug. Que
+          <lb ed="#N" n="113"/>tempore posteriora fuerunt: effectu gratie spiritualiter digniora inuenium
+          <lb ed="#N" n="114"/>tur. igitur etc.
+        </p>
+        <p xml:id="v78d89-d1e342-d1e129">
+          ⁋ Contra omnia sacramenta tam illa que erant legis nature quodm
+          <lb ed="#N" n="115"/>legis scripte. virtutem siue efficaciam humerunt ex fide christi. igistur
+          <lb ed="#N" n="116"/>semper eadem erat fides et eiusdem efficacie quantum erat ex parte
+          <lb ed="#N" n="117"/>ipsius fidei et sacramenta etc.
+        </p>
+        <p xml:id="v78d89-d1e342-d1e139">
+          ⁋ Si diceretur quod fides christi creuit semper
+          <lb ed="#N" n="118"/>vnde maior est fides nostra quam illorum qui erant tempore illius et ita maioris
+          <lb ed="#N" n="119"/>efficacie. Contra. bene verum est quod creuit quantum ad scletiam: sed non quantum
+          <lb ed="#N" n="120"/>ad constantiam. commendatur enim abraham ex prerogatiua fidei.
+          Credi<lb ed="#N" n="121" break="no"/>dit enim et reputatum est ei ad iusticiam Gen. xv. Similiter de
+          <lb ed="#N" n="122"/>aliis sanctis pratibus vt Seth Noe. Sed dicit hugo. Ila apud
+          <lb ed="#N" n="123"/>nos fides magna reputatur. que etsi minus vigeat sclenia: per
+          con<lb ed="#N" n="124" break="no"/>stantiam tamen fortis ostenditur. igitur cum nostra non vigeat magis fide
+          <lb ed="#N" n="125"/>illorum per constantiam etc.
+        </p>
+        <p xml:id="v78d89-d1e342-d1e159">
+          ⁋ Item hugo. Sacramentorum alia ante legem:
+          <lb ed="#N" n="126"/>alia que sub lege: alia sub gratia. dicoitersa quidam in specie: vnum tamen effectum
+          <lb ed="#N" n="127"/>habentia et vnam sanitatem perficientia.
+        </p>
+        <p xml:id="v78d89-d1e342-d1e166">
+          ⁋ Item si non habebant eadem
+          <lb ed="#N" n="128"/>quantum ad quid deficiebant.
+        </p>
+        <p xml:id="v78d89-d1e342-d1e171">
+          ⁋ Responsio. quod non erant eiusdem
+          effica<lb ed="#N" n="129" break="no"/>cie.
+        </p>
+        <p xml:id="v78d89-d1e342-d1e176">
+          ⁋ Ad primum igitur respondeo. Quod duplex est effectus sacramenti. vnus
+          <lb ed="#N" n="130"/>quo ad cognitionem sacramenti qui respicit illud quod est misticum. Alius quo
+          <lb ed="#N" n="131"/>ad gratie operationem. qui respicit illud quod est gratuitum. quantum ad primum
+          <lb ed="#N" n="132"/>effectum loquitur hugo. V aliter dicendum. Quod sacramenta et icuntur esse sacramenta
+          <lb ed="#N" n="133"/>fidei. et hoc quia cum fide percipienda lunt et ad sanctificationem fidelium
+          <lb ed="#N" n="134"/>preparata sicut dicit hugo. Unde in sacramentis est considerare meritum fidei
+          <lb ed="#N" n="135"/>et ipsum opus exercitum. Quatum igitur ad meritum fidei vnum
+          effe<lb ed="#N" n="136" break="no"/>ctum habebant et hoc vult hugo. Sed quantum ad gratiam collatam virtute
+          <lb ed="#N" n="137"/>sanctificationis operis siue operum nequaquam. vnde sacramenta noue legis
+          di<lb ed="#N" n="138" break="no"/>cuntur vasa gratie. sacramenta legis nature tantummodo signa. Unde dicit hug
+          <lb ed="#N" n="139"/>parima sacramenta vmbra fuerunt. secunda imago. tercia corpus. post que
+          <pb ed="#N" n="29"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>quarto loco sequetur veritas spiritus. Unde patet quod hec disti
+          <lb ed="#N" n="2"/>stinguuntur secundum quod magis et minus distant a veritate spiritus siue
+          <lb ed="#N" n="3"/>gratie. Unde vult dicere. quod sicut corpus est contentiuum spiritus: nihilomi
+          <lb ed="#N" n="4"/>nus est veritas spiritus. sic sacramenta noue legis quodammodo sunt contentiua
+          <lb ed="#N" n="5"/>gratie: alia non. et potest eorum talis assignari difcateria sine preiudicio
+          <lb ed="#N" n="6"/>tamen. Sacramenta legis nature dico de dedicatione et sacrificiis que
+          <lb ed="#N" n="7"/>fiebant propter originale) signa fuerunt. et eorum effectus fuit in
+          si<lb ed="#N" n="8" break="no"/>gnando. effectus circumcisionis non solum fuit in signando. sed in
+          effi<lb ed="#N" n="9" break="no"/>ciendo. vnde opus operatum effectum habuit. Unde circumcisio
+          effi<lb ed="#N" n="10" break="no"/>ciebat quod figurabat effectus eius in diminuendo fomitem
+          quam<lb ed="#N" n="11" break="no"/>tum erat ex parte carnis: et pronitatem ex parte anime. contractam ex
+          car<lb ed="#N" n="12" break="no"/>ne qua defacili obedit carni. Congruit enim vt sacramenta carna
+          <lb ed="#N" n="13"/>lia efficaciam habeant in carne: spiritualia in spiritu. Unde dici potestu.
+          <lb ed="#N" n="14"/>quod habet effectum in anima immediate. diminuendo pronitatem
+          illi<lb ed="#N" n="15" break="no"/>us ad obediendum suggestioni carnis. circumcisio non nisi in
+          <lb ed="#N" n="16"/>carne tollendo de vicio carnis siue corruptione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 100, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 100, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="631"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ahighx"><!-- q100m3 -->
+        <head xml:id="v78d89-ahighx-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ahighx-Hd1e103" type="question-title">De institutione ieiunii quadragesimalis</head>
+        <p xml:id="v78d89-ahighx-d1e106">
+          <lb ed="#N" n="10"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-ahighx-d1e111">
+          <lb ed="#N" n="11"/>COnsequenter queritur de institutione ieiunii
+          qua<lb ed="#N" n="12" break="no"/>dragesimalis. Primo ergo queritur de
+          inffituti<lb ed="#N" n="13" break="no"/>one quantum ad precisionem siue artationem
+          exerci<lb ed="#N" n="14" break="no"/>tii illius. Secundo. de institutione quantum ad
+          congru<lb ed="#N" n="15" break="no"/>itatem temporis. Tercio. de institutione ad numerum dierum.
+        </p>
+        <div xml:id="v78d89-ahighx-Dd1e124">
+          <head xml:id="v78d89-ahighx-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-ahighx-d1e128">
+            <lb ed="#N" n="16"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-ahighx-d1e133">
+            <lb ed="#N" n="17"/>QUeritur ergo primo. vtrum ieiunium debuit institui ad
+            <lb ed="#N" n="18"/>exercendum temporibus certis et determinatis: an
+            exer<lb ed="#N" n="19" break="no"/>cendum semper. Quod ad exercendum semper: videtur sic. duplex
+            <lb ed="#N" n="20"/>est ieiunium: corporale et spirituale. Spiritual e semper est continuandum sine
+            <lb ed="#N" n="21"/>interpolatione: similiter videtur de corporali. ergo non debuit institui ad
+            <lb ed="#N" n="22"/>sexercendum tantum quadraginta diebus vel paucioribus vel
+            plu<lb ed="#N" n="23" break="no"/>ribus determinate: sed potius seper.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e151">
+            ⁋ Pre. est ieiunium pietatis
+            <lb ed="#N" n="24"/>vt homo ieiunet abstinendo: et pauperibus det quantum
+            expen<lb ed="#N" n="25" break="no"/>deret als. de quo Greg. in omelis. Hoc quod tibi subtrahis alte
+            <lb ed="#N" n="26"/>ri largire. vnde tua caro affligitur: inde egentis caro
+            proximi<lb ed="#N" n="27" break="no"/>reparetur. Et est ieiunium austeritatis: sicut est ieiunium afflicti
+            <lb ed="#N" n="28"/>onis. De ieiunio pietatis dicit dominus in Esa. lviii. hoc est
+            ieiu<lb ed="#N" n="29" break="no"/>nium quod elegi. dissolue colligationes impietatis: solue
+            fasci<lb ed="#N" n="30" break="no"/>culos deprimentes etc. vnde huiusmodi ieiunium pietatis vtilius est. sed
+            <lb ed="#N" n="31"/>non est ab ecclesia institutum. nec determinatum quantum sit
+            paupe<lb ed="#N" n="32" break="no"/>ribus erogandum et quo tempore magis. ergo nec debuit fieri
+            insti<lb ed="#N" n="33" break="no"/>tutio ab ecclesia de ieiunio austeritatis: sicut nec est
+            facta<lb ed="#N" n="34" break="no"/>de ieiunio pietatis.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e177">
+            ⁋ Pre. ieiunium est institutum contra morbum
+            <lb ed="#N" n="35"/>concupiscentie et libidinis: et iste morbus semper durat. ergo et remedium semper
+            <lb ed="#N" n="36"/>debet durare vel numquam. ergo ecclesia debuit instituere quod semper
+            ieiu<lb ed="#N" n="37" break="no"/>naremus vel quod numquam.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e187">
+            ⁋ Pre. oratio est contra pestes mentis: et
+            ieiu<lb ed="#N" n="38" break="no"/>nium contra pestes carnis. sed non est tempus determinatum ad
+            oran<lb ed="#N" n="39" break="no"/>dum: immo semper debemus orare. quare nec tempus debet esse
+            de<lb ed="#N" n="40" break="no"/>terminatum ad ieiunandum: sed semper ieiunandum est.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e196">
+            ⁋ Pre. si
+            de<lb ed="#N" n="41" break="no"/>bemus deum imitari quantum possumus: tunc debemus ieiunare
+            <lb ed="#N" n="42"/>continue cunctis quadragesime diebus sine interpolatione tam
+            die<lb ed="#N" n="43" break="no"/>bus dominicis quam aliis sicut dominus fecit.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e205">
+            ⁋ Contra. quod non est semper
+            ie<lb ed="#N" n="44" break="no"/>iunandum sed temporibus determinatis: videtur ex verbis domini supra
+            ta<lb ed="#N" n="45" break="no"/>ctis. quia filii sponsi quamdiu sposus est cum illis non debent
+            ieiuna<lb ed="#N" n="46" break="no"/>re: sed cum fuerit ab illis ablatus.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e214">
+            ⁋ Pre. ieiunium christi quod fuit
+            <lb ed="#N" n="47"/>exemplum nostri ieiunii: fuit determinati temporis et non perpetuum. similiter
+            <lb ed="#N" n="48"/>ieiunium Moysi et Helie.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e221">
+            ⁋ Responsio. quod ieiunium debet institui
+            <lb ed="#N" n="49"/>interpolatum non continuum: determinatum non perpetuum. tum propter
+            <lb ed="#N" n="50"/>humane infirmitatis debilitatem: tum propter fastidii continuam
+            <lb ed="#N" n="51"/>afflictionem: tum propter deuotionis necessarie annihilationem. continuum
+            <lb ed="#N" n="52"/>enim ieiunium et perpetuum debilitas hominis sustinere non posset: sed
+            <lb ed="#N" n="53"/>illum discrimini exponeret. afflictio fastidii nimis fatigaret
+            <lb ed="#N" n="54"/>et impatientiam induceret: et deuotio ieiunandi periret.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e237">
+            ⁋ Ad
+            <lb ed="#N" n="55"/>illud ergo quod primo obiicitur contra hoc. potest dici quod spirituale ieiunium est de
+            <lb ed="#N" n="56"/>necessitate iusticie: vnde necessarium est ad salutem. vnde semper seruandum.
+            <lb ed="#N" n="57"/>non sic autem corporale: hoc propter rationes predictas institutum est. Et
+            <lb ed="#N" n="58"/>quia oportet quod caro viuat spiritui precipue tempore ieiunii. Ieiunium
+            <lb ed="#N" n="59"/>autem spirituale intelligitur in abstinentia a peccato et cautela. hoc
+            <lb ed="#N" n="60"/>autem est perpetue continuandum.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e254">
+            ⁋ Ad aliud quod obiicitur per simile de
+            <lb ed="#N" n="61"/>ieiunio pietatis. potest dici quod ecclesia non potuit determinare
+            ie<lb ed="#N" n="62" break="no"/>iunium pietatis. quia aliter dandum est illi:aliter illi. vnde non omnes
+            <lb ed="#N" n="63"/>posunt dare equaliter. Pre. quantum ad institutionem ecclesie includitur
+            <lb ed="#N" n="64"/>ieiunium pietatis in isto ieiunio. et ad pietatem interiorem
+            <lb ed="#N" n="65"/>omnes tenentur: quia hec est de necessitate salutis. sed ad exterioren
+            <lb ed="#N" n="66"/>non tenentur omnes: sed isti soli quibus suppetit facultas
+            dandi<lb ed="#N" n="67" break="no"/>indigentibus.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e272">
+            ⁋ Ad illud quod obiicitur. quod ieiunium est institutum contra
+            <lb ed="#N" n="68"/>morbum. dicendum quod non est institutum contra morbum qualencumque: sed
+            po<lb ed="#N" n="69" break="no"/>tius contra morbum incensum: et extinguendum tempore quo vrget
+            incen<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>sio illius. Incensio autem morbi contra quem institutum est non semper
+            vr<lb ed="#N" n="71" break="no"/>get: dico prout morbus generalis.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e284">
+            ⁋ Ad aliud dicendum. quod orare
+            <lb ed="#N" n="72"/>magis est de necessitate salutis quam ieiunare. quia semper tenemur
+            di<lb ed="#N" n="73" break="no"/>uinum adiutorium implorare. ideo semper orandum est: non tamen semper
+            ieiu<lb ed="#N" n="74" break="no"/>nandum.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e293">
+            ⁋ Ad illud quod obiicitur. quod dominus ieiunauit sine
+            inter<lb ed="#N" n="75" break="no"/>polatione diei dominice. potest dici secundum quod dicitur in ecclesiastico. In
+            <lb ed="#N" n="76"/>die malorum non debemus esse immemores bonorum. vnde cum memo
+            <lb ed="#N" n="77"/>ria passionis christi debemus memorari resurrectionem eius.
+            ra<lb ed="#N" n="78" break="no"/>tione huiusmodi non ieiunamus die dominico. abstinemus tamen ab illis
+            <lb ed="#N" n="79"/>a quibus et in diebus aliis scilicet a carnibus et aliis quibusdam: vt
+            ieiu<lb ed="#N" n="80" break="no"/>nium nostum diuino quantum conuenit sit conforme.
+          </p>
+        </div>
+        <div xml:id="v78d89-ahighx-Dd1e311">
+          <head xml:id="v78d89-ahighx-Hd1e313">Articulus 2</head>
+          <p xml:id="v78d89-ahighx-d1e315">
+            <lb ed="#N" n="81"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-ahighx-d1e320">
+            <lb ed="#N" n="82"/>Onsequentur queritur de institutione ieiunii quadrage
+            <lb ed="#N" n="83"/>simalis quantum ad tempus in quo debet exerceri. et
+            <lb ed="#N" n="84"/>videtur quod debuit institui vt exerceretur in vere: sic.
+            <lb ed="#N" n="85"/>Ieiunium natum institutum est propter peccatum primi hominis. quod
+            pec<lb ed="#N" n="86" break="no"/>catum est omnis hominis descendentis ab eo lege nature: secundum quod
+            <lb ed="#N" n="87"/>omnis homo peccauit lege nature in eo. sed ipse peccauit in vere.
+            <lb ed="#N" n="88"/>ergo congrue et conuenienter institutum est et indictum ad ieiunandum
+            <lb ed="#N" n="89"/>in vere.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e340">
+            ⁋ Pre. in vere maxime insurgunt et inualescunt
+            mo<lb ed="#N" n="90" break="no"/>tus carnales: et maxime in generatiua. sicut accidit in aliis
+            <lb ed="#N" n="91"/>animalibus. et hoc accidit propter qualitatem huiusmodi temporis. Est enim ver
+            <lb ed="#N" n="92"/>calidum et humidum: quod maxime videtur generatiue vi conuenire.
+            <lb ed="#N" n="93"/>sed ieiunium institutum est ad illos motus reprimendos. ergo etc.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e351">
+            <lb ed="#N" n="94"/>⁋ Pre. per ieiunium mundatur homo et fit spiritualis: vt dicunt Ysi.
+            <lb ed="#N" n="95"/>et Greg. sed tali tempore debet homo accedere ad conionem corporis
+            <lb ed="#N" n="96"/>christi: ad quod recipiendum conuenit ipsum maxime esse spiritualem.
+            conueni<lb ed="#N" n="97" break="no"/>enter ergo in illo tempore est institutum.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e363">
+            ⁋ Pre. in veteri lege hoc tempore
+            <lb ed="#N" n="98"/>phase celebrabatur: immo immolabatur agnus typicus in quo corpus
+            <lb ed="#N" n="99"/>christi figurabatur. Ad quod accedendum est cum mundicia. Exo. xxiii.
+            <lb ed="#N" n="100"/>Non immolabis super fermento sanguinem hostie tue: neque
+            rema<lb ed="#N" n="101" break="no"/>nebit mane de victimis solennitatis phase. ergo cum huiusmodi
+            mun<lb ed="#N" n="102" break="no"/>dicia requiratur per ieiunium. patet etc.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e376">
+            ⁋ Pre. Ysido. lib. vi. ethy
+            <lb ed="#N" n="103"/>mol. obseruatio quadragesime in vniuerso orbe institutione
+            <lb ed="#N" n="104"/>apostolica obseruatur circa confinium dominice passionis. sed dominica
+            <lb ed="#N" n="105"/>passio celebratur in vere. ergo etc.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e385">
+            ⁋ Pre. dicit pholus. quod m viris
+            <lb ed="#N" n="106"/>magis dominatur incentiuum carnis in hyeme: in feminis in estate.
+            <lb ed="#N" n="107"/>sed ieiunium impedit incentiuum carnis. ergo cum generaliter viris
+            <lb ed="#N" n="108"/>et mulieribus debuit indici in tempore communicante et coniuncto
+            tempori<lb ed="#N" n="109" break="no"/>incentiui vtriusque sexus. hoc autem est tempus vernale. ergo recte
+            insti<lb ed="#N" n="110" break="no"/>tutum est ieiunium in vere.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e398">
+            ⁋ Contra. ieiunium quadragesimale
+            <lb ed="#N" n="111"/>institutum est in conformationem ieiunio christi: qui ieiunauit
+            qua<lb ed="#N" n="112" break="no"/>draginta diebus et noctibus Math. iiii. et Luc. iii. sed ipse
+            ieiu<lb ed="#N" n="113" break="no"/>nauit immediate post epiphaniam. ergo ieiunium quadragesime
+            <lb ed="#N" n="114"/>debuit tunc institui.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e409">
+            ⁋ Pre. vt dicitur incentiuum carnis
+            ma<lb ed="#N" n="115" break="no"/>gis in estate viget. Et hoc patet ad sensum. et ratione viriditatis
+            <lb ed="#N" n="116"/>herbarum et plantarum et amenitatis temporis. et huiusmodi que hominem al
+            <lb ed="#N" n="117"/>liciunt ad lasciuiam. ergo cum ieiunium sanat pestes corporis secundum
+            <lb ed="#N" n="118"/>hiero. videtur quod congruentius debuit institui post pascha quam
+            <lb ed="#N" n="119"/>ante.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e422">
+            ⁋ Pre. omnis christi actio nostra est instructio. sed christus non
+            <lb ed="#N" n="120"/>fecit discipulos suos ieiunare cum debuerunt communicare.
+            immo<lb ed="#N" n="121" break="no"/>nec quamdiu fuit cum illis voluit eos ieiunare. ergo nec nos similiter
+            <lb ed="#N" n="122"/>ante communionem debemus ieiunare: sed potius post. ergo.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e432">
+            ⁋ Pre.
+            <lb ed="#N" n="123"/>Gal. iiii. arguit illos apostolus qui obseruabant tempora dies et
+            an<lb ed="#N" n="124" break="no"/>nos. maxime in his que pertinent ad libro arbt. ergo non magis
+            ieiu<lb ed="#N" n="125" break="no"/>nium tunc est exercendum quam als.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e441">
+            ⁋ Pre. Greg. dicit. quod
+            ieiu<lb ed="#N" n="126" break="no"/>nium quadragesimale fit ad solutionem decimarum temporis nostri. sed
+            <lb ed="#N" n="127"/>iudei soluebant decimas mense. vii. ergo nos tunc soluere
+            de<lb ed="#N" n="128" break="no"/>bemus nostrum quadragesimale ieiunium.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e450">
+            ⁋ Pre. Leui.
+            vl<lb ed="#N" n="129" break="no"/>timo dicitur de decimis. Quicquid decimum venerit
+            sanctifica<lb ed="#N" n="130" break="no"/>bitur domino: non eligetur nec bonum nec malum nec altero
+            communicabi<lb ed="#N" n="131" break="no"/>tur. ergo si hoc ieiunium esset ad reddendum decimas: debere semper
+            <lb ed="#N" n="132"/>reddi decima dies quamcito veniret: nec deberet
+            commutari<lb ed="#N" n="133" break="no"/>nec expectari ad reddendum totum: sicut institutum est ab
+            <lb ed="#N" n="134"/>ecclesia. ergo non bene institutum est hoc ieiunium vt
+            vide<lb ed="#N" n="135" break="no"/>tur.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e468">
+            ⁋ Pre. agnus paschalis figura fuit dominici
+            corpo<lb ed="#N" n="136" break="no"/>ris. et esus eius figura solennitatis paschalis vel dominice
+            <lb ed="#N" n="137"/>passionis. sed eius esus semper celebratur eodem mense et eadem
+            <lb ed="#N" n="138"/>lunatione scilicet quartodecimo anno reuoluto. nec mutabatur huiusmodi
+            <lb ed="#N" n="139"/>tempus. ergo similiter passio domini et pascha nostrum et preparatio
+            <pb ed="#N" n="632"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>ieiunii antecedens semper debet esse tempore immutabili. sic autem non est. ergo non
+            <lb ed="#N" n="2"/>bene institutum est.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e488">
+            ⁋ Pret. ieiunium quadragesimale est preparatio
+            re<lb ed="#N" n="3" break="no"/>spectu sumptionis corporis dominici scilicet sacramentalis non reali. ergo cum dies
+            <lb ed="#N" n="4"/>cene domini representet sumptionem sacramentalem: quia illo die fuit
+            excellen<lb ed="#N" n="5" break="no"/>tissimum sacramentum institutum. Dies autem dominica signat octauam
+            re<lb ed="#N" n="6" break="no"/>surrectionis: in qua iam dominus non sacramentaliter sed realiter nobis in
+            ci<lb ed="#N" n="7" break="no"/>bum celestem proponetur. videtur quod ieiunium quadragesime debet
+            finiri<lb ed="#N" n="8" break="no"/>ante cenam domini. non prolongari vsque ad dominicam sequentem scilicet diem
+            <lb ed="#N" n="9"/>pasche. ergo non est bene institutum.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e506">
+            ⁋ Responsio. quod competenter et vtiliter
+            <lb ed="#N" n="10"/>fuit institutum tempore pretacto. vnde et rationes pro illa parte sunt
+            conce<lb ed="#N" n="11" break="no"/>dende.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e514">
+            ⁋ Ad illud quod contra hoc primo obiicitur per simile sumptum a
+            ie<lb ed="#N" n="12" break="no"/>iunio christi. Potest dici quod reuera bene conuenit quod fideles
+            confor<lb ed="#N" n="13" break="no"/>mes sint deo in exercitio ieiunii secundum quod conuenit fragilitati
+            <lb ed="#N" n="14"/>nostre: non tamen omnino. quia non quantum ad rationem temporis. Et cum pluribus
+            <lb ed="#N" n="15"/>causis conueniat fidelibus ieiunando imitari dominum:
+            potissi<lb ed="#N" n="16" break="no"/>ma est inter alias mediante ieiunio prepare se: vt digni sint
+            <lb ed="#N" n="17"/>iuxta fragilitatem humanam ad corpus christi suscipiendum in
+            pa<lb ed="#N" n="18" break="no"/>schate. propter quod congruebat vt immediate ante pascha
+            exerci<lb ed="#N" n="19" break="no"/>tio ieiunii fieret eorum purgatio.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e534">
+            ⁋ Ad illud quod obiicitur.
+            in<lb ed="#N" n="20" break="no"/>centiuum carnis magis inualescit in estate etc. Potest dici quod
+            <lb ed="#N" n="21"/>si occasiones excitande concupiscentie magis vigent post pascha quoam
+            <lb ed="#N" n="22"/>ante: tamen magis congruit. immo magis expedit et salubrius est
+            <lb ed="#N" n="23"/>ieiunare ante quam post. vt ieiunio preparetur ieiunans ad
+            cor<lb ed="#N" n="24" break="no"/>pus domini suscipiendum et spiritualis efficiatur: et magis eleuetur
+            <lb ed="#N" n="25"/>secundum mentem ad deum propter tanti sacramenti suscipiendi reuerentiam.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e550">
+            <lb ed="#N" n="26"/>⁋ Ad illud quod obiicitur. dominus non indixit ieiunium discipulis
+            <lb ed="#N" n="27"/>ante susceptionem sacramenti corporis sui etc. Potest dici quod discipuli
+            du<lb ed="#N" n="28" break="no"/>xerunt vitam perfectionis. vnde custodiebant se in innocentia vite.
+            <lb ed="#N" n="29"/>vnde tali preparatione non indigebant: sicut sacerdotes quando debent
+            <lb ed="#N" n="30"/>consecrare et communicare non preparant se ieiunando: quia debent semper esse
+            <lb ed="#N" n="31"/>parati ad tanti sacramenti et ministerii celebrationem.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e566">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="32"/>apostolus ad Gal. arguit illos qui tempora obseruabant etc. Potest
+            dici<lb ed="#N" n="33" break="no"/>quod arguebat eos: quia in obseruatione temporis ritum obseruabant
+            <lb ed="#N" n="34"/>iudeorum. vel quia credebant fatum aliquid cooperari lidbro. arbt. sicut quidam
+            <lb ed="#N" n="35"/>credendo fatum aliquid cooperari lidbro. arbtro. obseruant tempus quando serunt
+            <lb ed="#N" n="36"/>agros: construunt edificia. vel aliquid agunt huiusmodi.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e579">
+            ⁋ Ad illud
+            <lb ed="#N" n="37"/>quod obiicitur. quod ieiunium institutum est ad solutionem decime temporis
+            <lb ed="#N" n="38"/>nostri: et iudei soluebant decimam. vii mense etc. Potest dici quod
+            <lb ed="#N" n="39"/>etsi per decimam iudeorum possit decima nostra intelligi et
+            signifi<lb ed="#N" n="40" break="no"/>cari: non tamen oportet quod veritas vmbre respondeat. sed vtilius et
+            sa<lb ed="#N" n="41" break="no"/>lubrius ordinatum est vt solutio decime nostre tali tempore fiat
+            <lb ed="#N" n="42"/>quam in alior propter preparationem fidelium ad esum veri agni. vnde
+            <lb ed="#N" n="43"/>si solutio decimarum apud iudeos ordinata esset ad preparationem
+            <lb ed="#N" n="44"/>iudeorum ad esum agni typici: fortasse tali tempore quali modo
+            <lb ed="#N" n="45"/>ieiunant fideles et ipsi ieiunassent. nisi diuine sapicentie prouidem
+            <lb ed="#N" n="46"/>tia aliter ordinasset propter causam aliquam.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e603">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="47" break="no"/>citur. quod in Leuit. dicitur. Quicquid decimum venerit
+            sanctifica<lb ed="#N" n="48" break="no"/>bitur etc. Potest dici. quia ordinarii in ecclesia dei efflagitabant quod
+            fi<lb ed="#N" n="49" break="no"/>deles parati essent ad communicandum in die pasche. hec autem
+            pre<lb ed="#N" n="50" break="no"/>paratio generaliter fit per ieiunium. et non ita competenter fieret si
+            de<lb ed="#N" n="51" break="no"/>cima anni redderetur quando occurrit decima dies. sicut fit quando
+            <lb ed="#N" n="52"/>tota decima anni continue sumitur: ideo a spiritusancto
+            inspira<lb ed="#N" n="53" break="no"/>tum fuit prelatis ecclesie vt ordinaretur sicut ordinatum est.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e622">
+            ⁋ Ad
+            il<lb ed="#N" n="54" break="no"/>lud quod obiicitur. quod esus agni typici semper celebratur
+            quartade<lb ed="#N" n="55" break="no"/>cima lunatione. vnde semper eodem tempore et esus agni veri debet
+            <lb ed="#N" n="56"/>celebrari similiter tempore immutabili etc. Potest dici quod non est necesse
+            <lb ed="#N" n="57"/>quod veritas omnino respoendeat figure. quia vero nos computamus annum
+            <lb ed="#N" n="58"/>secundum menses solares: illi vero secundum menses lunares. necessario
+            vari<lb ed="#N" n="59" break="no"/>atur tempus celebrationis nostre et illorum quantum ad pascha. Preterea.
+            <lb ed="#N" n="60"/>illi quartadecima luna semper celebrant phase quacunque die
+            acci<lb ed="#N" n="61" break="no"/>dit: siue die lune: siue die martis: vel quacumque altera. nos
+            <lb ed="#N" n="62"/>autem non celebramus pascha nostum sumendo agnum occisum siue
+            <lb ed="#N" n="63"/>mortuum sed viuum et qui resurrexit a mortuis. propter quod
+            conue<lb ed="#N" n="64" break="no"/>nienter expectamus vsque in diem resurrectionis. Et quia post
+            immo<lb ed="#N" n="65" break="no"/>lationem verus agnus qui immolatus fuit in cruce triduo
+            que<lb ed="#N" n="66" break="no"/>uit in sepulchro. ideo semper feria sexta qua sequitur quartadecina
+            <lb ed="#N" n="67"/>luna immutabiliter immolationem veri agni recolimus. Itaquie
+            <lb ed="#N" n="68"/>expleto triduo sepulture ipsum viuum qui iam resurrexit a
+            <lb ed="#N" n="69"/>mortuis spiritualiter et sacramentaliter manducamus. vnde quantum ad
+            immo<lb ed="#N" n="70" break="no"/>lationis recordationem et manducationem corporis eius qui resurrexit:
+            <lb ed="#N" n="71"/>regulariter et immutabiliter feriam sextam et diem dominicam
+            sequen<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>tem obseruamus.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e667">
+            ⁋ Ad vltimum quod non celebramus diem
+            do<lb ed="#N" n="73" break="no"/>minicum in signum resurrectionis christi. ad hoc responsio
+            me<lb ed="#N" n="74" break="no"/>lius infra patebit.
+          </p>
+        </div>
+        <div xml:id="v78d89-ahighx-Dd1e675">
+          <head xml:id="v78d89-ahighx-Hd1e677">Articulus 3</head>
+          <p xml:id="v78d89-ahighx-d1e679">
+            <lb ed="#N" n="75"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-ahighx-d1e684">
+            <lb ed="#N" n="76"/>COnsequenter queritur de institutione ieiunii
+            quadra<lb ed="#N" n="77" break="no"/>gesimalis quantum ad numerum dierum. Primo videtur
+            <lb ed="#N" n="78"/>quod non debemus ieiunare quadraginta diebus sic.
+            <lb ed="#N" n="79"/>Lex noua maior est quam vetus. sed in veteri lege quando debebant
+            <lb ed="#N" n="80"/>comedere agnum paschalem ieiunabant tantum diebus septem. ergo
+            <lb ed="#N" n="81"/>et nos similiter debemus ieiunare tantum septem diebus ad preparationem
+            <lb ed="#N" n="82"/>veri agni accipiendi.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e702">
+            ⁋ Pret. ieiunium quadragesimale
+            insti<lb ed="#N" n="83" break="no"/>tutum est ad soluendum decimam dierum anni. sed decima non habet
+            <lb ed="#N" n="84"/>nisi trigintasex dies: cum totus annus non habet nisi trecentos
+            di<lb ed="#N" n="85" break="no"/>es et sexagintasex. ergo videtur quod pauciores dies debuerunt
+            in<lb ed="#N" n="86" break="no"/>stitui in hoc ieiunio quam sint.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e713">
+            ⁋ Si dicatur quod debemus tot
+            die<lb ed="#N" n="87" break="no"/>bus ieiunare ad exemplum christi. Contra. christus ieiunauit mira
+            <lb ed="#N" n="88"/>culose. sed in miraculis non preponitur nobis christus imitandus:
+            <lb ed="#N" n="89"/>sed admirandus. non ergo in ieiunio quadraginta dierum ipsum imita
+            <lb ed="#N" n="90"/>ri debemus.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e725">
+            ⁋ Pret. veteris legistator ieiunauit quadraginita
+            <lb ed="#N" n="91"/>diebus. non tamen propter hoc institutum fuit ieiunium quadraginta die
+            <lb ed="#N" n="92"/>rum in veteri lege. ergo neque propter hoc quod legislator nostur christus
+            ieiuma<lb ed="#N" n="93" break="no"/>uit quadraginta diebus: debuit in nostra lege institui ieiunium
+            <lb ed="#N" n="94"/>quadraginta dierum
+          </p>
+          <p xml:id="v78d89-ahighx-d1e736">
+            ⁋ Quod autem plures sint dies
+            ieiunandi<lb ed="#N" n="95" break="no"/>quam quadragita: videtur. quia dies dominici ad exemplum christi debent
+            <lb ed="#N" n="96"/>ieiunari. qui sine interpolatione quadraginta dies
+            ieiuma<lb ed="#N" n="97" break="no"/>uit Math. iiii. similiter Moyses Exo. xxxiiii. similiter Helias. iii.
+            <lb ed="#N" n="98"/>Reg. xix. et ita si ieiunamus vsque ad pascha: non erunt plus
+            <lb ed="#N" n="99"/>quam quadraginta dies computando dies dominicos. vel saltem
+            de<lb ed="#N" n="100" break="no"/>bemus dies quadraginta sine aliqua interpolatione diei
+            <lb ed="#N" n="101"/>dominice ieiunare. et si solum quadraginta diebus ieiumauerimus
+            <lb ed="#N" n="102"/>citius quadragesima nostra debet finiri quam finiatur.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e756">
+            ⁋ Pret.
+            nu<lb ed="#N" n="103" break="no"/>merus quadragenarius est numerus austeritatis: vt dicitur
+            <lb ed="#N" n="104"/>Deut. xxv. vbi dicitur. pro mensura peccati erit et plagarum
+            <lb ed="#N" n="105"/>modus: ita duntaxat ne quadragenarium numerum excedant.
+            <lb ed="#N" n="106"/>Et dicit Hierous. super Ezech. Numerus quadragenarius
+            <lb ed="#N" n="107"/>semper in labore positus est. est ergo huiusmodi numerus
+            austerita<lb ed="#N" n="108" break="no"/>tis legalis. quinquagenarius vero numerus: numerus est gratie
+            de<lb ed="#N" n="109" break="no"/>signatiuus. ergo magis debuisset institui huiusmodi ieiunium in
+            quin<lb ed="#N" n="110" break="no"/>quagenario.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e776">
+            ⁋ Pret. quia dies dominici in quadragesima non
+            <lb ed="#N" n="111"/>ieiunantur: quare abstinetur ab illis a carnibus et a lacticiniis
+            <lb ed="#N" n="112"/>ratione ieiunii.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e783">
+            ⁋ Pret. solet hic queri. quare non est vnum
+            ie<lb ed="#N" n="113" break="no"/>iunium institutum quod esset preparatum maiorum membrorum ecclesie: sicut
+            <lb ed="#N" n="114"/>quadragesima est instituta ad prepara tionem minorum ad
+            suscipi<lb ed="#N" n="115" break="no"/>endum corpus christi.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e792">
+            ⁋ Responsio. dicendum quod ieiunium quaedragesime
+            con<lb ed="#N" n="116" break="no"/>grue et salubriter fuit institutum. et quia ieiunium ipsum salubre
+            <lb ed="#N" n="117"/>est: et quia tempus institutionis congruum: et numerus dierum
+            conue<lb ed="#N" n="118" break="no"/>niens. Ipsum autem salubre est supra modum. quia medicamentum
+            <lb ed="#N" n="119"/>est contra morbum purgatum a peccatis: preseruatum contra
+            pec<lb ed="#N" n="120" break="no"/>cata. Tempus institutionis congruum: quia ieiunium est preparatum ad
+            re<lb ed="#N" n="121" break="no"/>fectionem spiritualium. propter hos casus et alios salubriter est
+            in<lb ed="#N" n="122" break="no"/>stitutum ab ecclesia et tempore tali. Quia enim presuatum est contra mala
+            per<lb ed="#N" n="123" break="no"/>petranda: institui debuit quando motus concupiscibilis incipiunt
+            do<lb ed="#N" n="124" break="no"/>minari et excitantur in nobis. ideo institui debuit tempore vernali.
+            <lb ed="#N" n="125"/>Quia ad preseruationem contra peccatum: non sufficeret ieiunium nisi esset
+            as<lb ed="#N" n="126" break="no"/>suetum. igitur pluralitas dierum. Item quia preparatorium est ad
+            refectio<lb ed="#N" n="127" break="no"/>nem paschalem: ideo debuit institui et cum paschate continuari.
+            <lb ed="#N" n="128"/>Pret. in numero quadragenario conuenientur est institutum. quia deo
+            <lb ed="#N" n="129"/>tenemur reddere decimas. et decima pars dierum sunt
+            trigin<lb ed="#N" n="130" break="no"/>tasex dies. Et quia tenemur satisfacere pro transgressione
+            deca<lb ed="#N" n="131" break="no"/>logi secundum inordinationem quatuor affectionum respectu cuiuslibet
+            <lb ed="#N" n="132"/>precepti decalogi: ideo superaddit quatuor dies: designandum ieiu
+            <lb ed="#N" n="133"/>nium purgatum esse inordinationis quatuor affectionum. secundum enim
+            <lb ed="#N" n="134"/>Grego. Ysido. et Cassio. ieiunium est institutum ad soluendum
+            <lb ed="#N" n="135"/>decimas totius anni. Pret. numerus iste fuit prefiguratus in
+            <lb ed="#N" n="136"/>legis veteris datione: in qua Moyses quadraginta diebus
+            ieiu<lb ed="#N" n="137" break="no"/>nauit Exo. xxxiiii. et Deut. x. quia bis ieiunauit Moyses qua
+            <lb ed="#N" n="138"/>dragita diebus et quadraginta noctibus. Fuit etiam prefiguratum
+            <lb ed="#N" n="139"/>tempore prophetie in ieiunio Helie: in figuram mortis quam
+            inten<lb ed="#N" n="140" break="no"/>ptauit sibi Iezabel. iii. Rego. xix. postea fuit christus exercitus
+            <lb ed="#N" n="141"/>qui est veritas Math. iii. Congruentiam etiam talem assignit augustinus.
+            <pb ed="#N" n="633"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>vt sicut quadraginta mansiones fecerunt filii isrlis quando de
+            egi<lb ed="#N" n="2" break="no"/>pto venerunt in terram promissionis: similiter in transeundo ad
+            refe<lb ed="#N" n="3" break="no"/>ctionem spiritualem que est terra fluens lacte etmelle debemus quadragini
+            <lb ed="#N" n="4"/>ta diebus ieiunare.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e865">
+            ⁋ Item adhuc vna assignatur ratio. quia ieiuina
+            <lb ed="#N" n="5"/>nostra fiunt propter remissionem peccatorum. et quinquagenarius numerus
+            re<lb ed="#N" n="6" break="no"/>missionis est. vnde quinquagenarius annus secundum legem iubileus erat
+            <lb ed="#N" n="7"/>id est remissiuus: vt habetur Leuit. xxv. In quadragesima autem sunt
+            <lb ed="#N" n="8"/>quinquaginta: quia quinquagesimus numerus componitur ex omnibus
+            <lb ed="#N" n="9"/>pertibus aliquotis quadragenarii simul sumptis: vt infra pate
+            <lb ed="#N" n="10"/>bit.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e881">
+            ⁋ Ad illud ergo quod primo obiicitur. quod non debent esse quadraginita
+            <lb ed="#N" n="11"/>dies ieiunii quadragesimalis. quia noua lex est maior quam vetus etc.
+            <lb ed="#N" n="12"/>potest dici quod ieiunium nostum non respondet ei quantum ad numerum dierum.
+            <lb ed="#N" n="13"/>Quare autem institutum est ieiunium quadragesimale cum tali
+            nume<lb ed="#N" n="14" break="no"/>ro: dictum est. Et potest dici ad hoc quod obiectum est. quod licet lex noua sit
+            <lb ed="#N" n="15"/>maior quam vetus: mhilominus noua est perfectior. vnde si illi de
+            ve<lb ed="#N" n="16" break="no"/>teri ieiunabant septem dies ad preperandum se ad comestionem
+            <lb ed="#N" n="17"/>agni typici. et nos efficaciori ratione debemus preparare nos
+            ie<lb ed="#N" n="18" break="no"/>iunio quadraginta dierum ad commestionem agni veri. Pre. vt
+            <lb ed="#N" n="19"/>tactum est: illud ieiunium institutum est ad solutionem decime totius
+            an<lb ed="#N" n="20" break="no"/>ni. et in signum transitus ab ista misera peregrinatione ad terram
+            pro<lb ed="#N" n="21" break="no"/>missionis.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e907">
+            ⁋ Ad hoc quod obiicitur. quod decima pars anni non continet
+            <lb ed="#N" n="22"/>tot dies: immo tantum. xxxvi. potest dici quod quatuor dies adduntur
+            illi<lb ed="#N" n="23" break="no"/>decime: vt ieiunium nostum sit conforme ieiuino christi. et hoc videtur secundum
+            <lb ed="#N" n="24"/>Grego. Uel secundum quosdam propter ieiunium quatuor temporum illo tempori
+            in<lb ed="#N" n="25" break="no"/>fertum.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e918">
+            ⁋ Ad illud quod obiicitur. quod ieiunium christi miraculosum
+            fu<lb ed="#N" n="26" break="no"/>it etc. potest dici quod licet miraculosum fuisset quantum ad omnimodam ab
+            <lb ed="#N" n="27"/>stinentiam a victualibus et temporis continuationem. nec quantum ad hoc
+            propo<lb ed="#N" n="28" break="no"/>nitur nobis ieiunium domini imitandum sed magis admirandum.
+            propo<lb ed="#N" n="29" break="no"/>nitur tamen nobis imitandum quantum potest humana infirmitas. vt scilicet
+            <lb ed="#N" n="30"/>imitemur eum ieiunandus quadragita diebus semel in die
+            commeden<lb ed="#N" n="31" break="no"/>do.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e934">
+            ⁋ Ad illud quod obiicitur. quod licet Moyses ieiunauerit
+            qua<lb ed="#N" n="32" break="no"/>draginta diebus: non propter hoc institutum fuit ieiunium
+            quadragesi<lb ed="#N" n="33" break="no"/>male in veteri lege etc. potest dici quia lex vetus fuit figura
+            no<lb ed="#N" n="34" break="no"/>ue. Moyses vero principalem intellectum in factis suis
+            refere<lb ed="#N" n="35" break="no"/>bat ad nouam.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e945">
+            ⁋ Ad illud de ieiunio christi Moysi et Helie
+            <lb ed="#N" n="36"/>potest dici. quod diebus dominicis non ieiunamus: tamen conformamus nos
+            <lb ed="#N" n="37"/>ieiunando ieiunio christi abstinendo ab aliquibus scilicet carnibus et
+            la<lb ed="#N" n="38" break="no"/>cticiniis. non tamen ieiunando diebus dominicis: tum propter reuerentiam
+            <lb ed="#N" n="39"/>diuine resurrectionis: tum in signum octaue resurrectionis quando
+            <lb ed="#N" n="40"/>erit status resurrectionis glorose. Ex hoc patet quod non debemus
+            ieiuma<lb ed="#N" n="41" break="no"/>re sine interpolatione. quia tamen tunc ieiunare expedit: diebus
+            <lb ed="#N" n="42"/>dominicis inquantum ieiunium quadragesimalem continuatur vsque ad diem
+            <lb ed="#N" n="43"/>pasche abstinemus saltem ab aliquibus vt sine intermissione
+            si<lb ed="#N" n="44" break="no"/>mus preparantes nos ad susceptionem corporis christi.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e968">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="45"/>obiicitur. quod numerus quadragenarius est numerus austeritatis etc.
+            <lb ed="#N" n="46"/>potest dici quod numerus quinquagenarius est numerus iubilei et
+            re<lb ed="#N" n="47" break="no"/>missionis. vnde magis congruit tempori missionis spiritus sancti post
+            <lb ed="#N" n="48"/>ieiunium et post resurrectionem christi. et licet quadragenarius sit nume
+            <lb ed="#N" n="49"/>rus austeritatis legalis: tum quia constituitur ex ductione
+            quaterna<lb ed="#N" n="50" break="no"/>rii supra denarium: magis congruit satisfactioni pro transgressione
+            <lb ed="#N" n="51"/>decalogi per ordinationem quatuor affectionum. Pre. huiusmodi
+            auste<lb ed="#N" n="52" break="no"/>ritas ieiunii consolationem habet admixtam. quia ex amore fit et
+            vncti<lb ed="#N" n="53" break="no"/>onem habet interius. et hoc significat bene ratio quadragenarii numeri:
+            con<lb ed="#N" n="54" break="no"/>parando ipsum ad quinquagenarium. quoniam partes adequate
+            quadra<lb ed="#N" n="55" break="no"/>genarii constituunt quinquagenarium: quod apparet. partes enim
+            ade<lb ed="#N" n="56" break="no"/>quate quarum quelibet multotiens sumpta reddit
+            quadragena<lb ed="#N" n="57" break="no"/>rium sicut iste. xxxviii. v. iiii. duo. vnum. collige omnes istas partes
+            <lb ed="#N" n="58"/>insimul et constituent numerum quinquagenarium.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e1001">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="59"/>queritur: quare abstinemus a carnibus diebua dominicis etc. potest dici
+            <lb ed="#N" n="60"/>quod ex quo non congruit quod diebus dominicis ieiunemus propter causas
+            <lb ed="#N" n="61"/>predictas: congruit tamen vt abstineatur a carnibus et lacticiniis: vt
+            <lb ed="#N" n="62"/>ieiunium nostum sit conforme quantum ad aliquid.
+          </p>
+          <p xml:id="v78d89-ahighx-d1e1012">
+            ⁋ Ad hoc quod vltimo
+            queri<lb ed="#N" n="63" break="no"/>tur: quare non est aliquod ieiunium institutum quod esset preparatorium
+            ma<lb ed="#N" n="64" break="no"/>iorum etc. potest dici. sicut non fuit indictum ieiunium vel aliquod
+            ali<lb ed="#N" n="65" break="no"/>ud preparatorium ipsis apostolis propter eorum innocentiam et sanctitatem
+            <lb ed="#N" n="66"/>ita ecclesia non indixit aliquid ieiunium maiorum membrorum: quia
+            sup<lb ed="#N" n="67" break="no"/>ponit eos esse iustos et sanctos. non ita supponit ecclesia nec debet
+            sup<lb ed="#N" n="68" break="no"/>ponere de minoribus propter eorum infirmitatem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 51, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 51, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="340"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aagx2n"><!-- q51m2 -->
+        <head xml:id="v78d89-aagx2n-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-aagx2n-Hd1e103" type="question-title">De cessatione ab actu manducandi</head>
+        <p xml:id="v78d89-aagx2n-d1e106">
+          <lb ed="#N" n="93"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e111">
+          <lb ed="#N" n="94"/>COnsequenter queritur de cessatione ab actu
+          <lb ed="#N" n="95"/>manducandi. Et queritur si sacerdos omnino
+          ces<lb ed="#N" n="96" break="no"/>saret a consecratione et communione propter reuerentiam
+          <lb ed="#N" n="97"/>sacramenti vtrum peccaret. Et videtur quod non: dicit enim
+          <lb ed="#N" n="98"/>Iugustinus libr. de eccleiasticis dogmatibus. quod de sumptione hur
+          <lb ed="#N" n="99"/>sacramenti debet vnusquisque facere quod pie credit esse faciendum. Iqu
+          <lb ed="#N" n="100"/>si quis ex reuerentia tanti sacramenti et conscientie sue indignitatis
+          <lb ed="#N" n="101"/>crederet semper esse cessandum a communione. et ob hoc
+          cessa<lb ed="#N" n="102" break="no"/>ret: non peccaret vt videtur. A simili videtur quod ex eadem
+          <lb ed="#N" n="103"/>causa posset aliquis cessare a consecratione. quia nullus de
+          <lb ed="#N" n="104"/>bet consecrare nisi velit sibi communicare.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e137">
+          ⁋ Item qui
+          cessa<lb ed="#N" n="105" break="no"/>a consecratione et huius sacramenti susceptione ob reuerennsm
+          <lb ed="#N" n="106"/>sacramenti. deum veneratur et gloriam dat deo. sed hoc est lici
+          <lb ed="#N" n="107"/>tum et meritorium: ergo etc.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e147">
+          ⁋ Item multi sancti vt beatus
+          Fran<lb ed="#N" n="108" break="no"/>ciscus. nolebant ad officium sacerdoti promoueri propter
+          ma<lb ed="#N" n="109" break="no"/>gnitudinem et dignitatem sacramenti. nec ex hoc creduntur
+          <lb ed="#N" n="110"/>peccasse. sed magis meruisse: ergo subtrahere se ab immolatione
+          <lb ed="#N" n="111"/>et communione huius sacramenti. propter sacramenti dignitatem et
+          <lb ed="#N" n="112"/>sui indignitatem videtur omnino licitum.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e160">
+          ⁋ Contra. Amb.
+          Gre<lb ed="#N" n="113" break="no"/>ue est quod ad mensam tuam mundo corde et manibus innoesntibus non
+          <lb ed="#N" n="114"/>venimus. Sed grauius est si dum peccata metuimus etiam sacrificium non
+          <lb ed="#N" n="115"/>reddamus. sed non venire corde mundo et manibus innocentibus
+          <lb ed="#N" n="116"/>ita est graue quod est mortale peccatum vt videtur: igitur et
+          pro<lb ed="#N" n="117" break="no"/>pter metum peccati non reddere sacrificium est mortale cum
+          si<lb ed="#N" n="118" break="no"/>grauius.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e176">
+          ⁋ Pre. qui haberet scientiam et officium docendi ei
+          <lb ed="#N" n="119"/>cessaret omnino a doctrina veritatis. peccaret mortaliter: qua
+          <lb ed="#N" n="120"/>de talibus dicitur Math. xxv. Seruum inutilem eiicitein
+          <lb ed="#N" n="121"/>tenebras exteriores. loquitur enim de illo qui abscondit
+          pe<lb ed="#N" n="122" break="no"/>cuniam domini sui. loquitur autem ibi qui habent scientiam et
+          <lb ed="#N" n="123"/>officium docendi veritatem et non faciunt. sicut patet ex glo.
+          ea<lb ed="#N" n="124" break="no"/>dem. i. ex quo commodum magnum assequiiur ecclesia ex immolatione et
+          <lb ed="#N" n="125"/>celebratione huius sacramenti: videtur quod peccet mortaliter
+          <lb ed="#N" n="126"/>qui habet officium consecrandi et omnino cessat a consecratione.
+          <lb ed="#N" n="127"/>Responsio. huius questionis determinatio potest haberi ab In
+          <lb ed="#N" n="128"/>non. qui determinat. quod nec multum debet homo cessare a sumptione
+          <lb ed="#N" n="129"/>corporis christi nec sumere debet sine magna sui probatione et
+          di<lb ed="#N" n="130" break="no"/>iudicatione. dicit enim sic. In perceptione corporis et sanguinis
+          <lb ed="#N" n="131"/>christi maxima est adhibenda discretio. Cauendum est enim ne
+          <lb ed="#N" n="132"/>si nimium differatur mortis periculis incurrat domino protestante.
+          <lb ed="#N" n="133"/>Nisi manducaueritis car. fi. ho. et bio. eius sang. non ha. vitam
+          <lb ed="#N" n="134"/>in vobis. Si vero quis indigne accipit iudicium incurrit dat
+          <lb ed="#N" n="135"/>nationis apostolo protestante. i. Corin. xi. Qui manducat et bibit
+          <lb ed="#N" n="136"/>indigne iudicium sibi manducat et bibit. Et ideo iuxta
+          vo<lb ed="#N" n="137" break="no"/>cem apostoli. Probet homo seipisum et sic de pane illo edat et de
+          ca<lb ed="#N" n="138" break="no"/>lice bibat. In his itaque nobis indicitur bene viuendi necessitas.
+          <lb ed="#N" n="139"/>ne corpus domini indigne sumendo sumamus iudicium: vel
+          cessan<pb ed="#N" n="341"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>do sumere nihilominus incurramus periculum. necessario
+          <lb ed="#N" n="2"/>quippe sumendus est agnus vt a vastante angelo protegamur
+          <lb ed="#N" n="3"/>nec exire possumus de egipto nisi celebrando phase.
+          pascha<lb ed="#N" n="4" break="no"/>lem agnum edamus. Dicendum igitur quod nec omnino est desistendum
+          <lb ed="#N" n="5"/>neque ab immolatione neque a communione: neque sine magna
+          sui<lb ed="#N" n="6" break="no"/>probatione et diiudicatione est ad hoc accedendum.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e239">
+          ⁋ Ad illud
+          <lb ed="#N" n="7"/>igitur quod dicit Augustinus. faciat vnusquisque quod secundum fidem suam
+          <lb ed="#N" n="8"/>pie credit esse faciendum. Dicendum quod Augustinus. determinat vtrum
+          <lb ed="#N" n="9"/>communicandum est quotidie vel non quotidie. quia quidam
+          di<lb ed="#N" n="10" break="no"/>cebant quod quotidie: quidam quod non quotidie. et ad hanc diuer
+          <lb ed="#N" n="11"/>sitatem diffiniendam dixit Augustinu. faciat vnusquisque etc. Unde non
+          <lb ed="#N" n="12"/>vult dicere semper esse cessandum: licet quis crederet hoc debere
+          <lb ed="#N" n="13"/>fieri ex reuerentia sacramenti vel aliqua alia causa.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e257">
+          ⁋ Ad illud
+          <lb ed="#N" n="14"/>quod obiicitur. quod qui cessat ob reuerentiam sacramenti deum
+          vene<lb ed="#N" n="15" break="no"/>ratur etc. Dicendum quod hoc verum est. similiter et ille qui cum
+          reueren<lb ed="#N" n="16" break="no"/>tia et timore preparatus pro posse suo consecrat et communicat.
+          <lb ed="#N" n="17"/>et fortasse plus: quia sic immolando et communicando diuina
+          <lb ed="#N" n="18"/>representat beneficia et diuinam recolit maiestatem et misericordiam
+          <lb ed="#N" n="19"/>hec enim ostensa sunt in sacra communione. Unde Augustinus. xxiiii
+          <lb ed="#N" n="20"/>psalmus. omelis. ii. Uere magnus deus et magna misericordia eius. qui
+          <lb ed="#N" n="21"/>nobis dedit manducare corpus suum in quo tanta
+          perpes<lb ed="#N" n="22" break="no"/>sus est et sanguinem suum bibere.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e279">
+          ⁋ Ad aliud dicendum. quod
+          se<lb ed="#N" n="23" break="no"/>cus est de non ordinato cessante a susceptione officii tanti.
+          <lb ed="#N" n="24"/>hoc enim bene licet. et de cessatione habentis officium ab
+          offi<lb ed="#N" n="25" break="no"/>cii executione. hec autem cessatio videtur minus licita nisi ex
+          a<lb ed="#N" n="26" break="no"/>liquali causa speciali.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e291">
+          ⁋Ad ea que pro alia parte
+          introducun<lb ed="#N" n="27" break="no"/>tur ex quibus videtur quod qui cessaret a sacra communione et ab in
+          <lb ed="#N" n="28"/>molatione non esset sacerdos. ex quacumque causa hoc faceret
+          <lb ed="#N" n="29"/>peccaret mortaliter. Responsio sine preiudicio tamen. quia non est hoc
+          <lb ed="#N" n="30"/>verum. bene verum est de cessante omnino a sacra communione. et
+          <lb ed="#N" n="31"/>hoc quia faceret contra institutionem ecclesie vt patet ex
+          de<lb ed="#N" n="32" break="no"/>cretali predicta. Estimo tamen quod si quis sacerdos non habens
+          cu<lb ed="#N" n="33" break="no"/>ram animarum. nec officium nec beneficium propter quod haberm
+          <lb ed="#N" n="34"/>necesse celebrare et ob reuerentiam sacramenti et timorem sue
+          <lb ed="#N" n="35"/>indignitatis cessaret sem per nisi iniungeretur sibi contrarium
+          <lb ed="#N" n="36"/>a superiori: quod non peccaret mortaliter.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e315">
+          ⁋ Ad illud Amb. scilicet
+          <lb ed="#N" n="37"/>quod graue est quod ad mensam tuam mundo corde et manibus
+          inno<lb ed="#N" n="38" break="no"/>centibus non venimus. dici potest quod non vult dicere quod graue sit hoc
+          <lb ed="#N" n="39"/>id est mortale: sed dicitur graue quia damnosum nobis. et hoc: quia
+          <lb ed="#N" n="40"/>si accederemus puro corde et manibus innocentibus: maiorem
+          ha<lb ed="#N" n="41" break="no"/>beret efficaciam in nobis virtus sacramenti quam nunc habeat. Uel
+          <lb ed="#N" n="42"/>forte intelligit de grauitate penali ob quam accedens non potest
+          <lb ed="#N" n="43"/>ita eleuare se ad diuina et remouere se a carnalibus motibus
+          <lb ed="#N" n="44"/>sicut deceret. Pre. dicendo esse grauius. non reddere
+          sacrifi<lb ed="#N" n="45" break="no"/>cium dum peccata metuimus. videtur quod hoc intelligatur de aliquo qui
+          <lb ed="#N" n="46"/>habeat officium celebrandi. dico enim grauius est si dum peccata
+          <lb ed="#N" n="47"/>metuimus videtur quod hoc intelligatur de aliquo qui habeat officium
+          <lb ed="#N" n="48"/>celebrandi. dicto enim grauius est si dum peccata metuimus etiam
+          sa<lb ed="#N" n="49" break="no"/>crificium non reddimus. subdit. licet igitur pro obedientia
+          assi<lb ed="#N" n="50" break="no"/>stere et pro indulgentia petere. pro officio ministrare. pro
+          reme<lb ed="#N" n="51" break="no"/>dio immolare. pro poplo obsecrare. hec Amb. per hoc quod dicit quod
+          <lb ed="#N" n="52"/>liceat pro obedientia assistere. videtur quod loquitur de illis quibus
+          <lb ed="#N" n="53"/>iniunctum est officium celebrandi.
+        </p>
+        <p xml:id="v78d89-aagx2n-d1e354">
+          ⁋ Ad id quod obiicitur. quod
+          pec<lb ed="#N" n="54" break="no"/>caret mortaliter qui subtraheret se omnino a doctrina etc.
+          Dicen<lb ed="#N" n="55" break="no"/>dum quod hoc non est generaliter verum. Estimo enim quod si aliquis
+          ma<lb ed="#N" n="56" break="no"/>gnus siue magne literature transferret se ad vitam solitariam
+          <lb ed="#N" n="57"/>propter pericula que eueniunt in seculo frequenter. et vt melius et
+          qui<lb ed="#N" n="58" break="no"/>etius posset deo vacare: ibi causa humilitatis simularet se
+          sim<lb ed="#N" n="59" break="no"/>plicem et sine noticia literarum et omnino cessaret a doctrina. nisi
+          <lb ed="#N" n="60"/>emineret periculum animarum vel fidei: non peccaret mortaliter
+          <lb ed="#N" n="61"/>Sicut fecit sanctus Ffranciscius nec talis iudicandus est seruus qui
+          <lb ed="#N" n="62"/>abscondit talentum domini in terra. Sed si cessaret quis a doctrina
+          <lb ed="#N" n="63"/>veritatis propter causam minus rectam. Uel immineret periculum
+          <lb ed="#N" n="64"/>fidei vel aliud damnum speciale in ecclesia: tunc peccaret. Unde
+          <lb ed="#N" n="65"/>Ilo. super Math. xxv. Timens abii et abscondi etc. Non
+          pre<lb ed="#N" n="66" break="no"/>dicaui quod de donante intellexi in terra in carnali vita
+          sub<lb ed="#N" n="67" break="no"/>sistens sicut habui sic tenui. Unde talis qui subsistens in
+          <lb ed="#N" n="68"/>vita carnali non multiplicat talentum domini: seruus piger
+          <lb ed="#N" n="69"/>iudicandus est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

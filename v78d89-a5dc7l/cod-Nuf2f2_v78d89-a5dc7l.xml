@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 21, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 21, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="151"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a5dc7l"><!-- q21m5 -->
+        <head xml:id="v78d89-a5dc7l-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a5dc7l-Hd1e103" type="question-title">Utrum fecundatio</head>
+        <p xml:id="v78d89-a5dc7l-d1e106">
+          <lb ed="#N" n="72"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-a5dc7l-d1e111">
+          <lb ed="#N" n="73"/>DEinde queritur de effectu fecundationis. et viditur
+          <lb ed="#N" n="74"/>quod baptismus: non sit effectus fecundationis.
+          Fe<lb ed="#N" n="75" break="no"/>cundatio enim est quedam partus spiritualis
+          impre<lb ed="#N" n="76" break="no"/>gnatio. Sed non tunc cum gignitur homo gignit: sed
+          <lb ed="#N" n="77"/>primo gignitur: deinde cum in perfectione est: habet potestatem
+          gignen<lb ed="#N" n="78" break="no"/>di. Cum ergo in baptismo gignitio sit spiritualis. fiunt enim
+          fi<lb ed="#N" n="79" break="no"/>lii dei: non tunc fecundantur ad gignendum spiritualiter. ergo fecum
+          <lb ed="#N" n="80"/>datio non est effectus baptismi.
+        </p>
+        <p xml:id="v78d89-a5dc7l-d1e131">
+          ⁋ Contra. super illud. Super
+          <lb ed="#N" n="81"/>aquam refectionis educauit me etc. glo. super aquam refectionis
+          <lb ed="#N" n="82"/>id est baptismi quo rtficiuntur qui integritatem et vires amiserant
+          <lb ed="#N" n="83"/>et anima ariditate peccatorum sterilis fecundatur.
+        </p>
+        <p xml:id="v78d89-a5dc7l-d1e141">
+          ⁋
+          Respon<lb ed="#N" n="84" break="no"/>sio quod fecundatio nihil aliud est quam virtutum et donorum que sunt
+          <lb ed="#N" n="85"/>semnia spiritualia susceptio. et hoc modo bene potest esse in
+          baptis<lb ed="#N" n="86" break="no"/>mo fecundatio: cum in baptismo conferantur vrtutes ex quibus
+          <lb ed="#N" n="87"/>postea fructus spirituales possunt facere. Si vero fecundatio
+          <lb ed="#N" n="88"/>acciperetur pro operum vel actuum plenitudine: hoc modo non est in
+          <lb ed="#N" n="89"/>baptismo fecundatio. et per hoc potest solui quod obiectum est.
+          <lb ed="#N" n="90"/>Nam illud quod dicitur per similitudinem ad gignitionem carnalem
+          <lb ed="#N" n="91"/>non vsquequaque tenet. In gignitione enim carnali secundum prius
+          <lb ed="#N" n="92"/>et posterius tempore fit progressio. In spirituali vero non sic oportet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

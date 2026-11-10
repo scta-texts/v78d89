@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 13, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 13, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="100"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3l6s9"><!-- q13m1 -->
+        <head xml:id="v78d89-a3l6s9-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a3l6s9-Hd1e103" type="question-title">De intentione baptizantis</head>
+        <p xml:id="v78d89-a3l6s9-d1e106">
+          <lb ed="#N" n="97"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a3l6s9-d1e111">
+          <lb ed="#N" n="98"/>PRimo igitur queritur de intentione
+          bapti<lb ed="#N" n="99" break="no"/>zantis. Circa quod proceditur sic. Primo.
+          <lb ed="#N" n="100"/>si requiritur intentio baptiz antis.
+          Secun<lb ed="#N" n="101" break="no"/>do. si requiritur intentio recta. Tercio.
+          si<lb ed="#N" n="102" break="no"/>recta intentio potest esse sine fide. Quarto. cuius vt obie
+          <lb ed="#N" n="103"/>cti debet esse intentio.
+        </p>
+        <div xml:id="v78d89-a3l6s9-Dd1e127">
+          <head xml:id="v78d89-a3l6s9-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-a3l6s9-d1e131">
+            <lb ed="#N" n="104"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e136">
+            <lb ed="#N" n="105"/>QUeritur ergo primo: si intentio baptizantis
+            <lb ed="#N" n="106"/>requiritur. Quod sic: videtur. Efficatio operis
+            <lb ed="#N" n="107"/>est ab intentione. vnde Mathei. xii. de
+            arbo<lb ed="#N" n="108" break="no"/>re bona. interlinearis. Quantum quis intendit tantum
+            <lb ed="#N" n="109"/>facit. igitur ad hoc quod baptismus efficaciam habeat
+            requi<lb ed="#N" n="110" break="no"/>ritur intentio.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e152">
+            ⁋ Si diceretur quod hoc intelligitur de
+            ope<lb ed="#N" n="111" break="no"/>rante aliquod opus virtutis. tunc queritur. Ex quo duo
+            <lb ed="#N" n="112"/>genera operum necessaria sunt ad salutem simpliciter
+            sci<lb ed="#N" n="113" break="no"/>licet sacramentorum et virtutum. sed opera virtutum sine
+            <lb ed="#N" n="114"/>intentione inordinata sunt. igitur et opera
+            sacramento<lb ed="#N" n="115" break="no"/>rum. Unde super psalmus. xxx. Augusti. Bonum opus
+            inten<lb ed="#N" n="116" break="no"/>tio facit.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e168">
+            ⁋ Item si sufficeret ablutio exterior sine
+            inten<lb ed="#N" n="117" break="no"/>tione ad hoc quod aliquis baptizaretur. igitur mater
+            ablu<lb ed="#N" n="118" break="no"/>endo paruulum baptizaret illum: quod non est verum.
+            <lb ed="#N" n="119"/>igitur requiritur intentio.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e178">
+            ⁋ Item dicitur in iure
+            ciui<lb ed="#N" n="120" break="no"/>lib. Qui in alia significatione vtitur voce quam institutum est:
+            <lb ed="#N" n="121"/>non hoc dicit quod significat: quia hoc non intendit.
+            <lb ed="#N" n="122"/>nec quod intendit: quia hoc non significat. Ex hoc
+            pa<lb ed="#N" n="123" break="no"/>tet. quod ad hoc quod vox litterata et articulata habeat
+            efficaci<lb ed="#N" n="124" break="no"/>am actualem significandi requiritur intentio
+            proferen<lb ed="#N" n="125" break="no"/>tis. Intentio inquam vtendi in ea significatione quam
+            <lb ed="#N" n="126"/>habet ex impositione. igitur eadem ratione videtur. quod
+            <lb ed="#N" n="127"/>verba virtutis non habent efficaciam actualem
+            operan<lb ed="#N" n="128" break="no"/>di: nisi cum proferantur cum intentione operandi secundum
+            <lb ed="#N" n="129"/>vinutem illis collatam.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e202">
+            ⁋ Contra. Augustinus. Iides
+            <lb ed="#N" n="130"/>intentionem dirigit. hoc dicitur super tricesimum
+            psal<lb ed="#N" n="131" break="no"/>mum. Si igitur non est baptismus sine intentione
+            bapti<lb ed="#N" n="132" break="no"/>zantis: nullus infidelis potest baptizare.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e211">
+            ⁋ Item
+            inten<lb ed="#N" n="133" break="no"/>tio non ordinat nisi operationem intendentis. Intentio
+            <lb ed="#N" n="134"/>enim vnius non ordinat opus alterius. igitur cum tota
+            <lb ed="#N" n="135"/>efficacia baptismi sit ab operatione diuina: que secundum
+            <lb ed="#N" n="136"/>diuinam ordinationem efficaciam habet: nullo modo
+            requi<pb ed="#N" n="101"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>ritur intentio ministri.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e227">
+            ⁋ Item vt dicit augustinus. accedens
+            ver<lb ed="#N" n="2" break="no"/>bum ad elementum fit sacramentum. duo igitur sunt tantum necessaria scilicet elenim
+            <lb ed="#N" n="3"/>tum quod habet vim regeneratiuam ex contactu carnis christi. et verbum
+            <lb ed="#N" n="4"/>institutum a domino. et hec videntur sufficere.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e236">
+            ⁋ Item si intentio
+            <lb ed="#N" n="5"/>baptizantis requiritur: tunc intentio alicuius sibi soli patet
+            <lb ed="#N" n="6"/>et alios latet. nullus scit vtrum sit baptizatus vel non. igitur cum
+            <lb ed="#N" n="7"/>nullus debeat committere se discrimini: videtur quod omnes debent
+            <lb ed="#N" n="8"/>rebaptizari. immo videtur quod non sit via salutis: cum semper
+            relin<lb ed="#N" n="9" break="no"/>qui oporteat scrupulum huiusmodi hesitationis in conscientia.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e249">
+            ⁋ Item
+            au<lb ed="#N" n="10" break="no"/>gusti. si ludicre siue minute factum sit: implorandum est diuinum
+            <lb ed="#N" n="11"/>auxilium vtrum baptismus sit vel non. Si igitur totum ludicre
+            fa<lb ed="#N" n="12" break="no"/>ctum est: nulla est intentio baptizandi. igitur si requiritur
+            in<lb ed="#N" n="13" break="no"/>tentio: certum est quod vbi totum ludicre factum est: non est baptismus.
+            <lb ed="#N" n="14"/>igitur vt certificetur super hoc non est implorandum diuinum oraculum.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e263">
+            <lb ed="#N" n="15"/>⁋ Item deus probat per ministros bonos et malos. vt per
+            de<lb ed="#N" n="16" break="no"/>mones et homines malos: quando permittit illos persequi bonos ad
+            <lb ed="#N" n="17"/>eorum probationem. Similiter purgat sacramentum baptismi
+            exerci<lb ed="#N" n="18" break="no"/>ti et per bonos et per malos. Sed ad hoc quod aliquis probetur non
+            <lb ed="#N" n="19"/>requiritur intentio probantis. quando dyabolus persequitur aliquen
+            <lb ed="#N" n="20"/>non intendit quod probetur sua persecutione. a simili videtur quod non
+            <lb ed="#N" n="21"/>requiritur intentio scilicet per baptismum.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e281">
+            ⁋ Item in operibus
+            corporali<lb ed="#N" n="22" break="no"/>bus non requiritur intentio. nec iudicatur operatio secundum
+            intenti<lb ed="#N" n="23" break="no"/>onem. Si autem aliquis percuteret aliquinem licet non intenderet
+            inter<lb ed="#N" n="24" break="no"/>ficere: si interficeret homicidium committeret. a simili videtur in
+            <lb ed="#N" n="25"/>proposito.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e292">
+            ⁋ Item Ysido. Quacumque arte verborum quis iuret
+            <lb ed="#N" n="26"/>deus sic accipit sicut ille cui iuratur intelligit. A simili
+            vi<lb ed="#N" n="27" break="no"/>detur quod verba baptismi quacumque intentione proferantur: deus
+            acci<lb ed="#N" n="28" break="no"/>pit sicut intelligunt assistentes.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e301">
+            ⁋ Item minus malum est
+            in<lb ed="#N" n="29" break="no"/>tendere bonum quam intendere malum. sed qui baptizat assumpto
+            <lb ed="#N" n="30"/>precio malum intendit: nihilominus baptizat. multo fortius
+            <lb ed="#N" n="31"/>videtur quod qui non intendit bonum: sed facere quod facit ecclesia
+            ba<lb ed="#N" n="32" break="no"/>ptizat.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e312">
+            ⁋ Item fides ecclesie potest implere defectum
+            baptisma<lb ed="#N" n="33" break="no"/>tis. ergo sicut in baptismo non requiritur fides baptismatis: sic
+            <lb ed="#N" n="34"/>nec intentio.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e319">
+            ⁋ Item baptismus est sacramentum fidei. hoc est quia
+            <lb ed="#N" n="35"/>fides prerogatiua quadam et spetiali congruentia est essentialis
+            <lb ed="#N" n="36"/>illi. nihilominus non requiritur fides baptismatis ad
+            effica<lb ed="#N" n="37" break="no"/>ciam baptismi. igitur nec intentio consimili ratione: cum
+            inten<lb ed="#N" n="38" break="no"/>tio non sit magis essentialis baptismo.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e331">
+            ⁋ Item magis vide
+            <lb ed="#N" n="39"/>tur quod baptizans debet habere illud quod eius ministerio fit
+            <lb ed="#N" n="40"/>in baptizato quam quod non efficitur. sed ministerio baptizantis
+            quodan<lb ed="#N" n="41" break="no"/>modo efficitur fides in anima: non autem intentio. igitur vt videtur
+            <lb ed="#N" n="42"/>magis requiritur fides in baptismate quam intentio.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e342">
+            ⁋ Item
+            <lb ed="#N" n="43"/>duo sunt effectus baptismi scilicet remissio culpe: et ornatus gratie
+            <lb ed="#N" n="44"/>siue virtutum. Sacramentum autem baptismi virtutem habet a passione
+            <lb ed="#N" n="45"/>christi et resurrectione ad istos effectus. igitur intentio non est
+            ba<lb ed="#N" n="46" break="no"/>ptismo essentialis neque de necessitate baptismi: cum aliunde sit
+            <lb ed="#N" n="47"/>tota virtus baptismi.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e355">
+            ⁋ Item intentio recipientis non
+            requi<lb ed="#N" n="48" break="no"/>ritur necessario: vt patet in paruulis. similiter nec in adultis. Si enim
+            <lb ed="#N" n="49"/>hereticus ficte accedat ad baptismum alia de causa: licet non
+            <lb ed="#N" n="50"/>intendat accipere sacramentum. suscipit tamen vt dicunt quidam. igitur
+            <lb ed="#N" n="51"/>vt videtur nec intentio baptizantis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e366">
+            ⁋ Item diffinitio
+            indi<lb ed="#N" n="52" break="no"/>cat esse rei. sed diffinitio baptismi est hec vt habetur. iiii. sentem.
+            <lb ed="#N" n="53"/>dis. iii. Baptismus tinctio dicitur id est ablutio corporis
+            exteri<lb ed="#N" n="54" break="no"/>or sub forma verborum prescripta. In hac diffinitione non
+            tan<lb ed="#N" n="55" break="no"/>gitur aliquid quo significetur quod intentio est necessaria baptismo.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e377">
+            <lb ed="#N" n="56"/>⁋ Item vnde habetur quod intentio est necessaria: cum non
+            ex<lb ed="#N" n="57" break="no"/>primatur in forma prescripta a domino.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e384">
+            ⁋ Item verba illa quorum
+            <lb ed="#N" n="58"/>virtus est in significando: efficaciam habent siue intendatur a
+            <lb ed="#N" n="59"/>proferente quod significent siue non. igitur videtur quod illa verba
+            <lb ed="#N" n="60"/>quorum virtus est ad operandum: efficaciam habebunt cum
+            profe<lb ed="#N" n="61" break="no"/>runtur: siue intendatur quod operentur siue non.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e396">
+            ⁋ Responsio. quod necessa
+            <lb ed="#N" n="62"/>rio requiritur intentio baptizantis in baptismo. et ratio huius est.
+            <lb ed="#N" n="63"/>quia ministerium baptismi est opus voluntatis rationabilis et
+            <lb ed="#N" n="64"/>deliberate. quod autem est huiusmodi: non pertinacia vel impetu
+            exer<lb ed="#N" n="65" break="no"/>cendum est: sed consideratione rationis et directione intentio
+            <lb ed="#N" n="66"/>nis. et hoc propter duo. propter reuerentiam sacramenti: et
+            cau<lb ed="#N" n="67" break="no"/>telam baptizati. vnde iniuria et irreuerentia fieret
+            sacra<lb ed="#N" n="68" break="no"/>mento baptismatis si sine intentione fieret. Item vt
+            ma<lb ed="#N" n="69" break="no"/>ior cautela adhibeatur baptizato. quia enim ibi est
+            pericu<lb ed="#N" n="70" break="no"/>lum: debet baptizandus cautus esse vt non se exponat
+            cui<lb ed="#N" n="71" break="no"/>cumque notato vel suspecto. Alia ratio est hec. Fides est
+            prin<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>cipium vniuersale quo sacramenta et maxime sacramentum
+            <lb ed="#N" n="73"/>baptismi efficaciam habet. sed hec efficacia scilicet fidei non
+            ha<lb ed="#N" n="74" break="no"/>bet locum in isto vel in illo baptizato: nisi mediante
+            mi<lb ed="#N" n="75" break="no"/>nistro ecclesie dispensante. Sed baptizans efficitur minister
+            <lb ed="#N" n="76"/>ecclesie per hoc quod intendit ecclesia. vnde necessario requiritur
+            <lb ed="#N" n="77"/>intentio. similiter est de virtute verbi: quia nullam habet
+            <lb ed="#N" n="78"/>virtutem nisi mediante dispensatione ministri ecclesie illud pro
+            <lb ed="#N" n="79"/>ferentis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e439">
+            ⁋ Ad illud autem quod primo obiicitur contra hoc.
+            di<lb ed="#N" n="80" break="no"/>cendum quod verbum augustinus. intelligitur in operibus virtutum quibus
+            <lb ed="#N" n="81"/>aliquis meretur sibi. in talibus fides dirigit intentionem scilicet in
+            <lb ed="#N" n="82"/>finem optimum. nihilominus dici posset quod sicut fides
+            pro<lb ed="#N" n="83" break="no"/>prie dirigit intentionem agentis siue exercentis se in
+            ope<lb ed="#N" n="84" break="no"/>ribus virtutum: sic fides ecclesie in operibus sacramentorum. et hoc
+            <lb ed="#N" n="85"/>dico si desit propria agentis. Cum autem hereticus baptizat
+            <lb ed="#N" n="86"/>eo quod intendit quod intendit ecclesia: efficitur minister ecclesie.
+            <lb ed="#N" n="87"/>Si enim non intendit quod intendit ecclesia: sed quod heresis
+            in<lb ed="#N" n="88" break="no"/>fidelium: non baptizaret. quia igitur in baptizando eo quod
+            in<lb ed="#N" n="89" break="no"/>tendit idem quod ecclesia: efficitur minister ecclesie. et quod facit
+            <lb ed="#N" n="90"/>est opus ecclesie. Unde sicut quando baptizat fidelis intentio
+            <lb ed="#N" n="91"/>nem eius dirigit fides: sic quando baptizat hereticus
+            intentio<lb ed="#N" n="92" break="no"/>nem eius dirigit fides ecclesie ratione pretacta.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e470">
+            ⁋ Ad aliud
+            <lb ed="#N" n="93"/>quod obiicitur. quod intentio non ordinat nisi operationem
+            intenden<lb ed="#N" n="94" break="no"/>tis etc. Dicendum quod vt vult phohus. est agens secundum naturam:
+            <lb ed="#N" n="95"/>vt quod in subiecta sibi materia statim et quasi quodam
+            im<lb ed="#N" n="96" break="no"/>petu agit id est non cum prouidentia et consideratione aliqua.
+            <lb ed="#N" n="97"/>Est et agens secundum propositum quod non agit statim subiecta
+            si<lb ed="#N" n="98" break="no"/>bi materia: sed cum quadam intentione et consideratione. et
+            in<lb ed="#N" n="99" break="no"/>tentione: sic agit vtens ratione. et maxime in his que
+            necessa<lb ed="#N" n="100" break="no"/>ria sunt ad salutem. Unde cum baptizans sit agens secundum
+            pro<lb ed="#N" n="101" break="no"/>positum necessario requiritur in huiusmodi actione intentio. sed
+            <lb ed="#N" n="102"/>actio baptizantis est relata ad aliam scilicet ad actionem dei.
+            pro<lb ed="#N" n="103" break="no"/>positum enim ecclesie est quod minister abluat exterius: vt deus
+            <lb ed="#N" n="104"/>abluat interius. propter quod intentio dirigit actionem
+            bapti<lb ed="#N" n="105" break="no"/>smatis vt est relata ad opus dei. vnde intentio respicit vtramque
+            <lb ed="#N" n="106"/>actionem et vtramque dirigit et ordinat sicut causa sine qua non.
+            <lb ed="#N" n="107"/>Cum igitur obiicitur. quod intentio vnius non ordinat actum
+            alte<lb ed="#N" n="108" break="no"/>rius. Dicendum quod hoc est verum quando intentio illius nullo
+            <lb ed="#N" n="109"/>modo respicit actum alterius. sic non est hic.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e509">
+            ⁋ Ad aliud
+            <lb ed="#N" n="110"/>quod obiicitur. quod accedens verbum ad elementum fit
+            sacramen<lb ed="#N" n="111" break="no"/>tum etc. dicendum quod vt dicit Grego. in moralis. non debet inten
+            <lb ed="#N" n="112"/>tio verbis deseruire: sed verba intentioni. vnde tunc dicitur
+            <lb ed="#N" n="113"/>accedere verbum ad elementum: quando cum intentione profertur.
+            <lb ed="#N" n="114"/>aliter non dicitur proprie verbum accedere ad elementum. cum enim
+            <lb ed="#N" n="115"/>dicitur accedens verbum etc. ibi sumitur verbum proprie. non
+            so<lb ed="#N" n="116" break="no"/>lum pro voce litterata et articulata: sed secundum quod profertur cum
+            inten<lb ed="#N" n="117" break="no"/>tione. Quod patet per hoc quod dicit augustinus. non quia dicitur: sed quia
+            credi<lb ed="#N" n="118" break="no"/>tur. sicut enim dicit augustinus. fides dirigit intentionem. Uel potest
+            <lb ed="#N" n="119"/>dici. quod augustinus. non intendit determinare omnia que
+            requirun<lb ed="#N" n="120" break="no"/>tur ad sacramentum: sed ea que ad opus exterius sacramenti
+            requi<lb ed="#N" n="121" break="no"/>runtur. vt elementum quod est materiale: et verbum quod est
+            forma<lb ed="#N" n="122" break="no"/>le.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e540">
+            ⁋ Ad illud quod obiicitur. quod si intentio requiritur nullus scit
+            <lb ed="#N" n="123"/>vtrum sit baptizatus etc. Dicendum quod si aliquis debeat
+            bapti<lb ed="#N" n="124" break="no"/>zari: adhibenda est diligentia quod baptizatus non committatur
+            <lb ed="#N" n="125"/>alicui suspecto vel notato de heresi: sed probato in fide. et si hoc
+            <lb ed="#N" n="126"/>licet intentio baptismatis non innotescit certitudinaliter: tamen
+            in<lb ed="#N" n="127" break="no"/>notescit vehementi presumptione. et hoc sufficit saluti ipsius
+            ba<lb ed="#N" n="128" break="no"/>ptizati adulti cum propria fide et intentione. et sic satis
+            precaue<lb ed="#N" n="129" break="no"/>tur periculo.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e558">
+            ⁋ Sed adhuc dubitatur. quia his omnibus expletis
+            <lb ed="#N" n="130"/>in baptismo paruuli: bene potest accidere quod qui baptizat non
+            habe<lb ed="#N" n="131" break="no"/>bit intentionem ecclesie. igitur si requiritur intentio baptizantis: non
+            <lb ed="#N" n="132"/>est baptizatus paruulus. igitur si decedat antequam habeat vsum
+            li<lb ed="#N" n="133" break="no"/>beri arbt. damnabitur. nihilominus ecclesia fecit quod in se fuit:
+            per<lb ed="#N" n="134" break="no"/>uulus nihil potuit facere. igitur videtur quod periculose et minus
+            <lb ed="#N" n="135"/>sufficienter prouisum est humane saluti. cum scilicet paruulus
+            dam<lb ed="#N" n="136" break="no"/>natur: et tamen ecclesia in nullo negligit. immo facit sufficienter
+            <lb ed="#N" n="137"/>quod in se est: nec paruulus aliquid potest.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e579">
+            ⁋ Respondeo sine preiudicio
+            <lb ed="#N" n="138"/>quod in casu isto pie supponi potest quod summus sacerdos
+            supple<lb ed="#N" n="139" break="no"/>bit. Cum enim virtus sua non sit alligata sacramentis: pie
+            <lb ed="#N" n="140"/>supponendum est quod superabundantia liberalitatis et gratie illius
+            <lb ed="#N" n="141"/>et merito ecclesie in nullo negligentis aliud remedium
+            salu<lb ed="#N" n="142" break="no"/>tis habebit. Preterea. si hoc non faciat: in nullo preiudicatum est
+            <pb ed="#N" n="102"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>ecclesie nec paruulo: cum sola gratia et absque omni debito
+            remit<lb ed="#N" n="2" break="no"/>tat dominus peccata: quocumque modo vel medio remittantur. Pretera. nec in
+            <lb ed="#N" n="3"/>hoc preiudicatur diuine misericordie: quia ex diuina prouidentia
+            rationa<lb ed="#N" n="4" break="no"/>biliter prouisum est: vt sine intentione que est quasi vita operationis
+            <lb ed="#N" n="5"/>et dux: ipsa operatio efficaciam non habeat. vnde cum diuina misericordia non
+            <lb ed="#N" n="6"/>debet aliquid facere quod sit in preiudicium prouidentie eius:
+            ma<lb ed="#N" n="7" break="no"/>gis consonum est rationi. quod operatio baptismatis non sine
+            inten<lb ed="#N" n="8" break="no"/>tione efficaciam habeat quam sine: etsi ex hoc eminat aliquod
+            pericu<lb ed="#N" n="9" break="no"/>lum paruulo.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e616">
+            ⁋ Ad aliud quod obiicitur. si totum ludicre factum est
+            <lb ed="#N" n="10"/>etc. dicendum sicut a Hugo. habetur. quod aliquid fieri ludicre dupliciter
+            <lb ed="#N" n="11"/>est. sicut aliquid dare ludicre. potest enim dare aliquis ita ludicre
+            <lb ed="#N" n="12"/>aliquid: quod cum hoc quod ludicre dat: vult et intendit dare. vel ita quod
+            <lb ed="#N" n="13"/>ludum tantum intendit: non autem vult neque intendit dare: sed potius
+            <lb ed="#N" n="14"/>non dare. Similiter in proposito dicendum. Si quis iocose totam formam
+            <lb ed="#N" n="15"/>baptizandi seruet. et simul cum hoc iocare intendit et baptizare
+            <lb ed="#N" n="16"/>intendit: baptismus est. Si autem non intendit nisi ludum in
+            sub<lb ed="#N" n="17" break="no"/>mergendo: non est baptismus. Ad hoc igitur quod dicit augustinus. quod
+            <lb ed="#N" n="18"/>si totum ludicre factum est implorandum etc. dicendum quod intellectus
+            <lb ed="#N" n="19"/>Augustinus. est. si totum opus exterius ludicre fiat: adhuc quia opst
+            <lb ed="#N" n="20"/>exterius possit exerceri cum intentione baptizandi vel ludendi
+            <lb ed="#N" n="21"/>tantum: implorandum est diuinum oraculum vt dominus ostendat si sit
+            ba<lb ed="#N" n="22" break="no"/>ptizatus id est si sic ludendo intendebatur baptizare vel ludere
+            <lb ed="#N" n="23"/>tantummodo.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e649">
+            ⁋ Ad illud quod obiicitur per simile de purgatione per
+            <lb ed="#N" n="24"/>malos etc. dicendum quod sacramenta non sunt instituta vt
+            irrationabi<lb ed="#N" n="25" break="no"/>li pertinacia et impetu violento procedant ad effectum: sed vt
+            vsu<lb ed="#N" n="26" break="no"/>ordinata rationis fiant et efficaciam habeant. hoc autem requirit excel
+            <lb ed="#N" n="27"/>lentia sacramenti: et maxime sacramenti necessitatis. Quia enim
+            <lb ed="#N" n="28"/>est sacramentum necessitatis: requiritur multa solicitudo vt non
+            preter<lb ed="#N" n="29" break="no"/>mittatur quod ad hoc quod ordinate fiat requiritur. sed vbi aliquod opust
+            <lb ed="#N" n="30"/>vsum rationis ordinatum requirit: necessaria est intentio que est
+            <lb ed="#N" n="31"/>dux et regula operis: propter quod in sacramento requiritur
+            inten<lb ed="#N" n="32" break="no"/>tio. sed in operibus probationis quia operans impetit in opus
+            qua<lb ed="#N" n="33" break="no"/>dam violenta atque irrationabili pertinacia nec vllam admittit
+            <lb ed="#N" n="34"/>rationem: non requiritur intentio. nec dicendum quod talis probat: nec est
+            <lb ed="#N" n="35"/>instrumentum vel minister probantis sed opus potius. Quod enim
+            <lb ed="#N" n="36"/>ipsi peruerse faciunt: dominus ordinat ad bonum. vnde opust non probat
+            <lb ed="#N" n="37"/>vt est operantis: sed vt est dei ordinantis. Sed quando malus
+            bapti<lb ed="#N" n="38" break="no"/>zat: baptizat eo quod est minister ecclesie. et inquantum huiusmodi est
+            mi<lb ed="#N" n="39" break="no"/>nister sacramenti.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e686">
+            ⁋ Ad hoc quod obiicitur per simile de operibus
+            <lb ed="#N" n="40"/>corporalibus. dicendum quod non est simile: quia operatio sacramenti et
+            <lb ed="#N" n="41"/>alia opera spiritualia secundum vsum rationis ordinatissimum debent
+            <lb ed="#N" n="42"/>procedere in actum. propter quod in actibus spiritualibus intentio
+            re<lb ed="#N" n="43" break="no"/>quiritur. nec sic est de corporalibus.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e697">
+            ⁋ Ad id quod obiicitur per
+            simi<lb ed="#N" n="44" break="no"/>le de iuramento. dicendum quod cum dicitur quod dominus accipit verbum
+            iu<lb ed="#N" n="45" break="no"/>rantis sicut ille cui iuratur. hoc intelligitur de acceptione quantum
+            <lb ed="#N" n="46"/>ad hoc quod iurans debet iudicari verax vel periurus. ver. grgto.
+            ille<lb ed="#N" n="47" break="no"/>cui iuratur: secundum comnem vsum et rationalem verborum prolatorum
+            acci<lb ed="#N" n="48" break="no"/>pit iurantis intellectum. iurans autem aliqua fallacia format
+            <lb ed="#N" n="49"/>sibi intellectum priuatum. et secundum quod concipit de illo intellectu
+            <lb ed="#N" n="50"/>quem sibi format iurat. dominus non iudicat illum veracem secundum
+            ve<lb ed="#N" n="51" break="no"/>ritatem illius intellectus: sed periurum. quia non est verax secundum
+            <lb ed="#N" n="52"/>communem et rationabilem intellectum. vnde cum dicitur. dominus sic ac
+            <lb ed="#N" n="53"/>cipit vt ille cui iuratur. hoc est. dominus iudicat iuramentum
+            ve<lb ed="#N" n="54" break="no"/>rum vel periurium: et iurantem veracem vel periurum. secundum quod
+            conformen<lb ed="#N" n="55" break="no"/>vel difformen habet intellectum intellectui illius cui iuratur.
+            Si<lb ed="#N" n="56" break="no"/>militer potest dici in proposito. si baptizans conformat
+            inten<lb ed="#N" n="57" break="no"/>tionem suam intentioni assistentium: dominus iudicat eum verum
+            <lb ed="#N" n="58"/>ministrum et vere exequi officium baptizandi. Si non conformat
+            <lb ed="#N" n="59"/>sed habet intentionem peruersam: et dominus iudicat eum malum et
+            per<lb ed="#N" n="60" break="no"/>uersum in executione officii sui.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e736">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="61"/>minus malum est non intendere bonum etc. dicendum quod vt dicit
+            Au<lb ed="#N" n="62" break="no"/>gusti. super Io. Baptismus talis est qualis est ille in cuius
+            <lb ed="#N" n="63"/>potestate datur: non qualis est ille per cuius ministerium datur.
+            <lb ed="#N" n="64"/>Item alibi in eodem. Cum baptizat malus: illud quod
+            da<lb ed="#N" n="65" break="no"/>tum est vnum est. nec impar propter impares ministros: sed
+            <lb ed="#N" n="66"/>par et equale. propter hoc hic est qui baptizat. Unde dicendum. quod
+            <lb ed="#N" n="67"/>malicia non impedit efficaciam sacramenti: quia non est
+            mi<lb ed="#N" n="68" break="no"/>nistrorum sed dei. propter hoc quicumque baptizat dummodo
+            con<lb ed="#N" n="69" break="no"/>currant que necessario requiruntur: baptismus est. Si autem quid
+            <lb ed="#N" n="70"/>necessarium omittitur: non est baptismus.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e761">
+            ⁋ Ad aliud quod obiicitur
+            <lb ed="#N" n="71"/>quod fides ecclesie potest supplere defectum fidei baptizantis.
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>etc. doeum quod intentio ba ptizantis quando infidelis baptizat
+            fa<lb ed="#N" n="73" break="no"/>cit baptizantem ministrum ecclesie. Si enim non intenderet
+            face<lb ed="#N" n="74" break="no"/>quod facit ecclesia: sed quod facit heresis. non esset minister ecclesie.
+            <lb ed="#N" n="75"/>Unde vt dicit Augustinus. quando baptizat heresis non baptizat:
+            <lb ed="#N" n="76"/>vnde diuisa est ab ecclesia: sed vnde coniuncta. commniuncta est
+            au<lb ed="#N" n="77" break="no"/>tem per hoc quod intendit quod intendit ecclesia. Intentio igitur
+            <lb ed="#N" n="78"/>baptizantis fidelis supplet defectum fidei in eodem. et illum
+            <lb ed="#N" n="79"/>sufficientem ad hoc ministerium exequendum efficit. quia igitur ex
+            <lb ed="#N" n="80"/>intentione est quod est minister ecclesie et quod quodammodo est de
+            <lb ed="#N" n="81"/>ecclesia. et si non haberet intentionem: non esset ex hoc quod intentio
+            <lb ed="#N" n="82"/>ecclesie non potest supplere defectum intentionis ministri talis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e792">
+            <lb ed="#N" n="83"/>⁋ Ad illud quod postea obiicitur dicendum. quod fides est essentialis
+            <lb ed="#N" n="84"/>ipsi baptismo. quia baptismus virtutem habet a fide: et maxime
+            <lb ed="#N" n="85"/>a fide passionis. Ipsa autem verba instituta a domino
+            efficaciam<lb ed="#N" n="86" break="no"/>habent sanctificandi a fide. vt habetur ab Augustinus dicente.
+            ac<lb ed="#N" n="87" break="no"/>cedit verbum ad elementum etc. non quia dicitur: sed quia creditur.
+            <lb ed="#N" n="88"/>Est igitur ipsi baptismo fides essentialis. non fides
+            baptizan<lb ed="#N" n="89" break="no"/>tis: sed ecclesie. et hoc quia sacramentum est ecclesie. sed ipsi
+            bapti<lb ed="#N" n="90" break="no"/>zati ratione actualis ministerii intentio est necessaria: ne
+            excel<lb ed="#N" n="91" break="no"/>lentie sacramenti actio irrationalis et impetuosa preiudicet.
+            <lb ed="#N" n="92"/>vnde quia sacramentum est ecclesie requiritur fides ecclesie:
+            <lb ed="#N" n="93"/>ratione qua ministratur actualiter a baptizante: requirin
+            <lb ed="#N" n="94"/>intentio baptizantis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e821">
+            ⁋ Ad illud quod obiicitur. quod magis
+            de<lb ed="#N" n="95" break="no"/>bet habere baptizans quod efficit quam quod non efficit etc.
+            Di<lb ed="#N" n="96" break="no"/>cendum quod medium sumitur in hoc argumento a maiori de
+            <lb ed="#N" n="97"/>terminante sibi materiam vniuocationis cause et effectus. quod
+            <lb ed="#N" n="98"/>patet cum dicitur. magis videtur quod debeat habere baptizans
+            <lb ed="#N" n="99"/>quod efficit quam quod non efficit: sed efficit fidem in anima etc. Dico ergo
+            <lb ed="#N" n="100"/>quod in hoc argumento vnum falsum supponitur scilicet quod est
+            vniuo<lb ed="#N" n="101" break="no"/>ca actio. quia neque quantum est ex parte sacramenti neque
+            ministri<lb ed="#N" n="102" break="no"/>est vniuocatio respectu effectus qui est gratia vel virtus
+            <lb ed="#N" n="103"/>quia neque in ipso sacramento neque in ministro requiritur
+            <lb ed="#N" n="104"/>gratia. Cum igitur supponitur quod magis debet baptizans
+            ha<lb ed="#N" n="105" break="no"/>bere etc. supponitur falsum. quia hic non est vniuoca actio.
+            <lb ed="#N" n="106"/>Item supposito quod esset vniuoca actio: adhuc esset fallacia
+            <lb ed="#N" n="107"/>consequentis in argumento. immo potius sic deberet
+            infer<lb ed="#N" n="108" break="no"/>re. sed ab ipso est tinctio vel ablutio. igitur ipse est tinctus
+            <lb ed="#N" n="109"/>vel ablutus. non autem sequitur et est instantia. calidum
+            <lb ed="#N" n="110"/>agit vniuoce: igitur si calidum liquefacit: calidum est
+            li<lb ed="#N" n="111" break="no"/>quidum.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e860">
+            ⁋ Ad hoc quod obiicitur. quod duo sunt effectus
+            <lb ed="#N" n="112"/>baptismi qui sunt a virtute passionis etc. Dicendum quod que
+            <lb ed="#N" n="113"/>dam essentialiter respiciunt substantiam siue esse
+            bapti<lb ed="#N" n="114" break="no"/>smi simpliciter: quedam ministerium baptismi. virtus
+            au<lb ed="#N" n="115" break="no"/>tem baptismi vt consideratur in substantia sua et esse: est
+            <lb ed="#N" n="116"/>a passione et resurrectione. nihilominus quantum ad
+            mini<lb ed="#N" n="117" break="no"/>sterium sacramenti per quod applicatur efficacia requiritur
+            <lb ed="#N" n="118"/>intentio. licet igitur quo ad principales effectus sit virtus
+            <lb ed="#N" n="119"/>baptismi a passione et resurrectione christi: nihilominus quia
+            <lb ed="#N" n="120"/>virtus baptismi non habet effectum in isto vel illo sine
+            mi<lb ed="#N" n="121" break="no"/>nisterio: necessaria est intentio ad hoc quod virtus baptismi
+            <lb ed="#N" n="122"/>effectum habeat in isto vel in illo.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e886">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="123" break="no"/>citur. quod intentio recipientis non requiritur necessario. Di
+            <lb ed="#N" n="124"/>cendum quod quia proprius effectus baptismi est ablutio
+            ori<lb ed="#N" n="125" break="no"/>ginalis quod ex altero contrahitur: propter hoc remedium
+            <lb ed="#N" n="126"/>quod habetur per baptismum per alterum debet
+            procurari<lb ed="#N" n="127" break="no"/>siue ministrari. propter quod non est necessaria intentio
+            ba<lb ed="#N" n="128" break="no"/>ptizati sed baptizantis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e902">
+            ⁋ Ad hoc quod obiicitur de adulto
+            <lb ed="#N" n="129"/>heretico ficte accedente. dico sine preiudicio. quod talis non
+            <lb ed="#N" n="130"/>recipit sacramentum nisi aliquo modo intendat reoipere
+            <lb ed="#N" n="131"/>quod recipitur a membris ecclesie. vnde in tali requiritur
+            quodam<lb ed="#N" n="132" break="no"/>modo intentio generalis ecclesie sicut in baptizante.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e914">
+            ⁋ Ad
+            <lb ed="#N" n="133"/>aliud quod obiicitur. quod in diffinitione baptismi in forma
+            pre<lb ed="#N" n="134" break="no"/>scripta a domino: non tangitur aliquid per quod significatur quod
+            <lb ed="#N" n="135"/>intentio est necessaria baptismo. Dicendum quod insinuatur
+            <lb ed="#N" n="136"/>a forma prescripta a domino. vlti. Math. Ite baptizantes
+            <lb ed="#N" n="137"/>eos in nomine pa. et fi. et. spiritussa. etc. vt enim dicunt aliqui
+            <lb ed="#N" n="138"/>intentio insinuatur in hoc quod dicitur baptizantes. vnde
+            sen<lb ed="#N" n="139" break="no"/>sus est baptizantes id est tingentes in aqua cum intentione
+            <lb ed="#N" n="140"/>baptizandi. In opere enim quod fit secundum propositum requiritur intem
+            <lb ed="#N" n="141"/>tio. Unde dominus precipiendo illis opus exercendum cum
+            <lb ed="#N" n="142"/>propolito et intentione operantis habendam circa idem insinuat.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e938">
+            <pb ed="#N" n="103"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Ad vltimum dicendum. quod conclusio est vera. Non enim requiritur quod
+            <lb ed="#N" n="2"/>baptizans intendat quod verba prolata efficaciam habent
+            signi<lb ed="#N" n="3" break="no"/>ficandi. Multi enim baptizant qui ignorant quod verba habent vir
+            <lb ed="#N" n="4"/>tutem huiusmodi: sed requiritur quod intendat facere quod facit ecclesia in
+            <lb ed="#N" n="5"/>baptizando.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3l6s9-Dd1e958">
+          <head xml:id="v78d89-a3l6s9-Hd1e960">Articulus 2</head>
+          <p xml:id="v78d89-a3l6s9-d1e962">
+            <lb ed="#N" n="6"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e967">
+            <lb ed="#N" n="7"/>COnsequenter queritur. vtrum intentio recta requiratur
+            <lb ed="#N" n="8"/>ad baptisma. Quod sic: videtur per hoc quod intentio
+            re<lb ed="#N" n="9" break="no"/>quiritur. ergo ad recte baptizare requiritur intentio
+            <lb ed="#N" n="10"/>recta.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e978">
+            ⁋ Item minus malum est nihil intendere in opere: quod
+            <lb ed="#N" n="11"/>malum finem intendere. ergo si baptismus non potest esse non
+            existen<lb ed="#N" n="12" break="no"/>te intentione: multo fortius existente peruersa intentione.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e985">
+            ⁋ Ite
+            <lb ed="#N" n="13"/>ad que requiritur intentio denomniantur bona vel mala ab ipsa
+            inten<lb ed="#N" n="14" break="no"/>tione. ergo cum ad baptisma sit necessaria intentio: si
+            inten<lb ed="#N" n="15" break="no"/>tio sit recta: et baptismus dicendus est rectus. si
+            inten<lb ed="#N" n="16" break="no"/>tio non recta: nec baptismus rectus.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e997">
+            ⁋ Contra. hereticus
+            <lb ed="#N" n="17"/>baptizat cum tamen habeat intentionem paruersam intendens per hoc
+            <lb ed="#N" n="18"/>trahere ad suam heresim. Similiter symoniacus intendens
+            <lb ed="#N" n="19"/>questum aliquem temporalem. ergo non est necessaria ad
+            bapti<lb ed="#N" n="20" break="no"/>smum recta intentio.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1008">
+            ⁋ Responsio. quod intentio est directiua eius
+            <lb ed="#N" n="21"/>cuius est in finem. Finis autem rei est duplex scilicet terminus vel
+            <lb ed="#N" n="22"/>complementum rei: et vtilitas rei. Sic in sacramento duplex
+            <lb ed="#N" n="23"/>est finis. vnus qui est eius complementum quod fit ex accessu verbi
+            <lb ed="#N" n="24"/>ad elementum modo debito. et alius qui est vtilitas
+            bapti<lb ed="#N" n="25" break="no"/>zati vel baptizantis. Similiter duplex est intentio. vt cum
+            <lb ed="#N" n="26"/>aliquis construat domum intendit eam consummare et
+            inten<lb ed="#N" n="27" break="no"/>dit eam inhabitare. Sic in sacramento intendit quis
+            pri<lb ed="#N" n="28" break="no"/>ma intentione sacramentum ecclesie ministrare: consequenter intendit
+            suam<lb ed="#N" n="29" break="no"/>vtilitatem vel paruuli salutem: vel quicquid illud sit. prima inten
+            <lb ed="#N" n="30"/>tio est de necessitate sacramenti: secunda tantum de congruitate. prima
+            <lb ed="#N" n="31"/>intentio non habet rectum vel obliquum: sed secunda habet rectum et
+            ob<lb ed="#N" n="32" break="no"/>liquum. vnde patet responsio. quod ad sacramentum baptismi nihil facit
+            in<lb ed="#N" n="33" break="no"/>tentio recta: nec aliquid obstat intentio non recta quantum ad
+            <lb ed="#N" n="34"/>substantiam sacramenti. Argumenta igitur que probant quod ad
+            bapti<lb ed="#N" n="35" break="no"/>smum requiritur intentio recta: supponunt ad baptismum
+            requiri<lb ed="#N" n="36" break="no"/>intentionem que est intentio vtilitatis. et ideo super falsum
+            <lb ed="#N" n="37"/>fundantur. vt patet de primo.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1047">
+            ⁋ Ad illud quod obiicitur. quod melius
+            <lb ed="#N" n="38"/>est nihil intendere quam male. dicendum quod defectus intentionis non
+            <lb ed="#N" n="39"/>impedit sacramentum propter culpam: sed propter illius actus ne
+            <lb ed="#N" n="40"/>cessariam exigentiam.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1056">
+            ⁋ Ad id quod obiicitur. quod opera
+            denomi<lb ed="#N" n="41" break="no"/>nantur ab intentione. dicendum quod hoc est verum de operibus ad
+            quo<lb ed="#N" n="42" break="no"/>rum informationem necessaria est intentio finis. vt est
+            vtili<lb ed="#N" n="43" break="no"/>tas. huiusmodi autem intentio non requiritur nisi ex coneqenti. In hoc enim
+            <lb ed="#N" n="44"/>quod per se intendit facere quod facit ecclesia: intendit ex conesqenti aliquid
+            <lb ed="#N" n="45"/>fieri circa baptizatum quod intendit ecclesia.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3l6s9-Dd1e1070">
+          <head xml:id="v78d89-a3l6s9-Hd1e1072">Articulus 3</head>
+          <p xml:id="v78d89-a3l6s9-d1e1074">
+            <lb ed="#N" n="46"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1079">
+            <lb ed="#N" n="47"/>COnsequenter queritur. vtrum possit esse intentio que
+            <lb ed="#N" n="48"/>requiritur in baptismo scilicet faciendi quod facit ecclesia
+            <lb ed="#N" n="49"/>sine fide scilicet baptismatis. Quod sic: patet per hoc quod here
+            <lb ed="#N" n="50"/>tici baptizat: et baptismus non est sine intentione.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1090">
+            ⁋ Contra.
+            au<lb ed="#N" n="51" break="no"/>gusti. ad Orosium. Quicumque baptizatur in spe salutis eterne
+            <lb ed="#N" n="52"/>baptizatur. igitur a destructione coneqentis: si non baptizatur in spe
+            sa<lb ed="#N" n="53" break="no"/>lutis eterne: non baptizatur. sed non baptizatur in spe salutis eter
+            <lb ed="#N" n="54"/>ne sine fide. igitur nec baptizatur sine fide neque sine intentione.
+            <lb ed="#N" n="55"/>igitur hec duo requiruntur in baptismo: fides et intentio. igitur non
+            <lb ed="#N" n="56"/>sufficit intentio sine fide.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1106">
+            ⁋ Item ad ministerium baptismi
+            re<lb ed="#N" n="57" break="no"/>quiritur inuocatio quedam. Inuocatio autem est intus vocatio.
+            <lb ed="#N" n="58"/>Sed inuocatio que requiritur est in nomine trinitatis que
+            expri<lb ed="#N" n="59" break="no"/>mitur cum dicitur. baptizo te in nomine p. et fi. et ililicet Sed vt vult
+            hu<lb ed="#N" n="60" break="no"/>go. nomen ibi dicit fidem siue noticiam fidei. igitur ad hoc quod
+            <lb ed="#N" n="61"/>aliquis baptizet intentione requiritur interior vocatio: que est
+            <lb ed="#N" n="62"/>quantum ad fidem siue noticiam fidei. sed huiusmodi vocatio non est sine
+            fi<lb ed="#N" n="63" break="no"/>de. igitur nec intentio baptizandi.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1125">
+            ⁋ Item quia baptismus est
+            <lb ed="#N" n="64"/>sacramentum fidei: non est necessaria intentio baptizantis personalis
+            <lb ed="#N" n="65"/>sed baptizantis in persona fidelium. vt scilicet intendat facere quod
+            fa<lb ed="#N" n="66" break="no"/>cit ecclesia. Sic ergo proprie loquendo baptisma fit in fide ecclesie: quia
+            <lb ed="#N" n="67"/>ministerium ecclesie exercetur in baptismo. et minister inquantum talis est
+            <lb ed="#N" n="68"/>minister ecclesie. Similiter proprie loquendo quia in baptismo
+            inten<lb ed="#N" n="69" break="no"/>ditur illud quod intendit ecclesia: baptizatur in intentione ecclesie. et
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>ita eiusdem est intentio et fides.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1145">
+            ⁋ Item verbum inuocationis
+            <lb ed="#N" n="71"/>non proponitur ad significandum sed ad agendum. intentio igitur
+            pro<lb ed="#N" n="72" break="no"/>ponentis est vt agat non vt significet.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1152">
+            ⁋ Preterea. intendit vt agat
+            <lb ed="#N" n="73"/>quia creditur: non quia dicitur probatio intendit quod intendit
+            ec<lb ed="#N" n="74" break="no"/>clesia. igitur cum ecclesia intendit vt verbum operetur quia
+            cre<lb ed="#N" n="75" break="no"/>ditur: et baptizans similiter. Sed intendere quod verbum agat quia
+            cre<lb ed="#N" n="76" break="no"/>ditur non potest quis nisi fidem habeat. igitur fides requiritur
+            <lb ed="#N" n="77"/>ad hoc quod sit intentio.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1165">
+            ⁋ Responsio. quod intentio faciendi quod facit
+            <lb ed="#N" n="78"/>ecclesia potest esse sine fidem scilicet intendentis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1170">
+            ⁋ Ad illud ergo quod
+            pri<lb ed="#N" n="79" break="no"/>mo obiicitur dicendum est. quod duo scilicet fides et intentio requiruntur
+            <lb ed="#N" n="80"/>ad hoc quod aliquis baptizetur: sed non in eodem. Requiritur enim fides
+            <lb ed="#N" n="81"/>ecclesie: et intentio baptizantis. nec intendit augustinus. dicens. quod
+            <lb ed="#N" n="82"/>quicumque baptizatur in spe etc. quod spes illa sit ipsius
+            bapti<lb ed="#N" n="83" break="no"/>zantis: sed ecclesie.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1183">
+            ⁋ Ad illud quod obiicitur. quod ad ministerium
+            ba<lb ed="#N" n="84" break="no"/>ptismi requiritur inuocatio trinitatis: que non est nisi in fide
+            <lb ed="#N" n="85"/>etc. Dicendum quod baptismus est sacramentum fidei. vnde
+            mini<lb ed="#N" n="86" break="no"/>sterium baptismi non est personale: vt huiusmodi scilicet heretici cum
+            bapti<lb ed="#N" n="87" break="no"/>zat hereticus: sed baptizat in persona ministri fidelis. quia vt est
+            <lb ed="#N" n="88"/>minister ecclesie et in fide ecclesie. non igitur fit illa inuocatio vt est
+            <lb ed="#N" n="89"/>homo personaliter: sed vel vt est ecclesie vel minister fidelis. et sic
+            <lb ed="#N" n="90"/>huiusmodi personaliter vel illius potest esse intentio sine fide. quia
+            in<lb ed="#N" n="91" break="no"/>tentio respicit actum singularem scilicet actum baptizandi: sed
+            inuoca<lb ed="#N" n="92" break="no"/>tio habitum generalem scilicet membrorum ecclesie. Unde cum baptimz ans
+            <lb ed="#N" n="93"/>dicit. baptizo te in nomine patris etc. non est intentio verbi
+            tingo<lb ed="#N" n="94" break="no"/>te in aqua in fide mea que est patris etc. sed in fide ecclesie.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1210">
+            <lb ed="#N" n="95"/>⁋ Ad aliud quod obiicitur. quod quia baptismus est sacramentum
+            <lb ed="#N" n="96"/>fidei: non est necessaria intentio baptizantis personalis: sed
+            ba<lb ed="#N" n="97" break="no"/>ptizantis in persona ecclesie. Dicendum quod immo. cum enim fides
+            <lb ed="#N" n="98"/>sit vniuersale principium: et fidelis agens vniuersale: ne
+            <lb ed="#N" n="99"/>cessaria est intentio que est quasi perticulare remedium. et
+            <lb ed="#N" n="100"/>intendens agens perticulare applicans fidem huic operi
+            sin<lb ed="#N" n="101" break="no"/>gulari quod exercetur in hoc baptismo vel illo. Preterea. cum
+            <lb ed="#N" n="102"/>dicitur. baptizans intendit facere quod facit ecclesia. actus
+            inten<lb ed="#N" n="103" break="no"/>tionis duplicem habet respectum. ad intendentem: et ad illud
+            <lb ed="#N" n="104"/>quod intenditur quod est facere quod facit ecclesia. secundum autem
+            <lb ed="#N" n="105"/>primam relationem potest esse intentio sine fide. quia
+            inten<lb ed="#N" n="106" break="no"/>tio sic sumpta est actus intendentis. et secundum hunc respectum
+            di<lb ed="#N" n="107" break="no"/>citur quod potest esse baptismus sine fide: hoc est sine fide
+            ba<lb ed="#N" n="108" break="no"/>ptizantis. secundum relationem secundam non potest esse intentio recta
+            <lb ed="#N" n="109"/>sine fide: hoc est sine fide ecclesie. vnde licet eiusdem sit fides et
+            in<lb ed="#N" n="110" break="no"/>tentio scilicet ecclesie: non est tamen eiusdem scilicet baptizantis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1247">
+            ⁋ Ad
+            vlti<lb ed="#N" n="111" break="no"/>mum dicendum. quod hoc argumentum non valet. baptizans intendit quod
+            in<lb ed="#N" n="112" break="no"/>tendit ecclesia. sed ecclesia intendit quod verbum operetur quia creditur.
+            <lb ed="#N" n="113"/>ergo et baptizans etc. immo est ibi fallacia consequentis. non enim sequitur
+            <lb ed="#N" n="114"/>si intendit quod intendit ecclesia: quod propter hoc intendit quicquid
+            in<lb ed="#N" n="115" break="no"/>tendit ecclesia. quid autem intendit ecclesia in ministerio
+            baptismi<lb ed="#N" n="116" break="no"/>infra dicetur.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3l6s9-Dd1e1264">
+          <head xml:id="v78d89-a3l6s9-Hd1e1266">Articulus 4</head>
+          <p xml:id="v78d89-a3l6s9-d1e1268">
+            <lb ed="#N" n="117"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1273">
+            <lb ed="#N" n="118"/>Onsequentur queritur quid intendit baptizans: aut
+            <lb ed="#N" n="119"/>solum abluere exterius: aut aliud. quod solum
+            ablue<lb ed="#N" n="120" break="no"/>re exterius: videtur. baptizans intendit facere quod
+            <lb ed="#N" n="121"/>facit ecclesia. sed ecclesia nihil facit nisi abluit exterius. igitur si
+            suf<lb ed="#N" n="122" break="no"/>ficit intendere quod facit ecclesia: non opertet quod intendat nisi exteriorem
+            <lb ed="#N" n="123"/>ablutionem.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1289">
+            ⁋ Item sacramentum proprie dicitur illud quod extra sensibus apparet.
+            <lb ed="#N" n="124"/>operatio ecclesie sistit circa ipsum sacramentum ministrandum. igitur
+            circa<lb ed="#N" n="125" break="no"/>illud solummodo quod extra est debet esse intentio baptizantis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1296">
+            ⁋ Contra.
+            <lb ed="#N" n="126"/>intentio finem respicit: propterea primum dicitur in intentione quod vltimum
+            <lb ed="#N" n="127"/>est in operatione. sed finis baptizantis ecclesie non est ablutio
+            exteri<lb ed="#N" n="128" break="no"/>or sed interior. igitur etc.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1306">
+            ⁋ Quod concedimus.
+            </p>
+          <p xml:id="v78d89-a3l6s9-d1e1308">
+            ⁋ Ad hoc quod
+            primo<lb ed="#N" n="129" break="no"/>quesitum est dicendum. quod intentio ecclesie abluere est exterius: vt deus
+            <lb ed="#N" n="130"/>abluat interius. vnde intendere facere quod facia ecclesia: est intendem abluere
+            <lb ed="#N" n="131"/>exterius vt deus abluat interius.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1317">
+            ⁋ Ad aliud quod obiicitur. quod es
+            <lb ed="#N" n="132"/>clesia non fac aliud quam abluit exterius. dicendum quod quia intentio
+            diri<lb ed="#N" n="133" break="no"/>git operationem: non stat in illa ablutione intentio ecclesie nec intentio
+            <lb ed="#N" n="134"/>baptizantis. vnde actio hec que est sblutio exterius: ratione dire
+            <lb ed="#N" n="135"/>ctionis intentionis est actio relata. quod patet per hoc quod ablutio illa e
+            <lb ed="#N" n="136"/>sacramentum interioris ablutionis.
+          </p>
+          <p xml:id="v78d89-a3l6s9-d1e1330">
+            ⁋ Si autem queratur quare non requi
+            <lb ed="#N" n="137"/>ritur necessario intentio baptizantis personaliter: sed generalis scilicet eius
+            <lb ed="#N" n="138"/>quod fac ecclesa. Responsio. quod sacramentum istud est sacramentum
+            fi<lb ed="#N" n="139" break="no"/>dei que requiritur in baptismo. propter hoc in ministerio illius
+            <pb ed="#N" n="104"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>non debet esse intentio baptizantis personalis: sed baptizantis
+            s<lb ed="#N" n="2" break="no"/>Plona fidelium scilicet vt intendat facere quod facit ecclesia.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 26, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 26, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="169"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a65cow"><!-- q26m2 -->
+        <head xml:id="v78d89-a65cow-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a65cow-Hd1e103" type="question-title">Quantum ad actum vel robur gratiae</head>
+        <p xml:id="v78d89-a65cow-d1e106">
+          <lb ed="#N" n="36"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-a65cow-d1e111">
+          <lb ed="#N" n="37"/>SEquitur de vtilitate in spetiali quantum ad actum
+          <lb ed="#N" n="38"/>vel robur gratie. Circa hoc sic primo
+          queri<lb ed="#N" n="39" break="no"/>tur. vtrum habeat aliquem effectum spietialem
+          gra<lb ed="#N" n="40" break="no"/>tie. Secundo quis sit eius effectus. Tercio vtrum
+          <lb ed="#N" n="41"/>ad robonrationem gratie baptismalis requiratur gratia
+          confirmati<lb ed="#N" n="42" break="no"/>onis. Quarto vtrum datur robur ad confitendum fidem.
+        </p>
+        <div xml:id="v78d89-a65cow-Dd1e127">
+          <head xml:id="v78d89-a65cow-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-a65cow-d1e131">
+            <lb ed="#N" n="43"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a65cow-d1e136">
+            <lb ed="#N" n="44"/>CIrca primum proceditur sic. videtur quod habeat
+            ali<lb ed="#N" n="45" break="no"/>quem effectum spetialem: cum sit quoddam spiritiale sacramentum.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e143">
+            <lb ed="#N" n="46"/>⁋ Item sacramenta noue legis efficiunt quod
+            figu<lb ed="#N" n="47" break="no"/>rant. igitur cum hic aliquid spieitiale figuretur: habet effectum specialem.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e150">
+            <lb ed="#N" n="48"/>⁋ Contra. Rabanus in vnctione baptismi spiritus sanctus
+            descen<lb ed="#N" n="49" break="no"/>dit ad habitationem deo consecrandam. In hac vero eiusdem
+            septi<lb ed="#N" n="50" break="no"/>formis gratia. cum omni plenitudine sanctitatis et virtutis
+            <lb ed="#N" n="51"/>descendit in hominem: sed vniuersitas donorum et virtutum non est
+            <lb ed="#N" n="52"/>aliquis effectus spiritialis proprius dico: igitur etc.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e164">
+            ⁋ Item vt dicit
+            <lb ed="#N" n="53"/>Hug. In baptismo datur gratia ad peccatorum remissionem:
+            <lb ed="#N" n="54"/>hic datur gratia ad confirmationem. et in senten. ca. de
+            confirma<lb ed="#N" n="55" break="no"/>tione. virtus huius sacramenti est donatio spiritus sancti ad
+            ro<lb ed="#N" n="56" break="no"/>bur. sic igitur assignantes effectum huius sacramenti. non
+            <lb ed="#N" n="57"/>determinant effectum spietialem. scilicet huius virtutis vel illius: et
+            <lb ed="#N" n="58"/>ita videtur hoc sacramentum habere effectum roboris et
+            con<lb ed="#N" n="59" break="no"/>firmationis generaliter circa omnem virtutem.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e182">
+            ⁋ Item secundum
+            <lb ed="#N" n="60"/>Hug. tria sunt ab initio necessaria ad salutem. scilicet fides:
+            <lb ed="#N" n="61"/>sacramentum fidei: et opera bona. que tria ita coherent vt
+            <lb ed="#N" n="62"/>effectum salutis habere non possunt: si simul non fuerint.
+            <lb ed="#N" n="63"/>quare autem cum fide et operibus necessarium est sacramentum
+            <lb ed="#N" n="64"/>habetur alibi ab Hug. qui dicit et determinat. quod lex
+            scri<lb ed="#N" n="65" break="no"/>pta tria continet. precepta. sacramenta et promissa. In preceptis
+            <lb ed="#N" n="66"/>est meritum. In promissis est premium. In sacramentis est
+            <lb ed="#N" n="67"/>adiutorium. Unde sicut Hug. determinat. per precepta
+            eum<lb ed="#N" n="68" break="no"/>sum fuerat ad promissa. sed quia homo per se infirmus erat
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>venerunt sacramenta media inter precepta et promissa: quo
+            <lb ed="#N" n="70"/>illum adiuuarent ad precepta perficienda: et ad promissa
+            obti<lb ed="#N" n="71" break="no"/>nenda. Ex hoc patet quod necessaria sunt sacramenta
+            saluti<lb ed="#N" n="72" break="no"/>humane: quia roborant hominem et subueniunt
+            infirmitati<lb ed="#N" n="73" break="no"/>humane. vnde potest ad implendo precepta obtinere promissa
+            <lb ed="#N" n="74"/>Ex hoc patet manifeste. quod non est sacramentum confirmans
+            <lb ed="#N" n="75"/>et roborans ad exequendum opus virtutis alicuius: sed et omnium
+            <lb ed="#N" n="76"/>quibus est adimplere precepta et obtinere promissa.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e224">
+            ⁋ Responso.
+            <lb ed="#N" n="77"/>quod hoc sacramentum vnum habet effectum specialem: scilicet principalem
+            <lb ed="#N" n="78"/>et primum: nihilominus ratione connexionis virtutum et donorum
+            <lb ed="#N" n="79"/>omnis gratia. virtus et donum: et alii cooperans et aliud
+            ex<lb ed="#N" n="80" break="no"/>pediens: quantumcunque spetialem habeat effectum principalem
+            <lb ed="#N" n="81"/>vt gratia fidei: omnes alias virtutes promouet et
+            vniuersali<lb ed="#N" n="82" break="no"/>ter vnaqueque vnanquanque.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e240">
+            ⁋ Ad aliud quod dicit Rabanus.
+            <lb ed="#N" n="83"/>quod in hac septiformis gratia cum omni plenitudine sanctita
+            <lb ed="#N" n="84"/>tis et virtutis etc. Respondeo quod gratia prout respicit substantiam
+            <lb ed="#N" n="85"/>anime perficiendo illam siue informando nomen sortitur
+            gra<lb ed="#N" n="86" break="no"/>tie simpliciter. secundum quod mouet potentias ad eliciendum actus
+            <lb ed="#N" n="87"/>primos scilicet virtutum: virtus dicitur. secundum quod ad opera media scilicet
+            <lb ed="#N" n="88"/>donorum: donum dicitur. secundum quod ad opera vltima scilicet
+            beatitudi<lb ed="#N" n="89" break="no"/>num: beatitudo dicitur. Cum igitur dicitur quod spiritus sanctus de
+            <lb ed="#N" n="90"/>scendit cum omni plenitudine sanctitatis et virtutis:
+            intelli<lb ed="#N" n="91" break="no"/>gitur ibi plenitudo gratie inquantum mouet potentias ad
+            eli<lb ed="#N" n="92" break="no"/>ciendum actus primos: quod patet per hoc quod dicitur omni
+            ple<lb ed="#N" n="93" break="no"/>nitudine virtutis. Preterea. per hoc quod dicitur omni plenitudine.
+            <lb ed="#N" n="94"/>non notatur plenitudo vniuersitatis: sed perfectionis. vt enim
+            <lb ed="#N" n="95"/>dicit phls. Qui dicit omne. simpliciter dicit et secundum speciem. qui
+            <lb ed="#N" n="96"/>vnumquodque secundum numerum. vnde ibi notatur plenitudo perfectio
+            <lb ed="#N" n="97"/>nis virtutis. que quidem perfectio cum quadam
+            magnanimi<lb ed="#N" n="98" break="no"/>tate progreditur in opus virtutis: virtute autem huius
+            sacra<lb ed="#N" n="99" break="no"/>menti constanter et magnanimiter progreditur in opus
+            virtu<lb ed="#N" n="100" break="no"/>tis.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e282">
+            ⁋ Ad aliud dicendum. quod in verbo Hug. et magistri assigna
+            <lb ed="#N" n="101"/>tur differentia generalis inter prima sacramenta scilicet
+            ba<lb ed="#N" n="102" break="no"/>ptismum et confirmationem. non per descensum ad speciem que sunt
+            <lb ed="#N" n="103"/>remittere peccatum. et roborare siue confirmare virtutem siue
+            <lb ed="#N" n="104"/>habentem: nihilominus spirtialiter datur baptismus ad
+            remil<lb ed="#N" n="105" break="no"/>sionem peccati originalis: et confirmatio ad robur alicuius
+            <lb ed="#N" n="106"/>virtutis. spetialis dico: vt comparatur ad actum eius primum et
+            <lb ed="#N" n="107"/>principalem. Unde dicendum. quod ab Hugo. et a magistro
+            <lb ed="#N" n="108"/>assignatur differentia inter baptismum et confirmationem
+            <lb ed="#N" n="109"/>in generali.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e304">
+            ⁋ Ad vltimum dicendum. quod sacramenta
+            om<lb ed="#N" n="110" break="no"/>nia subueniunt humane infirmitati vt tactum est
+            opponen<lb ed="#N" n="111" break="no"/>do. Similiter dico de confirmatione. quod expedit omnes
+            vir<lb ed="#N" n="112" break="no"/>tutes ad eliciendum actus suos aliquo modo: nihilominus
+            <lb ed="#N" n="113"/>specialiter in illa datur gratia ad eliciendum actum fidei
+            <lb ed="#N" n="114"/>qui est in confessione nominis christi cuius ratio infra dicetur.
+          </p>
+        </div>
+        <div xml:id="v78d89-a65cow-Dd1e319">
+          <head xml:id="v78d89-a65cow-Hd1e321">Articulus 2</head>
+          <p xml:id="v78d89-a65cow-d1e323">
+            <lb ed="#N" n="115"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a65cow-d1e328">
+            <lb ed="#N" n="116"/>COnsequenter queritur quis sit effectus proprius
+            <lb ed="#N" n="117"/>et principalis huius sacramenti. et sic dicitur. iiii.
+            <lb ed="#N" n="118"/>senten. vii. di. Uirtus sacramenti huius est donum
+            <lb ed="#N" n="119"/>spiritus sancti ad robur.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e339">
+            ⁋ Contra. effectus eucharistie est
+            <lb ed="#N" n="120"/>ad robur et ad confirmationem in bono. Unde dicitur
+            pa<lb ed="#N" n="121" break="no"/>nis cor hominis confirmans. Sed nulla duo sacramenta
+            <lb ed="#N" n="122"/>conueniunt in eodem effectu proprio et principali. quia si hoc:
+            <lb ed="#N" n="123"/>aut alterum superflueret: aut non sufficeret. qaorum
+            neu<lb ed="#N" n="124" break="no"/>trum est verum.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e352">
+            ⁋ Item eucharistia est sacramentum
+            amo<lb ed="#N" n="125" break="no"/>ris. amor autem timorem excludit: et facilitatem ad omnia
+            <lb ed="#N" n="126"/>agenda subministrat. quia omnia sunt facilia amanti.
+            igi<lb ed="#N" n="127" break="no"/>tur vt videtur sacramentum eucharistie. et quantum ad
+            diffi<lb ed="#N" n="128" break="no"/>cilia sustinenda: et quantum ad ardua operanda robur
+            mini<lb ed="#N" n="129" break="no"/>strat: igitur effectus confirmationis non est roborare.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e366">
+            ⁋ Responsio.
+            <lb ed="#N" n="130"/>diuersi diuersa sentiunt. quidam dicunt quod requiritur duplex
+            <lb ed="#N" n="131"/>robur. scilicet in tolerantia mali. et inconstantia boni
+            si<lb ed="#N" n="132" break="no"/>ue amoris boni. Robur primum datur in sacramento
+            con<lb ed="#N" n="133" break="no"/>firmationis. secundum in sacramento eucharistie. Sed non
+            <lb ed="#N" n="134"/>videtur hec distinctio essentialis: quia amor siue caritas
+            <lb ed="#N" n="135"/>patiens est. i. Corin. xiii. Ubi glo. dicit hec sunt arma
+            qui<lb ed="#N" n="136" break="no"/>bus miles christi armatur. cuius armature quasi precipua
+            ar<lb ed="#N" n="137" break="no"/>ma premisit patientiam et benignitatem. quarum altera
+            <pb ed="#N" n="170"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>illata a proximis mala equanimiter portat. altera sua dona
+            <lb ed="#N" n="2"/>proximis desideranter impendit. hec glo. Ex quo patet. quod cari
+            <lb ed="#N" n="3"/>tas est dare robur ad mala toleranda. Aludicunt quod euka
+            <lb ed="#N" n="4"/>ristia datur robur ad amorem boni: confirmatio ad declinatio
+            <lb ed="#N" n="5"/>nem mali. Nec hec dcomteria videtur essentialis: cum eiusdem
+            <lb ed="#N" n="6"/>virtutis sit amare bonum. et declinare malum. Alii dicunt quod
+            <lb ed="#N" n="7"/>duplex est robur necessarius fidelibus: scilicet credendi. et fidem
+            <lb ed="#N" n="8"/>creditam confitendi. secundum quod dicitur Ro. x. Corde creditur ad
+            iustici<lb ed="#N" n="9" break="no"/>am. et ideo duplici robore indiget homo vt sic credat corde
+            <lb ed="#N" n="10"/>firmius: et vt confiteatur quod credat audacius. Robur
+            credulita<lb ed="#N" n="11" break="no"/>tis habetur a sacramento eukaristie: robur confessionis a
+            sacramen<lb ed="#N" n="12" break="no"/>to confirmationis. Unde secundum hos sacramentum datur in robur contra
+            <lb ed="#N" n="13"/>casum a fide: confirmatio in robur confitendi fidem. Sed secundum
+            <lb ed="#N" n="14"/>hug. videtur quod in sacramento confirmationis datur robur contra
+            ca<lb ed="#N" n="15" break="no"/>sum a fide. Dicit enim in baptismo gratia tribuitur ad peccatorum
+            <lb ed="#N" n="16"/>remissionem: hic gratia datur ad confirmationem. Quid autem
+            <lb ed="#N" n="17"/>prodest si a lapsu erigeris: nisi et ad standum confirmeris:
+            <lb ed="#N" n="18"/>hic videtur quod hoc sacramentum est ad confirmandum a
+            sta<lb ed="#N" n="19" break="no"/>tu in quo erectum est sacramento baptismi. Item vt dicit
+            <lb ed="#N" n="20"/>Hugo. idcirco voluit christus a nobis manducari: vt nos sibi
+            <lb ed="#N" n="21"/>incorporet. Ex hoc patet. quod effectus siue res sacramenti illius
+            <lb ed="#N" n="22"/>est incorparatio christi. Item Augustinus. vi. ioh. Si quis
+            manducaue<lb ed="#N" n="23" break="no"/>rit ex hoc pane: dicit. Res huius sacramenti omnibus
+            sumen<lb ed="#N" n="24" break="no"/>tibus est in vitam et nulli in morte id est vnitas sanctorum.
+            Ec<lb ed="#N" n="25" break="no"/>ce quod sacramenti altaris res siue effectus est vnitas sancto
+            <lb ed="#N" n="26"/>rum. Hec autem vnitas est per caritatem. non per fidem: principaliter
+            <lb ed="#N" n="27"/>dico vt est res huius sacramenti. Unde magister. iiii. sentem. viii. dis.
+            <lb ed="#N" n="28"/>dicit. et est verbum Augustinus de sacramento fidelium. Unus panis
+            <lb ed="#N" n="29"/>et vnum corpus ecclesia dicitur pro eo. quod sicut vnus panis ex multis
+            <lb ed="#N" n="30"/>granis. et vnum corpus ex multis membris componitur: sic
+            ec<lb ed="#N" n="31" break="no"/>clesia ex membris fidelibus caritate copulante connectitur
+            <lb ed="#N" n="32"/>Ex his patet quod robur prestitum sacramento eukaristie est ad
+            <lb ed="#N" n="33"/>hoc: vt suscipiens fortiter siue indissolubiliter incorperetur
+            <lb ed="#N" n="34"/>christo. que incorparatio est per caritatem proprie non per fidem.
+            Fi<lb ed="#N" n="35" break="no"/>des enim vnitur per assimilationem: non per connexionem sicut et
+            ca<lb ed="#N" n="36" break="no"/>ritas. Connexio autem attingit connexos. fides autem non
+            attin<lb ed="#N" n="37" break="no"/>git christum. vnde non connectimur sibi fide: nisi forte quatenus
+            fi<lb ed="#N" n="38" break="no"/>des informatur caritate. Ex his liquet quod sacramentum eukaristie
+            <lb ed="#N" n="39"/>non prestat robur contra lapsum a fide: sed ad indissolubilem
+            in<lb ed="#N" n="40" break="no"/>corporationem cum christo mediante caritate. vnde in
+            sacramen<lb ed="#N" n="41" break="no"/>to eukaristie datur robur proprie et primo ad amandum: et ex
+            <lb ed="#N" n="42"/>consequenti ad fortius vniendum suscipientem christo capiti et
+            men<lb ed="#N" n="43" break="no"/>bris eius. vnde est sacramentum amoris quo fortius membra
+            <lb ed="#N" n="44"/>connectuntur capiti. In sacramento autem confirmationis datur
+            ro<lb ed="#N" n="45" break="no"/>bur ad confitendum fidem christi. de quo. x. Roo. Corde creditur
+            <lb ed="#N" n="46"/>ad iusticiam ore autem confessio fit ad salutem. et hoc est quod
+            di<lb ed="#N" n="47" break="no"/>cit Rabanus. a summo sacerdote per impositionem manus
+            para<lb ed="#N" n="48" break="no"/>clitus traditur baptizato: vt roboretur ad predicandum id est aperte
+            <lb ed="#N" n="49"/>confitendum fidem christi. Non autem sumitur ibi predicatio pro
+            euange<lb ed="#N" n="50" break="no"/>lizatione verbi dei.
+          </p>
+        </div>
+        <div xml:id="v78d89-a65cow-Dd1e500">
+          <head xml:id="v78d89-a65cow-Hd1e502">Articulus 3</head>
+          <p xml:id="v78d89-a65cow-d1e504">
+            <lb ed="#N" n="51"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a65cow-d1e509">
+            <lb ed="#N" n="52"/>COnsequenter queritur. vtrum ad hoc quod roboretur
+            <lb ed="#N" n="53"/>gratia baptismalis et perficiatur siue progrediatur in
+            ter<lb ed="#N" n="54" break="no"/>minum sue perfectionis: requiratur gratia confirmationis
+            <lb ed="#N" n="55"/>vel ipsa de se possit in hoc. Quod autem requiratur videtur sic.
+            Mel<lb ed="#N" n="56" break="no"/>chpades papa. et habetur de conse. di. iiii. Hec duo sacramenta
+            <lb ed="#N" n="57"/>ita coniuncta sunt: vt abinuicem nisi morte preueniente nullate
+            <lb ed="#N" n="58"/>nus possunt segregari: et vnum sine altero perfici non potest. Ex
+            <lb ed="#N" n="59"/>hoc patet. quod ad perfectionem baptismi requiritur confirmatio. Sed
+            <lb ed="#N" n="60"/>constat quod hoc non intelligitur de perfectione quantum ad deletionem
+            <lb ed="#N" n="61"/>culpe per collationem gratie: sed de perfectione que attenditur in
+            progres<lb ed="#N" n="62" break="no"/>su gratie in actum perfectum siue in terminum sue perfectionis. ergo ad
+            <lb ed="#N" n="63"/>hoc quod perficiatur gratia hec: illa requitur.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e538">
+            ⁋ Item ex concilio
+            au<lb ed="#N" n="64" break="no"/>relis. de conse. di. iiii. vt ieiuni. Nunquam erit christianus: nisi in
+            con<lb ed="#N" n="65" break="no"/>firmatione episcopali fuerit crismatus. Sed constat quod hoc non
+            in<lb ed="#N" n="66" break="no"/>telligitur de christiano simpliciter. secundum quod christianus dicitur quod
+            si<lb ed="#N" n="67" break="no"/>gnatus est caractere baptismali et gratia vt sit de grege christi:
+            <lb ed="#N" n="68"/>sed de christiano secundum quod christianus dicitur qui accepto robore
+            di<lb ed="#N" n="69" break="no"/>uino paratus est ardua queque aggredi pro christo. Sed quod
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>dicit Rabanus. A summo sacerdote per impositionem
+            ma<lb ed="#N" n="71" break="no"/>nuum paraclitus traditur baptizato vt roboretur per spiritum
+            <lb ed="#N" n="72"/>sanctum ad predicandum aliis. hec autem predicatio est
+            confes<lb ed="#N" n="73" break="no"/>sio fidei christi coram infidelibus: ergo gratia baptismalis non
+            <lb ed="#N" n="74"/>valet vt baptizatus assurgetur ad huiusmodi ardua: nisi sit
+            ro<lb ed="#N" n="75" break="no"/>boratus gratia confirmationis: et ita vt prius.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e569">
+            ⁋ Item gratia
+            <lb ed="#N" n="76"/>simplex est: quod autem talem est augeri non potest in se:
+            si<lb ed="#N" n="77" break="no"/>cut nec album in termino. Quod autem non potest in se
+            au<lb ed="#N" n="78" break="no"/>geri: non potest sua virtute ad maiorem perfectionem
+            progre<lb ed="#N" n="79" break="no"/>di. ad hoc ergo quod progrediatur necessaria est virtus alia scilicet
+            <lb ed="#N" n="80"/>confirmationis vel aliqua alia.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e583">
+            ⁋ Contra. perfectionem rei
+            at<lb ed="#N" n="81" break="no"/>testatur potestas progrediendi ad terminum sue perfectionis
+            <lb ed="#N" n="82"/>secundum quod dicit phous. perfectum est vnumquodque cum attingit
+            <lb ed="#N" n="83"/>proprie virtuti quando progreditur ad terminum sue perfectio
+            <lb ed="#N" n="84"/>nis. ergo cum gratia sit de illis que sunt magne perfectionis
+            <lb ed="#N" n="85"/>relinquitur quod sua potestate potest progredi ad terminum sue
+            per<lb ed="#N" n="86" break="no"/>fectionis.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e599">
+            ⁋ Item lux materialis de virtute et bonitate sua
+            <lb ed="#N" n="87"/>potest seipsam multiplicare existente subiecto susceptibili.
+            <lb ed="#N" n="88"/>igitur cum maioris perfectionis set nobilioris esse sit lux spirituals
+            <lb ed="#N" n="89"/>quam corporalis etc. et ita potest roborare se in esse per se et progredi ad
+            <lb ed="#N" n="90"/>actum perfectum.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e610">
+            ⁋ Item ad hoc est confirmatio alicuius. vt
+            fir<lb ed="#N" n="91" break="no"/>mus sit in suo actu et facilius illum eliciat. sed gratia baptismals
+            <lb ed="#N" n="92"/>antum ad actum deletionis culpe statim cum infunditur est in
+            <lb ed="#N" n="93"/>suo actu: similiter est de actu illius qui est in ornatu anime.
+            <lb ed="#N" n="94"/>Unde quantum ad hos actus non potest non elicere actum suum.
+            immo<lb ed="#N" n="95" break="no"/>semper et continue est in suo actu. quantum ad hoc igitur si
+            neces<lb ed="#N" n="96" break="no"/>saria est gratia confirmationis. ad hoc quod roboretur gratia
+            bapti<lb ed="#N" n="97" break="no"/>smalis: hoc erit ad hoc quod firmius sit in actu suo quo suum
+            <lb ed="#N" n="98"/>susceptibile proficiat in operibus virtutum. et ad hoc quod facilius
+            <lb ed="#N" n="99"/>actus huiusmodi eliciat. Sed ad hoc non requiritur perfectio vt dicit
+            <lb ed="#N" n="100"/>glo. quedam super Exo. Nemo repente fit suminus. immo ad
+            <lb ed="#N" n="101"/>hoc quod aliquis perueniat ad summum gradum virtutis: necessa
+            <lb ed="#N" n="102"/>ria est exercitatio in operibus virtutum. ex assiduitate vero huius
+            <lb ed="#N" n="103"/>exercitii semper facilius et facilius gratia elicit opera virtutum: et
+            <lb ed="#N" n="104"/>sic plus et plus existens in hoc exercitio: plus et plus
+            au<lb ed="#N" n="105" break="no"/>getur in se et firmius est in suo actu. dico sine aliqua gratia
+            <lb ed="#N" n="106"/>superaddita: quia cum inter infimum gradum virtutis et summum
+            <lb ed="#N" n="107"/>sunt multa media siue gradus immo quasi infiniti que
+            necessi<lb ed="#N" n="108" break="no"/>tate requiritur quod addatur gratia ad hoc quod perficiat ad hunc
+            gra<lb ed="#N" n="109" break="no"/>dum siue modum. et similiter requireretur quod adderetur gratia
+            <lb ed="#N" n="110"/>alia ad hoc quod proficiat ad alium: et ita requirentur multe gratie
+            <lb ed="#N" n="111"/>et quasi infinite.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e658">
+            ⁋ Item si requiritur noua gratia ad hoc quod
+            <lb ed="#N" n="112"/>gratia baptismalis assurgat in actum confitendi christum qui quidem
+            <lb ed="#N" n="113"/>actus est fidei vt elicientis et fortitudinis vt imparantis. quia
+            <lb ed="#N" n="114"/>ad huiusmodi confessionem requiritur audacia siue magnanimitas que
+            <lb ed="#N" n="115"/>est species fortitudinis. eadem ratione requiritur aliud sacramentum
+            <lb ed="#N" n="116"/>et alia gratia ad hoc quod gratia baptismalis assurgeret in actum
+            <lb ed="#N" n="117"/>arduum alterius virtutis vt spei vel caritatis: et similiter de
+            <lb ed="#N" n="118"/>ceteris virtutibus aun cum sacramento baptismi conferuntur.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e676">
+            <lb ed="#N" n="119"/>⁋ Item gratia est quandoque perfectio alicuius non habentis libro arbtro aliquo
+            <lb ed="#N" n="120"/>modo habilitatum ad mouendum in actum virtutis vt in
+            paruu<lb ed="#N" n="121" break="no"/>lis. quandoque est perfectio habentis libro arbtro. habilitatum et non habentem
+            <lb ed="#N" n="122"/>dispositionem aliquam contrariam. et in tali gratia virtus est: quia
+            <lb ed="#N" n="123"/>virtus est quod perficit habentem et opst eius bonum reddit. virtus
+            <lb ed="#N" n="124"/>igitur exstens in tali subiecto potest actum suum elicere: et semper
+            <lb ed="#N" n="125"/>plus et plus eliciendo et plus et plus habilitat. libro arbtrio. ad
+            obe<lb ed="#N" n="126" break="no"/>diendum sibi. et facilius exit in actum suum. sed hoc non potest esse
+            <lb ed="#N" n="127"/>sine augmento ipsius virtutis: quia cum virtus essentialem
+            ha<lb ed="#N" n="128" break="no"/>beat comparationem actum vel opus: quanto facilius exit in actum
+            <lb ed="#N" n="129"/>suum et maiori assiduidate: tanto maior est. et hoc dico secundum
+            <lb ed="#N" n="130"/>quod consideratur vt est in vno subiecto. igitur sine dei gratia
+            addi<lb ed="#N" n="131" break="no"/>ta: potest gratia baptismalis seipsam augere et confirmare. Illud
+            <lb ed="#N" n="132"/>videtur per simile in polliticis virtutibus. que per frequentiam
+            operum<lb ed="#N" n="133" break="no"/>maiores et maiores efficiuntur. vt enim habetur a pho ex eisdem
+            gene<lb ed="#N" n="134" break="no"/>rantur et augmentantur scilicet ex actibus.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e713">
+            ⁋ Item eadem virtute
+            naturali<lb ed="#N" n="135" break="no"/>non mutata secundum substantiam et speciem. proficit res naturalis quousque
+            <lb ed="#N" n="136"/>peruenerit ad terminum perfectionis illius. a simili videtur quod in
+            <lb ed="#N" n="137"/>virtutibus gratuitis.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e723">
+            ⁋ Item ista roboratio et progressus est ex ipsius
+            <lb ed="#N" n="138"/>gratie augmento. sed gratia baptismalis non est augmentabilis
+            gra<lb ed="#N" n="139" break="no"/>tia confirmationis: cum gratia vtraque sit simplex et secundum phoscum
+            sim<lb ed="#N" n="140" break="no"/>plex simplici additum non facit maius.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e732">
+            ⁋ Responsio. dicendum quod
+            <pb ed="#N" n="171"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>ad hoc quod roboretur gratia baptismalis et progrediatur ad terminb
+            <lb ed="#N" n="2"/>sue perfectionis. non de necessitate requiritur gratia confirmationis
+            sacra<lb ed="#N" n="3" break="no"/>mentalis. Ipsa enim gratia baptismalis adminiculo virtutis
+            <lb ed="#N" n="4"/>indeficientis id est diuine quantum est de se: sufficit aliquo modo ad
+            <lb ed="#N" n="5"/>suipsius roborationem et confirmationem. veruntamen vt dictum est: in
+            ali<lb ed="#N" n="6" break="no"/>quibua propter infirmitatem nimiam necessaria est gratia confirmationis. in
+            <lb ed="#N" n="7"/>quibus quamuis libro arbto. non posset cogi. cum tanta nutat
+            infirmi<lb ed="#N" n="8" break="no"/>tate: quod nequaquam staret forti impellente temptatione: nisi gratia
+            <lb ed="#N" n="9"/>superaddita gratie baptismali fortificante sustentaretur: et illa
+            <lb ed="#N" n="10"/>infirmitas curaretur. Et ideo quandoque et quantum ad aliquos necessa
+            <lb ed="#N" n="11"/>ria est contra lapsum. non propter exterius impellens tantum: sed
+            pro<lb ed="#N" n="12" break="no"/>pter infirmitatem interiorem et debilitatem. vnde in aliquibus
+            <lb ed="#N" n="13"/>ad hoc quod roboretur gratia baptismalis et progrediatur ad
+            ter<lb ed="#N" n="14" break="no"/>minum sue perfectionis: necessaria est gratia confirmationis. non autem
+            <lb ed="#N" n="15"/>simpliciter siue omnino est necessaria.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e771">
+            ⁋ Ad illud quod primo obiicitur.
+            <lb ed="#N" n="16"/>quod vnum sine altero perfici non potest etc. Dicendum quod hoc est
+            intel<lb ed="#N" n="17" break="no"/>ligendum sine aliquo habito vel suscepto in re vel volunta
+            <lb ed="#N" n="18"/>te. hoc est vnum non est perfectum sine altero scilicet baptisma sine
+            confir<lb ed="#N" n="19" break="no"/>matione scilicet contempta vel neglecta. q. d. baptisma non potest
+            perfi<lb ed="#N" n="20" break="no"/>ci cum contemptu vel etiam negligentia confirmationis. Uel aliter
+            <lb ed="#N" n="21"/>sic. perfectum est quod nullo indiget. quantumcunque enim proficiat
+            <lb ed="#N" n="22"/>gratia baptismalis de se et obedientia libro. art. semper indiget gratia
+            <lb ed="#N" n="23"/>confirmationis. et illa non habita est in defectu quodam ex
+            ca<lb ed="#N" n="24" break="no"/>rentia auxilii. Unde Melchiades. victuris necessaria sunt
+            confir<lb ed="#N" n="25" break="no"/>mationis auxilia. propter quod sine confirmatione non est in sua
+            per<lb ed="#N" n="26" break="no"/>fectione.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e797">
+            ⁋ Ad aliud quod obiicitur. quod numquam erit christianus etc.
+            <lb ed="#N" n="27"/>Responderi potest vt ssa. expositum est. vbi quesitum est. si confirmatio
+            <lb ed="#N" n="28"/>necessaria est ad salutem. Uel potest dici. quod hoc intelligitur cum contemptu
+            <lb ed="#N" n="29"/>huius sacramenti sub hoc sensu id est nisi fuerit crismatus id est si
+            contem<lb ed="#N" n="30" break="no"/>pserit crismari.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e808">
+            ⁋ Ad illud quod obiicitur quod gratia est simplex
+            <lb ed="#N" n="31"/>vnde non potest augeri sicut nec album in termino etc.
+            Dicen<lb ed="#N" n="32" break="no"/>dum quod vnum solum est simpliciter simplex scilicet deus. omnis creatura
+            <lb ed="#N" n="33"/>aliquam sortitur compositionem qua est ex pertibus essentialibus: secundum
+            <lb ed="#N" n="34"/>quod dicit Boetius. quod omne quod est citra primum: est hoc et hoc. quod
+            <lb ed="#N" n="35"/>verum est de illis que habent esse per se: vel compositionem que est ex
+            <lb ed="#N" n="36"/>partibus quantitatis. sicut substantie corporee: et accidentia quedam sicut
+            <lb ed="#N" n="37"/>que sunt de genere quantitatis. Uel compositione que est cum alio
+            <lb ed="#N" n="38"/>sicut que est pertium substantialium: quarum vna non est sine alia.
+            <lb ed="#N" n="39"/>Similiter quorundam accidentium: sicut albedo non est sine
+            sub<lb ed="#N" n="40" break="no"/>inecto. vnde cum dicitur omnis forma est simplex. hoc intelligitur secundum
+            <lb ed="#N" n="41"/>quod simplex dicit priuationem multitudinis pertium vel substantialium
+            <lb ed="#N" n="42"/>vel quantitatiuarum. Unde dicendum quod gratia simplex est: quia neque
+            ha<lb ed="#N" n="43" break="no"/>bet partes essentiales neque quantitatiuas. Ex hoc autem non sequitur
+            <lb ed="#N" n="44"/>quod non possit augeri: sed sequitur quod non potest augeri quantitatiue
+            <lb ed="#N" n="45"/>eo modo quo dicitur quantitas molis. nec intensiue eo modo quo albe
+            <lb ed="#N" n="46"/>do augetur ex maiori impermixtione contrarii. potest tamen augeri ex
+            <lb ed="#N" n="47"/>maiori accessu ad primam lucem. et hoc augeri non impedit
+            il<lb ed="#N" n="48" break="no"/>lius simplicitatem. non enim ex hoc habet aliquod multiplicitatis. In
+            <lb ed="#N" n="49"/>telligendum enim quod albedo remissior est et intensior ex
+            impermi<lb ed="#N" n="50" break="no"/>xtione maiore del minore sui contrarii. et quantum ad hoc habet aliquid
+            <lb ed="#N" n="51"/>multiplicitatis et ex maiori et minori perticipatione lucis. et
+            <lb ed="#N" n="52"/>quantum ad hoc nihil habet multiplicitatis. quia ex perticipatione lucis
+            <lb ed="#N" n="53"/>quocumque modo fiat: non multiplicatur neque minoratur natura
+            <lb ed="#N" n="54"/>albedinis. sicut ex alia parte maiore vel minore permixtione
+            <lb ed="#N" n="55"/>contrarii. Primum modum augmentandi non habet gratia vel virtus
+            <lb ed="#N" n="56"/>sed secundum: qui nullo modo impedit simplicitatem. Unde bene
+            <lb ed="#N" n="57"/>concedo sine preiudicio tamen. quod augetur gratia et virtus non solum
+            ra<lb ed="#N" n="58" break="no"/>dicatione vel virtute: sed in sua essentia. nec sua simplicitas
+            <lb ed="#N" n="59"/>huic augmento contradicit.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e873">
+            ⁋ Ad ea que obiecta sunt pro alia
+            <lb ed="#N" n="60"/>parte. dicendum quod vt ostensum est. gratia siue virtus augmentatur
+            fre<lb ed="#N" n="61" break="no"/>quentia et exercitio operum. non tamen dico quod gratia ipsa siue virtus
+            <lb ed="#N" n="62"/>auget siue multiplicet se sua virtute. sed ab influentia
+            vir<lb ed="#N" n="63" break="no"/>tutis ab auctore gratie. Unde bene concedo. quod secundum quod homo magis
+            con<lb ed="#N" n="64" break="no"/>unuat se in exercitio virtutum: magis tollit impedimenta gratie
+            <lb ed="#N" n="65"/>siue virtutis elicientis opera ipsa. et eoipso habilior est operans
+            <lb ed="#N" n="66"/>et aptior ad gratiam maiorem. Unde sicut est de luce materiali.
+            <lb ed="#N" n="67"/>quod secundum quod inuenit minus prohibens intensius se diffundit in
+            <lb ed="#N" n="68"/>susceptibili: sic est de spirituali. et sicut materialis se non
+            dif<lb ed="#N" n="69" break="no"/>funderet intensius nisi virtute lucis fontalis siue
+            existen<lb ed="#N" n="70" break="no"/>tis in fonte. sic nec lux spiritualis de se multiplicaret se vel
+            <lb ed="#N" n="71"/>augeret: nisi virtute lucis prime. qui dat vnicuique secundum
+            pro<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>priam virtutem Math. xxv. secundum quod capacior est ex vsu
+            pro<lb ed="#N" n="73" break="no"/>prio et exercitio. Nec intendo quod idem sit modus
+            multipli<lb ed="#N" n="74" break="no"/>candi siue augendi in gratuitis et politicis. quia in politicis
+            <lb ed="#N" n="75"/>ita est quod in eisdem generantur et nutriuntur siue augmentantur: quia
+            <lb ed="#N" n="76"/>ex operibus. Sed de gratuitis ita est quod fiunt sicut in isto vel in
+            <lb ed="#N" n="77"/>illo infusione. Similiter et eorum augmentatio est infusione.
+            <lb ed="#N" n="78"/>id est ab influentia virtutis increate. vnde in gratuitis
+            ex<lb ed="#N" n="79" break="no"/>ercitium in operibus idoneitatem et habilitatem maiorem operatur.
+            <lb ed="#N" n="80"/>et secundum hoc virtus diuina gratiam habitam augmentat vel
+            mul<lb ed="#N" n="81" break="no"/>tiplicat. sed in politicis ipsa frequentia operum auget ipsam
+            vir<lb ed="#N" n="82" break="no"/>tutem.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e928">
+            ⁋ Ad illud quod obiicitur. quod assiduitate et exercitio
+            ope<lb ed="#N" n="83" break="no"/>rum virtutum augmentatur gratia siue virtus. concedendum est. Non
+            <lb ed="#N" n="84"/>tamen dico quod assiduitas hec est causa efficiens simpliciter: sed virtus
+            pri<lb ed="#N" n="85" break="no"/>ma. quia tunc non esset gratia. xi. Ro. Si autem gratia iam non ex
+            ope<lb ed="#N" n="86" break="no"/>ribus: alioquin gratia iam non est gratia. sed potest dici efficiens
+            ali<lb ed="#N" n="87" break="no"/>quo modo disponens. Unde concedo sicut obiectum fuit. quod non
+            <lb ed="#N" n="88"/>requiritur semper in huiusmodi augmento noua gratia: sed est in huiusmodi gratia
+            <lb ed="#N" n="89"/>innouata aliquo modo per augmentum sui. Ex his patet responsio
+            <lb ed="#N" n="90"/>ad alia.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e948">
+            ⁋ Ad id quod obiicitur quod gratia non est augmentabilis per
+            <lb ed="#N" n="91"/>gratiam. quia simplex additum simplici non efficit maius etc.
+            <lb ed="#N" n="92"/>Dicendum quod hoc intelligitur de simplicibus habentibus positionem
+            <lb ed="#N" n="93"/>secundum quod dicitur punctus substantia posita. Punctus enim
+            ad<lb ed="#N" n="94" break="no"/>ditus puncto non facit quantum. vnitas autem addita vnitati
+            <lb ed="#N" n="95"/>siue vnum vni: facit numerum. Preterea. quod dicitur. quod simplex
+            addi<lb ed="#N" n="96" break="no"/>tum simplici non facit maius. hoc intelligitur de maiori
+            quan<lb ed="#N" n="97" break="no"/>titate molis.
+          </p>
+        </div>
+        <div xml:id="v78d89-a65cow-Dd1e967">
+          <head xml:id="v78d89-a65cow-Hd1e969">Articulus 4</head>
+          <p xml:id="v78d89-a65cow-d1e971">
+            <lb ed="#N" n="98"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-a65cow-d1e976">
+            <lb ed="#N" n="99"/>COnsequenter queritur. vtrum confirmatio detur ad
+            confi<lb ed="#N" n="100" break="no"/>tendum fidem christi. Quod sic videtur. Rabanus de
+            insti<lb ed="#N" n="101" break="no"/>tutione clericorum libr. i. ca. xxx. Nouissime a sum
+            <lb ed="#N" n="102"/>mo sacerdote per impositionem manus paraclitus traditur
+            bapti<lb ed="#N" n="103" break="no"/>zato vt roboretur per spiriunm sanctum ad predicandum aliis. hec
+            pre<lb ed="#N" n="104" break="no"/>dicatio non est euangelizatio verbi dei: sed confessio fidei christi. ergo
+            <lb ed="#N" n="105"/>etc.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e994">
+            ⁋ Contra. Hug. In baptismo datur gratia ad peccatorum
+            <lb ed="#N" n="106"/>remissionem: hic datur gratia ad confirmationem. quid autem prodest
+            si<lb ed="#N" n="107" break="no"/>a lapsu erigeris: nisi etiam ad standum confirmeris. hec Hug.
+            <lb ed="#N" n="108"/>igitur confirmatio est ad standum in innocentia baptismali.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1003">
+            ⁋ Item
+            <lb ed="#N" n="109"/>quare non dantur sacramenta in robur ad exequendum alias vir
+            <lb ed="#N" n="110"/>tutes: sicut in robur fidei detur confirmatio.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1011">
+            ⁋ Item cum perfecti
+            <lb ed="#N" n="111"/>onis fidei sit vt credatur corde et confiteatur ore. cum difficilius sit
+            <lb ed="#N" n="112"/>credere corde quam confiteri ore: quia nihil est difficilius quam ita
+            ca<lb ed="#N" n="113" break="no"/>ptiuare intellectum vt credat summe vnum trinum mortalem
+            in<lb ed="#N" n="114" break="no"/>mortalem et huiusmodi. quare non datur aliquiod sacramentum in robur fidei
+            <lb ed="#N" n="115"/>inquantum creditur sicut inquantum confitetur: cum huius sit maior
+            <lb ed="#N" n="116"/>difficultas quam illius.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1027">
+            ⁋ Responsio. ad primum quod illud quod dicit
+            <lb ed="#N" n="117"/>hug. quid prodest etc. non dicitur quia effectus principalis et proprius
+            <lb ed="#N" n="118"/>confirmationis sit stare in statu baptismali siue innocentie
+            <lb ed="#N" n="119"/>sed generalis. quia qui tempore oportuno negant christum: cadunt a
+            <lb ed="#N" n="120"/>statu gratie. vnde ad negare sequitur non stare. Unde glo.
+            su<lb ed="#N" n="121" break="no"/>per illud: Ro. x. Corde creditur: dicitur. nihil prodest hoc esse in
+            cor<lb ed="#N" n="122" break="no"/>de quod verum est: si hoc dicitur voce quod falsum est. quia veritas
+            <lb ed="#N" n="123"/>et credenda est et loquenda. hec glo. Dico ergo quod stare in
+            inno<lb ed="#N" n="124" break="no"/>centia baptismali non est actus proprius hus sacramenti: sicut nec actus
+            <lb ed="#N" n="125"/>proprius et pricipalis baptismi est erigere a lapsu. vnde cum
+            <lb ed="#N" n="126"/>dicit. quid prodest erigi etc. insinuatur ibi actus communis vtriusque
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1051">
+            <lb ed="#N" n="127"/>non autem proprius et immediatus.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1056">
+            ⁋ Ad aliud quod sequitur
+            respon<lb ed="#N" n="128" break="no"/>dendum est per interemptionem. quia sacramentum eucharistie datur in
+            ro<lb ed="#N" n="129" break="no"/>bur caritatis. Si autem queratur. quare solummodo dantur
+            sacra<lb ed="#N" n="130" break="no"/>menta in robur istarum virtutum. Dicendum quod hoc est: quia ab
+            <lb ed="#N" n="131"/>his duabus pendet principaliter fortitudo spiritualis edificii.
+            <lb ed="#N" n="132"/>quia in fide est prima fundatio: in caritate summa eleua
+            <lb ed="#N" n="133"/>tio et vltima consummatio. Item alia est ratio scilicet quia tenemur
+            <lb ed="#N" n="134"/>ad duo scilicet ad obseruantiam fidei: et exercitium in moribus.
+            con<lb ed="#N" n="135" break="no"/>firmatio dat robur ad obseruantiam fidei: eucharistia ad
+            <lb ed="#N" n="136"/>exercitium in moribus. vt enim dicitur. i. Io. iiii. Hec est caritas
+            <lb ed="#N" n="137"/>dei vt mandata eius custodiamus. Uel aliter dicendum. quod
+            vir<lb ed="#N" n="138" break="no"/>tus est circa bonum et difficile. summum bonum in virtutibus est
+            <lb ed="#N" n="139"/>caritas: summum difficile fides. propter quod aliqua fieri in
+            ro<lb ed="#N" n="140" break="no"/>bur fidei et caritatis: necessitatis maxime est et vtilitatis.
+            ne<lb ed="#N" n="141" break="no"/>cessitatis propter difficultatem fidei: et vtilitatis propter
+            boni<pb ed="#N" n="172"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tatem caritatis. propter quod magis oportuit et c.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1093">
+            ⁋ Ad aliud
+            di<lb ed="#N" n="2" break="no"/>cendum. quod m aioris est difficultatis confiteri fidem quam credere prout
+            <lb ed="#N" n="3"/>hoc intendimus de confirmatione fidei. quia confirmatio fidei prout
+            <lb ed="#N" n="4"/>necessaria est ad salutem: superadditur fidei in corde. vnde glo. ibi Ro.
+            <lb ed="#N" n="5"/>x. Ore fit confessio: dicit. non modo ad iusticiam sed etiam ad salutem
+            <lb ed="#N" n="6"/>confessio supadditur fidei. vt martiribus qui sunt inter tormenta
+            im<lb ed="#N" n="7" break="no"/>minentia: fidem quam corde tenebant ore confessi sunt. preterea.
+            dif<lb ed="#N" n="8" break="no"/>ficultas confirmationis est ex hoc: quod confitentibus intentant infideles
+            <lb ed="#N" n="9"/>mortem.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1113">
+            ⁋ Adhuc queritur. quid est illud ad quod principaliter
+            <lb ed="#N" n="10"/>datur sacramentum confirmationis. Et videtur quod datur in robur ad
+            pu<lb ed="#N" n="11" break="no"/>gnandum contra temptationes. Dicit enim Melchyades papa. quod in hoc
+            <lb ed="#N" n="12"/>mundo tota etate victuris inter visibiles hostes et pericula
+            rat<lb ed="#N" n="13" break="no"/>diendum est: in baptismo regeneramur ad vitam: post
+            bapti<lb ed="#N" n="14" break="no"/>smum confirmamur ad pugnam.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1127">
+            ⁋ Contra. in baptismate
+            confe<lb ed="#N" n="15" break="no"/>runtur virtutes baptizatis que prestant robur in pugna: non ergo
+            <lb ed="#N" n="16"/>videtur quod confirmatio sit ad hoc.
+          </p>
+          <p xml:id="v78d89-a65cow-d1e1134">
+            ⁋ Responsio. quod id ad quod datur prin
+            <lb ed="#N" n="17"/>cipaliter est robur ad pugnam contra persecutores fidei scilicet vt
+            confirma<lb ed="#N" n="18" break="no"/>ti idonei sint et validi ad confitendum et testificandum fidem christi
+            co<lb ed="#N" n="19" break="no"/>ram regibus et principibus et quibuscumque. quod insinuatur Act. i. cum
+            <lb ed="#N" n="20"/>dicit. Accipietis virtutem spiritus sancti in vos: et eritis mihi
+            te<lb ed="#N" n="21" break="no"/>stes in hierlum et in omni iudea et samaria et vsque ad
+            vltimum<lb ed="#N" n="22" break="no"/>terre. Et licet confirmatus virtute gratie collate in confirmatione
+            va<lb ed="#N" n="23" break="no"/>lidior sit in pugna temptationum quoruncumque. quod intendit
+            Mel<lb ed="#N" n="24" break="no"/>chyades papa: nihilominus principaliter datur in robur ad con
+            <lb ed="#N" n="25"/>fitendum et testificandum fidem christi. vt ex verbo dei act. i. predicto patet.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="24"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e277"><!-- q4m1 -->
+        <head xml:id="v78d89-d1e277-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-d1e277-Hd1e103" type="question-title">Quo tempore incepit ecclesia; utrum ab Adam vel ab Abel vel ab alio principio</head>
+        <p xml:id="v78d89-d1e277-d1e106">
+          <lb ed="#N" n="60"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-d1e277-d1e111">
+          <lb ed="#N" n="61"/>AD primum quo tempore vel a quo incepit ecclesia videtur
+          <lb ed="#N" n="62"/>ab adam. per hoc quod ipse fuit primus fidelis: ergo ab
+          <lb ed="#N" n="63"/>ipso recte incepit ecclesia.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e120">
+          ⁋ Si dicatur quod adam non
+          </p>
+        <p xml:id="v78d89-d1e277-d1e123">
+          <lb ed="#N" n="64"/>⁋ continuauit sanctitatem suam et ideo non ponitur
+          princi<lb ed="#N" n="65" break="no"/>pium ecclesie. Contra. hoc non debet obesse: quia pro perseuerante in
+          bono<lb ed="#N" n="66" break="no"/>reputatur qui finaliter bonus. Unde cum ecclesia orat pro fidelibus dicit. vt
+          <lb ed="#N" n="67"/>indulgentiam quam semper optauerunt etc. quia ergo finaliter optauerunt:
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="68"/>semper dicuntur optasse. pari ratione de adam dicendum est. quod pro
+          perse<lb ed="#N" n="69" break="no"/>ueranti in bono habendus est: quia finaliter fuit bonus.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e141">
+          ⁋ Preterea.
+          <lb ed="#N" n="70"/>ecclesia credit adam penituisse antequam generaret filios et filias
+          <lb ed="#N" n="71"/>et in fide parentum saluabantur paruuli ab originali: ergo adam proprie
+          <lb ed="#N" n="72"/>dicendus est principium a quo cepit ecclesia.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e150">
+          ⁋ Item per simile de
+          petro<lb ed="#N" n="73" break="no"/>ostenditur hoc math. xvi. Super hanc petram edificabo ecclesiam
+          me<lb ed="#N" n="74" break="no"/>am id est. super firmitatem hius fidei. et tamen petrus post negauit. sed tamen hoc
+          <lb ed="#N" n="75"/>non obfuit quin fundamentum esset ecclesie: pari ratione videtur quod non
+          <lb ed="#N" n="76"/>obstat quin ab adam dicatur ecclesia incepisse.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e161">
+          ⁋ Item videtur ostendi per
+          <lb ed="#N" n="77"/>hoc quod dicitur Leui. vii. immolabitur olocaustum. mactabitur et
+          victi<lb ed="#N" n="78" break="no"/>ma pro delicto. olocaustum autem signat illum qui permansit in sancti
+          <lb ed="#N" n="79"/>tate. victima autem signat penitentem. quod autem in eodem loco
+          macta<lb ed="#N" n="80" break="no"/>tur. significat quod penitens placet deo aliquando vt ille qui in
+          iusti<lb ed="#N" n="81" break="no"/>cia permansit.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e174">
+          ⁋ Item adam fuit principium actiuum per quod humanum
+          <lb ed="#N" n="82"/>genus descendit. abel autem non: ergo nec recte dicendus est principium a
+          <lb ed="#N" n="83"/>quo cepit ecclesia cuius sunt sacramenta abel sed adam.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e181">
+          ⁋ Ad hoc etiam
+          <lb ed="#N" n="84"/>facit quod dicit magister in historiis. quod adam docuit offerre filios
+          <lb ed="#N" n="85"/>suos primitias et decimas.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e189">
+          ⁋ Item principium ex parte malorum fuit
+          <lb ed="#N" n="86"/>actiuum scilicet caym. genuit enim filios et filias et facta est
+          multipli<lb ed="#N" n="87" break="no"/>catio malorum. Pari ergo ratione ex parte bonorum fuit ponendum prien
+          <lb ed="#N" n="88"/>cipium actiuum: ergo seth siue enoch magis fuit ponendus
+          princi<lb ed="#N" n="89" break="no"/>pium quam abel.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e200">
+          ⁋ Si preterea dicitur principium a quo cepit ecclesia hoc est
+          <lb ed="#N" n="90"/>quia eminentiorem habuit fidem de his qui erant in prima etate. sed
+          <lb ed="#N" n="91"/>signum fidei magis videbatur habere enoch de quo dicitur: quod cepit
+          <lb ed="#N" n="92"/>inuocare nomen domini: ergo enoch siue seth recte dicendus est
+          princi<lb ed="#N" n="93" break="no"/>pium.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e211">
+          ⁋ Contra. augustinus. super illud psalmus. ore suo benedicebant etc
+          <lb ed="#N" n="94"/>Sciendum est duas hoc significari ciuitates vnam malorum que dicitur
+          <lb ed="#N" n="95"/>babilon que incepit a caym: aliam bonorum que incepit ab abel.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e218">
+          <lb ed="#N" n="96"/>⁋ Item augustinus in libro de ciui. dei. Natus est caym preor ex illis duo
+          <lb ed="#N" n="97"/>bus parentibus generis humani pertinens ad ciuitatem hominiem: poste
+          <lb ed="#N" n="98"/>rius abel pertinens ad ciuitatem dei. prius enim quod carnale:
+          dein<lb ed="#N" n="99" break="no"/>de quod spirituale.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e229">
+          ⁋ Idem in eodem. in vniuerso genere humano cum
+          <lb ed="#N" n="100"/>prius iste due ceperunt nascendo et moriendo percurrere ciuitates:
+          <lb ed="#N" n="101"/>prior natus est vt ciuis huius secli: posterior vt peregrinus in hoc seculo
+        </p>
+        <p xml:id="v78d89-d1e277-d1e236">
+          <lb ed="#N" n="102"/>⁋ Item videtur quod abraham debeat dici principium a quo cepit ecclesia. dicitur
+          <lb ed="#N" n="103"/>nempe. iiii. Ro. Abraham accepit signum circumcisionis signaculum
+          <lb ed="#N" n="104"/>iusticie fidei que est in prepucio. vt sit potur omnium credentium in se. et
+          <lb ed="#N" n="105"/>ita videtur quod sit ptetr fidelium. hoc etiam nomen eius signat. videtur er
+          <lb ed="#N" n="106"/>go ab eo cepisse ecclesia tanquam a principio.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e250">
+          ⁋ Pre. super illud psalmus.
+          <lb ed="#N" n="107"/>Uineam de egipto etc. glo. ecclesiam que incipit a iudeis et perficitur
+          <lb ed="#N" n="108"/>in gentibus: ergo a iudeis dicitur ecclesia incepisse.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e257">
+          ⁋ Ad quod dicendum est
+          <lb ed="#N" n="109"/>quod ecclesia dicitur incepisse ab abel. quia fides eius in sacrificio quod
+          <lb ed="#N" n="110"/>obtulit domino accepto manifestabatur. et hoc fuit primum signum
+          sa<lb ed="#N" n="111" break="no"/>crum ex parte hominis de quo legitur in scpretura. Alia ratio adiuncta est
+          con<lb ed="#N" n="112" break="no"/>tinuitas sanctitatis. Tercia causa. quia ipse fuit primus martir: et
+          ec<lb ed="#N" n="113" break="no"/>clesia solet dedicari in sanguine martirum: illi enim firmauerunt
+          <lb ed="#N" n="114"/>fidem ecclesie. Quarta causa est propter testimonium christi qui dicit. xxiii.
+          <lb ed="#N" n="115"/>Math. A sanguine abel iusti etc. Et dicit augustinus in libro. de mira
+          <lb ed="#N" n="116"/>bilibus mundi quod abel et virgo fuit et martir et fidei doctor.
+          <lb ed="#N" n="117"/>Unde per hoc signatur quod in ipso fuit ecclesia bonorum in diuisione
+          <lb ed="#N" n="118"/>ab ecclesia malignantium.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e281">
+          ⁋ Ad obstinctum autem dicendum de adam. quod licet
+          <lb ed="#N" n="119"/>fuerit adam primus fidelis. non tamen dictus est prencipium a quo cepit
+          <lb ed="#N" n="120"/>ecclesia cuius sunt sacramenta. Non enim legitur in canone sacre schprietu
+          <lb ed="#N" n="121"/>re quod ipse sacrificium obtulerit: vel aliquod sacrum signum
+          <lb ed="#N" n="122"/>demonstrauerit: licet legatur de eius liberatione a peccato sapie. x. hoc
+          <lb ed="#N" n="123"/>illum qui primus formatus est a deo ptur orbis terrarum. cum solus
+          <lb ed="#N" n="124"/>esset creatus: custodiuit et eduxit a delicto. Preterea in ipso pro
+          <lb ed="#N" n="125"/>pter differentem statum eius et propter communem principium
+          generati<lb ed="#N" n="126" break="no"/>onis: conuenit congregatio bonorum et congregatio malorum. Unde non
+          <lb ed="#N" n="127"/>discernebatur in ipso hec congregatio ab illa. In abel vero sancta est
+          <lb ed="#N" n="128"/>distinctio a caym.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e305">
+          ⁋ Nec illud obstat omnino de adam quod statum
+          <lb ed="#N" n="129"/>tenuit penitentis. quia si fuisset aliud principium ediuerso
+          diui<lb ed="#N" n="130" break="no"/>dens contra adam: non obstaret quin tunc diceretur principium.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e312">
+          <lb ed="#N" n="131"/>⁋ Ad illud vero quod obicitur per magistrum in historiis. quod adam docuit
+          <lb ed="#N" n="132"/>filios suos offerre primicias et decinias. Dicendum est. quod et si hoc
+          dica<lb ed="#N" n="133" break="no"/>tur de illo: non tamen legitur de illo quod ipse obtulerit. Unde licet fidem
+          <lb ed="#N" n="134"/>habuerit primus: non tamen in signo quod est sacramentum legitur demon
+          <lb ed="#N" n="135"/>strata.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e325">
+          ⁋ Ad illud vero quod obicitur de seth. dicendum est. quod licet seth esset
+          <lb ed="#N" n="136"/>principium generationis et exemplar quoddam fidei sue
+          posteri<lb ed="#N" n="137" break="no"/>tati: non tamen fuit primum exemplar in discretione bonorum a
+          ma<lb ed="#N" n="138" break="no"/>lis. precessit enim abel ipsum qui fuit exemplar quoddam ad fidem etiam
+          <pb ed="#N" n="25"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>ipsius Seth. Nec oportet quod exemplar sanctitatis sit
+          acti<lb ed="#N" n="2" break="no"/>uum principium generationis carnalis. Non enim exemplaritas
+          <lb ed="#N" n="3"/>sanctitatis in posteros transfunditur per generationem carnalem. tunc
+          <lb ed="#N" n="4"/>enim omns descendentes ex seth essent boni. et omns
+          descenden<lb ed="#N" n="5" break="no"/>tes ex caym mali. quia malum habuerunt exemplar. At hoc non
+          <lb ed="#N" n="6"/>videmus contingere. cum ex bonis oriantur mali et ex malis boni.
+          <lb ed="#N" n="7"/>sed omnus qui boni fuerunt exemplar ab abel accipere potuerunt
+          <lb ed="#N" n="8"/>et qui mali a caym a quocumque principio secundum carnalem
+          generatio<lb ed="#N" n="9" break="no"/>nem essent.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e359">
+          ⁋ Ad alterum vero ex illa parte dicendum est. quod non est simile
+          <lb ed="#N" n="10"/>ex parte bonorum sicut ex parte malorum. licet enim ex parte malorum
+          es<lb ed="#N" n="11" break="no"/>set principium actiuum generationis quod erat exemplar malicie.
+          <lb ed="#N" n="12"/>ex parte vero bonorum non sic. et hoc recte videtur vt ostenderetur quod principium
+          <lb ed="#N" n="13"/>malicie est ab homine. et ideo recte descendit in carnalem
+          gene<lb ed="#N" n="14" break="no"/>rationem. principium vero bonitatis a deo et descendere debet secundum
+          spi<lb ed="#N" n="15" break="no"/>ritualem generationem. secundum autem carnalem non nisi secundum accmdens.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e375">
+          ⁋ Ad
+          <lb ed="#N" n="16"/>illud vero quod obiicitur de abraham. dicendum quod abraham dicitur pricipium
+          <lb ed="#N" n="17"/>siue pater credentium ratione signaculi circumcisionis. vel quia in
+          <lb ed="#N" n="18"/>declinatione ab ydolatria potdiluuium primo a domino vocatur:
+          <lb ed="#N" n="19"/>et commendatur in fide sicut habetur. xii. gen. et. xv. Est ergo priencipium
+          fi<lb ed="#N" n="20" break="no"/>ue exemplar fidei dicere simpliciter. et hoc modo fuit abel. et iterum
+          <lb ed="#N" n="21"/>dicere priencipium siue exemplar fidei postlapsum a fide
+          gene<lb ed="#N" n="22" break="no"/>rale: et hoc modo fuit abraham principium siue pitur credentium
+          <lb ed="#N" n="23"/>et in hoc accepit signaculum circumcisionis quo discernuntur
+          cre<lb ed="#N" n="24" break="no"/>dentes a non credentibus.
+        </p>
+        <p xml:id="v78d89-d1e277-d1e397">
+          ⁋ Ad id vero quod obiicitur de iudeis.
+          <lb ed="#N" n="25"/>quod ab eis incepit ecclesia. Respondendum est. quod accipiendo prencipium
+          <lb ed="#N" n="26"/>ecclesie ex parte gentis non persone: dicebatur quod a iudeis incepit ec
+          <lb ed="#N" n="27"/>clesia. Illa enim gerns postlapsum ydolatrie primo credidit. et
+          perse<lb ed="#N" n="28" break="no"/>uerauit in eis fides qousque veniret excecatio post aduentum christi:
+          <lb ed="#N" n="29"/>et conuersio fieret ad gentes propter eorum indignitatem. sicut habetur act.
+          <lb ed="#N" n="30"/>xiii. quia indignos vos fecistis: ecce conuertimur ad gentes.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

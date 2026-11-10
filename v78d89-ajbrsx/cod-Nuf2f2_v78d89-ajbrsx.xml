@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 114, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 114, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="699"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ajbrsx"><!-- q114m2 -->
+        <head xml:id="v78d89-ajbrsx-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ajbrsx-Hd1e103" type="question-title">Utrum elemosyna facta de furto vel rapina vel usura sit satisfactoria id est utrum absolvat furem raptorem usurarium a debito restitutionis</head>
+        <p xml:id="v78d89-ajbrsx-d1e106">
+          <lb ed="#N" n="42"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e111">
+          <lb ed="#N" n="43"/>COnsequenter queritur. vtrum elemosyna facta de furto vel
+          <lb ed="#N" n="44"/>rapina vel vsura sit satisfactoria id est vtrum absol
+          <lb ed="#N" n="45"/>uat furem raptorem vsurarium a debito restitutio
+          <lb ed="#N" n="46"/>nis. Quod sic: videtur. ponatur casustal. raptor vel vsurarius dat ex
+          mo<lb ed="#N" n="47" break="no"/>tu pietatis elemosynam pauperi existenti in extrema necessitate. in tali articlo
+          <lb ed="#N" n="48"/>omnia sunt commnia immo in tali necessitate sunt patientis extremam necessitatem
+          <lb ed="#N" n="49"/>Si ergo nullus tenetur rstituere aliquid nisi illi cuius est illud quod est restituen
+          <lb ed="#N" n="50"/>dum. cum ratione necessitatis illud quod furto vel rapina vel vsura
+          subtra<lb ed="#N" n="51" break="no"/>ctum est prestitum est patienti necessitatem extremam: restitutum est vero domino.
+          <lb ed="#N" n="52"/>ergo ille qui huiusmodi elemosynas dat existenti in huiusmodi necessitate: non tenetur
+          fa<lb ed="#N" n="53" break="no"/>cere alicui aliam restitutionem de sic acquisito et sic dato.
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e137">
+          ⁋ Pre.
+          si<lb ed="#N" n="54" break="no"/>ipse indigens sbtraxit a fure raptore vel a vsurario aliquid in
+          tali<lb ed="#N" n="55" break="no"/>articulo et illud conuertisset in vsus suos. non esset debitor alicus
+          restitu<lb ed="#N" n="56" break="no"/>tionis cus est: quia suum accepisset. similiter vt vdtur ille fur etc. qui illud idem
+          da<lb ed="#N" n="57" break="no"/>ret isti in elemosynam absolutus esset a debito restitutionis. cum rem datam
+          <lb ed="#N" n="58"/>prestitisset vero domino.
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e151">
+          ⁋ Pre. in vita meriti summum et perfectissimum
+          <lb ed="#N" n="59"/>est obstntia et maxime in regloaribus. ergo si dbitum obediendi precepto
+          superi<lb ed="#N" n="60" break="no"/>oris absoluit obligatum subueniendi pauperi pomnito in extrema
+          nececss<lb ed="#N" n="61" break="no"/>tate: multo fortius absoluit quencumque vtpote furem raptorem
+          vsu<lb ed="#N" n="62" break="no"/>rarium a debito restituendi ea que iniuste acquisierit. patet quod minor est
+          <lb ed="#N" n="63"/>vera per hoc. quod subuenire in extrema necessitate est preceptum iuris nature et
+          <lb ed="#N" n="64"/>insitum anime rationali: obstantia reglaris est constitutione humana cui
+          prepo<lb ed="#N" n="65" break="no"/>nendum est preceptum dei. di. viii. que contra. vbi dicitur. sicut in potstatibus societatis
+          <lb ed="#N" n="66"/>humane maior potestas minori ad obediendum proponitur: ita deus omnibus
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e171">
+          <lb ed="#N" n="67"/>⁋ Pre. di. viii. differt ius naturale a consuetudine et constitutione.
+          <lb ed="#N" n="68"/>quia iure nature omnia commnia sunt: et ita eadem quo iure et dignitate ius
+          <lb ed="#N" n="69"/>naturale preualet consuetudini et constitutioni. et augustinus de confes. et habetur di.
+          <lb ed="#N" n="70"/>viii. que contra aduersus ius naturale nlli quicquam agere licet. Contra elemosna
+          <lb ed="#N" n="71"/>non est satisfactoria que fit ex aliemo. immo huiusmodi elemosna mag grauat
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>peccatorem quam alleuiat secundum cano. vt supratactum est. Ex quo patet quod etemosyna
+          <lb ed="#N" n="73"/>sancta de furto rapina ve vsura: pro nullo satisfacit nec a debito
+          a<lb ed="#N" n="74" break="no"/>liquo absoluit.
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e193">
+          ⁋ Responsio. de hoc casu dicitersi dicitursimode sentiunt. dicunt enim
+          <lb ed="#N" n="75"/>quidam quod raptor vel vsurarius debet requirere voluntatem eius qui est verus
+          posses<lb ed="#N" n="76" break="no"/>sor rei. vt vsurarius debet requirere voluntatem eius qui dedit ad vsuram. vt
+          <lb ed="#N" n="77"/>sic tutius faciat quod intendit: sed siue ille consentiat siue non: potest et debet
+          <lb ed="#N" n="78"/>elemosynam illi dare. Si autem non possit ad illum recurrere. tunc nomine illius et
+          <lb ed="#N" n="79"/>non nomine propso vel auctoritate faciendo elemosynam absoluitur a debito vel
+          ten<lb ed="#N" n="80" break="no"/>tione rrstitutionis: eo quod facit illud quod ille si presns esset facere teneretur.
+          <lb ed="#N" n="81"/>Alii dicunt econtrario quod iste numquam absoluitur si sine consensu alterius
+          <lb ed="#N" n="82"/>facit elemosynam de vsura. et hoc videtur mihi probabilius : et hoc propter ploes
+          ratio<lb ed="#N" n="83" break="no"/>nes. maxime si sit potens vel contigat eum venire imposterum ad
+          penguio<lb ed="#N" n="84" break="no"/>rem fortunam. et propter istam elemosne largitionem iste non absoluitur a peccato.
+          <lb ed="#N" n="85"/>Et ideo cum non remittatur delictum nisi restituatur ablatum. vt dicunt
+          <lb ed="#N" n="86"/>sancti: tenetur semper ad etrstitutionem. Alia ratio est. quia isti indigenti sic elemosynam
+          <lb ed="#N" n="87"/>dare non fuit illi qui dedit vsuram satisfacere. Alia est enim obligatio qua
+          <lb ed="#N" n="88"/>tenetur illi pauperi: et alia obligatio que tenebatur ad rerstitutionem. Non
+          <lb ed="#N" n="89"/>enim satisfaciendo pauperi satisfacit illi. cum ille pauperi non teneretur. nec
+          <lb ed="#N" n="90"/>pauper vicem eus gerat in hac parte. et ideo vsurarius semper rimanet obligatus
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e230">
+          <lb ed="#N" n="91"/>⁋ Ad illud quod obicitur. quod posito in extrema necessitate sunt omnia commnia etc.
+          <lb ed="#N" n="92"/>potest dici quod pecuina quam detiet vsurarius potest dupliciter considerari. et
+          re<lb ed="#N" n="93" break="no"/>spectu indigentis: et respeccatu illius qui soluit eam vsurarie. primo modo
+          <lb ed="#N" n="94"/>in veritate est pauperia et non solummodo illa: sed etiam quecumque alia per quam potest
+          <lb ed="#N" n="95"/>sue indigentie necessitas subleuari. Si vero consideretur secundo modo scilicet per
+          rela<lb ed="#N" n="96" break="no"/>tionem ad illum qui dedit vsurarie. aut ille est absens: aut pesns.
+          Si<lb ed="#N" n="97" break="no"/>presns: sic dico quod rtmanet obligatus dummodo habeat vnde possit rrstituere
+          <lb ed="#N" n="98"/>sicut dictum est.
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e250">
+          ⁋ Ad aliud quod obicitur. quod si ipse indigens subtraxisset aliquid
+          <lb ed="#N" n="99"/>a fure vel vsurario et illud conuertisset in vsus suos. non tenetur ad ratrstitu
+          <lb ed="#N" n="100"/>tionem etc. dicendum quod non est simile in casau isto scilicet de indigente et de fure les rapto
+          <lb ed="#N" n="101"/>re lies vsurario. quia in tali articulo indigens accipit quod suum est. et quod suum
+          <lb ed="#N" n="102"/>est conuertit in vsum suum. sed fur les raptor lis vsurarius dat indigenti quod non
+          <lb ed="#N" n="103"/>est ipsius scilicet dantis: sed quod est alterius scilicet illius a quo illud iniuste acquisiuit. vnde
+          <lb ed="#N" n="104"/>dominium illius non potest dando in pauperem tranfferre. vnde semper remanet
+          obli<lb ed="#N" n="105" break="no"/>gatus ad rstitutionem.
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e268">
+          ⁋ Ad illud quod obicitur. quod obligatio
+          subueniendi<lb ed="#N" n="106" break="no"/>pauperi in hoc articulo absoluit a debito obstntie regloaris etc. potest dici
+          <lb ed="#N" n="107"/>quod non est verum. reglares enim non semper tenentur obedire precepto superioris vt
+          <lb ed="#N" n="108"/>in casu proposito. et est ratio vna quia superior prohibet contra illud quod deus precipit
+          <lb ed="#N" n="109"/>et non est in tali articulo audiendus secundum quod dicit augustinus in glo. sictur. xiii. ad Ro.
+          <lb ed="#N" n="110"/>super illud. qui rtrsistit potestati. et habetur simile. xi. q. iii. qui resistit. si quis prest:
+          <lb ed="#N" n="111"/>et habetur idem. di. viii. que conter. Alia ratio est. quia professio bomini abundantis non ex
+          <lb ed="#N" n="112"/>cludit obligationem bomini necessaii. vel ad hoc necessario obligatur precepto
+          na<lb ed="#N" n="113" break="no"/>ture: quia ista precepta immobilia sunt. secundum quod patet in prima et secunda
+          tabu<lb ed="#N" n="114" break="no"/>la decalogi. Et ideo semper remanet homo obligatus ad illa implenda
+          <lb ed="#N" n="115"/>nec absoluitur ex obligatione altioris professionis: sed magis tenetur
+          <lb ed="#N" n="116"/>ad illud idem de bono et equo. obligatio ergo illa non absoluit a debito
+          <lb ed="#N" n="117"/>obstntie: sed illud quod alis esset debitum efficit idebitum. licet sit obediendum
+          <lb ed="#N" n="118"/>precepto superioris: non tamen in casu proposito rationibus pretactis.
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e300">
+          ⁋ Si autem
+          <lb ed="#N" n="119"/>obiiciatur adhuc. quod modachus siue reglaris non teneatur dare
+          elemosynam<lb ed="#N" n="120" break="no"/>in tali articlo contra prohibitionem superioris. quia bonum quandoque propter obstantiam est
+          <lb ed="#N" n="121"/>dimittendum. vt. xi. q. iii. quid ergo greg. Sciendum est quod numquam propter obstntiam
+          <lb ed="#N" n="122"/>malum debet fieri. aliquando autem debet bonum. quod agitur propter obstantiam intermitti.
+          <lb ed="#N" n="123"/>Et ita videtur quod regloaris propter prohibitionem debet bonum huiusmodi et etiam alia
+          <lb ed="#N" n="124"/>intermittere.
+        </p>
+        <p xml:id="v78d89-ajbrsx-d1e316">
+          ⁋ Responsio. quod duplex est bonum necessarium et abundans. quod ergo obii
+          <lb ed="#N" n="125"/>cit quod intermittendum est bonum propter obstntiam. dicendum est quod verum est de
+          bo<lb ed="#N" n="126" break="no"/>no secundo modo sumpto scilicet de bono abundanti. vt est predicatio vel etiam
+          <lb ed="#N" n="127"/>praelatio vel aliud quodcumque officium vel ops: ad quod non obligatur de
+          <lb ed="#N" n="128"/>diuino precepto vel nature insito. non autem intelligitur si illud ops fuerit
+          <lb ed="#N" n="129"/>necessario agendum eo quod sit ex diuino precepto vel insitatione nature.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

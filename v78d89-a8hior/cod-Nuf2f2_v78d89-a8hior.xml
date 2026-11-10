@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 41, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 41, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="306"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8hior"><!-- q41m3 -->
+        <head xml:id="v78d89-a8hior-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a8hior-Hd1e103" type="question-title">In quibus hoc sacramentum habet efficaciam</head>
+        <p xml:id="v78d89-a8hior-d1e106">
+          <lb ed="#N" n="56"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a8hior-d1e111">
+          <lb ed="#N" n="57"/>COnsequenter queritur in quibus hoc sacramentum
+          ha<lb ed="#N" n="58" break="no"/>bet efficaciam. Et primo vtrum in malis siue
+          in<lb ed="#N" n="59" break="no"/>iustis. Secundo habito quod non: vtrum in iustis.
+          <lb ed="#N" n="60"/>Tercio vtrum maiorem efficaciam habeat in
+          in<lb ed="#N" n="61" break="no"/>sto sumente sacramentaliter et spiritualiter quam in sumente
+          spi<lb ed="#N" n="62" break="no"/>ritualiter tantum. Quarto vtrum in beatis.
+        </p>
+        <div xml:id="v78d89-a8hior-Dd1e127">
+          <head xml:id="v78d89-a8hior-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-a8hior-d1e131">
+            <lb ed="#N" n="63"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a8hior-d1e136">
+            <lb ed="#N" n="64"/>QUeritur ergo vtrum habeat efficaciam esse in iniusto
+            <lb ed="#N" n="65"/>scilicet qui est in mortali peccato. Quod sic: videtur. Fabianus
+            <lb ed="#N" n="66"/>papa. Et si non frequentius saltem in anno ter vbique
+            ho<lb ed="#N" n="67" break="no"/>mines fidelium communicent. nisi forte quis maioribus criminibus
+          </p>
+          <p xml:id="v78d89-a8hior-d1e147">
+            <lb ed="#N" n="68"/>⁋quibuslibet impediatur. In pascha vicem. In penthe. In natale
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>deni. Ecce quod habetur a canone quod ter in anno debet fidelis accedere ad
+            <lb ed="#N" n="70"/>sacramentum et ad ad sacram communionem: nisi impediatur
+            <lb ed="#N" n="71"/>maioribus criminibus. sed constat quod venialia peccata non dicuntur
+            <lb ed="#N" n="72"/>crimina sed mortalia. ergo maiora crimina dicuntur
+            mor<lb ed="#N" n="73" break="no"/>talia. ergo videtur quod non mortale quodcumque impediat
+            ac<lb ed="#N" n="74" break="no"/>cessum huiusmodi ergo nec efficaciam sacramenti.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e167">
+            ⁋ Item si
+            ali<lb ed="#N" n="75" break="no"/>quis ficte vt adultus non contritus accedat ad sacramentum
+            bapti<lb ed="#N" n="76" break="no"/>smi. licet sacramentum baptismi tunc non habet effectum in illo: habet tum
+            <lb ed="#N" n="77"/>post scilicet data sibi gratia contritionis. A simili videtur de h sacramento quod
+            <lb ed="#N" n="78"/>si aliquis indigne accedit ad hoc sacramentum efficaciam habebit. ve
+            <lb ed="#N" n="79"/>quare non.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e181">
+            ⁋ Item diuina prulcritudo amica est aspectui etiam
+            <lb ed="#N" n="80"/>quantocunque infirmo. similiter videtur quod diuina dulcedo et
+            <lb ed="#N" n="81"/>maxime illa que per incarnationem efficitur aliquo modo proportio
+            <lb ed="#N" n="82"/>nalis gustui humano: omni gustui etiam quantumcunque infirmo
+            <lb ed="#N" n="83"/>sit amica. ergo dulcedo huius sacramenti in quo sumitur filius dei
+            <lb ed="#N" n="84"/>incarnatus omni gustui est amica. sed in omni tali habet effectum
+            <lb ed="#N" n="85"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e197">
+            ⁋ Item sicut dicit Dam. Caro christi est sicut carbo
+            igni<lb ed="#N" n="86" break="no"/>tus. Ignis enim non solum agit in secum perticipantem sed in omnino
+            <lb ed="#N" n="87"/>contrario. similiter videtur de hoc carbone ignito quod non solum
+            habe<lb ed="#N" n="88" break="no"/>at efficaciam in perticipante secum id est in iusto: sed etiam in contrario
+            <lb ed="#N" n="89"/>id est in iniusto.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e208">
+            ⁋ Item esto quod aliquis non habens conscientiam mor
+            <lb ed="#N" n="90"/>talis attritus et confessus accedat ad altare: est tamen in
+            mortali<lb ed="#N" n="91" break="no"/>secundum veritatem. Iuxta illud. i. Corin. Nihil mihi conscius sum
+            <lb ed="#N" n="92"/>sed non in hoc iustificatus sum. et mouetur ad accedendum: quia tenetur
+            <lb ed="#N" n="93"/>saltem semel in anno accedere. et scit quod peccaret si non accedent
+            <lb ed="#N" n="94"/>et cum voluntate cauendi sibi a peccato in isto accessu vt videtur
+            <lb ed="#N" n="95"/>sacramentum habebit aliquem effectum deletionis culpe mortalis.
+            <lb ed="#N" n="96"/>ex quo cum bona conscientia et attritus et confessus et bene mots
+            <lb ed="#N" n="97"/>accedit scilicet ne peccet mortaliter: et cum voluntate cauendi a
+            <lb ed="#N" n="98"/>peccato.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e230">
+            ⁋ Contra. hoc sacramentum habet efficaciam mediante
+            mandu<lb ed="#N" n="99" break="no"/>catione spirituali. Manducatio autem spiritualis non fit nisi
+            mediam<lb ed="#N" n="100" break="no"/>te caritate. ergo efficaciam non habet nisi in habente caritatem.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e237">
+            <lb ed="#N" n="101"/>⁋ Item ad istam partem posunt adduci auctoritates posite in
+            pro<lb ed="#N" n="102" break="no"/>bleumate precedenti
+          </p>
+          <p xml:id="v78d89-a8hior-d1e244">
+            ⁋ Responsio. quod sacramentum istud non habet
+            <lb ed="#N" n="103"/>efficaciam nisi in iusto. Nam propter presentiam saluatoris.
+            recor<lb ed="#N" n="104" break="no"/>dationem humane redemptionis. expressionem diuine caritatis
+            <lb ed="#N" n="105"/>remedium humane infirmitatis que in huius sacramenti
+            sum<lb ed="#N" n="106" break="no"/>ptione concurrunt: non potest sumi ab iniusto sine maxima
+            ingra<lb ed="#N" n="107" break="no"/>titudine et contemptu. Unde quia iniustus in tanta accedit
+            in<lb ed="#N" n="108" break="no"/>gratitudine: non habet sacramentum in eo efficaciam.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e261">
+            ⁋ Ad
+            pri<lb ed="#N" n="109" break="no"/>mum dicendum. quod Fabianus papa vocat maiora
+            crimi<lb ed="#N" n="110" break="no"/>na mortalis peccata. Crimen enim sumitur communiter
+            <lb ed="#N" n="111"/>proprie et magis proprie. Communiter enim dicuntur pec
+            <lb ed="#N" n="112"/>cata venialia crimina. que ratione frequentis iterationis
+            <lb ed="#N" n="113"/>hominem vilem ostendunt: et in conspectu proprio
+            crimen<lb ed="#N" n="114" break="no"/>dignum. Hiere. Quuilis facta es nimis iterans vias
+            tu<lb ed="#N" n="115" break="no"/>as. Proprie dicuntur crimina mortalia peccata.
+            quesem<lb ed="#N" n="116" break="no"/>per miseriam et dispendium inferunt homini: ipsum
+            ef<lb ed="#N" n="117" break="no"/>ficiunt in conspectu dei crimine dignum. Magis proprie
+            <lb ed="#N" n="118"/>dicuntur crimina illa peccata que criminalia dicuntur.
+            vt<lb ed="#N" n="119" break="no"/>pote propter que peccator trahendus est in iudicium et
+            di<lb ed="#N" n="120" break="no"/>gnus est accusatione. Peccata ergo mortalia dicuntur
+            cri<lb ed="#N" n="121" break="no"/>mina et grauiora respectu venialium.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e292">
+            ⁋ Ad illud quod
+            que<lb ed="#N" n="122" break="no"/>ritur de illo qui accedit indigne et post efficitur dignus. vtrum
+            <lb ed="#N" n="123"/>assequitur effectum huius sacramenti etc. Dicendum quod
+            <lb ed="#N" n="124"/>non. Ratio autem est hec. In sacramento baptismi sunt tria
+            <lb ed="#N" n="125"/>scilicet sacramentum tantum. sacramentum et res scilicet
+            cara<lb ed="#N" n="126" break="no"/>cter. res tantum scilicet gratia abluens. existente primo
+            semper<lb ed="#N" n="127" break="no"/>est secundum etiam in ficte suscipientibus: sed non tercium.
+            ni<lb ed="#N" n="128" break="no"/>hilominus si post susceptionem sacramenti consequatur
+            con<lb ed="#N" n="129" break="no"/>tritio: habetur illud quod deficiebat scilicet res
+            sacramen<lb ed="#N" n="130" break="no"/>ti tantum. Unde quia ad illud quod est sacramentum tantum. sequitur
+            <lb ed="#N" n="131"/>illud quod est res et sacramentum. et secundum contritionem sequen
+            <lb ed="#N" n="132"/>tem additur quod est res tantum scilicet gratia necessario. Si
+            <lb ed="#N" n="133"/>ablutionem exteriorem que est sacramentum tantum sequitur
+            <lb ed="#N" n="134"/>contritio: habetur complete res siue effectus sacramenti
+            <lb ed="#N" n="135"/>baptismi. et hoc est. quia quandocunque suscipiatur sacramentum
+            <lb ed="#N" n="136"/>baptismi suscipitur illud quod est res et sacramentum scilicet
+            <lb ed="#N" n="137"/>caracter. vnde est suscipienti dispositio ad susceptionem rei mdom que est
+            <lb ed="#N" n="138"/>completio sacramenti. Sed quando aliquis sumit corpus christi
+            <lb ed="#N" n="139"/>sacramentaliter tantum. non ex hoc aliquo modo disponitur
+            <pb ed="#N" n="307"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>ad assequendum rem sacramenti eucharistie in plenitudine:
+            <lb ed="#N" n="2"/>sed potius impeditur et inhabilitatur ad illud. vnde commestio sacra
+            <lb ed="#N" n="3"/>mentalis tantum. nullo modo operatur ad assecutionem effectus alicuius
+            <lb ed="#N" n="4"/>huius sacramenti. et ex hoc est quod ex aliquo sequenti ad indignam
+            sum<lb ed="#N" n="5" break="no"/>ptionem non assequitur sumens effectus ipsius sacramenti.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e349">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="6"/>obiicitur. quod dulcedo amica est vnicuique gustui. dicendum quod hoc
+            verum<lb ed="#N" n="7" break="no"/>est vnicuique perticipanti illam. sed palatum non sanum cui dulcia
+            vi<lb ed="#N" n="8" break="no"/>dentur amara non perticipat illam. palatum non sanum: est palatum
+            <lb ed="#N" n="9"/>spirituale ipsius peccatoris. Prete. illa diuina dulcedo que omi
+            gu<lb ed="#N" n="10" break="no"/>stui est amica: est dulcedo ipsius dei quam soli beati perticipant
+            <lb ed="#N" n="11"/>de qua psalmus. Quod magna multitudo dulcedinis tue domine.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e365">
+            <lb ed="#N" n="12"/>⁋ Ad illud quod dicitur. quod ad similitudinem carbonis materia
+            <lb ed="#N" n="13"/>lis carbo ignitus spiritualis agit in simili et in contrario. Dicendum quod
+            <lb ed="#N" n="14"/>sicut carbo ignitus materialis agit in simili scilicet
+            augmentan<lb ed="#N" n="15" break="no"/>do illud quod inuenit simile: aliter in contrario scilicet
+            exinanien<lb ed="#N" n="16" break="no"/>do illud. similiter est hic quodammodo. Caro enim christi que est res
+            sa<lb ed="#N" n="17" break="no"/>cra sumpta ab eo qui est similis scilicet iusto: est causa augmenti
+            bo<lb ed="#N" n="18" break="no"/>ni vtpote virtutum in illo. Sumpta autem ab eo qui est contrarius
+            <lb ed="#N" n="19"/>id est ab iniusto est causa exinanitionis et lesionis illius.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e385">
+            ⁋ Ad
+            vl<lb ed="#N" n="20" break="no"/>timum dicendum sine preiudicio. quod etsi peccator accedat contritus
+            con<lb ed="#N" n="21" break="no"/>fessus sine conscientia mortalis non habens voluntatem peccandi: non
+            <lb ed="#N" n="22"/>tamen assequitur effectum sacramenti quantum est de virtute ipsius. Sacra
+            <lb ed="#N" n="23"/>mentum enim hoc non habet efficaciam nisi in iustis. Quia tamen
+            largi<lb ed="#N" n="24" break="no"/>tas diuina non est limitata: neque virtus eius est alligata ipsis
+            <lb ed="#N" n="25"/>sacramentis. pie potest supponi quod gratiam aliquam vel donum
+            <lb ed="#N" n="26"/>assequatur a domino.
+          </p>
+        </div>
+        <div xml:id="v78d89-a8hior-Dd1e405">
+          <head xml:id="v78d89-a8hior-Hd1e407">Articulus 2</head>
+          <p xml:id="v78d89-a8hior-d1e409">
+            <lb ed="#N" n="27"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a8hior-d1e414">
+            <lb ed="#N" n="28"/>COnsequenter queritur. vtrum hoc sacramentum habeat
+            effi<lb ed="#N" n="29" break="no"/>caciam in iustis scilicet quibuscunque. Quod sic: videtur per
+            <lb ed="#N" n="30"/>hoc. quod habet efficaciam vbi non habet obicem. sed in
+            nul<lb ed="#N" n="31" break="no"/>lo iusto habet obicem. ergo etc.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e425">
+            ⁋ Item sacramentalis manducatio
+            <lb ed="#N" n="32"/>sem per habet efficaciam quando est coniuncta spirituali. sed semper est coniuncta
+            spi<lb ed="#N" n="33" break="no"/>rituali in iusto manducante: quia spiritualiter manducare est in
+            <lb ed="#N" n="34"/>christo manere vt dicit Augustinus. sed omnis iustus manet in christo.
+            er<lb ed="#N" n="35" break="no"/>go etc.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e436">
+            ⁋ Item dicit Dam. quod caro christi est sicut carbo ignitus
+            <lb ed="#N" n="36"/>hoc habens sensum corporalem semper calefacit per contactum carbonis
+            <lb ed="#N" n="37"/>materialis: ergo similiter habens sensum spiritualem per carbonem
+            spi<lb ed="#N" n="38" break="no"/>ritualem. ergo etc.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e446">
+            ⁋ Item Amb. spiritualiter manducat qui
+            inno<lb ed="#N" n="39" break="no"/>centiam ad altare portat. Innocentiam vero vocquit purgationem
+            <lb ed="#N" n="40"/>a mortali: sed in tali habet hoc sacramentum efficaciam.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e453">
+            ⁋ Contra.
+            ba<lb ed="#N" n="41" break="no"/>ptismus non habet efficaciam in adulto. nisi se preparet ad
+            susci<lb ed="#N" n="42" break="no"/>piendum effectum illius: similiter nec hoc sacramentum. et hoc habetur. i.
+            <lb ed="#N" n="43"/>Corin. xi. vbi dicitur. Probet autem seipsum homo et sic de pane
+            il<lb ed="#N" n="44" break="no"/>lo edat et de calice bibat. Glo. super illud. probet id est
+            exami<lb ed="#N" n="45" break="no"/>net et purget seipsum. vt si peccata sint quotidiana vel non
+            mor<lb ed="#N" n="46" break="no"/>tifera et dimittar confratri accessurus ad altare et dicat.
+            di<lb ed="#N" n="47" break="no"/>mitte nobis debita nostra: sicut et nos dimittimus
+            debitori<lb ed="#N" n="48" break="no"/>bus nostris. et sic securus accedens de pane illo edat et de
+            ca<lb ed="#N" n="49" break="no"/>lice bibat. Ecce quod requiritur preparatio scilicet per examinationem
+            <lb ed="#N" n="50"/>et purgationem.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e477">
+            ⁋ Item efficacia huius sacramenti consistit in
+            de<lb ed="#N" n="51" break="no"/>letione venialium et augmento virtutum. sed venialia non
+            dimit<lb ed="#N" n="52" break="no"/>tuntur nisi homo se preparet per contritionem: cum ex actu nostro sint commissa
+            <lb ed="#N" n="53"/>similiter nec virtutes augentur: ergo non in omni iusto habet efficaciam.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e486">
+            <lb ed="#N" n="54"/>⁋ Item quandoque accidit quod iustus habet conscientiam se grauiter pec
+            <lb ed="#N" n="55"/>casse vel quod sit in peccato mortali. nec tamen est: quia frequenter
+            pec<lb ed="#N" n="56" break="no"/>catum venialem reputatur mortale a perfectis: nec tamen propter hoc
+            ca<lb ed="#N" n="57" break="no"/>dit a iusticia. sed si talis accederet indigne accederet nec
+            as<lb ed="#N" n="58" break="no"/>sequeretur effectum sacramenti.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e499">
+            ⁋ Responsio. quod hoc sacramentum non seper
+            <lb ed="#N" n="59"/>habet efficaciam in iustis. Quandoque enim iustus accedit ad
+            al<lb ed="#N" n="60" break="no"/>tare ita tepide et indeuote et ita sine debita reuerentia et
+            ti<lb ed="#N" n="61" break="no"/>more et cum tanta distractione animi: quod nullum reportat
+            con<lb ed="#N" n="62" break="no"/>modum: licet non incurrat offensam mortalem. Requiritur ergo quod
+            <lb ed="#N" n="63"/>iustus ad hoc quod hoc sacramentum habeat efficaciam in eo. ita quod
+            <lb ed="#N" n="64"/>ex eo commodum reportet. quod preparat se considerando ad quod acce
+            <lb ed="#N" n="65"/>dat vt cum deuotione et reuerentia accedat. Unde glo. super
+            <lb ed="#N" n="66"/>illud. i. Corint. xi. Non diiudicans corpus christi per hoc
+            do<lb ed="#N" n="67" break="no"/>cet cum timore et deuotione accedendum esse ad
+            communio<lb ed="#N" n="68" break="no"/>nem: quia dominus est cuius caro sumitur: vt gratiam
+            vide<lb ed="#N" n="69" break="no"/>amur redemptori reddere. vt ergo non impediatur efficacia
+            <lb ed="#N" n="70"/>huius sacramenti: debet accedens cibum istum ab aliis
+            di<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>scernere actu fidei. deinde seipsum examinare et purgare.
+            <lb ed="#N" n="72"/>demum cum deuotione et reuerentia illum assumere. hec
+            pa<lb ed="#N" n="73" break="no"/>tent per opposita istorum que accidunt: quando quis indigne
+            ac<lb ed="#N" n="74" break="no"/>cedit vt patet ex textu et glo. i. Corin. xi.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e537">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="75"/>obiicitur. quod in viro iusto non inuenitur obex etc. Dicendum quod
+            <lb ed="#N" n="76"/>omissio preparationis obex est non tantum peccatum.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e545">
+            ⁋ Ad illud
+            <lb ed="#N" n="77"/>quod iustus semper manducat spiritualiter etc. Dicendum quod secundum
+            <lb ed="#N" n="78"/>quod manducat spiritualiter est in deo manere sicut
+            diceba<lb ed="#N" n="79" break="no"/>tur opponendo. sicut iustus semper manducat spiritualiter. sed
+            <lb ed="#N" n="80"/>frequenter in manducantibus spiritualiter boc modo non habet
+            <lb ed="#N" n="81"/>hoc sacramentum efficaciam propter negligentiam et
+            insuf<lb ed="#N" n="82" break="no"/>ficientem reuerentiam et alios defectus qui frequenter
+            ac<lb ed="#N" n="83" break="no"/>cidunt ex parte manducantis. Secdndum autem quod spiritualiter
+            <lb ed="#N" n="84"/>manducare est digne manducare. prout quod dico digne:
+            mo<lb ed="#N" n="85" break="no"/>dum oppositum dicit ei quod est indigne manducare.
+            descri<lb ed="#N" n="86" break="no"/>bitur. i. Corin. xi. in spiritualiter manducantibus semper
+            ha<lb ed="#N" n="87" break="no"/>bet hoc sacramentum efficaciam. Ad istum autem modum
+            <lb ed="#N" n="88"/>manducandi spiritualiter requiritur preparatio supradicta.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e574">
+            <lb ed="#N" n="89"/>⁋ Ad illud quod obiicitur. quod spiritualiter manducat qui
+            inno<lb ed="#N" n="90" break="no"/>centiam ad altare portat. Dicendum quod ille portat
+            innocen<lb ed="#N" n="91" break="no"/>tiam ad altare qui non habens maculam peccati mortalis et
+            <lb ed="#N" n="92"/>sufficienter preparatus accedit digne ad mensam domini.
+            vtpo<lb ed="#N" n="93" break="no"/>te qui neque est in peccato mortali. nec peccat ex omissione
+            <lb ed="#N" n="94"/>alicuius quo fit dignus ad accedendum ad sacram
+            communi<lb ed="#N" n="95" break="no"/>onem. Pre. concedi potest quod iustus spiritualiter manducat
+            <lb ed="#N" n="96"/>et quod sacramentum habeat in eo aliquam efficaciam.
+            verun<lb ed="#N" n="97" break="no"/>tamen ex negligentia eius eo scilicet quod accedit non debito
+            mo<lb ed="#N" n="98" break="no"/>do paratus. maius incurrit incommodum quam assequatur
+            com<lb ed="#N" n="99" break="no"/>modum.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e600">
+            ⁋ Ad illud quod obiicitur primo pro alia parte
+            <lb ed="#N" n="100"/>scilicet quod baptismus non habet efficaciam in adulto nisi se
+            pre<lb ed="#N" n="101" break="no"/>paret etc. Dicendum quod immo. licet enim non habeat efficaciam
+            <lb ed="#N" n="102"/>quantum ad collationem gratie: habet tamen efficaciam quantum ad
+            <lb ed="#N" n="103"/>collationem et impressionem caracteris.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e611">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="104"/>obiicitur. scilicet quod efficacia huius sacramenti consistit in deleti
+            <lb ed="#N" n="105"/>one venialium etc. Dicendum quod cum quantum ad plura
+            atten<lb ed="#N" n="106" break="no"/>ditur augmentum virtutum conferri in hoc sacramento vt ex
+            di<lb ed="#N" n="107" break="no"/>ctis patet: fortasse quantum ad aliquod eorum conferendum est eius
+            <lb ed="#N" n="108"/>efficacia in casu proposito. vtpote quantum ad robur contra
+            ten<lb ed="#N" n="109" break="no"/>ptationes vel aliquod aliud. Existimo enim sine preiudicio. quod
+            <lb ed="#N" n="110"/>iustus accedens ad communionem sacram. licet negligens
+            fu<lb ed="#N" n="111" break="no"/>erit in preparando se modo debito et sufficienti. dummodo
+            <lb ed="#N" n="112"/>non cadit a iusticia: assequatur aliquo modo effectum
+            prin<lb ed="#N" n="113" break="no"/>cipalem huius sacramenti scilicet vnionem firmiorem cum
+            ca<lb ed="#N" n="114" break="no"/>pite et cum membris. et ex vnione illa firmiori fortior
+            effi<lb ed="#N" n="115" break="no"/>citur contra temptationes. hoc opinando dico non
+            asseren<lb ed="#N" n="116" break="no"/>do.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e642">
+            ⁋ Ad vltimum dicendum. quod si iustus in casu posito ac
+            <lb ed="#N" n="117"/>cederet ad sacram communionem peccaret mortaliter: quia
+            <lb ed="#N" n="118"/>huiusmodi accessus non posset esse sine contemptu mortali.
+          </p>
+        </div>
+        <div xml:id="v78d89-a8hior-Dd1e650">
+          <head xml:id="v78d89-a8hior-Hd1e652">Articulus 3</head>
+          <p xml:id="v78d89-a8hior-d1e654">
+            <lb ed="#N" n="119"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a8hior-d1e659">
+            <lb ed="#N" n="120"/>SUpposito quod duobus modis sumitur hoc
+            sacramen<lb ed="#N" n="121" break="no"/>tum. de hoc enim erit infra questio.
+            Consequen<lb ed="#N" n="122" break="no"/>ter queritur vtrum hoc sacramentum habeat
+            ma<lb ed="#N" n="123" break="no"/>ioremm efficaciam in sumente sacramentaliter et
+            spirituali<lb ed="#N" n="124" break="no"/>ter: quam in sumente spiritualiter tantum. Quod sic: videtur. Quia quidam
+            <lb ed="#N" n="125"/>baptizati sunt siue baptizabantur baptismo flaminis tantum. qui
+            <lb ed="#N" n="126"/>dam baptismo fluminis tantum: quidam baptismo fluminis
+            <lb ed="#N" n="127"/>et flaminis. Sed baptizati baptismo fluminis et flaminis
+            <lb ed="#N" n="128"/>diuina beneficia vberius assequuntur. quia eis
+            omnino<lb ed="#N" n="129" break="no"/>remittitur culpa et pena quam baptizati baptiuno flaminis
+            <lb ed="#N" n="130"/>tantum. licet enim talibus remittatur culpa: non tamen
+            pena<lb ed="#N" n="131" break="no"/>A simili videtur hic. quod qui manducat corpus christi
+            sacramen<lb ed="#N" n="132" break="no"/>taliter et spiritualiter. vberius assequitur effectus huius
+            sa<lb ed="#N" n="133" break="no"/>cramenti quam qui spiritualiter tantum.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e692">
+            ⁋ Contra. spiritualis
+            man<lb ed="#N" n="134" break="no"/>ducatio est per fidem et dilectionem. vnde virtute fidei et
+            ca<lb ed="#N" n="135" break="no"/>ritatis est manducatio spiritualis. Preterea contactu
+            spe<lb ed="#N" n="136" break="no"/>cierum sub quibus est corpus christi: nisi fide et dilectione
+            con<lb ed="#N" n="137" break="no"/>tingatur res contenta: nihil efficitur in manducante: ergo
+            <lb ed="#N" n="138"/>tantum prodest manducare spiritualiter quantum
+            sacra<lb ed="#N" n="139" break="no"/>mentaliter et spiritualiter. ex quo manducans fructum siue
+            con<lb ed="#N" n="140" break="no"/>modum assequitur solum ex fide et dilectione.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e710">
+            ⁋ Item non
+            <pb ed="#N" n="308"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>magis contingitur corpus christi sub specie panis ex gustu
+            spe<lb ed="#N" n="2" break="no"/>ciei quam ex visu. corpus enim christi contentum sicut cum videtur species non
+            <lb ed="#N" n="3"/>contingitur: similiter nec cum gustatur. Corpus enim glorificatum a non
+            <lb ed="#N" n="4"/>glorificato tangi non potest nisi miraculo. Unde Grego. duo
+            <lb ed="#N" n="5"/>mira iuxta humanam rationem sibi valde contraria dominus ostendit
+            <lb ed="#N" n="6"/>dum post resurrectionem corpus suum incorruptibile palpabile
+            <lb ed="#N" n="7"/>demonstrauit. nam et corrumpi necesse est quod palpatur: et
+            palpa<lb ed="#N" n="8" break="no"/>ri non potest quod non corrumpitur.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e735">
+            ⁋ Item Augustinus Quid paras
+            de<lb ed="#N" n="9" break="no"/>tem et ventrem. Si autem ex commestione sacramentali vberius confertur
+            <lb ed="#N" n="10"/>gratia: posset sibi conuenienter responderi: vt sacramentum habeat
+            me<lb ed="#N" n="11" break="no"/>liorem efficaciam in me. sed hanc responsionem confutat per hoc
+            <lb ed="#N" n="12"/>quod subiungit. Crede et manducasti. igitur etc.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e746">
+            ⁋ Item Ioh.
+            <lb ed="#N" n="13"/>xvi. Si enim non abiero paraclitus non veniet ad vos. vbi
+            ha<lb ed="#N" n="14" break="no"/>betur ab Augustinus quod corporalis presentia eius impediuit illos
+            quan<lb ed="#N" n="15" break="no"/>tum ad cognitionem diuinitatis. Unde glo. Augustinus ibi. Non quod
+            <lb ed="#N" n="16"/>positus in terra non posset dare: sed quia non sunt ydonei
+            ac<lb ed="#N" n="17" break="no"/>cipere: nisi cum secundum carnem desistant nosse. hec glo. A
+            simili<lb ed="#N" n="18" break="no"/>videtur in proposito quod manducatio spiritualis que fit sumendo eum
+            <lb ed="#N" n="19"/>secundum corpus: impedit spiritualem que fit per visionem spiritualem.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e764">
+            <lb ed="#N" n="20"/>Responsio. ad multa est vtilis commestio sacramentalis. valet enim
+            <lb ed="#N" n="21"/>ad gustum spiritualem diuinitatis. et ad transtationem de
+            huma<lb ed="#N" n="22" break="no"/>nis ad diuina. Unde Inno. Sapicentia dei que se per visibilia
+            mani<lb ed="#N" n="23" break="no"/>festat. volens euidenter ostendere quod ipsa cibus est animarum
+            <lb ed="#N" n="24"/>carnem assumptam proponit in edulium: vt per cibum humanitatis
+            in<lb ed="#N" n="25" break="no"/>uitaret ad gustum diuinitatis. de quo psalmus. Gustate et
+            vide<lb ed="#N" n="26" break="no"/>tem quoniam suauis est dominus. Totum ergo christus se exhibet nobis in cibum
+            <lb ed="#N" n="27"/>vt sicut diuinitate nos reficit quam spiritualiter corde gustamus
+            <lb ed="#N" n="28"/>ita nos humanitate reficiat quam corporaliter ore commedimus. vt
+            <lb ed="#N" n="29"/>ita de visibilibus ad inuisibilia: de temporalibus ad eterna: de
+            <lb ed="#N" n="30"/>terrenis ad celestia: de humanis ad diuina nos transferat.
+            <lb ed="#N" n="31"/>Ego sum inquit panis viuus qui de celo descendi: ecce cibus
+            <lb ed="#N" n="32"/>diuinitatis. et panis quem ego dabo caro mea est: ecce cibus
+            <lb ed="#N" n="33"/>humanitatis. Item valet ad cognoscendum diuinam libertatem
+            <lb ed="#N" n="34"/>siue largitatem in reficiendo. quia dedit corpus suum
+            sacra<lb ed="#N" n="35" break="no"/>mentaliter manducandum: vt vtrumque scilicet corpus et animam
+            re<lb ed="#N" n="36" break="no"/>ficeret. Unde existimo quod incentiua carnis sedantur ex
+            sacra<lb ed="#N" n="37" break="no"/>mentali manducatione. Item ad cognoscendum diuinam
+            sa<lb ed="#N" n="38" break="no"/>pientiam immo vuificandi hominem. de his duobus Innoc.
+            <lb ed="#N" n="39"/>Panis angelorum factus est cibus hominum. secundum illud propheticum
+            <lb ed="#N" n="40"/>Panem angelorum manducauit homo. quatenus qui secundum animam
+            <lb ed="#N" n="41"/>cibum diuinitatis accipimus: secundum carnem etiam cibum
+            huma<lb ed="#N" n="42" break="no"/>nitatis sumamus. quoniam sicut anima rationalis et caro vnus est
+            ho<lb ed="#N" n="43" break="no"/>mo:ita deus et homo vnus est christus. hoc dicit quantum ad primun
+            <lb ed="#N" n="44"/>Et post. Et quia per gustum quoque vitam acquirit: quatenus
+            vn<lb ed="#N" n="45" break="no"/>de mors oriebatur inde vita resurgeret. Dictum quippe est de
+            <lb ed="#N" n="46"/>illo. quacumque die comederis morte morieris. dicitur autem d
+            <lb ed="#N" n="47"/>isto. Si quis manducauerit de hoc pane viuet ineternum: hoc
+            <lb ed="#N" n="48"/>dicit quantum ad secundum. Ualet etiam ad augmentum meriti ex
+            re<lb ed="#N" n="49" break="no"/>cordatione passionis quam proprie representat sacramentalis
+            man<lb ed="#N" n="50" break="no"/>ducatio. Unde. i. Corin. xi. hoc facite quotienscumque feceritis
+            <lb ed="#N" n="51"/>Glo. Medicina spiritualis est que cum reuerentia degustata
+            <lb ed="#N" n="52"/>purificat sibi deuotum. et memoria ibi est nostre redemptio
+            <lb ed="#N" n="53"/>nis: vt redemptoris nostri memores maiora bona
+            consequi<lb ed="#N" n="54" break="no"/>mereamur. Dicendum igitur quod hoc sacramentum maiorem habet
+            effica<lb ed="#N" n="55" break="no"/>ciam in sumente sacramentaliter et spiritualiter: quam in sumente
+            <lb ed="#N" n="56"/>spiritualiter tantum.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e847">
+            ⁋ Ad hoc quod obiicitur. quod virtute fidei et carita
+            <lb ed="#N" n="57"/>tis est efficacia vtriusque manducationis etc. Dicendum quod hoc
+            <lb ed="#N" n="58"/>verum est. nihilominus manducans sacramentaliter assequitur commo
+            <lb ed="#N" n="59"/>dum aliquod ex sacramentali manducatione rationibus
+            preta<lb ed="#N" n="60" break="no"/>ctis. Reuera in hoc conueniunt sacramentalis et spiritualis
+            man<lb ed="#N" n="61" break="no"/>ducatio et spiritus tantum. quod manducans sic et sic fide et dilectione
+            <lb ed="#N" n="62"/>assequitur aliquos effectus sacramenti. sed eo quod commestio
+            sacra<lb ed="#N" n="63" break="no"/>mentalis superaddit spirituali: acquiritur aliquid comedenti sic
+            <lb ed="#N" n="64"/>quod non commedenti spiritualiter tantum. quia corpus christi assumptum
+            <lb ed="#N" n="65"/>sacramentaliter transit in animam per effectum aliquem. Unde Hug.
+            <lb ed="#N" n="66"/>de sancto Uic. dispensatio completa est perfectum est sacramentum:
+            vir<lb ed="#N" n="67" break="no"/>tus manet christus transit de ore ad cor. hec Hugo. quire diceret
+            <lb ed="#N" n="68"/>hec nisi sacramentalis conferat aliquid manducanti.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e876">
+            ⁋ Ad
+            <lb ed="#N" n="69"/>aliud quod obiicitur. quod non magis contingitur corpus christi sub
+            <lb ed="#N" n="70"/>specie ex gustu speciei quam ex visu etc. Dicendum quod etsi hoc
+            <lb ed="#N" n="71"/>supponatur: non tamen sequitur quod eandem efficaciam
+            ha<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>beat in vidente et gustante. Dominus enim dedit ipsi
+            sa<lb ed="#N" n="73" break="no"/>cramento virtutem operandi in sacramentaliter
+            manducan<lb ed="#N" n="74" break="no"/>tibus. quando instituit quod sic comederetur. Instituit enim vt
+            <lb ed="#N" n="75"/>sic manducaretur vt patet Math. xxvi. Unde sicut est in aliis
+            <lb ed="#N" n="76"/>sacramentis quod virtutem habent cum exercentur secundum quod dominus
+            <lb ed="#N" n="77"/>instituit illa esse exercenda. nulli dubium est quin hoc sic
+            sum<lb ed="#N" n="78" break="no"/>ptum scilicet vt dominus instituit specialem habeat effectum.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e901">
+            <lb ed="#N" n="79"/>⁋ Ad illud Iugustinus. Quid paras dentem etc. dicendum quod lo
+            <lb ed="#N" n="80"/>quitur de spirituali manducatione.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e909">
+            ⁋ Ad aliud Augustin. super Io
+            <lb ed="#N" n="81"/>han. quod non erant ydonei accipere nisi cum secundum carnem
+            de<lb ed="#N" n="82" break="no"/>sistant nosse etc. Dicendum quod non est simile hic et ibi: quia
+            <lb ed="#N" n="83"/>ibi videntes christum hominem oculis corporalibus tot signa
+            fa<lb ed="#N" n="84" break="no"/>cere: adheserunt omnino illi contenti sua humanitate. non
+            eleuan<lb ed="#N" n="85" break="no"/>tes oculos mentis ad ipsam deitatem. Unde glo. ibidem vt
+            <lb ed="#N" n="86"/>spiritualiter me iam noscatis: carnaliter me nosse desistatis:
+            <lb ed="#N" n="87"/>neque verbo carnem facto cum lacte contenti sitis. sed cum in
+            <lb ed="#N" n="88"/>hac manducatione omnino fit aliter quam sensus dictat. sumens
+            <lb ed="#N" n="89"/>non adheret aliquo modo dictationi sensus sed fidei tantum. et
+            <lb ed="#N" n="90"/>eo quod sensus dicit contrarium veritati cui consentit
+            admini<lb ed="#N" n="91" break="no"/>culo fidei: occasionaliter est sibi causa profectus perceptio
+            <lb ed="#N" n="92"/>sensus: eo quod magis meretur credendo aliud quam sensus
+            di<lb ed="#N" n="93" break="no"/>cit.
+          </p>
+        </div>
+        <div xml:id="v78d89-a8hior-Dd1e941">
+          <head xml:id="v78d89-a8hior-Hd1e943">Articulus 4</head>
+          <p xml:id="v78d89-a8hior-d1e945">
+            <lb ed="#N" n="94"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-a8hior-d1e950">
+            <lb ed="#N" n="95"/>COnsequenter queritur. vtrum in beatis habeat serd
+            <lb ed="#N" n="96"/>sacramentum efficaciam. Et videtur quod sic: per hoc
+            <lb ed="#N" n="97"/>quod ecclesia instituit sacramentum illud offerri de
+            <lb ed="#N" n="98"/>bere pro paruulis decedentibus in innocentia baptismali. d
+            <lb ed="#N" n="99"/>quibus constat quod statim euolant. nisi enim hoc
+            sacramen<lb ed="#N" n="100" break="no"/>tum in talibus habeat efficaciam: frustra offeretur pro
+            il<lb ed="#N" n="101" break="no"/>lis.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e968">
+            ⁋ Item vt habetur ab Inno. iii. secundum antiquiores
+            codi<lb ed="#N" n="102" break="no"/>ces. in secreta beati Leonis continetur illud. Annne nobis
+            <lb ed="#N" n="103"/>domine vt anime famuli tui Leonis hec prosit oblatio. sed
+            <lb ed="#N" n="104"/>frustra huiusmodi fieret oratio nisi hoc sacramentum
+            ha<lb ed="#N" n="105" break="no"/>beret efficaciam in animabus beatorum: cum constet
+            Le<lb ed="#N" n="106" break="no"/>onem fuisse beatum. ergo etc.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e981">
+            ⁋ Contra. sacramenta
+            medi<lb ed="#N" n="107" break="no"/>cine sunt. sed medicina efficaciam non habet vbi non potest
+            <lb ed="#N" n="108"/>esse morbus vel infirmitas: sed in beatis nihil est huiusmodi
+            <lb ed="#N" n="109"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e991">
+            ⁋ Responsio. quod hoc sacramentum per se loquendo non
+            <lb ed="#N" n="110"/>habet efficaciam in beatis. valet tamen per accidens et oc
+            <lb ed="#N" n="111"/>casionaliter illis.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e998">
+            ⁋ Ad hoc quod obiicitur. quod ecclesia
+            insti<lb ed="#N" n="112" break="no"/>tuit sacrificium altaris offerendum esse pro paruulis etc.
+            <lb ed="#N" n="113"/>Dicendum quod multe sunt rationes quare conuenit missam
+            ce<lb ed="#N" n="114" break="no"/>lebrari pro paruulis. scilicet Conformitatis ecclesiastice
+            conser<lb ed="#N" n="115" break="no"/>uatio. Deuotionis fidelium. et maxime parentum
+            excita<lb ed="#N" n="116" break="no"/>tio. Beneficii redemptionis recordatio. Connexionis
+            par<lb ed="#N" n="117" break="no"/>uulorum cum commembris corporis christi mistici significatio.
+            <lb ed="#N" n="118"/>Inimarum purgandarum sarcine subleuatio. Debite diui
+            <lb ed="#N" n="119"/>ne laudis expressio. Ut enim conformitas ecclesie in exequiis
+            <lb ed="#N" n="120"/>mortuorum conseruetur. Ut deuotio fidelium et
+            maxime<lb ed="#N" n="121" break="no"/>parentum excitetur. vt beneficium redemptionis quod
+            ma<lb ed="#N" n="122" break="no"/>xime habet locum in paruulis saluandis merito redempto
+            <lb ed="#N" n="123"/>ris rememoretur. vt connexio paruulorum cum commembris
+            <lb ed="#N" n="124"/>corporis christi mistici significetur. ex hoc quod paruulorum
+            exe<lb ed="#N" n="125" break="no"/>quia sicut adultorum celebrantur. et vt debitum diuine lau
+            <lb ed="#N" n="126"/>dis exprimatur que scilicet saluatori exhibenda est. ex hoc
+            <lb ed="#N" n="127"/>quod sine paruulorum meritis gratie sue sinceritate saluantur
+            <lb ed="#N" n="128"/>conuenit vt pro illis missarum solennia celebrantur et hostia
+            <lb ed="#N" n="129"/>salutaris offeratur. Ex hoc enim quod pene animarum
+            purgan<lb ed="#N" n="130" break="no"/>darum illorum gratia mitigantur. et laus deo exoluitur et
+            <lb ed="#N" n="131"/>deuotio fidelium ad eorundem meritum excitatur:
+            accre<lb ed="#N" n="132" break="no"/>scit illis materia gaudii.
+          </p>
+          <p xml:id="v78d89-a8hior-d1e1046">
+            ⁋ Ad aliud. proposita questione
+            pre<lb ed="#N" n="133" break="no"/>tacta a domino Inno. subditur responsio ab eodem
+            dicen<lb ed="#N" n="134" break="no"/>tem sic. super quo respondemus. Quod cum sacre scripture dicat
+            <lb ed="#N" n="135"/>auctoritas. quod iniuriam facit martiri qui orat pro martire
+            <lb ed="#N" n="136"/>idem est ratione simili de sanctis aliis consentiendum. quia
+            <lb ed="#N" n="137"/>orationibus nostris non indigent. pro eo quod cum sini
+            per<lb ed="#N" n="138" break="no"/>fecte beati: omnia eis ad vota succedunt. sed nos potius
+            eo<lb ed="#N" n="139" break="no"/>rum orationibus indigemus: quos cum miseri simus
+            vn<lb ed="#N" n="140" break="no"/>dique mala nostra conturbant. Unde quod in plerisque
+            oratio<lb ed="#N" n="141" break="no"/>nibus continetur prosit vel proficiat hoc sancto vel illi
+            ta<pb ed="#N" n="309"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>lis oblatio ad honorem et gloriam: ita debet intelligi. vt
+            <lb ed="#N" n="2"/>ad hoc prosit vt magis ac magis a fidelibus glorificetur in
+            <lb ed="#N" n="3"/>terris: vt plerique reputent non indigne sanctorum gloriam
+            <lb ed="#N" n="4"/>vsque ad iudicium augmentari: et ecclesiam interim sane
+            po<lb ed="#N" n="5" break="no"/>se augmentum glorificationis eorum oprare.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

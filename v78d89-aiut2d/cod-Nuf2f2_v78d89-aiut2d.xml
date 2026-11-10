@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 110, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 110, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="693"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aiut2d"><!-- q110m5 -->
+        <head xml:id="v78d89-aiut2d-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-aiut2d-Hd1e103" type="question-title">Si de acquisitis per ludum alearum</head>
+        <p xml:id="v78d89-aiut2d-d1e106">
+          <lb ed="#N" n="43"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-aiut2d-d1e111">
+          <lb ed="#N" n="44"/>COnsequenter queritur. si ex acquisito per ludum
+          ale<lb ed="#N" n="45" break="no"/>arum potest fieri elemosyna. et videtur quod sic: per hoc quod
+          <lb ed="#N" n="46"/>de acquisito per meretricium cuius longeturpior
+          <lb ed="#N" n="47"/>est acquisito quam per ludum et etiam maioris
+          offen<lb ed="#N" n="48" break="no"/>se: potest fieri elemosna.
+        </p>
+        <p xml:id="v78d89-aiut2d-d1e124">
+          ⁋ Pre. ex pecunia extorta a subditis per
+          <lb ed="#N" n="49"/>immoderatam improbitatem potest fieri elemosyna. xiiii. q. v. non
+          sa<lb ed="#N" n="50" break="no"/>ne. Multomagis videtur quod fieri possit ex pecunia
+          acquisi<lb ed="#N" n="51" break="no"/>ta per ludum que acquiritur ex consensu et beneplacito pertium
+          luden<lb ed="#N" n="52" break="no"/>tium.
+        </p>
+        <p xml:id="v78d89-aiut2d-d1e136">
+          ⁋ Contra. Illud quod perditur in ludo alearum potest
+          repe<lb ed="#N" n="53" break="no"/>ti. C. de aleatoribus. l. vltima. in fine. vbi dicitur. quod si seruus vel
+          fi<lb ed="#N" n="54" break="no"/>liusfamilias amisit aliquid patri vel domino. dabitur repetitio: sed
+          <lb ed="#N" n="55"/>de nullo acquisito de quo repetitio competit potest fieri elemosyna: ergo etc.
+        </p>
+        <p xml:id="v78d89-aiut2d-d1e145">
+          <lb ed="#N" n="56"/>⁋ Pre. i. q. i. non est putanda. qui male tollit vt quasi bene
+          pre<lb ed="#N" n="57" break="no"/>beat: constat sine dubio quia deum inhonorat. sed qui tollit aliquid
+          <lb ed="#N" n="58"/>a proximo per ludum alee male tollit illud: ergo etc.
+        </p>
+        <p xml:id="v78d89-aiut2d-d1e154">
+          ⁋ Pre. ibidem
+          <lb ed="#N" n="59"/>quicquid in dei sacrificio ex scelere offertur. omnipotentis dei non
+          <lb ed="#N" n="60"/>placat iracundiam sed irritat. Et loquitur ibi canon de illis qui
+          <lb ed="#N" n="61"/>elemosynas dispensant. sed qui acquirit aliquid per ludum alee
+          faci<lb ed="#N" n="62" break="no"/>endo ex illo elemosynam: facit oblationem deo ex scelere acquisito: ergo
+          <lb ed="#N" n="63"/>etc. Quod male tollit et scelere acquirit qui aliquid acquirit per ludum
+          <lb ed="#N" n="64"/>alee: patet ex illis qui in ludo huiusmodi comittuntur que sunt hec. faciunt
+          <lb ed="#N" n="65"/>contra prohibitionem qui huiusmodi ludum exercent maxime si sunt clerici.
+          <lb ed="#N" n="66"/>extra de vita hone. cleri. citio. clerici. quibus prohibetur ludus alee
+          <lb ed="#N" n="67"/>et etiam interesse ludo. et qui publice est aleator repelliter a
+          promo<lb ed="#N" n="68" break="no"/>tione extra de excessi. prala. ca. inter dilectos. ex quibus patet quod qui
+          <lb ed="#N" n="69"/>ludunt ad aleas vel taxillos vel intersunt ludo: quod peccant
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>et grauiter. quod patet ex his que in huiusmodi ludo attenduntur.
+          <lb ed="#N" n="71"/>Primum est desiderium lucrandi ecce cupiditas que est
+          ra<lb ed="#N" n="72" break="no"/>dix omnium malorum. i. Timoth. vi. Secundum est voluntas
+          <lb ed="#N" n="73"/>spoliandi proximum ecce rapina. Tercium est vsura et fraus
+          <lb ed="#N" n="74"/>maxima. quia. xi. pro. xii. frequenter in husmodi ludo conceduntur.
+          <lb ed="#N" n="75"/>non solum in anno vel mense: sed etiam in eadem die. exta de excessi.
+          <lb ed="#N" n="76"/>prela. inter dilectos. Quartum est multiplicatio mendationum et
+          <lb ed="#N" n="77"/>verborum ociosorum et vanorum. Quintum est blasphemia ecce
+          he<lb ed="#N" n="78" break="no"/>resis. Sextum corruptio proximorum ad ludum venientium. Se
+          <lb ed="#N" n="79"/>primum est scandalum bonorum auditis blasphemiis ludentium.
+          <lb ed="#N" n="80"/>Octauum est contemptus prohibitionis mstris ecclesie. Nonum est
+          omis<lb ed="#N" n="81" break="no"/>sio bonorum que illo tempore fieri deberent. Ex quo ista accidunt et
+          con<lb ed="#N" n="82" break="no"/>mittuntur in ludo alearum: patet quod ea que acquiruntur in illo ludo
+          ma<lb ed="#N" n="83" break="no"/>le tolluntur et scelerate acquiruntur
+        </p>
+        <p xml:id="v78d89-aiut2d-d1e213">
+          ⁋ Respono. quod siue sit clericus siue
+          <lb ed="#N" n="84"/>laicus assuetus ludere ad aleas nisi velit desistere a ludo
+          bu<lb ed="#N" n="85" break="no"/>iusmodi puniendus est priuatione communionis. vnde di. xxxv. episcopus. vbi
+          <lb ed="#N" n="86"/>dicitur. episcopus autm presbiter aut dyaconus alee atque ebrietati seruiens
+          <lb ed="#N" n="87"/>aut desinat: aut certe deponatur. Sbdyaconus autem autm lector
+          <lb ed="#N" n="88"/>aut cantor similia faciens aut desinat aut communione priuetur. similiter
+          <lb ed="#N" n="89"/>et laicus. Ex hoc patet quod ludus alee est graue peccatum. et coniunctim
+          <lb ed="#N" n="90"/>dicit alee aut ebrietati deseruiens: quia ludo huiusmodi est vt
+          fre<lb ed="#N" n="91" break="no"/>quenter adiuncta ebrietas. Responsio. autem ad quosonem propositam
+          depen<lb ed="#N" n="92" break="no"/>det ex illa qua queritur. si repetitio competit illi qui perdit ad
+          lu<lb ed="#N" n="93" break="no"/>dum huiusmodi ad quod diuersi diuersimode respondent. quidam enim
+          <lb ed="#N" n="94"/>dicunt quod pecunia sic perdita non debet recipi nec conuenit
+          repeti<lb ed="#N" n="95" break="no"/>tio amittendi: sed debet erogari ecclesie vel pauperibus. vnde iuxta quod
+          <lb ed="#N" n="96"/>illi diffiniunt potest fieri elemosyna ex sic acquisito.
+          argumen<lb ed="#N" n="97" break="no"/>tum ad hoc habetur. xiiii. q. v. non sane. quia enim turpis est:
+          tamen<lb ed="#N" n="98" break="no"/>melior est conditio possidentis. Alii dicunt huiusmodi pecuniam
+          <lb ed="#N" n="99"/>posse repeti. et quod competit repetitio illi qui amittit. dicunt enim
+          <lb ed="#N" n="100"/>quod licet transtatum sit dominium tamen competit repetitio. sicut
+          com<lb ed="#N" n="101" break="no"/>petit repetitio vbi transfertur dominium per metum vt clare habe
+          <lb ed="#N" n="102"/>tur. f. quod metus causa. victus casa. vnde constitutione de greco in
+          la<lb ed="#N" n="103" break="no"/>tinum transtata habetur. quod vsque ad triginta annos competit
+          repeti<lb ed="#N" n="104" break="no"/>tio illi qui aliquid amiserit in alea. et iuxta huiusmodi
+          diffinitio<lb ed="#N" n="105" break="no"/>nem non potest elemosyna fieri de sic acquisito. Adhuc potest aliter
+          <lb ed="#N" n="106"/>dici et iuxta insipientiam meam melius. saluo tamen meliori
+          iudi<lb ed="#N" n="107" break="no"/>cio. quod ille qui ludit voluntarius motu cupiditatis vel libidine
+          <lb ed="#N" n="108"/>lasciuiendi. si amittit aliquid: non competit repetitio. in foro
+          di<lb ed="#N" n="109" break="no"/>dico. et de sic acquisito potest fieri elemosyna. Si autem ille qui
+          <lb ed="#N" n="110"/>ludit coactus vtpote inductus amore quem timet siue
+          reuere<lb ed="#N" n="111" break="no"/>tur vel inductus precum importunitate. si aliquid amittit:
+          illi<lb ed="#N" n="112" break="no"/>competit repetitio. nec alius potest de sic acquisito facere
+          ele<lb ed="#N" n="113" break="no"/>mosynam: immo nihil sibi acquiritur hoc ludo. Si autem que sit
+          con<lb ed="#N" n="114" break="no"/>pulsus aliquid lucratur. non tenetur ad restitutionem: immo potest de
+          <lb ed="#N" n="115"/>illo facere elemosynam et debet illud dare pauperibus.
+        </p>
+        <p xml:id="v78d89-aiut2d-d1e285">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="116"/>primo obiicitur. quod longeturpius et inhonestius acquiritur
+          ali<lb ed="#N" n="117" break="no"/>quid quod acquiritur per meretricium etc. potest dici quod questus
+          turpi<lb ed="#N" n="118" break="no"/>or vel minus turpis non est ratio quare non ex huiusmodi questu potest
+          fieri<lb ed="#N" n="119" break="no"/>elemosna: sed transtatio dominii et incompetentia repetendi.
+        </p>
+        <p xml:id="v78d89-aiut2d-d1e296">
+          ⁋ Ad
+          <lb ed="#N" n="120"/>illud quod obiicitur. quod ex pecunia extorta potest fieri elemosna etc.
+          <lb ed="#N" n="121"/>potest dici. quod licet quandoque quod sic acquirebatur repetebatur: non
+          tamen<lb ed="#N" n="122" break="no"/>videtur canon approbare talem repetitionem. vnde in illo casu tranl
+          <lb ed="#N" n="123"/>fertur dominium propter quod de sic acquisito potest fieri elemosma. Similiter
+          <lb ed="#N" n="124"/>in acquisito per ludum alee vbi transfertur dominium et non competit
+          <lb ed="#N" n="125"/>repetitio. Ex his patet runsio ad alia. quia quando in ludo alee
+          ali<lb ed="#N" n="126" break="no"/>quid acquiritur cuius dominium transfertur. et non competit
+          repeti<lb ed="#N" n="127" break="no"/>tio potest fieri elemosyna de sic acquisito. Si non nequaquam. Et nota.
+          <lb ed="#N" n="128"/>quod quando ludus est ita turpis et reprobatus. vtpote qui est contra deum
+          <lb ed="#N" n="129"/>et omnia iura: per talem ludum nullus sibi aliquid acquirit. Preterea.
+          <lb ed="#N" n="130"/>sunt alique persone quibus indistincte debet fieri restitutio si
+          ali<lb ed="#N" n="131" break="no"/>quid ab eis in alea lucratur. vt furiose: et etiam prodigi secundum
+          quos<lb ed="#N" n="132" break="no"/>dam: et minores pupilli: capti mente surdi: muti. ceci. et qui
+          <lb ed="#N" n="133"/>morbo perpetuo laborant. quia tales rebus suis superesse
+          <lb ed="#N" n="134"/>non possunt propter quod dandi sunt eis tutores vel curatores
+          <lb ed="#N" n="135"/>Idem est de seruis de monachis de omnibus claustralibus
+          <lb ed="#N" n="136"/>et de filiisfamilias qui non habent peculium. et de vxore que
+          <lb ed="#N" n="137"/>non habet res perafernales de quibus intra dicetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

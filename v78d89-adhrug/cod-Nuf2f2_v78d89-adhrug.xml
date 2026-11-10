@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 72, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 72, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="463"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adhrug"><!-- q72m1 -->
+        <head xml:id="v78d89-adhrug-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-adhrug-d1e103">
+          <lb ed="#N" n="25"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-adhrug-d1e108">
+          <lb ed="#N" n="26"/>CIrca primum queruntur tria primum est vtrum deus
+          <lb ed="#N" n="27"/>iustificat immediate vel mediante aliquo
+          <lb ed="#N" n="28"/>Secundum dato quod mediante aliquo. vtrum
+          medi<lb ed="#N" n="29" break="no"/>lante gratia inquantum huiusmodi vel virtute.
+          Terci<lb ed="#N" n="30" break="no"/>um vtrum iustificatio inquantum est a deo vt a prima causa: sit
+          <lb ed="#N" n="31"/>per se a prootentia vel sapientia vel bonitate.
+        </p>
+        <div xml:id="v78d89-adhrug-Dd1e124">
+          <head xml:id="v78d89-adhrug-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-adhrug-d1e128">
+            <lb ed="#N" n="32"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-adhrug-d1e133">
+            <lb ed="#N" n="33"/>CIrca primum proceditur sic. Non minus est iustificare
+            <lb ed="#N" n="34"/>quam creare: sed deus creat sine medio: ergo iustificat
+            <lb ed="#N" n="35"/>sine medio.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e142">
+            ⁋ Item esse creatum est materiale et
+            im<lb ed="#N" n="36" break="no"/>perfectum respectu esse informati et imperfecti. ergo magis congruit
+            <lb ed="#N" n="37"/>nobili artifici quod creatura quantum ad illud esse sit ab illo
+            so<lb ed="#N" n="38" break="no"/>lo: quam quantum ad esse aliud.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e151">
+            ⁋ Item illud semper est deo
+            tribuen<lb ed="#N" n="39" break="no"/>dum quod est nobilioris conditionis. Sed operatio nobilioris est
+            con<lb ed="#N" n="40" break="no"/>ditionis que in actum egreditur per vnum quam per multa: ergo. Item Isa. xliii
+            <lb ed="#N" n="41"/>Ego sum qui deleo iniquitates tuas propter me. et dicit hoc
+            <lb ed="#N" n="42"/>discretiue: ergo solus deus est causa deletionis. ergo illi soli quasi toti
+            cau<lb ed="#N" n="43" break="no"/>se attribuenda est impiorum iustificatio.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e165">
+            ⁋ Item si idem est
+            iustifi<lb ed="#N" n="44" break="no"/>catio quod gratificatio. Ad hoc autem quod quis sit deo
+            gratifi<lb ed="#N" n="45" break="no"/>catus: non requiritur nisi diuina voluntas acceptans: non ergo
+            <lb ed="#N" n="46"/>requiritur aliquid medium.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e174">
+            ⁋ Item secundum augustinus quia deus bonus est
+            bo<lb ed="#N" n="47" break="no"/>ni sumus: similiter quia iustus est iusti sumus: sed hec consequentia
+            nul<lb ed="#N" n="48" break="no"/>lam haberet necessitatem si a deo esset iustificatio per medium. quia
+            <lb ed="#N" n="49"/>tunc oporteret ponere iusticiam diuinam et gratiam mediam a qua
+            <lb ed="#N" n="50"/>formaliter esset iustificatio: et ita vt prius.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e185">
+            ⁋ Item
+            iustifica<lb ed="#N" n="51" break="no"/>tio est gratia quedam. si ergo hoc fieret gratia mediante. et illa
+            simi<lb ed="#N" n="52" break="no"/>liter et alia: esset discurrere in infinitum.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e192">
+            ⁋ Contra. ad
+            iustifi<lb ed="#N" n="53" break="no"/>cationem necessaria est infusio gratie. Ro. iii. Iustificati
+            gra<lb ed="#N" n="54" break="no"/>tis per gratiam ipsius. ergo etc.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e199">
+            ⁋ Item deus ex parte sui semper est similiter se
+            <lb ed="#N" n="55"/>habens respectu creature. ergo si nulla esset dispositio ex parte
+            <lb ed="#N" n="56"/>creature qua differenter se haberet: semper similiter se haberet
+            re<lb ed="#N" n="57" break="no"/>spectu dei. et ita si semel esset iniustus et deo minus acceptus: semper
+            <lb ed="#N" n="58"/>se haberet modo illo et statu.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e210">
+            ⁋ Item peccatum est priuatio: sed non
+            re<lb ed="#N" n="59" break="no"/>mouetur priuatio nisi per collationem habitus: ergo confertur in dele
+            <lb ed="#N" n="60"/>tione peccati alicuius habitus: sed peccatum deo displicebat et
+            <lb ed="#N" n="61"/>displicere faciebat. ergo ab oppositis habitus ille placet et
+            pla<lb ed="#N" n="62" break="no"/>cere deo facit: sced hanc dicimus gratiam gratum facientem. ergo etc.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e222">
+            ⁋ Item
+            <lb ed="#N" n="63"/>per peccatum separatur homo a deo et vnitur deo in iustificatione: sed in
+            <lb ed="#N" n="64"/>deo vnio non est sine dispositione veniente. quia tunc peccator
+            ini<lb ed="#N" n="65" break="no"/>micus deo haberet ante gratiam domini. ergo etc.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e231">
+            ⁋ Responsio quod qui
+            <lb ed="#N" n="66"/>dam ponebant deum iustificare sine gratia media. quorum ratio fuit
+            <lb ed="#N" n="67"/>quod vt tactum est: iustificatio est quedam gratia. Unde si iustificatio
+            fi<cb ed="#N" n="b"/><lb ed="#N" n="68" break="no"/>eret gratia mediante: esset procedere in infinitum: quorum non est
+            <lb ed="#N" n="69"/>approbanda positio. Dicendum est ergo quod dominus gratia mediante in
+            <lb ed="#N" n="70"/>stificat.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e245">
+            ⁋ Ad cuius declarationem nota. quod in omni tempore domini
+            <lb ed="#N" n="71"/>est misericordia et veritas. et maxime in omni opere nobili.
+            cu<lb ed="#N" n="72" break="no"/>iusmodi est opus iustificationis. quoniam igitur homo peccanas in statu
+            <lb ed="#N" n="73"/>peccati non meretur. dominus iustificando eum iusto iudicio. non
+            so<lb ed="#N" n="74" break="no"/>lum effectum culpe tollit: immo pene: et si debito minoris illum
+            <lb ed="#N" n="75"/>debitorem relinquit. vnde in priorem statum eum non rrstituit. et quoniam
+            <lb ed="#N" n="76"/>misericors est: ideo amplius bonum reddit. quia magis
+            indi<lb ed="#N" n="77" break="no"/>get: ideo non tantum restituit innocentiam: sed etiam dat gratiam. ideo
+            <lb ed="#N" n="78"/>quamuis posset deus delere sine medio culpam: decreuit
+            tamen<lb ed="#N" n="79" break="no"/>delere per que non tantum faceret innocentem immo etiam naturam
+            de<lb ed="#N" n="80" break="no"/>bilitantem habilitaret ad bonum.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e269">
+            ⁋ Ad illud ergo quod primo obii
+            <lb ed="#N" n="81"/>citur. quod deus creat sine medio etc. dicendum quod non est simile. quia
+            <lb ed="#N" n="82"/>creare dicit opus quod non respicit materiam recipientem: sed
+            iu<lb ed="#N" n="83" break="no"/>stificare respicit materiam subiectam. et ideo non tantum respicit
+            cau<lb ed="#N" n="84" break="no"/>sam efficientem: verumetiam formalem.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e280">
+            ⁋ Ad aliud quod obiicitur
+            <lb ed="#N" n="85"/>Quod congruit nobili artifici quod ab ipso solo sit rens secundum esse eius
+            <lb ed="#N" n="86"/>nobilius etc. dicendum quod hoc ita se habet in proposito quare ab ipso
+            <lb ed="#N" n="87"/>solo effectiue est iustificatio. quia ipsa gratia est ab ipso solo. qua
+            <lb ed="#N" n="88"/>re a gratia formaliter tactum est.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e291">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="89"/>quod deo attribuendum est quod nobilioris conditionis est etc. dicendum quod
+            <lb ed="#N" n="90"/>si sic est in proposito. nobilioris enim conditionis est iustificatio facta
+            <lb ed="#N" n="91"/>mediante gratia quam non mediante.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e301">
+            ⁋ Ad illud quod obiicitur. quod
+            nobi<lb ed="#N" n="92" break="no"/>lior est operatio exiens ab vno etc. dicendum quod verum est scilicet ab vno
+            ef<lb ed="#N" n="93" break="no"/>ficiente quam a pluribus. Pre. huiusmodi rationes non tenent vbi auctor est
+            <lb ed="#N" n="94"/>agens per electionem.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e310">
+            ⁋ Ad illud quod obiicitur per illud Isa.
+            <lb ed="#N" n="95"/>Ego sum qui deleo etc. Dicendum quod solus deus delet
+            effecti<lb ed="#N" n="96" break="no"/>ue: sed formaliter delet ipsa gratia. deus autem nullius est nec esse potest
+            <lb ed="#N" n="97"/>forma perfectiua: licet sit exemplaris omnium.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e319">
+            ⁋ Ad illud quod obii
+            <lb ed="#N" n="98"/>citur. quod ad hoc quod res esset deo accepta non requiritur nisi
+            di<lb ed="#N" n="99" break="no"/>uina voluntas acceptans etc. dicendum quod bene posset dominus si vel
+            <lb ed="#N" n="100"/>let acceptare creaturam rationalem. licet non esset informata gratia
+            <lb ed="#N" n="101"/>eo modo quo acceptus sibi fuit primus in statu primo: sed plus congruit
+            <lb ed="#N" n="102"/>diuine bonitati et humane reparationi gratificatio siue
+            iustifi<lb ed="#N" n="103" break="no"/>catio gratia mediante.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e335">
+            ⁋ Ad illud quod obiicitur. quod quia deus
+            <lb ed="#N" n="104"/>est bonus boni sumus etc. Responsio. quod non est simile de bono et
+            <lb ed="#N" n="105"/>iusto quantum ad habitudinem causalem. Bonum enim secundum dyo. est
+            sui<lb ed="#N" n="106" break="no"/>diffusiuum. vnde in creatione simile produxit scilicet bonum. non sic est de
+            <lb ed="#N" n="107"/>iusto nisi qui quatenus bonus est. Pre. cum dicitur quia deus bonus est
+            bo<lb ed="#N" n="108" break="no"/>ni sumus: intelligitur de bonitate nature. Quicquid enim a primo
+            <lb ed="#N" n="109"/>bono est: bonum est: et habet naturam bonam. Gen. i. Uidit deus
+            cun<lb ed="#N" n="110" break="no"/>cta que fecerat et erant valde bona. Iustus autem in creatura
+            <lb ed="#N" n="111"/>dicit bonitatem additam nature: et propter hoc argumentum non
+            <lb ed="#N" n="112"/>valet.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e357">
+            ⁋ Ad illud quod obiicitur quod iustificatio est gratia quedam
+            <lb ed="#N" n="113"/>etc. dicendum quod gratia seipsa formaliter iustificat. Unde non requiritur
+            <lb ed="#N" n="114"/>alia gratia ad hoc. et ita non est processus in infinitum. Preterea.
+            <lb ed="#N" n="115"/>cum gratia multipliciter dicatur scilicet habitus. actus et status.
+            iustifi<lb ed="#N" n="116" break="no"/>catio magis dicitur actus vel status in habitu gratie quam
+            <lb ed="#N" n="117"/>habitus.
+          </p>
+        </div>
+        <div xml:id="v78d89-adhrug-Dd1e371">
+          <head xml:id="v78d89-adhrug-Hd1e373">Articulus 2</head>
+          <p xml:id="v78d89-adhrug-d1e375">
+            <lb ed="#N" n="118"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-adhrug-d1e380">
+            <lb ed="#N" n="119"/>COnsequenter queritur. vtrum sit iustificatio
+            medi<lb ed="#N" n="120" break="no"/>ante gratia inquantum gratia vel virtute inquantum virtu
+            <lb ed="#N" n="121"/>te. Quod gratia: videtur sic ad Ro. ix. Cuius vult mise
+            <lb ed="#N" n="122"/>retur et quem vult indurat. Ibi loquitur apostolus de miseratione
+            <lb ed="#N" n="123"/>collationis gratie iustificantis. vnde glo. augustinus Si querimus
+            meri<lb ed="#N" n="124" break="no"/>tum obdurationis et misericordie. obdurationis meritum
+            inue<lb ed="#N" n="125" break="no"/>nimus: misericordie vero meritum non inuenimus. quia nullum est miseri
+            <lb ed="#N" n="126"/>cordie meritum: ne gratia vacuetur si non gratis donatur sed
+            me<lb ed="#N" n="127" break="no"/>ritis redditur.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e402">
+            ⁋ Item Roo. iii. Iustificati gratis per gratiam
+            <lb ed="#N" n="128"/>ipsius. Ecce quod iustificatio fit per gratiam.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e407">
+            ⁋ Contra. Ro. v.
+            Iu<lb ed="#N" n="129" break="no"/>stificati ex fide pacem habemus. glo. iustificatio dicitur a
+            iusti<lb ed="#N" n="130" break="no"/>cia generali: non ab illa que est virtus spetialis vna
+            cardina<lb ed="#N" n="131" break="no"/>lium. et vt dictum est ratione qua aliquid requiritur iuste a parte nostra:
+            fi<lb ed="#N" n="132" break="no"/>des autem est virtus. ergo iustificatio fit mediante virtute.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e419">
+            ⁋ Item
+            <lb ed="#N" n="133"/>iustus ex fide viuit Ro. i. sed illo viuit iustus quo
+            iusti<lb ed="#N" n="134" break="no"/>ficatur. quia in iustificatione redditur vita spiritualis.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e426">
+            ⁋ Item
+            <lb ed="#N" n="135"/>vt habetur a bern. Timore vocamur: amore iustificamur
+            <lb ed="#N" n="136"/>iustificatio ergo fit caritate que virtus est.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e433">
+            ⁋ Item iusticia virtus est.
+            <lb ed="#N" n="137"/>Iusticia autem dicitur quis iustificari formaliter: ergo
+            iustifi<pb ed="#N" n="464"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>catio fit mediante virtute.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e442">
+            ⁋ Item queritur cum omnes virtutes
+            si<lb ed="#N" n="2" break="no"/>mul infundantur. quare reparatio peccatoris magis nomina
+            <lb ed="#N" n="3"/>tur a iusticia quam ab alia virtute.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e449">
+            ⁋ Item iustificatio dicitur esse ex
+            <lb ed="#N" n="4"/>fide: dicitur esse ex caritate: dicitur esse ex iusticicia similiter ex gratia: quomo
+            <lb ed="#N" n="5"/>hic.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e456">
+            ⁋ Item anima dicitur viuere ex fide. ex caritate. ex iusticia. sicut
+            <lb ed="#N" n="6"/>Ro. viii. habetur super illud. Qui iustificat. glo. anima viuit per
+            <lb ed="#N" n="7"/>iusticiam similiter per gratiam: quomo hic:
+          </p>
+          <p xml:id="v78d89-adhrug-d1e464">
+            ⁋ Responsio. dicendum quod
+            iustifica<lb ed="#N" n="8" break="no"/>tione impii aneinma auersa a deo gratificatur deo. et disponitur li.
+            <lb ed="#N" n="9"/>arbto. ad recte operandum. inquantum gratificatur iustificatur mediante
+            <lb ed="#N" n="10"/>gratia. inquantum disponitur ad recte operandum mediante virtute
+            <lb ed="#N" n="11"/>sicut enim impius est inacceptus deo. et cum hoc exercens se in
+            operi<lb ed="#N" n="12" break="no"/>bus cultui dei contrariis: sic in iustificatione impii duo fiunt.
+            <lb ed="#N" n="13"/>vnum est quod iniustus fit acceptus deo. aliud est quod disponitur ad
+            opera<lb ed="#N" n="14" break="no"/>cultus dei. et licet potissimum in iustificatione est fieri acceptum
+            <lb ed="#N" n="15"/>deo quod fit mediante gratia: nihilominus quantum ad rationem
+            nomina<lb ed="#N" n="16" break="no"/>tionis iustificatio proprius est mediante virtute quam gratia.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e486">
+            ⁋ Ad
+            il<lb ed="#N" n="17" break="no"/>lud autem quod obiicitur per illud ad Ro. quod cuius vult miseretur etc.
+            <lb ed="#N" n="18"/>et per glo. ibidem. Dicendum quod ibi non habetur quod iustificatio fit
+            <lb ed="#N" n="19"/>a deo mediante gratia: sed quod deus sua gratia et misericordia
+            iu<lb ed="#N" n="20" break="no"/>stificat: non meritis eius qui iustificatur.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e497">
+            ⁋ Si obiiciatur contra hoc
+            <lb ed="#N" n="21"/>quod dicit ansel. Domine si punis iuste punis: si percis iuste
+            <lb ed="#N" n="22"/>percis. si iustificando percit: et ita iuste iustificat. Potest dici quod
+            <lb ed="#N" n="23"/>iuste fieri dicitur multipliciter. Uno modo dicitur iuste fieri quod fit
+            <lb ed="#N" n="24"/>secundum exigentiam meritorum. secundum quod dicit bern. quod iusticia meritum
+            <lb ed="#N" n="25"/>respicit: misericordia misericordiam intuetur. Alio modo dicitur
+            iu<lb ed="#N" n="26" break="no"/>ste fieri quod fit in solutionem promissi. Neemie. ix.
+            Percussi<lb ed="#N" n="27" break="no"/>sti cum abraham fedus vt dares ei terram cananei. Et. ia. Et
+            <lb ed="#N" n="28"/>implesti verba tua quoniam iustus es. Ro. iii. Ut iustificeris in
+            <lb ed="#N" n="29"/>sermonibus tuis. glo. qui sunt de promissione filii. Tercio
+            <lb ed="#N" n="30"/>modo dicitur iuste fieri. quod fit secundum condecentiam bonitatis. de hoc ans.
+            <lb ed="#N" n="31"/>i pcis domine iustus es. quia hoc condecet bonitati tue. Et secundum
+            <lb ed="#N" n="32"/>hunc modum dicit augustinus. Quod vniuerse vie domini sunt misericordia et
+            <lb ed="#N" n="33"/>veritas. et iusticia sicut sumpta non est contraria misericordie siue
+            <lb ed="#N" n="34"/>gratie: similiter nec iusticia que est de solutione promissi
+            repu<lb ed="#N" n="35" break="no"/>gnat misericordie di iustificantis. Unde glo. super illud Ro.
+            <lb ed="#N" n="36"/>iii. Nunc autem sine lege iusticia dei manifesta est. dicit.
+            Iusti<lb ed="#N" n="37" break="no"/>cia dei dicitur qua induit ipsum impium: quando misericorditer de
+            in<lb ed="#N" n="38" break="no"/>fideli facit fidelem. Et post. Idcirco iusticia dei dicitur que
+            ma<lb ed="#N" n="39" break="no"/>gis proprie videtur dicenda misericordia. quia de promissione
+            ori<lb ed="#N" n="40" break="no"/>ginem habet. et cum promissio dei redditur: iusticia dei dicetur.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e543">
+            ⁋ Ad
+            <lb ed="#N" n="41"/>aliud quod dicitur quod iustificati sunt per gratiam ipsius. Dicendum. quod
+            <lb ed="#N" n="42"/>ibi sumitur gratia pro fide. Unde glo. ibidem. quia fide iustificati
+            <lb ed="#N" n="43"/>sunt. Pre. scriptura confuse ponit pro gratia virtutem et econuerso
+            <lb ed="#N" n="44"/>quia forte idem sunt in substantia: licet esse differant. Preterea.
+            quo<lb ed="#N" n="45" break="no"/>cumque modo sumantur in iustificatione concurrunt. et inde est. quod quandoque
+            <lb ed="#N" n="46"/>dicitur iustificatio ex gratia. quandoque ex virtute: et sic potest ad alia
+            <lb ed="#N" n="47"/>responderi.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e561">
+            ⁋ Ad hoc quod queritur. quare hec repatio dicitur
+            iustifi<lb ed="#N" n="48" break="no"/>catio a iusticia magis quam ab alia virtute. Dicendum quod in
+            iu<lb ed="#N" n="49" break="no"/>stificatione qua ex impio fit pius: aliquid requiritur ex parte
+            <lb ed="#N" n="50"/>dei: aliquid ex parte nostra. Unde bern. deus tria operatur in nobis.
+            <lb ed="#N" n="51"/>cogitare. velle. perficere. primum sine nobis. secundum
+            nobiscum<lb ed="#N" n="52" break="no"/>tercium per nos facit. immitendo bonam cogitationem nos preuenit
+            <lb ed="#N" n="53"/>immutando malam voluntatem sibi per consensum nos iungit. in
+            min<lb ed="#N" n="54" break="no"/>nrando consensui facultatem per aptum opus nostrum: opus suum
+            in<lb ed="#N" n="55" break="no"/>terior opifex innotescit. Unde illud idem quod dicebatur
+            gra<lb ed="#N" n="56" break="no"/>tificatio ex parte dei. secundum quod exigitur aliquid ex parte hominis: dicitur
+            iu<lb ed="#N" n="57" break="no"/>stificatio. Est enim ibi motus libro. artro. et contritio. et intelligitur
+            <lb ed="#N" n="58"/>de adultis iustificatis. Item prima virtus est fides.
+            consequen<lb ed="#N" n="59" break="no"/>ter spes caritas: postea virtutes morales inter quas
+            iu<lb ed="#N" n="60" break="no"/>sticia est. Unde quia complementum est iusticia totalis: ille status
+            <lb ed="#N" n="61"/>dicitur iustificatio. Uel iustificatio dicitur a iusticia generali: non
+            <lb ed="#N" n="62"/>ab illa que est vna specialis cardinalium. et vt dictum est: qua
+            ali<lb ed="#N" n="63" break="no"/>quod acquiritur iuste a parte nostra.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e598">
+            ⁋ Sed iustificatur paruulus.
+            iu<lb ed="#N" n="64" break="no"/>stificatur paganus et similiter penitens. queritur que est
+            differen<lb ed="#N" n="65" break="no"/>tia in his. Responsio. in his omnibus requiritur aliquid ex parte
+            ho<lb ed="#N" n="66" break="no"/>minis. non dico iustificati: quia non in paruulo. in eo enim sufficit
+            fi<lb ed="#N" n="67" break="no"/>des ecclesie ad iustificationem et passio christi a qua baptismus
+            <lb ed="#N" n="68"/>habet virtutem. In pagano vero obedientia libro arbtro. ad credendum.
+            <lb ed="#N" n="69"/>In penitente vero non tantum obedientia libro arbtio. ad credendum:
+            immo<lb ed="#N" n="70" break="no"/>ad recipiendum gratiam gratum facientem cum detestatione peccati
+            <lb ed="#N" n="71"/>Unde vlterior est obedientia in penitente quam in pagano. vnde dicit
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>iustificatio et in his secundum prius et posterius.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e623">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="73"/>queritur de modo vel differentia qua dicitur iustificatio esse ex
+            fi<lb ed="#N" n="74" break="no"/>de et caritate etc. Dicendum quod vt dictum est. in iustificatione anima
+            <lb ed="#N" n="75"/>peccatrix efficitur accepta deo ordinata et disposita. per gratiam
+            <lb ed="#N" n="76"/>autem fit anima accepta deo: per fidem et caritatem ordinata. Sed per
+            <lb ed="#N" n="77"/>fidem quantum ad cognitionem. per caritatem quantum ad affectiuam. per
+            iu<lb ed="#N" n="78" break="no"/>sticiam disposita quantum ad operatiuam. Iusticia enim perficit animam
+            <lb ed="#N" n="79"/>disponendo ad recte operandum. nec intelligendo quod disponat
+            <lb ed="#N" n="80"/>dispositionem que est potentia: sced que est aptitudo propinqua:
+            nihilo<lb ed="#N" n="81" break="no"/>minus vnaqueque predictarum animam perficit: licet hac appropriatione
+            <lb ed="#N" n="82"/>distinguantur.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e647">
+            ⁋ Ad aliud quod queritur de modo vel differentia
+            <lb ed="#N" n="83"/>qua dicitur anima viuere christo gratia vel fide etc. Dicendum quod gratia et
+            <lb ed="#N" n="84"/>qua viuit anima in sua substantia spiritualiter. fides. caritas et
+            <lb ed="#N" n="85"/>iusticia quibus viuit in suis viribus. Sicut enim vita est primus
+            <lb ed="#N" n="86"/>actus viuentis et alii sunt mediante vita: similiter gratia est
+            pri<lb ed="#N" n="87" break="no"/>ma perfectio et primo viuificans ipsam animam formaliter fides
+            <lb ed="#N" n="88"/>etc. mediante gratia a qua viuificatur anima in se consequenter:
+            perfici<lb ed="#N" n="89" break="no"/>unt et viuificant formaliter. vtpote quantum ad vires ipsius
+            <lb ed="#N" n="90"/>anime in ordine ad suos actus secundum hunc modum et differentiam. ab
+            <lb ed="#N" n="91"/>ipsa enim vita prima a qua omnia et cui omnia viuunt: est vita spiritual
+            <lb ed="#N" n="92"/>creature rationalia: et hoc ex vnione cum ipsa. Gratia autem vnit ipam
+            <lb ed="#N" n="93"/>substantiam anime cum ipsa vita prima que seipisa viuit. Fides autem
+            <lb ed="#N" n="94"/>vnit ipsam cum ipsa inquantum est veritas. et hoc quantum ad
+            cogni<lb ed="#N" n="95" break="no"/>tionem. Caritas vnit cum ea inquantum est bonitas: et hoc quantam ad
+            ef<lb ed="#N" n="96" break="no"/>fectiuam. Iusticia vnit cum ipsa inquantum est equalitas: et hoc quantum ad
+            <lb ed="#N" n="97"/>operatiuam. Iusticia enim determinatur in quadam rectitudine. de
+            <lb ed="#N" n="98"/>non exigit medium inter pricipium primum et finen vltimum. Ee
+            <lb ed="#N" n="99"/>hac multiplici vnione conformitatis cum vita prima
+            appro<lb ed="#N" n="100" break="no"/>priate loquendo: dicitur anima viuere sic differenter ab his scilicet gratia
+            <lb ed="#N" n="101"/>fide etc. Ueruntamen cum difituranima viuit per iusticiam: intelligit per
+            <lb ed="#N" n="102"/>gratiam que intelligitur in iusticia. In virtute eni intelligitur
+            <lb ed="#N" n="103"/>iusticia generalis. In iusticia autem fides. In fide autem gratia. Unde
+            <lb ed="#N" n="104"/>per iusticiam itelligitur fides que prior est. et per quam anima primo viuit.
+            <lb ed="#N" n="105"/>Prima enim perfectio anime secundum esse theologicum est
+            gra<lb ed="#N" n="106" break="no"/>tia.
+          </p>
+        </div>
+        <div xml:id="v78d89-adhrug-Dd1e704">
+          <head xml:id="v78d89-adhrug-Hd1e706">Articulus 3</head>
+          <p xml:id="v78d89-adhrug-d1e708">
+            <lb ed="#N" n="107"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-adhrug-d1e713">
+            <lb ed="#N" n="108"/>COnsequenter queritur vtrum iustificatio sit a deo
+            <lb ed="#N" n="109"/>principaliter ratione potentie vel sapientie vel
+            boni<lb ed="#N" n="110" break="no"/>tatis. Quod ratione potentie: videtur. quia magis
+            eiusti<lb ed="#N" n="111" break="no"/>ficare impium quam creare celum et terram. quia vtrumque est aliquid de
+            <lb ed="#N" n="112"/>nihilo facere in suo genere. sed hoc est potentie per
+            appropria<lb ed="#N" n="113" break="no"/>tionem scilicet de nihilo aliquid facere vel creare: ergo etc.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e729">
+            ⁋ Item quod
+            rde<lb ed="#N" n="114" break="no"/>sapientie videtur quia iustificatio est diuini concilii reuelatio.
+            re<lb ed="#N" n="115" break="no"/>uelatio autem ad sapientiam pertinet. ergo etc.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e736">
+            ⁋ Item quod ratione bonitatis
+            <lb ed="#N" n="116"/>videtur Ro. iii. Iustificati autem ex gratia. gratia autem est bonitatis.
+            <lb ed="#N" n="117"/>ergo spirituisancto appropriatur.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e744">
+            ⁋ Item summe bonitatis est animam
+            <lb ed="#N" n="118"/>sibi similem facere: hoc autem refertur ad spiritum sanctum.
+          </p>
+          <p xml:id="v78d89-adhrug-d1e749">
+            ⁋
+            Respon<lb ed="#N" n="119" break="no"/>sio. quod tota trinitas operatur ibi. et aliquid est quod respicit poentiam
+            <lb ed="#N" n="120"/>et aliquid quod sapientiam: aliquid quod bonitatatem. secundum quod de non esse
+            <lb ed="#N" n="121"/>in illo genere fit ibi esse: aspicitur potentia cuius per appropriatiuo
+            <lb ed="#N" n="122"/>nem est esse. secundum autem quod ordinatum: appropriatur sapientie. secundum vero quod
+            <lb ed="#N" n="123"/>acceptum. quia iustificari est habere esse ordinatum: est spiritus sancti qui et
+            <lb ed="#N" n="124"/>bonitas per appropriationem. et hoc patet per ipsas
+            auctorita<lb ed="#N" n="125" break="no"/>tes que obiiciuntur ad hoc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

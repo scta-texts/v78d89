@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 48, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 48, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="331"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9pop7"><!-- q48m5 -->
+        <head xml:id="v78d89-a9pop7-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a9pop7-Hd1e103" type="question-title">Utrum aleatores debeant ac cedere ad sacram communionem</head>
+        <p xml:id="v78d89-a9pop7-d1e106">
+          <lb ed="#N" n="102"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-a9pop7-d1e111">
+          <lb ed="#N" n="103"/>COnsequenter queritur vtrum aleatores debeant ac
+          <lb ed="#N" n="104"/>cedere ad sacram communionem. quod videtur per hoc: quod
+          <lb ed="#N" n="105"/>ludus alee licitus sit. Quod autem sit licitus videtur ex hoc.
+          <lb ed="#N" n="106"/>quod domino rerum licet illas dare commutare immo
+          per<lb ed="#N" n="107" break="no"/>dere siue piicere in mari. sicut legitur de quodam pho. quod aurum
+          <lb ed="#N" n="108"/>quod possidebat submersit in mari.
+        </p>
+        <p xml:id="v78d89-a9pop7-d1e127">
+          ⁋ Pret. quare non licet
+          lu<lb ed="#N" n="109" break="no"/>dere ad aleam vel taxillos sicut ad pilam et exponere
+          pecu<lb ed="#N" n="110" break="no"/>niam suam sorti istius ludi sicut illius.
+        </p>
+        <p xml:id="v78d89-a9pop7-d1e135">
+          ⁋ Item magis
+          vide<lb ed="#N" n="111" break="no"/>tur ludus illicitus quo ludens damnificatur in corpore quam quo
+          <lb ed="#N" n="112"/>damnificatur in pecunia. sed ludus licitus est quo ludentes
+          fre<lb ed="#N" n="113" break="no"/>quenter damnificantur in corpore. sicut contingit in
+          hastilu<lb ed="#N" n="114" break="no"/>diis et huiusmodi gymnasiis. multo fortius videtur quod ludus alee vel
+          <lb ed="#N" n="115"/>taxillorum sit licitus quo quis non leditur in corpore sed in
+          <lb ed="#N" n="116"/>pecunia solum quantum est de sorte ludi. Ex his videtur quod
+          <lb ed="#N" n="117"/>exercentes ludum talem possunt accedere ad sacram
+          communio<lb ed="#N" n="118" break="no"/>nem
+        </p>
+        <p xml:id="v78d89-a9pop7-d1e155">
+          ⁋ Contra. di. xxxv. cito. episcopus. ibi scribitur. Episcopus
+          <lb ed="#N" n="119"/>aut presbiter. aut dyaconus alee aut ebrietati deseruiens aut
+          <lb ed="#N" n="120"/>desinat autm certe damnetur. Subdyaconus aut lector aut
+          <lb ed="#N" n="121"/>cantor similia faciens: aut desinat aut communione priuetur
+          <lb ed="#N" n="122"/>similiter et laycus. ecce quod aleatores tam layci quam clerici
+          pri<lb ed="#N" n="123" break="no"/>uandi sunt sacra communione.
+        </p>
+        <p xml:id="v78d89-a9pop7-d1e168">
+          ⁋ Responsio. quod aleatores non
+          de<lb ed="#N" n="124" break="no"/>bent accedere dicuntur autem aleatores qui ludum alee et
+          <lb ed="#N" n="125"/>taxillorum ducunt in consuetudinem. tales enim non sunt in sta
+          <lb ed="#N" n="126"/>tu saluandorum. Et nota quod canon dicit deseruiens quo notatur
+          <lb ed="#N" n="127"/>consuetudo. Deseruiens enim dicitur qui est valde seruiens. de
+          <lb ed="#N" n="128"/>enim ibi est augmentatiuum. Assuesci vero in ludo isto non
+          con<lb ed="#N" n="129" break="no"/>tingit sine grandi peccato. et maxime propter ea que circa
+          <lb ed="#N" n="130"/>huiusmodi assuescentiam contingunt. que sunt desiderium
+          lucran<lb ed="#N" n="131" break="no"/>di quod est cupiditas. Uoluntas spoliandi proximum quod est
+          rapi<lb ed="#N" n="132" break="no"/>na. Commissio vsure grauissime. concedunt enim ta. es. xi. pro. xii.
+          <lb ed="#N" n="133"/>non soluendum mense vel septimana: sed eodem die.
+          Multipli<lb ed="#N" n="134" break="no"/>catio mendaciorum. periuriarum. blasphemiarum. fraus siue
+          <lb ed="#N" n="135"/>dolus. Corruptio proximorum frequenter confluentium ad
+          <lb ed="#N" n="136"/>ludum respiciendum scandalum bonorum. Contemptus
+          prohi<lb ed="#N" n="137" break="no"/>bitionis ecclesiastice et multa alia mala. Ludus vero alee
+          dici<lb ed="#N" n="138" break="no"/>tur omnis ludus qui sortibus siue vicibus fortune innititur et omnis
+          <lb ed="#N" n="139"/>talis est prohibitus f e. l. finali.
+        </p>
+        <p xml:id="v78d89-a9pop7-d1e205">
+          ⁋ Ad illud quod obiicitur
+          <pb ed="#N" n="332"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>quod ludus talis est licitus. quia licet domino facere de resua etc.
+          Di<lb ed="#N" n="2" break="no"/>cendum quod quamuis licitus sit quantum ad ius ciuile: non tamen quantum ad
+          <lb ed="#N" n="3"/>ius canonis. quia et si liceat domino perdere siue destruere res
+          su<lb ed="#N" n="4" break="no"/>as id est etsi non est puniendus propter destructionem rerum propriarum
+          <lb ed="#N" n="5"/>secundum iudicium iuris ciuilis quod forte non est verum ex quo sic dam
+          <lb ed="#N" n="6"/>nificat rem publicam: non tamen licet secundum iudicium iuris canonici.
+          <lb ed="#N" n="7"/>immo qui sic faceret peccaret et puniendus esset.
+        </p>
+        <p xml:id="v78d89-a9pop7-d1e227">
+          ⁋ Ad illud
+          <lb ed="#N" n="8"/>quod queritur quare non licet amittere pecuniam ad ludum alee
+          <lb ed="#N" n="9"/>sicut ad ludum pile. Dicendum quod hoc est propter mala que solent
+          <lb ed="#N" n="10"/>accidere in exercitio ludi alee et frequentie: que non ita solent
+          <lb ed="#N" n="11"/>accidere in ludo pile. Unde ludus iste est prohibitus: ille non.
+          li<lb ed="#N" n="12" break="no"/>cet enim ludus pile quandoque exercetur propter desiderium lucrandi: tamen
+          <lb ed="#N" n="13"/>ludus pile non afficitur tanto desiderio propter modicitatem
+          lu<lb ed="#N" n="14" break="no"/>cri quanto afficitur in ludo alee.
+        </p>
+        <p xml:id="v78d89-a9pop7-d1e245">
+          ⁋ Ad illud quop obiicitur quod
+          <lb ed="#N" n="15"/>magis videtur illicitus ludus ille quo quis damnificatur in corpore
+          <lb ed="#N" n="16"/>etc. Dicendum quod ludus alee non est illicitus. quia damnificat in
+          <lb ed="#N" n="17"/>pecunia tantum: sed quia etiam damnificat in anima. vt patet
+          <lb ed="#N" n="18"/>ex malis que accidunt in huiusmodi ludo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

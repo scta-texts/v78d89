@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 34, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 34, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="213"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a78irw"><!-- q34m3 -->
+        <head xml:id="v78d89-a78irw-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a78irw-Hd1e103" type="question-title">De virtute verborum in comparatione ad opera mirabilia</head>
+        <p xml:id="v78d89-a78irw-d1e106">
+          <lb ed="#N" n="42"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a78irw-d1e111">
+          <lb ed="#N" n="43"/>SEquitur de virtute verborum in
+          comparati<lb ed="#N" n="44" break="no"/>one ad opera mirabilia. Et primo in
+          compa<lb ed="#N" n="45" break="no"/>ratione ad creationem. Secundo in
+          compa<lb ed="#N" n="46" break="no"/>ratione ad conceptionem beate viginis.
+        </p>
+        <div xml:id="v78d89-a78irw-Dd1e122">
+          <head xml:id="v78d89-a78irw-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-a78irw-d1e126">
+            <lb ed="#N" n="47"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a78irw-d1e131">
+            <lb ed="#N" n="48"/>CIrca primum queritur. vtrum minor virtus
+            suffi<lb ed="#N" n="49" break="no"/>cit ad conuertendum elementum in corpus christi: quam ad
+            <lb ed="#N" n="50"/>creandum aliquid ex nihilo. Quod sic: videtur primo per
+            <lb ed="#N" n="51"/>Amb. qui arguit per locum a minori sic. Si sermo christi
+            potu<lb ed="#N" n="52" break="no"/>it facere quod non erat: non potest ea que sunt in id mutare
+            <lb ed="#N" n="53"/>quod non erant. quasi dicat potest. Sed ista ratio nihil
+            vale<lb ed="#N" n="54" break="no"/>ret nisi id esset maioris potentie: ergo potentia creandi est
+            ma<lb ed="#N" n="55" break="no"/>ioris potentie quam transubtntiandi.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e151">
+            ⁋ Item vbi est maior
+            distan<lb ed="#N" n="56" break="no"/>tia. maior requiritur virtus si debeat vnum ex alio fieri. sed inter
+            <lb ed="#N" n="57"/>ens et non ens est summa distantia: non sic est inter
+            elemen<lb ed="#N" n="58" break="no"/>tum et corpus christi. ergo etc.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e160">
+            ⁋ Item maior est virtus que agit
+            pau<lb ed="#N" n="59" break="no"/>cioribus mediis et auxiliis quam que pluribus. sed virtus que producit
+            <lb ed="#N" n="60"/>aliquid ex nihilo sibi sola su fficit et nullius omnino indiget:
+            <lb ed="#N" n="61"/>que vero ex aliquo aliquam rem presupponit. vnde indiget aliquo
+            <lb ed="#N" n="62"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e172">
+            ⁋ Contra. illud difficilius perducitur in esse et maio
+            <lb ed="#N" n="63"/>re indiget virtute perducente: cui difficilius credit et consentit
+            <lb ed="#N" n="64"/>anima rationabiliter iudicans. Sed anima rationabiliter iudicans
+            dif<lb ed="#N" n="65" break="no"/>ficilius credit et consentit ei. quod est omnino aliud in aliud
+            tran<lb ed="#N" n="66" break="no"/>substntiari eo modo quo transubstntiatur panis in corpus christi quam illi quod
+            <lb ed="#N" n="67"/>est ex nihilo fieri. ergo illud est difficilius et maiori indiget
+            virtu<lb ed="#N" n="68" break="no"/>te in productione sui in esse quam aliud.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e188">
+            ⁋ Item maius est de iuipio
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>facere pium quam creare celum et terram. Sed anima rationabiliter
+            iudi<lb ed="#N" n="70" break="no"/>cans citius crederet et consentiret illi quod est de impio fieri
+            piun<lb ed="#N" n="71" break="no"/>quam illi quod est aliud in aliud omnino transubstntiari. ergo vt supira.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e199">
+            ⁋ Item
+            <lb ed="#N" n="72"/>licet vnumquodque corruptibile quantum est dese formam appetat
+            <lb ed="#N" n="73"/>nobiliorem: nihilominus intenti formam illius siue esse destruere
+            <lb ed="#N" n="74"/>renititur quantum potest. sed in productione alicuius ex nihilo nullus est
+            <lb ed="#N" n="75"/>renisus vel repugnantia: ergo videtur quod difficilius est formam
+            quan<lb ed="#N" n="76" break="no"/>cunque destruere quam aliquid ex nihilo creare: cum virtus agens
+            <lb ed="#N" n="77"/>difficilius perducit in esse quod intendit: vbi maiorem reperit
+            resi<lb ed="#N" n="78" break="no"/>stentiam.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e217">
+            ⁋ Responsio. quod quamuis nihil sit difficile apud deum. sed ab
+            <lb ed="#N" n="79"/>eius potentia infinita omnia eadem facilitate exeuntm in esse quantum
+            <lb ed="#N" n="80"/>est ex parte sua: tamen secundum quod effectus distinguitur secundum respectum ad
+            <lb ed="#N" n="81"/>poientias. maiori attestatur virtute creatio quam transubstntiatio
+            <lb ed="#N" n="82"/>elementi in corpus christi. quod plane determinat Inno. dicens.
+            <lb ed="#N" n="83"/>Cum sacerdos illa verba christi pronunciat. hoc est corpus meum.
+            <lb ed="#N" n="84"/>Hic est sanguis meus: panis et vinum in carnem et sanguinem
+            <lb ed="#N" n="85"/>conuertuntur illa virtute verbi qua verbum caro factum est etc. que
+            di<lb ed="#N" n="86" break="no"/>xit et facta sunt man. et crea. et post. certe maius est creare quod non
+            <lb ed="#N" n="87"/>est: quam mutare quod est. ac longe maius quod est de nihilo procreare
+            <lb ed="#N" n="88"/>quam quod est in aliud transmutare. hoc autem patet sic. In operibus
+            na<lb ed="#N" n="89" break="no"/>ture tria concurrunt. res initialis: finalis: et medium scilicet quod est
+            <lb ed="#N" n="90"/>subiectum actionis. In operibus que sunt supra naturam. quandoque deficit
+            <lb ed="#N" n="91"/>res initialis et subiectum actionis: vt quando aliquid fit ex nihilo per
+            <lb ed="#N" n="92"/>creationem. quandoque deficit subiectum supra quod est actio: vt in
+            tran<lb ed="#N" n="93" break="no"/>substntiatione elementi in corpus christi. vbi etsi sit commune secundum genus
+            <lb ed="#N" n="94"/>predicabilis: non est ibi commune aliquid quod est subiectum actio
+            <lb ed="#N" n="95"/>nis. Ad huiusmodi autem genera operum non pertingit natura propter eo
+            <lb ed="#N" n="96"/>rum difficultatem. Cum ergo in opere creationis deficiat res initialis
+            <lb ed="#N" n="97"/>et subiectum actionis: in opere transubstntiationis tantum subiectum
+            a<lb ed="#N" n="98" break="no"/>ctionis: patet quod opst creationis est maioris virtutis quam opst
+            tran<lb ed="#N" n="99" break="no"/>substntiationis.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e265">
+            ⁋ Ad illud quod primo obiicitur. dicendum. quod
+            si<lb ed="#N" n="100" break="no"/>rationabiliter iudicans facilius consentit aliquid fieri ex nihilo
+            <lb ed="#N" n="101"/>quam aliquid omnino in aliud transubstantiari: hoc est quod magis
+            vsi<lb ed="#N" n="102" break="no"/>tata est hec conceptio quam illa. hec autem conceptio quoam multa facta
+            <lb ed="#N" n="103"/>sunt ex nihilo est fere omnium: alia autem quod transubstntiatur ele
+            <lb ed="#N" n="104"/>mentum in corpus christi paucorum. scilicet fidelium: et in his que sunt
+            <lb ed="#N" n="105"/>fidei discretorum. Unde in hoc non est rationabiliter
+            iudi<lb ed="#N" n="106" break="no"/>cans neque rationabiliter consentiens. vnde primum est falsum:
+            <lb ed="#N" n="107"/>illud difficilius perducitur in esse etc.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e285">
+            ⁋ Ad aliud dicendum
+            <lb ed="#N" n="108"/>quod magis est de impio facere pium quam creare celum et terram.
+            <lb ed="#N" n="109"/>hoc est. quia quando de impio fit iustus duo concurrunt:
+            pro<lb ed="#N" n="110" break="no"/>pter que hoc opus est difficilimum. scilicet opus recreationis
+            <lb ed="#N" n="111"/>scilicet gratie et informatio lib. arb. repugnantis in opere. vn
+            <lb ed="#N" n="112"/>de in iustificatione impii est maior difficultas quam in transubstantia
+            <lb ed="#N" n="113"/>tione elementi in corpus christi: secundum quod dicitur difficilius: vbi est
+            <lb ed="#N" n="114"/>maior distantia extremorum.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e304">
+            ⁋ Ad hoc quod obiicitur. quod
+            ra<lb ed="#N" n="115" break="no"/>tionabiliter iudicans etc. patet responsio.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e309">
+            ⁋ Ad aliud dicendum. quod
+            <lb ed="#N" n="116"/>difficultas est aliquando alicuius operis propter distantiam terminorum
+            <lb ed="#N" n="117"/>quandoque propter violentam resistentiam illius in quo agitur. prima
+            diffi<lb ed="#N" n="118" break="no"/>cultas est in creatione vbi est summa distantia terminorum. se
+            <lb ed="#N" n="119"/>cunda difficultas est in operibus generationis. vt quando ex igne fit
+            <lb ed="#N" n="120"/>aer. sed neutra harum difficultatum est in transubstntiatione in
+            cor<lb ed="#N" n="121" break="no"/>pus christi. Quod non prima patet. quod non secunda similiter: quia ista
+            resi<lb ed="#N" n="122" break="no"/>stentia non est nisi vbi precedit dispositio et preparatio ad aliquam
+            <lb ed="#N" n="123"/>formam introducendam. quod non est hic: cum hec transmutatio sit
+            <lb ed="#N" n="124"/>subita.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e331">
+            ⁋ Ad illud quod dicitur. quod difficilius aliquid perducitur in esse.
+            <lb ed="#N" n="125"/>vbi est aliqua repugnantia quam vbi nulla. hoc verum est aliis
+            ex<lb ed="#N" n="126" break="no"/>istentibus paribus. vnde licet in creatione de nihilo non sit
+            ali<lb ed="#N" n="127" break="no"/>ud repugnans: tamen propter nimiam distantiam non enti s et entis:
+            <lb ed="#N" n="128"/>non potest esse nisi virtutis summe.
+          </p>
+        </div>
+        <div xml:id="v78d89-a78irw-Dd1e344">
+          <head xml:id="v78d89-a78irw-Hd1e346">Articulus 2</head>
+          <p xml:id="v78d89-a78irw-d1e348">
+            <lb ed="#N" n="129"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a78irw-d1e353">
+            <lb ed="#N" n="130"/>COnsequenter queritur de virtute transubstantiandi
+            <lb ed="#N" n="131"/>per comparationem ad virtutem concipiendi. Et videtur quod
+            <lb ed="#N" n="132"/>virtus transubtntiandi sit maior sic. Nobilitas et
+            <lb ed="#N" n="133"/>magnitudo virtutis per actum cognoscitur et actus per rem.
+            <lb ed="#N" n="134"/>Sed virtus conceptionis in virgine beata. mediante suo actu
+            termina<lb ed="#N" n="135" break="no"/>ta est ad corpus christi passibile mortale quantitatis imperfecte:
+            vir<lb ed="#N" n="136" break="no"/>tus transubtntiandi ad corpus christi impassibile immortale
+            glo<lb ed="#N" n="137" break="no"/>rificatum perfecte quantitatis. sed corpus christi glorificatum
+            immor<pb ed="#N" n="214"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tale impassibile nobilius est eo existente in aliis
+            conditioni<lb ed="#N" n="2" break="no"/>bus: ergo etc.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e379">
+            ⁋ Item quanto illud ex quo incipit actio minorem habet
+            <lb ed="#N" n="3"/>dispositionem ad terminum actionum tanto virtus reducens est
+            ex<lb ed="#N" n="4" break="no"/>cellentior et virtuosior. sed panis minorem habet dispositionem ad
+            car<lb ed="#N" n="5" break="no"/>nem christi quod caro virginis beate. cum igitur virtute transsubstntiationis
+            <lb ed="#N" n="6"/>panis transeat in carnem: et virtute conceptionis caro beate
+            virgi<lb ed="#N" n="7" break="no"/>nis sit facta caro christi: videtur quod virtus transsubstantians sit
+            di<lb ed="#N" n="8" break="no"/>gnior et maior.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e395">
+            ⁋ Item illud quod in sua actione non habet mate
+            <lb ed="#N" n="9"/>riam communem siue subiectum actionis: virtuosius et excellentius est
+            <lb ed="#N" n="10"/>quam illud quod in sua actione habet huiusmodi. sed virtus transsubstanti
+            <lb ed="#N" n="11"/>andi eo quod totum elementum transmutat in corpus christi non habet
+            ma<lb ed="#N" n="12" break="no"/>teriam communem in qua agit. virtus autem conceptionis beate virginis
+            <lb ed="#N" n="13"/>habeb at: ergo etc.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e409">
+            ⁋ Contra. illa virtus maior est et
+            excellen<lb ed="#N" n="14" break="no"/>tior que subiectum suum dignius efficit et nobilius: quam illa que facit
+            <lb ed="#N" n="15"/>minus huiusmodi. sed virtus concipiendi facit subiectum suum nobilius
+            <lb ed="#N" n="16"/>scilicet beatiam virginem quam virtus transsubstantiandi suum: ergo etc.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e418">
+            <lb ed="#N" n="17"/>⁋ Item conceptio corporis christi de virgine operatione spiritus sancti.
+            <lb ed="#N" n="18"/>vt habetur ab Augustinus erat opost creationis. Dicit enim sic. sicut per
+            <lb ed="#N" n="19"/>spirim sanctum vera caro sine coitu creatur: ita per eundem ex
+            suba<lb ed="#N" n="20" break="no"/>panis et vini idem corpus christi et sanguis consecratur. Ecce quod
+            pla<lb ed="#N" n="21" break="no"/>ne dicit quod corpus christi creatur. Conceptio igitur et creatio idem sunt
+            <lb ed="#N" n="22"/>sed nulla virtus maior est illa que est creationis immo illa
+            sum<lb ed="#N" n="23" break="no"/>ma est: ergo etc.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e436">
+            ⁋ Item illa virtus est maior que potest in effectum
+            ma<lb ed="#N" n="24" break="no"/>iorem et nobiliorem. sed virtus conceptionis potuit in effectum maiorem
+            <lb ed="#N" n="25"/>quam virtus transsubstantiationis: quia illa potuit in
+            generati<lb ed="#N" n="26" break="no"/>onem christi secundum carnem que est omnium effectuum nobilissima. alia
+            <lb ed="#N" n="27"/>solummodo in elementorum transmutationem. nihil potens siue
+            ope<lb ed="#N" n="28" break="no"/>rans circa corpus christi: ergo etc.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e449">
+            ⁋ Responsio. quod in conceptione beate
+            vir<lb ed="#N" n="29" break="no"/>ginis multa erant mirabilia: similiter in transsubstntiatione
+            elemen<lb ed="#N" n="30" break="no"/>ti in corpus christi. In conceptione enim erat vnum mirabile scilicet pur
+            <lb ed="#N" n="31"/>gatio virginis concipientis a fomite. Aiud erat potestas
+            gignendi<lb ed="#N" n="32" break="no"/>sine patre que fuit data virgini virtute spiritus sancti. Aliud fuit
+            <lb ed="#N" n="33"/>pro Iuctio christi in esse secundum carnem: cui vnita erat ipsa deitas in
+            <lb ed="#N" n="34"/>vnitate persone. Aliud erat subita productio in esse completo
+            <lb ed="#N" n="35"/>CChristus enim in instanti conceptionis sue fuit homo completus ex
+            cor<lb ed="#N" n="36" break="no"/>pore et anima: cui vnita erat deitas in vnitate persone. In trans
+            <lb ed="#N" n="37"/>substntiatione autem erant similiter plura mirabilia. Unum erat
+            trans<lb ed="#N" n="38" break="no"/>mutatio totius elementi in corpus christi. Aliud sequens ad hoc est
+            <lb ed="#N" n="39"/>transmutatio sine materia comuni siue subiecto actionis. Ter
+            <lb ed="#N" n="40"/>cium est transmutatio subita siue in instanti sicut infra habebi
+            <lb ed="#N" n="41"/>tur. Dicendum ergo. quod virtus transsubstantiandi et concipiendi se
+            ha<lb ed="#N" n="42" break="no"/>bent sicut excedentia et excessa quantum ad aliqua: tamen virtus illa
+            <lb ed="#N" n="43"/>que est conceptionis simpliciter est maior et excellentior. Uirtus autem
+            <lb ed="#N" n="44"/>transsubstantiandi inquantum est sine materia communi: illa autem
+            <lb ed="#N" n="45"/>que est conceptionis operatur in materia communi: virtus
+            transsubstan<lb ed="#N" n="46" break="no"/>tiandi iudicanda est maior quom illa que est conceptionis. Inquantum
+            <lb ed="#N" n="47"/>autem vtraque operatur subito siue in instanti: iudicande sunt
+            equa<lb ed="#N" n="48" break="no"/>les. Sed ratione purgationis eius ex quo scilicet beate virginis: et
+            pro<lb ed="#N" n="49" break="no"/>ductionis in esse eius ad quod scilicet christi: maior et excellentior est
+            <lb ed="#N" n="50"/>virtus conceptionis quam illa que est transsubstantiationis. et quia
+            <lb ed="#N" n="51"/>melior et maior. vt enim dicit Augustinus vbi est virtus sine mole:
+            <lb ed="#N" n="52"/>illa est maior que est melior.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e504">
+            ⁋ Ad primnem ergo dicendum. quod in
+            <lb ed="#N" n="53"/>transsubstantiatione elementi in corpus christi nihil efficit in
+            ipso<lb ed="#N" n="54" break="no"/>sicut fiebat in conceptione: quia nec eius humanitas que fuit
+            fa<lb ed="#N" n="55" break="no"/>cta in conceptione: nec gloria corporis que facta fuit in resurrecti
+            <lb ed="#N" n="56"/>one. nec quantitas siue statura perfecta que circiter. xxx.
+            anno<lb ed="#N" n="57" break="no"/>rum spacium completa erat. Licet autem in transsubstantiatione
+            <lb ed="#N" n="58"/>ista conuertitur elementum in corpus vel sanguinem christi: nihil
+            no<lb ed="#N" n="59" break="no"/>uum fit circa substantiam corporis christi vel sanguinis. vnde
+            argumen<lb ed="#N" n="60" break="no"/>tum illud deficit. arguitur enim ac si huiusmodi transsubstantiatione
+            <lb ed="#N" n="61"/>fieret corpus christi immortalem et glorificatum: sicut in conceptione
+            <lb ed="#N" n="62"/>fiebat mortalem et passibile.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e528">
+            ⁋ Ad aliud quod caro virginis erat
+            <lb ed="#N" n="63"/>in propinquiori dispositione ad corpus etc. Dicendum quod et si hoc
+            <lb ed="#N" n="64"/>sit verum: tamen quia virtus transsubstantiationis non aliquid in
+            <lb ed="#N" n="65"/>nouat circa substantiam corporis christi que est res
+            transsub<lb ed="#N" n="66" break="no"/>stantiationis sicut virtus conceptionis non sequitur conclusio.
+            <lb ed="#N" n="67"/>Prete. sine preiudicio dico opinando non asserendo. quod caro
+            <lb ed="#N" n="68"/>virginis vt ex illa fiat corpus christi siue operatione vis genera
+            <lb ed="#N" n="69"/>tiue non est in propinquiore dispositione ad illud elementum
+            <lb ed="#N" n="70"/>quantum ad transsubstantiandum. quod patet per hoc. quod panis
+            <lb ed="#N" n="71"/>et vinum multis mutationibus naturalibus apta sunt ad
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>hoc quod transmutentur in corpus humanum glorificandum
+            <lb ed="#N" n="73"/>caro autem virginis nulla mutatione naturali siue opera
+            <lb ed="#N" n="74"/>tione vis generatiue apta erat. vt ex illa fieret corpus christi
+          </p>
+          <p xml:id="v78d89-a78irw-d1e560">
+            <lb ed="#N" n="75"/>⁋ Ad aliud quod obiicitur. quod virtus transsubstantiationis non
+            <lb ed="#N" n="76"/>habet subiectum super quod agat etc. Dicendum quod sicut tactum
+            <lb ed="#N" n="77"/>est. quantum ad hoc virtus transsubstantiandi virtuosius
+            ope<lb ed="#N" n="78" break="no"/>ratur. quam virtus conceptionis: non autem simpliciter.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e571">
+            ⁋ Ad
+            il<lb ed="#N" n="79" break="no"/>lud quod obiicitur ex alia parte. de hoc quod dicit Augustinus quod
+            ve<lb ed="#N" n="80" break="no"/>ra caro christi per spirum sanctum sine coitu creatur. Dicendum quod
+            crea<lb ed="#N" n="81" break="no"/>tio dicitur nomine extenso: actus diuinus non subiacens natu
+            <lb ed="#N" n="82"/>re vel tempori. et sic conceptio virginis et alia opera
+            mirabi<lb ed="#N" n="83" break="no"/>lia: dicuntur opera creationis. Aliter dicitur creare. aliud ex
+            <lb ed="#N" n="84"/>nihilo facere. et sic dicitur proprie: et sic sumpto vocabulo:
+            con<lb ed="#N" n="85" break="no"/>ceptio non est creatio. Alie autem rationes sunt concedende.
+          </p>
+          <p xml:id="v78d89-a78irw-d1e589">
+            <lb ed="#N" n="86"/>⁋ Si autem quereretur. quare conceptio attribuitur spirituisancto:
+            <lb ed="#N" n="87"/>transsubstantiatio autem verbo. Responsio. quod in illa conceptione
+            <lb ed="#N" n="88"/>fuit habundantia gratie et quasi initium: propter quod
+            spi<lb ed="#N" n="89" break="no"/>rituisancto cui appropriatur gratia attribuitur: hoc autem
+            <lb ed="#N" n="90"/>opus verbo attribuitur quia sacramenta proprie ad christum
+            <lb ed="#N" n="91"/>qui est verbum incarnatum referuntur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

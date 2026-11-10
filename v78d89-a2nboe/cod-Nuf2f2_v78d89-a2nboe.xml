@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="12"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a2nboe"><!-- q2prae -->
+        <head xml:id="v78d89-a2nboe-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-a2nboe-d1e103">
+          <lb ed="#N" n="138"/>Questio secunda de taciam
+          <lb ed="#N" n="139"/>mentis tempore legis nature.
+        </p>
+        <p xml:id="v78d89-a2nboe-d1e110">
+          <pb ed="#N" n="13"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>CEcto suplus de
+          a<lb ed="#N" n="2" break="no"/>cramentis in genere: consequenter dicendum est de
+          <lb ed="#N" n="3"/>differentiis sacramentorum. Et primo de sacramentis
+          <lb ed="#N" n="4"/>tempore legis nature. Secundo. de sacramentis tempore
+          <lb ed="#N" n="5"/>legis mosayce. Tercio. de sacramentis tempore
+          le<lb ed="#N" n="6" break="no"/>gis gratie.
+        </p>
+        <p xml:id="v78d89-a2nboe-d1e130">
+          ⁋ Circa vero sacramenta legis nature tempore quod secundum quosdam
+          <lb ed="#N" n="7"/>durabat vsque ad moysen: et hoc innuit augustinus. contra donatistas.
+          <lb ed="#N" n="8"/>Primo queritur de numero sacramentorum. Secundo. summarie de
+          <lb ed="#N" n="9"/>essentia singulorum. Tercio. de congruitate. Quarto. quia sacramenta
+          <lb ed="#N" n="10"/>dicuntur ecclesie a quo tempore cepit ecclesia. vtrum a tempore adam vel a
+          ten<lb ed="#N" n="11" break="no"/>pore abel. Quinto. vtrum ante circumcisionem datum esset aliquod
+          re<lb ed="#N" n="12" break="no"/>medium ipsis paruulis per quod mundarentur ab originali.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

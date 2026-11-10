@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 38, Membrum 8</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 38, Membrum 8</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="283"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a843i9"><!-- q38m8 -->
+        <head xml:id="v78d89-a843i9-Hd1e101">Membrum 8</head>
+        <head xml:id="v78d89-a843i9-Hd1e103" type="question-title">Utrum idem sit instans in quo primo lit corpus Christi: et instans in quo ultimo sit panis: an aliud</head>
+        <p xml:id="v78d89-a843i9-d1e106">
+          <lb ed="#N" n="103"/>Membrum octauum
+        </p>
+        <p xml:id="v78d89-a843i9-d1e111">
+          <lb ed="#N" n="104"/>COnsequenter supposito quod hec mutatio sit
+          <lb ed="#N" n="105"/>subita et in instanti: queritur vtrum idem sit
+          in<lb ed="#N" n="106" break="no"/>stans in quo primo lit corpus christi: et instans
+          <lb ed="#N" n="107"/>in quo vltimo sit panis: an aliud. Si idem:
+          <lb ed="#N" n="108"/>igitur in eodem instanti est aliquid panis et corpus christi. quod
+          <lb ed="#N" n="109"/>nullus concederet. Si aliudr igitur cum inter duo quelibet
+          in<lb ed="#N" n="110" break="no"/>stantia sit aliquod tempus medium: in illo tempore medio non est
+          pa<lb ed="#N" n="111" break="no"/>nis neque corpus christi.
+        </p>
+        <p xml:id="v78d89-a843i9-d1e131">
+          ⁋ Item si mutatio est in instanti:
+          queri<lb ed="#N" n="112" break="no"/>tur quid sit in illo instanti. vtrum panis an corpus christi. Non
+          <lb ed="#N" n="113"/>panis: quia panis est terminus a quo est mutatio. Non
+          cor<lb ed="#N" n="114" break="no"/>pus: quia corpus est terminus ad quem.
+        </p>
+        <p xml:id="v78d89-a843i9-d1e141">
+          ⁋ Ad hoc dicitur. quod est
+          su<lb ed="#N" n="115" break="no"/>mere instans in quo est corpus christi primo: et illud est
+          ter<lb ed="#N" n="116" break="no"/>minus huius mutationis que est transubstntiatio. sed quia in tempore non
+          co<lb ed="#N" n="117" break="no"/>tinuantur adinuicem instantia: sed inter quelibet est tempus medium.
+          <lb ed="#N" n="118"/>non est sumere instans proxinum ante instans vltimum: in quo
+          vlti<lb ed="#N" n="119" break="no"/>mo est panis. quia etsi sit sumere instans indiuisibile
+          vl<lb ed="#N" n="120" break="no"/>timum in continuo: non tamen penultimum. vnde non est sumere instans
+          <lb ed="#N" n="121"/>in quo vltimo est panis sed tempus. Instans enim instanti non
+          <lb ed="#N" n="122"/>potest continuari: sed tempus instanti. vnde totum illud tempus in quo
+          <lb ed="#N" n="123"/>est panis: continuatur illi instanti in quo primo est corpus
+          <lb ed="#N" n="124"/>christi.
+        </p>
+        <p xml:id="v78d89-a843i9-d1e165">
+          ⁋ Contra. esse mensuratur instanti sicut motus tempori
+          <lb ed="#N" n="125"/>vnde in quolibet instanti totalis temporis in quo est panis: potest
+          <lb ed="#N" n="126"/>dici et verum est panem esse. igitur in primo vltimo et penultimo
+          <lb ed="#N" n="127"/>et vniuersaliter in omni. Sed ponatur quod panis est in toto illo
+          <lb ed="#N" n="128"/>tempore: cui continuatur illud instans in quo primo est corpus
+          <lb ed="#N" n="129"/>christi. et si in toto: igitur in quolibet instanti. igitur in omni
+          proxi<lb ed="#N" n="130" break="no"/>mo illi in quo primo est corpus christi. igitur non est verum quod
+          <lb ed="#N" n="131"/>ponitur quod non est sumere instans penultimum.
+        </p>
+        <p xml:id="v78d89-a843i9-d1e183">
+          ⁋ Responsio. sicut
+          <lb ed="#N" n="132"/>linea terminatur in puncto: qui quidem punctus est actus in ipsa
+          <lb ed="#N" n="133"/>continuitate linee. licet sit assignare vbique punctum: non tamen est ibi
+          <lb ed="#N" n="134"/>reperire punctum actu sed potentia solum. solummodo enim in linea
+          <lb ed="#N" n="135"/>sunt duo puncta actu: licet infinita potentia. Similiter dicitur in tempore.
+          <lb ed="#N" n="136"/>Tempus enim terminatur ad instans quod instans est actu. nec est
+          <lb ed="#N" n="137"/>in tempore simul et semel nisi vnum instans actu: etsi sint multa
+          po<lb ed="#N" n="138" break="no"/>tentia. similiter dico de momento in motu. Ex hoc patet quod non est secundum
+          veri<lb ed="#N" n="139" break="no"/>tatem nisi vnum instans ex parte termini temporis. licet intellectus
+          assignan<lb ed="#N" n="140" break="no"/>do simpliciter esse quod est secundum potentiam: terminetur instas post instans
+          <pb ed="#N" n="284"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>et instans ante instans in tempore. Cum ergo dicitur panis est in
+          quo<lb ed="#N" n="2" break="no"/>libet instanti illius totalis temporis. Dicendum quod in illo
+          tota<lb ed="#N" n="3" break="no"/>li non est nisi vnum instans actu ex parte terminationis temporis: licet
+          <lb ed="#N" n="4"/>multa potentia. vnde eo modo quo sunt scilicet potentia: sic est esse
+          <lb ed="#N" n="5"/>in eis. Cum igitur infertur. ergo est in penultimo. iam numera
+          <lb ed="#N" n="6"/>fur vt actu ens et simpliciter: quod non erat nisi potentia et secundum quid.
+          <lb ed="#N" n="7"/>Vel potest aliter dici ad primum. quod est considerare instantia
+          <lb ed="#N" n="8"/>plura: vt sunt potentia in tempore. et sic inter quelibet duo est
+          <lb ed="#N" n="9"/>tempus medium. vel vt sunt actu numerata: et vt sic actu
+          con<lb ed="#N" n="10" break="no"/>siderantur. sicut vnitas potest esse consequentur vnitati: sic instans
+          <lb ed="#N" n="11"/>instanti. illud patet in continuo permanente: vt in linea. in conti
+          <lb ed="#N" n="12"/>nuitate linee non est punctus continuus pruncto: sed inter
+          quali<lb ed="#N" n="13" break="no"/>bet duo est linea media. diuidatur linea sectione. puncti iam
+          <lb ed="#N" n="14"/>duo linee non habent puncta que sunt termini illarum inter que
+          <lb ed="#N" n="15"/>non est linea media. Propter quod dicendum est. quod instantia
+          di<lb ed="#N" n="16" break="no"/>uersa et puncta quando sortiuntur esse actualem et numeratum sicut
+          <lb ed="#N" n="17"/>in numero est vnitas ens consequenter vnitati. Similiter et
+          <lb ed="#N" n="18"/>punctum puncto et instans instanti. Cum igitur queritur. vtrum
+          <lb ed="#N" n="19"/>sit idem instans an diuersum etc. dicendum quod diuersum. Cum
+          <lb ed="#N" n="20"/>autem proponitur. sed inter quelibet duo est tempus etc. Dicendum
+          <lb ed="#N" n="21"/>quod hoc est verum secundum quod habent esse in vno continuo: non autem
+          <lb ed="#N" n="22"/>secundum quod considerantur vt actualiter numerata sicut est in
+          propo<lb ed="#N" n="23" break="no"/>sito.
+        </p>
+        <p xml:id="v78d89-a843i9-d1e259">
+          ⁋ Ad illud quod queritur. quid sit in instanti in quo est
+          mu<lb ed="#N" n="24" break="no"/>tatio: aut panis aut corpus etc. Dicendum quod est corpus christi.
+          <lb ed="#N" n="25"/>quia enim in subitis mutationibus in eodem instanti est
+          mutari<lb ed="#N" n="26" break="no"/>et mutatum esse. pane autem mutato vel conuerso est corpus christi. propter
+          <lb ed="#N" n="27"/>quod necessae est quod in instanti mutationis sit corpus christi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

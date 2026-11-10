@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 70, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 70, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="456"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adc9x0"><!-- q70m3 -->
+        <head xml:id="v78d89-adc9x0-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-adc9x0-Hd1e103" type="question-title">Utrum habeat efficaciam iustificandi a culpa</head>
+        <p xml:id="v78d89-adc9x0-d1e106">
+          <lb ed="#N" n="34"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-adc9x0-d1e111">
+          <lb ed="#N" n="35"/>COnsequenter queritur. vtrum contritio habet
+          efficaciam<lb ed="#N" n="36" break="no"/>iustificandi a culpa. Quod sic: videtur per hoc. quod per
+          <lb ed="#N" n="37"/>complacentiam siue consensum voluntatis
+          introdu<lb ed="#N" n="38" break="no"/>cta est culpa et conseruatur in esse. sed si oppositum
+          <lb ed="#N" n="39"/>est causa oppositi: et propositum est causa propositi. ergo si debet
+          tolli<lb ed="#N" n="40" break="no"/>culpa: necesse est quod tollatur per displicentiam siue dissensum
+          vo<lb ed="#N" n="41" break="no"/>luntatis. hic autem dissensus contritio est. ergo etc.
+        </p>
+        <p xml:id="v78d89-adc9x0-d1e129">
+          ⁋ Item idem
+          vi<lb ed="#N" n="42" break="no"/>detur ex glosis pretactis in probleumate immediate
+          preceden<lb ed="#N" n="43" break="no"/>ti.
+        </p>
+        <p xml:id="v78d89-adc9x0-d1e137">
+          ⁋ Contra. contingit non iustificatum esse contritum. vnde hec
+          simul<lb ed="#N" n="44" break="no"/>possunt esse in eodem contritio et culpa. ergo contritio non habet virtutem
+          ex<lb ed="#N" n="45" break="no"/>pellendi culpam. Probatio prime. Greg. dicit. Quisquis pec
+          <lb ed="#N" n="46"/>cata plangit nec causam deserit: cor quidem conterit sed
+          humi<lb ed="#N" n="47" break="no"/>liari contemnit. ergo licet contritio requiratur ad iustificationim: potest
+          <lb ed="#N" n="48"/>tamen non iustificatus esse contritus.
+        </p>
+        <p xml:id="v78d89-adc9x0-d1e150">
+          ⁋ Responsio. dicendum quod contritio
+          <lb ed="#N" n="49"/>purgat a culpa. sed hoc vt tactum est ratione gratie que concernitur.
+        </p>
+        <p xml:id="v78d89-adc9x0-d1e155">
+          <lb ed="#N" n="50"/>⁋ Ad verbum Greg. dicendum. quod contritio sumitur communiter et proprie.
+          <lb ed="#N" n="51"/>Comuniter secundum quod nominat communiter omnem dolorem de peccato.
+          Pro<lb ed="#N" n="52" break="no"/>prie secundum quod nominat tantum dolorem de peccato informatum et
+          causa<lb ed="#N" n="53" break="no"/>tum ex gratia gratum faciente. secundum ergo quod contritio proprie sumpta
+          in<lb ed="#N" n="54" break="no"/>portat contritionem omnium peccatorum simul. et per hoc gratiam
+          gratun<lb ed="#N" n="55" break="no"/>facientem sibi coniunctam: sic contritio habet virtutem purgandi a
+          <lb ed="#N" n="56"/>culpa. non tamen ratione doloris importati: sed potius ratione gratie vt
+          <lb ed="#N" n="57"/>tactum est. et hoc modo non sumitur contritio in verbo Grego. secundum
+          <lb ed="#N" n="58"/>autem quod contritio importat contritionem peccatorum qualencumque: hoc
+          <lb ed="#N" n="59"/>modo est contritio sine iustificatione: primo modo non. et hoc
+          <lb ed="#N" n="60"/>modo sumitur a Grego.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

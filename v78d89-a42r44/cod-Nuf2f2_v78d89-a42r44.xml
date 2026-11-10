@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 16, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 16, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="120"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a42r44"><!-- q16m2 -->
+        <head xml:id="v78d89-a42r44-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a42r44-Hd1e103" type="question-title">Utrum mali possunt baptizare</head>
+        <p xml:id="v78d89-a42r44-d1e106">
+          <lb ed="#N" n="3"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a42r44-d1e111">
+          <lb ed="#N" n="4"/>COnsequenter queritur. vtrum mali possunt
+          bapti<lb ed="#N" n="5" break="no"/>zare. Primo ergo queritur vtrum conferunt baptisma.
+          <lb ed="#N" n="6"/>Secundo vtrum peccent ministrando baptisma
+          <lb ed="#N" n="7"/>propter eorum dignitatem. Terco vtrum
+          equali<lb ed="#N" n="8" break="no"/>ter detur per bonum ministrum et per malum.
+        </p>
+        <div xml:id="v78d89-a42r44-Dd1e124">
+          <head xml:id="v78d89-a42r44-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-a42r44-d1e128">
+            <lb ed="#N" n="9"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a42r44-d1e133">
+            <lb ed="#N" n="10"/>QUeritur ergo primo. vtrum mali sacerdotes posunt
+            bapti<lb ed="#N" n="11" break="no"/>zare. et videtur quod sic. iiii. sentem. di. v. dicitur. quod baptil
+            <lb ed="#N" n="12"/>mus potest dari a malis ministris sicut a bonis.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e142">
+            ⁋
+            Con<lb ed="#N" n="13" break="no"/>tra. Ecessastici. Ab immundo quis mundabitur.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e147">
+            ⁋ Item in eodem. xxxiiii.
+            <lb ed="#N" n="14"/>Qui baptizatur a mortuo quid prodest eius lauatio. sed malus
+            mor<lb ed="#N" n="15" break="no"/>tuus est: ergo non prodest eius lauatio. ergo non dat verum baptisma
+            <lb ed="#N" n="16"/>Nec obstat quia in nostra transtatione habetur et iterum tangit eum
+            <lb ed="#N" n="17"/>illa enim est transtatio. lxx. quam ponit augustinus.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e159">
+            ⁋ Item Numeri. xix.
+            <lb ed="#N" n="18"/>Quicquid tetigerit immundus immundum faciet.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e164">
+            ⁋ Item ad
+            collatio<lb ed="#N" n="19" break="no"/>nem huius sacramenti tria sunt necessaria. minister debitus:
+            ma<lb ed="#N" n="20" break="no"/>teria debita: forma verborum debita. Sed si defuerit materia
+            <lb ed="#N" n="21"/>debita vel forma verborum debita non est baptismus: igitur si
+            mi<lb ed="#N" n="22" break="no"/>nister debitus defuerit etc. Sed vt dicit augustinus et magister in litra.
+            <lb ed="#N" n="23"/>iustos oportet esse per quos baptizatur.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e177">
+            ⁋ Item oratio amittit
+            vir<lb ed="#N" n="24" break="no"/>tutem suam ex vicio orantis. quare non similiter verba
+            sacra<lb ed="#N" n="25" break="no"/>mentorum ex malitia baptizantis. Ecclessastici. xo. Non est
+            speciosa<lb ed="#N" n="26" break="no"/>laus in ore peccatoris.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e186">
+            ⁋ Item. ii. Corin. vi. Nemini dantes vllam
+            <lb ed="#N" n="27"/>offensionem vt non vituperetur ministerium vratum. vbi habetur ex glo. quod
+            <lb ed="#N" n="28"/>ministerium doctrine veritatis: vituperatur in ordinato verbo et
+            exen<lb ed="#N" n="29" break="no"/>plo. sed ea ratione qua ministerium quantum ad doctrinam veritatis
+            vi<lb ed="#N" n="30" break="no"/>tuperatur in ordinato verbo vel facto ministri: videtur quod
+            ministeri<lb ed="#N" n="31" break="no"/>um baptismi vituperetur in ordinatione ministri. sed propter hoc non est
+            <lb ed="#N" n="32"/>iterandum baptisma: quia iteratio fieret in contumeliam siue
+            vitu<lb ed="#N" n="33" break="no"/>perium sacramenti. ergo nec minitrari debet tali ministro quia
+            <lb ed="#N" n="34"/>hoc fieret in iniuriam sacramenti.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e206">
+            ⁋ Responsio. quod deus baptizat
+            si<lb ed="#N" n="35" break="no"/>ue mundat: minister similiter. Sed deus solus conferendo gratiam
+            mundan<lb ed="#N" n="36" break="no"/>tem et sanctificantem cum ministro ei cooperando in ministerio. vnde
+            <lb ed="#N" n="37"/>et auctoritas est a deo et ministerium: eo modo quo dicitur esse ab eo
+            <lb ed="#N" n="38"/>quod per aliud operatur. Est igitur deus in sanctificando tota causa: et
+            <lb ed="#N" n="39"/>est in ministerio prima causa. vnde hugo. Solus deus
+            sanctifi<lb ed="#N" n="40" break="no"/>cat et benedicit. quoniam ab ipso omnis sanctificatio et benedictio est. et
+            ta<lb ed="#N" n="41" break="no"/>men sacerdos minister dei sanctificat et benedicit: quoniam per ipsum
+            que<lb ed="#N" n="42" break="no"/>dam sanctificatio et benedictio est que et ipsa a deo est qui est
+            au<lb ed="#N" n="43" break="no"/>ctor in dono. et per deum qui cooperator est in ministerio. hec
+            hugo<lb ed="#N" n="44" break="no"/>Dicendum est ergo. quod deus est auctor gratie sanctificantis: et est
+            coopera<lb ed="#N" n="45" break="no"/>tor in ministerio quia per ipsum minister operatur. Quicquid igitur ibi
+            <lb ed="#N" n="46"/>est sanctificationis a deo est. propter quod a quocumque fiat: plenum
+            <lb ed="#N" n="47"/>habet effectum. Item immundicia ex parte baptiz antis intra est
+            <lb ed="#N" n="48"/>in anima que est defectus. et nullo modo transferens se per diffusio
+            <lb ed="#N" n="49"/>nem. Unde non potest diminuere virtutem sacramentalem. Prete.
+            <lb ed="#N" n="50"/>misterium baptizantis exercetur in opere exteriori. quantum est de
+            il<lb ed="#N" n="51" break="no"/>lius ministerio. quantum autem ad exteriorem hominem non est immundus.
+            <lb ed="#N" n="52"/>eo quod peccator: sed quantum ad interiorem. his igitur rationibus patet. quod
+            <lb ed="#N" n="53"/>non diminuitur virtus baptismi ex ministerio malorum.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e250">
+            ⁋ Ad
+            pri<lb ed="#N" n="54" break="no"/>mum igitur dicendum. quod ab immundo non mundatur quis ratione qua
+            <lb ed="#N" n="55"/>immundus est: sed in ministerio baptismi non est transfusio
+            virtu<lb ed="#N" n="56" break="no"/>tis baptismalis a ministro ratione qua talis est. Pret. nec
+            ba<lb ed="#N" n="57" break="no"/>ptizatus mundatur ab homine malo: sed a deo qui purgat animam.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e262">
+            <lb ed="#N" n="58"/>⁋ Ad aliud dicendum. quod si per mortuum intelligitur peccatum vt videtur
+            <lb ed="#N" n="59"/>sanare nostra transtatio que dicit. qui baptizatur a mortuo et iterum
+            <lb ed="#N" n="60"/>tangit: plana est responsio. Nam baptizari a mortuo est mundari a
+            <lb ed="#N" n="61"/>peccato: tangere vero mortuum est recidiuare in peccatum. et tali non prodest
+            <lb ed="#N" n="62"/>lauatio prima: cum iterum polluatur per recidiuum. Si vero intelligatur
+            <lb ed="#N" n="63"/>per mortuum peccator baptizans. secundum quod videtur alia transtatio dicere:
+            <lb ed="#N" n="64"/>tunc intelligendum est quando baptizatus imitatur cum. lauacrum enim tunc
+            <lb ed="#N" n="65"/>non prodest ei ad salutem. et hoc manifestatur per nostram transtationem
+            <lb ed="#N" n="66"/>in qua dicitur. et iterum tangit mortuum.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e284">
+            ⁋ Ad aliud dicendum od
+            <lb ed="#N" n="67"/>vix. Numeri loquitur de immundis secundum ritum legis. vt qui immundus erat
+            <lb ed="#N" n="68"/>ex contactu morticini. vel ex alio aliquo contraxerat immundiciam:
+            <lb ed="#N" n="69"/>immandum fecit quod tetigit secundum legem. et debuit expiari aqua
+            lu<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>strationis. non autem loquitur de immundicia peccati.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e296">
+            ⁋ Ad
+            alinddi<lb ed="#N" n="71" break="no"/>cendum. quod minister debet esse iustus debito congruentie. vnde vbi dicitur
+            <lb ed="#N" n="72"/>iustos oportet esse per quos baptizatur: subditur iustos opertet esse
+            tan<lb ed="#N" n="73" break="no"/>ti iudicis ministros: quia. x. Ecclesastici. secundum iudicem popli sic et minister
+            <lb ed="#N" n="74"/>eius. Unde multiplex est ratio congruentie. vna est mundicia eius cuius est
+            <lb ed="#N" n="75"/>minister. Unde ambulans in via immaculata hic mihi ministrabit.
+            <lb ed="#N" n="76"/>Alia ministerium mundationis. quia enim mundat ministerio suo: debet
+            <lb ed="#N" n="77"/>mundus esse. Numeri. xix. mundus lustrabit immundum. Nee. xii. munda
+            <lb ed="#N" n="78"/>ti sunt sacerdotes et leuite et mundauerunt populum. Item
+            digni<lb ed="#N" n="79" break="no"/>tas mundandorum. membra regis quis immundior illis presumeret illa
+            <lb ed="#N" n="80"/>mundare. iiii. Tre. Recedite polluti recedite abite mundum
+            <lb ed="#N" n="81"/>nolite tangere. sed debitum respectu forme et nature verborum est
+            debi<lb ed="#N" n="82" break="no"/>tum necessitatis. Non igitur simile est de debito materie et forme
+            <lb ed="#N" n="83"/>verborum et ministrorum: quia in hoc est debitum congruitatis: in illis necessi
+            <lb ed="#N" n="84"/>tatis.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e329">
+            ⁋ Ad illud quod queritur de oratioe etc. Dicendum quod non est simile.
+            <lb ed="#N" n="85"/>quia virtus data est a saluatore et ipsis verbis sacramentalibus non sic
+            <lb ed="#N" n="86"/>verbis in oratioe prolatis. sed potius virtus et efficacia orationis est a fide
+            <lb ed="#N" n="87"/>et deuotione orantis Iaco. i. postulat in fide nihil etc. Et oratio est
+            <lb ed="#N" n="88"/>pius affectus in deum directus secundum augustinus
+          </p>
+          <p xml:id="v78d89-a42r44-d1e340">
+            ⁋ Ad aliud dicendum. quod
+            <lb ed="#N" n="89"/>illud dicitur fieri in vituperium baptismi: quo preiudicatur
+            veritati<lb ed="#N" n="90" break="no"/>baptismi. verbigratia quia caracter baptismalis est perpetuus. si
+            itera<lb ed="#N" n="91" break="no"/>retur baptismus: videretur caracter indigere reparatione. quod non est
+            ve<lb ed="#N" n="92" break="no"/>rum. immo contra veritatem caracteris. Sed doctrina veritatis
+            <lb ed="#N" n="93"/>vituperatur: quando etsi ostendatur verbo: ostenditur contrarium facto. quia
+            ma<lb ed="#N" n="94" break="no"/>gis credendum est facto inquantum huiusmodi quam verbo. vnde non est eadem
+            ra<lb ed="#N" n="95" break="no"/>tio vituperandi siue faciendi quid in contumeliam ministerii
+            sacramen<lb ed="#N" n="96" break="no"/>torum et ministerii doctrine veritatis.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e360">
+            ⁋ Si obiicitur. quod qui facit
+            <lb ed="#N" n="97"/>contrarium doctrine sue: facit aliquid in preiudicium veritatis
+            doctri<lb ed="#N" n="98" break="no"/>ne sue sicut ex alia parte. Responsio. quod hoc non est ministrando ipsam
+            <lb ed="#N" n="99"/>doctrinam: sed operando contrarium. sed ex alia parte facit contumeliam
+            <lb ed="#N" n="100"/>ministrando ipsum sacramentum. Si quis rebaptizaret ipso ministe
+            <lb ed="#N" n="101"/>rio faceret contumeliam ipsi sacramento vnde non est simile.
+          </p>
+        </div>
+        <div xml:id="v78d89-a42r44-Dd1e375">
+          <head xml:id="v78d89-a42r44-Hd1e377">Articulus 2</head>
+          <p xml:id="v78d89-a42r44-d1e379">
+            <lb ed="#N" n="102"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a42r44-d1e384">
+            <lb ed="#N" n="103"/>COnsequenter queritur si peccent ministrando
+            baptis<lb ed="#N" n="104" break="no"/>mums et videtur quod sic. Reprehenduntur enim mali
+            sacer<lb ed="#N" n="105" break="no"/>dotes per prophetam. cum dicitur. vt quid offertis super
+            al<lb ed="#N" n="106" break="no"/>tare meum panem pollutum: non quia ipse panis in se polluatur
+            <lb ed="#N" n="107"/>sed quia ex in dignitate sua ipse minister polluitur in se. pari
+            ra<lb ed="#N" n="108" break="no"/>tione mali sacerdotes polluuntur indigne accedendo ad
+            bapti<lb ed="#N" n="109" break="no"/>zandum: licet sacramentum in se non violetur. Hoc etiam videtur per hoc
+            <lb ed="#N" n="110"/>quod dicit augustnus. Illicitam vsurpationem corrigit reminiscentis et
+            pe<lb ed="#N" n="111" break="no"/>nitentis affectus. quod si non correxerit: manebit ad penam
+            vsur<lb ed="#N" n="112" break="no"/>patoris quod dedit. ex quo videtur quod mali vsurpent officium
+            ba<lb ed="#N" n="113" break="no"/>ptizandi id est mundandi.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e410">
+            ⁋ Item augustinus. super Ioh. Nos dicimus
+            <lb ed="#N" n="114"/>omnes. quia iustos oportet esse per quos baptizatur iustos
+            opor<lb ed="#N" n="115" break="no"/>tet esse tanti iudicis ministros: ergo vt digne baptizent oportet esse
+            <lb ed="#N" n="116"/>iustos. Si ergo sunt iniusti: indigni sunt distributione tanti
+            sacra<lb ed="#N" n="117" break="no"/>menti.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e421">
+            ⁋ Contra. ex officio habet quod baptizet cum ad ordinem
+            <lb ed="#N" n="118"/>sacerdotalem vis baptizandi pertineat. faciendo autem id quod tenetur
+            <lb ed="#N" n="119"/>non peccat: ergo malus sacerdos baptizando non peccat.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e429">
+            ⁋ Ad hoc
+            <lb ed="#N" n="120"/>dicendum. quod aliter est in baptismo: et in sacramento eucharistie.
+            <lb ed="#N" n="121"/>baptismus enim est sacramentum necessitatis. et ideo si conferatur ab
+            <lb ed="#N" n="122"/>eo cuius est conferre et cui necesse est conferre: non peccat sic conferendo
+            <lb ed="#N" n="123"/>Sacramentum autem eucharistie est sacramentum de quo dicitur. quod in
+            <lb ed="#N" n="124"/>digne accedens iudicium sibi assumit. nec est sacramentum necessi
+            <lb ed="#N" n="125"/>tatis: et ideo sine remorsu conscientie accedendum est ad
+            ministeri<lb ed="#N" n="126" break="no"/>um tanti sacramenti.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e447">
+            ⁋ Ad aliud vero dicendum. quod illud quod
+            <lb ed="#N" n="127"/>dicit augustinus de illicita vsurpatione attenditur vbi non extat
+            necessi<lb ed="#N" n="128" break="no"/>tas nec tenetur ex officio.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e454">
+            ⁋ Ad aliud dicendum. quod oportunitas
+            <lb ed="#N" n="129"/>accipitur ibi pro congruitate. decet enim siue congruit ministros
+            tanti<lb ed="#N" n="130" break="no"/>iudicis esse iustos: non quia si non sunt iusti non ministretur
+            sacramen<lb ed="#N" n="131" break="no"/>tum. vnde augustinus. Sunt ministri iusti si volunt. Si autem noluerint esse
+            <lb ed="#N" n="132"/>iusti: securum me facit magister meus de quo spiritus sanctus sic dicit. hic est
+            <lb ed="#N" n="133"/>qui baptizat. Sacerdotes autem mali etsi baptizent ex officio
+            <lb ed="#N" n="134"/>non tamen de merito vite.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e470">
+            ⁋ Quod autem dicit ambro. in
+            ordina<lb ed="#N" n="135" break="no"/>tione ius dandi habent baptismum ad suam perniciem quamdiu carita
+            <lb ed="#N" n="136"/>tem non habent vnitatis: hoc intelligitur quantum ad hoc quod non stant
+            <lb ed="#N" n="137"/>in vnitate ecclesie. nec est omnino simile de his malis qui
+            non<lb ed="#N" n="138" break="no"/>dum sunt precisi ab vnitate ecclesiastica.
+          </p>
+        </div>
+        <div xml:id="v78d89-a42r44-Dd1e482">
+          <head xml:id="v78d89-a42r44-Hd1e484">Articulus 3</head>
+          <p xml:id="v78d89-a42r44-d1e486">
+            <pb ed="#N" n="121"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a42r44-d1e495">
+            <lb ed="#N" n="2"/>COnsequenter queritur vtrum equaliter detur per bonum
+            <lb ed="#N" n="3"/>et per malum ministrum. Quod videtur: per hoc quod dicit
+            <lb ed="#N" n="4"/>augustinus. contra donatistas. tantum valet baptismus per
+            ho<lb ed="#N" n="5" break="no"/>minem contemptibilem: quantum per ministrum apostolum. quia nec illius
+            <lb ed="#N" n="6"/>esse cognoscitur sed christi.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e508">
+            ⁋ Item augustinu. contra crescentium. per ministros
+            <lb ed="#N" n="7"/>dispersos minus dei est equale. quia non illorum sed eius.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e513">
+            ⁋ Uidetur
+            con<lb ed="#N" n="8" break="no"/>trarium. sicut enim euangelium dicitur differens siue predicatio diuer
+            <lb ed="#N" n="9"/>sa a diuersis distributa. cum tamen vnus sit qui interius doceat. Eo
+            <lb ed="#N" n="10"/>modo videtur quod differens sit baptisma aliquo modo cum a
+            melio<lb ed="#N" n="11" break="no"/>ri vel minus bono datur. sicut enim isti non sunt sapicentia equaliter
+            pre<lb ed="#N" n="12" break="no"/>diti: ita nec equaliter sunt gratia prediti.
+          </p>
+          <p xml:id="v78d89-a42r44-d1e527">
+            ⁋ Responsio. quod equaliter datur.
+            </p>
+          <p xml:id="v78d89-a42r44-d1e529">
+            <lb ed="#N" n="13"/>⁋ Ad illud quod obiicitur contra hoc. dicendum quod non est simile de
+            ba<lb ed="#N" n="14" break="no"/>ptismo et euangelio siue predicatione. Non enim dicitur baptismus meus
+            <lb ed="#N" n="15"/>sicut euangelium vel predicatio mea sicut dicit augu. contra
+            donati<lb ed="#N" n="16" break="no"/>stas. Unde non est melior baptismus qui per meliorem datur: licet
+            me<lb ed="#N" n="17" break="no"/>lior dicatur predicatio que a meliori et discretiori datur. Ratio autem
+            <lb ed="#N" n="18"/>est. quia in virtute christi datur a quocumque datur: et penes illum
+            <lb ed="#N" n="19"/>est indiuisio. potestatem autem baptizandi sibi retinuit: seruis
+            <lb ed="#N" n="20"/>ministerium dedit. potestatem autem docendi siue predicandi ministris
+            <lb ed="#N" n="21"/>dedit: licet ipse sit qui interius doceat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

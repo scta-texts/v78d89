@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 15, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 15, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="118"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3xpr7"><!-- q15m3 -->
+        <head xml:id="v78d89-a3xpr7-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a3xpr7-Hd1e103" type="question-title">Utrum data fuit Christo homini pote peccata in baptismo</head>
+        <p xml:id="v78d89-a3xpr7-d1e106">
+          <lb ed="#N" n="131"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a3xpr7-d1e111">
+          <lb ed="#N" n="132"/>Onsequentur queritur vtrum christo homini data erat
+          po<lb ed="#N" n="133" break="no"/>testas remittendi peccato in baptismo. quod non: videtur
+          <lb ed="#N" n="134"/>Ioh. v. Sicut ptur habet vitam in semetipso. glo. in eo quod
+          <lb ed="#N" n="135"/>sem filius dei est vita que viuificat animas. in eo quod est
+          <lb ed="#N" n="136"/>filius hominis iudex. dedit ergo ei pater vitam generando vt
+          <lb ed="#N" n="137"/>viuificet: mittendo in carnem vt iudicet. per verbum. ergo id est per filium
+          <lb ed="#N" n="138"/>dei fit animarum resurrectio. per verbum filium dei factum in
+          carne<lb ed="#N" n="139" break="no"/>fit corporum resurrectio. hec glo. Ex hoc patet quod solummodo
+          po<lb ed="#N" n="140" break="no"/>tuit peccata remittere inquantum filius dei siue deus.
+        </p>
+        <p xml:id="v78d89-a3xpr7-d1e133">
+          ⁋ Conta. Math.
+          <lb ed="#N" n="141"/>ix. Et sciatis quia filius hominis habet potestatem in tera dimittendi
+          pec<pb ed="#N" n="119"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>cata.
+        </p>
+        <p xml:id="v78d89-a3xpr7-d1e143">
+          ⁋ Item vnde est redemptor: et dimissor peccati. sed inquantum homo
+          <lb ed="#N" n="2"/>fuit redemptor: igitur vt videtur inquantum homo fuit peccatorum
+          <lb ed="#N" n="3"/>indultor siue dimissor. Unde habetur. iii libro. sentem. xix. di. ca.
+          <lb ed="#N" n="4"/>Inde ipse vere dicitur. Redemptor dicitur secundum humanitatem quia
+          <lb ed="#N" n="5"/>secundum eam et in ea suscepit et impleuit illa sacramenta que sunt
+          <lb ed="#N" n="6"/>causa nostre redemptionis
+        </p>
+        <p xml:id="v78d89-a3xpr7-d1e156">
+          ⁋ Responsio. quod potestatem non habuit
+          <lb ed="#N" n="7"/>istam vnde homo sed vnde deus. quia solius dei est dimittere peccata. ratio
+          <lb ed="#N" n="8"/>huius est. Nam homo nihil est quo ad esse gratie per culpam:
+          <lb ed="#N" n="9"/>quemadmodum nihil est simpliciter ante creationem. vnde equalem
+          vir<lb ed="#N" n="10" break="no"/>tutem requirit recreatio et creatio. vt habetur in glo. super illud
+          <lb ed="#N" n="11"/>Luc. xv. Maius est gaudium in celis etc. que dicit. videtur magis
+          <lb ed="#N" n="12"/>iustificare impios quam creare iustos et conseruare. et si vtrumque en
+          <lb ed="#N" n="13"/>equalis potentie.
+        </p>
+        <p xml:id="v78d89-a3xpr7-d1e174">
+          ⁋ Ad hoc igitur quod obiicitur quod filius hominis habet
+          <lb ed="#N" n="14"/>potestatem etc. Dicendum quod hoc est vnde deus. Unde glo. super illud
+          ma<lb ed="#N" n="15" break="no"/>thei. ix. filius hominis habet potestatem etc. dicit. quia idem est filius
+          ho<lb ed="#N" n="16" break="no"/>minis et deus. Unde dicendum. quod homo habet potestatem dimittendi
+          <lb ed="#N" n="17"/>peccata quia deus. et quia propter vnitatem personalem communicant deus et
+          <lb ed="#N" n="18"/>homo ydiomata: dicitur habere homo potstatem dimittendi peccata.
+          <lb ed="#N" n="19"/>non tamen vnde homo: sed vnde deus.
+        </p>
+        <p xml:id="v78d89-a3xpr7-d1e190">
+          ⁋ Ad aliud dicendum. quod
+          redi<lb ed="#N" n="20" break="no"/>mere penam respicit. et ideo conuenit christo vnde homo habere potestatem
+          <lb ed="#N" n="21"/>redimendi. Sed solus deus habet potestatem dimittendi peccata.
+          Un<lb ed="#N" n="22" break="no"/>de Marci. ii. Ut sciatis quia filius hominis habet potestatem
+          dimit<lb ed="#N" n="23" break="no"/>tendi peccata. glo. solus deus dimittit peccata. et filius hominis
+          ha<lb ed="#N" n="24" break="no"/>bet potestatem dimittendi peccata: ergo idem deus et filius hominis. ita
+          <lb ed="#N" n="25"/>homo christus per diuinitatem peccata dimittit: per humanitatem pro
+          pec<lb ed="#N" n="26" break="no"/>catoribus potest mori. bec glo. Ecce quod redemptio est per
+          humani<lb ed="#N" n="27" break="no"/>tatem.
+        </p>
+        <p xml:id="v78d89-a3xpr7-d1e210">
+          ⁋ Ad aliud quod obiicitur quod vnde est redemptor et
+          di<lb ed="#N" n="28" break="no"/>missor. Dicendum quod redemptor vno modo dicitur propter vsum
+          <lb ed="#N" n="29"/>potestatis. alio modo propter effectum humilitatis. Redemptor prout
+          <lb ed="#N" n="30"/>modo primo sumitur est dimissor peccatorum et vnde redemptor
+          di<lb ed="#N" n="31" break="no"/>missor non autem prout sumitur secundo modo. Unde. iii. libro. senten. xix.
+          <lb ed="#N" n="32"/>di.cilti. Inde ipse vere christus est redemptor inquantum est deus potestatis
+          <lb ed="#N" n="33"/>vsu: inquantum homo humilitatis effectu.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

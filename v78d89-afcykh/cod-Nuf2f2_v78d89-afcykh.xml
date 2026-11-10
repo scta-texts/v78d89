@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 83, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 83, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="538"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afcykh"><!-- q83m7 -->
+        <head xml:id="v78d89-afcykh-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-afcykh-Hd1e103" type="question-title">De equitate estimationis relaxati et eius pro quo fit relaxatio</head>
+        <p xml:id="v78d89-afcykh-d1e106">
+          <lb ed="#N" n="64"/>Membrum septimum
+        </p>
+        <p xml:id="v78d89-afcykh-d1e111">
+          <lb ed="#N" n="65"/>COnsequenter queritur. vtrum in relaxatione
+          requi<lb ed="#N" n="66" break="no"/>ratur iusta estimatio pene qua fit
+          recompen<lb ed="#N" n="67" break="no"/>satio. Quod sic: videtur per hoc. quod in omni
+          commer<lb ed="#N" n="68" break="no"/>tio iusto fit iusta recompensatio: ergo cum deus
+          <lb ed="#N" n="69"/>sit iustus in omnibus viis suis id est operibus: in operibus
+          indul<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>gentiarum que auctoritate domini fiunt a ministris: debet
+          <lb ed="#N" n="71"/>fieri recompensatio iuste estimationis.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e130">
+          ⁋ Item si in relaxa
+          <lb ed="#N" n="72"/>tione penitentie non esset iusta estimatio pene recompensate:
+          ali<lb ed="#N" n="73" break="no"/>quod malum relinqueretur impunitum. et ita aliquid esset
+          inor<lb ed="#N" n="74" break="no"/>dinatum in regno dei: et ita vt prius.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e140">
+          ⁋ Contra. pena
+          pur<lb ed="#N" n="75" break="no"/>gatorii debita pro peccato improportionabiliter est maior ista que
+          <lb ed="#N" n="76"/>iniungitur in via. ergo pro illa quantumcumque magna recompensetur
+          <lb ed="#N" n="77"/>non potest cadere sub iusta estimatione.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e149">
+          ⁋ Item si penitentia que
+          re<lb ed="#N" n="78" break="no"/>laxatur iusta estimatione recompensaretur: tunc nulla fieret
+          in<lb ed="#N" n="79" break="no"/>dulgentia. non enim indulgetur aliquid alicui: si oporteat quod
+          <lb ed="#N" n="80"/>illud quod indulgetur iusta estimatione recompensetur.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e158">
+          ⁋ Item vbi
+          <lb ed="#N" n="81"/>non est iusta estimatio nulla est misericordia. ergo cum opera
+          relaxa<lb ed="#N" n="82" break="no"/>tionum et indulgentia eum sunt opera misericordie: in talibus
+          ope<lb ed="#N" n="83" break="no"/>ribus non requiritur iusta estimatio pene recompensate.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e167">
+          <lb ed="#N" n="84"/>Responsio dicendum quod estimatio iusta potest dici. vel ab
+          equita<lb ed="#N" n="85" break="no"/>tem iusticie: vel a dispensatione gratie. secundum quod estimatio iusta
+          <lb ed="#N" n="86"/>dicitur ab equitate iusticie: sic non requiritur iusta estimatio in
+          <lb ed="#N" n="87"/>relaxatione. secundum quod dicitur a dispensatione gratie: sic requiritur.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e178">
+          <lb ed="#N" n="88"/>⁋ Ad illud quod primo obiicitur. quod deus est iustus in omnibus
+          <lb ed="#N" n="89"/>viis suis etc. Dicendum quod hoc verum est. quia eo quod deus vult quod
+          <lb ed="#N" n="90"/>fiat vel indulgendo vel puniendo: iuste indulget et iuste
+          pu<lb ed="#N" n="91" break="no"/>nit. quicquid enim ordinatur et regulatur sua ordinatissima
+          volun<lb ed="#N" n="92" break="no"/>tate iuste est et iuste fit. Dicit enim Augustinus. Domdene si punis: iustus
+          <lb ed="#N" n="93"/>es. similiter domine si parcis iustus es.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e194">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="94"/>si non fiunt indulgentie iusta estimatione: aliquid esset
+          inordi<lb ed="#N" n="95" break="no"/>natum in regno dei. Dicendum quod non est verum. cum nulla
+          inor<lb ed="#N" n="96" break="no"/>dinatio accidat ex dispensatione diuine misericordie.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e204">
+          ⁋ Ad
+          il<lb ed="#N" n="97" break="no"/>lud quod obiicitur pro alia parte. quod pena purgatorii
+          improportio<lb ed="#N" n="98" break="no"/>nalis est pene temporali. Unde pena temporalis non cadit sub iusta
+          <lb ed="#N" n="99"/>estimatione respectu purgatorii. Dicendum quod et si non cadit
+          <lb ed="#N" n="100"/>sub iusta estimatione secundum quod iustum est equitate iusticie: cadit
+          <lb ed="#N" n="101"/>tamen secundum quod iustum dicitur a dispensatione gratie. prout iusticia
+          di<lb ed="#N" n="102" break="no"/>citur condecentia diuine bonitatis. secundum quod dicitur. Domiene si
+          par<lb ed="#N" n="103" break="no"/>cis iustus es: quia hoc condecet tue bonitati.
+        </p>
+        <p xml:id="v78d89-afcykh-d1e222">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="104"/>obiicitur. quod vbi est iusta estimatio nulla est misericordia.
+          Dicen<lb ed="#N" n="105" break="no"/>dum quod hoc verum est. secundum quod iustum dicitur ab equitate iusticie.
+          <lb ed="#N" n="106"/>Ex his patet responsio ad alia que hic tacta sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 50, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 50, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="337"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aa8eiq"><!-- q50m3 -->
+        <head xml:id="v78d89-aa8eiq-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-aa8eiq-Hd1e103" type="question-title">Utrum a diaconibus</head>
+        <p xml:id="v78d89-aa8eiq-d1e106">
+          <lb ed="#N" n="89"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-aa8eiq-d1e111">
+          <lb ed="#N" n="90"/>COnsequenter queritur vtrum dispensandum est a
+          nya<lb ed="#N" n="91" break="no"/>cono. Quod videtur per hoc: quod dicitur in legenda
+          <lb ed="#N" n="92"/>beati laurentii. experire vtrum ydoneum ministrum
+          <lb ed="#N" n="93"/>elegeris cui commisisti dominici sanguinis
+          consecra<lb ed="#N" n="94" break="no"/>tionem id est sacram dispensationem.
+        </p>
+        <p xml:id="v78d89-aa8eiq-d1e124">
+          ⁋ Contra. de conse. di. ii.
+          perue<lb ed="#N" n="95" break="no"/>nit. ibi dicitur. Presbiter per semetipsum infirmum communicet. quia
+          <lb ed="#N" n="96"/>si aliter fecerit: gradus sui periculo subiacebit.
+        </p>
+        <p xml:id="v78d89-aa8eiq-d1e132">
+          ⁋ Item dis.
+          <lb ed="#N" n="97"/>xciii. Non decet dyaconem panem dare id est corpus christi.
+        </p>
+        <p xml:id="v78d89-aa8eiq-d1e137">
+          ⁋ Responsio i
+          <lb ed="#N" n="98"/>in necessitate licet dyaconem corpus christi et sanguinem dispensa
+          <lb ed="#N" n="99"/>re. Unde dis. xciii. presente presbitero dyaconus eucharistiam
+          cor<lb ed="#N" n="100" break="no"/>poris christi si necessitas cogit iussus eroget. Nota quod dicit
+          ius<lb ed="#N" n="101" break="no"/>sus: quia episcopo vel presbitero longe positis non iussus potest. et
+          li<lb ed="#N" n="102" break="no"/>cet. vt scilicet eodem dyacones vbi dicitur de dyaconibus. absque
+          <lb ed="#N" n="103"/>episcopo vel presbitero baptizare non audeant: nisi predictis ordini
+          <lb ed="#N" n="104"/>bus fortassis longius constitutis necessitas extrema compellat
+          <lb ed="#N" n="105"/>quod etiam laycis facere plurimum contingit: sacri corporis
+          ero<lb ed="#N" n="106" break="no"/>gationem sub cospectu episcopi vel presbiteri nec his absentibus ius
+          <lb ed="#N" n="107"/>non habeant exercendi. Quod autem dicitur in canone sacri corporis
+          <lb ed="#N" n="108"/>erogatio etc. non refertur ad immediatam literam. quia nunquam
+          <lb ed="#N" n="109"/>laycis conceditur erogatio corporis christi. Nota ergo quod vbi nc
+          <lb ed="#N" n="110"/>cessitas exigit et presbiter est absens. potest dyaconus iure bapti
+          <lb ed="#N" n="111"/>zare et corpus christi erogare infirmis si consecratum est in ecclesia
+          <lb ed="#N" n="112"/>in presentia presbiteri non potest etsi necessitas exigat: nisi iussus c
+          <lb ed="#N" n="113"/>a presbitero. puto cum multi sint qui indigent baptismo et
+          pre<lb ed="#N" n="114" break="no"/>sbiter omnibus non potest sufficere. similiter si multi volunt
+          acci<lb ed="#N" n="115" break="no"/>pere corpus christi. nec presbiter sufficit omnibus. igitur illud de
+          <lb ed="#N" n="116"/>cretum omnimodo presbiter etc. intelligi debet nisi vrgente ne
+          <lb ed="#N" n="117"/>cessitate vel fortasse omnino seruandum erat ad tempus ad ex
+          <lb ed="#N" n="118"/>tirpandum consuetudinem horribilem et detestabilem.
+          de<lb ed="#N" n="119" break="no"/>qua premittitur in eodem ca.
+        </p>
+        <p xml:id="v78d89-aa8eiq-d1e187">
+          ⁋ Ad illud quod obiicitur quod
+          <lb ed="#N" n="120"/>non oportet dyaconem panem dare. exponitur sic id est pa
+          <lb ed="#N" n="121"/>nem consecrare.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

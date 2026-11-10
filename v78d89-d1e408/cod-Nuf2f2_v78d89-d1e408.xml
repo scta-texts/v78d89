@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="35"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e408"><!-- q6m4 -->
+        <head xml:id="v78d89-d1e408-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-d1e408-Hd1e103" type="question-title">De efficacia sacramentorum legalium</head>
+        <p xml:id="v78d89-d1e408-d1e106">
+          <lb ed="#N" n="79"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-d1e408-d1e111">
+          <lb ed="#N" n="80"/>COnsequenter queritur de efficacia sacramentorum
+          le<lb ed="#N" n="81" break="no"/>gis scripte. Primo vtrum sanctificabant siue
+          iu<lb ed="#N" n="82" break="no"/>stificabant. Secundo vtrum purgabant ab
+          im<lb ed="#N" n="83" break="no"/>mundiciis legis. Tercio vtrum eorum exercitium
+          <lb ed="#N" n="84"/>alicuius erat vtilitatis aut efficacie.
+        </p>
+        <div xml:id="v78d89-d1e408-Dd1e124">
+          <head xml:id="v78d89-d1e408-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-d1e408-d1e128">
+            <lb ed="#N" n="85"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e408-d1e133">
+            <lb ed="#N" n="86"/>QUeritur ergo primo vtrum sanctificabant siue
+            iustifica<lb ed="#N" n="87" break="no"/>bant. et non queritur de opere operante: sed de ipso operato.
+            <lb ed="#N" n="88"/>vt de agno paschali vel de ipso sacrificio siue
+            ho<lb ed="#N" n="89" break="no"/>locausto et de aqua expiationis. Quod autem sanctificabant siue
+            iustifi<lb ed="#N" n="90" break="no"/>cabant: viditur ex ipsa intentione nominis. Sacramentum enim dicitur quo sacramur:
+            <lb ed="#N" n="91"/>munimentum quo mumimur: et indumentum quo induimur. cum ergo illa
+            <lb ed="#N" n="92"/>secundum se essent sacramenta: erant per consequens sanctificantia.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e151">
+            ⁋ Item Ro. vii.
+            <lb ed="#N" n="93"/>Lex sancta. glo. iustificans peccatorem. Cum ergo hec essent de lege
+            ma<lb ed="#N" n="94" break="no"/>gis quantum ad intentionem nominis ordinantia ad sanctitatem: magis
+            san<lb ed="#N" n="95" break="no"/>ctificabant.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e160">
+            ⁋ Item arguitur ex simili. opus operatum quod obtulit abel
+            <lb ed="#N" n="96"/>vel abraham vel melchisedech placuit deo. sicut habetur in canone
+            <lb ed="#N" n="97"/>misse. Non placuit autem nisi quia sanctum faciebat. ergo huiusmodi erunt
+            <lb ed="#N" n="98"/>sancta ab effectu: pari ratione ea que erant in lege. Similiter etiam arguitur
+            <lb ed="#N" n="99"/>ex hoc quod in danieli dicitur. iii. In anima contrita et spiritu humilitatis
+            su<lb ed="#N" n="100" break="no"/>scipiamur sicut in holocaustum arietum et thaurorum. sed constat quod
+            <lb ed="#N" n="101"/>sacrificium cordis contriti et humiliati placet deo tamquam iustificans
+            <lb ed="#N" n="102"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e179">
+            ⁋ Item legalia fuerunt media inter circumcisionem et baptismum.
+            <lb ed="#N" n="103"/>sed extrema sanctificabant siue iustificabant. ergo et medium.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e184">
+            ⁋ Item
+            <lb ed="#N" n="104"/>dicitur de hostia quod acceptabilis erat et perficiens ad expiationem sicut
+            <lb ed="#N" n="105"/>habetur in lege. ergo sanctificabst.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e191">
+            ⁋ Item nonne offerebatur pro diuersis
+            <lb ed="#N" n="106"/>peccatis. quare ergo non dicitur iustificare: cum in ipsa fient sanctificatio.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e196">
+            ⁋ Item
+            <lb ed="#N" n="107"/>ad heb. ix. Sanguis hircorum et cinis vitule inquinatos
+            sanctifi<lb ed="#N" n="108" break="no"/>cabat ad emundationem carnis. sed que esset hec sanctificatio nisi
+            ali<lb ed="#N" n="109" break="no"/>quo modo attingeret animam. sanctum enim mediante anima attingit corpus: ergo
+            <lb ed="#N" n="110"/>illa etiam sanctificabant animam. Similiter numeri. xix. dicitur. Si quis hoc
+            ri<lb ed="#N" n="111" break="no"/>tu non fuerit expiatus: peribit anima illa de medio ecclesie. ergo
+            va<lb ed="#N" n="112" break="no"/>luit ad sanctificationem: ergo huiusmodi sanctificabant.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e212">
+            ⁋ Item hugo. passio
+            <lb ed="#N" n="113"/>saluatoris que primo loco sacramenta gratie sanctificabat ad
+            ef<lb ed="#N" n="114" break="no"/>fectum salutis. mediantibus istis etiam illa prioris temporis
+            sacramen<lb ed="#N" n="115" break="no"/>ta sanctificabat. ergo sacramenta veteris legis sanctificata sunt. sed
+            <lb ed="#N" n="116"/>sacramenta sanctificata non sunt nisi vt sanctitatem conferant. ergo illa etc.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e223">
+            <lb ed="#N" n="117"/>⁋ Item sacramenta fuerunt instituta in remedium et reparationem
+            la<lb ed="#N" n="118" break="no"/>psus sicut dicit hugo: sed duplex erat lapsus. et quo ad
+            cogni<lb ed="#N" n="119" break="no"/>tiuam per ignorantiam: et quo ad effectiuam per concupiscentiam.
+            pro<lb ed="#N" n="120" break="no"/>pter que duo reparanda duo sacramenta concurrunt scilicet vnum
+            misti<lb ed="#N" n="121" break="no"/>cum et aliud gratuitum.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e237">
+            ⁋ Item concurrente lege moysi magis
+            in<lb ed="#N" n="122" break="no"/>firmabatur affectiua quam cognitiua. quia lex minuebat
+            ignoran<lb ed="#N" n="123" break="no"/>tiam et augmentabat concupiscentiam.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e244">
+            ⁋ Item tunc debebant
+            sacramen<lb ed="#N" n="124" break="no"/>ta magis dari ad tollendum concupiscentiam quam ignorantiam: sed hec
+            <lb ed="#N" n="125"/>non poterant nisi conferendo gratiam. ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e251">
+            ⁋ Contra. heb. ix.
+            ha<lb ed="#N" n="126" break="no"/>buit prius iustificationis culture. glo. non veras et spirituales: sed
+            <lb ed="#N" n="127"/>pro modo culture carnales. non ergo sacramenta illa sanctificabant
+            si<lb ed="#N" n="128" break="no"/>ue iustificabant.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e260">
+            ⁋ Item heb. x. Impossibile est sanguinem
+            hirco<lb ed="#N" n="129" break="no"/>rum aut thaurorum auferre peccata. ergo non sanctificabant.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e265">
+            ⁋ Item ecclesiastici.
+            <lb ed="#N" n="130"/>xxxiiii. Dona iniquorum etc. glo. Numquam ergo placuerunt illa
+            sacri<lb ed="#N" n="131" break="no"/>ficia carnalia. et hoc dicit augustinus in libro de ciui. dei. quod numquam in illis
+            <lb ed="#N" n="132"/>sacrificiis delectatus est deus.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e274">
+            ⁋ Item dicit orige. quod illa ratione
+            permi<lb ed="#N" n="133" break="no"/>sit deus hoc sibi fieri. qua ratione permisit libellum repudii. sed
+            con<lb ed="#N" n="134" break="no"/>stat quod repudium fuit malum: ergo tanta effusio sanguinis siue
+            cre<lb ed="#N" n="135" break="no"/>matio animalium inutilis. ergo non sanctificabat.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e284">
+            ⁋ Ad quod
+            di<lb ed="#N" n="136" break="no"/>cendum. Quod sacramenta ratione operis operati non sanctificabant vel
+            iu<lb ed="#N" n="137" break="no"/>stificabant. sicut habetur. iii. Ro. Ex operibus legis non
+            iustifi<lb ed="#N" n="138" break="no"/>cabitur omnis caro. glo. opera legis dicuntur que cum lege
+            institu<lb ed="#N" n="139" break="no"/>ta et terminata sunt. vt erant cerimonialia et figuratiua. que
+            <pb ed="#N" n="36"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>numquam valuerunt concupiscieniam emendare: etsi cum caritate et de
+            <lb ed="#N" n="2"/>uotione fierent.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e304">
+            ⁋ Si autem queratur qualiter ista facta in carita
+            <lb ed="#N" n="3"/>te non iustificabant: sicut nunc ista que facimus in caritate
+            iustifi<lb ed="#N" n="4" break="no"/>casat. Respondemus. quia illa non fuerunt instituta ad iustificationem:
+            <lb ed="#N" n="5"/>sced in futurorum significationem et peccati infirmitatis ostensionen
+            <lb ed="#N" n="6"/>et propter alia quedam que infra patebunt. Sed sacramentis
+            euangeli<lb ed="#N" n="7" break="no"/>cis hoc conuenit vt sanctificent. sicut est de aqua sanctificata in bap
+            <lb ed="#N" n="8"/>tismo. de crismate in confirmatione. de corpore christi in
+            sacramen<lb ed="#N" n="9" break="no"/>to altaris. de oleo in extrema vnctione. vnde non sanctificabant
+            <lb ed="#N" n="10"/>quantum ad diminutionem culpe excepta circumcisione.
+            nihilomi<lb ed="#N" n="11" break="no"/>nus sanctificabant quodammodo scilicet quantum ad diminutionem reatus.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e326">
+            <lb ed="#N" n="12"/>⁋ Ad aliud dicendum quod intentio sacramenti non est vniuersaliter ad
+            <lb ed="#N" n="13"/>efficiendum sanctitatem vel agendum siue roborandum: sed ad
+            sanctifi<lb ed="#N" n="14" break="no"/>candum. vnde illa dicuntur sacramenta quia sacre rei signa id est ordina
+            <lb ed="#N" n="15"/>ta ad sanctificandum. Nomn autem sacramenti ad vtrumque sumitur.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e337">
+            <lb ed="#N" n="16"/>⁋ Ad secundum dicendum. quod lex cum dicitur iustificare: hoc intelligitur ratione
+            <lb ed="#N" n="17"/>operum. si cum deuotione fierent vel potius ratione malorum. de istis enim
+            <lb ed="#N" n="18"/>loquitur et hoc intelligitur quo ad exercitium: non quod efficiant infusio
+            <lb ed="#N" n="19"/>nem gratie. Romne vero sacramentorum legalium non dicitur ipsa lex
+            iustifi<lb ed="#N" n="20" break="no"/>care siue sanctificare.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e350">
+            ⁋ Ad tercium dicendum est. Quod sacrificia
+            <lb ed="#N" n="21"/>abel et abrahe dicebantur placere. et propter deuotionem
+            offeren<lb ed="#N" n="22" break="no"/>tie: et qualitatem rei oblate: et propter significationem rei
+            sacre<lb ed="#N" n="23" break="no"/>nec tamen ipsa inquantum erant sacramenta sanctificabant id est sanctum
+            <lb ed="#N" n="24"/>efficiebant: sed gratia fidei vel alterius virtutis.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e361">
+            ⁋ Ad quartum
+            <lb ed="#N" n="25"/>dicendum est. quod illa comparatio in canone non fit propter ipsum sacrificium
+            <lb ed="#N" n="26"/>quia multomagis placet hoc quam illa placuerunt. Sed potest
+            intelli<lb ed="#N" n="27" break="no"/>gi propter deuotionem offerentis. vt sit sensus. ex quanta
+            deuo<lb ed="#N" n="28" break="no"/>tione ipsi obtulerant: ex quanta valeam ego offerre. vel vt sit
+            sen<lb ed="#N" n="29" break="no"/>sus. hoc in effectu impleatur quod ibi in signo gerebatur.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e375">
+            ⁋ Ad
+            quin<lb ed="#N" n="30" break="no"/>tum dicendum. Quod daniel non retulit suam comparationem quantum ad essentiam
+            <lb ed="#N" n="31"/>oblatorum. quia multomagis placuit deo seruicium cordis
+            <lb ed="#N" n="32"/>contriti quam exterius sacrificium in pecoribus: sed hoc potest
+            referri<lb ed="#N" n="33" break="no"/>ratione status personarum et loci. quia tunc temporis erant in babilone vbi
+            <lb ed="#N" n="34"/>non poterant offerre domino in loco quo preceparat dominus. et constat quod
+            bo<lb ed="#N" n="35" break="no"/>ni de populo isrls in loco statuto a domino cum deuotione magis
+            of<lb ed="#N" n="36" break="no"/>ferebant. et hoc acciderat danieli cum illud dicebat.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e393">
+            ⁋ Ad
+            se<lb ed="#N" n="37" break="no"/>xtum dicendum. Quod licet media essent tempore inter circumcisionem et
+            <lb ed="#N" n="38"/>baptismum. non tamen erant media ad efficiendum: sed media institu
+            <lb ed="#N" n="39"/>ta erant ad significandum. circumcisioni enim quantum ad efficiendum
+            <lb ed="#N" n="40"/>immediate successit baptismus tamquam perfectius sacramentum in
+            cau<lb ed="#N" n="41" break="no"/>sando.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e406">
+            ⁋ Ad septimum vero dicendum. quod hostia erat acceptabilis
+            <lb ed="#N" n="42"/>ad expiationem. non propter efficaciam sanctitatis quam in se
+            ha<lb ed="#N" n="43" break="no"/>beret: sed quia erat terminus sanctificationis vt mediante tali dato
+            fi<lb ed="#N" n="44" break="no"/>eret deuote offerentis reconciliatio.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e415">
+            ⁋ Ad. viii. vero dicendum est.
+            <lb ed="#N" n="45"/>quod sanguis hircorum et cinis vitule sicut dicit apostolus. valebat
+            <lb ed="#N" n="46"/>ad emundationem carnis. quia mundabat ab aliqua irregularita
+            <lb ed="#N" n="47"/>te velliberabat a debito: sed non propter hoc ipsum opst operatum
+            sanctifi<lb ed="#N" n="48" break="no"/>cabat animam nec est ista sanctificatio descendens mediante anima in
+            <lb ed="#N" n="49"/>corpus sicut est cum dicitur. Nescitis quoniam membra vratra templum sunt
+            <lb ed="#N" n="50"/>spiritus sancti:ibi enim mediante anima sanctitas templi transfertur
+            <lb ed="#N" n="51"/>ad corpus. Similiter dicendum de eo quod dicitur Numeri. xix. Ila enim
+            <lb ed="#N" n="52"/>expiatio fiebat ab immunditiis legalibus exterioribus.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e435">
+            ⁋ Ad
+            <lb ed="#N" n="53"/>aliud dicendum. quod sacramenta legis scripte ratione operis operati dico
+            <lb ed="#N" n="54"/>secundum quod opst operatum dicitur operatio relata ad rem oblatam siue
+            immo<lb ed="#N" n="55" break="no"/>tam vt in sacrificiis et in aliis similiter sanctificabat quantum ad
+            <lb ed="#N" n="56"/>diminutionem reatus: non autem quantum ad diminutionem culpe excepta
+            <lb ed="#N" n="57"/>circumcisione. Quod autem dicit hugo. quod christi passio
+            sanctifi<lb ed="#N" n="58" break="no"/>cabat hec mediantibus sacramentis gratie hoc non intelligendum est
+            <lb ed="#N" n="59"/>quia erant vasa gratie sicut sacramenta legis gratie: sed quia fide
+            passio<lb ed="#N" n="60" break="no"/>nis et sacramentorum gratie meruerunt sanctificari exercentes huiusmodi
+            <lb ed="#N" n="61"/>sacrificia. Unde sacramenta legis gratie dicuntur esse mediantibus
+            <lb ed="#N" n="62"/>quiba sacramenta illa fuerunt sanctificata. quia fides
+            sacra<lb ed="#N" n="63" break="no"/>mentorum legis gratie efficiebat illa sancta id est dari in signum
+            <lb ed="#N" n="64"/>sanctificationis id est purgationis a culpa: sicut de circumcisione.
+            <lb ed="#N" n="65"/>et a pena: sicut de aliis. vnde non dicuntur illa sacramenta
+            san<lb ed="#N" n="66" break="no"/>ctificata siue sancta quia erant vasa gratie sicut sacramenta legis
+            <lb ed="#N" n="67"/>gratie. sed quia fuerunt figure sacramentorum legis gratie. que
+            sim<lb ed="#N" n="68" break="no"/>pliciter sancta sunt. et data ad sanctificandum a culpa:
+            si<lb ed="#N" n="69" break="no"/>cut circumcisio. et a pena: sicut alia.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e474">
+            ⁋ Ad aliud quod obiicitur
+            <lb ed="#N" n="70"/>dicendum. quod sacramenta habent aliquid misticum et aliquid
+            gra<lb ed="#N" n="71" break="no"/>tuitum. Et quantum ad hoc quod dicuntur habere aliquid misticum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>coueniunt omnia sacramenta legis nature. scripte et gratie. Quatum
+            <lb ed="#N" n="73"/>ad hoc quod dicuntur habere gratuitum nequaquam. quia sacramenta
+            <lb ed="#N" n="74"/>legis gratie habent gratuitum vt causa disponens et efficiens
+            simpli<lb ed="#N" n="75" break="no"/>citer. quantum ad quedam vt alis determinabitur plenius. quantum ad
+            <lb ed="#N" n="76"/>gratiam purgantem vt causa sine qua non. sed sacramenta legis scripte
+            <lb ed="#N" n="77"/>numquam vt simpliciter causa: sed forte vt causa disponens sicut solum
+            <lb ed="#N" n="78"/>circumcisio. et vt causa sine qua non.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e499">
+            ⁋ Ad aliud dicendum. quod licet
+            <lb ed="#N" n="79"/>infirmabantur magis tempore scripte quantum ad affectiuam quam quantum
+            <lb ed="#N" n="80"/>ad cognitiuam: non propter hoc sequitur quod effectus sacramentorum
+            <lb ed="#N" n="81"/>siue efficacia magis esset ad tollendum concupisentiam quam ignorantia
+            <lb ed="#N" n="82"/>quia principaliter data fuit lex in institutionem et vt duceret ad
+            <lb ed="#N" n="83"/>aliud. vnde data est in signum et figuram. Unde. x. heb. Lex est habens
+            <lb ed="#N" n="84"/>vmbram futurorum bonorum. glo. extraneam similitudinem
+            futu<lb ed="#N" n="85" break="no"/>rorum bonorum habens. Item. iii. gal. Lex pedagogius. glo. dum
+            te<lb ed="#N" n="86" break="no"/>nera studiis eruditur infantia. Item vt conuinceretur de errore:
+            <lb ed="#N" n="87"/>et cognita infirmitate confugeret ad exemplum. Ro. v. vbi
+            <lb ed="#N" n="88"/>lex subintrauit etc. glo. magnum consilium dei fuit vt per legem
+            ha<lb ed="#N" n="89" break="no"/>bundaret delictum. vt in austeritate legis suam intelligentes in
+            <lb ed="#N" n="90"/>firmitatem infirmi ad medicum currerent vel auxilium gratie
+            quere<lb ed="#N" n="91" break="no"/>rent. hec glo. Quia igitur lex proprie fuit ad instruendum non autem ad
+            <lb ed="#N" n="92"/>curandum. dico proprie et immediate efficacia eius est ad
+            tollen<lb ed="#N" n="93" break="no"/>dam ignorantiam magisquam concupiscentiam.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e408-Dd1e536">
+          <head xml:id="v78d89-d1e408-Hd1e538">Articulus 2</head>
+          <p xml:id="v78d89-d1e408-d1e540">
+            <lb ed="#N" n="94"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e408-d1e545">
+            <lb ed="#N" n="95"/>QUeritur consequenter vtrum purgabant ab
+            immundi<lb ed="#N" n="96" break="no"/>ciis. Circa hoc sic obiicitur. Uidetur quod sanguis
+            vi<lb ed="#N" n="97" break="no"/>tule aspersus non poterat expiare sanctuarium
+            <lb ed="#N" n="98"/>siue tabernaculum et templum ab immundiciis filiorum isrlis. quia
+            <lb ed="#N" n="99"/>si tabernaculum vel templum contraxerit immundiciam a peccatis
+            fi<lb ed="#N" n="100" break="no"/>liorum isrlis: ergo proprie peccatum erat causa illius immundicie. Sed
+            <lb ed="#N" n="101"/>contrariorum sunt cause contrarie: ergo cum gratia sit contraria
+            pecca<lb ed="#N" n="102" break="no"/>to et immundicia mundicie: sola gratia debebat esse causa
+            mundi<lb ed="#N" n="103" break="no"/>cie sed sanguis vitule aspersus nullam gratiam habebat: ergo non
+            <lb ed="#N" n="104"/>poterat remoure immundiciam contractam a peccato. a tabernaculo.
+            <lb ed="#N" n="105"/>vel templo.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e571">
+            ⁋ Item obiicitur contra illud quod dicit apostolus ad heb. ix.
+            <lb ed="#N" n="106"/>Sanguis hircorum et cinis vitule aspersus inquinatos
+            sanctifi<lb ed="#N" n="107" break="no"/>cat ad emundationem carnis. Dicit enim augustinus. Non potest
+            corrun<lb ed="#N" n="108" break="no"/>pi corpus nisi prius corrumpatur animus. Eadem ratione non potest
+            inqui<lb ed="#N" n="109" break="no"/>nari caro humana inquinatione que indigeat purgatione
+            <lb ed="#N" n="110"/>per ministros ecclesie nisi prius inquinata sit anima: ergo ex inquinatio
+            <lb ed="#N" n="111"/>ne anime contrahitur inquinatio in carne. ergo cum cessat causa debeat
+            ces<lb ed="#N" n="112" break="no"/>sare effectus. et non aliter non potest remoueri inquinatio a carne
+            nisi<lb ed="#N" n="113" break="no"/>remoueatur inquinatio ab anima: sed sanguis hircorum et thaurorum
+            <lb ed="#N" n="114"/>et cinis vitule aspersus non potest tollere inquinationem carnis.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e593">
+            <lb ed="#N" n="115"/>⁋ Item animus non sanctificatur quod magis sanctum est. sed caro hominis
+            <lb ed="#N" n="116"/>qui habebat caritatem sanctior erat quam caro vitulem rufe. ergo
+            <lb ed="#N" n="117"/>sanctior erat quam cinis vitule qui de combustione reliquebatur. ergo
+            ci<lb ed="#N" n="118" break="no"/>nis vitule aspersus non poterat sanctificare carnem hominis exi
+            <lb ed="#N" n="119"/>stenris in caritate.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e607">
+            ⁋ Item dicitur nume. xix. Quod sacerdos qui immola
+            <lb ed="#N" n="120"/>uerat vitulam rufam lotis vestibus et corpore suo
+            ingredieba<lb ed="#N" n="121" break="no"/>tur in castra. maculatusque erat vsque ad vesperam. Idem dicitur de
+            <lb ed="#N" n="122"/>illo qui combusserat eam. Similiter de illo qui colligebat cineres et
+            tan<lb ed="#N" n="123" break="no"/>gebat. ex quibus cineribus positis in aqua fiebat aqua lustrationis
+            <lb ed="#N" n="124"/>ex qua aspergebantur immundi die tercio et septimo. et sic
+            munda<lb ed="#N" n="125" break="no"/>bantur. sed si sacerdos tam immolans quam comburens quam colligens cine
+            <lb ed="#N" n="126"/>res et tangens immundus fiebat: non poterat mundare. Quia
+            <lb ed="#N" n="127"/>dicitur ecclesastici. xxxiiii. ab immundo quid mundabitur: ergo si ab immundo
+            <lb ed="#N" n="128"/>sacerdote aspergebatur immundus non mundabatur.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e629">
+            ⁋ Item si aspersus
+            <lb ed="#N" n="129"/>huiusmodi cineribus mundabatur. ergo eadem ratione sacrados tangens huiusmodi
+            <lb ed="#N" n="130"/>cineres non contrahebant immundiciam a contactu: sed potius
+            amitte<lb ed="#N" n="131" break="no"/>bat si habebat. quod est contra predicta.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e638">
+            ⁋ Ad primum
+            di<lb ed="#N" n="132" break="no"/>cendum. quod hec propositio est falsa si vniuersaliter intelligatur
+            <lb ed="#N" n="133"/>contrariorum sunt contrarie cause. Non enim tenet in agentibus
+            <lb ed="#N" n="134"/>secundum rationem et voluntatem. vnde decepti sunt manichei
+            ponen<lb ed="#N" n="135" break="no"/>tes duo principia contraria: vnum visibilium aliud
+            inui<lb ed="#N" n="136" break="no"/>sibilium. Unum lucis aliud tenebrarum. Idem enim est
+            prin<lb ed="#N" n="137" break="no"/>cipium scilicet deus. qui rationabiliter et secundum voluntatem operatur.
+            <lb ed="#N" n="138"/>Et Aresto. dicit. quod potestates que sunt secundum voluntatem:
+            <lb ed="#N" n="139"/>eedem sunt contrariorum. licet ergo templum vel tabernaculum
+            im<lb ed="#N" n="140" break="no"/>mundiciam contraxerit a peccatis filiorum isrlis. non erat necesse
+            <lb ed="#N" n="141"/>illam immundiciam tolli per gratiam contrariam peccato: immo
+            pote<pb ed="#N" n="37"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>terat tolli per aliquiod factum corporale. sicut videmus quod infirmitas
+            <lb ed="#N" n="2"/>corporalis aliquando contrahitur a peccato mortali. Unde eccesasti. xxxviii.
+            <lb ed="#N" n="3"/>Qui delinquit in conspectu eius qui fecit eum: incidit in manus
+            medi<lb ed="#N" n="4" break="no"/>ci. et tamen illa infirmitas corporalis sanatur per medicinam sine in
+            <lb ed="#N" n="5"/>fusione gratie.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e675">
+            ⁋ Ad secundum dicendum quod non valet hec argumenta
+            <lb ed="#N" n="6"/>tio. Non potest corrumpi nisi corrumpatur. ergo non potest
+            inqui<lb ed="#N" n="7" break="no"/>nari caro nisi prius inquinetur anima: quoniam augustinus. intelligit de
+            cor<lb ed="#N" n="8" break="no"/>ruptione corporis secundum quam corpus efficitur templum dyaboli ex
+            <lb ed="#N" n="9"/>peccato mortali quod est in anima. Apostolus autem intelligit inquinationem
+            <lb ed="#N" n="10"/>carnis aliquam esse immundiciam que faciebat ad tempus hominem
+            <lb ed="#N" n="11"/>irregularem: et suspendebat eum ab ingressu tabernaculi vel
+            <lb ed="#N" n="12"/>templi. et hec immundicia vel irregularitas sepe contrahebatur ex
+            <lb ed="#N" n="13"/>actu meritorio. tangere enim mortuos et sepelire: meritorium
+            <lb ed="#N" n="14"/>erat.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e697">
+            ⁋ Ad tercium dicendum quod hec est falsa magis sanctum non
+            san<lb ed="#N" n="15" break="no"/>ctificatur a minus sancto. et patet in sacramentis visibilibus per que homo
+            <lb ed="#N" n="16"/>quamuis ipsis sit superior: tamen ab eis aliquam sanctificationem habet
+          </p>
+          <p xml:id="v78d89-d1e408-d1e704">
+            <lb ed="#N" n="17"/>⁋ Ad quartum dicendum Quod sacerdotes qui tangebant huiusmodi sancta
+            <lb ed="#N" n="18"/>necesse erat lauari. non esset decens vt cum manibus sanguinolentis
+            <lb ed="#N" n="19"/>ac cinerosis commederent aut tangerent alia. Item propter sanctitatem eorum
+            <lb ed="#N" n="20"/>qui tetigerant necesse erat eas ablui: ne fieret immediata commixtio
+            <lb ed="#N" n="21"/>sanctorum cum non sanctis. Unde et manus sacerdotum consecratorum
+            crisma<lb ed="#N" n="22" break="no"/>te defricantur cum sale: et membra infirmorum vncto oleo
+            abster<lb ed="#N" n="23" break="no"/>guntur cum stupa: ne fiat immediatus transitus a sanctis actionibus ad
+            <lb ed="#N" n="24"/>communes. vnde in signum huiuspreceptum est leui. xxi. Quod poetifex non
+            commi<lb ed="#N" n="25" break="no"/>sceat stirpem generis sui vulgo gentis sue. quia ego dominus qui
+            sancti<lb ed="#N" n="26" break="no"/>fico eum. Item ezech. xliiii. dictum est de sacerdotibus. cum egredientur
+            <lb ed="#N" n="27"/>atrium exterius ad poplum: exuent se vestibus quibus ministrauerant
+            <lb ed="#N" n="28"/>et reponent eas in gazophilacium sanctuarii et vestient se vestimn
+            <lb ed="#N" n="29"/>tis suis.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e736">
+            ⁋ Quare vero postablutionem commaculati essent vsque ad
+            <lb ed="#N" n="30"/>vesparam: triplex est causa. Prima est quia legalia imposita fuerunt
+            <lb ed="#N" n="31"/>in onus. et voluit dominus tam sacerdotes quam alios esse sub onere
+            le<lb ed="#N" n="32" break="no"/>gis. Secunda causa est: quia per hoc voluit dominus reprimere superbiam sacerdo
+            <lb ed="#N" n="33"/>tum ne forte extollerentur ob hoc quia mundabant alios. Tercia
+            <lb ed="#N" n="34"/>propter figuram. Sacerdos enim legalis figurabat
+            necessario<lb ed="#N" n="35" break="no"/>sacerdotem qui reum et indignum se iudicet consecratione eukaristie
+            <lb ed="#N" n="36"/>bonarum enim mentium est ibi culpam agnoscere vbi culpa non est.
+            su<lb ed="#N" n="37" break="no"/>mitur autem agnoscere pro punire sicut ibi. homo agnoscit: deus
+            igno<lb ed="#N" n="38" break="no"/>scit.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e758">
+            ⁋ Ad vltimum dicendum. Quod ab immundo nihil mundatur
+            exen<lb ed="#N" n="39" break="no"/>plariter. quia non dat bonum exemplum aliis cum sit
+            immun<lb ed="#N" n="40" break="no"/>de vite. sed ab immundo aliquid mundatur sacramentaliter.
+            <lb ed="#N" n="41"/>sicut per malum ministrum mundantur aliquando fideles
+            sacramen<lb ed="#N" n="42" break="no"/>taliter. Mundatio vero illa que fiebat per aquam lustrationis
+            <lb ed="#N" n="43"/>sacramentalis erat: et sic per immundum sacerdotem fieri poterat.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e408-Dd1e772">
+          <head xml:id="v78d89-d1e408-Hd1e774">Articulus 3</head>
+          <p xml:id="v78d89-d1e408-d1e776">
+            <lb ed="#N" n="44"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-d1e408-d1e781">
+            <lb ed="#N" n="45"/>COnsequenter queritur. vtrum eorum exercitium erat
+            <lb ed="#N" n="46"/>alicus vtilitatis an efficacie. Quod videtur. Hugo.
+            <lb ed="#N" n="47"/>Saluatoris aduentu appropiniquante. oportebat
+            <lb ed="#N" n="48"/>vt eodem ordine et fides in cognitione et gratia in salute cresceret
+            <lb ed="#N" n="49"/>et eadem gratia in sacramentis foris et signis se euidentius
+            mani<lb ed="#N" n="50" break="no"/>festaret. ecce quod sacramenta succedentia efficaciora sunt in
+            <lb ed="#N" n="51"/>significando et operando. et hoc manifestat ponendo
+            exem<lb ed="#N" n="52" break="no"/>plum. de oblationibus legis nature et legis scripte et legis
+            <lb ed="#N" n="53"/>euangelice. Ex his videtur quod sacramenta legis scripte erant
+            <lb ed="#N" n="54"/>alicuius vtilitatis.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e805">
+            ⁋ Item vt dicit hugo. Tria genera
+            sa<lb ed="#N" n="55" break="no"/>cramentorum inueniuntur sub lege scripta. quedam spetialiter ad
+            <lb ed="#N" n="56"/>remedium. quedam vero ad obsequium. quedam ad cultum diuinum.
+            <lb ed="#N" n="57"/>Prima instituta fuerunt quasi ad necessitatem vt in eis homo
+            sanctifi<lb ed="#N" n="58" break="no"/>caretur. qualis circumcisio fuit et hostie pro peccato et pro delicto et
+            ce<lb ed="#N" n="59" break="no"/>tera. quedam que spietialiter ad emundationem et remissionem
+            insti<lb ed="#N" n="60" break="no"/>tuta fuerunt. Secunda autem quasi ad exercitationem fuerunt proposita. vt
+            <lb ed="#N" n="61"/>in eis deuotio fidelium exerceretur et meritum augeretur. quales scilicet
+            <lb ed="#N" n="62"/>fuerunt hostie pacificorum que offerebantur a fidelibus ob
+            reconci<lb ed="#N" n="63" break="no"/>liandam sibi gratiam diuinam. Tercia instituta fuerunt quasi
+            <lb ed="#N" n="64"/>ad preparationem quandam. vt quasi instrumenta quedam essent ad
+            ce<lb ed="#N" n="65" break="no"/>tera sacramenta tractanda et sanctificanda. quale fuit
+            taberna<lb ed="#N" n="66" break="no"/>culum et atrium: et omnia vtensilia que continebantur in eis. hec hugo
+            <lb ed="#N" n="67"/>Hec autem non dicuntur esse modice vtilitatis ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e836">
+            ⁋ Contra
+            <lb ed="#N" n="68"/>vt dicit hugo. In preceptis est meritum: in promissis premium
+            <lb ed="#N" n="69"/>in sacramentis autem adiutorium. Utilitas igitur sacramentorum est sub
+            <lb ed="#N" n="70"/>merito adiutorii vt dicit hugo. quia homo per se infirmus erat.
+            ve<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>nerunt sacramenta media inter precepta perficienda et promissa ad
+            <lb ed="#N" n="72"/>obtinenda. Sed sacramenta legis in onus data sunt. ergo non prestant
+            <lb ed="#N" n="73"/>adiutorium.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e854">
+            ⁋ Item. v. ad Ro. Lex subintrauit. etc. glo. non pro
+            <lb ed="#N" n="74"/>iustis data est. vt etim alubi ait apostolus. Pro iustis lex posita non
+            <lb ed="#N" n="75"/>est. i. thioo. i. quia per eam iusticie nil accreuit. igitur
+            vide<lb ed="#N" n="76" break="no"/>tur quod nihil accreuit quod sit in remedium culpe et
+            of<lb ed="#N" n="77" break="no"/>fense.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e865">
+            ⁋ Item. xiii. exo. Cum emisisset poplum: non eos
+            du<lb ed="#N" n="78" break="no"/>xit etc. glo. grego. de egipto exeuntibus euicino bella subtra
+            <lb ed="#N" n="79"/>huntur. quia relinquentibus seculum quedam prius tranquillitas ostenditur.
+            <lb ed="#N" n="80"/>ne in ipsa inchoatione et teneritate turbati ad hoc quod reliquerant
+            <lb ed="#N" n="81"/>redeant. Ex hoc patet quod volentes artiorem vitam aggredi quadam
+            sua<lb ed="#N" n="82" break="no"/>uitate sunt manuducendi. Igitur videtur quod indiscrete et
+            inuti<lb ed="#N" n="83" break="no"/>liter populo exeunti de egipto fuit imposita multitudo
+            sacra<lb ed="#N" n="84" break="no"/>mentorum: et maxime cum illa non iustificarent illos in quibus
+            imponeban<lb ed="#N" n="85" break="no"/>tur. vnde videtur quod magis essent causa relapsus quam profectus.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e885">
+            ⁋ Item in
+            <lb ed="#N" n="86"/>multis locis patet quod sacramenta legis scripte numquam placuerunt
+            <lb ed="#N" n="87"/>deo. Unde Isa. i. holocausta arietum et adipem pinguium et
+            san<lb ed="#N" n="88" break="no"/>guinem vitulorum et sanguinem hircorum nolui. glo. Nolui
+            prete<lb ed="#N" n="89" break="no"/>rito vtens. ostendit se numquam sacrificia iudeorum amasse. Sed
+            ex<lb ed="#N" n="90" break="no"/>ercitium rei non amate a deo nullius est vtilitatis. ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e898">
+            ⁋ Item vt
+            <lb ed="#N" n="91"/>habetur ab hugiomne. Tria continet lex scripta. precepta
+            sacramen<lb ed="#N" n="92" break="no"/>ta: promissa. sed sacramenta sunt ad promissa obtinenda secundum illum. sed
+            <lb ed="#N" n="93"/>promissa temporalia sunt in lege que magis sunt ad ruinam quam ad
+            salu<lb ed="#N" n="94" break="no"/>tem. quia secundum augustinus. compedes sunt spirituales quibus impeditur progressus ad
+            <lb ed="#N" n="95"/>pratiam dicit enim augustinus. Compedes nimis onerat: qui sed necessaria
+            ac<lb ed="#N" n="96" break="no"/>cumulat. Si igitur finis sacramentorum legis scripte sunt
+            impedi<lb ed="#N" n="97" break="no"/>menta salutis: igitur et ipsa sine vtilitate exercentur.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e916">
+            ⁋ Ad hoc potest
+            <lb ed="#N" n="98"/>dici. quod exercitium sacramentorum legis scripte non modice fuit
+            <lb ed="#N" n="99"/>vtilitatis.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e923">
+            ⁋ Ad primum propositum in contrarium dicendum. Quod licet lex
+            si<lb ed="#N" n="100" break="no"/>ue legis sacramenta difficultatem et onus habebant: nihilominus
+            <lb ed="#N" n="101"/>magne vtilitatis erant. vt enim dicitur in glo. super illud. lex
+            subintra<lb ed="#N" n="102" break="no"/>uit vt habundaret etc. Ro. v. Lex data est ad domandum super
+            <lb ed="#N" n="103"/>bum et ad flagellandum durum. ad instruendum insipientem: ad ostensio
+            <lb ed="#N" n="104"/>nem delicti et humane infirmitatis ad manifestationem et testamen
+            <lb ed="#N" n="105"/>tum gratie et futurorum significationem. hec ex glo. ibidem. Preterea.
+            <lb ed="#N" n="106"/>dico quod sacramenta legis scripte fuerunt in remedium pene
+            debi<lb ed="#N" n="107" break="no"/>te pro peccato. vnde opstoperatum diminuebat peccatum quantum ad reatum.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e944">
+            <lb ed="#N" n="108"/>⁋ Ad aliud dicendum. quod iusticia quandoque dicitur virtus. qua homo dirigitur in
+            ex<lb ed="#N" n="109" break="no"/>ercitio bonorum operum. et sic sacramenta legis scripte sunt
+            opera<lb ed="#N" n="110" break="no"/>iusticie: inquantum exercenda erant per di obedientiam. Unde hugo
+            vo<lb ed="#N" n="111" break="no"/>cat ea opera virtutum ad edificationem interiorem exercendam. Alio
+            <lb ed="#N" n="112"/>modo dicitur iusticia virtus siue gratia iustificans per purgationem a
+            culpa<lb ed="#N" n="113" break="no"/>et sic dicit glo. non iusticie accreuit. Unde. i. thimo. i. Lex iusto
+            <lb ed="#N" n="114"/>non est posita. glo. quia non ex ea iustificatus est: sed ex lege fidi.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e962">
+            ⁋ Ad
+            <lb ed="#N" n="115"/>aliud dicendum quod non sine magnra prouidentia dei fuit illis hec
+            multitu<lb ed="#N" n="116" break="no"/>do sacramentorum imposita. vt scilicet proni ad ydolatriam ex diutina
+            <lb ed="#N" n="117"/>mora in egipto per exercitationem in his a cultu ydolatrie: ad
+            <lb ed="#N" n="118"/>cultum dei ruocarentur. Unde non erant ills imposita siue precepta: sed
+            <lb ed="#N" n="119"/>solum moralia ante adorationem vituli. Exo. xxxii. Unde glo. super
+            <lb ed="#N" n="120"/>illud. vii. hiere. Non sum locutus cum pratribus vraeris: manifeste onten
+            <lb ed="#N" n="121"/>dit quod primo decalogum in lapideis tabul dedit scripta
+            digi<lb ed="#N" n="122" break="no"/>to dei: et post offensam ydolatrie caputque vituli: iusserit sibi
+            <lb ed="#N" n="123"/>hostias fieri magis quam demonibus.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e984">
+            ⁋ Ad aliud dicendum. quod
+            sacra<lb ed="#N" n="124" break="no"/>mentorum legis scripte exercitium meritorium suit quando fiebant ex
+            <lb ed="#N" n="125"/>deuotione et obedientia. et non solum circumcisio sed et alia que fiebant
+            <lb ed="#N" n="126"/>pro peccato et delicto. de quibus. iii. et. iiii. leui. Unde dico. quod magis
+            <lb ed="#N" n="127"/>expediebat ad salutem quam sacramenta legis nature.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e995">
+            ⁋ Ad aliud
+            <lb ed="#N" n="128"/>quod obiicitur quod dominus non acceptauit ea nec erant placita deo.
+            di<lb ed="#N" n="129" break="no"/>cendum quod hoc suit propter casas propter quas exercebant se iudei in ills quarum
+            <lb ed="#N" n="130"/>vna fuit pronitas ad ydolatriam. Unde non offerebant
+            pricipa<lb ed="#N" n="131" break="no"/>liter vt obedirent deo et ob deuotionem diuinm cultus: sed ex quadam
+            <lb ed="#N" n="132"/>libidine pronitatis et superstitionis cultus ydolorum. Simile quando
+            ali<lb ed="#N" n="133" break="no"/>quis congscit suam non affectu vxorino sed libidine coeudi. Exo.
+            <lb ed="#N" n="134"/>xxxii. Tu nosti populum istum quod pronus sit ad malum. Alia
+            cau<lb ed="#N" n="135" break="no"/>sa fuit gula et epulationes. Unde. vii. hiere. Holocausta vratra
+            <lb ed="#N" n="136"/>addite victimis vratris. glo. non veneratione dei: sed epularum de
+            <lb ed="#N" n="137"/>siderio immolabunt. alia causa. quia fiebant ex solo timore: non ex de
+            <lb ed="#N" n="138"/>uotione neque obedientia legi. vel deo Unde. ii. Ro. Laus non ex
+            <lb ed="#N" n="139"/>hominibus hoc ex deo. glo. iudeorum laus ex hominibus est. qui si faciunt quod
+            <lb ed="#N" n="140"/>lex iubet: sine spiritu faciunt. timore pecie: non amore iusticie.
+          </p>
+          <p xml:id="v78d89-d1e408-d1e1026">
+            ⁋ Ad
+            <lb ed="#N" n="141"/>illud quod vltio obiicitur. quod sacramenta sunt ad promissa obtinenda
+            <pb ed="#N" n="38"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>id est temporalia. Hac ratione ostendit Faustus. quod lex vetus fuit
+            con<lb ed="#N" n="2" break="no"/>temnenda. cui respondet augustinus libro contra faustum sic. Tpralium rerum
+            <lb ed="#N" n="3"/>promissiones testamento veteri contineri. et ideo vetus testa
+            <lb ed="#N" n="4"/>mentum appellari nemo vestrum ambigit: sed in illis
+            temporali<lb ed="#N" n="5" break="no"/>bus figuris fuisse futurorum qua implentur in nobis in quos
+            <lb ed="#N" n="6"/>fines seculorum deuenerunt. nec suspicio mea est: sed apostolicus
+            <lb ed="#N" n="7"/>sermo. dicente paulo. hec omnia nostre figure fuerunt. Et
+            <lb ed="#N" n="8"/>iterum. hec omnia in figura contingebant. i. Corum. x. Non ergo
+            ve<lb ed="#N" n="9" break="no"/>tus testamentum ad consequendas illas promissiones: sed ad
+            in<lb ed="#N" n="10" break="no"/>telligendas in eis noui test. prenunciationes concipimus. hbec augustinus
+            <lb ed="#N" n="11"/>Non igitur legalia fuerunt finis temporalium simpliciter: sed potius finis
+            <lb ed="#N" n="12"/>sub fine: et alliciendum poplum carnalem et infirmum ad cultum
+            <lb ed="#N" n="13"/>dei. Preterea. et si temporalia siue diuitie occasio sunt culpe:
+            <lb ed="#N" n="14"/>nihilominus necessaria sunt infirmis. et vsus meritorius:
+            <lb ed="#N" n="15"/>sicut abusus demeritorius. Ecclesastici. xxxi. Beatus diues qui inuentus est
+            <lb ed="#N" n="16"/>sine macula et qui post aurum non abiit nec sperauit etc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

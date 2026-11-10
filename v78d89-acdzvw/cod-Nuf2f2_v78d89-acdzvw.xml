@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 64, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 64, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="413"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acdzvw"><!-- q64m3 -->
+        <head xml:id="v78d89-acdzvw-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-acdzvw-Hd1e103" type="question-title">De his quae ad solennem poenitentiam exiguntur</head>
+        <p xml:id="v78d89-acdzvw-d1e106">
+          <lb ed="#N" n="130"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e111">
+          <lb ed="#N" n="131"/>pnsequenter queritur de his que ad solennem
+          pe<lb ed="#N" n="132" break="no"/>nitentiam exiguntur. Queritur ergo vtrum vir tantum
+          <lb ed="#N" n="133"/>vel etiam mulier sunt puniendi hac penitentia
+          <lb ed="#N" n="134"/>Et vtrum iuuenes vel senes tantum. Et vtrum
+          clerici<lb ed="#N" n="135" break="no"/>vel layci tantum. Quo autem tempore. quo loco. quo habitu. a qua
+          <lb ed="#N" n="136"/>persona imponenda est. et de qua forma verborum. et pro
+          quali<lb ed="#N" n="137" break="no"/>peccato: et vtrum penitens tali penitentia possit promoueri. et
+          <lb ed="#N" n="138"/>que sit differentia inter publicam et solennem penitentiam.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e131">
+          <lb ed="#N" n="139"/>⁋ Ad primum dicendum. quod tam vir quam mulier huiusmodi
+          peniten<lb ed="#N" n="140" break="no"/>tia debet puniri. argumentum di. l. penitentes. et. xxxiii. q. ii.
+          <pb ed="#N" n="414"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>de his infra eadem. q. Antiqui. huius ratio est. quia vterque sexus
+          <lb ed="#N" n="2"/>fuit in paradiso eiectus: et ideo vterque sexus punitur ista
+          pe<lb ed="#N" n="3" break="no"/>na que est signum illius.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e150">
+          ⁋ Ad aliud dicendum. quod sicut
+          ha<lb ed="#N" n="4" break="no"/>betur dis. l. penitentes. Iuuenibus pena talis non facile
+          con<lb ed="#N" n="5" break="no"/>mittenda est propter etatis fragilitatem. et est argumentum quod
+          <lb ed="#N" n="6"/>ratione etatis fit dispensatio sicut de continentia. xxxiii. q. ii.
+          <lb ed="#N" n="7"/>de his.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e161">
+          ⁋ Elericis autem non est talis penitentia imponenda
+          <lb ed="#N" n="8"/>dis. l. hanc penitentiam. nulli vnquam clericorum agere
+          conce<lb ed="#N" n="9" break="no"/>ditur. et hoc propter scandalum. cum enim non sit imponenda
+          ni<lb ed="#N" n="10" break="no"/>si pro maximo crimine: post eiectionem non posset restitui
+          <lb ed="#N" n="11"/>propter scandalum populi.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e172">
+          ⁋ De tempore et loco et habitu et a qua
+          <lb ed="#N" n="12"/>persona: habetur di. l. in capite. vbi dicitur. In capite quadra
+          <lb ed="#N" n="13"/>gesime omnes penitentes qui publicam suscipiunt aut
+          susce<lb ed="#N" n="14" break="no"/>perunt penitentiam: ante fores ecclesie se presentent episcopo
+          ciui<lb ed="#N" n="15" break="no"/>tatis. sacco induti nudis pedibus. vultibus in terra dimissis:
+          <lb ed="#N" n="16"/>reos se esse habitu et vultu protestantes.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e185">
+          ⁋ Item eadem di.
+          pe<lb ed="#N" n="17" break="no"/>nitentes. vbi dicitur. penitentes tempore quo penitentiam petunt
+          im<lb ed="#N" n="18" break="no"/>positionem manuum et cilicium super capita a sacerdote sicut
+          vbi<lb ed="#N" n="19" break="no"/>que statutum est consequantur. si autem comas non deposuerit. aut
+          ve<lb ed="#N" n="20" break="no"/>stimenta non mutauerint abiiciantur. et nisi digne deo
+          penitue<lb ed="#N" n="21" break="no"/>rint non recipiantur. Nota quod in ca. In capite. dicitur quod presentent
+          <lb ed="#N" n="22"/>se episcopo ciuitatis. In alio scilicet penitentes. dicitur sacerdote. sed
+          sa<lb ed="#N" n="23" break="no"/>cerdos dicitur episcopus ad quem solum spectat solemnis penitentie
+          <lb ed="#N" n="24"/>impositio et eius reconciliatio. nisi in necessitate. xxvi. q. vi.
+          <lb ed="#N" n="25"/>ca. fi. presbiter inconsulto episcopo non reconciliet penitentem
+          nisi<lb ed="#N" n="26" break="no"/>absente episcopo vltima necessitas cogat.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e209">
+          ⁋ Prete. cum episcopo
+          de<lb ed="#N" n="27" break="no"/>bent esse presentes maiores ecclesie illius. Unde di. l. In
+          ca<lb ed="#N" n="28" break="no"/>pite. dicitur. Adesse debent decani id est archipresbiteri perrochiarum
+          <lb ed="#N" n="29"/>et presbiteri penitentium. qui eorum conuersionem diligenter inspicere
+          <lb ed="#N" n="30"/>debent.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e220">
+          ⁋ Sed adhuc queritur vtrum mulier debeat comam
+          de<lb ed="#N" n="31" break="no"/>ponere. cum paris delicti par debet esse pena. Responsio quod non
+          <lb ed="#N" n="32"/>quia mulier coma habet in signum subiectionis. vt habetur
+          <lb ed="#N" n="33"/>xxx. di. c. ii. vbi dicitur. Quecumque mulier religioni iudicans
+          con<lb ed="#N" n="34" break="no"/>uenire comam eius amputauerit. quam deus ad velamen eius
+          <lb ed="#N" n="35"/>et memoriam subiectionis illi dedit: tanquam resoluens ius
+          sub<lb ed="#N" n="36" break="no"/>iectionis: anathema sit.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e237">
+          ⁋ Sed nonne mulieres religiose
+          <lb ed="#N" n="37"/>scilicet moniales comam deponunt. Responsio patet ex hoc quod dicitur
+          <lb ed="#N" n="38"/>tanquam resoluens ius subiectionis. vir autem debet comam
+          depo<lb ed="#N" n="39" break="no"/>nere. quia decetero debet viuere in habitu religioso Argu.
+          <lb ed="#N" n="40"/>de conse. di. v. dictum.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e248">
+          ⁋ De forma et modo habetur di. l. In
+          <lb ed="#N" n="41"/>capite. Forma verborum habetur. iii. Gen. In sudore vultus tui
+          <lb ed="#N" n="42"/>vesceris pane tuo
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e255">
+          ⁋ Nota ergo breuiter formam et
+          progres<lb ed="#N" n="43" break="no"/>sum. volentes penitere solenniter de peccatis. debent in
+          ca<lb ed="#N" n="44" break="no"/>pite quadragesime se cum archipresbiteris et presbiteris suis episcopo
+          <lb ed="#N" n="45"/>ante fores episcopales ecclesie presentare episcopo in tristi habitu:
+          nu<lb ed="#N" n="46" break="no"/>dis pedibus: et eis in ecclesiam introductis episcopus cum omni
+          cle<lb ed="#N" n="47" break="no"/>ro septem penitentie psalmos in terram prostratis cum lacrimis
+          <lb ed="#N" n="48"/>pro eorum absolutione decantet. tunc resurgens ab oratione iuxta
+          <lb ed="#N" n="49"/>quod canones iubent manus eis imponat: aquam benedictam
+          <lb ed="#N" n="50"/>spergat: cinerem prius immittat. deinde cilicio capita eorum
+          ope<lb ed="#N" n="51" break="no"/>riat et cum gemitu et crebris suspiriis denunciet eis. quod sicut
+          <lb ed="#N" n="52"/>adam proiectus est de peradiso: ita et ipsi pro peccatis ab ecclesia
+          <lb ed="#N" n="53"/>abiiciuntur. postea iubet ministris. vt eos extra ianuas ecclesie
+          <lb ed="#N" n="54"/>expellant. Elerus vero prosequatur eos cum responsorio. In sudore
+          vul<lb ed="#N" n="55" break="no"/>tus tui vesceris pane tuo. In sacra autem cena domini rursus ab
+          <lb ed="#N" n="56"/>eorum decanis et eorum presbiteris ecclesie liminibus presententur. hoc autem
+          <lb ed="#N" n="57"/>fiet quolibet anno de eis ecclesie introitus est interdictus. et erunt
+          <lb ed="#N" n="58"/>in ecclesia vsque ad octauas pasche: nec communicabunt aliis
+          <lb ed="#N" n="59"/>in eucharistia nec in osculo. et post exibunt de ecclesia et ita
+          re<lb ed="#N" n="60" break="no"/>presentabuntur in sequenti anno tali die. et ita in omni anno
+          quo<lb ed="#N" n="61" break="no"/>usque vt dixi interdictus est eis introitus ecclesie et hanc faciunt
+          <lb ed="#N" n="62"/>presbiteri. sed illam reconciliationem que fit in fine penitentie
+          re<lb ed="#N" n="63" break="no"/>seruabunt episcopo: cui soli competit. talis autem penitentia non nisi pro
+          <lb ed="#N" n="64"/>grauissimo peccato debet iniungi. di. l. placuit. vbi dicitur. eum
+          <lb ed="#N" n="65"/>vero penitentem dicimus qui post baptisma. aut pro homicidio.
+          <lb ed="#N" n="66"/>aut pro diuersis criminibus grauissimisque peccatis publicam
+          pe<lb ed="#N" n="67" break="no"/>nitentiam gerens sub cilicio diuino fuerit reconciliatus altario.
+          <lb ed="#N" n="68"/>de hoc. xxvi. q. vi. citl. vlti. vbi dicitur. cuiuscumque penitentis
+          pub<lb ed="#N" n="69" break="no"/>licum et vulgarissimum est crimen quod vniuersam commouerit
+          vr<lb ed="#N" n="70" break="no"/>bem ante absidiam et atrium ecclesie manus ei imponatur. Quod
+          <lb ed="#N" n="71"/>autem penitentes tales non sunt promouendi. habetur di. l .cilt. i. vbi
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>dicitur. sicut penitentiam agere nulli conceditur vnquam clericorum: ita v
+          <lb ed="#N" n="73"/>penitudinem ac reconciliationem cuiquam laicorum non liceat honorem
+          <lb ed="#N" n="74"/>clericatus adipisci. offerente se tamen necessitate et vtilitate: posunt
+          cle<lb ed="#N" n="75" break="no"/>rici recipi ad officia ecclesiastica di. l. capt. placuit. vbi dicitur.
+          <lb ed="#N" n="76"/>placuit vt penitentes non admittantur ad clerum. nisi tantum si
+          necel<lb ed="#N" n="77" break="no"/>sitas aut vsus exigat: tunc deputentur inter hostiarios et inter
+          <lb ed="#N" n="78"/>lectores. ita vt epostolam vel euangelium non legant. Si qui auten
+          <lb ed="#N" n="79"/>ordinati sunt in dyacones inter subdyacones ita
+          habean<lb ed="#N" n="80" break="no"/>tur vt manum non imponant: nec sacra contingant. Usus id est vti
+          <lb ed="#N" n="81"/>litas vel consuetudo alicuius ecclesie. et est argumentum quod ratione
+          <lb ed="#N" n="82"/>consuetudinis ecclesie aliquid est licitum quod alis esset illicitum.
+          <lb ed="#N" n="83"/>et ita in hoc casu dispensabit episcopus quantum ad minores ordines
+          <lb ed="#N" n="84"/>quod notatur ibi id est non exequatur officium dyaconatus vel
+          sub<lb ed="#N" n="85" break="no"/>dyaconatus.
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e353">
+          ⁋ Si obiiciatur contra hoc. per hoc quod dicitur ibi
+          <lb ed="#N" n="86"/>ex penitentibus di. l. quod episcopus ordinans talem scienter debet
+          <lb ed="#N" n="87"/>priuari potestate ordinandi. Dicendum quod hic non loquitur de
+          <lb ed="#N" n="88"/>ordinatione: sed dispensatione quantum ad minores ordines.
+          <lb ed="#N" n="89"/>Quare talis non est ordinandus multiplex est ratio.
+          Pri<lb ed="#N" n="90" break="no"/>ma est ordinis excellentia. quia non sunt digni suscipere
+          va<lb ed="#N" n="91" break="no"/>sa id est ordinem sacramentorum qui dudum fuerunt vasa vicio
+          <lb ed="#N" n="92"/>rum. di. l. Secunda est timor labendi ex pristina consuetudine
+          <lb ed="#N" n="93"/>surgens. di. lxi. In sacerdotibus. in fine. Tercia est
+          scanda<lb ed="#N" n="94" break="no"/>lum populi et vulgaris sermo qui totam commouerit vrbem
+          <lb ed="#N" n="95"/>xxvi. q. vi citilo. vlti. Tales enim non potest sine magno scandalo
+          <lb ed="#N" n="96"/>ministrare. di. l. de his. Quarta est. quia non habent frontem
+          <lb ed="#N" n="97"/>redarguendi aliquos: cum constet ipsum commisisse illa eaquae
+          <lb ed="#N" n="98"/>que predicat corrigenda. vel etiam maiora. di. xxv. primn
+        </p>
+        <p xml:id="v78d89-acdzvw-d1e384">
+          <lb ed="#N" n="99"/>⁋ Ad illud quod queritur de differentia penitentie
+          publice<lb ed="#N" n="100" break="no"/>solemnis. Dicendum quod differunt multipliciter. scilicet ex parte
+          im<lb ed="#N" n="101" break="no"/>ponentis: ex parte suscipientis: ex parte suscepte penitentie: ex
+          <lb ed="#N" n="102"/>parte modi quo suscipitur et confertur. Ex parte imponentis: quia
+          <lb ed="#N" n="103"/>solemnem non imponit simplex sacerdos. sed tantum episcous vt
+          di<lb ed="#N" n="104" break="no"/>citur dis. l. In capite. publicam autem potest imponere
+          sim<lb ed="#N" n="105" break="no"/>plex sacerdos: cum non inueniatur prohibitum. Ex parie
+          <lb ed="#N" n="106"/>suscipientis similiter. quia solemnis non est sacerdoti vel
+          dva<lb ed="#N" n="107" break="no"/>cono imponenda. di. l. confirmandum est. nec etiam
+          alicui<lb ed="#N" n="108" break="no"/>clerico vt habetur in sequenti ca. eadem di. scilicet illud quoque
+          <lb ed="#N" n="109"/>publicam vero potest agere sacerdos. viidis. xxviii. presbiter.
+          <lb ed="#N" n="110"/>nec est contrarium quod habetur. xxxii. distinctio. presbiter.
+          <lb ed="#N" n="111"/>vbi dicitur. quod sacerdos non debet penitere inter laicos. quia
+          <lb ed="#N" n="112"/>quia hoc intelligitur de peccato occulto: publicam autem
+          po<lb ed="#N" n="113" break="no"/>test agere de peccato publice perpetrato. Er parte suscepte
+          pe<lb ed="#N" n="114" break="no"/>nitentie. quia solennis non iteratur propter rationem superius
+          <lb ed="#N" n="115"/>assignatam. omnis vero alia penitentia iteratur. de pe. dis.
+          <lb ed="#N" n="116"/>iii. Reperiuntur. s. septies in die cadit iustus. et. s. Adhuc
+          <lb ed="#N" n="117"/>instant perfidi. Ex parte modi quia solemnis: imponitur nomen
+          su<lb ed="#N" n="118" break="no"/>um cum solennitate predicta. publica autem dicitur que fit in
+          facie<lb ed="#N" n="119" break="no"/>ecclesie sine solennitate. sicut quando iniungitur peregrinatio per mundum cu
+          <lb ed="#N" n="120"/>baculo bicubitali et scapulari vel veste aliqua ad hoc consueta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

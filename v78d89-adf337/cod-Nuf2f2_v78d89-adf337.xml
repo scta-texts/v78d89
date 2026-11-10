@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 71, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 71, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="459"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adf337"><!-- q71m1 -->
+        <head xml:id="v78d89-adf337-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-adf337-Hd1e103" type="question-title">Utrum detersio caliginis sive illuminatio cognitive obtenebrate sit effectus contritionis</head>
+        <p xml:id="v78d89-adf337-d1e106">
+          <lb ed="#N" n="12"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-adf337-d1e111">
+          <lb ed="#N" n="13"/>QUeritur ergo primo. vtrum detersio caliginis siue
+          <lb ed="#N" n="14"/>illuminatio cognitiue obtenebrate sit
+          effe<lb ed="#N" n="15" break="no"/>ctus contritionis. Quod sic videtur. quia sicut elongatio
+          <lb ed="#N" n="16"/>a prima luce per culpam obtenebrat siue
+          exce<lb ed="#N" n="17" break="no"/>cat. Sapi. ii. Excecauit eos malicia eorum: sic
+          approxi<lb ed="#N" n="18" break="no"/>tio per dolorem penitentie illuminat. Unde super illud Iob. ix.
+          Si<lb ed="#N" n="19" break="no"/>lotus fuero quasi aquis niuis. Ideo quantoplus deo approxi
+          <lb ed="#N" n="20"/>mamus: tanto sordes nostras ex eius mundicia agnoscimus. Quod
+          <lb ed="#N" n="21"/>autem appropinquamus deo per dolorem contritionis: habetur a criso.
+          <lb ed="#N" n="22"/>dicente. nihil ita conglutinat et vnit deo: vt penitentis lacrime
+        </p>
+        <p xml:id="v78d89-adf337-d1e135">
+          <lb ed="#N" n="23"/>⁋Item Isido. Cum flendo a nobis caligo detergitur: mundatis
+          <lb ed="#N" n="24"/>oculis in superna cospicimus. Ex hoc patet quod flendo detergitur
+          <lb ed="#N" n="25"/>caligo relicta in anima ex peccatis.
+        </p>
+        <p xml:id="v78d89-adf337-d1e145">
+          ⁋ Contra. psalms. Cor meum
+          <lb ed="#N" n="26"/>conturbatum est: dereliquit me virtus mea: et lumen oculorum meo
+          <lb ed="#N" n="27"/>rum etc. vt patet ex glo. Conturbatio de qua loquitur est
+          contur<lb ed="#N" n="28" break="no"/>batio doloris de peccatis. ad hanc vt patet ex textu sequitur
+          <lb ed="#N" n="29"/>priuatio luinis. ergo videtur quod dolor de peccatis sit causa obtenebra
+          <lb ed="#N" n="30"/>tionis et non extersionis tenebrarum.
+        </p>
+        <p xml:id="v78d89-adf337-d1e158">
+          ⁋ Item dolor est in vi
+          affecti<lb ed="#N" n="31" break="no"/>ua. que autem sunt in vi affectiua eliciunt opera que sunt proprie
+          <lb ed="#N" n="32"/>ipsius affectiue. sicut amor actum inflammationis circa
+          affecti<lb ed="#N" n="33" break="no"/>uam. non igitur videtur quod dolor qui est in ipsa affectiua debeat actum
+          <lb ed="#N" n="34"/>illuminationis elicere circa cognitiuam.
+        </p>
+        <p xml:id="v78d89-adf337-d1e169">
+          ⁋ Responsio. dicendum quod
+          <lb ed="#N" n="35"/>duplex est ignorantia sequela peccati duplicis. Una est seque
+          <lb ed="#N" n="36"/>la originalis secundum augustinus dicentem. quod duo sunt nobis inflicta.
+          <lb ed="#N" n="37"/>scilicet ignorantia agendorum: et concupiscentia noxiorum. de hoc greg.
+          <lb ed="#N" n="38"/>Seclusum ab internis gaudiis genus humanum exigente
+          <lb ed="#N" n="39"/>culpa mentis oculos perdidit. et quo meritorum passibus gradi
+          <lb ed="#N" n="40"/>atur nescit. Et quia illa que sunt inflicta homin propter
+          pecca<lb ed="#N" n="41" break="no"/>ta primorum perentorum: sunt quasi insita nature nostre corrupte.
+          <lb ed="#N" n="42"/>scilicet ignorantia et infirmitas etc. Detersio huius ignorantie
+          si<lb ed="#N" n="43" break="no"/>ue tenebrositatis non est effectus contritionis. Alia autem est
+          igno<lb ed="#N" n="44" break="no"/>rantia siue obtenebratio ex auersione actuali a luce prima
+          <lb ed="#N" n="45"/>et hec est sequela actualis peccati: hec autem ignorantia est erro
+          <lb ed="#N" n="46"/>ris iudicii qua malus dicit malum bonum: ponendo lucem tene
+          <lb ed="#N" n="47"/>bras: et tenebras lucem Isa. v. In perpetratione enim peccati est
+          <lb ed="#N" n="48"/>ignorantia in eligendo. vtpote quando malum eligitur bono contempto
+          <lb ed="#N" n="49"/>propter quam dicitur malus ignorans. Sequela peccati perpetrati
+          <lb ed="#N" n="50"/>est ignorantia erroris in iudicando. quando appropriatur malum
+          ele<lb ed="#N" n="51" break="no"/>ctum. vnde anima peccatrix obtenebrata et excecata reprobandum
+          <lb ed="#N" n="52"/>approbat. propter quod peccator dicitur traditus in sensum reprobumn
+          <lb ed="#N" n="53"/>Ro. ii. vbi glo. vt nihil intelligat nisi quod a probitate remo
+          <lb ed="#N" n="54"/>tum est. quos sua cecitas a veritatis lumine funditus
+          exclu<lb ed="#N" n="55" break="no"/>dit. vnde quamuile quidem sit peccatum. quantas sordes contrahit
+          <lb ed="#N" n="56"/>anima ex peccato. quantum damnum incurrit: nescit scilicet cum effectu
+          <lb ed="#N" n="57"/>siced ipsa vnita vero lumini per gratiam contritionis. et extergitur
+          igno<lb ed="#N" n="58" break="no"/>rantia fricatione doloris: et exfersa caligine illustratur. et
+          quan<lb ed="#N" n="59" break="no"/>to plus vnitur et plus de peccato anima tristatur: plus illu
+          <lb ed="#N" n="60"/>minatur. Unde greg. in mora. quo vberius culpa defletur: eo al
+          <lb ed="#N" n="61"/>tior cognitio veritatis attingitur. quia ad videndum inter
+          <lb ed="#N" n="62"/>num lumen polluta dudum conscentia lacrimis baptizata
+          renoua<lb ed="#N" n="63" break="no"/>tur. Concedendum est ergo quod contritione abstergitur obtenebratio
+          <lb ed="#N" n="64"/>intellectus. qua extersa illuminatur ad cognoscendum sordes
+          <lb ed="#N" n="65"/>peccati. non dico sordes que sunt culpa: sed que sunt
+          seque<lb ed="#N" n="66" break="no"/>le ipsius culpe et alia que animam damnificant.
+        </p>
+        <p xml:id="v78d89-adf337-d1e241">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="67"/>obiicitur quia conturbatio doloris obtenebrat intellectum
+          <lb ed="#N" n="68"/>etc. Dicendum quod conturbatio doloris in impetu turbationis
+          ob<lb ed="#N" n="69" break="no"/>tenebrat. nihilominus dolor ipse qui vnit cum lumine vero
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>tenebram que est sequela peccati extergit. et solet poni
+          exem<lb ed="#N" n="71" break="no"/>plum tale ad huius declarationem. quando aliquis qui mouetur zelo
+          <lb ed="#N" n="72"/>magno circa salutem animarum. videt peccatum alicuius et
+          mani<lb ed="#N" n="73" break="no"/>feste videt hoc: mouetur ira per zelum et ex motu ad horam
+          tur<lb ed="#N" n="74" break="no"/>batur. et licet minus clare videat in illa turbatione:
+          tamen<lb ed="#N" n="75" break="no"/>post motum ire videt clarius quam ante. quia illa turbatio fuit quasi
+          <lb ed="#N" n="76"/>collirium spirituale. sic est in proposito. turbatio ex dolore de
+          pec<lb ed="#N" n="77" break="no"/>catis est quasi collirium quoddam quo purgatur oculus interior.
+          <lb ed="#N" n="78"/>Uel potest dici quod verbo psalmus. notatur conturbatio doloris. ibi.
+          <lb ed="#N" n="79"/>Cor meum meum conturbatum a causa: ibi derelinquit me virtus
+          mea<lb ed="#N" n="80" break="no"/>et lumen oculorum meorum et ipsum non est mecum. sub hoc sensu
+          cor<lb ed="#N" n="81" break="no"/>meum conturbatum est dicit penitens. quia dereliquit me virtus mea
+          <lb ed="#N" n="82"/>peccato meo exigente. et lumen oculorum meorum. hec expositio
+          <lb ed="#N" n="83"/>potest haberi ex glo.
+        </p>
+        <p xml:id="v78d89-adf337-d1e283">
+          ⁋ Ad illud quod obiicitur. quod que sunt in
+          <lb ed="#N" n="84"/>affectiua eliciunt actus suos circa affectiuam etc. Dicendum
+          <lb ed="#N" n="85"/>quod reuera actus doloris non est illuminare. tamen quia vnit
+          peni<lb ed="#N" n="86" break="no"/>tentem vero lumini qui omnem hominem illuminat vt dictum est
+          <lb ed="#N" n="87"/>et exponit visum interiorem et aptum efficit ad luminis
+          su<lb ed="#N" n="88" break="no"/>sceptionem extergendo caliginem: dicitur illuminare. non tamen
+          causa<lb ed="#N" n="89" break="no"/>liter: sed dispositiue. nec est inconueniens illud quod est vnius vis
+          <lb ed="#N" n="90"/>anime actum proprium vis alterius efficere in ipsa dispositiue.
+          <lb ed="#N" n="91"/>immo necesse est. quod patet. illuminatio enim proprie est vis
+          cogni<lb ed="#N" n="92" break="no"/>tiue et amorem efficit in affectiua.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

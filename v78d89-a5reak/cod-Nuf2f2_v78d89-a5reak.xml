@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 23, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 23, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="158"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a5reak"><!-- q23m2 -->
+        <head xml:id="v78d89-a5reak-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a5reak-Hd1e103" type="question-title">De numero posito a Rabano quem nos magis sequimur</head>
+        <p xml:id="v78d89-a5reak-d1e106">
+          <lb ed="#N" n="72"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-a5reak-d1e111">
+          <lb ed="#N" n="73"/>SEquitur de illo numero quem ponit Rabanus
+          <lb ed="#N" n="74"/>Et videtur quod si sufficientia est secundum quod ponit dyo.
+          <lb ed="#N" n="75"/>modo necesse fuit addicere illa duo scilicet
+          imposi<lb ed="#N" n="76" break="no"/>tionem salis: et sputi in auribus et naribus linitio
+          <lb ed="#N" n="77"/>nem. Si heoe illa duo sunt sumpta ex euangelio. sicut videtur
+          <lb ed="#N" n="78"/>sumi ex mar. vii. et. ix. habete sal in vobis. quia non tunc fit
+          <lb ed="#N" n="79"/>secundum quod continetur in euangelio. dicitur enim quod expuens tetigit
+          lin<lb ed="#N" n="80" break="no"/>guam eius. et non dicitur denaribus vel auribus quod sputum posuerit
+          <lb ed="#N" n="81"/>in illis. Similiter in Iohe. ix. vbi misit eum ab natatoria
+          <lb ed="#N" n="82"/>syloe. primo posuit lutum de sputo super oculos: et non dictum
+          <lb ed="#N" n="83"/>est de auribus aut naribus. quare ergo in sacramentalibus hoc
+          <lb ed="#N" n="84"/>dicitur.
+        </p>
+        <p xml:id="v78d89-a5reak-d1e140">
+          ⁋ Preterea. videtur quod his duobus additis aliis sex
+          supra<lb ed="#N" n="85" break="no"/>tactis debeant esse. viii. et ita deberent. viii. sacramentalia
+          nu<lb ed="#N" n="86" break="no"/>merari. Nam de indutione vestis candide dicitur in libro. de institutio
+          <lb ed="#N" n="87"/>ne clericorum. post baptismum tenditur christianis candida vestis
+          <lb ed="#N" n="88"/>que signat innocentiam et puritatem christianorum. quam post
+          ab<lb ed="#N" n="89" break="no"/>lutas veteres culpas studio sancte conuersationis debet
+          ser<lb ed="#N" n="90" break="no"/>uare immaculatam representandam ante tribunal christi.
+        </p>
+        <p xml:id="v78d89-a5reak-d1e157">
+          ⁋ Ix
+          <lb ed="#N" n="91"/>quod respondendum. quod illa duo addita de appositione salis et
+          li<lb ed="#N" n="92" break="no"/>nitione sputi. post erant addita. et nihil prohibet plura esse
+          mo<lb ed="#N" n="93" break="no"/>do de solennitate baptismalis sacramenti quam fuerunt a
+          prin<lb ed="#N" n="94" break="no"/>cipio. Similiter nihil prohibet modo plura esse de solennitate
+          <lb ed="#N" n="95"/>aliorum quam que fuerunt a principio.
+        </p>
+        <p xml:id="v78d89-a5reak-d1e170">
+          ⁋ Ad id vero quod queritur
+          <lb ed="#N" n="96"/>vnde sumpta erat. potest dici quod ex euangelio sumi poterat
+          oc<lb ed="#N" n="97" break="no"/>casio vel alio modo fiat quam ibi. Et quod ex euangelio fuerat. vide
+          <lb ed="#N" n="98"/>tur ex verbis Rabani qui dicit. tanguntur nares et aures
+          <lb ed="#N" n="99"/>et dicitur verbum euangelicum quod ihs dixit. quando
+          sur<lb ed="#N" n="100" break="no"/>dum et mutum sanauit. Ratio autem quare aliter fit quam in
+          euange<lb ed="#N" n="101" break="no"/>lio est. quia indicium est alterius necessitatis. Nam ibi
+          di<lb ed="#N" n="102" break="no"/>ctum fuit verbum in signum supplende necessitatis
+          corpo<lb ed="#N" n="103" break="no"/>lis de auditu. hic autem fit ad indicium reparande
+          necessita<lb ed="#N" n="104" break="no"/>tis spiritualis. ad percipiendum odorem noticie diuine. et
+          au<lb ed="#N" n="105" break="no"/>diendum mandata dei. Ilud autem quod dicit dominus de
+          <lb ed="#N" n="106"/>sale: propter intelligentiam spiritualem dictum est. vt
+          per<lb ed="#N" n="107" break="no"/>sal in ore positum signetur discretio in confitendo ea que
+          fi<lb ed="#N" n="108" break="no"/>dei sunt. Uel potest sumi ex hoc quod in omnibus sacrificiis
+          <lb ed="#N" n="109"/>legis iubetur offerri sal vt in omnibus operibus baptisati
+          <lb ed="#N" n="110"/>discretio inueniatur. Unde bern. Sal sapientie quo vtuntur
+          <lb ed="#N" n="111"/>cathecumini: in cunctis sacrificiis iubemur offerre.
+        </p>
+        <p xml:id="v78d89-a5reak-d1e207">
+          ⁋ Ad
+          <lb ed="#N" n="112"/>id vero quod obiicitur que sit ratio. Dicendum quod ista addita
+          <lb ed="#N" n="113"/>sunt ad expressionem quorundam que efficiuntur per gratiam
+          <lb ed="#N" n="114"/>haptismalem. Requiritur enim sapientia que per sputum er
+          <lb ed="#N" n="115"/>sal signatur. Sed alia et alia ratione ad meditandum vel
+          <lb ed="#N" n="116"/>intelligendum ad obediendum et ad confitendum. Et ideo
+          <lb ed="#N" n="117"/>in duplici figura in triplici organo fit designatio.
+        </p>
+        <p xml:id="v78d89-a5reak-d1e223">
+          ⁋
+          Si<lb ed="#N" n="118" break="no"/>vero queratur de numero quod secundum hoc deberent esse. viii. Respo
+          <lb ed="#N" n="119"/>sio. quod possunt intelligi. vii. preter ipsam substantiam
+          intin<lb ed="#N" n="120" break="no"/>ctionis. et dicuntur sacramentalia quedam precedentia
+          que<lb ed="#N" n="121" break="no"/>dam subsequentia. Nam duo sunt subsequentia scilicet
+          can<lb ed="#N" n="122" break="no"/>dide vestis induitio: et crismatio. alia vero quinque
+          preceden<lb ed="#N" n="123" break="no"/>tia.
+        </p>
+        <p xml:id="v78d89-a5reak-d1e239">
+          ⁋ Ratio autem numeri sic potest accipi ex intentionibus
+          <lb ed="#N" n="124"/>quas ponit Rabanus. vt primo signatur gratia
+          baptisma<lb ed="#N" n="125" break="no"/>lis expellens dyaboli potestatem. Secundo disponens ad
+          <lb ed="#N" n="126"/>fidem. Tercio confortans. In primis vt expellens: in duo
+          <lb ed="#N" n="127"/>bus sequentibus vt disponens. In quinto vt confortans. Nam
+          <lb ed="#N" n="128"/>illa que de exufflatione cum exorcismo. et designatione sequenti.
+          <lb ed="#N" n="129"/>ad excludendum potestatem dyaboli pertinent. Quod vero
+          <lb ed="#N" n="130"/>est de sale et quod est de sputo: ad disponendum in fide.
+          <lb ed="#N" n="131"/>Quod vero est de vnctione ad confortationem pertinet. Primo
+          <lb ed="#N" n="132"/>autem inducitur expulsio potestatis. Secundo signatio vt
+          no<lb ed="#N" n="133" break="no"/>scat illum esse exclusum. Et hoc patet ex verbis
+          Rabani<lb ed="#N" n="134" break="no"/>Dicit enim paruuli exufflantur et exorcizantur vt pellatur ab eis
+          <lb ed="#N" n="135"/>potestas inimica que decipit hominem vt homines possideret
+          <lb ed="#N" n="136"/>Et sequitur. postea signatur baptizandus signaculo crucis.
+          <lb ed="#N" n="137"/>tam in vertice quam in fronte. vt ab eo tempore apostata dyabolus
+          <lb ed="#N" n="138"/>in vase pristino sue interemptionis cognoscens signum: iam sibi
+          <lb ed="#N" n="139"/>deinceps illud se sentiat esse alienum. Deinde disponitur
+          <lb ed="#N" n="140"/>ad fidem operantem per dilectionem. primo ad abrenunciandum dyabolo
+          <pb ed="#N" n="159"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>et pompis eius. et hoc in sale posito in os: vt sale conditus
+          fe<lb ed="#N" n="2" break="no"/>tore careat iniquitatis et illesus seruetur ad gratiam maiorem per
+          <lb ed="#N" n="3"/>cipiendam. Secundo ad percipiendum odorem diuine noticie. Ter
+          <lb ed="#N" n="4"/>cio ad audiendum mandata. Unde dicit Rabanus. hoc est sacramentum
+          <lb ed="#N" n="5"/>quod hic agitur. vt per tipicam saliuam et sacerdotis tactum:
+          sapi<lb ed="#N" n="6" break="no"/>entia et virtus diuina salutem eiusdem cathecuminis operetur. vt
+          <lb ed="#N" n="7"/>aperiantur ei nares ad percipiendum odorem diuine noticie. Vt
+          <lb ed="#N" n="8"/>aperiantur ei aures ad audiendum mandata dei. Ut aperiantur ei
+          <lb ed="#N" n="9"/>sensus in intimo corde ad respondendum. Gratia vero confortans
+          signi<lb ed="#N" n="10" break="no"/>tur in vngento. Unde Rabanus. vngitur tunc pectus illius de
+          <lb ed="#N" n="11"/>oleo sanctificato cum inuocatione sancte trinitatis: vt nulle
+          <lb ed="#N" n="12"/>reliquie latentis inimici in eo resideant: vt fide sancte
+          trini<lb ed="#N" n="13" break="no"/>tatis mens eius confortetur. Sic ergo sunt quinque antecedentia. duo
+          <lb ed="#N" n="14"/>vero sunt subsequentia. scilicet candide vestis induitio et
+          crisma<lb ed="#N" n="15" break="no"/>tio. quorum vnum indicat innocentiam vite: alterum
+          habundanti<lb ed="#N" n="16" break="no"/>am gratie. vt sic homo per gratiam baptismalem et contra malum et ad
+          <lb ed="#N" n="17"/>verum et ad bonum ordinetur. Ex dictis patet comparatio vnius
+          <lb ed="#N" n="18"/>diuisionis ad aliam: propter quid scilicet in diuisione Rabani
+          quae<lb ed="#N" n="19" break="no"/>dam ponuntur que non ponebantur in altera diuisione Qyoni.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 107, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 107, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="672"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aiame8"><!-- q107m3 -->
+        <head xml:id="v78d89-aiame8-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-aiame8-Hd1e103" type="question-title">Utrum melius sive perfectius sit semel dare omnia pro Christo et postea victum suum mendicare vel retinere sua ad suam et pauperum sustentationem particulatim ea sibi et pauperibus dispensando</head>
+        <p xml:id="v78d89-aiame8-d1e106">
+          <lb ed="#N" n="122"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-aiame8-d1e111">
+          <lb ed="#N" n="123"/>COnsequenter queritur. vtrum melius siue perfectius sit
+          <lb ed="#N" n="124"/>semel dare omnia pro christo et postea victum suum
+          mem<lb ed="#N" n="125" break="no"/>dicare: vel retinere sua ad suam et pauperum
+          susten<lb ed="#N" n="126" break="no"/>tationem perticulatim ea sibi et pauperibus
+          dispen<lb ed="#N" n="127" break="no"/>sanda. Quod autem perfectius sit sua retinere perticulatim ea sibi et
+          pau<lb ed="#N" n="128" break="no"/>peribus dispensanda viditur sic: vt habetur a bern. Illud quod christus elegit
+          <lb ed="#N" n="129"/>melius est et magis eligendum: sed dominus preelegit vltine paupertati
+          ha<lb ed="#N" n="130" break="no"/>bere pecuniam ad suam et pauperum sustentationem: ergo hoc est melius quam
+          <lb ed="#N" n="131"/>omnia simildare. et postea nec sibi nec aliis posse subuenire.
+          me<lb ed="#N" n="132" break="no"/>dia patet per augustinus et habetur. xii. q. i. vbi dicitur. habebat dominus loculos a
+          <lb ed="#N" n="133"/>fidelibus oblata conseruans: et suorum necessitatem et aliis
+          indigen<lb ed="#N" n="134" break="no"/>tibus tribuebat.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e140">
+          ⁋ Pre. christus non solum loculos habebat vt
+          <lb ed="#N" n="135"/>pauperibus necessaria dispensaret: sed etiam panes multiplicauit
+          <lb ed="#N" n="136"/>vt haberet quod pauperibus daret et quod non poterat facere inquantum homo:
+          fa<lb ed="#N" n="137" break="no"/>ceret inquantum deus vt officium dispensandi exerceret sic insinuans
+          <lb ed="#N" n="138"/>officium dispensandi multum esse laudabile et maxime vt vidrtur
+          <lb ed="#N" n="139"/>perfectionis.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e154">
+          ⁋ Pre. sicut ordo caritatis et pietatis requirit vt
+          <lb ed="#N" n="140"/>vnusquisque primo diligat animam suam. et eius misereatur: sic ordo
+          <lb ed="#N" n="141"/>caritatis etquirit quod vnusquisque diligat primo corpus suum et ipsius
+          mi<pb ed="#N" n="673"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>sereatur. et postea corporis proximi sui. iste idem ordo seruandus in
+          <lb ed="#N" n="2"/>effectibus caritatis exigit. quod vnusquisque si possit primo
+          proui<lb ed="#N" n="3" break="no"/>deat corpori proprio in illis que sunt ei necessaria: et postea
+          corpo<lb ed="#N" n="4" break="no"/>ribus aliis. et ita quod retineat aliqua vnde sibi possit primo prouidere:
+          <lb ed="#N" n="5"/>postea aliis. contra caritatem ergo videtur esse illa distributio qua
+          aufer<lb ed="#N" n="6" break="no"/>tur potestas dispensationis et prouisionis sibi et aliis.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e176">
+          ⁋ Pre. act.
+          <lb ed="#N" n="7"/>xx. Beatius est magis dare quam accipere: et hoc confirmat augustinus contra
+          ma<lb ed="#N" n="8" break="no"/>ximum arrianum. lib. i. c. ix. dicens. Beatius est magis dare quod ac
+          <lb ed="#N" n="9"/>cipere: sed in hac vita vbi est inopia. quia vtique melior est copia
+          me<lb ed="#N" n="10" break="no"/>lius est enim habere quam egere et melius est donare quam mendicare. ergo etc
+        </p>
+        <p xml:id="v78d89-aiame8-d1e187">
+          <lb ed="#N" n="11"/>⁋ Pre. cum bonum sit sui diffusiuum. magis gerit imaginem
+          bo<lb ed="#N" n="12" break="no"/>ni qui reseruat aliquod ad distribuendum aliis: quam qui nihil.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e194">
+          ⁋ Pre
+          <lb ed="#N" n="13"/>terea. luc. iii. Qui habet duas tunicas det non habenti ibi. glo.
+          <lb ed="#N" n="14"/>misericordia ipsius pro possibilitate humane conditionis seruatur
+          men<lb ed="#N" n="15" break="no"/>sura vt sibi non vnusquisque totum eripiat: sed quod habet cum paupere
+          <lb ed="#N" n="16"/>partiatur. Ex quo patet quod hoc requirit lex misericordie quod aliquibus ad
+          <lb ed="#N" n="17"/>vsum proprium reseruatis bona cuilibet partiantur id est
+          perticulari<lb ed="#N" n="18" break="no"/>ter dentur et non simul omnia.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e210">
+          ⁋ Ad oppositum posunt adduci que
+          su<lb ed="#N" n="19" break="no"/>perius posita sunt. ad ostendendum quod dare pauperibus omnia simul
+          <lb ed="#N" n="20"/>pro christo est perfectionis euangelice qua nullus est maior.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e217">
+          ⁋ Pre. hiero.
+          <lb ed="#N" n="21"/>contra vigilantium epostola. lvii. quod inquit asseris melius eos facere qui vtuntur
+          <lb ed="#N" n="22"/>rebus suis. et paulatim fructus possessionum pauperibus
+          diui<lb ed="#N" n="23" break="no"/>dant: quam illos boc possessionibus venundatis simul omnia
+          largiun<lb ed="#N" n="24" break="no"/>tur. non a me sed a domino tibi respondebitur. Si vis perfectus esse vade et
+          <lb ed="#N" n="25"/>vende omnia que habes et da pauperibus: et veni sequere me. ad eum
+          <lb ed="#N" n="26"/>inquit loquitur. qui vult esse perfectus qui cum apostolis. psatiem. nauiculam et
+          <lb ed="#N" n="27"/>rethe dimittit. iste quem tu laudas secundus aut tercius gradus est
+        </p>
+        <p xml:id="v78d89-aiame8-d1e236">
+          <lb ed="#N" n="28"/>⁋ Pre. hiero. in epostola. xci. ad nebuliam. Si vis inquit esse
+          perfe<lb ed="#N" n="29" break="no"/>cta: non tibi in iugum necessitatis imponit sed potestati sue liberum
+          <lb ed="#N" n="30"/>arbitrium contendit. vis inquit esse perfecta. et in primo stare fastigio
+          di<lb ed="#N" n="31" break="no"/>gnitatis: fac quod fecerunt apostoli. id est. vende omnia que habes et da
+          pau<lb ed="#N" n="32" break="no"/>peribus et sequere saluatorem. et nudam solamque crucem nuda sequaris
+          <lb ed="#N" n="33"/>et si non vis esse perfecta sed secundum vis tenere gradum virtutis.
+          di<lb ed="#N" n="34" break="no"/>mitte omnia quecumque habes. da filiis. da propinquis. nemo te de
+          <lb ed="#N" n="35"/>prehendit si inferiora sectaris. dummodo scias illam iure praelatam qu
+          <lb ed="#N" n="36"/>elegerit primam. Ecce fastigium dignitatis est omnia vendere et
+          ni<lb ed="#N" n="37" break="no"/>hil retinere. Et sicut habetur in eadem epostola ananias et
+          zaphira<lb ed="#N" n="38" break="no"/>puniti sunt quia victui suo aliqua necessaria retinuerunt. Hoc idem
+          <lb ed="#N" n="39"/>etiam apparet per augustinus. de bono coniugali vbi facit comparationem
+          <lb ed="#N" n="40"/>inter bonum et melius. inferius et superius dicens. Inferius non esse
+          <lb ed="#N" n="41"/>malum: quia superius melius. vt non est malum quod fecit martha: quia
+          <lb ed="#N" n="42"/>melius quod fecit maria. Similiter ait non est malum iustum aut prophetam
+          <lb ed="#N" n="43"/>in domum suam recipere. quia nec domum habere debet. vt quod melius est
+          faci<lb ed="#N" n="44" break="no"/>at qui vult ad perfectionem christum sequi.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e275">
+          ⁋ Pre. hiero. super psalmus. c.
+          <lb ed="#N" n="45"/>xi. perfecti non fecerunt elemosinas. quia non habebant vnde elemo
+          <lb ed="#N" n="46"/>sinas facerent: non facere habentis crimen est. ceterum qui non habet vnde
+          <lb ed="#N" n="47"/>faceret elemosinam: liber est: quantumcumque voluerit tantum dedit: quia
+          <lb ed="#N" n="48"/>totum dedit.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e286">
+          ⁋ Responsio. maior est perfectio omnia dare pauperibus
+          <lb ed="#N" n="49"/>et in paupertate vltima sequi christum. quam aliqua dare et aliqua retinet
+          <lb ed="#N" n="50"/>ad suam et aliorum quoruncumque sustentationem. vnde gernnadius de
+          eccle<lb ed="#N" n="51" break="no"/>siasticis dogmatibus. bonum est facultates cum dispensatione
+          pau<lb ed="#N" n="52" break="no"/>peribus erogare: sed melius pro intentione sequendi dominum simil
+          dona<lb ed="#N" n="53" break="no"/>re et absolutum sollicitudine egere cum christo.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e299">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="54"/>obiicitur quod dominus preelegit vltime paupertati habere pecuniam ad
+          <lb ed="#N" n="55"/>suam et ad pauperum sustentationem etc. dicendum quod non est verum. bene
+          <lb ed="#N" n="56"/>verum est quod quandoque habuit aliqua dispensanda pauperibus: sed in hoc in
+          <lb ed="#N" n="57"/>nullo preiudicabatur sibi quantum ad vltimam siue altissimam
+          pau<lb ed="#N" n="58" break="no"/>partatem. vt ex supradictis patet. vbi determinatur causa et modus.
+          <lb ed="#N" n="59"/>quo christus loculos habuit.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e315">
+          ⁋ Ad illud quod obiicitur. quod dominus
+          dispen<lb ed="#N" n="60" break="no"/>sauit pauperibus sicut patuit per loculos quos habuit et per panum
+          <lb ed="#N" n="61"/>multiplicationem: potest dici quod duplex est dispensandi modus.
+          qui<lb ed="#N" n="62" break="no"/>dam est communis iusticie. vtpote quem exercent homines pii in erogatio
+          <lb ed="#N" n="63"/>ne quam faciunt communiter pauperibus. et est quidam supererogationis. vtpo
+          <lb ed="#N" n="64"/>te quem exercent quandoque pauperes communicando bona que ad vsus eorum
+          <lb ed="#N" n="65"/>exhibentur aliis pauperibus ad releuationem necessitatis eorum. et
+          <lb ed="#N" n="66"/>iste modus dispensandi compatitur altissimam paupertatem. nec in
+          ali<lb ed="#N" n="67" break="no"/>quo preiudicat euangelice perfectioni. et hoc vsus est dominus: et iste
+          mo<lb ed="#N" n="68" break="no"/>dus multum est laudabilis: et maxime attestatur caritati et
+          pie<lb ed="#N" n="69" break="no"/>tati. secus est de illo modo dispensationis qui fit communiter pauperibus
+          reten<lb ed="#N" n="70" break="no"/>tis bona perticulati distribuenda de qua est quaestio proposita que non fit
+          <lb ed="#N" n="71"/>sine mentis perturbatione. secundum quod dicit greg. i. morali. super illud
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>Iob. i. Possessio eius creuit in terra. neque inquit terrena
+          pos<lb ed="#N" n="73" break="no"/>sessio quamuis eterne vtilitati seruiat: sine perturbatione mentis
+          <lb ed="#N" n="74"/>valet exhiberi. Quod etiam sunt pericula terena dispensationem
+          se<lb ed="#N" n="75" break="no"/>quentia manifestat greg. super illud Iob. i. venit alius et dixit
+          <lb ed="#N" n="76"/>Caldei fecerunt tres turmas etc. et vt dicit Seneca ad
+          lu<lb ed="#N" n="77" break="no"/>cium. Anima ligata cum possessionibus libere de deo cogitare non
+          <lb ed="#N" n="78"/>potestu. Ex his patet quod possessio temporalium et ad dispensandum
+          conserua<lb ed="#N" n="79" break="no"/>ta detrahit statui perfectionis.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e363">
+          ⁋ Ad aliud quod obiicitur. quod ordo
+          <lb ed="#N" n="80"/>caritatis exigit quod vnusquisque primo prouideat corpori suo. et post
+          <lb ed="#N" n="81"/>corporibus aliorum: vnde om quod retineat aliqua etc. potest dici quod
+          etsi<lb ed="#N" n="82" break="no"/>caritatis ordo requirat quod sibi prouideat etc. non tamen om quod ad
+          sui<lb ed="#N" n="83" break="no"/>prouisionem retineat aliqua temporalia. quia vt supra tactum est: multi sunt
+          <lb ed="#N" n="84"/>modi quibus pauperes christi sibi prouidere posunt ne parant. nec tenentur
+          <lb ed="#N" n="85"/>ad aliorum subuentionem qui omnia pro deo reliquerunt: lcilicet
+          superero<lb ed="#N" n="86" break="no"/>garent si casu aliquo hoc facerent.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e382">
+          ⁋ Ad illud quod obiicitur. quod beatius
+          <lb ed="#N" n="87"/>est magis dare etc. patet responsio ex supradictis.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e387">
+          ⁋ Ad illud quod
+          di<lb ed="#N" n="88" break="no"/>cit augustinus quod melius est habere quam egere etc. potest dici quod hi actus scilicet habere
+          <lb ed="#N" n="89"/>et egere. donare et mendicare: posunt adinuicem comparari inquantum
+          <lb ed="#N" n="90"/>sunt actus puri et discreti: et sic reuera melius est habere quam egere. et
+          <lb ed="#N" n="91"/>donare quam mendicare. sed inquantum considerantur egere et mendicare
+          <lb ed="#N" n="92"/>non vt sunt actus puri: sed potius vt sunt informati circumstantiis
+          <lb ed="#N" n="93"/>supratactis que reddunt paupertatem meritoriam et mendicitatem
+          <lb ed="#N" n="94"/>melius est egere et mendicare quam habere et donare.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e405">
+          ⁋ Ad illud
+          <lb ed="#N" n="95"/>quod obiicitur. bonum est sui diffusiuum etc. potest dici quod ille qui dat
+          <lb ed="#N" n="96"/>sua omnia simul pauperibus magis gerit imaginem boni quantum ad
+          <lb ed="#N" n="97"/>hoc quod est sui diffusiuum: quam ille qui dat partem aliquam et aliam sibi
+          re<lb ed="#N" n="98" break="no"/>seruat et pauperibus. et magis assimilatur illi summe
+          diffusio<lb ed="#N" n="99" break="no"/>ni que fuit in generatione filii a patre et spiritus sancti processione ab
+          <lb ed="#N" n="100"/>vtroque. quia quicquid erat et quioquid habuit et quicquid potuit
+          <lb ed="#N" n="101"/>ptur dedit filio: et simul vterque spirituisancto.
+        </p>
+        <p xml:id="v78d89-aiame8-d1e423">
+          ⁋ Ad hoc quod
+          obii<lb ed="#N" n="102" break="no"/>citur de glo. luce. iii. Quod lex minime requirit quod bona cuiusque
+          per<lb ed="#N" n="103" break="no"/>tiantur. potest dici quod glo. intelligenda est quantum ad statum imperfectio
+          <lb ed="#N" n="104"/>nis. vt patet ex textu et aliis glosis ibidem. loquitur enim ibidem
+          <lb ed="#N" n="105"/>de penitentibus quos hortabatur iohannes baptista ad
+          faci<lb ed="#N" n="106" break="no"/>endum dignum fructum penitentie.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 18, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 18, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="128"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4j7r6"><!-- q18m1 -->
+        <head xml:id="v78d89-a4j7r6-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a4j7r6-Hd1e103" type="question-title">De invitis</head>
+        <p xml:id="v78d89-a4j7r6-d1e106">
+          <lb ed="#N" n="26"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e111">
+          <lb ed="#N" n="27"/>QUeritur ergo primo. si quis inuitus potest baptizari.
+          <lb ed="#N" n="28"/>Quod sic: videtur. dicit enim Augustinus in encheri. multa
+          <lb ed="#N" n="29"/>bona prestantur inuitis quando eorum consulitur vtilitati
+          <lb ed="#N" n="30"/>non voluntati. quia ipsi sibimet inueniuntur
+          inimi<lb ed="#N" n="31" break="no"/>ci. Sed magnum prestatur beneficium quando prestatur sacramentum quo liberatur
+          <lb ed="#N" n="32"/>a culpa et pena: et maxime consulitur vtilitati. vt quando confertur
+          <lb ed="#N" n="33"/>sacramentum baptismi: ergo potest inuito prestari. vel quare non:
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e129">
+          ⁋ Item in
+          <lb ed="#N" n="34"/>lege humana ita est. quod aliquis potest soluere pro alio et liberare eum a
+          <lb ed="#N" n="35"/>debito temporali ipso inuito et contradicente. et hoc fit prestando
+          benefi<lb ed="#N" n="36" break="no"/>cium temporale. similiter videtur quod aliquis potest prestare beneficium spiritualem
+          ali<lb ed="#N" n="37" break="no"/>cui illo inuito et contrdicente et liberare eum a debito
+          spirituali<lb ed="#N" n="38" break="no"/>⁋ Pre. paulus cum ecclesiam dei persequeretur ad deum conuerti coactus est
+          <lb ed="#N" n="39"/>a christo. cum ergo ecclesia debeat christum imitari: compellere vaebet etiam
+          <lb ed="#N" n="40"/>renitentem ad susceptionem sacramenti baptismalis siue baptismi.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e148">
+          <lb ed="#N" n="41"/>⁋ Item baptismus est remedin contra originalem. sed originalem contra
+          <lb ed="#N" n="42"/>hitur necessario nullo existente assensu voluntatis: similiter videtur quod
+          ba<lb ed="#N" n="43" break="no"/>ptismus posset conferri necessario absque omni consensu voluntatis
+          reci<lb ed="#N" n="44" break="no"/>pientis. sed conferri aliquid alicui necessitate absque consensu
+          volun<lb ed="#N" n="45" break="no"/>tatis est conferre inuito: ergo inuito potest conferri sacramentum
+          baptisma<lb ed="#N" n="46" break="no"/>tis.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e164">
+          ⁋ Item non potest magis cogi voluntas quam comminando vel in
+          <lb ed="#N" n="47"/>temptando mortem. Sed si aliquis compulsus timore mortis
+          sacri<lb ed="#N" n="48" break="no"/>ficet erit ydolatra: ergo similiter si sacramentum baptismi recipiat timore
+          <lb ed="#N" n="49"/>mortis erit sacramentum verum.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e173">
+          ⁋ Item si aliquis baptizatur ex amore
+          <lb ed="#N" n="50"/>male inflammante baptizatus est de facto: ergo si non minus
+          repu<lb ed="#N" n="51" break="no"/>gnat baptismo amor male inflammans quom timor male
+          humi<lb ed="#N" n="52" break="no"/>lians: si baptizatus ex malo amore baptizatus est: similiter videtur quod
+          <lb ed="#N" n="53"/>ex timore sit baptizatus.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e184">
+          ⁋ Conteraab adulto requiritur in
+          pro<lb ed="#N" n="54" break="no"/>pria persona. vis baptizari. et in ipso est respondere volo: vel
+          nolo<lb ed="#N" n="55" break="no"/>si autem dicat omnino nolo: non est aptus ad suscipiendum baptisma
+          <lb ed="#N" n="56"/>talis ergonoo recipit sacramentum baptismi.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e193">
+          ⁋ Item dicitur in decre. In
+          <lb ed="#N" n="57"/>nocem. quod si aliquis recusans immergatur: quod non est baptizatus.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e198">
+          <lb ed="#N" n="58"/>⁋ Item in sacramento baptismi contrahitur matrimonium spirituale. et
+          <lb ed="#N" n="59"/>desponsatur anima deo. sed mastrimonium spirituale aut tantum autm plus
+          exi<lb ed="#N" n="60" break="no"/>git de consensu quantum mstrimonium carnalem. Similiter videtur quod
+          con<lb ed="#N" n="61" break="no"/>trarium impediat. ne quis suscipiat sacramentum baptismatis.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e210">
+          <lb ed="#N" n="62"/>⁋ Item sacramentum est donum dei. non solum ratione gratie
+          <lb ed="#N" n="63"/>gratum facientis: sed etiam ratione caracteris impressi. sed gratia
+          di<lb ed="#N" n="64" break="no"/>non tantum datur repugnantibus immo etiam subtrahitur: ergo videtur
+          <lb ed="#N" n="65"/>quod tali nullo modo conferatur sacramentum.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e221">
+          ⁋ Item lex euangelica est lex
+          <lb ed="#N" n="66"/>libertatis. ergo et sacramenta euangelica sunt libertatis: sed
+          <lb ed="#N" n="67"/>quod libertatis est libere suscipitur a volente: ergo videtur
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="68"/>quod nec de iure nec de facto aliquis sacramentum
+          baptismi<lb ed="#N" n="69" break="no"/>recipiat inuitus.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e234">
+          ⁋ Responsio. quod duplex est coactio scilicet
+          suffi<lb ed="#N" n="70" break="no"/>ciens et inducens. sufficiens si aliquis immergatur coactio
+          <lb ed="#N" n="71"/>ne sufficiente. vtpote quando violenter et ipso renitente
+          immer<lb ed="#N" n="72" break="no"/>gitur. talis nullo modo baptizatus est: quia nullo modo
+          fu<lb ed="#N" n="73" break="no"/>it in eo consensus nec voluntas immo fuit omnino repugnans.
+          <lb ed="#N" n="74"/>Si autem aliquis immergatur coactione inducente. vtpote minis
+          <lb ed="#N" n="75"/>et flagellis ita quod magis vult se subiicere sacramento eccle
+          <lb ed="#N" n="76"/>sie quam morte perire: dico quod aut intendit alios illudere et
+          mor<lb ed="#N" n="77" break="no"/>tem euadere: et tunc quia non est intentio non est sacramentum.
+          <lb ed="#N" n="78"/>cum nullus dicatur baptizatus esse qui consensit se immer
+          <lb ed="#N" n="79"/>gi ad iocum. Aut ipse vult id quod facit ecclesia circa se fie
+          <lb ed="#N" n="80"/>ri magis quam velit parie: tunc siue credat siue non: siue velit
+          ha<lb ed="#N" n="81" break="no"/>bere gratiam siue non. Dicendum quod recipit sacramentum. eo
+          <lb ed="#N" n="82"/>quod quamuis non sit ibi meritoria voluntas: est tamen ibi
+          con<lb ed="#N" n="83" break="no"/>sensus et voluntas. nec est simpliciter inuoluntarium: quia
+          <lb ed="#N" n="84"/>talis recipit sacramentum exterius et vult circa se fieri quod
+          <lb ed="#N" n="85"/>fit in ministerio sacramenti huius. vnde secundum Canones
+          iudi<lb ed="#N" n="86" break="no"/>candus est baptizatus. et hoc diffinitum est in decre. Innoc.
+          <lb ed="#N" n="87"/>vbi determinatur quod inuitus qui est contradicens penitus nec
+          rem<lb ed="#N" n="88" break="no"/>nec caracterem suscipit sacramenti.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e278">
+          ⁋ Ad id quod obiicitur. quod
+          be<lb ed="#N" n="89" break="no"/>neficia prestantur inuitis. Dicendum est quod et si fuerit inuitus
+          pri<lb ed="#N" n="90" break="no"/>mo modo id est penitus contradicens: tamen potest ei prestari bene
+          <lb ed="#N" n="91"/>ficium temporale: sed non potest ei prestari beneficium baptismatis.
+          <lb ed="#N" n="92"/>Sic enim beneficium gratie gratu facientis non datur ei qui
+          po<lb ed="#N" n="93" break="no"/>nit obicem voluntatis tunc cum datur: sic nec sacramentum
+          <lb ed="#N" n="94"/>baptismi quod quantum est de se disponit ad gratiam gratum
+          <lb ed="#N" n="95"/>facientem non datur ei qui ponit obicem voluntatis. tunc enim
+          <lb ed="#N" n="96"/>caracterem sacramentalem imprimit operatio: cum obicem non
+          <lb ed="#N" n="97"/>inuenit obsistentem.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e300">
+          ⁋ Ad aliud dicendum. quod debitum
+          spiritu<lb ed="#N" n="98" break="no"/>ale ita indicatur in voluntate: quod manente voluntate necessa
+          <lb ed="#N" n="99"/>rio manet debitum huiusmodi. Unde nullo modo potest aliquis ab hoc
+          <lb ed="#N" n="100"/>debito liberari nisi euulsa radice id est voluntate. non sic est de
+          <lb ed="#N" n="101"/>debito temparali. Pre. beneficio huiusmodi fit ingressus in
+          eccle<lb ed="#N" n="102" break="no"/>siam. Ingressus autem ad vnitatem ecclesie non est in adulto
+          nisi<lb ed="#N" n="103" break="no"/>annuente voluntate aliquo modo.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e316">
+          ⁋ Ad id vero quod obiicitur
+          <lb ed="#N" n="104"/>de paulo. dicendum est quod licet a principio fuerit renitens et
+          <lb ed="#N" n="105"/>contradicens ecclesie dei: tamen postea factus est spontaneus cum
+          di<lb ed="#N" n="106" break="no"/>xit. domine quid me vis facere. vnde si aliquis prius esset contradi
+          <lb ed="#N" n="107"/>cens et postea consentiens: pro consentiente habendus esset in
+          <lb ed="#N" n="108"/>susceptione sacramenti. Non autem vult ecclesia nec iusticia
+          re<lb ed="#N" n="109" break="no"/>quirit vt patet ex decre. Inno. quod illi qui nunquam susceperunt
+          ba<lb ed="#N" n="110" break="no"/>ptismum siue sacramentum diuinum cogantur ad susceptionem: sed
+          qui<lb ed="#N" n="111" break="no"/>aliquando susceperunt cogantur ad obseruationem. Religioni enim
+          <lb ed="#N" n="112"/>christiane contrarium est. vt semper inuitus et penitus contradicens
+          <lb ed="#N" n="113"/>ad recipiendam et seruandam christianitatem compellatur.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e341">
+          ⁋ Ad hoc
+          <lb ed="#N" n="114"/>quod obiicitur. quod originalem cuius est proprium remedium baptismus
+          <lb ed="#N" n="115"/>contrahitur sine consensu et voluntate etc. Dicendum quod hoc est
+          <lb ed="#N" n="116"/>verum. et consimili modo confertur remedium baptismi in paruulis
+          <lb ed="#N" n="117"/>qui non habent vsum rationis. adultus autem repugnans et
+          con<lb ed="#N" n="118" break="no"/>tradicens non solum modo non consentit nec solum vult
+          ne<lb ed="#N" n="119" break="no"/>gatiue: sed ponit obicem impedientem oppositum nolendo.
+          <lb ed="#N" n="120"/>Pre. non est simile. quia originalis contractio est naturalis. et
+          <lb ed="#N" n="121"/>ideo ineuitabilis. Sed remedium baptismi non respicit
+          natu<lb ed="#N" n="122" break="no"/>ram. sed potius voluntatem persone: et ideo non est simile.
+        </p>
+        <p xml:id="v78d89-a4j7r6-d1e363">
+          <lb ed="#N" n="123"/>⁋ Ad aliud quod obiicitur de comminatione mortis.
+          dicen<lb ed="#N" n="124" break="no"/>dum quod maior est coactio quam hec. Nam hec est solum
+          indu<lb ed="#N" n="125" break="no"/>cens non sufficiens. sed cum accipitur velit nolit et
+          immergi<lb ed="#N" n="126" break="no"/>tur ibi est sufficiens coactio. quamuis enim voluntas cogi non
+          pos<lb ed="#N" n="127" break="no"/>sit in volendo: potest tamen simpliciter homini fieri coactio in
+          actu<lb ed="#N" n="128" break="no"/>exteriori. Unde voluntas inducta voluntas est. et ideo hoc im
+          <lb ed="#N" n="129"/>primitur caracter: et ibi non. et est exemplum in eo qui
+          po<lb ed="#N" n="130" break="no"/>nit thura timore mortis: et de eo cuius manus trahitur vio
+          <lb ed="#N" n="131"/>lenter. primus consentit et peccat et dicitur sacrificare:
+          se<lb ed="#N" n="132" break="no"/>cundus non sic qui sacramentum inductus suscipit dicitur
+          <lb ed="#N" n="133"/>consentire. siue inducatur amore bono vel malo siue timo
+          <lb ed="#N" n="134"/>re bono vel malo suscipit sacramentum: quia sacramenti susceptio est
+          <lb ed="#N" n="135"/>bonis malisue communis. et ideo talisvoluntas sufficit ad
+          sa<lb ed="#N" n="136" break="no"/>cramentum. Ex hoc patet responsio ad aliud quod sequitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

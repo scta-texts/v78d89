@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7, Membrum 8</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7, Membrum 8</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="63"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e517"><!-- q7m8 -->
+        <head xml:id="v78d89-d1e517-Hd1e101">Membrum 8</head>
+        <head xml:id="v78d89-d1e517-Hd1e103" type="question-title">Utrum circumcisio erat iteranda</head>
+        <p xml:id="v78d89-d1e517-d1e106">
+          <lb ed="#N" n="6"/>⁋ Membrum octauum
+        </p>
+        <p xml:id="v78d89-d1e517-d1e111">
+          <lb ed="#N" n="7"/>SEquitur inquirere vtrum circumcisio erat
+          iteran<lb ed="#N" n="8" break="no"/>da. Et primo videtur quod non: cum peccatum cius erat
+          <lb ed="#N" n="9"/>remedium scilicet originale: non iteratur.
+        </p>
+        <p xml:id="v78d89-d1e517-d1e120">
+          ⁋ Preterea
+          <lb ed="#N" n="10"/>hoc videtur per simile de baptismate quod est in
+          reme<lb ed="#N" n="11" break="no"/>dium originalis in noua lege.
+        </p>
+        <p xml:id="v78d89-d1e517-d1e128">
+          ⁋ Contra. Iosue. v. fac tibi
+          cul<lb ed="#N" n="12" break="no"/>tros lapideos et circumcide secundo filios isrlis. Ecce quod dicitur
+          <lb ed="#N" n="13"/>secundo circumcide filios isrl. sed secundum dicitur respectu primi:
+          <lb ed="#N" n="14"/>ergo bis debebant circumcidi.
+        </p>
+        <p xml:id="v78d89-d1e517-d1e137">
+          ⁋ Item omnia sacramenta noue legis
+          <lb ed="#N" n="15"/>iterantur. illis exceptis quibus imprimatur caracter spiritualis. a
+          si<lb ed="#N" n="16" break="no"/>mili videtur quod illa veteris legis. iteranda sunt quibus non
+          impri<lb ed="#N" n="17" break="no"/>mitur caracter. qualis fuit circumcisio. Nec illa ratio videtur
+          vale<lb ed="#N" n="18" break="no"/>re peccatum non iteratur. ergo nec eius remedium. Remedium enim
+          <lb ed="#N" n="19"/>originalis fuit decimatio vt habetur ab hugiomne: et sacrificia vt
+          <lb ed="#N" n="20"/>habetur a greg. que tamen frequenter iterabantur.
+        </p>
+        <p xml:id="v78d89-d1e517-d1e153">
+          ⁋ Responsio
+          <lb ed="#N" n="21"/>quod circumcisio non fuit iteranda. Duplex enim est casusa quare non
+          <lb ed="#N" n="22"/>iteratur sacramentum. vna est quia non iteratur peccatum cuius est
+          remedi<lb ed="#N" n="23" break="no"/>um. Alia est dignitas sacramenti ex impressione caracteris.
+          <lb ed="#N" n="24"/>de hoc habetur infra. propter primam causam non fuit iteranda
+          circun<lb ed="#N" n="25" break="no"/>cisio.
+        </p>
+        <p xml:id="v78d89-d1e517-d1e166">
+          ⁋ Ad primum ergo dicendum. quod cum dicebatur circumcidere se
+          <lb ed="#N" n="26"/>cundo filios isrlis. non dicebatur quantum ad easdem personas: sed quantum
+          <lb ed="#N" n="27"/>ad eundem poplum. Unde quia poplus semel fuit circumcisus in
+          egy<lb ed="#N" n="28" break="no"/>pto. sed nati in deserto quorum pratres mortui erant in deserto
+          in<lb ed="#N" n="29" break="no"/>circumcisi erant: de illis fuit preceptum quod ipsi circumciderentur. vnde
+          <lb ed="#N" n="30"/>Augustinus. in glo. v. iosue. Non enim vnus homo circumcidendus erat bis
+          <lb ed="#N" n="31"/>sed quia idem poplus in quibusdam circumcisus erat in quibusdam
+          incir<lb ed="#N" n="32" break="no"/>cumcisus: ideo dictum est. non vt circumcisus iterum circumcidere
+          <lb ed="#N" n="33"/>tur.
+        </p>
+        <p xml:id="v78d89-d1e517-d1e186">
+          ⁋ Ad aliud patet responsio. quia impressio caracteris non
+          so<lb ed="#N" n="34" break="no"/>lummodo est causa quare non iteratur sacramentum: sed etiam non ite
+          <lb ed="#N" n="35"/>ratio peccati cuius est remedium.
+        </p>
+        <p xml:id="v78d89-d1e517-d1e193">
+          ⁋ Ad aliud quod obiicitur de
+          deci<lb ed="#N" n="36" break="no"/>matione et sacrificiis. dicendum quod hoc non operabantur
+          inquan<lb ed="#N" n="37" break="no"/>tum erant remedium originalis: sed propter alias causas. Itera
+          <lb ed="#N" n="38"/>batur enim decimatio vt esset in cibum siue sustentationem
+          ministro<lb ed="#N" n="39" break="no"/>rum cultus dei. sacrificia in expiationem peccatorum actualium et
+          <lb ed="#N" n="40"/>popter alia quedam que tanguntur in leuitico.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

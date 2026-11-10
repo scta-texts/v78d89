@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 75, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 75, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="473"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ae03xx"><!-- q75m5 -->
+        <head xml:id="v78d89-ae03xx-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-ae03xx-Hd1e103" type="question-title">De adimpletione contritionis</head>
+        <p xml:id="v78d89-ae03xx-d1e106">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-ae03xx-d1e113">
+          <lb ed="#N" n="71"/>SEquitur de adimpletione contritionis. Querit
+          <lb ed="#N" n="72"/>ergo vtrum penitentia possit impleri in via a
+          penitenti<lb ed="#N" n="73" break="no"/>bus. Quod sic: videtur per hoc. contritio est causa
+          salu<lb ed="#N" n="74" break="no"/>tis penitentibus. contritio dico impleta adminus
+          <lb ed="#N" n="75"/>sine qua non. ergo si penitentibus non negatur salus per illa que geruntur ab
+          <lb ed="#N" n="76"/>eis in via: relinquitur quod complete conteruntur: et ita potest contritio
+          <lb ed="#N" n="77"/>impleri ab eis in via.
+        </p>
+        <p xml:id="v78d89-ae03xx-d1e131">
+          ⁋ Contra. Ioelis. ii. Conuertimin ad
+          me<lb ed="#N" n="78" break="no"/>in toto corde vratro. hoc requiritur ad sufficientem contritionem. sed
+          <lb ed="#N" n="79"/>non est possibile in via sicut nec diligere deum ex toto corde. Ut
+          <lb ed="#N" n="80"/>enim dicit Augustinu. supe illud Deut. vi. Diliges dominum deum tuum ex
+          <lb ed="#N" n="81"/>toto corde tuo. Nemo potest diligere dominum ex toto corde suo in
+          <lb ed="#N" n="82"/>via. quia sicut ipse determinat. diligere dominum ex toto corde est
+          con<lb ed="#N" n="83" break="no"/>uerti omnus affectiones ad ipsum: ergo eadem ratione et conteri in toto
+          <lb ed="#N" n="84"/>corde.
+        </p>
+        <p xml:id="v78d89-ae03xx-d1e150">
+          ⁋ Item Beda. veraciter penitere est ex toto corde
+          con<lb ed="#N" n="85" break="no"/>uerti ad deum et omneum materiam peccandi resecare: sed nullus potest hoc
+          <lb ed="#N" n="86"/>facere in via. ergo etc.
+        </p>
+        <p xml:id="v78d89-ae03xx-d1e157">
+          ⁋ Responsio quod contritio que sufficit ad salutem potest
+          <lb ed="#N" n="87"/>impleri in via. Sed nota quod conuerti in toto corde est duplicit
+          <lb ed="#N" n="88"/>aut ita quod anima secundum totalitatem libro arbtro. vertatur in deum scilicet secundum ratio
+          <lb ed="#N" n="89"/>nem et voluntatem id est ita quod pro nulla re temporali vellicet perpetrasse pec
+          <lb ed="#N" n="90"/>catum. secundum hunc modum bene potest impleri in via. Alio modo
+          dici<lb ed="#N" n="91" break="no"/>tur ex toto corde conuerti: ita scilicet quod nulla delectatione natu
+          <lb ed="#N" n="92"/>talis vel actualis rerrahat aliquo modo. vel ad tempus ab
+          affe<lb ed="#N" n="93" break="no"/>ctione in deum. et secundum hunc modum non potest adimpleri in via. Sr
+          <lb ed="#N" n="94"/>militer diligere deum ex toto corde dicitur dupliciter. ita quod diligatur secundum
+          <lb ed="#N" n="95"/>totalitatem libro arbtri id est summe siue precipue inter omnia: vel ita quod
+          nul<lb ed="#N" n="96" break="no"/>la delectatio scilicet naturalis actualis retrahit alquo modo ad tempus
+          <lb ed="#N" n="97"/>ab affectione in deum. et sic diligere deum ex toto corde non potest homo
+          <lb ed="#N" n="98"/>in via: sed diliget sic in patria. Similiter nec potest conuersio in toto
+          <lb ed="#N" n="99"/>corde sic impleri in via: quia in via accidit necessario delectatio
+          na<lb ed="#N" n="100" break="no"/>turalis vel accidentalis scilicet venialis vel mortalis. que auer
+          <lb ed="#N" n="101"/>tunt vt non sit semper totalitas affectionis in deum. nec hec tota
+          <lb ed="#N" n="102"/>litas conuersionis exigitur in contritione: sed requiritur totalitas
+          conuer<lb ed="#N" n="103" break="no"/>sionis ad deum scilicet voluntatis et rationis. ita quod summe afficitur ad
+          <lb ed="#N" n="104"/>deum ita detestando peccatum: quod pro nulla re vellet illud commisisse.
+        </p>
+        <p xml:id="v78d89-ae03xx-d1e199">
+          <lb ed="#N" n="105"/>⁋ Ad illud quod obiicitur. quod penitere veraciter est resecare
+          materi<lb ed="#N" n="106" break="no"/>am etc. Dicendum quod materia peccandi est in duplici dromteria. quia vel in
+          <lb ed="#N" n="107"/>propinqua dispositione: vel impotentia vel impossibilitate.
+          ma<lb ed="#N" n="108" break="no"/>teria propinqua siue dispositio potest resecari ne progrediatur in
+          effe<lb ed="#N" n="109" break="no"/>ctum: sed quod non sit possibilitas ad peccandum non potest
+          rese<lb ed="#N" n="110" break="no"/>cari nisi in confirmatis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

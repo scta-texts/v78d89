@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 39, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 39, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="284"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a869eq"><!-- q39m1 -->
+        <head xml:id="v78d89-a869eq-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a869eq-Hd1e103" type="question-title">De modo loquendi per verbum significans posse</head>
+        <p xml:id="v78d89-a869eq-d1e106">
+          <lb ed="#N" n="36"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a869eq-d1e111">
+          <lb ed="#N" n="37"/>QUeritur ergo primo. vtrum hec sit vera: panis potest
+          <lb ed="#N" n="38"/>esse corpus christi. Quod videtur ex hoc: quod panis
+          <lb ed="#N" n="39"/>mutatur siue conuertitur in corpus christi. Quo autem
+          <lb ed="#N" n="40"/>mutaretur in illud nisi posset esse illud.
+        </p>
+        <p xml:id="v78d89-a869eq-d1e122">
+          ⁋ Item
+          <lb ed="#N" n="41"/>Ambro. quod est panis potest esse corpus christi: consecratione que fit christi
+          <lb ed="#N" n="42"/>sermone.
+        </p>
+        <p xml:id="v78d89-a869eq-d1e130">
+          ⁋ Contra. duplex est potentia scilicet agentis et mate
+          <lb ed="#N" n="43"/>rie. Non potest potentia agentis: quia nihil est in pane quo
+          po<lb ed="#N" n="44" break="no"/>test facere quod sit corpus christi. Neque potentia materie: quia
+          <lb ed="#N" n="45"/>nihil est in pane quod est susceptibile substantialis forme
+          cor<lb ed="#N" n="46" break="no"/>poris christi. nihil enim materiale respectu corporis christi est in
+          pa<lb ed="#N" n="47" break="no"/>ne.
+        </p>
+        <p xml:id="v78d89-a869eq-d1e143">
+          ⁋ Responsio. quod hec secundum communem modum loquendi non est
+          ve<lb ed="#N" n="48" break="no"/>ra. scilicet panis potest esse corpus christi. quia nulla est potentia
+          pa<lb ed="#N" n="49" break="no"/>nis vel materie illius respectu forme substantialis corporis christi
+          <lb ed="#N" n="50"/>que secundum aliquam legem nature complenda est. Aliquo tamen modo
+          <lb ed="#N" n="51"/>ibi notata potentia veritatem habet scilicet secundum quod notatur ibi totius
+          pa<lb ed="#N" n="52" break="no"/>nis scilicet constantis ex materia tali et forma possibilitas ad
+          <lb ed="#N" n="53"/>transmutationem que terminatur ad esse corpus christi. et hec
+          possi<lb ed="#N" n="54" break="no"/>bilitas est creature respectu virtutis supra naturam. que
+          <lb ed="#N" n="55"/>possibilitas transit cum substantia panis. vnde solet
+          as<lb ed="#N" n="56" break="no"/>signari pro regula in hac materia. quod non est ordinatio pais
+          <lb ed="#N" n="57"/>ad corpus christi secundum causas inferiores. ideo verba hec
+          signi<lb ed="#N" n="58" break="no"/>ficantia sicut hoc verbum potest: absolute dicta faciunt locuti
+          <lb ed="#N" n="59"/>onem falsam. vt si dicatur: panis potest esse corpus christi. Si autem
+          <lb ed="#N" n="60"/>exprimatur ordinatio secundum causas superiores. vt si dicatur painis
+          <lb ed="#N" n="61"/>potest conuerti a deo in corpus christi: tunc est veritas in
+          lo<lb ed="#N" n="62" break="no"/>cutione. propter quod non est ista propris: panis potest esse etc. ad hoc
+          <lb ed="#N" n="63"/>enim quod vera esset: oporteret quod aliqua esset inclinatio
+          appeti<lb ed="#N" n="64" break="no"/>tus ad esse huiusmodi cui posset satisfieri secundum legem nature.
+          Di<lb ed="#N" n="65" break="no"/>cit enim Augustinus. super Gen. Elementa huius mundi corporea habent
+          <lb ed="#N" n="66"/>definitam vim qualitatemque suam: quid vnunquodque valeat
+          <lb ed="#N" n="67"/>vel non valeat: quid de quo fieri possit.
+        </p>
+        <p xml:id="v78d89-a869eq-d1e189">
+          ⁋ Ad hoc igitur quod
+          <lb ed="#N" n="68"/>obiicitur. quod panis mutatur in corpus christi: igitur panis potest esse
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>corpus christi. Dicendum quod non sequitur. quia hec mutatio non est
+          <lb ed="#N" n="70"/>ex aliqua virtute innata siue secundum legem nature ordinata:
+          <lb ed="#N" n="71"/>satisfactiua appetitui mutati. hoc enim requirit potentia
+          ma<lb ed="#N" n="72" break="no"/>terie vt appetitui illius possit satisfacere: vel pro toto vel pro
+          <lb ed="#N" n="73"/>parte virtus ordinata secundum naturam.
+        </p>
+        <p xml:id="v78d89-a869eq-d1e207">
+          ⁋ Ad hoc quod die Au
+          <lb ed="#N" n="74"/>bro. quod quod est panis potest esse corpus christi consecratione etc.
+          Di<lb ed="#N" n="75" break="no"/>cendum quod per hoc quod dicitur potest: non notatur potentia cuius
+          appe<lb ed="#N" n="76" break="no"/>titui est virtus ordinata secundum naturam satisfactiua. sed notatur
+          <lb ed="#N" n="77"/>ibi potentia panis existentis in integritate sui esse ad
+          transmu<lb ed="#N" n="78" break="no"/>tationem que terminatur ad esse corpus christi mediante virtute
+          <lb ed="#N" n="79"/>supra naturam. non autem notatur potentia cuius appetitus
+          adim<lb ed="#N" n="80" break="no"/>pletid potest esse secundum legem nature. Uel secundum alios sic exponitur
+          <lb ed="#N" n="81"/>verbum Ambro. scilicet secundum quod panis est: potest esse corpus christi etc.
+          <lb ed="#N" n="82"/>hoc est. sub qua specie est panis: sub eadem potest esse corpus
+          <lb ed="#N" n="83"/>christi. ita quod relatio idemptitatis substantie retorqueatur ad forman
+          <lb ed="#N" n="84"/>accidentalem: non ad substantiam panis. Quare ergo pro regula
+          haben<lb ed="#N" n="85" break="no"/>dum est in hac materia. quod oratio in qua est verbum pertinens
+          <lb ed="#N" n="86"/>ad posse respectu esse cum casuali in rectitudine: non est
+          vera<lb ed="#N" n="87" break="no"/>proprie loquendo neque concedenda. vt panis potest esse corpus christi.
+          <lb ed="#N" n="88"/>propter hanc propositionem generalem: Cuius est potentia eius est
+          <lb ed="#N" n="89"/>actus. ne videretur permanere materia panis susceptibilis
+          <lb ed="#N" n="90"/>forme corporis christi siue de qua esset corpus christi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

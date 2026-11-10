@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 27, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 27, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="172"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a68lel"><!-- q27m1 -->
+        <head xml:id="v78d89-a68lel-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a68lel-Hd1e103" type="question-title">De comparatione quantum ad ordinem</head>
+        <p xml:id="v78d89-a68lel-d1e106">
+          <lb ed="#N" n="32"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a68lel-d1e111">
+          <lb ed="#N" n="33"/>PRimo ergo queritur. vtrum hoc sacramentum sit posterius
+          sa<lb ed="#N" n="34" break="no"/>cramento baptismatis vel econuerso. Quod sit
+          <lb ed="#N" n="35"/>posterius: videtur per hoc quod sacramentum baptismi est sum
+          <lb ed="#N" n="36"/>damentum et ianua omnium sacramentorum.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e122">
+          ⁋ Item prius est
+          <lb ed="#N" n="37"/>regeneratio ad vitam quod fit per baptisma: quam est roborari ad
+          <lb ed="#N" n="38"/>pugnam quod fit per confirmationem. vnde Melchyades papa. In
+          ba<lb ed="#N" n="39" break="no"/>ptismo regeneramur ad vitam: post baptismum confirmamur
+          <lb ed="#N" n="40"/>ad pugnam.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e134">
+          ⁋ Contrarium videtur primo. quia via reparationis
+          op<lb ed="#N" n="41" break="no"/>posito ordine procedit vie destructionis et ruine. sicut patet tam
+          <lb ed="#N" n="42"/>ratione quam exemplo. Sed in via ruine prior est culpa quam pena:
+          <lb ed="#N" n="43"/>ergo in via repationis prius debet adhiberi remedium contra penam
+          <lb ed="#N" n="44"/>que est posterior quom contra culpam. Sed sacramentum confirmationis est contra
+          pe<lb ed="#N" n="45" break="no"/>nam pusillanimitatis: sacramentum baptismi contra culpam originalis
+          <lb ed="#N" n="46"/>peccati. ergo prius est hoc sacramentum quom id.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e150">
+          ⁋ Item secundum rectum
+          ordinen<lb ed="#N" n="47" break="no"/>euntes ad pugnam: prius debent animari et roborari quam in
+          cam<lb ed="#N" n="48" break="no"/>po certaminis exponi. Iuxta mandatum domini deutr. xx. vbi dicitur.
+          <lb ed="#N" n="49"/>Si quis formidolosus te. Sed per sacramentum confirmationis tollitur
+          <lb ed="#N" n="50"/>pusillanimitas et animatur homo ad prelium. per sacramentum baptismi
+          <lb ed="#N" n="51"/>statuitur in prelio: dum fit aduersarius dyaboli et intrat
+          acien<lb ed="#N" n="52" break="no"/>ihu christi. ergo sacramentum confirmationis precedit sacramentum baptismi.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e166">
+          <lb ed="#N" n="53"/>⁋ Item in sapienter agentibus vbi timetur periculum de
+          incursu<lb ed="#N" n="54" break="no"/>hostium: prius est domus firmanda quam inhabitanda. sed per
+          sacra<lb ed="#N" n="55" break="no"/>mentum baptismi habitat christus in anima: per sacramentum vero
+          confir<lb ed="#N" n="56" break="no"/>mationis habitatio firmatur et munitur. et talis inhabitatio
+          con<lb ed="#N" n="57" break="no"/>tinuum patitur hostium incursum. ergo secundum ordinem rectum et debitum
+          <lb ed="#N" n="58"/>confirmatio est ante baptisma.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e182">
+          ⁋ Item sicut ficte ad
+          bapti<lb ed="#N" n="59" break="no"/>sma accedens sacramentum suscipit et non rem baptismi quousque
+          <lb ed="#N" n="60"/>recesserit fictio: similiter non baptizatus suscipiens eucharistiam:
+          <lb ed="#N" n="61"/>suscipit illud quod est vere in eucharistia: licet non consequatur in eo
+          <lb ed="#N" n="62"/>effectus illius sacramenti. Similiter videtur quod non baptizatus possit
+          re<lb ed="#N" n="63" break="no"/>cipere sacramentum confirmationis sine baptismo: licet rem siue effectum
+          <lb ed="#N" n="64"/>non recipiat.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e198">
+          ⁋ Responsio. quod absquie dubio sacramentum confirmationis
+          <lb ed="#N" n="65"/>sequitur sacramentum baptismi: tum quia esse confirmatum sequitur esse
+          iu<lb ed="#N" n="66" break="no"/>stificatum: tum quia inferius. Confirmatio enim presupponit
+          <lb ed="#N" n="67"/>baptismum tanquam prius et communius.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e207">
+          ⁋ Ad id ergo quod prius
+          ob<lb ed="#N" n="68" break="no"/>iicitur de reparatione. dicendum quod illud habet locum in reparatis et
+          de<cb ed="#N" n="b"/><lb ed="#N" n="69" break="no"/>structis que habent ordinem sicut pars et totum: sicut simplex et
+          <lb ed="#N" n="70"/>compositum. in quibus est destructio per resolutionem. sicut patet
+          <lb ed="#N" n="71"/>in corruptione mixti: vel dissolutione alicuius artificiati. Sed
+          <lb ed="#N" n="72"/>in his que habent ordinem sicut causa necessaria et effectus non habet
+          <lb ed="#N" n="73"/>veritatem. Et hoc modo se habet hic: non modo primisso. Nam
+          <lb ed="#N" n="74"/>culpa erat causa necessario introductiua pene. et ideo oportet
+          <lb ed="#N" n="75"/>prius animam a peccato resurgere: quam possit a pena conuale
+          <lb ed="#N" n="76"/>scere. Culpa enim tanta necessitate introducit penam et seque
+          <lb ed="#N" n="77"/>las adeo sibi adherentes. quod nisi culpa tolletur: nequaquam possunt
+        </p>
+        <p xml:id="v78d89-a68lel-d1e233">
+          <lb ed="#N" n="78"/>ista curari. sicut impossibile est vulnus claudi nisi prius
+          te<lb ed="#N" n="79" break="no"/>lum de vulnere extrahatur. et hoc modo in proposito est intel
+          <lb ed="#N" n="80"/>ligendum. Nam illud est simile quod introducit Augustinus.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e242">
+          ⁋ Ad
+          <lb ed="#N" n="81"/>illud quod obiicitur de euntibus ad prelium: quod prius debet
+          tolli<lb ed="#N" n="82" break="no"/>formidolositas. Dicendum quod illud veritatem habet regulariter
+          <lb ed="#N" n="83"/>intellectum. Unde attendendum est. quod duplex est prelium scilicet com
+          <lb ed="#N" n="84"/>mune et arduum. In baptismo quidem statuitur homo in
+          pre<lb ed="#N" n="85" break="no"/>lio communi. et ad illud datur sufficiens virtus gratie ad
+          stabi<lb ed="#N" n="86" break="no"/>liendum baptizatum vt non possit preualere aduersarius. Sed
+          <lb ed="#N" n="87"/>aliud est prelium arduum in quo non statim statuitur homo post
+          <lb ed="#N" n="88"/>baptisma: sed cum oportet confiteri nomn christi coram etiam
+          per<lb ed="#N" n="89" break="no"/>sequentibus. et ante hoc preit sacramentum confirmationis. Sed illud
+          pre<lb ed="#N" n="90" break="no"/>lium sequitur baptismum et vtrumque sacramentum: et ideo non oportet quod
+          <lb ed="#N" n="91"/>confirmatio sit prior baptismo. Potest etiam dici. quod hoc
+          ac<lb ed="#N" n="92" break="no"/>cidit quod per baptismum statuitur homo in prelio. nec est generale:
+          <lb ed="#N" n="93"/>sicut patet in paruulis. Esto tamen quod adhuc esset verum
+          generali<lb ed="#N" n="94" break="no"/>ter: potest dici quod non est simile in bello spirituali et materiali. Nan
+          <lb ed="#N" n="95"/>in bello spirituali nulim dantur arma ad pugnandum nec robur
+          <lb ed="#N" n="96"/>spiritus: nisi ei qui sequitur christum: et se cum eo exponit ad prelium.
+          <lb ed="#N" n="97"/>et ideo cum per sacramentum baptismi fiat homo de acie christi: necesse est quod
+          <lb ed="#N" n="98"/>secundum rectum ordinem prius homo baptizetur quam quod per
+          confirmati<lb ed="#N" n="99" break="no"/>onem armeter.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e286">
+          ⁋ Ad id quod sequitur dicendum. quod si domus aliqua
+          <lb ed="#N" n="100"/>sufficienter muniretur ex presentia habitatoris: non oporteret quod
+          <lb ed="#N" n="101"/>muniretur ante inhabitationem. vnde quia domus
+          inhabitan<lb ed="#N" n="102" break="no"/>da a domino scilicet anima vel homo sufficienter quantum est pro statu
+          in<lb ed="#N" n="103" break="no"/>cipientium munitur ex presentia dei inhabitantis per gratiam que datur in
+          <lb ed="#N" n="104"/>baptismo contraimpetum aduersariorum siue hostium
+          infestan<lb ed="#N" n="105" break="no"/>tium communi bello: non oportet quod premuniatur alio sacramento.
+          <lb ed="#N" n="106"/>Sed quia quandoque hostes et persecutores fidei ingrassantur in
+          fide<lb ed="#N" n="107" break="no"/>les grauiori conflictu: volentes subuertere fidem que est
+          fun<lb ed="#N" n="108" break="no"/>damentum edificii religionis christiane: expedit contra huiusmodi
+          in<lb ed="#N" n="109" break="no"/>festationem domum ante murali confirmationis premuniri. quod quidem
+          <lb ed="#N" n="110"/>non potest fieri nisi in presentia habitatoris. et de hac non est
+          verum<lb ed="#N" n="111" break="no"/>quod debeat precedere: sed oportet sequi. et hec datur in
+          confir<lb ed="#N" n="112" break="no"/>matione: et ideo sacramentum illud secundum rectum ordinem non precedit
+          <lb ed="#N" n="113"/>sed sequitur.
+        </p>
+        <p xml:id="v78d89-a68lel-d1e319">
+          ⁋ Ad vltimum dicendum. quod baptismus non est fundamentum
+          <lb ed="#N" n="114"/>sacramentorum solum ratione gratie collate eodem: sed ratione caracteris
+          im<lb ed="#N" n="115" break="no"/>pressi. Caracter enim baptismalis fundamentum est aliorum
+          <lb ed="#N" n="116"/>caracterum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

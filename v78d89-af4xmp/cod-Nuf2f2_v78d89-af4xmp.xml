@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 82, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 82, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="532"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-af4xmp"><!-- q82m2 -->
+        <head xml:id="v78d89-af4xmp-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-af4xmp-Hd1e103" type="question-title">An sit timenda. an tenenda</head>
+        <p xml:id="v78d89-af4xmp-d1e106">
+          <lb ed="#N" n="103"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e111">
+          <lb ed="#N" n="104"/>COnsequenter queritur a sentenia iniuste lata sit
+          te<lb ed="#N" n="105" break="no"/>nenda. Quod sic: videtur. xi. q iii. Non solum. s.
+          <lb ed="#N" n="106"/>Cum ergo. vbi dicitur. Cum sententia ex ordine iniusta est.
+          <lb ed="#N" n="107"/>nec tamen ab ea recedendum est.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e122">
+          ⁋ Item sententia iniuste
+          <lb ed="#N" n="108"/>lata ex contemptu habet efficaciam. e. cil. Si iniuste ligatur ex
+          ipsa<lb ed="#N" n="109" break="no"/>timide reprehensionis superbia fit culpa que non erat.
+          excommunica<lb ed="#N" n="110" break="no"/>tio autem siue iusta sit siue iniusta ex contemptu excommunicati
+          effica<lb ed="#N" n="111" break="no"/>ciam habet. Dicitur enim. xxiiii. q. iii. Notandum. disciplina est
+          ex<lb ed="#N" n="112" break="no"/>communicatio non eradicatio nisi forte ex contemptu et superbia
+          excommunica<lb ed="#N" n="113" break="no"/>ti proueniat. Ex his patet quod quelibet excommunicatio etiam iniusta est
+          <lb ed="#N" n="114"/>tenenda.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e141">
+          ⁋ Item greg. pastoris sententia gregi timenda est siue iuste
+          <lb ed="#N" n="115"/>vel iniuste pastor obliget.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e146">
+          ⁋ Contra. sententia iniuste lata non
+          <lb ed="#N" n="116"/>est tenenda. per locum ab oppositis.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e151">
+          ⁋ Item habetur. xxiiii. q.
+          <lb ed="#N" n="117"/>i. Manet. Nihil erit ligatum vel solutum nisi quod beatus
+          pe<lb ed="#N" n="118" break="no"/>trus ligauerit vel soluerit. Ex hoc videtur quod sententia
+          in<lb ed="#N" n="119" break="no"/>iuste lata non tenet. quia videtur dicere quod nulla est sententia
+          <lb ed="#N" n="120"/>nisi iuste sit lata: eo modo quo fuit data beato petro. et hoc
+          <lb ed="#N" n="121"/>videtur per hoc quod precedit ibidem quod manet petri priuilegium
+          <lb ed="#N" n="122"/>vbicumque ex ipsius equitate fertur iudicium. Ex hoc videtur
+          <lb ed="#N" n="123"/>quod non teneat nisi quando eque siue iuste feratur.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e169">
+          ⁋ Responsio. quod
+          sen<lb ed="#N" n="124" break="no"/>tentia iniusta tenenda est: sed distinguendum est. quia aut
+          infligi<lb ed="#N" n="125" break="no"/>tur a non habente canonicam iurisditionem. cuiusmodi sunt
+          he<lb ed="#N" n="126" break="no"/>retici. scismatici. apostate: et tunc non est tenenda. non enim posunt
+          ex<lb ed="#N" n="127" break="no"/>communicare. quia excommunicati sunt. Unde. xxiiii. q i. audiuimus quod
+          he<lb ed="#N" n="128" break="no"/>reticus Rauennas dictus archiepsus nisus sit te excommunicare
+          <lb ed="#N" n="129"/>verum quia excommunicatus tem excommunicare non potuit: apostolica auctoriate
+          te<lb ed="#N" n="130" break="no"/>tuosque absoluendo: mandamus non curare. huiusmodi sunt intrusi.
+          <lb ed="#N" n="131"/>suspensi a iurisditione. qui similiter excommunicare non posunt. Et. e. ct. in fio. hec
+          <lb ed="#N" n="132"/>que de hereticis atque scismaticis vel excommunicatis dicta sunt. vi
+          <lb ed="#N" n="133"/>delicet qui ligandi atque soluendi potestatem non habeant: muliorum
+          au<lb ed="#N" n="134" break="no"/>ctoritatibus probatur. similiter est de intrusis suspensis a iurisditione
+          <lb ed="#N" n="135"/>quod excommunicare non posunt. xii. q ii. alienationes. argumentum
+          extra<lb ed="#N" n="136" break="no"/>de conces. preben. Quia diuersitatem. Aut infligitur ab habente
+          <lb ed="#N" n="137"/>iurisditionem canonicam. et tunc tenenda est. siue enim sit iusta
+          <pb ed="#N" n="533"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>siue iniusta et ex animo. causa. ordine: simul tenet et ligat
+          quan<lb ed="#N" n="2" break="no"/>tum ad ea quo tacta sunt: et hoc quantum ad ecclesiam militantem.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e211">
+          <lb ed="#N" n="3"/>⁋ Ad hoc quod obiicitur. quod si iusta tenenda est: iniusta non est
+          tenen<lb ed="#N" n="4" break="no"/>da. per locum ab oppositis. dicendum quod ratione negationis importate
+          <lb ed="#N" n="5"/>inn conclusione: potius tenet hec consequentia in contrario quam in
+          se<lb ed="#N" n="6" break="no"/>sic. que iusta est: est tenenda. ergo que non est iusta: tenenda est iniusta.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e222">
+          <lb ed="#N" n="7"/>⁋ Ad illud quod obiicitur quod nihil erit ligatum vel solutum
+          nisi<lb ed="#N" n="8" break="no"/>quod petrus ligauerit vel soluerit. sic intelligitur scilicet nisi quod
+          <lb ed="#N" n="9"/>auctoritas Petri.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e232">
+          ⁋ Ad hoc quod obiicitur de eo quod precedit
+          <lb ed="#N" n="10"/>quod manet petri priuilegium nisi ex ipsius equitate etc.
+          intel<lb ed="#N" n="11" break="no"/>ligitur de ligatione quantum ad deum. priuilegium enim petri est quod fuit
+          il<lb ed="#N" n="12" break="no"/>li datum a domino. Math. xvi. Quodcumque ligaueris etc. et sic est
+          <lb ed="#N" n="13"/>secundum veritatem quantum ad deum.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e243">
+          ⁋ Ad illud greg. vtrum iuste vel
+          <lb ed="#N" n="14"/>iniuste etc. Dicendum quod semper timenda est sententia quocumque modo
+          <lb ed="#N" n="15"/>inferatur. quia et si iniuste inferatur: timendum est ne peccatis nstis
+          exi<lb ed="#N" n="16" break="no"/>gentibus sit illata. quia vt habetur. xi. q. iii. Non solum. s. cum ergo. contin
+          <lb ed="#N" n="17"/>git aliquando quod adultus sententiam pro sacrilegio reportet. cuius
+          rea<lb ed="#N" n="18" break="no"/>tum in conscientia non habet. hec sententia et si iniusta sit quia non est in eo
+          <lb ed="#N" n="19"/>crimen super quod lata est sententia: tamen iuste ab eo reportata est. quia ex
+          <lb ed="#N" n="20"/>reatu periurii iam diu apud deum excommunicatus fuerat. et in hoc
+          ca<lb ed="#N" n="21" break="no"/>su intelligenda est auctoritas Gre. sententia pastoris etc. Iustam
+          <lb ed="#N" n="22"/>sententiam vocat: quando crimen subest super quod fertur. Iniustam quando
+          il<lb ed="#N" n="23" break="no"/>lud non subest. que tamen timenda vel seruanda est: quia ex alia
+          cau<lb ed="#N" n="24" break="no"/>sa dudum damnandus erat. Unde cum premisisfet greg. pastoris
+          <lb ed="#N" n="25"/>sententia timenda est: adiecit ne is qui subest et cum iniuste
+          forsitan<lb ed="#N" n="26" break="no"/>ligatur: ipsam obligationis sue sententiam ex alia culpa mereatur
+          <lb ed="#N" n="27"/>hec sunt verba decreti.
+        </p>
+        <p xml:id="v78d89-af4xmp-d1e276">
+          ⁋ Hic adhuc queritur cum ab ecclesia
+          <lb ed="#N" n="28"/>que non habet maculam neque rugam. Ephe. v. et di. xxi. quamuis. ni
+          <lb ed="#N" n="29"/>hil iniustum procedere debeat. quare statuit quod iniusta sententia
+          li<lb ed="#N" n="30" break="no"/>gat: cum ex hoc datur prelatis malis materia iniuriandi
+          subdi<lb ed="#N" n="31" break="no"/>tis et seuiendi in illos. Responsio. causa est vt claues ecclesie in maio
+          <lb ed="#N" n="32"/>ri reuerentia habeantur. cum oporteat timere etiam iniustas
+          sen<lb ed="#N" n="33" break="no"/>tentias. et vt homo cresceret per obedientie meritum parens
+          <lb ed="#N" n="34"/>iniuste sententie: et recognoscens se ligatum iniusta
+          sen<lb ed="#N" n="35" break="no"/>tentia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

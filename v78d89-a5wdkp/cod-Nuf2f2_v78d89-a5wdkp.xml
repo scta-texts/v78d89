@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 23, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 23, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="160"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a5wdkp"><!-- q23m7 -->
+        <head xml:id="v78d89-a5wdkp-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-a5wdkp-Hd1e103" type="question-title">Quare non iteratur baptismus</head>
+        <p xml:id="v78d89-a5wdkp-d1e106">
+          <lb ed="#N" n="72"/>Membrum septimum
+        </p>
+        <p xml:id="v78d89-a5wdkp-d1e111">
+          <lb ed="#N" n="73"/>COnsequenter queritur de vnitate baptismi qu
+          <lb ed="#N" n="74"/>dicitur vnicus a quocumque detur nec debet iterari. Sed
+          <lb ed="#N" n="75"/>queritur cur non iteratur: cum eucharistia que est
+          ma<lb ed="#N" n="76" break="no"/>gis dignum sacramentum iteretur.
+        </p>
+        <p xml:id="v78d89-a5wdkp-d1e122">
+          ⁋ Pre. possibile est
+          a<lb ed="#N" n="77" break="no"/>liquem baptizari qui nihil gratie percipit per baptismum. ergo si non debet esse
+          <lb ed="#N" n="78"/>sibi via salutis preclusa: debet et potest iterari isti baptismus.
+        </p>
+        <p xml:id="v78d89-a5wdkp-d1e130">
+          ⁋ Item
+          <lb ed="#N" n="79"/>duo dantur in baptismo scilicet caracter et gratia. sed quamuis caracter
+          <lb ed="#N" n="80"/>sit indelebilis tamen gratia est delebilis: ergo saltem ratione gratie potest et debet
+          <lb ed="#N" n="81"/>iterari.
+        </p>
+        <p xml:id="v78d89-a5wdkp-d1e139">
+          ⁋ Contra. si baptismus posset iterari. ergo posset quilibet
+          <lb ed="#N" n="82"/>impune peccare: cum ibi fiat remissio culpe et pene.
+        </p>
+        <p xml:id="v78d89-a5wdkp-d1e144">
+          ⁋ Responsio.
+          <lb ed="#N" n="83"/>quod baptisma non debet iterari nec potest id est nihil fit in illius
+          iterati<lb ed="#N" n="84" break="no"/>one. Unde Leo papa et habetur. i. q. i. hanc regulam seruandam in
+          om<lb ed="#N" n="85" break="no"/>nibus ecclesiis predicamus. vt lauacrum vnicum nulla iteratione
+          vi<lb ed="#N" n="86" break="no"/>oletur. dicente apostolo. vnus deus vna fides vnum baptisma.
+          Ra<lb ed="#N" n="87" break="no"/>tio autem multiplex est. Una est ratione morbi quem curat scilicet
+          peccati<lb ed="#N" n="88" break="no"/>originalis. quod non iteratur nec iterari potest. Alia est. quia cum
+          <lb ed="#N" n="89"/>ccleat culpam et omnimodam penam: sine freno peccarent homines et
+          <lb ed="#N" n="90"/>discurrerent per campos licentie vsque ad extremam necessitatem
+          <lb ed="#N" n="91"/>in qua facerent se baptizari. Alia est allegorica. baptismus
+          <lb ed="#N" n="92"/>enim habet effectum suum a morte christi sicut dicit apostolus. Quicunque
+          <lb ed="#N" n="93"/>baptizati sumus in christo ihu: in morte eius baptizati sumus.
+          vn<lb ed="#N" n="94" break="no"/>de si christus tantum semel mortuus est et nos tantum semel baptizari con
+          <lb ed="#N" n="95"/>uenit. Alia causa est efficacior quam assignat Augustiu scilicet ne fieret in
+          <lb ed="#N" n="96"/>iuria sacramento. Caracter enim baptismalis perhaenis est manet enim
+          <lb ed="#N" n="97"/>in hereticis. remanet in damnatis in inferno. vnde indelebilis
+          <lb ed="#N" n="98"/>est. et ex quo semel imprimitur amplius imprimi non potest. et sicut
+          ra<lb ed="#N" n="99" break="no"/>dius solis per quecumque loca diffusus non contrahit immundiciam
+          <lb ed="#N" n="100"/>aliquam: sic nec caracter polluitur nec deterioratur. Unde dicit
+          au<lb ed="#N" n="101" break="no"/>gust. sicut iudei mali sunt in lege bona sic heretici sunt
+          ma<lb ed="#N" n="102" break="no"/>li in baptismo bono. et sicut malicia iudeorum non facit legen
+          <lb ed="#N" n="103"/>malam nec eam polluit aliquo modo: sic nec malicia
+          heretico<lb ed="#N" n="104" break="no"/>rum facit baptismum malum. Et sicut iudei per hoc quod habent
+          le<lb ed="#N" n="105" break="no"/>gem bonam magis damnabuntur: sic heretici per hoc quod habent
+          ba<lb ed="#N" n="106" break="no"/>ptismum magis damnabuntur. Si ergo iteraretur baptismus:
+          cre<lb ed="#N" n="107" break="no"/>deretur caracter baptismalis annihilatus esse vel deterioratus
+          <lb ed="#N" n="108"/>vel pollutus. quorum nullum est: quia ergo caracter perpetuus est:
+          <lb ed="#N" n="109"/>non est iterandum baptisma sicut nec ordo: et ita iniuriaretur
+          <lb ed="#N" n="110"/>sacramento: si iteraretur baptismus. Alia ratio est institutio diuinam. quia
+          <lb ed="#N" n="111"/>dominus instituit vt vnicam haberet efficaciam in imprimendo caracterem
+          <lb ed="#N" n="112"/>et perfectam in ablatione mali perfecte scilicet impedientis ingressum
+          <lb ed="#N" n="113"/>regni celestis. et semel tantum fieret: propter quod iteratio
+          baptis<lb ed="#N" n="114" break="no"/>mi facit contumeliam sacramento siue iniurram: similiter et christo.
+        </p>
+        <p xml:id="v78d89-a5wdkp-d1e216">
+          ⁋ Ad hoc
+          <lb ed="#N" n="115"/>quod obiicitur. quod aliquando nihil percipitur gratie in sacramento. vnde debet
+          itera<lb ed="#N" n="116" break="no"/>ri ne via salutis precludatur. Dicendum quod ex hoc non precluditur
+          <lb ed="#N" n="117"/>via salutis. quia gratia recuperatur siue acquiritur per penitentiam.
+        </p>
+        <p xml:id="v78d89-a5wdkp-d1e225">
+          ⁋ Ad
+          <lb ed="#N" n="118"/>aliud dicendum. quod non est similem de caractere et gratia. quia caracter
+          <lb ed="#N" n="119"/>est primus effectus et immediatus ipsius sacramenti: gratia autem non
+          <lb ed="#N" n="120"/>est effectus immediatus sed mediante caractere qui est
+          dispo<lb ed="#N" n="121" break="no"/>sitio ad illam. vnde nullum habet effectum baptisma quare
+          <lb ed="#N" n="122"/>non imprimitur caracter.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

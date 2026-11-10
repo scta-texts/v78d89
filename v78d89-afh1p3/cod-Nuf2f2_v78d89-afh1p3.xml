@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 84, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 84, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="539"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afh1p3"><!-- q84m1 -->
+        <head xml:id="v78d89-afh1p3-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-afh1p3-Hd1e103" type="question-title">Agitur de satisfactione in communi</head>
+        <p xml:id="v78d89-afh1p3-d1e106">
+          <lb ed="#N" n="12"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e111">
+          <lb ed="#N" n="13"/>CIrca primum queritur. vtrum possibile est
+          peniten<lb ed="#N" n="14" break="no"/>ti satisfacere de peccato suo. Quod videtur sic:
+          <lb ed="#N" n="15"/>quia cum diuino adiutorio quod nulli deest
+          pe<lb ed="#N" n="16" break="no"/>nitenti quantum est de se contingit penitentem
+          con<lb ed="#N" n="17" break="no"/>peri de peccatis et confiteri. similiter videtur quod et satisfacere.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e124">
+          ⁋ Item
+          <lb ed="#N" n="18"/>penitens non artatur ad necessitatem peccandi. ergo contingit illum
+          <lb ed="#N" n="19"/>causas peccatorum excidere: et suggestionibus eorum aditum non
+          <lb ed="#N" n="20"/>prebere. hoc. ia. patebit. hoc autem est satisfacere vt prius.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e134">
+          <lb ed="#N" n="21"/>⁋ Item quanto misericordior est in quem delinquitur: tanto sati
+          <lb ed="#N" n="22"/>factio est facilior. sed deus est misericordior homine. ergo si
+          possibi<lb ed="#N" n="23" break="no"/>le est iusta estimatione satisfacere homini: ergo et deo similiter siue
+          <lb ed="#N" n="24"/>multofortius.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e145">
+          ⁋ Contra. reatus debet respondere offense. ergo
+          <lb ed="#N" n="25"/>si offensa peccatul mortalis est infinita: et reatus infinitius.
+          <lb ed="#N" n="26"/>et tanta offensa quantus ille in quem peccatur: propter quod
+          of<lb ed="#N" n="27" break="no"/>fensa dei infinita. sed reatum soluere infinitum est impossibi
+          <lb ed="#N" n="28"/>le homini. ergo et satisfacere.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e156">
+          ⁋ Item deutr. xxv. Iuxta
+          mensuram<lb ed="#N" n="29" break="no"/>peccati erit et plagarum modus. Ex hoc verbo patet quod pene
+          <lb ed="#N" n="30"/>peccatorum in quantitate respondent quantitatibus culparum. Sed
+          <lb ed="#N" n="31"/>peccatum mortale in infinitum excedit peccatum venialem. ergo et
+          <lb ed="#N" n="32"/>pena penam similiter excedit. ergo si pro culpa venialium
+          satisfa<lb ed="#N" n="33" break="no"/>ciendum est in pena quantulacumque: pro mortali satisfaciendum
+          <lb ed="#N" n="34"/>est in pena infinita. et sic est impossibile satisfacere pro pec
+          <lb ed="#N" n="35"/>cato mortali.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e174">
+          ⁋ Item quanto peccatum dyaboli excedit peccatum
+          <lb ed="#N" n="36"/>humanum: tanto virtus dyaboli et natura quantum
+          adnobili<lb ed="#N" n="37" break="no"/>tatem conditionum suarum excedit naturam hominis. nobilitas
+          <lb ed="#N" n="38"/>enim conditionis dyabolice est vna ratio
+          irremediabilita<lb ed="#N" n="39" break="no"/>tis peccati sui. vnde virtus siue natura demonis ad
+          faci<lb ed="#N" n="40" break="no"/>endum bona et sustinendum mala: tantum excedit humanam:
+          <lb ed="#N" n="41"/>quantum culpa sua excedit culpam hominis. si ergo demoni im
+          <lb ed="#N" n="42"/>possibile est satisfacere pro peccato suo: similiter et homini est
+          <lb ed="#N" n="43"/>impossibile pro suo.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e194">
+          ⁋ Item in peccato sunt duo. auersio a
+          <lb ed="#N" n="44"/>supremo: et conuersio ad bonum commutabile. quantum ad
+          auer<lb ed="#N" n="45" break="no"/>sionem est differentia in satisfactione. quantum autem ad
+          conuer<lb ed="#N" n="46" break="no"/>sionem est differentia secundum maiorem libidinem et minorem. Sed
+          <lb ed="#N" n="47"/>multi post primum parentem peccauerunt maiori libidine in
+          <lb ed="#N" n="48"/>conuersione ad creaturam quam ipse. ergo si ipse non potuit
+          satis<lb ed="#N" n="49" break="no"/>facere pro primo peccato: multo fortius nec illi. non enim
+          sa<lb ed="#N" n="50" break="no"/>tisfacere potuit: sed necesse fuit christum mori pro illius
+          satisfa<lb ed="#N" n="51" break="no"/>ctione. vt habetur a sanctis.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e214">
+          ⁋ Item minus fit homo culpa
+          <lb ed="#N" n="52"/>bilis ex peccato originali quam ex peccato actuali. ergo si non
+          po<lb ed="#N" n="53" break="no"/>test satisfacere de originali: multominus de actuali.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e222">
+          ⁋
+          Re<lb ed="#N" n="54" break="no"/>sponsio. In peccato mortali sunt duo. auersio a summo
+          <lb ed="#N" n="55"/>bono: et conuersio ad bonum defectibilem. His autem duobus
+          <lb ed="#N" n="56"/>respondent alia duo. offensa dei: et libido peccati. quibus
+          duo<lb ed="#N" n="57" break="no"/>bus respondet duplex pena infinita. scilicet danni et sensus. istis
+          <lb ed="#N" n="58"/>autem duobus respondent duo in satisfactione ex parte
+          peniten<lb ed="#N" n="59" break="no"/>tis. dolor perpetuus de offensa: et sustinentia pene
+          exterio<lb ed="#N" n="60" break="no"/>ris cum diuina misericordia conferente gratiam: qua vtrunque
+          <lb ed="#N" n="61"/>predictorum efficitur deo acceptum. quia enim peccator peccando
+          <lb ed="#N" n="62"/>offendit illum qui est bonitatis simpliciter eterne et infinite:
+          <lb ed="#N" n="63"/>oportet quod in suo infinito et eterno puniatur dolendo pro
+          of<lb ed="#N" n="64" break="no"/>fensa illa et detestando. quia vero diuina misericordia
+          pre<lb ed="#N" n="65" break="no"/>uenit satisfactionem penitentis: gratiam conferendo et reatum
+          in<lb ed="#N" n="66" break="no"/>finitum indulgendo. possibile est penitenti satisfacere opere
+          <lb ed="#N" n="67"/>interiori dolendo de offensa: et opere exteriori de libidine
+          ha<lb ed="#N" n="68" break="no"/>bita in actu peccati. et in vtraque istarum concurrunt ex parte dei
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>misericordia et iusticia. misericordia indulgendo reatum
+          infini<lb ed="#N" n="70" break="no"/>tum simpliciter quantum ad penam damni et quantum ad penam
+          sen<lb ed="#N" n="71" break="no"/>sus: et iusticia in exigendo penam aliquam.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e266">
+          ⁋ Ad illud ergo
+          <lb ed="#N" n="72"/>quod primo obiicitur. quod offensa dei est infinita etc.
+          Dicen<lb ed="#N" n="73" break="no"/>dum quod et pro offensa illa debet penitens in suo infinito
+          pu<lb ed="#N" n="74" break="no"/>nire se dolendo. et sicut tactum est: quia adeo misericorditer
+          <lb ed="#N" n="75"/>fiunt indulgentie huiusmodi: reatus infinitus remittitur pro
+          pe<lb ed="#N" n="76" break="no"/>na finita. Si obiiciatur quod dolor iste est contritionis: et ita non
+          <lb ed="#N" n="77"/>satisfactorius. Dicendum quod non est verum. sicut enim sertaum.
+          de<lb ed="#N" n="78" break="no"/>terminatum est in tractatu de contritione: quidam dolor est
+          con<lb ed="#N" n="79" break="no"/>tritionis: et quidam satisfactorius in penitentia.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e286">
+          ⁋ Ad illud
+          <lb ed="#N" n="80"/>quod obiicitur. quod culpa mortalis excedit venialem in
+          infi<lb ed="#N" n="81" break="no"/>nitum etc. Dicendum quod etsi culpa excedit in infinitum penam
+          <lb ed="#N" n="82"/>satisfactoriam illius que fit in gratia: tamen diuina
+          indul<lb ed="#N" n="83" break="no"/>gentia moderata excedit in infinitum penam satisfactoriam
+          <lb ed="#N" n="84"/>illius. sicut enim tactum est sesncdium in tractatu de penitentia
+          veni<lb ed="#N" n="85" break="no"/>alium. quamuis mortale sit maius in infinitum veniali: tamen quia
+          <lb ed="#N" n="86"/>in iustificatione a mortali remittitur reatus eternus et
+          com<lb ed="#N" n="87" break="no"/>mutatur in penam temporalem. pena debita veniali et
+          mortali<lb ed="#N" n="88" break="no"/>proportionabilia sunt.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e308">
+          ⁋ Ad illud quod obiicitur de peccato
+          <lb ed="#N" n="89"/>dyaboli potest dici. quod dyabolus non potest satisfacere
+          pro<lb ed="#N" n="90" break="no"/>pter proteruam eius fantasiam. propter quam est
+          insuscepti<lb ed="#N" n="91" break="no"/>bilis gratie que est substramentum et ratio satisfactionis. et
+          <lb ed="#N" n="92"/>alia que tacta sunt erta. vbi tactum est de insusceptibilitate
+          <lb ed="#N" n="93"/>angeli gratie penitendi.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e321">
+          ⁋ Ad illud quod obiicitur de
+          pecca<lb ed="#N" n="94" break="no"/>to primi parentis. Dicendum quod aliter fuit de peccato
+          pri<lb ed="#N" n="95" break="no"/>mi hominis et de peccatis aliorum. Primus enim homo
+          peccan<lb ed="#N" n="96" break="no"/>do intulit sibi damnum et omnibus descendentibus ab ipso
+          le<lb ed="#N" n="97" break="no"/>ge propagationis communis. sibi enim et omnibus damnum
+          mor<lb ed="#N" n="98" break="no"/>tis intulit. immo deum damnificauit in toto suo genere
+          hu<lb ed="#N" n="99" break="no"/>mano. et propter hoc primus homo non potuit satisfacere
+          pro<lb ed="#N" n="100" break="no"/>peccato suo: quia non potuit satisfacere nec sibi: nec
+          homin<lb ed="#N" n="101" break="no"/>nec deo pro damno tanto. Et hoc est quod dicit Ansel. quod
+          <lb ed="#N" n="102"/>homo non potuit satisfacere: deus solus potuit sed non
+          de<lb ed="#N" n="103" break="no"/>buit. vnde oportuit quod vna esset persona que posset et que
+          de<lb ed="#N" n="104" break="no"/>beret. et propter hoc deus factus est homo: vt ratione qua esset
+          <lb ed="#N" n="105"/>deus posset: et ratione qua homo deberet. et ista persona esset
+          <lb ed="#N" n="106"/>mediator que satisfaceret pro culpa primi hominis. et etiam
+          <lb ed="#N" n="107"/>pro cul pa aliorum satisfecit. ergo mediator dei et hominis pro
+          pecca<lb ed="#N" n="108" break="no"/>to primi hominis nemo alius potuit: nec adhuc aliquis
+          sa<lb ed="#N" n="109" break="no"/>tisfecit nisi in fide passionis ipsius mediatoris. et cuius
+          fi<lb ed="#N" n="110" break="no"/>de solummodo iustificatur peccator: et solummodo remittitur
+          <lb ed="#N" n="111"/>peccatum. Unde omnis satisfactio nostra habet virtutem a
+          sa<lb ed="#N" n="112" break="no"/>tisfactione christi. que quidem satisfactio habet effectum in mem
+          <lb ed="#N" n="113"/>bris christi per ipsa sacramenta. vt per baptismum habet effectus
+          <lb ed="#N" n="114"/>plenitudinem: et quantum ad culpam et quantum ad penam: et per
+          pe<lb ed="#N" n="115" break="no"/>nitentiam in parte. omnis ergo satisfactio peccati super
+          satisfacti<lb ed="#N" n="116" break="no"/>onem mediatoris fundata est.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e373">
+          ⁋ Ad illud quod obiicitur.
+          <lb ed="#N" n="117"/>quod quantum ad auersionem est differentia in peccatis. Responsio
+          <lb ed="#N" n="118"/>patet ex supradictis. quia vno modo sumpta auersio est
+          in<lb ed="#N" n="119" break="no"/>differentia: alio modo sumpta est differentia. Ex his etiam patet
+          <lb ed="#N" n="120"/>responsio ad predicta. quia si offensa peccati est infinita: et
+          sa<lb ed="#N" n="121" break="no"/>tisfactio est infinita inquantum est mediatoris. Preterea. quia
+          dy<lb ed="#N" n="122" break="no"/>abolus non habet mediatorem: nec satisfactio eius fundata
+          <lb ed="#N" n="123"/>supra meritum mediatoris.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e392">
+          ⁋ Ad vltimum dicendum. quod nullius
+          <lb ed="#N" n="124"/>potest satisfacere pro originali: quia nulla est sati sfactio
+          nisi<lb ed="#N" n="125" break="no"/>habeat fundamentum gratie: qua habita non manet culpa
+          <lb ed="#N" n="126"/>originalis. nec satisfactio pro originali requirit penam a
+          pro<lb ed="#N" n="127" break="no"/>prio subiecto: quia peccatum originalem non est actum sed ab alio
+          <lb ed="#N" n="128"/>contractum.
+        </p>
+        <p xml:id="v78d89-afh1p3-d1e405">
+          ⁋ Preterea. christus satisfecit pro originali simpliciter et
+          suffi<lb ed="#N" n="129" break="no"/>cientissime: cuius satisfactionis virtus et efficacia transfertur
+          <lb ed="#N" n="130"/>ad nos in baptismo: vt tactum est etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

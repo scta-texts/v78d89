@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 104, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 104, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="651"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ahy5v8"><!-- q104m1 -->
+        <head xml:id="v78d89-ahy5v8-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-ahy5v8-Hd1e103" type="question-title">De illis quae sumuntur in usum</head>
+        <p xml:id="v78d89-ahy5v8-d1e106">
+          <lb ed="#N" n="7"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-ahy5v8-d1e111">
+          <lb ed="#N" n="8"/>CIrca primum queritur primo de illis que sunt tantum cibus
+          <lb ed="#N" n="9"/>vtrum esu carnium soluatur ieiunium. Secundo. v.
+          <lb ed="#N" n="10"/>cibi quantitate. Tercio. v. illa que sunt cibus et
+          <lb ed="#N" n="11"/>potus soluant ieiunium. Quarto. v. esu
+          electu<lb ed="#N" n="12" break="no"/>arionrum que iuuant ad digestionem.
+        </p>
+        <div xml:id="v78d89-ahy5v8-Dd1e124">
+          <head xml:id="v78d89-ahy5v8-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-ahy5v8-d1e128">
+            <lb ed="#N" n="13"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e133">
+            <lb ed="#N" n="14"/>CIrca primum primo queritur. vtrum esu carnium
+            sol<lb ed="#N" n="15" break="no"/>uatur ieiunium. quod sic: videtur per hoc. quod ieiunium iusti
+            <lb ed="#N" n="16"/>tutum est contra carnis lasciuiam et in afftictionem
+            car<lb ed="#N" n="17" break="no"/>nis. sed esus carnis maxime prouocat ad lasciuiam carnis et
+            <lb ed="#N" n="18"/>maxime delectantur vtentes illis: ergo vt videtur maxime debent
+            pro<lb ed="#N" n="19" break="no"/>hiberi ieiunantibus et quod illis vtentes non ieiunant. et ita esu
+            car<lb ed="#N" n="20" break="no"/>nium soluitur ieiunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e151">
+            ⁋ Contra. esu piscium non soluitur ieiunium.
+            <lb ed="#N" n="21"/>multi tamen libentius comedunt pisces quam carnes. et maior est dele
+            <lb ed="#N" n="22"/>ctatio in esu quorundam piscium quam in esu quorundam carnium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e158">
+            ⁋
+            Si<lb ed="#N" n="23" break="no"/>dicatur quod quia terra maledicta fuit pro peccato ade Gen. iii. aqua
+            <lb ed="#N" n="24"/>vero non: prop ter hoc ecclesia in ieiuniis ab animalibus terre absti
+            <lb ed="#N" n="25"/>net: non ab animalibus aque. Contra. videtur quod aqua maledictionem
+            <lb ed="#N" n="26"/>habuerit. omnia enim que sunt propter hominem: deteriorata sunt propter
+            <lb ed="#N" n="27"/>peccatum ipsius. vnde sol et luna minus lucent quam lucebant ante peccatum
+            <lb ed="#N" n="28"/>et redibunt ad lucem pristinam homine reparato. vnde ysa. xxx. Erit
+            <lb ed="#N" n="29"/>lux lune sicut lux solis. et lux solis erit septempliciter sicut lux
+            <lb ed="#N" n="30"/>septem dierum id est sicut luxit in prima septimana mundi vbi
+            ma<lb ed="#N" n="31" break="no"/>gis luxit. siem exponunt quidam glose. hoc autem fiet merito
+            <lb ed="#N" n="32"/>passionis christi. vnde castat ecclesia. Terra potestus astra
+            mundus<lb ed="#N" n="33" break="no"/>que lauantur flumine. Si ergo aqua abluta est per passionem christi: aliquam
+            <lb ed="#N" n="34"/>infectionem contraxit ex peccato ade.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e188">
+            ⁋ Item sicut dicit dyonisius in
+            <lb ed="#N" n="35"/>ecclesiastica hierarchia. vir qui diuinorum misteriorum dignus
+            con<lb ed="#N" n="36" break="no"/>muincator est. ea que sunt carnis non sequitur preter valde necessaria
+            <lb ed="#N" n="37"/>secundum naturam. sed per ieiunium debet aliquis maxime effici vir
+            diui<lb ed="#N" n="38" break="no"/>nus et preparari ad comunicationem diuinorum scilicet eukaristie. Cum igitur
+            <lb ed="#N" n="39"/>pisces non sint de valde necessariis. sed tantum panis et aqua. vidrtur
+            <lb ed="#N" n="40"/>quod si aliquis comedat pisces ves aliud quam panem et aquam: quod
+            <lb ed="#N" n="41"/>soluat ieiunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e206">
+            ⁋ Preterea. damas. et greg. nissenus dicunt. quod
+            <lb ed="#N" n="42"/>sunt quedam leticie naturales non necessarie. a quibus sancto
+            viro<lb ed="#N" n="43" break="no"/>abstinendum. et sunt alie necessarie sine quibus hec vita duci non
+            <lb ed="#N" n="44"/>potest. et has pertransire oportet. sed boc modo dicendo necessarium.
+            so<lb ed="#N" n="45" break="no"/>lum panis et aqua necessaria sunt: cum sine aliis viuere
+            contin<lb ed="#N" n="46" break="no"/>gat. ergo cum sanctitas abstinentie maxime requiratur in ieiuniis: videtur
+            <lb ed="#N" n="47"/>quod ieiunantes nihil preter panem et aquam sumere debeant. et quod
+            <lb ed="#N" n="48"/>aliter soluunt ieiunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e224">
+            ⁋ Pretera. videtur quod odor cibi soluat ie
+            <lb ed="#N" n="49"/>iunium. soluitur enim ieiunium his que nutriunt corpus. sed sicut dicit
+            <lb ed="#N" n="50"/>augustinus. odor cibi nutrit quod probat ex hoc quod aliquis odorem
+            attra<lb ed="#N" n="51" break="no"/>hit inspirando et non reddit illum in exspirando. ergo odor soluit ie
+            <lb ed="#N" n="52"/>iunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e235">
+            ⁋ Preterea. videtur quod appetitus cibi tempore in debito soluit
+            <lb ed="#N" n="53"/>ieiunium. Math. v. Qui viderit mulierem ad concupiscendam
+            <lb ed="#N" n="54"/>eam etc. ecce plane habetur quod concupiscentia actus luxurie soluit siue tol
+            <lb ed="#N" n="55"/>lit continentiam. Similiter vt videtur concupiscentia cibi tempore illicito
+            <lb ed="#N" n="56"/>soluit ieiunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e246">
+            ⁋ Ad hoc dicendum. quod esus carnium soluit ieiu
+            <lb ed="#N" n="57"/>nium non esus piscium. et hoc duabus rationibus. Prima est. quia carnes
+            <lb ed="#N" n="58"/>magis nutriunt et roborant quam pisces. ieiunia vero fiunt ad
+            re<lb ed="#N" n="59" break="no"/>pressionem rebellionis carnis: quia caro concupiscit aduersus spiruum
+            <lb ed="#N" n="60"/>et spiritus aduersus carnem. hec enim sibinuicem aduersantur. Gal.
+            <lb ed="#N" n="61"/>v. vnde vtile est carnem macerari et infirmari vt spiritus robore
+            <lb ed="#N" n="62"/>tur. vnde math. xxvi. Spiritus quidem promptus est. caro autem
+            infir<lb ed="#N" n="63" break="no"/>ma. et greg. Sancati carnem macerant spisctum roborant. Secunda ratio
+            <lb ed="#N" n="64"/>est. quia terra maledicta fuit: aqua non. et quod aqua est abluta sanguine
+            <lb ed="#N" n="65"/>christi non dicitur propter remotionem infectionis: sed quia collata est ei vis
+            <lb ed="#N" n="66"/>abluendt aias in sacramento baptismali: vt dicunt quidam. Uel hoe
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="67"/>dicitur. quia sicut omnia sunt deteriorata peccato primorum parentum:
+            <lb ed="#N" n="68"/>sic omnia meliorata erunt completo affectu ablutionis humane.
+            <lb ed="#N" n="69"/>et ideo dicuntur omnia lauari illo flumine id est aqua que flurit de
+            la<lb ed="#N" n="70" break="no"/>tere christi. Uel potest dici quod hoc dicitur. quia vt habetur a beato greg. homo dicitur
+            <lb ed="#N" n="71"/>omnis creatura. quia habet aliquid omnis creature. vnde abluto
+            ho<lb ed="#N" n="72" break="no"/>mine quasi abluitur omnis creatura in homine: ratione communicationis cum
+            <lb ed="#N" n="73"/>omni creatura.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e288">
+            ⁋ Ad illud quod obiicitur de verbo dyonisii. potest
+            di<lb ed="#N" n="74" break="no"/>ci quod dyonisius dicit diuinum virum illum qui est eminens in
+            sanctita<lb ed="#N" n="75" break="no"/>te. et propter hoc quod in talibus virtutes superiores occupantur circa
+            di<lb ed="#N" n="76" break="no"/>uina: et inferiores quia radicantur in eadem essentia: tepescunt in
+            su<lb ed="#N" n="77" break="no"/>is operationibus. vnde virtus digestiua non totum quod conuertit inire
+            <lb ed="#N" n="78"/>potestuo. et ideo aliqui in raptu manent sine cibo pluribus diebus.
+            Ha<lb ed="#N" n="79" break="no"/>bet enim calor naturalis in quod agat. scilicet in residuum cibi quod non
+            <lb ed="#N" n="80"/>potuit incorporare. sicut etiam accidit vrsis vt dicit phous. et
+            <lb ed="#N" n="81"/>ploibus aliis animalibus. quod in hyeme plolibus diebus in cauernis
+            ma<lb ed="#N" n="82" break="no"/>nent sine cibo. et talibus diuinis viris sufficit minus quam aliis.
+            <lb ed="#N" n="83"/>secundum quod plus occupantur circa superiora. vnde legitur in vitaspatrum. quod
+            <lb ed="#N" n="84"/>quidam viri sancti quando triduo ieiunauerant inter sacros
+            sermo<lb ed="#N" n="85" break="no"/>nes obliuiscebantur cibi: et recedebant abinuicem sine comesti
+            <lb ed="#N" n="86"/>one quamuis conuenissent ad comedendum.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e320">
+            ⁋ Ad aliud dicendum. quod
+            <lb ed="#N" n="87"/>necessarie dicuntur leticie nature sine quibus non potest conseruari
+            na<lb ed="#N" n="88" break="no"/>tura. et hoc per tempus conueniens nature sue in suo esse et vigore
+            <lb ed="#N" n="89"/>ad opus. non enim ecclesia intendit concedere quod solum potest conserua
+            <lb ed="#N" n="90"/>re naturam per vnum diem: sed per totum tempus vite conueniens. et vt sit
+            <lb ed="#N" n="91"/>fortis in opere debito.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e333">
+            ⁋ Similiter ad illud quod obiicitur de odore.
+            <lb ed="#N" n="92"/>potest dici quod non nutrit. quia vt dici phous. Nihil nutrit nisi quod
+            <lb ed="#N" n="93"/>potentia est caro. ex qua nutritur aliquiod partium consimilium vel
+            <lb ed="#N" n="94"/>dissimilium. quia his nutritis membra nutriuntur composita ex
+            <lb ed="#N" n="95"/>eis. odor autem cum recipiatur in sensum secundum esse spetiale. quia sensus est
+            <lb ed="#N" n="96"/>susceptiuus specenerum materialium preter necessarium non est potentia
+            <lb ed="#N" n="97"/>caro: et ideo non nutrit vt dicit phous. Si autem accipiatur
+            odor<lb ed="#N" n="98" break="no"/>cum partibus fumosis euaporatis a corpore odorabili. adhuc non
+            <lb ed="#N" n="99"/>nutrit: quia partes huiusmodi non sunt inesse aeris: et aer non potest
+            con<lb ed="#N" n="100" break="no"/>misceri corporibus terrestribus. sed dicitur odor nutrire quia
+            confor<lb ed="#N" n="101" break="no"/>tat.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e357">
+            ⁋ Ad illud quod obiicitur. quod appetitus cibi soluit ieiunium.
+            <lb ed="#N" n="102"/>dicendum quod non nisi voluntate deliberata et completo sensu
+            ra<lb ed="#N" n="103" break="no"/>tionis appetat comedere: peccat et est precepti transgressor ec
+            <lb ed="#N" n="104"/>clesie voluntate non actu. Nota cum hoc quod est voluntas nature
+            <lb ed="#N" n="105"/>et rationis. voluntate naturali potest appeti cibus sine peccato:
+            volunta<lb ed="#N" n="106" break="no"/>te rationis siue deliberata non potestus. plena dico. vnde si ieiunans
+            <lb ed="#N" n="107"/>famelicus stimulo famis prouocatus vellet comedere: nisi esset
+            <lb ed="#N" n="108"/>prohibitum ab ecclesia. non est transgressor peccati nec peccat. Sed
+            si<lb ed="#N" n="109" break="no"/>simpliciter vellet voluntate deliberata et consensu rationis:
+            trans<lb ed="#N" n="110" break="no"/>gressor est voluntate et peccat. sicut est in simili inducto de
+            <lb ed="#N" n="111"/>voluntate mechie.
+          </p>
+        </div>
+        <div xml:id="v78d89-ahy5v8-Dd1e383">
+          <head xml:id="v78d89-ahy5v8-Hd1e385">Articulus 2</head>
+          <p xml:id="v78d89-ahy5v8-d1e387">
+            <lb ed="#N" n="112"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e392">
+            <lb ed="#N" n="113"/>COnsequenter queritur. vtrum cibi quantitate soluitur
+            ie<lb ed="#N" n="114" break="no"/>iunium. et vidtur quod sic. quia determinatum est quota pars cibi
+            <lb ed="#N" n="115"/>transeat in nutrimentum in communi. quia. ix. secundum phsum: ergo
+            de<lb ed="#N" n="116" break="no"/>termninatum est in communi. vel potest dici quantum oportet subtrahere de
+            ne<lb ed="#N" n="117" break="no"/>cessario vt sit ieiunium affligens: et ita determinatum est vt videtur
+            <lb ed="#N" n="118"/>in comuni quantum sumendum est tempore ieiunii. Si igitur aliquis illam
+            quan<lb ed="#N" n="119" break="no"/>titatem transgrediatur soluit ieiunium vt vidtur.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e410">
+            ⁋ Preterea. nullus
+            pec<lb ed="#N" n="120" break="no"/>cando satisfacit sed qui nimis comedit peccat. Cum igitur
+            ieiu<lb ed="#N" n="121" break="no"/>nium sit institutum ad satisfaciendum. si aliquis comederit plus
+            <lb ed="#N" n="122"/>quam exigit necessitas nature: soluit ieiunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e419">
+            ⁋ Preterea. idem actus
+            <lb ed="#N" n="123"/>non potest esse virtutis et vicii. sed nimis comedere est actus
+            gu<lb ed="#N" n="124" break="no"/>le: sicut dicit greg. ergo cum ieiunium sit actus virtutis: nimis
+            co<lb ed="#N" n="125" break="no"/>medendo non ieiunat.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e429">
+            ⁋ Preterea. idem facit plus quod minus. quia
+            vi<lb ed="#N" n="126" break="no"/>cium vt dicit phous. igitur minus comedere vel nihil die
+            ieiu<lb ed="#N" n="127" break="no"/>nii vicium est: et ita minus comedere non est actus virtutis. et ita vt
+            <lb ed="#N" n="128"/>prius.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e438">
+            ⁋ Responsio. quod excessus in quantitate non semper soluit
+            ieiu<lb ed="#N" n="129" break="no"/>nium. licet excessus manifestus frequenter minuit meritum.
+            <lb ed="#N" n="130"/>Sed potest dici. quod si aliquis excedat in quantitate cibi notabiliter
+            <lb ed="#N" n="131"/>habita consideratione ad ipsum sumentem. vt si sit homo mediocris
+            <lb ed="#N" n="132"/>et vltra quam decet vel requirit status eius. multiplicat fercula
+            <lb ed="#N" n="133"/>vt detineat tempus ne affligatur. talis soluit ieiunium et
+            de<lb ed="#N" n="134" break="no"/>cipit seipsum. sed si excedit in quantitate cibi vtcunque recedens
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e454">
+            <lb ed="#N" n="135"/>ab equalitate quantitatis determinate non soluet ieiunium. non
+            <lb ed="#N" n="136"/>enim fuit determinabile ab ecclesia quantum de bert sumi in
+            comni<pb ed="#N" n="652"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>propter diuersitatem locorum in quibus diffusa est ecclesia: et propter
+            di<lb ed="#N" n="2" break="no"/>uersitatem complexionum in hominibus: et propter diuersitatem ciborum. Et
+            <lb ed="#N" n="3"/>hoc quod dicit phohus intelligendum est de cibis aptis ad
+            nutrien<lb ed="#N" n="4" break="no"/>dum. cibi vero quibus vtuntur ieiunantes moderamine recto non
+            <lb ed="#N" n="5"/>sumuntur vt tantum reprimant: sed vt fomitem reprimant et etiam
+            ieiu<lb ed="#N" n="6" break="no"/>nantem moderamie sumpti affligant.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e476">
+            ⁋ Ad aliud quod obiicitur.
+            <lb ed="#N" n="7"/>quod nimis commedere est peccatum etc. potest dici quod nimis comedere
+            <lb ed="#N" n="8"/>est duobus modis. Aut per recessum qualencumque ab equalitate.
+            <lb ed="#N" n="9"/>et sic nimis commedendo non est peccatum semper. non enim vt dicit phous
+            opor<lb ed="#N" n="10" break="no"/>tet semper esse in medio: sed sufficit quod circa medium seu iuxta medium
+            <lb ed="#N" n="11"/>aliquo modo. Est etiam nimis comedere in relatione ad sumentem
+            <lb ed="#N" n="12"/>scilicet notabiliter excedere quando scilicet commedit vltra id quod scit sibi ex
+            <lb ed="#N" n="13"/>pedire. et hoc est peccatum. et sic nimis comedendo non ieiunat
+            <lb ed="#N" n="14"/>secundum intentionem ecclesie instituentis. et ideo etiam instituit ecclesia esse
+            <lb ed="#N" n="15"/>vtendum cibis non multum delectabilibus. quia illis non delectatur
+            <lb ed="#N" n="16"/>natura per se sed per accidens scilicet propter necessitatem. vnde non contingit
+            <lb ed="#N" n="17"/>defacile in illis multum recedere a medio.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e502">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="18"/>obiicitur quod actus vicii non potest esse virtutis etc. potest dici quod actus
+            vicii<lb ed="#N" n="19" break="no"/>qui tamquam principaliter et directe elicit vicium: non potest esse actus
+            <lb ed="#N" n="20"/>virtutis. tamen actus cui se immiscet vicium potest esse actus virtutis.
+            Ui<lb ed="#N" n="21" break="no"/>cium enim dummodo non sit primcipaliter mouens: bene secum compatitur
+            <lb ed="#N" n="22"/>actum virtutis. sicut vana gloria actum caritatis vel iusticie.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e515">
+            <lb ed="#N" n="23"/>⁋ Ad illud quod obiicitur quod minus facit victum etc. potest dici quod in
+            <lb ed="#N" n="24"/>proposito non idem facit minus et plus. minus enim commedere in ieiunio
+            <lb ed="#N" n="25"/>melius assequitur ea propter quod institutum est ieiunium: quam
+            sufficien<lb ed="#N" n="26" break="no"/>ter commedere. propter quod minus in ieiunio non ponit vicium
+            sien<lb ed="#N" n="27" break="no"/>magis nisi minus vergeret ad persone vel nature destructionem
+            <lb ed="#N" n="28"/>Id quod dicit phols. idem facit plus quod minus. quia vicium.
+            intelli<lb ed="#N" n="29" break="no"/>gendum est secundum diffinitionem iuris ciuilis siue politici: non secundum
+            <lb ed="#N" n="30"/>diffinitionem iuris diuini. quod dictat omnia esse danda retinenda.
+            <lb ed="#N" n="31"/>quod non dictat ius politicum sced potius contrarium scilicet quedam
+            <lb ed="#N" n="32"/>dare et quedam retinere.
+          </p>
+        </div>
+        <div xml:id="v78d89-ahy5v8-Dd1e540">
+          <head xml:id="v78d89-ahy5v8-Hd1e542">Articulus 3</head>
+          <p xml:id="v78d89-ahy5v8-d1e544">
+            <lb ed="#N" n="33"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e549">
+            <lb ed="#N" n="34"/>COnsequenter queritur de illis que sunt cibus et
+            po<lb ed="#N" n="35" break="no"/>tus. vtrum soluant ieiunium. cuiusmodi sunt vinum
+            <lb ed="#N" n="36"/>de vite. et vinum de frumento et consimilibus. et videtur quod
+            <lb ed="#N" n="37"/>sic. quia omne quod nutrit soluit ieiumum. vinum maxime nutrit. ergo
+            <lb ed="#N" n="38"/>soluit ieiunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e562">
+            ⁋ Pre. vinum nutrit tantum post cibum vel forte
+            <lb ed="#N" n="39"/>plus quam ante cibum. ergo si ante prandium soluit ieiunium: videtur etiam
+            <lb ed="#N" n="40"/>quod post. et si non post videtur quod nec ante. Queritur ergo quare soluit
+            <lb ed="#N" n="41"/>ieiunium ante: non autem post.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e571">
+            ⁋ Pre obiicitur generaliter de omni
+            po<lb ed="#N" n="42" break="no"/>tu siue ante siue post sumatur. quia secundum phoscum. Esuries est
+            appeti<lb ed="#N" n="43" break="no"/>tus calidi et sicci. Sitis vero appetitus humidi et frigidi. et sicut
+            nu<lb ed="#N" n="44" break="no"/>triunt illa: sic et ista. ergo potus nutrit vt cibus. et hoc videtur docere
+            ex<lb ed="#N" n="45" break="no"/>perimentum. quia sicut non potest homo viuere sine cibo: sic nec sine
+            <lb ed="#N" n="46"/>potu. et sicut non proficeret ad sustentationem potus sine cibo: sic nec
+            <lb ed="#N" n="47"/>econuerso. ergo vtrumque pertinet ad nutrimentum. ergo qua ratione vnum prohabr
+            <lb ed="#N" n="48"/>betur ne soluat vel frangat ieiunium: similiter debet aliud prohiberi
+            ne<lb ed="#N" n="49" break="no"/>soluat ieiunium. ergo sicut frangeret ieiunium qui post comestionem
+            <lb ed="#N" n="50"/>iterum sumeret cibum: sic qui post sumit potum.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e594">
+            ⁋ Pre. hac ratione
+            vi<lb ed="#N" n="51" break="no"/>detur quod aqua soluit ieiunium. quia videtur nutrire quod est contra phscum quod
+            <lb ed="#N" n="52"/>dicit. quod simplicibus corporibus non nutrimur.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e601">
+            ⁋ Pre. si potus est
+            <lb ed="#N" n="53"/>cibus sicut ex dictis videtur: similiter soluit ieiunium qui sumit
+            vi<lb ed="#N" n="54" break="no"/>num post prandium vel quare non.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e608">
+            ⁋ Si diceretur quod non est simile de ante
+            <lb ed="#N" n="55"/>et post. quia potus est sequela cibi. et vinum post cibum iuuat digesti
+            <lb ed="#N" n="56"/>onem et transmittit cibum in membra.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e615">
+            ⁋ Contra. potus spiritualis prem
+            <lb ed="#N" n="57"/>cedit cibum spiritualem in cuius signum ecclesia cantat in paschate.
+            <lb ed="#N" n="58"/>Aqua sapientie salutaris potauit eos. In penth.
+            Liba<lb ed="#N" n="59" break="no"/>uit eos ex adipe frumenti. et ita cibus videtur esse sequela
+            po<lb ed="#N" n="60" break="no"/>tus in spiritualibus: quare similiter debet esse in corporalibus. ergo etc
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e626">
+            ⁋ Responsio.
+            <lb ed="#N" n="61"/>quod potu vini soluitur ieiunium maxime ante prandium. quod vinum
+            <lb ed="#N" n="62"/>nutrit. est enim sicut cibus et potus. non autem post prandium: tunc enim
+            po<lb ed="#N" n="63" break="no"/>tus vini est indultus ab ecclesia et consuetudo hoc tenet: quia
+            iu<lb ed="#N" n="64" break="no"/>uat digestionem. et quia potus est sequela cibi. quia post cibum defert
+            <lb ed="#N" n="65"/>cibum ad membra.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e639">
+            ⁋ Ad illud ergo quod obiicitur. quod omne quod est cibus
+            sol<lb ed="#N" n="66" break="no"/>uit post sicut ante. dicendum quod non sequitur. quia secius est de cibo puro
+            <lb ed="#N" n="67"/>et cibo qui est potus. potus enim vini indultus est ab ecclesia. non quia
+            <lb ed="#N" n="68"/>cibus: sed quia potus propter rationes pretactas. Nec est simile de potu
+            vi<lb ed="#N" n="69" break="no"/>ni ante prandium sicut post. Estimo tamen sine preiudicio. quod propter
+            cau<lb ed="#N" n="70" break="no"/>sam aliquam rationabilem. vtpote debilitatem euidentem vel
+            graui<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>tatem corporis si moderate ante prandium sumeretur non solueret
+            <lb ed="#N" n="72"/>ieiunium ieiunantis nec esset peccatum: sed solueret ieiunium ieiunii.
+            <lb ed="#N" n="73"/>Ita solent distingui quod est ieiunium ieiunii: et ieiunium
+            ieiunan<lb ed="#N" n="74" break="no"/>tis. ieiunium ieiunii soluitur quandocumque cibus sumitur siue
+            quali<lb ed="#N" n="75" break="no"/>cumque de causa. et dicitur ieiunium ieiunii ieiunium simpliciter
+            con<lb ed="#N" n="76" break="no"/>sideratum et absolute. ieiunium ieiunantis inquantum est exercitum
+            <lb ed="#N" n="77"/>ab eo qui ieiunat.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e670">
+            ⁋ Ad illud quod obiicitur. quod potus est appetitus
+            fri<lb ed="#N" n="78" break="no"/>gidi et humidi: et sic videtur nutrire sicut cibus. potest dici quod licet sit
+            <lb ed="#N" n="79"/>appetitus frigidi et humidi: non tamen quodlibet frigidum et humi
+            <lb ed="#N" n="80"/>dum nutrit. quia sitis non est cuiuslibet humidi et frigidi appetitus
+            <lb ed="#N" n="81"/>vt nutrimenti: sed alicus vt deferentis nutrimentum ad membra. et
+            <lb ed="#N" n="82"/>quandoque vt temporamenti caloris cooperantis ipsi digestioni vt in
+            po<lb ed="#N" n="83" break="no"/>tu aque siue appetitu potus aque. Ex hoc patet. quod aqua non soluit
+            <lb ed="#N" n="84"/>ieiunium scilicet ieiunantis: licet soluat ieiunium ieiunii. vnde postcibum
+            <lb ed="#N" n="85"/>aquam non licet sumere corpus dominicum. licet enim aqua per se non nutriat: tamen
+            <lb ed="#N" n="86"/>admixta aliis nutrit vt dicit phs. hoc est cooperatur
+            nutrimen<lb ed="#N" n="87" break="no"/>to ad hoc quod nutriat. et sicut potest misceri alimento exterius et
+            il<lb ed="#N" n="88" break="no"/>lud cedere aptius ad nutriendum: sic sumpta interius immiscetur
+            <lb ed="#N" n="89"/>humoribus quos defert per membra et eisdem incorporatur. Quod autem phos
+            <lb ed="#N" n="90"/>dicit quod aqua non nutrit: verum est per se. Nec est simile de cibo
+            corpora<lb ed="#N" n="91" break="no"/>li et potu spirituali. Sacra enim scriptura dicitur esse potus vbi facilis
+            <lb ed="#N" n="92"/>est: cibus vbi est difficilis. prius autem discuntur facilia et post
+            diffi<lb ed="#N" n="93" break="no"/>cilia. heb. v. perfectorum solidus est cibus. quando enim sensus sunt
+            exerci<lb ed="#N" n="94" break="no"/>tati circa facinlia: conuenientius posunt erigi ad magis difficilia.
+          </p>
+        </div>
+        <div xml:id="v78d89-ahy5v8-Dd1e710">
+          <head xml:id="v78d89-ahy5v8-Hd1e712">Articulus 4</head>
+          <p xml:id="v78d89-ahy5v8-d1e714">
+            <lb ed="#N" n="95"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e719">
+            <lb ed="#N" n="96"/>COnsequenter queritur. vtrum esu eorum que iuuant ad
+            <lb ed="#N" n="97"/>digestionem ciborum soluitur ieiunium scilicet esu
+            specierum<lb ed="#N" n="98" break="no"/>et electuariorum. quod sic: videtur. quia omne quod nutrit
+            sol<lb ed="#N" n="99" break="no"/>uit ieiunium. sed species nutriunt. ergo etc. ergosi species comedantur ante
+            ho<lb ed="#N" n="100" break="no"/>ram comestionis vel post soluitur ieiunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e732">
+            ⁋ Preterea maius
+            ie<lb ed="#N" n="101" break="no"/>iunium ieiunii est quam ieiunium ieiunantis. quia quicumque ieiunat
+            <lb ed="#N" n="102"/>aliqua hora diei est ieiunus: sed non conuertitur. sed species et
+            electua<lb ed="#N" n="103" break="no"/>ria soluunt ieiunium ieiunii. non enim licet sumere corpus christi post
+            eo<lb ed="#N" n="104" break="no"/>rum commestionem: ergo soluunt ieiunium ieiunantis.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e743">
+            ⁋ Pre. esus tol
+            <lb ed="#N" n="105"/>lit penalitatem ieiunii. et remota penalitate non est ieiunium
+            sa<lb ed="#N" n="106" break="no"/>tisfactorium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e751">
+            ⁋ Pre. queritur si sumptione siruporum et pillularum
+            <lb ed="#N" n="107"/>soluitur ieiunium.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e756">
+            ⁋ Pre. queritur incidenter de seruiente qui non
+            ple<lb ed="#N" n="108" break="no"/>ne comedit in die ieiunii et ad aliquid querendum extra mittitur
+            <lb ed="#N" n="109"/>an soluat ieiunium si comedit quando redit. et videtur sic: quia bis
+            <lb ed="#N" n="110"/>comedit in die naturali. diuisio enim facta est inter primam
+            co<lb ed="#N" n="111" break="no"/>mestionem et secundam.
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e767">
+            ⁋ Responsio. dicendum quod inter illa que
+            come<lb ed="#N" n="112" break="no"/>duntur et bibuntur. quedam sunt absolute siue simpliciter
+            me<lb ed="#N" n="113" break="no"/>dicina. quedam simpliciter cibus. quedam medicina cibalis.
+            que<lb ed="#N" n="114" break="no"/>dam cibus medicinalis. primum non nutrit sed alterat. secundum
+            <lb ed="#N" n="115"/>nutrit tantum. tercium nutrit et alterat sed minus nutrit et plus al
+            <lb ed="#N" n="116"/>terat. quartum plus nutrit et minus alterat. De primis est
+            ele<lb ed="#N" n="117" break="no"/>ctorum et squamonea. de secundis panis triticeus. de terciis
+            <lb ed="#N" n="118"/>electuaria. de quarta nuces. ficus. dactili. poma. pira. et
+            <lb ed="#N" n="119"/>huiusmodi. omnia sum pta in vsum soluunt ieiunium ieiunii. Unde et
+            si<lb ed="#N" n="120" break="no"/>aliqud istorum deglutiatur siue traiiciatur in ventrem: licet emittatur: non
+            <lb ed="#N" n="121"/>est postea celebrandum nec sumendum corpus christi. Cibus vero
+            sim<lb ed="#N" n="122" break="no"/>pliciter sumptus soluit ieiunium ieiunantis. Medicina cibalis
+            <lb ed="#N" n="123"/>quedam est simplex. quedam composita. simplex vt zinciber. ane
+            <lb ed="#N" n="124"/>tum et huiusmodi. quedam composita vt electuaria. Hec autem cum
+            acci<lb ed="#N" n="125" break="no"/>piuntur aut accipiuntur vt medicina et tunc non soluunt ieiuni
+            <lb ed="#N" n="126"/>um. aut vt cibi siue cibi medicinales et tunc soluunt. Cibus
+            <lb ed="#N" n="127"/>autem medicinalis soluit ieiunium ieiunantis vt electuaria. ergo
+            <lb ed="#N" n="128"/>si sumuntur vt cibi siue medicine cibales soluunt ieiunium.
+            <lb ed="#N" n="129"/>vt enim dicunt medici. non tantum alterant et confortant: sed licet in plus
+            <lb ed="#N" n="130"/>hoc faciunt tamen parum nutriunt. vnde soluunt ieiunium. et maxime
+            <lb ed="#N" n="131"/>quando sumuntur in magna quantitate ad tollendum famen. Illa autem
+            <lb ed="#N" n="132"/>secundum statum eccessatie soluunt ieiunium ieiunantis quorum actus in plus
+            <lb ed="#N" n="133"/>est nutrire: etiam si sumantur in parua quantitate. Electuaria vero
+            <lb ed="#N" n="134"/>que pure sunt electuaria si propter necessitatem sumantur et causa
+            medi<lb ed="#N" n="135" break="no"/>cine non soluunt ieiunium: sed solum illa soluunt ieiunium ieiunantis
+            <lb ed="#N" n="136"/>quorum actus est in plus nutrire. Confortatiua etiam si preter
+            necessi<lb ed="#N" n="137" break="no"/>tatem sumuntur soluunt et vt dicunt quidam. Si in die ieiunii post
+            <lb ed="#N" n="138"/>prandium sentiat se aliquis grauatum vino et timeat sibi de
+            no<lb ed="#N" n="139" break="no"/>cumento vini. si ad repressionem nocumenti vini sumat
+            ele<lb ed="#N" n="140" break="no"/>ctuarium confortatiuum: non soluit ineiunium. aut si soluat secundum
+            <pb ed="#N" n="653"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>essentiam: non soluit secundum meritum. Ex his patet responsio ad quaesita
+          </p>
+          <p xml:id="v78d89-ahy5v8-d1e839">
+            <lb ed="#N" n="2"/>⁋ Ad illud quod queritur de seruiente dominis. dicendum quod non est bina
+            <lb ed="#N" n="3"/>comestio in seuiente qui mittitur ad necessaria. quia et si in
+            mensa<lb ed="#N" n="4" break="no"/>aliquina fit diuisio vel interpositio inter fercula: hoc
+            tamen<lb ed="#N" n="5" break="no"/>non impedit sed si interim luderet ad tales vel pacaret ad
+            <lb ed="#N" n="6"/>impertinentiam: solueret ieiunium.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

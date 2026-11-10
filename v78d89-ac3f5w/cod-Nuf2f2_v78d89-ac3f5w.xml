@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 62, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 62, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="409"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ac3f5w"><!-- q62m3 -->
+        <head xml:id="v78d89-ac3f5w-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ac3f5w-Hd1e103" type="question-title">De hoc sacramento secundum quod ordinatur ad liberationem a naufragio et dicitur tabula</head>
+        <p xml:id="v78d89-ac3f5w-d1e106">
+          <lb ed="#N" n="45"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e111">
+          <lb ed="#N" n="46"/>COnsequenter queritur de hoc sacramento secundum
+          <lb ed="#N" n="47"/>quod ordinatur ad liberationem a naufragio et
+          <lb ed="#N" n="48"/>dicitur tabula. dicit enim hiero. quod prima
+          tabu<lb ed="#N" n="49" break="no"/>la post naufragium est baptismus: secunda
+          peni<lb ed="#N" n="50" break="no"/>tentiam.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e124">
+          ⁋ Contra. Math. iii. Penitentiam agite. ibi glo.
+          Pri<lb ed="#N" n="51" break="no"/>ma virtus est per penitentiam perimere veterem hominem. sed si est
+          pri<lb ed="#N" n="52" break="no"/>ma virtus: igitur prima tabula. virtus enim vel gratia est
+          reme<lb ed="#N" n="53" break="no"/>dium spiritualis naufragii.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e134">
+          ⁋ Item si baptismus est prima tabula
+          <lb ed="#N" n="54"/>est primum sacramentum. igitur et penitentia que est secunda tabu
+          <lb ed="#N" n="55"/>la est secundum sacramentum.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e141">
+          ⁋ Item secunda autm dicit ordinem
+          <lb ed="#N" n="56"/>temporis aut nature. Non temporis: quia sicut actuale peccatum
+          <lb ed="#N" n="57"/>prius fuit quam originale sicut in primis parentibus: sic
+          tabu<lb ed="#N" n="58" break="no"/>la que est remedium naufraqa actualis. prius fuit quaqm
+          tabu<lb ed="#N" n="59" break="no"/>la que fuit remedium originalis. In primis enim parentibus
+          per<lb ed="#N" n="60" break="no"/>sona ratione culpe actualis corrupit naturam. natura autem
+          de<lb ed="#N" n="61" break="no"/>inceps corrupit personam corruptione originalis. Nec natu
+          <lb ed="#N" n="62"/>re: quia sicut voluntas est primum principium peccati ante
+          <lb ed="#N" n="63"/>quod nullum et naturaliter primum: sic et peccatum volunta
+          <lb ed="#N" n="64"/>rium prius est naturo peccato quod contrahimus cum origine
+          na<lb ed="#N" n="65" break="no"/>turali.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e165">
+          ⁋ Item ysa. iii. Peccatum suum quasi sodoma
+          <lb ed="#N" n="66"/>predicauerunt. ibi. hiero. Secunda tabula post naufragium
+          <lb ed="#N" n="67"/>est impietatem peccatorum abscondere. sed penitentie est
+          re<lb ed="#N" n="68" break="no"/>uelare impietatem peccatorum. Unde prouerb. xxviii. Qui ab
+          <lb ed="#N" n="69"/>scondit scelera sua non dirigetur: qui autem confeslus fuerit et
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>reliquerit ea misericordiam consequetur. ergo cum actus contra
+          <lb ed="#N" n="71"/>rii non conueniunt eidem: penitentia non est secunda tabula.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e183">
+          <lb ed="#N" n="72"/>⁋ Item si est secunda tabula et baptismus prima. quomodo
+          <lb ed="#N" n="73"/>christus et iohnes inceperunt predicationes a penitentia.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e190">
+          ⁋ Item. ii.
+          <lb ed="#N" n="74"/>act. Penitentiam agite et baptizetur vnusquisque vestrum. Ex hoc
+          <lb ed="#N" n="75"/>videtur quod penitentia precedat baptismum et maxime in
+          adul<lb ed="#N" n="76" break="no"/>tis. ergo debet dici prima tabula.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e199">
+          ⁋ Item queritur quo
+          <lb ed="#N" n="77"/>tropo loquendi siue qua similitudine dicitur baptismus prima
+          <lb ed="#N" n="78"/>tabula et penitentia secunda.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e207">
+          ⁋ Responsio. ad primum patet
+          <lb ed="#N" n="79"/>ex supradictis virtus penitentie non est prima simpliciter
+          <lb ed="#N" n="80"/>sed lapsis in mortale post baptismum.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e214">
+          ⁋ Ad aliud
+          dicen<lb ed="#N" n="81" break="no"/>dum. quod argumentum non valet. et ponitur instantia talis.
+          <lb ed="#N" n="82"/>Iste est secundus archidyaconus in hac ecclesia: ergo est
+          <lb ed="#N" n="83"/>secunda persona. Nihilominus dici potest. quod est secundum
+          <lb ed="#N" n="84"/>sacramentum inter sacramenta delentia culpam: non autem
+          <lb ed="#N" n="85"/>secundum simpliciter. Primo enim acquiritur innocentia
+          <lb ed="#N" n="86"/>per baptismum: et roboratur per confirmationem: et sustenta
+          <lb ed="#N" n="87"/>tur per sacramentum eukaristie. post hoc lapso in culpam sub
+          <lb ed="#N" n="88"/>uenit sacramentum penitentie. Unde sacramentum est in
+          sa<lb ed="#N" n="89" break="no"/>cramentis in quibus proprie deletur culpa.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e236">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="90"/>obiicitur de ordine. dicendum quod est considerare peccatum
+          <lb ed="#N" n="91"/>actuale et originalem absolute et in se: et sic est actuale
+          pri<lb ed="#N" n="92" break="no"/>us natura quam originale sicut causa quame effectus. Et est
+          consi<lb ed="#N" n="93" break="no"/>derare ipsa in comparatione ad subiectum. et hoc duobus m
+          o<lb ed="#N" n="94" break="no"/>dis. vel comparatione ad subiectum primum id est primum
+          ho<lb ed="#N" n="95" break="no"/>minem: et sic actuale fuit prius originali. Uel compara
+          <lb ed="#N" n="96"/>tione ad naturam propagatam: et sic originale natura et tem
+          <lb ed="#N" n="97"/>pore prius est quam actuale. Prima autem tabula et secunda
+          da<lb ed="#N" n="98" break="no"/>ta sunt in remedia peccatorum. secundum quod determinantur
+          circa<lb ed="#N" n="99" break="no"/>naturam propagatam siue hominem descendentem a primis
+          <lb ed="#N" n="100"/>parentibus. propter quod conuenit quod primo sit prima tabula que
+          <lb ed="#N" n="101"/>est remedium originalis: deinde secunda que est
+          remedi<lb ed="#N" n="102" break="no"/>um actualis.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e267">
+          ⁋ Ad illud quod obiicitur. quod secunda tabula
+          <lb ed="#N" n="103"/>est abscondere etc. dicendum quod abscondere dicitur
+          dupli<lb ed="#N" n="104" break="no"/>citer. Uno modo celando peccata et non confitendo. secundum quod
+          <lb ed="#N" n="105"/>dicitur prouerb. xxviii. qui abscondit scelera sua non dirigetur
+          <lb ed="#N" n="106"/>Alio modo delendo peccatum per contritionem confessionem et
+          sa<lb ed="#N" n="107" break="no"/>tisfactionem. et hee absconsio fit per penitentiam. de qua psalm.
+          <lb ed="#N" n="108"/>Beati quorum remisse sunt iniquitates et quorum tecta sunt
+          <lb ed="#N" n="109"/>peccata etc.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e285">
+          ⁋ Ad aliud dicendum. quod iohanes et christus
+          voca<lb ed="#N" n="110" break="no"/>uerunt ad penitentiam. non que est sacramentum. nec
+          secun<lb ed="#N" n="111" break="no"/>da tabula: sed que precedit baptismum que est contritio de
+          <lb ed="#N" n="112"/>peccatis. de qua. ii. act. Penitentiam agite et bapti. etc.
+          <lb ed="#N" n="113"/>Adulti enim baptisandi non tenentur ad confessionem et
+          <lb ed="#N" n="114"/>satisfactionem sed contritionem solum. de huiusmodi penitentia
+          <lb ed="#N" n="115"/>non loquitur hiero. Hec autem comparatur quasi vnum cum baptismo
+          <lb ed="#N" n="116"/>sed de penitentia que habet contritionem confessionem
+          satis<lb ed="#N" n="117" break="no"/>factionem.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e305">
+          ⁋ Ex his patet responsio ad aliud quod sequi
+          <lb ed="#N" n="118"/>tur.
+        </p>
+        <p xml:id="v78d89-ac3f5w-d1e311">
+          ⁋ Ad hoc quod queritur. quo tropo etc. dicendum quod mun
+          <lb ed="#N" n="119"/>dus mare dicitur. psalm. hoc mare magnum etc. Nauis
+          fluctu<lb ed="#N" n="120" break="no"/>ans in hoc mari est ecclesia: que per archam figuratur Gen.
+          <lb ed="#N" n="121"/>vii. Prouerl. vlti. Facta est quasi nauis institoris. Ab hac
+          <lb ed="#N" n="122"/>naui frangitur asser. quando aliquis per peccatum mortale segre
+          <lb ed="#N" n="123"/>gatur ab ecclesia. In cano. Iude hi sune qui segregant
+          se<lb ed="#N" n="124" break="no"/>metipsos animales spirium non habentes. spiritus sanctus est glutinum quo vnitur
+          <lb ed="#N" n="125"/>vnusquisque naui ecclesie. Quia igitur duplex est peccatum originale
+          <lb ed="#N" n="126"/>et actuale. duplex est nauis fractio siue naufragium. primum
+          <lb ed="#N" n="127"/>per originale et illud reparatur perbaptismum: secundum per actuale
+          mor<lb ed="#N" n="128" break="no"/>talem et illud reparatur per penitentiam. Baptismus igitur et penitentia
+          <lb ed="#N" n="129"/>quasi due tabule ferunt ad littus post naufragium tale et tale.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 47, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 47, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="329"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9dhuk"><!-- q47m2 -->
+        <head xml:id="v78d89-a9dhuk-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a9dhuk-Hd1e103" type="question-title">Utrum liceat ad altare accedere qui dormierit cum propria uxore eodem die</head>
+        <p xml:id="v78d89-a9dhuk-d1e106">
+          <lb ed="#N" n="12"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a9dhuk-d1e111">
+          <lb ed="#N" n="13"/>COnsequenter queritur vtrum liceat ad altare
+          ac<lb ed="#N" n="14" break="no"/>cedere qui dormierit cum propria vxore eodem
+          die<lb ed="#N" n="15" break="no"/>Quod non: videtur. de conse. di. ii. Omnis homo ante
+          <lb ed="#N" n="16"/>sacram communionem abstinere debet a propria vxo
+          <lb ed="#N" n="17"/>re diebus tribus aut quatuor aut septem.
+        </p>
+        <p xml:id="v78d89-a9dhuk-d1e124">
+          ⁋ Contra. hoc posito
+          <lb ed="#N" n="18"/>sequitur inconueniens scilicet perplexitas quedam. quia posito quod
+          <lb ed="#N" n="19"/>vxor instanter petat debitum a viro die proxima precedenti
+          na<lb ed="#N" n="20" break="no"/>tale. constat quod tenetur soluere. sed de conse. di. ii. habetur.
+          In<lb ed="#N" n="21" break="no"/>ter catholicos non connumerabitur qui istis temporibus. scilicet
+          pa<lb ed="#N" n="22" break="no"/>scha. penth. natale domini. non communicauerit. igitur si
+          abstine<lb ed="#N" n="23" break="no"/>re debet a propria vxore tribus diebus vel etc. ante sacram
+          commu<lb ed="#N" n="24" break="no"/>nionem et non debet in casu proposito: igitur non debet
+          accede<lb ed="#N" n="25" break="no"/>re ad sacram communionem in festo natalis. et ita non
+          connumera<lb ed="#N" n="26" break="no"/>bitur inter catholicos.
+        </p>
+        <p xml:id="v78d89-a9dhuk-d1e147">
+          ⁋ Item que est ratio taxationis
+          die<lb ed="#N" n="27" break="no"/>rum quibus debet abstinere
+        </p>
+        <p xml:id="v78d89-a9dhuk-d1e152">
+          ⁋ Responsio. quod si cognoscit aliquis
+          <lb ed="#N" n="28"/>vxorem propriam non causa libidinis adimplende sed causa
+          <lb ed="#N" n="29"/>debiti soluendi postulati ab vxore: potest accedere in diebus
+          sta<lb ed="#N" n="30" break="no"/>tutis ab ecclesia. vt tribus diebus pretactis.
+        </p>
+        <p xml:id="v78d89-a9dhuk-d1e161">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="31"/>obiicitur. quod omnis homo ante sacram communionem etc. Dicendum
+          <lb ed="#N" n="32"/>quod hoc intelligendum est quantum in se est vt non exigat. exactus
+          <lb ed="#N" n="33"/>tamen reddere debet et si intendat communicare. Pret. si causa
+          <lb ed="#N" n="34"/>liberorum procreandorum vxorem suam cognosceret bene liceret
+          <lb ed="#N" n="35"/>accedere. vnde Grego. Si quis sua coniuge non cupiditate
+          <lb ed="#N" n="36"/>voluptatis raptus. sed solummodo procreandorum liberorum
+          gra<lb ed="#N" n="37" break="no"/>tia vtitur: iste profecto seu de ingressu ecclesie seu de sumendo
+          <lb ed="#N" n="38"/>dominici corporis sanguinisque misterio suo est iudicio
+          relinquen<lb ed="#N" n="39" break="no"/>dus. quia a nobis non debet prohiberi accipere qui in igne
+          <lb ed="#N" n="40"/>positus nescit ardere. Et dicitur relinquendus suo iudicio
+          pro<lb ed="#N" n="41" break="no"/>pter delectationem in actu seu opere carnis que frequenter est
+          <lb ed="#N" n="42"/>tanta quod rapit voluntatem ad delectationem et peruertit prehabitam
+          <lb ed="#N" n="43"/>ordinatam intentionem.
+        </p>
+        <p xml:id="v78d89-a9dhuk-d1e192">
+          ⁋ De differentia dierum assignatarum
+          <lb ed="#N" n="44"/>de abstinendo dici potest. quod secundum diuersitatem voluptatis et
+          im<lb ed="#N" n="45" break="no"/>puritatem intentionis debet esse diuersitas quantum ad nume
+          <lb ed="#N" n="46"/>rum dierum. quia generatio commixtionis est impurior et
+          vo<lb ed="#N" n="47" break="no"/>luptatis turpis maior: tanto diuturnior debet esse dilatio
+          <lb ed="#N" n="48"/>communionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

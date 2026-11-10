@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 96, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 96, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="604"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-agx0i1"><!-- q96m2 -->
+        <head xml:id="v78d89-agx0i1-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-agx0i1-Hd1e103" type="question-title">Modo utrum oratio rationabilis sit efficax ad impetrandum</head>
+        <p xml:id="v78d89-agx0i1-d1e106">
+          <lb ed="#N" n="94"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e111">
+          <lb ed="#N" n="95"/>COnsequenter queritur vtrum oratio rationabilis sit
+          effi<lb ed="#N" n="96" break="no"/>cax ad impetrandum. quod sic: videtur Math. vii.
+          <lb ed="#N" n="97"/>Qmnis qui petit accipit. Glo. qui non accipit.
+          <lb ed="#N" n="98"/>constat eum non bene petere. Ex hoc patet quod verbum domini
+          intel<lb ed="#N" n="99" break="no"/>ligitur de oratione que bene fit. talis autem est rationabilis. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e124">
+          ⁋ Prete.
+          <lb ed="#N" n="100"/>glo. alia ibidem. non denegat se petentibus dominus: sed omnis anima cui non
+          <lb ed="#N" n="101"/>denegat se dominus est impetratiua eius quod petitur. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e132">
+          ⁋ Pret.
+          ma<lb ed="#N" n="102" break="no"/>thei. xxi. Omnia quecumque petieritis in oratione credentes aceipie
+          <lb ed="#N" n="103"/>tis. Glo. his qui digne petunt. sed qui digne petunt rationabiliter
+          pe<lb ed="#N" n="104" break="no"/>tunt. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e141">
+          ⁋ Pret. Ioh. xv. Si manseritis in me et verba mea in
+          <lb ed="#N" n="105"/>vobis manserint. quodcumque volueritis petetis et fiet vobi. Glo.
+          <lb ed="#N" n="106"/>si quiod petit fidelis et non fit: non petit hoc quod habet mansionem in eo
+          <lb ed="#N" n="107"/>nec quod habent verba eius que sunt in eo. Ex hoc patet quod qui non exaudit
+          <lb ed="#N" n="108"/>non petit illud quod petendum esset. et ita non est petitio eius rationabilis.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e152">
+          <lb ed="#N" n="109"/>⁋ Pret. Bern. in quodam seuiusmode. vnum ex duobus indubitanter
+          <lb ed="#N" n="110"/>credamus quod aliquando dabit quod petimus. aut quod nobis est vtilius
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e159">
+          <lb ed="#N" n="111"/>⁋ Pret. Boecius preces que recte sunt inefficaces esse non posunt. sed
+          <lb ed="#N" n="112"/>preces recte rationabiles sunt. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e166">
+          ⁋ Pret. amicitia est idem
+          velle<lb ed="#N" n="113" break="no"/>et idem nolle in bono. Ille autem est in amicitia cum deo qui est in
+          ca<lb ed="#N" n="114" break="no"/>ritate. Cum ergo omnis oratio rationabiliter facta sit in caritate: videtur
+          <lb ed="#N" n="115"/>quod cum omne quod rationabiliter petitur a deo sit volitum ab ipso. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e175">
+          <lb ed="#N" n="116"/>⁋ Pret. dam. dicit oratio est petitio decentium a deo. hec autem est
+          dif<lb ed="#N" n="117" break="no"/>finitio orationis efficacis. sed petitio decentium est rationabilis. ergo
+          pe<lb ed="#N" n="118" break="no"/>titio rationabilis est efficax. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e185">
+          ⁋ Pret. omne quod deus precipit est
+          <lb ed="#N" n="119"/>deo acceptum. sed constat quod precipit orare. et non nisi rationabiliter: ergo
+          <lb ed="#N" n="120"/>rationabilis est deo accepta. ergo et efficax
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e192">
+          ⁋ Contra. Heb. xii.
+          <lb ed="#N" n="121"/>Esau non inuenit penitentie locum quamquam cum lacrimis inquisisset
+          <lb ed="#N" n="122"/>eam. sed nihil irrationabiliter petebat. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e199">
+          ⁋ Pret. augustinus Orant
+          <lb ed="#N" n="123"/>quidam pro quibusdam pie sancteque pro quibus non exaudiuntur. sed
+          <lb ed="#N" n="124"/>oratio que pie et sancte fit rationabilis est: ergo non omnis oratio rationabilis
+          <lb ed="#N" n="125"/>est impetratiua.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e208">
+          ⁋ Pret. vir sanctus petit pro omnibus vt saluentur.
+          <lb ed="#N" n="126"/>xt constat quod hec petitio est rationabilis. non tamen omnes saluantur. ergo
+          <lb ed="#N" n="127"/>etc. probatio prime orare pro omnibus est ex perfecta caritate. quod autem
+          <lb ed="#N" n="128"/>fit ex perfecta caritate rationabiliter fit.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e217">
+          ⁋ Pret. existens in gratia
+          ra<lb ed="#N" n="129" break="no"/>tionabiliter petit continuationem gratie in presenti et gloriam in futuro.
+          <lb ed="#N" n="130"/>nec tamen omnes hec petentes assequuntur quod petunt: quia illi non qui sunt
+          <lb ed="#N" n="131"/>presciti. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e226">
+          ⁋ Pret. existens in ignorantia rationabiliter petit
+          <lb ed="#N" n="132"/>cognitionem scripture ad sciendum que sint sibi necessaria ad
+          salu<lb ed="#N" n="133" break="no"/>tem. non tamen semper exauditur. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e234">
+          ⁋ Pre. optans declena re a
+          ma<lb ed="#N" n="134" break="no"/>lo rationabiliter petit extingui in se incentiuum peccati. sed de hoc non
+          exau<lb ed="#N" n="135" break="no"/>ditur semper. vt patet de beato paulo. ii. Corin. xii. ergo etc.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e241">
+          ⁋ Responsio.
+          <lb ed="#N" n="136"/>quod omnis oratio rationabilis efficax est ad impetrandum. rationabilis
+          di<lb ed="#N" n="137" break="no"/>co secundum determinationem sapientis: et maxime illius qui est sapientia
+          pa<lb ed="#N" n="138" break="no"/>tris id est christi informantis discipulos suos. Ioh. xvi. cum diceret
+          <lb ed="#N" n="139"/>Si quid petieritis patrem in nomine meo dabit vobis. No
+          <lb ed="#N" n="140"/>tandum quod oratio rationabilis dicenda est secundum determinatio
+          <lb ed="#N" n="141"/>nem sapientis que ex omni parte habet rationem. Et sunt quaetuor scilicet ex parte
+          <pb ed="#N" n="605"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>eius a quo petitur: ex parte eius pro quo petitur: ex parte modi petendi: et
+          <lb ed="#N" n="2"/>ex parte eius quod petitur. Ex parte eius a quo petitur vt quando petitur aliquod
+          <lb ed="#N" n="3"/>necessarium ad salutem. A pratre enim non debet peti nisi licitum et
+          sa<lb ed="#N" n="4" break="no"/>lutare: quia potr non dat nisi bonum. secundum illud Math. vii. Si vos
+          <lb ed="#N" n="5"/>cum sitis mali nostis dare bona filiis vratris: quanto magis pitur
+          <lb ed="#N" n="6"/>vester qui in celis est dabit bona petentibus se. Ex parte modi
+          peten<lb ed="#N" n="7" break="no"/>di quando petitur cum pietate et perseuerantia. hoc est pie et perseueranter. I
+          <lb ed="#N" n="8"/>lud fit pie quod fit pio effectu: quo includuntur fides spes et
+          cari<lb ed="#N" n="9" break="no"/>tas. tunc enim pius affectus est: quando est cum fide spe et caritate. Ex parte
+          <lb ed="#N" n="10"/>eius pro quo petitur quando iste non est aduersarius et rebellis: alioquin eo
+          <lb ed="#N" n="11"/>ipso est inhabilis et indignus ad recipiendum. Ad hoc ergo quod oratio sit
+          ra<lb ed="#N" n="12" break="no"/>tionabilis simpliciter secundum determinationem sapientis: oportet quod fiat
+          pie<lb ed="#N" n="13" break="no"/>et perseueranter ex parte modi pro se. ex parte eius pro quo petitur. oportet
+          <lb ed="#N" n="14"/>enim quod sit dispositus et habilis ad recipiendum ad salutem. Ex parte
+          <lb ed="#N" n="15"/>eius a quo petitur talis oratio est rationabilis secundum determinationem
+          sapien<lb ed="#N" n="16" break="no"/>tis. scilicet saluatoris secundum quod insinuat in verbo suprposito. scilicet
+          Si<lb ed="#N" n="17" break="no"/>quid petieritis patrem in nomine meo dabit vobis. per hoc quod
+          dici<lb ed="#N" n="18" break="no"/>tur si quiod petieritis patrem: notatur perseuerantia. per hoc enim quod
+          dici<lb ed="#N" n="19" break="no"/>tur petieritis quod est futurum subiunctiui modi et complectitur
+          preteri<lb ed="#N" n="20" break="no"/>tum: insinuatur et perseuerantia. per hoc quidem quod dicitur patrem
+          in<lb ed="#N" n="21" break="no"/>sinuatur quod illud quod est necessarium ad salutem debet peti a pratre. vnde
+          <lb ed="#N" n="22"/>intelligitur ibidem quid id est quod sit aliquid non nihil. per hoc quod dicitur in
+          <lb ed="#N" n="23"/>nomine meo datur intelligi pie et iuste. In nomine enim ihu qui
+          interpre<lb ed="#N" n="24" break="no"/>tatur salus: non debet peti nisi pie. vobis intelligitur pro se. Unde per hoc
+          <lb ed="#N" n="25"/>quod dicitur dabit vobis notatur efficacia orationis quantum ad
+          peten<lb ed="#N" n="26" break="no"/>tem pro se. Dicitur ergo quod oratio rationabilis est impetratiua. et ista est
+          <lb ed="#N" n="27"/>rationabilis ad quam secundum determinationem sapientis concurrunt quatuor
+          <lb ed="#N" n="28"/>conditiones predicte. et omnis talis est exaudibilis et impetratiua.
+          Cu<lb ed="#N" n="29" break="no"/>ius triplex est ratio. scilicet summa libertas exaudientis: summa
+          veraci<lb ed="#N" n="30" break="no"/>tas: summa amicabilitas. quia enim summe liberalis est: promptior est
+          <lb ed="#N" n="31"/>ad dandum quam homo ad recipiendum. quando hominem dispositum et dignum
+          <lb ed="#N" n="32"/>siue habilem inuenit. Sicut enim sol diffundit suam lucem quando
+          inue<lb ed="#N" n="33" break="no"/>nit susceptibile: ita est de pratre luminum. quod quando hominem dispositum
+          <lb ed="#N" n="34"/>inuenit: diffundit suam bonitatem. differenter tamen: quia diffusio a
+          <lb ed="#N" n="35"/>pratre luminum est voluntaria: diffusio solis est naturalis. Item quia
+          <lb ed="#N" n="36"/>summe verax est. secundum illud Numeri. xxii. Non est deus quasi homo vt
+          men<lb ed="#N" n="37" break="no"/>tiatur: nec vt filius hominis vt mutetur. Dixit enim et non faciet.
+          locu<lb ed="#N" n="38" break="no"/>tus est et non implebitur. liberalitati addit promissionem. non quia
+          <lb ed="#N" n="39"/>non posset facere sine promissione: sed vt fidem certam daret de
+          impe<lb ed="#N" n="40" break="no"/>trando. Pret. quia summe amicabilis sicut amor facit quod habet in
+          <lb ed="#N" n="41"/>potstate sua voluntatem et potestatem amici: ita etiam anima sancta habet in
+          <lb ed="#N" n="42"/>potestate sua quodammodo voluntatem dei ex maxima vnione vnius
+          <lb ed="#N" n="43"/>ad alterum. Propter quod Iosue confisus de hac potestate quasi
+          precipien<lb ed="#N" n="44" break="no"/>do. dixit Iosue. x. Sol contra gabaon non mouearis. inde est
+          <lb ed="#N" n="45"/>quod deus non vult negare ipsi anime quod petit rationabiliter in oratione. ac
+          <lb ed="#N" n="46"/>per hoc non potest eius oratio esse non efficax.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e361">
+          ⁋ Ad primum ergo de esau dicendum quod
+          <lb ed="#N" n="47"/>non erat oratio eius rationabilis. non enim flebat pie: quia non ex
+          compun<lb ed="#N" n="48" break="no"/>ctione. sed magis ex rancore et odio procedebant eius lacrime.
+          <lb ed="#N" n="49"/>et ex quadam indignatione. Unde volebat interficere fratrem suum. Unde
+          <lb ed="#N" n="50"/>glo. ad Heb. xii. super textum predictum dicit. non inuenit locum
+          pe<lb ed="#N" n="51" break="no"/>nitentie: quia non petiuit vt debuit dicens. Uenient dies luctus pratris
+          <lb ed="#N" n="52"/>mei et occidam fratrem meum iacob Gen. xxvii. Et pattus lacrime
+          <lb ed="#N" n="53"/>eius potius fuerunt ex indignatione contra fratrem et dolore amissi
+          ho<lb ed="#N" n="54" break="no"/>noris: quam ex humilitate et vera penitentia.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e381">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="55" break="no"/>tur per augustinus quod sancti orant pie sancteque. dicendum quod ratio quare non sunt ex
+          <lb ed="#N" n="56"/>auditi. fuit indignitas eorum pro quibus orabant. quorum voluntas discor
+          <lb ed="#N" n="57"/>dabat a dei voluntate. Unde oratio eorum non fuit rationabilis.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e390">
+          ⁋ Ad
+          <lb ed="#N" n="58"/>illud quod obiicitur quod sancti orant pro omnium salute. dicendum quod
+          rationabi<lb ed="#N" n="59" break="no"/>lis est quantum ad predestinatos et exaudiuntur: non quantum ad alios. Ipisi
+          <lb ed="#N" n="60"/>tamen pro omnibus debent orare: quia non sunt certi qui sint saluandi aut
+          qui<lb ed="#N" n="61" break="no"/>damnandi. Quod autem dicitur quod ipse vult omnes homines saluos fieri. verum
+          <lb ed="#N" n="62"/>est de voluntate absoluta et antecedenti. quia ipse paratus est dare gratiam
+          <lb ed="#N" n="63"/>suam omnibuos si ipsi fuerint dispositi et parati: sed non intelligitur de
+          con<lb ed="#N" n="64" break="no"/>sequenti.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e408">
+          ⁋ Ad illud quod obiicitur. quod existens in gratia rationabiliter
+          <lb ed="#N" n="65"/>petit continuationem gratie in presenti et gloriam in futuro. dicendum quod
+          <lb ed="#N" n="66"/>rationabiliter petit continuationem et gloriam in futuro si perseueret. Et
+          <lb ed="#N" n="67"/>hoc fit quando instat vsque ad finem: et tunc est efficax. Si autem desistat
+          <lb ed="#N" n="68"/>non est efficax. quia tunc non est rationabilis.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e420">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="69"/>quod existens in gratia rationabiliter petit cognitionem scripture. potest
+          di<lb ed="#N" n="70" break="no"/>ci quod scriptura docet cognoscere causas in omni facultate: do
+          <lb ed="#N" n="71"/>cet etiam cognoscere ea que sunt necessaria ad salutem. quantum ad
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>primam cognitionem non impetrat oratio semper: quia hec cognitio
+          fre<lb ed="#N" n="73" break="no"/>quenter non operatur ad salutem. sed potius ad flationem. quantum ad secundam
+          <lb ed="#N" n="74"/>vero impetrat si fiat rationabiliter secundum quod determinatum est.
+        </p>
+        <p xml:id="v78d89-agx0i1-d1e438">
+          ⁋ Ad
+          vlti<lb ed="#N" n="75" break="no"/>mum dicendum quod si petit quod incentiuum non dominetur nec vincat.
+          <lb ed="#N" n="76"/>rationabiliter petit: et sic est efficax. Si autem vt totaliter remoue
+          <lb ed="#N" n="77"/>atur: petit non rationabiliter. Deus enim relinquit illam ibi rationabiliter:
+          <lb ed="#N" n="78"/>scilicet ad exercitium sustinentie. et consequenter ad augmentum
+          meri<lb ed="#N" n="79" break="no"/>ti eiusdem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 102, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 102, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="644"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ahn1gw"><!-- q102m1 -->
+        <head xml:id="v78d89-ahn1gw-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-ahn1gw-Hd1e103" type="question-title">Utrum sit ops necessitatis vel voluntatis</head>
+        <p xml:id="v78d89-ahn1gw-d1e106">
+          <lb ed="#N" n="127"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-ahn1gw-d1e111">
+          <lb ed="#N" n="128"/>PRimo queritur. vtrum sit ops necessitatis vel
+          volun<lb ed="#N" n="129" break="no"/>tatis. Quod necessitatis vidtur sic. Omne opus sine quo homo
+          <lb ed="#N" n="130"/>non potest virtutum perfectionem acquirere. nec viciis domina
+          <lb ed="#N" n="131"/>ri est ops necessitatis. quia sine illo non est salus.
+          I<lb ed="#N" n="132" break="no"/>iunium est huiusmodi secundum illud ysid. xliii. citl. de sum. bo. vbi sic dicit.
+          <lb ed="#N" n="133"/>Neque enim posse quempiam perfectionem virtutum attingere. nisi prius
+          ven<lb ed="#N" n="134" break="no"/>tris ingluuiem refrenet. et nemo potest dominari ceteris viciis
+          nisi<lb ed="#N" n="135" break="no"/>prius ventris ingluuiem restrixerit: nec quisquam poterit facile a
+          se<lb ed="#N" n="136" break="no"/>ipso spiritus immundos expellere nisi per abstinentiam. ergo cum edomatio
+          <lb ed="#N" n="137"/>siue restrictio ingluuiei fiet per ieiunium: patet quod ieiunium est
+          necessari<lb ed="#N" n="138" break="no"/>um: ergo etc.
+        </p>
+        <p xml:id="v78d89-ahn1gw-d1e137">
+          ⁋ Pre. omne opous est necessitatis non tantum voluntatis cuius
+          <pb ed="#N" n="645"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>oppositum est transgressio. ieiunium saltem indictum est huiusmodi: ergo
+          <lb ed="#N" n="2"/>etc.
+        </p>
+        <p xml:id="v78d89-ahn1gw-d1e149">
+          ⁋ Pre. morbo necessaria est medicina. ieiunium est qedam
+          mor<lb ed="#N" n="3" break="no"/>bi medicina spiritualis: ergo est necessarium.
+        </p>
+        <p xml:id="v78d89-ahn1gw-d1e154">
+          ⁋ Contra. videtur quod est volum
+          <lb ed="#N" n="4"/>tatis non est necessitatis. sicut habetur a bern. in libro de precepto et
+          <lb ed="#N" n="5"/>disciplina. Omne necessarium aut est stabile: aut immobile: aut
+          <lb ed="#N" n="6"/>incommutabile. primum est quod potest mutari a praelatis. secundum
+          <lb ed="#N" n="7"/>quod a deo: tercium quod a nullo. ieiunium statutum ab ecclesia
+          nul<lb ed="#N" n="8" break="no"/>lum horum videtur. quia cum possit mutari ab homine: constat quod non
+          <lb ed="#N" n="9"/>est incommutabile nec immobile nec stabile: quia per se potest
+          quili<lb ed="#N" n="10" break="no"/>bet illud frangere in necessitate sine dispensatione superioris
+          <lb ed="#N" n="11"/>que necessario requiritur in relaxatione stabilis: ergo etc.
+        </p>
+        <p xml:id="v78d89-ahn1gw-d1e174">
+          ⁋ Pre. cum
+          ie<lb ed="#N" n="12" break="no"/>iunium recipiat dispensationem ab episcopis. et etiam a minoribus
+          sa<lb ed="#N" n="13" break="no"/>cerdotibus. supponatur hoc ad presns: non videtur quod sit opst
+          necessi<lb ed="#N" n="14" break="no"/>tatis.
+        </p>
+        <p xml:id="v78d89-ahn1gw-d1e183">
+          ⁋ Responsio. quod ieiunium est opst necessitatis. hoc dico de
+          ie<lb ed="#N" n="15" break="no"/>iunio instituto ab ecclesia: sed intelligendum est quod multiplex
+          <lb ed="#N" n="16"/>necessitas siue multiplex oppositio necessitatis. vna est necessitas
+          <lb ed="#N" n="17"/>cuius principir siue causa est voluntas. Alia est cuius principium
+          <lb ed="#N" n="18"/>siue causa est lex siue instinctus nature. vtpote quod dictat
+          na<lb ed="#N" n="19" break="no"/>turale iudicatorium. et hec est duplex. quia aut ratione dignita
+          <lb ed="#N" n="20"/>tis dictantis siue precipientis: aut ratione dignitatis eius quod
+          di<lb ed="#N" n="21" break="no"/>ctatum est. siue eius quod preceptum est: et hec sunt tria membra
+          si<lb ed="#N" n="22" break="no"/>ue tres difctrie quas ponit Bern. primum vocat necessarium
+          sta<lb ed="#N" n="23" break="no"/>bile. secundum necessarium immobile. tercium necessarium
+          incommuta<lb ed="#N" n="24" break="no"/>bile. Primum necessarium stabile recipit dispensationem ab
+          ho<lb ed="#N" n="25" break="no"/>mine. Secundum necessarium immobile recipit dispensationem a
+          <lb ed="#N" n="26"/>deo. Tercium scilicet necessarium incommutabile non recipit
+          dispen<lb ed="#N" n="27" break="no"/>sationem neque ab homine neque a deo. Ieiunium ergo reducitur ad
+          <lb ed="#N" n="28"/>necessarium stabile: sed necessarium stabile potest contingere
+          duo<lb ed="#N" n="29" break="no"/>bus modis. vel quia procedit a propria voluntate et expressa: sicut
+          <lb ed="#N" n="30"/>accidit in religiosis. qui vluntarie efficiunt sibi necessaria
+          pro<lb ed="#N" n="31" break="no"/>pria et expressa voluntate scilicet per votum. vel quia efficiuntur necessa
+          <lb ed="#N" n="32"/>ria voluntate implicita. et non expressa: sicut efficiuntur in
+          ba<lb ed="#N" n="33" break="no"/>ptismo. Statuta enim ecclesie fiunt necessaria recipientibus
+          sa<lb ed="#N" n="34" break="no"/>cramentum baptismi: quia tunc efficitur membrum ecclesie et subiicit
+          <lb ed="#N" n="35"/>se ordinationi et statutis ecclesie obseruandis. et fiunt illa
+          ne<lb ed="#N" n="36" break="no"/>cessaria que ante erant voluntaria.
+        </p>
+        <p xml:id="v78d89-ahn1gw-d1e233">
+          ⁋ Ad illud ergo quod obiicitur. quia
+          <lb ed="#N" n="37"/>non videtur opus necessitatis. quia potest infringi in necessitate siue
+          di<lb ed="#N" n="38" break="no"/>spensatione superioris etc. potest dici quod duplex est dispensatio.
+          <lb ed="#N" n="39"/>spiectialis: et generalis. Specialis que spiritualiter fit a praelato
+          eccle<lb ed="#N" n="40" break="no"/>sie. Generalis que generaliter permittitur ab ecclesia in casu
+          ne<lb ed="#N" n="41" break="no"/>cessitatis. Uerbum ergo Bern. quod necessarium stabile indiget
+          di<lb ed="#N" n="42" break="no"/>spensatione si debeat dissolui. non intelligitur tantum de primo modo
+          <lb ed="#N" n="43"/>dispensationis: sed de secundo immo potius de vtroque. Similiter
+          <lb ed="#N" n="44"/>si obiiciatur necessarium stabile fit a propria voluntatem secundum bern.
+          <lb ed="#N" n="45"/>et ieiunium statutum ab ecclesia non est huiusmodi: potest
+          <lb ed="#N" n="46"/>diei. quod non esse a propria voluntate dicitur dupliciter. scilicet in
+          spe<lb ed="#N" n="47" break="no"/>ciali et in generali vt tactum est. Unde ieiunium statutum ab
+          <lb ed="#N" n="48"/>ecclesia et si non sit a voluntate ieiunantis in speciali: est tamen
+          <lb ed="#N" n="49"/>in generali. Pre. in casu necessitatis non est ieiunium
+          prece<lb ed="#N" n="50" break="no"/>ptum. vnde in tali casu non indiget dispensatione. et etiam
+          <lb ed="#N" n="51"/>vt asserunt quidam generalis dispensatio concessa est in
+          ca<lb ed="#N" n="52" break="no"/>none. et ibi exprimitur quod nullus faciat sic vel sic nisi in
+          ar<lb ed="#N" n="53" break="no"/>ticulo necessitatis.
+        </p>
+        <p xml:id="v78d89-ahn1gw-d1e272">
+          ⁋ Ad aliud patet responsio. quia vt habetur a
+          <lb ed="#N" n="54"/>Bern. in illis que sunt necessitatis primo modo potest fieri: et
+          <lb ed="#N" n="55"/>fit dispensatio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

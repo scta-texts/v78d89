@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 44, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 44, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="316"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8z9t6"><!-- q44m3 -->
+        <head xml:id="v78d89-a8z9t6-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a8z9t6-Hd1e103" type="question-title">Quale corpus dedit Christus discipulis</head>
+        <p xml:id="v78d89-a8z9t6-d1e106">
+          <lb ed="#N" n="62"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e111">
+          <lb ed="#N" n="63"/>COnsequenter queritur quale corpus dedit christus
+          <lb ed="#N" n="64"/>discipulis. vtrum passibilem et mortale: aut
+          in<lb ed="#N" n="65" break="no"/>passibile et immortalem. Quod impassibile et im
+          <lb ed="#N" n="66"/>mortalem: videtur Math. xvii. transfiguratus est
+          <lb ed="#N" n="67"/>antem eos. glo. illud corpus quod habuit per naturam dedit
+          disci<lb ed="#N" n="68" break="no"/>pulis in cena non mortale non corruptibile.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e127">
+          ⁋ Item Leuit. ii.
+          <lb ed="#N" n="69"/>Si oblatio tua fuerit de sartagine. glo. crux super alia fortis
+          <lb ed="#N" n="70"/>omnem creaturam crucifixo subiecit. et carnem eius que ante
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>passionem esui non videbatur apta: post aptam fecit. igtr corpus
+          <lb ed="#N" n="72"/>christi non fuit aptum esui antequam fuit tale quale fuit post
+          pain<lb ed="#N" n="73" break="no"/>onem scilicet in resurrectione id est impassibile.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e144">
+          ⁋ Item caro
+          paa<lb ed="#N" n="74" break="no"/>sibilis est conuertibilis in comedentem. igitur si caro christi
+          tra<lb ed="#N" n="75" break="no"/>dita fuisset discipulis passibilis. non mutasset discipulos
+          <lb ed="#N" n="76"/>in se: sed mutatus esset in illos. quod est contra virtutem
+          sacramen<lb ed="#N" n="77" break="no"/>ti.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e155">
+          ⁋ Item Exo. xii. Edent carnes illas assas igni. vt
+          ha<lb ed="#N" n="78" break="no"/>betur ibi ex glo. per agnum significatur corpus christi quod sumimus in
+          <lb ed="#N" n="79"/>sacramento altaris. per carnem assam igni significatur caro christi al
+          <lb ed="#N" n="80"/>sata in cruce. igitur si veritas debet respondere figure: nobis
+          <lb ed="#N" n="81"/>dedit christus carnem suam talem qualis fuit post passionem scilict in resur
+          <lb ed="#N" n="82"/>rectione.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e168">
+          ⁋ Item omni passibili potest inferri passio. et omne
+          ta<lb ed="#N" n="83" break="no"/>le leditur per fortem actum agentis. ergo christus potuit ibi
+          percussi<lb ed="#N" n="84" break="no"/>one dentium ledi et masticatione. Ex his videtur quod illud
+          <lb ed="#N" n="85"/>quod dedit discipulis quod fuit impassibile.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e177">
+          ⁋ Contra. i.
+          <lb ed="#N" n="86"/>Corum. xi. glo. Solet queri quale corpus dederit et respo
+          <lb ed="#N" n="87"/>det. dicimus qualem erat: quia passibile et mortale.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e184">
+          ⁋ Iteminno.
+          <lb ed="#N" n="88"/>iii. potest salua fide concedi. quod tale tunc dedit quale tunc
+          <lb ed="#N" n="89"/>habuit: videlicet passibile.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e191">
+          ⁋ Item sicut existente corpore christi
+          <lb ed="#N" n="90"/>glorificato vt nunc est conuenit dare corpus glorificatum
+          <lb ed="#N" n="91"/>ita existente corpore passibili vt tunc erat conueniens fuit vt
+          <lb ed="#N" n="92"/>daretur passibilem.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e201">
+          ⁋ Item ipse in forma propria fuit
+          passi<lb ed="#N" n="93" break="no"/>bilis. igitur si sub forma sacramenti fuit impassibilis: igi
+          <lb ed="#N" n="94"/>tur idem numero simul et semel fuit passibilis et
+          impas<lb ed="#N" n="95" break="no"/>sibilis.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e210">
+          ⁋ Item esto quod aliquis apostolorum eucharistiam
+          <lb ed="#N" n="96"/>patam seruasset in pixide vsque in diem parasceue post
+          pof<lb ed="#N" n="97" break="no"/>sionem domini. in illa hora christus mortuus fuit in
+          cru<lb ed="#N" n="98" break="no"/>ce. queritur vtrum fuit in pixide mortuus vel viuus. Si
+          mor<lb ed="#N" n="99" break="no"/>tuus: habeo propositum. Si viuus: igitur fuit homo in
+          pi<lb ed="#N" n="100" break="no"/>vide. sed extra non fuit homo: quia homo mortuus non est
+          <lb ed="#N" n="101"/>homo. igitur simul et semel erat homo et non homs. et
+          ani<lb ed="#N" n="102" break="no"/>ma commniuncta corpori et non coniuncta corpori.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e228">
+          ⁋ Item quedam
+          <lb ed="#N" n="103"/>sunt forme absolute vt albedo nigredo et huiusmodi. quedam
+          <lb ed="#N" n="104"/>relate vt simile et dissimile et huiusmodi. Ile que sunt absolu
+          <lb ed="#N" n="105"/>te nullo modo conueniunt eidem simul et semel. et tales
+          po<lb ed="#N" n="106" break="no"/>nere inesse eidem simul et semel est inconueniens. Que
+          <lb ed="#N" n="107"/>autem sunt relate bene possunt inesse eidem simul et
+          se<lb ed="#N" n="108" break="no"/>mel respectu tamen diuersorum. et ponere hec inesse
+          ei<lb ed="#N" n="109" break="no"/>dem simul et semel ad illud et ad aliud comparata non est
+          <lb ed="#N" n="110"/>inconueniens. igitur cum llla que sunt per modum
+          affirmati<lb ed="#N" n="111" break="no"/>onis et negationis absolute dicuntur: videtur omnino
+          inconueni<lb ed="#N" n="112" break="no"/>ens ponere talia simul et semel eidem inesse. igitur ponere
+          <lb ed="#N" n="113"/>christum simul et semel esse passibilem et impassibilem etc. est
+          incon<lb ed="#N" n="114" break="no"/>ueniens.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e257">
+          ⁋ Item si dedit impassibile et secundum veritatem humit
+          pat<lb ed="#N" n="115" break="no"/>sibile. ergo aliter dedit quam habuit: igitur fictio fuit.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e262">
+          ⁋
+          Re<lb ed="#N" n="116" break="no"/>sponsio. duplex est hec opinio secundum quosdam. vna hugonis
+          <lb ed="#N" n="117"/>quod christus corpus suum immortalem et impassibile dedit sub
+          sacramen<lb ed="#N" n="118" break="no"/>to. et non est inconueniens quod alium et alium modum essendi habeat
+          ha<lb ed="#N" n="119" break="no"/>hitu et actu. Habitu quidem erat mortalis: sed ex alia causa sum
+          <lb ed="#N" n="120"/>psit immortalitatem ad tempus. sed hec positio vt videtur
+          po<lb ed="#N" n="121" break="no"/>nit contradictoria simul vera de eodem. quod omnino stare non potst
+          <lb ed="#N" n="122"/>Et ideo vt dicitur est alia opinio magistri sentnti. et aliorum. scilicet quod
+          de<lb ed="#N" n="123" break="no"/>dit talem corpus quale humit. sed sine preiudicio videtur dicendum quod licet
+          <lb ed="#N" n="124"/>aliqui ponant diuersas esse opiniones circa probleuma propo
+          <lb ed="#N" n="125"/>situm. scilicet domini inno. et magistri senttim. et magistri hugo. tamen vnum
+          <lb ed="#N" n="126"/>habebant intellectum. vt ex verbis eorum patet si diligenter
+          <lb ed="#N" n="127"/>inspiciantur. Dicendum est ergo quod sicut vult hugo et glo. math.
+          <lb ed="#N" n="128"/>xvii. Christus dedit corpus suum discipulis suis. non mortale non
+          <lb ed="#N" n="129"/>passibile. quod hugo determinat sic. Dicit enim quod christus in
+          cena<lb ed="#N" n="130" break="no"/>tenebat se in manibus inquantum erat sub forma panis. et quod
+          <lb ed="#N" n="131"/>ipse inquantum tenens erat passibilis et mortalis. inquantum tene
+          <lb ed="#N" n="132"/>batur fuit impassibilis et immortalis. nec est inconueniens quod
+          <lb ed="#N" n="133"/>tunc fuit simul mortalis et immortalis vt dicit. Cum enim sint
+          <lb ed="#N" n="134"/>quatuor dotes corporis glorificati. ipse manens adhuc passt
+          <lb ed="#N" n="135"/>bilis quandqoe vnam dotem sumpsit quandoe aliam: vt voluitruc. iii.
+          <lb ed="#N" n="136"/>legitur quod iudei voluerunt ipsum precipitare et tunc vt ostenderet
+          <lb ed="#N" n="137"/>se passibilem permisit se teneri id esttrahi ab eis. vbi simul et
+          <lb ed="#N" n="138"/>dotem impassibilitatis assumens. transiit liber per
+          medi<lb ed="#N" n="139" break="no"/>um illorum. quia enim caro sua nunquam fuit obnoxa culpe: ideo
+          <lb ed="#N" n="140"/>non fuit debitrix pene vel mortis: sed tantum voluntarie
+          fu<lb ed="#N" n="141" break="no"/>it passibilis. ideo quando vcluit dotes impassibilitatis potuit
+          <pb ed="#N" n="317"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>sibi assumere pro aliqua vtilitate. In natiuitate ipse manens
+          <lb ed="#N" n="2"/>passibilis astumpsit sibi dotem corporis gloificati que est
+          subti<lb ed="#N" n="3" break="no"/>litas. Transiuit enim per vterum virginis clausum sine illius
+          apern<lb ed="#N" n="4" break="no"/>one. Similiter math. xvii. In monte vbi transfiguratus fuit
+          pal<lb ed="#N" n="5" break="no"/>sibilis manens assumpsit claritatem. Agilitatem vero Mar.
+          <lb ed="#N" n="6"/>vi. quando ambulauit super mare. nec immergebatur. et sicut manens
+          <lb ed="#N" n="7"/>passibilis potuit pro voluntate vnanquamque dotem assumere:
+          <lb ed="#N" n="8"/>sic et omnes pro aliqua vtilitate quod etiam fecit in cena
+          sub<lb ed="#N" n="9" break="no"/>forma panis. Illud patet per verba hugo. de sancto victo.
+          di<lb ed="#N" n="10" break="no"/>cit enim. Ego absque preiudicio veritatis magis ad illud
+          ac<lb ed="#N" n="11" break="no"/>cedo. vt illud impassibile et immortale quantum scilicet pertinet ad
+          <lb ed="#N" n="12"/>sanctificationem sacramenti tradidisse dicatur. Si ergo hoc esse
+          <lb ed="#N" n="13"/>potuit quod ipse seipisum manibus gestaret et corpus suum sine
+          cor<lb ed="#N" n="14" break="no"/>ruptione sui edendum distribueret. et tamen qui dedit et qui
+          da<lb ed="#N" n="15" break="no"/>batur et qui portabat et qui portabatur idem esset: quid mirum
+          <lb ed="#N" n="16"/>si dicitur quod ipse in eo quod dabat mortalis fuit. et in eo quod
+          da<lb ed="#N" n="17" break="no"/>batur immortalis. et tamen ipse qui mortalis dabat et immortalis
+          <lb ed="#N" n="18"/>dabatur. non duo sed vnus ipse fuit. qumo enim immortalis non
+          <lb ed="#N" n="19"/>dabatur: qui inuisibiliter sumebatur. et incorruptibiliter
+          man<lb ed="#N" n="20" break="no"/>ducabatur. Si ergo in eo quod dabat quod ipse erat videbatur
+          <lb ed="#N" n="21"/>et in eo quod dabatur quod erat ipse non videbatur. Et si in eo quod
+          da<lb ed="#N" n="22" break="no"/>bat tenebatur et crucifigebatur: et in eo quod dabatur frangebatur
+          <lb ed="#N" n="23"/>et non videbatur. edebatur et non corrumpebatur. Qud miraris
+          <lb ed="#N" n="24"/>si in eo quod dabat mortalis dicitur: et in eo quod dabatur
+          immor<lb ed="#N" n="25" break="no"/>talis et impassibilis fuisse predicatur. Consentiens ergo sententie
+          <lb ed="#N" n="26"/>hugo. concedo rationes illas que sunt pro parte illa.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e382">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="27"/>obiicitur de glo i. corum. xi. que dicit. quod dedit corpus suum quile
+          <lb ed="#N" n="28"/>erat scilicet passibile et mortale. et similiter dicit inno. iii. dicendum
+          <lb ed="#N" n="29"/>corpus fuit passibile et mortale quod dedit. non tamen vt illud
+          de<lb ed="#N" n="30" break="no"/>dit. Sicut enim quando assumpsit dotem impassibilitatis
+          pas<lb ed="#N" n="31" break="no"/>sibilis fuit simpliciter: non tamen vt erat sumens dotem illam
+          <lb ed="#N" n="32"/>sic in proposito. Unde dico. quod sub forma propria fuit
+          passi<lb ed="#N" n="33" break="no"/>bilis et mortalis. et sub sacramento similiter: non
+          tamen<lb ed="#N" n="34" break="no"/>vt sumebatur sub sacramento sicut vult hugo. Et inno. dicit.
+          <lb ed="#N" n="35"/>dedit tale quale tunc habuit videlicet passibile. non quod
+          pos<lb ed="#N" n="36" break="no"/>set pati sub sacramento: sed quiasub sacramento poterat
+          pa<lb ed="#N" n="37" break="no"/>ti id est sub sacramento passibile fuit: non tamen prout sumendum
+          fu<lb ed="#N" n="38" break="no"/>it sub sacramento. et hoc est quod dicit hugo. quod in eo quod
+          da<lb ed="#N" n="39" break="no"/>batur immortalis fuit. non dico quod fuit sub sacramenio
+          sim<lb ed="#N" n="40" break="no"/>pliciter: sed prout dabatur ad commnicandum. Ecce quod idem est
+          in<lb ed="#N" n="41" break="no"/>tellectus illorum de quibus dicitur quod diuersarum erant opinionum
+          <lb ed="#N" n="42"/>scilicet inno. et hugo. hec tamen est duplex. corpus christi est passibile
+          <lb ed="#N" n="43"/>sub sacramento quia passibile est potens pati. hec igitur
+          deter<lb ed="#N" n="44" break="no"/>minatio sub sacramento potest determinare quod dico passibile
+          <lb ed="#N" n="45"/>ratione eius quod est potens: et sic vera. vel pati: et sic falsa. ni
+          <lb ed="#N" n="46"/>si extendatur quod dico pati ad significandum passionem mortis
+          <lb ed="#N" n="47"/>Mori enim potuit sub sacramento. non tamen vt erat
+          commuinican<lb ed="#N" n="48" break="no"/>dum. Unde dico christus fuit passibilis sub sacramento. tamen quia
+          <lb ed="#N" n="49"/>sumpserat dotes vel saltem dotem impassibilitatis vt corpus
+          <lb ed="#N" n="50"/>suum erat commuinicandum. vel ex aliqua virtute deitatis non fuit
+          <lb ed="#N" n="51"/>passibilis. vnde dico quod edebatur: non tamen poterat ibi pati
+          inquan<lb ed="#N" n="52" break="no"/>tum huiusmodi. Unde inno. iii. qui passibilis edebatur et tamen non lede
+          <lb ed="#N" n="53"/>batur. non erat humane nature sed diuine potentie: que valebat
+          <lb ed="#N" n="54"/>quicquid omnino volebat. dico igitur quod passibilis fuit sub
+          sacra<lb ed="#N" n="55" break="no"/>mento. non tamen vt datum fuit discipulis commuinicandum. Unde qui
+          <lb ed="#N" n="56"/>dicunt dedit discipulis passibile quale habuit: intelligunt quod
+          <lb ed="#N" n="57"/>etiam sub sacramento sub quo dabatur passibile fuit. Qui
+          di<lb ed="#N" n="58" break="no"/>cunt quod dedit impassibile sicut hugo: intelligunt vt datum fuit
+          <lb ed="#N" n="59"/>ad communionem. et hoc fuerat: quia sumpserat dotem impassibi
+          <lb ed="#N" n="60"/>litatis quantum ad hoc: vel ratione diuie potentie vt vult inno. scilicet quod
+          <lb ed="#N" n="61"/>erat passibilis sub sacramento: et vt dedit se non poterat
+          pati<lb ed="#N" n="62" break="no"/>Ex his dictis patet. quod ex his que ponuntur non sequitur opposita
+          <lb ed="#N" n="63"/>contradictorie inese eidem. hec enim non sunt opposita. Corpus
+          <lb ed="#N" n="64"/>secundum se passibile et impassibile vt datur commnicandum. quia etsi
+          assignen<lb ed="#N" n="65" break="no"/>tur opposita inesse eidem: hoc est diuersimode habenti se.
+          <lb ed="#N" n="66"/>Preterea. vt patet ex ostensione hugo. non est inconueniens
+          <lb ed="#N" n="67"/>aliquo modo opposita conuenire eidem sicut idem numero morta
+          <lb ed="#N" n="68"/>lis dabat: immortalis dabatur. Unde ratione numerationis
+          quodan<lb ed="#N" n="69" break="no"/>modo scilicet per distinctionem locorum et diuersarum proprietatum eidem
+          <lb ed="#N" n="70"/>aliter se habente opposita conueniunt. Illi enim existenti sub
+          for<lb ed="#N" n="71" break="no"/>ma propria conuenit esse in loco tanio et non in miori. Eidem
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>existenti sub forma panis conuenit esse in loco longe
+          minori<lb ed="#N" n="73" break="no"/>Item vt est sub forma propria visibilis fuit et est: et sub
+          for<lb ed="#N" n="74" break="no"/>ma panis nequsquam. vnde eidem conueniunt opposita. quia tamen eidem
+          <lb ed="#N" n="75"/>dissimiliter se habenti in assignatione huiusmodi non est oppositio
+          <lb ed="#N" n="76"/>secundum contradictionem. Ubi enim est oppositio contradictionis
+          requirun<lb ed="#N" n="77" break="no"/>tur opposita inesse eidem similiter se habenti. Preterea. quia christus
+          fu<lb ed="#N" n="78" break="no"/>it passibilis mortalis visibilis. iste affectiones vere sunt
+          sim<lb ed="#N" n="79" break="no"/>pliciter: et harum negationes false sunt simpliciter.
+          nihilo<lb ed="#N" n="80" break="no"/>minus tamen iste negationes vere sunt christus non fuit tunc passibilis
+          <lb ed="#N" n="81"/>vt ad hoc erat sub specie panis hoc est secundum illud esse. et iste
+          <lb ed="#N" n="82"/>negationes non contradicunt predictis affirmationibus: sed est
+          para<lb ed="#N" n="83" break="no"/>logismus secundum quid et simpliciter. Christus non fuit passibilis
+          <lb ed="#N" n="84"/>nec patiebatur vt erat comnicandus sub forma panis: ergo non
+          <lb ed="#N" n="85"/>fuit tunc passibilis. sub hac enim forma non fuit passibilis.
+          <lb ed="#N" n="86"/>sub alia fuit passibilis. et non sequitur ergo fuit passibilis
+          <lb ed="#N" n="87"/>et non passibilis. Affirmatiua enim sequitur ex affirmatiua.
+          <lb ed="#N" n="88"/>negatiua autem non sequitur ex negatiua. sed et plane paralogif
+          <lb ed="#N" n="89"/>mus secundum quid et simpliciter.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e524">
+          ⁋ Ad id quod queritur. si fuisset
+          <lb ed="#N" n="90"/>eucharistia reseruata in pixide vsque ad diem perasceue.
+          <lb ed="#N" n="91"/>vtrum christus mortuus in pixide esset vel viuus. dico sine preiudicio
+          <lb ed="#N" n="92"/>quod mortumus. Unde dico quod quando moriebatur in cruce: et morere
+          <lb ed="#N" n="93"/>tur in pixide si ibidem e stet reseruatus.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e535">
+          ⁋ Si queratur quare
+          <lb ed="#N" n="94"/>non potest dici de christo hodie aliter et aliter se habente ipsum
+          <lb ed="#N" n="95"/>simul esse viuum et mortuum: sicut visibilem et inuisibilem esse
+          passi<lb ed="#N" n="96" break="no"/>bilem et impassibilem sicut vult hugo et inno. Responsio esse
+          <lb ed="#N" n="97"/>mortuum et viuum. dicunt ea que respiciunt ipsum esse. ita quod
+          <lb ed="#N" n="98"/>vnum ponit esse: aliud priuat. Unde sicut nulla positione
+          poni<lb ed="#N" n="99" break="no"/>debet aliquid esse simpliciter et non esse simpliciter: sic nec
+          <lb ed="#N" n="100"/>de eodem debet poni simul esse viuum et mortuum.
+          passibile<lb ed="#N" n="101" break="no"/>et impassibile non dicunt ea que respiciunt esse hominis
+          ita<lb ed="#N" n="102" break="no"/>quod ponunt esse et non esse circa idem: quia vtrumque ponit esse.
+          <lb ed="#N" n="103"/>Pretera. esse visibile et inuisibile conueniunt christo ratione
+          diuerso<lb ed="#N" n="104" break="no"/>rum modorum essendi. scilicet formaliter et sacramentaliter.
+          mori<lb ed="#N" n="105" break="no"/>et non mori ratione substantie siue esse simpliciter. Unde gene
+          <lb ed="#N" n="106"/>taliter mihi videtur ponendum. nullo modo debere
+          alsignari<lb ed="#N" n="107" break="no"/>opposita simul inesn: quorum vnum ponit esse: aliud non esse.
+          <lb ed="#N" n="108"/>Aia autem quedam quorum vtrumque ponit esse bene possunt
+          assi<lb ed="#N" n="109" break="no"/>gnari christo inesse dissimiliter se habenti. non tamen
+          opposi<lb ed="#N" n="110" break="no"/>ta contradictorie: quia licet affirmatiua inferat
+          affirma<lb ed="#N" n="111" break="no"/>tiuam: negatiua non infert negatiuam. Non enim sequitur hoc
+          <lb ed="#N" n="112"/>non videtur hic. ergo non videtur.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e579">
+          ⁋ Ad hoc quod obiicitur. quod
+          si<lb ed="#N" n="113" break="no"/>dedit se impassibilem et non fuit talis: ergo fuit ibi fictio.
+          <lb ed="#N" n="114"/>Dicendum quod immo fuit talis inquantum dabatur licet non
+          inquam<lb ed="#N" n="115" break="no"/>tum dans.
+        </p>
+        <p xml:id="v78d89-a8z9t6-d1e588">
+          ⁋ Ad vltimum patet responsio ex dictis. quia esse vi
+          <lb ed="#N" n="116"/>uum et mortuum simul et semel non possunt inesse eidem rati
+          <lb ed="#N" n="117"/>one pretacta. de hoc infra tangetur. Si hoc cbiiciatur contra
+          <lb ed="#N" n="118"/>Hugo dicit quod dotes dicunt qualitates aliquas. Unde
+          si<lb ed="#N" n="119" break="no"/>christus assumpserit dotes corporis. corpus eius fuit alteratum
+          <lb ed="#N" n="120"/>saltem quantum ad tempus. et constat quod quando dabatur corpus
+          <lb ed="#N" n="121"/>suum illud actu et habitu habebat proprietatem
+          passibilita<lb ed="#N" n="122" break="no"/>tis: ergo non habebat proprietatem oppositam. Dicendum quod
+          <lb ed="#N" n="123"/>non assumplit dotem impassibilitatis simpliciter: sed quantum
+          <lb ed="#N" n="124"/>ad esse tale scilicet sub sacramento. ad commnicandum sicut supra
+          ta<lb ed="#N" n="125" break="no"/>ctum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

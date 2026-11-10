@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 49, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 49, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="336"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aa400t"><!-- q49m5 -->
+        <head xml:id="v78d89-aa400t-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-aa400t-Hd1e103" type="question-title">Utrum parvulis dandum est corpus Christi</head>
+        <p xml:id="v78d89-aa400t-d1e106">
+          <lb ed="#N" n="35"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-aa400t-d1e111">
+          <lb ed="#N" n="36"/>COnsequenter queritur vtrum paruulis dandum est
+          cor<lb ed="#N" n="37" break="no"/>pus christi. Quod sic: videtur. de conse. di. iiii. Si quis
+          <lb ed="#N" n="38"/>apud. ibi dicitur. Si paruuli sunt et ebetes qui
+          do<lb ed="#N" n="39" break="no"/>ctrinam non capiant. respondeant pro illis qui eos
+          of<lb ed="#N" n="40" break="no"/>ferunt iuxta morem baptizandi. et sic per manus impositionem
+          crisma<lb ed="#N" n="41" break="no"/>te communicati cum eucharistie misteriis admittantur.
+        </p>
+        <p xml:id="v78d89-aa400t-d1e127">
+          ⁋ Item cum
+          <lb ed="#N" n="42"/>paruuli sunt purgati a macula peccati et virtutibus prediti
+          <lb ed="#N" n="43"/>in baptismate. nec aliquod commiserunt peccatum propter
+          <lb ed="#N" n="44"/>quod indigni facti sunt corporis christi susceptione: non videtur
+          <lb ed="#N" n="45"/>aliquod esse impedimentum ex parte eorum quare non
+          de<lb ed="#N" n="46" break="no"/>beat illis conferri.
+        </p>
+        <p xml:id="v78d89-aa400t-d1e141">
+          ⁋ Item nullus viuit vita spirituali
+          ni<lb ed="#N" n="47" break="no"/>si per vsum corporis christi et sanguinis. Unde de conse. di. iiii. in
+          <lb ed="#N" n="48"/>ecclesia. vbi dicitur. nec illud cogitetis eos vitam habere posse
+          <lb ed="#N" n="49"/>qui sunt expertes corporis et sanguinis christi. et loquitur ibi de
+          <lb ed="#N" n="50"/>paruulis. q. d. non dubitetis. sed certi sitis quod habere non
+          <lb ed="#N" n="51"/>possunt si sint expartes etc. ergo si in paruulis debet
+          continuari<lb ed="#N" n="52" break="no"/>vita data in baptismate: debet eis dari corpus christi.
+        </p>
+        <p xml:id="v78d89-aa400t-d1e157">
+          ⁋ Contra
+          <lb ed="#N" n="53"/>corpus christi debet sumi cum deuotione et reuerentia. igitur ab eo
+          <lb ed="#N" n="54"/>cui deest facultas sumendi sic: non debet sumi scilicet a paruulo
+        </p>
+        <p xml:id="v78d89-aa400t-d1e164">
+          <lb ed="#N" n="55"/>⁋ Item vt habetur ab augustinus. cibus iste est cibus grandium scilicet
+          <lb ed="#N" n="56"/>in fide. paruuli autem et si habeant habitum fidei ex gratia
+          ba<lb ed="#N" n="57" break="no"/>ptismali: non tamen dicendi sunt grandes in fide. quia
+          ea<lb ed="#N" n="58" break="no"/>dem ratione et stolidi omnino dicendi essent grandes in
+          fi<lb ed="#N" n="59" break="no"/>de. igitur paruulis non est dandus cibus iste
+        </p>
+        <p xml:id="v78d89-aa400t-d1e177">
+          ⁋ Responsio. quod
+          paruu<lb ed="#N" n="60" break="no"/>lis qui omnino carent iudicio rationis. nec sciunt discernere
+          <lb ed="#N" n="61"/>hunc cibum celestem a cibo corporali. non est dandum
+          cor<lb ed="#N" n="62" break="no"/>pus christi. Aliquibus forte qui sunt minoris etatis videliccet
+          <lb ed="#N" n="63"/>x. vel. xi. annorum qui instructi sunt in fide maxime quantum
+          <lb ed="#N" n="64"/>ad articulos incarnationis passionis et resurrectionis christi
+          <lb ed="#N" n="65"/>dummodo in eis vigeat discretio iudicii et capacitatis eius qui
+          <lb ed="#N" n="66"/>datur in cibum in hoc sacramento. potest quandoque dari.
+        </p>
+        <p xml:id="v78d89-aa400t-d1e195">
+          ⁋ Ad
+          <lb ed="#N" n="67"/>illud quod obiicitur quod debet dari paruulis qui nondum habent
+          <lb ed="#N" n="68"/>vsum loquendi vt videtur per decretum suprapositum. dicendum quod
+          il<lb ed="#N" n="69" break="no"/>lud quod dicitur quod eucharistie misteriis admittantur: non
+          re<lb ed="#N" n="70" break="no"/>spondet lrtere immediate. Unde non intelligitur de paruulis. sed de
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>adultis de quibus fit sermo supra in eodem canone cum
+          di<lb ed="#N" n="72" break="no"/>citur. si consentiunt credere vel acquiescunt confiteri purgati
+          <lb ed="#N" n="73"/>fidei integritate firmentur manus impositione.
+        </p>
+        <p xml:id="v78d89-aa400t-d1e215">
+          ⁋ Ad aliud
+          <lb ed="#N" n="74"/>quod obiicitur quod in paruulis non est aliquod impedimentum etem.
+          <lb ed="#N" n="75"/>Dicendum quod et si non sit impedimentum peccati: est tamen
+          impedi<lb ed="#N" n="76" break="no"/>mentum impotentie preparationis. Ad hoc enim quod aliquis digne
+          <lb ed="#N" n="77"/>isumat corpus christi necesse est quod sit virtutibus preditus quantum ad
+          <lb ed="#N" n="78"/>habitus earum et quantum ad alia que illum ad deuotionem et
+          reue<lb ed="#N" n="79" break="no"/>rentiam excitant sit consideratus. Unde non sufficit habere
+          ha<lb ed="#N" n="80" break="no"/>bitus virtutum eo modo quo habent paruuli ad hoc quod quis
+          di<lb ed="#N" n="81" break="no"/>gne accipiat: sed requiritur actualis discretio quantum ad
+          ali<lb ed="#N" n="82" break="no"/>qua que ipsum qui sumere debet vlterius preparent.
+        </p>
+        <p xml:id="v78d89-aa400t-d1e238">
+          ⁋ Ad aliud
+          <lb ed="#N" n="83"/>quod obiicitur. quod qui sunt expartes corporis et sanguinis christi non
+          <lb ed="#N" n="84"/>possunt habere vitam etc. Dicendum quod per corpus et sanguinen
+          <lb ed="#N" n="85"/>christi significatur vnitas ecclesie que per corpus christi et sanguinem
+          <lb ed="#N" n="86"/>significatur. Unde sensus est. non dubitetis sed certi sitis quod
+          <lb ed="#N" n="87"/>vitam habere non posunt si sint expartes vnitatis ecclesie quam
+          <lb ed="#N" n="88"/>corpus et sanguis christi signant.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 46, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 46, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="322"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a982ed"><!-- q46m1 -->
+        <head xml:id="v78d89-a982ed-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a982ed-Hd1e103" type="question-title">Ant aliquis possit sumere corpus Christi sine peccato mortali vel veniali</head>
+        <p xml:id="v78d89-a982ed-d1e106">
+          <lb ed="#N" n="47"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a982ed-d1e111">
+          <lb ed="#N" n="48"/>CIrca primum proceditur ad partem affirmatiuam
+          <lb ed="#N" n="49"/>sic. Hyla. viii. de trini. Hec accepta atque ex
+          <lb ed="#N" n="50"/>hausta efficiunt vt nos in christo et christus in nobis
+          <lb ed="#N" n="51"/>sit. Ex hoc patet quod contingit mereri sumendo
+          <lb ed="#N" n="52"/>corpus christi. igitur contingit sumi sine peccato.
+        </p>
+        <p xml:id="v78d89-a982ed-d1e124">
+          ⁋ Item super
+          il<lb ed="#N" n="53" break="no"/>lud. i. corum. x. None communicatio sanguinis christi. glo.
+          Non<lb ed="#N" n="54" break="no"/>ne facit nos habere quandam communionem cum vita christi. q. d.
+          <lb ed="#N" n="55"/>vtique facit. Ibidem. Nonne perticipatio corporis domini. glo.
+          Non<lb ed="#N" n="56" break="no"/>ne facit nos vnum cum ipso: facit vtique. Ex bis effectibus
+          or<lb ed="#N" n="57" break="no"/>detur. quod facit communicantem assimilari deo et vniri. ergo
+          <lb ed="#N" n="58"/>aliqui accedunt qui ex huiusmodi accessu non efficiuntur
+          dissimi<lb ed="#N" n="59" break="no"/>les deo et elongati a deo. quod accideret si semper peccarent
+        </p>
+        <p xml:id="v78d89-a982ed-d1e143">
+          <lb ed="#N" n="60"/>Contra. ix. ecslnus. Nullus scit vtrum amore vel odio dignus
+          <lb ed="#N" n="61"/>sit. Unde nullus scit vtrum sit in mortali peccato vel in gratia
+          <lb ed="#N" n="62"/>quia ille odio dignus est qui est in mortali peccato. Igitur
+          <lb ed="#N" n="63"/>cum nullus scit vtrum sit in mortali peccato vel non: omnis
+          <lb ed="#N" n="64"/>accedens exponit se discrimini. sed regulariter verum est.
+          <lb ed="#N" n="65"/>quod omnis exponens se discrimini mortali peccat
+          mortali<lb ed="#N" n="66" break="no"/>ter. ergo etc.
+        </p>
+        <p xml:id="v78d89-a982ed-d1e161">
+          ⁋ Item. i. Ioh. i. Si dixerimus quia peccatum non
+          <lb ed="#N" n="67"/>habemus etc. igitur nullus potest accedere sine peccato. sed omnis
+          <lb ed="#N" n="68"/>talis peccat etc. quia sicut qui accedit in mortali peccat
+          mor<cb ed="#N" n="b"/><lb ed="#N" n="69" break="no"/>taliter: ita vt videtur qui accedit cum veniali peccat veniabi
+          <lb ed="#N" n="70"/>ter.
+        </p>
+        <p xml:id="v78d89-a982ed-d1e173">
+          ⁋ Item. xx. prouer. Quis potest dicere mundum est cor meum
+          <lb ed="#N" n="71"/>purus sum a peccato: et ita vt prius
+        </p>
+        <p xml:id="v78d89-a982ed-d1e178">
+          ⁋ Responsio. quod
+          mut<lb ed="#N" n="72" break="no"/>ti sumunt corpus christi nec peccant. immo merentur et augetur in eis
+          <lb ed="#N" n="73"/>gratia. Unde super illud Marci. xiiii. Accepit ihus pane etc.
+          <lb ed="#N" n="74"/>glo. Ebrietas felix. salutaris sacietas. que quanto
+          copio<lb ed="#N" n="75" break="no"/>sius sumitur: tanto sobrietatem mentibus donare dignatur.
+        </p>
+        <p xml:id="v78d89-a982ed-d1e189">
+          <lb ed="#N" n="76"/>⁋ Ad primum ergo quod dicitur. nullus scit etc. Intelligunt quidam sed
+          <lb ed="#N" n="77"/>dici de odio vel amore finali. Et hoc videtur sonare littera
+          <lb ed="#N" n="78"/>sequens que est. sed omnia in futuro reseruantur incerta: sed quia
+          <lb ed="#N" n="79"/>communis opinio est quod nullus potest scire vtrum in aliquo tempore sit
+          <lb ed="#N" n="80"/>dignus hoc vel illo. dici potest quod licet homo non possit scire vtrum
+          <lb ed="#N" n="81"/>sit in gratia notantia certitudinis: potest tamen de hoc ex
+          quibus<lb ed="#N" n="82" break="no"/>dam signis fiduciam spei habere. Unde greg. in sermone de
+          <lb ed="#N" n="83"/>lxx. Nescit homo vtrum dignus sit amore an odio. certitudine
+          <lb ed="#N" n="84"/>vtique non habemus: sed spei fiducia consolatur nos
+          scri<lb ed="#N" n="85" break="no"/>ptura. ne dubitatione huius anxietate penitus cruciemur.
+          <lb ed="#N" n="86"/>propter hoc data sunt quedam signa et indicia manifesta
+          <lb ed="#N" n="87"/>salutis. vt indubitabile sit eum esse de numero electorum. in
+          <lb ed="#N" n="88"/>quo ea signa permanserunt. Et post ponit ipse quatuor signa
+          <lb ed="#N" n="89"/>Primum est si deuote audit verbum dei. Et hoc signum ponit
+          <lb ed="#N" n="90"/>ex verbo illo. qui ex deo est verba dei audit Ioh. viii. Unde
+          <lb ed="#N" n="91"/>dicit. Porro inter ea que fiduciam prestant et materiam
+          spei<lb ed="#N" n="92" break="no"/>Unum est illud maximum verbum dei: qui ex deo est verba dei
+          au<lb ed="#N" n="93" break="no"/>dit. Alia tria signa sunt opera vite agere. continere a peccatis
+          <lb ed="#N" n="94"/>deflere commissa. Et hec tria sumit ab illa auctoritate. i. ioh.
+          <lb ed="#N" n="95"/>v. Tres sunt qui testimonium dant in terra. spiritus. aqua a
+          <lb ed="#N" n="96"/>sanguis. Unde dicit fidelis sermo et omni acceptione dignus
+          <lb ed="#N" n="97"/>quo salutis testimonia commendantur. Tres sunt inquit. o
+          <lb ed="#N" n="98"/>testimonium dant in terra. spiritus. aqua et sanguis. quis efi
+          <lb ed="#N" n="99"/>qui testimonium habet effusi sanguinis christi: nisi qui continet
+          <lb ed="#N" n="100"/>a peccatis. habet et ab aqua testimonium qui laborat in
+          ge<lb ed="#N" n="101" break="no"/>mitu suo: lauans per singulas noctes lectum suum. sane sanctunm
+          <lb ed="#N" n="102"/>superuenisse spiritum certissime noua conuersatio testatur. Id
+          <lb ed="#N" n="103"/>vt breuiter repetam et a sanguine et aqua et spiritu habes
+          te<lb ed="#N" n="104" break="no"/>stimonium: si contines a peccatis: si dignos agis penitentie
+          <lb ed="#N" n="105"/>fructus: si facis opera vite. hec greg. Unde talis accedeng
+          <lb ed="#N" n="106"/>ad corpus christi cum debita reuerentia non peccat neque exponit
+          <lb ed="#N" n="107"/>se discrimini. sufficit ei habere noticiam presumptionis per
+          <lb ed="#N" n="108"/>comecturas. eo modo quo dictum est. Si autem esset in
+          hesita<lb ed="#N" n="109" break="no"/>tione et remorsu conscientie. licet non constaret sibi quod esset in
+          mor<lb ed="#N" n="110" break="no"/>tali et accederet: exponeret se discrimini.
+        </p>
+        <p xml:id="v78d89-a982ed-d1e267">
+          ⁋ Ad aliud
+          di<lb ed="#N" n="111" break="no"/>cendum. quod beatus iohes non intendit dicere. quod omnes
+          ho<lb ed="#N" n="112" break="no"/>mines sint in peccato scilicet mortali. sed illi qui superbiunt de
+          <lb ed="#N" n="113"/>meritis et ex illa presumptione dicunt se mundos. Unde glo.
+          <lb ed="#N" n="114"/>ibidem. Illi non habent caritatem qui de meritis
+          superbien<lb ed="#N" n="115" break="no"/>tes dicunt se mundos. Uel potest dici quod intelligit de peccatis
+          <lb ed="#N" n="116"/>venialibus.
+        </p>
+        <p xml:id="v78d89-a982ed-d1e284">
+          ⁋ Ad illud prouer. Quis potest dicere mundum etc.
+          <lb ed="#N" n="117"/>Dicendum quod non intendit dicere quod nullus est sine peccato
+          mor<lb ed="#N" n="118" break="no"/>tali: sed loquitur contra illos qui temerarie iactant se: siue seipsos
+          <lb ed="#N" n="119"/>laudant de meritis. ex eoipso quod tales sunt: mali sunt. Unde
+          <lb ed="#N" n="120"/>glo. ibidem non dicit quis habet. quia dicitur. beati mundo corde
+          <lb ed="#N" n="121"/>Math. v. sed quis potest dicere. quia temerarium est se laudare. vl
+          <lb ed="#N" n="122"/>intelligitur de peccato veniali.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

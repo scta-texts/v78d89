@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 17, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 17, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="124"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4b4yr"><!-- q17m1 -->
+        <head xml:id="v78d89-a4b4yr-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a4b4yr-Hd1e103" type="question-title">Utrum parvulus sit susceptibilis baptismi</head>
+        <p xml:id="v78d89-a4b4yr-d1e106">
+          <lb ed="#N" n="131"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a4b4yr-d1e111">
+          <lb ed="#N" n="132"/>⁋ CIrca primum sic. In veteri testamento erat
+          <lb ed="#N" n="133"/>sacramentum institutum ad deletionem
+          ori<lb ed="#N" n="134" break="no"/>ginalis peccati in paruulis. sacramentum
+          <lb ed="#N" n="135"/>autem noue legis est perfectius: ergo in nouo
+          testa<lb ed="#N" n="136" break="no"/>mentio sacramentum erit in remedium origialis in paruulis. Sed hoc est
+          ba<pb ed="#N" n="125"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>ptismus qui successit circumcisioni: ergo paruuli susciptibiles
+          <lb ed="#N" n="2"/>sunt sacramenti baptismalis.
+        </p>
+        <p xml:id="v78d89-a4b4yr-d1e131">
+          ⁋ Item gratia superhabundauit plus quam
+          <lb ed="#N" n="3"/>delictum. sed delictum ratione originalis peccati transiuit ad
+          paruu<lb ed="#N" n="4" break="no"/>los. multo fortius ergo gratia christi. Illa autem maxime est in
+          sacra<lb ed="#N" n="5" break="no"/>mento baptismatis: ergo paruuli posunt suscipere sacramentum
+          baptis<lb ed="#N" n="6" break="no"/>matis.
+        </p>
+        <p xml:id="v78d89-a4b4yr-d1e143">
+          ⁋ Item regeneratio secundum spiritum est eorum quorum est
+          gene<lb ed="#N" n="7" break="no"/>ratio secundum carnem: sed regeneratio est per baptismum. paruulorum autem
+          <lb ed="#N" n="8"/>non habentium vsum rationis est generatio secundum carnem: ergo paruuli dum
+          <lb ed="#N" n="9"/>non habent vsum rationis posunt suscipere sacramentum baptismi.
+        </p>
+        <p xml:id="v78d89-a4b4yr-d1e152">
+          ⁋ Contra
+          <lb ed="#N" n="10"/>dicitur in euangelio. Qui crediderit et baptizatus fuerit etc.
+          <lb ed="#N" n="11"/>premittitur ibi fides baptizandi. sed fides non est in paruulis:
+          er<lb ed="#N" n="12" break="no"/>go nec sacramentum baptismi quod consequitur.
+        </p>
+        <p xml:id="v78d89-a4b4yr-d1e161">
+          ⁋ Item in matrimonio
+          <lb ed="#N" n="13"/>carnali requiritur consensus: multo fortius in matrimonio
+          spirituali<lb ed="#N" n="14" break="no"/>cum ergo in baptismo anima fiat sponsa christi nisi ponatur obex:
+          re<lb ed="#N" n="15" break="no"/>quiritur in baptismo consensus baptizandi. In paruulo autem
+          nul<lb ed="#N" n="16" break="no"/>lus est consensus: ergo non recipit sacramentum baptismatis.
+        </p>
+        <p xml:id="v78d89-a4b4yr-d1e172">
+          ⁋ Ad quod
+          <lb ed="#N" n="17"/>respondendum. quod paruulus suscipit sacramentum baptismi. Misericordia enim
+          <lb ed="#N" n="18"/>superexaltat iudicium. Iudicium autem transiuitex peccato parentum in
+          <lb ed="#N" n="19"/>paruulos: misericordia autem per christum in omnes quantum ad sufficientiam.
+        </p>
+        <p xml:id="v78d89-a4b4yr-d1e181">
+          <lb ed="#N" n="20"/>⁋ Ad obiectum autem in contrarium. dicendum est. quod illud quod dicitur in
+          euan<lb ed="#N" n="21" break="no"/>gelio sic intelligitur sicut dicit Beda. per alios paruuli credunt sicut
+          <lb ed="#N" n="22"/>ex aliis ea que in baptismo eis remittuntur peccata contraxerunt.
+          <lb ed="#N" n="23"/>Unde fides parentum vel ecclesie supplet quod minus est in paruulis
+          <lb ed="#N" n="24"/>vel quia loquitur ibi de predicatione que fit adultis: potest intelligi de
+          fi<lb ed="#N" n="25" break="no"/>de adultorum que conuenienter precedit baptisma ad salutem
+          obtinen<lb ed="#N" n="26" break="no"/>dam.
+        </p>
+        <p xml:id="v78d89-a4b4yr-d1e199">
+          ⁋ Ad secundum vero dicendum. quod aliud est in matrimonio carna
+          <lb ed="#N" n="27"/>li et aliud in spirituali. in parte et in parte est simile. In adultis enim
+          <lb ed="#N" n="28"/>requiritur vtrobique consensus: in paruulis vero de consensu parentum
+          <lb ed="#N" n="29"/>contrahuntur sponsalia: sed non omnino ratificantur nisi per consensum
+          <lb ed="#N" n="30"/>iliarum personarum cum venerint ad adultam etatem. In paruulis vero
+          <lb ed="#N" n="31"/>contrahitur matrimonium spirituale per gratiam christi. a qua habet virtutem
+          <lb ed="#N" n="32"/>baptismus et per ipsum consensum ecclesie. Unde ysiud. de officiis. par
+          <lb ed="#N" n="33"/>uuli alio profitente baptizantur qui adhuc loqui vel credere
+          ne<lb ed="#N" n="34" break="no"/>sciunt. Et dicit augustinus. ad Bonifacium vt possit regenerari per
+          <lb ed="#N" n="35"/>officium voluntatis aliene cum offertur consecrandus. facit hoc vnus
+          <lb ed="#N" n="36"/>spiritus. ex quo regeneratur oblatus: et ratificatur ex consensu
+          patrini<lb ed="#N" n="37" break="no"/>et fide ecclesie ipsum matrimonium spirituale suscepto
+          baptisma<lb ed="#N" n="38" break="no"/>tis sacramento. et quo ad hoc est dissimile respectu
+          matri<lb ed="#N" n="39" break="no"/>monii carnalis: in aliis etiam similitudo attenditur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

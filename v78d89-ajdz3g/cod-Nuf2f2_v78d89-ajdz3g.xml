@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 114, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 114, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="700"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ajdz3g"><!-- q114m4 -->
+        <head xml:id="v78d89-ajdz3g-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-ajdz3g-Hd1e103" type="question-title">De utilitate elemosyne secundum quod est opst operatum sive ipsum datum</head>
+        <p xml:id="v78d89-ajdz3g-d1e106">
+          <lb ed="#N" n="47"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e111">
+          <lb ed="#N" n="48"/>COnsequenter queritur de vtilitate elemosyne secundum quod est
+          <lb ed="#N" n="49"/>opst operatum siue ipsum datum. Et queritur an sit
+          <lb ed="#N" n="50"/>meritoria quantum ad huiusmodi. quia elemosyna inquantum est
+          <lb ed="#N" n="51"/>opst operans absque dubio meritoria est. et quod similiter sit meritoria
+          <lb ed="#N" n="52"/>inquantum est opst operatum videtur sic. ratione dati obligatur pauper
+          recipi<lb ed="#N" n="53" break="no"/>ens adorandum pro dante. ergo ipse dans ratione dati meretur
+          adiu<lb ed="#N" n="54" break="no"/>uari orationibus bonorum: ergo ipsum datum est meritorium danti.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e129">
+          ⁋
+          Si<lb ed="#N" n="55" break="no"/>diceretur quod dans non ratione dati meretur beneficium orationis. sed
+          solum<lb ed="#N" n="56" break="no"/>inquantum dans. hoc non videtur verum: quia cum res data sit materia
+          su<lb ed="#N" n="57" break="no"/>stontationis pauperis eo autem quod sustentatur beneficio alicuius
+          obliga<lb ed="#N" n="58" break="no"/>tur adorandum pro eo: ergo ratione ipsius dati tenetur orare pro dante:
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e141">
+          <lb ed="#N" n="59"/>⁋ Pre. si datum inquantum huiusmodi non est meritorium. ergo tantum meretur
+          <lb ed="#N" n="60"/>quis dando decem quantum dando cantum. quod non videtur verum nec verisimile
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e148">
+          <lb ed="#N" n="61"/>⁋ Item non plus meretur quis multis dando elemosynam quoam vni. quod videtur
+          <lb ed="#N" n="62"/>falsum. quia quanto pluribus communicat bona sua: tanto ploes obligat.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e155">
+          <lb ed="#N" n="63"/>⁋ Pre. tantum meretur diues dandi parum quantum pauper dando
+          mul<lb ed="#N" n="64" break="no"/>tum aliis conditionibus paribus. quod est contra sententiam domini de vidua
+          paupere<lb ed="#N" n="65" break="no"/>que totum victum suum dedit. Luc. xx i.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e164">
+          ⁋ Preterea. vt dicit greg. cum
+          au<lb ed="#N" n="66" break="no"/>gertur dona rationes etiam crescunt donorum. non autem augentur rationes donorum
+          <lb ed="#N" n="67"/>nisi ipsa dona obligarent. ergo ipsis donis sine datis obligat
+          <lb ed="#N" n="68"/>dans ipsum cui datur et meretur aliquid obtinere ratione dati ab eo.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e173">
+          <lb ed="#N" n="69"/>⁋ Pre. secundum greg. cui pluscon. nittitur: ab eo plus exigetur. ergo quanto
+          <lb ed="#N" n="70"/>magis est quod datur: tanto plus obligatur ille cui datur ipsi danti. et
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>ita vt prius. ergo si magnitudo dimissi meretur magis. vtpote
+          <lb ed="#N" n="72"/>maiorem dilectionem iuxt sententiam. Luc. vii. similiter videtur de magnitu
+          <lb ed="#N" n="73"/>dine dati: et ita vt prius.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e189">
+          ⁋ Pre. eclesiatis. vii. Melior est sapia cum
+          <lb ed="#N" n="74"/>diuiciis. vbi dicit glo. interli. quam sola: ergo diuicie sunt bone. sed
+          <lb ed="#N" n="75"/>optinme sunt date in elemosnam: ergo diuicie date in elemosynam secundum quod huiusmodi
+          <lb ed="#N" n="76"/>meritorie sunt.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e199">
+          ⁋ Pre. non dare elemosynam quando debet dari est demerito
+          <lb ed="#N" n="77"/>rium ratione rei dande sbtracte: ergo dare elemosynam quando conuenit dari est
+          <lb ed="#N" n="78"/>meritorium ratione rei date. Ex his videtur quod elemosna secundum quod est datum
+          <lb ed="#N" n="79"/>siue ops operatum est meritoria.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e208">
+          ⁋ Contr. secundum hiero. dominus non
+          re<lb ed="#N" n="80" break="no"/>spicit quantum. sed ex quento: ipsum ergo datum non est meritorium. sed illud a
+          <lb ed="#N" n="81"/>Ao datur
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e215">
+          ⁋ Pre. augustinus. qui dat vt careat tedio interpellantis non vt
+          re<lb ed="#N" n="82" break="no"/>ficiat viscera indigentis: et rem et meritum perdit. Ex quo patet quod
+          da<lb ed="#N" n="83" break="no"/>to ipso non meretur dans elemosynam.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e222">
+          ⁋ Ad hoc potest dici. quod solus actus
+          inte<lb ed="#N" n="84" break="no"/>rior vel exterior relatus ad interiorem: est directe et proprie loquendo
+          <lb ed="#N" n="85"/>meritorius non autem res data. directe dico et proprie: quia res
+          ipsa<lb ed="#N" n="86" break="no"/>data indirecte et occasionaliter potest esse meritoria. inquantum est
+          cir<lb ed="#N" n="87" break="no"/>cumstantia operis ipsius dantis: et inquantum excitat ipsum cui data est
+          <lb ed="#N" n="88"/>elemosyna adorandum pro dante. Res autem data potest esse circumstantia actus
+          <lb ed="#N" n="89"/>dantis quamdiu circunstat opus illius. et ita quodammodo meritoria.
+          <lb ed="#N" n="90"/>sicut circumstantia meriti. sed transtato dominio ad ipsum recipientem: non
+          <lb ed="#N" n="91"/>est circumstantia actus meritorii. vt quando quis dat pauperi durante
+          acti<lb ed="#N" n="92" break="no"/>one: panis est circumstantia actionis meritorie. sed nihil quod postea
+          <lb ed="#N" n="93"/>fit de pane est danti meritorium nisi occasionaliter. vtpote quando oratio
+          <lb ed="#N" n="94"/>eius cui datur ad quam excitat ipsum datum: meretur aliquod ipsi danti.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e248">
+          <lb ed="#N" n="95"/>⁋ Sed adhuc obicitur. quod dominus meretur per eius ministrum. vtpote per eius
+          <lb ed="#N" n="96"/>elemosnarium. et secundum hunc modum non est datum circumstantia actus dantis
+          <lb ed="#N" n="97"/>prout dominus est dans. et eadem ratione vidtur. quod dominus ipse meretur per ipsum
+          <lb ed="#N" n="98"/>datum non exstens actus dantis: sed transtatio dominii eius. Ad hoc est
+          respon<lb ed="#N" n="99" break="no"/>dendum. quod ipse dominus ex hoc quod precipit elemosnam fieri ex caritate
+          me<lb ed="#N" n="100" break="no"/>retur. vnde adhuc inquantum est circumstantia operis proprii est sibi
+          merito<lb ed="#N" n="101" break="no"/>ria. Ut autem dicunt minister si est exta caritatem non meretur domino. Si
+          <lb ed="#N" n="102"/>autem sit in caritate potest mereri domino vel rectitudine intentionis
+          <lb ed="#N" n="103"/>vl desiderio subuentionis vel aliquo alio modo huiusmodi.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e270">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="104"/>primo obicitur contra predicta scilicet quod christum datum est vita sustentationis
+          ip<lb ed="#N" n="105" break="no"/>sius pauperis. potest dici vt supraa. quia et illud etiam inquantum est
+          mate<lb ed="#N" n="106" break="no"/>ria sustentationis et etiam meritorium ipsi danti: est circumstantia
+          <lb ed="#N" n="107"/>actus dantis.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e282">
+          ⁋ Ad illud quod obicitur. quod si datum ipsum non est merito
+          <lb ed="#N" n="108"/>rium non plus meretur vnus in dando multum: quam alius in dando parum. potest
+          <lb ed="#N" n="109"/>dici quod maioritas dati vel minoritas non impedit quin ipsum sit
+          cir<lb ed="#N" n="110" break="no"/>cunstantia actus dantis. et eo quo maius est magis meretur ipse qui
+          <lb ed="#N" n="111"/>dat. et est occasio post transtationem dominii plurium orationum et
+          effica<lb ed="#N" n="112" break="no"/>torum. Ex his patet responsio ad illud quod sequitur.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e295">
+          ⁋ Ad illud quod obicitur
+          <lb ed="#N" n="113"/>quod cum augentur dona. rationes etiam crescunt donorum etc. potest dici quod
+          <lb ed="#N" n="114"/>reuera ipsa dona obligant ipsum inquantum recipientem. sed hoc est
+          in<lb ed="#N" n="115" break="no"/>quantum sunt circumstantie actus ipsius dantis et cum hoc quadque transtato
+          <lb ed="#N" n="116"/>dominio excitant illos qui recipiunt ad intercedendum pro illis qui dant
+          <lb ed="#N" n="117"/>reducendo illis ad memoriam benefactum ipsius dantis.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e308">
+          ⁋ Ad alia que
+          <lb ed="#N" n="118"/>sequuntur patet responsio ex dictis. quia quanto maius est quod datur: tanto plus
+          <lb ed="#N" n="119"/>obligatur ille qui recipit. et etiam meretur magis diligi ab eo
+          ille<lb ed="#N" n="120" break="no"/>qui dat. hoc verum est inquantum ipsum donum est circumstantia actus dantis
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e317">
+          <lb ed="#N" n="121"/>⁋ Ad hoc quod obicitur. quod diuicie sunt optime date elemosynam etc. dicendum
+          <lb ed="#N" n="122"/>quod hoc verum est inquantum sunt circumstantia actus ipsius dantis.
+        </p>
+        <p xml:id="v78d89-ajdz3g-d1e324">
+          <lb ed="#N" n="123"/>⁋ Ad illud quod obicitur. quod demeritorium est non dare ratione rei
+          sub<lb ed="#N" n="124" break="no"/>tracte etc. potest dici quod verum est inquantum ipsum dandum est
+          circumstan<lb ed="#N" n="125" break="no"/>tia actus subtrahentis: non inquantum est res simpliciter. sed inquantum est
+          <lb ed="#N" n="126"/>circumstantia actus nisi octasionaliter: vt supratactum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

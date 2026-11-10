@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 83, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 83, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="535"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afa25d"><!-- q83m3 -->
+        <head xml:id="v78d89-afa25d-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-afa25d-Hd1e103" type="question-title">A quo fieri potest</head>
+        <p xml:id="v78d89-afa25d-d1e106">
+          <lb ed="#N" n="101"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-afa25d-d1e111">
+          <lb ed="#N" n="102"/>COnsequenter queritur a quo potest fieri relaxatio. et
+          <lb ed="#N" n="103"/>videtur quod a quolibet sacerdote. quia
+          relaxatio<lb ed="#N" n="104" break="no"/>nes fiunt ex vi clauium. et omnis sacerdos habet
+          cla<lb ed="#N" n="105" break="no"/>ues: videtur ergo quod omnis sacerdos possit
+          relaxa<lb ed="#N" n="106" break="no"/>tiones facere.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e124">
+          ⁋ Si tu dicas quod non est ex vi clauium sed ex
+          the<lb ed="#N" n="107" break="no"/>sauro ecclesie. sed quilibet sacerdos habet thesaurum sue parochie
+          si<lb ed="#N" n="108" break="no"/>cut episcopus sue diocesis: et sic videtur quod quilibet ex suo
+          thesauro<lb ed="#N" n="109" break="no"/>potest facere relaxationes vel quare non.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e134">
+          ⁋ Item qui presunt collegiis
+          <lb ed="#N" n="110"/>habent potsestatem ad absoluendum et ligandum in vtroque foro. et
+          ha<lb ed="#N" n="111" break="no"/>bent thesaurum super erogationem sicut prelati religionum: ergo et ipsa
+          <lb ed="#N" n="112"/>posunt.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e143">
+          ⁋ Item sacerdos quod est maius facit. comutat enim penam
+          <lb ed="#N" n="113"/>purgatoriam in temporalem: ergo quod est minus facere potest scilicet temporalem
+          <lb ed="#N" n="114"/>relaxare pro temporali.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e150">
+          ⁋ Item idem videtur descendendo sic.
+          sum<lb ed="#N" n="115" break="no"/>mus sacerdos scilicet christus commutat eternam in purgato
+          <lb ed="#N" n="116"/>riam. deinde minor minister purgatoriam in temporalem
+          <lb ed="#N" n="117"/>pari ratione adhuc minor poterit commutare temporalem
+        </p>
+        <p xml:id="v78d89-afa25d-d1e159">
+          <lb ed="#N" n="118"/>am in temporalem minorem.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e164">
+          ⁋ Similiter potest
+          obiici<lb ed="#N" n="119" break="no"/>quolibet homine libere conditionis. qui cum sit dominus
+          <lb ed="#N" n="120"/>neritorum suorum: potest ea alteri ex caritate concedere.
+          qui<lb ed="#N" n="121" break="no"/>bus concessis vt videtur diminuetur et relaxabitur de
+          peniten<lb ed="#N" n="122" break="no"/>tia alterius.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e175">
+          ⁋ Item bona spiritualia sunt maioris
+          condi<lb ed="#N" n="123" break="no"/>tionis quam temperalia. ergo cum quilibet libere conditionis
+          pos<lb ed="#N" n="124" break="no"/>sit bonis temperalibus alleuiare indigentem: similiter videt
+          <lb ed="#N" n="125"/>de communicatione bonorum spiritualium etc.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e185">
+          ⁋ Item videtur quod
+          il<lb ed="#N" n="126" break="no"/>le cui facta est relaxatio possit alii facere idem. si quid enim
+          <lb ed="#N" n="127"/>temperale plene et sine calunia datum est alicui. et ille potest
+          il<lb ed="#N" n="128" break="no"/>lud idem conferre alii. Similiter vel fortiori ratione in
+          spi<lb ed="#N" n="129" break="no"/>ritualibus: igitur si alicui date sunt relaxationes et ille potest
+          <lb ed="#N" n="130"/>eas alii conferre.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e198">
+          ⁋ Contra. indulgentie et relaxationes
+          <lb ed="#N" n="131"/>maiorem requirunt auctoritatem quam ligatio et solutio in
+          fo<lb ed="#N" n="132" break="no"/>ro iudiciali. Sed ligare et soluere in hoc foro non est omnium
+          <lb ed="#N" n="133"/>sacerdotum: ergo multofortius nec dare indulgentias et facere
+          re<lb ed="#N" n="134" break="no"/>laxationes.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e209">
+          ⁋ Item imponere penitentias non potest nisi solus
+          <lb ed="#N" n="135"/>sacerdos. ergo dare indulgentias et facere relaxationes non
+          <lb ed="#N" n="136"/>potest nisi solus sacerdos.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e216">
+          ⁋ Item nemo scit an habeat
+          <lb ed="#N" n="137"/>plura merita quam sibi sufficiant. nec etiam scit si sua merita
+          <lb ed="#N" n="138"/>sibi sufficiant. Quia nescit homo vtrum odio vel
+          amo<pb ed="#N" n="536"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>re dignus sit Eccesais. ix. ergo nemo de propriis meritis potest
+          fa<lb ed="#N" n="2" break="no"/>cere relaxationes sicut nec indulgentias. ergo ad solos
+          maio<lb ed="#N" n="3" break="no"/>res praelatos spectat facere relaxationes quorum est bona ecclesie
+          <lb ed="#N" n="4"/>dispensare.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e234">
+          ⁋ Item queritur cum vnus episcopus non possit alienos
+          <lb ed="#N" n="5"/>subditos absoluere et ligare neque in foro penitentiali vel
+          iudi<lb ed="#N" n="6" break="no"/>ciali: vnde est quod posunt indulgentias in alterius diocesi facere.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e241">
+          <lb ed="#N" n="7"/>Responso. quod indulgentie et relaxationes fiunt super erogationes
+          <lb ed="#N" n="8"/>membrorum christi. et maxime de supererogationibus iueritorum christi. que
+          <lb ed="#N" n="9"/>sunt ihesaurus spiritualis ecclesie. Hunc autem thesaurum non est omnium
+          <lb ed="#N" n="10"/>dispensare: sed tantum eorum qui precipue vicem christi gerunt id est episcoporum. pro
+          <lb ed="#N" n="11"/>pter quod ad episcopos tantum spectat relationes facere. Ron autem quare
+          <lb ed="#N" n="12"/>thesaurus ecclesie solis christis committatur dispensandus est. quia
+          ec<lb ed="#N" n="13" break="no"/>clesia thesaurum istum habet ex desponsatione sui cum christo qui est
+          <lb ed="#N" n="14"/>vir eius et sponsus. et cui generat filios et filias id est perfectos et
+          <lb ed="#N" n="15"/>imperfectos. ad quorum educationem christus vult seruari hec bona.
+          <lb ed="#N" n="16"/>et quoniam in lege tactum est. quod qui suscipit vxorem fratris sui vt
+          su<lb ed="#N" n="17" break="no"/>scitet fratri suo defuncto semen: debet succedere in bonis que perti
+          <lb ed="#N" n="18"/>nent ad filiorum educationem. secundum quod innuitur Ruth. iiii. illis sol
+          <lb ed="#N" n="19"/>competit ille thesaurus dispensandus: qui sunt sponsi ecclesie. tales
+          <lb ed="#N" n="20"/>autem sunt episcopi qui sponsi sunt et habent vim generandi filios et
+          fili<lb ed="#N" n="21" break="no"/>as id est perfectos et imperfectos. inter hos summus pontifex
+          preci<lb ed="#N" n="22" break="no"/>pue: qui est totius velis ecclesie sponsus et rector. ideo omns
+          episcopi<lb ed="#N" n="23" break="no"/>qui habent prolem posunt facere indulgentias et relaxationes: et
+          sum<lb ed="#N" n="24" break="no"/>mus pontifex precipue inter omns. quia ipsi competit totius spiritualis
+          <lb ed="#N" n="25"/>thesauri dispensatio. secundum quod curam habet de tota ecclesia et
+          omni<lb ed="#N" n="26" break="no"/>bus eius filiis. vnde omnes sunt eius filii: et ipse est pater omnium.
+          <lb ed="#N" n="27"/>Concedendum est igitur. quod indulgentias facere non tantum non conceditur
+          <lb ed="#N" n="28"/>laicis: sed nec etiam sacerdotibus: nec praelatis inferioribus vt
+          ab<lb ed="#N" n="29" break="no"/>batibus vel prioribus.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e294">
+          ⁋ Ad illud quod obiicitur in contrarium iam patet
+          <lb ed="#N" n="30"/>responsio. quia non est tota ratio virtutis indulgentie faciende scilicet
+          cla<lb ed="#N" n="31" break="no"/>uis: sed requiritur potestas clauis cum iurisditione et thesauri
+          di<lb ed="#N" n="32" break="no"/>spensandi auctoritate: que ordinarie solum competit episcopis. Nam per
+          com<lb ed="#N" n="33" break="no"/>missionem quilibet sacerdos potest dare indulgentias ex parte
+          episcopi<lb ed="#N" n="34" break="no"/>sicut patet in simplicibus predicatoribus.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e307">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="35" break="no"/>tur de illis qui presunt collegiis. dicendum quod etsi tales qui presunt sub
+          <lb ed="#N" n="36"/>ditis aliquam auctoritatem habent bonorum sui collegii: non tamen
+          respccatu<lb ed="#N" n="37" break="no"/>meriti christi quod dedit dispensandum ecclesie et eius sponsis. ideo non
+          <lb ed="#N" n="38"/>habent auctoritatem plenariam respectu thesauri ecclesie. et ideo solum
+          <lb ed="#N" n="39"/>bona sui collegii posunt communicare: non tamen posunt relaxare: quia
+          nesci<lb ed="#N" n="40" break="no"/>unt vtrum superhabundent. quia potestatem plenam super hoc non habent
+          <lb ed="#N" n="41"/>et voco largo modo plenam potestatem prout dicit plenitudinem
+          <lb ed="#N" n="42"/>sufficientie. per quem modum est in ipsis ad hunc actum: non prout
+          <lb ed="#N" n="43"/>dicit plenitudinem superexcellentie: secundum quem modum est in
+          solo<lb ed="#N" n="44" break="no"/>summo pontifice plenitudo scilicet potstatis et auctoritatis. Preterea. licet
+          <lb ed="#N" n="45"/>ordo sacerdotii communis sit omnibus sacerdotibus: non tamen potestas
+          ad<lb ed="#N" n="46" break="no"/>dita ordini communis est. quia in aliis minor est et in aliis maior.
+          Di<lb ed="#N" n="47" break="no"/>sposita est enim ecclesiastica hierarchia ad modum angelice
+          hie<lb ed="#N" n="48" break="no"/>rarchie: in quea maiores hierarchie plus posunt minoribus.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e340">
+          ⁋ Ad
+          <lb ed="#N" n="49"/>illud quod obiicitur. quod maius est commutare penam purgatoriam in
+          <lb ed="#N" n="50"/>temporalem quam temporalem in temporalem etc. Dicendum quod vltima commutatio
+          <lb ed="#N" n="51"/>maior est licet minor videatur. Distinguendum tamen est maius. quia
+          <lb ed="#N" n="52"/>secundum quod maius dicit quantitatis excessum quantum ad vtilitatem:
+          <lb ed="#N" n="53"/>maius est comutare penam purgatoriam in temporalem quom temporalem in
+          <lb ed="#N" n="54"/>temporalem. Hec enim commutatio est quasi actus necessitatis et iusticie
+          <lb ed="#N" n="55"/>secundum autem quod maius dicit excessum quantitatis quantum ad potestatem:
+          <lb ed="#N" n="56"/>maius est commutare penam temporalem in temporalem: quam purgatoriam in
+          <lb ed="#N" n="57"/>temporalem. Dare autem indulgentias et facere relaxationes est actus
+          <lb ed="#N" n="58"/>plenioris potestatis.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e364">
+          ⁋ Ad aliud quod sequitur immediate patet responsio
+          <lb ed="#N" n="59"/>ex dictis.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e369">
+          ⁋ Ad illud quod obiicitur. quod quilibet potest bona sua
+          con<lb ed="#N" n="60" break="no"/>munica: e alii siue dare. Dicendum est quod relaxatio plus dicit
+          <lb ed="#N" n="61"/>quam communicatio. dicit enim quandam auctoritatem ratione cuius potest
+          indulgen<lb ed="#N" n="62" break="no"/>tia prestari et relaxatio fieri. et ideo quamuis quilibet habens
+          carita<lb ed="#N" n="63" break="no"/>tem bona sua possit communicare: non tamen omnis potest relaxare.
+          <lb ed="#N" n="64"/>sed qui habet ad hoc concessam sibi auctoritatem. Pre. differt
+          com<lb ed="#N" n="65" break="no"/>municatio a relaxatione. quia relaxatio fit de preteritis malis
+          <lb ed="#N" n="66"/>per merita christi vel ecclesie que precesserunt: communicatio autem non
+          re<lb ed="#N" n="67" break="no"/>spicit solum preteritum bonum sed et futurum. Et quamuis aliquis
+          <lb ed="#N" n="68"/>posset alicui dare quod nondum datum est nec determinatum.
+          <lb ed="#N" n="69"/>sicut vnam missam alicui mortuo: tamen si dedit non potest illam
+          sua<lb ed="#N" n="70" break="no"/>auctoritate commuinicare. quia si ecclesia soluit debitum alicuius
+          <lb ed="#N" n="71"/>apud deum. non propter hoc dedit potestatem quod ipse solueret pro
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>alio. et si deus dimisit isti debitum: non propter hoc iste potest
+          <lb ed="#N" n="73"/>dimittere alii quod deo debetur.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e404">
+          ⁋ Nec valet illud
+          argumen<lb ed="#N" n="74" break="no"/>tum de communicatione temporalium scilicet quicunque est libere conditionis
+          <lb ed="#N" n="75"/>et libere possidet libere potest alteri dare. qui autem seruus est non
+          <lb ed="#N" n="76"/>potest sine auctoritate domini. omnia autem nostra sunt christi: et omnia
+          me<lb ed="#N" n="77" break="no"/>rita spiritualia et nos sumus eius serui. et ideo non possumus illa
+          <lb ed="#N" n="78"/>in alterum transferre vel dare: nisi sit data auctoritas a christo
+          <lb ed="#N" n="79"/>Et sic patet sequens.
+        </p>
+        <p xml:id="v78d89-afa25d-d1e421">
+          ⁋ Ad illud quod vltimo queritur. vtrum scilicet
+          <lb ed="#N" n="80"/>episcopus in diocesi aliena possit dare indulgentias et facere
+          rela<lb ed="#N" n="81" break="no"/>xationes. Dicendum quod relaxatio importat thesauri communicatio
+          <lb ed="#N" n="82"/>nem et alterius auctoritatem episcopus in diocesi alia potest communicare
+          bona<lb ed="#N" n="83" break="no"/>diocesis sue subditis alienis: propriis autem subditis
+          relaxati<lb ed="#N" n="84" break="no"/>ones facere siue indulgere. vnde relaxationes facte propriis
+          sub<lb ed="#N" n="85" break="no"/>ditis vere relaxationes sunt: alienis subditis potius sunt
+          con<lb ed="#N" n="86" break="no"/>municationes quam relaxationes. per quem modum abbates. prores
+          <lb ed="#N" n="87"/>ministri communicant bona suorum collegiorum. nisi forte hoc fiat ex
+          <lb ed="#N" n="88"/>consensu episcopi diocesani. dicunt enim aliqui quod sicut potest ligare et
+          <lb ed="#N" n="89"/>soluere in aliena diocesi ex consensu diocesani: ita et facere
+          re<lb ed="#N" n="90" break="no"/>laxationes non aliter. Et hoc dicitur extra de pe. et re. quod autem
+          <lb ed="#N" n="91"/>consuluisti. cum a non suo iudice nullus ligari valeat vel
+          ab<lb ed="#N" n="92" break="no"/>solui. remissiones illi prodesse tamen arbitror quibus proprii
+          iudi<lb ed="#N" n="93" break="no"/>ces spetialiter indulserunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

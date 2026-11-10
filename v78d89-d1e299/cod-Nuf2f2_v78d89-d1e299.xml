@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="26"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e299"><!-- q4m3 -->
+        <head xml:id="v78d89-d1e299-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-d1e299-Hd1e103" type="question-title">De duratione ecclesiae</head>
+        <p xml:id="v78d89-d1e299-d1e106">
+          <lb ed="#N" n="11"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-d1e299-d1e111">
+          <lb ed="#N" n="12"/>TErcio occasione predictorum queritur de durati
+          <lb ed="#N" n="13"/>one ecclesie vsque in finem mundi. vt sit per hoc amplius
+          <lb ed="#N" n="14"/>stabiliatur sacramentorum duratio: et repellatur
+          opinio<lb ed="#N" n="15" break="no"/>hereticorum qui dicebant quod ad finem mundi aliquo
+          <lb ed="#N" n="16"/>tempore ommno homines futuri sunt mali. Quod autem ecclesia perseueret in
+          <lb ed="#N" n="17"/>bonis vsque ad finem mundi. accipitur ex hoc quod dicitur math. vlt.
+          vo<lb ed="#N" n="18" break="no"/>biscum sum vsque ad consummationem secli: sed deum esse nobiscum est semper
+          <lb ed="#N" n="19"/>aliquem esse iustum. cum iustis enim dicitur esse: sed existente aliquo vel
+          aliqui<lb ed="#N" n="20" break="no"/>bus iustis. semper vsque ad finem mundi est ipsa ecclesia: ergo vsque ad
+          fi<lb ed="#N" n="21" break="no"/>nem mundi durabit ecclesia.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e135">
+          ⁋ Item iob. xx. Qui facit arcturum
+          <lb ed="#N" n="22"/>etc. Greg. arcturus est generalis ecclesia que in. vii. eccliis et. vii.
+          <lb ed="#N" n="23"/>candelabris signatur. habens dona septiformis gratie. que semper
+          tribu<lb ed="#N" n="24" break="no"/>latur: sed vsque ad finem mundi non deficit. immo sicut arcturus dum
+          ver<lb ed="#N" n="25" break="no"/>satur erigitur: sic ecclesia dum versatur per tribulationem erigitur. diligen
+          <lb ed="#N" n="26"/>tibus enim deum omnia cooperantur in bonum etc.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e149">
+          ⁋ Item ecclesia signatur
+          <lb ed="#N" n="27"/>per nauiculam petri: sed de nauicula petri legitur quod pene
+          merge<lb ed="#N" n="28" break="no"/>batur: nunquam autem mersa est. immo adest domini consolatio: ergo ecclesia
+          <lb ed="#N" n="29"/>nunquam desinit esse.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e158">
+          ⁋ Item ecclessasti. xl. fides in seclum stabit: sed fidem
+          <lb ed="#N" n="30"/>in seclum stare quod aliud est quam quamdiu durabit seclum permanet ergo
+          <lb ed="#N" n="31"/>semper durabit fides. hod durante fide semper durat ecclesia: ergo semper
+          <lb ed="#N" n="32"/>durabit ecclesia durante sculo.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e167">
+          ⁋ Item math. vi. Adueniat
+          re<lb ed="#N" n="33" break="no"/>gnum tuum id est regnum militantis ecclesie veniat ad regnum
+          trium<lb ed="#N" n="34" break="no"/>phatis. quod erit cum tradiderit regnum deo et prati. sed regnum
+          mi<lb ed="#N" n="35" break="no"/>litantis ecclesie venire ad regnum triumphantis quid aliud est
+          <lb ed="#N" n="36"/>qurad regnum militantis permanere vsquequo sit triumphans: ergo erit
+          <lb ed="#N" n="37"/>vsque in finem secli.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e180">
+          ⁋ Preterea dicitur osee. ii. sponsabo te mihi in
+          fi<lb ed="#N" n="38" break="no"/>de et sptsabo te mihi insempiternum: ergo mastrionium christi et ecclesie
+          <lb ed="#N" n="39"/>durabit insempiternum: ergo et ecclesia. Quod autem sit mastrionium christi
+          <lb ed="#N" n="40"/>et ecclesie. Ephos. v. Erunt duo in carne vna hoc sacramentum magnum est
+          <lb ed="#N" n="41"/>ego autem dico in christo et ecclesia. Sic ergo cum est copula carnalis
+          sub<lb ed="#N" n="42" break="no"/>secuta inseparabilis est coniunctio viri et mulieris: ita
+          inseparabi<lb ed="#N" n="43" break="no"/>lis est coniunctio christi et ecclesie. semper ergo durabit ecclesia.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e196">
+          ⁋ Item apoc.
+          <lb ed="#N" n="44"/>vi. Usque quo domine verus et sanctus non iudicas et non vindicas
+          san<lb ed="#N" n="45" break="no"/>guinem nostum et sequitur. dictum est illis vt requiescerent adhuc
+          mo<lb ed="#N" n="46" break="no"/>dicum: donec impleretur numerus conseruorum etc. ergo numerus
+          predestiato<lb ed="#N" n="47" break="no"/>rum implebitur. aut ergo ita quod semper procedetur ad impletionem aut non.
+          <lb ed="#N" n="48"/>Si non: tunc aliquando omnus essent mali et postiterum suscitaret deus
+          <lb ed="#N" n="49"/>bonos. sed hoc est contra illud quod dicitur ad Heb. vlti. Non te
+          deseram<lb ed="#N" n="50" break="no"/>neque derelinquam.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e214">
+          ⁋ Preterea. simile est in corpore naturali et corpore
+          <lb ed="#N" n="51"/>mistico. Sed in corpore naturali non sic est nisi per miraculum quod
+          <lb ed="#N" n="52"/>viuat vnus homo et post moriatur et iterum viuat. nec ergo sic erit in
+          <lb ed="#N" n="53"/>corpore mistico ecclesie quod viuat et postmoriatur. et deinde vitam
+          <lb ed="#N" n="54"/>resumat. Restat ergo quod continuatur corpus misticum ecclesie in vita.
+          <lb ed="#N" n="55"/>aut ergo vsque ad finem seculi durabit corpus ecclesie militantis: et
+          <lb ed="#N" n="56"/>implebitur semper numerus vsque ad finem mundi: aut prius implebitur
+          <lb ed="#N" n="57"/>numerus predestinatorum et postaliquantulum tempus erunt tantum mali. Quod
+          <lb ed="#N" n="58"/>autem potus tantum sint mali ociosum esset: cum iam sit impletus
+          nume<lb ed="#N" n="59" break="no"/>rus predestinatorum. deus autem nihil facit frustra sicut dicitur iob. v
+          <lb ed="#N" n="60"/>Nihil in terra sine causa fit: ergo postimpletionem bonorum nullo tempore
+          <lb ed="#N" n="61"/>erunt omns mali.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e241">
+          ⁋ Preterea dicitur. vii. prouer. Quod vir id est christus rtuer
+          <lb ed="#N" n="62"/>surus est in die plene lune. sed plenitudo lune nihil aliud est quaom
+          <lb ed="#N" n="63"/>impletio membrorum ecclesie: ergo statim veniet dominus ad iudicium
+          <lb ed="#N" n="64"/>non ergo omnis erunt omni tempore mali.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e250">
+          ⁋ Preterea dicitur. i. Thessa. iiii.
+          <lb ed="#N" n="65"/>Ipise dominus descendet in iussu et in voce archangloi et tuba dei.
+          <lb ed="#N" n="66"/>Deinde nos qui viuimus qui relinquimur similrapiemur obuiam
+          <lb ed="#N" n="67"/>christo in aera et sic semper cum domino erimus. et sic loquitur ibi de bominis.
+          <lb ed="#N" n="68"/>ergo boni numerentur viui. non ergo tantum mali erunt in fine mundi.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e261">
+          ⁋ Quod
+          <lb ed="#N" n="69"/>etiam sint semper boni cum malis patet ex parabola euangelica de
+          <lb ed="#N" n="70"/>inimico qui superseminauit zizania. Dicitur enim ibi vis vt
+          ea<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>mus et colligamus ea. et dicitur in persona domini. sinite vtraque
+          <lb ed="#N" n="72"/>crescere vsque ad messem. et tunc venient messores etc. ex quo
+          ac<lb ed="#N" n="73" break="no"/>cipitur quod semper erunt boni cum malis et econuerso. Restat ergoquod
+          <lb ed="#N" n="74"/>ecclesia non desinit esse vsque ad finem mundi.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e278">
+          ⁋ Contra. Lu. xviii.
+          <lb ed="#N" n="75"/>Ueruntae filius hominis veniens putas inueniet fidem in tera: hoc ate
+          <lb ed="#N" n="76"/>non videtur nisi fides deficeret.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e285">
+          ⁋ Item fides istius hominis est corrupti
+          <lb ed="#N" n="77"/>bilis et similiter fides illius et sic de singlis: nisi sit aliquis
+          confirma<lb ed="#N" n="78" break="no"/>tus. possibile est ergo in omnibus fidem deficere.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e292">
+          ⁋ Pretera. tota ecclesia
+          <lb ed="#N" n="79"/>fidelium de iudeis deficit. Pari ratione et tota ecclesia in christianis
+          <lb ed="#N" n="80"/>est defectibilis. sicut modo est ecclesia in christianis: ita aliquo tempore fuit
+          <lb ed="#N" n="81"/>in iudeis.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e302">
+          ⁋ Item mahh. xviii. Cum habundat iniquitas
+          refrige<lb ed="#N" n="82" break="no"/>scit caritas: sed caritatem refrigescere nihil aliud est quam deficere. ergo
+          <lb ed="#N" n="83"/>desinit caritas esse: sed desinente caritate desinit ecclesia: ergo etc.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e309">
+          <lb ed="#N" n="84"/>⁋ Pretera. dane. xi. Peribit iuge sacrificium. sed desinente
+          illo<lb ed="#N" n="85" break="no"/>sacrificio desinet ecclesia etc.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e316">
+          ⁋ Pretera. hiere. v. Circuite
+          vi<lb ed="#N" n="86" break="no"/>as hirlum et querite vtrum inueniatis virum facientem iudicium et
+          <lb ed="#N" n="87"/>querentem fidem: et propicius ero eis. q. d. non est aliquis. et in. vi
+          <lb ed="#N" n="88"/>dicitur. periit fides ablata est de ore ipsorum ex quo videtur. quod aliquo tempore
+          <lb ed="#N" n="89"/>desinet fides esse: et ita ecclesia iustorum.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e327">
+          ⁋ Ad quod dicendum est.
+          <lb ed="#N" n="90"/>quod nunquam desinet ecclesia esse. sed ab ipso tempore abel vsque ad finem
+          <lb ed="#N" n="91"/>mundi permanebit. Unde tempore passionis dicitur ibi beata virgo
+          perseue<lb ed="#N" n="92" break="no"/>rasse. et hoc videtur dicere ansel. in libro cur deus homo. dicit enim quod
+          sem<lb ed="#N" n="93" break="no"/>per erat aliquis qui pertinebat ad redemptionem humani generis.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e338">
+          <lb ed="#N" n="94"/>⁋ Ad primum obiectum dicendum est. quod illud non dicitur propter defectum
+          <lb ed="#N" n="95"/>fidei quia pauci erunt fideles tempore anticprsi propter maximam
+          tri<lb ed="#N" n="96" break="no"/>bulationem. math. xxiiii. Erit talis tribulatio qualis non fuit
+          <lb ed="#N" n="97"/>abinitio. et nisi abreuiati essent dies: non fieret salua omnis
+          ca<lb ed="#N" n="98" break="no"/>ro.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e351">
+          ⁋ Ad secundum dicendum. quod licet fides desinat in illo. et in quolibet
+          <lb ed="#N" n="99"/>nisi fuerit confirmatus possit desinerme: non tamen omnino desinet. Sinc
+          <lb ed="#N" n="100"/>enim est de singlaribus alicuius velis quod corruptibilia sunt et tamen
+          <lb ed="#N" n="101"/>vle incorruptibile quia si non saluatur in vno saluatur in alio per
+          <lb ed="#N" n="102"/>naturam: ita est hoc de fide et ecclesia. per communus si non saluatur in
+          vno<lb ed="#N" n="103" break="no"/>saluabitur in alio per gratiam.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e365">
+          ⁋ Ad tercium dicendum. quod licet tota ecclesia
+          <lb ed="#N" n="104"/>de iudeis defecerit. non propter hoc tota ecclesia de christianis
+          defi<lb ed="#N" n="105" break="no"/>ciet: lex enim imposita fuit iudeis vsque ad tempus. Unde matr. xi.
+          <lb ed="#N" n="106"/>lex et prophe vsque ad iohnem. Et in leui. dicitur super illud. hec sunt
+          <lb ed="#N" n="107"/>precepta atque iudicia etc. glo. vsque ad certum terminum signat
+          <lb ed="#N" n="108"/>liateram legis esse obseruandam. Iudeis etiam obstruit os. qui nunc
+          <lb ed="#N" n="109"/>volunt literam seruare: cum ille venerit qui promissus fuit. et
+          iude<lb ed="#N" n="110" break="no"/>is lac dedit per moysen: per se autem solidum cibum. Et gal. iii. lex
+          <lb ed="#N" n="111"/>pedagogius noster: sed pedagogius non datur nisi paruulis. Cessante
+          <lb ed="#N" n="112"/>ergo paruitate illa: cessat litera legis. Sacerdotium etiam leuiti.
+          fi<lb ed="#N" n="113" break="no"/>nem hunit: sacerdotium autem christi est ineternum sicut dicitur ab apostolo.
+          <lb ed="#N" n="114"/>et hoc idem dicitur in psalmus.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e391">
+          ⁋ Ad quartum dicendum. quod licet refrigescat
+          ca<lb ed="#N" n="115" break="no"/>ritas tempore antixrisi: non tamen omnino desinit esse. Refrigescere enim non dicitur
+          <lb ed="#N" n="116"/>caritas nisi in multis. et ita si refrigescere est desinere: non
+          desi<lb ed="#N" n="117" break="no"/>nit propter hoc in omnibus sed in multis.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e400">
+          ⁋ Ad quintum vero dicendum. quod
+          iu<lb ed="#N" n="118" break="no"/>ge sacrificium non desinet quod ex ipsa ratione nominis accipitur. sed dicitur
+          <lb ed="#N" n="119"/>auferri iuge sacrificium et deiici locus sanctificationis: propter hoc
+          <lb ed="#N" n="120"/>forte. quia non permanet in hirlum. vel quia ab alio loco
+          prencipali<lb ed="#N" n="121" break="no"/>ecclesie aufertur: sed quod non omnino desinet esse. vel forte quia non fiet
+          <lb ed="#N" n="122"/>in manifesto: non tamen deficiet fides prout habeur Luc. xxii. Ego pro
+          <lb ed="#N" n="123"/>te rogaui petre vt non deficiat fides tua.
+        </p>
+        <p xml:id="v78d89-d1e299-d1e416">
+          ⁋ Ad sextum dicendum
+          <lb ed="#N" n="124"/>quod hoc intelligitur propter fidei caritatem que fuit iu tempore illo
+          <lb ed="#N" n="125"/>pro quo prophetauit hieremias.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

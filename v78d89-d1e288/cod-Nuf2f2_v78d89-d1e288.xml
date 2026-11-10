@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="25"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e288"><!-- q4m2 -->
+        <head xml:id="v78d89-d1e288-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-d1e288-Hd1e103" type="question-title">Supposito quod ab Abel, utrum tunc conceptus ecclesiae esset acephalum; an haberet caput suum</head>
+        <p xml:id="v78d89-d1e288-d1e106">
+          <lb ed="#N" n="31"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-d1e288-d1e111">
+          <lb ed="#N" n="32"/>A secundum. supposito quod abel sit principium ecclesie
+          <lb ed="#N" n="33"/>fidelium: et vt membrum ipsius corpois ecclesie. Que
+          <lb ed="#N" n="34"/>ritur vtrum corpus ecclesie esset acephalum an haberet
+          <lb ed="#N" n="35"/>caput suum. Quod autem non esset acephalum ostenditur per
+          <lb ed="#N" n="36"/>hoc. quod secundum naturam primo egreditur caput et postea corpus. Unde
+          <lb ed="#N" n="37"/>sicut dicit Solinus. Contra naturam est in pedes procedere
+          nascen<lb ed="#N" n="38" break="no"/>tes. Si ergo corpus misticum est ad similitudinem corporis naturalis
+          <lb ed="#N" n="39"/>humani sicut dicit apostolus. i. Corin. xii. Primum est caput postea
+          <lb ed="#N" n="40"/>membra: ergo corpus ecclesie vel membra non erant acephala.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e133">
+          ⁋
+          For<lb ed="#N" n="41" break="no"/>te dicetur. quod christus erat caput secundum diuinitatem. et potus futurum fuit
+          <lb ed="#N" n="42"/>caput secundum humanitatem. vtroque enim modo dicitur christus caput et secundum
+          <lb ed="#N" n="43"/>diuinitatem et secundum humanitatem. Contra habetur Epheo. i. super illud.
+          <lb ed="#N" n="44"/>ipsum dedit caput etc. Christus vtroque modo fuit caput ecclesie. et non
+          <lb ed="#N" n="45"/>tantum eorum qui secuti sunt sed qui precesserant. Unde super illud psal.
+          <lb ed="#N" n="46"/>Quousque irruitis in hominem glo. ad caput pertinent membra que
+          <lb ed="#N" n="47"/>ante caput prodierunt. sed boc non potest dici illo modo quo christus est
+          ca<lb ed="#N" n="48" break="no"/>put secundum diuinitatem: restat ergo quod intelligitur hoc secundum humanita
+          <lb ed="#N" n="49"/>tem. et ita videtur quod membra corporis vt abel et alii caput suum
+          <lb ed="#N" n="50"/>precesserunt. et sic videntur illa membra pro illo tempore dici
+          acepha<lb ed="#N" n="51" break="no"/>la: quia aliquo tempore fuerunt cum ipsum caput non esset.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e160">
+          ⁋ Quod autem
+          <lb ed="#N" n="52"/>christus secundum humanitatem non esset caput videtur per hoc. quia quod est
+          <lb ed="#N" n="53"/>caput alicuius est principium illius. sed caput ecclesie fuit filius
+          <lb ed="#N" n="54"/>dei verbum non ratione humanitatis sicut accipitur ex glo. Luce.
+          <lb ed="#N" n="55"/>iii. super illud factum est verbum domini. vbi dicitur. ecclesia incepit a
+          ver<lb ed="#N" n="56" break="no"/>bo non ab homine: ergo dicitur et caput sicut et principium a principio
+          <lb ed="#N" n="57"/>mundi secundum diuinitatem. Quod etiam per simile ostenditur. dicitur enim. i.
+          <lb ed="#N" n="58"/>Chio. vlti. Regi seculorum immortali etc. glo. homo assumptus
+          <lb ed="#N" n="59"/>a verbo ex eo tempore futurorum est rex: ex quo assumptus est a verbo
+          <lb ed="#N" n="60"/>Nam preteritorum seculorum non erat rex homo ille: pari ergo ratione nec
+          <lb ed="#N" n="61"/>dicendus fuit caput secundum humanitatem. et ita ex illa parte fuerunt
+          <lb ed="#N" n="62"/>membra ecclesie vt abel et alii acephala.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e186">
+          ⁋ Item quomo posset
+          dici<lb ed="#N" n="63" break="no"/>caput secundum humanitatem cum nondum esset humanitas. conditiones autem
+          <lb ed="#N" n="64"/>consequentes sunt ad esse rei.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e193">
+          ⁋ Pre. caput dicitur propter conformitaten
+          <lb ed="#N" n="65"/>in natura et gratia et fluxum super membra: sed istud non potuit dici abel.
+          <lb ed="#N" n="66"/>ergo etc .
+        </p>
+        <p xml:id="v78d89-d1e288-d1e200">
+          ⁋ Sed contrarium videtur per hoc quod dicitur. i. Corin. xii. Uos estis
+          men<lb ed="#N" n="67" break="no"/>brum de membro. et loquitur ad fideles qui sunt membra christi. restat
+          <lb ed="#N" n="68"/>ergo quod fideles siue precedentes siue subsequentes dicuntur
+          membra<lb ed="#N" n="69" break="no"/>christi. et itet non sunt acephala.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e209">
+          ⁋ Pre. per simile illud ostenditur. si enim
+          ma<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>lis caput quedam membra secutum est tempore: et nihilominus erat
+          ca<lb ed="#N" n="71" break="no"/>put: multo fortius in bonis. gratia enim propter vnionem cum
+          eterno<lb ed="#N" n="72" break="no"/>scilicet deitate siue sensus spiritualis poterit aliquo modo
+          communicari<lb ed="#N" n="73" break="no"/>prout dicitur quod membra corporis mistici accipiunt aliquo modo
+          sen<lb ed="#N" n="74" break="no"/>sum a capite. Sed ita est in malis quod membra quedam precesserunt
+          <lb ed="#N" n="75"/>caput sicut habetur ab ysidoro vt de antixhrso. ergo sic multo fortius
+          <lb ed="#N" n="76"/>erat in bonis. ysid. libr. i c. xxvi. Antequam veniat antixprsus.
+          mul<lb ed="#N" n="77" break="no"/>ta eius membra precesserunt. et preuaricationis merito caput
+          pro<lb ed="#N" n="78" break="no"/>prium preueniunt. et ita membra ecclesie non fuerunt acephala.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e232">
+          <lb ed="#N" n="79"/>⁋ Pre. membra ecclesie adinuicem continuantur secundum prius et
+          poste<lb ed="#N" n="80" break="no"/>rius in tempore a principio ecclesie vsque ad finem. sicut ergo in tempore ita est
+          <lb ed="#N" n="81"/>quod preteritum et futurum copulantur adinuicem ratione cuius dicitur empus esse
+          <lb ed="#N" n="82"/>ita erit in membris ecclesie secundum prius et posterius se habentibus. quod
+          <lb ed="#N" n="83"/>dicentur adinuicem colligata. secundum illud presns siue nunc quod spiritua
+          <lb ed="#N" n="84"/>liter decurrebat in membris ecclesie. ergo cum hoc sit christus in fide
+          <lb ed="#N" n="85"/>CChristus enim in corde tuo est fides sicut dicit Ambro. Iergo
+          dicun<lb ed="#N" n="86" break="no"/>tur membra ecclee non acephala. cum habent christum in fide velut
+          ca<lb ed="#N" n="87" break="no"/>put a principio miodi vsque ad finem.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e255">
+          ⁋ Ad quod dicendum est. quod corpus
+          <lb ed="#N" n="88"/>ecclesie nunquam fuit acephalum sed semper habuit christum caput secundum
+          di<lb ed="#N" n="89" break="no"/>uinitatem et secundum humanitatem. licet enim christus ratione humanitatis non
+          <lb ed="#N" n="90"/>esset a principio mundi: tamen fuit ratione fidei de diuinitate et huma
+          <lb ed="#N" n="91"/>nitate. et ratione illius fit colligatio membrorum ad caput et etiam
+          <lb ed="#N" n="92"/>inter se. oportet enim ad hoc quod in ecclesia militante sint
+          membra<lb ed="#N" n="93" break="no"/>inter se communem habere fidem et gratie conformitatem siue caritatis
+          <lb ed="#N" n="94"/>quantum ad christum. et quod christus secundum quod homo licet tempore secutus sit fuerit
+          ca<lb ed="#N" n="95" break="no"/>put. Unde augustinus de cathetizandis rudibus ipse vnigenitus dei
+          ver<lb ed="#N" n="96" break="no"/>bum equale pratri per omnia homo propter nos factus est. vt totius
+          <lb ed="#N" n="97"/>ecclesie quasi totius corporis caput esset. Sed velut totus homo
+          <lb ed="#N" n="98"/>dum nascitur etiam si manum nascendo premittat: tamen vniuerso
+          cor<lb ed="#N" n="99" break="no"/>pori sub capite coniuncta atque compacta est: quemadmodum etiam non
+          <lb ed="#N" n="100"/>nulli in ipsis patriarchis ad huius etiam rei signum manu
+          pre<lb ed="#N" n="101" break="no"/>missa nati sunt. Ita omnes sancti qui ante domini nostri ihu christi
+          nati<lb ed="#N" n="102" break="no"/>uitatem in terris fuerunt: quamuis ante nati sint: tamen vniuerso
+          cor<lb ed="#N" n="103" break="no"/>pori cuiusque ille caput est: sub capite coheserunt. et sicut habetur
+          <lb ed="#N" n="104"/>ex illa auctoritate super pslmus. Quousque irruitis in hominem.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e294">
+          ⁋ Ad illud
+          <lb ed="#N" n="105"/>quod obiicitur membra precessisse caput et ita esse acephala.
+          dicen<lb ed="#N" n="106" break="no"/>dum quod licet secutum fuerit tempore: precessit tamen dignitate et inquantum
+          <lb ed="#N" n="107"/>creditus. Dicitur enim primogenitus viuorum et mortuorum. et
+          prior<lb ed="#N" n="108" break="no"/>omnium concreata est sapicentia id est preuisa incarnari. Et dicit apostolus. qui
+          <lb ed="#N" n="109"/>predestinatus est filius dei in virtute secundum spirium sanctificationis ex quibus
+          <lb ed="#N" n="110"/>colligitur cum ratio capitis quo ad prioritatem non dependeat ex parte sed
+          <lb ed="#N" n="111"/>ex dignitate: ex parte illius et ex fide illorum non fuerunt tunc temporis
+          <lb ed="#N" n="112"/>acephala.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e314">
+          ⁋ Ad secundum vero dicendum. quod cum dicitur Luc. iii. quod ecclesia
+          sun<lb ed="#N" n="113" break="no"/>psit initium a verbo non ab homine. intelligitur non de christo homine: sed
+          <lb ed="#N" n="114"/>de alio qui tantum erat homo. sicut erat Ioh.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e321">
+          ⁋ Ad tercium dicendum. quod
+          <lb ed="#N" n="115"/>licet christus non fuerit rex nisi ab instanti conceptionis. hoc est quamcito
+          <lb ed="#N" n="116"/>fuit: nihilominus inquantum creditus fuit caput fidelium a principio
+          <lb ed="#N" n="117"/>mundi. nec sequitur tunc fuit creditus: ergo tunc fuit. Ron autem propter
+          <lb ed="#N" n="118"/>quam intentio regis non conueniebat est: quia rex dicitur a regendo. tunc
+          <lb ed="#N" n="119"/>enim regebat siue regendi potestatem habebat cum erat.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e334">
+          ⁋ Ad id
+          <lb ed="#N" n="120"/>quod obiicitur. quod conditiones consequuntur esse. et infra esse
+          <lb ed="#N" n="121"/>caput consequitur esse humanitatis in christo. Dicendum quod sicut
+          <lb ed="#N" n="122"/>esse creditum christum ratione humanitatis non ponit christum
+          <lb ed="#N" n="123"/>esse hominem cum creditur. sed in aliquo tempore
+          futurum<lb ed="#N" n="124" break="no"/>fuisse vel esse: sic nec conditio qua dicitur caput. Unde non
+          <lb ed="#N" n="125"/>est simile omnino de capite corporis naturalis et de
+          capi<lb ed="#N" n="126" break="no"/>te corporis mistici. Caput enim corporis naturalis
+          natu<lb ed="#N" n="127" break="no"/>raliter habet esse ante membra. non dico ante cor: quia
+          il<lb ed="#N" n="128" break="no"/>lud dicitur esse primum membrum. sed de membris
+          exte<lb ed="#N" n="129" break="no"/>rioribus videtur hoc dici. Caput autem corporis
+          mistici<lb ed="#N" n="130" break="no"/>licet sit superius dignitate: tamen in medio est quasi
+          faci<lb ed="#N" n="131" break="no"/>ens colligationem membrorum precedentium et
+          subsequen<lb ed="#N" n="132" break="no"/>tium. et hoc est quod decebat redemptorem non habere esse
+          a<lb ed="#N" n="133" break="no"/>ctuale a principio mundi: sed cum veniret plenitudo
+          tempo<lb ed="#N" n="134" break="no"/>ris. plenitudo autem temporis fuit post decursum quinque
+          <lb ed="#N" n="135"/>etatum in quibus creuit languor. ad quem curandum
+          ve<lb ed="#N" n="136" break="no"/>nit creditus christus.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e373">
+          ⁋ Ad quintum dicendum. quod licet christus
+          <lb ed="#N" n="137"/>secundum quod homo non influxit in membra gratiam: tamen ratione
+          fi<lb ed="#N" n="138" break="no"/>dei et caritatis in qua colligabantur quam habuerunt a capite secundum
+          <lb ed="#N" n="139"/>deitatem. recepturi erant effectum redemptionis. et hoc tunc
+          credi<lb ed="#N" n="140" break="no"/>derunt. et ita ratione fidei redemptionis dictus est caput eorum.
+        </p>
+        <p xml:id="v78d89-d1e288-d1e385">
+          <pb ed="#N" n="26"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>⁋ Ad id vero quod obiicitur a principio. quod secundum hoc videretur quod
+          cor<lb ed="#N" n="2" break="no"/>pus misticum esset monstrum. quia membra nata sunt ante caput.
+          <lb ed="#N" n="3"/>vel si non erat monstrum: adminus prius natura dicitur esse. Responsio
+          <lb ed="#N" n="4"/>quod prius natura dicatur dupliciter. Uno modo secundum quod materia dicituresse
+          <lb ed="#N" n="5"/>prior natura quam forma. et sic nihil prohibet membra aliqua
+          essepr<lb ed="#N" n="6" break="no"/>us natura eo quod est caput. Alio vero modo secundum quod motor dicitur esse
+          <lb ed="#N" n="7"/>prior natura mobilibus. et hoc modo christus inquantum creditus cum
+          <lb ed="#N" n="8"/>sit motor spiritualis: prior natura erat quam membra spiritualia que
+          mo<lb ed="#N" n="9" break="no"/>bilia erant. nec tamen opertet quod in suo esse spirituali esset prior
+          na<lb ed="#N" n="10" break="no"/>tura: non enim similitudo est vsque quaque in effectibus gratie et naturr.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

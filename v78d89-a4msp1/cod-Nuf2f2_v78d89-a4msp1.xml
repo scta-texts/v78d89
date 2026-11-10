@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 19, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 19, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="134"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4msp1"><!-- q19m1 -->
+        <head xml:id="v78d89-a4msp1-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a4msp1-Hd1e103" type="question-title">Quid sit caracter</head>
+        <p xml:id="v78d89-a4msp1-d1e106">
+          <lb ed="#N" n="8"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a4msp1-d1e111">
+          <lb ed="#N" n="9"/>CIrca primum duo queruntur. Primum quid
+          <lb ed="#N" n="10"/>ssit caracter secundum rationem. Secundum quid sit
+          <lb ed="#N" n="11"/>ssecundum rem.
+        </p>
+        <div xml:id="v78d89-a4msp1-Dd1e120">
+          <head xml:id="v78d89-a4msp1-Hd1e122">Articulus 1</head>
+          <p xml:id="v78d89-a4msp1-d1e124">
+            <lb ed="#N" n="12"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e129">
+            <lb ed="#N" n="13"/>§ primum sic. Dyoni. de ecclesiastica hierarchia
+            <lb ed="#N" n="14"/>Caracter est signum sanctum comunionis fidei et sancte
+            ordi<lb ed="#N" n="15" break="no"/>nationis accedendi datum a hierarcba. Et queritur
+            <lb ed="#N" n="16"/>de singloris pertibus huius diffinitionis. Primo de prima. Signum enim
+            <lb ed="#N" n="17"/>est alicuius signum. queritur ergo cuius signum et dicitur communiter quod gratie. Sed
+            <lb ed="#N" n="18"/>contra hoc obicitur sic. non est nisi triplex signum scilicet pronosticum
+            respe<lb ed="#N" n="19" break="no"/>ctu futuri: demonstratiuum respectu presentis: rememoratiuum
+            <lb ed="#N" n="20"/>respectu preteriti. Sed nullum borum est caracter respectu gratie.
+            <lb ed="#N" n="21"/>quia pronosticum signum ponit suum signatum fore in futuro:
+            demon<lb ed="#N" n="22" break="no"/>stratiuum in presenti: rememoratiuum in preterito. caracter autem nec
+            <lb ed="#N" n="23"/>sic nec sic ponit gratiam. quia contingit aliquem habere caracterem: qui
+            <lb ed="#N" n="24"/>nec habet gratiam nec haberebit sicut est ficte accedens qui nunquam
+            peni<lb ed="#N" n="25" break="no"/>tet de fictione: ergo caracter non est signum gratie.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e160">
+            ⁋ Item supposito
+            <lb ed="#N" n="26"/>quod sit signum: queritur cuius signum sit: vtrum scilicet sit signum pertinens
+            <lb ed="#N" n="27"/>ad nouam legem vel ad veterem: videtur quod ad nouam legem: quia
+            <lb ed="#N" n="28"/>in ve. le. nihil legimus de caractere spirituali: quamuis legimus de
+            <lb ed="#N" n="29"/>carnali qui erat in circumcisione. de hoc tamen infra dicetur: ergo vide
+            <lb ed="#N" n="30"/>tur non signum vet. sed noue legis.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e173">
+            ⁋ Sed contra signa noue
+            le<lb ed="#N" n="31" break="no"/>gis efficiunt quod figurant. caracter autem non efficit quod
+            figu<lb ed="#N" n="32" break="no"/>rat id est gratiam: quia aliquando est sine gratia.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e181">
+            ⁋ Item sacramentum prout spectat
+            <lb ed="#N" n="33"/>ad nouam legem: dicitur esse inuisibilis gratie visibilis forma. Sed
+            cara<lb ed="#N" n="34" break="no"/>cter non est visibilis forma: et si inuisibilis gratie sit signum.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e188">
+            <lb ed="#N" n="35"/>⁋ Similiter obiicitur de hoc quod sequitur in dicta diffinitione scilicet
+            com<lb ed="#N" n="36" break="no"/>munionis fidei. et queritur quare plus diffinitur caracter in
+            re<lb ed="#N" n="37" break="no"/>latione ad fidem quam ad aliam virtutem.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e197">
+            ⁋ Item non videtur caracter
+            <lb ed="#N" n="38"/>semper essesignum communionis fidei. quia potest esse quod aliquis ficte
+            acce<lb ed="#N" n="39" break="no"/>dens recipiat caracterem. nec etiam post peniteat de fictione: et
+            <lb ed="#N" n="40"/>ita nunquamscredidit nec vnquam credet: et ita potest non esse signum
+            <lb ed="#N" n="41"/>communionis fidei.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e208">
+            ⁋ Item obicitur de hoc quod dicitur et ordinationis sancte
+            <lb ed="#N" n="42"/>hoc enim videtur spetialiter pertinere ad caracterem ordinis: ergo non
+            <lb ed="#N" n="43"/>deberet poni in hac diffinitione: sed magis aliquid pertinens
+            com<lb ed="#N" n="44" break="no"/>muniter ad omnne caracterem.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e217">
+            ⁋ Item queritur de hoc quod sequitur
+            <lb ed="#N" n="45"/>datum a hierarcha. Contingit enim aliquem alium baptizare
+            ali<lb ed="#N" n="46" break="no"/>quem puerum. nec debet rebaptizari: ergo tunc datur ei caracter et
+            <lb ed="#N" n="47"/>non a hierarcha: ergo non est generalis dicta diffinitio.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e226">
+            ⁋ Ad
+            <lb ed="#N" n="48"/>primum dicendum. quod caracter est signum gratie. signum dico
+            demon<lb ed="#N" n="49" break="no"/>stratiuum: quia quantum est de se ponit gratiam in presenti. Quod autem
+            ali<lb ed="#N" n="50" break="no"/>quando non non ponat: hoc non est ex parte caracteris. sed ex parte
+            susci<lb ed="#N" n="51" break="no"/>pientis. qui non se habilitat vel disponit ad suscipiendam gratiam
+            <lb ed="#N" n="52"/>sed opponit obicem gratie scilicet peccatum. et est exemplum de sole. qui
+            quan<lb ed="#N" n="53" break="no"/>tum est de se semper illuminat nisi sit obex ex parte suscipientis
+            <lb ed="#N" n="54"/>vnde dicimus quod in sacramento baptismi tria sunt. Unum scilicet
+            si<lb ed="#N" n="55" break="no"/>gnum tantum: scilicet locio exterior. aliud signatum tantum: scilicet gratia.
+            <lb ed="#N" n="56"/>aliud quod est signum et signatum: scilicet caracter. signatum quidem
+            <lb ed="#N" n="57"/>respectu lotionis exterioris: signum vero respectu gratie.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e251">
+            ⁋ Ad
+            <lb ed="#N" n="58"/>aliud quod queritur. vtrum sit signum no. le. vel ve. Dicendum quod est
+            <lb ed="#N" n="59"/>signum non. le. Quod autem obiicitur quod sacramenta no. le. efficiunt quod
+            figu<lb ed="#N" n="60" break="no"/>rant. intelligitur cum hac determinatione scilicet quantum est in ipsis: non
+            <lb ed="#N" n="61"/>quia in omni subiecto efficiant semper quod figurant: sed nisi sit obex
+            <lb ed="#N" n="62"/>ex parte suscipientis. Dicimus ergo quod caracter per se non tenet sim
+            <lb ed="#N" n="63"/>pliciter rationem sacramenti: sed caracter cum exteriori
+            ablu<lb ed="#N" n="64" break="no"/>tione et forma verborum tenet rationem sacramenti baptismi.
+            <lb ed="#N" n="65"/>et hoc totum est causa gratie in digne suscipiente.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e271">
+            ⁋ Per hoc
+            <lb ed="#N" n="66"/>posset solui et aliud obiectum. quia si sustineatur quod
+            cara<lb ed="#N" n="67" break="no"/>cter non est visibilis forma: potest dici quod illa descriptio
+            da<lb ed="#N" n="68" break="no"/>tur de sacramento non quantum ad quodcunque sui: sed quantum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>ad quiddam quod in omni sacramento est aliqua forma visibi
+            <lb ed="#N" n="70"/>lis. nec oportet propter hoc quod caracter sit visibilis qui est
+            quid<lb ed="#N" n="71" break="no"/>dam aliud eiusdem sacramenti: tum quia caracter non solum
+            <lb ed="#N" n="72"/>est signatum sed etiam signum. et quo ad hoc habet rationem
+            <lb ed="#N" n="73"/>sacramenti. et ideo oportet quod conueniat dicta descriptio.
+            di<lb ed="#N" n="74" break="no"/>cendum est aliter. scilicet quod visibile ibi accipitur comuniter
+            <lb ed="#N" n="75"/>ad id quod potest videri vel sensu vel intellatu id est
+            intelligibili<lb ed="#N" n="76" break="no"/>⁋ Ad aliud quod obiicitur de hoc quod dicitur communionis
+            fi<lb ed="#N" n="77" break="no"/>dei. Dicendum sicut dictum est. quod caracter quantum est
+            <lb ed="#N" n="78"/>in se: signum est demonstratiuum ipsius fidei. sed quod eam non
+            <lb ed="#N" n="79"/>demonstret in actu: hoc stat per suscipientem qui obicem
+            oppo<lb ed="#N" n="80" break="no"/>nit. Uel dicendum quod non oportet quod vbi est caracter quod ibi
+            <lb ed="#N" n="81"/>sit fides: sed tamen oportet quod ibi sit sacramentum fidei. Unde
+            <lb ed="#N" n="82"/>sensus est. caracter est signum communionis fidei supple in
+            sa<lb ed="#N" n="83" break="no"/>cramento.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e315">
+            ⁋ Ad illud quod queritur quare plus fidei quam
+            <lb ed="#N" n="84"/>alterius virtutis: Dicendum quod fides magis respicit
+            po<lb ed="#N" n="85" break="no"/>tentiam cognitiuam quom alie virtutes. et similiter caracter in
+            <lb ed="#N" n="86"/>potentia cognitiua vt patebit infra. et ideo caracter maio
+            <lb ed="#N" n="87"/>rem habet conuenientiam cum fide quam cum ceteris. Et
+            no<lb ed="#N" n="88" break="no"/>tandum quod caracter non dicitur signum fidei. sed
+            commu<lb ed="#N" n="89" break="no"/>nionis fidei. vt notetur fidei communitas. quia fides
+            ec<lb ed="#N" n="90" break="no"/>desistica catholica dicitur: non partialis. Si enim aliquis
+            <lb ed="#N" n="91"/>hereticus baptizat in forma ecclesie. ecclesia parit per
+            an<lb ed="#N" n="92" break="no"/>cillam que non contradicit quod figurabatur in ancillis
+            ra<lb ed="#N" n="93" break="no"/>chelis et lye. Si autem hereticus non baptizat in
+            forma<lb ed="#N" n="94" break="no"/>ecclesie que communis est: non parit ecclesia: quia
+            suscipi<lb ed="#N" n="95" break="no"/>ens non baptizatur. et tunc est ancilla contradicens que
+            si<lb ed="#N" n="96" break="no"/>gnatur per agar. xvi. Gen. ad significandum ergo hanc
+            con<lb ed="#N" n="97" break="no"/>munitatem dicitur signum communionis fidei.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e348">
+            ⁋ Ad aliud
+            <lb ed="#N" n="98"/>dicendum. quod dyonisius ibi diffinit caracterem in suo
+            com<lb ed="#N" n="99" break="no"/>plemento siue in suo optimo. et ideo quia in ordine
+            vltra<lb ed="#N" n="100" break="no"/>caracterem datur quedam potestas ordinans ad alios. Unde
+            <lb ed="#N" n="101"/>ibi est caracter in maiori completione quod in sacramentis
+            ce<lb ed="#N" n="102" break="no"/>teris: ideo in illa ponitur aliud specialiter spectans ad
+            sa<lb ed="#N" n="103" break="no"/>cramentum ordinis.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e364">
+            ⁋ Ad vltimum dicendum. quod dyoni.
+            <lb ed="#N" n="104"/>sic diffiniens intendebat determinare cuius est officium
+            <lb ed="#N" n="105"/>ministrare ad impressionem caracteris. hoc est solius
+            hie<lb ed="#N" n="106" break="no"/>rarche id est sacerdotis. et precipue hierarche superioris id est
+            <lb ed="#N" n="107"/>episcopi qui habet potestatem et officium ministrandi ad
+            <lb ed="#N" n="108"/>communem caracterem vnde de isto magis intendit. Laicus
+            <lb ed="#N" n="109"/>vero vel quilibet non sacerdos: et si boc ministerium
+            aliquan<lb ed="#N" n="110" break="no"/>do exercet quando scilicet incumbit necessitas: non tamen ex
+            <lb ed="#N" n="111"/>officio pertinet ad eum.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e384">
+            <lb ed="#N" n="112"/>AArticulus
+            secund<lb ed="#N" n="113" break="no"/>Einde queritur quid sit caracter secundum rem. vtrum
+            <lb ed="#N" n="114"/>scilicet sit aliquod solum dictum in respectu: vel
+            <lb ed="#N" n="115"/>aliquod absolute ens in anima. quia caracter
+            <lb ed="#N" n="116"/>est distinctiuus imaginis create in anima. Distinctio autem
+            <lb ed="#N" n="117"/>omnis fit per aliquod absolutum. et si hoc: queritur in quo
+            <lb ed="#N" n="118"/>genere sit. Si dicatur quod in qualitate quod magis videtur
+            <lb ed="#N" n="119"/>queritur in qua specie qualitatis est. Si dicatur quod sit
+            ha<lb ed="#N" n="120" break="no"/>bitus et hoc videtur: cum tria sint in anima. potentia et
+            pas<lb ed="#N" n="121" break="no"/>sio et habitus: caracter autem non est potentia vel passio:
+            <lb ed="#N" n="122"/>ergo habitus.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e411">
+            ⁋ Contra. non est naturalis habitus: quia
+            <lb ed="#N" n="123"/>semper inesset. nec gratuitus gratumfaciens: quia secundum hoc
+            <lb ed="#N" n="124"/>non esset in peccatoribus. Item nec gratisdatus: quia
+            huius<lb ed="#N" n="125" break="no"/>modi dona gratisdata. de quibus habetur. i. Corinth. xii.
+            <lb ed="#N" n="126"/>non sunt causa gratie. caracter autem est causa gratie
+            sal<lb ed="#N" n="127" break="no"/>tem dispositiua. Item non est habitus acquisitus. quia non
+            <lb ed="#N" n="128"/>potest homo ex datis a natura illum acquirere sufficienter
+            <lb ed="#N" n="129"/>ergo non est habitus.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e429">
+            ⁋ Item augusti. de bono coniugut.
+            habi<lb ed="#N" n="130" break="no"/>tus est per quem aliquis agit sed per caracterem non agit
+            <lb ed="#N" n="131"/>homo aliquid: ergo etc.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e436">
+            ⁋ Item nec dispositio. quia non est
+            <lb ed="#N" n="132"/>facile mobilis. Item nec naturalis potentia vel
+            impoten<lb ed="#N" n="133" break="no"/>tia hoc est manifestum. Item nec passio nec passibilis
+            qua<lb ed="#N" n="134" break="no"/>litas: quia non infert passionem sensu.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e445">
+            ⁋ Si dicatur quod est
+            <lb ed="#N" n="135"/>figura quedam intelligibilis. Contra. augustinus in lib. de anima et spiritu
+            <lb ed="#N" n="136"/>inter plures conditiones anime quas ponit dicit: quod
+            ipsa<lb ed="#N" n="137" break="no"/>est in figurabilis. Si ergo caracter est in anima: videtur
+            <pb ed="#N" n="135"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quod non sit figura. Item omnis figura habet distensionem
+            ali<lb ed="#N" n="2" break="no"/>quam et lincationem. quia figura est qualitas in quantitate. vel
+            <lb ed="#N" n="3"/>quantitas in qualitate. Si nihil tale est in anima: ergo
+            cara<lb ed="#N" n="4" break="no"/>cter non est tale quid.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e467">
+            ⁋ Si dicatur quod caracter in anima est
+            san<lb ed="#N" n="5" break="no"/>ctitas quedam et ita habitus. cuius exemplar et figura est
+            san<lb ed="#N" n="6" break="no"/>ctitas basilicarium et vasorum consecratorum. Basilica enim conse
+            <lb ed="#N" n="7"/>crata quantumcumque post consecrationem polluatur sancta
+            rema<lb ed="#N" n="8" break="no"/>net. Sicut ergo sanctificatio basilicalis est ad suam
+            sanctita<lb ed="#N" n="9" break="no"/>tem: sic sanctitas baptismalis ad sanctitatem. quare non per
+            <lb ed="#N" n="10"/>mutatim sicut sanctificatio ad sanctificationem: sic sanctitas
+            <lb ed="#N" n="11"/>ad sanctitatem. et propter hoc sicut sanctificatio est figura
+            sanctifi<lb ed="#N" n="12" break="no"/>cationis: sic sanctitas sanctitatis. et propter hoc cum veritas im
+            <lb ed="#N" n="13"/>mobilior sit quam figura. sicut post figuralem sanctificationem
+            <lb ed="#N" n="14"/>permanet in basilicis sanctitas figuralis: sic post veritaten
+            <lb ed="#N" n="15"/>sanctificationis in baptizatis remanet veritas sanctitatis. et hoc
+            <lb ed="#N" n="16"/>est quod dicitur. i. corum. vi. Templum dei sanctum est quod estis vos
+            <lb ed="#N" n="17"/>Ubi augustinus. opere spiritus sancti in baptismo dicant.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e498">
+            ⁋ Sed
+            contra<lb ed="#N" n="18" break="no"/>sanctitas non manet cum peccato: caracter autem manet. non ergo
+            <lb ed="#N" n="19"/>caracter est sanctificatio vel sanctitas. sed signum aliquid sanctificatio
+            <lb ed="#N" n="20"/>nis baptismalis.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e508">
+            ⁋ Forte distiguetur duplex sanctitas Una
+            <lb ed="#N" n="21"/>que transire potest et altera que semper manet a tempore suscepti
+            ba<lb ed="#N" n="22" break="no"/>ptismatis. et accipitur propter illud verbum apostoli. templum dei
+            <lb ed="#N" n="23"/>sanctum est quod estis vos. caracter autem est sanctitas siue sanctifica
+            <lb ed="#N" n="24"/>tio manens. illud non videtur conuenire cum glo. dicit enim templum
+            <lb ed="#N" n="25"/>sanctum in quo deus habitat. non autem dicitur habitare in
+            mal<lb ed="#N" n="26" break="no"/>⁋ Preterea. ibidem dicitur. ad templum dei pertinent paruuli
+            san<lb ed="#N" n="27" break="no"/>ctificati sacramento christi et regenerati spiritusancto: et ita non
+            vi<lb ed="#N" n="28" break="no"/>detur loqui nisi de vna sanctitate. altera non violatur neque
+            <lb ed="#N" n="29"/>disperditur siqua esset. caracter enim non deletur. et ponitur
+            exem<lb ed="#N" n="30" break="no"/>plum de ecclesia consecrata. Licet enim in ea fiat pollutio: non
+            <lb ed="#N" n="31"/>propter hoc perit sanctitas illius neque violatur. et sic vult dicere
+            <lb ed="#N" n="32"/>quod remanet quedam sanctitas in anima: licet homo per peccatum
+            <lb ed="#N" n="33"/>polluatur. quia vero in anima non inuenimus dictam a sanctis vel a
+            <lb ed="#N" n="34"/>scriptura duplicem sanctitatem: ideo non videtur quod caracter
+            sancti<lb ed="#N" n="35" break="no"/>tas dicitur: sed signum sanctitatis baptismalis aut sanctificationis.
+            <lb ed="#N" n="36"/>Responsio. de hoc diuersi diuersa senserunt. Quidam enim
+            <lb ed="#N" n="37"/>ponebant quod caracterizare non est aliud quam significare. et
+            ca<lb ed="#N" n="38" break="no"/>rracter idem est quod signum. et hoc signum nihil addit super animam
+            <lb ed="#N" n="39"/>siue super potentias anime quod sit aliquid absolutum: sicut nec
+            si<lb ed="#N" n="40" break="no"/>ignatio in circulo. et est in anima vel potentiis anime secundum actum
+            <lb ed="#N" n="41"/>assignantis nulla circa animam vel eius potentias facta
+            muta<lb ed="#N" n="42" break="no"/>tione. vnde est pura relatio. et ponunt exemplum quod caracter
+            <lb ed="#N" n="43"/>est in anima sicut consecratio in ecclesia. in qua consecratione
+            <lb ed="#N" n="44"/>ecclesie non datur noua qualitas: sed solum ordinatio ab eo qui potest
+            <lb ed="#N" n="45"/>ad sacramenta ibidem celebranda. sic dicunt quod caracter est quoddam
+            <lb ed="#N" n="46"/>anime signaculum in quo dicitur anima sanctificari vt deus in ea
+            <lb ed="#N" n="47"/>habitet vt in templo. et hoc dicunt sensisse dyo. in libro de
+            san<lb ed="#N" n="48" break="no"/>cta hierachia vbi dicit. Caracter est signum sanctum
+            commu<lb ed="#N" n="49" break="no"/>nionis fidei etc. Sed hoc non est verum. quia caracter dicit
+            ali<lb ed="#N" n="50" break="no"/>quam assimilationem et configurationem ad christum: sicut caracter
+            be<lb ed="#N" n="51" break="no"/>stie ad dyabolum. de quo apoc. xiiii. Sed assimilatio
+            fun<lb ed="#N" n="52" break="no"/>datur super qualitatem. ergo si de nouo sit similis deo et non
+            <lb ed="#N" n="53"/>fit mutatio ex parte alterius extremi secundum qualitatem: videtur quod
+            <lb ed="#N" n="54"/>necesse sit nare anime aliquam qualitatem.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e584">
+            ⁋ Preterea.
+            dixe<lb ed="#N" n="55" break="no"/>runt aliqui quod et si caracter dicat relationem: nihilominus quali
+            <lb ed="#N" n="56"/>tatem aliquam dicit super quam fundatur. et illa qualitas est sicut
+            <lb ed="#N" n="57"/>dispositio ad recipiendum lumen et calorem gratie. sicut siccitas
+            <lb ed="#N" n="58"/>in ligno ad calorem et peruietas in vitro ad lumen. et ideo
+            po<lb ed="#N" n="59" break="no"/>suerunt caracterem in secunda specie qualitatis. Sed illud non
+            <lb ed="#N" n="60"/>potest stare. quia illa naturalis potentia vel impotentia qua
+            <lb ed="#N" n="61"/>consequitur naturam et preterea siccitas et preruietas sunt
+            impo<lb ed="#N" n="62" break="no"/>tentie resistendi: ergo caracter est impotentia quod absurdum est
+            <lb ed="#N" n="63"/>dicere.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e606">
+            ⁋ Preterea. alii dixerunt quod caracter non tantum est ad
+            di<lb ed="#N" n="64" break="no"/>sponendum: sed etiam ad distinguendum. et est sicut qualitas
+            que<lb ed="#N" n="65" break="no"/>dam animam fidelem decorans et ornans per quam ab infideli
+            di<lb ed="#N" n="66" break="no"/>stinguitur. et infert sensui spirituali passionem mulcebrem. et ideo
+            <lb ed="#N" n="67"/>est passibilis qualitas et in tercia specie qualitatis. Sed
+            <lb ed="#N" n="68"/>illud non potest stare: quia non dicitur passibilis qualitas que
+            <lb ed="#N" n="69"/>infert passionem sensui interiori vel intellectui. cu enim omnis
+            <lb ed="#N" n="70"/>veritas et omnis forma intelugibilis sit obiectum intelle
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>ctus et quandam infert delectationem eidem quando comprhenditur.
+            <lb ed="#N" n="72"/>tunc omnis veritas et omnis forma huiusmodi esset in tercia
+            spe<lb ed="#N" n="73" break="no"/>cie qualitatis: quod stultum est dicere et similiter de caractere
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e632">
+            <lb ed="#N" n="74"/>⁋ Preterea. alii dixerunt. quod caracter quantum est de suo
+            no<lb ed="#N" n="75" break="no"/>mine importat configurationem. vnde vbi nos habemus heb. i.
+            <lb ed="#N" n="76"/>figura substantie: alia transtano dicit caracter substantie. et
+            <lb ed="#N" n="77"/>ideo caracter est in quarta specie que est forma et circa aliquid
+            <lb ed="#N" n="78"/>constans figura. Et si tu obiicias quod figura est in quantitate
+            <lb ed="#N" n="79"/>et quantitas in corpore: dicunt quod sicut duplex est quantitas scilicet
+            <lb ed="#N" n="80"/>spiritualis et corporalis siue molis sic duplex est figura. Sed
+            <lb ed="#N" n="81"/>istud non videtur posse stare quia figura est clausio terminorum secundum
+            <lb ed="#N" n="82"/>quod est quarta species. Sed in spiritualibus configuratio non est
+            simi<lb ed="#N" n="83" break="no"/>lis terminorum clausioni: sed est similitudinis impressio siue
+            <lb ed="#N" n="84"/>assimilatio.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e658">
+            ⁋ Item si figura ponatur in spiritualibus non est
+            nisi<lb ed="#N" n="85" break="no"/>transtatiue. sicut ergo quantitas virtutis non ponitur in
+            ge<lb ed="#N" n="86" break="no"/>nere quantitatis nature: sic nec figura in specie figure.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e665">
+            <lb ed="#N" n="87"/>⁋ Preterea. alii se extendentes dicunt. quod non est in aliqua
+            spe<lb ed="#N" n="88" break="no"/>cie qualitatis a phso assignata. quia ipse assignat nisi
+            so<lb ed="#N" n="89" break="no"/>lum species qualitatis innate vel acquisite non infuse. et hoc
+            <lb ed="#N" n="90"/>ipse phous innuit cum dicit. fortassis et alii apparebunt qua
+            <lb ed="#N" n="91"/>litatis modi. et dicunt caracterem sub alia specie contineri
+            <lb ed="#N" n="92"/>vt scilicet vna species qualitates sit qualitis infusa. Sed istudr
+            <lb ed="#N" n="93"/>videtur querere fugam. quia nos virtutes theologicas et alias
+            <lb ed="#N" n="94"/>virtutes que sunt infuse in prima specie qualitatis
+            collo<lb ed="#N" n="95" break="no"/>camus. quare ergo non similiter caracterem.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e688">
+            ⁋ Ideo
+            di<lb ed="#N" n="96" break="no"/>cendum. quod caracter cum sit in anima et sit qualitas spiritualis quod
+            <lb ed="#N" n="97"/>est habitus non passio nec potentia. Sed notandum quod
+            ha<lb ed="#N" n="98" break="no"/>bitus accipitur dupliciter. vno modo proprie: prout
+            distin<lb ed="#N" n="99" break="no"/>guitur contra dispositionem per perfectum et imperfectum. Alio
+            <lb ed="#N" n="100"/>modo communiter: prout contrumque coprehendit scilicet emsseum
+            qua<lb ed="#N" n="101" break="no"/>litatem animam disponentem. siue facile mobilem siue
+            diffi<lb ed="#N" n="102" break="no"/>cilem: perfectam siue imperfectam. et sic accipitur cum dicitur.
+            <lb ed="#N" n="103"/>tria sunt in anima. potentia. passio. et habitus. Nam
+            dispo<lb ed="#N" n="104" break="no"/>sitio est in anima et non est passio neque potentia. Dicendum
+            <lb ed="#N" n="105"/>igitur quod si accipiatur habitus large. sic caracter est habitus.
+            <lb ed="#N" n="106"/>Si autem stricte sic quia caracter est perpetuus. ideo vt habitus
+            <lb ed="#N" n="107"/>Sed quia non perficit sed disponit ad vlteriorem perfectionem gratie
+            <lb ed="#N" n="108"/>scilicet est dispositio. Secundum enim rem caracter est quedam
+            <lb ed="#N" n="109"/>qualitas. a inam quodammodo perficiens scilicet disponendo ad
+            vlte<lb ed="#N" n="110" break="no"/>riorem perfectionem scilicet gratie. Unde videtur esse quoddam lumen spirituale
+            <lb ed="#N" n="111"/>sed diminutum respectu gratie. et iflud lumen dicitur esse
+            signacu<lb ed="#N" n="112" break="no"/>lum anime vel quo significatur anima. secundum illud quod dicitur in psalm.
+            <lb ed="#N" n="113"/>Signatum est super nos lumen vultus tui domine. Signatum est
+            in<lb ed="#N" n="114" break="no"/>quam generaliter per naturam: sed spetialius per sacramenta diuina.
+            spiritualissi<lb ed="#N" n="115" break="no"/>me per dona spiritus sancti gratuita. Potest ergo dici quod caracter et
+            <lb ed="#N" n="116"/>est aliquis habitus relucens in anima impressus perpetuo quo
+            discer<lb ed="#N" n="117" break="no"/>natur fuisse sanctificatio baptismi. nec est habitus ad agendum
+            <lb ed="#N" n="118"/>simpliciter: sed est ad disponendum ad gratiam quantum est in se:
+            <lb ed="#N" n="119"/>dum homo est viator. et ad discernendum ouem dominicam a lupis
+            <lb ed="#N" n="120"/>Si vero diceretur figura intelligibilis hoc est quodam modo
+            extra<lb ed="#N" n="121" break="no"/>neo dicendi. nisi ponatur quedam extensio virtualis in anima.
+            <lb ed="#N" n="122"/>vel si ponatur esse figura in anima per proportionem quandam: quemad
+            <lb ed="#N" n="123"/>modum et imago potest dici esse figura. et ita non repugnat
+            <lb ed="#N" n="124"/>ei quod dictum. nec est ipsa sanctitas caracter sed signum sanctificationis
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e753">
+            <lb ed="#N" n="125"/>⁋ Ad hoc ergo quod primo obiicitur. dicendum quod non est habitus naturalis.
+            <lb ed="#N" n="126"/>sed gratuitus gratisdatus. et disponit ad gratiam gratum facientem.
+            <lb ed="#N" n="127"/>Nec est simile de illis gratisdatis ad operandum. de quibus. i. corum.
+            <lb ed="#N" n="128"/>xii. Et ex hoc patet responsio ad verbum augustinus qui intelligit de habitu
+            <lb ed="#N" n="129"/>perfecto: qui plene rationem habitus habet. Nam ille habilitat ad
+            <lb ed="#N" n="130"/>opus aliquod de se. et sic vel habilitat cognitiuam et est scientia.
+            <lb ed="#N" n="131"/>vel motiuam et est virtus. Non autem est verum de hitu qui est
+            imperfe<lb ed="#N" n="132" break="no"/>etus disponens ad alium: siem lumen naturale ad scientiam. vt
+            lu<lb ed="#N" n="133" break="no"/>mem oculi ad habitum videndi: sic intelligendum est in caractere.
+            <lb ed="#N" n="134"/>nihilominus et aliquem actum habet sicut patebit infra.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e777">
+            ⁋ Ad
+            <lb ed="#N" n="135"/>hoc quod obiicitur quod non sit figura: quia anima est infigurabilis.
+            di<lb ed="#N" n="136" break="no"/>cimus quod ibi loquitur augustinus. de figura corporali et non de figura
+            in<lb ed="#N" n="137" break="no"/>tellectuali.
+          </p>
+          <p xml:id="v78d89-a4msp1-d1e786">
+            ⁋ Ad aliud de distensione dicimus. quod in
+            anima<lb ed="#N" n="138" break="no"/>est distensio et quantitas virtualis. et cum illa dicimus esse figuram
+            <lb ed="#N" n="139"/>intellectualem: sed non est ibi distensio vel quantitas
+            materi<lb ed="#N" n="140" break="no"/>alis de qua obiiciebat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

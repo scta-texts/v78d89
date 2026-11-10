@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 33, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 33, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="202"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a71yes"><!-- q33m1 -->
+        <head xml:id="v78d89-a71yes-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a71yes-Hd1e103" type="question-title">Utrum haec sit forma verborum in transsubstantiatione panis</head>
+        <p xml:id="v78d89-a71yes-d1e106">
+          <lb ed="#N" n="59"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a71yes-d1e111">
+          <lb ed="#N" n="60"/>PRimo ergo queritur. vtrum hec sit forma verborum in
+          <lb ed="#N" n="61"/>transsubstntiatione panis. Accipite et
+          comedi<lb ed="#N" n="62" break="no"/>te hoc est corpus meum. vel hec: hoc est corpus
+          <lb ed="#N" n="63"/>meum. Quod hec: accipite et comedite etc. videtur
+          <lb ed="#N" n="64"/>sic. de consec. di. ii. Cusebius emissenus. Inuisibilis
+          sacer<lb ed="#N" n="65" break="no"/>dos visibiles creaturas in substantiam corpis sui verbo suo
+          se<lb ed="#N" n="66" break="no"/>creta poetante conuertit: ita dicens. Accipite et comedite hoc est
+          <lb ed="#N" n="67"/>corpus meum. et sanctificatione repetita: accipite et bibite hoc est
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="68"/>sanguis meus. Ecce videtur velle quod in his verbis:
+          accipi<lb ed="#N" n="69" break="no"/>te et comedite etc. fit conuersio creaturarum in corpus et
+          san<lb ed="#N" n="70" break="no"/>guinem christi. Sed illa est forma verborum prescripta quorum
+          pro<lb ed="#N" n="71" break="no"/>latione fit conuersio creaturarum in corpus et sanguinem christi.
+          <lb ed="#N" n="72"/>ergo etc.
+        </p>
+        <p xml:id="v78d89-a71yes-d1e144">
+          ⁋ Item Ambro. in libro de sacramentis. Antequam
+          consecra<lb ed="#N" n="73" break="no"/>tur panis est. vbi verba christi accesserunt: corpus christi est. audi
+          di<lb ed="#N" n="74" break="no"/>centem: accipite et comedite ex hoc omnes. hoc est enim corpus
+          <lb ed="#N" n="75"/>meum. hec Ambro. Ex his idem videtur quod prius.
+        </p>
+        <p xml:id="v78d89-a71yes-d1e154">
+          ⁋ Item
+          ma<lb ed="#N" n="76" break="no"/>gister. iiii. senteta. recitando verba Amb. dicit. Attendite que
+          <lb ed="#N" n="77"/>sunt verba quibus fit consecratio. accipite et comedite ex hoc
+          <lb ed="#N" n="78"/>omnes. hoc est enim corpus meum. et ita videtur idem quod prius.
+        </p>
+        <p xml:id="v78d89-a71yes-d1e163">
+          <lb ed="#N" n="79"/>⁋ Contra. per hoc quod dicitur accipite et comedite: non
+          exprimi<lb ed="#N" n="80" break="no"/>tur aliquid perfectum vel faciendum circa illud quod est conse
+          <lb ed="#N" n="81"/>crandum vel transsubstantiandum in corpus christi. ergo penes
+          il<lb ed="#N" n="82" break="no"/>lud non attenditur virtus aliqua transsubstantiandi etc.
+        </p>
+        <p xml:id="v78d89-a71yes-d1e174">
+          ⁋ Item per
+          <lb ed="#N" n="83"/>hoc quod dicitur accipite et comedite: ostenditur quod debet sumi in vsum
+          <lb ed="#N" n="84"/>quod sequitur ad conuersionem siue perfectionem.
+        </p>
+        <p xml:id="v78d89-a71yes-d1e181">
+          ⁋ Item magister. iiii.
+          <lb ed="#N" n="85"/>sent. viii. di. cum proferuntur hec verba hoc est corpus meum: hoc
+          <lb ed="#N" n="86"/>est sanguis meus: conuersio fit panis et vini in substantiam
+          cor<lb ed="#N" n="87" break="no"/>boris et sanguinis christi. reliqua ad laudem dei dicuntur. et ita idem
+          <lb ed="#N" n="88"/>quod prius.
+        </p>
+        <p xml:id="v78d89-a71yes-d1e192">
+          ⁋ Quod concedimus: dicentes quod virtus data est a
+          <lb ed="#N" n="89"/>dmno his verbis. hoc est corpus meum. Quod autem apponuntur
+          <lb ed="#N" n="90"/>alia a beato Ambro. similiter a canone: hoc non est quia sint essen
+          <lb ed="#N" n="91"/>tialiter de forma quibus virtus transsubstntiandi data est: sed
+          <lb ed="#N" n="92"/>quia illis exprimitur quod propter hoc fit consecratio huiusmodi. vt
+          <lb ed="#N" n="93"/>quod consecratur sumatur in vsum siue cibum a fidelibus. Ipsa autem
+          <lb ed="#N" n="94"/>consecratio non est finis simpliciter consecrantis: sed potius vsus
+          <lb ed="#N" n="95"/>fidelium ad hoc vt vtentes capiti et membris fortius vniantur.
+          <lb ed="#N" n="96"/>quod insinuare volentes ipsi forme addunt quod dico:
+          accipi<lb ed="#N" n="97" break="no"/>tem et comedite. Uel potest dici. quod quandoque dicuntur esse de forma
+          so<lb ed="#N" n="98" break="no"/>lum quibus data est virtus transsubtntiandi: quandoque et hec et
+          illa<lb ed="#N" n="99" break="no"/>qu: precipiunt vsum. et secundum hanc differentiam differenter dicuntur
+          <lb ed="#N" n="100"/>verba alia et alia esse de forma.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

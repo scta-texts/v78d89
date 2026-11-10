@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 43, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 43, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="312"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8sauj"><!-- q43m1 -->
+        <head xml:id="v78d89-a8sauj-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a8sauj-Hd1e103" type="question-title">De numero modorum manducandi quae exprimuntur per manducationem spiritualem et sacramentalem</head>
+        <p xml:id="v78d89-a8sauj-d1e106">
+          <lb ed="#N" n="38"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e111">
+          <lb ed="#N" n="39"/>QUeritur ergo primo. si sint duo modi
+          manducan<lb ed="#N" n="40" break="no"/>di scilicet sacramentaliter et spiritualiter. Quod sic: videtur
+          <lb ed="#N" n="41"/>per hoc quod duplex est res huius sacramenti.
+          sci<lb ed="#N" n="42" break="no"/>licet significata et contenta: et significata tantum.
+          <lb ed="#N" n="43"/>CIpsis rebus contentis appropriantur modi manducandi. Unde
+          <lb ed="#N" n="44"/>Inno. iii. Dupliciter corpus comeditur quia dupliciter
+          intelli<lb ed="#N" n="45" break="no"/>gitur. verum quod de virgine traxit et in cruce pependit: et
+          <lb ed="#N" n="46"/>misticum quod est ecclesia christi spiritu vegetata.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e131">
+          ⁋ Item magister
+          <lb ed="#N" n="47"/>in senten. ix. di. iiii. libro. Sicut sunt due res huius sacramenti:
+          <lb ed="#N" n="48"/>ita duo modi manducandi vnus sacramentalis alter spiritualis
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e139">
+          <lb ed="#N" n="49"/>⁋ Item ex parte sumentium accipitur numerus. quia aut
+          boni<lb ed="#N" n="50" break="no"/>sunt qui sumunt et hi spiritualiter. aut mali et hi sacramentaliter
+          <lb ed="#N" n="51"/>tantum. Unde Augustinus bonus accipit sacramentum et rem sacramenti.
+          ma<lb ed="#N" n="52" break="no"/>lus autem sacramentum et non rem. et vt dicit magister in sentem.
+          <lb ed="#N" n="53"/>Sacramentum est corpus christi proprium de virgine sumptum. Res
+          <lb ed="#N" n="54"/>spiritualis caro christi que est vnitas fidelium. sic dicit August.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e155">
+          <lb ed="#N" n="55"/>⁋ Item ex parte modi sumendi sumitur numerus. quia duplex est
+          <lb ed="#N" n="56"/>modus sumendi scilicet sub specie et in fide. Unde Inno. iii.
+          Ue<lb ed="#N" n="57" break="no"/>rum corpus christi comeditur sacramentaliter id est sub specie. misticum
+          <lb ed="#N" n="58"/>autem comeditur spiritualiter id est in fide. Sic igitur tam ex parte eorum
+          <lb ed="#N" n="59"/>qui manducant tam modi manducandi sunt duo modi tantum.
+          <lb ed="#N" n="60"/>scilicet sacramentaliter et spiritualiter.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e171">
+          ⁋ Item in sacra
+          scriptura<lb ed="#N" n="61" break="no"/>inueniuntur duo modi manducandi quorum vnus est causa vite
+          <lb ed="#N" n="62"/>Ioh. vi. Qui manducat me scilicet digne: viuit propter me. Alia est
+          <lb ed="#N" n="63"/>causa mortis. i. Cori. xi. Qui manducat indigne: iudicium sibi
+          <lb ed="#N" n="64"/>manducat. Primus modus manducandi est spiritualis. Alius sacramentalis.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e182">
+          <lb ed="#N" n="65"/>⁋ Contra. iiii. senis. di. iiii. dicitur. Dicendum est aliquos suscipere sacramentum et
+          rem<lb ed="#N" n="66" break="no"/>sacramenti. aliquos sacramentum et non rem. aliquos rem et non sacramentum.
+          Ecce<lb ed="#N" n="67" break="no"/>quod de baptismate triplex modus assignatur. A simili videtur quod tres
+          <lb ed="#N" n="68"/>debent esse in proposito.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e193">
+          ⁋ Item in sacramento baptismi et aliis vbi
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>non est nisi res vna duplex est susceptio scilicet sacramentalis et realis
+          <lb ed="#N" n="70"/>igitur vt videtur cum in hoc sacramento sit duplex res: quatuor debent
+          <lb ed="#N" n="71"/>esse modi.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e204">
+          ⁋ Item triplex vnio est qua vnitur homo deo scilicet fidei
+          ca<lb ed="#N" n="72" break="no"/>ritatis et nature. Unioni fidei respondet commestio sacramentalis.
+          su<lb ed="#N" n="73" break="no"/>mere enim sacramentaliter christum: est sumere eum sub signo inquantum est
+          <lb ed="#N" n="74"/>sub signo. Unde Inno. Uerum corpus christi comeditur sacramentaliter
+          <lb ed="#N" n="75"/>idest sub specie. quod fieri non potest nisi virtute fidei. non dico fidei
+          <lb ed="#N" n="76"/>formate: sed aliquo modo sumendi fidem scilicet vel vt est in habitu
+          <lb ed="#N" n="77"/>vel conceptione vel alio modo. Unioni caritatis respondet comestio
+          <lb ed="#N" n="78"/>spiritualis. Comestio enim spiritualis vnit comedentem commembris
+          <lb ed="#N" n="79"/>et capiti. cuiusmodi vnio est per caritatem. quare non similiter est
+          <lb ed="#N" n="80"/>tercius modus manducandi qui respondet vnioni nature.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e227">
+          ⁋ Item cum
+          <lb ed="#N" n="81"/>aliquis modus manducationis respondeat virtuti fidei sicut
+          man<lb ed="#N" n="82" break="no"/>ducatio sacramentalis. aliquis virtuti caritatis sicut spiritualis. quare
+          <lb ed="#N" n="83"/>non similiter aliquis virtuti spei. Sicut enim fide fit vnio
+          creatu<lb ed="#N" n="84" break="no"/>re rationalis prime veritati. et caritate summe bonitati: sic
+          spe<lb ed="#N" n="85" break="no"/>ipsi eternitati siue maiestati summe. quare ergo non est aliquis
+          mo<lb ed="#N" n="86" break="no"/>dus commestionis respondens illi vnioni.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e243">
+          ⁋ Item videtur quod non sit
+          <lb ed="#N" n="87"/>nisi vnus modus sic. vvi vnum propter alterum: ibi vnum tantum. ergo si
+          sa<lb ed="#N" n="88" break="no"/>cramentalis est propter spiritualem sicut signum propter significatum
+          <lb ed="#N" n="89"/>vna tantum est manducatio.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e252">
+          ⁋ Item caro christi vere est cibus. ergo sicu
+          <lb ed="#N" n="90"/>lucis est illuminare: ita illius carnis est cibare. sed non corporaliter.
+          <lb ed="#N" n="91"/>ergo spiritualiter. qui autem recipit sacramentaliter recipit carnem et sic
+          ciba<lb ed="#N" n="92" break="no"/>tur spiritualiter: ergo vnus est tantum modus manducandi.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e261">
+          ⁋ Responsio.
+          dicen<lb ed="#N" n="93" break="no"/>dum. quod duplex est modus manducandi cuius distinctio a
+          triplici<lb ed="#N" n="94" break="no"/>oritur principio scilicet a dispositione sumentium. quia quidam accedunt
+          <lb ed="#N" n="95"/>male dispositi. et hi manducant sacramentaliter. quidam bnde: et
+          hi<lb ed="#N" n="96" break="no"/>spiritualiter. Item in modo sumendi. quidam enim sumunt ore
+          cor<lb ed="#N" n="97" break="no"/>poris et hi sacramentaliter. quidam ore cordis et mente quantum ad
+          in<lb ed="#N" n="98" break="no"/>tellectum. et hi spiritualiter. Pre. ab ipso sacramento quia
+          du<lb ed="#N" n="99" break="no"/>plicem habet rem scilicet corpus christi verum: et corpus christi
+          misti<lb ed="#N" n="100" break="no"/>cum. quorum si vnum accipitur sine altocc sumens corpus christi
+          <lb ed="#N" n="101"/>verum manducat sacramentaliter: sumenis corpus christi misticum
+          <lb ed="#N" n="102"/>spiritualiter.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e285">
+          ⁋ Ad primum ergo obiectum dicendum. quod sicut
+          assignan<lb ed="#N" n="103" break="no"/>tur in sacramento baptismi tres modi sumendi. eo modo in
+          <lb ed="#N" n="104"/>hoc sacramento posunt assignari tres modi distincti sic.
+          Qui<lb ed="#N" n="105" break="no"/>dam sumunt corpus christi sacramentaliter tantum. quidam spiritualiter
+          <lb ed="#N" n="106"/>tantum. quidam sacramentaliter et spiritualiter. Nihilominus ista diuisio
+          <lb ed="#N" n="107"/>que per sumptionem sacramentalem et spiritualem est formalis simpliciter et
+          <lb ed="#N" n="108"/>per difcamtrias simpliciter oppositas. Illa autem que est per sumptionem
+          <lb ed="#N" n="109"/>sacramentalem tantum et spiritualem non est ita formalis. quia vna damtera
+          ma<lb ed="#N" n="110" break="no"/>terialiter loquendo complectitur vtramque condiuidentium. vnde non
+          disti<lb ed="#N" n="111" break="no"/>guitur ab alia nisi materialiter tantum.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e307">
+          ⁋ Ad aliud dicendum. quod
+          si<lb ed="#N" n="112" break="no"/>cut in hoc sacramento est duplex res vna significata tantum vt
+          corps<lb ed="#N" n="113" break="no"/>christi misticum: alia significata et significans scilicet corpus christi
+          ve<lb ed="#N" n="114" break="no"/>rum. Similiter in sacramento baptismi est duplex res. vna
+          signi<lb ed="#N" n="115" break="no"/>ficata tantum scilicet gratia: alia significata et significans scilicet
+          cara<lb ed="#N" n="116" break="no"/>cter. Unde sicut in baptismo non dicitur suscipere rem sacramenti o
+          <lb ed="#N" n="117"/>suscipit caracterem sed qui suscipit gratiam baptismalem:
+          simi<lb ed="#N" n="118" break="no"/>liter hic non dicitur sumere spiritualiter qui sumit corpus christi sub
+          <lb ed="#N" n="119"/>sacramento. Unde Iugustinus. loquens de spirituali
+          manduca<lb ed="#N" n="120" break="no"/>tione dicit. quid est christum manducare. non hoc est solum in
+          <lb ed="#N" n="121"/>sacramento corpus eius accipere: sed in ipso manere. et
+          ha<lb ed="#N" n="122" break="no"/>bere ipsum in se manentem. Spiritualiter enim
+          mandu<lb ed="#N" n="123" break="no"/>cat qui vnitate christi et ecclesie qua sacramentum signat
+          ma<lb ed="#N" n="124" break="no"/>net. similiter ergo est in hoc et in aliis quantum ad hoc.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e339">
+          ⁋ Ad
+          <lb ed="#N" n="125"/>illud quod obiicitur de triplici vnione. Dicendum quod
+          acti<lb ed="#N" n="126" break="no"/>ones sacramentorum et in significando et in efficiendo sunt
+          <lb ed="#N" n="127"/>respectu personarum: non naturarum. quia aliquid agunt
+          <lb ed="#N" n="128"/>circa personam primo et per se: non primo et per se circa
+          na<lb ed="#N" n="129" break="no"/>turam. Uerbigratia. ablutio baptismi signat ablutionem
+          <lb ed="#N" n="130"/>non corporis tantum vel anime tantum sed ipsius persone. similiter
+          effi<lb ed="#N" n="131" break="no"/>cit ablutionem spiritualem circa ipsam personam. similiter
+          <lb ed="#N" n="132"/>est de aliis. Unde cum illa vnio que est nature humane
+          <lb ed="#N" n="133"/>cum deo. non importat aliquid factum circa personam
+          ho<lb ed="#N" n="134" break="no"/>minis sed circa naturam: quia in illa vnione natura huma
+          <lb ed="#N" n="135"/>na non est persona. Unio autem que fidei est et caritatis
+          <lb ed="#N" n="136"/>importat aliquid factum circa personam. propter quod etsi
+          ali<lb ed="#N" n="137" break="no"/>quis modus comedendi respondeat illi vnioni que est fidei
+          <lb ed="#N" n="138"/>et illi que est caritatis: non tamen debet esse aliqua
+          respo<lb ed="#N" n="139" break="no"/>dens illi que est nature. Uel potest aliter dici. quod in
+          mandu<pb ed="#N" n="313"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>catione hac prout exercetur a dignis duo importantur. vnum
+          <lb ed="#N" n="2"/>est ipsa vnio sacramenti. aliud est vnio quedam cum
+          ipso<lb ed="#N" n="3" break="no"/>contento. secundum quod dicitur quod in sumptione species descendunt
+          <lb ed="#N" n="4"/>in ventrem et ipsum contentum in mentem. Pre. indigne
+          <lb ed="#N" n="5"/>sumentes sumunt tantum sacramentaliter. non sumentes spiri
+          <lb ed="#N" n="6"/>tualiter. sed tamen credentes virtutem et veritatem
+          sacra<lb ed="#N" n="7" break="no"/>menti spiritualiter tantum manducant. secundum quod dicit Augu.
+          Cre<lb ed="#N" n="8" break="no"/>de et manducasti: et hec manducatio vnit cum corpore
+          mi<lb ed="#N" n="9" break="no"/>stico. Qui autem digne sumunt perfectius sumunt. vniuntur enim
+          <lb ed="#N" n="10"/>quodammodo ipsi contento. Hec autem vnio respondet
+          vni<lb ed="#N" n="11" break="no"/>oni nature. Hec igitur vnio que est in natura. representatur
+          <lb ed="#N" n="12"/>inn manducatione sacramentali secundum quod hec manducatio
+          exer<lb ed="#N" n="13" break="no"/>cetur a dignis. vnde vnio que est naturarum representatur
+          <lb ed="#N" n="14"/>in manducatione sacramentali: prout a dignis exercetur.
+          pro<lb ed="#N" n="15" break="no"/>pter quod non debuit modus specialis manducationis
+          iu<lb ed="#N" n="16" break="no"/>xta illam vnionem assignari.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e411">
+          ⁋ Ad illud quod queritur. quare
+          <lb ed="#N" n="17"/>non respondet modus aliquis virtuti que est spes. Dicendum
+          <lb ed="#N" n="18"/>quod hoc sacramentum est sacramentum vnionis. Eius enim
+          vir<lb ed="#N" n="19" break="no"/>tute vniuntur membra cum capite et membra adinuicem. sed
+          <lb ed="#N" n="20"/>virtus spei non est proprie vniens: quia spes est proprie futuri.
+          <lb ed="#N" n="21"/>Et si obiiciatur quod spe fit vnio cum prima maiestate.
+          dicen<lb ed="#N" n="22" break="no"/>dum quod hoc non est verum quantum est de actu vie: quia est in
+          <lb ed="#N" n="23"/>expectatione vt vie est. Quantum autem ad actum patrie
+          qui<lb ed="#N" n="24" break="no"/>est adherere summe maiestati quodammodo vnit id est disponit
+          <lb ed="#N" n="25"/>ad vnionem. Uel potest aliter dici. quod iste manducationes
+          <lb ed="#N" n="26"/>non proprie distinguuntur secundum virtutes. quia manducatio
+          spi<lb ed="#N" n="27" break="no"/>ritualis est secundum fidem et caritatem: sed secundum res sacramenti
+          <lb ed="#N" n="28"/>et omne sacramentum quod habet duas res potest percipi
+          <lb ed="#N" n="29"/>sacramentaliter et spiritualiter.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e442">
+          ⁋ Ad illud quod obiicitur.
+          <lb ed="#N" n="30"/>quod vbi vnum propter alterum etc. Dicendum quod hoc intelligitur
+          <lb ed="#N" n="31"/>si sit vnum propter alterum quod ab illo non potest separari.
+          <lb ed="#N" n="32"/>facta autem separatione iam non est vnum. Uel potest dici. quod vnum
+          <lb ed="#N" n="33"/>et alterum secundum quod dicitur vbi vnum propter alterum. non
+          di<lb ed="#N" n="34" break="no"/>xit vnum simpliciter: sed vnum in relatione. nec tantum est
+          no<lb ed="#N" n="35" break="no"/>ta precisionis absolute. sed ordinis siue relationis. Hec autem
+          <lb ed="#N" n="36"/>precisio multitudinem non excludit.
+        </p>
+        <p xml:id="v78d89-a8sauj-d1e460">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="37" break="no"/>tur. quod carnis christi est cibare etc. Dicendum quod actus
+          ciban<lb ed="#N" n="38" break="no"/>di semper recipit dispositionem suscipientis sicut
+          illumina<lb ed="#N" n="39" break="no"/>re. Unde sicat geminatur dispositio: sic et modus
+          mandu<lb ed="#N" n="40" break="no"/>candi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

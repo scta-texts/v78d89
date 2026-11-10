@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 17, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 17, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="125"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4bowd"><!-- q17m2 -->
+        <head xml:id="v78d89-a4bowd-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a4bowd-Hd1e103" type="question-title">Utrum parvulus intra mastris uterum</head>
+        <p xml:id="v78d89-a4bowd-d1e106">
+          <lb ed="#N" n="40"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e111">
+          <lb ed="#N" n="41"/>COnsequenter queritur. vtrum quis posset
+          baptizari<lb ed="#N" n="42" break="no"/>in vtero mastris. Quod sic: videtur. Cum enim anima
+          rati<lb ed="#N" n="43" break="no"/>onalis infusa est corpori: contrahit originale peccatum
+          <lb ed="#N" n="44"/>ex ipsa corruptione viciosa. Cum autem contractum e
+          <lb ed="#N" n="45"/>originale peccatum. indigentiam habet ipsa anima remedii ad
+          purgati<lb ed="#N" n="46" break="no"/>onem ipsius. Deus autem imaginem suam non vult perire. de misericordia ergo
+          <lb ed="#N" n="47"/>sua aliquod est remedium originalis peccati ipsi paruulo existenti in
+          <lb ed="#N" n="48"/>vtero. Pronior enim est deus ad miserendum quam ad puniendum. cum
+          <lb ed="#N" n="49"/>ergo baptisma sit institutum in remedium originalis peccati. erit
+          per<lb ed="#N" n="50" break="no"/>uulus dum est in vtero materno habilis ad baptismum: vel est
+          <lb ed="#N" n="51"/>aliud remedium.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e137">
+          ⁋ Si vero dicatur. quod illud est sanctificatio. obicitur
+          <lb ed="#N" n="52"/>contra hoc. quod sanctificatio non est commnis. Priuilegia autem
+          pau<lb ed="#N" n="53" break="no"/>corum non faciunt legem comunem.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e145">
+          ⁋ Item maior est gratia
+          sanctifica<lb ed="#N" n="54" break="no"/>tioms quam gratia baptismalis. sed paruulus in vtero est susceptibi
+          <lb ed="#N" n="55"/>lis gratie sanctificationis. sicut patet de Iohane haptista et Hieremia. de
+          <lb ed="#N" n="56"/>iohne Luc. i. Spiritusancto replebitur adhuc ex vtero mastris sue.
+          si<lb ed="#N" n="57" break="no"/>s paruulus in vtero est capax gratie sanctificationis: videtur quod similiter
+          <lb ed="#N" n="58"/>et gratie baptismalis.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e158">
+          ⁋ Contra. dicit augustin. et habetur. iiii. libro sen. Non
+          <lb ed="#N" n="59"/>potest quis renasci antequam sit natus. hoc baptiz ari est renasci: ergo
+          nul<lb ed="#N" n="60" break="no"/>lus potest baptizari antequam sit natus.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e165">
+          ⁋ Item sacramentum baptismi
+          <lb ed="#N" n="61"/>est remedium exterius exhibendum. ergo non potest alicui exhiberi. ni
+          <lb ed="#N" n="62"/>si exterius prodeat in lucem. igitur quamdiu quis est in vtero mastris non
+          <lb ed="#N" n="63"/>est baptim andus.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e174">
+          ⁋ Huius etiam gratie queritur. vtrum paruulus dum est in
+          <lb ed="#N" n="64"/>vtero materno baptizetur mastre baptizata adminus in periculo
+          mor<lb ed="#N" n="65" break="no"/>tis: et videtur quod sic. ad corpus mastris id quod in ea concipitur pertinet.
+          <lb ed="#N" n="66"/>ita quod eius pars quodammodo deputetur sicut habetur in libr. Augustinus. contra
+          <lb ed="#N" n="67"/>Iulianum. Sed baptizato toto vel illo de cuius integritate est
+          <lb ed="#N" n="68"/>pars: baptizatur ipsa pars. Si ergo paruulus est pars mastris: baptizabitur
+          <lb ed="#N" n="69"/>mastere baptizata. Sed huic obuiatur. quod si esset baptizatus: cum
+          nul<lb ed="#N" n="70" break="no"/>lo sacramento faciendo est iniuria: ipse postea materno vtero
+          se<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>paratus non baptizaretur. Baptizatur autem non ergo est susceptibils.
+          <lb ed="#N" n="72"/>baptismi in materno vtero ratione mastris si baptizetur.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e197">
+          ⁋ Prete.
+          <lb ed="#N" n="73"/>cum iam vniatur anima rationalis corpori paruuli. efficitur iam altera
+          per<lb ed="#N" n="74" break="no"/>sona a persona mastris: baptizata ergo vna persona non propter hoc
+          ba<lb ed="#N" n="75" break="no"/>ptizatur altera. Unde martinus papa. Nihil perticipat in hoc mater
+          <lb ed="#N" n="76"/>infanti qui nascitur. propterea quod vnicuique propria voluntas in
+          confes<lb ed="#N" n="77" break="no"/>sione monstratur: restat ergo quod paruulus non baptizatur mastre
+          baptiza<lb ed="#N" n="78" break="no"/>ta.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e213">
+          ⁋ Responsio ad predictorum intelligentiam notandum. quod ratio quare
+          <lb ed="#N" n="79"/>aliquis non baptizatur in vtero materno est diuina institutio.
+          Ra<lb ed="#N" n="80" break="no"/>tio autem diuine institutionis assignantur congruitatis non necessitatis
+          <lb ed="#N" n="81"/>quia posset vtique aliter esse si deus vellet. et secundum diuersos plures.
+          <lb ed="#N" n="82"/>et diuerse congruentie assignantur. Fuerunt enim qui dixerunt quod ratio
+          su<lb ed="#N" n="83" break="no"/>mitur ex parte equitatis diuini iudicii. que nec paruulum nec adultum
+          iu<lb ed="#N" n="84" break="no"/>stificat nisi aliquantula pena. et ideo debuit circa paruulum
+          ali<lb ed="#N" n="85" break="no"/>quid fieri penalem ad hoc vt iustificaretur. et illud dicunt fuisse omni
+          <lb ed="#N" n="86"/>tempore. Sed ista ratio non videtur conueniens. quia non est generalis. Nam
+          <lb ed="#N" n="87"/>tempore legis nature vt dicit Gre. iustificabantur in sola fide
+          peren<lb ed="#N" n="88" break="no"/>tum. Pre. esto quod paruulus baptizetur in aqua calida siue tepida
+          <lb ed="#N" n="89"/>potius esset ei solacium quam pena et ita hec ratio non sufficit.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e240">
+          ⁋
+          Fue<lb ed="#N" n="90" break="no"/>runt alii qui dixerunt. quod ratio suiitur ex parte sacrati. quia enim in
+          ori<lb ed="#N" n="91" break="no"/>ginali peccato et est caro infecta et anima deformata: ideo sacramentum
+          <lb ed="#N" n="92"/>baptismi duo habet scilicet aquam et spirium vt dicit Dam. et
+          quodammo<lb ed="#N" n="93" break="no"/>do est ibi purificatio et regeneratio carnis et spiritus. et ideo non
+          <lb ed="#N" n="94"/>tantum presupponit natiuitatem in vtero que est in infusione anime.
+          verum<lb ed="#N" n="95" break="no"/>etiam natiuitatem ex vtero que est in egressu. et ista quidem ratio
+          bo<lb ed="#N" n="96" break="no"/>na est sed perticularis: quia non valet ad remedium legis nature quod
+          <lb ed="#N" n="97"/>non respiciebat paruuli carnem.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e260">
+          ⁋ Fuerunt et alii qui sumpserunt
+          ra<lb ed="#N" n="98" break="no"/>tionem ex parte culpe. quia enim culpa originalis contracta est ex carne
+          <lb ed="#N" n="99"/>infecta et ex carne parentum secundum actum generationis: totum tempus
+          <lb ed="#N" n="100"/>generationis et cibationis ex illa carne infecta vtputa ex
+          san<lb ed="#N" n="101" break="no"/>guine menstruo est corpus deputatum peccato non remedio. et ideo ante
+          <lb ed="#N" n="102"/>necesse est a carne mastris paruulum separari: et totam generationis
+          a<lb ed="#N" n="103" break="no"/>ctionem consummari: quam superueniat benedictio. quoniam illud totum est tempus
+          <lb ed="#N" n="104"/>maledictionis. et ista quidem ratio bona est nisi etiam repugnaret
+          <lb ed="#N" n="105"/>sanctificationi quoniam ibi datur gratia mundans a culpa originali.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e280">
+          <lb ed="#N" n="106"/>⁋ Fuerunt et quarti qui dixerunt. quod ratio est ex parte gratie. quia enim gratie est
+          <lb ed="#N" n="107"/>dare esse ordinatum et gratie est regenerare. et esse ordinatum pre
+          <lb ed="#N" n="108"/>supponit esse distinctum: et renasci presupponit nasci: ideo necesse
+          <lb ed="#N" n="109"/>est quod ante baptismum paruulus nascatur vt sit perfecte natus secundum
+          carnen<lb ed="#N" n="110" break="no"/>sic autem distinctus non est in vtero materno: quoniam quamdiu est in
+          ven<lb ed="#N" n="111" break="no"/>tre coniungitur matrici per vmbilicum vnde recipit alimentum.
+          <lb ed="#N" n="112"/>et hec quidem ratio bona est. maxime quia consonat et ortum habet a
+          ver<lb ed="#N" n="113" break="no"/>bis sanctorum: tamen adhuc per istam rationem posset ostendi quod
+          paruu<lb ed="#N" n="114" break="no"/>lus non debet sanctificari in vtero sicut nec baptizari.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e302">
+          ⁋ Et
+          <lb ed="#N" n="115"/>propterea dicendum. quod ratio sumenda est ex parte sacramentalis remedii. quia
+          <lb ed="#N" n="116"/>enim sacramentale remedium respicit ecclesie operationem. et operatio
+          ec<lb ed="#N" n="117" break="no"/>clesie non se extendit ad paruulum nisi extra vterum: ideo nullo
+          <lb ed="#N" n="118"/>tempore nec fide parentum nec aliquo sacramento iustificatus est paruulus
+          <lb ed="#N" n="119"/>antequam natus quantum est de lege comni. quia deus decreuit saluare
+          <lb ed="#N" n="120"/>puerum per sacramentum vel aliquid quod fit in loco sacramenti. Ad hoc
+          <lb ed="#N" n="121"/>autem intelligendum. Notandum quod triplex status distinguitur in
+          <lb ed="#N" n="122"/>homine post anime infusionem. Primus est in vtero. Secundus extra
+          vte<lb ed="#N" n="123" break="no"/>rum in statu infantie. Tercius in statu etatis adulti. In
+          pri<lb ed="#N" n="124" break="no"/>mo statu manifestus est deo. In secundo manifestus est nobis.
+          <lb ed="#N" n="125"/>In tercio manifestus est sibi. In primo igitur statu cum soli deo
+          <lb ed="#N" n="126"/>sit notus potest per eius voluntatem sanctificari non per nostram
+          co<lb ed="#N" n="127" break="no"/>operationem. cum non cognoscat eum ecclesia nec sit de foro ecclesie
+          <lb ed="#N" n="128"/>In secundo statu quo notus est deo et ecclesie. remedium potest
+          habe<lb ed="#N" n="129" break="no"/>re a deo: cooperante adiutorio alieno non suo. In tercio statu
+          <lb ed="#N" n="130"/>cum sit notus omnibus modis deo et sibi et ecclesie:
+          reme<lb ed="#N" n="131" break="no"/>dium potest habere et sibi potest omnibus his modis
+          ad<lb ed="#N" n="132" break="no"/>iuuari vt non tantum deus sua virtute faciat: sed adiuuet fides
+          <lb ed="#N" n="133"/>aliena quantum ad sacramentum et fides et deuotio propria.
+          <lb ed="#N" n="134"/>Prima ergo sanctificatio est per diuinam voluntatem et per
+          <lb ed="#N" n="135"/>tinet ad singulare priuilegium. secunda vero per legem
+          da<lb ed="#N" n="136" break="no"/>tam sicut patet in circumcisione. patet etiam in baptisma
+          <lb ed="#N" n="137"/>te cum dictum est. Nisi quis renatus etc. Ioh. iii. Tercia
+          <lb ed="#N" n="138"/>est per legem inditam quam deus indidit vt ad deum
+          re<lb ed="#N" n="139" break="no"/>currat homo petere veniam pro offensa. et prima quidem
+          <lb ed="#N" n="140"/>est paucorum vtputa illorum quos deputat ad aliquod
+          ma<lb ed="#N" n="141" break="no"/>gnum officium: et sic est preter legem communem. ita enim decreuit
+          <pb ed="#N" n="126"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>diuina iusticia vt quantum est de lege communi non
+          releue<lb ed="#N" n="2" break="no"/>tur qui cecidit: nisi aliqua dispositio exterior siue
+          opera<lb ed="#N" n="3" break="no"/>tio occurrat. et paruulus quidem sicut per alium cecidit: ita
+          <lb ed="#N" n="4"/>potest per alium releuari disponendo vtpote per fidem
+          alienam<lb ed="#N" n="5" break="no"/>adultus autem per propriam sicut per propriam voluntatem
+          pecca<lb ed="#N" n="6" break="no"/>uit. Quia vero in vtero non potest per fidem alienam
+          sacramen<lb ed="#N" n="7" break="no"/>to adiuuari: quoniam non est de foro ecclesie vt nec nobis notus
+          <lb ed="#N" n="8"/>et hoc decreuit deus de lege communi: ideo nullus in ventre
+          pu<lb ed="#N" n="9" break="no"/>rificatus est nisi de priuilegio spetiali. quoniam igitur baptismus
+          <lb ed="#N" n="10"/>respicit legem communem et legem datam. ideo non debuit
+          <lb ed="#N" n="11"/>in vtero baptizari: et hec ratio communis est omnibus
+          sacra<lb ed="#N" n="12" break="no"/>mentis secundum omne tempus. Dicendum igitur quod paruulus dum
+          <lb ed="#N" n="13"/>est in vtero materno non est susceptibilis sacramenti
+          bapti<lb ed="#N" n="14" break="no"/>smalis nec per se: nec ratione matris. qui enim adhuc natus non est
+          <lb ed="#N" n="15"/>secundum adam: secundum christum regenerari non potest. sicut dicit Isiud. libro.
+          <lb ed="#N" n="16"/>senten. et accipitur ex hoc quod dicitur in euangelio.
+          Nisi<lb ed="#N" n="17" break="no"/>quis renatus etc. et iterum oportet nos nasci denuo. preex
+          <lb ed="#N" n="18"/>igitur ergo natiuitas secundum carnem secunde natiuitati que est secundum
+          <lb ed="#N" n="19"/>spiritum.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e409">
+          ⁋ Ad id vero quod obiicitur. dicendum quod licet
+          pro<lb ed="#N" n="20" break="no"/>nior sit deus ad miserendum quam ad puniendum: tamen quia cum
+          mi<lb ed="#N" n="21" break="no"/>sericordia currit iusticia: iusticia inquam que est in inflictio
+          <lb ed="#N" n="22"/>ne pene propter peccatum Ade. que continuatur quamdiu caro
+          par<lb ed="#N" n="23" break="no"/>uuli continuatur cum matre et accipit nutrimenntum ex
+          ipsa<lb ed="#N" n="24" break="no"/>tanquam pars eius quodammodo. facta autem separatione apparet
+          <lb ed="#N" n="25"/>manifeste opus misericordie diuine. et tunc posset
+          regenera<lb ed="#N" n="26" break="no"/>ri scilicet postquam iam natus est. cum enim paruulus contrahat originia
+          <lb ed="#N" n="27"/>le peccatum ex corruptione carnis viciosa: caro autem colligatur
+          <lb ed="#N" n="28"/>quamdiu est in vtero materno cum causa morbi secundum legem
+          con<lb ed="#N" n="29" break="no"/>munem subiectus est corruptioni viciose: et ideo vt possit secundum
+          <lb ed="#N" n="30"/>legem communem subiici gratie siue sacramento ex quo confertur
+          <lb ed="#N" n="31"/>gratia: exigitur separatio ab vtero materno.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e438">
+          ⁋ Ex dictis
+          pa<lb ed="#N" n="32" break="no"/>tet responsio ad id quod queritur de sanctificatione. concedo enim
+          <lb ed="#N" n="33"/>quod deus posset gratiam si vellet paruulo dare. sed per
+          sacramen<lb ed="#N" n="34" break="no"/>tum baptismi vel aliud ecclesiasticum non debet fieri. non quia
+          <lb ed="#N" n="35"/>maius sit: sed quia alius est modus qui non competit illi
+          sta<lb ed="#N" n="36" break="no"/>tui.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e452">
+          ⁋ Ad aliud vero quod obiicitur. vtrum baptizetur
+          matre<lb ed="#N" n="37" break="no"/>suscipiente baptisma: eo quod est pars eius quodammodo. Responio
+          <lb ed="#N" n="38"/>quodm non. quamcito enim vnitur anima rationalis carni. cum iam
+          pri<lb ed="#N" n="39" break="no"/>us decisum sit semen a generantibus. non iam habet
+          continu<lb ed="#N" n="40" break="no"/>itatem eandem quam habebat dum erat in compositione
+          gene<lb ed="#N" n="41" break="no"/>rantis. de illis autem pertibus intelligitur que simpliciier et
+          princi<lb ed="#N" n="42" break="no"/>paliter sunt de constitutione carnis materne.
+        </p>
+        <p xml:id="v78d89-a4bowd-d1e468">
+          ⁋ Si vero obiicitur
+          <lb ed="#N" n="43"/>per simile quoddam sumptum a lege humana. quod cum mater
+          <lb ed="#N" n="44"/>manumittitur: et partus similter per consequens. co quod partus est
+          <lb ed="#N" n="45"/>pars viscerum: et ita non videatur simile de liberatione a
+          serui<lb ed="#N" n="46" break="no"/>tute peccati. Responsio quod non est simile. baptisma enim est
+          perso<lb ed="#N" n="47" break="no"/>nalem beneficium nec personam egreditur: secus est in manumir
+          <lb ed="#N" n="48"/>sione. Dicitur autem partus viscerum pars. non quia simpliciter
+          <lb ed="#N" n="49"/>sit pars: sed quia non potest peti per interdictum de liberis
+          exhi<lb ed="#N" n="50" break="no"/>bendis. et ideo quo ad hoc dicitur esse pars viscerum in natura
+          <lb ed="#N" n="51"/>libus: et non dicitur esse omnino pars: sed quodammodo propter
+          quan<lb ed="#N" n="52" break="no"/>dam colligationem fetus cum matre.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 23, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 23, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="157"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a5pd7w"><!-- q23prae -->
+        <head xml:id="v78d89-a5pd7w-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-a5pd7w-d1e103">
+          <lb ed="#N" n="115"/>⁋ Quaestio. xxiii. 
+          de sacra<lb ed="#N" n="116" break="no"/>mentalibus in baptismo concurrentibus.
+        </p>
+        <p xml:id="v78d89-a5pd7w-d1e110">
+          <lb ed="#N" n="117"/>COnsequenter
+          que<lb ed="#N" n="118" break="no"/>ritur de sacramentalibus in baptismo
+          concurren<lb ed="#N" n="119" break="no"/>tibus et videntur numerari differenter a beato
+          <lb ed="#N" n="120"/>dyo. et rabano. in libro de institutione clerico
+          <lb ed="#N" n="121"/>rum. Et in quodam canone datur intelligi
+          al<lb ed="#N" n="122" break="no"/>ter numerus secundum beatum dyoni. Primo est exufflatio. Secum
+          <lb ed="#N" n="123"/>do signatio siue benedictio. Tercio olei sancti inunctio.
+          <lb ed="#N" n="124"/>Quarto trina immersio. Quinto vestitio. Sexto
+          crisma<lb ed="#N" n="125" break="no"/>tio in virtice et superadditur eukaristie perceptio.
+        </p>
+        <p xml:id="v78d89-a5pd7w-d1e132">
+          ⁋ Secundum vero
+          ra<lb ed="#N" n="126" break="no"/>banum primo est exufflatio cum exorcizatione. Secundo signatio
+          <lb ed="#N" n="127"/>Tercio salis in os missio. Quarto narium et aurium sputo
+          li<lb ed="#N" n="128" break="no"/>nitio. Quinto sacri olei inunctio. et dicitur illud oleum ad
+          cathe<lb ed="#N" n="129" break="no"/>cuminos. Sexto immersio. Septimo crismatio.
+        </p>
+        <p xml:id="v78d89-a5pd7w-d1e143">
+          ⁋ Alubi vero
+          <lb ed="#N" n="130"/>vt in quodam auctoritate canonis habietur. xxx. q. i. peruenit. quod primo sit sal
+          <lb ed="#N" n="131"/>immissio. dicitur enim a primo parabulo sal et sacratati. et in ingressu ecclesie
+          <lb ed="#N" n="132"/>vsque ad confirmationem per crisma. hoc est a primo vsque ad. vii. nullus
+          <lb ed="#N" n="133"/>christianus suam commatrem sumere debet. Et distiguitur ibi. Primum sal
+          <lb ed="#N" n="134"/>collatio. Secundo narium et aurium sputo linitio. Tercio in fratio
+          <lb ed="#N" n="135"/>te et pectore facta signatio. Quarto sacrati olei parunctio.
+          <lb ed="#N" n="136"/>Quinto haptismi ablutio. Sexto in virtice crismatis parunctio
+          <lb ed="#N" n="137"/>Septimo in fronte eiusdem facta consignatio. Sed vnde sumpserunt
+          <lb ed="#N" n="138"/>hunc ordinem plene non video: nisi hoc fuerit ex consuetudine
+          <lb ed="#N" n="139"/>alicuius ecclesie.
+        </p>
+        <p xml:id="v78d89-a5pd7w-d1e168">
+          ⁋ His visis primo queritur de ratione
+          <pb ed="#N" n="158"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>numeri secundum beatum dyoni. qui modum et ordinem sumpsit a
+          <lb ed="#N" n="2"/>beato thimotheo. Secundo de numero posito a
+          Rabano<lb ed="#N" n="3" break="no"/>quem nos magis sequimur. Tercio de comparatione huius
+          nume<lb ed="#N" n="4" break="no"/>ri ad illum. Quarto de differentia illius canonis. qui prius
+          po<lb ed="#N" n="5" break="no"/>nit pabulum salis. Quinto de his sacramentalibus que baptis
+          <lb ed="#N" n="6"/>mum consequuntur. Sexto vtrum extra ecclesiam fiat verum baptis
+          <lb ed="#N" n="7"/>ma. Septimo quare non iteratur baptismus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

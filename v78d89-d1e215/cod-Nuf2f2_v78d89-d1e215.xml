@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="21"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e215"><!-- q2m5 -->
+        <head xml:id="v78d89-d1e215-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-d1e215-Hd1e103" type="question-title">De sacramento decimationis</head>
+        <p xml:id="v78d89-d1e215-d1e106">
+          <lb ed="#N" n="102"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-d1e215-d1e111">
+          <lb ed="#N" n="103"/>COnsequenter queritur de sacramento decima
+          <lb ed="#N" n="104"/>tionis. Circa quod primo queritur de
+          signo<lb ed="#N" n="105" break="no"/>Secundo queritur de effectu. Tercio de tempore
+          <lb ed="#N" n="106"/>ordinationis illius sacramenti. Quarto de
+          <lb ed="#N" n="107"/>cessatione vel suo opposito.
+        </p>
+        <div xml:id="v78d89-d1e215-Dd1e124">
+          <head xml:id="v78d89-d1e215-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-d1e215-d1e128">
+            <lb ed="#N" n="108"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e215-d1e133">
+            <lb ed="#N" n="109"/>CIrca primum queritur cuius fuerit signum et secundum
+            <lb ed="#N" n="110"/>quam similitudinem. et videtur quod signum fuerit
+            <lb ed="#N" n="111"/>remissionis peccati per christum. per hoc quod dicitur ad
+            <lb ed="#N" n="112"/>Heb. vii. sumper illud quod dicitur leui esse decimatus. dicit enim
+            <lb ed="#N" n="113"/>Augustinus. Quod illud quod curabatur decimabatur. et ideo leui erat
+            <lb ed="#N" n="114"/>decimatus non christus. Restat quod decimatio fuit signum ipsius
+            <lb ed="#N" n="115"/>liberationis future per christum: que liberatio fuit ab
+            originali<lb ed="#N" n="116" break="no"/>peccato. Hoc etiam videtur per hoc quod fides cum huiusmodi oblati
+            <lb ed="#N" n="117"/>onibus in signum erat remissionis originalis peccati ante in
+            <lb ed="#N" n="118"/>stitutionem circumcisionis. Nunquam enim defuit remedium
+            origina<lb ed="#N" n="119" break="no"/>lis morbi. Dicitur etiam in historiis quod adam docuit filios
+            su<lb ed="#N" n="120" break="no"/>os offerre huiusmodi oblationes vt placaretur dominus. hoc autem ad
+            <lb ed="#N" n="121"/>quid erat nisi ad significandum liberationem per christum futuram
+          </p>
+          <p xml:id="v78d89-d1e215-d1e164">
+            <lb ed="#N" n="122"/>⁋ Contra. decima non habet similitudinem respectu ipsius
+            <lb ed="#N" n="123"/>remissionis siue liberationis. Signum autem quod est
+            sacra<lb ed="#N" n="124" break="no"/>mentum similitudinem habet respectu rei sacre cuius est
+            si<lb ed="#N" n="125" break="no"/>gnum. non ergo decima est signum liberationis fiue remissionis
+            <lb ed="#N" n="126"/>originalis peccati.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e177">
+            ⁋ Prete. qui offert decimam nouem partes
+            <lb ed="#N" n="127"/>retinet et decimam deo sanctificat. sicut ille qui offert
+            pri<lb ed="#N" n="128" break="no"/>micias partem quandam deo offerat scilicet proportionem inter
+            quadra<lb ed="#N" n="129" break="no"/>gesimam et quinquagesimam. In hoe autem videtur significari
+            si<lb ed="#N" n="130" break="no"/>militudo initii operis et consummationis quod totum deo
+            attribuen<lb ed="#N" n="131" break="no"/>dum est. Uidetur ergo quod similitudo decimationis ad
+            meri<lb ed="#N" n="132" break="no"/>tum boni operis referatur: non ad liberationem peccati siue ad
+            li<lb ed="#N" n="133" break="no"/>berationem.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e196">
+            ⁋ Ad quod dicendum est. quod decimatio prefiguratio
+            <lb ed="#N" n="134"/>fuit restaurationis humani generis. secundum partem saluandorum ad
+            <lb ed="#N" n="135"/>denarium a quo cecidit homo per peccatum originale. angeli enim in
+            nouen<lb ed="#N" n="136" break="no"/>ordinibus sunt constituti homo vero quali in decimo ordine
+            <lb ed="#N" n="137"/>sicut presignatur. xv. Luc. de muliere que habuit dragmas
+            <pb ed="#N" n="22"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>decem et perdidit vnam. Ista vero restitutio non fit ad
+            denari<lb ed="#N" n="2" break="no"/>um nisi per separationem fidelium a massa perdita. que facta est virtute
+            <lb ed="#N" n="3"/>gratie liberantis per passionem christi: sic ergo decimatio hanc separationem
+            <lb ed="#N" n="4"/>significat cum illa restitutione.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e220">
+            ⁋ Ad obiectum ergo dicendum est. quod
+            <lb ed="#N" n="5"/>similitudo attenditur inter decimationem et quasi decime partis
+            fide<lb ed="#N" n="6" break="no"/>lium separationem. Sic hic decima visibiliter offertur: ita per christum
+            in<lb ed="#N" n="7" break="no"/>uisibiliter decima pars que fuit fidelium deo offerebatur.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e229">
+            ⁋ Ad
+            se<lb ed="#N" n="8" break="no"/>cundum vero dicendum. quod decima quoddam habuit significatum. inquam
+            <lb ed="#N" n="9"/>tum presignat liberationem ab originali peccato pro tempore. et inquantum
+            <lb ed="#N" n="10"/>designat consummationem boni operis in merito. et hoc modo
+            deci<lb ed="#N" n="11" break="no"/>me et primicie secundum quod remanserunt in lege: hanc habuerunt
+            signi<lb ed="#N" n="12" break="no"/>ficationem sibi appropriatam. hic autem loquitur de illa significatio
+            <lb ed="#N" n="13"/>ne quam humit oblatio decimarum in primitiuo tempore. prout erat in
+            <lb ed="#N" n="14"/>remedium morbi: non prout erat in profectum meriti. licet facta dele
+            <lb ed="#N" n="15"/>tione originalis per gratiam conseqenter posset procedere ad profectum
+            <lb ed="#N" n="16"/>meriti. Nec est contrarium vnum et idem signum secundum diuersas
+            si<lb ed="#N" n="17" break="no"/>gnificationes: diuersa habere significata.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e215-Dd1e255">
+          <head xml:id="v78d89-d1e215-Hd1e257">Articulus 2</head>
+          <p xml:id="v78d89-d1e215-d1e259">
+            <lb ed="#N" n="18"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e215-d1e264">
+            <lb ed="#N" n="19"/>SEcundo queritur de effectu. vtrum aliquis fuerit
+            effe<lb ed="#N" n="20" break="no"/>ctus illius sacramenti. Quod videtur. baptismus enim pro
+            suo<lb ed="#N" n="21" break="no"/>tempore est in remedium perfectum. Cirruncisio etiam pro suo tempore fuit
+            <lb ed="#N" n="22"/>in remedium. pari ergo ratione oblatio que precessit cum fide debebat
+            <lb ed="#N" n="23"/>esse in remedium. oblatio autem non nisi in sacrificiis et decimis
+            <lb ed="#N" n="24"/>ergo oblatio decimarum aliquem habuit effectum.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e280">
+            ⁋ Pre. quod
+            decinia<lb ed="#N" n="25" break="no"/>batur curabatur. hoc autem non esset nisi oblatio decimarum quam
+            <lb ed="#N" n="26"/>fecit abraham tempore melchisedech aliquem effectum haberet
+            curatio<lb ed="#N" n="27" break="no"/>nis. sed quod habet effectum curationis habet aliquiod remedium contra peccatum
+            <lb ed="#N" n="28"/>vel penam peccati: ergo oblatio decimarum aliquem habebat effectum.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e291">
+            <lb ed="#N" n="29"/>Contra. beda dicit ponens similitudinem inter circumcisionem
+            <lb ed="#N" n="30"/>et baptisma. quod consimilem effectum habuit: excepto quod ianuam
+            ce<lb ed="#N" n="31" break="no"/>lestis regni non aperuit. de oblatione vero decimarum pro suo tempore
+            <lb ed="#N" n="32"/>non dicitur quod consimilem effectum habuit: non ergo videtur quod oblatio
+            <lb ed="#N" n="33"/>decimarum huiusmodi habet effectum.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e305">
+            ⁋ Pre. si habebat huiusmodi effectum
+            <lb ed="#N" n="34"/>non tantum illi qui descendunt ab abraham postea fideles curati
+            es<lb ed="#N" n="35" break="no"/>sent ab originali peccato: sed etiam alii qui erant in lumbis abrahe.
+            <lb ed="#N" n="36"/>Et si forte dicatur quod huiusmodi oblatio facta non valuit illo tempore
+            <lb ed="#N" n="37"/>nisi pro iam natis super quos ferebatur intentio offerentis. propter quiod
+            <lb ed="#N" n="38"/>non legitur quod abraham vel aliqui aliquorum fidelium pro iam natis
+            su<lb ed="#N" n="39" break="no"/>is decimas obtulerint.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e321">
+            ⁋ Ad quod dicendum. quod sacramentum
+            decimati<lb ed="#N" n="40" break="no"/>onis non habuit ex se effectum suum quem significabat.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e326">
+            ⁋ Ad ob
+            <lb ed="#N" n="41"/>lectum in contrarium dicendum est. quod non fuit simile de sacrificiis et
+            <lb ed="#N" n="42"/>decimis et circumcisione et baptismo. secundum enim difctrias temporum
+            <lb ed="#N" n="43"/>fuit differentia in sacramentis. Primo enim fuerunt
+            sacramen<lb ed="#N" n="44" break="no"/>ta ad significandum: deinde ad efficiendum. Ad efficiendum
+            <lb ed="#N" n="45"/>autem dupliciter. Primo modo secundum quod fuit in circumcisione. Secundo
+            <lb ed="#N" n="46"/>secundum quod fuit in baptismo. Quia ergo sacramentum decimationis de
+            <lb ed="#N" n="47"/>primis fuit: ad significandum fuit ordinatum. et si ibi fuit
+            effe<lb ed="#N" n="48" break="no"/>ctus: aliunde fuit. recte igitur assignatur differentia huius
+            sacra<lb ed="#N" n="49" break="no"/>menti ad alia duo.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e348">
+            ⁋ Ad secundum dicendum. quod licet illud quod
+            deci<lb ed="#N" n="50" break="no"/>mabatur curabatur. non tamen decima faciebat illum effectum: sed
+            si<lb ed="#N" n="51" break="no"/>gnificabat illum fieri per christum. Decima enim nihil aliud fuit
+            <lb ed="#N" n="52"/>quam presignatio liberationis future per christum. Potest aliter
+            dici<lb ed="#N" n="53" break="no"/>secundum hugo. quod oblatio decimarum fuit remedium contra originale
+            <lb ed="#N" n="54"/>peccatum. Nec facit beda mentionem de decimis: quia intendit
+            so<lb ed="#N" n="55" break="no"/>lummodo comperare sacramentum circumcisionis ad sacramentum
+            ba<lb ed="#N" n="56" break="no"/>ptismi. Nec facit scriptura mentionem de remedio
+            decima<lb ed="#N" n="57" break="no"/>rum contra originale: quia non fuit ad hoc instituta decima: sed
+            <lb ed="#N" n="58"/>potius instincta. vt dicit hug. sicut fuit de sacrificio.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e215-Dd1e371">
+          <head xml:id="v78d89-d1e215-Hd1e373">Articulus 3</head>
+          <p xml:id="v78d89-d1e215-d1e375">
+            <lb ed="#N" n="59"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-d1e215-d1e380">
+            <lb ed="#N" n="60"/>TErcio queritur de tempore ordinationis huius
+            sacramenti<lb ed="#N" n="61" break="no"/>videtur enim quod incepisse debuisset ab adam. quia
+            medi<lb ed="#N" n="62" break="no"/>cina aliqua debebat currere cum morbo. morbus ter
+            <lb ed="#N" n="63"/>cepit ab adam. in adam omnes peccauimus: ergo aliqui
+            medi<lb ed="#N" n="64" break="no"/>cina contra morbum tunc temporis debebat dari. Si ergo medicina ista
+            <lb ed="#N" n="65"/>fuit sacramentum decime: vt configuretur homo ad sacramentum significatum
+            <lb ed="#N" n="66"/>per decimam: tunc adam primo debuit offerre decimas.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e398">
+            ⁋ Si forte
+            <lb ed="#N" n="67"/>diceretur quod adam iniellexit illud remedium originalis peccati per
+            in<lb ed="#N" n="68" break="no"/>spirationem diuinam. nec opertuit aliud signum habere. Tunc queritur
+            <lb ed="#N" n="69"/>quare filii eius non primo obtulerunt decinas sicut leguntur obtulisse
+            pri<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>micias. sed de primiciis legitur ante diluuium: de decimis vero pots
+          </p>
+          <p xml:id="v78d89-d1e215-d1e410">
+            <lb ed="#N" n="71"/>⁋ Item si post diluuium competebat sacramentum deciniarum. quare non legitur de
+            <lb ed="#N" n="72"/>noe quod ipse obtulerit decinias. sed abraham legitur esse primus qui
+            deci<lb ed="#N" n="73" break="no"/>mas obtulit.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e420">
+            ⁋ Ad hoc etiam quod prius offerre debuit adam et filii
+            <lb ed="#N" n="74"/>eius. videtur facere quod dicit magister in historiis quod creditur adam in spiritu
+            docu<lb ed="#N" n="75" break="no"/>isse filios vt deo offerrent decinias et primicias.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e427">
+            ⁋ Ad primum
+            <lb ed="#N" n="76"/>dicendum. quod nunquam defuit medicina etiam tempore legis nature. quia gratia
+            fi<lb ed="#N" n="77" break="no"/>dei nunquam defuit. et hec fuit velis medicina que semper durauit ex
+            <lb ed="#N" n="78"/>qua fuit purgatio macule originalis.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e436">
+            ⁋ Ad illud vero quod obicitur.
+            qua<lb ed="#N" n="79" break="no"/>re vltra istud remedium generale datum fuit signum sensibile.
+            <lb ed="#N" n="80"/>Responsio. quod non omnes erant mente spirituali prediti vt intelligerent illud
+            <lb ed="#N" n="81"/>spirituale remedium. et quia inclinati erant ad sensibilia data est
+            no<lb ed="#N" n="82" break="no"/>ticia fidelibus. vt per signa sensibilia manuducerentur ad
+            reme<lb ed="#N" n="83" break="no"/>dium intelligibile. et diuersa signa data sunt secundum diuersa tempora
+            <lb ed="#N" n="84"/>Pro quodam enim tempore obtulerunt primicias sicut factum ante diluuium
+            <lb ed="#N" n="85"/>fuit sicut habetur de abel. sicut enim qui dat primicias deo. partem mino
+            <lb ed="#N" n="86"/>rem offert et maiorem retinet: ita significatur quod dominus
+            diminu<lb ed="#N" n="87" break="no"/>it. de concupiscentia originali. maior tamen pars
+            concupiscen<lb ed="#N" n="88" break="no"/>cie remanet. Quia vero creuit languor concupiscentie. non
+            so<lb ed="#N" n="89" break="no"/>lum ex originali peccato: sed ex actualibus carnalibus. et
+            spiri<lb ed="#N" n="90" break="no"/>tualibus vsque ad tempus abrahe. Nam carnalis peccati
+            mul<lb ed="#N" n="91" break="no"/>tiplicatio fuit vsque ad diluuium. spiritualis vero peccati post
+            di<lb ed="#N" n="92" break="no"/>luuium sicut in edificantibus turrim babel: recte abraham
+            <lb ed="#N" n="93"/>cui dictum est quod egrederetur de terra sua etc. qui credidit
+            do<lb ed="#N" n="94" break="no"/>et reputatum est ei ad iusticiam: obtulit decimas. ad
+            designan<lb ed="#N" n="95" break="no"/>dum quod sicut maiorem partem offert qui offert decimas quam qui
+            <lb ed="#N" n="96"/>offert primicias: ita significaretur post crementum
+            concupiscen<lb ed="#N" n="97" break="no"/>tie maior diminutio. et sicut ille obtulit primicias pro
+            di<lb ed="#N" n="98" break="no"/>minutione originalis concupiscentie: ita iste obtulit decimas
+            <lb ed="#N" n="99"/>pro diminutione concupiscentie ex originali et actualibus acte. Sic
+            <lb ed="#N" n="100"/>ergo patet qualiter oblationes que erant in portionibus rerum erant
+            <lb ed="#N" n="101"/>in remedium originalis peccati secundum temporis difcterias. ex his patet
+            <lb ed="#N" n="102"/>quare de adam non legitur quod obtulit decimas et primicias:
+            <lb ed="#N" n="103"/>de abel legitur quod obtulit primicias: qui ptus adam primus vere
+            fi<lb ed="#N" n="104" break="no"/>delis fuit ante diluuium. patus diliuuium et pro gressum ydolatrie
+            <lb ed="#N" n="105"/>primus qui obtulit decimas abraham et per hoc soluuntur obiecta.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e215-Dd1e498">
+          <head xml:id="v78d89-d1e215-Hd1e500">Articulus 4</head>
+          <p xml:id="v78d89-d1e215-d1e502">
+            <lb ed="#N" n="106"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-d1e215-d1e507">
+            <lb ed="#N" n="107"/>COnsequenter procedendum est ad quartam quostionem qua
+            <lb ed="#N" n="108"/>queritur. quare non cessauerunt decime. videtur enim quod
+            <lb ed="#N" n="109"/>debuerunt cessare. sicut enim adueniente baptismo
+            <lb ed="#N" n="110"/>cessauit circumcisio: ita adueniente circumcisione videtur quod
+            <lb ed="#N" n="111"/>debuerunt cessare decime. cum in remedium eiusdem essent et
+            perfe<lb ed="#N" n="112" break="no"/>ctius videbatur circumcisio.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e523">
+            ⁋ Preterea. adueniente veritate
+            <lb ed="#N" n="113"/>signata: cessare congruebat signum quod ducebat ad significatum.
+            <lb ed="#N" n="114"/>ergo cum veritas significata per decimas esset liberatio
+            futu<lb ed="#N" n="115" break="no"/>ra per christum passum: recte tunc cessare debebat decimatio secundum
+            <lb ed="#N" n="116"/>illud signa recesserunt significata remanent.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e534">
+            ⁋ Item primicie
+            <lb ed="#N" n="117"/>pluribus locis cessauerunt et fit commutatio in oblationes
+            quoti<lb ed="#N" n="118" break="no"/>dianas. pari ergo ratione debuit fieri cessio decimarum vel
+            commu<lb ed="#N" n="119" break="no"/>tatio.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e544">
+            ⁋ Ad quod dicendum. quod non est similis comparatio decimarum ad
+            <lb ed="#N" n="120"/>circumcisionem et circumcisionis ad baptismum. mutatumque
+            <lb ed="#N" n="121"/>est graue in leue. cum successit baptisma circumcisioni. de il
+            <lb ed="#N" n="122"/>lo enim onere legis dictum est. hoc est onus quod nec nos nec
+            <lb ed="#N" n="123"/>patres nostri portare potuimus. xv. act. de alio dictum est. xi
+            <lb ed="#N" n="124"/>Math. Iugum meum suaue est et onus meum leue. cum autem
+            <lb ed="#N" n="125"/>decimationi accessit circumcisio minus graui adiunctum est
+            <lb ed="#N" n="126"/>magis graue. magis enim graue est vt de corpore suo aliquid
+            <lb ed="#N" n="127"/>dematur vel subtrahatur: quam vr subtrahatur de rebus: et ideo
+            <lb ed="#N" n="128"/>hoc cum illo mansit. et decime alium habuerunt effectum. sicut
+            osten<lb ed="#N" n="129" break="no"/>ditur in lege moysi Nume. xviii. date enim erant in
+            sustenta<lb ed="#N" n="130" break="no"/>tionem leuitarum. Preterea. decimatio erat quasi de lege nature. Lex
+            <lb ed="#N" n="131"/>autem nature inclinabat et in timorem qui erat legis veteris
+            pricipali<lb ed="#N" n="132" break="no"/>ter: et in amorem qui erat legis noue principaliter. sicut ergo lex
+            <lb ed="#N" n="133"/>nature mansit cum lege veteri et cum lege noua: ita decimatio
+            <lb ed="#N" n="134"/>mansit cum vtraque. et sicut timor seruilis euacuatur per amorem: ita
+            <lb ed="#N" n="135"/>lex vetus per nouam legem est impleta.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e581">
+            ⁋ Ad secundum dicendum est. quod licet sigit
+            <lb ed="#N" n="136"/>tum per decimationem venerit: nihilominus non completum fuit signum
+            <lb ed="#N" n="137"/>quantum ad hoc. quod facta fuit completio denarii per quam ruina
+            angelica<lb ed="#N" n="138" break="no"/>restauraretur. de qua dicitur in psalmus. Iudicabit in nationibus implebit
+            <lb ed="#N" n="139"/>ruinas. Preterea. manet etiam quantum ad alium vsum decimatio in
+            le<pb ed="#N" n="23"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>ge noua sicut fuit ad alium vsum in lege veteri Nume. xvii.
+          </p>
+          <p xml:id="v78d89-d1e215-d1e597">
+            <lb ed="#N" n="2"/>⁋ Ad tercium dicendum est. quod non est simile de primiciis et decimis
+            <lb ed="#N" n="3"/>Decima enim certam partem designat: primicie vero non designa
+            <lb ed="#N" n="4"/>bant certam quantitatem in parte. sed sicut dicitur in decretali. pars
+            pri<lb ed="#N" n="5" break="no"/>miciarum fuit inter quadragesimam et quinquagesimam: et ideo
+            conuenien<lb ed="#N" n="6" break="no"/>ter fiebat mutatio in oblationes quotidianas siue solennitatum
+            <lb ed="#N" n="7"/>determinatarum secundum consuetudinem alicuius terre. signum tamen quoddam
+            <lb ed="#N" n="8"/>per decimas futurum est: propter quod conuenienter adhuc manet
+            si<lb ed="#N" n="9" break="no"/>gnum. sed signatum per primicias ablatum est. Ille enim
+            significa<lb ed="#N" n="10" break="no"/>batur qui fuit primicie dormientium. signantur etiam bonorum
+            ope<lb ed="#N" n="11" break="no"/>rum initia que signa sunt impleta. et ideo primicie in ratione
+            <lb ed="#N" n="12"/>primiciarum non manserunt sed in lege veteri et lege nature.
+            re<lb ed="#N" n="13" break="no"/>manserunt. significant enim quod impletum est quemadmodum
+            <lb ed="#N" n="14"/>lex erat impleta.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

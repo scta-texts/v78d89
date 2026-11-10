@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 91, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 91, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="582"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-agef24"><!-- q91m2 -->
+        <head xml:id="v78d89-agef24-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-agef24-Hd1e103" type="question-title">Utrum conveniat beatis orare scilicet angelis et animabus</head>
+        <p xml:id="v78d89-agef24-d1e106">
+          <lb ed="#N" n="52"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-agef24-d1e111">
+          <lb ed="#N" n="53"/>COnsequenter queritur. vtrum conueniat beatis orare scilicet
+          <lb ed="#N" n="54"/>an anglolis et animabus. et hoc prio. Secundo quomo orant
+          <lb ed="#N" n="55"/>beate anime. Tercio si sancti angeli offerant
+          pre<lb ed="#N" n="56" break="no"/>ces nostras deo et quomo.
+        </p>
+        <div xml:id="v78d89-agef24-Dd1e122">
+          <head xml:id="v78d89-agef24-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-agef24-d1e126">
+            <lb ed="#N" n="57"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-agef24-d1e131">
+            <lb ed="#N" n="58"/>AD primum proceditur sic ad partem affirmatiuam. legitur
+            <lb ed="#N" n="59"/>CTobie. xii. quando orabas cum lacrimis et sepeliebas
+            <lb ed="#N" n="60"/>mortuos. ego dbtuli oratioem tuam domino. et constat quod ad
+            promouen<lb ed="#N" n="61" break="no"/>dum. Sed recitare aliquid pro bono alterius est quoddam
+            supplica<lb ed="#N" n="62" break="no"/>re: ergo videtur quod angeli supplicant pro nobis siue orant.
+          </p>
+          <p xml:id="v78d89-agef24-d1e144">
+            ⁋ Pre.
+            da<lb ed="#N" n="63" break="no"/>nielis. x. super illud. Et ego veni propter sermones tuos. glo. potus
+            <lb ed="#N" n="64"/>quam cepisti lacrimis. ieiunio et oratioibus inuocare manum dei. ego
+            <lb ed="#N" n="65"/>occasionem accepi vt pro te oraturus ingrederer in conspectu dei. in
+            <lb ed="#N" n="66"/>persona angloi loquitur.
+          </p>
+          <p xml:id="v78d89-agef24-d1e155">
+            ⁋ Pre. infra super illud. nemo est adiutor
+            <lb ed="#N" n="67"/>meus nisi michael. glo. in oratioibus pro nobis ad deum.
+          </p>
+          <p xml:id="v78d89-agef24-d1e161">
+            ⁋ Pre. numeri
+            <lb ed="#N" n="68"/>xxv. super illud. Initiatus est isrlis beelphegor. glo. adest vnicuique
+            <lb ed="#N" n="69"/>nostrum angulolus qui regat moneat. qui pro actibus nostris corrigendis et
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>miserationibus expostulandis quotidie videat faciem dei. hoc plane
+            <lb ed="#N" n="71"/>habetur quod angllus bonus exposcit pro miseriis nostris releuandis. et hoc
+            <lb ed="#N" n="72"/>nihil aliud est quam orare.
+          </p>
+          <p xml:id="v78d89-agef24-d1e177">
+            ⁋ Pre. petit ecclesia a beatis angelis vt pro
+            <lb ed="#N" n="73"/>nobis deum depreicentur. quod frustra faceret nisi ipsorum oratio apud deum
+            <lb ed="#N" n="74"/>posset impetrare.
+          </p>
+          <p xml:id="v78d89-agef24-d1e184">
+            ⁋ Pre. istud idem videtur posse ostendi de sanctis animabus
+            <lb ed="#N" n="75"/>quia cum orare maxime pro afflictis sit misericordie. et misericordia in sanctis
+            <lb ed="#N" n="76"/>respectu nostre afflictionis perseueret. sicut plane dicit beatus Augustinus de
+            <lb ed="#N" n="77"/>ci. dei. lib. xxi. c. xviii. neque enim credendum tunc amissuros sanctos
+            <lb ed="#N" n="78"/>viscerea misericordie. quando nullum ceperint habere peccatum. igitur et oratio.
+          </p>
+          <p xml:id="v78d89-agef24-d1e195">
+            ⁋ Pre.
+            <lb ed="#N" n="79"/>in seruiusmode de oratioe et ieiunio. dicit Augustinus. quod oratio est coniunctio
+            spiritmui<lb ed="#N" n="80" break="no"/>sancto: si tamen in oratione sit intentus animus. oratio igitur perseuerans iungit
+            <lb ed="#N" n="81"/>deo atet ita gaudens assistere se domino gloriantur. hec Augustinus. Ex pria
+            <lb ed="#N" n="82"/>pate huiusmodi auctoritatis videtur quod si oratio est coniunctio spirituisancto: ergo vbi
+            ma<lb ed="#N" n="83" break="no"/>ior erit coniunctio. ibi maxime oratio. hoc autem est in beatis. Pre. ex al
+            <lb ed="#N" n="84"/>tera parte. si oratio est maxime quando animus intentus est et sibi et deo. ideo
+            <lb ed="#N" n="85"/>cum beatus nullatenus sit distractus. sed totaliter deo intentus et sibi: ergo
+            <lb ed="#N" n="86"/>et maxime ibi oratio. Pre. ex fme auctoritatis si ex assistentia coram
+            do<lb ed="#N" n="87" break="no"/>generatur gaudium et gloria in orante. ergo vbi maior assistentia: ibi
+            <lb ed="#N" n="88"/>maior orandi materia. hoc autem est in beatis.
+          </p>
+          <p xml:id="v78d89-agef24-d1e219">
+            ⁋ Pre. Apoca. vi.
+            <lb ed="#N" n="89"/>dicitur. quod vidit Iohnes sub altare dei animas interfectorum propter
+            ver<lb ed="#N" n="90" break="no"/>bum dei clamantium. Uindica domine sanguinem nostum etc. hic habetur
+            o<lb ed="#N" n="91" break="no"/>orant beati pro executione iusticie.
+          </p>
+          <p xml:id="v78d89-agef24-d1e228">
+            ⁋ Pre. ecclesia orat sanctos vt
+            pro<lb ed="#N" n="92" break="no"/>ea dominum depreocentur dicens. omns sancti tui quesumus domine nos vbique
+            <lb ed="#N" n="93"/>letificent. vt dum eorum merita recolimus patrocinia sentiamus.
+            <lb ed="#N" n="94"/>nec frustra: ergo vt prius. Quatuor rationes sequentes sunt communiter
+            <lb ed="#N" n="95"/>de omnibus beatis.
+          </p>
+          <p xml:id="v78d89-agef24-d1e240">
+            ⁋ Pre. maxime beati conformant voluntatem suam
+            volun<lb ed="#N" n="96" break="no"/>tati diuine. ergo videtur quod petere dmint quicquid sciunt deum velle.
+          </p>
+          <p xml:id="v78d89-agef24-d1e245">
+            ⁋ Pre
+            <lb ed="#N" n="97"/>amicicia videtur esse ratio impetrandi siue amor. sicut dicit glo. super
+            il<lb ed="#N" n="98" break="no"/>lud psalmus. delectare in domino et dabit tibi petitiones cordis tui.
+            <lb ed="#N" n="99"/>glo. vt ames quem times spreta mundi iocunditate. sed beati
+            ma<lb ed="#N" n="100" break="no"/>xime sunt deo coniuncti per amorem: ergo si rogant impetrabunt. sed tales
+            <lb ed="#N" n="101"/>maxime decet orare.
+          </p>
+          <p xml:id="v78d89-agef24-d1e258">
+            ⁋ Pre. i. Ioh. vl. habetur. quod si quis scit fratrem
+            <lb ed="#N" n="102"/>suum peccare peccatum voti ad mortem. petat et dabitur ei vita. et ex
+            <lb ed="#N" n="103"/>ponit glo. de iusto. Iusticia ergo est ratio impetrandi. sed beati sunt in ergo
+            <lb ed="#N" n="104"/>du suprime iusticie: ergo vt prius.
+          </p>
+          <p xml:id="v78d89-agef24-d1e267">
+            ⁋ Pre. contemplatio et si sit in via
+            <lb ed="#N" n="105"/>et in patria perfectius tamen est in patria quam in via. quod patet per
+            diffini<lb ed="#N" n="106" break="no"/>tionem ipsius que est liber et prospicax intuitus animi in deum defixus
+            <lb ed="#N" n="107"/>hoc autem magis est in patria quam in via. Si ergo oratio secundum hug. est pars
+            <lb ed="#N" n="108"/>contemplationis. magis in patria erit quom in via. ergo erit in
+            ange<lb ed="#N" n="109" break="no"/>lis et in animabus sanctis.
+          </p>
+          <p xml:id="v78d89-agef24-d1e280">
+            ⁋ Contera. oratio est ascensus intellectus ad
+            <lb ed="#N" n="110"/>deum. qui autem sunt in suprimo graodu ascensionis vtpote beati angloi. et anime
+            <lb ed="#N" n="111"/>ascendere altius non posunt: ergo intellectus eorum ascendere non potest.
+          </p>
+          <p xml:id="v78d89-agef24-d1e287">
+            <lb ed="#N" n="112"/>⁋ Pre. augustinus. ad probam de orando deo. porro si nulla est temptatio:
+            <lb ed="#N" n="113"/>nulla etura oratio. sed in beatis nihil tale: ergo etc.
+          </p>
+          <p xml:id="v78d89-agef24-d1e295">
+            ⁋ Pre. ans. in fine pro
+            <lb ed="#N" n="114"/>solo. dicit. quod beati sunt omnipotentes sue voluntatis. Sed augustinus. de
+            <lb ed="#N" n="115"/>correptione et gratia dicit. quod nemo querit ab alio quod per se habet. nullus
+            <lb ed="#N" n="116"/>ergo orat pro eo quod habet in sua potstate. cum ergo sint omnipotentes nihil
+            <lb ed="#N" n="117"/>petunt.
+          </p>
+          <p xml:id="v78d89-agef24-d1e306">
+            ⁋ Pre. voluntas beatorum est conformis diuine voluntati. ergo ni
+            <lb ed="#N" n="118"/>hil petunt a deo nisi quod sciunt ipsum velle. ergo si non peterent illud:
+            <lb ed="#N" n="119"/>adhuc impleretur. frustra igitur peterent. ergo etc.
+          </p>
+          <p xml:id="v78d89-agef24-d1e313">
+            ⁋ Pre. oratio
+            imperfecti<lb ed="#N" n="120" break="no"/>onem semper importat in orante. quia pro eo oramus quod desideramus nec
+            ha<lb ed="#N" n="121" break="no"/>bemus. Nunquam enim est orandum vbi desiderium est completum. Glia autem
+            si<lb ed="#N" n="122" break="no"/>ne vita beata perfectio est ac adimpletio omnium desideriorum: ergo in illa
+            <lb ed="#N" n="123"/>non oratur.
+          </p>
+          <p xml:id="v78d89-agef24-d1e324">
+            ⁋ Si dicatur quod omnes iste auctoritates loquuntur de oratione que
+            <lb ed="#N" n="124"/>quis orat pro se. et bene verum est quod angeli et beate anime non orant pro
+            se<lb ed="#N" n="125" break="no"/>sed pro nobis. Contra. vident seu cognoscant diuinam voluntatem. ergo
+            sci<lb ed="#N" n="126" break="no"/>unt vtrum faciendum erat quod petunt vel non. si sciunt quid faciunt.
+            <lb ed="#N" n="127"/>frustra petunt. quod si non peterent: adhuc fieret. si non faciendum
+            pe<lb ed="#N" n="128" break="no"/>tunt discordant a dei voluntate quod falsum est. Si dicas quod nesciunt
+            <lb ed="#N" n="129"/>diuinam voluntatem. sequitur inconueniens. quod sunt in cognitione
+            imperfecta<lb ed="#N" n="130" break="no"/>cum dicat Gre. quid est quod non vident qui videntem omnia vident.
+          </p>
+          <p xml:id="v78d89-agef24-d1e342">
+            ⁋ Pre.
+            <lb ed="#N" n="131"/>ille pro quo orat sanctus. aut est dignus exaudiri quantum est de se: aut
+            indi<lb ed="#N" n="132" break="no"/>gnus. Si dignus: ergo siue sanctus oret siue non: exaudietur orans pro
+            <lb ed="#N" n="133"/>seipso: ex quo dignus est exaudiri. frustra ergo orat sanctus si non est
+            <lb ed="#N" n="134"/>dignus. ergo non exaudietur orans pro eo. quoniam indignitas eius pro quo oratur
+            <lb ed="#N" n="135"/>impedit orationis effectum. sicut plane dicunt sancti. et dicit Ioh in
+            <lb ed="#N" n="136"/>sua canonica. prima in fine. est peccatum ad mortem. non dico vt pro
+            <lb ed="#N" n="137"/>eo quis oret. Et hiere. vii. Noli orare pro populo hoc. q. d. frustratur
+            <lb ed="#N" n="138"/>oratio pro talibus propter suam indignitatem.
+          </p>
+          <p xml:id="v78d89-agef24-d1e362">
+            ⁋ Pre. si sancti orant
+            pro<lb ed="#N" n="139" break="no"/>nobis et impetrant nobis bona spiritalia: quia aliter frustra orarent
+            <lb ed="#N" n="140"/>nisi aliqua nobis impetrarent: istud quod nobis impetrant: impetrant
+            exigen<pb ed="#N" n="583"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tiam suorum meritorum. Sed si hoc: aut hoc est merito preterito
+            <lb ed="#N" n="2"/>eorum aut presenti. si preterito quod saltem videtur probabile: quia dum
+            viue<lb ed="#N" n="3" break="no"/>rent meruerunt vt si post mortem pro nobis orarent. nobis gratiam
+            impe<lb ed="#N" n="4" break="no"/>trarent. Contra illud sic obicitur. quicquid sancti meruerunt necessarium
+            <lb ed="#N" n="5"/>est eos meruisse. quia omne verum de preterito necessarium est. et tunc
+            si<lb ed="#N" n="6" break="no"/>ne calumnia quando de futuro non dependet. et quicquid non meruerunt
+            <lb ed="#N" n="7"/>necessarium est eos non meruisse. ergo quicquid meruerunt nobis sancti
+            <lb ed="#N" n="8"/>vel non meruerunt: necessarium est eos meruisse nobis. vel non
+            <lb ed="#N" n="9"/>meruisse nobis. ergo impossibile est aliter se habere etiam si
+            mo<lb ed="#N" n="10" break="no"/>do pro nobis orarent. quia omne necessarium est impossibile aliter se
+            <lb ed="#N" n="11"/>habere. Si meritis presentibus: sic sancti modo nihil merentur. quia non
+            <lb ed="#N" n="12"/>sunt in statu merendi. ergo nihil est de dicto quod sancti nobis impetrarent
+            <lb ed="#N" n="13"/>seu impetrent orando pro nobis.
+          </p>
+          <p xml:id="v78d89-agef24-d1e400">
+            ⁋ Responio. ad hoc dici potestu. quod est orare pro
+            <lb ed="#N" n="14"/>se et pro alid. Cum ergo queritur. vtrum sancti angeli et anime beate orent.
+            con<lb ed="#N" n="15" break="no"/>cedendum quod orant et pro se et pro nobis. Sed cum oratio sit pro
+            mal<lb ed="#N" n="16" break="no"/>amouendis et bonis adipiscendis. prout large accipitur esse oratiois
+            <lb ed="#N" n="17"/>orant sancti pro nobis tam pro bomnis adipiscendis quam pro malis amouendis.
+            <lb ed="#N" n="18"/>sed pro se orant non pro malis amouendis: quia nullum est in eis
+            <lb ed="#N" n="19"/>malum. sed pro bonis tantum adipiscendis. orant enim pro
+            bono<lb ed="#N" n="20" break="no"/>habito vt continuetur: tam anime beate quam angeli sancti.
+            Ani<lb ed="#N" n="21" break="no"/>me autem pro non habito vt habeatur sicut pro restitutione
+            <lb ed="#N" n="22"/>corporis sui. a quo in parte glorie dependet perfectio ipsarum
+            <lb ed="#N" n="23"/>sicut expresse dicit Augustinus in fine super Gen. xii. ad literam.
+            Si<lb ed="#N" n="24" break="no"/>quem mouet quid opus sit spiritibus defunctorum corpora
+            sua<lb ed="#N" n="25" break="no"/>in resurrectione recipere: si potest eis sine corporibus etiam
+            <lb ed="#N" n="26"/>summa illa beatitudo preberi. difficilior quidem questio est quam
+            <lb ed="#N" n="27"/>vt perfecte possit hic sermone finiri. sed cum minime dubitam
+            <lb ed="#N" n="28"/>dum est. et raptam hominis a sensibus carnis mentem. et post mortem
+            <lb ed="#N" n="29"/>ipsam carne deposita transcendit similitudinibus corporalium. non
+            <lb ed="#N" n="30"/>sic videre posse in commutabilem substantiam. vt sancti angeli vident
+            <lb ed="#N" n="31"/>siue alia letiore causa. siue ideo quia inest eis naturalis qui
+            <lb ed="#N" n="32"/>dam appetitus corpus administrandi. quo appetitu retardantur quo
+            <lb ed="#N" n="33"/>dammodo. ne tanta intentione pergant in illud summum celum. quamdiu
+            <lb ed="#N" n="34"/>non subest corpus cuius administratione appetitus ille conquiescat.
+            <lb ed="#N" n="35"/>hec Augustinus. et expressius dicit hoc Bern. de diligendo deo. quod
+            si<lb ed="#N" n="36" break="no"/>ne corporibus suis nec volunt nec valent consummari. orant etiam
+            <lb ed="#N" n="37"/>pro consummatione numeri electorum. et pro iusticia de reprobis
+            ex<lb ed="#N" n="38" break="no"/>equendi. nec tamen in aliqua imperfectione sunt. quia habent quicquid
+            <lb ed="#N" n="39"/>debent pro statu habere.
+          </p>
+          <p xml:id="v78d89-agef24-d1e459">
+            ⁋ De angelis quod orant pro nobis. plane
+            pro<lb ed="#N" n="40" break="no"/>bant superadducte rationes. inter quas illa. de glo. numerorum. xxv.
+            <lb ed="#N" n="41"/>plane tangit modum orationis ipsorum pro nobis que dicit sic.
+            vnicui<lb ed="#N" n="42" break="no"/>que nostum angelus bonus qui regat moueat qui pro actibus nostris
+            cor<lb ed="#N" n="43" break="no"/>rigendis et miserationibus exposcendis. ecce boni promotio.
+          </p>
+          <p xml:id="v78d89-agef24-d1e470">
+            <lb ed="#N" n="44"/>⁋ De sanctis autem animabus. quod orent et pro corporibus suis
+            rehaben<lb ed="#N" n="45" break="no"/>dis et pro iusticia exequenda plane dicit greg. lib. ii. moralis.
+            ex<lb ed="#N" n="46" break="no"/>ponens illud Apoca. vi. Uidi sub altare dei etc. vbi dicit.
+            <lb ed="#N" n="47"/>animas vindictam petere: est diem iudicii et resurrectionem
+            cor<lb ed="#N" n="48" break="no"/>porum extinctorum desiderare. dicitur enim quod magnus eorum clamor:
+            <lb ed="#N" n="49"/>est magnum desiderium aimarum. et verba ista sunt eorum desideria.
+            Si<lb ed="#N" n="50" break="no"/>militer quod orant pro consummatione numeri electorum. plane dicit ibidem
+            <lb ed="#N" n="51"/>quod et de angelis similiter potest intelligi. et etiam pro bono habito vt
+            <lb ed="#N" n="52"/>continuetur. Unde dicit greg. cum aliter moueri soleat mens que
+            pe<lb ed="#N" n="53" break="no"/>tit: aliter que petitur: et sanctorum anime. ita in interni secreti sinu deo
+            <lb ed="#N" n="54"/>inhereant: vt inherendo requiescant. quomodo dicuntur
+            pete<lb ed="#N" n="55" break="no"/>re quos ab interna voluntate constat nullatenus discrepare:
+            quo<lb ed="#N" n="56" break="no"/>modo dicuntur petere quas et voluntatem dei certum est et ea que
+            <lb ed="#N" n="57"/>futura sunt non ignorare: sed in ipso posite ab ipso aliquid petere
+            <lb ed="#N" n="58"/>dicuntur: non quod quicquam desiderent quod ab eius quam cernant
+            <lb ed="#N" n="59"/>voluntate discordat: sed quo mente ardentius inherent. eo etiam
+            <lb ed="#N" n="60"/>de ipso accipiunt vt ab ipso petant quo eum facere velle noue
+            <lb ed="#N" n="61"/>runt. de ipso ergo bibunt et ab ipso sitiunt et modo nobis in
+            compra<lb ed="#N" n="62" break="no"/>hensibili in hoc quod petendo esuriunt presciendo satiantur.
+            discor<lb ed="#N" n="63" break="no"/>darent ergo a voluntate conditoris: si que eum vident velle non peterent.
+            <lb ed="#N" n="64"/>eique minus inhererent si volentem dari pigriori pulsarent deside
+            <lb ed="#N" n="65"/>rio. Hic plane habetur de petitione boni habiti vt continuetur quod
+            no<lb ed="#N" n="66" break="no"/>tatur cum dixit. de ipso bibunt quod ab ipso sitiunt. Sequitur. quibus
+            <lb ed="#N" n="67"/>responsum diuinitus dicitur. requiescite tempus adhuc modicum: donec
+            con<lb ed="#N" n="68" break="no"/>pleatur numerus conseruorum et fratrum nostrorum desiderantibus animabus
+            <lb ed="#N" n="69"/>requiescere. Adhuc modicum dicere est. inter ardorem desiderii ex
+            <lb ed="#N" n="70"/>ipsa prescientia solatium consolationis inspirare. vt et animarum
+            <lb ed="#N" n="71"/>nostrarum sit quod amantes desiderant. et respondentis dei sermo
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>sit hoc quod eas retributionis certitudine inter desideria
+            con<lb ed="#N" n="73" break="no"/>firmat. hec greg. Ecce quod orant pro adimpletione numeri
+            electo<lb ed="#N" n="74" break="no"/>rum.
+          </p>
+          <p xml:id="v78d89-agef24-d1e542">
+            ⁋ Ad illud quod obicitur. quod amplius ascendere non posunt. potest
+            di<lb ed="#N" n="75" break="no"/>ci quod diffinitio Dam. data est prout conuenit pure viatori. Unde
+            <lb ed="#N" n="76"/>obiectio nihil facit ad propositum. vel etiam supposito quod non conue
+            <lb ed="#N" n="77"/>niat comprehensoribus: dicendum quod non opertet quod semper quando
+            <lb ed="#N" n="78"/>oramus quod intellectus eleuetur amplius in deum quam antea eleuabatur.
+            <lb ed="#N" n="79"/>sed bene verum est quod eleuatur propter aliud scilicet ad petendum aliquid a deo
+            <lb ed="#N" n="80"/>quod innuit Dam. quando sub distinctione dicit. Oratio est ascensus
+            in<lb ed="#N" n="81" break="no"/>tellectus in deum vel petitio decentium a deo. Uel dicendum. quod quam
+            <lb ed="#N" n="82"/>tumcumque creatura eleuetur in ascensu ad deum dum petit: tamen eius
+            <lb ed="#N" n="83"/>terminus est citra increatum quod excedit in infinitum. et quantum ad
+            <lb ed="#N" n="84"/>hoc posunt dici ascendere. non quod gratia et caritas augeatur in eis: sed
+            <lb ed="#N" n="85"/>modo supradicto.
+          </p>
+          <p xml:id="v78d89-agef24-d1e568">
+            ⁋ Ad secundum obiectum patet responsio ex predictis. bene
+            <lb ed="#N" n="86"/>enim verum est quod in beatis non est oratio secundum illum modum secundum quem
+            ora<lb ed="#N" n="87" break="no"/>mus pro malis amouendis quantum est per se: quia nullum habent malum. est
+            <lb ed="#N" n="88"/>tamen secundum quod orant pro nobis. quia orant pro malis nostris amouendis.
+            <lb ed="#N" n="89"/>vt dictum est. isto modo oratio eorum bene est pro amotione temptationum non
+            <lb ed="#N" n="90"/>a se: sed a nobis.
+          </p>
+          <p xml:id="v78d89-agef24-d1e581">
+            ⁋ Ad hoc quod obicitur. quod sunt omnipotentes sue
+            volun<lb ed="#N" n="91" break="no"/>tatis. dicendum quod orant pro eo quod ipsi non posunt. quod dicuntur omnipotentes
+            <lb ed="#N" n="92"/>non est dictum quia omnia posunt: sed quia quicquid volunt se posse posunt. et quod
+            <lb ed="#N" n="93"/>non posunt non volunt. non contrariatur verbo augeri.
+          </p>
+          <p xml:id="v78d89-agef24-d1e591">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="94"/>obicitur. quod nihil petunt nisi quod sciunt deum velle. et ita frustra
+            pe<lb ed="#N" n="95" break="no"/>tunt: quia fieret etiam si non peterent. dicendum est quod deus bene rogari potest
+            <lb ed="#N" n="96"/>in eis que ipse facturus est sicut dicit beatus Augustinus Cum enim deus
+            di<lb ed="#N" n="97" break="no"/>sponit aliquid facere. non disponit in omnem euentum: sed
+            presuppo<lb ed="#N" n="98" break="no"/>sitis antecedentibus congruentibus. sicut disposuit nos saluari: si
+            <lb ed="#N" n="99"/>tamen velimus per bona merita salutem nobis acquirere. sic est in
+            propo<lb ed="#N" n="100" break="no"/>sito. et ideo sancti non frustra orant cum petunt quod sciunt deum
+            vel<lb ed="#N" n="101" break="no"/>le. immo sicut dicit Greg. in predicta auctoritate. discordarent a
+            vo<lb ed="#N" n="102" break="no"/>luntate conditoris: si ea que vident eum velle non peterent. quia
+            <lb ed="#N" n="103"/>minus inhererent si volentem dare desiderio pigriori pulsarent.
+            <lb ed="#N" n="104"/>hec greg.
+          </p>
+          <p xml:id="v78d89-agef24-d1e617">
+            ⁋ Ad aliud quod obiicitur. quod oratio semper importat
+            im<lb ed="#N" n="105" break="no"/>perfectionem. quia oramus pro eo quod non habemus. quod non conuenit beatis.
+            <lb ed="#N" n="106"/>dicendum quod non habere aliquid non dicit semper imperfectionem: sed non habere quod
+            <lb ed="#N" n="107"/>debet habere. vel quando debet haberi. quando ergo sancti orant pro eo quod non habent:
+            <lb ed="#N" n="108"/>non propter hoc status eorum est simpliciter imperfectus: quia habent
+            quic<lb ed="#N" n="109" break="no"/>quod pro tempore debent habere. et hoc perfectionem dicit suo modo
+            <lb ed="#N" n="110"/>Unde hug. de sacramentis. tribus modis nominatur conuenienter
+            perfe<lb ed="#N" n="111" break="no"/>ctum. secundum tempus: secundum naturam: et vliter. Primum quasi initium faciens
+            <lb ed="#N" n="112"/>secundum quod maius est: tercium quod maximum est quod habet quicquid
+            <lb ed="#N" n="113"/>tempus requirit et conuenit. secundum haberi secundum naturam perfectum est
+            <lb ed="#N" n="114"/>quod habet omne quod datum est vel debitum nature sue. Uliter
+            perfe<lb ed="#N" n="115" break="no"/>ctum est cui nihil deest. hec hug. quando autem orant pro nobis bene
+            ve<lb ed="#N" n="116" break="no"/>rum est quod orant pro eo quod non habemus. et hoc habere debemus et hoc quidem
+            <lb ed="#N" n="117"/>impefectionem importat. non in eis: sed in nobis.
+          </p>
+          <p xml:id="v78d89-agef24-d1e648">
+            ⁋ Per predicta patet
+            <lb ed="#N" n="118"/>responsio ad sequens. quia supposito quod videant voluntatem dei
+            nihi<lb ed="#N" n="119" break="no"/>lominus orare debeant. vt supradictum est.
+          </p>
+          <p xml:id="v78d89-agef24-d1e655">
+            ⁋ Ad hoc quod obicitur aut
+            di<lb ed="#N" n="120" break="no"/>gnost est ille pro quo oratur aut non. Dicendum quod si indignus est etiam pane
+            <lb ed="#N" n="121"/>quo vescitur: non tamen indignus indignitate vltima que est voluntas per
+            <lb ed="#N" n="122"/>manendi in peccato. sed si dolet de peccatis et conteritur. licet minus
+            suf<lb ed="#N" n="123" break="no"/>ficienter: orationibus sanctorum completur quod ex parte sui minus erat.
+            <lb ed="#N" n="124"/>pro ergo obiicitur. quod indignitas eius pro quo oratur impedit orationis
+            <lb ed="#N" n="125"/>effectum. verum est de pertinacibus in peccatis.
+          </p>
+          <p xml:id="v78d89-agef24-d1e671">
+            ⁋ Ad vltimumobsntum
+            di<lb ed="#N" n="126" break="no"/>cendum. quod sancti iuuant nos duobus modis. et meritis preteritis:
+            <lb ed="#N" n="127"/>et orationibus presentibus. quia dum viuerent meruerunt vt impetrarent nobis
+            <lb ed="#N" n="128"/>gratiam: si post mortem pro nobis orarent. Quod ergo obiicitur. quod quicquid
+            <lb ed="#N" n="129"/>meruerunt necesse est eos meruisse. bene verum est quantum ad eos
+            <lb ed="#N" n="130"/>non dependet ipsorum meritum de futuro: quantum ad nos dependet
+            ef<lb ed="#N" n="131" break="no"/>fectus meriti tempororum de futuro. et ideo est contingens. et est exemplum. quod
+            <lb ed="#N" n="132"/>christus nobis meruit aditum peradisi per sufficientiam: non dependet de
+            fu<lb ed="#N" n="133" break="no"/>turo et ideo necessarium est: sed per efficaciam pertim pendet ex futuro. et
+            <lb ed="#N" n="134"/>ideo est contingens. Non valet ergo illud argumentum. quicquid
+            <lb ed="#N" n="135"/>meruerunt sancti necesse est eos meruisse. ergo quic quid meruerunt
+            <lb ed="#N" n="136"/>nobis meruerunt. quia propositio intelligitur de merito ipsorum et ex
+            <lb ed="#N" n="137"/>parte ipsorum. concluditur autem de effectu meritorum ipsorum. merita
+            <lb ed="#N" n="138"/>autem ipsorum non sunt causa efficiens et sufficiens salutis nobis
+            <lb ed="#N" n="139"/>sed sunt causa motiua largitatis diuine que confert nobis
+            sa<lb ed="#N" n="140" break="no"/>lutem intuitu meritorum sanctorum.
+          </p>
+        </div>
+        <div xml:id="v78d89-agef24-Dd1e708">
+          <head xml:id="v78d89-agef24-Hd1e710">Articulus 2</head>
+          <p xml:id="v78d89-agef24-d1e712">
+            <pb ed="#N" n="584"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-agef24-d1e721">
+            <lb ed="#N" n="2"/>COnsequenter queritur. quomodo orant anime sancte. vtrum
+            <lb ed="#N" n="3"/>solo desiderio: vel verbo mentali. Quod solo
+            deside<lb ed="#N" n="4" break="no"/>rio: videtur super illud Iob. i. vnde venis sathan. dicit glo. anime
+            lo<lb ed="#N" n="5" break="no"/>quuntur deo per desideria numquam a deo discordantia.
+          </p>
+          <p xml:id="v78d89-agef24-d1e732">
+            ⁋ Item Augustinus libro. de
+            <lb ed="#N" n="6"/>cura pro mortuis gerenda. sancti orant pro nobis in voto. quid autem
+            ap<lb ed="#N" n="7" break="no"/>pellatur ibi votum quam desiderium.
+          </p>
+          <p xml:id="v78d89-agef24-d1e739">
+            ⁋ Item ad idem valent alia tacta
+            <lb ed="#N" n="8"/>supra. vbi queritur: vtrum sancti orant.
+          </p>
+          <p xml:id="v78d89-agef24-d1e745">
+            ⁋ Contr. desiderium est appetitus
+            <lb ed="#N" n="9"/>delectationis. et idem est desiderium quod concupiscentia. Sed delectatio
+            <lb ed="#N" n="10"/>est coniunctio conuenientis cum conuenienti. qui ergo desiderat appetit
+            si<lb ed="#N" n="11" break="no"/>bi conueniens contingi: ergo est in carentia illius conuenientis. sed tali
+            <lb ed="#N" n="12"/>non est beatus. dicit enim Ansel. de contemptu virginis. quod ille non
+            <lb ed="#N" n="13"/>est beatus qui non habet quicquid vult.
+          </p>
+          <p xml:id="v78d89-agef24-d1e758">
+            ⁋ Item desiderium est
+            re<lb ed="#N" n="14" break="no"/>spectu habendi et non habiti. illa enim sola desideramus que
+            <lb ed="#N" n="15"/>non habemus: et ita vt prius.
+          </p>
+          <p xml:id="v78d89-agef24-d1e765">
+            ⁋ Item vt habetur a Bern. oratio est oris
+            <lb ed="#N" n="16"/>ratio. vnde oratio os respicit interius vel exterius. vnde aliquo modo
+            re<lb ed="#N" n="17" break="no"/>spicit verbum interius vel exterius. propter quod videtur: quod sancti orant
+            <lb ed="#N" n="18"/>deum verbo mentali: non solum desiderio
+          </p>
+          <p xml:id="v78d89-agef24-d1e774">
+            ⁋
+            </p>
+          <p xml:id="v78d89-agef24-d1e776">
+            ⁋ Responsio sicut habetur ab
+            <lb ed="#N" n="19"/>Augustinus de trinitate. Cogitatio formata est signo per verbum.
+            cu<lb ed="#N" n="20" break="no"/>iusmodi verbo loquuntur sancti domino. vnde potest dici quod sancti loquuntur
+            <lb ed="#N" n="21"/>deo desiderio id est desiderio expresso signo siue nutu mentali.
+          </p>
+          <p xml:id="v78d89-agef24-d1e785">
+            <lb ed="#N" n="22"/>⁋ Ad illud quod obicitur. quod desiderium est respectu non habiti potest
+            <lb ed="#N" n="23"/>dici vt tactum est supra. hoc potest esse quando orant aliquid fieri aliis. Unde
+            <lb ed="#N" n="24"/>non ex hoc sequitur quod sint in defectu vel carentia alicus delectabitr.
+          </p>
+          <p xml:id="v78d89-agef24-d1e795">
+            <lb ed="#N" n="25"/>⁋ Pre. non semper est desiderium respectu non habiti. sed quandoque
+            re<lb ed="#N" n="26" break="no"/>spectu habiti continuandi. vt tactum est supra. Ex his et
+            supradi<lb ed="#N" n="27" break="no"/>ctis patent hec dicta. Si autem deus ex ineffabili virtute sine
+            compre<lb ed="#N" n="28" break="no"/>hensione cognoscit sanctorum desideria. etiam antequam sint et post
+            <lb ed="#N" n="29"/>quando sunt: hoc non est quia illi desiderando loquuntur: quia
+            reuera<lb ed="#N" n="30" break="no"/>desiderium non est dictum: nisi inquantum est signo aliquo form atum.
+          </p>
+        </div>
+        <div xml:id="v78d89-agef24-Dd1e812">
+          <head xml:id="v78d89-agef24-Hd1e814">Articulus 3</head>
+          <p xml:id="v78d89-agef24-d1e816">
+            <lb ed="#N" n="31"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-agef24-d1e821">
+            <lb ed="#N" n="32"/>COnsequenter queritur. vtrum sancti angeli offerant oratioes
+            <lb ed="#N" n="33"/>iustorum deo. Quod sic: plane apparet Tob. xii.
+          </p>
+          <p xml:id="v78d89-agef24-d1e828">
+            <lb ed="#N" n="34"/>⁋ Contra. anime sancte non offerunt. similiter nec videtur quod sancti angloli
+            of<lb ed="#N" n="35" break="no"/>ferre debeant: non enim reperitur quod anime sancte offerant.
+          </p>
+          <p xml:id="v78d89-agef24-d1e835">
+            ⁋ Pre. sapientissi
+            <lb ed="#N" n="36"/>mo cuius sapicentia et cognitio semper est in actu: reducere ad memoriam que
+            <lb ed="#N" n="37"/>nouit non opertet.
+          </p>
+          <p xml:id="v78d89-agef24-d1e843">
+            ⁋ Pre. angloli omnem cognitionem habuerunt in deo
+            <lb ed="#N" n="38"/>et a deo.
+          </p>
+          <p xml:id="v78d89-agef24-d1e848">
+            ⁋ Ex altera parte de animabus sanctis magis videtur quam de angelis
+            <lb ed="#N" n="39"/>quod debeant deo offerre preces nostras. Suntm enim equa deo astantes vt
+            <lb ed="#N" n="40"/>angeli. et ideo equa offerre posunt.
+          </p>
+          <p xml:id="v78d89-agef24-d1e855">
+            ⁋ Pre. plus videntur curam nostri propter
+            <lb ed="#N" n="41"/>similitudinem amplius ad nos gerere.
+          </p>
+          <p xml:id="v78d89-agef24-d1e860">
+            ⁋ Pre. quid est offerre oratioes
+            <lb ed="#N" n="42"/>dcos est ne idem quod orare deum pro illis quorum dicuntur oratioes vel aliud:
+          </p>
+          <p xml:id="v78d89-agef24-d1e865">
+            <lb ed="#N" n="43"/>Ad hoc dici potest. quod sicut dicit Hug. libro de virtute orandi. hoc inter
+            <lb ed="#N" n="44"/>est quando oramus hominem et quando oramus deum. quod homo necessitatem nostram
+            <lb ed="#N" n="45"/>scire non potest nisi ab alio doctus fuerit: deus autem scit antequam
+            pe<lb ed="#N" n="46" break="no"/>tatur quiod nobis necesse sit. hec Hug. Et ideo quando homini absenti vo
+            <lb ed="#N" n="47"/>lumus significare aliquid: indigemus nuncio. quando presenti: verbo
+            ex<lb ed="#N" n="48" break="no"/>pressiuo. et hec necessitas est. et ex parte sui: et ex parte nostra. Sed cum
+            <lb ed="#N" n="49"/>deus omnia cognoscat etiam antequam fiant: nuncio vel expressione vocali.
+            <lb ed="#N" n="50"/>ne eget. vult tamen quod vtroque vtamur propter nos. quia et vocali
+            expressi<lb ed="#N" n="51" break="no"/>one. sicut dicit hug. deuotio excitatur. et multiplicatis intercessori
+            <lb ed="#N" n="52"/>bus facilius impetratur. Sinic glo. dicit Roo. xvi. super illud.
+            Ad<lb ed="#N" n="53" break="no"/>iuuetis me in orationibus vratris. glo. multorum precibus impossibile est
+            <lb ed="#N" n="54"/>vt non impetrent. vnde et sancti angeli nostri sunt aduocati et media
+            <lb ed="#N" n="55"/>tores pro nobis vt supratactum est orando: et preces nostras apud deum
+            re<lb ed="#N" n="56" break="no"/>citando. non quod deus indigeat: sed propter nostram vtilitatem. Bern. super
+            <lb ed="#N" n="57"/>Cant. seruiusmode. vii. Attendite vratros principes cum statis
+            adoran<lb ed="#N" n="58" break="no"/>dum et psallendum. et state cum reuerentia et disciplena et gloriamini: quia
+            <lb ed="#N" n="59"/>angeli nostri quotidie vident faciem pratris. nimirum missi in ministerium pro
+            <lb ed="#N" n="60"/>pter nos qui hereditatem capimus salutis: deuotionem nostram in
+            sup<lb ed="#N" n="61" break="no"/>na ferunt et gratiam referunt.
+          </p>
+          <p xml:id="v78d89-agef24-d1e909">
+            ⁋ Quod ergo queritur quare anime preces nostras
+            offer<lb ed="#N" n="62" break="no"/>re non dicuntur cum astent deo. et plus videntur agere curam nostram. dicendum quod
+            il<lb ed="#N" n="63" break="no"/>lud habent angeli ex officio. sunt enim in ministerium missi propter eos qu
+            <lb ed="#N" n="64"/>hereditatem capiunt salutis Heb. i. anime autem sancte non. et hoc est
+            <lb ed="#N" n="65"/>quia habent vim administratiuam et contemplatiuam. et ideo preces
+            offerre<lb ed="#N" n="66" break="no"/>ad illas non spectat. sed multi sunt negligentes vel non attendentes
+            <lb ed="#N" n="67"/>diligentiam quam habent circa eos angloi sancti. circa quos magis huiusmodi
+            <lb ed="#N" n="68"/>diligentiam adhibent ratione sui officii quam dignitatis personarum.
+          </p>
+          <p xml:id="v78d89-agef24-d1e928">
+            ⁋ Ad
+            <lb ed="#N" n="69"/>hoc quod queritur quiod importat offerre deo preces etc. potest dici quod hoc
+            im<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>portat congratulando acceptionem illius a do quod est et meritoria.
+            si<lb ed="#N" n="71" break="no"/>ue deo accepta est deo attribuere. Angulolus enim consulit oranti quod
+            <lb ed="#N" n="72"/>faciat. viuat petendo quod fleat. congratulatur acceptioni a deo
+            reue<lb ed="#N" n="73" break="no"/>lata sibi quod est accepta a domino. Ex acceptatione enim diuina est
+            <lb ed="#N" n="74"/>oratio meritoria. hec omnia referre ad deum scilicet et quod consuluit quid
+            fie<lb ed="#N" n="75" break="no"/>ret. et quod orauit quod fieret. et quod congratulabatur quod ipsa oratio est
+            ac<lb ed="#N" n="76" break="no"/>cepta deo. ergo offerre eam deo. sensus est. anglolus offert orationem
+            iu<lb ed="#N" n="77" break="no"/>sti deo. hoc est. oratioi facte. et deo accepte gratulando. et que ad esse
+            <lb ed="#N" n="78"/>et ad acceptionem concurrunt refundit siue reportat in deum subhus
+            <lb ed="#N" n="79"/>modi tropo. qui aliquid offert alii offert illi manus eius spoete
+            im<lb ed="#N" n="80" break="no"/>ponendo. per manum autem opera siue virtus significatur. vnde oratioem deo
+            <lb ed="#N" n="81"/>offerre: est congratulando siue complacendo diuine virtuti siue operatio
+            <lb ed="#N" n="82"/>ni que et in omni opere meritorio intime operatur. ipsam illi
+            attri<lb ed="#N" n="83" break="no"/>buendo.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

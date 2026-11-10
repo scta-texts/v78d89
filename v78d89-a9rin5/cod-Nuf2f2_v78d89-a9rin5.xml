@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 48, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 48, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="332"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9rin5"><!-- q48m6 -->
+        <head xml:id="v78d89-a9rin5-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-a9rin5-Hd1e103" type="question-title">De divinatoribus</head>
+        <p xml:id="v78d89-a9rin5-d1e106">
+          <lb ed="#N" n="19"/>Membrum sextum
+        </p>
+        <p xml:id="v78d89-a9rin5-d1e111">
+          <lb ed="#N" n="20"/>COnsequenter queritur de diuinatoribus. sortilegis
+          <lb ed="#N" n="21"/>et carminatricibus. vtrum debeant accedere ad
+          sacrament<lb ed="#N" n="22" break="no"/>communionem. Et videtur quod sic. per hoc quod sortes
+          exqui<lb ed="#N" n="23" break="no"/>rere licitum sit. hoc ostenditur per multa exempla. Unde
+          <lb ed="#N" n="24"/>est quod dominus precebit Iosue vt sortibus ex quireret que facturus erat
+          <lb ed="#N" n="25"/>de anathemate hiericho Iosue. vii. Aliud exemplum est de
+          <lb ed="#N" n="26"/>Iona eiusdem primo. Aliud est de mathia Act. i. de his. xxvi.
+          <lb ed="#N" n="27"/>q. ii cil. i. Augustinu in libro psalmorum. Sors non est aliquid
+          mali<lb ed="#N" n="28" break="no"/>sed res in humana dubietate diuinam indicans voluntatem.
+        </p>
+        <p xml:id="v78d89-a9rin5-d1e133">
+          <lb ed="#N" n="29"/>⁋ Contra. sortilegi et diuini ex quirentes sorte mortaliter
+          pec<lb ed="#N" n="30" break="no"/>cant. quod patet per hoc quod habetur. xxvi. q ii. ci. i. Sortilegi et
+          di<lb ed="#N" n="31" break="no"/>uini si cessare noluerint excommunicandi sunt.
+        </p>
+        <p xml:id="v78d89-a9rin5-d1e143">
+          ⁋ Item ibidem.
+          <lb ed="#N" n="32"/>Siquis clericus vel monachus vel scolaris diuinationes vel
+          <lb ed="#N" n="33"/>auguria esse credidit obseruanda. vel sortes quas metiuntur
+          <lb ed="#N" n="34"/>esse sanctorum quibuscumque putauerint intimandas id est iocundas
+          <lb ed="#N" n="35"/>cum his qui eis crediderint ab ecclesie communione pellantur.
+        </p>
+        <p xml:id="v78d89-a9rin5-d1e154">
+          ⁋
+          Respon<lb ed="#N" n="36" break="no"/>sio. quod tales omnino non debent accedere ad sacram communionem. quod
+          ha<lb ed="#N" n="37" break="no"/>betur plane de conse. di. ii. pro dilectione. ibi enim habetur. quod
+          ma<lb ed="#N" n="38" break="no"/>gis cum ceteris christianis sacra communio non debet dari. hoc etiam
+          <lb ed="#N" n="39"/>patet per Isido. dicentem. viii. libro. ethimo. quod sortilegi sunt: qui
+          <lb ed="#N" n="40"/>sub nomine ficte religionis per quasdam quas sanctorum seu
+          apo<lb ed="#N" n="41" break="no"/>stolorum vocant sortes diuinationis scientiam profitentur. aut
+          qua<lb ed="#N" n="42" break="no"/>runcunque scripturarum inspectione futura promittuntur. Pret.
+          di<lb ed="#N" n="43" break="no"/>uinatio quocumque modo fiat et qualitercumque vocetur damnata
+          <lb ed="#N" n="44"/>est. vt. xxvi. q v. fere per totum. Et prohibita. extra de sortilegis
+          <lb ed="#N" n="45"/>ca. i. dicitur sorte furta non sunt requirenda: nec diuinationes
+          <lb ed="#N" n="46"/>aliquas in aliquibus rebus quis obseruare presumat. Prete.
+          <lb ed="#N" n="47"/>eodem ti. et sequi. cil. Ex tenore. damnatur inquisitio furti. per
+          in<lb ed="#N" n="48" break="no"/>spectionem astrolabii. Et e. t. se. cii. Ecclesia prohibet ne electio
+          <lb ed="#N" n="49"/>fiat per sortes et electio facta per sortes damnatur. Dicendum
+          er<lb ed="#N" n="50" break="no"/>go. quod exercentes sortilegia et diuinationes siue artem
+          magi<lb ed="#N" n="51" break="no"/>cam non sunt in statu saluandorum. vnde dum perseuerant in
+          sua<lb ed="#N" n="52" break="no"/>malitia: non debet accedere ad sacram communionem vt de
+          ma<lb ed="#N" n="53" break="no"/>gis habetur de conse. di. ii. vt dictum est.
+        </p>
+        <p xml:id="v78d89-a9rin5-d1e196">
+          ⁋ Ad illud quod
+          obii<lb ed="#N" n="54" break="no"/>citur contra per exempla legis veteris. Dicendum quod hec et alia
+          <lb ed="#N" n="55"/>multa permittebantur ante perfectionem legis euangelice. que post
+          <lb ed="#N" n="56"/>penitus sunt eliminata. vt habetur. xxvi. q. ii. Sors non est
+        </p>
+        <p xml:id="v78d89-a9rin5-d1e205">
+          <lb ed="#N" n="57"/>⁋ Ad hoc quod obiicitur exemplo Mathie. Respondetur. xxvi. qui.
+          <lb ed="#N" n="58"/>ii. non exemplo. vbi dicitur. non exemplo Mathie. vel quod Ionas
+          <lb ed="#N" n="59"/>propria sorte deprehensus sit indifferenter sortibus est credendum:
+          <lb ed="#N" n="60"/>cum priuilegia paucorum (ut Hiero. ait) communem legem
+          face<lb ed="#N" n="61" break="no"/>re non possunt.
+        </p>
+        <p xml:id="v78d89-a9rin5-d1e218">
+          ⁋ Ad illud quod dicit augus. quod sors non est
+          <lb ed="#N" n="62"/>aliquid mali etc. Dicendum quod licet sors non sit aliquid
+          mali<lb ed="#N" n="63" break="no"/>in sua natura: prohibita est tamen causa necessaria. Unde
+          <lb ed="#N" n="64"/>xxvi. q. ii. Sors non est. vbi dicitur. in sortibus nihil mali in
+          <lb ed="#N" n="65"/>esse monstratur. prohibetur tamen fidelibus ne sub specie diuina
+          <lb ed="#N" n="66"/>tionis ad antiquos ydolatrie cultus redirent. Unde
+          qui<lb ed="#N" n="67" break="no"/>busdam constellationes et futurorum signa custodientibus apostolus
+          <lb ed="#N" n="68"/>ait. dies obseruatis et menses et tempora et annos. Uel vt dicunt
+          <lb ed="#N" n="69"/>quidam. hoc intelligitur secundum antiqua tempora quando erat
+          pro<lb ed="#N" n="70" break="no"/>hibita. Dicunt autem quidam si esset causa honesta et
+          sub<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>esset necessitas. vt si esset contentio de electione aliquorum et esset
+          <lb ed="#N" n="72"/>paritas vtrobique in omnibus: quod exemplo Mathie possent
+          <lb ed="#N" n="73"/>fieri sortes preuenientibus orationibus et supplicationibus deo
+          du<lb ed="#N" n="74" break="no"/>rectis. Et hoc videtur innuere Beda. et. xxvi. q ii. non exem
+          <lb ed="#N" n="75"/>plo. vbi dicitur. Si qui necessitate aliqua compulsi deum
+          pu<lb ed="#N" n="76" break="no"/>tant exemplo apostolorum esse consulendum: videant
+          hoc<lb ed="#N" n="77" break="no"/>ipso apostolos non nisi colecto fratrum cetu et precibus ad
+          <lb ed="#N" n="78"/>deum fusis egisse. Uidetur autem mihi esse melius omnino
+          <lb ed="#N" n="79"/>ab huiusmodi cessandum casu proposito instante vel alis
+          <lb ed="#N" n="80"/>quocumque. ex quo hoc canon reprobat. et in casu proposito
+          po<lb ed="#N" n="81" break="no"/>tius videtur per superiorem esse gratificandum vel iterum
+          eligen<lb ed="#N" n="82" break="no"/>dum.
+        </p>
+        <p xml:id="v78d89-a9rin5-d1e267">
+          ⁋ De carminatricibus et de carminatoribus credo quod
+          car<lb ed="#N" n="83" break="no"/>mina et adiurationes eis sunt inhibende. Si autem factain
+          <lb ed="#N" n="84"/>hibitione cessare nollent: peccarent mortaliter et essent
+          ar<lb ed="#N" n="85" break="no"/>cendi a sacra communione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 36, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 36, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="221"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7m16o"><!-- q36m3 -->
+        <head xml:id="v78d89-a7m16o-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a7m16o-Hd1e103" type="question-title">De altari in quo consecrandum est corpus Christi</head>
+        <p xml:id="v78d89-a7m16o-d1e106">
+          <lb ed="#N" n="118"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a7m16o-d1e111">
+          <lb ed="#N" n="119"/>OOnsequenter queritur de altari in quo
+          con<lb ed="#N" n="120" break="no"/>secrandum est corpus christi. scilicet de qua
+          ma<lb ed="#N" n="121" break="no"/>teria debet esse. Et videtur quod solum
+          debe<lb ed="#N" n="122" break="no"/>at esse lapideum sic. Nullum altare quod
+          <lb ed="#N" n="123"/>non est sapideum debet consecrari. vt habetur de conse. di.
+          <lb ed="#N" n="124"/>i. altaria. vbi habetur. Altaria si non sunt lapidea:
+          crisma<lb ed="#N" n="125" break="no"/>tis vnctione non consecrantur. sed in solis altaribus
+          consecra<lb ed="#N" n="126" break="no"/>tis debet fieri hec consecratio. ergo non debet fieri neque
+          <lb ed="#N" n="127"/>licet nisi in altari lapideo.
+        </p>
+        <p xml:id="v78d89-a7m16o-d1e133">
+          ⁋ Contra. Exo. xxvii. facies
+          <lb ed="#N" n="128"/>altare de lignis sethim. altare autem fuit illud altare holo
+          <lb ed="#N" n="129"/>causti quo signatur altare in quo representatur oblatio
+          veri<lb ed="#N" n="130" break="no"/>holocausti: quod fuit oblatum pro humani generis
+          salu<lb ed="#N" n="131" break="no"/>tem et redemptione. Si ergo veritas debet respondere
+          fi<lb ed="#N" n="132" break="no"/>gure: videtur etc.
+        </p>
+        <p xml:id="v78d89-a7m16o-d1e147">
+          ⁋ Item. iii. regum septimo legitur. quod
+          sa<lb ed="#N" n="133" break="no"/>lomon fecit altare auren.
+        </p>
+        <p xml:id="v78d89-a7m16o-d1e152">
+          ⁋ Item Exo. xx. precepit dominus
+          <lb ed="#N" n="134"/>quod fieret altare de terra. Item ibidem legitur similiter de
+          <lb ed="#N" n="135"/>altari de lapidibus. Si ergo in tempore legis fiebat
+          al<lb ed="#N" n="136" break="no"/>tare secundum legis ordinationem de multis materiis scilicet
+          <lb ed="#N" n="137"/>de ligno lapide auro terra: videtur quod similiter debet
+          fie<lb ed="#N" n="138" break="no"/>ri modo. et maxime de auro: cum huiusmodi altare maxime
+          <lb ed="#N" n="139"/>congrueret consecrationi et oblationi corporis
+          domini<lb ed="#N" n="140" break="no"/>propter sui preciositatem.
+        </p>
+        <p xml:id="v78d89-a7m16o-d1e170">
+          ⁋ Responsio. quod magis conuenit
+          <lb ed="#N" n="141"/>quod altare consecrationis sit lapideum siue petrinum quom de
+          <lb ed="#N" n="142"/>alia materia. scilicet propter lapidis communitatem: fortitudinem
+          <pb ed="#N" n="222"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>siue durabilitatem: et significationem. Nam propter illius
+          con<lb ed="#N" n="2" break="no"/>munitatem est facilis adhibendum. vnde non potest esse dispendium
+          <lb ed="#N" n="3"/>multum ex eius carentia. propter durabilitatem habet
+          aptitu<lb ed="#N" n="4" break="no"/>dinem ad hoc quod consecretur. non enim conueniret quod aliquid
+          vnctio<lb ed="#N" n="5" break="no"/>ne sacra consecraretur: nisi esset solidum et durabilem. Et propter
+          <lb ed="#N" n="6"/>congruitatem ad significandum: quia reuera in hoc sacramento
+          <lb ed="#N" n="7"/>maxime est fides necessaria et quantum ad consecrationem et quantum
+          <lb ed="#N" n="8"/>ad susceptionem. petra autem christum signat. i. corum. x. petra autem
+          <lb ed="#N" n="9"/>erat christus. conuenit vt altare consecrationis sit de petra qua
+          re<lb ed="#N" n="10" break="no"/>presentetur christus: et fides eius excitetur que valde est necessaria
+          <lb ed="#N" n="11"/>in hoc sacramento.
+        </p>
+        <p xml:id="v78d89-a7m16o-d1e205">
+          ⁋ Ex his patet responsio ad quesita. quia
+          <lb ed="#N" n="12"/>neque auro. neque terra. neque ligno hec tria conueniunt. scilicet
+          con<lb ed="#N" n="13" break="no"/>muntas ex qua est facilis ad habendum: durabilitas siue so
+          <lb ed="#N" n="14"/>liditas ex qua est illi aptitudo ad consecrandum: proprietatum
+          <lb ed="#N" n="15"/>pluralitas ex qua est illi congruitas ad significandum scilicet christum
+        </p>
+        <p xml:id="v78d89-a7m16o-d1e216">
+          <lb ed="#N" n="16"/>⁋ Ex his similiter patet responsio quod non debet esse de omnibus siue
+          ali<lb ed="#N" n="17" break="no"/>quibus predictis. quia in nullo predictorum est proprietates predictas
+          <lb ed="#N" n="18"/>ita reperire sicut in petra. Nec est contra predicta quod est in ecclesia
+          <lb ed="#N" n="19"/>lateranensi altare ligneum. quod quidem altare ob apostolorum
+          prin<lb ed="#N" n="20" break="no"/>cipis qui super hoc altare dominicum celebrasse dicitur
+          sacramen<lb ed="#N" n="21" break="no"/>tum et sanctorum predecessorum martirum reuerentiam. Licet
+          be<lb ed="#N" n="22" break="no"/>atus Siluester papa decreto firmasset vt nullum deinceps
+          <lb ed="#N" n="23"/>altare esset nisi lapideum. hoc in dominicum et patriarchale ipse
+          <lb ed="#N" n="24"/>idem scilicet beatus siluester papa stabiliuit altare. vt super
+          il<lb ed="#N" n="25" break="no"/>lud nullus nisi romanus papa missam audeat celebrare.
+          <lb ed="#N" n="26"/>ab episcopatu enim apostolorum pricipis. vsque ad tempera beati
+          Sil<lb ed="#N" n="27" break="no"/>uestri seuiente persecutorum rabie: certa non erat episcopalis statio.
+          <lb ed="#N" n="28"/>sed vbicumque necessitas compulit. siue in criptis siue in
+          do<lb ed="#N" n="29" break="no"/>mibus religiosorum siue aliis locis quibuscumque missam
+          cele<lb ed="#N" n="30" break="no"/>brabant super altare ligneum in modum arche concauum: quod
+          <lb ed="#N" n="31"/>portabatur a sacerdotibus vbicunque episcopus romanus
+          <lb ed="#N" n="32"/>latitabat. super quod die cene et sabbato sequenti a summo
+          pon<lb ed="#N" n="33" break="no"/>tifice ministerium peragitur sacerdotale.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

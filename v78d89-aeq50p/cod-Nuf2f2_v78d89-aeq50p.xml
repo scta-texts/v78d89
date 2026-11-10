@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 80, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 80, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="518"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aeq50p"><!-- q80prae -->
+        <head xml:id="v78d89-aeq50p-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-aeq50p-d1e103">
+          <lb ed="#N" n="35"/>⁋ Quertio. txxx. de poterta
+          <lb ed="#N" n="36"/>te clauium in foro penitentiali.
+        </p>
+        <p xml:id="v78d89-aeq50p-d1e110">
+          <lb ed="#N" n="37"/>SEquitur de pbterta
+          <lb ed="#N" n="38"/>tem clauium. Primo in foro penitentiali. Secundo
+          <lb ed="#N" n="39"/>I in foro iudiciali. Tercio medio modo inter
+          <lb ed="#N" n="40"/>vtrumlibet.
+        </p>
+        <p xml:id="v78d89-aeq50p-d1e121">
+          ⁋ Circa premum queruntur quatuor. Primo
+          <lb ed="#N" n="41"/>vtrum hec potestas possit in culpam. Secundo vtrum
+          <lb ed="#N" n="42"/>possit in penam. Tercio de vsu potstatis et clauium. Quarto vtrum
+          <lb ed="#N" n="43"/>sit eadem potestas qua ligatur in foro penitentiali: qua in foro iudiciali.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

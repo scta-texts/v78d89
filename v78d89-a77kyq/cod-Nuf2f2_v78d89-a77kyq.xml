@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 34, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 34, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="212"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a77kyq"><!-- q34m2 -->
+        <head xml:id="v78d89-a77kyq-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a77kyq-Hd1e103" type="question-title">De comparatione virtutis verborum ad ordinem sacrum</head>
+        <p xml:id="v78d89-a77kyq-d1e106">
+          <lb ed="#N" n="105"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-a77kyq-d1e111">
+          <lb ed="#N" n="106"/>SEquitur de comparatione virtutis verborum ad
+          or<lb ed="#N" n="107" break="no"/>dinem sacrum. Queritur ergo an sit maior potestas or
+          <lb ed="#N" n="108"/>dinis quam verbi: Circa hoc sic vinicit hug. tria
+          <lb ed="#N" n="109"/>requiruntur ad istud sacramentum conficiendum. ordo. actio
+          <lb ed="#N" n="110"/>et intentio. ordo vt sit sacerdos: actio vt ipsa verba proferat.
+          <lb ed="#N" n="111"/>intentio vt ad hoc proferat. Queritur ergo cum ad hoc sacramentum
+          <lb ed="#N" n="112"/>requiritur potestas ordinis cum virtute verborum: que sit maior: Quod
+          <lb ed="#N" n="113"/>ordinis: videtur. quia anima nobilior est quom sermo. ergo maioris virtu
+          <lb ed="#N" n="114"/>tis est susceptiua: et deus dat virtuiem secundum congruentiam
+          su<lb ed="#N" n="115" break="no"/>sceptibilinm.
+        </p>
+        <p xml:id="v78d89-a77kyq-d1e135">
+          ⁋ Item sacerdos opatur per verba sicut per
+          instru<lb ed="#N" n="116" break="no"/>mentum. sed potestas agentis est nobilior quam instrumenti: igitur etc.
+        </p>
+        <p xml:id="v78d89-a77kyq-d1e141">
+          <lb ed="#N" n="117"/>Contra. iste due potstates concurrunt ad istum effectum. et constat
+          <lb ed="#N" n="118"/>quod potstas sacerdotalis ordinatur ad potestatem verborum: ergo
+          nobili<lb ed="#N" n="119" break="no"/>or est potstas verborum cum alia ad illam ordinetur.
+        </p>
+        <p xml:id="v78d89-a77kyq-d1e150">
+          ⁋ Item verbo
+          <lb ed="#N" n="120"/>datur potstas transubstntiandi: non sic attribuitur sacerdoti.
+        </p>
+        <p xml:id="v78d89-a77kyq-d1e155">
+          ⁋ Et
+          <lb ed="#N" n="121"/>potest hic queri. si verbum non est causa sufficiens transubstntiationis
+          <lb ed="#N" n="122"/>sed eius effectus dependet ab ordine sacerdotali: ergo videtur quod
+          vir<lb ed="#N" n="123" break="no"/>tus verhi eterni operantis per verbum creatum non sit sufficiens.
+        </p>
+        <p xml:id="v78d89-a77kyq-d1e164">
+          <lb ed="#N" n="124"/>Ied isio. quod si aliqua ordinata sunt ad eundem effectum:
+          nihi<lb ed="#N" n="125" break="no"/>lominus alio et alio modo cooperantur ad illum. Uerbignatia.
+          <lb ed="#N" n="126"/>Iudex opatur ad suspendium furis et minister. Iudex danans
+          <lb ed="#N" n="127"/>eum suspendio siue dans sententiam de suspendio: minister
+          <lb ed="#N" n="128"/>exequens actu quod sententiarum est a iudice. vnde iudex
+          <lb ed="#N" n="129"/>suspendit sententiando auctoritate: minister exequando actu
+          <lb ed="#N" n="130"/>Si igitur queratur. quis istorum magis opatur suspendio:
+          <lb ed="#N" n="131"/>Dicendum quod iudex magis. secundum quod ille dicitur magis facere:
+          <lb ed="#N" n="132"/>cuius auctoritate efficitur. vnde non est omnino comparatio
+          <lb ed="#N" n="133"/>vmiuoca secundum quod est huius et illius. Similiter dico in
+          proposi<lb ed="#N" n="134" break="no"/>to. quod non omnino vniuoca est actio prout est sacerdotis et
+          <lb ed="#N" n="135"/>verbi: nihilominus sacerdotis est magis: secundum quod ille dicitur
+          <lb ed="#N" n="136"/>magis facere cuius auctoritate efficitur. verbi magis:
+          secundum<lb ed="#N" n="137" break="no"/>quod illud dicitur magis a quo est effluentia virtutis
+          proxi<lb ed="#N" n="138" break="no"/>mius in effectum. Nec tamen dico quod auctoritas est
+          sacerdo<lb ed="#N" n="139" break="no"/>tis. sed potestas sacerdotis magis est proxima virtuti
+          aucto<lb ed="#N" n="140" break="no"/>ritatis: potestas verbi magis potestati influentis in effectum
+        </p>
+        <p xml:id="v78d89-a77kyq-d1e203">
+          <pb ed="#N" n="213"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>⁋ Aliud exemplum ad idem est tale homo generat
+          homi<lb ed="#N" n="2" break="no"/>nem et sol. Unde etsi ad eundem sunt effectum: diuersimo
+          <lb ed="#N" n="3"/>de tamen. quia sol est cooperans vt concilians qualitates
+          ma<lb ed="#N" n="4" break="no"/>terialium et comproportionans virtutes gignentium
+          scili<lb ed="#N" n="5" break="no"/>cet maris et femine. vnde virtus solis est faciens quod virtus
+          gi<lb ed="#N" n="6" break="no"/>gnentium consonat et qualitates materialium conciliantur. Un
+          <lb ed="#N" n="7"/>de sol expedit et ordinat naturam efficientem materialem
+          <lb ed="#N" n="8"/>que propinque confluunt ad fetum et facit quod hec operantur
+          <lb ed="#N" n="9"/>quod intendit natura. homines autem cooperantur vt
+          pro<lb ed="#N" n="10" break="no"/>pinque perducentes fetum in esse per influentiam virtutis agere
+          <lb ed="#N" n="11"/>tis et naturam materie recipientis. Similiter dico ex parte
+          <lb ed="#N" n="12"/>hac quodammodo. Uirtus siue potstas ordinis sacerdotalis
+          <lb ed="#N" n="13"/>cum intentione quodammodo ordinat virtutem verborum
+          <lb ed="#N" n="14"/>et expedit in effectum conuersionis. Uirtus enim verbi est
+          effi<lb ed="#N" n="15" break="no"/>ciens per modum influentis propinque. Uirtus ordinis
+          per<lb ed="#N" n="16" break="no"/>modum ordinantis et dirigentis in finem. Unde cum
+          que<lb ed="#N" n="17" break="no"/>ritur quod magis ordinatur ad conuersionem. Dicendum quod hoc
+          <lb ed="#N" n="18"/>magis secundum quod illud magis dicitur quod primarie ordinat.
+          <lb ed="#N" n="19"/>et sic forte intelligitur illud Phi. Omnis causa primaria
+          <lb ed="#N" n="20"/>plus est influens in creatum quam secundaria. Istud magis
+          dici<lb ed="#N" n="21" break="no"/>tur secundum quod dicitur illud magis quod propinquius est influens
+          <lb ed="#N" n="22"/>Ex his patet responsio ad primo obiecta.
+        </p>
+        <p xml:id="v78d89-a77kyq-d1e258">
+          ⁋ Ad vltimum
+          dicen<lb ed="#N" n="23" break="no"/>dum. quod virtus verbi eterni operantis per verbum creatum.
+          suf<lb ed="#N" n="24" break="no"/>ficiens est ad transubstantiandum. tamen vt dicit ldug. De
+          <lb ed="#N" n="25"/>us homo factus vt dispensationis gratia largius
+          multipli<lb ed="#N" n="26" break="no"/>caretur: homines puros perticipes fecit sue potestatis vt eus
+          <lb ed="#N" n="27"/>officium implerent. Unde nota quod in cena erant omnia
+          con<lb ed="#N" n="28" break="no"/>iuncta. verbum eternum: et virtus eius: et verbum suum
+          <lb ed="#N" n="29"/>creatum: et fuerunt coniuncta potestati sacerdotali: quia
+          ip<lb ed="#N" n="30" break="no"/>sefuit sacerdos secundum ordinem Melchisedech. Sed nunc
+          si<lb ed="#N" n="31" break="no"/>alius a sacerdote diceret illud verbum: iam illud non esset
+          <lb ed="#N" n="32"/>coniunctum cum potestate sacerdotali siue cum ordine: licet
+          <lb ed="#N" n="33"/>verbum eternum esset presens: quia illud semper presens
+          <lb ed="#N" n="34"/>est. vnde si alius diceret: esset ibi verbum eternum
+          coniun<lb ed="#N" n="35" break="no"/>ctum creato verbo. sed non coniunctum potestati. Non enim
+          <lb ed="#N" n="36"/>a quocumque prolatum habet virtutem: sed tantum a sacerdote. vnde
+          <lb ed="#N" n="37"/>exigitur potestas sacerdotalis coniuncta cum verbo creato
+          <lb ed="#N" n="38"/>vice christi. et hoc solum est in sacerdotibus: tamen dependentia
+          ver<lb ed="#N" n="39" break="no"/>bi increati non est a potestate sacerdotali. Posset enim verbum
+          <lb ed="#N" n="40"/>increatum conuertere sine coniunctione tali sed noluit: quia
+          ho<lb ed="#N" n="41" break="no"/>mines perticipes fecit vt officium eius implerent.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 110, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 110, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="693"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aiszge"><!-- q110m4 -->
+        <head xml:id="v78d89-aiszge-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aiszge-Hd1e103" type="question-title">Si de acquisitis per histrionatum</head>
+        <p xml:id="v78d89-aiszge-d1e106">
+          <lb ed="#N" n="9"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-aiszge-d1e111">
+          <lb ed="#N" n="10"/>COnsequenter queritur de histrionibus scilicet de
+          acquisi<lb ed="#N" n="11" break="no"/>tis per histrionatum si posunt facere elemosnam. et videtur quod
+          <lb ed="#N" n="12"/>sic. quia sic acquisitum transit in dominium acquirentis
+          <lb ed="#N" n="13"/>nec competit repetitio illi de quo aliquid per histriona
+          <lb ed="#N" n="14"/>tum acquiritur.
+        </p>
+        <p xml:id="v78d89-aiszge-d1e124">
+          ⁋ Contra. vt habetur a Greg. et est. i. q. i. non putanda
+          <lb ed="#N" n="15"/>est elmosyna si pauperibus dispensetur quod ex illicitis rebus acquiritur
+          <lb ed="#N" n="16"/>sed exercere se in opere histrionatus illicitum est: ergo ex acquisitis
+          per<lb ed="#N" n="17" break="no"/>histrionatum non potest fieri elemosyna. probatio medie: histriones
+          <lb ed="#N" n="18"/>non sunt promouendi. xxxiii. di. maritum. Pre. prohibendi sunt a
+          <lb ed="#N" n="19"/>sacra communione de conse. di. ii. pro dilectione. Pre. infames sunt
+          <lb ed="#N" n="20"/>iiii. q. i. diffinimus. Si ergo prohibentur a promotione et a communione
+          cor<lb ed="#N" n="21" break="no"/>peris christi. et efficiuntur infames: non est dubium quin exercitium
+          hi<lb ed="#N" n="22" break="no"/>strionatus sit illicitum.
+        </p>
+        <p xml:id="v78d89-aiszge-d1e145">
+          ⁋ Pre. gen. iiii. Respexit dominus ad
+          abel<lb ed="#N" n="23" break="no"/>et ad mumera eius. ad caym vero et ad munera eius non respexit.
+          <lb ed="#N" n="24"/>super quod Greg. et habetur. xiiii. q. v. Scriptum est. neque in omnipoten
+          <lb ed="#N" n="25"/>tis dei iudicio quod est: sed a quo detur inspicitur. Hinc est quod
+          scri<lb ed="#N" n="26" break="no"/>ptum est. respexit dominus ad abel etc. ex qua re patenter ostenditur. quia
+          <lb ed="#N" n="27"/>non offerens a muneribus sed munera ab offerente placuerunt
+          <lb ed="#N" n="28"/>Ex his videtur quod munera data deo in pauperum elemosynis
+          il<lb ed="#N" n="29" break="no"/>li non placent: nisi dans illi placeat.
+        </p>
+        <p xml:id="v78d89-aiszge-d1e163">
+          ⁋ Responsio.o quod ex
+          histrio<lb ed="#N" n="30" break="no"/>natu potest fieri elemosna.
+        </p>
+        <p xml:id="v78d89-aiszge-d1e168">
+          ⁋ Ad illud greg. nonon est putanda
+          ele<lb ed="#N" n="31" break="no"/>mosyna etc. potest dici quod intelligitur de illicite acquisitis vbi
+          <lb ed="#N" n="32"/>non transfertur dominium in acquirentem vt in furto et vsura.
+        </p>
+        <p xml:id="v78d89-aiszge-d1e175">
+          <lb ed="#N" n="33"/>⁋ Ad illud quod ostenditur. quod munera ab offerenti placuerunt
+          <lb ed="#N" n="34"/>non offerens a muneribus. Dicendum quod hoc intelligendum est quantum
+          <lb ed="#N" n="35"/>ad obtinendum vitam eternam. Munus enim histrionis non
+          va<lb ed="#N" n="36" break="no"/>let illi ad meritum vite eterne. quod intelligendum est de
+          hi<lb ed="#N" n="37" break="no"/>strione impenitente et permanente in vsu et exercitio
+          histrio<lb ed="#N" n="38" break="no"/>natus. Et dicuntur histriones. quasi histornies. quia suorum
+          cor<lb ed="#N" n="39" break="no"/>porum gesticulatione historias decantabant. istos autem qui
+          <lb ed="#N" n="40"/>aliquibus vtuntur instrumentis. vtpote cythara et aliis
+          con<lb ed="#N" n="41" break="no"/>similibus licitum est audire causa creationis homini
+          debili<lb ed="#N" n="42" break="no"/>et infirmo: non causa voluptatis vel luxurie exercende.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

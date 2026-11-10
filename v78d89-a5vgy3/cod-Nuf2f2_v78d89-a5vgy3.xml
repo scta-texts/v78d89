@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 23, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 23, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="160"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a5vgy3"><!-- q23m6 -->
+        <head xml:id="v78d89-a5vgy3-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-a5vgy3-Hd1e103" type="question-title">Utrum extra ecclesiam fiat verum baptis ma</head>
+        <p xml:id="v78d89-a5vgy3-d1e106">
+          <lb ed="#N" n="6"/>Membrum sextum
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e111">
+          <lb ed="#N" n="7"/>COnsequenter queritur. vtrum extra ecclesiam
+          <lb ed="#N" n="8"/>fiat verum baptisma: Et videtur quod non. per hoc
+          <lb ed="#N" n="9"/>quod baptisma verum a quocumque fiat est
+          bapti<lb ed="#N" n="10" break="no"/>sma christi. Sed vnum est baptisma christi et
+          eccle<lb ed="#N" n="11" break="no"/>sie. Sed baptisma quod fit extra ecclesiam non est ecclesie.
+          Da<lb ed="#N" n="12" break="no"/>ptisma enim ecclesie. eo dicitur esse ecclesie quod fit in ecclesia:
+          er<lb ed="#N" n="13" break="no"/>go baptisma christi non fit extra ecclesiam: sed non est aliud
+          ba<lb ed="#N" n="14" break="no"/>ptisma quam baptisma christi: ergo etc.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e131">
+          ⁋ Item sacramentum altaris
+          <lb ed="#N" n="15"/>non efficitur extra ecclesiam. Unde Augustinus et habetur. i. q i. extra
+          <lb ed="#N" n="16"/>catholicam ecclesiam non est locus veri sacrificii. Uerum autem
+          <lb ed="#N" n="17"/>sacrificium vocat sacrificium quod fit in sacramento altaris.
+          Simi<lb ed="#N" n="18" break="no"/>liter videtur de sacramento baptismi.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e143">
+          ⁋ Item baptismus est
+          <lb ed="#N" n="19"/>sacramentum fidei. non autem fidei dicitur esse alicuius perso
+          <lb ed="#N" n="20"/>ne singularis sed ecclesie: ergo non potest fieri nisi in ecclesia
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e150">
+          <lb ed="#N" n="21"/>⁋ Contra. baptizatus extra ecclesiam non bapnizatur iterum:
+          <lb ed="#N" n="22"/>ergo suscipit verum baptisma.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e157">
+          ⁋ Responsio. quod baptismus fit extra
+          <lb ed="#N" n="23"/>ecclesiam. heresis enim baptizat extra ecclesiam. que licet non
+          <lb ed="#N" n="24"/>generat baptim ando ex vtero sponse: nihilominus genereat
+          <lb ed="#N" n="25"/>bacontismo ecclesie. vt enim habetur ab Augustinus libro. contra donatistas.
+          eccle<lb ed="#N" n="26" break="no"/>sia generat per vterum proprium et vteros ancillarum eisdem
+          sacra<lb ed="#N" n="27" break="no"/>mentis tanquam ex viri semine. Unde dicit quod non generat in
+          par<lb ed="#N" n="28" break="no"/>tem donati per baptismum vnde separata est: sed vnde coniuncta.
+          se<lb ed="#N" n="29" break="no"/>parata est enim vinculo caritatis: sed coniuncta est vnitate
+          baptis<lb ed="#N" n="30" break="no"/>matis. Ex his patet. quod ex quo conueniunt in vnitate
+          baptisma<lb ed="#N" n="31" break="no"/>tis: quod heresis baptizat baptismo ecclesie. licet enim heresis
+          <lb ed="#N" n="32"/>baptizando non generat ex vtero sponse: nihilominus gene
+          <lb ed="#N" n="33"/>rat baptismo ecclie.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e183">
+          ⁋ Ex his patet responsio ad primum. quia
+          li<lb ed="#N" n="34" break="no"/>cet heresis non sit ecclesia et qui baptizantur ab heresi siue
+          <lb ed="#N" n="35"/>heretico baptizantur extra ecclesiam: quantum ad hoc quia
+          bapti<lb ed="#N" n="36" break="no"/>cet at. non vnde separata. sed vnde coniuncta: baptisma quod
+          mini<lb ed="#N" n="37" break="no"/>strat est verum baptisma.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e194">
+          ⁋ Ad aliud quod obiicitur de
+          sacra<lb ed="#N" n="38" break="no"/>mento altaris. dicendum quod non est simile. quia enim baptismus est
+          <lb ed="#N" n="39"/>sacramentum necessitatis et ianua sacramentorum. indultum
+          <lb ed="#N" n="40"/>est in casu aliquo posse fieri extra ecclesiam: in quo non est in
+          <lb ed="#N" n="41"/>dultum posse fieri sacramentum altaris. Istud tamen planius infra
+          de<lb ed="#N" n="42" break="no"/>terminabitur.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e207">
+          ⁋ Ad illud quod obiicitur. quod illud sacramentum est
+          <lb ed="#N" n="43"/>sacramentum fidei etc. patet responsio ex his que dicta sunt
+          su<lb ed="#N" n="44" break="no"/>perius in questione de intentione baptismi. ibi enim tractata
+          <lb ed="#N" n="45"/>sunt quedam que valent ad quomiodem istam. Similiter in questio
+          <lb ed="#N" n="46"/>ne de baptismo hereticorum.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e219">
+          ⁋ Sed adhuc queritur. si
+          baptis<lb ed="#N" n="47" break="no"/>ma datum extra ecclesiam sufficiat ad salutem: et videtur quod sic:
+          <lb ed="#N" n="48"/>ex predictis. per hoc quod heresis generat per baptismum christo.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e226">
+          ⁋
+          Con<lb ed="#N" n="49" break="no"/>tra. de conse. dis. iiii. Augustinus Ecclesia peradiso comparata. indicat noh
+          <lb ed="#N" n="50"/>posse baptismum eius homines etiam foris accipere: sed salutem
+          beatitu<lb ed="#N" n="51" break="no"/>dinis extra eama neminem: vel percipere vel tenere. Non enim in
+          me<lb ed="#N" n="52" break="no"/>sopotamia vel egipto qua illa flumina peruenerint est felicitas
+          <lb ed="#N" n="53"/>vite que in paradiso commemoratur. Sic ergo baptismus potest esse
+          extra<lb ed="#N" n="54" break="no"/>ecclesiam: munus vero beate vite non nisi intra ecclesiam recipitur.
+        </p>
+        <p xml:id="v78d89-a5vgy3-d1e242">
+          <lb ed="#N" n="55"/>⁋ Responio. quod baptizatus ab heresi recipit baptisma ad salutem
+          <lb ed="#N" n="56"/>nisi sit obex siue impedimentum ex parte suscipientis scilicet quando
+          ille<lb ed="#N" n="57" break="no"/>qui baptiz autem consentit heresi. Et hoc potest esse tripliter. aut quando est
+          he<lb ed="#N" n="58" break="no"/>reticus et fauet errori. aut si non est hereticus tamen vadit ad
+          he<lb ed="#N" n="59" break="no"/>reticum precisum in contemptum ecclesie. aut si non est precisus vadit
+          <lb ed="#N" n="60"/>tamen ad occultum quem scit esse hereticum propter aliquod commodum vel
+          <lb ed="#N" n="61"/>fauorem. et tunc nihil accipit ad salutem: quia accipit ab heretico
+          <lb ed="#N" n="62"/>vt est hereticus. sed tunc non consentit quando habet impotentiam
+          discernen<lb ed="#N" n="63" break="no"/>di. vel paruulus. vel quando hereticus ille est occultus et creditur esse
+          ca<lb ed="#N" n="64" break="no"/>tholicus. aut quando homo est in necessitate constitutus et solo
+          necessi<lb ed="#N" n="65" break="no"/>tatis intuitu suscipit baptisma ab heretico: quod licet. Unde
+          <lb ed="#N" n="66"/>Augustinus. de vnico baptismo libo. i. Si quem forte coegerit extrema
+          <lb ed="#N" n="67"/>necessitas et nullum catholicum per quem accipiat inuenerit. et in
+          <lb ed="#N" n="68"/>animo pacem catholicam custodiens per aliquem extra vnitatem
+          catholicam<lb ed="#N" n="69" break="no"/>positum accepit quod in ipsa erat catholica vnitate percepturus.
+          si<lb ed="#N" n="70" break="no"/>statim etiam de hac vita mignuerit: non eum nisi catholicum
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>deputamus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

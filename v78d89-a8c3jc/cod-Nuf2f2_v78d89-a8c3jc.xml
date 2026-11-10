@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 40, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 40, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="289"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8c3jc"><!-- q40m2 -->
+        <head xml:id="v78d89-a8c3jc-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a8c3jc-Hd1e103" type="question-title">De operatione specierum</head>
+        <p xml:id="v78d89-a8c3jc-d1e106">
+          <lb ed="#N" n="46"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-a8c3jc-d1e111">
+          <lb ed="#N" n="47"/>COnsequenter queritur de operatione. Et primo
+          <lb ed="#N" n="48"/>de operatione immutationis. Secundo. de operatione
+          <lb ed="#N" n="49"/>refectionis. Tercio. de operatione conuersionis.
+          <lb ed="#N" n="50"/>Quarto. de operatione transmutationis.
+        </p>
+        <div xml:id="v78d89-a8c3jc-Dd1e122">
+          <head xml:id="v78d89-a8c3jc-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-a8c3jc-d1e126">
+            <lb ed="#N" n="51"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e131">
+            <lb ed="#N" n="52"/>Iirca primum queruntur duo. Primum est. si species
+            <lb ed="#N" n="53"/>huiusmodi immutant sensum. Secundum. dato quod sic:
+            <lb ed="#N" n="54"/>vtrum hoc faciant naturaliter vel miraculose.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e140">
+            <lb ed="#N" n="55"/>Curca prmmuproce . §. s.
+            <lb ed="#N" n="56"/>ditur sic. Subiectum qualitatum sensibilium non immutat inquod
+            <lb ed="#N" n="57"/>tum est substantia: sed quia informatum huiusmodi qualitatibus.
+            <lb ed="#N" n="58"/>ergoprimo et per se conuenit ipsis qualitatibus immutare
+            sen<lb ed="#N" n="59" break="no"/>sum. sed in illis speciebus sunt qualitates sensibiles: quia
+            <lb ed="#N" n="60"/>color odor et sapor. ergo immutant.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e156">
+            ⁋ Item quod immutant
+            sen<lb ed="#N" n="61" break="no"/>sum euidenter apperaret in vsu eorum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e162">
+            ⁋ Contra. species aliqua
+            <lb ed="#N" n="62"/>vt albedo abstracta a materia: abstracta est a conditionibus
+            <lb ed="#N" n="63"/>secundum quas est hic et nunc. a materia enitm est indiuiduatio
+            rei<lb ed="#N" n="64" break="no"/>a qua habet esse hic et nunc. abstrachione ergo facta accidentis a mate
+            <lb ed="#N" n="65"/>ria: abstrahitur a conditionibus istis. Si ergo nihil immutat
+            <lb ed="#N" n="66"/>nisi secundum quod est hic et nunc: quia requiritur presentia immutantis
+            <lb ed="#N" n="67"/>respectu sensus: relinquitur quod hec accidentia non immutant cum
+            <lb ed="#N" n="68"/>sint separata a materia.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e180">
+            ⁋ Item licet tactus sit sensus quidam
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>perticularis: nihilominus in omni apprehensione sensibilis
+            <lb ed="#N" n="70"/>est quodammodo fit quidam tactus. sed tactus non est nisi
+            existen<lb ed="#N" n="71" break="no"/>tium in materia vel subiecto. ergo nec sensus aliquis neque
+            immu<lb ed="#N" n="72" break="no"/>tatio aliqua.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e193">
+            ⁋ Responsio. quod species iste operantur immutando
+            sen<lb ed="#N" n="73" break="no"/>sum siue sensitiuum. quod maxime sensu abstrahitur.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e198">
+            ⁋ Ad
+            pri<lb ed="#N" n="74" break="no"/>mum contra hoc obiectum. dicendum quod si abstractio intellectus qua
+            <lb ed="#N" n="75"/>abstrahitur species a materia. abstrahit a conditionibus que
+            <lb ed="#N" n="76"/>sunt hic et nunc: non tamen semper actio que est harum specierum. liciet
+            <lb ed="#N" n="77"/>enim indiuiduatio sit a materia naturaliter: nihilominus
+            <lb ed="#N" n="78"/>virtute super naturam conseruatur hec spes in eadem indiui
+            <lb ed="#N" n="79"/>duitate quam habebant quando erant in substantia.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e214">
+            ⁋ Ad aliud
+            <lb ed="#N" n="80"/>dicendum. quod species in hoc sacramento conseruantur in eisdem proprie
+            <lb ed="#N" n="81"/>tatibus in quibus erant ante conuersionem suorum subiectorum in
+            <lb ed="#N" n="82"/>corpus christi. vnde eandem aptitudinem ad actum tangendi et
+            in<lb ed="#N" n="83" break="no"/>mutandi habent nunc quam habuerunt tunc. Cum ergo obiicitur
+            <lb ed="#N" n="84"/>quod tactus non est nisi eorum que existant in subiecto. ergo neque
+            in<lb ed="#N" n="85" break="no"/>mutatio. Dicendum quod hoc verum est in tactu rei existentis
+            <lb ed="#N" n="86"/>eo modo quo sibi competit secundum naturam. non autem est
+            <lb ed="#N" n="87"/>verum quando datum est illi esse modo mirabili: vt est in
+            <lb ed="#N" n="88"/>Mroposito.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e236">
+            <lb ed="#N" n="89"/>Consequenter que . §. ie
+            <lb ed="#N" n="90"/>ritur de immutationis operatione harum specierum si sit naturals
+            <lb ed="#N" n="91"/>vel mirabilis siue miraculosa. Quod naturalis videtur.
+            quan<lb ed="#N" n="92" break="no"/>do aliqua operatio conuenit alicui speciei per se et per naturam
+            pro<lb ed="#N" n="93" break="no"/>priam illius. non autem ratione alicuius coniuncti: quocumque modo
+            <lb ed="#N" n="94"/>separaretur adhuc illi conueniet. verbi. grgo. habere tres conuenit
+            <lb ed="#N" n="95"/>triangulo per se et ex natura propria. vnde considerato vt
+            separa<lb ed="#N" n="96" break="no"/>to conuenit idem: et si esset separatus conueniret. sed sensu proprio
+            con<lb ed="#N" n="97" break="no"/>uenit immutare sensum per se non ratione subiecti. vinum enim non
+            <lb ed="#N" n="98"/>immutat quia vinum: sed quia sapidum. igitur si obiecta propria
+            <lb ed="#N" n="99"/>sensuum aliquo modo separarentur a subiectis: adhuc
+            natura<lb ed="#N" n="100" break="no"/>liter agerent in sensibilia eorum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e266">
+            ⁋ Item sensus est susceptiuus
+            <lb ed="#N" n="101"/>specierum sensibilium preter materiam vnde est susceptiuus secundum
+            <lb ed="#N" n="102"/>esse spirituale. ergo quantomagis species habet naturam spiritualem:
+            <lb ed="#N" n="103"/>tantomagis est immutare fensum. sed species ille abstracte
+            <lb ed="#N" n="104"/>a materia habent esse magis spirituale. ergo etc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e277">
+            ⁋ Item hoc videtur
+            <lb ed="#N" n="105"/>per simile. quia species est in speculo secundum esse spirituale. et per
+            na<lb ed="#N" n="106" break="no"/>turam adgenerat illam in sensum oppositum. et si
+            mane<lb ed="#N" n="107" break="no"/>ret ibi absente subiecto: nihilominus immutaret
+            natura<lb ed="#N" n="108" break="no"/>liter. igitur etc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e288">
+            ⁋ Contra. sicut habetur in primo de anima. Recto
+            <lb ed="#N" n="109"/>inquantum rectum conuenit tangere eneam speram. secundum
+            pirtun<lb ed="#N" n="110" break="no"/>ctum tamen numquam tangit separatum: quia spera enea non est
+            <lb ed="#N" n="111"/>nata tangi nisi a materiali. cum igitur sensus perticularis non
+            <lb ed="#N" n="112"/>sit natus apprehendere nisi existentia in materia cuius esse est
+            <lb ed="#N" n="113"/>determinatum secundum hic et nunc. quia in hoc differt a sensu
+            in<lb ed="#N" n="114" break="no"/>teriori. si separaretur sensibile a materia: non esset natum
+            immu<lb ed="#N" n="115" break="no"/>tare. si ergo ei detur immutandi operatio: hoc est supra
+            natu<lb ed="#N" n="116" break="no"/>ram.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e308">
+            ⁋ Item in hoc differt sensus exterior ab interiori.
+            <lb ed="#N" n="117"/>quod interior non est natus apprehendere res existentes in
+            ma<lb ed="#N" n="118" break="no"/>teria mquantum huiusmodi: sicut nec exterior natus est
+            apprehen<lb ed="#N" n="119" break="no"/>dere abstracta vel separata a materia per naturam. sed si res
+            <lb ed="#N" n="120"/>separate a materia possent naturaliter immutare sensum:
+            <lb ed="#N" n="121"/>et sensus naturaliter apprehendere illas. igitur etc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e321">
+            ⁋ Item
+            <lb ed="#N" n="122"/>proportio est inter apprehensitiuas et apprehensibilia.
+            <lb ed="#N" n="123"/>vnde vnaqueque apprehensitiua non est nata
+            apprehende<lb ed="#N" n="124" break="no"/>re vnumquodque apprehensibile. vnde apprehensitiua
+            in<lb ed="#N" n="125" break="no"/>fima ratione qua in genere apprehensiuarum est
+            maxi<lb ed="#N" n="126" break="no"/>me materialis: est nata ad apprehensionem eorum que
+            <lb ed="#N" n="127"/>omnino sunt in materia et solum illorum. igitur cum
+            he<lb ed="#N" n="128" break="no"/>species non sint in materia etc. igitur si apprehenduntur
+            <lb ed="#N" n="129"/>huiusmodi a sensu: hoc erit per miraculum non per
+            na<lb ed="#N" n="130" break="no"/>turam.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e343">
+            ⁋ Item species motiua sensus triplicem habet
+            <lb ed="#N" n="131"/>comparationem. scilicet ad subiectum: ad medium: et ad
+            <lb ed="#N" n="132"/>organum. Et iste operationes sunt ordinate naturaliter.
+            <lb ed="#N" n="133"/>ergo destructa prima: et destruuntur alie consequenter.
+            <lb ed="#N" n="134"/>ergo si species iste habent duas sequentes sine prima:
+            <lb ed="#N" n="135"/>hoc non habent naturaliter sed miraculose.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e357">
+            ⁋
+            Respon<lb ed="#N" n="136" break="no"/>sio. Species iste habent eandem virtutem quam
+            habe<lb ed="#N" n="137" break="no"/>rent in esse proprio et naturali. Unde Innocen. In quo
+            <lb ed="#N" n="138"/>similitudo deficeret: in eo sacramentum non esset. sed vbt
+            <pb ed="#N" n="290"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>se proderet et locum fidei auferret. sed hoc non naturaliter sed
+            mi<lb ed="#N" n="2" break="no"/>rabiliter. nihilominus quia prout sunt mirabiliter non
+            priuan<lb ed="#N" n="3" break="no"/>tur virtute nec proprietatibus naturalibus naturaliter exeuntem in
+            <lb ed="#N" n="4"/>huiusmodi opera: que eis sunt propria per naturam. Unde primas
+            ra<lb ed="#N" n="5" break="no"/>tiones que hoc ostendunt concedo.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e381">
+            ⁋ Ad primum quod obiicitur.
+            <lb ed="#N" n="6"/>quod sensus non est natus apprehendere nisi quod existit in
+            ma<lb ed="#N" n="7" break="no"/>teria etc. Dicendum quod hoc non est: quia causa immutationis
+            <lb ed="#N" n="8"/>ex parte obiecti sit materia vel subiectum: sed quia illud gratia
+            <lb ed="#N" n="9"/>cuius immutatur sensus: non habet esse nisi in materia vel in
+            sub<lb ed="#N" n="10" break="no"/>iecto. et hoc patet per rationem sensus: que est. Sensus est
+            suscepti<lb ed="#N" n="11" break="no"/>uus sensibilium specierum sine materia. vnde cum sensus
+            susci<lb ed="#N" n="12" break="no"/>piat species materiales sine materia: manifestum est quod nec
+            <lb ed="#N" n="13"/>materia nec esse in materia est causa susceptionis huiusmodi. si
+            <lb ed="#N" n="14"/>militer ex alia parte nec ipsa obiecta immutant rationem
+            mate<lb ed="#N" n="15" break="no"/>rie vel substantie in qua sunt: sed virtute propria. paries enim
+            <lb ed="#N" n="16"/>non immutat: sed color parietis. et propter hoc dico. quod quocumque
+            <lb ed="#N" n="17"/>modo sit sensibile siue in subiecto per naturam siue in non
+            sub<lb ed="#N" n="18" break="no"/>iecto per miraculum: eodem modo et eadem ratione agit in sensum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e412">
+            <lb ed="#N" n="19"/>⁋ Ad illud quod obiicitur. quod sensus interior naturaliter non
+            <lb ed="#N" n="20"/>apprehendit rem vt est in materia etc. Responsio. quod si obiectum
+            <lb ed="#N" n="21"/>sensus interioris aliqua virtute haberet omnino rationem
+            <lb ed="#N" n="22"/>vel modum vnde esset obiectum illius in materia: bene
+            apprehen<lb ed="#N" n="23" break="no"/>deretur ab illo et naturaliter sicut ex alia parte. quia omnino ratio
+            <lb ed="#N" n="24"/>et modus quo huiusmodi species habent naturaliter agere in
+            sen<lb ed="#N" n="25" break="no"/>sum saluantur: extra materiam naturaliter agunt in sensum.
+            <lb ed="#N" n="26"/>quod igitur sensus interior non naturaliter apprehendit rem vt
+            <lb ed="#N" n="27"/>est in materia. hoc est: quia ratio et modus quo res est
+            obie<lb ed="#N" n="28" break="no"/>ctum illius non est ipsius rei vt est huiusmodi.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e436">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="29"/>obiicitur. quod sensus exterioris et rei non existentis in materia non est
+            <lb ed="#N" n="30"/>proportio: que requiritur inter sensitiuam et sensibile. Dicendum
+            <lb ed="#N" n="31"/>quod reuera rei separate a materia secundum suam naturam in esse
+            natu<lb ed="#N" n="32" break="no"/>rali non est huiusmodi proportio: sed rei separate opere mirabili est vtique
+            <lb ed="#N" n="33"/>vt patet in proposito.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e449">
+            ⁋ Ad vltimum dicendum. quod etsi existentia
+            spe<lb ed="#N" n="34" break="no"/>cierum sine subiecto est miraculosa: et maxime existentia
+            quan<lb ed="#N" n="35" break="no"/>titatis preter materiam: operationes tamen specierum et sensus
+            <lb ed="#N" n="36"/>sunt naturales. quia non sunt preter quantitatem. Posito
+            au<lb ed="#N" n="37" break="no"/>tem per impossibile sensibile existere sine quantitate omnino non
+            <lb ed="#N" n="38"/>moueret sensum. ver. grgto. si poneretur color esse sine
+            quantita<lb ed="#N" n="39" break="no"/>te non videretur. quia quicquid videtur sub triangulo videtur. ibi
+            <lb ed="#N" n="40"/>enim existit triangulus cuius conus id est angulus est in oculo
+            <lb ed="#N" n="41"/>basis vero ipsum subiectum. et ita quod videtur oportet esse quantum.
+            <lb ed="#N" n="42"/>Similiter color non est color: nec sapor est sapor nisi quantus.
+            <lb ed="#N" n="43"/>non enim est color siue sapor sine distensione. et ita nullum
+            <lb ed="#N" n="44"/>sensibile est id quod est in sua natura: nisi sit in
+            quantita<lb ed="#N" n="45" break="no"/>te sensibile. tamen est quantum per accmdenus: quia scilicet est in
+            quantita<lb ed="#N" n="46" break="no"/>te. licet ergo species sensibilis existat sine materia vel subiecto
+            <lb ed="#N" n="47"/>et hoc miraculose. nihilominus quia non existit sine
+            quantita<lb ed="#N" n="48" break="no"/>te naturaliter mouet sensum et operatur in illum. vnde illud est
+            <lb ed="#N" n="49"/>falsum deficiente prima comparatione deficient et alie:
+            nisi<lb ed="#N" n="50" break="no"/>extenso nomine subiectum specierum quantitas dicatur.
+          </p>
+        </div>
+        <div xml:id="v78d89-a8c3jc-Dd1e490">
+          <head xml:id="v78d89-a8c3jc-Hd1e492">Articulus 2</head>
+          <p xml:id="v78d89-a8c3jc-d1e494">
+            <lb ed="#N" n="51"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e499">
+            <lb ed="#N" n="52"/>COnsequenter queritur de operatione refectionis.
+            <lb ed="#N" n="53"/>Et primo queritur. vtrum reficiunt et nutriunt. Se
+            <lb ed="#N" n="54"/>cundo. vtrum possent reficere et nutrire naturaliter.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e508">
+            <lb ed="#N" n="55"/>Qirca primumsc .§§. i
+            <lb ed="#N" n="56"/>proceditur. Illud quod cum excessu sumptum inebriat: de
+            <lb ed="#N" n="57"/>bito modo sumptum reficit. Sed. i. corum. xi. Alius quidem
+            <lb ed="#N" n="58"/>esurit alius autem ebrius est. ibi habetur plane in glo.
+            si<lb ed="#N" n="59" break="no"/>cut senmdia. dictum est. quod aliqui inebriati sunt ex vsu specierum
+            <lb ed="#N" n="60"/>huius sacramenti. igitur species ille habebant virtutem
+            <lb ed="#N" n="61"/>reficiendi et nutriendi. et ita posunt reficere et nutrire.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e526">
+            ⁋ Item
+            <lb ed="#N" n="62"/>sicut calor ignis conuertit in cinerem illud quod offertur in
+            <lb ed="#N" n="63"/>pabulum: sic calor naturalis ordinatur ad conuertendum
+            <lb ed="#N" n="64"/>illud idem in carnem et sanguinem. sed species proiecta in
+            <lb ed="#N" n="65"/>ignem comburitur et redigitur in cinerem agente calore
+            ex<lb ed="#N" n="66" break="no"/>teriori. ergo pari ratione in alimentum potest conuerti
+            agen<lb ed="#N" n="67" break="no"/>te calore interiori.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e543">
+            ⁋ Item nisi ita esset: istud sacramentum
+            <lb ed="#N" n="68"/>esset in preiudicium nature. quia quotiens fit conuersio
+            <lb ed="#N" n="69"/>perit cibus naturalis irreuocabiliter ex quo nullo modo
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>conuertitur in aliud quod possit cibare.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e554">
+            ⁋ Item si accidentia
+            <lb ed="#N" n="71"/>non habent operationem substantie: deprehendi potest hoe
+            <lb ed="#N" n="72"/>sacramentum sensibili experimento: et ita meritum fidei euua
+            <lb ed="#N" n="73"/>cuari. sed hoc est inconueniens: cum hoc sacramentum sit in
+            me<lb ed="#N" n="74" break="no"/>ritum fidei institutum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e565">
+            ⁋ Sed contra. ex eisdem nutrimur
+            <lb ed="#N" n="75"/>ex quibus sumus: sicut habetur a phsloo. sed non sumus ex
+            ac<lb ed="#N" n="76" break="no"/>cidentibus sed ex subiectis. ergo cum species iste sint accidentia
+            <lb ed="#N" n="77"/>videtur quod non reficiunt siue nutriunt.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e574">
+            ⁋ Item sacramentum
+            <lb ed="#N" n="78"/>illud est cibus spiritualis. et ideo est vna ratio congruita
+            <lb ed="#N" n="79"/>tis quare substantia transit ne queratur refectio corporalis.
+            <lb ed="#N" n="80"/>ergo videtur quod species iste non reficiunt corporaliter.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e583">
+            ⁋ Item
+            si<lb ed="#N" n="81" break="no"/>cibant corporaliter. ergo sacerdos sumendo huiusmodi species
+            sol<lb ed="#N" n="82" break="no"/>uit ieiunium. et ita non posset post sumptionem corporis christi
+            <lb ed="#N" n="83"/>missam celebrare.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e592">
+            ⁋ Item hoc videtur secundum Ambro.
+            dicen<lb ed="#N" n="84" break="no"/>tem de hoc sacramento. quod est cibus mentis non ventris. sed
+            <lb ed="#N" n="85"/>si species reficerent et alerent: essent cibus ventris.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e600">
+            ⁋
+            Respon<lb ed="#N" n="86" break="no"/>sio. quod quidam dicunt quod accidentia ista non reficiunt neque
+            <lb ed="#N" n="87"/>alunt. sed odor vini immutando aera cerebrum turbat et
+            <lb ed="#N" n="88"/>inebriat. Et sic intelligendum est verbum apostoli et do.
+            <lb ed="#N" n="89"/>ibidem. Aliter dicunt alii. quod species iste reficiunt et nutriunt
+            <lb ed="#N" n="90"/>et hoc patet maxime ad sensum: quia sumendo speciem
+            vini<lb ed="#N" n="91" break="no"/>sitis extinguitur in sumente. Alii dicunt quod suscipiens
+            spe<lb ed="#N" n="92" break="no"/>cies alitur. non ab ipsis accidentibus inquantum huiusmodi: sed
+            vir<lb ed="#N" n="93" break="no"/>tute supra naturam conuertuntur in substantiam. Ille enim
+            <lb ed="#N" n="94"/>qui accidentia illa virtute supernaturali sustentat sine
+            ma<lb ed="#N" n="95" break="no"/>teria: virtute eadem defluentibus proprietatibus illis in
+            sub<lb ed="#N" n="96" break="no"/>stantiam conuertit: in quam conuerteretur ipsa substantia
+            <lb ed="#N" n="97"/>panis si adesset.. et ita alitur et reficitur sumens illas
+            spir<lb ed="#N" n="98" break="no"/>cies ex substantia in quam conuertuntur. Alii dicunt quod
+            <lb ed="#N" n="99"/>suscipiens species illas alitur et reficitur. non quia acci
+            <lb ed="#N" n="100"/>conuertatur in substantiam: sed quia substantia que priu
+            <lb ed="#N" n="101"/>fuerat: redit. sicut enim est in aliis operibus mirabilib
+            <lb ed="#N" n="102"/>quod expleto officio propter quod condita erant illa que mira
+            <lb ed="#N" n="103"/>biliter erant condita: redacta sunt in primum statum.
+            si<lb ed="#N" n="104" break="no"/>cut dicitur de columba in qua apparuit spiritus sanctus
+            <lb ed="#N" n="105"/>Math. iiii. Dicitur enim quod peracto officio suo in preiacentem
+            <lb ed="#N" n="106"/>naturam rediit vnde sumpta est. Similiter dicitur de
+            stel<lb ed="#N" n="107" break="no"/>la magorum: que paracto officio mox esse desiit: reuertens in
+            pe<lb ed="#N" n="108" break="no"/>iacentem naturam vnde sumpta fuerat. hoc dicitur in glo. et
+            <lb ed="#N" n="109"/>a magistro in histo. Similiter dicunt esse in proposito. quod quando
+            spe<lb ed="#N" n="110" break="no"/>cies desinit esse species: ipse substantie naturales specierum
+            <lb ed="#N" n="111"/>in primum statum reuertuntur: sicut prius miraculose fuerunt
+            <lb ed="#N" n="112"/>transmutate. Et hoc vult Inno. iiii. libro de officio
+            ecclesiasti<lb ed="#N" n="113" break="no"/>co dicens. Si vero queratur: quid a mure comedatur cum
+            sa<lb ed="#N" n="114" break="no"/>cramentum corroditur: vel quid incineratur cum
+            sacramen<lb ed="#N" n="115" break="no"/>tum crematur. Respondendum quod sicut miraculose substantia
+            <lb ed="#N" n="116"/>panis conuertitur in corpus dominicum et incipit esse sub
+            sacra<lb ed="#N" n="117" break="no"/>mento: sic ipsum miraculose quodammodo reuertitur cum ipsum
+            <lb ed="#N" n="118"/>ibi desinit esse. Hec autem opinio videtur mihi vera et
+            secu<lb ed="#N" n="119" break="no"/>ra.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e676">
+            ⁋ Ad primum ergo dicendum. quod accidentia non reficiunt
+            <lb ed="#N" n="120"/>neque nutriunt: sed potius substantia que redit conuertitur in
+            <lb ed="#N" n="121"/>substantiam comedentis. et sic non est contra phscumm dicentem: quod ex
+            eis<lb ed="#N" n="122" break="no"/>dem nutrimur etc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e685">
+            ⁋ Ad aliud quod obiicitur. quod cibus iste
+            <lb ed="#N" n="123"/>est spiritualis etc. Dicendum quod hoc verum est quamdiu ibi est
+            <lb ed="#N" n="124"/>veritas sacramenti. non enim cibat carnaliter inquantum est sacramentum:
+            <lb ed="#N" n="125"/>sed ad cibandum spiritualiter est ordinatum. sed ipsa cibatione
+            termina<lb ed="#N" n="126" break="no"/>ta desinit esse sacramentum: et redit prior substantia et cibat
+            cor<lb ed="#N" n="127" break="no"/>peraliter.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e698">
+            ⁋ Ad aliud dicendum. quod sumptio sacramenti huius non soluit
+            <lb ed="#N" n="128"/>ieiunium: tum quia sacramentum dum sumitur non est cibus
+            cor<lb ed="#N" n="129" break="no"/>poralis: tum ratione contenti scilicet corporis christi quod tantum est
+            ci<lb ed="#N" n="130" break="no"/>bus mentis et hac intentione sumitur vt mentem reficiat. vnde
+            <lb ed="#N" n="131"/>sequens cibatio substantia reuersa non reputatur: quia omnino est
+            <lb ed="#N" n="132"/>preter intentionem consecrantis et sumentis. et omnino
+            imperti<lb ed="#N" n="133" break="no"/>nens ad ipsum sacramentum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e714">
+            ⁋ Ad illud quod obiicitur per verbum
+            <lb ed="#N" n="134"/>Ambro. Dicendum quod Ambro. loquitur de ipso corpore christi
+            <lb ed="#N" n="135"/>quod est cibus anime tantum. Si autem queratur cuius motus vel
+            mu<lb ed="#N" n="136" break="no"/>tatio est hec reuersio. Dicendum quod sicut conuersio est motus
+            <lb ed="#N" n="137"/>vel mutatio singularis: similiter et hec reuersio. vnde non
+            <lb ed="#N" n="138"/>est creatio nec aliquis motus vel mutatio naturalis.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e727">
+            <pb ed="#N" n="291"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Consequenter queri. §§. ii.
+            <lb ed="#N" n="2"/>tur. Utrum species hius sacramenti posunt reficere et nutrire
+            natura<lb ed="#N" n="3" break="no"/>liter. Uidetur quod sic: per hoc. quod illud quod cum excessu sumptum
+            <lb ed="#N" n="4"/>inebriat: debito modo sumptum reficit et nutrit. sed i. corum. xi.
+            <lb ed="#N" n="5"/>habetur in textu et glo. quod aliqui inebriati sunt ex vsu specierum.
+            <lb ed="#N" n="6"/>et constat quod naturaliter. sed si naturaliter inebriare posunt: et
+            na<lb ed="#N" n="7" break="no"/>turaliter reficere et nutrire posunt. Quod naturaliter inebriant
+            <lb ed="#N" n="8"/>ostenditur per hoc. quod virtus vini quandoque diffundit se per aera exta
+            <lb ed="#N" n="9"/>propriam substantiam siue subiectum: et inebriat aliquos ad quos
+            <lb ed="#N" n="10"/>pertingit: et hoc naturaliter. nec impeditur actio eius
+            natu<lb ed="#N" n="11" break="no"/>ralis quantum ad hoc: ex hoc quod non est in proprio subiecto. a
+            si<lb ed="#N" n="12" break="no"/>mili videtur hic etc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e761">
+            ⁋ Contra. illud proprie reficit et nutrit quod
+            <lb ed="#N" n="13"/>conuertitur in substantiam eius qui debet nutriri. sed nullo
+            modo<lb ed="#N" n="14" break="no"/>potest accmdenus conuerti in substantiam per naturam. ergo nec nutrire.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e768">
+            <lb ed="#N" n="15"/>Ad hoc dicendum. quod virtus naturalis relicta in speciebus:
+            <lb ed="#N" n="16"/>naturaliter potest immutare sensum. vnde bene concedo
+            <lb ed="#N" n="17"/>quod virtus vini mirabiliter relicta in specie potest naturaliter
+            <lb ed="#N" n="18"/>agere in gustum. et in tanta quantitate posset sumi quod
+            ine<lb ed="#N" n="19" break="no"/>briaret naturaliter. virtus autem huiusmodi quia est diffusiua
+            na<lb ed="#N" n="20" break="no"/>ture: posset naturaliter diffundere se vsque ad cerebrum et
+            <lb ed="#N" n="21"/>perturbare spiritus et inebriare. sicut virtus vini quandoque
+            dif<lb ed="#N" n="22" break="no"/>fundit se: ita quod sola virtute sine aliquo vsu substantie
+            vi<lb ed="#N" n="23" break="no"/>ni inebriat.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e790">
+            ⁋ Ad illud quod queritur de refectione et
+            nutriti<lb ed="#N" n="24" break="no"/>one. et dico refectionem esse antequam alimentum fiat
+            simile:vtpo<lb ed="#N" n="25" break="no"/>te quando replentur loca euacuata per digestionem. Dico etiam
+            nu<lb ed="#N" n="26" break="no"/>tritionem quando per alimentum simile factum alendo fit
+            restaura<lb ed="#N" n="27" break="no"/>tio perditorum per vnionem alimenti cum alendo. Dicendum quod
+            <lb ed="#N" n="28"/>refectio vel nutritio nullo modo fit neque fieri potest natura
+            <lb ed="#N" n="29"/>liter ex solis accidentibus. Potest ergo dici. quod in opere refectionis
+            <lb ed="#N" n="30"/>et nutritionis secundum quod loquimur in materia ista: est aliquid
+            <lb ed="#N" n="31"/>mirabile et aliquid naturale. Mirabile vero vnum est quod est
+            <lb ed="#N" n="32"/>ibi virtus panis et vini sine substantia. Aliud est. quod
+            defi<lb ed="#N" n="33" break="no"/>cientibus speciebus et ita desinente sacramento: reuertitur sub
+            <lb ed="#N" n="34"/>stantia panis et vini. Unum autem opus naturalem est. quod ipsa
+            <lb ed="#N" n="35"/>substantia panis vel vini reuersa reficit et nutrit sumenten.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e819">
+            <lb ed="#N" n="36"/>⁋ Ex dictis patet responsio ad illud quod obiicitur. quod si species natura
+            <lb ed="#N" n="37"/>liter posunt inebriare extra propriam substantiam: et naturaliter
+            <lb ed="#N" n="38"/>posunt reficere et nutrire etc. Dicendum quod non est necesse. I
+            re<lb ed="#N" n="39" break="no"/>fectione enim requiritur repletio loci euacuati. In nutritione
+            <lb ed="#N" n="40"/>vnio alimenti cum alendo. quorum neutrum naturaliter potest
+            fi<lb ed="#N" n="41" break="no"/>eri ex solis accidentibus: licet per diffusionem virtutis possent
+            spe<lb ed="#N" n="42" break="no"/>cies cerebrum perturbare: et ita homo inebriari.
+          </p>
+        </div>
+        <div xml:id="v78d89-a8c3jc-Dd1e838">
+          <head xml:id="v78d89-a8c3jc-Hd1e840">Articulus 3</head>
+          <p xml:id="v78d89-a8c3jc-d1e842">
+            <lb ed="#N" n="43"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e847">
+            <lb ed="#N" n="44"/>COnsequenter queritur de operatione conuersionis.
+            <lb ed="#N" n="45"/>et queritur. vtrum accidentia habeant potentiam conuer
+            <lb ed="#N" n="46"/>tendi aliquod humidum: vt vinum vel aquam in
+            <lb ed="#N" n="47"/>sacramentum. vtpote si vino consecrato apponatur aqua vel
+            <lb ed="#N" n="48"/>vinum. Et videtur quod sic: per hoc quod accidentia in hoc
+            sacramen<lb ed="#N" n="49" break="no"/>to habent eandem virtutem quam haberent in esse proprio et
+            na<lb ed="#N" n="50" break="no"/>turali. vnde Inno. In quo similitudo deficeret: in eo sacramentum non
+            <lb ed="#N" n="51"/>esset etc. sed in esse proprio et naturali haberent potestatem
+            con<lb ed="#N" n="52" break="no"/>uertendi huiusmodi accidentia in sui naturam. cum ergo conuersio
+            na<lb ed="#N" n="53" break="no"/>turaliter fiat: videtur quod appositum debet conuerti potius in
+            si<lb ed="#N" n="54" break="no"/>mile conuertenti: quam in vinum vel aquam. sed in purum accomdenus
+            <lb ed="#N" n="55"/>non posunt hec accidentia illud appositum conuertere: nisi fiat
+            il<lb ed="#N" n="56" break="no"/>liuus transubstantiatio vel annihilatio. non autem potest per huiusmodi
+            <lb ed="#N" n="57"/>o perationem fieri annihilatio. ergo oportet quod fiat transubstntiatio:
+            <lb ed="#N" n="58"/>et ita conuersio in sacramentum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e882">
+            ⁋ Item maioris virtutis
+            <lb ed="#N" n="59"/>est consecratio in hoc sacramento quam benedictio in aqua. hoc
+            <lb ed="#N" n="60"/>aqua benedicta apposita aque non benedicte facit totam benedi
+            <lb ed="#N" n="61"/>ctam in aliqua quantitate. ergo dinum consecratum facit
+            vt<lb ed="#N" n="62" break="no"/>num non consecratum appositum consecratum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e893">
+            ⁋ Item quand
+            <lb ed="#N" n="63"/>apponitur vinum vel aqua species ille occupant maiores
+            <lb ed="#N" n="64"/>locum. ergo sanguis christi est sub maiori specie. sed sanguis christ
+            <lb ed="#N" n="65"/>non est sub maiori loco nisi aliud in ipsum conuertatur. ergo illud
+            <lb ed="#N" n="66"/>quod apponitur conuertitur in ipsum sanguinem. ergo species que est
+            <lb ed="#N" n="67"/>sacramentum conuertit illud in sacramentum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e907">
+            ⁋ Item quando
+            po<lb ed="#N" n="68" break="no"/>nitur vinum vel aqua fit vna superficies. aut ergo illa
+            superfici<lb ed="#N" n="69" break="no"/>es est in subiecto vel sine subiecto. si in subiecto: ergo si
+            mo<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>dicum quid apprsponatur desinit esse sacramentum. si sine subie
+            <lb ed="#N" n="71"/>cto: ergo totum est sacramentum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e919">
+            ⁋ Si dicatur quod secundum vnam partem est
+            <lb ed="#N" n="72"/>in subiecto: secundum aliam non. Contra. apponatur aqua et
+            mi<lb ed="#N" n="73" break="no"/>sceantur vsque ad minima: tunc non est assignare partes
+            diuer<lb ed="#N" n="74" break="no"/>sas. ergo necesse est quod tunc saltem conuertatur.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e928">
+            ⁋ Item accidens
+            <lb ed="#N" n="75"/>cum substantia non occupat maiorem locum nec facit
+            ma<lb ed="#N" n="76" break="no"/>ius: similiter nec corpus glorificatum cum non glorificato. ex quo
+            <lb ed="#N" n="77"/>ergo in calice non est nisi corpus christi glorificatum cum specie
+            vi<lb ed="#N" n="78" break="no"/>ni. cum illud quod apponitur manet cum sua substantia: illud
+            cum<lb ed="#N" n="79" break="no"/>corpore christi non occupabit maiorem locum quam ante fuit
+            occupa<lb ed="#N" n="80" break="no"/>tum ab accidente cum corpore. Hoc autem patet esse falsum. ex hoc patet
+            <lb ed="#N" n="81"/>quod illud quod apponitur non manet in sua substantia sed solum species
+            <lb ed="#N" n="82"/>illius. et ita necessario est ibi conuersio.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e948">
+            ⁋ Item si apponeretur
+            <lb ed="#N" n="83"/>ibi sacramento aqua in valde magna quantitate: ipsum sacramentum
+            <lb ed="#N" n="84"/>scilicet species vini absorberetur ab aqua et conuerteretur in illam.
+            <lb ed="#N" n="85"/>pari ratione videtur econuerso. quod si aliquis liquor
+            appone<lb ed="#N" n="86" break="no"/>retur ipsi sacramento in tam parua quantitate quod species
+            <lb ed="#N" n="87"/>predominaretur: conuerteretur in ipsum sacramentum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e961">
+            ⁋ Contra. virtus
+            <lb ed="#N" n="88"/>conuertendi non est in elemento sed in verbo. ergo quando additur
+            <lb ed="#N" n="89"/>aliud elementum specieinon fit conuersio. ergo manet substantia
+            <lb ed="#N" n="90"/>cum accidentibus. ergo non conuertitur in sacramentum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e970">
+            ⁋ Item si
+            conuer<lb ed="#N" n="91" break="no"/>titur: aut ergo virtute sanguinis: aut virtute vini: aut virtute
+            <lb ed="#N" n="92"/>speciei. Non virtute sanguinis: quia ille sanguis est
+            glo<lb ed="#N" n="93" break="no"/>rificatus. ergo non habet potentiam conuertendi aliud in se. Non
+            vir<lb ed="#N" n="94" break="no"/>tute vini: quia non est ibi vinum. Nec virtute speciei: cum virtus
+            <lb ed="#N" n="95"/>transubstantiandi non sit data ipsis speciebus sacramenti. ergo
+            <lb ed="#N" n="96"/>nulla est virtus que hanc possit facere conuersionem.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e987">
+            ⁋ Responsio.
+            <lb ed="#N" n="97"/>quod accidentia ista non habent potentiam conuertendi aliam substantiam in
+            sa<lb ed="#N" n="98" break="no"/>cramentum. et hoc est: quia in hoc sacramento non fit conuersio
+            <lb ed="#N" n="99"/>huiusmodi nisi per virtutem verbi. vnde quantuncumque huic
+            sacramen<lb ed="#N" n="100" break="no"/>to apponatur de alio elemento: nisi assit virtus verbi: non fieret
+            <lb ed="#N" n="101"/>conuersio in sacramentum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1000">
+            ⁋ Ad primum ergo dici potest. quod accmdenus
+            <lb ed="#N" n="102"/>vini potest conuertere elementum appositum in naturam vini. sed
+            <lb ed="#N" n="103"/>neque potest illud conuertere in purum accdns neque in sanguinem
+            <lb ed="#N" n="104"/>christi.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1009">
+            ⁋ Ad hoc quod obiicitur. quod appconsitum potius debet
+            con<lb ed="#N" n="105" break="no"/>uerti in simile conuertenti etc. Dicendum quod non est verum. quia
+            ac<lb ed="#N" n="106" break="no"/>cidens huiusmodi non habet de sua natura potentiam conuertendi: sed
+            po<lb ed="#N" n="107" break="no"/>tius de natura proprietatum vini miraculose existentium in illo.
+            <lb ed="#N" n="108"/>et hoc naturaliter sicut naturaliter immutat sensum. et
+            pro<lb ed="#N" n="109" break="no"/>pter hoc non potest conuertere in accmdnus purum: sed in illud cui
+            in<lb ed="#N" n="110" break="no"/>sunt proprietates vini naturaliter.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1025">
+            ⁋ Ad aliud dicendum. quod non
+            <lb ed="#N" n="111"/>est simile de conuersione aque simpliciter in aquam benedictam et
+            il<lb ed="#N" n="112" break="no"/>la de qua hic agitur. In illa autem conuersione eo quod est ibi
+            com<lb ed="#N" n="113" break="no"/>pleta comnixtio: est vnio ad quam sequitur quedam indiuisio
+            <lb ed="#N" n="114"/>sanctificationis: propter quam illa tota aqua ratione vnius est
+            <lb ed="#N" n="115"/>sanctificata. In hac autem conuersione etsi fiat conuersio in
+            ali<lb ed="#N" n="116" break="no"/>quod habens proprietates vini: non fit ibi conuersio substantie alicus
+            <lb ed="#N" n="117"/>in corpus christi: que fit tantum virtute supernaturali.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1043">
+            ⁋ Ad hoc
+            <lb ed="#N" n="118"/>quod obiicitur. quod quando apponitur aliquid species ille occupant
+            <lb ed="#N" n="119"/>maiorem locum. et ita sanguis christi est sub specie maiori. ad
+            <lb ed="#N" n="120"/>quod sequitur necessario aliud fuisse conuersum in ipsum
+            san<lb ed="#N" n="121" break="no"/>guinem. Dicendum quod hoc est falsum. supposito etiam quod
+            san<lb ed="#N" n="122" break="no"/>guis christi contineatur adhuc sub sacramento. licet enim corpus christi
+            <lb ed="#N" n="123"/>vel sanguis contineatur quandoque sub maiori specie quandoque sub
+            mi<lb ed="#N" n="124" break="no"/>nori: vtpote in casu supposito. ex hoc non sequitur aliquid
+            fu<lb ed="#N" n="125" break="no"/>isse conuersum in corpus christi vel sanguinem: sed potius ipsam
+            <lb ed="#N" n="126"/>speciem continentem fuisse dilatatam per aliquid appositum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1065">
+            <lb ed="#N" n="127"/>⁋ Si obiiciatur quod secundum quod maioris quantitas est species
+            con<lb ed="#N" n="128" break="no"/>tinens corpus christi: necesse est illud quod est transmutatum in
+            <lb ed="#N" n="129"/>illud proportionaliter esse maioris. Dicendum quod hoc est verum
+            <lb ed="#N" n="130"/>quando species conuersi precise et conterminabiliter continet.
+            <lb ed="#N" n="131"/>sed ita non est in casu proposito priori retenta suppositione.
+            Ali<lb ed="#N" n="132" break="no"/>ter autem potest dici sine preiudicio melioris sententie scilicet quod quocunque
+            <lb ed="#N" n="133"/>humido apposito et diuiso secundum partes speciei continentis non est ibi
+            <lb ed="#N" n="134"/>sacramentum. cum enim humidum parue quantitatis apponatur humido
+            lon<lb ed="#N" n="135" break="no"/>ge maioris: quia in huiusmodi substantiis non stat diuisio secundum mate
+            <lb ed="#N" n="136"/>riam: cum non sit ponere diuisionem quo ad partes secundum
+            materian<lb ed="#N" n="137" break="no"/>fieri vsque ad minima: necessario oportet nullam partem speciei
+            continen<lb ed="#N" n="138" break="no"/>tis permanere in puritate accidentis: cum iam substantia
+            humi<lb ed="#N" n="139" break="no"/>di appositi admixta est complete singulis pertibus illius
+            spe<lb ed="#N" n="140" break="no"/>ciei. et si hoc: cum in hoc sacramento secundum veritatem sancramenti nihil est
+            <pb ed="#N" n="292"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>neque debet esse nisi species continentes cum eorum quorum sunt species
+            <lb ed="#N" n="2"/>poprietatibus. et corpus christi in casu proposito non est sic: necesse est
+            <lb ed="#N" n="3"/>sd puritas et veritas sacramenti hic cesset. Cum ergo obiicitur.
+            <lb ed="#N" n="4"/>quod ex huiusmodi appositione species ille occupant maiorem locum. dicendum
+            <lb ed="#N" n="5"/>quod verum est quod ibi est occupatio maioris loci quam ante: sed iam non
+            <lb ed="#N" n="6"/>est species que fuit ante: cum iam ex commixtione cum alio variata
+            <lb ed="#N" n="7"/>sit eius essentia. sicut non est eadem albedo numero illa que
+            <lb ed="#N" n="8"/>est minus intense: et illa que sit magis intensa per
+            ingres<lb ed="#N" n="9" break="no"/>sum lucis in essentiam eiusdem.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1123">
+            ⁋ Ad aliud quod obiicitur. quod
+            <lb ed="#N" n="10"/>facta appositione predicta fit vna superficies etc. dicendum quod hoc
+            <lb ed="#N" n="11"/>verum est. sed iam est alia superficies quam prius: quia alia
+            quanti<lb ed="#N" n="12" break="no"/>tas. et illa tota superficies est in subiecto. et ita desinit esse
+            sa<lb ed="#N" n="13" break="no"/>cramentum sicut in opponendo dictum est. cum autem sit vna
+            quanti<lb ed="#N" n="14" break="no"/>tas et earundem proprietatum quantum ad omnes partes illius. nec est
+            <lb ed="#N" n="15"/>secundum aliquam naturam vel proprietatem distinguere partem a parte:
+            <lb ed="#N" n="16"/>necesse est quod si aliqua pars habeat substramentum substantie quod et
+            alie<lb ed="#N" n="17" break="no"/>similiter.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1143">
+            ⁋ Si obiiciatur. quod in huiusmodi appositione non potest esse completa
+            <lb ed="#N" n="18"/>commixtio: quia non potest esse vsque ad minima secundum materiam.
+            Di<lb ed="#N" n="19" break="no"/>cendum quod hoc non sequitur. quia secundum hoc nusquam posset esse
+            comple<lb ed="#N" n="20" break="no"/>ta commixtio in liquidis. sed completa est mixtio quando non est
+            assi<lb ed="#N" n="21" break="no"/>gnare aliquam partem secundum existentiam veritatis in mixto secundum
+            ma<lb ed="#N" n="22" break="no"/>teriam neque secundum speciem que sit differens ab alia. Aliter respondent
+            <lb ed="#N" n="23"/>aliqui ad hoc scilicet quod liquor additus non facit vnam substantiam
+            <lb ed="#N" n="24"/>sed dimensio continuatur dimensioni et fit vna quantitas cuius vna pars
+            <lb ed="#N" n="25"/>superficiei est in subiecto alia sine subiecto. nec hoc est inconueniens vt
+            <lb ed="#N" n="26"/>dicunt: sicut vna pars superficiei potest esse alba alia nigra. hoc autem
+            <lb ed="#N" n="27"/>non videtur consonum rationi: cum humidum sit terminabile proprio
+            <lb ed="#N" n="28"/>termino. nec stat diuisio huiusmodi in humido quantum ad partes secundum
+            <lb ed="#N" n="29"/>materiam donec perueniatur ad tantam indiuisionem pertium et vnionem
+            <lb ed="#N" n="30"/>quod in nulla parte sit inuenire naturam vel proprietatem aliquam
+            <lb ed="#N" n="31"/>quam non sit inuenire in alia.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1176">
+            ⁋ Ad aliud quod obiicitur. quod
+            ac<lb ed="#N" n="32" break="no"/>cidens cum substantia non facit maius: similiter nec corpus
+            <lb ed="#N" n="33"/>glorificatum cum non glorificato etc. Dicendum quod istud verum
+            <lb ed="#N" n="34"/>est de accidente quod secundum naturalem existentiam et esse proprium existit
+            <lb ed="#N" n="35"/>in subiecto. tale autem accmdens quia in subiecto est: non facit maius
+            <lb ed="#N" n="36"/>cum illo nec locum maiorem occupat cum subiecto: quia
+            lo<lb ed="#N" n="37" break="no"/>cus subiecti est locus ipsius. secus est de accidente quod
+            virtu<lb ed="#N" n="38" break="no"/>te supernaturali est habens dimensionem preter subiectum.
+            ta<lb ed="#N" n="39" break="no"/>le autem quando locum occupat cum alio habente propriam dimensionem
+            ma<lb ed="#N" n="40" break="no"/>iorem locum occupat quam per se solum: quia ex illorum commniunctione
+            <lb ed="#N" n="41"/>dimensio additur dimensioni et efficitur maioris loci
+            occupa<lb ed="#N" n="42" break="no"/>tio.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1202">
+            ⁋ Ad illud quod obiicitur. quod liquor appositus potest
+            facere<lb ed="#N" n="43" break="no"/>quod ibi non sit sacramentum. ergo econtrario etc. Dicendum quod non est
+            si<lb ed="#N" n="44" break="no"/>mile. species esse sacramentales multis modis destrui possunt: vt
+            <lb ed="#N" n="45"/>per manducationem putrefactionem et diuisionem earum per
+            commi<lb ed="#N" n="46" break="no"/>xtionem rei alterius: ad quarum destructionem sequitur desitio
+            sa<lb ed="#N" n="47" break="no"/>cramenti. Sed conuersio elementi in sacramentum non potest fieri nisi vir
+            <lb ed="#N" n="48"/>tute supernaturali et ministerio sacerdotali.
+          </p>
+        </div>
+        <div xml:id="v78d89-a8c3jc-Dd1e1219">
+          <head xml:id="v78d89-a8c3jc-Hd1e1221">Articulus 4</head>
+          <p xml:id="v78d89-a8c3jc-d1e1223">
+            <lb ed="#N" n="49"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1228">
+            <lb ed="#N" n="50"/>COnsequenter queritur de operatione transmutationis
+            <lb ed="#N" n="51"/>Et primo de operatione corruptionis. Secundo de
+            ge<lb ed="#N" n="52" break="no"/>neratione vermis ex speciebus corruptis.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1237">
+            <lb ed="#N" n="53"/>Qe prmo queritur .§. I
+            <lb ed="#N" n="54"/>Utrum sit naturalis: an non. Quod sit naturalis videtur sic.
+            Si<lb ed="#N" n="55" break="no"/>aliquid conuenit alicui per naturam: illa natura manente illud
+            <lb ed="#N" n="56"/>idem illi naturaliter conueniet. sed accidentium natura manet
+            <lb ed="#N" n="57"/>omnino nisi quantum ad esse illius in subiecto vel substantia.
+            igi<lb ed="#N" n="58" break="no"/>tur cum per naturam sunt ille species corruptibiles. vel propter
+            <lb ed="#N" n="59"/>defectum virtutis naturalis. vel quia causatur a contrariis: et
+            <lb ed="#N" n="60"/>habent contraria. et omne quod habet contrarium est per naturam
+            cor<lb ed="#N" n="61" break="no"/>ruptibile. ergo etc. Quod autem species iste vere habeant naturam
+            <lb ed="#N" n="62"/>contrarietatis vnde sunt naturaliter corruptibiles: patet per
+            <lb ed="#N" n="63"/>hoc. quia vbi sunt contraria secundum esse spirituale: possunt simul esse in
+            <lb ed="#N" n="64"/>eodem et secundum idem. sicut contrarii colores in eodem medio et
+            <lb ed="#N" n="65"/>sensu et intellectu. cum ergo hic non possint simul esse contrarii
+            co<lb ed="#N" n="66" break="no"/>lores nec sapores: sed mutuo se expellunt: habent hoc naturam
+            con<lb ed="#N" n="67" break="no"/>trarietatis.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1272">
+            ⁋ Item Ansed. de conceptu virgi. distinguit
+            tri<lb ed="#N" n="68" break="no"/>plicem cursum. naturalem scilicet et voluntarium et mirabilem. et
+            <lb ed="#N" n="69"/>dicit quod mirabilis est a deo immediate. cum ergo deus nihil
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>immediate corrumpat. virtus enim diuina est saluatiua et non
+            <lb ed="#N" n="71"/>corruptiua. illa corruptio siue putrefactio non est a deo
+            in<lb ed="#N" n="72" break="no"/>mediate. ergo non est mirabilis nec voluntaria. ergo est natural.
+            <lb ed="#N" n="73"/>Item ad perditionem siue desitionem rerum sufficeret subtrus
+            <lb ed="#N" n="74"/>ctio diuine virtutis. neque requiritur aliqua operatio mirabi
+            <lb ed="#N" n="75"/>lis.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1295">
+            ⁋ Item species huiusmodi vt erant in subiectis naturalite
+            <lb ed="#N" n="76"/>erant corruptibiles: et per naturam tendebant in
+            corrupti<lb ed="#N" n="77" break="no"/>onem. sed vt dicit Inno. si species in aliquo a similitudine
+            <lb ed="#N" n="78"/>recederet: verum sacramentum non esset. igitur sicut tunc fuit de illis:
+            <lb ed="#N" n="79"/>ita et nunc. igitur si tunc corrumporentur hoc esset per naturam: similiter
+            <lb ed="#N" n="80"/>et nunc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1308">
+            ⁋ Contra. forma est compositionem contingens
+            simpli<lb ed="#N" n="81" break="no"/>ci et inuariabili essentia consistens. igitur esse inuariabile
+            cc<lb ed="#N" n="82" break="no"/>uenit forme secundum se. vnde si conueniat variari hoc solum est propter
+            <lb ed="#N" n="83"/>applicationem ad materiam. Si ergo separetur a materia:
+            nul<lb ed="#N" n="84" break="no"/>modo per naturam variatur. si ergo separata variatur: hoc est contra
+            <lb ed="#N" n="85"/>naturam eius. ergo miraculose.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1321">
+            ⁋ Item quando potentia restiti
+            <lb ed="#N" n="86"/>itur alicui que est secundum naturam: tunc collatio potentie non
+            <lb ed="#N" n="87"/>est miraculosa sed actus naturalis. cum autem datur potentia
+            <lb ed="#N" n="88"/>noua supra naturam: et collatio potentie est mirabilis et
+            <lb ed="#N" n="89"/>egressus in actum. vt patet in hoc quod est virginem parere. Sed
+            <lb ed="#N" n="90"/>suscipere contraria hoc est proprium substantie et supra vel
+            contra<lb ed="#N" n="91" break="no"/>naturam accidentis. ergo semper egressus in talem actum quentuncr
+            <lb ed="#N" n="92"/>conferatur potentia erit miraculosus. sed si corrumpantur species
+            <lb ed="#N" n="93"/>huiusmodi: necesse est illas suscipere contrarias dispositiones. erguti
+            <lb ed="#N" n="94"/>transmutationem siue corruptionem fieri circa huiusmodi non erat
+            <lb ed="#N" n="95"/>per naturam: sed miraculosum.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1345">
+            ⁋ Item ex eisdem generatur res
+            <lb ed="#N" n="96"/>et corrumpitur per naturam secundum phosum. sed substantia materia
+            <lb ed="#N" n="97"/>cum forma est causa omnium accidentium que in eis sunt: vt
+            ha<lb ed="#N" n="98" break="no"/>betur alibi. substantia igitur materia cum forma est causa
+            <lb ed="#N" n="99"/>corruptionis accidentium. sed separata causa et effectus separatur.
+            <lb ed="#N" n="100"/>igitur accidentia separata a substantiis non sunt actu
+            corruptibi<lb ed="#N" n="101" break="no"/>lia per naturam. ergo etc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1361">
+            ⁋ Item materia prima est subiectum
+            <lb ed="#N" n="102"/>omnis contrarietatis. igitur vbi nihil est de prima neque aliquid
+            <lb ed="#N" n="103"/>contrarietatis. ergo cum contrarietas sit causa corruptionis
+            na<lb ed="#N" n="104" break="no"/>turalis: vbi nihil est materie prime nec possibilitas ad
+            cor<lb ed="#N" n="105" break="no"/>ruptionem per naturam. sed iste species non communicant aliquid
+            <lb ed="#N" n="106"/>prime materie. igitur nec possibiles sunt ad corruptionem per
+            <lb ed="#N" n="107"/>naturam. igitur etc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1377">
+            ⁋ Item differentia est inter formas
+            mathe<lb ed="#N" n="108" break="no"/>maticas et naturales. quod naturales abstracte per intellecta
+            <lb ed="#N" n="109"/>abstrahuntur a proprietatibus naturalibus. vt enim abstracte sunt
+            <lb ed="#N" n="110"/>non habent proprietates illas. sed forme mathematice
+            abstra<lb ed="#N" n="111" break="no"/>cte abstrahuntur a proprietatibus suis naturalibus. immo et
+            <lb ed="#N" n="112"/>ipse proprietates demonstrant de illis. sicut de triangulo
+            <lb ed="#N" n="113"/>habere tres angulos. igitur cum species iste naturales scilicet
+            <lb ed="#N" n="114"/>panis et vini abstracte sunt siue sepate: necesse est quod et
+            se<lb ed="#N" n="115" break="no"/>parentur a proprietatibus naturalibus. igitur cum a proprietatibus
+            <lb ed="#N" n="116"/>naturalibus habeant forme naturales naturam a
+            <lb ed="#N" n="117"/>et patiendi: forme sic separate non habent naturam neque
+            agen<lb ed="#N" n="118" break="no"/>di neque patiendi. et sic neque possunt naturaliter putrefieri nec
+            <lb ed="#N" n="119"/>corrumpi.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1407">
+            ⁋ Item omnis actio naturalis est a forma:
+            pas<lb ed="#N" n="120" break="no"/>sio a materia. et dico a forma et a materia que sunt substantie
+            <lb ed="#N" n="121"/>cuius ratio est: quia etsi forma que est accidens potest esse
+            <lb ed="#N" n="122"/>aliquo modo virtus agendi a suis principiis: hoc
+            tamen<lb ed="#N" n="123" break="no"/>est secundum quod illa recipiunt influentiam a principiis
+            substan<lb ed="#N" n="124" break="no"/>tie. igitur si species iste sunt separate a substantia et quantum
+            <lb ed="#N" n="125"/>ad materiam et quantum ad formam. neque enim habent
+            sub<lb ed="#N" n="126" break="no"/>stramentum substantie forme vel materie. igitur neque
+            con<lb ed="#N" n="127" break="no"/>uenit illis passio neque actio per naturam. igitur nec
+            cor<lb ed="#N" n="128" break="no"/>ruptio naturalis.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1429">
+            ⁋ Item aliud est putrefieri et
+            putrefa<lb ed="#N" n="129" break="no"/>ctum esse. Putrefactio autem naturalis est per actionem
+            <lb ed="#N" n="130"/>et passionem in materia: sicut omnis actio naturalis. igitur
+            <lb ed="#N" n="131"/>cum species iste non communicant in materia cum natura
+            <lb ed="#N" n="132"/>liter agente exteriori: non est putrefactio naturalis.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1440">
+            ⁋
+            Re<lb ed="#N" n="133" break="no"/>sponsio. vt snpmum tactum est opere mirabili in ipsis speciebus
+            <lb ed="#N" n="134"/>relicta est aliqua natura propria scilicet quam habebant in
+            <lb ed="#N" n="135"/>substantiis. vnde et illa qua agebant et patiebantur. aliter
+            <lb ed="#N" n="136"/>enim recederent a similitudine prima. et ideo naturaliter
+            <lb ed="#N" n="137"/>transmutantur et corrumpantur.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1453">
+            ⁋ Ad hoc quod obiicitur
+            <lb ed="#N" n="138"/>quod forma est compositionem contingens etc. Responsio. reuera
+            <lb ed="#N" n="139"/>ibi loquitur phssolus de forma accidentali. non autem de quacumque: sed
+            <lb ed="#N" n="140"/>de illa que omnino forma est. vnde non loquitur de quantitate
+            <pb ed="#N" n="293"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>que variabilis est secundum susceptionem diuersorum accidentium. vt patet
+            <lb ed="#N" n="2"/>cum eadem superficies quandque sit alba quandoque pallida quandoque
+            ru<lb ed="#N" n="3" break="no"/>bea. dicitur igitur forma id est accmdenus inuariabile: que scilicet
+            median<lb ed="#N" n="4" break="no"/>te quantitate inest substantie. que duplici ratione dicitur
+            inuariabi<lb ed="#N" n="5" break="no"/>lis. Rtone impermutabilitatis a subiecto in subiectum. quia vt
+            <lb ed="#N" n="6"/>dicit Boe. accidentia indignantis nature sunt perimi posunt.
+            <lb ed="#N" n="7"/>permutari nequaquam. Et ratione insusceptabilitatis formarum
+            <lb ed="#N" n="8"/>contrariarum. non enim idem color numero est albus quandoque:
+            pal<lb ed="#N" n="9" break="no"/>lidus quandoque. nec vt existimo eadem albedo numero magis
+            <lb ed="#N" n="10"/>vel minus intensa. cum ex hoc intenditur: quod in esse ipsius
+            abun<lb ed="#N" n="11" break="no"/>dantius confluant natura lucis et perspicui. hoc tamen
+            opman<lb ed="#N" n="12" break="no"/>do dico. Inuariabilitas igitur harum formarum non impedit
+            de<lb ed="#N" n="13" break="no"/>scensum horum accidentium in putrefactionem per naturam. sicut nec
+            <lb ed="#N" n="14"/>cum sunt in substantia: cumm habeant eandem naturam in
+            se<lb ed="#N" n="15" break="no"/>post consecrationem quam ante habebant in substantia: que
+            natu<lb ed="#N" n="16" break="no"/>raliter et in naturales progreditur operationes.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1501">
+            ⁋ Ad quod obii
+            <lb ed="#N" n="17"/>citur. quod proprium est substantie suscipere contrarietates etc. Dicendum
+            <lb ed="#N" n="18"/>quod susceptio contrariorum est immediata causa corruptionis: eo
+            <lb ed="#N" n="19"/>modo quo dicitur quod substantie proprium est suscipere contraria. quod
+            <lb ed="#N" n="20"/>patet ex hoc. quod illud quod est maxime suseeptum scilicet prima
+            mate<lb ed="#N" n="21" break="no"/>ria que est subiectum omnis contrarietatis minime est
+            corru<lb ed="#N" n="22" break="no"/>ptibilis. sed causa corruptionis est actio contrariii. vnde quia in
+            spe<lb ed="#N" n="23" break="no"/>ciebus istis manent qualitates que habent contraria ex actione
+            <lb ed="#N" n="24"/>contrariorum naturaliter dissoluitur in eis armonia naturalis
+            <lb ed="#N" n="25"/>et corrumpuntur.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1523">
+            ⁋ Ad illud quod obiicitur. quod ex eisdem
+            genera<lb ed="#N" n="26" break="no"/>tur res et corrumpitur etc. Dicendum quod primum debet
+            intelli<lb ed="#N" n="27" break="no"/>gi formaliter loquendo sumendo eadem in genere. vnde ex
+            <lb ed="#N" n="28"/>eisdem generatur res et corrumpitur. hoc est ex contrariis que habent
+            <lb ed="#N" n="29"/>idemptitatem quandam saltem in genere. vnde ratione qua mixta
+            <lb ed="#N" n="30"/>de quibus loquitur phous fiunt siue generantur ex quatuor
+            elemen<lb ed="#N" n="31" break="no"/>tis: que quia comunicant qualitates contrarias: que non sunt
+            <lb ed="#N" n="32"/>in termino conciliationis siue equeliberationis in mixto
+            quo<lb ed="#N" n="33" break="no"/>dammodo agunt et patiuntur. et maxime quando preualet virtus
+            ali<lb ed="#N" n="34" break="no"/>cuius contrarii: subsidio alicuius cause exterioris possibilia
+            <lb ed="#N" n="35"/>sunt ad corruptionem. Quid est igitur causa corruptionis in
+            cor<lb ed="#N" n="36" break="no"/>ruptibilibus. patet quod non ipsa substantia materia: vel substantia
+            <lb ed="#N" n="37"/>forma inquantum talia. sed inquantum in se cum materia et
+            forma<lb ed="#N" n="38" break="no"/>concernunt naturam contrarietatis. propter quod si subtraheretur
+            <lb ed="#N" n="39"/>materia et forma prout sunt in sua puritate: et relinqueretur
+            <lb ed="#N" n="40"/>natura contrarietatis. illud in quo relinqueretur naturalit
+            <lb ed="#N" n="41"/>tenderet ad non esse. et sic est in proposito. Dicendum est igitur quod i
+            <lb ed="#N" n="42"/>his formis relinquitur natura contrarietatis. etsi hoc sit
+            mi<lb ed="#N" n="43" break="no"/>rabiliter: nihilominus ex illa natura relicta subiacent
+            cor<lb ed="#N" n="44" break="no"/>suptioni naturaliter. sicut illa in quibus naturaliter habet esse.
+            <lb ed="#N" n="45"/>Iuctoritates igitur phoi habent locum vbi res sunt in esse naturali.
+            ni<lb ed="#N" n="46" break="no"/>hilominus eadem natura scilicet contrarietatis qua ibi res
+            sub<lb ed="#N" n="47" break="no"/>iacent corruptioni et hoc species.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1574">
+            ⁋ Ad illud quod obiicitur. quod
+            ma<lb ed="#N" n="48" break="no"/>teria prima est subiectum omnium contrarietatum. Dicendum quod hoc
+            <lb ed="#N" n="49"/>verum est secundum viam nature: non autem vbique vt ibi natura
+            con<lb ed="#N" n="50" break="no"/>trarietatis virtute mirabili saluatur: vbi nihil nature
+            sub<lb ed="#N" n="51" break="no"/>est vt hoc.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1585">
+            ⁋ Ad aliud dicendum. quod aliud est abstrahere formas
+            <lb ed="#N" n="52"/>naturales secundum quod huiusmodi forme abstrahi dicuntur. et aliud est
+            <lb ed="#N" n="53"/>ponere formas naturales in hoc sacramento separari a
+            sub<lb ed="#N" n="54" break="no"/>iecto. quia in abstractione illa abstrahuntur forme ille quodam
+            <lb ed="#N" n="55"/>modo ab esse naturali et proprietatibus naturalibus: secundum quas
+            <lb ed="#N" n="56"/>subiacent motui et materie et sunt hic et nunc. propter quod et
+            <lb ed="#N" n="57"/>abstrahuntur a natura agendi vel patiendi. sed separatio forma
+            <lb ed="#N" n="58"/>rum que est in hoc sacramento solum a subiecto est substantia
+            re<lb ed="#N" n="59" break="no"/>lictis omnibus proprietatibus vel speciebus naturalibus in ipsius
+            <lb ed="#N" n="60"/>separatis quas habebant in substantia: vnde sunt hic et nunc.
+            <lb ed="#N" n="61"/>Unde quia ille proprietates naturales quas habebant in
+            sub<lb ed="#N" n="62" break="no"/>stantia adhuc habent secundum veritatem: hnt naturam agendi et
+            pa<lb ed="#N" n="63" break="no"/>tiendi sicut ante separationem. vnde non est simile de hac
+            separa<lb ed="#N" n="64" break="no"/>tione et illa que fit per abstractioem.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1616">
+            ⁋ Ad aliud dicendum. quod in omni
+            <lb ed="#N" n="65"/>actione nature intime agit auctor nature. vnde per se agit
+            <lb ed="#N" n="66"/>et nature dat quod coagit. sed quandoque in aliquibus operibus nature ipse
+            <lb ed="#N" n="67"/>auctor nature aliquid agit per se non cooperante natura. verbi. ergo.
+            si<lb ed="#N" n="68" break="no"/>cut in productione hominis in esse: solus agit animam creando
+            <lb ed="#N" n="69"/>et infundendo: nihilominus productio hominis in esse natura
+            <lb ed="#N" n="70"/>lis dicitur. et ratione ordinationis naturalis et coniunctionis corpo
+            <lb ed="#N" n="71"/>sis et anime a qua est productio hominis in esse. quod igitur in
+            producti<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>one hominis in esse est operans virtus mirabilis: non impedit
+            <lb ed="#N" n="73"/>quin productio in esse sit naturalis. A simili dico hic. quod licet
+            <lb ed="#N" n="74"/>forme panis et vini virtute mirabili separate sunt a substam
+            <lb ed="#N" n="75"/>tia materia et forma et eadem virtute stabilitate in se cum
+            <lb ed="#N" n="76"/>omnibus proprietatibus naturalibus quas habebant in
+            substan<lb ed="#N" n="77" break="no"/>tiis. si nature relicte in speciebus progrediuntur in actus suos
+            <lb ed="#N" n="78"/>naturales. vnde est illis actio et passio: progressus ille
+            na<lb ed="#N" n="79" break="no"/>turalis dicendus est: et actio et passio naturalis. Cum igitur
+            <lb ed="#N" n="80"/>opponitur: cum omnis actio naturalis est a forma substantia:
+            <lb ed="#N" n="81"/>et passio naturalis a materia substantia. Dicendum quod hoc
+            <lb ed="#N" n="82"/>verum est vbi actio et passio naturalis regulantur opere
+            mi<lb ed="#N" n="83" break="no"/>rabili. qua species hec sine substantia habent omnes proprietates
+            <lb ed="#N" n="84"/>naturales quas habebant in substantia.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1663">
+            ⁋ Ad aliud
+            di<lb ed="#N" n="85" break="no"/>cendum. quod cum dicitur putrefactio naturalis est per actionem et
+            <lb ed="#N" n="86"/>passionem communicantium in materia. hoc est verum vbi
+            putre<lb ed="#N" n="87" break="no"/>factio omnino regulatur natura siue opere nature. hic autem
+            <lb ed="#N" n="88"/>non est sic. immo regulatur opere supra naturam: quia natura qua
+            <lb ed="#N" n="89"/>forme posunt agere et pati: opere mirabili relicta est in ipsis
+            <lb ed="#N" n="90"/>speciebus.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1679">
+            <lb ed="#N" n="91"/>Consequenter que .§. ii.
+            <lb ed="#N" n="92"/>ritur de generatione vermis ex speciebus corruptis. vtrum
+            <lb ed="#N" n="93"/>sit naturalis vel supernaturalis. Quod naturalis: videtur per hoc.
+            <lb ed="#N" n="94"/>quod vniuersaliter que exeuntem in esse per putrefactionem: naturaliter
+            <lb ed="#N" n="95"/>exeunt in esse. nisi in quibusdam casibus specialibus: sicut
+            for<lb ed="#N" n="96" break="no"/>te fuit de virga moysi que versa fuit in colubrum Exo. vii. et aqua
+            <lb ed="#N" n="97"/>que versa fuit in ranas Exo. viii.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1697">
+            ⁋ Item exitus vermis
+            <lb ed="#N" n="98"/>in esse ex speciebus putrefactis paulatinus est et non subitus
+            <lb ed="#N" n="99"/>siue repentinus. sed exitus rerum in esse cursu mirabili
+            exe<lb ed="#N" n="100" break="no"/>unt in esse diuina virtute operante: vt tota causa. exitus
+            au<lb ed="#N" n="101" break="no"/>tem huiusmodi subitus solet esse siue repentinus. ergo huiusmodi exitus non
+            <lb ed="#N" n="102"/>est mirabilis neque voluntarius. ergo est naturalis.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1711">
+            ⁋ Contra.
+            <lb ed="#N" n="103"/>in exitu vermis in esse ex speciebus putrefactis conuertitur
+            ac<lb ed="#N" n="104" break="no"/>cidens in substantiam. huiusmodi autem conuersio est supra naturam.
+            <lb ed="#N" n="105"/>ergo et c.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1720">
+            ⁋ Responsio. dicendum quod in huiusmodi operationibus quando ad
+            putre<lb ed="#N" n="106" break="no"/>factionem specierum sequitur adgeneratio vermis sunt duo
+            mi<lb ed="#N" n="107" break="no"/>rabilia et duo naturalia. Unum mirabile est quod ibi est virtus
+            <lb ed="#N" n="108"/>panis et vini sine substantia. aliud est quod deficientibus
+            speci<lb ed="#N" n="109" break="no"/>ebus et ita desinente sacramento: reuertitur substantia paninis et
+            <lb ed="#N" n="110"/>vini. Unum autem opus naturale est quo ipsa species panis et
+            <lb ed="#N" n="111"/>vini virtute exteriori agente et interiori cedente cedit in
+            cor<lb ed="#N" n="112" break="no"/>ruptionem. Aliud est quod ex ipsa substantia reuersa panis et
+            <lb ed="#N" n="113"/>vini post hanc desitionem specierum virtute superiori agente et
+            in<lb ed="#N" n="114" break="no"/>feriori cedente adgeneratur vermis. vnde licet aliquiod opst
+            mira<lb ed="#N" n="115" break="no"/>bile concurrat ad huiusmodi generationem: nihilominus quia illa que
+            <lb ed="#N" n="116"/>per se sunt ad corruptionem sunt a natura. operatio ista dicenda
+            <lb ed="#N" n="117"/>est naturalis simpliciter. secundum quid tamen potest dici mirabilis.
+          </p>
+          <p xml:id="v78d89-a8c3jc-d1e1749">
+            <lb ed="#N" n="118"/>⁋ Ad illud quod obiicitur. quod in hoc exitu conuertitur accmdenus in
+            <lb ed="#N" n="119"/>substantiam. Dicendum quod hoc non est verum: quia substantia
+            reuer<lb ed="#N" n="120" break="no"/>sa conuertitur in substantiam vermis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

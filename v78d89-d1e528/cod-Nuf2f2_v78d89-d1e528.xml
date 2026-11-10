@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7, Membrum 9</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7, Membrum 9</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="63"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e528"><!-- q7m9 -->
+        <head xml:id="v78d89-d1e528-Hd1e101">Membrum 9</head>
+        <head xml:id="v78d89-d1e528-Hd1e103" type="question-title">De duratione circumcisionis</head>
+        <p xml:id="v78d89-d1e528-d1e106">
+          <lb ed="#N" n="41"/>Membrum nonum
+        </p>
+        <p xml:id="v78d89-d1e528-d1e111">
+          <lb ed="#N" n="42"/>COnsequenter queritur de duratione
+          circumcisio<lb ed="#N" n="43" break="no"/>nis. Quod autem non semper debuerit durare: vidtur
+          <lb ed="#N" n="44"/>per hoc quod dicit apostolus ad Gal. v. Si
+          circumci<lb ed="#N" n="45" break="no"/>dimini: christus nihil vobis proderit. ergo
+          post<lb ed="#N" n="46" break="no"/>quam innotuit fides christi non durauit circumcisio.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e124">
+          ⁋ Item Act. xv.
+          <lb ed="#N" n="47"/>visum est spirituisancto et nobis nihil imponere vobis oneris etc.
+          <lb ed="#N" n="48"/>Sed inter illa que ibi ponuntur non numeratur circumcisio: ergo
+          <lb ed="#N" n="49"/>relinquitur quod iam cessauerat.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e134">
+          ⁋ Contra. Gen. xvii. dicitur. Quod
+          <lb ed="#N" n="50"/>circumcisio datur in fedus eternum: ergo eternaliter debuit
+          du<lb ed="#N" n="51" break="no"/>rare.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e141">
+          ⁋ Item resurrectio eterna signatum est circumcisionis. ergo cum
+          <lb ed="#N" n="52"/>nondum sit huiusmodi resurrectio: non debuit circumcisio que est signum
+          <lb ed="#N" n="53"/>illius cessare. Dicit enim augustinus quod tunc debet signum cessare: cum
+          <lb ed="#N" n="54"/>aduenit signatum et non ante. Item secundum augustinus. decimatio fuit
+          <lb ed="#N" n="55"/>remedium originalis in lege nature. et circumcisio fuit
+          expressi<lb ed="#N" n="56" break="no"/>us signum illius remedii. ergo si decimatio adhuc datur:
+          mul<lb ed="#N" n="57" break="no"/>tomagis et circumcisio.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e157">
+          ⁋ Item currente lege nature et scripta
+          <lb ed="#N" n="58"/>habuit semen abrahe remedium spirituale. quare ergo non similiter
+          <lb ed="#N" n="59"/>modo.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e164">
+          ⁋ Item non omnia figuratiua cessant. sicut sunt ea que sunt
+          <lb ed="#N" n="60"/>figuratiua faciendi vt thurificatio: sed solum ea que sunt
+          figu<lb ed="#N" n="61" break="no"/>ratiua futuri. si ergo circumcisio figurat faciendum scilicet
+          circun<lb ed="#N" n="62" break="no"/>cisionem a viciis: non debet cessare.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e173">
+          ⁋ Item omnis christi actio nostra
+          <lb ed="#N" n="63"/>est instructio. ergo cum baptizemur ad imitationem eius: videtur
+          <lb ed="#N" n="64"/>similiter quod circumcidi debeamus ad imitationem eius.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e180">
+          ⁋ Item
+          <lb ed="#N" n="65"/>apostolus act. xvi. circumcidit thimotheum. ergo adhuc durabat
+          <lb ed="#N" n="66"/>circumcisio. quare ergo et modo non datur.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e188">
+          ⁋ Item psalm.
+          Consili<lb ed="#N" n="67" break="no"/>um domini manet ineternum. glo. numquam dissoluitur. sed circumcisio
+          <lb ed="#N" n="68"/>ex consilio dei data est: ergo numquam dissoluitur. ergo adhuc durat circum
+          <lb ed="#N" n="69"/>cisio.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e197">
+          ⁋ Iem obiiciunt heretici. sed deus tunc voluit et modo non vultm:
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>ergo mutabilis est voluntas eius.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e204">
+          ⁋ Item si illud quod deuotionis
+          <lb ed="#N" n="71"/>fuit et honestatis non cessauit vt thurificatio: ergo multo
+          <lb ed="#N" n="72"/>magis nec illud quod fuit necessitatis vt circumcisio.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e211">
+          ⁋ Ad quod
+          <lb ed="#N" n="73"/>respondendum est. per illud quod dicit augustinus in libro. q. no. te. quod circumcisio
+          <lb ed="#N" n="74"/>vsque ad christum indulta est. quo veniente cessaret: quia christus omnes per
+          fi<lb ed="#N" n="75" break="no"/>dem circumcidere vel saluare debebat: sicut abraham per fidem
+          <lb ed="#N" n="76"/>iustificatus fuerat.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e222">
+          ⁋ Ad hoc quod obiicitur. quod circumcisio data est
+          <lb ed="#N" n="77"/>inn fedus eternum. Respondeo quod eternum ibi accipitur pro seculo.
+          <lb ed="#N" n="78"/>seculare autem dicitur quod finem habet et si non sit determinatus vt dicit
+          <lb ed="#N" n="79"/>augustinus. de ci. dei. Sciat eternum a nostris interpretari quod greci
+          ap<lb ed="#N" n="80" break="no"/>pellant eonyon quod a seculo deriuatum est. eonyon quippe
+          grece<lb ed="#N" n="81" break="no"/>seculum nuncupatur. sed non sunt ausi latini dicere seculare: ne
+          lon<lb ed="#N" n="82" break="no"/>ge in aliud mitterent sensum. secularia quippe dicuntur multa que in
+          <lb ed="#N" n="83"/>hoc seculo sic aguntur vt breui etiam tempore transeant.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e240">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="84"/>obiicitur quod circumcisio signum est illius circumcisionis que fiet in
+          gene<lb ed="#N" n="85" break="no"/>rali resurrectione que nondum venit. Responsio. quod secundum quod vult augustinus
+          <lb ed="#N" n="86"/>ad valerium. Circumcisio instituta fuit per se ad remedium
+          origi<lb ed="#N" n="87" break="no"/>nalis et non principaliter ad signandum. De illis autem que per se et
+          pri<lb ed="#N" n="88" break="no"/>cipaliter instituta sunt ad signandum tenetur illud quod dicitur. quod non
+          <lb ed="#N" n="89"/>debet cessare signum donec venerit signatum. Uel dicendum quod
+          si<lb ed="#N" n="90" break="no"/>gnum immpletum est in casa. scilicet in resurrectione christi que est causa resurrecti
+          <lb ed="#N" n="91"/>onis nostre: licet adhuc non sit impletum in effectu generalis
+          re<lb ed="#N" n="92" break="no"/>surrectionis. et hoc vult augustinus.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e263">
+          ⁋ Ad aliud dicendum. quod
+          decima<lb ed="#N" n="93" break="no"/>tio cessauit quantum ad hoc quod erat in remedium: non tamen quantum ad st
+          <lb ed="#N" n="94"/>stantiam: quia cedit in alium vsum scilicet in sustentationem ministrorum ecclesie
+        </p>
+        <p xml:id="v78d89-d1e528-d1e270">
+          <lb ed="#N" n="95"/>⁋ Ad aliud dicendum. quod semen abrahe non habet remedium spetiale. quia
+          <lb ed="#N" n="96"/>christus venit ad faciendum vnum poplum. ipse enim est lapis angularis.
+          <lb ed="#N" n="97"/>ii. ad eph. Ipse enim est pax nostra qui fecit vtraque vnum eodem.
+          <lb ed="#N" n="98"/>tunc autem quando scilicet separatus est poplus a populo: decuit quod haberet spetiale
+          <lb ed="#N" n="99"/>remedium et signum distinctum et non modo: quia omnes credentes sunt
+          <lb ed="#N" n="100"/>vnum corpus quorum christus est caput. ii. ad eph.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e286">
+          ⁋ Ad aliud quod
+          <lb ed="#N" n="101"/>obiicitur. quod circumcisio signat illud quod est faciendum: ergo debuit
+          ma<lb ed="#N" n="102" break="no"/>nere sicut thurificatio. Respondeo quod sicut dictum est. circumcisio non
+          <lb ed="#N" n="103"/>fuit de prima ratione instituta ad significandum: sed ad remedium. et
+          <lb ed="#N" n="104"/>si fuit instituta ad significandum: hoc tamen non fuit principale eius
+          <lb ed="#N" n="105"/>significatum sed principaliter significabat ablationem originalis
+          <lb ed="#N" n="106"/>quo ad culpam et diminutionem concupiscentie. quod perfecte factum est
+          <lb ed="#N" n="107"/>adueniente christo per passionem. et tunc cessauit circumcisio. de
+          <lb ed="#N" n="108"/>thurificatione vero non est sic: quia idem significabat nunc et tunc
+          <lb ed="#N" n="109"/>id est deuotionem.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e308">
+          ⁋ Ad aliud dicendum. quod christus non fuit circumcisus
+          <lb ed="#N" n="110"/>ad exemplum imitationis. sed ne iudeis daret occasionem
+          incre<lb ed="#N" n="111" break="no"/>dulitatis sicut dicit augustinus in omelia circumcisionis. Item in. q. no.
+          <lb ed="#N" n="112"/>te. dicit. debiit circumcidi: vt circumcisus appareret filius abra
+          <lb ed="#N" n="113"/>he. qui abrahe promissus fuerat.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e319">
+          ⁋ Ilud autem omnis christi actio
+          <lb ed="#N" n="114"/>intelligitur non de operibus potestatis nec etiam de omnibus aliis
+          nisi<lb ed="#N" n="115" break="no"/>de his que fecit ad exemplum imitationis: non ad dispensationem
+          <lb ed="#N" n="116"/>nostre redemptionis. In circumcisione autem dedit arram nostre
+          re<lb ed="#N" n="117" break="no"/>demptionis.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e330">
+          ⁋ Ad illud quod obiicitur de circumcisione
+          thimo<lb ed="#N" n="118" break="no"/>thei Act. xvi. Responsio secundum augustinus in. q. no. et ve. te. Quod hoc
+          <lb ed="#N" n="119"/>fecit propter scandalum iudeorum. siem saluator precepit leproso
+          <lb ed="#N" n="120"/>vt offerret munus pro emundatione sua. viii. math. nec
+          posu<lb ed="#N" n="121" break="no"/>it ibi spem apostolus. sed ne videretur legis inimicus.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e342">
+          ⁋ Ad illud
+          <lb ed="#N" n="122"/>quod obiicitur. quod consilium dei non dissoluitur. dicendum quod consilium
+          <lb ed="#N" n="123"/>ibi dicitur eterna dei dispositio. que numquam in se dissoluitur.
+          <lb ed="#N" n="124"/>licet res que subsunt mutabiles sunt. et per hoc patet solutio
+          <lb ed="#N" n="125"/>ad aliud quod obiicitur. quod si voluit prius circumcisionem et non vult
+          <lb ed="#N" n="126"/>modo. quod voluntas eius sit mutata. quia variatione facta in rebus
+          <lb ed="#N" n="127"/>nulla sit variatio in ipso: eadem autem est voluntas et non muta
+          <lb ed="#N" n="128"/>ta qua prius voluit et modo non vult: licet comnotatum illud
+          respi<lb ed="#N" n="129" break="no"/>ciat variationem rei. quia illud temporalem est.
+        </p>
+        <p xml:id="v78d89-d1e528-d1e362">
+          ⁋ Ad vltimum dicendum
+          <lb ed="#N" n="130"/>secundum augustnus quod donec veniret ille qui sanguinem pro omnibus daret
+          <lb ed="#N" n="131"/>necesse fuit proprium sanguinem dare. Unde modo non indigemus
+          <lb ed="#N" n="132"/>circumcisione nec sanguinis propria effusione. et preterea habemus
+          <lb ed="#N" n="133"/>loco eius efficatius sacramentum scilicet baptismum. de thurificati
+          <lb ed="#N" n="134"/>one vero alia ratio est que scilicet dicta est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

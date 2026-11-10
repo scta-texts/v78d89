@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 79, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 79, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="511"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aek3ex"><!-- q79m4 -->
+        <head xml:id="v78d89-aek3ex-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aek3ex-Hd1e103" type="question-title">Quot sint</head>
+        <p xml:id="v78d89-aek3ex-d1e106">
+          <lb ed="#N" n="117"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e111">
+          <lb ed="#N" n="118"/>COnsequenter queritur. Quot sint claues. et dicitur
+          <lb ed="#N" n="119"/>comuniter quod due. et hoc videtur per rabanum dicenten
+          <lb ed="#N" n="120"/>hoc officium committitur presbiteris atque episcopis. vt
+          agni<lb ed="#N" n="121" break="no"/>tis peccatorum causis quos humiles ac vere penitentes
+          <lb ed="#N" n="122"/>aspexerint: hos a timore perpetue mortis absoluant. Hic
+          no<lb ed="#N" n="123" break="no"/>tantur duo actus respondentes duabus clauibus scilicet discernendi ibi vt
+          <lb ed="#N" n="124"/>agnitis peccatorum causis. et absoluendi ibi a timore perpetue
+          mor<lb ed="#N" n="125" break="no"/>tis absoluant: notatur ergo hoc duplex officium clauis.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e131">
+          ⁋ Item hoc videt
+          <lb ed="#N" n="126"/>per hoc quod habetur Gen. iii. quod deus posuit cherubin et flammeum
+          gla<lb ed="#N" n="127" break="no"/>dium ad arcendum ab introitu paradisi. Unde quia duo claude
+          <lb ed="#N" n="128"/>bant ianuam: ad eius apertionem due claues requiruntur. vna que
+          re<lb ed="#N" n="129" break="no"/>spicit cherubin: scilicet auctoritas vtendi sclesia quando requiritur. et alia que
+          re<lb ed="#N" n="130" break="no"/>spicit gladium flammeum: et hic est gladius ecclesiasticus. scilicet potestas ligam
+          <lb ed="#N" n="131"/>di et soluendi. et ita due sunt claues.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e148">
+          ⁋ Contra. videtur quod
+          nume<lb ed="#N" n="132" break="no"/>rus clauium non sit sufficienter determinatus in duabus. quia cum scletia
+          <lb ed="#N" n="133"/>discernendi sit vna clauis potestas absoluendi alia. et maxime quia
+          <lb ed="#N" n="134"/>his aperitur ianua regni viatoribus: videtur quod eadem ratione et
+          bona<lb ed="#N" n="135" break="no"/>vita clauis erit.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e159">
+          ⁋ Item videtur quod gratia dicenda est clauis. cum soluat
+          <lb ed="#N" n="136"/>penitentem a pena eterna et liget ad purgatoriam.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e164">
+          ⁋ Item cum baptis
+          <lb ed="#N" n="137"/>mus aperiat ianuam regni celorum: videtur quod sit siue debeat dici
+          cla<lb ed="#N" n="138" break="no"/>uis.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e171">
+          ⁋ Item cum tria sint in anima. potestas scestia et voluntas.
+          cur<lb ed="#N" n="139" break="no"/>penes duo claues due ponantur: et penes tercium. scilicet voluntatem
+          <lb ed="#N" n="140"/>debet sumi tercium
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e178">
+          ⁋ Item cum confirmatione sacramentali et
+          extrema<pb ed="#N" n="512"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>vnctione soluantur peccata: videtur quod he dicende sunt claues.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e185">
+          ⁋ Item
+          sol<lb ed="#N" n="2" break="no"/>uere et ligare sunt actus oppositi. discernere et soluere nequaquam. magis
+          <lb ed="#N" n="3"/>videtur ergo quod debeant determinari due claues penes hos actus quam
+          pe<lb ed="#N" n="4" break="no"/>nes alios. et ita non tantum sunt due claues.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e195">
+          ⁋ Item lingua sancti
+          cla<lb ed="#N" n="5" break="no"/>uis est regni celorum. vnde dicitur. quorum lingue claues celi facte sunt.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e200">
+          <lb ed="#N" n="6"/>⁋ Item crux penitentie claudit infernum aperit celum. ergo est clauis.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e205">
+          ⁋ Item
+          <lb ed="#N" n="7"/>per predicationem et exemplum bone vite aperitur celum iustis. He ergo
+          cla<lb ed="#N" n="8" break="no"/>ues sunt et quare non cum dicatur Math. xxiii. ve vobi scribe et
+          pha<lb ed="#N" n="9" break="no"/>risei ypocrite qui clauditis regnum celorum ante homines. Glo.
+          ma<lb ed="#N" n="10" break="no"/>lo exemplo
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e216">
+          ⁋ Responsio. quod due sunt claues tantum. vnde augustinus Ioh. xx. quos
+          <lb ed="#N" n="11"/>dignos remissione iudicaueritis duabus clauibus scilicet discretionis
+          <lb ed="#N" n="12"/>et potstatis dimirtetis peccata. Ecce quod ab augustinus assignantur claues
+          <lb ed="#N" n="13"/>due et tantum due. hoc idem videtur ex verbis Rabani et aliis quibusdam
+          <lb ed="#N" n="14"/>pretactis. Iste autem claues differunt. sicut potentia cognitiua et
+          po<lb ed="#N" n="15" break="no"/>tentia operatiua. vnde scentia discernendi est tamquam clauis cognitiua: et
+          <lb ed="#N" n="16"/>potestas iudicandi tamquam operatiua et prima dicitur auctoritas: secunda potstas. vnde
+          <lb ed="#N" n="17"/>auctoritas respicit cognitionem: potestas operationem. vnde prima est ad
+          aperien<lb ed="#N" n="18" break="no"/>dum: sed secunda est aperiens. sicut dicit augustinu.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e236">
+          ⁋ Ad illud quod obiicitur de
+          <lb ed="#N" n="19"/>bona vita etc. dicendum quod clauis prout de ipsa intenditur ad presens
+          <lb ed="#N" n="20"/>ecclesiam respicit cui habet reconciliari penitens quod fit per officium
+          <lb ed="#N" n="21"/>ministri. vnde clauis respicit ordinem. Quod autem obiicitur quod bona vita
+          <lb ed="#N" n="22"/>aperit celum. dicendum quod hoc est per vite meritum: non per officium.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e247">
+          ⁋ Ad hoc
+          <lb ed="#N" n="23"/>quod obiicitur de gratia. dicendum quod licet gratia soluet a pena eterna et
+          li<lb ed="#N" n="24" break="no"/>get ad purgatoriam: non tamen est clauis. non enim reconciliat ecclesie. vt
+          <lb ed="#N" n="25"/>patet de contrito quem opertet confiteri. et si aliquo modo dicatur clauis
+          di<lb ed="#N" n="26" break="no"/>cenda est clauis dei non ministri. nec est clauis de qua dicitur Math.
+          <lb ed="#N" n="27"/>xvi. Tibi dabo claues. et si gratia soluat a pena differenter tamen
+          <lb ed="#N" n="28"/>a claue. quia gratia prius soluit et post ligat: minister ecclesie prius ligat
+          <lb ed="#N" n="29"/>ad penam temporalem et postsoluit. ideo dicitur Math. xvi. Quodcumque
+          liga<lb ed="#N" n="30" break="no"/>ueris etc. per hoc patet responsio ad precedens. scilicet de bona vita. quia si
+          bo<lb ed="#N" n="31" break="no"/>na vita esset clauis hoc haberet a gratia. quare cum gratia non sit clauis
+          <lb ed="#N" n="32"/>nec ipsa. tamen gratia claudit infernum et aperit celum: sed hec non fiunt
+          ratio<lb ed="#N" n="33" break="no"/>ne officii.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e274">
+          ⁋ Ad illud quod obiicitur de baptismate. dicendum quod licet
+          <lb ed="#N" n="34"/>in sacramento baptismi minister ecclesie operetur. tamen non vtitur claue quo
+          <lb ed="#N" n="35"/>ad officium ligandi et soluendi. Item clauis respicit viculum
+          actu<lb ed="#N" n="36" break="no"/>alis peccati et non originalis.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e283">
+          ⁋ Ad illud quod obiicitur de voluntate.
+          <lb ed="#N" n="37"/>per simile sumptum de sciestia et potstate. dicendum quod neque sclesia neque potstas
+          pro<lb ed="#N" n="38" break="no"/>ut sunt ipsius anime sunt claues. sed potestas siue auctoritas vtendi scientia
+          <lb ed="#N" n="39"/>discretiua: et potstas ligandi et soluendi claues sunt. sed quando cum his
+          <lb ed="#N" n="40"/>est bona vita et bona voluntas. expeditionres sunt ad suum actum
+          <lb ed="#N" n="41"/>sicut sclesia habita facit quod altera clauis sit expeditior: tamen est
+          <lb ed="#N" n="42"/>differentia. quia sclesia directe est ad hoc ne erret clauis. bona vita
+          <lb ed="#N" n="43"/>non est ad hoc quod operetur clauis: quia bona vita non semper requiritur in
+          <lb ed="#N" n="44"/>illo qui soluit: sed in illo qui dat virtutem in clauibus scilicet in christo.
+          <lb ed="#N" n="45"/>et in illo qui soluitur. In ministro autem absoluente non requiritur: quia
+          <lb ed="#N" n="46"/>tunc virtus absolutionis attribueretur vite soluentis et non passioni
+          <lb ed="#N" n="47"/>christi. Item nota quod solet dici quod illud quod habet actum ligandi et
+          soluen<lb ed="#N" n="48" break="no"/>di et aperiendi et claudendi respectu diuersorum non est clauis. quo
+          <lb ed="#N" n="49"/>clauis respectu eiusdem claudit et aperit. ligat et soluit. scilicet
+          ec<lb ed="#N" n="50" break="no"/>clesie militantis: sed bona voluntas per meritum vite aperit celum
+          <lb ed="#N" n="51"/>claudit infernum. vnde hec non sunt claues eo modo quo intendimus
+          <lb ed="#N" n="52"/>de clauibus.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e320">
+          ⁋ Ad illud quod obiicitur de confirmatione
+          sacramentali<lb ed="#N" n="53" break="no"/>et extrema vnctione. dicendum quod licet foluant quodam modo
+          loquendi<lb ed="#N" n="54" break="no"/>a peccato: non tamen sunt claues. non enim soluendo ligant nec econuerso
+          <lb ed="#N" n="55"/>quod clauium est. Pret. confirmatio est potius actus dignitatis quam ordinis
+          <lb ed="#N" n="56"/>nec extrema vnctio est tantum suprimi ordinis sed inferioris. Pret.
+          per<lb ed="#N" n="57" break="no"/>confirmationem et vnctionem extremam et similiter per sacramentorum dispensationem
+          <lb ed="#N" n="58"/>cum sit ibi collectio gratie et per consequens remissio culpe que est vnum
+          <lb ed="#N" n="59"/>ostium et obstaculum ne intretur in celum. cum hec remissio non sit
+          sa<lb ed="#N" n="60" break="no"/>cerdotis. cum omnis culpe remissio fit dei potstate: sacerdotis tamen
+          <lb ed="#N" n="61"/>ministerio. et ita non est in hoc sacerdotis potestas sed ministerium. Ptatas
+          <lb ed="#N" n="62"/>enim est nomen clauis non ministerium. patet quod quicquid est in dispensatione
+          <lb ed="#N" n="63"/>sacramentorum quo ad culpam: totum pertinet ad clauem dei quam
+          nulli<lb ed="#N" n="64" break="no"/>contulit homini.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e349">
+          ⁋ Ad illud quod obiicitur. quod lingua est clauis etc.
+          di<lb ed="#N" n="65" break="no"/>cendum quod lingua improprie est clauis et secundum quid. lingua enim sanctorum dicitur
+          <lb ed="#N" n="66"/>clauis. non quia aperiat ligando et soluendo: sed apertionem celi
+          impetramn<lb ed="#N" n="67" break="no"/>do quantum ad aliquem effectum.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e358">
+          ⁋ Ad illud quod obiicitur. quod soluere et
+          li<lb ed="#N" n="68" break="no"/>gare sunt magis actus oppositi quam discernere et soluere etc. dicendum quod
+          <lb ed="#N" n="69"/>numerus clauium accipitur penes discretionem a peccato et penes
+          operari<lb ed="#N" n="70" break="no"/>circa penam peccati. vnde discernere et soluere distinguuntur iuxta
+          <lb ed="#N" n="71"/>differentiam culpe et pene. Soluere autem et ligare tantum penam
+          respi<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>ciunt: quia et solutio est respectu pene et ligatio similiter. vnde
+          essentiali<lb ed="#N" n="73" break="no"/>or est differentia discretionis et solutionis quam ligationis et
+          solutio<lb ed="#N" n="74" break="no"/>nis. clauis enim est potestas ad discernendum et operandum. vel vt
+          su<lb ed="#N" n="75" break="no"/>matur ratio communis. clauis est potestas ad remouendum
+          impedime<lb ed="#N" n="76" break="no"/>tum operationis meritorie. Impedimentum autem operationis talis
+          <lb ed="#N" n="77"/>duplex est. scilicet culpa et pena. ad remouendum illud
+          impedimen<lb ed="#N" n="78" break="no"/>tum quod est culpa: non est clauis necessaria vt auferat eam est taen
+          <lb ed="#N" n="79"/>necessaria ad discernendum inter culpam et culpam. vt secundum
+          meu<lb ed="#N" n="80" break="no"/>ram culpe determinetur mensura pene. vnde ad nihil aliud est clauis
+          <lb ed="#N" n="81"/>nisi vt sacerdos liget penitentem secundum mensuram culpe: vel
+          discer<lb ed="#N" n="82" break="no"/>nat vtrum sit soluendus. Altera vero clauis respicit penam que est in
+          <lb ed="#N" n="83"/>peccato. scilicet illa que est potestas ligandi et soluendi. et ita est duplex
+          cla<lb ed="#N" n="84" break="no"/>uis ratione pretacta.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e398">
+          ⁋ Ad illud quod obiicitur de cru penitentie.
+          <lb ed="#N" n="85"/>dicendum quod et si crux claudat et aperiat: non tamen sicut clauis so
+          <lb ed="#N" n="86"/>soluendo et ligando.
+        </p>
+        <p xml:id="v78d89-aek3ex-d1e406">
+          ⁋ Ad illud quod obiicitur de exemplo et
+          predica<lb ed="#N" n="87" break="no"/>tione. dicendum quod per hoc non aperitur celum proprie: sed potius intrarari
+          <lb ed="#N" n="88"/>vocantur ad portam celi vel ad habentem claues.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

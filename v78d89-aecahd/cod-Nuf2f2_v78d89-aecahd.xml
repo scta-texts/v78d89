@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 78, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 78, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="503"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aecahd"><!-- q78m1 -->
+        <head xml:id="v78d89-aecahd-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-aecahd-Hd1e103" type="question-title">Utrum confitendum sit laico vel sacerdoti</head>
+        <p xml:id="v78d89-aecahd-d1e106">
+          <lb ed="#N" n="125"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-aecahd-d1e111">
+          <lb ed="#N" n="126"/>CIrca primum proceditur sic. Primo queritur vtrum confitend sit
+          <lb ed="#N" n="127"/>laico vel sacradoti. Secundo vtrum proprio sacrdote vel
+          <lb ed="#N" n="128"/>alii discretiori. Terus vtrum pretrmisso inferiori. scilicet
+          <lb ed="#N" n="129"/>paratiochialt. potest confiteri superiori scilicet episcopo lis eius penitentiario.
+        </p>
+        <div xml:id="v78d89-aecahd-Dd1e122">
+          <head xml:id="v78d89-aecahd-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-aecahd-d1e126">
+            <lb ed="#N" n="130"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-aecahd-d1e131">
+            <lb ed="#N" n="131"/>CIrca primum sic. Iac. vltm. Confitemin alterutrum peccata
+            <lb ed="#N" n="132"/>vratra constat: quod omnibus loquitur. ergo omnes dmint alterutrum
+            confiteri<lb ed="#N" n="133" break="no"/>hoc est vnus quisque alii ergo laicus laico sicut et sacradoti.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e140">
+            ⁋ Item
+            <lb ed="#N" n="134"/>gl. dicit ibi. coequalibus. ergo laicus potest confiteri.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e145">
+            ⁋ Item ibi gl. alia peccata
+            <lb ed="#N" n="135"/>vrtera quotidiana et leuia grauioris culpe immundiciam sacradoti pata
+            <lb ed="#N" n="136"/>damus. Ex hac glo. patet. quod non intendit iacobus apostolus quod confiteri
+            alteru<lb ed="#N" n="137" break="no"/>trum sit tantum confiteri sacradoti.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e155">
+            ⁋ Item confessio fit homini vt confitens
+            eru<pb ed="#N" n="504"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>bescat de peccatis suis et erudiatur ab eo cui confitetur et cognscat
+            <lb ed="#N" n="2"/>plagam peccati sui et ad multiplicationem intercessorum. sed frequenter plus
+            <lb ed="#N" n="3"/>erubescent quis confiteri laico familiari quam sacerdoti. et
+            frequen<lb ed="#N" n="4" break="no"/>ter melius sciret laicus id est no ordinatus instruere penitentem quam
+            sa<lb ed="#N" n="5" break="no"/>cerdos. et plus quandoque valet oratio laici quam sacerdotis. ergo
+            confiten<lb ed="#N" n="6" break="no"/>do laico melius assequeretur penitens finem confessionis quam confitendo
+            sa<lb ed="#N" n="7" break="no"/>cerdoti. ergo videtur quod magis esset confitendum laico quam sacerdoti.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e175">
+            <lb ed="#N" n="8"/>⁋ Item confessio necessitatis. et ratione institutionis et ratione precepti. ergo
+            <lb ed="#N" n="9"/>cum dominus per sacramenta non artet viam salutis: videtur quod dominus debuit omni
+            <lb ed="#N" n="10"/>bus dare potstatem audiendi confessionem: et econuerso
+            confitendi<lb ed="#N" n="11" break="no"/>cuilibet.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e186">
+            ⁋ Item magister dicit. iiii. sentnti. si desit sacerdos. proximo
+            <lb ed="#N" n="12"/>vel socio facienda est confessio. hoc non diceret nisi esset confitendum alii quam
+            <lb ed="#N" n="13"/>sacerdoti.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e193">
+            ⁋ Contra. Augustinus. de pe. dis. vi. Qui vult confiteri
+            <lb ed="#N" n="14"/>peccata sua vt inueniat gratiam: querat sacerdotem etc. ergo videtur quod
+            con<lb ed="#N" n="15" break="no"/>fiteri alii non sufficiat.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e200">
+            ⁋ Item veritas debet respondere figure. sed in
+            le<lb ed="#N" n="16" break="no"/>ge nullus iudicabatur mundatus a lepra nec recipiebatur in
+            castra<lb ed="#N" n="17" break="no"/>per alicuius iudicium quantumcumque esset sapiens nisi per iudicium
+            sa<lb ed="#N" n="18" break="no"/>cerdotis. ergo videtur pari ratione quod nullus possit reconciliari
+            peniten<lb ed="#N" n="19" break="no"/>tem ecclesie nisi solus sacerdos. sed confessio ordinatur ad hoc: ergo etc.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e211">
+            <lb ed="#N" n="20"/>⁋ Item confessio ordinata est principaliter ad absolutionem. sed potestas
+            li<lb ed="#N" n="21" break="no"/>gandi data est primcipaliter summo pontifici. scilicet petro et aliis
+            <lb ed="#N" n="22"/>apostolis et per illos aliis sacerdotibus: ergo ab illis solis potest
+            fieri<lb ed="#N" n="23" break="no"/>absolutio. ergo ipsis solis debet fieri confessio.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e223">
+            ⁋ Item si aliis
+            suf<lb ed="#N" n="24" break="no"/>ficit confiteri: ergo frustra concessa est potestas absoluendi
+            sacer<lb ed="#N" n="25" break="no"/>dotibus. si ergo non est frustra concessa: patet igitur etc.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e230">
+            ⁋ Item quid
+            con<lb ed="#N" n="26" break="no"/>fert confiteri illi qui non habet potestatem absoluendi.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e235">
+            ⁋ Responsio. quod
+            mul<lb ed="#N" n="27" break="no"/>tiplex est potstas absoluendi sicut dicunt quidam. Quedam est
+            au<lb ed="#N" n="28" break="no"/>ctoritatis: et hec est solius dei. Alia est excellentie: et hec est christi
+            <lb ed="#N" n="29"/>hominis. Alia est commissionis siue ministerii et hec est sacerdotis
+            <lb ed="#N" n="30"/>cui est commissa potstas absoluendi in susceptione ordinis sacerdota
+            <lb ed="#N" n="31"/>lis. Alia est ex merito vite: et hec est virorum sanctorum. Alia est ex
+            <lb ed="#N" n="32"/>virnitate fidei: et hec est omnium fidelium. Hi duo modi vltimi
+            po<lb ed="#N" n="33" break="no"/>tius dicunt impetrationem absolutionis vel implorationem quam efficaciam
+            <lb ed="#N" n="34"/>vel iudicium. Dicendum ergo quod licet immo expedit quandoue
+            confiteri<lb ed="#N" n="35" break="no"/>peccata sua alii quam sacerdoti. vt scilicet iuuetur ab eo vel oratione vel in
+            <lb ed="#N" n="36"/>structione: vt erubescat peccata sua et humilietur confessione tali: et
+            <lb ed="#N" n="37"/>sic mereatur erubescentia et humiliatione. sed hec confessio non est
+            sacra<lb ed="#N" n="38" break="no"/>mentalis licet sit opost virtutis: sed illa solum que ordinata est ad
+            rtrcon<lb ed="#N" n="39" break="no"/>ciliationem que fit per absolutionem et ligationem. quarum potstas est solis
+            sacer<lb ed="#N" n="40" break="no"/>dotibus trdita. vnde confessio solis sacerdotibus est facienda.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e268">
+            ⁋
+            Si<lb ed="#N" n="41" break="no"/>obiiciatur quod ex quo laici perfecti similiter fideles quicumque posunt absoluere
+            <lb ed="#N" n="42"/>ex merito vite et vnitate fidei vt dictum est: videtur quod sit confessio
+            <lb ed="#N" n="43"/>sacramentalis. dicendum. quod absolutio illa est impetratio absolutionis vel
+            <lb ed="#N" n="44"/>imploratio.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e279">
+            ⁋ Ad illud quod obiicitur per illud iaco. vltr.
+            Confite<lb ed="#N" n="45" break="no"/>mini alterutrum etc. dicunt quidam quod hoc intelligi potest de venialibus que non
+            <lb ed="#N" n="46"/>est necesse confiteri vt habetur ex glo. Sed quia istis verbis beati iac.
+            insti<lb ed="#N" n="47" break="no"/>tuta est confessio sacramentalis vel promulgata. Aliter dicendum est. quod
+            confes<lb ed="#N" n="48" break="no"/>sio fit dupliciter. scilicet in generali vt quando quis dic suum confiteor. et in
+            <lb ed="#N" n="49"/>paiali quando quis dict peccata sua. in vtraque harum confessionum est
+            alterna<lb ed="#N" n="50" break="no"/>tio sed in confessione spietiali est alternatio quantum ad solos sacerdotes
+            <lb ed="#N" n="51"/>in generali vero quantum ad omnes. ergo est senisus. Confitemin
+            alteru<lb ed="#N" n="52" break="no"/>trum id est vniuersaliter vnus alteri et econuerso confessione generali
+            <lb ed="#N" n="53"/>et vnus alteri scilicet sacerdos sacerdoti in spetiali. et intelligendum est
+            <lb ed="#N" n="54"/>quod secundum bedam loquitur de mortalibus et venialibus. vno enim et eodem
+            <lb ed="#N" n="55"/>verbo signatur vtrumque: scilicet confessio mortalium et venialium. et contietur
+            <lb ed="#N" n="56"/>preceptum et consilium. consilium quantum ad venialia: preceptum ad morta
+            <lb ed="#N" n="57"/>lia.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e310">
+            ⁋ Ad illud quod obicitur de erubescentia instructione et oratione.
+            di<lb ed="#N" n="58" break="no"/>cendum quod in omnibus argumentis est consequens pro eo quod non accipit totam
+            <lb ed="#N" n="59"/>causam nec etiam pricipalem causam que est reconciliatio facienda ecclesie. et
+            <lb ed="#N" n="60"/>ideo omnes ab insufficienti procedunt de confessione secundum quod est sacramentum:
+            tamen<lb ed="#N" n="61" break="no"/>vere concludunt quod vtile est etiam aliquando confiteri non sacerdoti.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e322">
+            ⁋ Ad
+            <lb ed="#N" n="62"/>illud quod obicitur. quod cum sit necessitatis debuit omnibus committi. dicendum
+            <lb ed="#N" n="63"/>quod non oportuit nec debuit. non debuit: quia absoluere dicit actum
+            <lb ed="#N" n="64"/>alicus persone auctoritatem habentis. non etiam oportuit: quia nullus volens
+            <lb ed="#N" n="65"/>habere sacerdotem et eo carens priuatur salute: sufficit enim sibi
+            vo<lb ed="#N" n="66" break="no"/>untas confitendi.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e335">
+            ⁋ Ad illud quod dicit magister in sentnti. dicendum quod non est
+            <lb ed="#N" n="67"/>facienda confessio socio vel proximo vt sic suppleatur confessio
+            faci<lb ed="#N" n="68" break="no"/>enda sacerdoti siue confessio sacramentalis: sed vt voluntas
+            confiten<lb ed="#N" n="69" break="no"/>tis probetur. et manifestatur illum totum fecisse quod in se fuit. et etiam vt
+            <lb ed="#N" n="70"/>iuuetur et mereatur secundum modum predictum.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e346">
+            ⁋ Ad illud quod querebatur.
+            <lb ed="#N" n="71"/>quid confiteri confert penitenti proximo. patet responsio ex predictis. Preter.
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>greg. tanta est vis confessionis vt si deest sacerdos confiteatur prorimo
+            <lb ed="#N" n="73"/>si ille cui confitebitur potestatem soluendi non habeat: fit tamen dignus venia
+            <lb ed="#N" n="74"/>ex de siderio sacerdotis: quia socio confitetur turpitudinem
+            cri<lb ed="#N" n="75" break="no"/>minis. et hoc habetur de pe. dis. vi.
+          </p>
+        </div>
+        <div xml:id="v78d89-aecahd-Dd1e364">
+          <head xml:id="v78d89-aecahd-Hd1e366">Articulus 2</head>
+          <p xml:id="v78d89-aecahd-d1e368">
+            <lb ed="#N" n="76"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-aecahd-d1e373">
+            <lb ed="#N" n="77"/>Onsequentur queritur. vtrum contra voluntatem proprii
+            sacerdo<lb ed="#N" n="78" break="no"/>tis possit quis confiteri alii discretionri. Et vitur quod sic
+            <lb ed="#N" n="79"/>de pe. di. vi. cili. placuit vt deiceps nulli
+            sacerdo<lb ed="#N" n="80" break="no"/>tum liceat quenlibet commissum alii sacerdoti ad penitentiam suscipre
+            <lb ed="#N" n="81"/>sine eius consensu cui se prius commisit. nisi pro ignorantia illius
+            <lb ed="#N" n="82"/>cui penitens prius confessus est. qui vero contra hoc statutum facere temptauerit.
+            <lb ed="#N" n="83"/>gradus sui periculo subiacebit.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e391">
+            ⁋ Item de pe. dis. vi. Qui vvne
+            <lb ed="#N" n="84"/>confiteri peccata vt inueniat gratiam. querat sacerdotem scieniesolne et
+            <lb ed="#N" n="85"/>ligare. ne dum negligentes circa se extiterit: negligatur ab v
+            <lb ed="#N" n="86"/>lo qui eum misericorditer monet et petit ne ambo in foueam cadant.
+            <lb ed="#N" n="87"/>et de pe. dis. vi cilio. sacerdos. Quod autem dicit vt penitens eligat
+            sa<lb ed="#N" n="88" break="no"/>cerdotem scientem ligare et soluem. vidtur esse conrrium ei quod in
+            canonihin<lb ed="#N" n="89" break="no"/>uenitur. vt nemo scilicet parochianum alterius iudicare presumat. secd
+            <lb ed="#N" n="90"/>aliud est fauore vel odio proprium sacerdotem contemnere quod
+            sa<lb ed="#N" n="91" break="no"/>cris canomnibus prohibetur: aliud cecum vitare. Ex his verbis
+            cano<lb ed="#N" n="92" break="no"/>nis vidtur quenlibet penitentem confiteri posse alii sacerdoti a proprio
+            <lb ed="#N" n="93"/>dummodo hoc non faciat ex contemptu proprii sacerdotis vel fauore al
+            <lb ed="#N" n="94"/>terius: sed solum propter maiorem illius discretionem.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e417">
+            ⁋ Iem Bern. quod ex
+            <lb ed="#N" n="95"/>caritate institutum est contra caritatem obseruari non debet. A simili quod in
+            <lb ed="#N" n="96"/>remedium peccatorum institutum est: contra remedium obseruari non debet. sed esto
+            <lb ed="#N" n="97"/>quod sacrados proprius sollicitet mulierem confitentem sibi. vnde si confiteatur
+            <lb ed="#N" n="98"/>ei est in periculo: igistur si non tenetur se periculo committerm: non tenetur illi con
+            <lb ed="#N" n="99"/>fiteri.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e431">
+            ⁋ Contra. habetur extra libr. v. de pe. et rescaiteot omnis. vbi dicitur. Qiis
+            <lb ed="#N" n="100"/>vtrius que sexus fidelis postquam ad annos discretionis peruenerii:
+            <lb ed="#N" n="101"/>omnia sua solus peccata saltem in anno sels fideliter confiteatur proprio
+            sacer<lb ed="#N" n="102" break="no"/>doti. et infra. Si quis tamen alieno sacerdoti voluerit iusta de
+            <lb ed="#N" n="103"/>causa sua confiteri peccata: licentiam prius postulet et obtineat a
+            pro<lb ed="#N" n="104" break="no"/>prio sacerdote. cum aliter ipse illum non possit absoluem vel
+            ligsrn<lb ed="#N" n="105" break="no"/>⁋ Item prouerb. xxvii. diligenter agnosce vultum pecoris
+            va<lb ed="#N" n="106" break="no"/>hoc preceptum datum est praelatis. sed vultum pecoris id est conscinam
+            subdiri<lb ed="#N" n="107" break="no"/>cognoscere non potest nisi per confessionem. frustra ergo datum esset hoc preceptu
+            <lb ed="#N" n="108"/>nisi subditus tenerntur ipsi peccata sua confiteri.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e453">
+            ⁋ Item prepositi siue
+            so<lb ed="#N" n="109" break="no"/>cerdotes reddituri sunt rationem pro animabus subditorum vt habetur vltimo
+            <lb ed="#N" n="110"/>ad heb. propter quod subditi tenentur eis obedire. dicitur ens ibi. obea
+            <lb ed="#N" n="111"/>te prepositis vratris per omnia: ipsi enim peruigilant quasi rationem tddituri pro
+            <lb ed="#N" n="112"/>animabus vratris. Ex his duo sequuntur. vnum est quod in omnibus debet illis
+            <lb ed="#N" n="113"/>obediere. Aliud est quod conra voluntatem eorum non debent alicui peccata sua
+            <lb ed="#N" n="114"/>confiteri. immo aliud est quod debent statum suum illis iudicare. aliterm
+            <lb ed="#N" n="115"/>enim non tenentur rationem reddere pro animabus illorum.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e471">
+            ⁋ Responsio. quod nullus
+            <lb ed="#N" n="116"/>debet propria auctoritate confiteri alii. ita vt omnino subtrahat se a
+            oon<lb ed="#N" n="117" break="no"/>fessione facienda proprio sacerdoti. vnde si quis velit omnino aliia
+            <lb ed="#N" n="118"/>proprio sacerdote confiteri. aut hoc faciat obtenta licentia a
+            pro<lb ed="#N" n="119" break="no"/>prio: aut si non potest obtinere ab illo obtimeat a superiore. vl
+            confi<lb ed="#N" n="120" break="no"/>teatur proprio: et post alii discretionri quem elegerit: vel habeat proposi
+            <lb ed="#N" n="121"/>tum confitendi illi.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e487">
+            ⁋ Ad illud quod primo obictur. quod non debet suscipi ab il
+            <lb ed="#N" n="122"/>lo ad confessionem sine consensu proprii nisi propter ignorantiam etc.
+            di<lb ed="#N" n="123" break="no"/>cendum quod hoc verum est nec tunc nisi obtenta licentia a superiore vel
+            fa<lb ed="#N" n="124" break="no"/>cta prius confessione proprio sacerdoti: vel ipso existente in proposito
+            <lb ed="#N" n="125"/>confitendi eidem.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e498">
+            ⁋ Ad illud quod obicitur. quod si vult inuenire gratiam quarat
+            <lb ed="#N" n="126"/>sacerdotem scientem etc. dicendum quod hoc loco canon instruit quod est vtile
+            <lb ed="#N" n="127"/>non prcipit quod est necesse. Et videtur ex verbis canomnis quod loquatur in casu vt
+            <lb ed="#N" n="128"/>quando suppetit facultas electionis. vt si quis esset perrochianus
+            plu<lb ed="#N" n="129" break="no"/>rium sacerdotum vel alicuius ecclesie vbi essent ploes confessornes. vl
+            <lb ed="#N" n="130"/>quod intelligitur de homine qui est in sua libertate antequam commisit se
+            ali<lb ed="#N" n="131" break="no"/>cui sacerdoti. tali enim expedit eligere prudentiorem et meliorem
+            <lb ed="#N" n="132"/>quem potestu. vel potest dici vt supraa. scilicet quod debet querere sacerdotem scientem
+            <lb ed="#N" n="133"/>etc. obtenta licentia ab eo qui potest dare vel alia facere que dei sunt
+          </p>
+          <p xml:id="v78d89-aecahd-d1e518">
+            <lb ed="#N" n="134"/>⁋ Ad illud quod obicitur. quod si non interueniat odium vel contemptus potest
+            <lb ed="#N" n="135"/>confiteri alii sacerdoti quam proprio. dicendum quod si liceat eligere alium
+            <lb ed="#N" n="136"/>discretiorem quam proprium sacerdotem non interueniente odio vel contem
+            <lb ed="#N" n="137"/>ptu. sicut dicit canon: non tamen exequi quod preeligitur confitendo illi
+            ni<lb ed="#N" n="138" break="no"/>si obtenta licentia. sicut superius dictum est. vel alia vt supiraia.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e532">
+            ⁋ Ad
+            ali<lb ed="#N" n="139" break="no"/>ud dicendum. quod si sacerdos sit consuetus sollicitare mlieres sibi
+            <lb ed="#N" n="140"/>confitentes et hoc constiterit certo experimento: posunt mulieres ille
+            <lb ed="#N" n="141"/>maxime que timent se exponere periculo confiteri superioribus vel aliis
+            <pb ed="#N" n="505"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>etiam non obtenta licentia. nec obstat quod dicit decretalis quod omnis
+            <lb ed="#N" n="2"/>fidelis tenetur confiteri proprio sacerdoti. quia iste inquantum talis
+            <lb ed="#N" n="3"/>non est sacerdos id est dans ea que sunt medicamenta salutis:
+            <lb ed="#N" n="4"/>sed potius venena mortis. vnde iudicandus est corruptor
+            <lb ed="#N" n="5"/>non confessor. de hac materia infra tangetur.
+          </p>
+        </div>
+        <div xml:id="v78d89-aecahd-Dd1e557">
+          <head xml:id="v78d89-aecahd-Hd1e559">Articulus 3</head>
+          <p xml:id="v78d89-aecahd-d1e561">
+            <lb ed="#N" n="6"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-aecahd-d1e566">
+            <lb ed="#N" n="7"/>COnsequenter queritur. vtrum pretermisso inferiori scilicet
+            paro<lb ed="#N" n="8" break="no"/>chiali penitens potest confiteri superiori scilicet episcopo vel eius
+            <lb ed="#N" n="9"/>penitentiario. Et videtur quod non. per illud de pe. et re.
+            <lb ed="#N" n="10"/>Qmnis vtriusque etc. ibi habetur plane quod omnis fidelis tenetur
+            confiteri<lb ed="#N" n="11" break="no"/>proprio sacerdoti.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e579">
+            ⁋ Item hoc videtur per illa que obiecta sunt in
+            preceden<lb ed="#N" n="12" break="no"/>ti probleumate scilicet diligentur agnosce vultum pecoris tui prouer.
+            xx<lb ed="#N" n="13" break="no"/>vii. et ad heb. vlt. Obedite preposito vratro per omnia etc
+          </p>
+          <p xml:id="v78d89-aecahd-d1e586">
+            ⁋ Contra.
+            <lb ed="#N" n="14"/>potestas iurisdictionis descendit a superioribus ad inferiores. ergo
+            si<lb ed="#N" n="15" break="no"/>aliquibus det episcopus potestatem suam vt penitentiariis suis. cum inferior non
+            pos<lb ed="#N" n="16" break="no"/>sit super superiore sed econuerso: videtur quod penitens etiam quicumque
+            no<lb ed="#N" n="17" break="no"/>lente sacerdote proprio possit ipsi episcopo confiteri et illis quibus dedit
+            <lb ed="#N" n="18"/>potestatem suam.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e600">
+            ⁋ Item preuilegium quandoque confertur predicantibus vel aliis
+            au<lb ed="#N" n="19" break="no"/>diendi confessiones. sed qui concedit principale concedit accessorium. vnde
+            <lb ed="#N" n="20"/>si dominus papa concessit aliquibus potestatem absoluendi: ergo et
+            penitendi<lb ed="#N" n="21" break="no"/>potestatem confitendi illis. ergo prestrmisso proprio sacerdote posunt penitentes
+            <lb ed="#N" n="22"/>illis confiteri.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e611">
+            ⁋ Item quandoque accidit quod episcopi religiosi discurrunt
+            <lb ed="#N" n="23"/>per dioceses suas audiendo subditorum confessiones et frequenter
+            no<lb ed="#N" n="24" break="no"/>lentibus sacerdotibus perrochialibus. sed constat quod sic laborat
+            vtili<lb ed="#N" n="25" break="no"/>ter sibi et aliis: ergo confessio illa efficaciam habet et non fit frustra.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e620">
+            <lb ed="#N" n="26"/>⁋ Si diceretur quod et si aliqui confiteantur superioribus prtestrmissis
+            inferiori<lb ed="#N" n="27" break="no"/>bus nihilominus tenentur confiteri propriis sacerdotibus. Contra.
+            confes<lb ed="#N" n="28" break="no"/>sus superiori et absolutus. aut est vere absolutus aut non. Si vere
+            <lb ed="#N" n="29"/>absolutus. ergo non tenetur iterum absolui de eodem in eodem foro.
+            Si<lb ed="#N" n="30" break="no"/>non est vere absolutus. contra absolutus est ab illo qui potstatem habet habitu
+            <lb ed="#N" n="31"/>quia a sacerdote. et actu: quia claues habet non ligatas.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e636">
+            ⁋ Item
+            na<lb ed="#N" n="32" break="no"/>tura nihil agit frustra. multofortius nec ille qui est supra
+            naturam<lb ed="#N" n="33" break="no"/>scilicet spiritus sanctus. nec gratia spiritus sancti. ergo adhibere duo rtrmedia spiritu
+            <lb ed="#N" n="34"/>sancti. circa idem quando alterum est efficax vnum superfluum est. ergo siquis
+            con<lb ed="#N" n="35" break="no"/>fessus est alicui qui est superioris et maioris potestatis et ab eo abso
+            <lb ed="#N" n="36"/>lutus: non est necesse alii confiteri causa absolutionis recipiende.
+            <lb ed="#N" n="37"/>immo superfluum est vt videtur.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e652">
+            ⁋ Item quid valerent preuilegia domini
+            pa<lb ed="#N" n="38" break="no"/>pe in talibus: si semper esset necesse ad alios recurrere.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e657">
+            ⁋ Item ante
+            col<lb ed="#N" n="39" break="no"/>lationem ecclesie perrochialis episcous habuit potestatem absoluendi omnes
+            <lb ed="#N" n="40"/>perrochianos. nec aliquis alius potuit illos absoluere nisi data
+            <lb ed="#N" n="41"/>esset illi potstas ab episcopo. sed in collatione nihil potstatis sue est ipsi sub
+            <lb ed="#N" n="42"/>tractum: ergo ptus collationem potest omnium si vult audire confessionem.
+            immo<lb ed="#N" n="43" break="no"/>si placet potestatem absoluendi illos sibi retinere.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e671">
+            ⁋ Item episcopus in
+            <lb ed="#N" n="44"/>collatione ecclesie perrochialis non dat potestatem absoluendi vniuer
+            <lb ed="#N" n="45"/>salem. sed retinet sibi casus quos vult. Ponatur ergo quod aliquis
+            commi<lb ed="#N" n="46" break="no"/>sit solum peccata quorum absolutio pertinet ad episcoum. talis frustra
+            con<lb ed="#N" n="47" break="no"/>fiteretur perrochiano cum non possit ipsum absoluere.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e682">
+            ⁋ Item retinendo
+            <lb ed="#N" n="48"/>sibi potstatem absoluendi de aliquibus casibus. rtertinet sibi potestatem ab
+            <lb ed="#N" n="49"/>soluendi aliquas personas. vtpote illas que solummodo peccauerunt in
+            <lb ed="#N" n="50"/>casibus illis. vnde vt videtur potest sibi aliqua de causa retinere aliquam
+            per<lb ed="#N" n="51" break="no"/>sonam audiendo solummodo a se et illam soluere a debito
+            confitendi<lb ed="#N" n="52" break="no"/>suo perrochiali.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e695">
+            ⁋ Responio. sine preiudicio melioris sententie. quod summus
+            <lb ed="#N" n="53"/>poetifex similiter et alii inferiores posunt licentiare aliquem vt confiteatur
+            <lb ed="#N" n="54"/>cui voluerit. et absoluere eum a tentione confitendi perrochiano
+            suo<lb ed="#N" n="55" break="no"/>quia si potest perrochialis dare licentiam perrochiano suo confitenti
+            <lb ed="#N" n="56"/>cuicumque voluerit et soluere a tentione confitendi sibi simpliciter et ad
+            <lb ed="#N" n="57"/>tempus secundum quod est rationi consonum: cur hoc non potest episcopus cuius est
+            perrochi<lb ed="#N" n="58" break="no"/>anus. hoc ponere: esset ponere episcoum non habere omnem potestatem in
+            subdi<lb ed="#N" n="59" break="no"/>tos. quam habet simplex curatus.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e713">
+            ⁋ Ad illud ergo quod primo obiicitur
+            <lb ed="#N" n="60"/>per decretalem. quod qulibet fidelis tenetur confiteri semel in anno
+            proprio<lb ed="#N" n="61" break="no"/>sacerdoti. dicendum quod proprius dicitur multipliter. vno modo et
+            propriissi<lb ed="#N" n="62" break="no"/>me sacrados perrochialis qui administrat sacramenta: et cui commissa est
+            <lb ed="#N" n="63"/>cura spiritualis perrochianorum. Alio modo scilicet communiori dicetur superior
+            ordi<lb ed="#N" n="64" break="no"/>narius proprius sacerdos. qui propria auctoritate vel officio gerit curam
+            <lb ed="#N" n="65"/>perrochianorum suorum id est omnium qui sunt in sua diocesi. vt episcopus. talis
+            <lb ed="#N" n="66"/>tamquam pralatus ordinarius potest absoluere subditos. Communissimo modo potest
+            <lb ed="#N" n="67"/>dici proprius sacerdos quicumque potest penitentem recipere ad confessionem
+            <lb ed="#N" n="68"/>et illum absoluere auctoritate siue potestate commissa a superiori. quales sunt
+            <lb ed="#N" n="69"/>penitentiarii domini pape et inferiorum episcoporum: et illi quibus a domino papa
+            con<lb ed="#N" n="70" break="no"/>cessum est preuilegium audiendi confessiones. Potest ergo dici siue
+            confes<lb ed="#N" n="71" break="no"/>sus fuerit sacrdoti perrochiali siue superiori ordinario vt episcopo
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>confessus est sacerdoti proprio: nec tenetur alii confiteri. et maxime
+            <lb ed="#N" n="73"/>si aliqua de causa episcopus absoluerit eum a tentione confitendi ipsi
+            infe<lb ed="#N" n="74" break="no"/>riori. debet tamen facere quod illi innotescat a quo absolutus est in
+            scandali<lb ed="#N" n="75" break="no"/>vitationem. De istis autem qui absoluunt ex potstate commissa non
+            ordi<lb ed="#N" n="76" break="no"/>naria distenguendum est. quia aut auctoritas siue potestas est ei commissa a
+            <lb ed="#N" n="77"/>superiori ordinario simplicter: aut in casu. Si simpliciter: tunc
+            iudicam<lb ed="#N" n="78" break="no"/>dum est sicut de ordinario. sicut patet de his qui sunt penitentiarii domini
+            pa<lb ed="#N" n="79" break="no"/>pe et inferiores episcoporum. Si sit commissa in casu: sicut illis qui
+            obten<lb ed="#N" n="80" break="no"/>ta alicus pruilegii vtpote predicatoribus qui habent potestatem
+            audien<lb ed="#N" n="81" break="no"/>di illos qui veniunt ad illorum sermmonem: quia vt oppinor talibus
+            da<lb ed="#N" n="82" break="no"/>ta est potestas audiendi confessiones non in preiudicium sacerdotum et
+            <lb ed="#N" n="83"/>maxime bonorum. sed potius in fauorem fidelium et excitationem audiem
+            <lb ed="#N" n="84"/>di verbum dei. et propter ignorantiam et negligentiam et alios defectus
+            <lb ed="#N" n="85"/>ipsorum sacerdotum: non credo quod presbiteri iure suo pruentur. Unde
+            <lb ed="#N" n="86"/>existimo. quod perrochiani quantucumque et quotienscumque talibus
+            confite<lb ed="#N" n="87" break="no"/>antur: tenentur sacerdotibus propriis confiteri. si ab illis requirantur nec
+            <lb ed="#N" n="88"/>aliter sint contenti. et hoc dico semel in anno.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e781">
+            ⁋ Ad hoc igitur quod obiicitur
+            <lb ed="#N" n="89"/>quod tenetur confiteri proprio sacerdoti. dicendum quod verum est sumendo pro
+            <lb ed="#N" n="90"/>prium sacerdotem secundum quod proprius complectitur modos ante dictos. secundum
+            <lb ed="#N" n="91"/>autem quod intelligitur omnino de perrochiali: sic non est omnino verum.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e790">
+            ⁋ Ad
+            il<lb ed="#N" n="92" break="no"/>lud quod obiicitur. quod debet cognscere vultum pecoris sui etc. dicendum
+            <lb ed="#N" n="93"/>quod ipse absoluitur ab hac congiitione dum alius vicem eius supplet. vt quando
+            <lb ed="#N" n="94"/>superior praelatus vel habens licentiam ab ipso praelato audit eum. vnde nec
+            <lb ed="#N" n="95"/>ipse tenetur audire nec alio confiteri.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e802">
+            ⁋ Ad hoc quod obiicitur. quod debet
+            <lb ed="#N" n="96"/>obedire etc. dicendum quod non egreditur terminos obedientie si confitetur
+            <lb ed="#N" n="97"/>praelato superiori vel alii licentia ipsius. sicut nec ille qui pretermis sa
+            vo<lb ed="#N" n="98" break="no"/>luntate prioris adimplet voluntatem abbatis.
+          </p>
+          <p xml:id="v78d89-aecahd-d1e811">
+            ⁋ Quod autem dictum
+            <lb ed="#N" n="99"/>est. illi qui absoluunt ab illis qui obtentu preuilegii alicus habent
+            potesta<lb ed="#N" n="100" break="no"/>tem absoluendi illos qui audiunt illos in predicationibus: nihilominus
+            <lb ed="#N" n="101"/>tenentur confiteri suis perrochialibus si hoc requiratur ab ipsis. et posset
+            <lb ed="#N" n="102"/>extra hoc obiici. sicut supra dictum est seu obiectum est. aut est vere
+            ab<lb ed="#N" n="103" break="no"/>soluti etc. potest dici quod quia huiusmodi preuilegia sine dubio dantur in
+            <lb ed="#N" n="104"/>fauorem clauium. non ex hoc soluuntur perrochiani a tentione que tenentur
+            <lb ed="#N" n="105"/>suis perrochialibus institutione ecclesie. Nec est simile de potestate
+            tali<lb ed="#N" n="106" break="no"/>um et de potestate ordinariorum: cum talibus sit data potestas ad
+            ten<lb ed="#N" n="107" break="no"/>pus et in fauorem spietialem. Ad hoc intelligendum quia huiusmodi absolu
+            <lb ed="#N" n="108"/>tionis dependunt a iudicio superiorum. Si enim discernat superior a
+            <lb ed="#N" n="109"/>quo est concessa potestas huiusmodi quod absoluti ab episcopo vel ab illis
+            qui<lb ed="#N" n="110" break="no"/>bus data est potstas ab eodem non debeant recurrere ad suos
+            perro<lb ed="#N" n="111" break="no"/>chiales: non tenentur. Si autem illud decernat: et ad illud tenentur pro
+            <lb ed="#N" n="112"/>pter hoc necesse esset penitentiariis super hoc certificari ab ordinariio
+            <lb ed="#N" n="113"/>Et similiter confessos illis super eodem certificare.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

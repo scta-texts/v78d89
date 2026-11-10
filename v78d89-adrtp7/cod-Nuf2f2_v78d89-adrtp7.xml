@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 74, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 74, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="471"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adrtp7"><!-- q74m3 -->
+        <head xml:id="v78d89-adrtp7-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-adrtp7-Hd1e103" type="question-title">Si attritio stat vel stare potest cum contritione</head>
+        <p xml:id="v78d89-adrtp7-d1e106">
+          <lb ed="#N" n="14"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e111">
+          <lb ed="#N" n="15"/>COnsequenter queritur. si attritio stat vel stare
+          <lb ed="#N" n="16"/>potest cum contritione. Quod sic: videtur per hoc. quod
+          <lb ed="#N" n="17"/>vtrumque bonum est et donum dei. talium non est
+          <lb ed="#N" n="18"/>oppositio vel repugnantia vt videtur. ergo etc.
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e122">
+          <lb ed="#N" n="19"/>⁋ Item attritio est a gratia gratisdata: et contritio a gratia
+          gra<lb ed="#N" n="20" break="no"/>tum faciente. sed ista simul stant scilicet gratia gratisdata et
+          gra<lb ed="#N" n="21" break="no"/>tia gratum faciens: ergo et causata ab his. quorum enim se cause
+          in<lb ed="#N" n="22" break="no"/>uicem compatiuntur: et causata. sicut quorum cause sunt contrarie:
+          <lb ed="#N" n="23"/>et ipsa causata similiter.
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e136">
+          ⁋ Item cum quis conteritur. dolor
+          <lb ed="#N" n="24"/>precedens quantum ad substantiam vel habitum non tollitur. quia
+          <lb ed="#N" n="25"/>si voluntas peccati mala est: non tamen ipse dolor est malus.
+          <lb ed="#N" n="26"/>propter quod non tolliter adueniente gratia: mala enim voluntas
+          <lb ed="#N" n="27"/>non est de substantia attritionis: ergo etc.
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e147">
+          ⁋ Contra. fides
+          in<lb ed="#N" n="28" break="no"/>formis necessaria annexa est attritioni: fides formata
+          con<lb ed="#N" n="29" break="no"/>tritioni. Unde ad attritionem sequitur fides informis: ad
+          con<lb ed="#N" n="30" break="no"/>tritionem fides formata. sed si consequentia non possunt siml
+          <lb ed="#N" n="31"/>stare: nec antecedentia
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e158">
+          ⁋ Item hoc idem videtur per hoc. quod
+          ne<lb ed="#N" n="32" break="no"/>cessario consequuntur ad hoc timor seruilis et initialis: quia
+          <lb ed="#N" n="33"/>simul stare non possunt.
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e165">
+          ⁋ Responio dicendum quod non possunt sil
+          <lb ed="#N" n="34"/>stare.
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e170">
+          ⁋ Ad primum obiectum contra hoc dicendum. quod licet vtrum
+          <lb ed="#N" n="35"/>que bonum sit et donum dei. et inquantum huiusmodi nec habent
+          oppositi<lb ed="#N" n="36" break="no"/>onem nec incompossibilitatem. tamen ratione annexorum et
+          concomitan<lb ed="#N" n="37" break="no"/>tium simul stare non posunt: sicut nec illa scilicet fides informis
+          <lb ed="#N" n="38"/>et formata. amor seruilis et initialis. Similiter virginitas
+          <lb ed="#N" n="39"/>et castitas coniugalis inquantum sunt dona dei non repugnant:
+          <lb ed="#N" n="40"/>ratione tamen statuum oppositorum oppositionem habent.
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e186">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="41"/>obiicitur. quod attritio est a gratia gratisdata etc. dicendum quod
+          inquan<lb ed="#N" n="42" break="no"/>tum attritio et contritio dicunt actus doloris causatos
+          quo<lb ed="#N" n="43" break="no"/>dammodo a gratia tali. nisi essent amnexa illis que sunt
+          in<lb ed="#N" n="44" break="no"/>compossibilia: bene possunt simul stare.
+        </p>
+        <p xml:id="v78d89-adrtp7-d1e198">
+          ⁋ Ex hoc patet responsio ad
+          <lb ed="#N" n="45"/>aliud quod sequitur. quod licet mala voluntas non sit de
+          substan<lb ed="#N" n="46" break="no"/>tia doloris: tamen concomitatur illum et illa que sunt
+          incompossi<lb ed="#N" n="47" break="no"/>hilia gratie et virtutibus que informant dolorem
+          contri<lb ed="#N" n="48" break="no"/>tionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

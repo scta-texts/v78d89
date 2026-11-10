@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 44, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 44, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="315"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8vtfb"><!-- q44prae -->
+        <head xml:id="v78d89-a8vtfb-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-a8vtfb-d1e103">
+          <lb ed="#N" n="41"/>Questio. xliiii. de
+          mandu<lb ed="#N" n="42" break="no"/>catione huius sacramenti in speciali.
+        </p>
+        <p xml:id="v78d89-a8vtfb-d1e110">
+          <lb ed="#N" n="43"/>SEquitur de
+          mandu<lb ed="#N" n="44" break="no"/>catione corporis in speciali. et primo queritur
+          <lb ed="#N" n="45"/>de manducatione facta in cena. secundo de
+          <lb ed="#N" n="46"/>manducatione quam frequentat ecclesia.
+        </p>
+        <p xml:id="v78d89-a8vtfb-d1e121">
+          ⁋ De
+          <lb ed="#N" n="47"/>manducatione prima. primo queritur. vtrum
+          <lb ed="#N" n="48"/>christus sumpsit corpus suum in cena. Secundo dato quod sic. vtrum
+          <lb ed="#N" n="49"/>sumpsit illud spiritualiter vel sacramentaliter. Tercio quale
+          <lb ed="#N" n="50"/>corpus dedit discipulis. Quarto vtrum corpus suum dedit
+          iu<lb ed="#N" n="51" break="no"/>de. Quinto vtrum corpus illud sumptum in cena reseruatum
+          <lb ed="#N" n="52"/>in pixide vsque ad mortem christi moreretur. Sextum vtrum
+          conse<lb ed="#N" n="53" break="no"/>cratione facta in triduo sepulture: fieret anima cum corpore
+          <lb ed="#N" n="54"/>sub specie panis vel corpus sine anima. Septimo vtrum
+          <lb ed="#N" n="55"/>christus potuit facere quod in triduo anima sua esset cum corpore in vno
+          <lb ed="#N" n="56"/>loco: et non cum eodem in alio loco.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

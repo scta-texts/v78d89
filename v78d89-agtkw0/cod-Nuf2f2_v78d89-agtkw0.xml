@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 94, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 94, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="602"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-agtkw0"><!-- q94m3 -->
+        <head xml:id="v78d89-agtkw0-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-agtkw0-Hd1e103" type="question-title">De gestibus orantis</head>
+        <p xml:id="v78d89-agtkw0-d1e106">
+          <lb ed="#N" n="98"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e111">
+          <lb ed="#N" n="99"/>COnsequenter queritur de congruentia orationis que
+          acci<lb ed="#N" n="100" break="no"/>dit ex gestibus orantis. Circa hoc queritur de
+          diuersi<lb ed="#N" n="101" break="no"/>one orantis ad orientem. de genuflexione et pecto
+          <lb ed="#N" n="102"/>ris tunsione. et huiusmodi. Cum sit deus vbique. nec
+          ap<lb ed="#N" n="103" break="no"/>propriet sibi situm vel locum: videtur quod fideles orantes nec locum
+          <lb ed="#N" n="104"/>nec situm sibi orando debeant esigere. et itera sicut contra orientem: sie
+          <lb ed="#N" n="105"/>ad occidentem ad orandum debent se conuertere.
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e129">
+          ⁋ Pret. gentiles
+          cre<lb ed="#N" n="106" break="no"/>denies deum precibus flectere. ac si homo esset. sicut die augustinus in seuiusmode
+          <lb ed="#N" n="107"/>de monte Math. v. reprehensibiles iudicantur arbitrantes sicut
+          <lb ed="#N" n="108"/>bominem iudicem adduci in sententiam multis verbis: cum maior indn
+          <lb ed="#N" n="109"/>ctio inter homines fieri soleat inclinando se genuflexo: equeve
+          <lb ed="#N" n="110"/>potius videtur reprehensibile illud sicut primum.
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e143">
+          ⁋ Pret. cumoratio ad ene
+          <lb ed="#N" n="111"/>qui pure spiritualis est dirigatur: inconueniens et penitus incongrus
+          <lb ed="#N" n="112"/>videtur in oratioe pectoris tunsio: manuum expansio et huiusmodi.
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e150">
+          ⁋
+          Pre<lb ed="#N" n="113" break="no"/>Ionas propheta reprehensibilis fuit. quia credebat fugere deum eudo
+          <lb ed="#N" n="114"/>in aliam regionem. et dimittendo vnam. ergo et nos modo consimili si in
+          <lb ed="#N" n="115"/>vno loco plusquam in alio vtpote versus altare vel huiusmodi loco
+          <lb ed="#N" n="116"/>differentes oremus siue etiam adoremus
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e161">
+          ⁋ Contra. Math. vi.
+          di<lb ed="#N" n="117" break="no"/>cit glo. quod oramus vt deo obsequium impendamus. sed illud est
+          perfe<lb ed="#N" n="118" break="no"/>ctum obsequium quod non solum actu cordis vel oris: hod etiam operis
+          <lb ed="#N" n="119"/>exhibetur. hoc autem tit quando pectus tunditur: manus expandimus:
+          genu<lb ed="#N" n="120" break="no"/>flectimus: versus orientem vel ad altare vertimus. igitur omna
+          <lb ed="#N" n="121"/>ista laudabilia comprobantur.
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e174">
+          ⁋ Pret. Math. xxvi. legitur christus
+          <lb ed="#N" n="122"/>orando in faciem procidisse. ergo hoc omnium laudabile est et
+          pluri<lb ed="#N" n="123" break="no"/>mum vt videtur.
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e181">
+          ⁋ Responsio. dicendum quod oratio maxime prout est
+          sacramen<lb ed="#N" n="124" break="no"/>talis et satisfactoria: habet virtutem impetrandi et etiam
+          significa<lb ed="#N" n="125" break="no"/>di. ratio impetrandi residet penes orantis deuotionem et
+          feruo<lb ed="#N" n="126" break="no"/>rem: sed ratio significandi penes illud quod exterius apparet. dicit
+          <lb ed="#N" n="127"/>enim Hugo secundo de sacramentis parte ix. in priencipio. sunt quedam
+          <lb ed="#N" n="128"/>sacramenta in ecclesia in quibus et si principaliter salus non constat:
+          <lb ed="#N" n="129"/>tamen ex his augetur inquantum deuotio exercetur. et ex eis quedam
+          con<lb ed="#N" n="130" break="no"/>stant ex rebus: qualia sunt aque aspersiones: susceptio cinerum:
+          bene<lb ed="#N" n="131" break="no"/>dictis florum. cereorum. et huiusmodi. Aliqua constant in factis: qualia sunt
+          si<lb ed="#N" n="132" break="no"/>gnaculum crucis: exufflatio. exorcizationes: expansio manuum
+          <lb ed="#N" n="133"/>incuruatio genuum. et huiusmodi. Aliqua in dictis constant sicut est
+          tri<lb ed="#N" n="134" break="no"/>nitatis inuocatio et huiusmodi. hec hugo. Signa igitur corporalia
+          <lb ed="#N" n="135"/>que sunt in oratione. vt iam patet ad significandum sunt. Et quia
+          <lb ed="#N" n="136"/>duo in oratione sunt. scilicet qui orat et qui oratur: duo per huius
+          si<lb ed="#N" n="137" break="no"/>gna exteriora significantur ex parte dei scilicet conuersio ad oriente
+          <lb ed="#N" n="138"/>in quo significatur quod sicut ex illa parte oritur sol et lux
+          no<lb ed="#N" n="139" break="no"/>bilissima inter omnes creaturas corporales: sic ad illum qui super
+          <lb ed="#N" n="140"/>omnes creaturas est excellens est oratio dirigenda. Unde augustinus. in seuiusmode
+          <lb ed="#N" n="141"/>de monte lib. ii. tractans illud. potur noster qui es in celis. dicit.
+          <pb ed="#N" n="603"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>cum ad orationem stamus ad orientem conuertimur. vnde celum surgit. non
+          <lb ed="#N" n="2"/>tanquam hic habitet deus quasi ceteras mundi partes deserens. qui vbique
+          <lb ed="#N" n="3"/>locorum presens est. non locorum spaciis sed maiestatis potentia: sed vt
+          <lb ed="#N" n="4"/>admoneatur animus ad naturam excellentiorem se conuertere id est ad
+          <lb ed="#N" n="5"/>deum: cum ipsum corpus eius quod terreum est: ad corpus excellentius id est ad
+          <lb ed="#N" n="6"/>corpus celeste conuertitur. De hoc etiam dicit damal lidbro iiii. ca. iiii.
+          <lb ed="#N" n="7"/>Non simpliciter id est non sine ratione ad orientem oramus: sed quia ex inuist
+          <lb ed="#N" n="8"/>bili id est intellectuali et sensibili sumus: duplicem ad orationem
+          condi<lb ed="#N" n="9" break="no"/>tori offerimus quemadmodum et intellectu psallimus et labiis
+          cor<lb ed="#N" n="10" break="no"/>poralibus. Et sequitur. quia igitur deus lumen intellectuale est vel intel
+          <lb ed="#N" n="11"/>ligibile. et sol iusticie et oriens in scripturis nominatur christus.
+          respo<lb ed="#N" n="12" break="no"/>dendum est ei oriens in adoratione. omne enim melius deo reponendum
+          <lb ed="#N" n="13"/>ex quo omne bonum. Insuper autem deus peradisum non ad occidentem sed
+          <lb ed="#N" n="14"/>orientem vbi hominem plasmauit posuit: quem propter transgressum
+          <lb ed="#N" n="15"/>a paradiso voluptatis exulem fecit. Ex occidente igitur antiquam
+          <lb ed="#N" n="16"/>quidem patriam ex quirentes ad ipsum respicientes: et assumptus ad
+          <lb ed="#N" n="17"/>orientem sursum ferebatur: et ita ipsum apostoli adorauerunt. et ita
+          ve<lb ed="#N" n="18" break="no"/>niet quomo ipsum viderunt euntem in celum. ipsum igitur expectantes ad
+          <lb ed="#N" n="19"/>orientem adoramus. hec dam. Quedam etiam signa sunt ad
+          signifi<lb ed="#N" n="20" break="no"/>candum ex parte nostra in oratione. sicut incuruatio genuum: vbi ostendi
+          <lb ed="#N" n="21"/>tur vera humiliatio ac reuerentia. Expansio manuum: vbi ostenditur
+          <lb ed="#N" n="22"/>dominice passionis credulitas. et ei exhibenda obedientia. Tunsio
+          <lb ed="#N" n="23"/>pectoris debita de peccatis penitentia. Hec autem omnia non tam sunt de oratio
+          <lb ed="#N" n="24"/>nis necessitate quam sunt de congruitate vt supra tactum est.
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e279">
+          ⁋ Patet
+          <lb ed="#N" n="25"/>igirtr solutio ad primum. quod non vertimus nos ad orientem. quia credamus
+          <lb ed="#N" n="26"/>deum tantum ibi habirare: sed propter rationes supradictas.
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e287">
+          ⁋ Ad secundum
+          di<lb ed="#N" n="27" break="no"/>cendum. quod multiloquium in oratione simpliciter non reprehenditur: sed secundum
+          il<lb ed="#N" n="28" break="no"/>lum modum quo gentes vtebantur. de hoc supra tactum est.
+          Multiloqui<lb ed="#N" n="29" break="no"/>um enim quando fit in oratione propter ocium euitandum et affectum inflammandum
+          <lb ed="#N" n="30"/>laudabile est. si tamen fiat ad deum verbis inflectendum. sicut consueuit fie
+          <lb ed="#N" n="31"/>ri ad hominem non est laudabile: quia illud non opertet. Pari modo
+          dicen<lb ed="#N" n="32" break="no"/>dum est de genuflexione. quia illa fit in signum humilitatis et
+          reueren<lb ed="#N" n="33" break="no"/>tie. et multum valet ad animum ardentius inflammandum.
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e305">
+          ⁋ Ad
+          terci<lb ed="#N" n="34" break="no"/>um similiter patet responsio. quoniam ista signa corporalia: non sunt ad
+          ostenden<lb ed="#N" n="35" break="no"/>dum deum corporeum esse: sed magis ad significandum ex parte nostra
+        </p>
+        <p xml:id="v78d89-agtkw0-d1e312">
+          <lb ed="#N" n="36"/>⁋ Ad vltimum patet responsio similiter: non enim vertimus nos magis ad hunc
+          <lb ed="#N" n="37"/>locum quam ad illum. quia credimus quod magis hunc locum inhabitet deus
+          <lb ed="#N" n="38"/>quam illum: sed propter rationes pretactas.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 42, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 42, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="310"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8nh0g"><!-- q42m3 -->
+        <head xml:id="v78d89-a8nh0g-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a8nh0g-Hd1e103" type="question-title">De partium fractarum idemptitate</head>
+        <p xml:id="v78d89-a8nh0g-d1e106">
+          <lb ed="#N" n="36"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a8nh0g-d1e111">
+          <lb ed="#N" n="37"/>COnsequenter queritur de idemptitate pertium
+          fra<lb ed="#N" n="38" break="no"/>ctarum. diuisa ergo hostia in partes. Queritur ant
+          <lb ed="#N" n="39"/>hec pars debeat dici illa. Et videtur quod sic: per hoc
+          <lb ed="#N" n="40"/>quod accipiens vnam illarum idem accipit quod
+          accipi<lb ed="#N" n="41" break="no"/>ens altam. ergo hec est eadem quod illa. Eadem ratione potest
+          ostendi<lb ed="#N" n="42" break="no"/>quod hostia que est in vno altari: est eadem cum illa que est in alio
+        </p>
+        <p xml:id="v78d89-a8nh0g-d1e127">
+          <lb ed="#N" n="43"/>⁋ Item diuersitas accidentium denominantium idem simpliciter
+          <lb ed="#N" n="44"/>idemptitatem illius non tollit. Uerbigratia. sortes albus et
+          sor<lb ed="#N" n="45" break="no"/>tes currens simpliciter est idem. nec diuersitas importata per hoc
+          <lb ed="#N" n="46"/>quod dico albus et currens idemptitatem illam impediunt: sed simpliciter
+          <lb ed="#N" n="47"/>est idem hoc album et hocicurrens. similiter videtur in proposito quod
+          di<lb ed="#N" n="48" break="no"/>uersitas accidentium que per species diuersas importantur. ex
+          <lb ed="#N" n="49"/>quo idem est omnino quod subest illis. nullam faciet diuersitatem:
+          <lb ed="#N" n="50"/>sed simpliciter est idem hec pars et illa: et hec hostia quod illa.
+        </p>
+        <p xml:id="v78d89-a8nh0g-d1e148">
+          ⁋ Con
+          <lb ed="#N" n="51"/>tra. hec simpliciter falsa: hoc semicirculare est triangulare
+          de<lb ed="#N" n="52" break="no"/>moostratis diuersis pertibus hostie. ergo et hec: hec pars est illa. cum
+          <lb ed="#N" n="53"/>hec pars sit triangulare et illa semicirculare.
+        </p>
+        <p xml:id="v78d89-a8nh0g-d1e157">
+          ⁋ Ad hoc dicendum.
+          <lb ed="#N" n="54"/>quod sicut habetur ab Augustinus. Quicquid est indignum corpori christi.
+          conueni<lb ed="#N" n="55" break="no"/>ens tamen hostie consecrate: conuenit ipsi speciei. Unde pertialis diuisio
+          <lb ed="#N" n="56"/>ipsius hostie: speciei tantum conuenit non corpori christi. Unde iste semmo non
+          <lb ed="#N" n="57"/>est verus. hec pars est illa. diuisio enim in partes conuenit speciei non christo.
+          <lb ed="#N" n="58"/>Iste tamen verus est. Iste accipit idem quod ille. accipi enim bene
+          <lb ed="#N" n="59"/>potest conuenire corperi christi.
+        </p>
+        <p xml:id="v78d89-a8nh0g-d1e173">
+          ⁋ Ad aliud dicendum. quod accidentia siue
+          <lb ed="#N" n="60"/>species sacramenti non denomnant contentum id est corpus christi sicut albedo
+          <lb ed="#N" n="61"/>denomnat sortem. Unde nec accidens simpliciter continens corpus
+          <lb ed="#N" n="62"/>christi nec diuisio siue partitio que conuenit accidenti conuenit
+          ipsi<lb ed="#N" n="63" break="no"/>corpori. Non enim cadunt in idemptitatem secundum numerum. species continens
+          <lb ed="#N" n="64"/>corpus christi et ipsum corpus sicut accmdenus et substntum. Idem enim numero est
+          sor<lb ed="#N" n="65" break="no"/>tes et hoc album. Non similiter corpus christi et hoc pertitum demonstrata specie
+          con<lb ed="#N" n="66" break="no"/>tinente.
+        </p>
+        <p xml:id="v78d89-a8nh0g-d1e191">
+          ⁋ Ad illud quod queritur. si eadem est hostia in hoc altari et in
+          <lb ed="#N" n="67"/>illo demonstratis duabus hostiis consecratis. Dicendum quod eadem
+          <lb ed="#N" n="68"/>ratione qua species continens dicitur sacramentum dicitur hostia
+          <lb ed="#N" n="69"/>consecrata quantum ad hoc quod sicut species panis dicitur
+          sacramen<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>tum: ratione eius cuiua erat species scilicet panis: similiter hostia
+          <lb ed="#N" n="71"/>dicitur consecrata. quia panis cuius species continet corpus christien
+          <lb ed="#N" n="72"/>consecratus et conuersus in corpus christi. Unde consecratio respicit proprie
+          <lb ed="#N" n="73"/>soquendo ipsam speciem continentem: non corpus contentum. cum nihil
+          con<lb ed="#N" n="74" break="no"/>secrationis vel sanctificationis corpori christi additum est proni est sub
+          <lb ed="#N" n="75"/>sacramento. Unde proprie loquendo alia est hostia consecrata que est in hoc
+          <lb ed="#N" n="76"/>altari et que est in illo.
+        </p>
+        <p xml:id="v78d89-a8nh0g-d1e216">
+          ⁋ Si autem obiiciatur. quod hostia est illud
+          <lb ed="#N" n="77"/>quod offertur deo in hoc sacrificio. hoc autem est corpus christi.
+          Di<lb ed="#N" n="78" break="no"/>cendum quod et panis dicitur hostia vt patet. in oblatione enim
+          <lb ed="#N" n="79"/>panis dicitur. Suscipe sancte pater hanc hostiam immaculatam
+          <lb ed="#N" n="80"/>quam ego indignus etc. qui etsi non offeratur in se: offertur
+          tamenil<lb ed="#N" n="81" break="no"/>lud in quod conuersum est. propter quon quodammodo singula
+          <lb ed="#N" n="82"/>ri tamen offertur. Uel est saltem causa oblationis vt ex verbis
+          ca<lb ed="#N" n="83" break="no"/>nonis misse patet que sunt. Offerimus preclare maiestati
+          tue<lb ed="#N" n="84" break="no"/>de tuis donis ac datis hostiam etc. que sic exponunt. de tuis
+          <lb ed="#N" n="85"/>donis id est frugibus segetum quantum ad panem. ac datis id est
+          fru<lb ed="#N" n="86" break="no"/>ctibus arborum quantum ad vinum. Si autem hostia dicatur verum
+          <lb ed="#N" n="87"/>corpus christi quod oblatum fuit in ara crucis et in hoc sacrificio
+          <lb ed="#N" n="88"/>offertur. De qua dicitur in canone misse. nos tui serui. sed et
+          <lb ed="#N" n="89"/>plebs tua sancta offerimus preclare maiestati tue hostiam
+          puran<lb ed="#N" n="90" break="no"/>hostiam sanctam. hostiam immaculatam. panem sanctum vite etexne.
+          <lb ed="#N" n="91"/>eadem est hostia. Unde Imb. In epstolam ad Heb. In christos
+          se<lb ed="#N" n="92" break="no"/>mel oblata est hostia ad salutem sempiternam potens. Quid
+          <lb ed="#N" n="93"/>ergo nos nonne per singulos dies offerimus: sed ad
+          recor<lb ed="#N" n="94" break="no"/>dationem mortis eius et vna est hostia non multe.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

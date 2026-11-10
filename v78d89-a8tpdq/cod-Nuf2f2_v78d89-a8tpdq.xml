@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 43, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 43, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="314"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8tpdq"><!-- q43m3 -->
+        <head xml:id="v78d89-a8tpdq-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a8tpdq-Hd1e103" type="question-title">Pro quanto dicatur quis manducare spiritualiter</head>
+        <p xml:id="v78d89-a8tpdq-d1e106">
+          <lb ed="#N" n="13"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e111">
+          <lb ed="#N" n="14"/>COnsequenter queritur pro quanto dicitur quis
+          spiritu<lb ed="#N" n="15" break="no"/>aliter manducare. Et queritur vtrum ex actu
+          fi<lb ed="#N" n="16" break="no"/>dei qui est credere. Quod sic: videtur per hoc. quod
+          existen<lb ed="#N" n="17" break="no"/>tem fide in actu si est manducatio est spiritualis. non
+          <lb ed="#N" n="18"/>existente fide: non est manducatio spiritualis. ergo ex fide siue ex
+          <lb ed="#N" n="19"/>actu fidei est manducatio spiritualis.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e127">
+          ⁋ Item. i. ad Roo. Iustus
+          <lb ed="#N" n="20"/>ex fide viuit. Idem habetur Abacuc. i. Uita autem non est
+          sine<lb ed="#N" n="21" break="no"/>manducatione. Ioh. vi. Nisi manducaueritis carnem filii
+          ho<lb ed="#N" n="22" break="no"/>minis et biberitis eius sanguinem non habebitis vitam in vobis
+          <lb ed="#N" n="23"/>Potest ergo sic argui. vita est ex fide. et vita non est sine
+          manduca<lb ed="#N" n="24" break="no"/>tione: ergo manducatio huiusmodi est a fide siue non sine fide.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e141">
+          ⁋ Item
+          <lb ed="#N" n="25"/>Augustinus. Crede et manducasti. sed constat quod hoc intelligitur de
+          man<lb ed="#N" n="26" break="no"/>ducatione spirituali: ergo videtur quod ex actu fidei sit manducatio
+          spi<lb ed="#N" n="27" break="no"/>ritualis.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e150">
+          ⁋ Contra. multi iniusti habent actum fidei. qui etiam
+          <lb ed="#N" n="28"/>cum deuotione sumunt corpus christi. si ergo spiritualiter manducare est
+          <lb ed="#N" n="29"/>ab actu fidei: iniusti manducant corpus christi spiritualiter. quod est
+          <lb ed="#N" n="30"/>contra Augustinus dicentem. quod nullus spiritualiter manducat: nisi qui
+          <lb ed="#N" n="31"/>est membrum christi et manet in christo.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e161">
+          ⁋ Si diceretur quod manducatio
+          <lb ed="#N" n="32"/>spiritualis est ex actu fidei formate id est operantis per dilectionem.
+          <lb ed="#N" n="33"/>Adhuc obiicitur. si actus fidei cum caritate sufficit ad
+          spiri<lb ed="#N" n="34" break="no"/>tualem manducationem: ergo omne quod credimus et diligimus
+          man<lb ed="#N" n="35" break="no"/>ducamus: ergo cum multa alia credamus quam hoc sacramentum vel rem
+          hu<lb ed="#N" n="36" break="no"/>ius sacramenti: videtur quod manducatio spiritualis sit multorum
+          <lb ed="#N" n="37"/>aliorum et omnium articulorum. et quod manducatio non sit huic
+          sa<lb ed="#N" n="38" break="no"/>cramento propria: quod falsum est.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e179">
+          ⁋ Item manducatio
+          spi<lb ed="#N" n="39" break="no"/>ritualis dicta est ad similitudinem materialis: sed
+          mandu<lb ed="#N" n="40" break="no"/>cans materialiter sibi cibum incorporat. Qui autem credit et
+          di<lb ed="#N" n="41" break="no"/>ligit christum: incorparatur christo. ergo potius manducatur quam
+          mandu<lb ed="#N" n="42" break="no"/>cat. ergo videtur quod manducatio spiritualis non est ex actu fidei
+          ope<lb ed="#N" n="43" break="no"/>rantis per dilectionem.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e192">
+          ⁋ Responsio. quod in corporalibus est proprie
+          man<lb ed="#N" n="44" break="no"/>ducatio: et ab illis ad spiritualia est transtata. Notandum ergo
+          <lb ed="#N" n="45"/>quod multi actus concurrunt ad perfectam manducationem. In
+          com<lb ed="#N" n="46" break="no"/>mestione enim spirituali sunt plures actus spirituales ad instar
+          <lb ed="#N" n="47"/>materialis. scilicet masticatio. refectio siue delectatio. assimila
+          <lb ed="#N" n="48"/>tio et in corparatio. Masticatio consistit in discreta deliberatio
+          <lb ed="#N" n="49"/>ne siue consideratione illius quod sumendum est in cibum scilicet
+          quambenefi<lb ed="#N" n="50" break="no"/>cum viuificatiuum. vtpote corpus christi quod fuit pro nobis
+          exposi<lb ed="#N" n="51" break="no"/>tum in precium ad redimendum scilicet in cruce et in altari: in cibum
+          <lb ed="#N" n="52"/>exponitur ad viuificandum scilicet vita gratie. Ioh. vi. Nisi
+          mandu<lb ed="#N" n="53" break="no"/>caueritis car. fi. ho. et bibe. eius sang. non ha. vi. in vobis. er
+          <lb ed="#N" n="54"/>ad nutriendum ad vitam eternam. Ioh. vi. Qui manducat
+          <lb ed="#N" n="55"/>car. me. et bi. sangu. me. habet vitam eternam. ad hoc sequitur
+          dele<lb ed="#N" n="56" break="no"/>ctatio siue delectabilis refectio ex consideratione preciositatis
+          <lb ed="#N" n="57"/>et bonitatis eius quod sumitur. quod est panis de celo descendens
+          <lb ed="#N" n="58"/>de quo Sapiem. xvi. Panem de celo prestitisti eis si. la. etc.
+          <lb ed="#N" n="59"/>Ad hoc sequitur assimilatio. hec autem duo scilicet deliberatio siue
+          <lb ed="#N" n="60"/>consideratio et assimilatio fiunt per fidem. De consideratione patet.
+          <lb ed="#N" n="61"/>De delectatione siue delectabili refectione habetur ab Augus.
+          <lb ed="#N" n="62"/>qui dicit. Quod in cognitione est tota delectatio iuxta illud. Ioh.
+          <lb ed="#N" n="63"/>xvii. Hec est vita eterna vt cognoscant te verum deum et quem
+          <lb ed="#N" n="64"/>misisti ihm christum. Si enim aliquis diligit aliquem non propter hoc
+          <lb ed="#N" n="65"/>delectatur in ipso. sed si bona illius videt: tunc delectatur. Similiter per
+          fi<lb ed="#N" n="66" break="no"/>dem est assimilatio. Unde Ioh. i. Dedit eis potestatem filios dei
+          <lb ed="#N" n="67"/>fieri his qui credunt etc. Incorparatio que proprie dicitur vnitio. fit per
+          <lb ed="#N" n="68"/>amorem qui est copula amantis et amati. Ad spiritualem ergo
+          mandu<lb ed="#N" n="69" break="no"/>cationem requiritur consideratio fidei et affectio amoris.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e251">
+          ⁋ Ad
+          il<lb ed="#N" n="70" break="no"/>lud ergo quod primo obiicitur contra. dicendum quod non sufficit fides qualiscunque
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>sed requiritur illa que est operans per dilectionem.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e261">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="72"/>obiicitur. quod si actus fidei operantis per dilectionem sufficit ad spiritua
+          <lb ed="#N" n="73"/>lem manducationem. ergo quod credimus et diligimus manducamus. ex
+          <lb ed="#N" n="74"/>ita omns articulos etc. Dicendum quod non sequitur. quia manducatio non
+          <lb ed="#N" n="75"/>est cuiuscumque: si cibi. vnde non a quolibet actu fidei operantis per
+          <lb ed="#N" n="76"/>dilectionem est spiritualis manducatio: sed solum vt est respectu cibi.
+          <lb ed="#N" n="77"/>et cibi talis: scilicet carnis christi exposite pro nobis in cruce. in
+          pre<lb ed="#N" n="78" break="no"/>cium redemptionis et in altari in cibum educationis siue
+          refectio<lb ed="#N" n="79" break="no"/>nis.
+        </p>
+        <p xml:id="v78d89-a8tpdq-d1e281">
+          ⁋ Ad illud quod obicitur. quod manducans corporaliter incorpat
+          si<lb ed="#N" n="80" break="no"/>bi cibum et hic fit contrarium etc. Dicendum quod non est omnimoda similitu
+          <lb ed="#N" n="81"/>do in illa et hac manducatione. est tamen sufficiens similitudo ad
+          tran<lb ed="#N" n="82" break="no"/>stationem. quia sicut in corporali manducatione est masticatio.
+          delata<lb ed="#N" n="83" break="no"/>tio. assimilatio et incorparatio: sic in spirituali. sed in hoc est
+          dissimilitu<lb ed="#N" n="84" break="no"/>do. quod in corporali manducans. quia nobilior est et virtuosior ipso
+          ci<lb ed="#N" n="85" break="no"/>bo: conuertit in se cibum. In spirituali est econuerso: quia cibus est
+          vir<lb ed="#N" n="86" break="no"/>tuosior et dignior et completior manducante. Pre. nos
+          mutabi<lb ed="#N" n="87" break="no"/>les sumus: ipse qui est cibus immutabilis. Ron autem proposita nulla
+          <lb ed="#N" n="88"/>est: quia in translatione huiusmodi non requiritur omnimoda simili
+          <lb ed="#N" n="89"/>tudo sed sufficit aliqualis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

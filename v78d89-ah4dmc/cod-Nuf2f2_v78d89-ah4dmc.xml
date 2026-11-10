@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 97, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 97, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="617"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ah4dmc"><!-- q97m2 -->
+        <head xml:id="v78d89-ah4dmc-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ah4dmc-Hd1e103" type="question-title">De jejunio</head>
+        <p xml:id="v78d89-ah4dmc-d1e106">
+          <lb ed="#N" n="98"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-ah4dmc-d1e111">
+          <lb ed="#N" n="99"/>SEquitur de ieiunio de quo proceditur sic. Primo
+          <lb ed="#N" n="100"/>queritur de quidditate. Secundo de qualitate.
+          <lb ed="#N" n="101"/>Tercio de modo. Quarto de institutione.
+          <lb ed="#N" n="102"/>Quinto de efficacia. Sexto de necessitate.
+          <lb ed="#N" n="103"/>Septimo de tempore ieiunii. Octauo de solutione.
+        </p>
+        <p xml:id="v78d89-ah4dmc-d1e124">
+          ⁋
+          Pri<lb ed="#N" n="104" break="no"/>mo ergo queritur de quidditate ieiunii. hoc est querere quid sit
+          <lb ed="#N" n="105"/>ieiunium. Et quia diffinitio indicat quid est diffinitum. et
+          plu<lb ed="#N" n="106" break="no"/>res inueniuntur diffinitiones assignate de ieiunio: de illis
+          <lb ed="#N" n="107"/>est singillatim querendum. Primo ergo queritur de diffinitione
+          <lb ed="#N" n="108"/>ieiunii que habetur ab Ysido. libro. vi. ethymo. que talis est. Ie
+          <lb ed="#N" n="109"/>iunium est persimonia victus etc. Secundo. de illa quam ponit
+          <lb ed="#N" n="110"/>ysido. libo. de officio. xlii. ca. que est talis. Ieiunium est res
+          san<lb ed="#N" n="111" break="no"/>cta opus celeste etc. Tercio. de illa que ponitur communiter.
+          <lb ed="#N" n="112"/>scilicet ieiunium est abstinentia a cibo et potu secundum formam
+          eccle<lb ed="#N" n="113" break="no"/>sie etc.
+        </p>
+        <div xml:id="v78d89-ah4dmc-Dd1e149">
+          <head xml:id="v78d89-ah4dmc-Hd1e151">Articulus 1</head>
+          <p xml:id="v78d89-ah4dmc-d1e153">
+            <lb ed="#N" n="114"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e158">
+            <lb ed="#N" n="115"/>AD primum queritur de hac diffinitione Ysido. Ieiu
+            <lb ed="#N" n="116"/>Cnium est persimonia victus abstinentiaque ciborum:
+            <lb ed="#N" n="117"/>sic. Nihil debet diffiniri per duplex genus vel
+            <lb ed="#N" n="118"/>per idem repetitumm. sed ista diffinitio data est sic. quia vel cibus et
+            <lb ed="#N" n="119"/>victus idem genus sunt: vel victus est aliud genus et cibus
+            <lb ed="#N" n="120"/>aliud.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e174">
+            ⁋ Item persimonia et abstinentia idem sunt. persimona enim
+            <lb ed="#N" n="121"/>vt dicit Ysido. dicitur quasi perca semonia. semos autem dicitur cibus.
+            <lb ed="#N" n="122"/>idem ergo est persimonia et abstinentia vt videtur.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e181">
+            ⁋ Pre. cibus et
+            <lb ed="#N" n="123"/>victus vel sunt idem vt si extendatur cibus ad potum: vel cibus
+            <lb ed="#N" n="124"/>est pars victus si proprie sumuntur. non igitur debet vtrunque poni.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e189">
+            <lb ed="#N" n="125"/>⁋ Pre. vt vult Ysido. persimonia est perca semonia. vnde
+            persi<lb ed="#N" n="126" break="no"/>monia percitatem importat in vsu actuali cibi vel victus. sed sicut
+            <lb ed="#N" n="127"/>qui viuit viuus est: sic qui ieiunat ieiunus est. sed in vsu
+            actua<lb ed="#N" n="128" break="no"/>li cibi siue victus non est vtens ieiunus. ergo ieiunanti siue ieiuno
+            <lb ed="#N" n="129"/>non conuenit persimonia victus.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e202">
+            ⁋ Pre. Ysido. xx. libro. ethymo.
+            <lb ed="#N" n="130"/>epule simplices in duo necessaria diuiduntur. panem scilicet et vinum.
+            <lb ed="#N" n="131"/>et duo sunt superflua: que terra et mari vescendi causa ex quiruntur.
+            <lb ed="#N" n="132"/>sed abstinentia in ieiunio debet esse a superfluo. in comestione
+            <lb ed="#N" n="133"/>autem panis et vini et piscium non abstinetur a superfluo. ergo non est
+            <lb ed="#N" n="134"/>in tali comestione abstinentia quam requirit ieiunium.
+            <lb ed="#N" n="135"/>quod videtur falsum: quia ieiunium talem indicitur ab
+            eccle<lb ed="#N" n="136" break="no"/>sia. igitur vt videtur male diffinitur ieiunium per abstinentiam
+            <lb ed="#N" n="137"/>ciborum.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e222">
+            ⁋ Pret. ieiunium institutum est ad carnis afflictionem
+            <lb ed="#N" n="138"/>vnde Leuit. xxiii. Omnis anima que non afflixerit se die hac: peribit d
+            <lb ed="#N" n="139"/>populo suo. sed in dicta diffinitione nihil ponitur quod
+            indi<lb ed="#N" n="140" break="no"/>cet afflictionem. ergo diminute data est. persimonia enim et abstius
+            <pb ed="#N" n="618"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>nentia ciborum determinat speciem virtutis scilicet temporantie vlter quam
+            <lb ed="#N" n="2"/>progreditur afflictio. vnde non dicunt aliquid afflictiuum.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e240">
+            ⁋ Responsio.
+            <lb ed="#N" n="3"/>Ad noticiam eorum que quesita sunt non. quod posita diffinitione
+            preta<lb ed="#N" n="4" break="no"/>cta scilicet ieiunium est persimonia victus: abstinentiaque ciborum. sbditur.
+            <lb ed="#N" n="5"/>cui est nomen inditum ex quadam parte viscerum tenui semper et vacuo: quod
+            <lb ed="#N" n="6"/>vulgo ieiunium vocat. vnde et ieiunii nomen creditur deriuatum
+            <lb ed="#N" n="7"/>quod sui media viscera vacua et exinanita existant. hec ysido.
+            <lb ed="#N" n="8"/>Ex his patet quod ieiunium non dicit omnino priuationem: sed simul cum
+            pri<lb ed="#N" n="9" break="no"/>uatione quandam concernit positionem. sicut viscera non omnem annihi
+            <lb ed="#N" n="10"/>lationem: sed quandam positionem. quia cum preuatione immoderate
+            sumptio<lb ed="#N" n="11" break="no"/>nis ciborum ponit sumptionem moderatam eorum. vnde duo hoc concurrunt
+            <lb ed="#N" n="12"/>vnum quod requirit nature necessitas: aliud quod promouet ad
+            expe<lb ed="#N" n="13" break="no"/>ditionem gratie.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e266">
+            ⁋ Ad illud ergo quod primo obiicitur. quod in diffinitionibus
+            <lb ed="#N" n="14"/>non debet poni duplex genus vel idem repetitum etc. Potest dici
+            <lb ed="#N" n="15"/>quod similiter nec hoc ponitur duplex genus nec idem replicatur. quia per hoc quod
+            <lb ed="#N" n="16"/>dicitur persimonia victus: insinuatur quod requirit necessitas nature.
+            <lb ed="#N" n="17"/>perca enim simonia melius perficit naturam quam superflua. per abstinen
+            <lb ed="#N" n="18"/>tia ciborum insinuatur abstractio siue recisio superfluorum. vnde
+            <lb ed="#N" n="19"/>Ysido. xx. ethymols. dicit: cibus dictus est quod capitur ore. sicut
+            esca<lb ed="#N" n="20" break="no"/>eo quod eam os capit. victus proprie vocatur quia vitam retinet. Non
+            <lb ed="#N" n="21"/>ergo hoc quod est duplex subtractio quam requirit ieiunium. superfluorum
+            <lb ed="#N" n="22"/>que quandoque solent incorporari ad sustentationem nature. et superfluorum
+            <lb ed="#N" n="23"/>que solent traiici per cibationem ad delectationem cibati. Pret. non
+            <lb ed="#N" n="24"/>est inconueniens aliquid diffiniri per duplex genus vbi vnum est al
+            <lb ed="#N" n="25"/>teri subalternatum. Duobus enim modis datur modus siue ars
+            <lb ed="#N" n="26"/>diffiniendi etiam formaliter. scilicet vel per genus immediatum cum
+            imme<lb ed="#N" n="27" break="no"/>diatis differentiis: vel per genus suprimum cum connuneratione generum
+            <lb ed="#N" n="28"/>subalternorum. vt homo diffinitur cum dictur: animal rationale mortale. vel
+            <lb ed="#N" n="29"/>cum dicitur: suba corporea animata sensibilis mortalis rationalis.
+            <lb ed="#N" n="30"/>Ex his patet quod nec sunt idem cibus et victus: nec vnum est
+            ge<lb ed="#N" n="31" break="no"/>nus ad aliud prout proprie sumuntur in proposito. nec idem persimo
+            <lb ed="#N" n="32"/>nia et abstinentia. Cibus tamen et victus quocumque modo sumpti
+            ali<lb ed="#N" n="33" break="no"/>ter se possunt habere. ita scilicet quod vnum sit genus ad aliud vel idem
+            <lb ed="#N" n="34"/>quod aliud. sed non est hoc sic.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e314">
+            ⁋ Ad illud quod obiicitur. quod qui viuit
+            vi<lb ed="#N" n="35" break="no"/>uus est. ergo qui ieiunat ieiunus est etc. Potest dici. quod hoc genus
+            ar<lb ed="#N" n="36" break="no"/>guendi non habet regularem necessitatem: immo in multis terminis
+            <lb ed="#N" n="37"/>fallit. non enim smper verbum infert nomn descendens siue deriuatum
+            <lb ed="#N" n="38"/>ab ipso: licet hoc accidit in terminis aliquibus. vnde licet sequatur. iste
+            <lb ed="#N" n="39"/>viuit: ergo viuus est. non tamen sequitur. iste moritur: ergo est mortuus. similiter nec
+            <lb ed="#N" n="40"/>in proposito. iste ieiunat: ergo est ieiunus. similiter nec hoc. iste albescit
+            <lb ed="#N" n="41"/>ergo est albus. vbi enim nomen descendens a verbo dicit rem
+            signifi<lb ed="#N" n="42" break="no"/>catam scilicet in termino: non infertur a verbo quod dicit rem suam vt ad
+            <lb ed="#N" n="43"/>terminum. Pret. castus dicitur duobus modis. Uno modo prout
+            <lb ed="#N" n="44"/>castitas determinatur circa continentiam ab omni coitu scilicet
+            lici<lb ed="#N" n="45" break="no"/>to et illicito. sicut est de castitate virginali. Alio modo secundum quod
+            de<lb ed="#N" n="46" break="no"/>terminatur circa continentiam a concubitu illicito: sicut est castitas
+            <lb ed="#N" n="47"/>coniugalis. Similiter potest dici de ieiunio. quod potest dici duobus
+            mo<lb ed="#N" n="48" break="no"/>dis. Uno modo secundum quod dicit abstinentiam omnimodam ab omni cibo:
+            <lb ed="#N" n="49"/>et etiam quantum ad omne tempus. Alio modo secundum quod dicit solum
+            absti<lb ed="#N" n="50" break="no"/>nentiam a cibo aliquo modo: et etiam quantum ad tempus determinatum.
+            <lb ed="#N" n="51"/>Secundum ergo quod aliquis dicitur ieiunare primo modo ieiunii bene
+            sequi<lb ed="#N" n="52" break="no"/>tur. iste ieiunat: ergo est ieiunus. Secundum autem quod secundo modo nequaquam
+            <lb ed="#N" n="53"/>iste est viuus: ergo viuit. non sub tali diuersitate neque rei neque
+            <lb ed="#N" n="54"/>temporis dicunt ea que dicunt: sed vno et eodem modo. et propter hoc vnum sequi
+            <lb ed="#N" n="55"/>tur ad alterum.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e363">
+            ⁋ Ad illud quod obiicitur secundum Yrosido. Epule
+            sim<lb ed="#N" n="56" break="no"/>plices diuiduntur in duo necessaria etc. Potest dici quod necessaria vno modo
+            <lb ed="#N" n="57"/>excludit quicquid est preter exigentiam communis vite hominis. et hoc modo
+            in<lb ed="#N" n="58" break="no"/>telligit Ysido. duo tantum esse necessaria scilicet panem et vinum. Et si
+            obiici<lb ed="#N" n="59" break="no"/>atur. quod multi viuunt sine vino. Dicendum quod etsi hoc sit de
+            m<lb ed="#N" n="60" break="no"/>tis personis: secus est de communi vita hominum. et hoc dico extenso
+            <lb ed="#N" n="61"/>nomine vini. secundum quod nomine extenso dicitur non solum vinum de vite: sed
+            <lb ed="#N" n="62"/>de frumento et ordeo. et de aliis generibus potus diuisis
+            con<lb ed="#N" n="63" break="no"/>tra aquam. cuiusmodi sunt medo sicera et huiusmodi. Uel potest
+            di<lb ed="#N" n="64" break="no"/>ci. quod loquitur secundum consuetudinem terre cuius erat incola. Alio modo
+            <lb ed="#N" n="65"/>necessarium sic stricte sumitur. scilicet secundum quod excludit superfluum iuxta
+            sa<lb ed="#N" n="66" break="no"/>pientis determinationem et status condecentiam. et tunc necessaria posunt
+            di<lb ed="#N" n="67" break="no"/>ci necessaria que terra et mari ex quiruntur.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e392">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="68"/>quod nihil ponitur in hac diffinitione quod ponat aliquid afflictiuum
+            <lb ed="#N" n="69"/>etc. Potest dici immo quia vt ex dictis patet: persimonia victus dicit
+            <lb ed="#N" n="70"/>subtractionem eorum que solent incorporari ad vite sustentationem:
+            ab<lb ed="#N" n="71" break="no"/>stinentia cibi superfluorum. quia et incorparatione necessariorum et
+            intraii<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>tione superfluorum solet esse non modica quandoque delectatio. et in
+            ho<lb ed="#N" n="73" break="no"/>rum subtractione oritur afflictio.
+          </p>
+        </div>
+        <div xml:id="v78d89-ah4dmc-Dd1e410">
+          <head xml:id="v78d89-ah4dmc-Hd1e412">Articulus 2</head>
+          <p xml:id="v78d89-ah4dmc-d1e414">
+            <lb ed="#N" n="74"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e419">
+            <lb ed="#N" n="75"/>Onsequentur queritur de illa diffinitione queo similiter est
+            <lb ed="#N" n="76"/>Ysido. liro. i. de officio. xlii. ca. scilicet hac. Ieiunium
+            <lb ed="#N" n="77"/>est res sancta: opst celeste: ianua regni: forma
+            <lb ed="#N" n="78"/>futuri. hec autem diffinitio orationi conuenit. Est enim oratio res
+            san<lb ed="#N" n="79" break="no"/>cta etc. Quod autem sit forma futuri videtur. quia cum oratio sit
+            contempla<lb ed="#N" n="80" break="no"/>tionis species representatiua: est et similitudo quedam illius
+            contempla<lb ed="#N" n="81" break="no"/>tionis qua beati contemplantur deum in patria. et ita illi conuenit
+            <lb ed="#N" n="82"/>vltima differentia diffinitionis posite. et constat quod alie similiter. ergo ista
+            <lb ed="#N" n="83"/>diffinitio soli ieiunio non conuenit.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e441">
+            ⁋ Pret. cum omnis diffinito
+            <lb ed="#N" n="84"/>debeat assignari per illa que sunt essentialia ipso diffinito.
+            ab<lb ed="#N" n="85" break="no"/>stinentia autem est essentialis ieiunio: videtur quod diminute est assi
+            <lb ed="#N" n="86"/>gnata. ex quo in illa non assignatur aliquid designans
+            abstinen<lb ed="#N" n="87" break="no"/>tiam.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e452">
+            ⁋ Pret. potest obiici vt smum de afflictione propter quam fuit iusti
+            <lb ed="#N" n="88"/>tutum ieiunium. et in hac ratione nihil tangitur pertinens ad afflicui
+            <lb ed="#N" n="89"/>onem.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e460">
+            ⁋ Pret. cum ieiunium essentialiter determinatur in priuatione
+            <lb ed="#N" n="90"/>qu adam. et ea que ponuntur in diffinitione eius debent aliquo
+            modo<lb ed="#N" n="91" break="no"/>dicere priuationem: non simpliciter positionem. non ergo debet diffiniri p
+            <lb ed="#N" n="92"/>rem sanctam. et per aliquid quod dicat esse in facto: vtpote per rem
+            <lb ed="#N" n="93"/>sanctam etc. non est enim conueniens diffinitio habitus per preuationem
+            <lb ed="#N" n="94"/>neque priuationis per habitus.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e473">
+            ⁋ Pret. cum ieiunium determinetur
+            <lb ed="#N" n="95"/>vel quantum ad esse in fieri: vel quantum ad esse in facto: non debet
+            diffi<lb ed="#N" n="96" break="no"/>niri per aliquid quod dicat esse in facto. vtpote per rem sanctam: eat per
+            <lb ed="#N" n="97"/>aliquid quod dicit rem in fieri. vtpote per opst celeste.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e482">
+            ⁋ Pret. snrtea
+            <lb ed="#N" n="98"/>queri. que est differentia illorum quatuor que tanguntur in
+            diffiniti<lb ed="#N" n="99" break="no"/>one pretacta scilicet res sancta. opus celeste etc. non est formale vt
+            i<lb ed="#N" n="100" break="no"/>la que datur per genus et differentias. sed potius notificatio quedam
+            <lb ed="#N" n="101"/>insinuans esse ieiunium per aliquos effectus eius. Nondum ergo quod
+            <lb ed="#N" n="102"/>ieiunium carnem macerando purgat a peccato: et dedicat
+            peniten<lb ed="#N" n="103" break="no"/>tem deo. vt secundo dicitur in glo. Leui. xix. super illud. Sancir
+            <lb ed="#N" n="104"/>estote etc. recte sanctificationem ponit quia fundamentum est
+            vir<lb ed="#N" n="105" break="no"/>tutis. et alia glo. quasi separamini etiam a fratre inordinate am
+            <lb ed="#N" n="106"/>bulante et ab omnibus concupiscentiis seculi.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e504">
+            ⁋ Pret. ieiunium
+            <lb ed="#N" n="107"/>mentem erigit ad superna: quia carnem subiicit spiritui et
+            deserui<lb ed="#N" n="108" break="no"/>re facit. et spiritum liberum ad opera spiritualia exercenda reddit.
+            <lb ed="#N" n="109"/>prima Corum. ix. Castigo corpus meum et in seruitutem redigo.
+            <lb ed="#N" n="110"/>Glo. seruituti subiicitur: dum non suam sed spiritus perficit voluntatem.
+            <lb ed="#N" n="111"/>propter hoc ergo dicitur opost celeste.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e517">
+            ⁋ Item ieiunium virtutem induc
+            <lb ed="#N" n="112"/>sed dispositiue. propter quod dicitur ianua regni. dotatis enim
+            vir<lb ed="#N" n="113" break="no"/>tutibus est ianua regni aperta
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e524">
+            ⁋ Item ieiunium premium
+            am<lb ed="#N" n="114" break="no"/>pliat: propter quod dicitur forma futuri. disponit enim ad
+            informa<lb ed="#N" n="115" break="no"/>tionem gratie perfecte que est gloria. quia ergo coercet a vicio carnis:
+            exi<lb ed="#N" n="116" break="no"/>git spiritum ad superna: preparat vlterius ad virtutem qua patet
+            iu<lb ed="#N" n="117" break="no"/>stis ingressus regni: premium cumulat. quatuor predicta in
+            er<lb ed="#N" n="118" break="no"/>ponuntur notificatione. et idem potest haberi a b. Greg. dicente. Qui
+            cor<lb ed="#N" n="119" break="no"/>parali ieiuino vicia comprimis: mentem eleuas: virtutem largiris et
+            <lb ed="#N" n="120"/>premia.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e543">
+            ⁋ Ad illud quod obiicitur. quod hec conueniunt orationi. Poesi
+            di<lb ed="#N" n="121" break="no"/>ci quod verum est: sed modo differenti. quia oratio sanctificat vniendo cum
+            san<lb ed="#N" n="122" break="no"/>ctosanctorum. ieiunium vero purgando carnem. Similiter oratio est ops
+            ce<lb ed="#N" n="123" break="no"/>leste immediate cum deo spiritum vniendo. ieiunium per carnis
+            depres<lb ed="#N" n="124" break="no"/>sionem spirium erigendo. vtrumque autem potest dici ianua regni. sed
+            ie<lb ed="#N" n="125" break="no"/>iunium affligendo principaliter inferiorem hominem: oratio delectando
+            <lb ed="#N" n="126"/>hominem superiorem in suo optimo. vtrumque similiter dicitur forma
+            futu<lb ed="#N" n="127" break="no"/>ri. sed ieiunium ratione afflictionis in homine inferiore: oratio autem
+            ra<lb ed="#N" n="128" break="no"/>tione quietis in summo delectabili.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e563">
+            ⁋ Ad illud quod
+            obiici<lb ed="#N" n="129" break="no"/>tur. quod abstinentia est essentialis ieiunio etc. Potest dici quod hec
+            <lb ed="#N" n="130"/>notificatio non est per essentialia data: sicut solicet dari
+            diffini<lb ed="#N" n="131" break="no"/>tio formalis: sed per quosdam effectus ipsius diffiniti. vt tactum
+            <lb ed="#N" n="132"/>est. Pret. etsi in hac diffinitione non exprimitur vocetenus
+            ab<lb ed="#N" n="133" break="no"/>stinentia aliqua: colligitur tamen in verbis predictis. vt ex dictis patet.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e576">
+            <lb ed="#N" n="134"/>⁋ Similiter potest responderi ad aliud. quia differentiis assignatis
+            insinu<lb ed="#N" n="135" break="no"/>atiue notatur afflictio ieiunii.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e583">
+            ⁋ Ad illud quod obiicitur. quod
+            diffi<lb ed="#N" n="136" break="no"/>nitio concernentis priuationem debet dari per ea que dicunt preuationem
+            <lb ed="#N" n="137"/>etc. Potest dici quod etsi hoc forte exigit ars in formali
+            diffini<lb ed="#N" n="138" break="no"/>tione: non tamen hoc exigitur in quacumque notificatione. immo sufficit quod
+            <lb ed="#N" n="139"/>illud cuius esse determinatur in quadam priuatione: notificetur per quedam
+            <lb ed="#N" n="140"/>que dicunt positionem. iuxta illud quod dicit phs. Rectum recto
+            cogno<lb ed="#N" n="141" break="no"/>scimus et obliquum similiter et potentie et hitus congnoscuntur suis
+            actibus<pb ed="#N" n="619"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>iuxta illud phosolio actus primi sunt potentiis etiam priores
+            <lb ed="#N" n="2"/>secundum rationem. similiter et habitus cognoscuntur suis actibus. Ex his
+            <lb ed="#N" n="3"/>patet responsio ad obiecta.
+          </p>
+        </div>
+        <div xml:id="v78d89-ah4dmc-Dd1e608">
+          <head xml:id="v78d89-ah4dmc-Hd1e610">Articulus 3</head>
+          <p xml:id="v78d89-ah4dmc-d1e612">
+            <lb ed="#N" n="4"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e617">
+            <lb ed="#N" n="5"/>Onsequentur queritur de illa diffinitione. Ieiunium est
+            <lb ed="#N" n="6"/>abstinentia a cibo et potu secundum formam ecclesie
+            intui<lb ed="#N" n="7" break="no"/>tu satisfaciendi vel vitandi peccatum et acquirendi vitam
+            <lb ed="#N" n="8"/>eternam.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e628">
+            ⁋ Circa hoc queritur sic. abstinentia a cibo dicit
+            preua<lb ed="#N" n="9" break="no"/>tionem: vt patet. quia abstinere a cibo quid est aliud quam non commedere. absti
+            <lb ed="#N" n="10"/>nere a potu quid est aliud quam non potare. non comedere non
+            po<lb ed="#N" n="11" break="no"/>tare puram dicunt priuationem. quod autem tale est: non est satisfacto
+            <lb ed="#N" n="12"/>rium aliquo modo pro peccato. et ita ieiunium non est pars satisfactionis.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e639">
+            <lb ed="#N" n="13"/>⁋ Pret. ieiunium institutum est ad mala cauenda. sed vitare
+            ma<lb ed="#N" n="14" break="no"/>la est virtutis prudentie: vt haberi potest ab augustinus. ergo ieiunium esset
+            <lb ed="#N" n="15"/>magis diffiniendum per prudentiam quam per abstinentiam que est
+            vir<lb ed="#N" n="16" break="no"/>tus temporantie.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e651">
+            ⁋ Pret. Bern. in quodam sermone. si sola gula
+            <lb ed="#N" n="17"/>peccauerit sola que ieiunet. Si vero peccauerunt et alia
+            mem<lb ed="#N" n="18" break="no"/>bra: quare non ieiunent et ipsa: Et ex his videtur quod ieiunium
+            <lb ed="#N" n="19"/>non debet diffiniri abstinentia cibi et potus: sed abstinentia quadam
+            <lb ed="#N" n="20"/>que omnia membra connumerat.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e662">
+            ⁋ Pret. nullum ieiunium placet
+            <lb ed="#N" n="21"/>deo siue sit satisfactorium deo: nisi id quod est in abstinentia a
+            <lb ed="#N" n="22"/>peccato. Ysa. lviii. hoc est ieiunium quod elegi. Dissolue colliga
+            <lb ed="#N" n="23"/>tiones impietatis etc. ergo ieiunium affligens hominem exteriorem
+            <lb ed="#N" n="24"/>cuiusmodi est ieiunium quod est abstinentia a cibo et potu: non est
+            <lb ed="#N" n="25"/>illud ieiunium quod elegit dominus. vnde ysa. lviii. Numquid talem est
+            ie<lb ed="#N" n="26" break="no"/>iunium quod elegi. affligere per diem hominem animam suam. q. d. nequaquam.
+            <lb ed="#N" n="27"/>Sed ieiunium quod elegit dominus est satisfactorium. et hoc diffiniendum
+            <lb ed="#N" n="28"/>ab abstinentia a peccatis. ergo ieiunium non est diffiniendum
+            abstinen<lb ed="#N" n="29" break="no"/>tia etc.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e684">
+            ⁋ Pret. si ieiunium est abstinentia huiusmodi. abstinentia autem
+            <lb ed="#N" n="30"/>talis passio est. sed passionibus neque meremur neque
+            demere<lb ed="#N" n="31" break="no"/>mur. ergo huiusmodi ieiunium non est meritorium neque demeritorium.
+            <lb ed="#N" n="32"/>ergo non est pars satisfactionis.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e693">
+            ⁋ Pret. si ieiunium est actus: aut inte
+            <lb ed="#N" n="33"/>rior aut exterior. sicut patet per simile de oratione et elemosina. Oratio
+            <lb ed="#N" n="34"/>enim interior non est satisfactio exterior neque iniungitur ab
+            ec<lb ed="#N" n="35" break="no"/>clesia vt satisfactoria. Similiter nec abstinentia interior. sed actus
+            <lb ed="#N" n="36"/>exterior solummodo est in vsu cibi vel potus. ergo quando aliquis
+            ieiu<lb ed="#N" n="37" break="no"/>nat vtitur cibo vel potu. quod est manifeste falsum.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e706">
+            ⁋ Pret. in
+            ie<lb ed="#N" n="38" break="no"/>iunio satisfactorio maxime attenditur aptitudo temporis. sed de tempore
+            <lb ed="#N" n="39"/>nulla fit hoc mentio. ergo diffinitio diminute data est.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e713">
+            ⁋ Pret.
+            si<lb ed="#N" n="40" break="no"/>vnius tantum vnum est esse. ergo vnius tantum vna diffinitio. ergo ieiunium non debet
+            <lb ed="#N" n="41"/>esse nisi vna diffinitio.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e721">
+            ⁋ Ad primum dicendum est. quod abstinentia
+            <lb ed="#N" n="42"/>cibi et potus secundum quod est de ratione ieiunii non dicit puram priua
+            <lb ed="#N" n="43"/>tionem: sed quandam dicit positionem. vt ex superius dictis patet.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e728">
+            <lb ed="#N" n="44"/>⁋ Adhuc etiam addi potest. quod ieiunare prout est actus meritorius
+            <lb ed="#N" n="45"/>vtpote satisfactionis: non determinatur circa actum abstinendi
+            in<lb ed="#N" n="46" break="no"/>quantum est simpliciter priuatio. sed potius attenditur in voluntate
+            ab<lb ed="#N" n="47" break="no"/>stinendi a cibo et potu cum abstinentia concomitante. Similiter
+            intel<lb ed="#N" n="48" break="no"/>ligi debet de ieiunio. esse enim ieiunii non est in pura preuatione:
+            <lb ed="#N" n="49"/>sed in positione potius. quam si non concomitatur priuatur. concernit
+            <lb ed="#N" n="50"/>enim voluntatem hitualem vtendi moderate cibo et potu cum
+            ab<lb ed="#N" n="51" break="no"/>stinentia a superfluis. vnde dicit potentiam cui annexa est preuatio.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e748">
+            <lb ed="#N" n="52"/>⁋ Ad aliud quod obiicitur. quod vitare mala est virtutis prudentie
+            <lb ed="#N" n="53"/>etc. Potest dici quod est prudentie tanquam decernentis et dirigentis
+            <lb ed="#N" n="54"/>aliarum virtutum tanquam exequentium. vnde solet dici quod vitare
+            ma<lb ed="#N" n="55" break="no"/>la est virtutis prudentie tamquam ostendentis viam aliarum virtutum
+            pro<lb ed="#N" n="56" break="no"/>gredientium in via.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e761">
+            ⁋ Ad aliud quod dicit Bern. Si sola
+            gu<lb ed="#N" n="57" break="no"/>la peccauit etc. Potest dici quod est multiplex ieiunium scilicet ieiunium
+            <lb ed="#N" n="58"/>abstinentie a peccato mortali. Ysa. lviii. hoc est ieiunium quod
+            ele<lb ed="#N" n="59" break="no"/>gi. dissolue colligationes impietatis. Item est ieiunium
+            absti<lb ed="#N" n="60" break="no"/>nentie a gaudio corporali et voluptate. de quo Thobie. iii. numquam
+            <lb ed="#N" n="61"/>cum ludentibus miscui me. Item est ieiunium abstinentie a cibo
+            cor<lb ed="#N" n="62" break="no"/>parali. Psaio. Genua mea infirmata sunt a ieiunio. Uerbum
+            <lb ed="#N" n="63"/>ergo Bern. intelligendum est de ieiunio primo modo sumpto vel
+            se<lb ed="#N" n="64" break="no"/>cundo: non tercio. sicut enim peccator omnia membra exponit in
+            <lb ed="#N" n="65"/>actu peccati et voluptatem assequitur in actu peccandi: sic debet
+            <lb ed="#N" n="66"/>affligere omnia membra ieiunando a peccato et a delectatione et
+            vo<lb ed="#N" n="67" break="no"/>luptate peccati. vt per que peccauit: per hec et torqueatur Sapienti. xi.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e787">
+            <lb ed="#N" n="68"/>⁋ Ad aliud quod obiicitur. quod id solum ieiunium placet et est
+            satis<lb ed="#N" n="69" break="no"/>factorium quod fit in abstinentia a peccato etc. verum est. nec tamen ex
+            <lb ed="#N" n="70"/>hoc sequitur quod debeat diffiniri per abstinentiam a peccato. quia si hoc:
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>oporteret similiter quod omnes virtutes ponerentur in eius diffinitione.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e800">
+            <lb ed="#N" n="72"/>⁋ Ad illud quod obiicitur. quod ieiunium quod affligit hominem exterius
+            <lb ed="#N" n="73"/>non elegit domina etc. Potest dici quod dominus non eligebat tale ieiunium
+            <lb ed="#N" n="74"/>non quia tale simpliciter non erat bonum nec eligibile secundum se: sed quia
+            de<lb ed="#N" n="75" break="no"/>prauabatur per maliciam operum ipsorum ieiunantium. et maxime per
+            hy<lb ed="#N" n="76" break="no"/>pocrisim eorum. vnde premittitur ibidem. Nolite ieiunare sicut vsque
+            <lb ed="#N" n="77"/>ad hanc diem: vt audiatur in excelso clamor vester. glo. pro laude
+            <lb ed="#N" n="78"/>hominum. alia glo. sine misericordia.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e819">
+            ⁋ Ad aliud quod obiicitur. quod
+            ab<lb ed="#N" n="79" break="no"/>stinentia ieiunii passio est. passionibus autem non meremur etc.
+            po<lb ed="#N" n="80" break="no"/>test dici quod quidam motus videntur esse passiones: quia illas
+            concomi<lb ed="#N" n="81" break="no"/>tantur passiones. sicut videre et timere est motus patientie. similiter
+            <lb ed="#N" n="82"/>et motus ieiunii. Motus enim qui penam habent: sicut inuidi et
+            timi<lb ed="#N" n="83" break="no"/>di et alii huiusmodi qui penam habent et passiones concomitantes esse
+            di<lb ed="#N" n="84" break="no"/>cuntur. Potest ergo dici. quod sicut patientia motum elicit meritorium:
+            qui<lb ed="#N" n="85" break="no"/>quidem motus non est pati: quia pati passio est: et passionibus non
+            me<lb ed="#N" n="86" break="no"/>remur. sed motus ille est velle siue voluntas patiendi: sicut potest
+            di<lb ed="#N" n="87" break="no"/>ci de ieiunio quod elicit motum meritorium. sed ille motus non est
+            absti<lb ed="#N" n="88" break="no"/>nere vel ieiunare: sed potius velle siue voluntas
+            abstinendi<lb ed="#N" n="89" break="no"/>vel ieiunandi cui est coniuncta passio abstinentie.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e845">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="90"/>queritur. vtrum ieiunium est actus interior inquantam ab huiusmodi
+            volun<lb ed="#N" n="91" break="no"/>tate elicitur actus sensibilis cum passione concomitante. Sensibilis
+            <lb ed="#N" n="92"/>dico: sicut tenebre dicuntur visibiles. non enim est ieiunium actus
+            exte<lb ed="#N" n="93" break="no"/>rior propter actum commedendi siue vtendi. hec tamen vera est: qui commedit
+            <lb ed="#N" n="94"/>ieiunat. quia duplex abstinentia predicatur de ieiunante commedente.
+            <lb ed="#N" n="95"/>scilicet abstinentia que respicit presns: quia abstinet a carnibus. alia que
+            <lb ed="#N" n="96"/>respicit preteritum et futurum: quia abstinuit ab actu
+            manducandi<lb ed="#N" n="97" break="no"/>vsque ad horam debitam. et abstinebit tempore sequenti. et hoc est quod in
+            <lb ed="#N" n="98"/>diffinitione insinuatur cum dicitur secundum formam ecclesie. Ex hoc patet responsio
+            <lb ed="#N" n="99"/>ad hoc quod consequenter quesitum est. quia licet voce expressa non tangatur tempus in
+            <lb ed="#N" n="100"/>diffinitione smum posita: tangitur tamen insinuatiue et implicite cum dicitur
+            <lb ed="#N" n="101"/>secundum formam ecclesie.
+          </p>
+          <p xml:id="v78d89-ah4dmc-d1e874">
+            ⁋ Ad vltimum dicendum. quod esse est quod ordinem
+            re<lb ed="#N" n="102" break="no"/>tinet seruatque naturam secundum Boe. vnde vnum et idem secundum quod diuer
+            <lb ed="#N" n="103"/>simode ad aliud refertur vel ad alia ordinatur: esse sortitur
+            di<lb ed="#N" n="104" break="no"/>uersa. Prima autem diffinitio scilicet ieiunium est persimonia etc.
+            di<lb ed="#N" n="105" break="no"/>cit esse ieiunii inquantum refertur ad essentialia ipsius. vnde illa ratio est
+            <lb ed="#N" n="106"/>quodammodo formalis. Alia scilicet ieiunium est res sancta etc. dicit
+            <lb ed="#N" n="107"/>esse ieiunii inquantum refertur ad essentialia illius relata ad
+            fi<lb ed="#N" n="108" break="no"/>nem ipsius.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

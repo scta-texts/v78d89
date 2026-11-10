@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 21, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 21, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="150"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a593sf"><!-- q21m2 -->
+        <head xml:id="v78d89-a593sf-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a593sf-Hd1e103" type="question-title">Utrum augeantur in adultis iam per fidem iustificatis</head>
+        <p xml:id="v78d89-a593sf-d1e106">
+          <lb ed="#N" n="42"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a593sf-d1e111">
+          <lb ed="#N" n="43"/>COnsequenter queritur vtrum in adultis augeam
+          <lb ed="#N" n="44"/>tur virtutes per baptismum. Et videtur quod sic.
+          <lb ed="#N" n="45"/>dicitur enim in glo. super illud pslm Pirra et gutta
+          <lb ed="#N" n="46"/>etc. Cassia in aquosis locis nascitur et crescit
+          <lb ed="#N" n="47"/>in immmensum et odorem reddit. hoc est fides qui per
+          baptis<lb ed="#N" n="48" break="no"/>mum crescit.
+        </p>
+        <p xml:id="v78d89-a593sf-d1e127">
+          ⁋ Item super illud palm. Super aquam refectionis
+          edu<lb ed="#N" n="49" break="no"/>cauit me. glo. per augmentum virtutis et bone operationis edu
+          <lb ed="#N" n="50"/>cauit me in baptismo. ergo in baptismo augetur virtus et
+          bo<lb ed="#N" n="51" break="no"/>na operatio.
+        </p>
+        <p xml:id="v78d89-a593sf-d1e137">
+          ⁋ Contra. paruulorum pena mitissima est. et ita
+          vi<lb ed="#N" n="52" break="no"/>detur esse minima: ergo et gratia que respondet est minima in
+          <lb ed="#N" n="53"/>genere gratiarum scilicet gratia baptismalis. ergo non est aucta per
+          <lb ed="#N" n="54"/>baptismum.
+        </p>
+        <p xml:id="v78d89-a593sf-d1e146">
+          ⁋ Preterea. caritas meretur augeri vt aucta
+          <lb ed="#N" n="55"/>mereatur et perfici. similiter ergo est de gratia fidei. si ergo gratia
+          <lb ed="#N" n="56"/>baptismalis non est per meritum nostum. et gratia baptismalis ex
+          <lb ed="#N" n="57"/>ratione meriti christi non est plus et minus gratia: ergo baptismalis
+          <lb ed="#N" n="58"/>virtute baptismi non augetur in adulto
+        </p>
+        <p xml:id="v78d89-a593sf-d1e157">
+          ⁋ Ad quod dicendum. quod
+          ille<lb ed="#N" n="59" break="no"/>auctoritates que inducuntur ad hoc quod gratia augeatur in
+          ba<lb ed="#N" n="60" break="no"/>ptismo. ad hoc quod faciunt quod plures sunt effectus gratie
+          ba<lb ed="#N" n="61" break="no"/>ptismalis sicut in glo. tangitur super illud. super aquam
+          refecti<lb ed="#N" n="62" break="no"/>onis etc. Primam gratiam ostendimus esse dini verbi
+          intelligenti<lb ed="#N" n="63" break="no"/>am. Secundam baptismi regenerationem. Terciam post
+          baptis<lb ed="#N" n="64" break="no"/>mi sanctificationem. et ita gratia illa dicitur augeri: cum alium et
+          ali<lb ed="#N" n="65" break="no"/>um inducit effectum. Similiter cum dicitur quod gratia fidei per baptismum in
+          <lb ed="#N" n="66"/>imensum crescit: hoc est quia gratia fidei que prius infuit adulto:
+          <lb ed="#N" n="67"/>adueniente baptismo alium habet effectum merito christi quem non
+          ha<lb ed="#N" n="68" break="no"/>bebat prius. Si vero ipsa gratia augeatur in se id est fiat maior:
+          <lb ed="#N" n="69"/>hoc accidit secundum quod homo per gratiam: meretur augmentum gra
+          <lb ed="#N" n="70"/>tie que est in ipso.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

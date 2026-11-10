@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 46, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 46, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="322"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a990ke"><!-- q46m2 -->
+        <head xml:id="v78d89-a990ke-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a990ke-Hd1e103" type="question-title">An existens in peccato mortali potest sumere corpus Christi</head>
+        <p xml:id="v78d89-a990ke-d1e106">
+          <lb ed="#N" n="123"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a990ke-d1e111">
+          <lb ed="#N" n="124"/>COnsequenter queritur. Utrum malus quicumque
+          <lb ed="#N" n="125"/>vel hereticus siue aliquo modo irretitus
+          man<lb ed="#N" n="126" break="no"/>ducat corpus christi. Et primo queritur vtrum
+          <lb ed="#N" n="127"/>vere manducat. Secundo vtrum
+          sacramen<lb ed="#N" n="128" break="no"/>taliter.
+        </p>
+        <div xml:id="v78d89-a990ke-Dd1e124">
+          <head xml:id="v78d89-a990ke-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-a990ke-d1e128">
+            <lb ed="#N" n="129"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a990ke-d1e133">
+            <lb ed="#N" n="130"/>DE primo quia aliqui ponebant quod statim quam
+            <lb ed="#N" n="131"/>do tangitur a labiis peccatoris corpus christi ab
+            <lb ed="#N" n="132"/>scedit Queritur vtrum peccator manducat. Quod sic
+            <lb ed="#N" n="133"/>videtur per hoc. quod non est magis nobilis christus in humana natura
+            <lb ed="#N" n="134"/>quam in propria. sed in propria non effugit malum hominem quia est in
+            quoli<lb ed="#N" n="135" break="no"/>babet. ergo nec in humana.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e149">
+            ⁋ Item eque effugit dominus peccatum consecrantis
+            <lb ed="#N" n="136"/>sicut manducantis: sced non subtrahit se propter peccatum consecrantis:
+            <pb ed="#N" n="323"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>eo nec propter peccatum manducantis.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e160">
+            ⁋ Contra. sapientia. i. Spiritus sanctus
+            <lb ed="#N" n="2"/>discipline effugiet fictum. sed non est magis mundus spiritus sanctus
+            <lb ed="#N" n="3"/>sued christus: ergo et christus effugit fictum siue malum.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e168">
+            ⁋ Item sapienti. i. in
+            ma<lb ed="#N" n="4" break="no"/>liuolam animam non introibit sapientia nec habitabit in
+            cor<lb ed="#N" n="5" break="no"/>pore subito peccatis. sed ergo corpus peccatoris est tale patet etc.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e175">
+            <lb ed="#N" n="6"/>⁋ Item christus secundum veritatem non est cibus ventris sed mentis vt dicunt
+            <lb ed="#N" n="7"/>sancti. sed mentem peccatoris non intrat christus: ergo nec ventrem.
+            <lb ed="#N" n="8"/>ergo nullo modo sumit.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e184">
+            ⁋ Item nihil indecens vel inordinatum
+            <lb ed="#N" n="9"/>fit a summo sapiente. sed indecens esset quod corpus tam nobile
+            <lb ed="#N" n="10"/>tam preciosum intraret locum tam vilem. ergo etc.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e191">
+            ⁋ Item si
+            pati<lb ed="#N" n="11" break="no"/>tur se christus sumi a peccatore. aut hoc est opus iusticie aute
+            <lb ed="#N" n="12"/>misericordie. Iusticie non: quia peccator non est dignus.
+            mi<lb ed="#N" n="13" break="no"/>sericordie non. quia misericordia facit quod homini est
+            sa<lb ed="#N" n="14" break="no"/>lubrius. Cum ergo omne quod deus facit sit misericordia
+            <lb ed="#N" n="15"/>et veritas: videtur quod peccator nullo modo sumit.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e204">
+            ⁋
+            Respo<lb ed="#N" n="16" break="no"/>sio. quod aliqui dicebant verum corpus christi non sumi. sicut
+            tan<lb ed="#N" n="17" break="no"/>git magister in senten. quia non decet tantam maiestatem et
+            <lb ed="#N" n="18"/>carnem tante sanctitatis et puritatis in corpus subditum
+            <lb ed="#N" n="19"/>peccatis introire et dicebant. quod corpus christi verum a
+            specie<lb ed="#N" n="20" break="no"/>bus abscederet ex quo peccator eum labiis et ore polluto
+            <lb ed="#N" n="21"/>contingeret. Sed illud sentire erroneum est et manifeste contra
+            <lb ed="#N" n="22"/>sanctos. et ideo communiter tenetur. quia in hoc non est
+            dif<lb ed="#N" n="23" break="no"/>ferentia inter iustum et iniustum. quia vterque ipsum verum
+            cor<lb ed="#N" n="24" break="no"/>pus christi sumit in sacramento. ipse enim dominus vtrisque se sibi
+            of<lb ed="#N" n="25" break="no"/>fert: sicut pro omnibus se obtulit in cruce. sed quantum ad
+            vlti<lb ed="#N" n="26" break="no"/>mum quod est in hoc sacramento scilicet vnionem in corpore mistico
+            mul<lb ed="#N" n="27" break="no"/>ta differentia est. quia boni recipiunt inde fructum: mali
+            dan<lb ed="#N" n="28" break="no"/>num. Unde concedendum quod mali sumunt rem sacramenti que est
+            <lb ed="#N" n="29"/>corpus christi verum. quod natum est de virgine: quod
+            pepen<lb ed="#N" n="30" break="no"/>dit in cruce: quod a mortuis resurrexit et est incelis.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e239">
+            ⁋ Ad
+            <lb ed="#N" n="31"/>illud quod obiicitur contra per illud. i. sapintim. Spiritus sanctus
+            effu<lb ed="#N" n="32" break="no"/>giet etc. Dicendum quod illud intelligitur quantum ad effectum
+            <lb ed="#N" n="33"/>gratie gratum facientis: non quantum ad essentiam. Ex hoc patet
+            <lb ed="#N" n="34"/>responsio. quia non introibit sapientia increata: neque
+            habi<lb ed="#N" n="35" break="no"/>tabit per effectum gratie predicte.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e253">
+            ⁋ Ad aliud quod obiicitur.
+            <lb ed="#N" n="36"/>quod est cibus mentis etc. Dicendum quod hoc non dicitur quia non
+            <lb ed="#N" n="37"/>inferatur in ventrem: sed quia venter ex illo non cibatur. Non
+            <lb ed="#N" n="38"/>enim digeritur corporaliter caro christi vt exinde alimentum ad
+            <lb ed="#N" n="39"/>membra singula distribuatur: sicut carnales discipli intel
+            <lb ed="#N" n="40"/>lexerunt.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e266">
+            ⁋ Ad illud quod obiicitur. quod indecens esset corpus
+            <lb ed="#N" n="41"/>tam nobile etc. dicendum quod etsi maiestati christi indecens videatur:
+            <lb ed="#N" n="42"/>tamen valde decens est eius humilitati ob quam in cruce
+            decen<lb ed="#N" n="43" break="no"/>tissime fuit. Preterea. vt tactum est supra. nullo modo ex hoc
+            <lb ed="#N" n="44"/>inquinatur. nec est in ipso peccatore: nisi quia est sub
+            specie<lb ed="#N" n="45" break="no"/>bus sanctissimorum simbolorum.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e279">
+            ⁋ Ad vltimum dicendum. quod est opus
+            <lb ed="#N" n="46"/>maxime dignitatis et misericordie. et ad quod obiicitur
+            <lb ed="#N" n="47"/>quod est malum recipienti: respondetur. quod sicut dei benignitas oc
+            <lb ed="#N" n="48"/>casionaliter ratione duricie peccatoris conuertitur in iram: sic
+            <lb ed="#N" n="49"/>in proposito. licet enim sit misericordia: illam tamen
+            pecca<lb ed="#N" n="50" break="no"/>tor in iram conuertit. sicut dicitur Ro. ii. ant ignoras quod
+            be<lb ed="#N" n="51" break="no"/>nignitas dei etc.
+          </p>
+        </div>
+        <div xml:id="v78d89-a990ke-Dd1e297">
+          <head xml:id="v78d89-a990ke-Hd1e299">Articulus 2</head>
+          <p xml:id="v78d89-a990ke-d1e301">
+            <lb ed="#N" n="52"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a990ke-d1e306">
+            <lb ed="#N" n="53"/>COnsequenter queritur vtrum malus quicumque
+            su<lb ed="#N" n="54" break="no"/>mens corpus christi manducat illud sacramenta
+            <lb ed="#N" n="55"/>liter. Quod sic: videtur. i. corum. xi. dicens duos esse
+            mo<lb ed="#N" n="56" break="no"/>dens manducandi. vnum sacramentalem quo manducant tam
+            boni<lb ed="#N" n="57" break="no"/>quoad mali: alterum spiritualem quo soli boni manducant. hic ergo
+            <lb ed="#N" n="58"/>patet quod in hoc est differentia inter modos manducandi. quod
+            bo<lb ed="#N" n="59" break="no"/>ni manducant spiritualiter: mali sacramentaliter: sed nullus
+            <lb ed="#N" n="60"/>bonus seclusus est a manducatione spirituali: igitur vt videtur
+            <lb ed="#N" n="61"/>nullus malus secluditur a manducatione sacramentali.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e328">
+            <lb ed="#N" n="62"/>⁋ Item nulla malicia impedit quin suscipiens baptismum
+            <lb ed="#N" n="63"/>secundum intentionem ecclesie: suscipiat aliquo modo rem. ita quod non
+            <lb ed="#N" n="64"/>solum ablutionem exteriorem. quia quantumcumque sit malus
+            si<lb ed="#N" n="65" break="no"/>secundum intentionem ecclesie suscipiat baptismum: suscipiat
+            cara<lb ed="#N" n="66" break="no"/>cterem baptismalem. A simili videtur in proposito. quod quantumcumque
+            <lb ed="#N" n="67"/>sit malus. aliquo modo sumit huiusmodi sacramenti rem.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e344">
+            ⁋ Item
+            <lb ed="#N" n="68"/>cibus naturalis siue corporalis nature est proprie non persone. a
+            <lb ed="#N" n="69"/>simili videtur quod cibus spiritualis nature sit proprie non
+            per<lb ed="#N" n="70" break="no"/>sone. igitur cum quantuncumque sit aliquis malus. si suam natu
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>ram habeat: habet illud cuius proprie est cibus spiritualis. igitur
+            <lb ed="#N" n="72"/>quantumcumque sit homo malus: eius est suscipere et suscipit
+            si<lb ed="#N" n="73" break="no"/>apponatur cibum istum et vt cibus est: et ita spiritualiter
+            <lb ed="#N" n="74"/>vel sacramentaliter.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e365">
+            ⁋ Item hoc sacramentum est sacramentum
+            <lb ed="#N" n="75"/>vnionis. igitur proprie est eius quod est maxime vnibile. sed
+            na<lb ed="#N" n="76" break="no"/>ture proprius est vnio et natura magis est vnibilis quam persona:
+            <lb ed="#N" n="77"/>igitur proprie est cibus iste cibus nature: et ita vt prius.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e374">
+            ⁋
+            Con<lb ed="#N" n="78" break="no"/>tra. fides est sacramentum omnium sacramentorum. et maxime huius
+            <lb ed="#N" n="79"/>hoc enim sacramentum maxime requirit vnitatem fidei et etiam
+            <lb ed="#N" n="80"/>actum. igitur hoc sacramentum non sumitur nisi ab
+            habenti<lb ed="#N" n="81" break="no"/>fidem aliquo modo: igitur non ab omni sumitur: sed oportet
+            <lb ed="#N" n="82"/>quod fidem habeat aliquo modo qui sumit.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e387">
+            ⁋ Item aliquis
+            ha<lb ed="#N" n="83" break="no"/>bet fidem formatam. aliquis informen. aliquis neutram.
+            <lb ed="#N" n="84"/>sed magis accedit manducationem habens fidem formatam
+            <lb ed="#N" n="85"/>quam informen. Unde secundum quod homo magis et melius est preditus
+            fi<lb ed="#N" n="86" break="no"/>de: magis accedit ad manducationem. igitur qui nullo
+            mo<lb ed="#N" n="87" break="no"/>do habet fidem: nullo modo manducat. A simili. si album disgre
+            <lb ed="#N" n="88"/>gat et magis album magis: et minus album minus: et quantum
+            <lb ed="#N" n="89"/>accedit ad terminum albedinis magis: igitur nullo modo album
+            <lb ed="#N" n="90"/>non disgregat
+          </p>
+          <p xml:id="v78d89-a990ke-d1e407">
+            ⁋ Responsio. vt tactum est: ad manducationem
+            con<lb ed="#N" n="91" break="no"/>pletam requiritur triplex vnio scilicet per naturam. cognitionem et per
+            <lb ed="#N" n="92"/>caritatem. Umo per naturam reddit hominem aptum ad
+            manduca<lb ed="#N" n="93" break="no"/>tionem. Unio per amorem complet illam aptitudinem quantum ad
+            spiritua<lb ed="#N" n="94" break="no"/>lem manducationem. Unio per cognitionem quantum ad
+            sacramen<lb ed="#N" n="95" break="no"/>talem. Propter quod dicendum. quod sicut non habens
+            carita<lb ed="#N" n="96" break="no"/>tem nullo modo manducat spiritualiter: nec aliquo modo
+            <lb ed="#N" n="97"/>habens cognitionem scilicet fidei sacramentaliter. propter quod
+            <lb ed="#N" n="98"/>non quelibet malicia aufert peccatum manducandi
+            sacramen<lb ed="#N" n="99" break="no"/>taliter: sed illa que est defectus fidei. Et dico defectum
+            fi<lb ed="#N" n="100" break="no"/>dei. qui est ex carentia fidei formate et informis. Quia igitur
+            <lb ed="#N" n="101"/>omnes boni caritatem habent: non omnes mali carent
+            peni<lb ed="#N" n="102" break="no"/>tus fide. propter hoc non sequitur. et si omnes boni manducant
+            <lb ed="#N" n="103"/>spiritualiter: quod omnes mali sacramentaliter manducant
+          </p>
+          <p xml:id="v78d89-a990ke-d1e438">
+            <lb ed="#N" n="104"/>⁋ Ad id quod obiicitur per simile de sacramento
+            baptis<lb ed="#N" n="105" break="no"/>mi et isto modo dicendum. quod non est simile quantum ad hoc
+            circa<lb ed="#N" n="106" break="no"/>que assignatur similitudo. quia vere forma prescripta ver
+            <lb ed="#N" n="107"/>borum sacramenti baptismatis exprimitur circa illum qui
+            <lb ed="#N" n="108"/>baptizatur. Dicitur enim baptizo etc. verba semper habent
+            <lb ed="#N" n="109"/>effectum circa illum qui baptizatur si proferantur secundum
+            inten<lb ed="#N" n="110" break="no"/>tionem ecclesie. Sed forma prescripta sacramenti huius non
+            <lb ed="#N" n="111"/>debet exprimi nec exprimitur circa illum qui debet
+            man<lb ed="#N" n="112" break="no"/>ducare: sed circa illud quod est consecrandum: non est
+            si<lb ed="#N" n="113" break="no"/>mile de hoc sacramento et baptismi quantum ad efficaciam
+            <lb ed="#N" n="114"/>rei alicuius in suscipente baptismum et suscipiente
+            sacra<lb ed="#N" n="115" break="no"/>mentum istud. Preterea. maior est data virtus
+            sacramen<lb ed="#N" n="116" break="no"/>to baptismi quam huic. ratione qua est fundamentum et
+            ia<lb ed="#N" n="117" break="no"/>nua sacramentorum et sacramentum necessitatis.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e471">
+            ⁋ Ad
+            <lb ed="#N" n="118"/>illud quod obiicitur. quod cibus naturalis est cibus nature
+            <lb ed="#N" n="119"/>etc. Dicendum quod contrario modo se habet cibus naturalis
+            <lb ed="#N" n="120"/>et spiritualis. inquantum referuntur ad ea que cibantur isto
+            <lb ed="#N" n="121"/>duplici cibo. quia cibus naturalis est ipsius nature. vt tamen
+            <lb ed="#N" n="122"/>natura est in ypostasi. cibus spiritualis est ipsius persone vt
+            <lb ed="#N" n="123"/>tamen persona est talis nature quod cibus spiritualis est nutrimentu
+            <lb ed="#N" n="124"/>membrorum corporis christi. que quidem membra persone
+            <lb ed="#N" n="125"/>sunt.
+          </p>
+          <p xml:id="v78d89-a990ke-d1e492">
+            ⁋ Ad illud quod obiicitur quod nature proprius est vnio
+            <lb ed="#N" n="126"/>etc. Dicendum quod est vnio creature rationalis cum deo per
+            <lb ed="#N" n="127"/>gratiam inhabitantem. et quantum ad hanc vnionem
+            ma<lb ed="#N" n="128" break="no"/>gis est vnibile persona quam natura. quia illa est
+            membro<lb ed="#N" n="129" break="no"/>rum que persone sunt. et alia est que est per gratiam
+            vni<lb ed="#N" n="130" break="no"/>onis: et quantum ad hanc magis est vnibilis natura. et ratio
+            <lb ed="#N" n="131"/>huius est. quia in illa vnione natura rationalis non
+            ha<lb ed="#N" n="132" break="no"/>bet proprietatem persone sed solummodo diuina.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

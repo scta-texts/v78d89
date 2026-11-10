@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 51, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 51, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="341"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aahf12"><!-- q51m3 -->
+        <head xml:id="v78d89-aahf12-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-aahf12-Hd1e103" type="question-title">Utrum magis digne expedit accedere frequenter ad sacram communionem: quam semper vel quasi semper cessa re ob reverentiam sacramenti reputatione suae indignitatis</head>
+        <p xml:id="v78d89-aahf12-d1e106">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-aahf12-d1e113">
+          <lb ed="#N" n="71"/>COnsequenter queritur. vtrum magis digne
+          <lb ed="#N" n="72"/>expedit accedere frequenter ad sacram
+          com<lb ed="#N" n="73" break="no"/>munionem: quam semper vel quasi semper cessa
+          <lb ed="#N" n="74"/>re ob reuerentiam sacramenti reputatione
+          <lb ed="#N" n="75"/>sue indignitatis. et loquitur de eadem persona. Quod
+          frequen<lb ed="#N" n="76" break="no"/>ter accedere patet. quia ex frequenti accessu multiplex
+          pro<lb ed="#N" n="77" break="no"/>uenit commodum et accedenti et aliis membris christi. ex
+          ces<lb ed="#N" n="78" break="no"/>satione a bono opere nullum prouenit commodum.
+        </p>
+        <p xml:id="v78d89-aahf12-d1e133">
+          ⁋ Si
+          di<lb ed="#N" n="79" break="no"/>ceretur quod licet nullum commodum proueniat ex cessatione sim
+          <lb ed="#N" n="80"/>pliciter: prouenit tamen ex reuerentia propter quam cessat et reputa
+          <lb ed="#N" n="81"/>tione sue indignitatis CContra. reuerentia domini est a virtute
+          <lb ed="#N" n="82"/>fidei siue iusticie reputatione sue indignitatis ex humilita
+          <lb ed="#N" n="83"/>te. constat quod istis inquantum sunt actus virtutum meretur. sed cessare
+          <lb ed="#N" n="84"/>a communione vel consecratione nullius virtutis est actus: igitur
+          <lb ed="#N" n="85"/>ex ipso cessare nullus est fructus cessanti.
+        </p>
+        <p xml:id="v78d89-aahf12-d1e152">
+          ⁋ Item si aliquis talis
+          <lb ed="#N" n="86"/>conscientie reueretur sacramentum istud non contingendo
+          <lb ed="#N" n="87"/>illud neque conficiendo neque communicando. multo fortius
+          affice<lb ed="#N" n="88" break="no"/>retur maiori reuerentia si illud contingeret sic vel sic. Si enim
+          <lb ed="#N" n="89"/>aliquis reueretur absentiam regis. quomo non magis reueretur
+          <lb ed="#N" n="90"/>eius presentiam. et propter hoc assequitur affectus ipsius
+          sacramen<lb ed="#N" n="91" break="no"/>ti quos non assequitur cessando. igitur simpliciter melius est
+          <lb ed="#N" n="92"/>accedere quam cessare.
+        </p>
+        <p xml:id="v78d89-aahf12-d1e170">
+          ⁋ Contra. non acceditur ad deum
+          corpora<lb ed="#N" n="93" break="no"/>liter sed affectibus. sed per quod affectus maxime
+          appropin<lb ed="#N" n="94" break="no"/>quat deo est humilitas: ergo si ille qui magis appropinquat
+          ma<lb ed="#N" n="95" break="no"/>iorem percipit effectum: ergo qui magis humiliatur. sed maior est
+          <lb ed="#N" n="96"/>humilitas dico quantum ad motum que omnino impedit. ergo etc.
+        </p>
+        <p xml:id="v78d89-aahf12-d1e181">
+          <lb ed="#N" n="97"/>⁋ Item intentio ordinata in processu operis boni duo
+          atten<lb ed="#N" n="98" break="no"/>dit. scilicet proprium commodum et gloriam dei. et magis gloriam
+          <lb ed="#N" n="99"/>dei quam proprium commodum. Qui autem accedit intendit
+          commo<lb ed="#N" n="100" break="no"/>dum proprium. qui non accedit maxime attendit gloriam dei.
+          <lb ed="#N" n="101"/>Quia qui accedit considerat efficaciam sacramenti. Qui
+          <lb ed="#N" n="102"/>non accedit gloriam dei et reuerentiam maiestatis eius. Sed qui
+          <lb ed="#N" n="103"/>gloriam dei considerat et querit magis appropinquat deo.
+          <lb ed="#N" n="104"/>quam qui proprium commodum. igitur qui non accedit etc.
+          Re<lb ed="#N" n="105" break="no"/>sponsio. quod per se loquendo magis expedit alicui digne
+          acce<lb ed="#N" n="106" break="no"/>dere quam expediat eidem cessare. rationibus pretactis. Quia quod
+          <lb ed="#N" n="107"/>digne accedit assequitur effectus sacramenti: non autem qui
+          ces<lb ed="#N" n="108" break="no"/>sat. occasionaliter tamen magis expedit cessare ad tempus quam
+          <lb ed="#N" n="109"/>frequenter accedere. et hoc est. quia aliquando contingit quod cessatio
+          <lb ed="#N" n="110"/>est causa deuotionis maioris et reuerentie et ita. quia motus
+          <lb ed="#N" n="111"/>reuerentie et deuotionis preparant ad suscipiendum effectus sacra
+          <lb ed="#N" n="112"/>menti: maiorem habet effectum virtus sacramenti quam ratione
+          cessa<lb ed="#N" n="113" break="no"/>tionis eo quod cessatio est causa vel occasio preparationis
+          ma<lb ed="#N" n="114" break="no"/>ioris. Dico igitur sine preiudicio. quod simpliciter vir sanctus
+          <lb ed="#N" n="115"/>in accedendo frequenter magis proficit quam in cessando quasi
+          <lb ed="#N" n="116"/>semper. Et ratio multiplex est. Prima et potissima assecutio
+          <lb ed="#N" n="117"/>effectuum sacramenti. Alia diligens preparatio accedentis.
+          <lb ed="#N" n="118"/>quia quantumcunque sit perfectus quando intendit accedere
+          pre<lb ed="#N" n="119" break="no"/>parat se vt digne accedat prout sustinet humana infirmitas
+          <lb ed="#N" n="120"/>Alia est confidentia diuine bonitatis quod multum
+          acce<lb ed="#N" n="121" break="no"/>ptat dominus. vnde frequenter timentes hortatur ad
+          confidenti<lb ed="#N" n="122" break="no"/>am dicens. Confide Math. ix. Unde estimo quod quando aliquis
+          con<lb ed="#N" n="123" break="no"/>siderat magnitudinem sacramenti huius et ex hac consideratio
+          <lb ed="#N" n="124"/>ne mouetur motu reuerentie et timoris vnde cessat: quandoque
+          ha<lb ed="#N" n="125" break="no"/>bita eadem consideratione confidens de diuina bonitate et
+          <lb ed="#N" n="126"/>misericordia preparatus accedit: quod meretur tantum hac
+          con<lb ed="#N" n="127" break="no"/>fidentia et preparatione: quantum illa reuerentia et timore.
+        </p>
+        <p xml:id="v78d89-aahf12-d1e251">
+          <lb ed="#N" n="128"/>⁋ Ad illud quod obiicitur. quod humilitas id est motus
+          humilita<lb ed="#N" n="129" break="no"/>tis est quo maxime affectus appropinquat deo. Dicendum quod
+          <lb ed="#N" n="130"/>etsi motus humilitatis in isto valde disponit eum ad hoc
+          <lb ed="#N" n="131"/>quod appropinquat deo nihilominus disponit eundem
+          prepa<lb ed="#N" n="132" break="no"/>ratio precedens accessum cum his que tacta sunt.
+        </p>
+        <p xml:id="v78d89-aahf12-d1e264">
+          ⁋ Ad
+          <lb ed="#N" n="133"/>aliud quod obiicitur. dicendum quod accedens non solum intendit
+          <lb ed="#N" n="134"/>commodum proprium sed commodum proximorum. Pre. non intendit
+          so<lb ed="#N" n="135" break="no"/>lum commodum sed representare illam summam caritatem qua
+          pro<lb ed="#N" n="136" break="no"/>pter nos dominus passus est in cruce. Pre. representat illam sum
+          <lb ed="#N" n="137"/>mam potentiam qua christus deus et homo sub tantilla
+          spe<lb ed="#N" n="138" break="no"/>cie continetur. Item congruentiam diuine sapientie. qua
+          ex<pb ed="#N" n="342"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>primitur. quod vnde oriebatur mors: inde vita resurgeret.
+          Un<lb ed="#N" n="2" break="no"/>de Inno. Panem angelorum manducauit homo. quatenus vnde
+          <lb ed="#N" n="3"/>mors oriebatur inde vita resurgeret. dictum est quippe de illo
+          <lb ed="#N" n="4"/>quacumque die comederis morte morieris Gen. ii. dicitur autem
+          <lb ed="#N" n="5"/>de isto. Si quis manducauerit ex hoc pane viuet
+          ineter<lb ed="#N" n="6" break="no"/>num Ioh. vi. hec Inno. Unde ista valde redundant in
+          glo<lb ed="#N" n="7" break="no"/>riam diuinam magis quam ea que possunt notari ex cessatione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 63, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 63, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="411"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ac8fuq"><!-- q63m3 -->
+        <head xml:id="v78d89-ac8fuq-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ac8fuq-Hd1e103" type="question-title">Utrum totiens possit homo poenitere id est locum invenire poenitentiae: quotiens contingit illum peccare</head>
+        <p xml:id="v78d89-ac8fuq-d1e106">
+          <lb ed="#N" n="14"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e111">
+          <lb ed="#N" n="15"/>COnsequenter queritur vtrum totiens possit homo
+          pe<lb ed="#N" n="16" break="no"/>nitere id est locum inuenire penitentie: quotiens
+          contin<lb ed="#N" n="17" break="no"/>git illum peccare. Et videtur quod sic. quia misericordia
+          di<lb ed="#N" n="18" break="no"/>in infinitum maior est quam misericordia perfectissimi
+          ho<lb ed="#N" n="19" break="no"/>minis. Probatio Ecclesastici. ii. Secundum magnitudinem eius. sic et
+          mi<lb ed="#N" n="20" break="no"/>sericordia eius cum ipso est. sed magnitudo eius est infinita.
+          <lb ed="#N" n="21"/>psalmus. magnitudinis eius non est finis: igitur misericordia dei
+          infini<lb ed="#N" n="22" break="no"/>ta. sed hominis quantumlibet finita: igitur misericordia dei excedit
+          mi<lb ed="#N" n="23" break="no"/>sericordiam hominis quantumcumque in infinitum. Sed misericordia
+          <lb ed="#N" n="24"/>hominis est remittere delinquenti septuagies septies
+          Ma<lb ed="#N" n="25" break="no"/>thei. xviii. igitur misericordia dei remittit infinities.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e137">
+          ⁋ Item
+          <lb ed="#N" n="26"/>Ezech. xxxiii. Impietas impii non nocebit ei. in quacunque
+          <lb ed="#N" n="27"/>die conuersus fuerit ab impietate sua. Ecce quod quotiens
+          pe<lb ed="#N" n="28" break="no"/>nitens penitet: totiens reperit indulgentiam.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e147">
+          ⁋ Item
+          domi<lb ed="#N" n="29" break="no"/>nus ihs super ceteros homines et secundum naturam misericors
+          <lb ed="#N" n="30"/>est. quippe filius patris misericordiarum. de quo. i. Corin.
+          <lb ed="#N" n="31"/>s. Benedictus deus et pater domini nostri ihu christi pater
+          miseri<lb ed="#N" n="32" break="no"/>cordiarum. Et bene pluraliter pater misericordiarum: quia
+          <lb ed="#N" n="33"/>non tantum remittit in prima misericordia. sed in secunda et
+          dein<lb ed="#N" n="34" break="no"/>ceps.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e163">
+          ⁋ Item augus. in lib. de penitentia obiicit sic.
+          Uide<lb ed="#N" n="35" break="no"/>mus quotidie in ecclesia sepe febricitantes. sepe languidos
+          <lb ed="#N" n="36"/>sepe passionibus captos sepe liberari. vt appareat totiens
+          <lb ed="#N" n="37"/>opus miserantis. quotiens confessio fit penitentis.
+          quomo<lb ed="#N" n="38" break="no"/>do enim corpus quod vilius est ab ipso dissimilius sepe sanaret:
+          <lb ed="#N" n="39"/>et animam digniorem et redemptam non totiens liberaret.
+          <lb ed="#N" n="40"/>medicum se vocat et non sanis sed male habentis
+          opportu<lb ed="#N" n="41" break="no"/>num. sed qualis hic medicus qui malum iteratum nesciret
+          <lb ed="#N" n="42"/>curare. Medicorum enim est cencies infirmum curare
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e183">
+          ⁋
+          Con<lb ed="#N" n="43" break="no"/>tra. proniores sumus ad malum quam ad bonum. ergo proniores
+          <lb ed="#N" n="44"/>ad peccandum ex presumptione misericordie si semper sit iterabi
+          <lb ed="#N" n="45"/>lis: quam cautelam offense. ergo videtur quod dominus si aliquotiens
+          <lb ed="#N" n="46"/>indulgeat aliquibus quos scit sibi cauere a peccato: quod
+          mul<lb ed="#N" n="47" break="no"/>tofortius debeat eis viam penitentie denegare quos scit ex
+          <lb ed="#N" n="48"/>presumptione misericordie peccaturos.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e199">
+          ⁋ Item nonne sic dominus
+          <lb ed="#N" n="49"/>prestaret eis fiduciam peccandi et incitaret eos ad peccandum
+          <lb ed="#N" n="50"/>sicut ponebant aliqui.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e206">
+          ⁋ Item Ambro. in libro. de vnica
+          peni<lb ed="#N" n="51" break="no"/>tentia. preteriti semper nos penitere debet peccati. sed hoc delictorum
+          <lb ed="#N" n="52"/>leuiorum. Ex hoc videtur quod non sit frequens penitentia
+          in<lb ed="#N" n="53" break="no"/>oulta grauium peccatorum. Et ita quod non quotiens peccat quis
+          <lb ed="#N" n="54"/>committendo grauia: totiens etc. hoc etiam habetur per hoc quod
+          <lb ed="#N" n="55"/>dicitur ibidem. Reperiuntur qui sepius penitentiam agendam
+          <lb ed="#N" n="56"/>putant. qui luxuriantur in christo. Nam si vere penitentiam in
+          <lb ed="#N" n="57"/>christo agerent: iterandam postea non putarent.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e224">
+          ⁋ Item quidam
+          <lb ed="#N" n="58"/>arguebant vt refert augustinus libo de penitentia. per simile ex factis
+          <lb ed="#N" n="59"/>domini sic. quem bis illuminauit. quem leprosum bis
+          munda<lb ed="#N" n="60" break="no"/>uit. quem mortuum bis suscitauit: non lazarum quem dilexit
+          <lb ed="#N" n="61"/>non filium vidue quem misertus matri reddidit: non filium
+          <lb ed="#N" n="62"/>dissipatorem legitur bis suscepisse. non filiam abrahe bis
+          <lb ed="#N" n="63"/>a demonio liberasse. in nulla persona iterauit factum:
+          do<lb ed="#N" n="64" break="no"/>cens (vt aiunt) non sepe a domino fieri remedium.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e243">
+          ⁋ Item
+          <lb ed="#N" n="65"/>adminus videtur quod sit determinatum vlque ad quotiens
+          pec<lb ed="#N" n="66" break="no"/>canti debeat indulgeri. primo quia dicitur. ii. amos. Super
+          <lb ed="#N" n="67"/>tribus sceleribus et super quatuor non conuertam eum. Item
+          Ma<lb ed="#N" n="68" break="no"/>thei. xviii. Non vsque septies etc. In vtraque auctoritate
+          osten<lb ed="#N" n="69" break="no"/>ditur numerus finitus: ergo videtur quod determinatus sit
+          nu<lb ed="#N" n="70" break="no"/>merus vltra quem non est penitentiam inuenire.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e259">
+          ⁋ Item
+          He<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>bre. xii. Non inuenit penitentie locum: quamquam cum lacrimis inqui
+          <lb ed="#N" n="72"/>sisset eam.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e267">
+          ⁋ Responsio. quod quotiens peccatur totiens via
+          peniten<lb ed="#N" n="73" break="no"/>di conceditur scilicet in hac vita. huius autem ratio est infinitas mise
+          <lb ed="#N" n="74"/>ricordie ex parte dei: et possibilitas ad conuersionem ex parte
+          ani<lb ed="#N" n="75" break="no"/>me quamdiu est in via. decreuit enim altitudo consilii diuie
+          pie<lb ed="#N" n="76" break="no"/>tatis vt homini viatori numquam retraheret manum misericordie
+          <lb ed="#N" n="77"/>sue. natura similiter anime quamdiu est in corpore animali
+          nun<lb ed="#N" n="78" break="no"/>quam totaliter frangitur in peccato quamuis tota. Unde semper
+          reti<lb ed="#N" n="79" break="no"/>net sibi aliquid de possibilitate ad conuersionem ad deum et
+          <lb ed="#N" n="80"/>susceptionem gratie. et ideo quotiens peccauerit inuenire
+          po<lb ed="#N" n="81" break="no"/>test locum penitentie. hoc autem probleuma determinatum est
+          <lb ed="#N" n="82"/>ab augus. libo de penitentia dicente sic. Instant perfidi qui
+          sa<lb ed="#N" n="83" break="no"/>piunt plus quam oporteat. non sobrii: sed excedentes
+          mensuram<lb ed="#N" n="84" break="no"/>dicunt enim et si semel penitentibus post baptismum valeat
+          <lb ed="#N" n="85"/>penitentia: non tamen sepe peccantibus proderit iterata:
+          <lb ed="#N" n="86"/>alioquin ad peccatum esset incitatio. Dicunt enim quis non
+          <lb ed="#N" n="87"/>semper peccaret si redire semper posset. dicunt enim dominum
+          <lb ed="#N" n="88"/>incitatorem mali si semper penitentibus subuenit. et etiam
+          <lb ed="#N" n="89"/>ei placere peccata quibus semper presto est gratia. Errant
+          <lb ed="#N" n="90"/>autem. immo constat multum ei peccata displicere: qui
+          sem<lb ed="#N" n="91" break="no"/>per presto est ea destruere. Si enim ea amaret. non semper
+          <lb ed="#N" n="92"/>ea destrueret: sed conseruaret atque inter sua munera
+          foue<lb ed="#N" n="93" break="no"/>ret. Sed semper destruit peccata que inuenit. ne soluatur
+          <lb ed="#N" n="94"/>quod creauit: ne corrumpatur quod amauit.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e317">
+          ⁋ Ad illud
+          er<lb ed="#N" n="95" break="no"/>go quod primo obiicitur. quod licet malicia nostra exigente
+          ab<lb ed="#N" n="96" break="no"/>utamur bonitate diuina: non propter hoc decet illam que
+          sun<lb ed="#N" n="97" break="no"/>ma est non se diffundere sicut decet.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e326">
+          ⁋ Ad aliud quod
+          se<lb ed="#N" n="98" break="no"/>quitur. potest dici quod si indulgentia frequens facta a
+          domi<lb ed="#N" n="99" break="no"/>no aliquibus prestat occasionem peccandi: nihilominus in
+          <lb ed="#N" n="100"/>hoc prouidet diuina sapientia saluti hominis. multi enim
+          <lb ed="#N" n="101"/>de sperarent et efficerentur infideles credendo deum multos
+          <lb ed="#N" n="102"/>fecisse ad damnationem: si aliquando negaretur homini via
+          <lb ed="#N" n="103"/>penitentie. et alia multa acciderent in conuenientia. Nec ex
+          <lb ed="#N" n="104"/>hac indulgentia excitat dominus ad peccandum: licet
+          mali<lb ed="#N" n="105" break="no"/>cia hominis quandoque incitetur ex hoc. Nec dominus fiduciam
+          <lb ed="#N" n="106"/>prestat: licet mali ex hoc illam accipiant. vnde oculi eorum
+          <lb ed="#N" n="107"/>sunt nequam quia dominus bonus est Math. xx.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e350">
+          ⁋ Ad illud
+          <lb ed="#N" n="108"/>Ambro. preteriti nos penitere debet etc. dicendum quod non est
+          <lb ed="#N" n="109"/>intentio Ambro. quod negetur beneficium penitentie alicui
+          quo<lb ed="#N" n="110" break="no"/>tienscumque peccauerit: sed potius hortari vt caueat
+          vnusquis<lb ed="#N" n="111" break="no"/>que a mortali peccato: et quod frequenter peniteat de venialibus
+          <lb ed="#N" n="112"/>a quibus non potest sibi cauere.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e364">
+          ⁋ Ad illud quod obiicitur. quod
+          <lb ed="#N" n="113"/>si vere penitentiam agerent iterandam non putarent. Dicendum
+          <lb ed="#N" n="114"/>quod Ambro. reprehendit illos qui ex presumptione iterandi
+          pe<lb ed="#N" n="115" break="no"/>nitentiam frequenter recidiuant. vt ex verbis suis patet. volens
+          <lb ed="#N" n="116"/>ostendere quod non vere penitent. quia si vere peniterent: non ex
+          <lb ed="#N" n="117"/>putatione illa qua putant se iterare penitentiam peccarent.
+          <lb ed="#N" n="118"/>Unde per hoc quod dicitur non putarent penitentiam iterandam. non
+          <lb ed="#N" n="119"/>intendit quin debeant putare. vel quod non iteranda est
+          peni<lb ed="#N" n="120" break="no"/>tentia si recidiuent: sed quod non debeant ex hac putatione ite
+          <lb ed="#N" n="121"/>rato peccare. Uel potest dici. quod auctoritates Ambro. intel
+          <lb ed="#N" n="122"/>ligende sunt de penitentia solenni sicut habetur dis. l. Si
+          <lb ed="#N" n="123"/>quis. sa. potest et aliter.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e390">
+          ⁋ Ad illud quod obiectum est per
+          simi<lb ed="#N" n="124" break="no"/>le ex factis domini. Dicendum quod taliter opponentibus respondet
+          <lb ed="#N" n="125"/>augustinus ibidem sic. Uidemus quotidie in ecclesia sepe
+          febricitan<lb ed="#N" n="126" break="no"/>tes etc. vt dictum est in opponendo: et sic eorum errorem refellit
+          <lb ed="#N" n="127"/>augu. menifesta veritate.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e401">
+          ⁋ Ad illud quod obiicitur. quod
+          ille<lb ed="#N" n="128" break="no"/>quaternarius et trinarius non dicunt numerum perfectorum
+          sin<lb ed="#N" n="129" break="no"/>gulariter sed generaliter. vnde tercium vel quartum
+          pecca<lb ed="#N" n="130" break="no"/>tum potest dici impotentia finalis. et sic intelligendum est
+          <lb ed="#N" n="131"/>illud quod Hiero. in prologo super illud Amos. ii. super
+          tri<lb ed="#N" n="132" break="no"/>bus iniquitatibus et super quatuor non conuertam eum.
+          Ter<lb ed="#N" n="133" break="no"/>cio indulgentiam peccatorum deum dare posse significat: quem
+          <lb ed="#N" n="134"/>quarto eadem peccata admittentibus nec penitentiam nec
+          in<lb ed="#N" n="135" break="no"/>dulgentiam daturum nunciat. Unde glo. super illud idem primum
+          <lb ed="#N" n="136"/>peccatum est mala cogitare. secundum consentire. tercium opere
+          <lb ed="#N" n="137"/>ad implere. quartum non penitere finaliter supple. Qui in
+          <lb ed="#N" n="138"/>tribus prioribus peccat si penitet: conuertit ad eum drus
+          vul<lb ed="#N" n="139" break="no"/>tum clementie sue. si vero non penitet: auertitur ab eo vultus
+          <lb ed="#N" n="140"/>clementie. vel potest dici quod loquitur ibi de conuersione quantum ad
+          <lb ed="#N" n="141"/>reuocationem pene temporalis. Quantum enim ad illam aliquando non
+          <pb ed="#N" n="412"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>inuenit locum penitentie. eo quod non expedit vel ipsis qui penitent
+          <lb ed="#N" n="2"/>vel etiam aliis qui exemplo eorum corriguntur. Unde post verba
+          <lb ed="#N" n="3"/>illa Hiero. in prologo sequitur. Nam per ignis similitudinem
+          <lb ed="#N" n="4"/>quem in predictas gentes immittendum prenixit: grauem ac
+          irreuoca<lb ed="#N" n="5" break="no"/>bilem dei iram ad euersionem earundem ciuitatum processuram
+          <lb ed="#N" n="6"/>voluit demonstrare.
+        </p>
+        <p xml:id="v78d89-ac8fuq-d1e451">
+          ⁋ Ad aliam auctoritatem patet responsio
+          <lb ed="#N" n="7"/>ex glo. super illud Math. xviii. Septuagies septies que est
+          <lb ed="#N" n="8"/>cccciist et. xc. vicibus id est totiens in die quotiens ille peccare non
+          <lb ed="#N" n="9"/>potest. Et ita ex hac auctoritate non habetur quod determinatum
+          <lb ed="#N" n="10"/>sit quot vicibus debeat fieri indulgentia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

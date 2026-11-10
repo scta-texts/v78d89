@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 14, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 14, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="115"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3tdy8"><!-- q14m2 -->
+        <head xml:id="v78d89-a3tdy8-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a3tdy8-Hd1e103" type="question-title">Utrum a passione vel a resurrectione vel ab utroque</head>
+        <p xml:id="v78d89-a3tdy8-d1e106">
+          <lb ed="#N" n="87"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-a3tdy8-d1e111">
+          <lb ed="#N" n="88"/>DEinde queritur vtrum baptismus habeat effectum
+          <lb ed="#N" n="89"/>siue virtutem efficiendi a passione vel etiam a
+          re<lb ed="#N" n="90" break="no"/>surrectione: et videtur quod ab vtroque. quia vtrumque
+          repre<lb ed="#N" n="91" break="no"/>sentatur in actu baptizandi. In immersione enim in
+          <lb ed="#N" n="92"/>aqua mors siue passio: in eleuatione resurrectio. ergo cum vtrumque
+          <lb ed="#N" n="93"/>representatur ab vtroque habet virtutem.
+        </p>
+        <p xml:id="v78d89-a3tdy8-d1e127">
+          ⁋ Item leo papa. dominus
+          <lb ed="#N" n="94"/>ihs christus formam ante potuit instituere nisi proprie intelligi vel
+          <lb ed="#N" n="95"/>let quod regenerationis sacramentum ex sua resurrectione gratiam
+          re<lb ed="#N" n="96" break="no"/>ciperet.
+        </p>
+        <p xml:id="v78d89-a3tdy8-d1e137">
+          ⁋ Item. i. Corin. xv. super illud. Qui baptiz autem
+          pro<lb ed="#N" n="97" break="no"/>mortuis. glo id est pro peccatis cum ipsa non dimittantur si christus non
+          <lb ed="#N" n="98"/>resurrexit: ergo baptismus habet virtutem a resurrectione.
+        </p>
+        <p xml:id="v78d89-a3tdy8-d1e144">
+          ⁋ Sed
+          <lb ed="#N" n="99"/>tunc queritur quem effectum habet aut eundem quem a passione
+          <lb ed="#N" n="100"/>aut diuersum. Si eundem: sed constat quod non remissionem culpe. a
+          so<lb ed="#N" n="101" break="no"/>la enim passione habet hunc effectum. aliter enim non euolassent
+          <lb ed="#N" n="102"/>baptizati inter resurrectionem et passionem domini. Item minor
+          <lb ed="#N" n="103"/>esset effectus baptismi ante resurrectionem post palsionem
+          do<lb ed="#N" n="104" break="no"/>mini quam circumcisionis tempore legis per quam fiebat peccati remissio:
+          si<lb ed="#N" n="105" break="no"/>a resurrectione esset dimissio culpe. Si diuersum: queritur quen
+          <lb ed="#N" n="106"/>ab isto: quem ab illo.
+        </p>
+        <p xml:id="v78d89-a3tdy8-d1e164">
+          ⁋ Si dicatur quod a passione habet remissio
+          <lb ed="#N" n="107"/>nem culpe. a resurrectione collationem gratie. quod videtur per illud.
+          <lb ed="#N" n="108"/>iiii. Ro. Mortuus est propter delicta nostra et resurrexit propter
+          <lb ed="#N" n="109"/>iustificationem nostram. Contra. glo. super eudem textum dicit. quod
+          <lb ed="#N" n="110"/>vtraque id est mors et resurrectio christi delicta nostra tollunt: et vtraque
+          <lb ed="#N" n="111"/>iustificant. ergo isti effectus sunt communes.
+        </p>
+        <p xml:id="v78d89-a3tdy8-d1e177">
+          ⁋ Ad hoc respondeo per
+          ver<lb ed="#N" n="112" break="no"/>ba predicta. glo. illius. Mortuus est propter delicta nostra etc. sunt
+          ver<lb ed="#N" n="113" break="no"/>ba magistri non augustinus sed verba augustinus statim sequuntur in eadem glo.
+          <lb ed="#N" n="114"/>hec scilicet mors christi sola in interitum vite veteris significat. et in
+          <lb ed="#N" n="115"/>sola resurrectione noua vita significatur. que a iustificatione
+          in<lb ed="#N" n="116" break="no"/>cipit: in immortalitate perficitur. Unde augustinus non ponit ibi rationem
+          <lb ed="#N" n="117"/>cause sed signi. vnde augustinus. Baptismus habet rationem signi et
+          cau<lb ed="#N" n="118" break="no"/>se et quantum ad remissionem culpe et pene. ex morte christi rationem
+          <lb ed="#N" n="119"/>signi et non cause quantum ad iustificationem ex resurrectione.
+          Re<lb ed="#N" n="120" break="no"/>surrectio enim christi rationem proprie habet signi et non cause quantum ad
+          iu<lb ed="#N" n="121" break="no"/>stificationem: tamen quantum ad id quod sequitur scilicet immortalitas id est
+          impassibi<lb ed="#N" n="122" break="no"/>litatis: incorruptio rationem habet cause secundum quod dici solet. quod resur
+          <lb ed="#N" n="123"/>rectio christi causa est nostre resurrectionis. Unde cum augustinus. dixit. quod
+          <lb ed="#N" n="124"/>mors christi etc. subdit. que a iustificatione incipit et in immortalitate
+          <lb ed="#N" n="125"/>perficitur.
+        </p>
+        <p xml:id="v78d89-a3tdy8-d1e210">
+          ⁋ Si obiicitur quod adhuc remanet debitum mortalitatis
+          <lb ed="#N" n="126"/>post vt ante. Responsio quod sicut circumcisio delebat ex parte anime debitum
+          <lb ed="#N" n="127"/>carentie visionis dei eterne inquantum eterne. et remansit debitum
+          ca<lb ed="#N" n="128" break="no"/>rentie temporalis: ita ex parte corporis baptismus deleuit debitum
+          mor<lb ed="#N" n="129" break="no"/>talitatis id est passibilitatis eterne inquantum eterne. et remanet
+          debi<lb ed="#N" n="130" break="no"/>tum passibilitatis temporalis. Sed resurrectio generalis tollet
+          de<lb ed="#N" n="131" break="no"/>bitum omnino. et si ante resurrectionem christi baptismus tolleret predicto modo
+          <lb ed="#N" n="132"/>debitum hoc seu comutaret: non tamen significabat hoc nisi post
+          resurre<lb ed="#N" n="133" break="no"/>ctionem christi. tamen disponebat ad resurrectionem sed a remotis. sed quia
+          <lb ed="#N" n="134"/>resurrectio christi est causa nostre resurrectionis. Alio modo dedit
+          ba<lb ed="#N" n="135" break="no"/>ptizato tria ex parte sacramenti. quia esset huius rei signum quod ante
+          <lb ed="#N" n="136"/>non erat. et quod esset causa disponens ad hoc a propinquiori et vt
+          <lb ed="#N" n="137"/>det quantum ad animam inter alias virtutes maiorem spem et certiorem
+          <lb ed="#N" n="138"/>de resurrectione generali. inquantum facit membrum illius corporis cuius
+          <pb ed="#N" n="116"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>caput iam est glorificatum. cum non possit esse membrum passibile
+          <lb ed="#N" n="2"/>et infirmum sub capite glorioso. quantum ad corpus dat
+          disposi<lb ed="#N" n="3" break="no"/>tionem propinquiorem et habilitatem ad resurrectionem generalem. vnde
+          <lb ed="#N" n="4"/>leuatio baptizati non solum respicit ad resurrectionem christi sed ad
+          <lb ed="#N" n="5"/>resurrectionem membri scilicet eius qui est membrum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

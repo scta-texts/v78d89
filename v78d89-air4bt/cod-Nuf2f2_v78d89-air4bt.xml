@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 110, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 110, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="692"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-air4bt"><!-- q110m3 -->
+        <head xml:id="v78d89-air4bt-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-air4bt-Hd1e103" type="question-title">Si de acquisitis peccato carnis ut fornicatione vel adulterio vel alio genere peccati huiusmodi</head>
+        <p xml:id="v78d89-air4bt-d1e106">
+          <lb ed="#N" n="42"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-air4bt-d1e111">
+          <lb ed="#N" n="43"/>COnsequenter queritur. si potest fieri elemosyna
+          <lb ed="#N" n="44"/>de acquisitis fornicatione vel meretritio. Quod sic
+          <lb ed="#N" n="45"/>videtur per hoc. quod illud quod acquiritur sic transit in
+          <lb ed="#N" n="46"/>dominium acquirentis. nec competit illi a quo
+          acqui<lb ed="#N" n="47" break="no"/>ritur repetitio.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e124">
+          ⁋ Item de acquisito per exercitium siue opst
+          alio<lb ed="#N" n="48" break="no"/>rum membrorum corporis. videlicet manuum pedum lingue et
+          ali<lb ed="#N" n="49" break="no"/>orum potest fieri elemosyna: similiter videtur quod de acquisito per
+          me<lb ed="#N" n="50" break="no"/>bra genitalia.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e134">
+          ⁋ Contra Deut. xxiii. Non offeres
+          merce<lb ed="#N" n="51" break="no"/>dem prostibuli nec precium canis in domo dei tui. Si ergo ad ea que
+          <lb ed="#N" n="52"/>dei sunt non potest licite offerri merces prostibuli: multominus
+          <lb ed="#N" n="53"/>potest dare aliis.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e143">
+          ⁋ Preterea. Greg. xiiii. q. v. elemosyna redemptoris
+          <lb ed="#N" n="54"/>nostri oculis illa placet: que non ex illicitis et iniquitate
+          conge<lb ed="#N" n="55" break="no"/>ritur: sed que de rebus concessis et bene acquisitis impenditur.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e150">
+          <lb ed="#N" n="56"/>⁋ Pre. greg. i. q. i. Cum paulus dicat fundamentum aliud
+          ne<lb ed="#N" n="57" break="no"/>mo potest ponere preter illud quod positum est quod est christus ihs.
+          conse<lb ed="#N" n="58" break="no"/>quenter probatur. quia vbi christus non est fundamentum: nullius
+          boni<lb ed="#N" n="59" break="no"/>operis est superedificium sed in acquisitione boni temporalis per
+          pecca<lb ed="#N" n="60" break="no"/>tum carnis non est deus fundamentum: ergo nullum bonum opst potest ex
+          <lb ed="#N" n="61"/>hoc elici siue superfundar id est ergo elemosyna facta ex huiusmodi acquisitione
+          <lb ed="#N" n="62"/>non est bona neque accepta deo.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e168">
+          ⁋ Pre. Inhonestius est et
+          ma<lb ed="#N" n="63" break="no"/>iori offensione dei acquiritur a meretricio quam quod acquiritur
+          vsu<lb ed="#N" n="64" break="no"/>ra. quia ibi ex duplici parte committitur peccatum mortalem et offenditur
+          <lb ed="#N" n="65"/>deus. in acquisitione rei per vsuram vel rapinam non nisi ex vna: ergo
+          <lb ed="#N" n="66"/>si de lucro meretricii potest fieri elemosyna: multofortius ex
+          lu<lb ed="#N" n="67" break="no"/>cro rapine vel vsure.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e181">
+          ⁋ Responio. quod ex acquisito per meretricium siue
+          <lb ed="#N" n="68"/>fornicationem potest fieri elemmosyna: quia licet turpiter et
+          ma<lb ed="#N" n="69" break="no"/>lo modo acquiritur quod sic acquiratur: nihilominus iuste
+          pos<lb ed="#N" n="70" break="no"/>sidetur. de hoc tactum est supra vbi dictum est de restitutione
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>In huiusmodi enim acquisitione transfertur dominium nec
+          compe<lb ed="#N" n="72" break="no"/>tit repetitio illi a quo datur pecunia pro huiusmodi flagitio.
+          Intel<lb ed="#N" n="73" break="no"/>ligendum est tamen quod licet elemosyne priuate dari possunt
+          <lb ed="#N" n="74"/>ex sic acquisito vbi nullum est scandalum. non debent
+          tamen<lb ed="#N" n="75" break="no"/>fieri publice que non posunt sine scandalo fieri. Unde ecclesia
+          <lb ed="#N" n="76"/>non debet recipere fenestram vitream vel pannum sericum a
+          publi<lb ed="#N" n="77" break="no"/>cis meretricibus ne videatur approbare acquisitionem illicitam.
+          <lb ed="#N" n="78"/>et de oblatione publica intelligitur quod dicitur. Non offeres
+          <lb ed="#N" n="79"/>mercedem prostibuli etc. Licitum autem est modo offerre precium
+          ca<lb ed="#N" n="80" break="no"/>nis quia tantum ceremoniale fuit. forma tamen illa arguendi non
+          va<lb ed="#N" n="81" break="no"/>let: licitum est enim aliquid dare homini quod non est licitum
+          offer<lb ed="#N" n="82" break="no"/>re deo. Unde Leui. ii. Nec quicquam fermenti ac mellis adolebitur
+          <lb ed="#N" n="83"/>in sacrificio domini. primicias tantum eorum offeretis ac munera.
+          <lb ed="#N" n="84"/>super altare vero non ponetur in odorem suauitatis id est ad
+          cre<lb ed="#N" n="85" break="no"/>mandum dico: sed debebant cedere in vsum sacerdotum.
+          ta<lb ed="#N" n="86" break="no"/>lis autem phibitio fiebat in lege. quia in sanctis non debebat
+          ni<lb ed="#N" n="87" break="no"/>si sanctum recipi. et ideo quia meretrix vel canis immunda
+          fue<lb ed="#N" n="88" break="no"/>runt secundum legem: acquisita per meretricium et precium canis
+          offer<lb ed="#N" n="89" break="no"/>ri et recipi in oblationem erant prohibita.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e233">
+          ⁋ Si queratur si nunc
+          <lb ed="#N" n="90"/>potest ecclesia recipere oblationem de tali persona scilicet meretrice.
+          vi<lb ed="#N" n="91" break="no"/>detur quod non cum maior vigeat spiritualitas nunc quam tunc.
+          Dicen<lb ed="#N" n="92" break="no"/>dum vt tactum est. non debet recipi si sit de meretricio
+          publi<lb ed="#N" n="93" break="no"/>ce prostitutionis. Si vero sit meretrix occulta vel penitens:
+          po<lb ed="#N" n="94" break="no"/>test accipi eius oblatio. ne si penitens repelleretur: ex
+          confu<lb ed="#N" n="95" break="no"/>sione desperet. et hoc astruebat dominus sustinendo pedes
+          <lb ed="#N" n="96"/>suos ablui a muliere peccatrice et inungi. Luc. vii. A
+          pu<lb ed="#N" n="97" break="no"/>blica autem et impenitente. sicut nec tunc sic nec nunc debet
+          <lb ed="#N" n="98"/>recipi: ne ex huius modi receptione videatur ecclesia facinori
+          tali<lb ed="#N" n="99" break="no"/>prestare fauorem.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e258">
+          ⁋ Ad quod obiicitur. quod illa tantum elemosyna
+          pla<lb ed="#N" n="100" break="no"/>cet deo que non est illicitis etc. pot dici. quod illud verbum greg
+          <lb ed="#N" n="101"/>intelligitur quando illicite acquisita non transeunt in dominium acquirentis.
+          <lb ed="#N" n="102"/>vt illicita dicantur: quia iniuste acquisita. et iniqua quia
+          iniu<lb ed="#N" n="103" break="no"/>ste et non secundum equitatem iuris possessa.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e269">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="104" break="no"/>tur. quod vbi christus non est fundamentum etc. potest dici. quod in
+          largi<lb ed="#N" n="105" break="no"/>tione elemosyne ex acquisito per meretricium siue peccatum
+          <lb ed="#N" n="106"/>carnis duo consideranda sunt. actus siue opus illicitum: et
+          iu<lb ed="#N" n="107" break="no"/>ste acquisitum siue possessum ex huiusmodi actu vel opere. et quia licet
+          <lb ed="#N" n="108"/>sit turpis actus: tamen iusta est acquisitio. inquantum
+          elemo<lb ed="#N" n="109" break="no"/>syna impenditur ex iuste acquisito in illa largitione est christus
+          <lb ed="#N" n="110"/>fundamentum. ex alio enim est ibi peccatum et ex alio acquisi
+          <lb ed="#N" n="111"/>tio iusta. peccatum enim est ex actu coitus exercito. contra diuinam
+          <lb ed="#N" n="112"/>prohibitionem. iusticia acquisitionis est ex hoc quod corpus vnius
+          <lb ed="#N" n="113"/>persone in ipso opere exponitur voluntati et beneplacito alterius
+          <lb ed="#N" n="114"/>corpus inquam illius cuius est proprium et a quo libere possum
+          <lb ed="#N" n="115"/>scilicet quantum ad potestatem mancipandi se tali opere.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e298">
+          ⁋ Ad
+          il<lb ed="#N" n="116" break="no"/>lud quod obiicitur. quod illud quod meretricio siue fornicatione
+          acqui<lb ed="#N" n="117" break="no"/>ritur. inhonestius acquiritur quam quod acquiritur vsura etc. Potest
+          <lb ed="#N" n="118"/>dici quod etiam hoc supposito. nihilominus de hoc potest fieri ele
+          <lb ed="#N" n="119"/>mosyna: non de illo. quia hoc modo acquisitum transit in
+          <lb ed="#N" n="120"/>dominium acquirentis: illud nequaquam. secundum strictam enim
+          the<lb ed="#N" n="121" break="no"/>ologiam in vsura nunquam transfertur dominium in accipientem: nec
+          <lb ed="#N" n="122"/>aliquo iure diuino retinet eam cum sit prohibita in veteri et
+          no<lb ed="#N" n="123" break="no"/>uo testamento.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e318">
+          ⁋ Si queratur quare in vsura non transfertur
+          <lb ed="#N" n="124"/>dominium in accipientem sicut in meretricio. potest dici quod
+          pecu<lb ed="#N" n="125" break="no"/>nia concessa ad vsuram nunquam excedit precium siue valorem suum licet pro
+          <lb ed="#N" n="126"/>ea plus debito accipiatur. de natura enim sua non habet vsum aliquem
+          <lb ed="#N" n="127"/>de quo fructificare possit. Est enim ordinata ad equalem
+          commuta<lb ed="#N" n="128" break="no"/>tionem. vnde refert cum pecunia pro pecunia redditur: et cum
+          pecu<lb ed="#N" n="129" break="no"/>nia redditur pro conductione equi vel domus. vsus enim istorum de
+          na<lb ed="#N" n="130" break="no"/>tura sua valet vtenti. ex alia parte et si vsus valeat quandque a
+          ca<lb ed="#N" n="131" break="no"/>su tamen: quia pecunia huiusmodi nunquam meliorat quantum
+          <lb ed="#N" n="132"/>est de sui natura. quia vt dictum est ordinata est ad
+          equa<lb ed="#N" n="133" break="no"/>lem commutationem nunquam pro pecunia ex pacto potest
+          li<lb ed="#N" n="134" break="no"/>cite accipi maior pecunia nec debet dari. In actu autem
+          co<lb ed="#N" n="135" break="no"/>itus fornicarii. quia corpus quod est libere potestatis
+          ali<lb ed="#N" n="136" break="no"/>cuius: seruit et voluntati alterius exponitur sicut accidit
+          <lb ed="#N" n="137"/>in expositione equi vel domus alicuius seruitio alterius.
+          <lb ed="#N" n="138"/>quod accipitur pro huiusmodi opere vel actu: transfertur in
+          do<lb ed="#N" n="139" break="no"/>minium accipientis et iuste possidetur. vnde quod per mere
+          <lb ed="#N" n="140"/>tricium acquiritur licet inhonestius acquiratur quam quod acquiritur
+          <lb ed="#N" n="141"/>vsura: iuste possidetur. et ex hus modi acquisito potest elemosna
+          fieri<pb ed="#N" n="693"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>non ex acquisito per vsuram: quia huiusmodi acquisitum non transfertur in
+          do<lb ed="#N" n="2" break="no"/>minium acquirentis.
+        </p>
+        <p xml:id="v78d89-air4bt-d1e366">
+          ⁋ Cum autem obicitur. quod inhonestius acquiritur etc.
+          <lb ed="#N" n="3"/>potest dici quod non est ibi propria comparatio: quia non est eorum que sunt
+          <lb ed="#N" n="4"/>eiusdem generis. vnum enim cadit in genus voluptatis. aliud in genus
+          <lb ed="#N" n="5"/>cupiditatis. Pre. decctis addi potest quod et si hoc sit maior
+          inhone<lb ed="#N" n="6" break="no"/>stas quam ibi quantum ad modum acquirendi vtpote in propria
+          constitu<lb ed="#N" n="7" break="no"/>tione: maior tamen est ibi quam hic in acquisitione receptione et
+          eius<lb ed="#N" n="8" break="no"/>dem retentione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

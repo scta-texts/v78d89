@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 83, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 83, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="535"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-af8dng"><!-- q83m2 -->
+        <head xml:id="v78d89-af8dng-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-af8dng-Hd1e103" type="question-title">Quiod est</head>
+        <p xml:id="v78d89-af8dng-d1e106">
+          <lb ed="#N" n="38"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-af8dng-d1e111">
+          <lb ed="#N" n="39"/>QUeritur quid sit relaxatio secundum rem. Et videtur
+          <lb ed="#N" n="40"/>quod sit condonatio. ii. Corati. ii. Nam et ego quod
+          do<lb ed="#N" n="41" break="no"/>naui si quid donaui propter vos in presona christi.
+          <lb ed="#N" n="42"/>Glo. argumentum. relaxationes facte ab episcopis
+          <lb ed="#N" n="43"/>valent. Et ex glo. ibi habetur: quod donatio est condonatio. Ex his
+          <lb ed="#N" n="44"/>plane videtur quod relaxatio est condonatio.
+        </p>
+        <p xml:id="v78d89-af8dng-d1e127">
+          ⁋ Contra. vt dicit
+          hu<lb ed="#N" n="45" break="no"/>go. aliud est remittere penam: et aliud dimittere. remittere est
+          <lb ed="#N" n="46"/>partem pene iniuncte diminuere: dimittere est ex toto penitentiam
+          <lb ed="#N" n="47"/>indulgere. sed in relaxationibus non omnino penitentia indulgetur: ergo
+          re<lb ed="#N" n="48" break="no"/>laxatio potius dicenda est remissio quam condonatio.
+        </p>
+        <p xml:id="v78d89-af8dng-d1e139">
+          ⁋ Item videtur
+          <lb ed="#N" n="49"/>quod relaxatio sit commutatio pene siue penitentie. non hoc. quod quando
+          conce<lb ed="#N" n="50" break="no"/>ditur alicui ab eo qui potest. quod aliquis pro ieiunio sibi iniuncto
+          <lb ed="#N" n="51"/>pascat pauperem: dicitur fieri relaxatio. sed in hoc casu non est aliud
+          <lb ed="#N" n="52"/>quam penitentie commutatio: ergo videtur quod commutatio est relaxatio
+          peniten<lb ed="#N" n="53" break="no"/>tie.
+        </p>
+        <p xml:id="v78d89-af8dng-d1e152">
+          ⁋ Item in relaxatione vna pena succedit pro alia pena.
+          <lb ed="#N" n="54"/>sicut penitentie iniuncte satisfactorie succedit alia leuior
+          imposi<lb ed="#N" n="55" break="no"/>ta potestate relaxationis. Ex hoc videtur quod in relaxatione vna
+          pe<lb ed="#N" n="56" break="no"/>na commutatur in aliam. sed aliud est penitentiam diminuere: aliud est
+          <lb ed="#N" n="57"/>penitentiam comutare: ergo non est idem hoc et illud.
+        </p>
+        <p xml:id="v78d89-af8dng-d1e163">
+          ⁋ Item sicut se deo
+          <lb ed="#N" n="58"/>comutatur pena eterna in purgatoriam: ita a sacerdote
+          pena<lb ed="#N" n="59" break="no"/>purgatoria in penam temporalem. vt quando conceditur alicui quod pro
+          ieiu<lb ed="#N" n="60" break="no"/>nio paseat pouperem. ergo si vltima commutatio dicitur relaxatio: similiter
+          <lb ed="#N" n="61"/>et prima et secund a dicetur. quod non est verum: quia vbi est relaxatio est
+          <lb ed="#N" n="62"/>pene temparatio siue diminutio. sed nec eterna mutatur nec
+          purgato<lb ed="#N" n="63" break="no"/>ria in predictis casibus: ergo non est ibi remissio vel relaxatio et
+          <lb ed="#N" n="64"/>tamen est commutatio: et ita commutatio non est relaxatio.
+        </p>
+        <p xml:id="v78d89-af8dng-d1e181">
+          ⁋
+          Respo<lb ed="#N" n="65" break="no"/>sio. quod relax atio sumitur proprie: et communiter. secundum quod proprie sumitur: sic
+          <lb ed="#N" n="66"/>relaxatio est penitentie iniuncte pro peccatis ex virtute clauium.
+          dimi<lb ed="#N" n="67" break="no"/>nutio penitentie imposita pena eiusdem. Communiter sumpta est
+          dimi<lb ed="#N" n="68" break="no"/>nutio imposita pena eiusdem generis siue alterius siue
+          vixiu<lb ed="#N" n="69" break="no"/>te clauium. siue non: eiusdem generis dico. vtpote quando pena tem
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>paralis imponitur. per hoc quod dicitur virtute clauium: excluditur
+          com<lb ed="#N" n="71" break="no"/>mutatio pene eterne in penam purgatoriam: que solum est
+          <lb ed="#N" n="72"/>ex dei misericordia et non virtute clauium.
+        </p>
+        <p xml:id="v78d89-af8dng-d1e203">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="73"/>ex glo. illa que habetur. ii. Corin. ii. qua videtur quod relaxatio sit
+          <lb ed="#N" n="74"/>condonatio. per hoc quod donatio ibidem sumitur pro condonatione.
+          <lb ed="#N" n="75"/>Dicendum quod condonatio in gloro. non dicit indulgentiam
+          peniten<lb ed="#N" n="76" break="no"/>tie iniuncte: sed potius offense animarum. Ad hoc enim
+          persua<lb ed="#N" n="77" break="no"/>debat apostolus corinthiis vt condonarent illi fornicatori qui
+          tradi<lb ed="#N" n="78" break="no"/>tus fuit sathane quod eos offenderat. bene autem supponendum
+          <lb ed="#N" n="79"/>est quod apostolus ei relaxauerat de pena debita peccato suo: ne
+          cade<lb ed="#N" n="80" break="no"/>ret in desperationem propter nimiam asperitatem pene. sicut videtur
+          <lb ed="#N" n="81"/>ex glo. Nec est inconueniens relaxationem dici condonationem
+          <lb ed="#N" n="82"/>communiter sumpta relaxatione. condonatio enim quandoque solet fieri
+          per<lb ed="#N" n="83" break="no"/>tis pene quandoque totius.
+        </p>
+        <p xml:id="v78d89-af8dng-d1e229">
+          ⁋ Ad illud quod obiicitur. quod relaxatio est
+          <lb ed="#N" n="84"/>commutatio per hoc quod aliquis pro ieiunio pascat pauperem etc.
+          Di<lb ed="#N" n="85" break="no"/>cendum quod relaxatio non est idem quod commutatio: licet aliquando
+          in<lb ed="#N" n="86" break="no"/>cidant in vnum. commutatio autem est sine relaxatione vt quando
+          pe<lb ed="#N" n="87" break="no"/>na eterna comutatur in purgatoriam: relaxatio vero est secundum quod
+          detra<lb ed="#N" n="88" break="no"/>hitur de summa penitentie. vt quando alicui iniunctum est ieiunium omnium
+          <lb ed="#N" n="89"/>sextarum feriarum. et contingit diem natalis esse in sexta feria. et
+          <lb ed="#N" n="90"/>conceditur ei comedere in die illa. sicut in diebus aliis: tunc
+          tra<lb ed="#N" n="91" break="no"/>hitur de summa totius penitentie et est relaxatio. relaxatio enim
+          ma<lb ed="#N" n="92" break="no"/>gis sonat in remissionem siue mitigationem: quam in plenam
+          indul<lb ed="#N" n="93" break="no"/>gentiam vel dimissionem. quando autem conceditur alicui vt pro ieiunio
+          <lb ed="#N" n="94"/>pascat pauperem. detrahitur hic de summa ieiunii iniuncti
+          re<lb ed="#N" n="95" break="no"/>laxatione: sed tunc non est commutatio simpliciter: sed secundum quid.
+        </p>
+        <p xml:id="v78d89-af8dng-d1e259">
+          ⁋ Ad
+          <lb ed="#N" n="96"/>illud quod obiicitur. quod in relaxatione vna pena succedit alii etc
+          <lb ed="#N" n="97"/>Dicendum quod simpliciter loquendo et de relaxatione proprie sumpta
+          <lb ed="#N" n="98"/>vna non succedit alii. quod patet per hoc quod detrahitur de summa
+          to<lb ed="#N" n="99" break="no"/>tius penitentie: et non omnino dimittitur penitentia. sumpta autem relaxatione
+          <lb ed="#N" n="100"/>communiter bene vna alii succedit: et sic sequitur conclusio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

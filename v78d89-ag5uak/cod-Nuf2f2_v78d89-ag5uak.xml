@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 89, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 89, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="571"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ag5uak"><!-- q89m4 -->
+        <head xml:id="v78d89-ag5uak-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-ag5uak-Hd1e103" type="question-title">De divisione hugo</head>
+        <p xml:id="v78d89-ag5uak-d1e106">
+          <lb ed="#N" n="22"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e111">
+          <lb ed="#N" n="23"/>COnsequenter queritur de diuisione Hugo. sic.
+          de<lb ed="#N" n="24" break="no"/>terminat enim quod tres species sunt orationis. supplicatio
+          <lb ed="#N" n="25"/>postulatio insinuatio. et exponit. Supplicatio
+          <lb ed="#N" n="26"/>est sicut dic sine determinatione petitionis humilis
+          <lb ed="#N" n="27"/>et deuota precatio. Postulatio est determinate petitionis inserta
+          <lb ed="#N" n="28"/>narratio. Insinuatio est sine petitione per solam narrationem
+          volun<lb ed="#N" n="29" break="no"/>tatis facti significatio. hec Hugo. Ex his patet quod insinuatio
+          <lb ed="#N" n="30"/>non est narratio nec species orationis. quod enim excludit petitionem
+          ex<lb ed="#N" n="31" break="no"/>cludit orationem. vt ex dictis patet.
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e133">
+          ⁋ Pret. cum hic tanguntur tres
+          <lb ed="#N" n="32"/>species orationis. et similiter Math. vii. cum dicitur. petite et accipietis.
+          <lb ed="#N" n="33"/>querite et inuenietis. pulsate et aperietur vobis. Queritur vtrum sunt
+          <lb ed="#N" n="34"/>eedem cum illis vel ad illas reducantur. videtur quod non sint esdem nec
+          <lb ed="#N" n="35"/>reducantur: quia prima secundum Hugo. nihil accipit scilicet supplicatio. non
+          <lb ed="#N" n="36"/>enim aliqua rem proprie petit: sed beniuolentiam captat. illa enim petitio
+          <lb ed="#N" n="37"/>que est in euangelio aliquid accipit. Dicitur enim ibi petite et
+          accipi<lb ed="#N" n="38" break="no"/>etis. Similiter tercia Hugo. scilicet insinuatio: non videtur tercie
+          euan<lb ed="#N" n="39" break="no"/>gelii respondere. scilicet pulsationis. Insinuatio enim non petit expresse sed
+          <lb ed="#N" n="40"/>narrat. pulsatio autem ad plenum videtur accipere quod patet cum dicitur
+          pul<lb ed="#N" n="41" break="no"/>sate et aperietur vobis. apertione autem facta plene intratur. si autem non:
+          <lb ed="#N" n="42"/>non sunt eedem. queritur ergo quomo accipiuntur iste: et quomo ille.
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e160">
+          ⁋ Ad hoc
+          <lb ed="#N" n="43"/>dicendum est. quod iste tres species ab Hugo. posite: non sunt eedem
+          <lb ed="#N" n="44"/>cum illis de Math. nec ad illas reducuntur. Ille enim secundum euange
+          <lb ed="#N" n="45"/>lium sic accipiuntur ab augustinus in seuiusmode domini de monte. Ad hoc enim
+          di<lb ed="#N" n="46" break="no"/>cit quod sit bonus viator et perueniat ad terminum intentum. primo
+          <lb ed="#N" n="47"/>indiget sanitate: secundo facilitate quo ad intermedium. et post sequitur
+          <lb ed="#N" n="48"/>peruenire quantum ad terminum. et sicut id est in via corporali: ita est
+          <lb ed="#N" n="49"/>et in via spirituali. quantum ad primum dicitur petite. quantum ad
+          secun<lb ed="#N" n="50" break="no"/>dum querite. quantum ad tercium pulsate et tunc aperitur. quando enim
+          peruen<lb ed="#N" n="51" break="no"/>tum est ad terminum: non restat nisi intrare quod notatur per apertio
+          <lb ed="#N" n="52"/>nem. primo ergo quantum ad initium in quo est collatio gratie. secundo quantum
+          <lb ed="#N" n="53"/>ad medium in quo est prouectio in virtutibus et bonis operibus: tercio
+          <lb ed="#N" n="54"/>quantum ad terminum in quo est introitus ad regnum. et respondent iste
+          <lb ed="#N" n="55"/>tres species istis tribus quas apostolus ponit. obsecrationem. oration est
+          <lb ed="#N" n="56"/>postulationem. petitio obsecrationi. pulsatio postulationi. Secundum
+          <lb ed="#N" n="57"/>Hugonem sic sumitur diuisio. Intentio enim orantis imprimitur sola
+          <lb ed="#N" n="58"/>narratione. et tunc est insinuatio. aut narratione inserta
+          petitio<lb ed="#N" n="59" break="no"/>ne: et hoc potest fieri duobus modis. vel quando inserta est petitio
+          de<lb ed="#N" n="60" break="no"/>terminate. vt cum dicitur. Cor mundum crea in me deus: et tunc est
+          po<lb ed="#N" n="61" break="no"/>stulatio. vel quando narrationi non est inserta petitio determinata: et
+          <lb ed="#N" n="62"/>tunc est supplicatio. petit igitur aliquis simplici narratione: et tunc
+          <lb ed="#N" n="63"/>est insinuatio. aut narrationi inserta petitione determinate: et tunc
+          <lb ed="#N" n="64"/>est postulatio. aut narratione non inserta petitione determinata tunc
+          <lb ed="#N" n="65"/>est supplicatio. Ex his patet responsio ad illud quod quesitum est de
+          <lb ed="#N" n="66"/>insinuatione. licet enim non directe aliquid illa petitur determinatum
+          <lb ed="#N" n="67"/>quadam tamen insinuatione aliquid petitur illa.
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e217">
+          ⁋ Sed adhuc potest
+          <lb ed="#N" n="68"/>queri de ordine. videtur enim quod vltimo loco poni debeat
+          postu<lb ed="#N" n="69" break="no"/>latio. quia dignior inter omnes quemadmodum in apostoli enumeratione
+          <lb ed="#N" n="70"/>vltimo loco ponitur inter tria quia dignior. Responsio. aliter est in
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>modis petendi. et in eis que petuntur: et in diuisionibus acceptis per
+          <lb ed="#N" n="72"/>comparationem ad petita et ad modos petendi. in diuisionibus que
+          ac<lb ed="#N" n="73" break="no"/>cipiuntur secundum ordinem petitorum: debent membra ordinari secundum ordinem
+          <lb ed="#N" n="74"/>petitorum et sic fit in diuisione apostoli et euangelii. vt supra tactum est
+          <lb ed="#N" n="75"/>In diuisione autem accepta quantum ad modos petendi secundum modos
+          <lb ed="#N" n="76"/>petendi debent membra ordinari. et sic est in diuisione hac Hug. quia
+          <lb ed="#N" n="77"/>naturaliter est preor modus quo captatur beniuolentia quantum ad modn qui
+          <lb ed="#N" n="78"/>attenditur circa petitionem. et ideo supplicatio ponitur ante alias. et
+          sim<lb ed="#N" n="79" break="no"/>plex narratio prior quam narratio inserta petitioni. et ita adhuc
+          pri<lb ed="#N" n="80" break="no"/>us supplicatio. Item prius est modus quam non determinatus siue expressus
+          <lb ed="#N" n="81"/>non expresso: et ita postulatio ante insinuationem.
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e252">
+          <lb ed="#N" n="82"/>Aduc queritur.§§. 1.
+          <lb ed="#N" n="83"/>de speciebus supplicationis que sunt tres secundum Hugo. scilicet
+          capta<lb ed="#N" n="84" break="no"/>tio. exactio: pura oratio. supplicatio autem est ad captandum
+          be<lb ed="#N" n="85" break="no"/>niuolentiam. sed tribus modis captatur beniuolentia. vel ipsum a
+          <lb ed="#N" n="86"/>quo petitur collaudando: quod facit captatio. vel aduersariorum
+          <lb ed="#N" n="87"/>maliciam et crudelitatem ostendendo: quod facit pura oratio et iste
+          tri<lb ed="#N" n="88" break="no"/>plex modus potest videri in pluribus locis scripture. spirtialiter in
+          <lb ed="#N" n="89"/>oratione Ezechie Isa. xxxviii. Cum enim ibi dicitur domine deus
+          exerci<lb ed="#N" n="90" break="no"/>tuum etc. captatur beniuolentia dei per suorum bonorum enumerationem
+          <lb ed="#N" n="91"/>et sic attenditur captatio. cum additur: vere desertas fecerunt
+          re<lb ed="#N" n="92" break="no"/>ges assiriorum terras. ibi captatur beniuolentia per malorum illorum
+          <lb ed="#N" n="93"/>ab aduersariis manifestationem. et sic attenditur exactio.
+          Ter<lb ed="#N" n="94" break="no"/>cio cum addidit et expressit suam miseriam innuendo petitioni fuit
+          <lb ed="#N" n="95"/>pura oratio. Patet igitur quomo tripliciter oratur beniuolentia captatione
+          <lb ed="#N" n="96"/>que est ad inclinandum auditorem. exactione que quadam instantia et
+          <lb ed="#N" n="97"/>importunitate reddit eum memorem pura oratione. scilicet per
+          carita<lb ed="#N" n="98" break="no"/>tis quantitatem et superabundantem deuotionem quod fit quando mens
+          ita<lb ed="#N" n="99" break="no"/>attenditur ex abundantia deuotionis: vt cum se ad deum
+          postulatu<lb ed="#N" n="100" break="no"/>ra conuertitur: pre amoris eius magnitudine etiam petitionis sue
+          obli<lb ed="#N" n="101" break="no"/>uiscitur.
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e298">
+          ⁋ Sed tunc queri potest quare oratio appropriatur tercie
+          speciei<lb ed="#N" n="102" break="no"/>dicendum cum secundum augustinus oratio sit pius affectus mentis in deum directus. et
+          ta<lb ed="#N" n="103" break="no"/>lis maxime fit in tercia specie vbi totaliter petens rapitur in amorem
+          <lb ed="#N" n="104"/>eius qui petitur. ideo illi maxime appropriatur. non sic autem erat in prima nec
+          <lb ed="#N" n="105"/>in secunda. vnde dicit Hugo. in captatione est timor: in exactione
+          fidu<lb ed="#N" n="106" break="no"/>cia: in pura oratione dilectio perfecta. Ecce patet quod tercia species to
+          <lb ed="#N" n="107"/>taliter dirigit affectum in deum. et ideo proprie oratiois vendicat sibi nomen
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e314">
+          <lb ed="#N" n="108"/>⁋ Ad hoc sciendum quod postulationis tres sunt species. scilicet obsecratio.
+          <lb ed="#N" n="109"/>rogatio. et simplex postulatio. prima in maioribus. secunda in
+          medio<lb ed="#N" n="110" break="no"/>cribus. tercia in minoribus. et sumitur ista diuisio secundum gradum eorum
+          <lb ed="#N" n="111"/>que petuntur. et ideo patet ordo. quia maius nobile precedit minus nobi
+          <lb ed="#N" n="112"/>le vel magis necessarium minus. et quod minus: illud quod minimum.
+          <lb ed="#N" n="113"/>vnde dicit Hugo. Obsecramus in necessitatibus maximis. sed
+          roga<lb ed="#N" n="114" break="no"/>mus in mediis. in minimis simpliciter postulamus. excellentissimum
+          <lb ed="#N" n="115"/>obsecrare: medium rogare. minimum simpliciter postulare. hec hug.
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e334">
+          <lb ed="#N" n="116"/>⁋ Sed tunc queri potest. quare cum nomen postulationis sit commune ad has
+          <lb ed="#N" n="117"/>tres species: magis appropriatur tercie quom alii. dicendum quod aliquando
+          <lb ed="#N" n="118"/>appropriatur nomen superioris inferiori. quia verius perticipat nomen
+          <lb ed="#N" n="119"/>illius. et sic non est hic. aliquando autem retinet inferius superioris
+          nomen<lb ed="#N" n="120" break="no"/>propter imperfectionem suam: sicut dicitur de aliquo homine qui modicum
+          discre<lb ed="#N" n="121" break="no"/>tus est. quod est quoddam animal propter eius imperfectionem. sic est in proposito.
+        </p>
+        <p xml:id="v78d89-ag5uak-d1e351">
+          <lb ed="#N" n="122"/>⁋ Ultimo sciendum quod secundum Hug. tres sunt species insinuationis
+          <lb ed="#N" n="123"/>scilicet quia fit cum timore. aut fiducia autm contemptu. Timore quando
+          <lb ed="#N" n="124"/>non confidit homo de impetratione petitionis sue: et sic fuit in
+          <lb ed="#N" n="125"/>martha. Ioh. xi. quando dixit domine si fuisses hic frater meus non
+          <lb ed="#N" n="126"/>fuisset mortuus. Non enim confidebat quia causa magna erat et
+          <lb ed="#N" n="127"/>magna persona quam rogabat. Aut quando de facilitate cause vel
+          <lb ed="#N" n="128"/>etiam de benignitate persone homo confidit. et tamen desiderium
+          expli<lb ed="#N" n="129" break="no"/>care negligit: quia sperat sola insinuatione obtinere: sicut fuit
+          <lb ed="#N" n="130"/>illud mastris domini. Ioh. ii. vinum non habent. Contemptu
+          au<lb ed="#N" n="131" break="no"/>tem quando causa humilis est siue vilis siue etiam
+          perso<lb ed="#N" n="132" break="no"/>na que rogatur que oratio ab oratione dominica merito est
+          se<lb ed="#N" n="133" break="no"/>cludenda. huius autem diuisionis ratio sic apparet. aut enim
+          <lb ed="#N" n="134"/>maius est quod insinuat. et secundum quod huius. id est inquantum maius: et
+          <lb ed="#N" n="135"/>tunc est insinuatio ex contemptu. quia contemptibile est quod maius
+          <lb ed="#N" n="136"/>petit. et ideo bene petere non audet non iustus. et hoc dupliciter. quia
+          <lb ed="#N" n="137"/>aut habens gratiam ad hoc in primo statu: et tunc adhuc ei
+          com<lb ed="#N" n="138" break="no"/>petit petere cum timore. et tunc est insinuatio ex timore quia
+          pa<lb ed="#N" n="139" break="no"/>rum reputat se de familiaritate domini acquisisse. aut iam in gratia
+          pro<lb ed="#N" n="140" break="no"/>ficiens seu perfectus: et sic est insinuatio fiducialis. Iam enim qui talis
+          <pb ed="#N" n="572"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>est magnam debet fiduciam gerere de domino. et sic patet ordo istarum perti
+          <lb ed="#N" n="2"/>um. Accipitur enim hic orationis diuisio per comparationem ad petentem. Et
+          <lb ed="#N" n="3"/>quia contingit petentem deuenire a gratia initiali ad gratiam perfectionis
+          <lb ed="#N" n="4"/>seu perfectam: ideo primum ante secundum. Item quia prior est illa oratio que est ac
+          <lb ed="#N" n="5"/>cipienda quam illa que est respuenda: ideo prime due ante vltimam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 91, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 91, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="581"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-agcwl4"><!-- q91m1 -->
+        <head xml:id="v78d89-agcwl4-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-agcwl4-Hd1e103" type="question-title">Ad partem affirmativam</head>
+        <p xml:id="v78d89-agcwl4-d1e106">
+          <lb ed="#N" n="57"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e111">
+          <lb ed="#N" n="58"/>CIrca primum queritur sic ad partem affirmatiuam.
+          au<lb ed="#N" n="59" break="no"/>ctorem et subauctorem in personis diuinis secundum sanctos
+          <lb ed="#N" n="60"/>est inuenire vt filii et spiritus sancti respectu pratis. ergo
+          <lb ed="#N" n="61"/>videtur quod potr ratione auctoritatis poterit ab aliis
+          ex<lb ed="#N" n="62" break="no"/>orari.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e124">
+          ⁋ Pre. dependentia illa que est quantum ad esse maxima est.
+          <lb ed="#N" n="63"/>sed vna persona ab alia dependit: sed dependentia importat et
+          requi<lb ed="#N" n="64" break="no"/>rit supplementum: et pro huiusmodi est orare. ergo etc.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e132">
+          ⁋ Preterea. expresse
+          ha<lb ed="#N" n="65" break="no"/>bemus de filio quod orauerit pratrem suum. Luc. vi. Exiit in monte
+          <lb ed="#N" n="66"/>orare et erat pernoctans in oratione dei.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e139">
+          ⁋ Pre. i. Ioh. ii. ipse est
+          <lb ed="#N" n="67"/>propiciatio pro peccatis nostris. glo. propicians nos deo propiciatione et
+          in<cb ed="#N" n="b"/><lb ed="#N" n="68" break="no"/>tercessione.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e147">
+          ⁋ Pre. heb. vi. veniens ad interpellandum pro
+          no<lb ed="#N" n="69" break="no"/>bis. ergo semper orat pro nobis filius vt videtur.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e152">
+          ⁋ Pre. expresse habemus
+          ex<lb ed="#N" n="70" break="no"/>emplum de spiritusancto. Ro. viii. ipse spiritus interpellat pro nobis
+          ge<lb ed="#N" n="71" break="no"/>mitibus inenarrabilibus.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e159">
+          ⁋ Preterea. dam. libro. i. c. x. vbi loquitur de
+          <lb ed="#N" n="72"/>conuenientibus spirituiscrato: vocat eum interpellatorem paraclitum.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e164">
+          <lb ed="#N" n="73"/>⁋ Pre. dicit greg. quod aduocatus nostur dicitur: quia pro errore delinquentium
+          <lb ed="#N" n="74"/>apud iusticiam pratris interuenit. Ad oppositum. Augustinus de corre
+          <lb ed="#N" n="75"/>ptone et gratia. nemo querit ab alio quod per se habet. igitur si tam filius
+          <lb ed="#N" n="76"/>quam spiritus sanctus omnia habent: et omnia posunt: et nihil petunt.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e176">
+          ⁋ Preterea. orare
+          <lb ed="#N" n="77"/>est inferioris: sed in personis diuinis summa est equalitas.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e181">
+          ⁋ Preterea.
+          <lb ed="#N" n="78"/>indiuisa sunt opera trinitatis: ergo petitionum impletio pertinet
+          <lb ed="#N" n="79"/>ad totam trinitatem: ergo qui petit ab vna aliquid petit ab alia
+          <lb ed="#N" n="80"/>ergo si nullum decet petere a se: non decet orationem esse in
+          perso<lb ed="#N" n="81" break="no"/>nis diuinis.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e192">
+          ⁋ Preterea. conformis est per omnia voluntas in pratre et filio
+          <lb ed="#N" n="82"/>et spiritusancto. ergo si petitio est vnius persone respectu alterius nihil
+          pe<lb ed="#N" n="83" break="no"/>tit nisi quod scit illa velle: ergo adhuc impletur si non petat.
+          fru<lb ed="#N" n="84" break="no"/>stra igitur petet vt videtur.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e201">
+          ⁋ Pre. superfluit orationem ponere vbi
+          nul<lb ed="#N" n="85" break="no"/>lum desiderium est complendum: hoc autem est in diuinis.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e206">
+          ⁋ Pre.
+          <lb ed="#N" n="86"/>secundum dam. oratio est ascensus intellectus in deum quod personis diuinis non
+          <lb ed="#N" n="87"/>potest conuenire.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e213">
+          ⁋ Ad hoc dicendum est. quod oratio non potest esse in
+          diui<lb ed="#N" n="88" break="no"/>nis. et hoc propter triplicem rationem. Rrima est quia oratio de sua ratione
+          <lb ed="#N" n="89"/>repugnat idemptitate substantie. secunda quia repugnat equalitati
+          po<lb ed="#N" n="90" break="no"/>tentie. tercia quia repugnat fontali plenitudini opulentie. ergo
+          <lb ed="#N" n="91"/>quia in diuinis nulla est subdiuersitas. ideo nec oratio. quia nullus
+          <lb ed="#N" n="92"/>petit a se. Ulterius quia nulla potentie minoritas nec oratio: quia omnia
+          <lb ed="#N" n="93"/>orans minus potentem se pretendit. vlterius quia in bonis nula
+          ege<lb ed="#N" n="94" break="no"/>stas. nec oratio: quia omnis orans pro aliquo supplendo orare intendit.
+          <lb ed="#N" n="95"/>Concedendum est igitur. quod personis diuinis non conuenit. et si
+          ali<lb ed="#N" n="96" break="no"/>cubi inueniatur dictum: nihil aliud est dictum. nisi quod volunt nobis
+          <lb ed="#N" n="97"/>citius bonum. voluntas actus est totius trinitatis.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e238">
+          ⁋ Ad illud quod primo
+          <lb ed="#N" n="98"/>obiicitur de subauctoritate etc. potest dici quod ista subauctoraitas
+          in<lb ed="#N" n="99" break="no"/>equalitatem nullam ponit. immo summam equalitatem. intelligitur ergo quod
+          il<lb ed="#N" n="100" break="no"/>la subauctoritas est in hoc. quod id quod est et quod habet filius: habet
+          <lb ed="#N" n="101"/>a pratre. et ideo in prate est auctoritas. quia quodammodo est auctor
+          <lb ed="#N" n="102"/>filii. in filio quedam subauctoraitas. quia tamen pater non dat filio partem
+          <lb ed="#N" n="103"/>sue substantie vel essentie sed totum se quia sunt penitus idem in substantia:
+          <lb ed="#N" n="104"/>ideo oportet quod idem sint in potentia. ideo nulla minoritas.
+          in<lb ed="#N" n="105" break="no"/>ferioritas nula.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e258">
+          ⁋ Ad illud quod obicitur de dependentia. dicendum quod
+          <lb ed="#N" n="106"/>dependentia illa nulam importat in filio imperfectionem. vt iam dictum
+          <lb ed="#N" n="107"/>est. et ideo argumentum non concludit. Similis ratio est de spiritusancto. in quo est
+          <lb ed="#N" n="108"/>subauctoritas respectu pratris et filii et dependentia. si licet ibi
+          depen<lb ed="#N" n="109" break="no"/>dentiam ponere quadam improprietate loquendi.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e269">
+          ⁋ Ad aliud quod
+          <lb ed="#N" n="110"/>obitur de christo. quod orauit. dicendum quod hoc semper intelligendum est secundum naturam
+          <lb ed="#N" n="111"/>assumptam. et secundum ipsam optime congruebat quod oraret. tum propter
+          <lb ed="#N" n="112"/>meritum: tum propter exemplum virtutis: tum propter veritatis humane
+          ar<lb ed="#N" n="113" break="no"/>gumentum: tum propter officium assumptum exequaendum. Congruebat
+          <lb ed="#N" n="114"/>enim ratione sui meriti. quia sua petitione siue postulatione merebatur
+          <lb ed="#N" n="115"/>nobis qui eramus minus ydonei ad susceptionem beneficiorum dei. vnde
+          <lb ed="#N" n="116"/>Dam. li. iii. cip. xxiiii. dicit sic de eo. Quemadmodum enim passio
+          <lb ed="#N" n="117"/>nes sustinuit nobis eama que aduersus ipsas victorie
+          braui<lb ed="#N" n="118" break="no"/>um tribuens triumphans: ita et orans nobis viam faciens et
+          di<lb ed="#N" n="119" break="no"/>rigens. et dixi ad eam quemadmodum ascensionem et pro nobis
+          <lb ed="#N" n="120"/>omne iusticiam adimplens. hec Dam. vlteriusratione
+          exempli<lb ed="#N" n="121" break="no"/>vt discipulos suos et consequenter nos ad orationis exercitium
+          in<lb ed="#N" n="122" break="no"/>uitaret. in cus exercitio maxime aduersarius superatur. propter quod dominus
+          <lb ed="#N" n="123"/>dicebat disciplis suis Math. xxvi. Uigilate et orate vt non
+          <lb ed="#N" n="124"/>intretis in temptationem. vnde dicit Amb. super. Beati
+          immacula<lb ed="#N" n="125" break="no"/>ti. pernoctabat in oratione dominus ihs. non indigens petitionis
+          auxi<lb ed="#N" n="126" break="no"/>lio: sed statuens nobis imitationis exemplum. hec Amb. Ulterius
+          <lb ed="#N" n="127"/>in argumentum veritatis assumpte humanitatis scilicet vt se ostenderet
+          <lb ed="#N" n="128"/>perum hominem et vere a deo missum. propter quod dicebat Ioh. ii.
+          <lb ed="#N" n="129"/>Gratias ago tibi domine quoniam audisti me. ego autem sciebam quia semper
+          me<lb ed="#N" n="130" break="no"/>audis. sed propter poplitiet istum qui circunstat dixi vt credant quia tu me
+          mi<lb ed="#N" n="131" break="no"/>sisti. Ultimo ratione officii. quia ipse sacradotis et poestificis habebat
+          <lb ed="#N" n="132"/>dignitatem. Unde sicut ad officium eius pertinebat pro peccatis sacrificium
+          <lb ed="#N" n="133"/>offerre: ita et pro peccatoribus exorare. vnde Heb. vi. Qmnis potestifex
+          <lb ed="#N" n="134"/>ex hominibus assumptus pro hominibus constituitur in his que sunt ad deum
+          <lb ed="#N" n="135"/>vt offerat dona et sacrificia pro peccatis. Et sequitur infra. ihs autem
+          <lb ed="#N" n="136"/>eo quod maneat ineternum. sempiternum habet sacerdotium. vnde
+          <lb ed="#N" n="137"/>et saluare potest imperpetuum accedens per semetipsum ad deum
+          <lb ed="#N" n="138"/>semper viuens ad interpellendum pro nobis. talis enim dicebat vt
+          <pb ed="#N" n="582"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>esset nobis pontifex. sanctus innocens impollutus. segregatus a
+          <lb ed="#N" n="2"/>peccatoribus et excelsior celis factus. qui non habet quotidie
+          necessita<lb ed="#N" n="3" break="no"/>tem quemadmodum sacerdos prius pro suis delictis hostias
+          <lb ed="#N" n="4"/>offerre. deinde pro populo. hoc enim fecit se offerendo. patet igitur
+          qua<lb ed="#N" n="5" break="no"/>re christum decebat orare.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e350">
+          ⁋ Et si queratur quare non fuerit in omnibus
+          <lb ed="#N" n="6"/>exauditus. si ita decens erat vsum oratiois per ipsum impleri.
+          Di<lb ed="#N" n="7" break="no"/>cendum ad hoc quod sicut supratactum est. triplex fuit oratio a christo
+          pro<lb ed="#N" n="8" break="no"/>cedens a triplici voluntate. vna procedens a voluntate rationis:
+          <lb ed="#N" n="9"/>alia a voluntate pietatis: tercia a voluntate carnis. Prima
+          <lb ed="#N" n="10"/>fuit in omnibus exaudita: tum quia illa voluntas per omnia erat
+          confor<lb ed="#N" n="11" break="no"/>mis diuine voluntati: tum quia digne et sancte petebat quo
+          pe<lb ed="#N" n="12" break="no"/>tebat. et ideo exauditus est pro sua reuerentia. sicut dicitur ad
+          He<lb ed="#N" n="13" break="no"/>bre. vi. Secunda et tercia non fuerunt in omnibus exaudite: tum
+          quia<lb ed="#N" n="14" break="no"/>quantum ad illas voluntates deo se non in omni volito
+          confirma<lb ed="#N" n="15" break="no"/>bat. quod patet de voluntate pietatis qua petit pro crucifixioribus
+          su<lb ed="#N" n="16" break="no"/>is qui omnus non sunt saluati. et pro discipulis suis vt a malo
+          ser<lb ed="#N" n="17" break="no"/>uarentur Ioh. xvii. et non tantum pro illis: sed etiam pro omnibus qui
+          credi<lb ed="#N" n="18" break="no"/>turi essent in ipsum: et tamen non omns seruati fuerunt a malo. patet
+          <lb ed="#N" n="19"/>etiam de voluntate carnis qua petiit calicem amoueri. quod non ob
+          <lb ed="#N" n="20"/>tinuit: tum quia ille petitiones plus erant ordinate ad nostram
+          <lb ed="#N" n="21"/>instructionem quoam ad suam exauditionem. magis enim petebat
+          <lb ed="#N" n="22"/>hac duplici voluntate vt nos erudiret: quam vt deum ad suam
+          <lb ed="#N" n="23"/>petitionem inclinaret. audiebat enim nos in prima ad promptitu
+          <lb ed="#N" n="24"/>dinem benignitatis et misericordie. in secunda vt non diffidamus tempore
+          <lb ed="#N" n="25"/>angustie.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e396">
+          ⁋ Ad hoc quod obiicitur de verbo Ioh. et de verbo
+          apostoli<lb ed="#N" n="26" break="no"/>ad Hebreos. quod christus adhuc orat pro nobis. dicendum quod bene
+          <lb ed="#N" n="27"/>verum est ratione nature humane. Ipsa enim natura humana in
+          ip<lb ed="#N" n="28" break="no"/>so monet deum: ad condescendendum nostre miserie. Unde ipse christus
+          <lb ed="#N" n="29"/>interpellat pro nobis representatione sui ad pratrem ex ea parte qua homo
+          <lb ed="#N" n="30"/>est. ex qua parte mediator noster est. et hoc plane dicit glo. super
+          <lb ed="#N" n="31"/>illud. Semper viuens ad interpellandum pro nobis. glo.
+          represen<lb ed="#N" n="32" break="no"/>tatione sui ex ea natura qua pontifex id est humanam quam celis
+          in<lb ed="#N" n="33" break="no"/>tulit interpellat pro nobis.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e416">
+          ⁋ Ad illud quod obicitur vlterius de
+          spi<lb ed="#N" n="34" break="no"/>ritusancto. quod interpellat pro nobis gemitibus inenarrabilibus
+          <lb ed="#N" n="35"/>exponit Augustinus. de bono perseuerantie dicens. quid enim est ipse
+          spi<lb ed="#N" n="36" break="no"/>ritussanctus interpellat: nisi interpellare facit gemitibus inenar
+          <lb ed="#N" n="37"/>rabilibus sed veracibus. tropo enim illo dicit quo dicimus letum diem
+          <lb ed="#N" n="38"/>qui letos facit. hec Augustinus.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e430">
+          ⁋ Ad illud quod dicit Dam. Uocans
+          <lb ed="#N" n="39"/>eum deprecatorem. hoc non est intelligendum quod spiritus sanctus orat
+          pro<lb ed="#N" n="40" break="no"/>nobis. sed quia preces nostras per quandam appropriationem suscipit. Unde
+          <lb ed="#N" n="41"/>hec sunt verba eius deprecatorem et interpellatorem peraclitum et
+          vniuerso<lb ed="#N" n="42" break="no"/>rum interpellationes suscipientem per omnia similem pratri et filio. hec
+          Da<lb ed="#N" n="43" break="no"/>masc.
+        </p>
+        <p xml:id="v78d89-agcwl4-d1e443">
+          ⁋ Quod autem dicit greg. similiter debet intelligi per effectum. vnde quando
+          di<lb ed="#N" n="44" break="no"/>cit verba predicta aduocatus noster dicitur. quia pro errore delinquenti
+          <lb ed="#N" n="45"/>um apud iusticiam pratris interuenit. et subinfert. qui etiam pro
+          de<lb ed="#N" n="46" break="no"/>linquentibus exorare perhibetur quoniam eos quos repleuerit ad
+          postu<lb ed="#N" n="47" break="no"/>landum inflammat et exorantes facit. hec Greg. Uel potest dici quod
+          <lb ed="#N" n="48"/>illud dictum est per quandam appropriationem. Cum enim omnis actus
+          <lb ed="#N" n="49"/>in respectu ad creaturam sit in diuinis totius trinitatis:
+          interue<lb ed="#N" n="50" break="no"/>nire pro peccatis delinquentium spirituisancto appropriatur sicut et
+          boni<lb ed="#N" n="51" break="no"/>tas. Et sic patet responsio ad quesita.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

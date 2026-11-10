@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 70, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 70, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="455"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adan2p"><!-- q70m2 -->
+        <head xml:id="v78d89-adan2p-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-adan2p-Hd1e103" type="question-title">Utrum contritio efficaciam habeat in iustificatione impii</head>
+        <p xml:id="v78d89-adan2p-d1e106">
+          <lb ed="#N" n="84"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-adan2p-d1e111">
+          <lb ed="#N" n="85"/>COnsequenter queritur. vtrum contritio haberat efficaciam
+          <lb ed="#N" n="86"/>in iustificatione impii. Quod sic: videtur. psalmus.
+          Sa<lb ed="#N" n="87" break="no"/>crificium deo spiritus contribulatus. Glo. spiritus
+          con<lb ed="#N" n="88" break="no"/>tritus est sacrificium quo peccata soluuntur.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e122">
+          ⁋ Item ysido.
+          <lb ed="#N" n="89"/>Compunctio est humilitas mentis annihilans peccatum.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e128">
+          ⁋ Item
+          <lb ed="#N" n="90"/>super illud psalmus. Iusticia ante ipsum ambulabit. Glo. Prima
+          <lb ed="#N" n="91"/>hominis iusticia est vt puniat in se malum et faciat se bonum. Ex
+          <lb ed="#N" n="92"/>his videtur quod contritio efficaciam habet in iustificatione impii.
+          Co<lb ed="#N" n="93" break="no"/>tra. Augustinus. Uirtus est bona qualitas mentis quam deus operatur in
+          <lb ed="#N" n="94"/>nobis sine nobis. sed deus operando virtutem in nobis
+          iustifi<lb ed="#N" n="95" break="no"/>cat nos. In iniustis enim non sunt virtutes. ergo sine contritione
+          <lb ed="#N" n="96"/>aliqua ex parte natura iustificat nos deus.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e146">
+          ⁋ Item Bern. Iusticia
+          <lb ed="#N" n="97"/>meritum respicit: misericordia miseriam intuetur. iustificatio ergo est
+          <lb ed="#N" n="98"/>ex merito aliquo ex parte eius qui debet iustificari. sed in
+          im<lb ed="#N" n="99" break="no"/>pio meritum aliquod non precedit iustificationem: quia indignus est omni
+          <lb ed="#N" n="100"/>bono. peccator enim non est dignus pane quo vescitur. ergo dolor aliquis in
+          <lb ed="#N" n="101"/>illo non est meritorius. et ita non necessarius ad iustificationem: ex quo
+          <lb ed="#N" n="102"/>datur pro meritis.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e162">
+          ⁋ Item contritio non est sine gratia gratum faciente. sed
+          <lb ed="#N" n="103"/>existente gratia tali iustificatus est ille in quo est gratia. ergo contritio non
+          re<lb ed="#N" n="104" break="no"/>quiritur ad iustificationem.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e169">
+          ⁋ Item Ecclesiastici. i. Timor domini
+          expel<lb ed="#N" n="105" break="no"/>lit peccatum. ergo potest fieri secundum hoc iustificatio siue peccati
+          expul<lb ed="#N" n="106" break="no"/>sio motu timoris. non ergo necessaria est contritio.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e176">
+          ⁋ Item super illud
+          <lb ed="#N" n="107"/>Luc. vii. Remittuntur ei peccata multa etc. Glo. ardor carita
+          <lb ed="#N" n="108"/>tis peccatorum rubiginem in ea consumpsit. ergo non oportet quod sit
+          do<lb ed="#N" n="109" break="no"/>lor.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e185">
+          ⁋ Item in adultis est eadem ratio iustificationis. et eadem
+          <lb ed="#N" n="110"/>requiruntur ad eorum iustificationem. In adultis dico: quia illa non
+          <lb ed="#N" n="111"/>requiruntur ad paruulorum iustificationem que requiruntur ad
+          iusti<lb ed="#N" n="112" break="no"/>ficationem adultorum. Sed ponatur quod aliquis adultus sit qui nunquam
+          <lb ed="#N" n="113"/>peccauit mortaliter actualiter et mouetur in deum. isti non est necessarius
+          <lb ed="#N" n="114"/>dolor de peccato: nec contritio de peccato originali. quia aliunde
+          <lb ed="#N" n="115"/>contrahitur. vnde contritio non exigitur ad hoc quod iustificetur et facit quod
+          <lb ed="#N" n="116"/>in se est: quia mouetur in deum. ergo deus iustificat ipsum. ergo
+          iustifi<lb ed="#N" n="117" break="no"/>catio potest esse sine contritione.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e206">
+          ⁋ Item posito quod sit aliquis cuius
+          <lb ed="#N" n="118"/>cor non reprehendat eum de aliquo peccato mortali sicut dicit Iob.
+          <lb ed="#N" n="119"/>xxvii. Iste non aduertit seipsum habere peccatum: posito tamen
+          <lb ed="#N" n="120"/>quod habeat. ex quo non cognoscit se habere non dolet. sed talis
+          <lb ed="#N" n="121"/>ex quo non remordet eum conscientia: videtur digne venire ad
+          sa<lb ed="#N" n="122" break="no"/>cramentum altaris. ergo virtute sacramenti iustificabitur et sine
+          <lb ed="#N" n="123"/>omni contritione.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e222">
+          ⁋ Responsio. dicendum quod ad iustificationem adulti
+          <lb ed="#N" n="124"/>necessario requiritur contritio. licet enim ad iustificationem adulti qui
+          <lb ed="#N" n="125"/>nunquam addidit mortalem actualem originali quantum est de
+          sta<lb ed="#N" n="126" break="no"/>tu suo non requiritur: tamen quia addidit veniale ideo
+          requi<lb ed="#N" n="127" break="no"/>quiritur. quia nullus adultus est qui non addat venialia.
+          <lb ed="#N" n="128"/>Ecclesiastes vii. Non est iustus in terra qui faciet bonum et non
+          pec<lb ed="#N" n="129" break="no"/>cet. Et prouer. xx. Quis potest dicere mundum est cor meum etc.
+          <lb ed="#N" n="130"/>vnde necessaria est adulto propter venialia que superaddit
+          contri<lb ed="#N" n="131" break="no"/>tio. posito tamen quod nullum superaddat actualem nec etiam
+          ve<lb ed="#N" n="132" break="no"/>nialem: tunc non exigitur sed iustificatur per gratiam in baptismo et
+          <lb ed="#N" n="133"/>fide ecclesie.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e246">
+          ⁋ Ad hoc quod obiicitur de illo qui non habet
+          <lb ed="#N" n="134"/>conscientiam remordentem. Dico quod nihilominus debet
+          <lb ed="#N" n="135"/>dolere et conteri in generali: licet non de hoc peccato vel de
+          <lb ed="#N" n="136"/>illo. et contritus meretur remissionem vel reuelationem
+          pec<lb ed="#N" n="137" break="no"/>cati. Quia dicitur in glo. vii. Math. Si homo non intelligit
+          <lb ed="#N" n="138"/>peccatum et conteritur: deus reuelat: aut non intellectum
+          dimit<pb ed="#N" n="456"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tit. vnde si talis accedat ad sacramentum altaris sine aliquo dolore
+          <lb ed="#N" n="2"/>precedente. licet non remordeat eum conscientia: peccatum comittit. vnde dico
+          <lb ed="#N" n="3"/>quod attritio vel contritio preexigitur in iustificatione illius qui
+          pec<lb ed="#N" n="4" break="no"/>cauit venialiter. et sic ad iustificationem requiritur precedens attritio
+          <lb ed="#N" n="5"/>vel contritio in adulto pro veniali vel mortali. et hoc in
+          genera<lb ed="#N" n="6" break="no"/>li vel speciali.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e275">
+          ⁋ Ad illud ergo quod obiicitur primo scilicet virtus est bomnoa
+          <lb ed="#N" n="7"/>qualitas etc. Dicendum quod deus facit virtutes in nobis sine
+          no<lb ed="#N" n="8" break="no"/>bis simul facientibus: non tamen sine nobis dolentibus de peccatis
+          si<lb ed="#N" n="9" break="no"/>adulti sumus. hoc infra planius tangetur.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e284">
+          ⁋ Ad aliud quod obii
+          <lb ed="#N" n="10"/>citur. quod iusticia respicit meritum etc. Respondent quidam quod
+          iustifi<lb ed="#N" n="11" break="no"/>catio non respicit meritum precedens sed subsequens. Sed contra. cum
+          <lb ed="#N" n="12"/>misericordia respicit miseriam preexistentem non sequentem: iusticia
+          de<lb ed="#N" n="13" break="no"/>bet respicere meritum similiter preexstenus. si hec est recta differentia
+          <lb ed="#N" n="14"/>quam ponit Bern. Dicendum est ergo quod iusticia respicit
+          meri<lb ed="#N" n="15" break="no"/>tum congrui simul exstens: sed non meritum condigni nisi subsequens
+          <lb ed="#N" n="16"/>respicit. Bern. autem loquitur de iusticia dei distinguens inter
+          <lb ed="#N" n="17"/>iusticiam et misericordiam: secundum quam iusticiam reddet vnicuique
+          pro<lb ed="#N" n="18" break="no"/>meritis. et hoc quando plene iustificabuntur in gloria. et misericordia que
+          re<lb ed="#N" n="19" break="no"/>spicit miseriam que est quando primo recipimus gratiam. sed non
+          intelli<lb ed="#N" n="20" break="no"/>gendum est de nostra iusticia que fit in iustificatione.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e310">
+          ⁋ Ad hoc
+          <lb ed="#N" n="21"/>quod obiicitur. quod in peccatore nullum meritum precedit
+          iustificati<lb ed="#N" n="22" break="no"/>onem. Dicendum quod hoc verum est de merito condigni: quia nullo
+          <lb ed="#N" n="23"/>bono gratuito dignus est.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e320">
+          ⁋ Ad illud quod obiicitur. quod contritio
+          <lb ed="#N" n="24"/>non est sine gratia etc. Dicendum quod contritio proprie sumpta necessaria
+          <lb ed="#N" n="25"/>est ad iustificationem vt simul exstens: non tamen preexstens vt tactum est.
+        </p>
+        <p xml:id="v78d89-adan2p-d1e327">
+          <lb ed="#N" n="26"/>⁋ Ad illud quod obiicitur. quod motu timoris et amoris tollitur
+          <lb ed="#N" n="27"/>peccatum etc. Dicendum quod in peccato sunt tria. actio mala: et
+          <lb ed="#N" n="28"/>ipsa macula interior: et sequela. Actio mala expellitur
+          ti<lb ed="#N" n="29" break="no"/>more: quia malus cessat a malo opere timore pene. Macula
+          <lb ed="#N" n="30"/>tollitur contritione ratione gratie que concernitur. Sequela tollitur
+          ar<lb ed="#N" n="31" break="no"/>dore caritatis. vnde dicunt. quod timor se habet ad iustificationem
+          <lb ed="#N" n="32"/>vt preparatio. contritio vt operatio. caritatis ardor vt consum
+          <lb ed="#N" n="33"/>matio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

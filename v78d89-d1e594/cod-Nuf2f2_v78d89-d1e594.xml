@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 8, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 8, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="79"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e594"><!-- q8m4 -->
+        <head xml:id="v78d89-d1e594-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-d1e594-Hd1e103" type="question-title">De effectu sacramentorum</head>
+        <p xml:id="v78d89-d1e594-d1e106">
+          <lb ed="#N" n="100"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-d1e594-d1e111">
+          <lb ed="#N" n="101"/>COnsequenter dicendum est de effectu sacramentorum.
+          <lb ed="#N" n="102"/>Est autem duplex effectus. vnus respectu
+          cogni<lb ed="#N" n="103" break="no"/>tiue: alter respectu operatiue. vnus est ad discer
+          <lb ed="#N" n="104"/>nendum: de quo primo. alter ad reformandum:
+          <lb ed="#N" n="105"/>de quo secundo.
+        </p>
+        <div xml:id="v78d89-d1e594-Dd1e124">
+          <head xml:id="v78d89-d1e594-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-d1e594-d1e128">
+            <lb ed="#N" n="106"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e594-d1e133">
+            <lb ed="#N" n="107"/>PRimo ergo potest queri. quare effectus iste qui est ad
+            <lb ed="#N" n="108"/>discernendum ratione caracteris: non est in omnibus
+            <lb ed="#N" n="109"/>sacramentis. Si enim in omni sacramento cum datur
+            <lb ed="#N" n="110"/>assunt benedictiones: cum benedictione autem datur impressio sicut ipsa
+            <lb ed="#N" n="111"/>signatio ostendit exterius. videtur ergo quod in omni sacramento sit
+            ef<lb ed="#N" n="112" break="no"/>fectus discernendi per caracteris impressionem.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e149">
+            ⁋ Preterea. si caracter
+            <lb ed="#N" n="113"/>propter hoc est vt designetur quod illa res est sanctificata. et sanctificatio
+            fi<lb ed="#N" n="114" break="no"/>at in omnibus sacramentis. impressio ergo predicans huiusmodi sanctificationem
+            <lb ed="#N" n="115"/>factam debet esse in omnibus sacramentis. et sic quodlibet sacramentum humit hunc
+            <lb ed="#N" n="116"/>effectum. hoc autem non videmus nisi in tribus scilicet baptismo.
+            confirmati<lb ed="#N" n="117" break="no"/>one. et ordine.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e162">
+            ⁋ Ad quod summarie dicendum est ad presns.
+            infra<lb ed="#N" n="118" break="no"/>enim diffuse agetur de caractere. quod omnia sacramenta que sunt causa gratie
+            <lb ed="#N" n="119"/>ratione operis operati ornant ipsam animam: et ornando aliquo modo
+            <lb ed="#N" n="120"/>signant. Si enim anima ante susceptionem sacramenti cuiuscumque quod est causa gratie
+            <lb ed="#N" n="121"/>visibiliter appareret suo modo scilicet alicui videlicet angelo vel anime
+            <lb ed="#N" n="122"/>glorificate. et post bene discerneret et cognosceret aliquam
+            fa<lb ed="#N" n="123" break="no"/>ctam fuisse innouationem circa ipsam. quod esse non posset nisi
+            ali<lb ed="#N" n="124" break="no"/>quam impressionem siue signationem recepisset ex ipso sacramento:
+            <lb ed="#N" n="125"/>non tamen signatum impressione perpetua: cuiusmoodi est signatio
+            ca<lb ed="#N" n="126" break="no"/>racteris proprie sumpto caractere. Nec omnia sacramea hunc
+            ef<lb ed="#N" n="127" break="no"/>fectum habuerunt. Sunt enim quedam que multotiens dantur eo quod
+            <lb ed="#N" n="128"/>multotiens indigemus. Sunt autem alia que semel dantur tamquam ad
+            <lb ed="#N" n="129"/>vnicum effectum determinata. In designatione ergo horum vltimorum
+            <lb ed="#N" n="130"/>fit impressio perpetua qua fit discretio vt decetero non sacretur.
+            <lb ed="#N" n="131"/>In designatione vero primorum non fit impressio perpetua. ne si
+            fie<lb ed="#N" n="132" break="no"/>ret: iniuria fieret sacramento si iteraretur. Indigemus autem propter
+            <lb ed="#N" n="133"/>continuum lapsum actualis peccati quod iteretur penitentia. Indigemus
+            <lb ed="#N" n="134"/>etiam remedio propter frequentem infirmitatem scilicet spiritualem et
+            cor<lb ed="#N" n="135" break="no"/>paralem. Ideo iteratur vnctio extrema que ad hoc datur
+            infir<lb ed="#N" n="136" break="no"/>mis. Indigemus etiam propter continuam deperditionem spiritualem que fit
+            <lb ed="#N" n="137"/>ex parte spiritus sicut ex parte corporis frequenti nutrimnto spirituali.
+            <lb ed="#N" n="138"/>et ita quod frequenter ministretur sacramentum eukaristie. et ideo non fit in
+            <pb ed="#N" n="80"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>his huiusmodi impressio perpetua ad discernendum. Non sic autem est
+            <lb ed="#N" n="2"/>in baptismo et confirmatione et ordine. Semel enim fit deletio
+            <lb ed="#N" n="3"/>originalis peccati. Semel datur cingulum militie spiritualis sicut in
+            <lb ed="#N" n="4"/>corporali apparet. Semel datur potestans ministrandi spiritualiter. et de
+            <lb ed="#N" n="5"/>aliis dicetur. ina. diffusius. et ideo in his datur quedam impressio
+            <lb ed="#N" n="6"/>perpetua quam caracterem nominamus. vt vlterius sacramento huiusmodi per
+            <lb ed="#N" n="7"/>iterationem non fiat iniuria. De martrimonio autem manifestum est quod quia
+            <lb ed="#N" n="8"/>contingit indigentiam illam multiplicari: eo quod originalis
+            concu<lb ed="#N" n="9" break="no"/>piscentia carnis semper infestat: mrtrimonium est in remedium illius
+            ori<lb ed="#N" n="10" break="no"/>ginalis concupiscentie. ideo conceditur in personis secularibus matrimoni
+            <lb ed="#N" n="11"/>secundum prius et posterius multiplicatio. In his ergo fit effectus
+            <lb ed="#N" n="12"/>ad discernendum: in his non fit. quare autem quedam sic se habent
+            <lb ed="#N" n="13"/>quedam non: amplius suo loco dicetur.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e594-Dd1e245">
+          <head xml:id="v78d89-d1e594-Hd1e247">Articulus 2</head>
+          <p xml:id="v78d89-d1e594-d1e249">
+            <lb ed="#N" n="14"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e594-d1e254">
+            <lb ed="#N" n="15"/>Onsequentur queritur de effectu reformationis. Est
+            <lb ed="#N" n="16"/>autem duplex effectus. vnus contra malum de quo primo:
+            <lb ed="#N" n="17"/>alius ad bonum de quo secundo. Effectus qui est contra malum
+            <lb ed="#N" n="18"/>dicitur remedium morbi spiritualis.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e265">
+            ⁋ Circa quod potest queri: cum sint
+            <lb ed="#N" n="19"/>quatuor inflicta homini. infirmitas. ignorantia. malicia et
+            con<lb ed="#N" n="20" break="no"/>cupiscentia: sicut dicit beda. Contra infirmitatem habemus
+            confir<lb ed="#N" n="21" break="no"/>mationem et extremam vnctionem. contra concupiscentiam matrimonium. contra
+            <lb ed="#N" n="22"/>maliciam videatur haberi penitentia. vel si non habetur contra maliciam
+            <lb ed="#N" n="23"/>sic dictam potest queri. Quare non habemus aliquiod contra
+            igno<lb ed="#N" n="24" break="no"/>rantiam vel contra maliciam vt est pena.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e281">
+            ⁋ Item est quoddam
+            sa<lb ed="#N" n="25" break="no"/>cramentum tantum in remedium originalis peccati scilicet baptismus.
+            <lb ed="#N" n="26"/>aliud in remedium scilicet actualis mortalis vnicum scilicet penitentia: quare
+            <lb ed="#N" n="27"/>non est vnicum in remedium venialis peccati sed plura.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e291">
+            ⁋
+            Pre<lb ed="#N" n="28" break="no"/>terea. ordo non videtur esse in remedium morbi spiritualis alicuius
+            <lb ed="#N" n="29"/>cum sit datus ad ministrandum.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e298">
+            ⁋ Ad quod dicendum est. quod
+            igno<lb ed="#N" n="30" break="no"/>rantia est defectus quidam in cognitiua. Sacramenta autem
+            <lb ed="#N" n="31"/>per se dantur ad tollendum defectum in motiua. et ideo non respondet
+            <lb ed="#N" n="32"/>ei aliquid sacramentum per se. In ordine tamen sacerdotali datur quedam
+            <lb ed="#N" n="33"/>auctoritas discernendi. sed hoc magis ad potestantem pertinet quam ad
+            <lb ed="#N" n="34"/>cognitionem: licet clauis scientie nomine designetur.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e311">
+            ⁋ Ad illud vero
+            <lb ed="#N" n="35"/>quod obiicitur de malicia. dicendum quod malicia secundum quod sonat in
+            penan<lb ed="#N" n="36" break="no"/>in remedium illius est etiam penitentia ratione alicuius sue partis scilicet
+            <lb ed="#N" n="37"/>satisfactionis. Sicut enim pronitas ad malum sequitur ad peccatum
+            <lb ed="#N" n="38"/>ita quedam est habilitas ad bonum ex satisfactione.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e322">
+            ⁋ Ad
+            il<lb ed="#N" n="39" break="no"/>lud vero quod obiicitur: quare plura sunt contra veniale
+            pecca<lb ed="#N" n="40" break="no"/>tum. ratio est. Quia veniale peccatum est sine quo vita ista non
+            <lb ed="#N" n="41"/>agitur in nobis: et ideo multis indigebamus remediis
+            con<lb ed="#N" n="42" break="no"/>tra illud. Septies enim in die cadit iustus et resurgit. Et non
+            <lb ed="#N" n="43"/>est iustus in terra qui non peccet. Uel potest distingui. quod est
+            <lb ed="#N" n="44"/>vnum sacramentum quod semel datur et contra illud quod semel contrahitur:
+            <lb ed="#N" n="45"/>et illud est baptisma quod est vnicum remedium contra originale: et
+            <lb ed="#N" n="46"/>semel datur. Et est penitentia que datur contra actuale mortale
+            prin<lb ed="#N" n="47" break="no"/>cipaliter. et est vnicum in specie sacramenti: sed multotiens datur
+            <lb ed="#N" n="48"/>quia cadit homo pluries in mortale. Et est sacramentum quod
+            <lb ed="#N" n="49"/>datur contra veniale. et quia illud multotiens et multis modis
+            <lb ed="#N" n="50"/>contrahitur: dantur multa et multotiens sacramenta.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e351">
+            ⁋ Ad vltimum
+            <lb ed="#N" n="51"/>dicendum. quod licet sacramentum ordinis non sit per se contra remedium
+            mor<lb ed="#N" n="52" break="no"/>bi: est tamen mediantibus aliis. illud enim est quod datur ad
+            ministran<lb ed="#N" n="53" break="no"/>dum alia sacramenta. et ideo aliis mediantibus valet contra remedium
+            <lb ed="#N" n="54"/>morbi. Si tamen esset contra remedium morbi alicuius per se: hoc esset contra
+            <lb ed="#N" n="55"/>infirmitatem siue impotentiam quandam.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e364">
+            <lb ed="#N" n="56"/>Consequete dicen . . 1.
+            <lb ed="#N" n="57"/>dum est de effectu sacramentorum qui est ad bonum.
+            Circa<lb ed="#N" n="58" break="no"/>quod queritur. vtrum eadem gratia sit in sacramentis et virtutibus et
+            do<lb ed="#N" n="59" break="no"/>nis. Et videtur quod eadem. cum enim vtrobique sit gratia
+            gratumfa<lb ed="#N" n="60" break="no"/>ciens. In sacramento enim baptismi et penitentie et eukaristie et
+            con<lb ed="#N" n="61" break="no"/>firmationis et extreme vnctionis est gratia gratumfaciens. In
+            vir<lb ed="#N" n="62" break="no"/>tutibus etiam et septem donis similiter eadem est gratia gratum
+            fa<lb ed="#N" n="63" break="no"/>ciens non diuerse. restat ergo quod eadem gratia in his et in illis.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e385">
+            <lb ed="#N" n="64"/>⁋ Item per gratiam in virtutibus et donis tollitur culpa et seque
+            <lb ed="#N" n="65"/>la culpe. sed idem fit per gratiam in sacramentis. ergo eadem gratia est.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e392">
+            ⁋ Item
+            <lb ed="#N" n="66"/>cum sint tria genera bonorum scilicet maiora media et minima:
+            <lb ed="#N" n="67"/>constat quod vtrobique gratia est de bonis maioribus. Illa
+            au<lb ed="#N" n="68" break="no"/>tem bona maiora sunt quibus recte viuitur et quibus nemo
+            ma<lb ed="#N" n="69" break="no"/>le vtitur: que deus in nobis sine nobis operatur. restat ergo quod
+            ea<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>dem est gratia in sacramentis que in virtutibus. Eodem modo
+            <lb ed="#N" n="71"/>in donis. donum enim est quod ex mera liberalitate dantis
+            ex<lb ed="#N" n="72" break="no"/>hibetur. restat ergo quod eadem est gratia in sacramentis. quia illa que e
+            <lb ed="#N" n="73"/>in sacramento ex mera liberalitate diuina exhibetur.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e413">
+            ⁋
+            Con<lb ed="#N" n="74" break="no"/>tra. qui habet gratiam vnius sacramenti non propter hoc habet gratiam
+            al<lb ed="#N" n="75" break="no"/>terius: sicut habens vnum sacramentum non propter hoc habet aliud. sed qui
+            <lb ed="#N" n="76"/>habet gratiam qua infunditur vna virtus: habet gratiam qua alia
+            in<lb ed="#N" n="77" break="no"/>funditur. ex hoc enim est quod dicitur: qui habet vnam habet omnes. Et
+            si<lb ed="#N" n="78" break="no"/>militer qui habet vnum donum ex illis septem habet omnia. restat
+            <lb ed="#N" n="79"/>sed quod non est eadem gratia in sacramentis et virtutibus et donis.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e429">
+            <lb ed="#N" n="80"/>⁋ Item gratia in virtutibus necessaria fuit ante lapsum
+            hu<lb ed="#N" n="81" break="no"/>mane nature. virtutes enim non defuisfent homini existente in
+            sta<lb ed="#N" n="82" break="no"/>tu innocentie: licet enim non essent omnino ad eosdem actus ad quos
+            <lb ed="#N" n="83"/>sunt modo. sed sacramenta non tunc fuissent necessaria. ergo non est
+            ea<lb ed="#N" n="84" break="no"/>dem gratia in sacramentis et virtutibus et donis. Quod autem
+            sa<lb ed="#N" n="85" break="no"/>cramenta non tunc essent necessaria: haberi potest ex hoc. quod per sacramentum
+            <lb ed="#N" n="86"/>datur gratia reficiens. sed in statu primo non fuit necesse habere
+            <lb ed="#N" n="87"/>gratiam reficientem. ergo non fuit necesse habere sacramenta.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e449">
+            ⁋ Item gratia
+            <lb ed="#N" n="88"/>in virtutibus per se est recta ad operandum. vt patet ex virtutis
+            <lb ed="#N" n="89"/>diffinitione. Gratia autem in sacramentis est per se ad sanandum
+            <lb ed="#N" n="90"/>a vulneribus. quorum autem principiorum sunt diuersi effectus et
+            <lb ed="#N" n="91"/>ipsa inquantum huiusmodi sunt differentia. ergo gratia hec et alia sunt
+            diffe<lb ed="#N" n="92" break="no"/>rentes.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e462">
+            ⁋ Ad quod responderi potest. quod secundum quod cognoscimus habitus
+            <lb ed="#N" n="93"/>per actus proprios: differunt ratione gratia sacramentalis et gratia
+            vir<lb ed="#N" n="94" break="no"/>tutum et donorum. vt gratia sacramentalis proprie sit ad sanandum
+            <lb ed="#N" n="95"/>a vulneribus nature lese. Gratia vero que est virtutum
+            vel<lb ed="#N" n="96" break="no"/>donorum inquantum huiusmodi ad facile vel expedite operandum vel
+            <lb ed="#N" n="97"/>sustinendum. nihilominus tamen cum gratia sacramentali datur
+            grat<lb ed="#N" n="98" break="no"/>tia ad bene operandum. vnde cum paruulo in baptismo
+            infundi<lb ed="#N" n="99" break="no"/>tur gratia qua liberatur a culpa originali et pena sibi respondenti:
+            <lb ed="#N" n="100"/>nihilominus datur gratia qua cum adultus sit valeat bene
+            ope<lb ed="#N" n="101" break="no"/>rari. Non enim opertet de nouo infundi ei aliam gratiam vt
+            vale<lb ed="#N" n="102" break="no"/>at bene operari. Sed cum primo dantur virtutes: sicut habetur in
+            <lb ed="#N" n="103"/>senti. ex eis tamen non elicitur operatio nisi cum vires sunt
+            expedi<lb ed="#N" n="104" break="no"/>te. De differentia autem virtutum et donorum non agitur hoc:cum non
+            perti<lb ed="#N" n="105" break="no"/>neat ad propositum. Cum ergo queritur. vtrum sit eadem gratia in
+            sa<lb ed="#N" n="106" break="no"/>cramentis ex vna parte et virtutibus et donis ex alia. potest responde
+            <lb ed="#N" n="107"/>ri quod ad alterum per se est illa: et ad alterum illa. potest tamen eadem esse
+            <lb ed="#N" n="108"/>in substantia aliquando et aliquando differens.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e500">
+            ⁋ Ad obiecta autem
+            responden<lb ed="#N" n="109" break="no"/>dum est. quod cum vtrobique sit gratia gratum faciens: non tamen oportet
+            <lb ed="#N" n="110"/>eadem ratione determinari propter effectuum diuersitatem. nec ex
+            <lb ed="#N" n="111"/>virtute omnis sacramenti noue legis datur gratia gratum faciens: sed ex
+            <lb ed="#N" n="112"/>bata tunc vel prius datur aliquis effectus illius gratie. verbi. grgtia. ad
+            <lb ed="#N" n="113"/>hoc quod aliquis digne accipiat eukaristiam exigitur quod habeat gratian
+            <lb ed="#N" n="114"/>gratum facientem: et ex vi sacramenti datur effectus illius gratie.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e516">
+            <lb ed="#N" n="115"/>⁋ Ad aliud dicendum. quod ex eadem gratia in substantia: tollitur cul
+            <lb ed="#N" n="116"/>pa et datur habilitas ad bene operandum: licet nos ita ratione
+            di<lb ed="#N" n="117" break="no"/>stinguemus.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e525">
+            ⁋ Ad aliud dicendum. quod vtrobique scilicet in sacramentis et in
+            <lb ed="#N" n="118"/>virtutibus datur grattia que computatur inter maiora bona.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e530">
+            <lb ed="#N" n="119"/>Ad alia vero que obiecta sunt ex alia parte dicendum. quod licet hec
+            <lb ed="#N" n="120"/>sit differentia inter sacramenta et virtutes: quod qui habet vnam virtutem
+            <lb ed="#N" n="121"/>gratuitam habet omnes: non sic autem est in sacramento: quod qui habet vnum
+            <lb ed="#N" n="122"/>habet omnia. non ex hoc sequitur quin gratia possit eadem: sed ex hoc se
+            <lb ed="#N" n="123"/>quitur quod non est idem virtus et sacramentum. hoc etiam sequitur quod gratia
+            <lb ed="#N" n="124"/>in sacramentis aliquem proprium effectum determinat: qui
+            distingui<lb ed="#N" n="125" break="no"/>tur ab effectu appropriato donis et virtutibus.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e548">
+            ⁋ Ad secundum
+            <lb ed="#N" n="126"/>vero ex illa parte dicendum est. quod licet sacramenta non essent necessaria in statu
+            in<lb ed="#N" n="127" break="no"/>nocentie: nihilominus potest esse eadem gratia que modo datur in his
+            <lb ed="#N" n="128"/>et in illis. quia illa que tunc dabatur ad vnum effectum secundum
+            sta<lb ed="#N" n="129" break="no"/>tum illum eo quod nunc est maior necessitas: nunc datur ad
+            du<lb ed="#N" n="130" break="no"/>plicem effectum vel multiplicem ratione status differentis.
+            si<lb ed="#N" n="131" break="no"/>cut pro statu illo non dimittebatur culpa que non erat: nunc
+            <lb ed="#N" n="132"/>autem dimittitur. et ideo non oportet quod gratia que est modo ad
+            di<lb ed="#N" n="133" break="no"/>mittendum culpam sit alia ab illa qua habilitatur homo ad
+            bo<lb ed="#N" n="134" break="no"/>num operandum: sed ex eadem potest vtrumque effici pro tempore nature
+            <lb ed="#N" n="135"/>corrupte.
+          </p>
+          <p xml:id="v78d89-d1e594-d1e572">
+            ⁋ Ad aliud dicendum. quod illa ratio non arguit
+            diuersi<lb ed="#N" n="136" break="no"/>tatem substantie: sed differentiam rationum inquantum est sanans a
+            <lb ed="#N" n="137"/>vulneribus quibusdam et inquantum est ad recte vel expedite
+            <lb ed="#N" n="138"/>operandum. Preterea. distinguitur inter sacramenta legis
+            gra<lb ed="#N" n="139" break="no"/>tie et virtutes. quod virtutes assimilant nos deo inquantum huiusmodi.
+            <lb ed="#N" n="140"/>Gratia autem inquantum est sacramentalis assimilat nos mediatori
+            <pb ed="#N" n="81"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>christo in quadam proportionalitate. Nam christus pro nobis
+            for<lb ed="#N" n="2" break="no"/>titer pugnans in ara crucis est consecratus sacerdos
+            ineter<lb ed="#N" n="3" break="no"/>num et sponsus ecclesie resurrexit. oleo gratie in corpore et in anima
+            <lb ed="#N" n="4"/>delibutus. in quo notatur homo suscipiens sacramenta gerens
+            si<lb ed="#N" n="5" break="no"/>gnaculum christi passi et sub aliis dispositionibus existentis.
+            Simili<lb ed="#N" n="6" break="no"/>tudo autem consistit in gratiis que sunt in virtute
+            sacramen<lb ed="#N" n="7" break="no"/>torum digne suscipienti. vltima autem assimilatio erit in gloria.
+            <lb ed="#N" n="8"/>Et nota quod secundum potentiam virtualem fuit prima assimilatio
+            <lb ed="#N" n="9"/>secundum autem sacramenta que sunt signa sequens secundum gloriam. vltima
+            <lb ed="#N" n="10"/>autem signa respiciunt sapicentiam. vnde augustinus lidbro. de trio. dyabolum
+            <lb ed="#N" n="11"/>vicit deus: non potentia sed sapicentia.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

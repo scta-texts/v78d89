@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 28, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 28, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="180"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6fnck"><!-- q28m7 -->
+        <head xml:id="v78d89-a6fnck-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-a6fnck-Hd1e103" type="question-title">De iteratione confirmationis</head>
+        <p xml:id="v78d89-a6fnck-d1e106">
+          <lb ed="#N" n="24"/>Membrum septimum
+        </p>
+        <p xml:id="v78d89-a6fnck-d1e111">
+          <lb ed="#N" n="25"/>SEquitur de iteratione huius sacramenti. Et quia eius
+          ite<lb ed="#N" n="26" break="no"/>ratio dependet aodammodo ab impressionem
+          caracte<lb ed="#N" n="27" break="no"/>ris. Primo queritur. v. hoc sacramentum sit iterabile vel
+          <lb ed="#N" n="28"/>non iterabile. Secundo. si in eo imprimatur caracter.
+        </p>
+        <div xml:id="v78d89-a6fnck-Dd1e122">
+          <head xml:id="v78d89-a6fnck-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-a6fnck-d1e126">
+            <lb ed="#N" n="29"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e131">
+            <lb ed="#N" n="30"/>CIrca primum obiicitur quod sit iterabile: per hoc quod
+            mor<lb ed="#N" n="31" break="no"/>bus cuius est medicina redit scilicet infirmitas vel
+            pu<lb ed="#N" n="32" break="no"/>sillanimitas que per peccatum redit. Si enim morbus
+            re<lb ed="#N" n="33" break="no"/>dit: necesse est et medicina iterari. Quod videtur per simile a
+            sen<lb ed="#N" n="34" break="no"/>su contrario de baptismo. cuius morbus scilicet peccatum originale un
+            <lb ed="#N" n="35"/>redit. vnde nec ille iteratur.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e147">
+            ⁋ Item hoc sacramentum datur per se ad
+            ro<lb ed="#N" n="36" break="no"/>bur fidei sicut sacramentum eucharistie ad robur caritatis. ergo
+            si<lb ed="#N" n="37" break="no"/>cut illud iteratur: similiter et istud debet iterari.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e154">
+            ⁋ Item hoc
+            sa<lb ed="#N" n="38" break="no"/>cramentum datur in remedium illis qui sunt intraturi
+            pugnam<lb ed="#N" n="39" break="no"/>spiritualem. Sacramentum extreme vnctionis datur in remedium
+            il<lb ed="#N" n="40" break="no"/>lis qui debent exire finaliter pugnam spiritualem. sed vnicus est
+            <lb ed="#N" n="41"/>exitus finalis: et frequens est ingressus. ergo si illud
+            sacramen<lb ed="#N" n="42" break="no"/>tum iteratur: multo fortius et illud debet iterari.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e168">
+            ⁋ Contra.
+            <lb ed="#N" n="43"/>stabilitas siue firmitas sacramenti quantum ad id quod eius est: est
+            <lb ed="#N" n="44"/>causa quare non iteratur. Sed magis videtur quod illud
+            sacramen<lb ed="#N" n="45" break="no"/>tum quod aliud stabilit et confirmat habeat aliquid firmitatis quam
+            <lb ed="#N" n="46"/>illud quod illo firmatur et stabilitur. Si ergo sacramentum baptismi quod
+            con<lb ed="#N" n="47" break="no"/>firmatur sacramento confirmationis: habeat aliquid firmitatis
+            <lb ed="#N" n="48"/>propter quam non iteratur. videtur quod confirmatio aliquid habeat
+            fir<lb ed="#N" n="49" break="no"/>mitatis propter quam non debeat iterari.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e186">
+            ⁋ Respondeo. quod sacramentum
+            <lb ed="#N" n="50"/>illud non debet iterari sicut habetur ab Hug. et magistro. iiii.
+            <lb ed="#N" n="51"/>sentti. Et habetur de conse. di. iiii. Dictum est. vbi dictur. Uisum est
+            <lb ed="#N" n="52"/>nobis eandem confirmationem sicut nec baptismum iterari
+            mi<lb ed="#N" n="53" break="no"/>nime debere. Item Greg. ii. de homine qui a pontifice
+            confir<lb ed="#N" n="54" break="no"/>matus fuerit: denuo talis iteratio est prohibenda. His autem
+            <lb ed="#N" n="55"/>multiplex est ratio vel causa: tum quia carater in illo
+            impre<lb ed="#N" n="56" break="no"/>initur: tum quia quadam consecratione datur: tum quia irredibilis
+            <lb ed="#N" n="57"/>est morbus quem tollit: tum quia singulare est et vnicum quod
+            alle<lb ed="#N" n="58" break="no"/>gorice signat: tum quia semel tantum datur sacramentum quod confirmat
+            <lb ed="#N" n="59"/>scilicet baptismum. Caracter autem est signum indelibile et perpetuum
+            <lb ed="#N" n="60"/>propter quod nullum sacramentum in quo caracter imprimitur
+            <lb ed="#N" n="61"/>iterandum est: alioquin enim fieret iniuria sacramento. Preterea. quia
+            <lb ed="#N" n="62"/>consecratio est quedam perpetua dedicatio. non iterandum est
+            sa<lb ed="#N" n="63" break="no"/>cramentum quod cum quadam consecratione confertur. Unde magister. iiii.
+            <lb ed="#N" n="64"/>tsenttium di. vii. de baptismo et ordine quod non debeant iterari:
+            aper<lb ed="#N" n="65" break="no"/>te dicit. vtrumque enim sacramentum est: et quadam consecratione datur. illud
+            <lb ed="#N" n="66"/>quidem cum baptizatur: illud vero cum ordinatur. et ideo in
+            catho<lb ed="#N" n="67" break="no"/>lica ecclesia vtrumque non licet iterari: quia neutri facienda est
+            iniu<lb ed="#N" n="68" break="no"/>ria. Quod indubitanter etiam de confirmatione tenendum est. Preterea.
+            <lb ed="#N" n="69"/>cum morbus non iteratur: nec medicina iterari debet.
+            Mor<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>bus enim cuius medicina est sacramentum istud est quedam pena
+            con<lb ed="#N" n="71" break="no"/>tracta. que secundum quod est huiusmodi non redit siue iteratur. licet consimilis
+            <lb ed="#N" n="72"/>merito culpe actualis efficiatur in peccante. Preterea. quia
+            al<lb ed="#N" n="73" break="no"/>legorice signat aduentum spiritus sancti in apostolos in die
+            pethe<lb ed="#N" n="74" break="no"/>costes Act. ii. qui semel factus est: vt signato signum responde
+            <lb ed="#N" n="75"/>at: conuenit vt semel tantum donetur. Preterea. ex quo ordinatur ad
+            <lb ed="#N" n="76"/>sacramentum quod nullo modo iteratur: congruit vt nec illud iteretur.
+            <lb ed="#N" n="77"/>hec sunt propter que minime congruit quod hoc sacramentum iteretur.
+            <lb ed="#N" n="78"/>Prima autem et potissima ratio est impressio caracteris.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e253">
+            ⁋ Ex
+            <lb ed="#N" n="79"/>his patet responsio ad primum. quia moro cuius medicina est hoc
+            sa<lb ed="#N" n="80" break="no"/>cramentum non redit. licet enim pena pusillanimitatis siue
+            in<lb ed="#N" n="81" break="no"/>firmitatis vt est acta per culpam actualem redire contingat siue
+            <lb ed="#N" n="82"/>effici in ipso confirmato. numquam tamen pena infirmitatis siue
+            pu<lb ed="#N" n="83" break="no"/>sillanimitatis vt est contracta ab originali redit: siem nec ipsum
+            <lb ed="#N" n="84"/>originalem. vnde primum est interimendum.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e269">
+            ⁋ Ad aliud quo
+            osten<lb ed="#N" n="85" break="no"/>ditur quod hoc sacramentum quod datur ad robur fidei debet iterari
+            si<lb ed="#N" n="86" break="no"/>cut sacramentum altaris quod datur ad robur caritatis. Dicendum
+            <lb ed="#N" n="87"/>quod non est simile de hoc sacramento et illo. tum quia in hoc
+            sacramen<lb ed="#N" n="88" break="no"/>to imprimitur caracter: non in illo. tum propter alias
+            congru<lb ed="#N" n="89" break="no"/>itates pretactas. Preterea. non est consilis necessitas iterare quod
+            fi<lb ed="#N" n="90" break="no"/>dem roborat et quod caritatem. longe namque et faciliore
+            causa<lb ed="#N" n="91" break="no"/>e frequentius caritas tollitur quam error fidei inducitur.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e287">
+            ⁋ Ad
+            il<lb ed="#N" n="92" break="no"/>lud quod obiicitur. quod vnicus est exitus finalis de pugna
+            spiri<lb ed="#N" n="93" break="no"/>tuali etc. Dicendum quod etsi multotiens ingrediatur ad pugnam
+            <lb ed="#N" n="94"/>spiritualem: non propter hoc oportet hoc sacramentum iterari. cuius ratio est.
+            <lb ed="#N" n="95"/>quia in eo tanta gratia confertur vt sufficere valeat ad omne tem
+            <lb ed="#N" n="96"/>pus. et hoc dico si gratia illa roborans custodiatur. Si autem
+            <lb ed="#N" n="97"/>exigentibus peccatis repellatur: tamen propter rationes smum. tactas ipsum
+            <lb ed="#N" n="98"/>sacramentum non est iterandum. Preterea. ex alia parte sicut est vnicus
+            <lb ed="#N" n="99"/>exitus finalis de pugna spirituali. similiter si constaret de exitu fina
+            <lb ed="#N" n="100"/>li non nisi semel sacramentum extreme vnctionis daretur. sed incertus
+            <lb ed="#N" n="101"/>euentus ipsius est causa quare iteratur. Nec sunt alique
+            ration<lb ed="#N" n="102" break="no"/>nes quare iterari non debeat sicut de sacramento
+            confir<lb ed="#N" n="103" break="no"/>mationis.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6fnck-Dd1e318">
+          <head xml:id="v78d89-a6fnck-Hd1e320">Articulus 2</head>
+          <p xml:id="v78d89-a6fnck-d1e322">
+            <lb ed="#N" n="104"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e327">
+            <lb ed="#N" n="105"/>COnsequenter quia suppositum est questione
+            preceden<lb ed="#N" n="106" break="no"/>ti quod in hoc sacramento imprimitur caracter: ad
+            <lb ed="#N" n="107"/>maiorem certitudinem veritatis habendam potest
+            queri<lb ed="#N" n="108" break="no"/>vtrum sic sit vel non. Quod sic: videtur per hoc quod dicit Dyo. quod
+            cara<lb ed="#N" n="109" break="no"/>cter est signum sanctum communionis fidei. Sed hoc sacramentum datur in
+            <lb ed="#N" n="110"/>robur fidei. et illud efficit in anima eo modo quo sacramenta noue
+            le<lb ed="#N" n="111" break="no"/>gis efficiunt in anima illa propter que dantur. Sed hoc efficiendo
+            <lb ed="#N" n="112"/>relinquit signum in anima huiusmodi effectus. relinquit ergo in anima signum
+            <lb ed="#N" n="113"/>fidei siue roboris. ergo efficit siue imprimit signum comunionis
+            fi<lb ed="#N" n="114" break="no"/>dei. hoc autem est caracter. ergo etc.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e351">
+            ⁋ Item caracter est signaculum
+            <lb ed="#N" n="115"/>distinctiuum popli fidelis per status iprituales: secundum conformitatem
+            <lb ed="#N" n="116"/>distinctionis populi secularis per status terrenos siue
+            secu<lb ed="#N" n="117" break="no"/>lares. sed maxime consueuit esse distinctio existentium in praelio
+            secu<lb ed="#N" n="118" break="no"/>lari que solet esse per signa quibus acies belli se mutuo
+            cogno<lb ed="#N" n="119" break="no"/>scebant et congregabant et segregabant a suis aduersariis. sed per
+            <lb ed="#N" n="120"/>hoc sacramentum preparantur fideles ad bellum spirituale magnum et
+            diffici<lb ed="#N" n="121" break="no"/>le. ergo videtur quod maxime cong ruit huic sacramento caracterem
+            impri<lb ed="#N" n="122" break="no"/>mere qui distinguat et signet existentes in bello spirituali.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e371">
+            ⁋ Item
+            <lb ed="#N" n="123"/>effectus maxime stabilitatis et indelebilitatis in sacramentis est
+            <lb ed="#N" n="124"/>caracter. Ile enim solus non perimitur neque deletur: vt habitum
+            <lb ed="#N" n="125"/>est ergo. Sed si alicui sacramento competit effectus stabilis et
+            per<lb ed="#N" n="126" break="no"/>manens: hoc maxime competit huic sacramento cuius est stabiliere
+            <lb ed="#N" n="127"/>et confirmare. ergo videtur quod huic sacramento potissime conuenit
+            impri<lb ed="#N" n="128" break="no"/>mere caracterem.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e388">
+            ⁋ Item omne illud sacramentum in quo non est
+            ca<lb ed="#N" n="129" break="no"/>racteris impressio est iterabile. sicut patet discurrendo per
+            sin<lb ed="#N" n="130" break="no"/>gula: et in quibus est impressio caracteris non sunt iterabilia.
+            <lb ed="#N" n="131"/>Unde in sacramentis hec consequenter se habent: imprimere
+            ca<lb ed="#N" n="132" break="no"/>racterem: et non iterari. sed hoc sacramentum non est iterabile:
+            <lb ed="#N" n="133"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e401">
+            ⁋ Contra. caracter est signaculum distinctiuum. sed per
+            <lb ed="#N" n="134"/>signaculum baptismi et ordinis sufficiens fit distinctio in
+            po<lb ed="#N" n="135" break="no"/>pulo dei. ergo videtur quod nulla sit necessitas quod in hoc sacra
+            men<lb ed="#N" n="136" break="no"/>to imprimitur caracter.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e410">
+            ⁋
+            </p>
+          <p xml:id="v78d89-a6fnck-d1e412">
+            ⁋ Itom deus contulit sacramentorum
+            <lb ed="#N" n="137"/>remedia hoc modo quo sunt magis vtilia. sed magis
+            vti<lb ed="#N" n="138" break="no"/>le esset hoc sacramentum si posset frequenter iterari cum
+            sepe<lb ed="#N" n="139" break="no"/>cadamus. Si ergo impressio caracteris aufert possibilitaten
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e421">
+            <pb ed="#N" n="181"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>frequentandi sacramentum: videtur quod nullo modo competat huic
+            sa<lb ed="#N" n="2" break="no"/>cramento caracteris consignatio: alioquin deus instituit hoc
+            sa<lb ed="#N" n="3" break="no"/>cramentum modo minus vtili et inordinato. quod est
+            inconue<lb ed="#N" n="4" break="no"/>niens.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e437">
+            ⁋ Item effectus confirmationis ordinatur ad confirmationen
+            <lb ed="#N" n="5"/>effectus baptismi. sed baptismi est duplex effectus scilicet gratatia
+            <lb ed="#N" n="6"/>et caracter. Sed caracter confirmationis non confirmatur gratia bapti
+            <lb ed="#N" n="7"/>smali: cum vtrumque contingat esse sine altero. propter quod non videntur
+            <lb ed="#N" n="8"/>se habere in aliqua contingentia siue ordinatione. neque
+            cara<lb ed="#N" n="9" break="no"/>cter baptismalis confirmatur illo. ergo vt videtur solummodo
+            gra<lb ed="#N" n="10" break="no"/>tia confirmationis habet ordinem ad gratiam baptismalem. et ita
+            nul<lb ed="#N" n="11" break="no"/>lius idoneitatis vel vtilitatis est caracter hius
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e456">
+            ⁋ Responsio.
+            <lb ed="#N" n="12"/>Dicendum quod secundum communem doctorum viam: in sacramento
+            con<lb ed="#N" n="13" break="no"/>firmationis imprimitur caracter. exigente hac necessitate
+            fi<lb ed="#N" n="14" break="no"/>nis et concurrente idoneitate dispositionis. Necessitas quppe
+            <lb ed="#N" n="15"/>finis hoc exigebat: quoniam caracter est ad distinguendum poploum
+            <lb ed="#N" n="16"/>domini distinctione spirituali. Triplex autem distinctio competit
+            <lb ed="#N" n="17"/>populo christiano secundum triplicem statum fidei. Incipientium.
+            profi<lb ed="#N" n="18" break="no"/>cientium. et perfectorum. siue ingredientium pugnantium et in taber
+            <lb ed="#N" n="19"/>naculo ministrantium. cuius figura precessit in populo
+            israhe<lb ed="#N" n="20" break="no"/>litico. Ideo oportunum fuit vt illa sacramenta caracterem
+            im<lb ed="#N" n="21" break="no"/>primerent: que statum fidei determinatum respiciunt. Quia
+            <lb ed="#N" n="22"/>igitur in hoc sacramento statuitur quis in statu fidei
+            determi<lb ed="#N" n="23" break="no"/>nato: et procedit ad gradum bellantium. et caracter est ad
+            distin<lb ed="#N" n="24" break="no"/>guendum poplum dei secundum statum fidei determinatum. ideo
+            compete<lb ed="#N" n="25" break="no"/>bat huic sacramento caracteris impressio. et huic consonat
+            <lb ed="#N" n="26"/>tanquam recta dispositio sancte trinitatis inuocatio et
+            confir<lb ed="#N" n="27" break="no"/>mandi exterior et notabilis consignatio. que exprimunt et
+            <lb ed="#N" n="28"/>disponunt ad hoc quod confirmandus interius consignetur. Unde
+            con<lb ed="#N" n="29" break="no"/>cedende sunt rationes que hoc ostendunt.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e498">
+            ⁋ Ad illud autem quod
+            <lb ed="#N" n="30"/>primo obiicitur in contrarium. quod superfluit talis distinctio.
+            Di<lb ed="#N" n="31" break="no"/>cendum quod falsum est. quoniam inter aliquos distinguit caracter
+            <lb ed="#N" n="32"/>confirmationis: ad quos dist inguendos non sufficit baptismus
+            <lb ed="#N" n="33"/>Nam baptismus separat a non populo dei et non baptizatis: sed
+            <lb ed="#N" n="34"/>confirmatio distinguit fortes pugiles a debilibus et
+            infir<lb ed="#N" n="35" break="no"/>mis. hius autem distinctionis figura sepe precessit in lege
+            mosa<lb ed="#N" n="36" break="no"/>yca: cum separabantur mittendi ad pugnam.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e516">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="37"/>obiicitur. quod vtilius esset si posset frequentari. Dicendum quod
+            <lb ed="#N" n="38"/>deus in operibus suis non tantum considerat vtilitatem
+            boni<lb ed="#N" n="39" break="no"/>tatis: sed etiam congruitatem sapicentie. quia non competit vt quocunque
+            <lb ed="#N" n="40"/>modo maiorem vtilitatem intendat: sed eo modo quo magis
+            <lb ed="#N" n="41"/>competit causa sapicentie. et quoniam decebat diuinam sapicentiam isti sacramento
+            <lb ed="#N" n="42"/>dari effectum qui sibi competit et competeret ei caracteris
+            <lb ed="#N" n="43"/>impressio: non debuit obmitti propter impossibilitatem
+            iteram<lb ed="#N" n="44" break="no"/>di. Preterea. non debebat hoc sacramentum iterari: ne
+            vilesce<lb ed="#N" n="45" break="no"/>ret eius dignitas: et ex fiducia iterandi quodammodo
+            fie<lb ed="#N" n="46" break="no"/>ret ad cadendum facilitas que est huic sacramento contraria
+            <lb ed="#N" n="47"/>et ideo secundum ordinem dei sapicentie debuit caracter imprimi: vt
+            <lb ed="#N" n="48"/>esset impossibile iterari.
+          </p>
+          <p xml:id="v78d89-a6fnck-d1e545">
+            ⁋ Ad illud quod obiicitur. quod non
+            indi<lb ed="#N" n="49" break="no"/>get caracter confirmari. Dicendum quod non imprimitur hoc caracter
+            <lb ed="#N" n="50"/>ad confirmationem caracteris: sed gratie. Et si obiicitur. quod non
+            <lb ed="#N" n="51"/>habet ad hoc ordinationem. Dicendum quod non habet ordinationem ad
+            con<lb ed="#N" n="52" break="no"/>firmationem gratie baptismalis immediate: sed mediante
+            grgo<lb ed="#N" n="53" break="no"/>tia addita in confirmatione. ad cuius introductionem et
+            stabili<lb ed="#N" n="54" break="no"/>tionem facit caracter in hoc sacramento impressus: et per
+            conse<lb ed="#N" n="55" break="no"/>quens ad confirmationem gratie baptismalis. Preterea.
+            etsi<lb ed="#N" n="56" break="no"/>caracter non sit directe ad confirmandum: non tamen supfluit. pro
+            <lb ed="#N" n="57"/>eo quod est ad distinguendum sicut prius fuit tactum. et signum
+            <lb ed="#N" n="58"/>distinctiuum spirituale debet respicere hoc sacramentum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

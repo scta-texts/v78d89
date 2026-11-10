@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 47, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 47, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="327"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9cuy9"><!-- q47m1 -->
+        <head xml:id="v78d89-a9cuy9-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-a9cuy9-d1e103">
+          <lb ed="#N" n="64"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a9cuy9-d1e108">
+          <lb ed="#N" n="65"/>CIrca primum duo queruntur. Primum est si licet
+          <lb ed="#N" n="66"/>pollutum modo iam dicto communicare. Secundum
+          <lb ed="#N" n="67"/>est de causis assignatis a Greg. quibus
+          existen<lb ed="#N" n="68" break="no"/>tibus licet vel non licet.
+        </p>
+        <div xml:id="v78d89-a9cuy9-Dd1e119">
+          <head xml:id="v78d89-a9cuy9-Hd1e121">Articulus 1</head>
+          <p xml:id="v78d89-a9cuy9-d1e123">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e130">
+            <lb ed="#N" n="70"/>QUeritur ergo primo vtrum nocturna pollutio
+            impe<lb ed="#N" n="71" break="no"/>dire debeat communionem. et dico de pollutione in
+            som<lb ed="#N" n="72" break="no"/>no. Quod non: videtur. cum nullo modo sit peccatum quod in
+            <lb ed="#N" n="73"/>somno contingit. et nihil displicet deo nisi peccatum.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e141">
+            ⁋ Item
+            <lb ed="#N" n="74"/>propter huiusmodi pollutionem nullum est impedimentum alicuius
+            vni<lb ed="#N" n="75" break="no"/>onis que requiritur in hac manducatione. scilicet neque nature ne
+            <lb ed="#N" n="76"/>que fidei neque caritatis.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e150">
+            ⁋ Item quodlibet peccatum etiam
+            mini<lb ed="#N" n="77" break="no"/>mum veniale reddit hominem magis dissim ilem deo: quam
+            immun<lb ed="#N" n="78" break="no"/>dicia corporalis aliqua quantacumque sit. sed dissimilitudo que
+            <lb ed="#N" n="79"/>prouenit ex veniali non impedit communionem siue
+            manducatio<lb ed="#N" n="80" break="no"/>nem corporis christi: igitur multo fortius nec immundicia
+            cor<lb ed="#N" n="81" break="no"/>poralis aliqua impediet.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e164">
+            ⁋ Item cibus iste non est cibus
+            ven<lb ed="#N" n="82" break="no"/>tris sed mentis. Est enim cibus spiritualis non carnalis. ergo
+            <lb ed="#N" n="83"/>magis requiritur in sumptione huius cibi mundicia mentis quom
+            <lb ed="#N" n="84"/>carnis. sed immundicia mentis venialis non impedit etc.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e173">
+            ⁋ Item
+            <lb ed="#N" n="85"/>corpus christi non est cibus corporis sed mentis proprie. igitur
+            <lb ed="#N" n="86"/>contracta aliqua immundicia illud debet purgari quod est
+            <lb ed="#N" n="87"/>habitaculum illius. hoc autem est ipsa anima. igitur anime
+            pur<lb ed="#N" n="88" break="no"/>gate per penitentiam bene potest esse accessus ad sacram
+            commu<lb ed="#N" n="89" break="no"/>nionem.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e186">
+            ⁋ Item immundicia corporis transit sicut et spiritus.
+            <lb ed="#N" n="90"/>igitur cum illa que est mentis siue spiritus tollitur per
+            penitenti<lb ed="#N" n="91" break="no"/>am. qua sublata non est impedimentum quantum ad hoc. igitur cum
+            <lb ed="#N" n="92"/>illa immundicia statim transit etc.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e195">
+            ⁋ Pret. nocturna
+            pollu<lb ed="#N" n="93" break="no"/>tio non impedit manducationem spiritualem que tantum est bonorum
+            <lb ed="#N" n="94"/>et modus melior manducationis. multo fortius vt videtur nec
+            <lb ed="#N" n="95"/>sacramentalem que est et bonorum et malorum et minoris
+            bo<lb ed="#N" n="96" break="no"/>nitatis et efficacie.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e206">
+            ⁋ Contra. Leui. xv. dicitur. quod de omni a
+            <lb ed="#N" n="97"/>quo egreditur semen coitus immundus erit vsque ad vesperum
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e211">
+            <lb ed="#N" n="98"/>⁋ Item contentum in hoc sacramento est duplicis nature scilicet
+            <lb ed="#N" n="99"/>corporalis et spiritualis. propter quod vt videtur debetur illi duplex
+            <lb ed="#N" n="100"/>reuerentia. quia et nature spirituali et corporali. igitur cum huiusmodi
+            <lb ed="#N" n="101"/>pollutione efficitur homo immundus quantum ad mundiciam
+            cor<lb ed="#N" n="102" break="no"/>poralem etc.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e225">
+            ⁋ Item maior est mundicia in qua aliquo
+            mo<lb ed="#N" n="103" break="no"/>do communicat anima. quam illa que est solius corporis. sed si
+            ali<lb ed="#N" n="104" break="no"/>quis sacerdos sordidis manibus accederet ad immolandum vel
+            <lb ed="#N" n="105"/>ad attrectandum aliquo modo peccaret: multofortius etc.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e234">
+            <lb ed="#N" n="106"/>⁋ Item Deutro. xxiii. habebitis locum extra castra. Glo.
+            <lb ed="#N" n="107"/>Corporalem mundiciam diligit deus. ideo precipit nihil fedum
+            <lb ed="#N" n="108"/>remanere in castris. sed si mundiciam corporalem diligit:
+            immum<lb ed="#N" n="109" break="no"/>diciam corporalem odit. ergo etc.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e245">
+            ⁋ Responsio. ad horum euidem et
+            <lb ed="#N" n="110"/>tiam notandum. quod non est aliquis actus virium anime. cuius actus
+            <lb ed="#N" n="111"/>delectatio ita suffocat opera virium superiorum: sicut actus gene
+            <lb ed="#N" n="112"/>ratiue. Unde in actu illo quasi omnino ordo virium
+            peruertitur.<lb ed="#N" n="113" break="no"/>Unde quod secundum ordinem rectum debet esse supra est sub et econ et
+            <lb ed="#N" n="114"/>uerso. Unde secundum augustinus. In hoc opere anima fit tota caro: quia.
+            <lb ed="#N" n="115"/>in hoc opere corruptio preualet nature. et ideo indignum est vt
+            <lb ed="#N" n="116"/>talis accedat ad sacramentum in quo nihil est corruptionis
+            <lb ed="#N" n="117"/>immo summa est corruptio. et quod est dignius omni creatura.
+            <lb ed="#N" n="118"/>nisi prius fuerit reordinata natura supra corruptionem quod
+            <lb ed="#N" n="119"/>fit naturaliter spacio. xxiiii. horarum. vnde dicunt quod tantum
+            <lb ed="#N" n="120"/>debet abstinere a celebratione post pollutionem. Unde si in
+            <lb ed="#N" n="121"/>dormitione meridiana contingat pollutio debet in
+            crasti<lb ed="#N" n="122" break="no"/>no abstinere a celebratione nisi forte ad. ix. celebraretur vt
+            <lb ed="#N" n="123"/>in tempore ieiunii quando explete sunt. xxiii. hore.
+            oncedi<lb ed="#N" n="124" break="no"/>mus igitur quod pollutio retrahit a celebratione et communione
+            <lb ed="#N" n="125"/>simpliciter: nisi forte in casu vt infra tangetur. Notandum
+            <lb ed="#N" n="126"/>igitur quod quedam sunt cause necessitatis quare ante reparatio
+            <lb ed="#N" n="127"/>nem virium et reductionem ad ordinem debitum
+            abstinendi<lb ed="#N" n="128" break="no"/>est ab immolatione et a sumptione: quedam congruitatis. Necessi
+            <lb ed="#N" n="129"/>tatis sunt plures: vna est inhabilitas mentis ad tanta
+            mi<lb ed="#N" n="130" break="no"/>steria contemplanda et affectanda. Mens enim ex tali
+            ope<lb ed="#N" n="131" break="no"/>re pronior fit et magis inclinata solito ad inordinatas
+            co<lb ed="#N" n="132" break="no"/>gitationes et inordinatas delectationes. Maximus enim
+            <lb ed="#N" n="133"/>est descensus mentis in carnem. vnde ipsius mentis est que
+            <lb ed="#N" n="134"/>dam elongatio a gratia illius sacramenti. et inhabitatio
+            <lb ed="#N" n="135"/>ad illam est causa quare accedendum non est Alia est
+            ir<lb ed="#N" n="136" break="no"/>reuerentia. quia enim hoc sacramentum est sacrementum
+            <lb ed="#N" n="137"/>sacramentorum. cum maxima reuerentia accedendum est
+            <lb ed="#N" n="138"/>ad illud: et quantum ad immolationem et communicationem.
+            <pb ed="#N" n="328"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Unde qui sentiunt se tanta feditate pollutus et tanta infectio
+            <lb ed="#N" n="2"/>et ne nec propter hoc cessant ab accessu: nimis videntur
+            irreueren<lb ed="#N" n="3" break="no"/>e ter accedere. bec igitur scilicet inhabilitas mentis et irreuerentia
+            <lb ed="#N" n="4"/>sunt quasi cause necessitatis quare in casu isto non est
+            acce<lb ed="#N" n="5" break="no"/>dendum. alia sunt congruitatis scilicet multiplex repugnantia
+            <lb ed="#N" n="6"/>huius operis et tanti sacramenti. vna est quia in passione christi
+            <lb ed="#N" n="7"/>maximus fuit dolor cuius passionis sacramentum hoc est
+            re<lb ed="#N" n="8" break="no"/>presentatiuum. In pollutione huiusmodi maxima est delectatio
+            <lb ed="#N" n="9"/>maxime autem distant maximus dolor et maxima delectatio.
+            <lb ed="#N" n="10"/>Item in pollutione attestatur antiqua preuaricatio qua homo
+            <lb ed="#N" n="11"/>recessit a deo et deus ab homine. In hoc sacramento deus
+            ac<lb ed="#N" n="12" break="no"/>cedit ad hominem et homo ad deum. Item in hoc opere
+            cor<lb ed="#N" n="13" break="no"/>ruptio preualet nature: contentum in hoc sacramento nihil
+            ha<lb ed="#N" n="14" break="no"/>bet corruptionis. Propter hoc igitur dicendum. quod non est
+            acce<lb ed="#N" n="15" break="no"/>dendum nisi causa aliqua specialis interueniat.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e347">
+            ⁋ Ad prr
+            <lb ed="#N" n="16"/>mum igitur quod obiicitur quod non est peccatum et ita non displicet
+            <lb ed="#N" n="17"/>deo. Dicendum quod etsi non displicet deo actus in se: displicet
+            <lb ed="#N" n="18"/>tamen accessus ad communionem et immolationem in casu tali propter
+            <lb ed="#N" n="19"/>causas predictas.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e358">
+            ⁋ Ad aliud quod dicitur. quod nullum est
+            impe<lb ed="#N" n="20" break="no"/>dimentum alicuius vnionis etc. Dicendum quod hec triplex vnio
+            <lb ed="#N" n="21"/>Enon sufficit ad hoc quod digne fiat immolatio vel sumptio huius
+            sa<lb ed="#N" n="22" break="no"/>cramenti: sed reuerentia timor iudicium sui et huiusmodi que
+            dispo<lb ed="#N" n="23" break="no"/>nunt habentem fidem et caritatem ad hoc quod digne accedat.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e369">
+            <lb ed="#N" n="24"/>⁋ Ad hoc quod obiicitur quod minimum veniale peccatum reddit
+            ho<lb ed="#N" n="25" break="no"/>minem magis dissimilem deo etc. Dicendum quod hoc verum est
+            <lb ed="#N" n="26"/>inquantum hoc scilicet veniale peccatum et immundicia corporalis
+            consi<lb ed="#N" n="27" break="no"/>deratur in se: tamen aliqua immundicia corporalis ad aliud
+            rela<lb ed="#N" n="28" break="no"/>ta sicut accidit in proposito: reddit hominem magis dissimilem.
+            <lb ed="#N" n="29"/>quia reddit hominem magis irreuerentem respectu diuine
+            <lb ed="#N" n="30"/>maiestatis et magis inhabilem ad gratiam huius sacramenti.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e388">
+            <lb ed="#N" n="31"/>⁋ Ad illud quod obiicitur quod iste cibus est mentis et spiritualis etc.
+            <lb ed="#N" n="32"/>Similiter ad hoc quod dicitur quod non requiritur nisi purgatio
+            ha<lb ed="#N" n="33" break="no"/>bitaculi cibi etc. Dicendum quod propter alia que tacta sunt id est
+            im<lb ed="#N" n="34" break="no"/>pedimenta congruitatis et necessitatis non iudicanda est mens
+            be<lb ed="#N" n="35" break="no"/>ne disposita siue purgata. dummodo sit in voluntate
+            acceden<lb ed="#N" n="36" break="no"/>di ad tantum sacramentum in casu isto: nisi aliqua causa
+            spirta<lb ed="#N" n="37" break="no"/>li inducatur ad hoc: quia non accedit in tali reuerentia et
+            timo<lb ed="#N" n="38" break="no"/>re et habilitate in quali deberet.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e408">
+            ⁋ Ad hoc quod obiicitur quod
+            <lb ed="#N" n="39"/>immundicia carnis transit sicut immundicia spiritus per confessionem.
+            <lb ed="#N" n="40"/>Dicendum quod immundicia exterior transit. nihilominus infectio
+            <lb ed="#N" n="41"/>corruptionis excitata quodammodo ex actu huiusmodi. vnde
+            inha<lb ed="#N" n="42" break="no"/>bilitatio mentis relinquitur et pronitas ad immundas cogita
+            <lb ed="#N" n="43"/>tiones et affectiones non transit. Pret. non transit debite
+            indi<lb ed="#N" n="44" break="no"/>gnitatis iudicium a mente non disposita. Unde et si transit im
+            <lb ed="#N" n="45"/>mundicia exterior. tamen habilitas et pronitas non transit. et
+            <lb ed="#N" n="46"/>cum hoc propter causas predictas bene disposita mens
+            iudica<lb ed="#N" n="47" break="no"/>tur indignum accedere in hoc casu. nisi interueniente aliqua
+            <lb ed="#N" n="48"/>causa speciali.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e432">
+            ⁋ Ad illud quod dicitur. quod immundicia huiusmodi non
+            <lb ed="#N" n="49"/>impedit manducationem spiritualem etc. Dicendum quod in manducatio
+            <lb ed="#N" n="50"/>ne spirituali tantum eo quod nullo modo est accessus corporalis ad
+            sa<lb ed="#N" n="51" break="no"/>cramentum sed spiritualis tantum vt per fidem et caritatem: sufficit
+            <lb ed="#N" n="52"/>habere fidem et caritatem. In sacramentali. quia est
+            acces<lb ed="#N" n="53" break="no"/>sus corporalis: requiritur ablatio immundicie et ex parte carnis
+            <lb ed="#N" n="54"/>simpliciter. vnde peccaret qui accederet manibus
+            coinqui<lb ed="#N" n="55" break="no"/>natis luto vel sanguine: et ex parte carnis inquantum est
+            ali<lb ed="#N" n="56" break="no"/>quo modo causa infectionis anime. et hoc est quia qui
+            acce<lb ed="#N" n="57" break="no"/>dit ad communionem sacramentalem si digne accedit:
+            habundan<lb ed="#N" n="58" break="no"/>tius sibi confertur gratia quoam qui solum spiritualiter. Unde et
+            ra<lb ed="#N" n="59" break="no"/>tione pertractationis sacramenti in sacramentali
+            manduca<lb ed="#N" n="60" break="no"/>tione quicquid est inhonestum ex parte carnis debet
+            aufer<lb ed="#N" n="61" break="no"/>ri. et ratione expectationis maioris gratie habende debet
+            <lb ed="#N" n="62"/>melius preparari ex parte anime: ne suo defectu effectus
+            <lb ed="#N" n="63"/>gratie vnionis impediatur.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e467">
+            ⁋ Rationes positas pro alia
+            <lb ed="#N" n="64"/>parte concedo. in casu tamen vt infra tangetur dignus
+            es<lb ed="#N" n="65" break="no"/>set excusatione qui accederet pollutus. Nihilominus ad
+            il<lb ed="#N" n="66" break="no"/>lud quod obiectum est ex glo. que est. quod deus diligit
+            mun<lb ed="#N" n="67" break="no"/>diciam corporalem. igitur odit immundiciam etc.
+            Respon<lb ed="#N" n="68" break="no"/>sio. quod hoc verum est ratione qua honestas quedam est siue
+            <lb ed="#N" n="69"/>dispositio vel causa iniurie alicuius siue irreuerentie.
+            vn<lb ed="#N" n="70" break="no"/>de dicitur diligere mundiciam obseruandam circa locum
+            <lb ed="#N" n="71"/>vbi erat exercenda veneratio diuina. quia non
+            impedie<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>bat reuerentiam et honestatem obseruandam quam requi
+            <lb ed="#N" n="73"/>rit cultus diuinus. Similiter dicitur odire immundiciam
+            <lb ed="#N" n="74"/>huiusmodi non inquantum est: sed inquantum impedit
+            veueren<lb ed="#N" n="75" break="no"/>tiam huiusmodi.
+          </p>
+        </div>
+        <div xml:id="v78d89-a9cuy9-Dd1e498">
+          <head xml:id="v78d89-a9cuy9-Hd1e500">Articulus 2</head>
+          <p xml:id="v78d89-a9cuy9-d1e502">
+            <lb ed="#N" n="76"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e507">
+            <lb ed="#N" n="77"/>COnsequenter queritur de causis a beato Greg.
+            po<lb ed="#N" n="78" break="no"/>sitis quibus existentibus licet vel non licet accedere ad
+            <lb ed="#N" n="79"/>hoc sacramentum. Intelligendum est ergo. quod Greg.
+            <lb ed="#N" n="80"/>determinat hanc questionem per diuisionem que ponitur dis. vi.
+            te<lb ed="#N" n="81" break="no"/>stamentum. diuidit enim sic. Aliquando ex cogitatione contingit
+            pol<lb ed="#N" n="82" break="no"/>lutio. aliquando ex crapula. aliquando ex superfluitate vel infirmitate
+            <lb ed="#N" n="83"/>Ei quidem cui ex nature superfluitate vel infirmitate enenit
+            <lb ed="#N" n="84"/>omnino hec illusio non est timenda: quia hanc animus nesciens
+            <lb ed="#N" n="85"/>partulisse magis dolendus est quam fecisse. Cum vero vltra modum
+            <lb ed="#N" n="86"/>appetitus gule in sumendis alimentis rapitur. quod exinde
+            hu<lb ed="#N" n="87" break="no"/>morum receptacula generantur: habet animus exinde
+            ali<lb ed="#N" n="88" break="no"/>quem reatum. non tamen ad prohibitionem corporis christi perci
+            <lb ed="#N" n="89"/>piendi vel missarum solennia celebrandi: cum fortassis aui
+            <lb ed="#N" n="90"/>festus dies contigit aut exhiberi misterium pro eo quod
+            sacer<lb ed="#N" n="91" break="no"/>dos alius in loco deest ipsa necessitas compellit. mutatis
+            te<lb ed="#N" n="92" break="no"/>men vestibus cantet. Nam si assint alii qui implere officium
+            <lb ed="#N" n="93"/>valeant illusio per crapulam factam a perceptione sacri
+            mi<lb ed="#N" n="94" break="no"/>sterii prohibere non debet sed ab immolatione sacri mistern
+            <lb ed="#N" n="95"/>vt arbitror abstinere humiliter debet: si tamen dormientem
+            <lb ed="#N" n="96"/>turpi imaginatione illusio non concusserit. Nam sunt
+            qui<lb ed="#N" n="97" break="no"/>dam in quibus ita plerumque illusio nascitur. vt eorum
+            ani<lb ed="#N" n="98" break="no"/>mus etiam in somno positus turpibus imaginationibuo
+            <lb ed="#N" n="99"/>non sedetur. qua in re ibi vnum ostenditur quod ipsa mens
+            om<lb ed="#N" n="100" break="no"/>nino rea non tunc sit sed suo iudicio penitus libera cum
+            se<lb ed="#N" n="101" break="no"/>et si dormiens corpore nihil meminerit vidisse tamen in
+            vigi<lb ed="#N" n="102" break="no"/>liis corporis meminit se in gluuiem ventris incidisse. Si vero
+            <lb ed="#N" n="103"/>ex cogitatione turpi vigilantis illusio oritur in mente
+            dor<lb ed="#N" n="104" break="no"/>mientis patet animo reatus suus. videt enim a qua radice
+            i<lb ed="#N" n="105" break="no"/>quinatio illa processerit. quia quod cogitauit sciens: hoc per
+            <lb ed="#N" n="106"/>tulit nesciens. hec canon. Sed cum nescitur qua de causa
+            <lb ed="#N" n="107"/>euenit: vbi necessitas non est nec scandalum: melius est a
+            <lb ed="#N" n="108"/>celebratione et communione abstinere vt credo. Unde Isiud
+            <lb ed="#N" n="109"/>infra eadem. Non est peccatum. qui nocturna pollutione
+            <lb ed="#N" n="110"/>polluitur quamuis extra memoriam turpium cogitationum se
+            <lb ed="#N" n="111"/>se persentiat inquinatum: tamen hoc vt temptaretur culpe
+            <lb ed="#N" n="112"/>sue tribuat: suamque immundiciam statim fletibus tergat.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e588">
+            <lb ed="#N" n="113"/>⁋ Queritur igitur de hac determinatione Grego. que est
+            <lb ed="#N" n="114"/>Si proueniat ex causa tali non est accedendum. sed si ex
+            ta<lb ed="#N" n="115" break="no"/>li bene potest quia aut hoc est. quia peccatum committitur
+            <lb ed="#N" n="116"/>in pollutione quando prouenit ex causa tali. quod esse non
+            <lb ed="#N" n="117"/>potest. cum nunquam committitur peccatum in somno. cum vsum
+            <lb ed="#N" n="118"/>rationis non habeat dormiens. Unde augus. super Gen.
+            <lb ed="#N" n="119"/>ad litteram. xii. dicit. Quod magis videtur quod sine peccato
+            dor<lb ed="#N" n="120" break="no"/>mienti accedat pollutio. Aut hoc est propter feditatem aut
+            <lb ed="#N" n="121"/>immundiciam corporalem. quod non videtur: cum tanta sit
+            <lb ed="#N" n="122"/>feditas et immundicia quando prouenit ex causa tali:
+            quan<lb ed="#N" n="123" break="no"/>ta quando prouenit ex illa. Aut hoc est quia causa illius est
+            <lb ed="#N" n="124"/>peccatum: causa illius non. vel quia maius est peccatum quam
+            <lb ed="#N" n="125"/>illud quod non videtur. cum tantum sit peccatum. crapula.
+            <lb ed="#N" n="126"/>quantum premeditatio vel maius peccatum. Pollutio autem
+            <lb ed="#N" n="127"/>proueniens ex crapula non impedit: sicut que prouenit ex
+            <lb ed="#N" n="128"/>premeditatione secundum subiectum. igitur etc.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e625">
+            ⁋ Item quare
+            ope<lb ed="#N" n="129" break="no"/>ra carnis magis impediunt accessum ad corpus christi quam alia
+            <lb ed="#N" n="130"/>opera que sunt venialia tantum.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e633">
+            ⁋ Ad hoc dicendum. quod non sine
+            <lb ed="#N" n="131"/>causa dicit Greg. quod quando aliquis pollutus est ex premeditatione
+            <lb ed="#N" n="132"/>non debet accedere. et quod ex quacumque causa alia sit pollutus
+            po<lb ed="#N" n="133" break="no"/>test. vel simpliciter vel in casu. Causa huius est. quod illa
+            pol<lb ed="#N" n="134" break="no"/>lutio que est ex premeditatione magis inclinat mentem ad
+            <lb ed="#N" n="135"/>affectiones inordinatas et cogitationes. et fortiorem
+            relin<lb ed="#N" n="136" break="no"/>quit in mente impressionem. sicut illud quod est complens
+            <lb ed="#N" n="137"/>inordinationem mentis inordinate cogitantis. Pret.
+            pollu<lb ed="#N" n="138" break="no"/>tio que prouenit ex premeditatione est ex illa effectiue: que ex
+            cra<lb ed="#N" n="139" break="no"/>pula est ex illa materialiter. ideo que est ex precogitatione
+            <lb ed="#N" n="140"/>que est voluntaria. plus habet ex parte nostra quam illa que est
+            <pb ed="#N" n="329"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>ex crapula que frequenter prouenit ex subreptione. Unde et
+            si<lb ed="#N" n="2" break="no"/>crapula sit maius peccatum quam cogitatio. huiusmodi tamen pollutio
+            <lb ed="#N" n="3"/>que est ex premeditatione magis inficit et magis imputatur
+            pol<lb ed="#N" n="4" break="no"/>luto propter causas predictas quam alia.
+          </p>
+          <p xml:id="v78d89-a9cuy9-d1e670">
+            ⁋ Ex his patet
+            respon<lb ed="#N" n="5" break="no"/>sio ad vltimo quesitum de aliquo veniali. Quia veniale al
+            <lb ed="#N" n="6"/>terius generis non est tante potestatis vt sic peruertat ordinem
+            <lb ed="#N" n="7"/>naturalem. nec habet tantam repugnantiam ad hoc
+            sacramen<lb ed="#N" n="8" break="no"/>tum. nec habet tantam irreuerentiam annexam. et ideo non
+            co<lb ed="#N" n="9" break="no"/>hercet ab immolatione et sumptione et maxime propter
+            difficulta<lb ed="#N" n="10" break="no"/>tem cauendi a veniali. Quia vt dicitur Eclesatias. vii. Non est
+            iu<lb ed="#N" n="11" break="no"/>stus in terra qui non peccet.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 8, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 8, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="82"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e627"><!-- q8m7 -->
+        <head xml:id="v78d89-d1e627-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-d1e627-Hd1e103" type="question-title">De numero sacramentorum novae legis</head>
+        <p xml:id="v78d89-d1e627-d1e106">
+          <lb ed="#N" n="11"/>⁋ Membrum septimum
+        </p>
+        <p xml:id="v78d89-d1e627-d1e111">
+          <lb ed="#N" n="12"/>Onsequent queritur de numero sacramentorum
+          <lb ed="#N" n="13"/>noue legis. Primo queritur. V. vnum sufficiat autem
+          <lb ed="#N" n="14"/>requirutur plura. Secundo, dato quod plura
+          reqirun<lb ed="#N" n="15" break="no"/>tur: in quo numero debent esse
+        </p>
+        <div xml:id="v78d89-d1e627-Dd1e122">
+          <head xml:id="v78d89-d1e627-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-d1e627-d1e126">
+            <lb ed="#N" n="16"/>⁋ Articulus primus.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e131">
+            <lb ed="#N" n="17"/>QUeritur ergo primo. vtrum vnum sacramentum sufficiat: an
+            plu<lb ed="#N" n="18" break="no"/>ra requiruntur. Quod plura requirantur videtur: vt habetur.
+            <lb ed="#N" n="19"/>a magistro in. iiii. sententia. i. dis. Contra peccati
+            vulne<lb ed="#N" n="20" break="no"/>ra sacramentorum deus remedia instituit. sed vt dicit hiero. Non
+            <lb ed="#N" n="21"/>sanat oculum quod sanat calcaneum. Igitur secundum diuersitatem
+            mor<lb ed="#N" n="22" break="no"/>borum requiruntur medicine diuerse. sed sunt diuersa genera
+            mor<lb ed="#N" n="23" break="no"/>borum: quia est morbus culpe et pene. Item vtriusque est morbus
+            <lb ed="#N" n="24"/>multiplex. igitur etc. quod concedimus.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e151">
+            ⁋ Contra. Christi passio
+            suffi<lb ed="#N" n="25" break="no"/>ciens fuit ad deletionem omnis culpe et pene. igitur illud
+            sacra<lb ed="#N" n="26" break="no"/>mentum scilicet altaris quod est representatiuum illius passionis: est
+            suf<lb ed="#N" n="27" break="no"/>ficiens remedium contra omne vulnus. scilicet. culpe et pene. Quod
+            sacra<lb ed="#N" n="28" break="no"/>mentum altaris sit representatiuum passionis habetur Luc. xxii.
+            <lb ed="#N" n="29"/>Hoc est corpus meum quod pro vobis tradetur etc.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e164">
+            ⁋ Item in
+            sacra<lb ed="#N" n="30" break="no"/>mento eukaristie datur christus in quo est plenitudo gratie. quia ibi res
+            <lb ed="#N" n="31"/>significata est plenitudo gratie que sufficit ad delendum omnem
+            cul<lb ed="#N" n="32" break="no"/>pam et penam. igitur etc.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e174">
+            ⁋ Item ex gratia in virtutibus est
+            habili<lb ed="#N" n="33" break="no"/>tatio potentie ad opera meritoria: ex gratia sacramenti est
+            sana<lb ed="#N" n="34" break="no"/>tio earundem. sed habilitationem concomitatur sanatio. igitur sicut
+            ha<lb ed="#N" n="35" break="no"/>bilitata vna potentia habilitatur altera: quia quid habet vnam
+            virtu<lb ed="#N" n="36" break="no"/>tem habet omnes. et sanata vna potentia sanatur alia. sed vno
+            sa<lb ed="#N" n="37" break="no"/>cramento vna sanatur potentia. igitur exercitio unius sacramenti
+            sanan<lb ed="#N" n="38" break="no"/>tur et omnes potentie. et ita vnum sacramentum sufficit ad omnem
+            sana<lb ed="#N" n="39" break="no"/>tionem.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e192">
+            ⁋ Item baptismus delet originale et actuale et penam
+            <lb ed="#N" n="40"/>debitam vtrique. quod patet ex hoc. quod si baptizatus quis discenderet
+            sta<lb ed="#N" n="41" break="no"/>tim euolaret ad celum. igitur sacramento baptismi confertur
+            ple<lb ed="#N" n="42" break="no"/>num remedium quia et culpe et pene que impediunt salutem. ergo hoc
+            <lb ed="#N" n="43"/>solum sacramentum sufficit.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e203">
+            ⁋ Item vna gratia essentialiter loquendo sufficit
+            <lb ed="#N" n="44"/>ad salutem: vt illa que gratum facit. sed effectus
+            sacramenti<lb ed="#N" n="45" break="no"/>est a gratia siue ipsa gratia. igitur et vnum sacramentum debet sufficere.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e210">
+            ⁋ Item
+            <lb ed="#N" n="46"/>quare non dedit dominus vni sacramento effectus omnium. et videtur quod sic
+            <lb ed="#N" n="47"/>conuenientius fecisset: quia tunc esset euidentior diuina potentia
+            si<lb ed="#N" n="48" break="no"/>ue virtus et maior hominis libertas. Euidentior potentia: qua
+            <lb ed="#N" n="49"/>facilior esset operatio. facilitas enim operationis maioris potentiae
+            <lb ed="#N" n="50"/>indicium est. Maior esset hominis libertas: quia non tot oneraretur
+            <lb ed="#N" n="51"/>sarcinis neque tot subiieceret se creaturis. quod maxime videre
+            <lb ed="#N" n="52"/>tur conueniens tempere gratie. tempus enim gratie est libertatis.
+            Re<lb ed="#N" n="53" break="no"/>sponsio. quod vnum sacramentum non sufficit: sed plura requiruntur.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e230">
+            ⁋ Ad
+            pri<lb ed="#N" n="54" break="no"/>mum obiectum contra hoc dicendum. quod licet in sacramento altaris sit christus totus in
+            <lb ed="#N" n="55"/>quo est plenitudo gratie. tamen qua non est ibi quo ad effectum
+            ple<lb ed="#N" n="56" break="no"/>nitudinis. idest. vt influat secundum suam plenitudinem: necessaria sunt alia
+            <lb ed="#N" n="57"/>sacramenta quibus habeantur spatiales effectus gratie. vt enim dicit Hugo.
+            <lb ed="#N" n="58"/>Corpus et sanguinem christi credimus esse sacramentum gratie spatialis.
+            <lb ed="#N" n="59"/>Preterea. licet representet passionem christi: tamen propter hoc non est vt eo fiant in
+            <lb ed="#N" n="60"/>suscipiente omnia remedia qui recipit homo ex beneficio passionis
+            <lb ed="#N" n="61"/>sed ea vel illud solum que vel quod est institutum a domino.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e250">
+            ⁋ Ad
+            ali<lb ed="#N" n="62" break="no"/>ud dicendum. quod licet habilitationem concomitetur curatio: non tamen curatio
+            <lb ed="#N" n="63"/>quelibet dico necessario: sed illa que est a morbo culpe mortalis et
+            <lb ed="#N" n="64"/>pene illi annexe. Adultus enim baptizatus habilis est ad opera
+            <lb ed="#N" n="65"/>virtutum licet non sit curatus quantum ad morbos. quorum remedia
+            <lb ed="#N" n="66"/>sunt alia sacramenta etiam post commissionem venialium.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e264">
+            ⁋ Ad
+            <lb ed="#N" n="67"/>aliud dicendum. quod baptismus proprie et per se est remedium contra
+            cul<lb ed="#N" n="68" break="no"/>pam originalem et penam illius que est carentia visionis dei.
+            <lb ed="#N" n="69"/>Non enim deletur actuale sola virtute baptismi. immo oportet
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>adultum contritum accedere ad baptismum. vnde penitentia est proprie
+            re<lb ed="#N" n="71" break="no"/>medium contra actuale mortale. Preterea. etsi deleat culpam
+            ori<lb ed="#N" n="72" break="no"/>ginalem et actualem et penam debita illis. scilicet. carentiam visionis
+            <lb ed="#N" n="73"/>dei et penam sensibilem: nihilominus remanent alie pene
+            non<lb ed="#N" n="74" break="no"/>delete que cooperantur ad lapsum in actuale que non delentur. contra
+            <lb ed="#N" n="75"/>quas alia sacramenta sunt remedium. Unde baptismus non
+            ha<lb ed="#N" n="76" break="no"/>bet effectum omniam sacramentorum propter quod alia sunt
+            necessa<lb ed="#N" n="77" break="no"/>ria.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e293">
+            ⁋ Ad aliud dicendum. quod licet gratia vna in essentia sufficiat
+            <lb ed="#N" n="78"/>ad salutem: nihilominus quia corpus quod corrumpitur aggrauat
+            <lb ed="#N" n="79"/>animam. ix. Sapientie misera corruptio hominis frequenter
+            impel<lb ed="#N" n="80" break="no"/>lente natura corrupta: patitur lapsum multiplice et
+            immor<lb ed="#N" n="81" break="no"/>talem et venialem. necessaria est homi pluralitas sacramentorum
+            <lb ed="#N" n="82"/>scilicet qua releuetur a lapsu immortale et veniale: et que
+            suffulci<lb ed="#N" n="83" break="no"/>atur misera corruptio hominis ne labatur. Licet igitur homo vna
+            so<lb ed="#N" n="84" break="no"/>la gratia in essentia gratificetur deo. vnde si decederet
+            sal<lb ed="#N" n="85" break="no"/>uaretur: et ita gratia vnita sufficeret ad salutem: nihilominus
+            <lb ed="#N" n="86"/>propter multiplicem hominis miseriam et lapsum miserie: necessaria est
+            <lb ed="#N" n="87"/>illi multiplex reparatio: et ita multitudo sacramentorum.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e317">
+            ⁋ Ad aliud
+            <lb ed="#N" n="88"/>dicendum. quod cause prime rerum non est solummodo vt sua potentia
+            <lb ed="#N" n="89"/>res sint: sed eius bonitatis est vt bone sint et eius sapientie vt
+            val<lb ed="#N" n="90" break="no"/>de bone sint. Quod autem valde bone sint hoc habent ex esse ordinato
+            <lb ed="#N" n="91"/>in numero. Unde gen. i. Uidit deus cuncta que fecerat et erant
+            <lb ed="#N" n="92"/>valde bona. vnde licet manifestaretur diuina potentia euidentius
+            <lb ed="#N" n="93"/>si vni sacramento esset collata virtus generalis curandi:
+            ni<lb ed="#N" n="94" break="no"/>hilominus per hoc deperiret aliquid bonitati ordinis rerum que
+            <lb ed="#N" n="95"/>maxime est ex ordinatione rerum in numero. Item quia quod
+            sa<lb ed="#N" n="96" break="no"/>nat oculum non sanat calcaneum: vt dicit hiero. maxime
+            con<lb ed="#N" n="97" break="no"/>gruit diuine sapientie morbo differenti multiplici subuenire
+            <lb ed="#N" n="98"/>remedio. Item diuine bonitati congruit secundum modum vtiliorem
+            <lb ed="#N" n="99"/>ipsi curando subuenire. melius autem subuenitur illi
+            multipli<lb ed="#N" n="100" break="no"/>ci remedio quam vnico: propter maiorem exercitationem et
+            humiliati<lb ed="#N" n="101" break="no"/>onem et eruditionem. propter quod etc.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e627-Dd1e352">
+          <head xml:id="v78d89-d1e627-Hd1e354">Articulus 2</head>
+          <p xml:id="v78d89-d1e627-d1e356">
+            <lb ed="#N" n="102"/>⁋ Articulus secundus.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e361">
+            <lb ed="#N" n="103"/>COnsequenter queritur. supposito quod sint plura: an
+            <lb ed="#N" n="104"/>sint plura an pauciora quam. vii. Et videtur quod
+            pau<lb ed="#N" n="105" break="no"/>ciora sic. Sacramenta instituta sunt ad reparationem
+            <lb ed="#N" n="106"/>vulnerum. quod patet per hoc quod significantur per alligationem illam que
+            alli<lb ed="#N" n="107" break="no"/>gauit sauaritanus vulnera illius qui cecidit in latrones luc. x.
+            <lb ed="#N" n="108"/>vt dicit magister in sententia secundum igitur multiplicationem vulnerum debet
+            <lb ed="#N" n="109"/>gratia reparatrix multiplicari. Sed non est nisi duplex lesio in
+            <lb ed="#N" n="110"/>genere. scilicet. culpe et pene. igitur etc. Si autem opertet multiplicari
+            <lb ed="#N" n="111"/>gratiam reparatricem secundum pena et culpam. non secundum quod sumuntur illorum
+            <lb ed="#N" n="112"/>lesiones in genere. sed secundum perticulares lesiones. nec adhuc
+            <lb ed="#N" n="113"/>videtur quod debeant esse tot: quia lesio culpe non est nisi actualis
+            <lb ed="#N" n="114"/>et originalis. actualis duplex: venialis et mortalis. Similiter
+            <lb ed="#N" n="115"/>lesio pene aut est in rationali aut in concupiscibili aut in
+            irasci<lb ed="#N" n="116" break="no"/>bili. et ita triplex. scilicet error dolor et timor. Si autem dicatur quod
+            <lb ed="#N" n="117"/>adhuc vlterius est diuidendum. constat quod tunc multoplura oportet
+            <lb ed="#N" n="118"/>esse sacramenta quam. vii. quia primus descensus actualis
+            morta<lb ed="#N" n="119" break="no"/>lis est ad vii. mortalia. Sic igitur videtur quod licet descendatur ad
+            <lb ed="#N" n="120"/>culpas et penas particulares ex parte culparum: non sunt nisi
+            <lb ed="#N" n="121"/>tres. originalis: actualis duplex: et pene similiter tres. propter quod
+            <lb ed="#N" n="122"/>non nisi sacramenta sex.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e407">
+            ⁋ Item prime differentie peccati sunt
+            actu<lb ed="#N" n="123" break="no"/>ale et originale. Unde si diuisio sacramentorum fieri debeat secundum
+            <lb ed="#N" n="124"/>diuisione peccati quantum ad generales differentias et primas
+            pec<lb ed="#N" n="125" break="no"/>cati: non descendetur ad differentias peccati que sunt mortale et
+            <lb ed="#N" n="126"/>veniale: quia he differentie non sunt prime. sed sunt differentie peccati
+            <lb ed="#N" n="127"/>actualis.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e420">
+            ⁋ Contra. videtur quod debeant esse plura sic. In
+            le<lb ed="#N" n="128" break="no"/>ge fuit vnum sacramentum soluens ab irregularitate. scilicet. aqua
+            <lb ed="#N" n="129"/>expiationis siue lustrationis de qua. Nume. xix. Sed sicut lex
+            <lb ed="#N" n="130"/>carnalis sacramento vno soluit ab irregularitate carnali:
+            <lb ed="#N" n="131"/>similiter lex spiritualis dicet vno soluere ab irregularitate spirituali.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e432">
+            <lb ed="#N" n="132"/>⁋ Item in veteri testamento erant plura sacramentalia in
+            li<lb ed="#N" n="133" break="no"/>quidis. vt vinum oleum sanguis. Cum igitur in nouo testamento
+            <lb ed="#N" n="134"/>duo illorum sint sacramentalia scilicet vinum et oleum: et in diuersis
+            sa<lb ed="#N" n="135" break="no"/>cramentis: videtur quod similiter debet esse tercium. et iuxta illud debet esse vnum
+            <lb ed="#N" n="136"/>sacramentum.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e445">
+            ⁋ Item aridorum quedam erant sacramentalia. vt thus.
+            vngen<lb ed="#N" n="137" break="no"/>tum. thymiama. videtur quod hec similiter in nouo testamento debeant esse
+            <lb ed="#N" n="138"/>sacramentalia. et iuxta hoc aliqua distingui sacramenta siue determiniari.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e452">
+            <lb ed="#N" n="139"/>⁋ Item quare non habemus vnum sacramentum in remedium gule sicut in
+            re<pb ed="#N" n="83"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>medium luxurie.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e461">
+            ⁋ Responsio. vt dicit hugo. Sacramenta dei
+            medi<lb ed="#N" n="2" break="no"/>cine sunt spiritales que foris corporibus adhibentur per visibilem
+            <lb ed="#N" n="3"/>speciem: sed intus animas sanant per inuisibilem virtutem. Cum igitur
+            sa<lb ed="#N" n="4" break="no"/>cramenta sunt medicine: et quod sanat oculum non sanat
+            calca<lb ed="#N" n="5" break="no"/>neum vt dicit hiero. iuxta numerum morborum spiritualium debet
+            su<lb ed="#N" n="6" break="no"/>mi numerus sacramentorum. Septem autem sunt differentie morborum.
+            <lb ed="#N" n="7"/>Prima est originalis peccati. secunda actualis mortalis. tercia
+            <lb ed="#N" n="8"/>venialis. quarta difficultatis discernendi inter bonum et
+            <lb ed="#N" n="9"/>malum. bonum et bonum. malum et malum. quinta difficultatis
+            profi<lb ed="#N" n="10" break="no"/>ciendi in bono. sexta resistendi contra concupiscentias carnis. septinma
+            <lb ed="#N" n="11"/>difficultas standi contra temptationes. Tres prime pertinent ad
+            <lb ed="#N" n="12"/>peccati differentias tres: quatuor pertinent ad penas peccati. Et posunt
+            <lb ed="#N" n="13"/>sumi iuxta illa quatuor genera penarum que ponit beda esse
+            ho<lb ed="#N" n="14" break="no"/>minum inflicta propter primum peccatum scilicet ignorantiam. infirmita
+            <lb ed="#N" n="15"/>tem. maliciam. et concupiscentiam. sed tres ad tres pertinent penas: que sunt
+            <lb ed="#N" n="16"/>in tribus motiuis viribus. rationali. concupiscibili. irascibili.
+            nam<lb ed="#N" n="17" break="no"/>in rationali est difficultas discernendi. in concupiscibili difficul
+            <lb ed="#N" n="18"/>tas resistendi contra concupiscentias carnis. Illa enim potentia est corrupta
+            <lb ed="#N" n="19"/>et infecta. In irascibili est difficultas proficiendi in bono. In
+            <lb ed="#N" n="20"/>hac enim potentia est motus qui ab anima. in concupiscibili qui ad
+            ani<lb ed="#N" n="21" break="no"/>mam: sicut patet in expulsu et attractu. Et intellige de
+            concupisci<lb ed="#N" n="22" break="no"/>bili rationali: irascibili rationali. non de his quas comnes habemus
+            <lb ed="#N" n="23"/>cum brutis. Quarta pena scilicet difficultas standi in bono
+            per<lb ed="#N" n="24" break="no"/>tinet communiter ad omnes tres. Contra has infirmitates sunt
+            da<lb ed="#N" n="25" break="no"/>ta nobis septem sacramenta in adiutorium. Contra originale
+            <lb ed="#N" n="26"/>principaliter baptismus qui successit circumcisioni. cuius effectus
+            <lb ed="#N" n="27"/>spetialis fuit contra originale peccatum. Sed amplior exuberat gratia in
+            <lb ed="#N" n="28"/>baptismo: quia delet et actuale quo ad culpam et penam si digne
+            <lb ed="#N" n="29"/>suscipiatur. Contra actuale principaliter datur penitentia: que est
+            se<lb ed="#N" n="30" break="no"/>cunda tabula post naufragium. et quia multotiens recidiuat homo
+            <lb ed="#N" n="31"/>in actuale peccatum: ideo frequenter iteratur illud sacramentum. Raone
+            <lb ed="#N" n="32"/>vero venialis peccati principaliter datur vnctio extrema.
+            Ra<lb ed="#N" n="33" break="no"/>tione vero difficultatis discernendi datur ordo sicut dicit Qyo.
+            <lb ed="#N" n="34"/>in ecclesiastica hierarchia. ad ordinem pertinet illuinare et
+            pur<lb ed="#N" n="35" break="no"/>gare. quod etiam patet in clauious que in summo ordine conferuntur
+            <lb ed="#N" n="36"/>scilicet potestans ligandi et soluendi: et auctoritas discernendi inter
+            le<lb ed="#N" n="37" break="no"/>pratia et lepram. Ratione difficultatis proficiendi in bono datur
+            ma<lb ed="#N" n="38" break="no"/>trimonium. datur enim in remedium contra carnalis voluptatis
+            cor<lb ed="#N" n="39" break="no"/>ruptelam. Rone difficultatis standi in bono contra
+            temptatio<lb ed="#N" n="40" break="no"/>nes datur sacramentum eukaristie. nam figuratur hoc sacramento panis
+            <lb ed="#N" n="41"/>viuus qui cor hominis confirmat. de quo Io. vi. Ego sum panis
+            <lb ed="#N" n="42"/>viuus etc. Quorundam autem fit simpliciter ablutio: quorundam
+            <lb ed="#N" n="43"/>in parte. Originale enim simpliciter tollitur in baptismo quo ad
+            cul<lb ed="#N" n="44" break="no"/>pam: licet non quo ad penam. tollitur enim reatus originalis
+            pri<lb ed="#N" n="45" break="no"/>mo et diminuitur fomes. Similiter in penitentia remittitur actualis peccati
+            <lb ed="#N" n="46"/>culpa: sed non semper pena. nisi post satisfactionem. Sed difficultas que
+            <lb ed="#N" n="47"/>est pena primo non ex toto tollitur: sed diminuitur. Sic igitur
+            di<lb ed="#N" n="48" break="no"/>stinguuntur sacramenta iuxta generales differentias infirmitatum quarum
+            <lb ed="#N" n="49"/>sunt medicine: et que illis curantur.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e568">
+            ⁋ Uel aliter potest accipi
+            di<lb ed="#N" n="50" break="no"/>uisio sic. Quoddam est sacramentum in genere sacramenti propter se: et quoddam
+            <lb ed="#N" n="51"/>propter alia. propter alia sacramenta est ordo qui est sacramentum
+            mini<lb ed="#N" n="52" break="no"/>sterii. propter se autem in illo genere sunt sacramenta alia que ad alia
+            <lb ed="#N" n="53"/>sacramenta ministranda non accipiuntur: hoec sunt in remedium culpe et
+            pe<lb ed="#N" n="54" break="no"/>ne: que sic distinguuntur. Ingrediens in hanc vitam indiget
+            sa<lb ed="#N" n="55" break="no"/>cramento in remedium contra malum culpe cum qua nascimur. et sic est
+            <lb ed="#N" n="56"/>baptismus in remedium contra originale. Progrediens in vitam
+            <lb ed="#N" n="57"/>indiget sacramento in remedium contra malum culpe in quam ex actu
+            <lb ed="#N" n="58"/>nostro incidimus. et sic est penitentia. Egrediens ab hac vita
+            in<lb ed="#N" n="59" break="no"/>diget sacramento in remedium aliquorum venialium ex sola virtute
+            <lb ed="#N" n="60"/>gratie. et secundum hoc sunt tria sacramenta in remedium culpe. In remedium
+            <lb ed="#N" n="61"/>vero pene similiter sunt tria. Est enim quedam potentia inobedibilis
+            <lb ed="#N" n="62"/>rationi: et est quedam obedibilis potentia. Potentia inobedibilis
+            <lb ed="#N" n="63"/>habet penam concupiscentiam carnis: et in remedium contra istam est
+            matri<lb ed="#N" n="64" break="no"/>monium. Potentia vero obedibilis aut habet infirmitatem
+            stan<lb ed="#N" n="65" break="no"/>di in bono: autm fragilitatem cadendi in malum. Contra vnum
+            <lb ed="#N" n="66"/>est eukaristia: contra aliud est confirmatio. Uel aliter posunt hec
+            <lb ed="#N" n="67"/>tres pene accipi: vt sit vna difficultas resistendi malo. et
+            <lb ed="#N" n="68"/>secundum hoc in remedium accipiatur matrimonium per hoc quod habetur
+            vir<lb ed="#N" n="69" break="no"/>tus resistendi aliqualiter. aliud sit infirmitas ad bonum: contera
+            <lb ed="#N" n="70"/>quod datur confirmatio. tercia facilitas amittendi bonum con
+            <lb ed="#N" n="71"/>quod est eukaristia. Sicut enim nutrimentum corporale est ad
+            con<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>seruationem boni corporalis ne deperdatur: ita nutrimentum
+            spi<lb ed="#N" n="73" break="no"/>ritualem ad custodiam boni spiritualis ne amittatur.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e624">
+            ⁋ Uel alio
+            <lb ed="#N" n="74"/>modo potest sumi ratio diuisionis. vt cum sit duplex reparatio
+            in<lb ed="#N" n="75" break="no"/>digentie necessaria. vna in singulis membris per se: alia vero in
+            cor<lb ed="#N" n="76" break="no"/>pore ecclesie. Duo autem sacramenta sunt ad reparationem indigentie in
+            cor<lb ed="#N" n="77" break="no"/>pore ecclesie. vnum quantum ad multiplicationem spiritualem scilicet ordo:
+            alte<lb ed="#N" n="78" break="no"/>rum quo ad carnalem scilicet matrimonium. Quinque autem sunt ad
+            re<lb ed="#N" n="79" break="no"/>parationem in singulis membris secundum se. Nam indigentia aut
+            <lb ed="#N" n="80"/>est ex culpa: aut ex pena consequente culpam. Culpa autem
+            <lb ed="#N" n="81"/>est duplex. aut originalis: aut actualis. Reparatio
+            indigen<lb ed="#N" n="82" break="no"/>tie ex culpa originali est in baptismo. Reparatio
+            indigen<lb ed="#N" n="83" break="no"/>tie ex culpa actuali est in penitentia. sic ergo quo ad hoc sunt duo
+            sacra<lb ed="#N" n="84" break="no"/>menta. Reparatio vero indigentie ex pena triplex est in
+            sacra<lb ed="#N" n="85" break="no"/>mento: sicut triplex est pena. Est enim pena contracta in
+            ingre<lb ed="#N" n="86" break="no"/>diente ad vitam scilicet pronitas ad malum. que contrahitur cum
+            pec<lb ed="#N" n="87" break="no"/>cato. et contra hoc est confirmatio. et sicut semel contracta est: sic
+            <lb ed="#N" n="88"/>semel datur confirmatio in qua datur firmitas ne cadat
+            <lb ed="#N" n="89"/>homo per temptationem peccati. Est alia pena in progrediente
+            <lb ed="#N" n="90"/>quam accipit ex actualibus scilicet infirmitas ad recidiuum. et cont
+            <lb ed="#N" n="91"/>hanc indiget sacramento eukaristie quod est viaticum quotidianum:
+            <lb ed="#N" n="92"/>vt sustentetur homo in via. Est et tercia pena in
+            egredien<lb ed="#N" n="93" break="no"/>te scilicet infirmitas mentis et corporis. et contra hanc est
+            extrema<lb ed="#N" n="94" break="no"/>vnctio mitigans contra vtramque. et sic in vniuerso sunt septem
+            <lb ed="#N" n="95"/>sacramenta. Duo ad reparationem indigentie in corpore ecclesie:
+            <lb ed="#N" n="96"/>et quinque ad reparationem ecclesie in singulis membris secundum se.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e677">
+            <lb ed="#N" n="97"/>⁋ Uel alio modo sic. Sacramenta sunt amminicula siue
+            iuua<lb ed="#N" n="98" break="no"/>menta virtutum. quia enim homo infirmus est et non potest
+            ex<lb ed="#N" n="99" break="no"/>pedite exequi opera virtutum per se: prouidit sapicentia summa
+            <lb ed="#N" n="100"/>humane infirmitati beneficia sacramentorum. vt illorum
+            subsi<lb ed="#N" n="101" break="no"/>dio melius haberet se in exercitio virtutum. vt enim dicit
+            hu<lb ed="#N" n="102" break="no"/>go. Quia enim homo per se infirmus erat: venerunt sacramenta
+            <lb ed="#N" n="103"/>media inter precepta et promissa: que illum adiuuarent et
+            <lb ed="#N" n="104"/>ad precepta perficienda et ad promissa obtinenda. propter quod
+            <lb ed="#N" n="105"/>dicunt aliqui quod iuxta numerum virtutum potest sumi numerus
+            sacra<lb ed="#N" n="106" break="no"/>mentorum. Iuxt igitur fidem que est sacramentum et principium virtutum
+            su<lb ed="#N" n="107" break="no"/>mitur baptismus qui est primum sacramentum scilicet intrantium. Iuxta
+            <lb ed="#N" n="108"/>spem confirmatio. spe enim corroboratur homo in fide. Iuxtra
+            ca<lb ed="#N" n="109" break="no"/>ritatem sacramentum eukaristie. Iuxtra iusticiam sacramentum penitentie. Iuxtra
+            pru<lb ed="#N" n="110" break="no"/>dentiam sacramentum ordinis. Iuxta temporantiam sacramentum matrimonii.
+            <lb ed="#N" n="111"/>Iuxta fortitudinem sacramentum extreme vnctionis. Nam quia
+            <lb ed="#N" n="112"/>dyabolus insidiatur calcaneo: in fine maxime et fortissime
+            <lb ed="#N" n="113"/>insurgunt temptationes: contra quas maxime est necessaria
+            fortitu<lb ed="#N" n="114" break="no"/>do: cui amminiculatur tunc sacramentum extreme vnctionis.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e719">
+            ⁋ Ad
+            il<lb ed="#N" n="115" break="no"/>lud quod queritur de irregularitate. dicendum quod sacramenta legis gratie
+            <lb ed="#N" n="116"/>sunt proprie ad hoc quod homo sic conseruetur in gratia propter quod sunt in
+            <lb ed="#N" n="117"/>remedium defectuum: qui operantur ad oblationem gratie. vnde sunt
+            in<lb ed="#N" n="118" break="no"/>stituta in remedium culpe vel pene deordinantis siue
+            operan<lb ed="#N" n="119" break="no"/>tis dispositiue ad culpam. talis non est irregularitas que
+            <lb ed="#N" n="120"/>pena est: non deordinans vel operans ad culpam nisi negatie.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e735">
+            <lb ed="#N" n="121"/>⁋ Si autem queratur iuxta quas differentias lesionis sumitur
+            di<lb ed="#N" n="122" break="no"/>stinctio sacramentorum. dicendum quod iuxta differentias generales lesionis:
+            <lb ed="#N" n="123"/>prout lesio est duplex culpe et pene. sed quia vtraque est
+            mul<lb ed="#N" n="124" break="no"/>tiplex: quantum ad primas differentias multiplicantur sacramenta
+            <lb ed="#N" n="125"/>vt dictum est. Preterea. quia illa differentia que est culpe actual
+            <lb ed="#N" n="126"/>duplex est. iuxta duplicem illam differentiam distinguuntur
+            sa<lb ed="#N" n="127" break="no"/>cramenta conuenienter. non autem iuxta illam que originalis est.
+            <lb ed="#N" n="128"/>quia non multiplicatur.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e755">
+            ⁋ Ad illud quod obiicitur de vngento.
+            thu<lb ed="#N" n="129" break="no"/>re. thymiamate et huiusmodi. dicendum quod sacramenta sunt ad reparandam
+            le<lb ed="#N" n="130" break="no"/>sionem. predicta vero tria significant que necessaria sunt ad operandum
+            <lb ed="#N" n="131"/>non ad reparandum. Significant enim ea que pertinent ad actus
+            <lb ed="#N" n="132"/>virtutum. per vngentum enim significatur gratia que est ad
+            me<lb ed="#N" n="133" break="no"/>ritum. per thus deuotio que est in opere meritorio. per thyini
+            <lb ed="#N" n="134"/>ama gloria que est finis operis que soli deo debetur. vnde exo.
+            <lb ed="#N" n="135"/>xxx. dicitur de thymiamate. talem compositionem non
+            fa<lb ed="#N" n="136" break="no"/>ciatis in vsus vestros: quia sanctum est domino. quicumque fecerit
+            si<lb ed="#N" n="137" break="no"/>mile vt odore illius perfruatur peribit de poplis suis. q. do. odore
+            <lb ed="#N" n="138"/>glorie que per thymiama signatur nullus debet perfrui: quia
+            soli<lb ed="#N" n="139" break="no"/>deo debetur. Quidam dicunt quod secundum ista non sunt diuersa
+            sa<lb ed="#N" n="140" break="no"/>cramenta: quia ista significant illa que semper sunt habenda.
+            Si<lb ed="#N" n="141" break="no"/>autem quereretur de sanguine vt supra. dicendum quod sanguis in
+            no<lb ed="#N" n="142" break="no"/>uo testamento non est tantum sacramentu: sed virtus omnium sacramentorum.
+            <pb ed="#N" n="84"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quia in singulis sacramentis est pertieularis gratia: sed in sanguine christi
+            <lb ed="#N" n="2"/>est tot a virtus. et ad hoc significandum fiebat respersio sanguinis
+            <lb ed="#N" n="3"/>in lege veteri super poplum quando iniebat fedus cum domino de sibi obe
+            <lb ed="#N" n="4"/>diendo Exo. xxiiii. Ille sumptum sanguinem respersit in poplumn.
+            <lb ed="#N" n="5"/>Ut enim habetur ab Qrig. postquam christus effudit sanguinem pro
+            no<lb ed="#N" n="6" break="no"/>bis: cessauit omne sacramentum quod fiebat effusione sanguinis.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e805">
+            ⁋ Ad
+            <lb ed="#N" n="7"/>illud quod queritur de gula. dicendum quod opera ex quorum excessu proue
+            <lb ed="#N" n="8"/>nit gula: exerceri possunt sine peccato. vnde exercitium operum huiusmodi
+            <lb ed="#N" n="9"/>non facit peccatum: sed excessus. Non similiter est de operibus luxurie:
+            <lb ed="#N" n="10"/>quia nullo modo posunt exerceri sine peccato. nisi excusentur honesta
+            <lb ed="#N" n="11"/>te nuptiali que est in sacramento martrimonii.
+          </p>
+          <p xml:id="v78d89-d1e627-d1e818">
+            ⁋ Ad id vero quod
+            obiici<lb ed="#N" n="12" break="no"/>tur pro alia parte scilicet quod tantum duo essent sacramenta. Dicendum quod non
+            acci<lb ed="#N" n="13" break="no"/>piuntur secundum hanc generalitatem que est culpe et pene: sed secundum
+            <lb ed="#N" n="14"/>modum dictum. nec accipitur diuisio sacramentorum que respiciunt
+            <lb ed="#N" n="15"/>penam secundum has differentias pene: que sunt timor dolor et error.
+            <lb ed="#N" n="16"/>Illa autem diuisio que est secundum appropriationem virtutum
+            minime<lb ed="#N" n="17" break="no"/>conuenit licet posset fieri quedam moralis appropriatio.
+            Sa<lb ed="#N" n="18" break="no"/>cramenta enim sunt ad reparationem lesionum vel indigentiarum que
+            <lb ed="#N" n="19"/>sunt in corpore ecclesie vel membris secundum se. virtutes vero ad
+            expe<lb ed="#N" n="20" break="no"/>ditiones vel rectitudines operum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

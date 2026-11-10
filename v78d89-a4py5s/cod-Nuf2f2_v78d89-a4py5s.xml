@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 19, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 19, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="137"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4py5s"><!-- q19m3 -->
+        <head xml:id="v78d89-a4py5s-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a4py5s-Hd1e103" type="question-title">In quo sit sicut in subiecto</head>
+        <p xml:id="v78d89-a4py5s-d1e106">
+          <lb ed="#N" n="67"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e111">
+          <lb ed="#N" n="68"/>COnsequenter queritur. Utrum sit in anima secundum se aut
+          <lb ed="#N" n="69"/>determinet aliquem potentiam. vel aliquas
+          poten<lb ed="#N" n="70" break="no"/>tias. Uidetur autem quod insit anime mediantibus
+          po<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>tentiis: quia caracter respicit imaginem. imago autem inest anime
+          <lb ed="#N" n="72"/>mediantibus potentiis: ergo et caracter.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e125">
+          ⁋ Contra. caracter disti
+          <lb ed="#N" n="73"/>guit ouem christi a non oue: et membrum christi a non membro. Sed anima
+          <lb ed="#N" n="74"/>non dicitur ouis nec membrum secundum potentiam sed secundum substantiam: ergo
+          <lb ed="#N" n="75"/>caracter secundum substantiam distiguit. ergo est in anima secundum
+          sub<lb ed="#N" n="76" break="no"/>stantiam.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e137">
+          ⁋ Item cuius est dispositio: et habitus. sed caracter
+          di<lb ed="#N" n="77" break="no"/>sponit ad gratiam et remissionem originalis quod respicit totam
+          <lb ed="#N" n="78"/>animam: ergo caracter in anima substantia est.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e144">
+          ⁋ Item caracter est
+          di<lb ed="#N" n="79" break="no"/>stinctiuus eorum que sunt de ecclesie numero. anima autem ponitur in
+          nu<lb ed="#N" n="80" break="no"/>mero secundum essentiam siue secundum id quod est: ideo etc. sicut enim ponitur
+          <lb ed="#N" n="81"/>in numero nature per suam essentiam: sic et in numero gratie.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e153">
+          ⁋ Item
+          <lb ed="#N" n="82"/>quia caracter est signum comperticipationis sacramentorum. anima autem
+          <lb ed="#N" n="83"/>secundum id quod est subiicit se sacramentis et comperticipat ea.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e160">
+          ⁋ Item
+          <lb ed="#N" n="84"/>distinguit animam ab anima:non potentiam a potentia.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e165">
+          ⁋ Item vt
+          <lb ed="#N" n="85"/>videtur caracter non imponitur in ea parte in qua est imago: quia
+          <lb ed="#N" n="86"/>non distinguit imaginem siue secundum imaginem. In imagine enim
+          <lb ed="#N" n="87"/>pertransit homo. Unde non est qui imaginem non habeat. Unde si faceret
+          <lb ed="#N" n="88"/>distinctionem secundum imaginem: solum distingueret ab aliis creaturis
+          <lb ed="#N" n="89"/>que non sunt ad im aginem quod falsum est.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e178">
+          ⁋ Responsio dicendum. quod
+          <lb ed="#N" n="90"/>caracter inest anime mediantibus potentiis.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e184">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="91"/>obiicitur quod distiguit animam secundum suam substantiam. ergo sic est in ipsa.
+          di<lb ed="#N" n="92" break="no"/>cendum quod non oportet quod propter hoc sit in tota anima. sicut color
+          disti<lb ed="#N" n="93" break="no"/>guit corpus: sed tamen primo modo est in superficie.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e193">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="94" break="no"/>tur quod cuius est dispositio: et habitus. dicendum quod hoc verum est de illa
+          <lb ed="#N" n="95"/>dispositione que fit habitus. Sed de illa non est sic: quia habitus vnius
+          <lb ed="#N" n="96"/>potentie disponit ad habitum alterius. vt habitus fidei ad
+          ha<lb ed="#N" n="97" break="no"/>bitum caracteris. Ex hoc patet responsio ad illud quod sequitur. Licet enim
+          <lb ed="#N" n="98"/>anima sit de numero ecclesie per suam essentiam. et qui sunt de numero
+          ecclesie<lb ed="#N" n="99" break="no"/>distiguuntur signo isto: non propter hoc oportet quod insit anime secundum essenti
+          <lb ed="#N" n="100"/>am suam. quia vt dictum est. ad distinctionem alicuius secundum se totum
+          sur<lb ed="#N" n="101" break="no"/>ficit signum distinguens existens in parte. Similiter non sequitur quod
+          si<lb ed="#N" n="102" break="no"/>anima secundum suam essentiam perticipat ipsa sacramenta cuius perticipatio
+          <lb ed="#N" n="103"/>nis caracter est signum: quod propter hoc ipsum signum insit ipsi
+          substan<lb ed="#N" n="104" break="no"/>tie vel essentie anime. quia signum existens in parte: sufficienter
+          signifi<lb ed="#N" n="105" break="no"/>cat aliquid esse in toto. sicut viror in superficie plante signum est quod to
+          <lb ed="#N" n="106"/>ta planta viuit.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e224">
+          ⁋ Ad aliud dicendum. quod et si distiguit animam
+          <lb ed="#N" n="107"/>ab anima. non propter hoc oportet quod insit substantie vel essentie
+          <lb ed="#N" n="108"/>anime. Quod autem additur quod non distinguit potentiam a potentia
+          <lb ed="#N" n="109"/>Dicendum quod hoc non est verum. quia caracter determinans sibi esse
+          <lb ed="#N" n="110"/>in potentiis et distinguit animam et potentias in quibus est: ab anima
+          <lb ed="#N" n="111"/>et potentiis in quibus non est.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e237">
+          ⁋ Ad illud quod obiicitur. quod non
+          di<lb ed="#N" n="112" break="no"/>stinguit secundum imaginem. quia in imagine pertransit homo etc. dicendum
+          <lb ed="#N" n="113"/>quod hoc non sequitur. Licet enim homo distinguatur a creaturis
+          irra<lb ed="#N" n="114" break="no"/>tionabilibus perticipatione imaginis. et homo non ab homine: quia omnium
+          <lb ed="#N" n="115"/>est imago: nihilominus imago insignita caractere
+          distigui<lb ed="#N" n="116" break="no"/>tur qualitate spieitiali ab imagine non insignita et anima ab anima.
+          <lb ed="#N" n="117"/>Hoc ergo supposito queritur. vtrum sit in potentia affectiua
+          <lb ed="#N" n="118"/>vel cognitiua. videtur quod in cognitiua: quia caracter distinctiuus
+          <lb ed="#N" n="119"/>est et est ad discernendum. Discretio autem per se cognitiua est.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e257">
+          ⁋ Item
+          <lb ed="#N" n="120"/>caracter increatus idem est in subsa et ypostasi cum sapiscentia dei
+          incre<lb ed="#N" n="121" break="no"/>ata que dicit rationem cognitionis: ergo similiter caracter creatus saltem per
+          <lb ed="#N" n="122"/>appropriationem respicit cognitionem.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e266">
+          ⁋ Item. ii. Agee. ponam
+          te<lb ed="#N" n="123" break="no"/>quasi signaculum. glo. vt quicumm crediderit in deum. hoc quasi anulo
+          consi<lb ed="#N" n="124" break="no"/>gnetur. Ex hoc videtur quod caracter respiciat fidem. fides autem
+          re<lb ed="#N" n="125" break="no"/>spicit cognitiuam ergo et caracter.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e276">
+          ⁋ Contra. eiusdem potentie est
+          <lb ed="#N" n="126"/>suscipere actum aliquem et disponere ad illum. sed caracter disponit
+          <lb ed="#N" n="127"/>ad gratiam. gratia autem est in affectiua: ergo et caracter.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e283">
+          ⁋ Preterea.
+          <lb ed="#N" n="128"/>caracter respicit imaginem. imprimitur enim mediante inuocatione
+          <lb ed="#N" n="129"/>trinitatis. respicit ergo non cognitiuam vel motiuam. sed vtramque.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e290">
+          <lb ed="#N" n="130"/>⁋ Item caracter est quedam configuratio. sed configurari dicitur
+          <lb ed="#N" n="131"/>anima trinitati secundum tres potentias non vnam tantum: ergo etc.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e297">
+          ⁋ Item
+          <lb ed="#N" n="132"/>caracter disponit pricipaliter ad imaginis reformationem. sed
+          re<lb ed="#N" n="133" break="no"/>formatio imaginis attenditur quantum ad informationem ipsarum
+          potenti<lb ed="#N" n="134" break="no"/>arum vt conuertuntur ad deum etc. CContra. cum vnum accidens sit in
+          <lb ed="#N" n="135"/>vno subiecto: caracter autem est accidens: ergo est in vna potentia
+          <lb ed="#N" n="136"/>vt in subiecto.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e310">
+          ⁋ Responsio. quidam dicunt et non absque ratione. quod
+          ca<lb ed="#N" n="137" break="no"/>racter est in cognitiua propter rationem significandi: et quoniam signum quod
+          <lb ed="#N" n="138"/>est ratio cognoscendi respicit potentiam cognitiuam. Quidam
+          <lb ed="#N" n="139"/>autem quod in tota imagine propter rationem configurandi. et quia actus
+          caracte<lb ed="#N" n="140" break="no"/>ris a quo nomen accepit et principalis est configurare deo: ideo
+          di<lb ed="#N" n="141" break="no"/>cunt quod sit i anima secundum imagiem. secundum proprietate et veritatem. et
+          si<pb ed="#N" n="138"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>sit in tribus: tamen appropriatur cognitiue. ideo per appropriationem
+          <lb ed="#N" n="2"/>est in cognitiua. Dicendum ergo quod caracter proprie est in
+          vi<lb ed="#N" n="3" break="no"/>cognitiua. respicit enim imaginem creatam in anima. que imago
+          li<lb ed="#N" n="4" break="no"/>cet respiciat omnes potentias anime: tamen magis respicit
+          cogniti<lb ed="#N" n="5" break="no"/>uam. secundum quod dicit augustinus in libro de anima et spiritu. mens est suppremum
+          <lb ed="#N" n="6"/>eorum que sunt in anima. habens imaginem dei in potentia
+          cogno<lb ed="#N" n="7" break="no"/>scendi: et similitudinem in potentia diligendi. Nec per hoc
+          exclu<lb ed="#N" n="8" break="no"/>dere intendit quin vtrumque scilicet imago et similitudo attingat et
+          co<lb ed="#N" n="9" break="no"/>gnitiuam et affectiuam: sed loquitur per appropriationem. quia
+          ima<lb ed="#N" n="10" break="no"/>go proprie et principaliter respicit quod est cognitiue. scilicet
+          me<lb ed="#N" n="11" break="no"/>moriam et intelligentiam. similitudo vero. quod est affectiue scilicet
+          vo<lb ed="#N" n="12" break="no"/>luntatem. propter hoc dicimus quod caracter qui distinctiuus est
+          ima<lb ed="#N" n="13" break="no"/>ginis per appropriationem: respicit potentiam cognitiuam.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e354">
+          ⁋ Ad hoc
+          <lb ed="#N" n="14"/>autem quod obiicitur quod deberet respicere vtramque scilicet cognitiuam et
+          <lb ed="#N" n="15"/>motiuam. pe esponsio quod respicit vnam principaliter alteram se
+          <lb ed="#N" n="16"/>cundario.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e364">
+          ⁋ Ad hoc quod obiicitur. quod caracter est causa gratie et gratia
+          <lb ed="#N" n="17"/>est in affectiua etc. Responsio quod non est semper dispositio in ea
+          <lb ed="#N" n="18"/>dem vi vel potentia in qua natus est actus: sed vel in eadem vel in
+          <lb ed="#N" n="19"/>potentia precedente sicut est hic: quia gratia que assimilat ipsam animam
+          <lb ed="#N" n="20"/>deo in affectiua penes quam proprie attenditur similitudo. caracter
+          <lb ed="#N" n="21"/>autem est in potentia antecedente id estin cognitiua. Et est alia instam
+          <lb ed="#N" n="22"/>tia quia cognitio disponit ad affectionem et ad motum ipsius gratie. non
+          <lb ed="#N" n="23"/>dico ad ipsam gratiam: et tamen cognitio est in alia potentia quam
+          af<lb ed="#N" n="24" break="no"/>fectio.
+        </p>
+        <p xml:id="v78d89-a4py5s-d1e384">
+          ⁋ Ad illud quod obiicitur quod vnum accidens non est nisi in
+          <lb ed="#N" n="25"/>vno subiecto. dicendum quod nihis impedit vnum accidens esse in
+          <lb ed="#N" n="26"/>pluribus quando illa radicantur siue fundantur in vno. sicut vna gratia
+          <lb ed="#N" n="27"/>in pluribus potentiis et vna sanitas in pluribus membris. potest
+          <lb ed="#N" n="28"/>ergo vnum accidens esse in pluribus potentiis. quando illud accidens
+          <lb ed="#N" n="29"/>non respicit vnam potentiam: sed eas secundum quod fundantur siue
+          vniun<lb ed="#N" n="30" break="no"/>tur in vno. Unde sicut imago vna est et tamen in tribus potentiis. quia enim
+          <lb ed="#N" n="31"/>imago importat discretionem: ideo plura respicit siem
+          subie<lb ed="#N" n="32" break="no"/>ctum vnum. similiter potest dici de caractere. et est exemplum in
+          nu<lb ed="#N" n="33" break="no"/>mero. ternarius enim vnus est in tribus homibus et vnus est. quamuis
+          <lb ed="#N" n="34"/>sunt plures illi in se qui sunt vnum subiectum ternarii. et
+          nul<lb ed="#N" n="35" break="no"/>lus eorum per se tantum est subiectum: ita et in caractere intelligendum
+          <lb ed="#N" n="36"/>est. qui dicit sicut pretactum est quandam configurationem anime ad
+          bea<lb ed="#N" n="37" break="no"/>tam trinitatem mediam inter configurationem anime quantum ad naturam
+          <lb ed="#N" n="38"/>et configurationem eiusdem quantum ad gratiam gratum facientem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

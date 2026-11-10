@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 69, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 69, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="451"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ad5wo3"><!-- q69m7 -->
+        <head xml:id="v78d89-ad5wo3-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-ad5wo3-Hd1e103" type="question-title">Utrum requiritur contritio de peccato commisso per ignorantiam</head>
+        <p xml:id="v78d89-ad5wo3-d1e106">
+          <lb ed="#N" n="92"/>⁋ Membrum septimum
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e111">
+          <lb ed="#N" n="93"/>COnsequenter queritur. vtrum requiritur contritio
+          <lb ed="#N" n="94"/>de peccato commisso per ignorantiam. Quod sic:
+          vi<lb ed="#N" n="95" break="no"/>detur per hoc. quod est peccatum actu voluntario
+          con<lb ed="#N" n="96" break="no"/>missum.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e122">
+          ⁋ Preterea. peccatum per ignorantiam
+          com<lb ed="#N" n="97" break="no"/>missum est quoddam genus peccati distinctum contra peccatum
+          <lb ed="#N" n="98"/>commissum per infirmitatem et maliciam. ergo ad eius purgationem
+          re<lb ed="#N" n="99" break="no"/>quiritur contritio distincta et specialis: et non sufficit generalis.
+          <lb ed="#N" n="100"/>sicut nec de aliis peccatis distinctis speciealibus differentiis
+          suffi<lb ed="#N" n="101" break="no"/>cit contritio generalis.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e136">
+          ⁋ Item psalmus. Delicta iuuentutis mee
+          <lb ed="#N" n="102"/>et ignorantias meas ne memineris. Glo id est peccata que
+          igno<lb ed="#N" n="103" break="no"/>ranter feci ne memineris id est ne serues ad vindictam perpetuam.
+          <lb ed="#N" n="104"/>Ecce quod huiusmodi peccata reseruantur ad vindictam perpetuam. ergo
+          <lb ed="#N" n="105"/>necesse est quod contritione deleantur sicut alia mortalia.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e147">
+          ⁋ Item
+          <lb ed="#N" n="106"/>Leuit. iiii. secundum legem speciales fiebant oblationes et distincte pro
+          <lb ed="#N" n="107"/>peccatis per ignorantiam commissis. vtpote pro peccatis sacerdotis
+          <lb ed="#N" n="108"/>offerebatur vitulus immaculatus. pro peccato alicuius de
+          tur<lb ed="#N" n="109" break="no"/>ba similiter vitulus. pro peccato anime capra Leuit. v. Ecce quod secundum
+          le<lb ed="#N" n="110" break="no"/>gem ad purgationem huius peccati fiebat oblatio speciealis et distincta
+          <lb ed="#N" n="111"/>ex quo videtur quod requiritur ad illius purgationem sacrificium specieale:
+          <lb ed="#N" n="112"/>id est contritio speciealis. de quo psalmus. Sacrificium deo spiritus
+          contribu<lb ed="#N" n="113" break="no"/>latus etc. Glo. spiritus contritus est sacrificium quo peccata soluuntur.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e167">
+          <lb ed="#N" n="114"/>Pro alia parte posite sunt rationes secda. in tractatu de penitentia
+          <lb ed="#N" n="115"/>in generali. vbi quedam tacta sunt que valent ad istud
+          probleu<lb ed="#N" n="116" break="no"/>ma.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e176">
+          ⁋ Responsio. dicendum quod de peccatis commissis per ignorantiam
+          <lb ed="#N" n="117"/>requiritur contritio general. maxime ab illis qui discretione vigent quos
+          <lb ed="#N" n="118"/>non latet quod multa peccata per ignorantiam comittuntur.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e183">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="119"/>obiicitur. quod huiusmodi peccatum est actu voluntario commissum etc.
+          Dicen<lb ed="#N" n="120" break="no"/>dum quod similiter et de dolore actuali est purgandum.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e190">
+          ⁋ Ad illud quod ob
+          <lb ed="#N" n="121"/>iicitur. quod est peccatum distinctum propriis differentiis etc. Dicendum quod
+          di<lb ed="#N" n="122" break="no"/>stinctio peccati commissi non est causa precisa et sufficiens quare ad eius
+          re<lb ed="#N" n="123" break="no"/>missionem requiritur contritio speciealis sed potius conscientia perpetrationis tal.
+          <lb ed="#N" n="124"/>de peccato autem per ignorantiam penitus commisso non est remorsus
+          ali<lb ed="#N" n="125" break="no"/>quis conscinte: vnde nec tentio contritionis specialis. Nulla enim est
+          rationdo<lb ed="#N" n="126" break="no"/>lendi pro aliquo quod omnino ignoratur.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e207">
+          ⁋ Ad illud quod obiicitur. quod
+          <lb ed="#N" n="127"/>peccatum per ignorantiam commissum seruatur ad vindictam eternam
+          <lb ed="#N" n="128"/>etc. Dicendum quod hoc non est quia est commissum per ignorantiam simpliciter: sed
+          <lb ed="#N" n="129"/>quia ignorantia illa est affectata vel supina vel ignara iuris.
+          <lb ed="#N" n="130"/>vel aliquo modo alio degenerans vicium per quod illud peccatum
+          commis<lb ed="#N" n="131" break="no"/>sum est.
+        </p>
+        <p xml:id="v78d89-ad5wo3-d1e220">
+          ⁋ Ad illud quod obiicitur. quod in lege distinguuntur
+          sacrifi<lb ed="#N" n="132" break="no"/>cia etc. Dicendum quod illa distinctio fiebat ratione distinctionis
+          <lb ed="#N" n="133"/>personarum peccantium per ignorantiam. vtpote quando sacer vnctus
+          pec<lb ed="#N" n="134" break="no"/>cauerat per ignorantiam. vel princeps vel aliquis de turba vel
+          <lb ed="#N" n="135"/>alius: vt tactum est. Preterea. hec lex dictabat has oblationes
+          <lb ed="#N" n="136"/>debere fieri intellecto peccato commisso per ignorantiam.
+          <lb ed="#N" n="137"/>Unde Leuit. iiii. et. v. vbi loquitur de peccato turbe et
+          pec<lb ed="#N" n="138" break="no"/>cato anime: addit et postea intellexerit peccatum suum vel
+          <lb ed="#N" n="139"/>recognouerit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

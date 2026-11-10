@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 12, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 12, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="99"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3hfvd"><!-- q12m1 -->
+        <head xml:id="v78d89-a3hfvd-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a3hfvd-Hd1e103" type="question-title">De ordine institutionis baptismi</head>
+        <p xml:id="v78d89-a3hfvd-d1e106">
+          <lb ed="#N" n="17"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a3hfvd-d1e111">
+          <lb ed="#N" n="18"/>CIrca primum sic. Uidetur quod debuit institui ante
+          <lb ed="#N" n="19"/>circumcisionem. vt enim habetur a hug. secundum quod
+          ma<lb ed="#N" n="20" break="no"/>gis appropinquabit tempus reuelationis gratie:
+          <lb ed="#N" n="21"/>debebant institui signa euidentiora. Sed
+          cir<lb ed="#N" n="22" break="no"/>cumcisio est signum euidentius quam baptismus. ergo baptismus
+          de<lb ed="#N" n="23" break="no"/>bebat institui ante circumcisionem. probatio medie. euidentia
+          <lb ed="#N" n="24"/>siue expressio signi penes tria notatur: que sunt distinctio
+          <lb ed="#N" n="25"/>significatio et certificatio. Sed circumcisio expressius
+          distin<lb ed="#N" n="26" break="no"/>guit quam baptisma: et euidentius significat: et melius
+          certifi<lb ed="#N" n="27" break="no"/>cat. igitur etc. Quod expressius distinguit patet: quia expressissimum
+          si<lb ed="#N" n="28" break="no"/>gnum reliquit. Quod euidentius signat patet: et in relatione ad
+          <lb ed="#N" n="29"/>causam: et in relatione ad effectum. Ad causam: quia euidentius
+          signi<lb ed="#N" n="30" break="no"/>ficat passionem christi que facta est in effusione sanguinis: similit
+          <lb ed="#N" n="31"/>et circumcisio. non ita baptisma. In relatione ad effectum: quia eo
+          <lb ed="#N" n="32"/>quod circumciditur membrum deseruiens propagationi vbi magis viget
+          <lb ed="#N" n="33"/>incentiuum originalis: euidentissime signatur amotio origina
+          <lb ed="#N" n="34"/>lis. non sic in baptismo. Manifestius in certificando. quod patet.
+          <lb ed="#N" n="35"/>quia duplex est in fide certitudo scilicet respectu obiecti: et
+          creden<lb ed="#N" n="36" break="no"/>tis. quia in fide est certitudo creditorum. et similiter quantum ad hitum
+          fi<lb ed="#N" n="37" break="no"/>dei: quia fidelis certus est de sua fide. Similiter est duplex certitu
+          <lb ed="#N" n="38"/>do in circumcisione. In circumcisione enim est certitudo quantum ad
+          <lb ed="#N" n="39"/>illud quo circumcidendum est. Similiter circumcisus est certus quod est
+          <lb ed="#N" n="40"/>circumcisus. baptizatus autem non est certus quod accepit
+          sacramen<lb ed="#N" n="41" break="no"/>tum baptismi. igitur etc.
+        </p>
+        <p xml:id="v78d89-a3hfvd-d1e166">
+          ⁋ Contra. secundum processum temporis et
+          appro<lb ed="#N" n="42" break="no"/>ximationem maiorem aduentus saluatoris: conueniebat
+          sacramen<lb ed="#N" n="43" break="no"/>ta perfectiora succedere minus perfectis. vt vult hugo. et
+          sacra<lb ed="#N" n="44" break="no"/>mentum baptismi fuit perfectius sacramento circumcisionis. ergo
+          <lb ed="#N" n="45"/>etc. Unde hugo. quia circumcisio eas tantum que foris sunt
+          enormi<lb ed="#N" n="46" break="no"/>tates amputare potest. eas vero que intrinsecus sunt
+          pollutio<lb ed="#N" n="47" break="no"/>num sordes mundare non potest. venit post circumcisionem lauacrum
+          <lb ed="#N" n="48"/>aque: totum purgans vt perfecta iusticia signaretur.
+        </p>
+        <p xml:id="v78d89-a3hfvd-d1e185">
+          ⁋ Responsio.
+          <lb ed="#N" n="49"/>verbum hugo. quod dicitur quod signa debent succendere secundum quod sunt
+          <lb ed="#N" n="50"/>euidentiora. hoc intelligendum est respectu signati proprii quod est
+          <lb ed="#N" n="51"/>res ipsius sacramenti: non quantum ad vnanquamque significationem
+          <lb ed="#N" n="52"/>misticam. Baptismus enim significat rem baptismi expressius
+          <lb ed="#N" n="53"/>scilicet deletionem originalis siue iustificationem paruuli: quam circumci
+          <lb ed="#N" n="54"/>sio. vnde hug. quia circumcisio eas tantum que foris enormitates etc.
+          <lb ed="#N" n="55"/>vt su. Preterea. quod dicitur expressius distinguere hoc non est verum
+          sim<lb ed="#N" n="56" break="no"/>pliciter. expressius enim distinguit ad hominem exteriorem: sed non quantum
+          <lb ed="#N" n="57"/>ad interiorem. caracter enim baptismalis certius distinguit
+          <lb ed="#N" n="58"/>qui non est alii similis: quam carnalis qui similem habere potest. vt si
+          contin<lb ed="#N" n="59" break="no"/>geret propter infirmitatem aliquem circumncidi. Similiter quia dicitur quod
+          <lb ed="#N" n="60"/>euidentius significat respectu cause: non est verum. quia effusio
+          <lb ed="#N" n="61"/>sanguinis non ita euidenter representat mortem christi sicut baptismus
+          <lb ed="#N" n="62"/>quia immersio in aqua significat simmersionem christi in morte.
+          <lb ed="#N" n="63"/>Sexto enim ad Ro. dicitur. Consepulti sumus cum illo per baptismum
+          <lb ed="#N" n="64"/>in mortem. ibidem dicit glo. quod per immersionem et eleuationem
+          signi<lb ed="#N" n="65" break="no"/>ficat baptismus passionem christi et resurrectionem. Similiter quod dict. quod
+          <lb ed="#N" n="66"/>euidentius significat respectu effectus. falsum est vt dicit
+          hu<lb ed="#N" n="67" break="no"/>go. quia circumcisio eas tantum que foris sunt enormitates amputa
+          <lb ed="#N" n="68"/>re potest etc. Preterea. istud patet consideratis proprietatibus aqua et
+          effe<cb ed="#N" n="b"/><lb ed="#N" n="69" break="no"/>ctibus baptismi que concurrunt ad iustificationem. et comparatis ad
+          <lb ed="#N" n="70"/>eas que sunt circumcisionis. proprietates aque sunt virtus mun
+          <lb ed="#N" n="71"/>dificatiua perfecte. frigiditas. dyaphanitas. perspicuitas.
+          <lb ed="#N" n="72"/>Quod autem dicitur quod in baptismo non est illa certitudo que est
+          <lb ed="#N" n="73"/>in circumcisione. quia in circumciso ex euidentia facti innotescit
+          <lb ed="#N" n="74"/>quod circumcisus est. non autem sic est in baptismo. Dicendum quod
+          ca<lb ed="#N" n="75" break="no"/>racter circumcisionis potest similem habere: caracter baptismalis
+          <lb ed="#N" n="76"/>non. vnde ipsum signum baptismi maiorem habet euidentiam quantum
+          <lb ed="#N" n="77"/>est de se: licet non innotescat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

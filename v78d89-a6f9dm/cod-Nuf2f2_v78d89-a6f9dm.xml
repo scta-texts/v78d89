@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 28, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 28, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="179"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6f9dm"><!-- q28m6 -->
+        <head xml:id="v78d89-a6f9dm-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-a6f9dm-Hd1e103" type="question-title">De loco confirmationis</head>
+        <p xml:id="v78d89-a6f9dm-d1e106">
+          <lb ed="#N" n="104"/>⁋ Membrum sextum
+        </p>
+        <p xml:id="v78d89-a6f9dm-d1e111">
+          <lb ed="#N" n="105"/>SEquitur de loco vnctionis siue signationis. de
+          <lb ed="#N" n="106"/>quo Rabanus de conse. di. iiii. Nouissime
+          si<lb ed="#N" n="107" break="no"/>gnatur baptizatus cum crismate in
+          summita<lb ed="#N" n="108" break="no"/>te capitis per sacerdotem: per pontificem vero in
+          fron<lb ed="#N" n="109" break="no"/>te. Hao queritur qua ratione baptizatus signatur in fronte in
+          con<lb ed="#N" n="110" break="no"/>firmatione. quia cum vertex sit pars dignior quantum ad situm: et
+          cor<lb ed="#N" n="111" break="no"/>quantum ad virtutem. videtur quod potius deberet in confirmatione
+          consi<lb ed="#N" n="112" break="no"/>gnari in vertice vel corde. Uel videtur quod in lingua vel
+          ore<lb ed="#N" n="113" break="no"/>confirmetur ad robur confitendi nomen christi. que quidem confessio fit
+          <lb ed="#N" n="114"/>ore vel lingua.
+        </p>
+        <p xml:id="v78d89-a6f9dm-d1e135">
+          ⁋ Item que est ratio istius duplicis vnctionis.
+          <lb ed="#N" n="115"/>scilicet in capite a sacerdote: in fronte a potestifice.
+        </p>
+        <p xml:id="v78d89-a6f9dm-d1e141">
+          ⁋ Responsio.
+          si<lb ed="#N" n="116" break="no"/>cut dictum est: hoc sacramentum datur in robur. vt confirmati
+          <lb ed="#N" n="117"/>idonei sint portare nomen domini coram regibus et principibus:
+          <lb ed="#N" n="118"/>testificando ipsum et confitendo siue illius fidem. quia vero inter
+          <lb ed="#N" n="119"/>partes corporis que se sensibus nostris offerunt caput est dignius
+          <lb ed="#N" n="120"/>et in capite facies scilicet anterior pars. et ideo hoc sacramentum non datur
+          <lb ed="#N" n="121"/>in facie sed magis in fronte. quia ibi est sedes verecundie. Unde
+          <lb ed="#N" n="122"/>quia hoc sacramentum est contra confusionem et verecundiam confitendi nomen
+          <lb ed="#N" n="123"/>christi. que linguam contrahit ne aparte dicat quod habet in corde:
+          con<lb ed="#N" n="124" break="no"/>uenit hoc sacramentum in fronte dari. Frons quidem est pars
+          faciei<lb ed="#N" n="125" break="no"/>eminentior et sedes verecundie. patet ergo quare magis competit
+          <lb ed="#N" n="126"/>quod frons sit locus vnctionis quam vertex. Preterea. cor licet sit pars
+          <lb ed="#N" n="127"/>dignior quantum ad virtutem et ad operationem: tamen occultum est
+          <lb ed="#N" n="128"/>et latens interius nec huic vnctioni idoneum.
+          sacramen<lb ed="#N" n="129" break="no"/>ta enim sicut sunt sensibus offerenda: sic circa partes
+          sensi<lb ed="#N" n="130" break="no"/>bus manifeste sunt exercenda.
+        </p>
+        <p xml:id="v78d89-a6f9dm-d1e176">
+          ⁋ Quare non fit in lingua
+          <lb ed="#N" n="131"/>vel in ore patet ex predictis. Confessio enim oris
+          subtra<lb ed="#N" n="132" break="no"/>hitur ex verecundia cuius sedes est in fronte. conuenit ergo
+          <lb ed="#N" n="133"/>vt fiat vnctio in fronte in robur contra verecundiam et
+          con<lb ed="#N" n="134" break="no"/>fusionem: vt sic soluatur os ad liberam christi
+          confessio<lb ed="#N" n="135" break="no"/>nem.
+        </p>
+        <p xml:id="v78d89-a6f9dm-d1e189">
+          ⁋ Ad illud quod queritur de ratione duplicis
+          vn<lb ed="#N" n="136" break="no"/>ctionis. Dicendum quod vnctio que fit a sacerdote:
+          solum<lb ed="#N" n="137" break="no"/>modo datur vt illa vnctione se regem et sacerdotem esse
+          <lb ed="#N" n="138"/>agnoscat factum. Regem scilicet non solum regni
+          e<lb ed="#N" n="139" break="no"/>terni heredem: sed et virtute regia preditum. Ut se
+          <pb ed="#N" n="180"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>regaliter regat et gerat: et in seipso et de seipso iudicium et
+          <lb ed="#N" n="2"/>iusticiam faciat. viciaque et peccata tanquam latrones et
+          rapto<lb ed="#N" n="3" break="no"/>res ceterosque maleficos spirituales vincat. Unctio data
+          <lb ed="#N" n="4"/>a pontifice datur vt vtriusque honoris memor regii scilicet et
+          sa<lb ed="#N" n="5" break="no"/>cerdotii adeo strenue agat: ne regni honorem deturpet et
+          <lb ed="#N" n="6"/>dehonestet viriliter succumbendo: et ne sacerdotalem sanctitaten
+          <lb ed="#N" n="7"/>inquinet aut prophanet se execrabiliter polluendo. vel vt
+          me<lb ed="#N" n="8" break="no"/>mor sit patris sui regis scilicet vniuersalis. et sacerdotis: qui in
+          <lb ed="#N" n="9"/>cruce tam magnifice tamque strenue egit. Prima vnctio in
+          <lb ed="#N" n="10"/>modum crucis et forma fit. vt per crucem redemptoris siue per
+          <lb ed="#N" n="11"/>crucifixum bona accepta in baptismate habere cognoscantur.
+          <lb ed="#N" n="12"/>Secunda inunctio fit in eundem modum: vt in crucifixo et per
+          <lb ed="#N" n="13"/>crucifixum fit tota spes et fiducia et victorie confirmato: vt in
+          <lb ed="#N" n="14"/>temptationibus suis recogitet eum qui talem sustinuit contra seipsum
+          <lb ed="#N" n="15"/>contradictionem. xi. ad Heb. Et eo in carne passo eadem
+          cogita<lb ed="#N" n="16" break="no"/>tione armetur. iii. ca. prime canonice petri. Et vt scuat se ad
+          <lb ed="#N" n="17"/>tormenta et ludibria missum. Sic quidem christus passus est pro
+          no<lb ed="#N" n="18" break="no"/>bis vobis relinquens exemplum vt sequamin vestigia eius. i.
+          <lb ed="#N" n="19"/>ca. Pe. ii. Alia est ratio distinctionis quam ponit Rabanus
+          di<lb ed="#N" n="20" break="no"/>cens. In prima vnctione signatur super ipsum spiritus sancti
+          descen<lb ed="#N" n="21" break="no"/>sio ad habitationem deo consecrandam. In secunda eiusdem
+          spiri<lb ed="#N" n="22" break="no"/>tussancti septiformis gratia cum omni plenitudine
+          sanctita<lb ed="#N" n="23" break="no"/>tis et scientie venire in hominem declaratur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

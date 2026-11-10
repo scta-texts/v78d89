@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="58"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e506"><!-- q7m7 -->
+        <head xml:id="v78d89-d1e506-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-d1e506-Hd1e103" type="question-title">De efficacia circumcisionis</head>
+        <p xml:id="v78d89-d1e506-d1e106">
+          <lb ed="#N" n="24"/>⁋ Membrum septimum
+        </p>
+        <p xml:id="v78d89-d1e506-d1e111">
+          <lb ed="#N" n="25"/>SEquitur mquirere de efficacia circumcisionis.
+          <lb ed="#N" n="26"/>Primo vtrum caracterem imprimeret
+          circumci<lb ed="#N" n="27" break="no"/>sio. Secundo vtrum aliquem effectum haberet
+          purgatio<lb ed="#N" n="28" break="no"/>nis aut tantum significationis. Tercio vtrum
+          pur<lb ed="#N" n="29" break="no"/>gatio peccatum purgaret. Quarto vtrum in circumcisione tollere
+          <lb ed="#N" n="30"/>tur peccatum. aut cum hoc conferebatur gratia ex vi
+          circumcisi<lb ed="#N" n="31" break="no"/>onis. Quinto de eius efficacia in comparatione.
+        </p>
+        <div xml:id="v78d89-d1e506-Dd1e129">
+          <head xml:id="v78d89-d1e506-Hd1e131">Articulus 1</head>
+          <p xml:id="v78d89-d1e506-d1e133">
+            <lb ed="#N" n="32"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e506-d1e138">
+            <lb ed="#N" n="33"/>QUeritur ergo primo. Si caracter imprimebatur in
+            cir<lb ed="#N" n="34" break="no"/>cumcisione. Quod sic: videtur. sacramentum non iterari et
+            cara<lb ed="#N" n="35" break="no"/>cterem imprimi coneqenter se habent in sacramentis.
+            igi<lb ed="#N" n="36" break="no"/>tur cum circumcisio non iterabatur vt infra habebitur: videtur
+            <lb ed="#N" n="37"/>quod in illa imprimebatur caracter.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e151">
+            ⁋ Item vt habetur a ioh.
+            da<lb ed="#N" n="38" break="no"/>masce. Circumcisio fuit ad distinguendum fidelem ab
+            infide<lb ed="#N" n="39" break="no"/>li: sed duplex est distinctio visibilis exterius et inuisibilis inte
+            <lb ed="#N" n="40"/>rius. aut distinctione exteriori constat non habet circumcisio quod
+            <lb ed="#N" n="41"/>sit sacramentum: igitur requiritur distinctio interior: hanc autem
+            di<lb ed="#N" n="42" break="no"/>cimus caracterem.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e164">
+            ⁋ Contra. aliqui post circumcisionem suam
+            <lb ed="#N" n="43"/>baptizati erant in tempore gratie. sed constat quod in baptismo
+            impri<lb ed="#N" n="44" break="no"/>mebatur caracter. et caracter fidei quo distinguitur fidelis ab
+            <lb ed="#N" n="45"/>infideli. igitur cum idem caracter scilicet fidei distinguens fideles
+            <lb ed="#N" n="46"/>ab infidelibus fuit impressus in circumcisione: relinquitur quod
+            <lb ed="#N" n="47"/>alter superfluit: quod non inuenitur in operibus summe sapientie.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e178">
+            <lb ed="#N" n="48"/>Responsio. quod non imprimebatur caracter interior: nihilominus
+            <lb ed="#N" n="49"/>fuit signaculum distinguens scilicet quod in ipsa delebatur originale quod
+            <lb ed="#N" n="50"/>non fuit in infidelibus. filius enim dei caracter est vt dicit criso.
+            <lb ed="#N" n="51"/>super illud. i. ad Heb. Qui cum sit splendor glorie et
+            figura<lb ed="#N" n="52" break="no"/>etc. Ab isto caractere increato. imprimitur caracter creatus
+            <lb ed="#N" n="53"/>Uerbum enim increatum per verbum creatum scilicet expressum. in
+            inuo<lb ed="#N" n="54" break="no"/>catione trinitatis caracterem imprimit. cuius forma ostensa
+            <lb ed="#N" n="55"/>fuit in baptismo christi Math. iii. cum dicitur. vidit spirium dei
+            de<lb ed="#N" n="56" break="no"/>scendentem sicut columbam et venientem super se. et ecce vox de
+            ce<lb ed="#N" n="57" break="no"/>lis dicens. Lic est filius meus dilectus. Ecce hic trinitas quia
+            <lb ed="#N" n="58"/>vox patris: spiritus sanctus in specie columbe: filius baptizatus. Unde
+            <lb ed="#N" n="59"/>in manifestatione trium personarum in baptismo christi ostensa
+            fu<lb ed="#N" n="60" break="no"/>it forma baptismi. scilicet in inuocatione trinitatis. Unde non im
+            <lb ed="#N" n="61"/>primitur caracter qui est signum trinitatis nisi in fide et
+            inuoca<lb ed="#N" n="62" break="no"/>tione trinitatis. Est enim caracter illuminatio sigillum et
+            cu<lb ed="#N" n="63" break="no"/>stodia. Illuminatio representans patrem cum est fons
+            lumi<lb ed="#N" n="64" break="no"/>nis. sigillum filium: custodia spiritum sanctum. In lege non
+            ha<lb ed="#N" n="65" break="no"/>bent distincte fidem trinitatis nisi siqui spirituales nec circum
+            <lb ed="#N" n="66"/>cidebantur in fide et inuocatione trinitatis: vnde non
+            impri<lb ed="#N" n="67" break="no"/>mebatur caracter.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e224">
+            ⁋ Ad illud quod obiicitur. quod non iteratur etc
+            <lb ed="#N" n="68"/>Dicendum quod ab alio est quod non iteratur sacramentum. et
+            <lb ed="#N" n="69"/>ab alio quod non imprimitur caracter. Quod enim non iteratur
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>circumcisio. hoc est quia non iterabatur originale. quod
+            autem<lb ed="#N" n="71" break="no"/>imprimitur caracter hoc est veritate verborum que
+            expri<lb ed="#N" n="72" break="no"/>muntur in inuocatione trinitatis. propter quod non valicet
+            ar<lb ed="#N" n="73" break="no"/>gumentum.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e242">
+            ⁋ Ad aliud dicendum. quod non quelibet
+            distin<lb ed="#N" n="74" break="no"/>ctio est caracter etiam interior. sed illa solum que fit in inuo
+            <lb ed="#N" n="75"/>catione trinitatis sicut dictum est.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e249">
+            ⁋ Sed adhuc obiicitur
+            <lb ed="#N" n="76"/>contra hoc. quia Orig. super illud. iii. Rom. Abraham acce
+            <lb ed="#N" n="77"/>pit signaculum iusticie ostendit. quod circumcisio carnalis
+            <lb ed="#N" n="78"/>erat signum circumcisionis spiritualis: que non in carne
+            su<lb ed="#N" n="79" break="no"/>scipitur sed in corde. Signaculum enim dicitur cum
+            alicui<lb ed="#N" n="80" break="no"/>rei seruande pro tempore in custodia imponitur: quod nemo
+            a<lb ed="#N" n="81" break="no"/>lius nisi ille qui impressit debet designare. Ex hoc videtur
+            <lb ed="#N" n="82"/>quod circumcisio non solum imprimit caracterem carnalem
+            <lb ed="#N" n="83"/>sed et spiritualem.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e269">
+            ⁋ Responsio. quod apud spiritualiter
+            intelligen<lb ed="#N" n="84" break="no"/>tes non tantum erat ibi signaculum exterius sicut intelligebant
+            <lb ed="#N" n="85"/>carnales iudei: sed etiam signaculum spirituale interius
+            <lb ed="#N" n="86"/>non tamen illud erat caracter: quia non erat perpetuum et
+            <lb ed="#N" n="87"/>indelibilem. Caracter enim est signum perpetuum in quo
+            resul<lb ed="#N" n="88" break="no"/>tat imago conditoris et redemptoris et signum perfectum.
+            <lb ed="#N" n="89"/>Signum autem quod imprimebatur in circumcisione. nec
+            <lb ed="#N" n="90"/>erat perpetuum nec perfectum. hec autem perpetuitas
+            caracte<lb ed="#N" n="91" break="no"/>ris secuta est in incarnatione christi. quia sicut illa vnio natu
+            <lb ed="#N" n="92"/>rarum est perpetua et redemptio que secuta est
+            incarnatio<lb ed="#N" n="93" break="no"/>nem semel facta est perpetua: sic caracter perpetuus est
+            qui<lb ed="#N" n="94" break="no"/>ex virtute mediatoris per passionem causatur et virtute fidi
+            <lb ed="#N" n="95"/>trinitatis et inuocatione imprimitur vt tactum est.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e506-Dd1e300">
+          <head xml:id="v78d89-d1e506-Hd1e302">Articulus 2</head>
+          <p xml:id="v78d89-d1e506-d1e304">
+            <lb ed="#N" n="96"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e506-d1e309">
+            <lb ed="#N" n="97"/>SEquitur inquirere vtrum habuit efficaciam
+            pur<lb ed="#N" n="98" break="no"/>gandi aut signandi tantum. Quod autem purgandi
+            vi<lb ed="#N" n="99" break="no"/>detur sic: vt dicit beda. et habetur. iiii. sententr.
+            <lb ed="#N" n="100"/>i. dist. idem salutifere curationis auxilium circumcisio in
+            le<lb ed="#N" n="101" break="no"/>ge contra originalis peccati vulnus agebat: quod baptismus
+            <lb ed="#N" n="102"/>agere reuelate gratie tempore consueuit: sed baptismus
+            tol<lb ed="#N" n="103" break="no"/>lit vulnus peccati: igitur etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e327">
+            ⁋ Contra. iii. ad Ro. Non ex
+            ope<lb ed="#N" n="104" break="no"/>ribus legis iustificabitur. glo. Si queritur quare ista facta
+            <lb ed="#N" n="105"/>in caritate non iustificarent sicut nunc opera que facimus
+            <lb ed="#N" n="106"/>in caritate iustificant. Respondemus quod neque illa fuerunt
+            in<lb ed="#N" n="107" break="no"/>stituta in iustificationem. sed in futurorum significationem:
+            <lb ed="#N" n="108"/>et pariter infirmitatis ostensionem.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e340">
+            ⁋ Item dama. Circum
+            <lb ed="#N" n="109"/>cisio curationis signaculum perticulare credentium
+            discri<lb ed="#N" n="110" break="no"/>mini in hac ratione ponuntur duo et tantum duo. quorum
+            vtrun<lb ed="#N" n="111" break="no"/>que est discrimen: ergo videtur quod virtus eius consistit in
+            si<lb ed="#N" n="112" break="no"/>gnificando non in efficiendo.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e352">
+            ⁋ Item augustinus. ad valerium.
+            <lb ed="#N" n="113"/>Ex quo instituta est circumcisio in populo di que tunc erat
+            <lb ed="#N" n="114"/>signaculum iusticie fidei ad significationem purgationis
+            va<lb ed="#N" n="115" break="no"/>lebat et perdulis veterisque peccati sicut baptismus: ex illo
+            va<lb ed="#N" n="116" break="no"/>lere cepit ad innouationem hominis ex quo institutus est. Ex
+            <lb ed="#N" n="117"/>hoc verbo videtur quod non valuit paruulis ad purgationem.
+            <lb ed="#N" n="118"/>sed solum fuit ad significationem.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e368">
+            ⁋ Responsio. quod efficacia
+            <lb ed="#N" n="119"/>circumcisionis non fuit solum in significando sed in
+            pur<lb ed="#N" n="120" break="no"/>gando.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e375">
+            ⁋ Ad primum patet responsio in glo. eadem in qua
+            di<lb ed="#N" n="121" break="no"/>citur. opera legis dicuntur que cum lege instituta sunt et ter
+            <lb ed="#N" n="122"/>minata sunt. vt erant cerimonialia et figuratiua etc. Hoc
+            <lb ed="#N" n="123"/>est quorum prima ratio institutionis fuit in significationem
+            <lb ed="#N" n="124"/>talis non fuit circumcisio. Circumcisio enim non fuit
+            insti<lb ed="#N" n="125" break="no"/>tuta cum lege sed ante legem.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e388">
+            ⁋ Ad aliud dicendum. quod
+            pro<lb ed="#N" n="126" break="no"/>pter duo principaliter erat circumcisio scilicet propter ab
+            <lb ed="#N" n="127"/>lationem culpe originalis et distinctionem populi dei a non
+            <lb ed="#N" n="128"/>poplo dei. Ratio igitur assignata a Dam. notificat illum
+            in<lb ed="#N" n="129" break="no"/>quantum erat ad discretionem. significatio autem non fuit ita
+            <lb ed="#N" n="130"/>principaliter intenta sicut purgatio et distinctio.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e401">
+            ⁋ Ad ter
+            <lb ed="#N" n="131"/>cium dicendum. quod augustinus. distinguit inter effectum quem
+            ha<lb ed="#N" n="132" break="no"/>buit generaliter: et in paruulis. et vult dicere: quod generaliter
+            <lb ed="#N" n="133"/>habuit effectum significationis: sed in paruulis habuit
+            effe<lb ed="#N" n="134" break="no"/>ctum innouationis. sicut baptismus ex quo fuit institutus.
+            <lb ed="#N" n="135"/>Unde sic distinguendum est. valebat ad significationem
+            pur<lb ed="#N" n="136" break="no"/>gationis: et paruulis supple valebat sicut baptismus etc.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e506-Dd1e418">
+          <head xml:id="v78d89-d1e506-Hd1e420">Articulus 3</head>
+          <p xml:id="v78d89-d1e506-d1e422">
+            <pb ed="#N" n="59"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-d1e506-d1e431">
+            <lb ed="#N" n="2"/>TErcio queritur vtrum circamcisione tollebatur
+            <lb ed="#N" n="3"/>peccatum. Et quia peccatum aliud originale
+            <lb ed="#N" n="4"/>et aliud actuale. Ideo querendum est primo de
+            <lb ed="#N" n="5"/>originali. secundo de actuali.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e442">
+            <lb ed="#N" n="6"/>Orimo v circucifio §. 1.
+            <lb ed="#N" n="7"/>tollat peccatum originale patet ex verbo bede. Hugo. et glo. iiii.
+            <lb ed="#N" n="8"/>Ro. ibi signum accepit circumcisionis. glo. idem salutifere
+            cu<lb ed="#N" n="9" break="no"/>rationis auxilium circumcisio in lege contra originalem vulnus
+            pre<lb ed="#N" n="10" break="no"/>bebat: quod baptismus agere tempore reuelate gratie consueuit.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e455">
+            <lb ed="#N" n="11"/>⁋ Contra. iii. Math. Ego debeo a te baptizari. glo id est ab
+            <lb ed="#N" n="12"/>originali peccato mundari: ergo tunc habuit origin ale peccatum
+            <lb ed="#N" n="13"/>Sed constat quod fuit circumcisus: igitur etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e465">
+            ⁋ Item sacramenta tempore
+            po<lb ed="#N" n="14" break="no"/>steriora: effectu gratie spiritualis inueniuntur digniora vt dicit
+            <lb ed="#N" n="15"/>hug. Sed baptismus iohnis posterior fuir tempore circumcisionis
+            <lb ed="#N" n="16"/>et non purgabat ab originali: ergo nec circumcisio.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e474">
+            ⁋ Item vt
+            <lb ed="#N" n="17"/>vult hug. post peccatum habuit homo legem naturalem. qui sibi
+            di<lb ed="#N" n="18" break="no"/>missus et lezi naturali: cepit errare. et conuictus est de
+            igno<lb ed="#N" n="19" break="no"/>rantia et cecitate. post habuit legem scriptam. quam quia
+            adim<lb ed="#N" n="20" break="no"/>plere non potuit propter concupiscentiam trahentem ad oppositum et
+            pro<lb ed="#N" n="21" break="no"/>pter defectum adiutorii gratie. conuictus est de impotentia.
+            tan<lb ed="#N" n="22" break="no"/>dem tempore gratie dedit illi dominus gratiam. vnde Hug. videtur sentire quod
+            <lb ed="#N" n="23"/>non fuit gratia tem pore legis. ergo circumcisione non tollebatur
+            origi<lb ed="#N" n="24" break="no"/>nale: cum peccatum non tollitur sine gratia.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e494">
+            ⁋ Item peccatum originale
+            <lb ed="#N" n="25"/>est carentia siue priuatio debite iusticie siue iusticie
+            natu<lb ed="#N" n="26" break="no"/>ralis. Sed qui tollit priuationem ponit habitum oppositum: ergo
+            <lb ed="#N" n="27"/>si circumcisio tollebat originale percatum ponebat naturalem
+            iu<lb ed="#N" n="28" break="no"/>sticiam. hoc autem est falsum: ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e505">
+            ⁋ Responsio. quod circumcisione
+            <lb ed="#N" n="29"/>tollebatur originale.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e510">
+            ⁋ Ad primum ergo dicendum. quod glo. Math. iii.
+            <lb ed="#N" n="30"/>debet intelligi sic. ab originali peccato mundari id est vicie
+            origina<lb ed="#N" n="31" break="no"/>li perfectius purgari. Sacramenta enim et si culpam originalis tollant:
+            <lb ed="#N" n="32"/>non tamen vicium corruptionis originalis. vt est pronitas ad
+            <lb ed="#N" n="33"/>malum et huiusmodi. Unde rabanus exponit illud verbum a te
+            bapti<lb ed="#N" n="34" break="no"/>zari sic. ab originalis peccati contagio mundari.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e523">
+            ⁋ Ad aliud
+            di<lb ed="#N" n="35" break="no"/>cendum. quod baptismus ioh. non numeratur inter sacramenta legis
+            gra<lb ed="#N" n="36" break="no"/>tie: quia solummodo fuit preparatorium ad baptisma christi.
+            ver<lb ed="#N" n="37" break="no"/>bum autem hugo. intelligi habet de sacramentis que posteriora
+            <lb ed="#N" n="38"/>sunt secundum distinctionem iegum. quibus distincta fuerunt
+            sacramen<lb ed="#N" n="39" break="no"/>ta. Unde sacramenta legis scripte erant perfectiora illis que erant
+            <lb ed="#N" n="40"/>legis nature. Et que erant legis gratie: illis que erant legis
+            scri<lb ed="#N" n="41" break="no"/>pte.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e542">
+            ⁋ Ad aliud dicendum. quod nunquam defuit gratia sufficiens ad
+            sa<lb ed="#N" n="42" break="no"/>lutem. sed ante aduentum auctoris gratie in carnem non fuit illa
+            ha<lb ed="#N" n="43" break="no"/>bundantia gratie que fuit post. Unde tempore legis moysi defuit
+            <lb ed="#N" n="44"/>habundantia gratie qua expedite possent onus legis
+            adimple<lb ed="#N" n="45" break="no"/>re. quod compulit confugere ad saluatorem. et hoc vult dicere
+            <lb ed="#N" n="46"/>hug.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e555">
+            ⁋ Ad vltimum dicendum. quod est duobus modis ponere aliquid
+            <lb ed="#N" n="47"/>vere scilicet et interpretatiue. Circumcisio reuera non ponebat
+            na<lb ed="#N" n="48" break="no"/>turalem iusticiam vere: ponebat tamen interpretatiue. Ad huius
+            ma<lb ed="#N" n="49" break="no"/>nifestationem notandn. quod iusticia cuius carentia est peccatum
+            ori<lb ed="#N" n="50" break="no"/>ginale: fuit ordinatio rationalis creature ad creatorem siue
+            con<lb ed="#N" n="51" break="no"/>cupiscentia: et potstas ascendendi ad deum operibus meritoriis.
+            <lb ed="#N" n="52"/>Unde. vii. eclesiatius. Deus creauit hominem rectum id est erectum per
+            appeti<lb ed="#N" n="53" break="no"/>tum ad ipsum. et habentem potestatem merendi (non dico
+            exequendi<lb ed="#N" n="54" break="no"/>opera meritoria. quia hoc non potuit sine gratia. potstas tamen illi data
+            <lb ed="#N" n="55"/>fuit in conditione que reducibilis erat in actum per gratiam. hanc
+            iu<lb ed="#N" n="56" break="no"/>sticiam debuit homo habere. quam quia dereliquit voluntate
+            pro<lb ed="#N" n="57" break="no"/>pria conuertendo se ad bonum mutabile et auertens se a
+            suo<lb ed="#N" n="58" break="no"/>creatore: illam amisit et peccauit et factus est necessitate
+            con<lb ed="#N" n="59" break="no"/>cupiscens. Hanc necessitatem non tollebat circumcisio nec etiam
+            <lb ed="#N" n="60"/>baptismus tollit. Unde non restituebat iusticiam naturalem
+            <lb ed="#N" n="61"/>secundum veritatem restituebat tamen interpretatiue. Hoc est. fecit quod
+            <lb ed="#N" n="62"/>necessitas concupiscendi non imputabatur in culpam. ita enim
+            effici<lb ed="#N" n="63" break="no"/>ebatur circumcisus circumcisione siue culpa: sicut habens naturalem
+            <lb ed="#N" n="64"/>iusticiam erat sine culpa. In illa enim ratione qua iusticia natu
+            <lb ed="#N" n="65"/>talis ad salutem recuperabatur per circumcisionem. non in illa
+            perfe<lb ed="#N" n="66" break="no"/>ctione in quo erat in statu primo. hoc dico quantum ad hoc quod
+            <lb ed="#N" n="67"/>erat sine concupiscentia creature. concupiscentia dico secundum quod
+            degene<lb ed="#N" n="68" break="no"/>rat inordinationem quandam. hanc autem inordinationem non
+            tolle<lb ed="#N" n="69" break="no"/>bat circumcisio quantum ad esse: sed solum quantum ad reputationem
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>in culpam. nec requiritur ad statum salutis quod alio modo
+            <lb ed="#N" n="71"/>tolletur. nec dico quod in hoc erat tota efficacia circumcisionis
+            si<lb ed="#N" n="72" break="no"/>cut infra patebit. Uel potest aliter dici secundum quod ponitur
+            necessi<lb ed="#N" n="73" break="no"/>tas concupiscendi cum debito non concupiscendi esse originale
+            <lb ed="#N" n="74"/>quod circumcisio ponebat siue restituebat iusticiam originalem st
+            <lb ed="#N" n="75"/>ue debitam: tollendo debitum illud. remanente nihilominus
+            <lb ed="#N" n="76"/>necessitate concupiscendi. Uel aliter potest dici. quod et si circum
+            <lb ed="#N" n="77"/>cisio non ponebat siue restituebat naturalem iusticiam
+            po<lb ed="#N" n="78" break="no"/>nendo ipsam in se: restituebat tamen ponendo siue
+            restitu<lb ed="#N" n="79" break="no"/>endo melius pro ipsa siue ipsam in meliori scilicet
+            confir<lb ed="#N" n="80" break="no"/>mando gratiam gratumfacientem. supposito quod peccatum
+            <lb ed="#N" n="81"/>mortale non tollatur nisi per gratiam gratum facientem
+            qua<lb ed="#N" n="82" break="no"/>le est originale.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e638">
+            <lb ed="#N" n="83"/>Secundo queritur . §. ii.
+            <lb ed="#N" n="84"/>vtrum circumcisione tollebatur actuale. Quod sic: videtur. dicit
+            <lb ed="#N" n="85"/>Hug. culpam quam per illam partem traxerat natura: gratia per
+            <lb ed="#N" n="86"/>circumcisionem emundauit. mundatio ergo originalis que
+            <lb ed="#N" n="87"/>fit per circumcisionem efficitur per collationem gratie. Sed gratia
+            <lb ed="#N" n="88"/>qua tollitur culpa mortalis qualis fuit culpa originalis
+            <lb ed="#N" n="89"/>non compatitur secum aliquod mortale: ergo vi illius gratie quo per
+            <lb ed="#N" n="90"/>circumcisionem tollitur originale: tollitur actuale.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e658">
+            ⁋ Item
+            vi<lb ed="#N" n="91" break="no"/>illius quo tollitur vnum actuale mortale tollitur aliud. nihil
+            <lb ed="#N" n="92"/>enim quo mediante tollitur vnum actuale mortale: compatitur
+            <lb ed="#N" n="93"/>secum aliud actuale mortale. Similiter videtur quod nihil quo
+            <lb ed="#N" n="94"/>mediante tollitur mortalem originalem: compatitur secum actuale
+            <lb ed="#N" n="95"/>mortale: ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e671">
+            ⁋ Item mors spiritualis non tollitur nisi per in
+            <lb ed="#N" n="96"/>troductionem vite spiritualis siue vite gratie. sed in eodem cum
+            <lb ed="#N" n="97"/>vita spirituali siue gratie non potest esse mors culpe: ergo illud
+            <lb ed="#N" n="98"/>quo introducitur vita tollit omne genus culpe mortalis.
+            <lb ed="#N" n="99"/>et ita vt prius.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e682">
+            ⁋ Contra. quicquid est causa cause: est
+            cau<lb ed="#N" n="100" break="no"/>sa causati. et hoc in efficiendo et destruendo. Unde quicquid
+            <lb ed="#N" n="101"/>est destructiuum cause: est similiter destructiuum causati.
+            di<lb ed="#N" n="102" break="no"/>co in causis et causatis per se immediatis et adinuicem
+            con<lb ed="#N" n="103" break="no"/>sequentibus: ergo et que sunt in differentia in destructione
+            <lb ed="#N" n="104"/>causarum: sunt in differentia in destructione causatorum. Sed
+            <lb ed="#N" n="105"/>si circumcisione tollitur actuale peccatum. baptismus et
+            cir<lb ed="#N" n="106" break="no"/>cumcisio in differentia se habent in destructione culparum
+            <lb ed="#N" n="107"/>que sunt cause penarum debitarum ipsis culpis: sed hoc est
+            <lb ed="#N" n="108"/>falsum: ergo et primum.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e705">
+            ⁋ Item doctores sacre scripture
+            con<lb ed="#N" n="109" break="no"/>parantes circumcisionem baptismo. ponunt conuenientiam
+            <lb ed="#N" n="110"/>istorum quantum ad deletionem originalis: nihil tangentes
+            <lb ed="#N" n="111"/>de actuali. quod patet in verbo bede illo scilicet. idem
+            salutife<lb ed="#N" n="112" break="no"/>re curationis auxilium etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e716">
+            ⁋ Item dicit hugo. ideem glo. iiii.
+            <lb ed="#N" n="113"/>ad Ro. quod apud nos valet aqua baptismi quod apud homines
+            <lb ed="#N" n="114"/>sub lege circumcisio similiter verbo augustinus ad valerium scilicet ex quo
+            insti<lb ed="#N" n="115" break="no"/>tuta est circumcisio in populo dei vt supra articulo. ii. Ecce quod
+            <lb ed="#N" n="116"/>sacri orthodoxi comparantes circumcisionem ad baptismum
+            <lb ed="#N" n="117"/>quantum ad efficaciam tollendi culpam: nihil tangunt de
+            il<lb ed="#N" n="118" break="no"/>lius efficacia quantum ad deletionem culpe actualis. ex quo vide
+            <lb ed="#N" n="119"/>tur quod eius efficacia se non extendebat ad deletionem culpe
+            <lb ed="#N" n="120"/>actualis.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e736">
+            ⁋ Responsio. quod reuera ex vi circumcisionis tolleba
+            <lb ed="#N" n="121"/>tur originale in paruulis. et tam originale quam actuale in
+            adul<lb ed="#N" n="122" break="no"/>tis digne suscipientibus. Uirtus tamen circumcisionis per se et
+            pri<lb ed="#N" n="123" break="no"/>mo fuit ordinata ad deletionem originalis. sed quia gratia
+            <lb ed="#N" n="124"/>gratificans non compatitur secum mortale aliquod: neque mors
+            <lb ed="#N" n="125"/>spiritualis tollitur nisi per introductionem vite spiritualis: cum hoc
+            <lb ed="#N" n="126"/>quod gratia siue virtus circumcisionis tollebat originalem ad
+            <lb ed="#N" n="127"/>quod per le ordinata erat: tollebat et actuale. sacri vero docto
+            <lb ed="#N" n="128"/>res determinabant virtutem illius esse quantum ad
+            dfletio<lb ed="#N" n="129" break="no"/>nem originalis nullam facientes mentionem de actuali:
+            <lb ed="#N" n="130"/>quia per se fuit remedium originalis et ad eius deletionem
+            <lb ed="#N" n="131"/>ordinata.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e762">
+            ⁋ Ad illud quod obiicitur contra hoc. quia si
+            cir<lb ed="#N" n="132" break="no"/>cumcisio et baptismus sunt differentes in ablatione
+            cul<lb ed="#N" n="133" break="no"/>parum que sunt cause penarum: sunt indifferentes in
+            ob<lb ed="#N" n="134" break="no"/>latione effectuum id est ipsarum penarum. Dicendum quod non sequi
+            <lb ed="#N" n="135"/>tur. quia gratia gratumfaciens quecunque sufficit ad
+            delen<lb ed="#N" n="136" break="no"/>dum omnem culpam. nec aliquam patitur secum. cuius
+            ratio<lb ed="#N" n="137" break="no"/>est: quia gratia directe opponitur culpe. et minimum bonum est
+            <lb ed="#N" n="138"/>maius et maioris efficacie: quam maximum malum elt malum. Sed
+            <lb ed="#N" n="139"/>grafiam quecuque non sufficit ad tollendum omnem penam:
+            <pb ed="#N" n="60"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quia gratia in omni diftria non opponitur pene: sed solummodo gratia
+            <lb ed="#N" n="2"/>perfecta sufficit ad tollendum omnem penam. maior autem est gratia
+            <lb ed="#N" n="3"/>et virtus baptismatis quam circumcisionis. Preterea. quare virtute
+            <lb ed="#N" n="4"/>baptismi tollitur non solum culpa. sed baptizatus soluitur a
+            pena<lb ed="#N" n="5" break="no"/>ratio est: quia per sacramentum baptismi contulit redemptor nostur
+            pri<lb ed="#N" n="6" break="no"/>mos et precipuos effectus sue passionis vt suo loco patebit:
+            <lb ed="#N" n="7"/>ad aliud patet responsio.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e506-Dd1e802">
+          <head xml:id="v78d89-d1e506-Hd1e804">Articulus 4</head>
+          <p xml:id="v78d89-d1e506-d1e806">
+            <lb ed="#N" n="8"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-d1e506-d1e811">
+            <lb ed="#N" n="9"/>SEquitur inquirere vtrum circumcisio ex vi
+            circumcisio<lb ed="#N" n="10" break="no"/>nis conferret gratiam. et primo vtrum aliquam gratia
+            <lb ed="#N" n="11"/>conferret. Secundo vtrum gratiam ad bene operandum
+          </p>
+          <p xml:id="v78d89-d1e506-d1e820">
+            <lb ed="#N" n="12"/>Circa prirnum ostens. 1.
+            <lb ed="#N" n="13"/>ditur. quod gratiam conferebat. iiii. ad Ro. signum accepit
+            circumci<lb ed="#N" n="14" break="no"/>sionis. glo. idem salutifere curationis auxilium circumcisio
+            <lb ed="#N" n="15"/>in lege contra originalis peccati vulnus prebebat: quod baptismus agere
+            <lb ed="#N" n="16"/>reuelate tempore gratie consueuit. excepto quod regni celestis ianuam
+            <lb ed="#N" n="17"/>necdum intrare poterant. idem dicit beda. idem hug. Ecce quod
+            <lb ed="#N" n="18"/>plane dicitur quod circumcisione idem fiebat quod baptismo. sed constat
+            <lb ed="#N" n="19"/>quod baptismus prebebat gratiam: ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e840">
+            ⁋ Item boecius: egressio
+            vi<lb ed="#N" n="20" break="no"/>ciorum est plantatio virtutum ergo quo egrediuntur vicia
+            plantan<lb ed="#N" n="21" break="no"/>tur virtutes: sed circumcisione egrediebantur vicia: igitur etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e848">
+            ⁋ Item
+            <lb ed="#N" n="22"/>virtus et vicium sunt contraria immediata circa animam rationalem
+            <lb ed="#N" n="23"/>ergo quod tollit vnum confert alterum: ergo etc
+          </p>
+          <p xml:id="v78d89-d1e506-d1e855">
+            ⁋ Si dicatur quod sunt
+            pri<lb ed="#N" n="24" break="no"/>uatiue opposita arguitur sic. Uirtus et vicium opponuntur
+            priuati<lb ed="#N" n="25" break="no"/>ue. similiter gratia et culpa. Augustin. super gen. viii lidb. Malum est
+            boni<lb ed="#N" n="26" break="no"/>priuatio. sed impossibile est tollere priuationem nisi ponendo
+            ha<lb ed="#N" n="27" break="no"/>bitum. quia ponere priuationem: priuationis est ponere habitum.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e866">
+            <lb ed="#N" n="28"/>⁋ Item accidens dupliciter destruitur. aut per destructionem
+            sui<lb ed="#N" n="29" break="no"/>subiecti: aut per positionem sui oppositi. igitur cum culpa sit
+            ac<lb ed="#N" n="30" break="no"/>cidens: et non destruitur per destructionem subiecti: ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e875">
+            ⁋ Item
+            <lb ed="#N" n="31"/>differunt negatio et priuatio. quia vbi est negatio non connume
+            <lb ed="#N" n="32"/>ratur subiectum cum negatione. vbi est priuatio connumeratur.
+            <lb ed="#N" n="33"/>Potest enim dici sortes non currit et si sortes non sit. non
+            simili<lb ed="#N" n="34" break="no"/>ter sortes est cecus. Unde negatio neque priuatio aliquid de se
+            po<lb ed="#N" n="35" break="no"/>nit: eo quod priuat non ponit. nihilominus priuatio connumerat
+            <lb ed="#N" n="36"/>subiectum susceptibile habitus contrarii. priuatio ergo et habitus
+            <lb ed="#N" n="37"/>abstracto subiecto susceptibili. quod est commune: se habebunt
+            <lb ed="#N" n="38"/>sicut aliquid et nihil simpliciter scilicet et negatiue. sed tollere
+            negati<lb ed="#N" n="39" break="no"/>onem neque est possbile neque etiam intelligibile sine positione
+            <lb ed="#N" n="40"/>affirmationis. igitur tollere peccatum est impossibile. nisi
+            ponen<lb ed="#N" n="41" break="no"/>do gratiam siue virtutem.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e901">
+            ⁋ Item idem euidentius ostenditur
+            <lb ed="#N" n="42"/>in terminis propriis. peccatum est priuatio iusticie cum debito
+            ha<lb ed="#N" n="43" break="no"/>bendi. iusticie dico originalis vel actualis secundum quod peccatum
+            <lb ed="#N" n="44"/>est originale vel actualem. non tam esset peccatum carere iusticia
+            <lb ed="#N" n="45"/>nisi habere illam esset debitum non habenti. vnde debitum est
+            con<lb ed="#N" n="46" break="no"/>mune habenti et non habenti. qui enim habet eam debet habere. et
+            <lb ed="#N" n="47"/>qui non habet debet habere. abstrahatur igitur debitum: relinquitur
+            <lb ed="#N" n="48"/>habere et non habere. que se habent vt affirmatio et negatio: sed
+            <lb ed="#N" n="49"/>tolli non potest non habere iusticiam nisi ponatur habere iusticiam
+            <lb ed="#N" n="50"/>igitur etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e923">
+            ⁋ Item ponatur. quod nihil poneretur tollendo
+            priua<lb ed="#N" n="51" break="no"/>tionem: adhuc remanet priuatio. igitur non tollitur.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e929">
+            ⁋ Item
+            vir<lb ed="#N" n="52" break="no"/>tus que facit recedere ab vno oppositorum necessario hoc
+            facien<lb ed="#N" n="53" break="no"/>do facit accedere ad aliud. nec potest non facere accedere ad
+            <lb ed="#N" n="54"/>illud. Igitur quod facit recedere a vicio vel culpa: facit
+            accede<lb ed="#N" n="55" break="no"/>re ad virtutem. et tollendo illud a quo recedit: ponit
+            necessa<lb ed="#N" n="56" break="no"/>rio terminum oppositum scilicet virtutem vel gratiam.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e942">
+            ⁋ Item lux
+            ma<lb ed="#N" n="57" break="no"/>terialis eo quod tenebras materiales ponit lucem in susceptibi
+            <lb ed="#N" n="58"/>lem in quo erat tenebra. nec aliter potest tollere nisi ponendo
+            <lb ed="#N" n="59"/>similiter videtur de luce spirituali.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e951">
+            ⁋ Item in esse nature nunquam
+            <lb ed="#N" n="60"/>tollit non esse nisi ponendo esse. quia si hoc: redigeret aliquid in
+            nihi<lb ed="#N" n="61" break="no"/>lum quod esset contra diffusionem sue bonitatis. Similiter
+            vide<lb ed="#N" n="62" break="no"/>tur in moribus: quod nunquam tollit esse nisi ponendo esse. ergo non tol
+            <lb ed="#N" n="63"/>lit esse culpe vel vicii nisi ponendo esse. Sed constat quod non dat
+            <lb ed="#N" n="64"/>vel ponit esse vicii vel culpe: igitur esse gratitie vel virtutis cum
+            <lb ed="#N" n="65"/>hec immediate se habeant respectu creatirre rationalis.
+            <lb ed="#N" n="66"/>tra. in sacramento eque vel amplius se extendit ratio
+            sigi<lb ed="#N" n="67" break="no"/>ficandi quam efficiendi. sed ratio significandi in circumcisione
+            so<lb ed="#N" n="68" break="no"/>lum est de ablatione: ergo et efficacia. circumcisio enim exterius
+            ni<lb ed="#N" n="69" break="no"/>hil conferebat: sed tantum auferebatur. propter quod videtur
+            fuis<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>se nullius positionis sacramentum sed tantum priuationis: cum
+            <lb ed="#N" n="71"/>sacramentum similitudinem habeat cum eo quod efficit.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e981">
+            <lb ed="#N" n="72"/>⁋ Item legalia que instituta fuerunt in tempore moysi
+            no<lb ed="#N" n="73" break="no"/>conferebant gratiam: ergo nec circumcisio precedens gratiam
+            con<lb ed="#N" n="74" break="no"/>ferebat: cum res deberet procedere secundum meliorationem vt patet
+            <lb ed="#N" n="75"/>in baptismate: qui melior est quam circumcisio vel legalia.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e992">
+            ⁋ Item
+            <lb ed="#N" n="76"/>prima circumcisio non contulit gratiam primo circumciso: ergo
+            <lb ed="#N" n="77"/>nec secunda secundo: nec tercia tercio et sic de aliis. principia
+            <lb ed="#N" n="78"/>enim non minoris efficacie sunt quam sequentia immo maioris.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1001">
+            <lb ed="#N" n="79"/>⁋ Item indirecte. si circumcisio auferebat peccatum et conferebat
+            <lb ed="#N" n="80"/>gratiam. cum plus non faciat baptismus: non est baptismus
+            <lb ed="#N" n="81"/>pleniori cumulatus gratia quam circumcisio. et hoc est falsum.
+            ba<lb ed="#N" n="82" break="no"/>ptismus enim tempore gratie est circumcisio ante legem et in tempore
+            <lb ed="#N" n="83"/>legis. vnde minoris gratie fuit quam baptismus sicut modo.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1015">
+            ⁋ Responio
+            <lb ed="#N" n="84"/>quod circa hoc diuersi diuersimode senserunt. quorundam enim
+            <lb ed="#N" n="85"/>positio fuit quod culpa originalis est concupiscentia cum debito non
+            <lb ed="#N" n="86"/>concupiscendi. et non ideo est culpa quia concupiscentia: hoc enim
+            <lb ed="#N" n="87"/>est in iustificatis: sed ideo quia est cum debito non concupiscendi.
+            <lb ed="#N" n="88"/>Cum ergo deletur culpa originalts quia deletur culpa quantum
+            <lb ed="#N" n="89"/>ad reatum et remanet quantum ad actum: dicunt quod soluitur
+            de<lb ed="#N" n="90" break="no"/>hitum. hoc est: illud debitum non imputatur. et tunc remanet
+            <lb ed="#N" n="91"/>actu pena originalem. ergo dicunt deleri debitum concupiscendi non
+            <lb ed="#N" n="92"/>computari. et hoc sine alicuius gratie collatione fieri. Sed quod hec
+            <lb ed="#N" n="93"/>positio non sit vera patet: quia si deus non imputat hoc debitum
+            <lb ed="#N" n="94"/>anime quod prius imputabat: aut ergo aliqua innouatio facta est
+            <lb ed="#N" n="95"/>circa animam. aut commutatio circa deum. ergo innouatio circa
+            ani<lb ed="#N" n="96" break="no"/>mam aut aliquid est ab ea ablatum aut positum in ea. si abla
+            <lb ed="#N" n="97"/>tum et non bonum: ergo malum. non malum pene tantum: ergo culpe. ergo
+            <lb ed="#N" n="98"/>si culpa est priuatio que non aufertur nisi per alicuius appositionem
+            <lb ed="#N" n="99"/>necesse est aliquid ibi poni. sed nihil positum in anima ex
+            <lb ed="#N" n="100"/>pellit culpam nisi gratia: ergo etc. Preterea. si debitum tantum non
+            impu<lb ed="#N" n="101" break="no"/>taretur et gratia non daretur cum nullus possit videre deum
+            nisi<lb ed="#N" n="102" break="no"/>habuerit gratiam. tunc ergo iustus ab originali peccato mundatus per
+            <lb ed="#N" n="103"/>circumcisionem si moriatur cum non habuerit gratiam: non videbit
+            <lb ed="#N" n="104"/>deum. ergo eandem penam habebit ac si haberet originale.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1063">
+            <lb ed="#N" n="105"/>⁋ Aia positio magis vltra processit et dixit. quod in
+            circumci<lb ed="#N" n="106" break="no"/>sione dabatur gratia et delebatur culpa. sed culpa delebatur vi
+            circun<lb ed="#N" n="107" break="no"/>cisionis: gratia non dabatur vi eius sed ex liberalitate dei qui non
+            <lb ed="#N" n="108"/>delet culpam quin decoret animam et gratam sibi faciat: quamuis
+            pos<lb ed="#N" n="109" break="no"/>set aliter facere. quia secundum naturam medium est inter cuixam et gratiam scilicet
+            <lb ed="#N" n="110"/>ipsa innocentia. et delere culpam est reddere innocentiam. sed
+            <lb ed="#N" n="111"/>deus nunquam reddit innocentiam quin superaddat gratiam. et per
+            <lb ed="#N" n="112"/>hoc respondent ad obiecta de contrarietate et habitu et priuatione
+            <lb ed="#N" n="113"/>quia gratia non est directe et immediate habitus oppositus culpe
+            <lb ed="#N" n="114"/>sed innocentia. ad hanc innocentiam secundum quod est priuatio
+            <lb ed="#N" n="115"/>culpe ordinatur circumcisio disponens ex parte suscipientis: sed
+            <lb ed="#N" n="116"/>gratia ex parte agentis. Sed hec positio non potest stare. quia et si
+            in<lb ed="#N" n="117" break="no"/>nocentia sit medium inter gratiam et culpam habito
+            respacatu<lb ed="#N" n="118" break="no"/>ad statum nature condite: non tamen est medium habito
+            re<lb ed="#N" n="119" break="no"/>spectu ad statum lapsus. medium dico secundum rem et actum: licet
+            <lb ed="#N" n="120"/>aliquo modo posset dici medium secundum naturam. post lapsum
+            <lb ed="#N" n="121"/>enim erat immediata oppositio inter culpam et gratiam. Prete
+            <lb ed="#N" n="122"/>rea si innocentia esset medium secundum naturam inter culpam
+            <lb ed="#N" n="123"/>et gratiam. prius naturaliter innocentia restitueretur et
+            ex<lb ed="#N" n="124" break="no"/>pelleretur culpa quam infunderetur gratia. et hoc est manifeste
+            <lb ed="#N" n="125"/>falsum. quia tunc gratia non deleret culpam. Si enim de
+            <lb ed="#N" n="126"/>let: prius naturaliter infunditur quam cul pa deleatur.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1113">
+            ⁋
+            Ter<lb ed="#N" n="127" break="no"/>cia positio est. quod in circumcisione deleatur culpa et
+            confe<lb ed="#N" n="128" break="no"/>rebatur gratia. et ad vtrunque ordinabatur circumcisio
+            quo<lb ed="#N" n="129" break="no"/>dammodo. sed gratia quosdam effectus habuit
+            priuati<lb ed="#N" n="130" break="no"/>uos quosdam positiuos. et circumcisio non ordinabatur
+            <lb ed="#N" n="131"/>primo et per se nisi ad effectus priuatiuos: et ideo solum
+            si<lb ed="#N" n="132" break="no"/>gnificabat ablutionem. et quia effectus priuatiui non sunt
+            <lb ed="#N" n="133"/>sine positiuis: ex consequenti erant ibi effectus positiui. et
+            <lb ed="#N" n="134"/>quia ex consequenti non oportebat eos signari
+            sacramen<lb ed="#N" n="135" break="no"/>to circumcisionis. exemplum ad hoc est in conuersione
+            pa<lb ed="#N" n="136" break="no"/>nis in corpus christi. in quo est consequenter sanguis: sed
+            tamen<lb ed="#N" n="137" break="no"/>non signatur ibi. effectus autem gratie positiui sunt sicut
+            <lb ed="#N" n="138"/>habilitare ad bona opera et huiusmodi: priuatiui sicut
+            re<lb ed="#N" n="139" break="no"/>mouere culpam et siqui sunt remotioni huic annexi priua
+            <lb ed="#N" n="140"/>tiui. Sed hec positio minus dicit. quia si vi
+            circumcisio<pb ed="#N" n="61"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>nis ponitur gratia in anima et in potentiis. quia delet
+            cul<lb ed="#N" n="2" break="no"/>pam que in his est: cum gratiam poni in anima sit gratificari ipsam
+            <lb ed="#N" n="3"/>et in potentiis sit habilitare ipsas necessario. si ex vi circum
+            <lb ed="#N" n="4"/>cisionis ponitur gratia. ex vi circumcisionis sunt effectus in anima
+            <lb ed="#N" n="5"/>positiui sicut et priuatiui. nec potest circumcisio habere vim ad hos
+            <lb ed="#N" n="6"/>quan etiam habeat vim ad illos: et si signum possit esse siue
+            sa<lb ed="#N" n="7" break="no"/>cramentum horum licet non illorum. Preterea. aliqui effectus positiui
+            <lb ed="#N" n="8"/>secundum esse idem sunt cum priuatiais vel consqenter se habentes.
+            pro<lb ed="#N" n="9" break="no"/>pterea si hi sunt effectus circumcisionis: et illi. sicut enim
+            lu<lb ed="#N" n="10" break="no"/>men materialem nunquam delet tenebras nisi illuminando aera:
+            <lb ed="#N" n="11"/>sic nec lumen gratie tenebras delet peccati nisi ipsam animam
+            spi<lb ed="#N" n="12" break="no"/>ritualiter illuminando.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1174">
+            ⁋ Aliter ergo videtur mihi dicendum sine
+            pre<lb ed="#N" n="13" break="no"/>iudicio. scilicet quod ex sacramento circumcisionis datur gratia
+            tol<lb ed="#N" n="14" break="no"/>lens originale peccatum: et dininuens superfluitatem concupiscentie. et
+            <lb ed="#N" n="15"/>debitum tollens non concupiscendi: et virtutem prestans resisten
+            <lb ed="#N" n="16"/>di concupiscentie. Unde si ex virtute circumcisionis non tollitur necessi
+            <lb ed="#N" n="17"/>tas concupiscendi: tollitur necessitas sequendi concupiscentiam et de
+            <lb ed="#N" n="18"/>bitum non concupiscendi propter hoc ergo quod illa gratia tollit
+            <lb ed="#N" n="19"/>originale animam reddit gratam et dat virtutem
+            resisten<lb ed="#N" n="20" break="no"/>di concupiscentie: et tollit debitum non concupiscendi. vtrum
+            <lb ed="#N" n="21"/>autem dat gratiam faciendi bonum meritorium infra habe
+            <lb ed="#N" n="22"/>bis. Concedi ergo possunt rationes quibus ostendebatur quod ex
+            vi<lb ed="#N" n="23" break="no"/>circumcisionis non tantum tollebatur culpa originalis sed
+            da<lb ed="#N" n="24" break="no"/>batur gratia.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1203">
+            ⁋ Ad primum obiectum dicendum. quod licet
+            circum<lb ed="#N" n="25" break="no"/>cisio signum esset ablationis tamen quia illa ablatio non fiebat
+            <lb ed="#N" n="26"/>nisi per positionem alicuius gratie. ideo ex vi sacramenti
+            circun<lb ed="#N" n="27" break="no"/>cisionis conferebatur gratia. et sic efficiebat quod figurabat.
+            <lb ed="#N" n="28"/>quia figurabat aliquid tolli per positionem alicuius. vnde
+            argu<lb ed="#N" n="29" break="no"/>mentum istud non sequitur. fiebat ablatio solummodo: ergo non
+            pre<lb ed="#N" n="30" break="no"/>stabat gratiam cuius actus non erat in auferendo. vnde dico quod
+            <lb ed="#N" n="31"/>actus gratie date in circumcisione fuit in ablatione defectus
+            ori<lb ed="#N" n="32" break="no"/>ginalis. quod esse non potuit nisi reparatione iusticie: vnde non
+            <lb ed="#N" n="33"/>est ponendum quod gratia circumcisionis ita tolleret quod nihil
+            po<lb ed="#N" n="34" break="no"/>neret.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1227">
+            ⁋ Ad secundo obiectum dicendum. quod non est simile de
+            circum<lb ed="#N" n="35" break="no"/>cisione et aliis legalibus. circumcisio enim instituta fuit in
+            re<lb ed="#N" n="36" break="no"/>medium originalis peccati. non sic autem alia legalia. licet poste
+            <lb ed="#N" n="37"/>rior esset in ratione signationis: non tamen in ratione causalitatis.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1237">
+            <lb ed="#N" n="38"/>⁋ Ad aliud dicendum. quod licet in primo circumciso non confertur gratia. hoc
+            <lb ed="#N" n="39"/>non fuit ex parte circumcisionis sed ex parte circumcisi quem
+            habu<lb ed="#N" n="40" break="no"/>it. vnde potest dici quod ei valuit ad aliud scilicet ad diminutionem
+            con<lb ed="#N" n="41" break="no"/>cupiscentie vel aliquid consimile.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1248">
+            ⁋ Ad aliud dicendum. quod licet
+            <lb ed="#N" n="42"/>remitteretur peccatum et daretur gratia qua fiet illa remissio et hoc
+            <lb ed="#N" n="43"/>idem in baptismo: tamen plenioris gratie est baptismus. omne
+            <lb ed="#N" n="44"/>enim peccatum et originale et actuale tollit: quod non faciebat
+            pro<lb ed="#N" n="45" break="no"/>prie et de se circumcisio. Pre. vberius confertur gratia. quia non
+            <lb ed="#N" n="46"/>solummodo ad ea que dicta sunt: sed ad alia vt infra patebit.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1261">
+            <lb ed="#N" n="47"/>Scunoo qderitur.§. v.
+            <lb ed="#N" n="48"/>Si ex vi circumcisionis conferretur gratia ad operandum
+            merito<lb ed="#N" n="49" break="no"/>rie. Quod sic: videtur greg. quod valet apud nos aqua baptismi:
+            <lb ed="#N" n="50"/>hoc egit apud veteres vel pro paruulis sola fides vel pro
+            maiori<lb ed="#N" n="51" break="no"/>bus virtus sacrificiorum: vel pro his qui ex abrahe stirpe
+            prodie<lb ed="#N" n="52" break="no"/>runt in misterium circumcisionis. sed aput nos aqua baptismi
+            <lb ed="#N" n="53"/>valet ex vi sua ad duo. scilicet ad ablationem peccati: et ad collationem
+            <lb ed="#N" n="54"/>gratie ad bene operandum: ergo circumcisio ex vi sua valebat ad ista
+            <lb ed="#N" n="55"/>duo.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1283">
+            ⁋ Si forte dicatur. quod de valore periculi intelligeretur scilicet de
+            <lb ed="#N" n="56"/>valore ad ablationem peccati non de valore totali et hoc est
+            <lb ed="#N" n="57"/>contra vsitatum modum loquendi. Equus enim qui non
+            <lb ed="#N" n="58"/>valet nisi decem. non dicitur valere equum qui valet centum
+            <lb ed="#N" n="59"/>licet valet partem. ergo circumcisio non debet dici valere id
+            <lb ed="#N" n="60"/>quod valet aqua baptismi si partem tantum valeat.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1296">
+            ⁋ Item ex
+            <lb ed="#N" n="61"/>vi circumcisionis dabatur gratia delens peccatum et
+            infor<lb ed="#N" n="62" break="no"/>mans animam. sed hec gratia in adulto habente vsum
+            li<lb ed="#N" n="63" break="no"/>beri arbitrii est gratia bene operandi: quia constat quod non
+            <lb ed="#N" n="64"/>ociosa in adultis: ergo ex circumcisione dabatur ad bene
+            <lb ed="#N" n="65"/>operandum.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1309">
+            ⁋ Item Math. xix. Si vis ad vitam
+            ingredi<lb ed="#N" n="66" break="no"/>serua mandata. glo. ii. quod iusticia legis suo tempore
+            obser<lb ed="#N" n="67" break="no"/>uata non solum bona terre. sed vitam eternam dabat: ergo
+            <lb ed="#N" n="68"/>dabat ea que requirebantur ad vitam eternam merendam.
+            <lb ed="#N" n="69"/>sed mereri vitam eternam nullus potest sine gratia
+            huius<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>modi: sed inter omnia que legis erant maxime faciens ad
+            <lb ed="#N" n="71"/>iustifificationem fuit circumcisio: ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1327">
+            ⁋ Item cui plus
+            <lb ed="#N" n="72"/>committitur ab eo plus exigitur. et cui minus: minus. Unde
+            <lb ed="#N" n="73"/>nisi habenti naturalem iusticiam conferretur gratia vel virtus
+            <lb ed="#N" n="74"/>non exigeretur ab eo opus virtutis. aliter a circumciso non
+            <lb ed="#N" n="75"/>exigeretur virtutum operatio nisi illi collata esset gratia
+            <lb ed="#N" n="76"/>ad bene operandum. igitur si exigebatur: relinquitur quod daba
+            <lb ed="#N" n="77"/>tur circumcisione gratia ad hoc. Ex his videtur quod ex vi
+            cir<lb ed="#N" n="78" break="no"/>cumcisionis dabatur gratia ad bene operandum.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1345">
+            ⁋ Contra
+            <lb ed="#N" n="79"/>in. iiii. sententia. magister dicit. quod ideo mutata est
+            circum<lb ed="#N" n="80" break="no"/>cisio per baptismum: quia sacramentum baptismi et
+            com<lb ed="#N" n="81" break="no"/>munius et perfectius est: quia pleniore gratia accumulatum.
+            <lb ed="#N" n="82"/>Ibi enim est peccatum solum dimittebatur. sed nec gratia ad
+            <lb ed="#N" n="83"/>bene operandum adiutrix nec virtutum possessio vel
+            au<lb ed="#N" n="84" break="no"/>gmentum ibi prestabatur vt in baptismo.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1361">
+            ⁋ Item. iiii. ad
+            <lb ed="#N" n="85"/>Ro. Signum accepit circumcisionis in signaculum
+            iusti<lb ed="#N" n="86" break="no"/>cie. ibi glo. in circumcisione tantum peccata remittebantur. sed
+            <lb ed="#N" n="87"/>nec gratia ad bene operandum per eam prestabatur nec vir
+            <lb ed="#N" n="88"/>tutes dabantur vel augebantur hec glo. Ex his videtur quod
+            <lb ed="#N" n="89"/>solummodo efficacia eius fuit ad purgationem peccati: non
+            <lb ed="#N" n="90"/>ad perfectum bonorum operum.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1377">
+            ⁋ Item ex his auctoritatibus
+            <lb ed="#N" n="91"/>videtur. quod gratia circumcisionis tantum erat ad tollendum
+            cul<lb ed="#N" n="92" break="no"/>pam: dicitur enim in circumcisione tantum remittebantur
+            pecca<lb ed="#N" n="93" break="no"/>ta
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1386">
+            ⁋ Respondeo. quod vt supra tactum est. ex sacramento
+            cir<lb ed="#N" n="94" break="no"/>cumcisionis dabatur gratia que tollebat originale peccatum
+            <lb ed="#N" n="95"/>et dimittebat concupiscentiam: et alia faciebat que dicta
+            <lb ed="#N" n="96"/>sunt. gratia autem ad operandum bonum meritorium inquantum
+            <lb ed="#N" n="97"/>huiusmodi ex vi circumcisionis non dabatur a deo. et hoc est
+            <lb ed="#N" n="98"/>quod dicitur in glo. iiii. ad Ro. quod ex circumcisione
+            pecca<lb ed="#N" n="99" break="no"/>ta remittebantur: sed non gratia ad bene operandum
+            presta<lb ed="#N" n="100" break="no"/>batur. Idem dicit magister in senten. et hoc est possibile
+            <lb ed="#N" n="101"/>fieri et consonum rationi. Quod possibile: patet per hoc. quod
+            a<lb ed="#N" n="102" break="no"/>lius est effectus gratie qua purgabat a culpa: et alius qua
+            <lb ed="#N" n="103"/>cooperatur libro arbto. in operibus virtutis. nihil igitur impedit
+            <lb ed="#N" n="104"/>quin gratia possit dari ad hunc effectum vel illum: et ad hunc
+            <lb ed="#N" n="105"/>sine illo id est ad effectum purgationis sine effectu
+            cooperatio<lb ed="#N" n="106" break="no"/>nis. Quod autem sit consonum rationi videtur sic. primus homo
+            <lb ed="#N" n="107"/>cecidit a duplici iusticia scilicet naturali et gratuita. Luce. x.
+            <lb ed="#N" n="108"/>homo quidem descendebat ab hierusalem in hiericho et
+            in<lb ed="#N" n="109" break="no"/>cidit in latrones qui eum despoliauerunt etc. Spoliatio
+            il<lb ed="#N" n="110" break="no"/>la intelligitur ad gratuita: vulneratio quantum ad naturalia.
+            <lb ed="#N" n="111"/>Unde necessaria sibi fuit duplex gratia. scilicet gratia in sacramentis
+            <lb ed="#N" n="112"/>et gratia in virtutibus. si autem stetisset: sibi suffecisset gratia in
+            <lb ed="#N" n="113"/>virtutibus. igitur alia est gratia in sacramentis qua culpa
+            tolli<lb ed="#N" n="114" break="no"/>tur: alia qua homo in virtutibus proficit. Non ergo est contrarium
+            <lb ed="#N" n="115"/>siue dissonum rationi quod sacramentum illud cuius efficacia
+            <lb ed="#N" n="116"/>erat non est habundantia gratie sicut est baptismi. quod est
+            <lb ed="#N" n="117"/>sacramentum temporis gratie: sed ex gratia diminuta
+            cuiusmodi<lb ed="#N" n="118" break="no"/>erat circumcisio que erat sacramentum ante tempus gratie. non
+            <lb ed="#N" n="119"/>conferret gratiam operandi bonum meritorium siue proficiendo in
+            <lb ed="#N" n="120"/>merito.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1447">
+            ⁋ Ad illud verbum greg. quod apud nos valet aqua
+            <lb ed="#N" n="121"/>baptismi etc. Dicendum quod hoc perticulariter intelligitur. non enim
+            <lb ed="#N" n="122"/>dicit quicquid apud nos valet aqua etc. et hoc expressius
+            ha<lb ed="#N" n="123" break="no"/>betur a magistro. iiii. senten. dicente. quod sacramentum
+            cir<lb ed="#N" n="124" break="no"/>cumcisionis idem conferebat remedium quod nunc
+            baptis<lb ed="#N" n="125" break="no"/>mus: idem dicit non tantum. Et nota quod dicit remedium. quod
+            <lb ed="#N" n="126"/>proprie est contra vicium vel malum et ad hoc recitat verbum
+            <lb ed="#N" n="127"/>Augustinus ad valerium. quod est. Ex quo instituta est
+            circumci<lb ed="#N" n="128" break="no"/>sio que erat tunc signaculum iusticie fidei ad purgationem
+            <lb ed="#N" n="129"/>valebat magnis et paruulis originalis veterisque peccatis
+            <lb ed="#N" n="130"/>sicuc baptismus: ex illo valere cepit ad innouationem hominis ex
+            <lb ed="#N" n="131"/>quo institutus est. et quandoque solet sic loqui. Solet enim dici
+            tan<lb ed="#N" n="132" break="no"/>tum valebit tibi hec tunica scilicet grisea quantum vna de
+            scar<lb ed="#N" n="133" break="no"/>leto: licet illa de scarleto melius ornaret et longe esset
+            ma<lb ed="#N" n="134" break="no"/>ioris precii: et plus redderet hominem acceptum hominibus
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1481">
+            <lb ed="#N" n="135"/>⁋ Ad aliud quod obiicitur. quod gratia delens peccatum et
+            infor<lb ed="#N" n="136" break="no"/>mans animam erat in adulto cooperans libro arbt. in operibus
+            me<lb ed="#N" n="137" break="no"/>ritoriis quia non erat ociosa. Dicendum quod sicut anima primo
+            ha<lb ed="#N" n="138" break="no"/>bet actum in corpore humano. non tamen quo anima progreditur
+            <lb ed="#N" n="139"/>ad aliquid agendum. immo habet primum actum suum sine
+            motu<pb ed="#N" n="62"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>scilicet actum viuificationis: ita gratia reddebat eam
+            vi<lb ed="#N" n="2" break="no"/>uificam sine potestate operandi bonum et maxime animam paruuli et
+            <lb ed="#N" n="3"/>ipsam decorabat. et etiam hoc operabatur in animabus adultorum et
+            <lb ed="#N" n="4"/>habilitabat eas ad maius bonum: licet non sufficienter ad exe
+            <lb ed="#N" n="5"/>quendum opera meritoria validas efficeret et ita patet quod non fuit
+            <lb ed="#N" n="6"/>ociosa.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1510">
+            ⁋ Preterea. licet ex illa gratia qua fit remissio peccati
+            pos<lb ed="#N" n="7" break="no"/>sit homo operari meritorie. non tamen sequitur quod ex virtute
+            <lb ed="#N" n="8"/>circumcisionis detur: quia non est immediate contraria peccato gratia
+            <lb ed="#N" n="9"/>inquantum est ad hunc effectum: sed solum quantum ad effectum
+            <lb ed="#N" n="10"/>remissionis. licet ergo gratia ex circumcisione a deo daretur ex
+            que<lb ed="#N" n="11" break="no"/>posset homo bene operari: non tamen ista duo sunt
+            immedi<lb ed="#N" n="12" break="no"/>ata ita vt quandocunque est causa vnius est causa alterius. sed deus
+            <lb ed="#N" n="13"/>per gratiam vtrunque faciebat: circumcisio vero ad vnum
+            dispo<lb ed="#N" n="14" break="no"/>nebat. alterius vero non dicebatur per se causa vt dispositio:
+            <lb ed="#N" n="15"/>cum non habeat similitudinem cum illo.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1532">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="16" break="no"/>citur. quod iusticia legis suo tempore obseruata etc. dicendum
+            <lb ed="#N" n="17"/>quod iusticia legis dicuntur moralia iustificantia. vel iusticia
+            le<lb ed="#N" n="18" break="no"/>gis dicitur fides qua mediante que legis erant iustificabant.
+            <lb ed="#N" n="19"/>id est ad faciendam ordinabant. Uel aliter dicitur iusticia legis
+            <lb ed="#N" n="20"/>dabat vitam eternam id est dandam implicite promittebat.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1545">
+            ⁋ Ad
+            <lb ed="#N" n="21"/>aliud quod obiicitur. quod a circumciso exercebantur opera virtutum etc.
+            <lb ed="#N" n="22"/>Dicendum quod hoc non fuit. quia ex vi circumcisionis dabatur gratia
+            <lb ed="#N" n="23"/>ad hoc: sed quia dabatur a deo vt dictum est.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1554">
+            ⁋ Ad illud quod
+            vi<lb ed="#N" n="24" break="no"/>detur ex auctoritibus inductis pro alia parte scilicet quod gratia circumcisio
+            <lb ed="#N" n="25"/>nis tantum erat ad tollendum culpam. dicitur enim in circumcisione
+            <lb ed="#N" n="26"/>tantum peccata remittebantur. Dicendum sicut dictum est. quod nunquam est deletio
+            <lb ed="#N" n="27"/>culpe sine appositione gratie vnde quod dicitur quod in circumcisio
+            <lb ed="#N" n="28"/>ne peccata tantum delentur. gratia ad operandum siue virtutes non
+            confere<lb ed="#N" n="29" break="no"/>bantur. intelligitur vt res sacramenti circumcisionis. non
+            sim<lb ed="#N" n="30" break="no"/>pliciter: quia sicut ostensum est quod priuatio tollatur manente sub
+            <lb ed="#N" n="31"/>iecto nisi per positionem habitus. nec veritatem habet nec capitur
+            <lb ed="#N" n="32"/>ab intellectu. vnde intelligitur sic quod dicitur. quod tantum peccata
+            remit<lb ed="#N" n="33" break="no"/>tuntur. hoc non dicitur quia conferretur gratia qua deletur culpa tantum: quia
+            <lb ed="#N" n="34"/>de necessitate ex quo gratia remanet post deletionem culpe in
+            ani<lb ed="#N" n="35" break="no"/>ma operatur et ad operandum animam habilitat. sed tamen inquantum
+            <lb ed="#N" n="36"/>gratia est res sacra circumcisionis: solum habet effectum suum in
+            de<lb ed="#N" n="37" break="no"/>letione culpe. vel vt dictum est hoc dicitur. quia gratia quantum est ad
+            <lb ed="#N" n="38"/>hunc effectum non est imediate contraria peccato. sed solum quantum
+            <lb ed="#N" n="39"/>ad effectum remissionis. Uel aliter potest dici vt dicunt quidam
+            <lb ed="#N" n="40"/>quod in circumcisione dabatur gratia sed modica respectu eius que
+            da<lb ed="#N" n="41" break="no"/>tur in baptismo et quia gratia quantumcunque parua plenum habet
+            effe<lb ed="#N" n="42" break="no"/>ctum ad delendum omnem culpam mortalem: licet diminutum et
+            <lb ed="#N" n="43"/>incompletum ad habilitandum animam et proficiendum. ideo
+            cir<lb ed="#N" n="44" break="no"/>cumcisio dicitur ordinari ad effectum ablationis culpe. non quia
+            <lb ed="#N" n="45"/>ipsum solum haberet: sed quia illum habebat completum. et quia
+            sacra<lb ed="#N" n="46" break="no"/>mentum non omne signat quod facit. sed quod plenius et perfectius
+            fa<lb ed="#N" n="47" break="no"/>cit: ideo circumcisio solum est sacramentum siue signum ablationis
+            <lb ed="#N" n="48"/>directe dico et per se.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1611">
+            ⁋ Per hoc patet responsio ad auctoritates
+            indu<lb ed="#N" n="49" break="no"/>ctas. quia neque glo. neque magister intendebant quod circumcisio
+            <lb ed="#N" n="50"/>ex vi sua nullo modo daret gratiam ad operandum aliquo modo:
+            <lb ed="#N" n="51"/>sed solummodo gratia illius haberet effectum completum in delendo vel
+            <lb ed="#N" n="52"/>auferendo. et quod gratia illius erat ita parue efficacie respeccatu
+            effe<lb ed="#N" n="53" break="no"/>ctuum qui sunt operationis: quod solum merebatur dici deletiua non
+            ope<lb ed="#N" n="54" break="no"/>ratiua.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e506-Dd1e1628">
+          <head xml:id="v78d89-d1e506-Hd1e1630">Articulus 5</head>
+          <p xml:id="v78d89-d1e506-d1e1632">
+            <lb ed="#N" n="55"/>⁋ Articulus quintus
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1637">
+            <lb ed="#N" n="56"/>SEquitur inquirere de efficacia circumcisionis in
+            con<lb ed="#N" n="57" break="no"/>paratione et primo in comparatione ad sacramentum precedens
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1644">
+            <lb ed="#N" n="58"/>Secundo ad sacramentum sequens.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1649">
+            <lb ed="#N" n="59"/>Circa primumrio..§. r
+            <lb ed="#N" n="60"/>Hug. Dispensationis ordo et ratio hoc poposcit. vt sicut ab
+            <lb ed="#N" n="61"/>initio currente tempore magis ac magis saluatoris aduentus
+            <lb ed="#N" n="62"/>appropinquauit: sic magis effectus salutis cresceret et cognatatio
+            <lb ed="#N" n="63"/>veritatis. propter quod et ipsa signa salutis per successionem tempororum
+            <lb ed="#N" n="64"/>alia postalia mutari debuerunt. vt effectus gratie diuine in salutem
+            <lb ed="#N" n="65"/>cresceret. simul que et ipsa signatio in signis visibilibus
+            euiden<lb ed="#N" n="66" break="no"/>tior apparent. Ex hoc patet. quod circumcisio que succedit determinationi
+            <lb ed="#N" n="67"/>vel sacrificiis: efficacior est quantum ad effectum salutis et euidem
+            <lb ed="#N" n="68"/>tior quantum ad cognitionem veritatis.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1674">
+            ⁋ Contra non plus
+            dimitte<lb ed="#N" n="69" break="no"/>batur fide in circumcisione de originali quam fide in sacrificiis: quod
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>patet per illud verbum Greg. quod valet apud vos etc. sio
+            <lb ed="#N" n="71"/>circumcisio non fuit maioris efficacie quam sacramentum precedens.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1685">
+            <lb ed="#N" n="72"/>⁋ Responsio. quod circumcisio fuit maioris efficacie quam
+            sacramen<lb ed="#N" n="73" break="no"/>tum precedens quo delebatur originale.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1692">
+            ⁋ Ad illud quod obii
+            <lb ed="#N" n="74"/>citur. quod non plus dimittebatur de originali in circumcisione
+            <lb ed="#N" n="75"/>quam in sacrificiis. Dicendum quod licet non sit maior dimissio in
+            <lb ed="#N" n="76"/>circumcisione quam in fide cum sacrificiis quantum ad culpam:
+            <lb ed="#N" n="77"/>tamen in circumcisione plus dimittebatur de superfluitate
+            <lb ed="#N" n="78"/>concupiscentie: et ideo fuit perfectius sacramentum.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1705">
+            <lb ed="#N" n="79"/>Secundo queritur .§. u.
+            <lb ed="#N" n="80"/>de efficacia circumcisionis in comparatione ad sacramentum
+            <lb ed="#N" n="81"/>subsequens scilicet baptismi. et potest ostendi quod baptismus est
+            <lb ed="#N" n="82"/>maioris efficacie quam circumcisio. verbo hug. supredicto et
+            ver<lb ed="#N" n="83" break="no"/>bo magistri. iiii. senten scilicet quod ideo mutata est circumcisio per
+            <lb ed="#N" n="84"/>baptismum. quia sacramentum baptismi etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1721">
+            ⁋ Contra. iiii.
+            <lb ed="#N" n="85"/>ad Ro. signum accepit circumcisionis. glo. Idem salutifere
+            <lb ed="#N" n="86"/>curationis auxilium circumcisio in lege contra originalis peccati
+            <lb ed="#N" n="87"/>vulnus prebebat: quod baptismus agere reuelate tempore gratie
+            <lb ed="#N" n="88"/>consueuit: excepto quod regni celestis ianuam nec dum intrare
+            <lb ed="#N" n="89"/>poterant. Idem dicit be. idem hug.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1734">
+            ⁋ Si diceretur quod hoc
+            intel<lb ed="#N" n="90" break="no"/>ligendum est quantum ad ablutionem originalis. hoc non
+            vide<lb ed="#N" n="91" break="no"/>tur: quia in ipsa auctoritate excipitur illud in quo excedit
+            effica<lb ed="#N" n="92" break="no"/>cia baptismi. per hoc quod dicitur excepto quod regni celestis
+            ia<lb ed="#N" n="93" break="no"/>nuam non aperiebat.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1746">
+            ⁋ Preterea. baptismus an passionem non
+            <lb ed="#N" n="94"/>aperiebat ianuam. ergo non videtur quod baptismus in hoc fuerit
+            <lb ed="#N" n="95"/>maioris efficacie quam circumcisio.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1753">
+            ⁋ Item glo. super illud. beati
+            <lb ed="#N" n="96"/>quorum remisse sunt iniquitates etc. dicit. In baptismo deletur
+            <lb ed="#N" n="97"/>originale peccatum. non vt non sit: sed vt peccatum vltra non sit. Icdoque
+            <lb ed="#N" n="98"/>congrue dicit. Beati quorum remisse sunt iniquitates id est mitigate
+            <lb ed="#N" n="99"/>per gratiam vt non regnent in mortali corpore. cuius rei causa est
+            <lb ed="#N" n="100"/>quod in baptismo tecta sunt peccata. ex hac glo. videtur quod
+            effica<lb ed="#N" n="101" break="no"/>cia baptismi non tollit originalem peccatum secundum esse illius: sed secundum
+            <lb ed="#N" n="102"/>reputationem vnde in glo. sequitur ibidem. Si deus texit peccata
+            <lb ed="#N" n="103"/>noluit aduertere. et si noluit aduertere: noluit animaduertere
+            <lb ed="#N" n="104"/>id est punire. Sed constat vt ex dictis patet quod circumcisione
+            de<lb ed="#N" n="105" break="no"/>lebatur originale secundum esse: ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1777">
+            ⁋ Responsio. quod baptismus
+            suc<lb ed="#N" n="106" break="no"/>cessit circumcisioni tanquam sacramentum magis perfectum.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1782">
+            ⁋ Ad illud
+            <lb ed="#N" n="107"/>quod obiicitur per verbum glo. iiii. ad Roscilicet quod idem salutifere
+            <lb ed="#N" n="108"/>curationis etc. Dicendum. quod ex auctoritate non habetur quod tante
+            <lb ed="#N" n="109"/>efficacie fuit circumcisio quante baptismus. facienda enim
+            <lb ed="#N" n="110"/>est vis in hoc quod dicitur idem salutifere curationis. idem enim
+            <lb ed="#N" n="111"/>valuit quantum ad curationem a culpa: sed non quantum ad ablationem
+            <lb ed="#N" n="112"/>pene. Unde sequitur excepto quod ianuam regni celestis etc. Item
+            <lb ed="#N" n="113"/>ex circumcisione datur gratia ad remissionem culpe originalis et
+            <lb ed="#N" n="114"/>diminutionem supefluitatis concupiscentie. In baptismo vero datur gratia
+            <lb ed="#N" n="115"/>ad operandum meritorie quod non dabatur virtute circumcisionis.
+            <lb ed="#N" n="116"/>Unde per hoc quod dicitur. idem salutifere curationis: notatur
+            conueni<lb ed="#N" n="117" break="no"/>entia in remedio contra malum. vult ergo dicere beda. quod sicut
+            bapti<lb ed="#N" n="118" break="no"/>smus digne suscipientem mundat ab originali et actuali sic
+            <lb ed="#N" n="119"/>circumcisio. vnde ad remotionem culpe est conuenientia. sed neque quantum
+            <lb ed="#N" n="120"/>ad habilitationem et expeditionem ad bonum neque quantum ad
+            re<lb ed="#N" n="121" break="no"/>missionem pene: quod notatur per hoc quod subditur excepto quod
+            ia<lb ed="#N" n="122" break="no"/>nuam etc.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1819">
+            ⁋ Ad illud quod obiicitur. quod baptismus ante passionen
+            <lb ed="#N" n="123"/>non aperuit ianuam etc. Dicendum quod aperire ianuam
+            ce<lb ed="#N" n="124" break="no"/>li: est tollere impedimenta ingressus in regnuni que sunt
+            <lb ed="#N" n="125"/>multa. Unum est deformatio imaginis dei in anima siue
+            de<lb ed="#N" n="126" break="no"/>fectus ornatus. hoc autem impedimentum tollitur per baptisinum
+            <lb ed="#N" n="127"/>quo anima informatur. non solum in ablatione culpe: sed in
+            <lb ed="#N" n="128"/>ornatu gratie et virtutis. Quod autem anima in baptismo
+            orna<lb ed="#N" n="129" break="no"/>tur virtutibus. habetur Eclesasti. xxiii. sic omnis mulier
+            relin<lb ed="#N" n="130" break="no"/>quens virum suum glo. qui sibi eam in baptismo copulauit
+            <lb ed="#N" n="131"/>et ornamento virtutum decorauit. quantum igitur ad amotionem
+            <lb ed="#N" n="132"/>illius impedimenti: baptismus et ante passionem et ptus
+            ce<lb ed="#N" n="133" break="no"/>li ianuam aperuit. de aliis modis aperiendi habebitur in
+            <lb ed="#N" n="134"/>fra.
+          </p>
+          <p xml:id="v78d89-d1e506-d1e1848">
+            ⁋ Ad vltimum dicendum quod glo. psalmus. sic debet
+            intelligi<lb ed="#N" n="135" break="no"/>in baptismo sic deletur originale non vt non sit: sed vt peccatum
+            <lb ed="#N" n="136"/>non sit id est fomes siue concupiscibilitas que est peccatum
+            ori<lb ed="#N" n="137" break="no"/>ginalem deletur inquantum est peccatum: non omnino: quia
+            fa<lb ed="#N" n="138" break="no"/>mes in intensione qua homo concupiscit necessario: nec
+            po<lb ed="#N" n="139" break="no"/>test resistere concupiscentie: dicitur originale. Illam autem
+            in<pb ed="#N" n="63"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tentionem delet gratia baptismi. licet non tollat illam omnino: plus
+            <lb ed="#N" n="2"/>tamen tollitur de fomite virtute baptismatis quam tollebatur virtute
+            <lb ed="#N" n="3"/>circumcisionis. Unde glo. ibidem. iniquitates autem fomitem
+            pecca<lb ed="#N" n="4" break="no"/>ti dicit. que ante baptismum non tantum pena sed culpa est: post
+            ba<lb ed="#N" n="5" break="no"/>ptismum pena est et non culpa.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

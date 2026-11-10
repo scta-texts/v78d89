@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 85, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 85, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="544"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afkrml"><!-- q85m1 -->
+        <head xml:id="v78d89-afkrml-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-afkrml-Hd1e103" type="question-title">Si tenetur poenitens satisfacere in caritate</head>
+        <p xml:id="v78d89-afkrml-d1e106">
+          <lb ed="#N" n="30"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-afkrml-d1e111">
+          <lb ed="#N" n="31"/>CIrca primum proceditur sic ad partem negatiuam.
+          <lb ed="#N" n="32"/>Illa sola placent deo que facta sunt in caritate.
+          <lb ed="#N" n="33"/>Heb. xi. Sine fide impossibile est placere deo.
+          <lb ed="#N" n="34"/>et loquitur ibi de fide formata. quod patet per hoc quod
+          <lb ed="#N" n="35"/>ibidem sequitur post. Sancti per fidem vicerunt regna: operati sunt
+          iu<lb ed="#N" n="36" break="no"/>sticiam: adepti sunt repromissiones. per fidem enim informen nullus
+          <lb ed="#N" n="37"/>adeptus est vitam eternam promissam. sed nula est satisfactio que non
+          pla<lb ed="#N" n="38" break="no"/>cet deo. ergo nulla est que non fit in caritate.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e131">
+          ⁋ Item satisfactio est per
+          <lb ed="#N" n="39"/>quam restituuntur que sunt amissa per peccatum mortale. huiusmodi autem
+          <lb ed="#N" n="40"/>restitutio non fit nisi assistente gratia et caritate. et ita vt prius.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e139">
+          <lb ed="#N" n="41"/>⁋ Item in ieiuniis que corpus penitentis macerant offerimus corpora
+          <lb ed="#N" n="42"/>nostra deo. Sicut dicitur Ro. xii. Obsecro vos per misericordiam dei vt
+          <lb ed="#N" n="43"/>exhibeatis corpora vratura hostiam viuentem. sanctam. deo placentem.
+          <lb ed="#N" n="44"/>rationabilem obsequium vestrum. ergo satisfactio debet esse hostia vruens
+          <lb ed="#N" n="45"/>sancta deo placens. sed si debeat placere: oportet quod fiat in caritate.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e152">
+          <lb ed="#N" n="46"/>⁋ Item deus non respicit quantum sed ex quanto. non ergo quantitatem
+          fa<lb ed="#N" n="47" break="no"/>cti sed radicis quantacumque. ergo sic satisfactio non respicitur a deo
+          si<lb ed="#N" n="48" break="no"/>ne radice id est caritate.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e161">
+          ⁋ Item. i. Corum. xiii. Si distribuero in
+          <lb ed="#N" n="49"/>cibos pauperum omnes facultates meas: caritatem autem non
+          habu<lb ed="#N" n="50" break="no"/>ero nihil mihi prodest.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e168">
+          ⁋ Item nullus damnatur nisi propter
+          culpam<lb ed="#N" n="51" break="no"/>sed pro culpa pro que satisfacit quis non damnatur. sed nullus euadit
+          damna<lb ed="#N" n="52" break="no"/>tionem nisi sit in caritate. ergo nullus satisfacit nisi qui est in caritate.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e175">
+          <lb ed="#N" n="53"/>Contra. satisfactio quam iniunxit ecclesia tota exterior est. ergo non
+          ex<lb ed="#N" n="54" break="no"/>igit ad esse suum quod est interius scilicet caritatem et fidem.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e182">
+          ⁋ Item
+          satisfa<lb ed="#N" n="55" break="no"/>clio ista que iniungitur a sacerdote: ad hoc iniungitur a sacerdote vt
+          <lb ed="#N" n="56"/>per illam dissoluatur obligatio que est ad penam in foro dei. ergo tal
+          sa<lb ed="#N" n="57" break="no"/>tisfactio debet esse penalis. et quantomagis penalis tantomagis
+          sa<lb ed="#N" n="58" break="no"/>tisfactio. sed magis est penalis extra caritatem. caritas enim omnia
+          suf<lb ed="#N" n="59" break="no"/>fert. ergo magis est satisfactio extra caritatem quom in caritate.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e196">
+          ⁋ Item
+          <lb ed="#N" n="60"/>cum quis non contritus confitetur peccata sua. si cras conteritur: non opertet iterum
+          con<lb ed="#N" n="61" break="no"/>fiteri. valet igitur confessio facta in mortali. similiter videtur de
+          satis<lb ed="#N" n="62" break="no"/>factione.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e205">
+          ⁋ Item aliquis commisit duo mortalia. vnum rapine: et
+          ali<lb ed="#N" n="63" break="no"/>ud adulterii. penitet de rapina et confitetur et restituet quod
+          ra<lb ed="#N" n="64" break="no"/>puit: et non de adulterio. Cum post penitet et confitetur adulterium
+          <lb ed="#N" n="65"/>queritur an debeat restituere iterum quod rapuit: an non. Si non: ergo
+          sa<lb ed="#N" n="66" break="no"/>tisfactio in mortali valet. Si sic: videtur quod rapinam oportet in
+          du<lb ed="#N" n="67" break="no"/>plum restituere. quod non est verum.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e218">
+          ⁋ Item baptismus receptus ab existenti
+          <lb ed="#N" n="68"/>in mortali: vtpote ficte accedente. valicet illi quando penitet de
+          mor<cb ed="#N" n="b"/><lb ed="#N" n="69" break="no"/>tali et recedit illa fictio. similiter videtur de satisfactione sancta in
+          mor<lb ed="#N" n="70" break="no"/>tali quod valeat quando penitet de mortali.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e228">
+          ⁋ Item actio dum fit est.
+          <lb ed="#N" n="71"/>quando vero facta est: non est. opst igitur factum in caritate quando factum est: est non
+          <lb ed="#N" n="72"/>ens et mortuum sicut factum in mortali. ergo equalis potederis est satista
+          <lb ed="#N" n="73"/>ctio facta in mortali et in caritate.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e237">
+          ⁋ Item date elemosinam et
+          <lb ed="#N" n="74"/>omnia munda sunt vobis Luc. xi. constat quod ibi loquitur de peccatoribus.
+          <lb ed="#N" n="75"/>ergo potest satisfacere quis per elemosinam sine gratia. et hocipisum habetur Dan.
+          <lb ed="#N" n="76"/>iiii. dixit daniel nabuchodonosor. peccata tua elemosinis
+          re<lb ed="#N" n="77" break="no"/>dime. et constat quod ille erat peccator magnus.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e248">
+          ⁋ Item Tren. iii.
+          ve<lb ed="#N" n="78" break="no"/>natione ceperunt me. Glo. etsi fides deesse: pena satisfacent.
+          <lb ed="#N" n="79"/>sed vbi non est fides non est caritas. ergo etc.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e256">
+          ⁋ Item ad preceptum diuinum
+          <lb ed="#N" n="80"/>non tenetur homo in caritate. siue enim quis loco et tempore honorat
+          paren<lb ed="#N" n="81" break="no"/>tes non exstens in caritate: vel sabbatum obseruat: non peccat. ergo
+          mus<lb ed="#N" n="82" break="no"/>tominus tenetur mandatum sacerdotis implere in caritate.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e265">
+          ⁋ Item
+          <lb ed="#N" n="83"/>si tenetur in caritate satisfacere. cum nullus sciat: vtrum sit in
+          cari<lb ed="#N" n="84" break="no"/>tate. numquam potest scire vtrum satisfecerit. ergo semper debet satisfacere. Si
+          <lb ed="#N" n="85"/>dicatur quod conclusio sit vera. ergo si sit impositum alicui dare centum
+          <lb ed="#N" n="86"/>marcas. non sufficit semel dare: sed oportet frequenter dare.
+          imo<lb ed="#N" n="87" break="no"/>semper qousque constiterit quod dederit in caritate. quod constare non potest.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e278">
+          <lb ed="#N" n="88"/>Responsio. dici potest quod satisfactio etiam quantum est de vi nominis
+          <lb ed="#N" n="89"/>importat diuinam acceptationem et reconciliationem cum deo. et quoniam
+          <lb ed="#N" n="90"/>sine gratia gratum faciente impossibile est personam placere deo vel eius
+          <lb ed="#N" n="91"/>opera acceptari: ideo nec satisfacere est sine caritate. possibile
+          <lb ed="#N" n="92"/>tamen est quem extra caritatem preparare se ad caritatem habendam et satisfacti
+          <lb ed="#N" n="93"/>onem faciendam. et sic debet intelligi consilium Danielis datum
+          nabu<lb ed="#N" n="94" break="no"/>chodonosor. vt scilicet prepararet se erogatione elemosinarum ad
+          gra<lb ed="#N" n="95" break="no"/>tiam suscipiendam: quo suscepta multiplicando elemosinas
+          pec<lb ed="#N" n="96" break="no"/>cata sua satisfaciendo redimeret.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e300">
+          ⁋ Ad illud quod obiicitur.
+          da<lb ed="#N" n="97" break="no"/>tem elemosinam etc. sic potest dici. quod omnia mundat elemosina
+          dispo<lb ed="#N" n="98" break="no"/>nendo et preparando ad mundationem. vel potest dici quod elemosina
+          con<lb ed="#N" n="99" break="no"/>muniori modo sumitur ibi quam seadm quod est vna pars satisfactionis.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e309">
+          ⁋ Ad
+          <lb ed="#N" n="100"/>illud quod primo obiicitur. quod satisfactio iniuncta est exterior etc.
+          Di<lb ed="#N" n="101" break="no"/>cendum quod licet sit exterior: sequitur tamen fundamentum interius. quod est
+          prin<lb ed="#N" n="102" break="no"/>cipaliter deo acceptum in satisfactione.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e318">
+          ⁋ Ad illud quod obiicitur. quod
+          <lb ed="#N" n="103"/>magis est penalis satisfactio extra caritatem etc. dicendum quod etsi opus
+          <lb ed="#N" n="104"/>penalem requiritur in satisfactione: illud tamen non sufficit sine
+          fundamen<lb ed="#N" n="105" break="no"/>to caritatis. Sine enim fundamento nihil est acceptum deo: quia
+          so<lb ed="#N" n="106" break="no"/>lutio debita sine illa: est sicut debitum solutum per monetam
+          repro<lb ed="#N" n="107" break="no"/>bam. Unde satisfacientibus in mortali potest dici illud Hiere. vi.
+          Fru<lb ed="#N" n="108" break="no"/>stra conflauit conflator id est sacerdos iniungens satisfactionem:
+          mali<lb ed="#N" n="109" break="no"/>cie eorum non sunt consumpte. argentum reprobum vocate eos.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e337">
+          ⁋ Ad
+          <lb ed="#N" n="110"/>hoc quod obiicitur. quod confessio facta in mortali valet etc. dicendum quod inter
+          <lb ed="#N" n="111"/>causas propter quas necessaria est confessio est vna et potissima: vt confessor
+          <lb ed="#N" n="112"/>sciat in quot et quantis penitens deliquerit. vt per hoc congruam sciat
+          ap<lb ed="#N" n="113" break="no"/>ponere medicinam. quia ergo peccata alicus posunt innotesci confessori
+          si<lb ed="#N" n="114" break="no"/>dicantur extra caritatem: sufficit confessio que sancta est a non contrito. quantum ad
+          <lb ed="#N" n="115"/>hoc non opertet iterari confessionem a contrito. quantum autem ad fructum
+          multi<lb ed="#N" n="116" break="no"/>plicem qui accidit in confessione plus valet facta in caritate. vtpote
+          <lb ed="#N" n="117"/>erubescentia que est magna pars satisfactionis: erubescentia penitentie est
+          <lb ed="#N" n="118"/>maioris fructus. immo forte nullius est facta extra caritatem. nec qua
+          <lb ed="#N" n="119"/>tia augetur nec plura commoda assequitur: sicut si confessus esset in
+          cari<lb ed="#N" n="120" break="no"/>tate.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e363">
+          ⁋ Ad illud quod ob icitur de restitutione rapine in
+          mortali<lb ed="#N" n="121" break="no"/>etc. dicendum quod quando quis rapit: deo est iniuriosus et proximo damnosus.
+          <lb ed="#N" n="122"/>vt autem satisfaciat exiguntur duo. restitutio damni proximo: et
+          ho<lb ed="#N" n="123" break="no"/>nor deo. Restitutio fieri potest in mortali: quia fit taemmodo proxi
+          <lb ed="#N" n="124"/>mo et soluitur sufficienter: licet sit in mortali. de quo non pertinet ad
+          proxi<lb ed="#N" n="125" break="no"/>mum iudicare. Sed deus honorari non potest vt debet: nisi ab existentibus
+          <lb ed="#N" n="126"/>in caritate. nec ei satisfieri ab iniuria sibi illata. Ecesatici. v.
+          <lb ed="#N" n="127"/>Non est speciosa laus in ore peccatoris. psalmus. peccatori autem dixit deus:
+          <lb ed="#N" n="128"/>quare tu etc. et ideo homini satisfacere potest in moriali: qui non vide cor.
+          <lb ed="#N" n="129"/>sed deo non potest. quem enim honorem acceptaret deus ab aliquo: dum maent
+          <lb ed="#N" n="130"/>in eius iniuria.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e387">
+          ⁋ Ad aliud quod obiicitur. dicendum quod non est simile in
+          sa<lb ed="#N" n="131" break="no"/>tisfactione et baptismo. Baptismus enim non est proprie opst baptiza
+          <lb ed="#N" n="132"/>ti sed dei. Io. i. Ipse est qui baptizat. Sacerdos enim non baptizat
+          <lb ed="#N" n="133"/>nisi ministerio: ideo baptismus non semper est opst habenti caritatem. ideo valet
+          <lb ed="#N" n="134"/>potest recipienti in mortali quando penitet. sic non est de satisfactione. est enim
+          <lb ed="#N" n="135"/>opus ipsius penitentis. Ideo licet satisfactio bomnoa sit: tamen inutilis est
+          <lb ed="#N" n="136"/>existenti in mortali. nec vnquam ei prodest ad vitam eternam.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e403">
+          ⁋ Ad
+          il<lb ed="#N" n="137" break="no"/>lud quod obiicitur de glo. Tren. iii. Dicendum: fides dicitur ibi
+          conscien<lb ed="#N" n="138" break="no"/>tia peccati. aliquando enim habens gratiam per penam voluntariam satisfacit de
+          <lb ed="#N" n="139"/>culpa: cuius non habet memoriam. vnde tantum valet dicere: si fides
+          de<pb ed="#N" n="545"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>sit: quantum si desit conscientia.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e416">
+          ⁋ Ad illud quod obiicitur. quod non tenetur
+          <lb ed="#N" n="2"/>homo adimplere mandata dei in caritate etc. dicendum quod quando ops satil
+          <lb ed="#N" n="3"/>factionis ab homine imponitur homini: non ideo tenetur illud opst homo facere
+          <lb ed="#N" n="4"/>ex caritate siue in caritate quia preceptum. sed necesse habet in caritate
+          <lb ed="#N" n="5"/>facere ad hoc quod sit emendatorium et deo placitum.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e427">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="6"/>obiicitur. si deberet satisfacere in caritate: oporteret hoc
+          satisfa<lb ed="#N" n="7" break="no"/>cere semper. quia non potest sciri vtrum sit in caritate an non etc. dicendum quod
+          im<lb ed="#N" n="8" break="no"/>pleto opere sibi iniuncto: non est necesse illud iterare. sed si dubitat
+          <lb ed="#N" n="9"/>probabiliter se deo satisfecisse: non debet a satisfactione cessare quusque
+          <lb ed="#N" n="10"/>per signa probabilia certificetur alituro modo se esse absolutum a
+          cul<lb ed="#N" n="11" break="no"/>pa et a pena. sed sicut in aliis sacramentis vtpote in sacramento altaris: non
+          <lb ed="#N" n="12"/>necessario requiritur quod homo accedat ex caritate vel in caritate. sed si
+          se<lb ed="#N" n="13" break="no"/>quantum ex se est sufficienter preparat nec habet in aliquo remorsum consciente: non
+          <lb ed="#N" n="14"/>peccat accedendo. sic est de satisfactione. Potest ergo dici. si opera
+          in<lb ed="#N" n="15" break="no"/>iuncta ab ecclesia sine aliquo remorsu mortalis adimpleuerit dum
+          <lb ed="#N" n="16"/>modo sufficientur preparauit se ad gratiam quantum in se est: absolutus est in
+          fo<lb ed="#N" n="17" break="no"/>ro ecclesie: et similiter in foro consciente. et sine preiudicio dico: similiter in
+          fo<lb ed="#N" n="18" break="no"/>ro dei. ita quod non danabitur licet iterato non satisfecerit. licet per huiusmodi
+          <lb ed="#N" n="19"/>opera non absoluatur omnino. Si igitur aliquis adimpleat penitentiam
+          in<lb ed="#N" n="20" break="no"/>iunctam sine remorsu conscientie extra caritatem: non est necesse quod
+          satisfaci<lb ed="#N" n="21" break="no"/>at iterum: nec iudicio sacerdotis: nec iudicio proprie consclientie.
+          te<lb ed="#N" n="22" break="no"/>netur tamen iudicio dei quia adhuc exigit penam ab illo. quia satissec
+          <lb ed="#N" n="23"/>exta caritatem.
+        </p>
+        <p xml:id="v78d89-afkrml-d1e470">
+          ⁋ Ad illud quod obiicitur. quod ops in caritate factum
+          <lb ed="#N" n="24"/>non manet nisi quamdiu est in fieri. dicendum quod licet non maneat in se:
+          ma<lb ed="#N" n="25" break="no"/>net tamen in suo premio scilicet vita eterna. opst autem factum in mortali dicitur
+          <lb ed="#N" n="26"/>simpliciter perisse et mortuum esse: quia frustratur a primio id est vita eter
+          <lb ed="#N" n="27"/>na. Uel potest dici. quod licet non sint in natura propria: sunt tamenin mente
+          di<lb ed="#N" n="28" break="no"/>uina. vnde Heb. vi. Non est iniustus deus vt obliuiscatur operis
+          <lb ed="#N" n="29"/>nostri et dilectionis quam ostendimus in nomine ipsius
+          <lb ed="#N" n="30"/>etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

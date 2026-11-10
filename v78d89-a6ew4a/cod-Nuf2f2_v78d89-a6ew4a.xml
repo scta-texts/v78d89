@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 28, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 28, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="178"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6ew4a"><!-- q28m5 -->
+        <head xml:id="v78d89-a6ew4a-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a6ew4a-Hd1e103" type="question-title">De tempore confirmationis</head>
+        <p xml:id="v78d89-a6ew4a-d1e106">
+          <lb ed="#N" n="133"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-a6ew4a-d1e111">
+          <lb ed="#N" n="134"/>SEquitur de tempore confirmationis. Et
+          pri<lb ed="#N" n="135" break="no"/>mo queritur de tempore quo debet conferri
+          sa<lb ed="#N" n="136" break="no"/>cramentum confirmationis. Secundo.
+          quan<lb ed="#N" n="137" break="no"/>to tempore confirmati debeant esse sub
+          disci<lb ed="#N" n="138" break="no"/>plina crismatis etc.
+        </p>
+        <div xml:id="v78d89-a6ew4a-Dd1e124">
+          <head xml:id="v78d89-a6ew4a-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-a6ew4a-d1e128">
+            <pb ed="#N" n="179"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e137">
+            <lb ed="#N" n="2"/>QUeritur ergo vtrum sacramentum confirmationis debeat statim
+            <lb ed="#N" n="3"/>conferri paruulo antequam habeat annos
+            discreti<lb ed="#N" n="4" break="no"/>onis. Quod statim: videtur per hoc. quod tanto aptius est
+            ali<lb ed="#N" n="5" break="no"/>quid and sui perfectionem: quanto minus habet de impedimento et
+            mi<lb ed="#N" n="6" break="no"/>noris est inclinationis ad contrarium ipsius. Sed suscepto
+            sacra<lb ed="#N" n="7" break="no"/>mento baptismatis quanto sit aliquis in etate magis
+            elo<lb ed="#N" n="8" break="no"/>gata a statu quo potest peccare: tanto minoris est
+            inclina<lb ed="#N" n="9" break="no"/>tionis ad peccatum quod est contrarium perfectioni gratie et minus
+            <lb ed="#N" n="10"/>habet de impedimento gratie. Quod patet per hoc: quod quanto magis
+            <lb ed="#N" n="11"/>accedit ad statum quo potest peccare: tanto pronior efficitur
+            <lb ed="#N" n="12"/>ad peccandum et habilior ad impedimentum. ergo quanto aliquis
+            <lb ed="#N" n="13"/>sit minoris etatis suscepto sacramento baptismatis: tanto
+            <lb ed="#N" n="14"/>aptior est ad sui perfectionem. et ita aptior ad susceptionem gratie
+            confir<lb ed="#N" n="15" break="no"/>mationis que est perfectiua ipsius. Sed quanto aliquid est aptius
+            <lb ed="#N" n="16"/>sue perfectioni: tanto magis congruit illam eidem conferre. ergo etc.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e172">
+            <lb ed="#N" n="17"/>⁋ Item quantuncumque alicubi existit dispositio immediata
+            <lb ed="#N" n="18"/>ad formam vel actum aliquem. que quidem forma vel actus
+            expe<lb ed="#N" n="19" break="no"/>dit saluti humane: conuenit vt forma illa vel actus producatur in
+            <lb ed="#N" n="20"/>esse. Sed gratia baptismalis est immediata dispositio ad
+            gra<lb ed="#N" n="21" break="no"/>tiam confirmationis que est vlterior perfectiua ipsius baptizati.
+            <lb ed="#N" n="22"/>ergo statim post baptismum conferendum est sacramentum confirm ationis.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e188">
+            <lb ed="#N" n="23"/>⁋ Item ecclesie est cautius et melius prouidere in membris
+            <lb ed="#N" n="24"/>suis quo potest. sed quando homo est in innocentia: certius constat
+            <lb ed="#N" n="25"/>ecclesie de habilitate ipsius ad susceptionem gratie quam quando est in
+            <lb ed="#N" n="26"/>statu peccati. quia statim quando homo est adultus ignoratur an
+            <lb ed="#N" n="27"/>sit in peccato aliquo. Cum igitur ecclesie cuius est prouidere saluti
+            men<lb ed="#N" n="28" break="no"/>brorum. potest procurare ministeria sacramentorum secundum quod magis
+            con<lb ed="#N" n="29" break="no"/>sfat sibi siue constare potest de vtilitate eorum. Sed constat illi quod
+            da<lb ed="#N" n="30" break="no"/>ta confirmatio existenti in innocentia maxime est vtilitatis:
+            <lb ed="#N" n="31"/>non autem constat illi sic cum datur existenti in etate adulta. igitur semper
+            <lb ed="#N" n="32"/>debet prouidere quod detur existenti in minori etate scilicet ante quam
+            pos<lb ed="#N" n="33" break="no"/>set peccare.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e215">
+            ⁋ Contra. vtilitas maxima sacramenti est ex
+            per<lb ed="#N" n="34" break="no"/>ductione actus eius in finem. sed cum actus huis sacramenti
+            sit<lb ed="#N" n="35" break="no"/>confiteri libera fronte nomn christi. quod non conuenit exstetibus
+            infra<lb ed="#N" n="36" break="no"/>annos discretionis: sed solum adultis. igitur vt videtur: ecclesie est
+            <lb ed="#N" n="37"/>ita prouidere quod sacramentum hoc ministretur adultis qui posunt
+            <lb ed="#N" n="38"/>actum istius perducere ad finem.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e228">
+            ⁋ Item frustra armatur quis
+            <lb ed="#N" n="39"/>antequam debeat inire certamen. ergo et frustra confirmatur quis antequam
+            <lb ed="#N" n="40"/>possit pugnare proficere.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e235">
+            ⁋ Item sacramentum confirmationis est
+            sacra<lb ed="#N" n="41" break="no"/>mentum perfectionis. sed status pueri totus est status imperfectio
+            <lb ed="#N" n="42"/>nis vsque ad perfectum vsum rationis. ergo totus ille status
+            prece<lb ed="#N" n="43" break="no"/>dens videtur repugnare susceptioni gratie sacramenti confirmationis.
+            <lb ed="#N" n="44"/>Hoc etiam videtur per hoc quod habetur de conse. di. iiii. vt ieiuni. vbi
+            <lb ed="#N" n="45"/>dicit. Ut ieiuni ad confirmationem veniant perfecti etatis supple
+            <lb ed="#N" n="46"/>statutum est. vt moneantur confessionem facere prius: et vt mundi
+            <lb ed="#N" n="47"/>donum spiritus sancti valeant accipere. Ecce habetur quod debent esse
+            <lb ed="#N" n="48"/>perfecte etatis et accedere ieiuni. quod non conuenit paruul.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e255">
+            ⁋
+            Re<lb ed="#N" n="49" break="no"/>spondeo. quod tempus magis congruum susceptioni huius sacramenti
+            <lb ed="#N" n="50"/>est innocentie: tum quia adueniente adulta etate habebit suam
+            <lb ed="#N" n="51"/>efficaciam: tum propter periculum imminens ex preuentu mortis.
+            <lb ed="#N" n="52"/>Si enim preuentus esset quis morte non percepto sacramento isto
+            <lb ed="#N" n="53"/>diminueretur sibi de gloria quantum ad ornatum caracteris
+            <lb ed="#N" n="54"/>huius sacramenti. et etiam parentibus imputaretur in culpam. Und
+            <lb ed="#N" n="55"/>Hug. propter eos qui articulo temporis preueniuntur: instituta est
+            <lb ed="#N" n="56"/>illa qua sacerdos baptizatum statim in vertice linit
+            sacri<lb ed="#N" n="57" break="no"/>crismatis vnctio. vt in hocipso ostendatur quantum sacramentum id ad
+            <lb ed="#N" n="58"/>salutem necessarium sit: cum tam sollicite vniuersis cauetur ne
+            for<lb ed="#N" n="59" break="no"/>te sine ipso ab hac vita subtrahantur.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e281">
+            ⁋ Ad hoc quod vtilitas
+            sa<lb ed="#N" n="60" break="no"/>cramenti est ex productione actus in finem etc. Dicendum quod non
+            <lb ed="#N" n="61"/>iollitur efficacia sacramenti adueniente etatis temporis adulte per hoc quod
+            <lb ed="#N" n="62"/>datur infra illam etatem. virtus enim sacramenti non tollitur nisi per
+            pec<lb ed="#N" n="63" break="no"/>catum. Si queratur quare non semper prouidet ecclesia quod ministretur
+            <lb ed="#N" n="64"/>hoc sacramentum existentibus in statu innocentie. Dicendum immo hoc
+            <lb ed="#N" n="65"/>habet ecclesia in consuetudine. Quod autem ita non fit omnibus: hoc est ex
+            ne<lb ed="#N" n="66" break="no"/>gligentia parentum. Item quare episcous quos baptizat statim
+            <lb ed="#N" n="67"/>confirmat. Responsio. vt sicut plenam potetantem habens: plenarie
+            sub<lb ed="#N" n="68" break="no"/>ueniat defectibus suscipientis et periculis pretactis.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e303">
+            ⁋ Ad illud
+            <lb ed="#N" n="69"/>quod obiicitur. quod non armatur quis nisi quando debet inire certamen etc.
+            <lb ed="#N" n="70"/>Dicendum secus est de armis corporalibus et spiritualibus.
+            arma<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>enim spiritualia non aggrauant sed alleuiant. Preterea. arma
+            spiritua<lb ed="#N" n="72" break="no"/>lia scilicet gratia siue virtutes multas habent vtilitates preter illam
+            <lb ed="#N" n="73"/>que est defensionis in pugna spirituali. propter quas vtiles sunt
+            <lb ed="#N" n="74"/>ipsi paruulo.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e321">
+            ⁋ Ad id quod obiicitur. quod sacramentum confirmationis est
+            sa<lb ed="#N" n="75" break="no"/>cramentum perfectionis etc. Dicendum quod duplex est perfectio.
+            que<lb ed="#N" n="76" break="no"/>dam que attenditur penes habitus virtutum et dona gratiarum:
+            <lb ed="#N" n="77"/>et hanc contingit paruulos habere. hec autem perfectio habetur a paruul
+            <lb ed="#N" n="78"/>sacramento baptismali et confirmationis. Alia est perfectio que
+            at<lb ed="#N" n="79" break="no"/>tenditur penes exercitium virtutum operum et gratiarum. et hanc non
+            <lb ed="#N" n="80"/>contingit paruulos habere: sed solum adultos habentes vsum rationis.
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e337">
+            <lb ed="#N" n="81"/>⁋ Ad hoc quod obiicitur. quod ieiuni debent accedere etc.
+            Dicen<lb ed="#N" n="82" break="no"/>dum quod intellectus illius decreti est. quod illi qui sunt perfecte eta
+            <lb ed="#N" n="83"/>tis debent accedere ieiuni: non quod non debeant accedere nisi
+            ieiu<lb ed="#N" n="84" break="no"/>ni et in perfecta etate. Unde Hug. hoc statutum est: vt impositio
+            <lb ed="#N" n="85"/>nis manuum sacramentum non nisi a ieiunis vel detur vel accipiatur:
+            <lb ed="#N" n="86"/>si hi qui acceperint perfecte etatis fuerint. vt mundi spiritus
+            san<lb ed="#N" n="87" break="no"/>cti donum accipiant.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6ew4a-Dd1e357">
+          <head xml:id="v78d89-a6ew4a-Hd1e359">Articulus 2</head>
+          <p xml:id="v78d89-a6ew4a-d1e361">
+            <lb ed="#N" n="88"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a6ew4a-d1e366">
+            <lb ed="#N" n="89"/>COnsequenter queritur. quanto tempore confirmati
+            de<lb ed="#N" n="90" break="no"/>bent esse sub disciplina crismatis. Hanc questi
+            <lb ed="#N" n="91"/>onem tangit et determinat Hugo sic. Solent quidam
+            <lb ed="#N" n="92"/>querenre: quanto tempore debeant vnctionem crismatis obseruare in
+            <lb ed="#N" n="93"/>capite. vt scilicet capita non lauent qui accipiunt manus
+            impositi<lb ed="#N" n="94" break="no"/>onem absque tempore baptisterii. Quibus responderi potest conueniens esse
+            <lb ed="#N" n="95"/>vt tanto tempore aduentus spiritus sancti apud vnumquemque qui eum
+            <lb ed="#N" n="96"/>accipit celebretur: quanto tempore ab ecclesia generaliter celebratur
+            <lb ed="#N" n="97"/>aduentus spiritus sancti super apostolos. hoc est septem diebus. et
+            <lb ed="#N" n="98"/>merito: quia septem sunt dona spiritus sancti: et in septem
+            comiti<lb ed="#N" n="99" break="no"/>bus ad hospitem suum spiritus sanctus venit. Et dignum est vt
+            ha<lb ed="#N" n="100" break="no"/>beat vnusquisque diem suum. et vnicuique in die suo conuiuium
+            prepa<lb ed="#N" n="101" break="no"/>retur. Alium diem habet sapicentia. alium intellectus. alium consilium. alium
+            for<lb ed="#N" n="102" break="no"/>titudo. alium pietas. alium timor. Talia conuiuia christus apud
+            <lb ed="#N" n="103"/>suos hospites exercet: talia et spiritus sanctus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

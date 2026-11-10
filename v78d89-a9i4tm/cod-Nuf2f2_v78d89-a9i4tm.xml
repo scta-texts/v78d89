@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 47, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 47, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="330"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9i4tm"><!-- q47m5 -->
+        <head xml:id="v78d89-a9i4tm-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a9i4tm-Hd1e103" type="question-title">Utrum leprosi debeant accedere ad sacram communionem</head>
+        <p xml:id="v78d89-a9i4tm-d1e106">
+          <lb ed="#N" n="13"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-a9i4tm-d1e111">
+          <lb ed="#N" n="14"/>COnsequenter queritur vtrum leprosi debeant
+          acce<lb ed="#N" n="15" break="no"/>dere ad sacram communionem. Quod sic: videtur per hoc quod
+          <lb ed="#N" n="16"/>habetur extra de clerico egrotante vel debilita
+          <lb ed="#N" n="17"/>to. capitulo Ex parte. quod afflictio non est addenda
+          <lb ed="#N" n="18"/>afflicto: immo potius ipsius miserie miserandum. Si autem
+          tali<lb ed="#N" n="19" break="no"/>bus esset subtracta facultas accedendi ad sacram communionem:
+          <lb ed="#N" n="20"/>afflictis adderetur afflictio. ergo etc.
+        </p>
+        <p xml:id="v78d89-a9i4tm-d1e129">
+          ⁋ Pret. nullus sine culpa
+          <lb ed="#N" n="21"/>est puniendus. sed si leproso subtracta esset facultas
+          predi<lb ed="#N" n="22" break="no"/>cta puniretur sine culpa.
+        </p>
+        <p xml:id="v78d89-a9i4tm-d1e137">
+          ⁋ Contra. sacerdotibus leprosis
+          <lb ed="#N" n="23"/>interdicta est facultas consecrandi: eadem ratione et
+          lepro<lb ed="#N" n="24" break="no"/>sis aliis debet interdici facultas sumendi. dicitur enim
+          ex<lb ed="#N" n="25" break="no"/>tra de clerico egrotante vel debilitato scitot tua nos. de
+          sacer<lb ed="#N" n="26" break="no"/>dote qui diuino iudicio lepre morbo respersus est in
+          paro<lb ed="#N" n="27" break="no"/>chiali ecclesia prelationis officio fungitur. dicimus quod
+          pro<lb ed="#N" n="28" break="no"/>scandalo et abhominatione populi ab administrationis
+          offi<lb ed="#N" n="29" break="no"/>cio debet remoueri.
+        </p>
+        <p xml:id="v78d89-a9i4tm-d1e155">
+          ⁋ Item inter immundicias corporis
+          si<lb ed="#N" n="30" break="no"/>ue carnis illa que est lepre maxima est. ergo si propter
+          ali<lb ed="#N" n="31" break="no"/>quam immundiciam carnis cessandum est a sacra communione
+          <lb ed="#N" n="32"/>videtur quod maxime cessandum est propter istam.
+        </p>
+        <p xml:id="v78d89-a9i4tm-d1e164">
+          ⁋ Rosio. quod
+          <lb ed="#N" n="33"/>leprosi debent tempore opportuno accedere ad sacram
+          commu<lb ed="#N" n="34" break="no"/>nionem.
+        </p>
+        <p xml:id="v78d89-a9i4tm-d1e171">
+          ⁋ Ad illud quod obiicitur de sacerdote leproso quod
+          <lb ed="#N" n="35"/>non debet consecrare etc. Dicendum quod non est interdicta
+          sacerdo<lb ed="#N" n="36" break="no"/>ti leproso facultas celebrandi omnino: sed tantum populo parochia
+          <lb ed="#N" n="37"/>li vt ex verbis supradicte decretalis patet. et hoc propter
+          scana<lb ed="#N" n="38" break="no"/>dalum et abhominationem vt ibidem dicitur. priuatim
+          tamen<lb ed="#N" n="39" break="no"/>nisi sit nimia debilitas aut deformitas vt existimo potest
+          cele<lb ed="#N" n="40" break="no"/>brare. Et vt vult Hug. cum expellantur a communi
+          cohabita<lb ed="#N" n="41" break="no"/>tione: multo fortius a sacris ordinibus. si tamen sit presbi
+          <lb ed="#N" n="42"/>ter leprosus cessabit a misterio quo ad sanos: sed leprosia
+          <lb ed="#N" n="43"/>cantare et ministrare poterit diuina.
+        </p>
+        <p xml:id="v78d89-a9i4tm-d1e193">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="44" break="no"/>tur. quod inter immundicias carnis hec est maxima etc.
+          Dicen<lb ed="#N" n="45" break="no"/>dum quod sola immundicia in pollutione nocturna vel in
+          decu<lb ed="#N" n="46" break="no"/>batione in puerperio non est causa quare cessandum est ab
+          <lb ed="#N" n="47"/>accessu ad sacram communionem: sed illa que tacta sunt vt ex
+          <lb ed="#N" n="48"/>dictis patet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 57, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 57, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="385"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-abei1k"><!-- q57m6 -->
+        <head xml:id="v78d89-abei1k-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-abei1k-Hd1e103" type="question-title">Utrum poenitentia restituat omnia ablata per peccatum</head>
+        <p xml:id="v78d89-abei1k-d1e106">
+          <lb ed="#N" n="108"/>⁋ Membrum sextum
+        </p>
+        <p xml:id="v78d89-abei1k-d1e111">
+          <lb ed="#N" n="109"/>COnsequenter queritur. vtrum penitentia restituat omnia
+          <lb ed="#N" n="110"/>ablata per peccatum. Et quia hec questio
+          pro<lb ed="#N" n="111" break="no"/>parte determinata est supra. vbi querebatur de hac
+          <lb ed="#N" n="112"/>ratione. Penitentia est quedam res optima et
+          per<lb ed="#N" n="113" break="no"/>fecta: omnes defectus reuocans ad perfectum. Hic queretur
+          <lb ed="#N" n="114"/>solum. vtrum penitentia restituat opera mortificata. Et videtur quod sic.
+          <lb ed="#N" n="115"/>Iohelis. ii. Reddam vobis annos etc. Glo. non patiar perire
+          <lb ed="#N" n="116"/>vbertatem quam cum perturbationibus animi perdidistis. sed illa
+          <lb ed="#N" n="117"/>vbertas erat ex multitudine bonorum operum. ergo si illam non
+          <lb ed="#N" n="118"/>patitur perire penitentia: restituit bona opera per culpam
+          <lb ed="#N" n="119"/>mortificata.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e137">
+          ⁋ Item bona opera prius facta digna erant
+          <lb ed="#N" n="120"/>remuneratione eterna. sed quod nunc non remunerentur hoc est:
+          <lb ed="#N" n="121"/>quia iste non perseuerat in gratia. ergo si resurgat et perseuerat in
+          <lb ed="#N" n="122"/>gratia: illa opera remunerabuntur. ergo etc.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e147">
+          ⁋ Item plus potest
+          <lb ed="#N" n="123"/>gratia penitentie quam culpa. sed culpa mortificat opera viua.
+          <lb ed="#N" n="124"/>ergo gratia viuificat mortificata.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e154">
+          ⁋ Contra. vt dicit Hugo.
+          <lb ed="#N" n="125"/>Nemo in spe correctionis peccare debet. quia quod semel
+          <lb ed="#N" n="126"/>amittitur amplius non recuperatur. igitur si bona opera prius
+          fa<lb ed="#N" n="127" break="no"/>cta sunt amissa per culpam: impossibile est ea restitui. ergo
+          <lb ed="#N" n="128"/>nec viuificari.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e165">
+          ⁋ Item omne quod viuificatur est aliquo modo. sed quod
+          <lb ed="#N" n="129"/>omnino preteriit nullo modo est. et talia sunt opera bona prius
+          fa<lb ed="#N" n="130" break="no"/>cta. ergo nec viuificari nec recuperari possunt.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e172">
+          ⁋ Item si
+          mortifican<lb ed="#N" n="131" break="no"/>tur et viuificantur. ergo idem actus secundum idem sui esset susceptiuus
+          <lb ed="#N" n="132"/>oppositarum conditionum: quod est impossibile. quia
+          impossibi<lb ed="#N" n="133" break="no"/>le est quod motus vnus secundum eandem partem primo sit velox et
+          <lb ed="#N" n="134"/>postea tardus.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e183">
+          ⁋ Item impossibile est habitum amissum
+          <lb ed="#N" n="135"/>illum eundem recuperare. a simili videtur quod opera amissa et
+          <lb ed="#N" n="136"/>mortificata impossibile est eadem ipsa recuperare et
+          reuiui<lb ed="#N" n="137" break="no"/>sci.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e192">
+          ⁋ Item status innocentie destructus per culpam non
+          re<lb ed="#N" n="138" break="no"/>cuperatur per penitentiam. similiter vt videtur nec opera meritoris
+          fa<lb ed="#N" n="139" break="no"/>cta in tali statu destructa per culpam non recuperantur.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e200">
+          ⁋ Responsio.
+          <lb ed="#N" n="140"/>quod secundum quod communis tenet opinio et veritas est vt existimo:
+          <lb ed="#N" n="141"/>opera que aliquando fuerunt viua: quia in caritate et ex
+          ca<pb ed="#N" n="386"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>ritate facta: et ob hoc digna vita eterna. postea
+          aduenien<lb ed="#N" n="2" break="no"/>te peccato mortificantur: nec sunt digna remuneratione quod est
+          <lb ed="#N" n="3"/>ipsa opera viuificari.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e216">
+          ⁋ Ad illud quod primo obiicitur contra dicem
+          <lb ed="#N" n="4"/>dum quod (vt alibi dictum est) verbum Hugo. debet intelligi de
+          <lb ed="#N" n="5"/>illo opere bono quod homo potuisset facere vel fecisset tempore quo
+          <lb ed="#N" n="6"/>fuit in mortali peccato. quod opus non recuperabitur: quia si alio tem
+          <lb ed="#N" n="7"/>pore velit facere opus quod obmisit: perdit illud opst quod debe
+          <lb ed="#N" n="8"/>ret in illo tempore facere. vnde Seneca dicit. quod grauissima
+          <lb ed="#N" n="9"/>est iactura temporis que non potest recuperari.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e232">
+          ⁋ Ad aliud nonndum
+          <lb ed="#N" n="10"/>quod vt quidam ponunt. opera bona id est meritoria vite eterne ex
+          <lb ed="#N" n="11"/>caritate fiunt et ex libera voluntate et iusta ipsius operantis.
+          <lb ed="#N" n="12"/>Eo enim quod bona sunt (bonum enim dicit conditionem finis) ad
+          <lb ed="#N" n="13"/>laudem dei fiunt. quia vero ex caritate fiunt: et ideo in vnitate
+          <lb ed="#N" n="14"/>corporis mistici spectant ad corpus christi misticum. quia vero ex
+          <lb ed="#N" n="15"/>voluntate iusta et libera: spectant ad ipsum operantem siue ad
+          <lb ed="#N" n="16"/>meritum operantis. vnde quando iste cadit qui fecit opera bona.
+          etsi<lb ed="#N" n="17" break="no"/>euanescant quantum ad meritum operantis mihilominus
+          quodan<lb ed="#N" n="18" break="no"/>modo remanent inquantum spectant ad laudem et ad ipsum
+          cor<lb ed="#N" n="19" break="no"/>pus misticum in cuius vnitate fiebant. non tamen manent ad
+          meri<lb ed="#N" n="20" break="no"/>tum facientis: vnde moriuntur quantum ad ipsum. Si vero
+          resur<lb ed="#N" n="21" break="no"/>gat a culpa et fiat de corpore mistico: ipsa opera sibi
+          reui<lb ed="#N" n="22" break="no"/>uiscunt. et quantum ad hunc modum habendi siue tenendi dicunt
+          <lb ed="#N" n="23"/>quidam illud Apoc. iii. Tene quod habes ne alius accipiat
+          <lb ed="#N" n="24"/>coronam tuam: debere intelligi. secundum hunc modum dicunt
+          ope<lb ed="#N" n="25" break="no"/>ra talia non omnino preterisse: sed aliquo modo manere. siue
+          ma<lb ed="#N" n="26" break="no"/>neant in corpore mistico secundum quod dicunt quidam siue non: non est
+          <lb ed="#N" n="27"/>dubium quin maneant in memoria dei. sed non ad remunerandum
+          <lb ed="#N" n="28"/>in ipso vero peccatore non manent ad gaudendum sed magis ad
+          <lb ed="#N" n="29"/>dolendum: quod a tantis bonis ad tanta mala lapsus est. si
+          ta<lb ed="#N" n="30" break="no"/>men resurgit: manent in deo ad remunerandum et in
+          peniten<lb ed="#N" n="31" break="no"/>tem ad gaudendum. Unde prius aliquo modo manebant sed
+          mor<lb ed="#N" n="32" break="no"/>tua: postea vero viua.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e284">
+          ⁋ Ad illud ergo quod obiicitur potest responderi
+          du<lb ed="#N" n="33" break="no"/>pliciter. vel quod manent in corpore mistico sicut tactum est. vel
+          <lb ed="#N" n="34"/>quod manent in memoria eius qui fecit et dei pro quo fecit.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e291">
+          <lb ed="#N" n="35"/>⁋ Ad hoc ergo quod obiicitur. quod idem actus est susceptiuus
+          opposi<lb ed="#N" n="36" break="no"/>torum etc. Dicendum quod viuum et mortuum non dicunt diuersas
+          dispo<lb ed="#N" n="37" break="no"/>sitiones circa opus: sed diuersas ordinationes potius. dicunt
+          <lb ed="#N" n="38"/>enim ordinationem ad remunerationem dum viuit opus: et
+          pri<lb ed="#N" n="39" break="no"/>uationem illius ordinationis cum mortificatum est opus. sed in
+          <lb ed="#N" n="40"/>ipso homine dicunt diuersitatem penes qualitatem gratie: que
+          <lb ed="#N" n="41"/>est accmdenus absolutum. penes quod alteratur subiectum. et dicitur
+          <lb ed="#N" n="42"/>modo homo mortuus modo viuus modo peccator modo
+          <lb ed="#N" n="43"/>iustus. et ita alteratur alteratione secundum quid: que non est motus
+          <lb ed="#N" n="44"/>sed mutatio. opus autem ex consequenti ordinatum est ad vitam
+          <lb ed="#N" n="45"/>vel hoc ordine priuatum.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e317">
+          ⁋ Ad illud quod obiicitur. quod
+          impossi<lb ed="#N" n="46" break="no"/>bile est habitum eundem numero recuperare etc. Dicendum
+          <lb ed="#N" n="47"/>quod aliter est recuperare actum simpliciter et recuperare per
+          viuifica<lb ed="#N" n="48" break="no"/>tionem: sicut aliud est recuperare et viuificari. recuperare enim
+          <lb ed="#N" n="49"/>respicit esse: viuificari ordinem. et quoniam quando aliquid deficit quantum
+          <lb ed="#N" n="50"/>ad esse: si iterum incipiat esse: non est idem numero sed aliud.
+          <lb ed="#N" n="51"/>ideo habitus si corrumpatur: idem non recuperatur. sed quia possibi
+          <lb ed="#N" n="52"/>lem est quod idem manens idem: alium et alium ordinem habeat
+          <lb ed="#N" n="53"/>et secundum hoc attenditur mortificatio in operibus. ideo
+          impossi<lb ed="#N" n="54" break="no"/>bile est opus mortuum viuificari manens idem.
+        </p>
+        <p xml:id="v78d89-abei1k-d1e340">
+          ⁋ Ad illud
+          <lb ed="#N" n="55"/>quod obiicitur de statu innocentie destructo etc. Dicendum quod
+          <lb ed="#N" n="56"/>non est simile. opera enim destructa per culpam non sunt
+          de<lb ed="#N" n="57" break="no"/>structa quantum ad esse simpliciter: sed quantum ad ordinem siue esse
+          <lb ed="#N" n="58"/>ordinatum. status enim innocentie et virginitatis
+          simplici<lb ed="#N" n="59" break="no"/>ter corrumpuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

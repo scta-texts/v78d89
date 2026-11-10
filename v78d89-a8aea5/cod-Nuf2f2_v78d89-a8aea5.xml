@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 40, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 40, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="285"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8aea5"><!-- q40m1 -->
+        <head xml:id="v78d89-a8aea5-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a8aea5-Hd1e103" type="question-title">De existentia specierum continentium</head>
+        <p xml:id="v78d89-a8aea5-d1e106">
+          <lb ed="#N" n="124"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a8aea5-d1e111">
+          <lb ed="#N" n="125"/>CIrca primum tria queruntur. Primum est. v. deus
+          pos<lb ed="#N" n="126" break="no"/>sit facere quod accidentia sint sine subiecto. Secundum
+          <lb ed="#N" n="127"/>est. v. accidentia hec sint sine subiecto. Tercium
+          <lb ed="#N" n="128"/>est. v. congruat quod accidentia sine subiecto sint.
+        </p>
+        <div xml:id="v78d89-a8aea5-Dd1e122">
+          <head xml:id="v78d89-a8aea5-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-a8aea5-d1e126">
+            <lb ed="#N" n="129"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e131">
+            <lb ed="#N" n="130"/>Q primum proceditur sic. Basi. in hexameron. deus
+            <lb ed="#N" n="131"/>plus potest facere quam intellectus intelligere. Cum ergo
+            in<lb ed="#N" n="132" break="no"/>tellectus intelligat accdns preter substantiam:
+            po<lb ed="#N" n="133" break="no"/>test deus facere quod accmdenus sit sine subiecto. Quod autem accidens
+            <lb ed="#N" n="134"/>secundum suam essentiam intelligatur sine subiector habetur plane a Boe
+            <lb ed="#N" n="135"/>uo.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e147">
+            ⁋ Contra. ex ordinatione diuine sapientie est. quod accidens
+            ha<lb ed="#N" n="136" break="no"/>bet esse in subiecto. hed qui ordinationi diuine sapientie
+            con<pb ed="#N" n="286"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>trariatur: ipsi sapientie contrariatur. igitur cum efficacissima
+            contraria<lb ed="#N" n="2" break="no"/>tio est opere. si deus siue diuina potentia faceret quod esset
+            acci<lb ed="#N" n="3" break="no"/>dens et non in subiecto: potentia contrariaretur sapicentie. hoc esset
+            in<lb ed="#N" n="4" break="no"/>conueniens deo. ergo impossibile.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e163">
+            ⁋ Item aspectui humano
+            ap<lb ed="#N" n="5" break="no"/>parenter representatur panis. igitur si noon est ibi panis in verita
+            <lb ed="#N" n="6"/>te: veritas non subest apparentie veritatis. Prime autem
+            veri<lb ed="#N" n="7" break="no"/>tati non conuenit apparenter aliquid facere sine existentia. quod autem
+            <lb ed="#N" n="8"/>ei non conuenit est ei impossibile. ergo etc.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e175">
+            ⁋ Item accidentis esse
+            <lb ed="#N" n="9"/>est inesse. deus autem non potest esse separare ab ente: quia si separa
+            <lb ed="#N" n="10"/>fentur non predicaretur esse de ente sed non esse. et esset hec vera: ens
+            <lb ed="#N" n="11"/>non est ens. et sic fierent contradictoria simul vera: quod est
+            im<lb ed="#N" n="12" break="no"/>possibile. igitur inesse ab accidente non potest separare deus. igitur
+            <lb ed="#N" n="13"/>etc.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e188">
+            ⁋ Item deus non potest facere quod existente diffinito non sit
+            <lb ed="#N" n="14"/>diffinitio. Dico secundum rem id est res diffiniens. quia si hoc:
+            face<lb ed="#N" n="15" break="no"/>ret quod ens non esset. cum igitur inesse diffiniat accmdens: quia dicit
+            il<lb ed="#N" n="16" break="no"/>lius non potest deus facere quod accndns non insit.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e197">
+            ⁋ Item accidens
+            <lb ed="#N" n="17"/>esse sine subiecto claudit in se duo opposita contradictoria.
+            <lb ed="#N" n="18"/>quod patet. quia dicit illud esse et non esse. hoc autem non potest deus
+            <lb ed="#N" n="19"/>facere.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e206">
+            ⁋ Item facere aliquid non perticipans rationem alicuius
+            <lb ed="#N" n="20"/>perticipare illam est conuertere vnum in aliud. verb. gratia. facere
+            il<lb ed="#N" n="21" break="no"/>lud quod non est album quod sit disgregatum visus: est facere id quod
+            <lb ed="#N" n="22"/>non est album esse album. igitur cum ratio substantie sit esse per se scilicet
+            <lb ed="#N" n="23"/>sine subiecto. facere quod accmdenus sit per se et sine subiecto: est
+            fa<lb ed="#N" n="24" break="no"/>cere accmdenus esse substantiam. hoc autem non potest facere deus. scilicet
+            <lb ed="#N" n="25"/>quod accmdenus sit substantia.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e222">
+            ⁋ Item quantitas immediate
+            ad<lb ed="#N" n="26" break="no"/>heret substantie: et immediatissime inter omnia accidentia. quia
+            <lb ed="#N" n="27"/>alia mediante quantitate insunt substantie: sicut albedo et
+            <lb ed="#N" n="28"/>huiusmodi. sed tanta propinquitate et immediatione qua albedo
+            in<lb ed="#N" n="29" break="no"/>est quantitati: et quantitas inest substantie. sed deus non potest facere
+            <lb ed="#N" n="30"/>albedinem nisi in quanto vel in quantitate: quia non sine
+            super<lb ed="#N" n="31" break="no"/>ficie. ergo nec quantitatem sine substantia.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e238">
+            ⁋ Item duosunt
+            natura<lb ed="#N" n="32" break="no"/>lia essentialiter accidenti. esse in subiecto: et actus proprius. sicut
+            <lb ed="#N" n="33"/>calori esse in calido et calere siue calefacere. similiter albedini esse
+            <lb ed="#N" n="34"/>in subiecto et disgregare. sed deus non posset subtrahere
+            acci<lb ed="#N" n="35" break="no"/>denti actum illius proprium: vt albedini actum disgregandi.
+            <lb ed="#N" n="36"/>ergo nec potest subtrahere illi esse in subiecto.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e252">
+            ⁋ Item aliqua
+            dif<lb ed="#N" n="37" break="no"/>ferunt aliquibus differentiis. que autem est oppositio vel
+            differen<lb ed="#N" n="38" break="no"/>tia differentium differentiis illis: eadem est oppositio vel
+            differen<lb ed="#N" n="39" break="no"/>tia differentiarum et vnius differentium ad differentiam
+            alte<lb ed="#N" n="40" break="no"/>rius. verb. gratia. azinus homo differunt differentiis que sunt rationale
+            <lb ed="#N" n="41"/>irrationalem. similiter differunt rationalem et irrationalem. similiter azinus et
+            ra<lb ed="#N" n="42" break="no"/>tionalem: et homo et irrationale. Est ergo consimilis oppositio siue
+            <lb ed="#N" n="43"/>differentia omnium horum. Eodem modo est assignare et
+            multiplica<lb ed="#N" n="44" break="no"/>re differentiam inter substantiam et accdens esse in alio et esse per
+            <lb ed="#N" n="45"/>se. sed deus non posset facere quod esse in alio sit esse per se. igitur
+            <lb ed="#N" n="46"/>neque vt videtur posset facere quod accmdenus esset per se.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e276">
+            ⁋ Item magis
+            <lb ed="#N" n="47"/>distant que non conueniunt in genere vt accmdenus et substantia
+            <lb ed="#N" n="48"/>sed in ente simpliciter: quam que conueniunt in genere: vt homo et azinus
+            <lb ed="#N" n="49"/>sed illud quo essentialiter differt homo et ainus non posset
+            ali<lb ed="#N" n="50" break="no"/>qua virtute nec et increata conuenire homini. deus enim non
+            <lb ed="#N" n="51"/>posset facere hominem irrationalem. ergo multo fortius nulla
+            virtu<lb ed="#N" n="52" break="no"/>tem poterit. propria dico substantie que est esse per se conuenire ac
+            <lb ed="#N" n="53"/>cidenti.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e294">
+            ⁋ Responsio. quod cum substantia et accmdens differunt per
+            essenti<lb ed="#N" n="54" break="no"/>as. alia est enim substantia essentie siuem subiecti: et alia
+            accden<lb ed="#N" n="55" break="no"/>tis. potest deus sine omni inconuenientia illa separare.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e301">
+            ⁋ Ad
+            <lb ed="#N" n="56"/>primum ergo dicendum. quod virtus diuina hic operatur dispensante ipsa
+            <lb ed="#N" n="57"/>sapientia. ipsa virtus hoc faciendo potius fauet sapicentie quam
+            con<lb ed="#N" n="58" break="no"/>trarietur. Licet autem diuina sapicentia ordinet aliquid vno modo
+            <lb ed="#N" n="59"/>secundum legem communem: et alio modo dispensatione necessitatis. pro
+            <lb ed="#N" n="60"/>pter hoc non est dicenda sibi contraria. nec quod exequitur quod est
+            <lb ed="#N" n="61"/>ordinatum dispensatorie contrarietur ordinationi que est secundum
+            le<lb ed="#N" n="62" break="no"/>gem communem.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e319">
+            ⁋ Ad aliud quod obiicitur. si non est panis secundum
+            <lb ed="#N" n="63"/>veritatem cum appareat etc. Dicendum quod in hoc sacramento pro
+            <lb ed="#N" n="64"/>ponitur species alimenti communis in fomentum sensus cui subest
+            <lb ed="#N" n="65"/>solum corpus christi in edificationem fidei. vnde Hug. voluit
+            sapi<lb ed="#N" n="66" break="no"/>entia que per visibi lia ostendit inuisibilia manifestare quod ipsa
+            <lb ed="#N" n="67"/>cibus est animarum. et propterea carnem assumptam in edulium
+            <lb ed="#N" n="68"/>proposuit: vt per cibum carnis ad gustum diuinitatis inuita
+            <lb ed="#N" n="69"/>ret. Ne autem humana infirmitas contactum carnis in
+            assun<lb ed="#N" n="70" break="no"/>ptione horresceret: consueti et principalis edulii spem illam
+            <lb ed="#N" n="71"/>velauit. et sic sumendam proposuit: vt sensus in vno foueretur
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>et fides in altero edificaretur. Hoc autem congruit prime ve
+            <lb ed="#N" n="73"/>ritati volenti vtrique homini prouidere. In hoc igitur
+            sacrame<lb ed="#N" n="74" break="no"/>to iudicat sensus interior et exterior id est intellectus. Sed quod
+            <lb ed="#N" n="75"/>in hoc sacramento omnino standum est dictationi fidei: omnino
+            <lb ed="#N" n="76"/>standum est iudicio illius: et dictationi que est capax fidei
+            <lb ed="#N" n="77"/>scilicet intellectus. Unde licet sensus corporalis falso iudicat sub
+            <lb ed="#N" n="78"/>esse ipsi speciei substantiam panis: ipse tamen intellectus dicit
+            spe<lb ed="#N" n="79" break="no"/>ciem in se esse fixam sine substantia panis et vere. Unde cum in hoc
+            <lb ed="#N" n="80"/>sacramento etiam quantum ad sacramentum exterius attenditur
+            <lb ed="#N" n="81"/>iudicium intellectus eleuari per fidem: non sensus iudicantis
+            <lb ed="#N" n="82"/>secundum cursum nature. in sacramento veritatis nihil putabi
+            <lb ed="#N" n="83"/>tur falsitatis.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e369">
+            ⁋
+            </p>
+          <p xml:id="v78d89-a8aea5-d1e372">
+            ⁋ Ad aliud quod obiicitur. quod accidentis esse est inesse.
+            <lb ed="#N" n="84"/>etc. Dicendum quod sicut dicit Basilius in hexameron. que
+            no<lb ed="#N" n="85" break="no"/>bis intellectu sunt separabilia: hec posunt in ipso actu a
+            facto<lb ed="#N" n="86" break="no"/>re nature a seipsis distare. Et ponit exemplum de illo verbo
+            <lb ed="#N" n="87"/>psalmus. Uox domini intercidentis flamma ig. etc. Dicendum quod lux
+            <lb ed="#N" n="88"/>ignis segregabitur in voluptatem bonorum et ardor in penam
+            <lb ed="#N" n="89"/>reproborum. Similiter dicendum in proposito. quod licet accmdenus secundum esse
+            <lb ed="#N" n="90"/>naturale non habet esse nisi in subiecto. et inseparabilia sunt
+            sub<lb ed="#N" n="91" break="no"/>iectum et accmdenus secundum naturam: nihilominus auctor nature
+            <lb ed="#N" n="92"/>potest ea separare et stabilire accmdenus preter subiectum. Cum igitur
+            <lb ed="#N" n="93"/>obiicitur. quod accidentis esse est inesse. nec deus potest separare ab
+            en<lb ed="#N" n="94" break="no"/>te. Dicendum est quod in proposito non separat esse ab ente: sed separat esse
+            <lb ed="#N" n="95"/>per modum quo est secundum naturam: ab ente per modum qui est
+            supra<lb ed="#N" n="96" break="no"/>naturam.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e403">
+            ⁋ Ex hoc patet qumdo ad aliud dicendum. quod licet inesse
+            dif<lb ed="#N" n="97" break="no"/>finiat esse accidentis naturale: non tamen diffinit illud secundum quod
+            vir<lb ed="#N" n="98" break="no"/>tute diuina est supra naturam scilicet non in subiecto. Preterea.
+            <lb ed="#N" n="99"/>inesse non diffinit proprie loquendo essentiam accidentis: sed prout
+            <lb ed="#N" n="100"/>concernit modum essendi. vnde cum dicitur esse accidentis est
+            in<lb ed="#N" n="101" break="no"/>esse: hoc verum est secundum quod dicit modum essendi. vnde quia modo
+            <lb ed="#N" n="102"/>essendi est extra rem: non de esse rei simpliciter. ex separatione huos
+            <lb ed="#N" n="103"/>esse non destruitur esse simpliciter.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e421">
+            ⁋ Ex hoc patet responsio ad illud
+            <lb ed="#N" n="104"/>quod obiicitur. quod accidentis esse sine subiecto claudat in
+            <lb ed="#N" n="105"/>se duo opposita contradictorie. quod non est verum. solummodo
+            <lb ed="#N" n="106"/>enim in se claudit esse simpliciter et non esse secundum hunc modum scilicet
+            <lb ed="#N" n="107"/>modum inessendi.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e432">
+            ⁋ Ad aliud dicendum. quod ratio dicitur multipliciter.
+            <lb ed="#N" n="108"/>Uno modo dicitur ratio diffinitio. alio modo dicitur
+            mo<lb ed="#N" n="109" break="no"/>dus essendi. et sic sumitur ratio secundum quod dicitur ratio
+            accide<lb ed="#N" n="110" break="no"/>tis est esse in subiecto: et substantie esse per se. Tercio modo
+            <lb ed="#N" n="111"/>ordinatio in finem. Item est aliquid facere dupliciter. secundum
+            viam<lb ed="#N" n="112" break="no"/>et modum nature: et supra viam et modum nature. siue suma
+            <lb ed="#N" n="113"/>tur facere primo modo siue secundo modo. facere aliquid
+            <lb ed="#N" n="114"/>perticipare rationem alicuius primo modo sumptam: est
+            con<lb ed="#N" n="115" break="no"/>uertere vnum in aliud simpliciter. Secundo modo sumendo
+            ra<lb ed="#N" n="116" break="no"/>tionem et facere secundum viam nature: facere aliquid perticipare
+            <lb ed="#N" n="117"/>rationem alicuius: non est conuertere vnum in aliud sim
+            <lb ed="#N" n="118"/>pliciter licet ex consequenti. quia licet ad modum essendi proprium
+            <lb ed="#N" n="119"/>olicuius sit aliud: non tamen modus iste est illud. verbi. ergo. bene
+            <lb ed="#N" n="120"/>sequitur modus huius essendi est esse per se: igitur hoc est
+            <lb ed="#N" n="121"/>substantia. nihilominus quia modus iste non est
+            substan<lb ed="#N" n="122" break="no"/>tia. facere aliquem perticipare modum istum: non est facere
+            <lb ed="#N" n="123"/>illum substantiam nisi ex consequenti. quia sequitur. cuius
+            <lb ed="#N" n="124"/>est modus iste illud est substantia. Sed sumendo facere secundo
+            <lb ed="#N" n="125"/>modo scilicet secundum viam mirabilem siue supra naturam: facere
+            <lb ed="#N" n="126"/>aliquid participare rationem secundo modo dictam: neque est
+            con<lb ed="#N" n="127" break="no"/>uertere vnum in aliud simpliciter neque ex consequenti. quia
+            <lb ed="#N" n="128"/>auctor nature potest dare alicui modum essendi vnius alii
+            <lb ed="#N" n="129"/>non conuertendo aliquo modo vnum in aliud. Terco
+            modo<lb ed="#N" n="130" break="no"/>sumendo rationem ponere aliquid perticipare rationem alicus
+            <lb ed="#N" n="131"/>siue naturaliter siue mirabiliter: non est conuertere vnum in
+            <lb ed="#N" n="132"/>aliud neque simplicter neque ex consequenti. et hoc est: quia hec
+            con<lb ed="#N" n="133" break="no"/>municatio rationis multis conuenit.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e491">
+            ⁋ Ad aliud dicendum. quod quan
+            <lb ed="#N" n="134"/>titas ratione qua maxime accedit ad naturam substantie. et
+            il<lb ed="#N" n="135" break="no"/>li maxime assimilatur: et maxime inter accidentia potest habere esse
+            <lb ed="#N" n="136"/>per se. vt enim dictum est. medio modo se habet quantitas
+            <lb ed="#N" n="137"/>inter simpliciter separata et existentia in motu et materia. vnde
+            quan<lb ed="#N" n="138" break="no"/>titas habet esse in maiori absolutione quam aliud accidens.
+            <lb ed="#N" n="139"/>propter quod etc. Nec dico quod dominus albedinem posset
+            stabili<lb ed="#N" n="140" break="no"/>re in se sine omni quantitate: licet hoc non possit intelligi.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e509">
+            <lb ed="#N" n="141"/>⁋ Ad aliud dicendum. quod actus rei necessario sequitur ad esse. quia
+            <lb ed="#N" n="142"/>ad esse formale rei. vnde quocumque modo res producatur in esse
+            <pb ed="#N" n="287"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>siue naturaliter siue mirabiliter et actus rei adiicitur. quocumque
+            <lb ed="#N" n="2"/>enim modo albedo producatur in esse: adiicitur necessario disgrega
+            <lb ed="#N" n="3"/>tiuum. sed licet accidenti naturaliter est essentiale esse in subiecto:
+            ni<lb ed="#N" n="4" break="no"/>hilominus mirabiliter subtracto subiecto potest permanere in
+            <lb ed="#N" n="5"/>esse. vnde non est simile hinc et inde.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e532">
+            ⁋ Ad aliud dicendum. quod
+            sub<lb ed="#N" n="6" break="no"/>stantia et accmdenus preter hoc quod differunt in modo essendi qui
+            expri<lb ed="#N" n="7" break="no"/>mitur per esse per se et esse in aliis suis essentiis differunt. similiter
+            <lb ed="#N" n="8"/>et modi ipsi siue differentie modorum scilicet esse per se et esse in alio seipsis
+            <lb ed="#N" n="9"/>differunt. Quod igitur substantia non possit fieri accmdenus: hoc non
+            <lb ed="#N" n="10"/>est tantum propter modos essendi: sed propter disparationem essentiarum: que
+            <lb ed="#N" n="11"/>disparatio est ex illis que intrant eorum essentias. non autem propter
+            <lb ed="#N" n="12"/>modos essendi qui consequuntur ad ipsa. propter hoc licet deus non
+            <lb ed="#N" n="13"/>potest facere vnum aliud per essentiam neque in differentibus neque
+            <lb ed="#N" n="14"/>in differentiis: bene potest facere quod vnum differentium modum
+            es<lb ed="#N" n="15" break="no"/>sendi habet alterius. Non enim sequitur quod si non potest confundere ipsas
+            <lb ed="#N" n="16"/>essentias quod non possit facere quod conueniant in consequentibus
+            <lb ed="#N" n="17"/>ad essentias.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e561">
+            ⁋ Ad aliud dicendum. quod rationale et irrationale sunt per
+            <lb ed="#N" n="18"/>se de esse hominis et amini. et ingrediuntur eorum substantiam. sed esse
+            <lb ed="#N" n="19"/>in et esse per se dicunt modum substantie et accidentis. ipsa enim
+            essen<lb ed="#N" n="20" break="no"/>tia accidentis non necessario concernit subiectum vel substantiam in qua.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e570">
+            <lb ed="#N" n="21"/>⁋ Si obiiciatur. quod esse accidentis est inesse. dicendum quod esse dicit ibi
+            <lb ed="#N" n="22"/>modum essendi vel ordinem scilicet ad substantiam siue ad subiectum. quod
+            <lb ed="#N" n="23"/>non concernit essentia vt essentia est:
+          </p>
+        </div>
+        <div xml:id="v78d89-a8aea5-Dd1e581">
+          <head xml:id="v78d89-a8aea5-Hd1e583">Articulus 2</head>
+          <p xml:id="v78d89-a8aea5-d1e585">
+            <lb ed="#N" n="24"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e590">
+            <lb ed="#N" n="25"/>COnsequenter queritur. vtrum accidentia sint hoc in
+            sub<lb ed="#N" n="26" break="no"/>iecto. Quod sic: videtur de conse. di. ii cailo. omnia Amb.
+            <lb ed="#N" n="27"/>licet figura painis et vini videatur. nihil tamen aliud ibi
+            <lb ed="#N" n="28"/>quam caro christi et sanguis credenda sunt. sed si nihil aliud. ergo
+            <lb ed="#N" n="29"/>nec aliqua substantia.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e603">
+            ⁋ Item omne accmdens denoniat subie
+            <lb ed="#N" n="30"/>ctum in quo est. sed accidentia hic scilicet in specie panis vel vint
+            <lb ed="#N" n="31"/>nullum subiectum siue substantiam denomnant neque corpus christi
+            <lb ed="#N" n="32"/>neque aliud. igitur in nullo sunt.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e612">
+            ⁋ Contra. i. corum. xi. alius
+            <lb ed="#N" n="33"/>esurit alius ebrius est. Glo. ibi offerebant diuites panes
+            <lb ed="#N" n="34"/>et vinum abundanter. vt benedictione et sanctificatione
+            sacer<lb ed="#N" n="35" break="no"/>dotali sanctificarentur et dominici corporis et sanguinis
+            sacramen<lb ed="#N" n="36" break="no"/>tum conficeretur. post celebrationem vero sacri misterii et
+            consecra<lb ed="#N" n="37" break="no"/>tionem panis et vini suas oblationes vendicabant: et aliis non
+            <lb ed="#N" n="38"/>communicantes soli sumebant: vt inde etiam inebriabantur
+            <lb ed="#N" n="39"/>aliis esurientibus. sed accidentia inebriare vel ingurgitare non
+            <lb ed="#N" n="40"/>posunt nec impinguare: quia accidentia in substantiam transire non
+            <lb ed="#N" n="41"/>hesnt. Quia sicut dicit Augustinus. Spiritus nunquam fit ex substantia
+            <lb ed="#N" n="42"/>corporea: que tamen in aliquo conueniunt saltem in genere.
+            mul<lb ed="#N" n="43" break="no"/>tomagis nec accmdenus fit substantia: quia hec in nullo conue
+            <lb ed="#N" n="44"/>niunt. ergo si esset ibi tantum accmdenus panis et nihil substantie painis:
+            ne<lb ed="#N" n="45" break="no"/>cessario non reficeret comedentem. Constat etiam firma fide
+            <lb ed="#N" n="46"/>quod caro christi non impinguat nec reficit comedentem corporaliter:
+            <lb ed="#N" n="47"/>quia non conuertitur in carnem comedentis. cum ergo et id
+            vini<lb ed="#N" n="48" break="no"/>quod manet post consecrationem inebriare possit accipientem in
+            <lb ed="#N" n="49"/>magna quantitate: et similiter species panis sustentare
+            immo<lb ed="#N" n="50" break="no"/>ingurgitare. patet quod non solum restant ipsa accidentia de pane et de
+            <lb ed="#N" n="51"/>vino.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e657">
+            ⁋ Item impossibile est aliquid ponere et non partes
+            <lb ed="#N" n="52"/>diffinitionis eius. si igitur accmdenus diffinitur per subiectum etc.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e662">
+            ⁋ Item
+            <lb ed="#N" n="53"/>in hac forma scilicet panis est reperire quantitatem. potedus.
+            albe<lb ed="#N" n="54" break="no"/>dinem. rotunditatem et huiusmodi. et non solum hoc: sed etiam vere
+            po<lb ed="#N" n="55" break="no"/>nere hoc esse quantum album ponderosum et rotundum. igitur
+            <lb ed="#N" n="56"/>prout hic sunt accidentia denoniant aliquid subiectum. sed constat quod
+            <lb ed="#N" n="57"/>non corpus christi: ergo aliud. ergo non sunt accidentia hic sine
+            subie<lb ed="#N" n="58" break="no"/>cto.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e678">
+            ⁋ Item Damas. quia consuetudo est hominibus lauari aquae
+            <lb ed="#N" n="59"/>et oleo vngi. coniugauit aquam et spiritum spiritus sanctus et fec
+            <lb ed="#N" n="60"/>id lauacrum regenerationis. et quia consuetudo est hominibus
+            pa<lb ed="#N" n="61" break="no"/>nem edere et vinum bibere: coniugauit eis diuinitatem et fecit
+            <lb ed="#N" n="62"/>cibum corpus christi et sanguinem. vt per hec que sunt secundum natu
+            <lb ed="#N" n="63"/>ram consueta quibus vita conseruatur: ad ea que sunt
+            supr<lb ed="#N" n="64" break="no"/>naturam anima transferatur. Sed commniugatio diuinitatis cum aqua
+            <lb ed="#N" n="65"/>non tollit substantiam aque. similiter vt videtur nec coniugatio
+            di<lb ed="#N" n="66" break="no"/>uinitatis cum pane aufert substantiam panis.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e698">
+            ⁋ Item si est
+            <lb ed="#N" n="67"/>ibi comniugatio diuinitatis cum pane et vino: necessarium est
+            <lb ed="#N" n="68"/>panem et vinum manere in suis naturis. non enim est commniugatio
+            <lb ed="#N" n="69"/>cum pane nisi sit panis.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e707">
+            ⁋ Item accidens non extenditur sine
+            <lb ed="#N" n="70"/>uo subiecto. vnde quanta sit albedo superficie diffinies.
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>igitur quantitas non augmentatur sine augmento subiecti. sed
+            <lb ed="#N" n="72"/>apposito vino sanguini christi: quantitas speciei que est sacramentum
+            san<lb ed="#N" n="73" break="no"/>guinis augmentatur. quod patet. quia post occupat maiorem
+            lo<lb ed="#N" n="74" break="no"/>cum quam ante. Igitur cum non dilatetur accidens nisi per
+            dilati<lb ed="#N" n="75" break="no"/>onem subiecti: relinquitur quod illa quantitas est in
+            subie<lb ed="#N" n="76" break="no"/>cto.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e727">
+            ⁋ Si diceretur. quod ante appositionem vini non fuit in
+            sub<lb ed="#N" n="77" break="no"/>iecto: sed iam est in subiecto vino superinfuso. hoc dicto
+            ha<lb ed="#N" n="78" break="no"/>beo propositum: quia adhuc est ibi sacramentum sanguinis.
+            <lb ed="#N" n="79"/>igitur non requiritur quod illud quod est hic sacramentum sit
+            <lb ed="#N" n="80"/>species siue accidens preter substantiam: cum iam ipsum
+            <lb ed="#N" n="81"/>sacramentum non est species siue substantia vel subiectum.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e741">
+            <lb ed="#N" n="82"/>⁋ Item maius est inconueniens accidens ponere sine
+            sub<lb ed="#N" n="83" break="no"/>iecto: quam ponere corpus glorificatum esse in eodem loco cum
+            <lb ed="#N" n="84"/>non glorificato. ergo cum corpus christi glorificatum sit: maius
+            <lb ed="#N" n="85"/>est inconueniens ponere sub illis speciebus non esse
+            substan<lb ed="#N" n="86" break="no"/>tiam: et ita accidentia esse sine subiecto: quam ponere ibi
+            substan<lb ed="#N" n="87" break="no"/>tiam panis simul cum corpore christi.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e757">
+            ⁋ Item per
+            diuturnita<lb ed="#N" n="88" break="no"/>tem temporis accidit quod species panis putrescit. sed constat quod
+            <lb ed="#N" n="89"/>hoc non est per miraculum sed per naturam. ergo cum omnis
+            <lb ed="#N" n="90"/>transmutationis naturalis subiectum sit aliqua substantia
+            <lb ed="#N" n="91"/>corporea: relinquitur quod sub illa specie sit substantia.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e768">
+            ⁋ Item
+            <lb ed="#N" n="92"/>ad esse albedinis confluit natura lucis et perspicui: vt vult
+            <lb ed="#N" n="93"/>phohus. lux autem incorparata quia non est in actu suo vltimo
+            <lb ed="#N" n="94"/>immo est potentia solum. non potest immutare sensum
+            nisi<lb ed="#N" n="95" break="no"/>potentia illa reducatur in actum per lucem que est in actu
+            suo<lb ed="#N" n="96" break="no"/>vltimo: vt est lux que non est incorporata. igitur si in
+            specie<lb ed="#N" n="97" break="no"/>panis est albedo: et albedo illa non est in substantia. sequi
+            <lb ed="#N" n="98"/>tur quod lux que est de esse albedinis non est incorparata. et
+            ita<lb ed="#N" n="99" break="no"/>est in actu non potentia. igitur potest immutare cum luce
+            ex<lb ed="#N" n="100" break="no"/>teriori: quod est falsum. igitur etc.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e790">
+            ⁋ Item ponatur quod
+            sanguini<lb ed="#N" n="101" break="no"/>superinfundatur vinum et misceatur cum specie vini que est
+            <lb ed="#N" n="102"/>sacramentum sanguinis. vino igitur superinfuso sic iam
+            resul<lb ed="#N" n="103" break="no"/>tat vna superficies et vnus color ex vino superinfuso et
+            specie<lb ed="#N" n="104" break="no"/>vini que est sacramentum sanguinis. sed si hoc: igitur et illius
+            <lb ed="#N" n="105"/>speciei et illius vini quod superinfusum est: est idem subie
+            <lb ed="#N" n="106"/>ctum quia vnius coloris. non potest esse quod aliquid sit
+            sub<lb ed="#N" n="107" break="no"/>iectum et quod non sit in subiecto. Similiter nec vna et eadem
+            <lb ed="#N" n="108"/>superficies potest esse in substantia et non in substantia. igitur
+            <lb ed="#N" n="109"/>species que est sacramentum potest esse in subiecto:
+            nihi<lb ed="#N" n="110" break="no"/>lominus existente sacramento.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e814">
+            ⁋ Responsio. quod in hoc
+            sa<lb ed="#N" n="111" break="no"/>cramento mirabili sunt accidentia siue species panis et
+            <lb ed="#N" n="112"/>vini sine subiecto.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e821">
+            ⁋ Ad primum ergo dicendum. quod sicut deus
+            <lb ed="#N" n="113"/>contulit his accidentibus posse hoc quod potest
+            substan<lb ed="#N" n="114" break="no"/>tia. scilicet esse siue permanere sine subiecto: sic contulit
+            il<lb ed="#N" n="115" break="no"/>lis efficere id quod efficeret substantia panis et vini si
+            ma<lb ed="#N" n="116" break="no"/>nerent. scilicet inebriare reficere et cetera huiusmodi.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e833">
+            <lb ed="#N" n="117"/>⁋ Ad illud quod obiicitur. quod accidens diffinitur per
+            sub<lb ed="#N" n="118" break="no"/>iectum. Dicendum quod hoc non est necessario verum: nisi
+            <lb ed="#N" n="119"/>quantum ad esse quod est ex modo essendi. id est: quo est in
+            <lb ed="#N" n="120"/>subiecto. vt patet in diffinitione coloris: que est. Color
+            <lb ed="#N" n="121"/>est motiuum etc.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e846">
+            ⁋ Ad hoc quod obiicitur. quod accidentia
+            <lb ed="#N" n="122"/>existentia in forma panis denominant subiectum aliquod
+            <lb ed="#N" n="123"/>et ita sunt in subiecto. Dicendum quod vt determinatur a
+            <lb ed="#N" n="124"/>diuersis philosophis Aristo. et Ptholomeo: res
+            diuidun<lb ed="#N" n="125" break="no"/>tur: et secundum rerum diuisiones consequenter diuiduntur
+            <lb ed="#N" n="126"/>scientie. Res autem diuiduntur sic. Rerum alie sunt
+            <lb ed="#N" n="127"/>omnino in materia et in motu: de quibus est naturalis
+            <lb ed="#N" n="128"/>philosophia. Alie sunt omnino separate a motu et a
+            ma<lb ed="#N" n="129" break="no"/>teria. et de his est philosophia prima. Alie sunt medie que
+            <lb ed="#N" n="130"/>non sunt separate a materia: sed abstracte ab ea. de qui
+            <lb ed="#N" n="131"/>bus est mathematica. Ex hoc videtur quod accidens quod
+            <lb ed="#N" n="132"/>est quantitas: vt linea superficies et huiusmodi. magis
+            <lb ed="#N" n="133"/>sunt separabilia a materia quam alique forme stabiles: vt
+            <lb ed="#N" n="134"/>carneitas et huiusmodi: que dicuntur naturalia. Nisi
+            <lb ed="#N" n="135"/>enim huiusmodi mathematica essent essentialiter
+            abso<lb ed="#N" n="136" break="no"/>lutoria a materia quam naturalia: nunquam ponerentur
+            me<lb ed="#N" n="137" break="no"/>dia inter omnia separata et existentia in motu et
+            mate<lb ed="#N" n="138" break="no"/>ria. Et inde est quod huiusmodi accidentia multum
+            acce<lb ed="#N" n="139" break="no"/>dunt ad naturam substantie. et forte hec accidentia
+            pre<lb ed="#N" n="140" break="no"/>cedunt in materia formas substantiales alias. et ita
+            im<lb ed="#N" n="141" break="no"/>mediatius adherent substantie et ei assimilantur: quis
+            <pb ed="#N" n="288"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>prius per naturam est substantia corporea quam caro. et cum est sub
+            <lb ed="#N" n="2"/>stantia corporea: statim est ibi corpus quantitas
+            superfi<lb ed="#N" n="3" break="no"/>cies et linea. Si igitur hec ita se habent cum per naturam alia sit
+            <lb ed="#N" n="4"/>natura forme quam natura materie. et proinde hoc intellectu
+            di<lb ed="#N" n="5" break="no"/>stinguimus. et proinde potest hec actualiter diuidere infinita
+            <lb ed="#N" n="6"/>dei potentia secundum quod dicit Basilius. Si potest deus separare suba
+            <lb ed="#N" n="7"/>lem formam panis manentem a sua materia: multofortius quod
+            <lb ed="#N" n="8"/>est a materia absolutius scilicet quantitatem. Et si hoc: cum
+            quanti<lb ed="#N" n="9" break="no"/>tas sit primum accmdenus substantie super quam superordinantur alia
+            acci<lb ed="#N" n="10" break="no"/>dentia. et ideo est quantitas secundum predicamentum ipsa
+            mi<lb ed="#N" n="11" break="no"/>raculose manente separata a suo subiecto: simul cum eo cete
+            <lb ed="#N" n="12"/>ra omnia necessaria segregantur. sicut si quis a scuto picto
+            <lb ed="#N" n="13"/>separat pannum qui est substramentum colorum: tollat siue
+            sepa<lb ed="#N" n="14" break="no"/>rat ipsos colores. Dicendum est igitur. quod color figura et
+            accden<lb ed="#N" n="15" break="no"/>tia illa habent quantitatem pro sumbiecto et illaru denomnant.
+            vnde<lb ed="#N" n="16" break="no"/>illa figura est alba et rotunda. vnde color est in figura
+            il<lb ed="#N" n="17" break="no"/>la: figura illa est in quantitate: quantitas eo quod est de genere
+            <lb ed="#N" n="18"/>accidentium propinquissimo substantie: illa cum aliis separata a
+            substntia<lb ed="#N" n="19" break="no"/>est subiectum aliorum et ab illis denominatur. sed quantitas quo
+            <lb ed="#N" n="20"/>ad denominationem in se reflectitur et se denomniat similiter et alia.
+            vnde<lb ed="#N" n="21" break="no"/>dicitur hec species vel forma est quanta. et hoc est: quia
+            quan<lb ed="#N" n="22" break="no"/>titas est vt subiectum illius formo. vt albedo dicitur quanta:
+            <lb ed="#N" n="23"/>quia superficies. quanta enim est albedo superficie diffinies.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e946">
+            <lb ed="#N" n="24"/>Ad aliud dicendum. quod dissimiliter est in hoc sacramento et in
+            il<lb ed="#N" n="25" break="no"/>lo. Sacramentum enim baptismi est ad deletionem culpe originalis.
+            <lb ed="#N" n="26"/>in anima et pene in carne. Est enim pena relicta in carne a
+            cul<lb ed="#N" n="27" break="no"/>pa ipsa. vnde ablutiuum ibi respicit animam abluendam a
+            cul<lb ed="#N" n="28" break="no"/>pa: et corpus abluendum a pena. vnde Damas. quoniam
+            duplex<lb ed="#N" n="29" break="no"/>est homo: ex anima et corpore: duplicem dedit nobis purgationem
+            <lb ed="#N" n="30"/>per spiritum et aquam. Spiritu quidem: quia secundum imaginem et
+            <lb ed="#N" n="31"/>similitudinem renouante. Aqua autem per spiritus gratiam purgante
+            <lb ed="#N" n="32"/>corpus a peccato et a corruptione liberante. hec
+            Damasce<lb ed="#N" n="33" break="no"/>nus. Baptismus ergo est ad delendum culpam originalem ab
+            <lb ed="#N" n="34"/>anima per spiritum: et penam a corpore per aquam. Unde spirituale
+            ab<lb ed="#N" n="35" break="no"/>lutiuum respoendet spiritui: et corporale corpori. quia igitur est
+            ablu<lb ed="#N" n="36" break="no"/>riuum corporis: conuenit vt maneat in natura corporali. Sed
+            <lb ed="#N" n="37"/>in hoc sacramento sumitur cibus spiritualis tantum. vnde quicquid
+            <lb ed="#N" n="38"/>est ad carnis refectionem tolli debet: vt refectio spiritualis to
+            <lb ed="#N" n="39"/>taliter queratur.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e983">
+            ⁋ Ad aliud dicendum. quod vt dictum est species
+            <lb ed="#N" n="40"/>panis et vini tenent nomina eorum quorum sunt species. vnde dicitur
+            <lb ed="#N" n="41"/>esse commniugatio cum pane et vino: ratione commniugationis cum
+            spe<lb ed="#N" n="42" break="no"/>ciebus panis et vini.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e992">
+            ⁋ Ad aliud dicendum. quod per omnia idem fit
+            <lb ed="#N" n="43"/>augmentum in illa specie vini sub qua christus est: quod fieret
+            si<lb ed="#N" n="44" break="no"/>esset vere vinum. et causa huius est. quia si in aliquo
+            effectu<lb ed="#N" n="45" break="no"/>vel consequente discordaret a vero vino: non iam esset
+            sacramen<lb ed="#N" n="46" break="no"/>tum id est sacrum secretum: sed ibi se proderet. et per conmunus meritum
+            <lb ed="#N" n="47"/>fidei euacuaret: qua nunc ibi creditur esse christus. quod nullo
+            potest<lb ed="#N" n="48" break="no"/>experimento explorari. Si autem aliquis etiam consequentium effectuum
+            <lb ed="#N" n="49"/>qui sunt in vino ibi deesset: posset iam experimento
+            explora<lb ed="#N" n="50" break="no"/>ri quod non fide tenetur sola. Unde Hugo de s. vic. Si in aliquo
+            <lb ed="#N" n="51"/>a similitudine recederet: verum sacramentum non esset: et proderet se
+            <lb ed="#N" n="52"/>ibi: et tolleret locum fidei. hinc est quod inebriant illa accidentia
+            <lb ed="#N" n="53"/>vt vinum et nutriunt et omnia talia faciunt. et hec quodammodo
+            <lb ed="#N" n="54"/>miraculose fiunt: vt post patebit. sicut miraculum est quod est
+            ac<lb ed="#N" n="55" break="no"/>cidens sine subiecto substantie: sic est miraculum quod per omnia in
+            <lb ed="#N" n="56"/>effectu communicant cum substantia alia accidentia. sic ergo non est
+            <lb ed="#N" n="57"/>secundum naturam sed secundum miraculum: quod illa accidentia cum vino
+            su<lb ed="#N" n="58" break="no"/>perinfuso occupant locum maiorem. et nisi hoc esset: prode
+            <lb ed="#N" n="59"/>ret se christus et non esset meritum fidei.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1031">
+            ⁋ Ad hoc igitur quod
+            obii<lb ed="#N" n="60" break="no"/>citur dicendum est. quod cum dicitur quantitas non dilatatur neque
+            ex<lb ed="#N" n="61" break="no"/>tenditur nisi extento subiecto in quo est. verum est naturaliter
+            <lb ed="#N" n="62"/>miraculose bene potest.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1041">
+            ⁋ Ad aliud dicendum. quod nullum est
+            incon<lb ed="#N" n="63" break="no"/>ueniens ponere ibi accidentia sine substantia. immo multiplx
+            <lb ed="#N" n="64"/>est conuenientia quantum ad ipsum sacramentum. nec etiam in hoc
+            <lb ed="#N" n="65"/>fit preiudicium aliquod deo nec ipsis accidentibus: cum in hac
+            po<lb ed="#N" n="66" break="no"/>sitione ostenditur potentia dei que potest supra illud quod
+            <lb ed="#N" n="67"/>potest natura. et accidentia sortiuntur esse nobilius et ipsi sumenti
+            <lb ed="#N" n="68"/>suffragantur. Nec fit aliquid in preiudicium nature. quia quod
+            <lb ed="#N" n="69"/>naturalem est: ad id quod est perfectionis hominis ordinatur.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1059">
+            ⁋ Ad
+            <lb ed="#N" n="70"/>aliud dicendum. quod sicut albedo est ibi sine substantia est
+            mira<lb ed="#N" n="71" break="no"/>culum: quod tamen albedo immutat est per naturam. Similiter dico quod
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>species que potest putrescere quod non est sine subiecto est per mi
+            <lb ed="#N" n="73"/>raculum: quod tamen putrescit est per naturam vt in. patebit. quia etiam
+            <lb ed="#N" n="74"/>virtute diuina et mirabili in his speciebus relicta est
+            natu<lb ed="#N" n="75" break="no"/>ra substantie in qua erant illa. naturaliter potest progredi in
+            <lb ed="#N" n="76"/>actum suum. Unde dicendum. quod licet vbi in creatura aliqua
+            na<lb ed="#N" n="77" break="no"/>turaliter radicatur virtus operatiua naturalis. necesse est quod
+            <lb ed="#N" n="78"/>illius operationis sit subiectum substantia corporea. non tamen
+            <lb ed="#N" n="79"/>hic: quia virtus operatiua naturalis que prius fuit in
+            sub<lb ed="#N" n="80" break="no"/>stantia panis: mirabiliter relicta est hic in specie panis.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1088">
+            <lb ed="#N" n="81"/>⁋ Ad aliud dicendum. quod lux prout est de esse albedinis non est in
+            <lb ed="#N" n="82"/>actu suo. vnde albedo concernit in esse suo lucem
+            incorpora<lb ed="#N" n="83" break="no"/>tam. Est enim albedo naturaliter ex incorparatione lucis cum
+            <lb ed="#N" n="84"/>subiecto albedinis. subiecto dico substantia non
+            quantita<lb ed="#N" n="85" break="no"/>te sola. sed virtute mirabili est incorparatio lucis que est de esse
+            <lb ed="#N" n="86"/>albedinis in specie panis in subiecto scilicet in quantitate. et ex
+            <lb ed="#N" n="87"/>illa incorporatione est consimili modo potentia que ante fuit
+            <lb ed="#N" n="88"/>ex incorparatione in subiecto substantia. nec est differentia
+            ni<lb ed="#N" n="89" break="no"/>si quantum ad hoc: quod prius fuit naturaliter nunc est
+            mirabili<lb ed="#N" n="90" break="no"/>ter.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1112">
+            ⁋ Ad vltimum dicendum. quod vinum non consecratum appositum
+            <lb ed="#N" n="91"/>speciei diuidit illam sub cuius singulis pertibus diuisis est
+            <lb ed="#N" n="92"/>totus christus: sicut sub singulis pertibus diuisis speciei panis.
+            <lb ed="#N" n="93"/>nec antequam commiscentur ita quod fiant vnum simpliciter: sicut efficitur
+            <lb ed="#N" n="94"/>color vnus et superficies vna. Si autem esset tanta appositio
+            <lb ed="#N" n="95"/>vini et tanta commixtio quod peruentum esset ad terminum
+            commi<lb ed="#N" n="96" break="no"/>xtionis. ita quod species que fuit sacramentum sanguinis: non esset.
+            di<lb ed="#N" n="97" break="no"/>co quod non esset tunc species vini sacramenti sicut nec species panis
+            <lb ed="#N" n="98"/>quando ita commutata est quod non est species. vnde numquam species ens in
+            sub<lb ed="#N" n="99" break="no"/>iecto substantia est sacramentum.
+          </p>
+        </div>
+        <div xml:id="v78d89-a8aea5-Dd1e1135">
+          <head xml:id="v78d89-a8aea5-Hd1e1137">Articulus 3</head>
+          <p xml:id="v78d89-a8aea5-d1e1139">
+            <lb ed="#N" n="100"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1144">
+            <lb ed="#N" n="101"/>COnsequenter quenitur. vtrum congruat quod in hoc
+            sa<lb ed="#N" n="102" break="no"/>cramento sint accidentia sine subiecto. Et videtur
+            <lb ed="#N" n="103"/>quod sic: per hoc quod cibus qui dispensatur in hoc
+            sacra<lb ed="#N" n="104" break="no"/>mento est tantum cibus anime. propter quod conuenit quod sit
+            omni<lb ed="#N" n="105" break="no"/>no spiritualis. conuenit ergo quod nihil quod sit cibus corporalis subsit
+            <lb ed="#N" n="106"/>speciebus huius sacramenti. et ita quod sint sine subiecto.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1160">
+            ⁋ Contra.
+            <lb ed="#N" n="107"/>apparentia sine existentia est causa fallacie et erroris. hoc mini
+            <lb ed="#N" n="108"/>me conuenit huic sacramento quod est sacramentum veritatis. ergo
+            mi<lb ed="#N" n="109" break="no"/>nime conuenit quod hic appareat panis sine existentia panis.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1169">
+            <lb ed="#N" n="110"/>⁋ Item duo sunt necessaria in hoc sacramento et in aliis. scilicet
+            <lb ed="#N" n="111"/>verbum et elementum. Ex parte verbi nullo modo conueniret quod
+            <lb ed="#N" n="112"/>esset apparentia sine existentia. similiter videtur ex parte elementi.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1179">
+            <lb ed="#N" n="113"/>⁋ Item opere diuino et mirabili non debet fieri aliquid quod
+            pre<lb ed="#N" n="114" break="no"/>iudicetur nature rei. sed cum res ponitur in statu qui sue
+            na<lb ed="#N" n="115" break="no"/>ture non conuenit: illi preiudicatur. sed ponere accmdenus sine
+            sb<lb ed="#N" n="116" break="no"/>iecto est ponere illud in statu qui sue nature non conuenit.
+            <lb ed="#N" n="117"/>ergo hoc minime conuenit opere diuino et mirabili.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1192">
+            ⁋
+            Respon<lb ed="#N" n="118" break="no"/>sio. quod congruit in hoc sacramento accidentia esse sine subie
+            <lb ed="#N" n="119"/>cto. Cuius multiplex est ratio. Una est. vt illud quod est
+            sacramen<lb ed="#N" n="120" break="no"/>tum simpliter omnino duceret ad aliud. Si enim panis ibi in
+            ve<lb ed="#N" n="121" break="no"/>ritate esset panis esset signum huis sacramenti: signum illud esset res
+            <lb ed="#N" n="122"/>completa in se et ita non esset ita efficaciter ductiuum in
+            ali<lb ed="#N" n="123" break="no"/>ud sicut nunc. eo enim quod solum signum est: efficacissime du
+            <lb ed="#N" n="124"/>cit in eius signatum: et queritur in hoc cibus spiritualis non
+            car<lb ed="#N" n="125" break="no"/>nalis. Ambro. in libro de misteriis. In illo sacramento christus
+            <lb ed="#N" n="126"/>est quia corpus christi. non ergo corporalis esca sed spiritualis. dico igi
+            <lb ed="#N" n="127"/>tur vt homo totaliter raperetur ad escam spiritualem:
+            disposu<lb ed="#N" n="128" break="no"/>it diuina sapientia vt in hoc sacramento non esset esca
+            car<lb ed="#N" n="129" break="no"/>nalis. Alia ratio est edificatio fidei ad credendum ea que
+            <lb ed="#N" n="130"/>sunt supra naturam. vnde Hug. diuina sapicentia carnem christi
+            <lb ed="#N" n="131"/>sub principalis edulii specie velauit. et sic sumendam
+            propo<lb ed="#N" n="132" break="no"/>suit: vt sensus in vno foueretur: et fides in alio edificaretur.
+            <lb ed="#N" n="133"/>Item alia ratio est prouocatio fidei ad credendum que sunt
+            <lb ed="#N" n="134"/>supra intellectum. In hoc enim sacramento valde necessaria est
+            ca<lb ed="#N" n="135" break="no"/>ptiuatio intellectus quantum ad hoc quod de se potest et
+            sub<lb ed="#N" n="136" break="no"/>limatio eiusdem fide grandi. quia in hoc sacramento sunt
+            <lb ed="#N" n="137"/>multa supra naturam et intellectum. placuit igitur diuine
+            dispen<lb ed="#N" n="138" break="no"/>fationi vt intellectus in sacramento exteriori consideraret aliquid
+            <lb ed="#N" n="139"/>supra naturam: vt sic expediretur magis ad cognoscendum per
+            fi<lb ed="#N" n="140" break="no"/>dem in re sacramenti quod est supra intellectum. vnde
+            con<lb ed="#N" n="141" break="no"/>sideratio speciei sine substantia que est supra naturam:
+            <pb ed="#N" n="289"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quodammodo manuducit ad intelligendum multa in re
+            in<lb ed="#N" n="2" break="no"/>teriori que sunt supra intellectum. Item alia ratio est
+            conuenien<lb ed="#N" n="3" break="no"/>tia cibi cum cibando. Cibus in hoc sacramento
+            sumen<lb ed="#N" n="4" break="no"/>dus est verum corpus christi scilicet glorificatum. ad quod non est
+            con<lb ed="#N" n="5" break="no"/>uenientia ex parte spiritus nostri. vnde ad hoc quod sumatur in
+            ci<lb ed="#N" n="6" break="no"/>bum requiritur medium: sicut ad hoc quod vniatur spiritus cum
+            car<lb ed="#N" n="7" break="no"/>ne requiritur medium inter spiritum et carnem scilicet spiritus vitalis.
+            <lb ed="#N" n="8"/>Ad hoc igitur quod cibus iste veniat in cibum spiritus: requiritur
+            <lb ed="#N" n="9"/>medium quod est fides et caritas. fides autem vnit intellectum
+            <lb ed="#N" n="10"/>cum credito: caritas cum delicto. Fides autem est medium
+            <lb ed="#N" n="11"/>in sacramentali sumptione: caritas autem est medium in
+            spiritua<lb ed="#N" n="12" break="no"/>lib. sed fides non est medium nisi in abstrahendo intellectum a
+            <lb ed="#N" n="13"/>propria ratione scilicet a ratione fantastica. neque caritas nisi
+            abs<lb ed="#N" n="14" break="no"/>trahendo voluntatem a voluntate propria scilicet carnali. spiritus
+            <lb ed="#N" n="15"/>autem non sumitur nisi abstractus a carne. sicut ergo oportet in
+            <lb ed="#N" n="16"/>eo qui cibat quod sit abstractus: sic necesse est quod fiat
+            abstra<lb ed="#N" n="17" break="no"/>ctio ex parte cibi. vt scilicet illud quod est cibus corporalis
+            subtra<lb ed="#N" n="18" break="no"/>hatur. vt scilicet non sit ibi cibus sed iudicium intellectus fanta
+            <lb ed="#N" n="19"/>stici: neque secundum voluntatem carnalem. propter quod necesse est vteam
+            sub<lb ed="#N" n="20" break="no"/>specie separata a cibo carnali: sumatur cibus iste qui est ipsiuns
+            <lb ed="#N" n="21"/>spiritus abstracti sic a carne. Alia ratio est completa
+            ordina<lb ed="#N" n="22" break="no"/>tio diuinarum operationum in hoc sacramento quod est
+            sacramen<lb ed="#N" n="23" break="no"/>tum sacramentorum. In pane autem ante transsubstantiationem
+            <lb ed="#N" n="24"/>est reperire corpus corruptibile et accidentia naturaliter
+            inhe<lb ed="#N" n="25" break="no"/>rentia. virtute autem diuina corpus corruptibile transmuta
+            <lb ed="#N" n="26"/>tur in corpus spirituale et incorruptibile: quod est vltimus gra
+            <lb ed="#N" n="27"/>dus ascensionis ex parte corporis. vt igitur esset completa
+            ordina<lb ed="#N" n="28" break="no"/>tio diuinarum operationum. et illa que erant in alio per
+            natu<lb ed="#N" n="29" break="no"/>ram scilicet accidentia: virtute diuina stabiliuntur in re sine aliquo
+            <lb ed="#N" n="30"/>subiecto: quod est vltimus gradus ascensionis ex parte
+            acciden<lb ed="#N" n="31" break="no"/>tium. vtraque enim operatio ponit vltimum gradum ascensionis.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1318">
+            <lb ed="#N" n="32"/>⁋ Ad aliud quod primo obiicitur contra hoc. quod apparentia
+            si<lb ed="#N" n="33" break="no"/>ue existentia est causa erroris etc. Dicendum quod hoc esset
+            ve<lb ed="#N" n="34" break="no"/>rum si hoc sacramentum fieret indicium secundum sensum siue intel
+            <lb ed="#N" n="35"/>lectum fantasticum: et non secundum intellectum eleuatum per fidem. sed
+            <lb ed="#N" n="36"/>hic non est sic.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1331">
+            ⁋ Ad aliud quod obiicitur. quod ex parte verbi non
+            con<lb ed="#N" n="37" break="no"/>grueret etc. Dicendum quod hoc est verum: quia verbo veritatis
+            <lb ed="#N" n="38"/>data est virtus transsubstantiandi ipsum elementum. Preterea. ante
+            <lb ed="#N" n="39"/>conuersionem elementi non conueniret quod ex parte elementi esset
+            ap<lb ed="#N" n="40" break="no"/>parentia siue existentia sicut nec ex parte verbi. et quantam ad hoc
+            cur<lb ed="#N" n="41" break="no"/>rit similitudo.
+          </p>
+          <p xml:id="v78d89-a8aea5-d1e1344">
+            ⁋ Ad vltimum dicendum. quod cuilibet nature
+            com<lb ed="#N" n="42" break="no"/>petit obedire suo creatori. et illud est maxime nature
+            con<lb ed="#N" n="43" break="no"/>ueniens quod sibi est inditum a creatore. vnde etsi alicui
+            na<lb ed="#N" n="44" break="no"/>ture aliqua proprietas non conuenit. si illa inferatur a creato
+            <lb ed="#N" n="45"/>re bene conuenit. et ita est in proposito.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

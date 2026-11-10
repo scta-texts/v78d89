@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 67, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 67, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="435"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acr072"><!-- q67m3 -->
+        <head xml:id="v78d89-acr072-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-acr072-Hd1e103" type="question-title">Quid sit definitione</head>
+        <p xml:id="v78d89-acr072-d1e106">
+          <lb ed="#N" n="97"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-acr072-d1e111">
+          <lb ed="#N" n="98"/>COnsequenter queritur quid sit diffinitione. Et
+          <lb ed="#N" n="99"/>diffinitur sic. Contritio est dolor pro peccatis
+          as<lb ed="#N" n="100" break="no"/>sumptus. cum proposito confitendi et satisfaciendi.
+          <lb ed="#N" n="101"/>Qualiter sit dolor tactum est supra.
+        </p>
+        <p xml:id="v78d89-acr072-d1e122">
+          ⁋ Queritur ergo
+          <lb ed="#N" n="102"/>de hoc quod dicitur assumptus. sicut enim dicit magister in senten. libro. iiii.
+          <lb ed="#N" n="103"/>Contritio. confessio. satisfactio sunt dona dei secundum illud act.
+          <lb ed="#N" n="104"/>xi. Gentibus penitentiam dedit deus ad vitam. igitur contritio est
+          <lb ed="#N" n="105"/>potius dolor datus quam assumptus.
+        </p>
+        <p xml:id="v78d89-acr072-d1e134">
+          ⁋ Item quod assumitur est in
+          po<lb ed="#N" n="106" break="no"/>testate assumentis. contritio autem non. Heb. xii. Non inuenit
+          pe<lb ed="#N" n="107" break="no"/>nitentie locum quaque cum lacrimis etc. igitur contritio assumpta non est.
+        </p>
+        <p xml:id="v78d89-acr072-d1e141">
+          <lb ed="#N" n="108"/>⁋ Item quare non dicitur dolor datus sed assumptus. cum
+          <lb ed="#N" n="109"/>quicquid meritorium sit nobis: a summo largitore datum est. Ysa.
+          <lb ed="#N" n="110"/>xxvi. Omnia opera nostra operatus es in nobis donmine deus ncitur.
+        </p>
+        <p xml:id="v78d89-acr072-d1e150">
+          ⁋
+          Respo<lb ed="#N" n="111" break="no"/>sio vt dicunt quidam. deus primo dat ipsi anime gratiam. ideo gratia
+          <lb ed="#N" n="112"/>magis proprie est datum dei quam assumptum. sed habita gratia potest
+          quili<lb ed="#N" n="113" break="no"/>bet pro peccato dolorem assumere siue contritionem. ideo dicitur dolor
+          as<lb ed="#N" n="114" break="no"/>sumptus. Uel potest aliter dici. quod assumptum notat rationem medii
+          <lb ed="#N" n="115"/>inter dantem et assumentem. vnde illud quod assumitur a datore propter
+          <lb ed="#N" n="116"/>quod assumptum non excludit datum. vt autem ostendatur quod sicut peccatum fuit
+          <lb ed="#N" n="117"/>voluntarium quod dolor contritionis necessario debet esse voluntarius
+          <lb ed="#N" n="118"/>dicitur dolor astumptus hec autem assumptio est dissensus voluntarius a
+          <lb ed="#N" n="119"/>malo commisso.
+        </p>
+        <p xml:id="v78d89-acr072-d1e172">
+          ⁋ Ex his patet responsio ad illud quod queritur. quare
+          ma<lb ed="#N" n="120" break="no"/>gis dicitur assumptus quam datus.
+        </p>
+        <p xml:id="v78d89-acr072-d1e177">
+          ⁋ Quod autem dicitur non inuenit locum
+          <lb ed="#N" n="121"/>enitentie. verum est quia gratiam non humit. Iste autem dolor precipue
+          <lb ed="#N" n="122"/>assumitur ex tribus. Ex consideratione culpe commisse: vite eterne
+          <lb ed="#N" n="123"/>amisse: mortis eterne debite.
+        </p>
+        <p xml:id="v78d89-acr072-d1e186">
+          ⁋ Sequitur cum proposito
+          confiten<lb ed="#N" n="124" break="no"/>di et satisfaciendi.
+        </p>
+        <p xml:id="v78d89-acr072-d1e192">
+          ⁋ Contra. confitetur quis non contritus. postea vero
+          con<lb ed="#N" n="125" break="no"/>teritur. et tunc non necesse habet id confiteri nec illud proponere. potest igitur
+          <lb ed="#N" n="126"/>contritio alicui esse: nec tamen propositum confitendi.
+        </p>
+        <p xml:id="v78d89-acr072-d1e199">
+          ⁋ Item vt dicitur tam
+          <lb ed="#N" n="127"/>tum conteritur quis quod sufficit sua contritio ad deletionem culpe et pene
+          <lb ed="#N" n="128"/>talis non necesse habet nec tenetur satisfacere: quia iustus iudex non exigit
+          <lb ed="#N" n="129"/>satisfactionem pro culpa supra condignum. et ideo nec confiteri.
+          pricipa<lb ed="#N" n="130" break="no"/>liter enim fit confessio vt cognita culpa sciat sacerdos
+          inun<lb ed="#N" n="131" break="no"/>gere pro culpa debitam penam: et propter erubescentiam que magna est
+          <lb ed="#N" n="132"/>pars satisfactionis. Sed dicto modo contritus propter neutrum istorum
+          ne<lb ed="#N" n="133" break="no"/>cesse habet confiteri. quia satisfacit pro culpa et pena sua contritio.
+          <lb ed="#N" n="134"/>In tali igitur potest esse contritio sine proposito confitendi.
+        </p>
+        <p xml:id="v78d89-acr072-d1e219">
+          ⁋ Responsio.
+          <lb ed="#N" n="135"/>dicendum quod hec notificatio habet intelligi habito ordine
+          naturali<lb ed="#N" n="136" break="no"/>in pertibus penitentie. ita scilicet quod contritio confessionem precedat. et
+          <lb ed="#N" n="137"/>hec duo satisfactionem. Uel potest intelligi sic cum proposito
+          confiten<lb ed="#N" n="138" break="no"/>di: si necesse sit. scilicet si non precessit confessio. Ul sic. In contritis
+          <lb ed="#N" n="139"/>post confessionem est contritio cum proposito confitendi: si quid memorie
+          <lb ed="#N" n="140"/>occurrerit quod non fuerit confessus.
+        </p>
+        <p xml:id="v78d89-acr072-d1e235">
+          ⁋ Ad aliud dicendum. quod sic
+          <lb ed="#N" n="141"/>sufficienter contritus debet adhuc confiteri. tum quia nescit se habere tantam
+          <pb ed="#N" n="436"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>contritionem: ideo ne se committat discrimin vtile est ei confiteri. tam
+          <lb ed="#N" n="2"/>quia confessio est in precepto. similiter satisfactio. secundum possibilitatem dico
+          <lb ed="#N" n="3"/>ideo sic contritus nisi confiteatur et satisfaciat si possit: erit
+          <lb ed="#N" n="4"/>transgressor precepti domini. et sic pro illo peccato transgressionis dam
+          <lb ed="#N" n="5"/>naretur. sicut pro aliis si de his non fuisset contritus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

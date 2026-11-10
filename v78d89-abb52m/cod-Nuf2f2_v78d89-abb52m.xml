@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 57, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 57, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="381"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-abb52m"><!-- q57m3 -->
+        <head xml:id="v78d89-abb52m-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-abb52m-Hd1e103" type="question-title">Utrum deleta culpa virtute sive gratia poenitentiae: maneat reatus</head>
+        <p xml:id="v78d89-abb52m-d1e106">
+          <lb ed="#N" n="64"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-abb52m-d1e111">
+          <lb ed="#N" n="65"/>COnsequenter queritur. vtrum deleta culpa
+          vir<lb ed="#N" n="66" break="no"/>tute siue gratia penitentie: maneat reatus. Quod sic
+          <lb ed="#N" n="67"/>patet. aliter minus recte iniungerentur pene
+          satis<lb ed="#N" n="68" break="no"/>factorie penitentibus ab ecclesia.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e122">
+          ⁋ Item Greg.
+          <lb ed="#N" n="69"/>proculdubio dominus delictum sine vltione non deserit. aut enim ipse
+          <lb ed="#N" n="70"/>homo in se penitens punit: aut deus cum homine vindicans
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>percutit. nequaquam igitur peccato parcitur: quia nullatenus sine
+          <lb ed="#N" n="72"/>vindicta laxatur.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e136">
+          ⁋ Item illa sola virtute tolluntur que sunt
+          in<lb ed="#N" n="73" break="no"/>pedimenta boni siue profectus. sed exercitia in penis debitis
+          <lb ed="#N" n="74"/>pro peccatis commissis non sunt impedimenta profectus: sed potius
+          <lb ed="#N" n="75"/>expedimenta. igitur non debent tolli siue remitti virtute
+          pe<lb ed="#N" n="76" break="no"/>nitentie.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e147">
+          ⁋ Contra. psalmus. Magnitudinis eius non est finis.
+          <lb ed="#N" n="77"/>sed ii. Ecclessastici. secundum magnitudinem eius sic et misericordia eius cum
+          <lb ed="#N" n="78"/>ipso. sed infinita est misericordia eius. igitur vt videtur quicquid
+          de<lb ed="#N" n="79" break="no"/>linquitur erga ipsum omnino dimittit.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e156">
+          ⁋ Item christus moriendo
+          <lb ed="#N" n="80"/>non solum dedit precium sufficiens pro redemptione peccatorum
+          <lb ed="#N" n="81"/>qui erant ante passionem: sed et generaliter pro redemptione
+          <lb ed="#N" n="82"/>omnium qui erunt vsque ad finem seculi. et quasi incomparabiliter
+          <lb ed="#N" n="83"/>maius fuit precium quam exigebat delictum. non solum
+          pre<lb ed="#N" n="84" break="no"/>existentium: sed et omnium vsque ad finem mundi. vnde augustinus. in
+          ser<lb ed="#N" n="85" break="no"/>mone quodam. Si equa lance liberetur culpa hominis
+          peccan<lb ed="#N" n="86" break="no"/>tis et precium redimentis: non tantum distat infima pars
+          <lb ed="#N" n="87"/>inferni a summo celi cardine. Si igitur von penam
+          suffici<lb ed="#N" n="88" break="no"/>entem soluit christus: sed superabundantem pro peccatoribus.
+          vi<lb ed="#N" n="89" break="no"/>detur quod nulla exigenda sit a penitentibus.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e180">
+          ⁋ Si autem
+          dice<lb ed="#N" n="90" break="no"/>retur quod hoc exigit diuina iusticia. quod actuali voluntate
+          pec<lb ed="#N" n="91" break="no"/>cans: actuali pena in se puniatur. hoc non videtur. immo vt vide
+          <lb ed="#N" n="92"/>tur secundum exigentiam iusticie sufficit punitio capitis pro
+          de<lb ed="#N" n="93" break="no"/>licto membrorum.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e191">
+          ⁋ Preterea. si requiritur punitio membrorum pro
+          pro<lb ed="#N" n="94" break="no"/>priis delictis. ex quo misericordia dei superexaltat iudicium Iac.
+          <lb ed="#N" n="95"/>ii. quare vult penitentiam diuturnam infligi et non sufficit brcuis
+          <lb ed="#N" n="96"/>iuxta breuitatem delicti. videtur enim quod parua et breuis valde
+          <lb ed="#N" n="97"/>deberet satisfacere infinite eius misericordie.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e202">
+          ⁋ Item baptisma
+          <lb ed="#N" n="98"/>est proprie remedium contra originale: penitentia autem contra
+          actua<lb ed="#N" n="99" break="no"/>le. sed medicina propria videtur esse maioris efficacie respectu
+          <lb ed="#N" n="100"/>morhi cuius est medicina: quam alia que non est propria. igitur
+          <lb ed="#N" n="101"/>si efficacia baptismi tanta est respectu peccati actualis quod
+          <lb ed="#N" n="102"/>delet penam et culpam: multo fortius vt videtur penitentia
+          <lb ed="#N" n="103"/>que est propria medicina contra actuale: habebit efficaciam
+          <lb ed="#N" n="104"/>tollendi actuale quantum ad culpam et penam.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e221">
+          ⁋ Item omnis
+          <lb ed="#N" n="105"/>virtus incomparabiliter est maior siue magis bona quam
+          ali<lb ed="#N" n="106" break="no"/>quod valde malum. similiter omnis gratia et generaliter
+          <lb ed="#N" n="107"/>omne bonum scilicet gratuitum. ergo cum penitentia sit gratia vel
+          vir<lb ed="#N" n="108" break="no"/>tus: maius erit bonum quam aliquod malum malum. igitur vt
+          <lb ed="#N" n="109"/>videtur maior est efficacia illius in tollendo quam actus pec
+          <lb ed="#N" n="110"/>cati in obligando. igitur sufficit ad tollendum omne illud cius
+          <lb ed="#N" n="111"/>causa est actus peccati. igitur sufficit ad tollendum penam
+          <lb ed="#N" n="112"/>et culpam.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e241">
+          ⁋ Responsio. quod deleta culpa: virtute siue gratia
+          pe<lb ed="#N" n="113" break="no"/>nitentie non est necesse quod tollatur reatus.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e246">
+          ⁋ Ad primum contra hoc
+          <lb ed="#N" n="114"/>dicendum. quod sicut bonitas diuina dicitur infinita non solum in se
+          <lb ed="#N" n="115"/>sed in effectu. non quia infinite diffundit se in effectibus: sed quia
+          <lb ed="#N" n="116"/>sine aliqua sui diminutione diffundit se. et etiam si infinities
+          <lb ed="#N" n="117"/>diffunderet se in nullo bonitas eius diminueretur.
+          Simi<lb ed="#N" n="118" break="no"/>liter misericordia dei dicitur infinita: quia nullo effectu
+          miseri<lb ed="#N" n="119" break="no"/>cordie remittitur. neque etiam si infinitis effectibus
+          diffunde<lb ed="#N" n="120" break="no"/>retur: sicut nec in vno effectu aliquo remitteretur. non igitur
+          <lb ed="#N" n="121"/>exigit infinitas diuine misericordie quod omnia relaxet. Preterea.
+          si<lb ed="#N" n="122" break="no"/>peccata relinquerentur impunita: aliquid in regno dei esset
+          <lb ed="#N" n="123"/>inordinatum: sicut dicit Ansel. propter quod diuina bonitas
+          <lb ed="#N" n="124"/>exigit. quod immensitas misericordie illius moderetur
+          iusti<lb ed="#N" n="125" break="no"/>cia: sicut quod iusticia temperetur misericordia. vnde Augustinus. Nullus
+          <lb ed="#N" n="126"/>debite grauioris pene veniam accipit nisi qualencunque et
+          <lb ed="#N" n="127"/>si longe soluerit penam minorem quam debeat. ita enim
+          imperti<lb ed="#N" n="128" break="no"/>tur a deo largitas misericordie: vt non relinquatur iusticia
+          disci<lb ed="#N" n="129" break="no"/>pline.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e283">
+          ⁋ Ad aliud quod obiicitur. quod christus moriendo dedit
+          ma<lb ed="#N" n="130" break="no"/>gis precium incomparabiliter quam exigebat delictum etc. Dicem
+          <lb ed="#N" n="131"/>dum quod reuera incomparabiliter maius fuit precium
+          redimen<lb ed="#N" n="132" break="no"/>tis quam culpa peccantis. nec tamen propter hoc solutum fuit
+          <lb ed="#N" n="133"/>tantum precium vt actualiter peccantes impune
+          pertransi<lb ed="#N" n="134" break="no"/>rent: quia in hoe preiudicaretur diuine iusticie. Nec est
+          sa<lb ed="#N" n="135" break="no"/>tisfactum diuine iusticie in pena capitis pro delicto
+          membro<lb ed="#N" n="136" break="no"/>rum. adminus vbi caput et membra solummodo habent vnitatem
+          <lb ed="#N" n="137"/>spiritualem. immo habet membrum quodlibet pro proprio delicto
+          <lb ed="#N" n="138"/>puniri. quia vt dicitur. xi. Sapi. per que peccat quis: perhec et
+          pu<lb ed="#N" n="139" break="no"/>nitur. Preterea. hec relaxatio verteretur illis in insolentiam et
+          <lb ed="#N" n="140"/>audaciam peccandi. quia vt habetur Ecclesats. viii. quia non profertur
+          <lb ed="#N" n="141"/>cito contra malos sententia: absque vllo timore filii hominum perpetrant
+          <pb ed="#N" n="382"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>mala.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e318">
+          ⁋ Ad hoc quod queritur. quare non sufficit breuis penitentia etc.
+          <lb ed="#N" n="2"/>Dicendum quod hoc non est solummodo ex diuina iusticia: sed ex
+          dispen<lb ed="#N" n="3" break="no"/>satione diuine misericordie scilicet propter causam multiplicem et multiplex
+          <lb ed="#N" n="4"/>commodum peccatoris. Una causa est: ne putaretur culpa parua
+          si<lb ed="#N" n="5" break="no"/>parua pena puniretur. Alia est ostensio proprie miserie qua miser
+          <lb ed="#N" n="6"/>peccator obligat se ad penam magnam. Tercia est emenda
+          <lb ed="#N" n="7"/>tio labilitatis seu pronitatis sue. Quarta est exercitatio
+          ne<lb ed="#N" n="8" break="no"/>cessarie patientie. vnde Augustinus libro. de penitentia. productior est
+          pe<lb ed="#N" n="9" break="no"/>na quam culpa: ne parua putaretur culpa si cum illa finiretur et
+          pe<lb ed="#N" n="10" break="no"/>na. ac propter demonstrationem debite miserie: vel ad
+          emenda<lb ed="#N" n="11" break="no"/>tionem labilis vite: vel ad exercitationem necessarie patientie.
+          tem<lb ed="#N" n="12" break="no"/>pearaliter hominem determinet pena: quem iam ad damnationem
+          <lb ed="#N" n="13"/>sempiternam reum non retinet culpa.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e347">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="14" break="no"/>tur per comparationem penitentie ad baptismum. Dicendum quod secus
+          <lb ed="#N" n="15"/>est de virtute baptismi et penitentie quantum ad ablationem reatus. quia
+          <lb ed="#N" n="16"/>enim baptismus proprie est apertio ianue. apertio autem ianue non
+          <lb ed="#N" n="17"/>est aliud quam solutio reatus culpe: eius proprie est dimissio
+          <lb ed="#N" n="18"/>pene non penitentie. Preterea. etsi omnia sacramenta habeant virtuten
+          <lb ed="#N" n="19"/>a passione christi. quia baptismus est proprie sacramentum passionis:
+          <lb ed="#N" n="20"/>congrue collata est illi virtus curandi a culpa et pena. vnde
+          <lb ed="#N" n="21"/>virtus baptismi non est huiusmodi efficacie inquantum est virtus: sed
+          in<lb ed="#N" n="22" break="no"/>quantum est virtus sacramenti. quia baptismus flaminis non est huius
+          <lb ed="#N" n="23"/>efficacie. Est igitur penitentia ad delendum culpam: et penam que
+          an<lb ed="#N" n="24" break="no"/>nexa est necessario culpe. sed baptismus siue virtus
+          bapti<lb ed="#N" n="25" break="no"/>smi ad delendum culpam et penam. hoc enim pertinet ad illum
+          <lb ed="#N" n="26"/>rationibus pretactis.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e379">
+          ⁋ Ad aliud dicendum. quod cum dicitur quod omne
+          <lb ed="#N" n="27"/>bonum est maius bonum quam aliquod malum est malum. hec
+          com<lb ed="#N" n="28" break="no"/>paratio intelligenda est secundum quod bonum et malum comparantur ad
+          <lb ed="#N" n="29"/>subiecta: quantum subiecta proficiunt vel deficiunt. verbi. gratia. bonum
+          <lb ed="#N" n="30"/>gratuitum de quo intelligitur quod omne bonum est magis bo
+          <lb ed="#N" n="31"/>num etc. est profectiuum boni nature. malum autem est defectiuum
+          <lb ed="#N" n="32"/>id est: causa defectus eiusdem id est boni nature. sed bonum
+          gra<lb ed="#N" n="33" break="no"/>tuitum ordinat bonum nature ad esse in summo: secundum quod
+          pos<lb ed="#N" n="34" break="no"/>sibile est id est ad hoc quod summe perficiatur. et hoc facit quodcumque
+          <lb ed="#N" n="35"/>bonum gratuitum: quia coniungit cum suo optimo scilicet
+          <lb ed="#N" n="36"/>summo bono. sed nullum producit suum subiectum ad
+          sum<lb ed="#N" n="37" break="no"/>mum defectum. summus autem defectus est in non esse. Et vt dicit
+          <lb ed="#N" n="38"/>Augustinus. Nullum malum ita corrumpat quin extrema nature
+          re<lb ed="#N" n="39" break="no"/>linquat vestigia. quia igitur per quodlibet bonum gratuitum
+          pro<lb ed="#N" n="40" break="no"/>ficit habens ad coniunctionem cum illo cum quo est in vltimo
+          <lb ed="#N" n="41"/>profectu. nullo malo ducitur habens ad illud cum quo est in
+          vl<lb ed="#N" n="42" break="no"/>timo defectu. dicitur quodlibet bonum magis bonum quam aliquod
+          <lb ed="#N" n="43"/>malum malum. Si igrtr dicitur bonum magis bonum effectine quam malum:
+          <lb ed="#N" n="44"/>quia ex hoc summe proficit: ex illo non summe deficit. Preterea. aliter
+          <lb ed="#N" n="45"/>dicitur bonum magis bonum etiam quantitatiue: quia
+          nul<lb ed="#N" n="46" break="no"/>lum malum est ita malum quod non radicetur in bono. vnde malum
+          di<lb ed="#N" n="47" break="no"/>cit defectum boni. vnde Augustinus. Malum nihil est: sed defectus
+          bo<lb ed="#N" n="48" break="no"/>ni mali nomen accepit. sed bonum dicitur totum bonum. Iusticia non
+          <lb ed="#N" n="49"/>concernit aliquid mali in suo esse: nec radicatur in malo. vnde
+          <lb ed="#N" n="50"/>esse et virtus mali (vt ita dicam) est a bono in quo est esse:
+          <lb ed="#N" n="51"/>et virtus boni a bono. et propter hoc dicitur magis bonum
+          bo<lb ed="#N" n="52" break="no"/>num: quia quod est et potest: a bono est. non similiter est de
+          ma<lb ed="#N" n="53" break="no"/>lo. licet igitur bonum sit magis bonum quam malum sit malum: ex hoc non
+          <lb ed="#N" n="54"/>sequitur quod illud cuius causa est malum tollatur a bono.
+        </p>
+        <p xml:id="v78d89-abb52m-d1e442">
+          ⁋ Ad
+          <lb ed="#N" n="55"/>hoc quod obiicitur pro parte alia. quod exercitio in penis debitis
+          <lb ed="#N" n="56"/>proficit homo. igitur non debet tolli aliqua virtute. Dicendum quod etsi
+          <lb ed="#N" n="57"/>proficiat quantum ad hoc quod soluit debitum: nihilominus melior est
+          con<lb ed="#N" n="58" break="no"/>ditio non debentis quam debentis. vnde si virtute penitentie pene
+          de<lb ed="#N" n="59" break="no"/>bite essent dimisse: eo quod penitens tunc non esset debitor pene: pro
+          <lb ed="#N" n="60"/>pinquior esset fini eius scilicet glorie: quam quando est debitor. Preterea
+          <lb ed="#N" n="61"/>magis meretur in exercitio afflictionum ad quas non teneretur quam
+          <lb ed="#N" n="62"/>ad quas teneretur. quia opera quantomagis debita: tanto
+          <lb ed="#N" n="63"/>minus grata. vnde simpliciter melior et maioris profectus est
+          pe<lb ed="#N" n="64" break="no"/>nitentia: eo quod ipsa pene in aliquo remittuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

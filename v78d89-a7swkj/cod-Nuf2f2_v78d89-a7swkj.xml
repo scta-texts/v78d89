@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 36, Membrum 8</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 36, Membrum 8</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="227"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7swkj"><!-- q36m8 -->
+        <head xml:id="v78d89-a7swkj-Hd1e101">Membrum 8</head>
+        <head xml:id="v78d89-a7swkj-Hd1e103" type="question-title">De multitudine consecrantium scilicet unam hostiam</head>
+        <p xml:id="v78d89-a7swkj-d1e106">
+          <lb ed="#N" n="42"/>Membrum octauum
+        </p>
+        <p xml:id="v78d89-a7swkj-d1e111">
+          <lb ed="#N" n="43"/>COnsequenter queritur de multitudine
+          consecran<lb ed="#N" n="44" break="no"/>tium scilicet vnam hostiam. Consueuerunt enim presbiteri
+          car<lb ed="#N" n="45" break="no"/>dinales romanum circunstare pontificem et cum
+          <lb ed="#N" n="46"/>eo periter celebrare. Similiter in multis
+          eccle<lb ed="#N" n="47" break="no"/>siis plures sacerdotes vno episcopo concelebrant.
+        </p>
+        <p xml:id="v78d89-a7swkj-d1e124">
+          ⁋ Circa hoc
+          du<lb ed="#N" n="48" break="no"/>bitatur aut omnes simul verba consecratoria pronunciant: aut non
+          <lb ed="#N" n="49"/>omnes simul. Si simul: frustra pronunciantur et superfluunt quecum
+          <lb ed="#N" n="50"/>que proferuntur nisi ab vno solo: cum ab vno sobo pronunciata
+          suffi<lb ed="#N" n="51" break="no"/>ciant ad consecrandum. Si non omnes simul: et constat quod qui primo
+          <lb ed="#N" n="52"/>pronunciat conficit. quid ergo faciunt ceteri. nunquid iterant
+          sacra<lb ed="#N" n="53" break="no"/>mentum: hoc autem ponere esset inconueniens.
+        </p>
+        <p xml:id="v78d89-a7swkj-d1e141">
+          ⁋ Preterea. posset
+          contin<lb ed="#N" n="54" break="no"/>gere quod ille non conficit qui celebrat principaliter et ille conficiet
+          <lb ed="#N" n="55"/>qui secundario celebrabit: et sic pia intentio celebrantis
+          de<lb ed="#N" n="56" break="no"/>fraudabitur.
+        </p>
+        <p xml:id="v78d89-a7swkj-d1e150">
+          ⁋ Responsio. vt est tactu. Cardinales presbiteri
+          con<lb ed="#N" n="57" break="no"/>sueuerunt romanum circumstare potestificem et cum eo pariter
+          cele<lb ed="#N" n="58" break="no"/>brare. Cumque consumatum est sacrificium: de manu eius
+          communio<lb ed="#N" n="59" break="no"/>nem accipere. significantes apostolos qui cum domino periter
+          discumben<lb ed="#N" n="60" break="no"/>tes sacram de manu eius eucharistiam acceperunt. et in eo quod
+          ipsi<lb ed="#N" n="61" break="no"/>celebrabant: ostendunt apostolos a domino ritum huius sacrificii
+          didi<lb ed="#N" n="62" break="no"/>cisse. Unde hec est causa celebrationis.
+        </p>
+        <p xml:id="v78d89-a7swkj-d1e166">
+          ⁋ Ad hoc ergo quod primo que
+          <lb ed="#N" n="63"/>ritur. vtrum simul proferunt verba consecratoria. dicendum quod simul de
+          <lb ed="#N" n="64"/>bent proferre.
+        </p>
+        <p xml:id="v78d89-a7swkj-d1e173">
+          ⁋ Ad hoc quod obiicitur quod tunc omnia superflue et
+          inani<lb ed="#N" n="65" break="no"/>ter proferuntur ni que proferuntur ab vno illorum tantum. dicendum quod non
+          <lb ed="#N" n="66"/>est verum. quia licet prolatio vnius sufficeret ad consecrationem: tamen
+          <lb ed="#N" n="67"/>quia intentio est omnium vnam celebrare consecrationem: assecuntur quod
+          <lb ed="#N" n="68"/>intendunt et quantum ad consecrationem et quantum ad significationem. quia
+          <lb ed="#N" n="69"/>enim in hoc opere intentio dirigit opus eoipss quod vna omnium est
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>intentio: et omnium est vna operatio scilicet consecratio. et licet prolatio
+          <lb ed="#N" n="71"/>vnius sufficeret ad consecrationem: non tamen sufficeret ad
+          si<lb ed="#N" n="72" break="no"/>gnificationem.
+        </p>
+        <p xml:id="v78d89-a7swkj-d1e195">
+          ⁋ Ad aliud respondet Inno. sic dicens. Sane potest
+          <lb ed="#N" n="73"/>dici et probabiliter responderi. quod siue prius siue posterius
+          profe<lb ed="#N" n="74" break="no"/>rant sacerdotes: referri debet eorum intentio ad instans prola
+          <lb ed="#N" n="75"/>tionis episcopi cui principaliter concelebrant. et tunc omnes simul
+          conse<lb ed="#N" n="76" break="no"/>crant et conficiunt: quamquam non nulli consentiant: quod qui prius pronunciat
+          il<lb ed="#N" n="77" break="no"/>le consecrat. nec aliorum defraudatur intentio: quia factum est quod
+          in<lb ed="#N" n="78" break="no"/>tendunt. hec Inno.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

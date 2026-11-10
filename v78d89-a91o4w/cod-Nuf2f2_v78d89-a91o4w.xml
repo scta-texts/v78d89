@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 44, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 44, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="318"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a91o4w"><!-- q44m5 -->
+        <head xml:id="v78d89-a91o4w-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a91o4w-Hd1e103" type="question-title">An corpus Christi sacratum in coena reservatum in pixide usque ad mortem Christi: mortuum esset in pixide</head>
+        <p xml:id="v78d89-a91o4w-d1e106">
+          <lb ed="#N" n="138"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e111">
+          <pb ed="#N" n="319"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>COnsequenter queritur an corpus christi sacratum
+          <lb ed="#N" n="2"/>in cena reseruatum in pixide vsque ad mortem
+          <lb ed="#N" n="3"/>christi: mortuum esset in pixide. Quod non: videtur. quia
+          <lb ed="#N" n="4"/>deficienti causa deficit effectus. sed causa mortis
+          <lb ed="#N" n="5"/>non fuisset in pixide scilicet crucifixio: igitur nee mortuum esset in
+          <lb ed="#N" n="6"/>pixide.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e131">
+          ⁋ Item si mortuum esset in pixide. aut eodem genere
+          mor<lb ed="#N" n="7" break="no"/>tis quo in cruce: aut alio. Si alio: igitur duplici genere
+          mor<lb ed="#N" n="8" break="no"/>tis mortuus esset. quod patet falsum. Si eodem: igitur
+          crucifige<lb ed="#N" n="9" break="no"/>retur lancearetur: sanguis eius effunderetur in pixide.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e141">
+          ⁋ St
+          <lb ed="#N" n="10"/>diceretur quod non moreretur in pixide ipso moriente in cruce. sequum
+          <lb ed="#N" n="11"/>tur inconuenientia predicta. scilicet quod simul moreretur et non more
+          <lb ed="#N" n="12"/>retur. quod simul viueret et non viueret. simul esset homo et non
+          <lb ed="#N" n="13"/>homo.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e152">
+          ⁋ Item si he essent vere. corpus christi patitur in cruce. et
+          cor<lb ed="#N" n="14" break="no"/>pus christi non patitur in pixide. igitur in casu proposito non morere
+          <lb ed="#N" n="15"/>tur in pixide.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e159">
+          ⁋ Responsio. quod in casu proposito moriente christo
+          <lb ed="#N" n="16"/>in cruce: moreretur in pixide. Dico tamen quod passio potest dupliciter
+          <lb ed="#N" n="17"/>significari. Uel vt est patiens tantum. ita scilicet quod per verbum quo
+          pas<lb ed="#N" n="18" break="no"/>sio significatur nulla notetur relatio ad agentem. Uel vt est
+          pa<lb ed="#N" n="19" break="no"/>tientis. ita quod per verbum quo significatur passio notetur relatio
+          <lb ed="#N" n="20"/>ad agentem. ita vt passio notetur esse patientis et ab agente.
+          Pri<lb ed="#N" n="21" break="no"/>mo modo potest dici de christo quod mortuus esset in pixide. Secum
+          <lb ed="#N" n="22"/>do quod in cruce. vnde et si esset mortuus christus in pixide in
+          casu<lb ed="#N" n="23" break="no"/>propofito: non tamen esset mors illata ab agente in pixide christo: sicut
+          <lb ed="#N" n="24"/>illata fuit in cruce a crucifixoribus. Cum igitur queritur vtrum
+          <lb ed="#N" n="25"/>mortuus esset in pixide etc. dicendum quod sic.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e183">
+          ⁋ Ad illud quod
+          obii<lb ed="#N" n="26" break="no"/>citur. quod deficiente causa etc. dicendum quod causa mortis non
+          de<lb ed="#N" n="27" break="no"/>fecit licet deficeret in pixide. vnde ex causa mortis exercita
+          <lb ed="#N" n="28"/>ta in cruce moreretur in pixide.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e192">
+          ⁋ Ad quod queritur vtrum
+          mor<lb ed="#N" n="29" break="no"/>tuus esset eodem genere mortis: ant alio. dicendum quod eodem.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e197">
+          <lb ed="#N" n="30"/>⁋ Ad hoc quod ex hoc infertur. quod tunc in pixide crucifigeretur
+          <lb ed="#N" n="31"/>lancearetur etc. Dicendum quod huiusmodi propositiones christus crucifigitur
+          <lb ed="#N" n="32"/>in pixide vel lanceatur. duplices sunt. quia hec determinatio
+          <lb ed="#N" n="33"/>m pixide potest esse determinatio subiecti vel predicati. Si enim hec
+          <lb ed="#N" n="34"/>determinatio in pixide determinat tantum subiectum vt sit sensius.
+          <lb ed="#N" n="35"/>christus ens in pixide lanceatur: vera est. Si autem determinaret
+          <lb ed="#N" n="36"/>predicatum falsa esset. esset enim sensus. christus perforatur lancea in
+          <lb ed="#N" n="37"/>pixide. Ex hoc enim non tantum haberetur quod christus passus esset in
+          pi<lb ed="#N" n="38" break="no"/>xide: sed etiam secundum quod esset in pixide egisset in eum longinus quod
+          <lb ed="#N" n="39"/>falsum est. quia agens est prestantius passo semper. hoc dicunt
+          ma<lb ed="#N" n="40" break="no"/>gistri sub aliis verbis distiguentes passionem imatam et
+          illa<lb ed="#N" n="41" break="no"/>tam. dicentes huiusmodi verba pati et mori significare passionem
+          <lb ed="#N" n="42"/>imatam: crucifigi et lanceari illatam. Unde versus.
+          Pixi<lb ed="#N" n="43" break="no"/>de seruato poteris copulare dolorem. Innatum: sed non illatus
+          <lb ed="#N" n="44"/>conuenit illi.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e233">
+          ⁋ Si diceret quis christus atteritur dentibus fidelium et
+          <lb ed="#N" n="45"/>huiusmodi vere sunt cum atteri significat passionem illatam.
+          Solu<lb ed="#N" n="46" break="no"/>tio non conuenit christo sed tantum speciei panis sub qua latet christus et
+          <lb ed="#N" n="47"/>est meihonomia. ponitur enim continens pro contento.
+        </p>
+        <p xml:id="v78d89-a91o4w-d1e242">
+          ⁋ Ad id
+          <lb ed="#N" n="48"/>quod obiicitur quod he sunt simul vere. Corpus christi patitur in
+          cru<lb ed="#N" n="49" break="no"/>ce et non patitur in pixide etc. Dicendum quod non est simile. et huius
+          <lb ed="#N" n="50"/>causa est. quia per hoc quod dicitur patitur: notatur aliquid
+          inferri<lb ed="#N" n="51" break="no"/>corpori in pixide cui nihil infertur. in pixide dico. Unde hec est
+          <lb ed="#N" n="52"/>falsa. Corpus christi patitur in pixide. per hoc quod dico moritur
+          <lb ed="#N" n="53"/>non notatur aliud inferri sed simpliciter animam separari a corpore
+          <lb ed="#N" n="54"/>et hoc fieret in pixide in casu proposito.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

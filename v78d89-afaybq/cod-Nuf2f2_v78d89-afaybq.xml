@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 83, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 83, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="536"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afaybq"><!-- q83m4 -->
+        <head xml:id="v78d89-afaybq-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-afaybq-Hd1e103" type="question-title">Pro quo potest sive debet fieri</head>
+        <p xml:id="v78d89-afaybq-d1e106">
+          <lb ed="#N" n="94"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-afaybq-d1e111">
+          <lb ed="#N" n="95"/>COnsequenter queritur pro quo debeat fieri
+          relaxa<lb ed="#N" n="96" break="no"/>tio. ant pro corporali beneficio an pro spirituali. Quod pro
+          <lb ed="#N" n="97"/>corporali: videtur per communem vsum ecclesie. vbi
+          in<lb ed="#N" n="98" break="no"/>dulgentie fiunt et relaxationes pro elemosynis:
+          pere<lb ed="#N" n="99" break="no"/>grinationibus: visitationibus reliquiarum etc.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e124">
+          ⁋ Item
+          relaxatio<lb ed="#N" n="100" break="no"/>nes huiusmodi et indulgentie non fiunt a culpa sed a pena. si
+          pe<lb ed="#N" n="101" break="no"/>na recte mutetur debet mutari in penam. sed relaxatio fit a
+          pena<lb ed="#N" n="102" break="no"/>exteriori in corpore vtpote a ieiuniis disciplinis et huiusmodi:
+          er<lb ed="#N" n="103" break="no"/>go oportet fieri commutationem in penam consimilem.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e136">
+          ⁋ Item si non
+          <lb ed="#N" n="104"/>fiunt pro corporali sed pro spirituali. ergo cum bona voluntas simul potest
+          <lb ed="#N" n="105"/>esse respectu omnium relaxationum. quia perfectus homo omne bonum
+          <lb ed="#N" n="106"/>vult et omne bonum placet ei. quia prouerb. xii. Desiderium iustorum
+          <lb ed="#N" n="107"/>omne bonum est. videtur quod quilibet iustus habeat omnes
+          relaxati<lb ed="#N" n="108" break="no"/>ones. quod non conuenit ponere: quia tunc homines laborarent
+          frustra<lb ed="#N" n="109" break="no"/>Contra. indulgentie et relaxationes sunt beneficia
+          spiri<lb ed="#N" n="110" break="no"/>tualia. sed qui dat temporale pro spirituali comittit symoniam: ergo in
+          re<lb ed="#N" n="111" break="no"/>laxationibus que fiunt pro bono corperali siue pro obsequiis
+          exte<lb ed="#N" n="112" break="no"/>rioribus committitur symonia.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e158">
+          ⁋ Item maior est misericordia spiritualis
+          <lb ed="#N" n="113"/>quam corporalis. vnde maius est alicui offensam indulgere quam
+          paupe<lb ed="#N" n="114" break="no"/>rem hospicio colligere vel elemosynam dare: ergo magis facit
+          ho<lb ed="#N" n="115" break="no"/>minem dignum relaxatione: ergo potius pro illo opere quam pro alio debet
+          fie<lb ed="#N" n="116" break="no"/>ri relaxatio.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e169">
+          ⁋ Item in maiori ruina et periculosiori est ecclesia
+          <lb ed="#N" n="117"/>in qua est scisma: quam ecclesia cuius parietes minantur ruinam: ergo
+          <lb ed="#N" n="118"/>magis indiget talis ecclesia iuuari siue muniri quam alia. Si
+          <lb ed="#N" n="119"/>ergo relaxationes debito modo fiant pro ecclesia materialiter
+          <lb ed="#N" n="120"/>reparanda. vt qui iuuat ad reparandum habeat indulgentiam: vide
+          <lb ed="#N" n="121"/>tur multo fortius debere dari ad indulgentiam pro ruina
+          spirita<lb ed="#N" n="122" break="no"/>li reparanda. vt qui orat vt dominus det membris illius ecclesie
+          concordi<lb ed="#N" n="123" break="no"/>am debeat habere indulgentiam.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e187">
+          ⁋ Item maioris perfectionis est
+          <lb ed="#N" n="124"/>et plus deo acceptum intrare in religionem quom ire vltra mare.
+          <lb ed="#N" n="125"/>ergo si datur indulgentia omnium peccatorum eutibus vltra mare:
+          multo<lb ed="#N" n="126" break="no"/>fortius deberet dari intrantibus religionem.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e196">
+          ⁋ Responio quod sicut
+          ac<lb ed="#N" n="127" break="no"/>cidit in polliticis et communitatibus humanis. quod thesaurus regius
+          <lb ed="#N" n="128"/>pro duobus solet exponi et communicari: sic fit et in spiritualibus.
+          exponi<lb ed="#N" n="129" break="no"/>tur autem thesaurus regni quandoque ad gloriam magnificentie requi
+          <lb ed="#N" n="130"/>honoris: sicut faciunt quandoque reges liberales. sicut habetur de
+          <lb ed="#N" n="131"/>Assuero Hest. i. exponitur similiter propter necessitatem rei
+          pu<lb ed="#N" n="132" break="no"/>blice. vtpote quando exponitur ne ledatur communitas ad dandum
+          sti<lb ed="#N" n="133" break="no"/>pendia et donatiua militibus: vt exponant se pugne pro communita
+          <lb ed="#N" n="134"/>te defendenda. sic thesaurus ecclesie ab eo qui habet illum
+          <lb ed="#N" n="135"/>dispensare: duplici decausa exponitur. scilicet propter
+          magnificen<lb ed="#N" n="136" break="no"/>tiam et laudem principis: et communitatis christianitatis promotionem
+          <lb ed="#N" n="137"/>et defensionem. laus eius et honor principis ecclesie id est christi
+          <lb ed="#N" n="138"/>est in sanctis suis. sancti autem honorantur in constructione
+          <lb ed="#N" n="139"/>basilicarum et visitatione limitum eorundem: et commemors
+          <lb ed="#N" n="140"/>tione virtutum ipsorum que fit in predicationibus et
+          ser<lb ed="#N" n="141" break="no"/>monibus. ideo pro his omnibus aperitur thesaurus
+          eccle<pb ed="#N" n="537"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>sie indulgentiis relaxationibus. Communis autem necessitas
+          <lb ed="#N" n="2"/>est defensio terre sancte et tuitio fidei et multiplicatio.
+          promo<lb ed="#N" n="3" break="no"/>tio studii et huiusmodi que valent ad promotionem cultus dei. vnde pro
+          tali<lb ed="#N" n="4" break="no"/>bus competit quod fiant indulgentie et relaxationes. et quoniam hec
+          con<lb ed="#N" n="5" break="no"/>sistunt in actibus exterioribus et indulgentie et relaxationes vt
+          <lb ed="#N" n="6"/>dicunt quidam debent fieri pro actibus exterioribus.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e246">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="7"/>obiicitur. quod tunc comitteretur symonia in relaxationibus et
+          indul<lb ed="#N" n="8" break="no"/>gentiis. Dicendum quod non est verum. quia in hoc casu non datur spirituale pro
+          <lb ed="#N" n="9"/>corporali. immo maior pena commutatur in minorem. et residuum
+          sol<lb ed="#N" n="10" break="no"/>uit: faciens relaxationem vel conferens indulgentiam: vel ipse
+          pa<lb ed="#N" n="11" break="no"/>stor ecclesie vel de gratia. Uel potest dici quod datur indulgentia vel
+          <lb ed="#N" n="12"/>relaxatio pro opere exteriori non considerato dato: sed causa que ex
+          <lb ed="#N" n="13"/>radice bone voluntatis procedit.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e265">
+          ⁋ Ad illud quod obiicitur. quod
+          <lb ed="#N" n="14"/>spiritualis elemosyna maior est etc. dicendum quod in donatione
+          indulgen<lb ed="#N" n="15" break="no"/>tie non consideratur operis nobilitas. quia tunc magis deberet
+          da<lb ed="#N" n="16" break="no"/>ri docentibus quam peregrinantibus: sed consideratur quod illud opus est
+          <lb ed="#N" n="17"/>mere voluntatis non necessitatis. similiter quod sit taxabile siue
+          esti<lb ed="#N" n="18" break="no"/>mabile et etiam penale. hoc etiam considerat qui indulgentiam
+          pre<lb ed="#N" n="19" break="no"/>stat.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e281">
+          ⁋ Ad illud quod obiicitur de ruina spirituali. dicendum quod pro
+          repara<lb ed="#N" n="20" break="no"/>tione talis ruine multum est instandum dirctoni. sed quia non est tale
+          <lb ed="#N" n="21"/>quid publicare. quia talis publicatio infamiam generaret:
+          ma<lb ed="#N" n="22" break="no"/>terialem autem ruinam publicare non generat infamiam: ideo pro
+          <lb ed="#N" n="23"/>talis reparationis adiutorio non sunt dande indulgentie nec
+          pre<lb ed="#N" n="24" break="no"/>stande nec faciende relaxationes. Pre. relaxationes et
+          indul<lb ed="#N" n="25" break="no"/>gentie solent fieri pro illis que possunt per humana opera reparari:
+          <lb ed="#N" n="26"/>ruina autem corporalis potest humano subsidio reparari spiritualis
+          <lb ed="#N" n="27"/>non: sed potius opere dei.
+        </p>
+        <p xml:id="v78d89-afaybq-d1e301">
+          ⁋ Ad illud quod obiicitur de ingressu ad
+          re<lb ed="#N" n="28" break="no"/>ligionem. Dicendum quod veri religiosi qui statum aggrediuntur
+          perfe<lb ed="#N" n="29" break="no"/>ctionis: non indigent relaxationibus vel indulgentiis. vtpote quo
+          <lb ed="#N" n="30"/>rum exogationibus dantur indulgentie. ipsis autem bona aliorum
+          <lb ed="#N" n="31"/>non mendicantibus propter quod aliis sunt beatiores. quia Act. xx.
+          <lb ed="#N" n="32"/>bcatius est magis dare quam accipere: quod non est verum de bonis
+          ten<lb ed="#N" n="33" break="no"/>poralibus. quia ergo sicut indulgentie non debent dari indignis.
+          <lb ed="#N" n="34"/>sed nec debent dari non indigentibus: ideo non debent dari
+          in<lb ed="#N" n="35" break="no"/>trantibus in religionem. licet autem magis congruat et est
+          euiden<lb ed="#N" n="36" break="no"/>tior ratio congruitatis quod fiant indulgentie et relaxationes pro
+          <lb ed="#N" n="37"/>beneficiis exterioribus quam interioribus: sine preiudicio melioris
+          <lb ed="#N" n="38"/>sententie dici potest. quod etiam pro beneficiis spiritualibus cuiusmodi sunt
+          <lb ed="#N" n="39"/>elemosyne spirituales vt in casu: tam indulgentie quam relaxationes
+          <lb ed="#N" n="40"/>posunt dari. et maxime a summo pontifice. vtpote
+          insistenti<lb ed="#N" n="41" break="no"/>bus orationi pro terra sancta vel peregrinis terre sancte: vel
+          pro<lb ed="#N" n="42" break="no"/>rege posunt et solent dari indulgentie et relaxationes. et illis
+          pre<lb ed="#N" n="43" break="no"/>cipue qui alia quam orationis subuentionem facere non possunt.
+          vtpo<lb ed="#N" n="44" break="no"/>te sunt pauperes et debiles. non enim est consonum rationi quod
+          perso<lb ed="#N" n="45" break="no"/>nis miseris neganda sunt remedia que pia mater ecclesia
+          fi<lb ed="#N" n="46" break="no"/>liis solet prestare. Pre. cum pro illis operibus quibus fit satisfactio
+          <lb ed="#N" n="47"/>peccatorum solent fieri indulgentie et relaxationes. sicut pro
+          ie<lb ed="#N" n="48" break="no"/>iunio et elemosyna. non videtur necessitas aliqua propter quam non debe
+          <lb ed="#N" n="49"/>ant pro orationibus fieri: cum oratio sit pars efficacissima inter
+          <lb ed="#N" n="50"/>partes penitentie ad misericordiam domini et remissionem peccato
+          <lb ed="#N" n="51"/>rum obtinendam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

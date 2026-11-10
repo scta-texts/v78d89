@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 52, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 52, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="343"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aao8jp"><!-- q52m4 -->
+        <head xml:id="v78d89-aao8jp-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aao8jp-Hd1e103" type="question-title">Utrum necesse sit sacerdotem totiens communicare sive sumere corpus Christi quotiens celebrat</head>
+        <p xml:id="v78d89-aao8jp-d1e106">
+          <lb ed="#N" n="113"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-aao8jp-d1e111">
+          <lb ed="#N" n="114"/>COnsequenter queritur. vtrum necesse sit
+          sacer<lb ed="#N" n="115" break="no"/>dotem totiens communicare siue sumere corpus christi
+          <lb ed="#N" n="116"/>quotiens celebrat. Quod sic: videtur. per ea que supra sum
+          <lb ed="#N" n="117"/>pta sunt de conse. di. ii. Relatum.
+        </p>
+        <p xml:id="v78d89-aao8jp-d1e122">
+          ⁋ Contra. licet
+          <lb ed="#N" n="118"/>sacerdos non teneatur nisi semel in die celebrare missam et
+          con<lb ed="#N" n="119" break="no"/>secrare corpus domini: tamen compellente necessitate licite potest pluries
+          <lb ed="#N" n="120"/>Similiter videtur quod licet sacerdos quotienscunque celebrat teneatur
+          <lb ed="#N" n="121"/>sumere corpus christi. occurrente necessitate licite potest
+          celebra<lb ed="#N" n="122" break="no"/>re et non sumere corpus christi. vt si forte accideret quod aliquis
+          subi<lb ed="#N" n="123" break="no"/>to laboraret in extremis et instanter peteret corpus christi
+          mul<lb ed="#N" n="124" break="no"/>tis astantibus qui scandalizarentur nisi sibi dispensaretur.
+          <lb ed="#N" n="125"/>et hec innotescerent sacerdoti quasi in fine misse antequam
+          sum<lb ed="#N" n="126" break="no"/>psisset corpus domini. hac instanti necessitate vel
+          consimili<lb ed="#N" n="127" break="no"/>videtur quod sacerdos posset hostiam consecratam dare
+          infir<lb ed="#N" n="128" break="no"/>mo et a communicatione seipsum suspendere.
+        </p>
+        <p xml:id="v78d89-aao8jp-d1e149">
+          ⁋ Item de duo
+          <lb ed="#N" n="129"/>bus malis minus malum est eligendum. et licitum et bonum est hoc
+          <lb ed="#N" n="130"/>eligere. Sed qui consecrat in peccato consecrando peccat
+          sumen<lb ed="#N" n="131" break="no"/>do corpus christi similiter peccat sed minus peccatum est
+          se<lb ed="#N" n="132" break="no"/>mel peccare quam bis: ergo hoc est preeligendum. ergo bonum est
+          <lb ed="#N" n="133"/>cessare a communione completa consecratione. quatenus non
+          <lb ed="#N" n="134"/>peccet nisi tantum consecrando et non peccet corpus christi
+          su<lb ed="#N" n="135" break="no"/>mendo.
+        </p>
+        <p xml:id="v78d89-aao8jp-d1e167">
+          ⁋ Item illicitum est simplici persone bis in die
+          sume<lb ed="#N" n="136" break="no"/>re corpus christi propter reuerentiam sacramenti. Similiter
+          vide<lb ed="#N" n="137" break="no"/>tur quod persone communi et sacerdoti. cum teneatur se habere in
+          maiori<lb ed="#N" n="138" break="no"/>reuerentia quam simplex persona. ergo videtur quod etsi necesse
+          ha<pb ed="#N" n="344"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>beat bis celebrare in die: licitum est sibi et conueniens
+          suspene<lb ed="#N" n="2" break="no"/>dere se vt nisi semel corpus christi accipiat.
+        </p>
+        <p xml:id="v78d89-aao8jp-d1e183">
+          ⁋ Responsio. quod
+          to<lb ed="#N" n="3" break="no"/>tiens communicandum est corpus domini et etiam sanguinis a consecrante
+          <lb ed="#N" n="4"/>quotiens fit consecratio. vt habetur de conse. di. ii. Relatum. Cuius
+          <lb ed="#N" n="5"/>ratio est. quia communicatio est complementum sacrificii et quantum
+          <lb ed="#N" n="6"/>ad signum. Unde Augustinus libro sen. prosperi. Et habetur de conse. dist.
+          ii<lb ed="#N" n="7" break="no"/>vbi dicitur. dum frangitur hostia dum sanguis de calice in ore
+          <lb ed="#N" n="8"/>cfidelium funditur: quid aliud quam dominici corporis in cruce
+          immo<lb ed="#N" n="9" break="no"/>clatio eiusque sanguinis de latere effusio designatur. et quantum ad
+          <lb ed="#N" n="10"/>cefficaciam. In sacramentali enim sumptione complete habetur
+          ef<lb ed="#N" n="11" break="no"/>fectus ipsius sacramenti in digne suscipiente. quia ergo
+          sum<lb ed="#N" n="12" break="no"/>ptio est complementum consecrationis: non est licitum consecrare
+          si<lb ed="#N" n="13" break="no"/>e ne sumptione. Unde de conse. di. ii. Relatum. Quale erit
+          sacri<lb ed="#N" n="14" break="no"/>ficium. cui nec ipse sacrificans perticeps esse dinoscitur. q. d.
+          <lb ed="#N" n="15"/>non est completum sacrificium. hoc autem patet ex ipso domino qui
+          insti<lb ed="#N" n="16" break="no"/>tuendo hoc sacramentum non solummodo panem
+          consecra<lb ed="#N" n="17" break="no"/>e uit sed sumpsit consecratum. Unde vt dicitur in canone preta
+          <lb ed="#N" n="18"/>cto. qui sacrificantes non edunt: rei sunt dominici sacramenti. quia
+          <lb ed="#N" n="19"/>ipsum sacramentum non complent. immo ipsum beneficium
+          sacra<lb ed="#N" n="20" break="no"/>menti irritum faciunt.
+        </p>
+        <p xml:id="v78d89-aao8jp-d1e225">
+          ⁋ Ad primum dicendum. quod in casu proposito
+          <lb ed="#N" n="21"/>e non est licitum sacerdoti suspendere se a communione. immo potest
+          <lb ed="#N" n="22"/>hostiam diuidere et vnam partem sumere et de illa parte satisfacerne
+          <lb ed="#N" n="23"/>infirmo.
+        </p>
+        <p xml:id="v78d89-aao8jp-d1e234">
+          ⁋ Ad aliud dicendum. quod in casu proposito non eligitur
+          <lb ed="#N" n="24"/>minus malum de duobus sed maius: quia plus peccaret si non
+          su<lb ed="#N" n="25" break="no"/>meret quoam si sumeret.
+        </p>
+        <p xml:id="v78d89-aao8jp-d1e241">
+          ⁋ Ad illud quod obiicitur de reuerentia etc.
+          <lb ed="#N" n="26"/>dicendum quod in casu proposito non recompensatur peccatum quod
+          comitti<lb ed="#N" n="27" break="no"/>tur ex hoc quod non sumitur corpus domini per reuerentiam que
+          ex<lb ed="#N" n="28" break="no"/>hibetur ex eodem. quia non sumere est peccatum graue.
+          insuffici<lb ed="#N" n="29" break="no"/>entia reuerentie ex sumptione in casu tali concurrentibus
+          <lb ed="#N" n="30"/>aliis que requiruntur ad dignam sumptionem non est
+          reputan<lb ed="#N" n="31" break="no"/>dum peccatum nisi forte leue vt videtur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

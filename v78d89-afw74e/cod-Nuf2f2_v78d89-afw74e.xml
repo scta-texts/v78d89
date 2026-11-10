@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 87, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 87, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="559"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afw74e"><!-- q87m2 -->
+        <head xml:id="v78d89-afw74e-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-afw74e-Hd1e103" type="question-title">De praerogativa in efficientia satisfaciendi</head>
+        <p xml:id="v78d89-afw74e-d1e106">
+          <lb ed="#N" n="54"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-afw74e-d1e111">
+          <lb ed="#N" n="55"/>COnsequenter queritur de prerogatia in efficientia
+          sa<lb ed="#N" n="56" break="no"/>tisfaciendi. Queritur ergo quod istorum trium magis est
+          <lb ed="#N" n="57"/>satisfactorium. et videtur quod oratio: quia satisfacto
+          reconci<lb ed="#N" n="58" break="no"/>liat: oratio autem vnit deo maxime: ergo maxime
+          reconcili<lb ed="#N" n="59" break="no"/>at.  Conterea. oratio est minime penale inter partes satisfactionis: immo
+          de<lb ed="#N" n="60" break="no"/>tectabilis. vnde significatur per suauitatem vngenti. Ecessatius. x. Musce
+          <lb ed="#N" n="61"/>morientes perdunt suauitatem vngenti. Item A poca. viii. significatur
+          <lb ed="#N" n="62"/>per violas plenas odoramentorum. vnde subditur ibidem que sunt oratioes
+          <lb ed="#N" n="63"/>sanctorum. Item Exo. xxx. signficatur per thimiama odoris
+          suauis<lb ed="#N" n="64" break="no"/>simi.
+        </p>
+        <p xml:id="v78d89-afw74e-d1e135">
+          ⁋ Item per auctoritates suprpositas. videtur quod ieiunium et elemosyna sint
+          <lb ed="#N" n="65"/>magis satisfactoria. quia videntur valere ad omnia peccata tollenda. vt
+          <lb ed="#N" n="66"/>ex verbis sanctorum patet. Pre. magis sunt afflictine et penales quam oratio
+        </p>
+        <p xml:id="v78d89-afw74e-d1e143">
+          <lb ed="#N" n="67"/>Responsio. in satisfactione tria sunt scilicet vitare culpam: et contra illud
+          ma<lb ed="#N" n="68" break="no"/>xime valet oratio. secundum est augmentum gratie: et ad hoc maxime valicet
+          <lb ed="#N" n="69"/>elemosyna que facit sibi amicos que maxime impetrant. tercium est soulo
+          <lb ed="#N" n="70"/>pene: et hoc maxime fit in ieiunio. vnde quantum ad diuersa habent
+          ef<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>ficaciam maiorem et minorem. Ieiunium tamen infimum est in
+          satisfa<lb ed="#N" n="72" break="no"/>ctione: quia duo alia preponderant. Alii aliter dicunt ad hoc. quod
+          quod<lb ed="#N" n="73" break="no"/>libet horum trium est dupliciter scilicet interius et exterius. Est enim oratio
+          vo<lb ed="#N" n="74" break="no"/>calis et mentalis. exteriora sine interioribus non merentur: ergo
+          ni<lb ed="#N" n="75" break="no"/>hil est comparare exteriora solum inter se quantum ad meritum. interio
+          <lb ed="#N" n="76"/>ra vero adinuicem comparari domint. et cum omnia tria motus quidem sunt anime
+          <lb ed="#N" n="77"/>et oratio interior sit motus immediatus in deum: alia vero duo sint
+          <lb ed="#N" n="78"/>motus hominis in se vel in proximum propter deum: patet quod oratio maior et
+          no<lb ed="#N" n="79" break="no"/>bilior est illis duobus. sicut caritas qua diligitur deus et proximus motus
+          <lb ed="#N" n="80"/>sunt diuersi: sed ille nobilior et prius inchoatur quo mouetur in deum
+          <lb ed="#N" n="81"/>posterius tamen perficitur: vt vult augustinus. Pre. vt patet ex diffinitionibus.
+          <lb ed="#N" n="82"/>oratio est ascensus intellectus et pius mentis affectus in deum directus
+          <lb ed="#N" n="83"/>oratio interior est quedam contemplatio in via. in contemplatione autem sil
+          <lb ed="#N" n="84"/>sunt et ascendunt sensus intelligentie et affectus principalis:
+          nul<lb ed="#N" n="85" break="no"/>lum autem aliud opost in via est huic equale nature immobilitate. nec
+          <lb ed="#N" n="86"/>in nobilitate nec in merito. dicit enim Greg. contemplatiua maior
+          <lb ed="#N" n="87"/>est merito quam actiua. quia hec in vsu presentis temporis laborat: illa
+          <lb ed="#N" n="88"/>vero sapore intimo venturam iam requiem degustat. Ex his patet. quod
+          <lb ed="#N" n="89"/>oratio excellit et maior est etiam merito aliis scilicet ieiunio et et
+          yna<lb ed="#N" n="90" break="no"/>et vt dicunt omni alio opere in via.
+        </p>
+        <p xml:id="v78d89-afw74e-d1e199">
+          ⁋ Ad illud quod obicitur. quod cratio non
+          <lb ed="#N" n="91"/>est penalis etc. dicendum quod est quedam oratio valde delectabilis vt
+          <lb ed="#N" n="92"/>oratio viri contemplatiui que immediate dirigitur ad bona vel ad
+          bo<lb ed="#N" n="93" break="no"/>num eternum. et hec non est satisfactoria: meritorta tamen est.
+          Que<lb ed="#N" n="94" break="no"/>dam est que habet aliquod amaritudinis quod signficatum est Exo. xxx. vbi
+          <lb ed="#N" n="95"/>habeur. quod dominus precepit quod in compositione thimiamitis poneretur mir
+          <lb ed="#N" n="96"/>ra. et de hac dicit Greg. quod veracitur penitere est amaros in
+          compun<lb ed="#N" n="97" break="no"/>ctione gemitus et non composita verba resonare. Et licet gemitus
+          <lb ed="#N" n="98"/>talis videatur esse contritionis: tamen oratio quia addit petitionem. vt patet de
+          <lb ed="#N" n="99"/>publicano que petebat in templo remissionem peccatorum: dummodo
+          fie<lb ed="#N" n="100" break="no"/>bat vel ex vel in caritate satisfactoria est. nec semper requiritur quod oratio
+          <lb ed="#N" n="101"/>satisfactoria sit penalis concomitanter: sed astecedenter vel coneqenter vl
+          <lb ed="#N" n="102"/>concomitanter. et illa est magis satisfactoria in qua est maior
+          ge<lb ed="#N" n="103" break="no"/>mitus. et maior clamor spiritualis pro venia peccatorum: pari
+          existen<lb ed="#N" n="104" break="no"/>tem caritate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

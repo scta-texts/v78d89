@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 32, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 32, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="196"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6x2kc"><!-- q32m5 -->
+        <head xml:id="v78d89-a6x2kc-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a6x2kc-Hd1e103" type="question-title">Utrum aqua admiscenda sit vino</head>
+        <p xml:id="v78d89-a6x2kc-d1e106">
+          <lb ed="#N" n="82"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-a6x2kc-d1e111">
+          <lb ed="#N" n="83"/>COnsequenter queritur. vtrum aqua
+          admi<lb ed="#N" n="84" break="no"/>scenda sit vino. Et primo queritur. vtrum
+          <lb ed="#N" n="85"/>aqua quecunque scilicet naturalis et
+          artificia<lb ed="#N" n="86" break="no"/>lis sit admiscenda. Secundo. vtrum aqua
+          <lb ed="#N" n="87"/>sit de substantia huius sacramenti. Tercio. in qua
+          quan<lb ed="#N" n="88" break="no"/>titate debet aqua apponi.
+        </p>
+        <div xml:id="v78d89-a6x2kc-Dd1e127">
+          <head xml:id="v78d89-a6x2kc-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-a6x2kc-d1e131">
+            <lb ed="#N" n="89"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e136">
+            <lb ed="#N" n="90"/>QUeritur ergo circa primum. vtrum aqua
+            artifi<lb ed="#N" n="91" break="no"/>cialis conueniat huic admixtioni: sicut aqua
+            <lb ed="#N" n="92"/>de rosis et alia huiusmodi. Quod sic: videtur. quia
+            <lb ed="#N" n="93"/>aquam huiusmodi potest conuerti in vinum: et conuersa
+            po<lb ed="#N" n="94" break="no"/>test conuerti in sanguinem. et huiusmodi genere aque
+            si<lb ed="#N" n="95" break="no"/>gnificatur populus fluxibilis et interminabilis in se: sicut
+            <lb ed="#N" n="96"/>alio genere aque. propter quod videtur quod conueniat huic
+            <lb ed="#N" n="97"/>admixtioni qua significatur vnio populi cum christo.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e156">
+            ⁋ Item
+            <lb ed="#N" n="98"/>quod panis sit artificialis non impedit quin de eo confici
+            pos<lb ed="#N" n="99" break="no"/>sit. a simili videtur de aqua: quod etsi sit artificialis: hoc non
+            <lb ed="#N" n="100"/>impedit etc.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e165">
+            ⁋ Item si panis de tritico fieret de pasta
+            con<lb ed="#N" n="101" break="no"/>spersa huiusmodi aqua: nihilominus de illo pane posset
+            confi<lb ed="#N" n="102" break="no"/>ci corpus christi. similiter videtur. quod si vino admisceretur
+            ho<lb ed="#N" n="103" break="no"/>modi aqua quod etc.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e175">
+            ⁋ Contra. baptismus est sacramentum
+            <lb ed="#N" n="104"/>necessitatis: tamen non potest exerceri nisi in aqua
+            na<lb ed="#N" n="105" break="no"/>turali secundum quod dominus instituit. Multofortius videtur de
+            <lb ed="#N" n="106"/>hoc sacramento quod non est necessitatis: quod non debeat
+            <lb ed="#N" n="107"/>apponi aliquod genus aque quam illud quod dominus
+            appo<lb ed="#N" n="108" break="no"/>suit. scilicet aqua naturalis.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e188">
+            ⁋ Quod concedimus.
+            </p>
+          <p xml:id="v78d89-a6x2kc-d1e190">
+            ⁋ Ad
+            <lb ed="#N" n="109"/>primum ergo dicendum. quod aqua naturalis est apponenda.
+            si<lb ed="#N" n="110" break="no"/>tamen apponeretur aqua artificialis et conuerteretur in
+            <lb ed="#N" n="111"/>vinum: de illo vino posset confici: et conficeretur sanguis
+            <lb ed="#N" n="112"/>christi aliis rite completis. Sed ille qui apponeret grauiter
+            <lb ed="#N" n="113"/>peccaret. quia contra institutionem domini faceret.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e203">
+            ⁋ Ad
+            <lb ed="#N" n="114"/>aliud dicendum. quod hoc quod est aqua artificialis non
+            impe<lb ed="#N" n="115" break="no"/>diret quin posset apponi si esset eiusdem speciei cum aqua
+            <lb ed="#N" n="116"/>que apposita fuit a domino. sed quia non est eiusdem
+            spe<lb ed="#N" n="117" break="no"/>ciei cum illa neque cum alia aqua naturali: non debet
+            ap<lb ed="#N" n="118" break="no"/>poni. Huiusmodi autem aque artificialis scilicet de rosis de
+            <lb ed="#N" n="119"/>ruta et feniculo differunt specie. et he similiter ab aqua
+            na<lb ed="#N" n="120" break="no"/>turali. huiusmodi enim aque elementata sunt. aqua autem
+            <lb ed="#N" n="121"/>naturalis licet aliqua elementa illi sint admixta: tamen
+            di<lb ed="#N" n="122" break="no"/>cenda est elementum.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e225">
+            ⁋ Ad vltimum dicendum. quod de
+            vi<lb ed="#N" n="123" break="no"/>no cui admixta esset huiusmodi aqua: posset confici
+            san<lb ed="#N" n="124" break="no"/>guis christi: sicut de pane facto de pasta conspersa huiusmo
+            <lb ed="#N" n="125"/>di aqua. sed qui scienter et prudenter apponeret talem aquam:
+            <lb ed="#N" n="126"/>peccaret. Similiter dico sine preiudicio. quod ille peccaret
+            <lb ed="#N" n="127"/>qui scienter conficeret ex pane facto de pasta conspersa aqua
+            <lb ed="#N" n="128"/>tali.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6x2kc-Dd1e243">
+          <head xml:id="v78d89-a6x2kc-Hd1e245">Articulus 2</head>
+          <p xml:id="v78d89-a6x2kc-d1e247">
+            <lb ed="#N" n="129"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e252">
+            <lb ed="#N" n="130"/>COnsequenter queritur. vtrum aqua sit de substantia
+            <lb ed="#N" n="131"/>hius sacramenti. Quod sic: videtur. Ilud est de substania
+            <lb ed="#N" n="132"/>sacramenti: quod directe ducit in illud propter
+            <lb ed="#N" n="133"/>quod institutum est sacramentum. sed hoc sacramentum
+            <lb ed="#N" n="134"/>institutum est in recordationem passionis domini. Unde
+            <lb ed="#N" n="135"/>Luc. xxii. Hoc facite in meam commemorationem. hoc
+            <lb ed="#N" n="136"/>autem facit aqua in hoc sacramento. Unde Alexander
+            <lb ed="#N" n="137"/>papa. In sacramentorum oblationibus que inter missarum
+            <lb ed="#N" n="138"/>solennia offeruntur domino. panis tantum: et vinum aqua
+            per<lb ed="#N" n="139" break="no"/>mixtum in sacrificium offerantur. non enim debet in calice domini aut
+            <pb ed="#N" n="197"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>vinum solum aut aqua solum offerri: sed vtrumque permixtum. quia
+            <lb ed="#N" n="2"/>vtrumque ex latere eius in passione sua perfluxisse legitur.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e285">
+            ⁋ Item
+            <lb ed="#N" n="3"/>huius sacramenti res est vnio corporis mistici cum capite. res huis sacramenti
+            <lb ed="#N" n="4"/>necessario habet significari ipso sacramento. sed per admixtionem aque signatur
+            <lb ed="#N" n="5"/>vnio hec. per aquam enim signatur populus fidelis. Apoc. xvii. aqua
+            <lb ed="#N" n="6"/>quas vidisti popli sunt. igitur hec admixtio est necessaria ad hoc quod sit
+            <lb ed="#N" n="7"/>sacramentum istud. vnde Iulius papa episcopis per egiptum. Cum in
+            ca<lb ed="#N" n="8" break="no"/>lice vino aqua miscetur: christi pplus adunatur: et credentium
+            <lb ed="#N" n="9"/>plebs ei in quem credit copulatur et iungitur. que copulatio et
+            <lb ed="#N" n="10"/>coniunctio aque et vini sic miscetur in calice domini: vt mixtio
+            il<lb ed="#N" n="11" break="no"/>la non possit separari. Nam si vinum quis tantum offerat: sanguis
+            <lb ed="#N" n="12"/>christi incipit esse sine nobis. Si vero aqua sit sola: plebs
+            in<lb ed="#N" n="13" break="no"/>cipit esse sine christo. Non enim potest aqua sola vel vinum solum esse
+            <lb ed="#N" n="14"/>calix domini: nisi vtrumque misceatur.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e314">
+            ⁋ Item simila non conspersa non
+            <lb ed="#N" n="15"/>potest esse materiale huis sacramenti: immo requiritur quod vnum fiat
+            <lb ed="#N" n="16"/>scilicet panis ex simila et aqua. a simili videtur quod vinum non potest
+            <lb ed="#N" n="17"/>esse materiale in hoc sacramento nisi fuerit mixtum aqua.
+            <lb ed="#N" n="18"/>vnde Eyprianus. Calix domini non est aqua sola et vinum solum
+            <lb ed="#N" n="19"/>nisi vtrumque misceatur. qudo nec corpus domini potest esse farina
+            <lb ed="#N" n="20"/>sola nisi vtrumque adunatum fuerit et copulatum: et panis vnius
+            <lb ed="#N" n="21"/>compage solidatum.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e333">
+            ⁋ Item due sunt res huius sacramenti scilicet
+            signa<lb ed="#N" n="22" break="no"/>ta et contenta: et significata tantum. sed signum rei contente est de
+            sub<lb ed="#N" n="23" break="no"/>stantia sacramenti. igitur vt videtur similiter signum rei
+            significa<lb ed="#N" n="24" break="no"/>te tantum. aqua autem admixta vino significat coniunctionem
+            corpo<lb ed="#N" n="25" break="no"/>ris cum capite. vnde super Mar. xiiii. Accepit ihs panem etc.
+            <lb ed="#N" n="26"/>dicit Beda. quia nos n christo et christum in nobis manere opartet:
+            <lb ed="#N" n="27"/>vinum cum aqua miscetur. quia teste Iohne aque populi sunt
+            <lb ed="#N" n="28"/>Apoc. xvii. igitur etc.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e351">
+            ⁋ Contra. in nullo euangelio legitur
+            <lb ed="#N" n="29"/>dominum apposuisse aquam cum vino in institutione huis
+            sacra<lb ed="#N" n="30" break="no"/>menti: sed solum confecisse de pane et vino. Si autem esset aqua
+            <lb ed="#N" n="31"/>de substantia sacramenti: vtique apposuisset. et vt videtur
+            fa<lb ed="#N" n="32" break="no"/>cta esset mentio de aqua sicut de pane et vino.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e362">
+            ⁋ Item nullum
+            <lb ed="#N" n="33"/>materiale est significatum in hoc sacramento vel alio quod omnino non
+            <lb ed="#N" n="34"/>manet. neque quantum ad substantiam neque quantum ad proprietatem.
+            <lb ed="#N" n="35"/>Panis autem in hoc sacramento etsi non manet in
+            substan<lb ed="#N" n="36" break="no"/>tia: manet tamen proprietas eius. sed neque manet substantia aqua
+            <lb ed="#N" n="37"/>neque proprietas alia illius. vnde Inno. Oportet quod tantum
+            vini<lb ed="#N" n="38" break="no"/>ibi ponatur quod aque commixtum saporem vini retineat.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e378">
+            ⁋ Item
+            <lb ed="#N" n="39"/>queritur. quare non permanet species aque sicut panis et
+            vi<lb ed="#N" n="40" break="no"/>ni: sed mutatur in vinum.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e385">
+            ⁋ Item in sacramentia noue legis nihil est de
+            <lb ed="#N" n="41"/>substantia ex parte sacramentorum nisi quod efficit quod figurat. sed
+            <lb ed="#N" n="42"/>aqua apposita nihil efficit: quia nec verum corpus neque
+            mi<lb ed="#N" n="43" break="no"/>sticum. quia effectiue et significatiue est ibi vtrumque: etiam
+            si<lb ed="#N" n="44" break="no"/>aqua non apponatur. ergo etc.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e396">
+            ⁋ Item figura debet respondere
+            fi<lb ed="#N" n="45" break="no"/>gurato et econuerso. Istud autem sacramentum figuratum est
+            ob<lb ed="#N" n="46" break="no"/>latione Melchisedech quam obtulit Ibrahe Gen.
+            xiiii<lb ed="#N" n="47" break="no"/>vt habetur ibidem in glo. sed nihil obtulit nisi panem et
+            vi<lb ed="#N" n="48" break="no"/>num.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e408">
+            ⁋ Item in signum quod corpus christi est ex membris puris
+            <lb ed="#N" n="49"/>simis: panis ex quo conficitur fit ex puris granis siue
+            pu<lb ed="#N" n="50" break="no"/>rissimis. quia sanguis eius est purissimus: oportet quod
+            confici<lb ed="#N" n="51" break="no"/>atur ex vino purissimo.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e417">
+            ⁋ Item nihil additur siue admiscetur
+            <lb ed="#N" n="52"/>pani cum conficitur ex eo: simimiliter nec debet vino aliquid apponi.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e422">
+            <lb ed="#N" n="53"/>⁋ Item corpus christi verum: est signum corporis mistici vnio
+            <lb ed="#N" n="54"/>vnionis: nulla est igitur necessitas vel ratio quod significetur per
+            <lb ed="#N" n="55"/>admixtionem aque.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e431">
+            ⁋ Item Inno. de latere christi duo
+            preci<lb ed="#N" n="56" break="no"/>pue fluxerunt sacramenta scilicet sacramentum redemptionis in sanguine: et
+            sa<lb ed="#N" n="57" break="no"/>cramentum regenerationis in aqua. vnde aliud est sacramentum
+            <lb ed="#N" n="58"/>redemptionis significatum per sanguinem: et aliud
+            regene<lb ed="#N" n="59" break="no"/>rationis significatum per aquam. igitur aqua est
+            appropria<lb ed="#N" n="60" break="no"/>ta sacramento regenerationis vt signum in illo: et separatum a
+            <lb ed="#N" n="61"/>sacramento redemptionis ne sit signum in illo. igitur.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e447">
+            ⁋ Item sacramenta
+            <lb ed="#N" n="62"/>sicut distincta sunt similiter et signa in illis siue materialia.
+            <lb ed="#N" n="63"/>vnde non communicant in materialibus. igitur cum aqua sit
+            materi<lb ed="#N" n="64" break="no"/>ale proprium et signum in baptismate: non debet esse signum
+            <lb ed="#N" n="65"/>vel materiale in alio.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e458">
+            ⁋ Item virtute huius sacramenti vnitur
+            <lb ed="#N" n="66"/>corpus cum capite quod est homo. quia cum eo quod ipse est signum
+            <lb ed="#N" n="67"/>et res in hoc sacramento. sed illud est eiusdem speciei cum membris.
+            <lb ed="#N" n="68"/>igitur illa vnio deberet representari per aliquid quod est eiusdem
+            spe<lb ed="#N" n="69" break="no"/>ciei cum eo quod representat ipsum caput scilicet christum passum. igir
+            <lb ed="#N" n="70"/>deberet representari mixtione vini alterius et non aque.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e472">
+            ⁋ Ite
+            <lb ed="#N" n="71"/>Illius effectus siue rei huius sacramenti que est vnio membrorum cum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>capite. causa est fides et caritas suscipientium tantum spiritualiter
+            <lb ed="#N" n="73"/>vel spiritualiter et sacramentaliter. igitur illud debet esse signum huius
+            <lb ed="#N" n="74"/>rei quod habet conuenientiam cum re. hoc autem est vinum non aqua. vnde
+            <lb ed="#N" n="75"/>Inno. Uinum inquantum redolet proprietatem caritatis ostendit.
+            <lb ed="#N" n="76"/>eadem ratione qua calet significat feruorem fidei. aqua natu
+            <lb ed="#N" n="77"/>taliter est frigida. vnde non est apta ad significandum fidem
+            <lb ed="#N" n="78"/>vel caritatem. igitur illa vnio debet significari per admixtionem
+            <lb ed="#N" n="79"/>vini cum vino.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e496">
+            ⁋ Etiam potest queri. vtrum sufficiat si admiscea
+            <lb ed="#N" n="80"/>tur aqua in dolio. Et videtur quod sic. quia ante inceptionem misse
+            <lb ed="#N" n="81"/>misceri potest et sufficit quod tunc admixta transmutetur in vinum.
+            <lb ed="#N" n="82"/>Contra. sic admixta nihil faceret ad sacramentum. quia non
+            ad<lb ed="#N" n="83" break="no"/>miscetur vino vt transsubstantianda in sanguinem christi.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e507">
+            ⁋
+            Re<lb ed="#N" n="84" break="no"/>sponsio. Multiplex est ratio mixtionis aque cum vino.
+            <lb ed="#N" n="85"/>Una est exemplum domini qui apposuit hoc quando instituit sacramentum
+            <lb ed="#N" n="86"/>vnde Damas. accipiens calicem ex vino et aqua tradidit eis
+            <lb ed="#N" n="87"/>dicens. Bibite ex hoc omnes. Item Cyprianus. Si quis de
+            <lb ed="#N" n="88"/>antecessoribus nostris vel ignoranter vel simpliciter hoc non
+            <lb ed="#N" n="89"/>obseruauerit et tenuit. quod nos facere dominus exemplo et
+            ma<lb ed="#N" n="90" break="no"/>gisterio docuit: potest simplicitati eius de indulgentia domini
+            <lb ed="#N" n="91"/>venia concedi. nobis vero non potest ignosci: qui nunc a domino
+            <lb ed="#N" n="92"/>moniti et instructi sumus. vt calicem domini cum vino mixto secundum
+            <lb ed="#N" n="93"/>quod dominus obtulit offeramus. Item alia est signum vnionis
+            <lb ed="#N" n="94"/>corporis mistici cum capite. Iulius papa. Cum in calice
+            vi<lb ed="#N" n="95" break="no"/>no aqua miscetur: christo populus adunatur et credentium plebs in
+            <lb ed="#N" n="96"/>quem credit copulatur et iungitur id est signatur iungi et copnlari.
+            <lb ed="#N" n="97"/>Item alia est signum amoris christi qui passus est propter
+            reden<lb ed="#N" n="98" break="no"/>ptionem hominis. Ila enim vnio est signum vnionis per amorem
+            <lb ed="#N" n="99"/>christi redimentis: et hominis redempti siue redimendi. Item alia
+            <lb ed="#N" n="100"/>est vt ostendatur nos sine christi passione saluari non posse. Illa
+            <lb ed="#N" n="101"/>enim vnio signat nos vnitos fuisse deo mediante passione
+            <lb ed="#N" n="102"/>in qua sanguinem suum effudit. Has duas rationes tangit glo.
+            <lb ed="#N" n="103"/>super illud. i. corum. xi. Quotienscumque etc. que est. Ideo
+            apponi<lb ed="#N" n="104" break="no"/>tur aqua vt intelligatur nostra redemptio facta per christi
+            passi<lb ed="#N" n="105" break="no"/>onem: et eius passio procurata pro nostra dilectione. aqua enim
+            <lb ed="#N" n="106"/>genus humanum significat. vnde apoci. xvii. aque quas vidisti
+            <lb ed="#N" n="107"/>populus sunt et gentes. quorum salus non posset esse nisi in
+            pas<lb ed="#N" n="108" break="no"/>sione domini: nec domini passio sine popli dilectione. nisi enim nos
+            di<lb ed="#N" n="109" break="no"/>ligeret: pro nobis se non morti traderet. He tres rationes
+            tan<lb ed="#N" n="110" break="no"/>guntur in glo. quadam Bede super Mar. xiiii. accepit ihs
+            pa<lb ed="#N" n="111" break="no"/>nem etc. que est. Neque aquam solum neque vinum solum. siem nec
+            <lb ed="#N" n="112"/>solum granum sine aque confectione in panem cuiquam licet
+            offer<lb ed="#N" n="113" break="no"/>re: ne videatur a membris caput secernere. vel christum sine
+            no<lb ed="#N" n="114" break="no"/>stre redemptionis amore pati potuisse: vel nos sine illius
+            <lb ed="#N" n="115"/>passione saluari. Item alia est fluxus aque de latere christi.
+            <lb ed="#N" n="116"/>Alexander. Non debet in calice domini: aut vinum solum aut
+            <lb ed="#N" n="117"/>aqua sola offerri: sed vtrumque permixtum. quia vtrumque ex latere
+            <lb ed="#N" n="118"/>eius in passione sua perfluxisse legitur Ioh. xix.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e585">
+            ⁋ Ad hoc igitur
+            <lb ed="#N" n="119"/>quod queritur. vtrum admixtio aque siue aqua admixta sit de
+            <lb ed="#N" n="120"/>substantia huius sacramenti. Dicendum quod in sacramento isto sunt
+            <lb ed="#N" n="121"/>tria significata scilicet corpus christi verum. corpus christi misticum.
+            <lb ed="#N" n="122"/>commniunctio corporis mistici cum corpore vero. et tria signa
+            <lb ed="#N" n="123"/>scilicet panis et vinum que sunt signum corporis veri. corpus verum
+            <lb ed="#N" n="124"/>est: quod est signum corporis mistici. aqua admixta vino:
+            <lb ed="#N" n="125"/>quod est signum vnionis corporis mistici cum capite christo.
+            <lb ed="#N" n="126"/>Esse autem spirituale sacramentum dependet a signatis siue a
+            re<lb ed="#N" n="127" break="no"/>bus ipsius sacramenti. Esse sacramentale a signis. sicut enim
+            <lb ed="#N" n="128"/>est variare modum sumendi: sic et esse sacramenti. vnde sicut quidam
+            <lb ed="#N" n="129"/>sumunt hoc sacramentum sacramentaliter et spiritualiter. quidam
+            <lb ed="#N" n="130"/>spiritualiter tantum: sic potest et esse sacramenti distingui. Quadtum
+            <lb ed="#N" n="131"/>igitur ad plenitudinem siue perfectionem esse sacramentalis et
+            <lb ed="#N" n="132"/>spiritualis. siue esse sacramentalis tantum: requiritur aqua
+            <lb ed="#N" n="133"/>et est de substantia sacramenti. Quatum ad plenitudinem esse
+            <lb ed="#N" n="134"/>spiritualis non requiritur: quia sine aqua admixta habet
+            sacra<lb ed="#N" n="135" break="no"/>mentum effectus suos. Quatum ad esse spirituale: licet non quantum
+            <lb ed="#N" n="136"/>ad esse sacramentale siue esse significatiuum. Non enim
+            si<lb ed="#N" n="137" break="no"/>gmficatur vnio corporis cum capite plene et principaliter:
+            nisi<lb ed="#N" n="138" break="no"/>admixtione aque cum vino.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e631">
+            ⁋ Ad aliud quod obiicitur. quod
+            il<lb ed="#N" n="139" break="no"/>lud est de substantia quod est directe ductiuum in illud propt
+            <lb ed="#N" n="140"/>quod institutum est sacramentum. vnde cum admixtio
+            du<lb ed="#N" n="141" break="no"/>cat directe in commemorationem passionis: dicendum quod
+            re<lb ed="#N" n="142" break="no"/>cordatio passionis non est finis per se siue propter quod
+            institu<pb ed="#N" n="198"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tum est. Neque cum diceret dominus. hoc facite in meam
+            com<lb ed="#N" n="2" break="no"/>memorationem: hoc dixit quia memoria esset finis: sed vt
+            <lb ed="#N" n="3"/>celebrantes hoc sacramentum recordarentur passionis sue.
+            <lb ed="#N" n="4"/>Exemplum. quando aliquis ex amore gratuito prestat beneficium
+            <lb ed="#N" n="5"/>aliquod amico. bene vult quod amicus suus recordaretur
+            bene<lb ed="#N" n="6" break="no"/>ficii accepti ne arguendus sit ingratitudinis. non tamen
+            il<lb ed="#N" n="7" break="no"/>la recordatio est propter quod prestat: sed vtilitas quam vult
+            <lb ed="#N" n="8"/>amicum consequi ex illo beneficio.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e662">
+            ⁋ Ad hoc quod obiicitur
+            <lb ed="#N" n="9"/>quod vnio corporis cum capite est res huius sacramenti: que res
+            <lb ed="#N" n="10"/>habet necessario significari. Dicendum quod huius rei non est
+            <lb ed="#N" n="11"/>per se causa materiale et formale in hoc sacramento: sed
+            for<lb ed="#N" n="12" break="no"/>ma verborum cum intentione proferentis et signa. signa
+            di<lb ed="#N" n="13" break="no"/>co in multitudine debita: sed potius fides et caritas
+            sumen<lb ed="#N" n="14" break="no"/>tium hoc sacramentum. Qui enim spiritualiter hoc sumunt
+            sacra<lb ed="#N" n="15" break="no"/>mentum: assequuntur effectum vnionis. quod non esset si non
+            <lb ed="#N" n="16"/>posset assequi sine multitudine signorum que exiguntur ad
+            <lb ed="#N" n="17"/>plenum esse siue perfectum sacramenti. vnde Hug. Hec
+            <lb ed="#N" n="18"/>res scilicet corpus christi est integrum sacramentum alterius
+            rei<lb ed="#N" n="19" break="no"/>scilicet vnitatis capitis et membrorum: qua efficit fides corporis
+            <lb ed="#N" n="20"/>et sanguinis christi. hec Hug. patet igitur quod etsi necesse est
+            rem<lb ed="#N" n="21" break="no"/>esse: non tamen sic significari. quia sine huiusmodi significatione est.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e694">
+            <lb ed="#N" n="22"/>⁋ Ad illud quod obiicitur. quod simila non conspersa non
+            po<lb ed="#N" n="23" break="no"/>test esse sacramentum etc. Dicendum quod hoc est: quia necesse est
+            <lb ed="#N" n="24"/>signa in hoc sacramento habere proprietatem panis et vini.
+            <lb ed="#N" n="25"/>panis non potest habere nisi precesserit conspersio in
+            si<lb ed="#N" n="26" break="no"/>mila. sed bene potest habere proprietatem vini sine admixtione
+            <lb ed="#N" n="27"/>aque.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e710">
+            ⁋ Ad hoc quod obiicitur. quod sicut rei contente signum
+            <lb ed="#N" n="28"/>est de substantia sacramenti: similiter et signum rei
+            signi<lb ed="#N" n="29" break="no"/>ficate. Dicendum quod duplex est res signata et non contenta.
+            <lb ed="#N" n="30"/>scilicet corpus misticum: et vnio corporis cum capite. Quatum
+            <lb ed="#N" n="31"/>ad rem primam requiritur signum: et illud signum est de
+            <lb ed="#N" n="32"/>substantia sacramenti. et illud est corpus christi verum: ve
+            <lb ed="#N" n="33"/>illud quod est signum corporis veri. Quantum ad secundum nequaquam
+            <lb ed="#N" n="34"/>Et ratio huius est. vt sit conformitas signi ad signatum.
+            <lb ed="#N" n="35"/>Unio enim illa iam habet esse distinctum: immo non ponit
+            <lb ed="#N" n="36"/>in numerum cum vnito. similiter nec signum illius vnionis
+            <lb ed="#N" n="37"/>scilicet mixtio illa siue aqua illa debet habere esse distinctum.
+            <lb ed="#N" n="38"/>immo non ponere in numerum cum signo illo cui
+            admi<lb ed="#N" n="39" break="no"/>scetur siue vnitur.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e739">
+            ⁋ Ad illa que obiiciuntur pro alia parte
+            <lb ed="#N" n="40"/>similiter respondendum. Et dicendum ad primum. quod in illa
+            ter<lb ed="#N" n="41" break="no"/>ra ratione fortitudinis vini solent admiscere aquam
+            vi<lb ed="#N" n="42" break="no"/>no et maxime viri sobrii. Unde dicendum. quod christus commiscuit
+            <lb ed="#N" n="43"/>aquam vino. vnde in concilio carthaginen. iii. Un
+            sacra<lb ed="#N" n="44" break="no"/>mento corporis et sanguinis domini nihil amplius offeratur
+            <lb ed="#N" n="45"/>quam ipse dominus tradidit: hoc est panis et vinum aque mixtum.
+            <lb ed="#N" n="46"/>licet igitur non sit scriptum quod aqua fuit admixta:
+            nihilomi<lb ed="#N" n="47" break="no"/>nus fuit admixta. Multa enim fecit dominus que non
+            scripta<lb ed="#N" n="48" break="no"/>funt vt habetur vlti. Io. et maxime in institutione huius
+            sa<lb ed="#N" n="49" break="no"/>cramenti.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e763">
+            ⁋ Ad hoc quod obiicitur. quod nullum materiale neque
+            <lb ed="#N" n="50"/>in sacramento hoc neque in alio est significatiuum quod omnino
+            <lb ed="#N" n="51"/>non manet secundum substantiam vel secundum proprietatem. Dicendum
+            <lb ed="#N" n="52"/>quod aliquando in sacramento illud materiale quod est
+            signifi<lb ed="#N" n="53" break="no"/>cans exterius: manet secundum substantiam et proprietatem et
+            omni<lb ed="#N" n="54" break="no"/>tno quantum ad esse actuale. vt aqua in baptismo. Quandoque non
+            <lb ed="#N" n="55"/>manet secundum substantiam et esse materiale: sed secundum proprietatem
+            <lb ed="#N" n="56"/>substantie et esse actualem proprietatum. sicut in hoc
+            sacramen<lb ed="#N" n="57" break="no"/>to non manent panis et vinum secundum substantiam: sed secundum
+            pro<lb ed="#N" n="58" break="no"/>prietates eorum. quia et proprietates panis et vini
+            natura<lb ed="#N" n="59" break="no"/>les subsistunt sine suis substantiis. Quandoque non manet neque
+            <lb ed="#N" n="60"/>secundum substantiam neque proprietatem: actu dico licet potentia secundum
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e789">
+            <lb ed="#N" n="61"/>quosdam: immo conuertitur in aliud. sic est de aqua.
+            Ra<lb ed="#N" n="62" break="no"/>tio autem huius conuersionis est hec. mixtio aque signat
+            vni<lb ed="#N" n="63" break="no"/>onem corporis cum capite: que quidem vnio est res huius
+            sa<lb ed="#N" n="64" break="no"/>cramenti. Sicut enim habetur ab Inno. tria sunt in hoc
+            sa<lb ed="#N" n="65" break="no"/>cramento. forma visibilis panis et vini. veritas corporis
+            <lb ed="#N" n="66"/>et sanguinis christi. virtus spiritualis scilicet vnitatis et caritatis.
+            <lb ed="#N" n="67"/>Primum est sacramentum tantum. secundum est sacramentum et res.
+            <lb ed="#N" n="68"/>tercium est res tantum. Sed ad hoc intelligendum non. quod est vni
+            <lb ed="#N" n="69"/>tas caritatis membrorum corporis adinuicem. et huius signum et
+            <lb ed="#N" n="70"/>causa est corpus christi verum. vnde Inno. Uerum corpus christi
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>est res prima: quia significatur et continetur a primo. et
+            sacra<lb ed="#N" n="72" break="no"/>mentum tercii: quia significat et efficit tercium id est vnitatem
+            <lb ed="#N" n="73"/>ecclesiasticam. Aia est vnio sciliciet corporis cum capite.
+            <lb ed="#N" n="74"/>cuius causa est corpus christi verum: sed illius vnionis hec
+            mi<lb ed="#N" n="75" break="no"/>xtio est signum. hac autem virtute vnionis quasi mutatur
+            <lb ed="#N" n="76"/>homo in deum. secundum quod dicitur. i. corum. vi. Qui adheret deo
+            <lb ed="#N" n="77"/>vnus spiritus efficitur. vnde huius cibus spiritualis alia est
+            <lb ed="#N" n="78"/>virtus et cibi materialis. Iste autem cibus conuertit in
+            sui<lb ed="#N" n="79" break="no"/>naturam sumentem: non econuerso. vnde Augustinus. Cibus sum
+            <lb ed="#N" n="80"/>grandium tu mutaberis in me: non ego mutabor in te. Quia
+            <lb ed="#N" n="81"/>igitur virtute huius cibi qua fit hec vnio: mutatur homo in deum
+            <lb ed="#N" n="82"/>vt sit conformitas signi ad rem: conueniebat vt aqua
+            mu<lb ed="#N" n="83" break="no"/>taretur in vinum. Aliter est igitur de hoc signo et aliis.
+            <lb ed="#N" n="84"/>de hoc habebitur. i.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e846">
+            ⁋ Et ex hoc patet responsio ad illud quod
+            <lb ed="#N" n="85"/>consequenter quesitum est. scilicet quare non permanet species
+            <lb ed="#N" n="86"/>aque sed mutatur in aliud: sicut species panis et vini.
+            Ra<lb ed="#N" n="87" break="no"/>tio est. quia illi qui vniuntur virtute huius sacramenti suo
+            <lb ed="#N" n="88"/>capiti quod continetur sub speciebus panis et vini: mutantur
+            <lb ed="#N" n="89"/>in illud et non econuerso.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e860">
+            ⁋ Ad aliud quod obiicitur. nihil
+            <lb ed="#N" n="90"/>in sacramento noue legis est signum: nisi aliquo modo sit
+            <lb ed="#N" n="91"/>causa rei signate. Dicendum quod signum quod efficit. vel vt
+            <lb ed="#N" n="92"/>causa simpliciter: vel vt causa disponens: vel sine qua non est
+            si<lb ed="#N" n="93" break="no"/>gnum manens signum. vnde de huiusmodi signo intelligitur
+            ver<lb ed="#N" n="94" break="no"/>pum propositum. vnde hec admixtio est solum significans non
+            <lb ed="#N" n="95"/>efficiens: nisi eo modo quo excitans ad bonum efficit.
+            Con<lb ed="#N" n="96" break="no"/>siderantes enim quod virtute huius sacramenti vniuntur
+            mem<lb ed="#N" n="97" break="no"/>bra capiti. quod insinuatur et innotescit per hanc mixtio
+            <lb ed="#N" n="98"/>nem: prouocantur et excitantur ad amorem huius sacramenti
+            <lb ed="#N" n="99"/>et vsum. et ita quia quodammodo efficit hec admixtio sic
+            ex<lb ed="#N" n="100" break="no"/>citans et prouocans: dicitur facere.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e886">
+            ⁋ Ad aliud quod
+            obii<lb ed="#N" n="101" break="no"/>citur. quod appositio aque non fuit prefigurata in oblatione
+            <lb ed="#N" n="102"/>Melchisedech. Dicendum quod non oportet quod cuilibet in
+            si<lb ed="#N" n="103" break="no"/>gnato respondeat aliquid in signo: sed sufficit quod sit ex
+            cor<lb ed="#N" n="104" break="no"/>respondentia eorum que principalia sunt in vtroquie. scilicet in
+            si<lb ed="#N" n="105" break="no"/>gno et in signato. Signa autem per se et principalia in hoc
+            sa<lb ed="#N" n="106" break="no"/>cramento manentia sunt species panis et vini. Et ratio huius est.
+            <lb ed="#N" n="107"/>quia sacramenta noue legis maioris sunt efficacie et
+            vir<lb ed="#N" n="108" break="no"/>tutis: quam illa quibus prefigurabantur. sicut patet in
+            cir<lb ed="#N" n="109" break="no"/>cumcisione qua fuit prefiguratum baptisma nostrum. Non
+            <lb ed="#N" n="110"/>enim figurabat baptismum in sua plenitudine: sed solum
+            <lb ed="#N" n="111"/>quantum ad virtutem deletionis culpe. Figurabat enim
+            so<lb ed="#N" n="112" break="no"/>lummodo gratiam inquantum est amouens malum siue
+            su<lb ed="#N" n="113" break="no"/>perfluum. Preterea. in sacramento Melchisedech figuraba
+            <lb ed="#N" n="114"/>tur tantum illud quod est prima res huius sacramenti scilicet
+            <lb ed="#N" n="115"/>christus. quia illo figurabatur quod offerendum erat deo et
+            <lb ed="#N" n="116"/>accipiendum in cibum. sed in aqua admixta vino figura
+            <lb ed="#N" n="117"/>tur vnitas membrorum corporis mistici cum capite.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e925">
+            ⁋ Ad
+            <lb ed="#N" n="118"/>illud quod obiicitur. quod in signum puritatis christi quantum ad
+            <lb ed="#N" n="119"/>corpus et sanguinem debet confici de puro vino sicut de
+            pu<lb ed="#N" n="120" break="no"/>ro pane. Dicendum quod bene verum est vinum purum
+            ma<lb ed="#N" n="121" break="no"/>gis assimilatur sanguine christi quam vinum cum aqua
+            mi<lb ed="#N" n="122" break="no"/>xtum. sed quianec intentio sacramenti neque virtus
+            ter<lb ed="#N" n="123" break="no"/>minatur in illa assimilatione: sed est ad hoc vt per illud
+            <lb ed="#N" n="124"/>sit virtus vnitatis et caritatis incorpore. vt patet ex
+            ver<lb ed="#N" n="125" break="no"/>bo Innocen. conueniens est vt apponatur aqua et
+            admi<lb ed="#N" n="126" break="no"/>sceatur in signum huius vnionis.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e947">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="127" break="no"/>citur. quod non admiscetur aqua pani etc. Dicendum quod non
+            <lb ed="#N" n="128"/>requiritur admixtio aque cum pane. quia antequam sit
+            pa<lb ed="#N" n="129" break="no"/>nisnecessaria est admixtio aque. Unde non est necesse
+            <lb ed="#N" n="130"/>quod instantem tempore consecrationis apponatur aqua que
+            <lb ed="#N" n="131"/>pani deberet addi in pane est. non sic est de vino. Unde
+            <lb ed="#N" n="132"/>de consecratione distinctione secunda: capostolo Sicut in
+            <lb ed="#N" n="133"/>sacrificando. Calix domini non est aqua sola et
+            vinum<lb ed="#N" n="134" break="no"/>solum nisi vtrunque misceatur. quomodo nec corpus
+            do<lb ed="#N" n="135" break="no"/>mini potest esse sola farina: nisi vtrunque adunatum
+            fue<lb ed="#N" n="136" break="no"/>rit et copulatum: et panis vnius compage solidatum.
+            <lb ed="#N" n="137"/>Ecce quod canon dicit. quod vtrunque requiritur. scilicet aqua
+            <lb ed="#N" n="138"/>et farina ad hoc quod fiat corpus christi.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e976">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="139"/>obiicitur. quod corpus christi verum signum est corporis
+            <lb ed="#N" n="140"/>mistici et vnionis illius. Unde non est aliqua necessitas
+            <pb ed="#N" n="199"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quod per aquam significetur. Dicendum quod vt tactum est: species ille
+            <lb ed="#N" n="2"/>representant et corpus christi verum et misticum. et corpus christi verum
+            repre<lb ed="#N" n="3" break="no"/>sentat misticum et representat vnionem corporis in se. Sed aqua mixta
+            <lb ed="#N" n="4"/>representat vnionem corporis cum capite. vnde de conse. di. ii. Si
+            vinum<lb ed="#N" n="5" break="no"/>tantum quis offerat: sanguis christi incipit esse sine populo. quando enim
+            <lb ed="#N" n="6"/>vtrumque miscetur et adinuicem confusa sibinuicem copulantur: tume
+            <lb ed="#N" n="7"/>sacramentum spirituale et celeste efficitur. Quod dicitur sanguis
+            in<lb ed="#N" n="8" break="no"/>cipit esse sine christo: intelligitur sine corpore christi quod est ecclesia.
+            <lb ed="#N" n="9"/>Quod dicitur efficitur sacramentum spirituale et celeste: intelligitur
+            <lb ed="#N" n="10"/>spiritualis et celestis coniunctionis ecclesie ad christum.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1009">
+            ⁋ Contra.
+            Hu<lb ed="#N" n="11" break="no"/>qo. hec res est iterum sacramentum alterius rei scilicet vnitatis
+            ca<lb ed="#N" n="12" break="no"/>pitis et membrorum. et loquitur ibi de capite christi vero. igitur
+            <lb ed="#N" n="13"/>verum corpus christi est sacramentum vnitatis illius . Responsio.
+            <lb ed="#N" n="14"/>verbum Hugo. intelligitur non per se sed per accmdenus: quia corpus christi est
+            <lb ed="#N" n="15"/>sacramentum membrorum ecclesie qui sunt in puritate et absque
+            <lb ed="#N" n="16"/>corruptione peccati. Ad quod sequitur quod sunt vnita cum
+            ca<lb ed="#N" n="17" break="no"/>pite: cum sit sacramentum membrorum illorum et vnitatis illo
+            <lb ed="#N" n="18"/>rum quam habent ad seinuicem per se. per accidens signat
+            <lb ed="#N" n="19"/>illam vnitatem quam habent cum capite. vnde primum
+            si<lb ed="#N" n="20" break="no"/>gnat per se: secundum ratione concomitantie. sed appositio aqua
+            <lb ed="#N" n="21"/>signat per se illam vnionem.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1036">
+            ⁋ Ad hoc quod obiicitur. quod
+            <lb ed="#N" n="22"/>aqua representat sacramentum regenerationis. vnde non
+            opor<lb ed="#N" n="23" break="no"/>tet esse signum in sacramento redemptionis. Dicendum sub
+            <lb ed="#N" n="24"/>alia et alia proprietate consideratur aqua prout est signum in
+            <lb ed="#N" n="25"/>sacramento regenerationis: et prout est signum in sacramento
+            <lb ed="#N" n="26"/>redemptionis. Prout enim primo modo sumitur: consideratur
+            <lb ed="#N" n="27"/>vt illi proprussime conuenit virtus abluendi. Prout secundo
+            <lb ed="#N" n="28"/>modo: vt illi conuenit decursus continuus in terram. propter quod
+            <lb ed="#N" n="29"/>homini comparatur qui continue decurrit in mortem. i. Rego.
+            <lb ed="#N" n="30"/>xiiii. Omnes morimur et quasi aque dilabimur in terram.
+            <lb ed="#N" n="31"/>vt igitur est sacramentum regenerationis: signum est
+            spiri<lb ed="#N" n="32" break="no"/>tualis ablutionis vt in sacramento redemptionis. sacramento
+            <lb ed="#N" n="33"/>vnionis redemptorum cum redimente. et propter alias
+            ratio<lb ed="#N" n="34" break="no"/>nes que sta. tacte sunt.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1067">
+            ⁋ Ad hoc quod obiicitur. quod nulla
+            sa<lb ed="#N" n="35" break="no"/>cramenta conueniunt in communicatione signorum. Dicendum quod
+            <lb ed="#N" n="36"/>boc verum est inquantum signa sunt significatiua primorum
+            <lb ed="#N" n="37"/>effectuum et principalium. sed bene posunt inquantum conuenientia
+            <lb ed="#N" n="38"/>in aliquo effectu communi. Ipsa enim sacramenta etsi non
+            con<lb ed="#N" n="39" break="no"/>ueniant in primis et immediatis effectibus: conueniunt
+            tamen<lb ed="#N" n="40" break="no"/>omnes quodammodo in effectu remissionis peccati vel quantum
+            <lb ed="#N" n="41"/>ad culpam vel quantum ad penam. et maxime sacramentum
+            <lb ed="#N" n="42"/>altaris et baptismi. Unde Inno. dedit nobis hoc
+            sacramen<lb ed="#N" n="43" break="no"/>tum salutis: vt quia nos peccamus quotidie et ipse iam
+            mo<lb ed="#N" n="44" break="no"/>ri non potest: per hoc sacramentum quod in memoriam mortis
+            <lb ed="#N" n="45"/>eius accipimus: remissionem peccatorum consequamur quoti
+            <lb ed="#N" n="46"/>die. non solum nos lauit a peccatis nostris in sanguine
+            suo<lb ed="#N" n="47" break="no"/>quoniam sanguinem fudit pro nobis in crucis patibulo: verum
+            <lb ed="#N" n="48"/>etiam quotidie lauat nos a peccatis nostris in sanguine
+            <lb ed="#N" n="49"/>suo quem nos accipimus in calicis poculo.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1102">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="50"/>obiicitur. quod christus homo est eiusdem speciei cum membris
+            cor<lb ed="#N" n="51" break="no"/>poris mistici. Responsio. cum christus homo sit eiusdem speciei cum
+            <lb ed="#N" n="52"/>membris corporis mistici: tamen vt consideratur sub
+            differen<lb ed="#N" n="53" break="no"/>tibus proprietatibus et rationibus: notatur hec vnio illorum. homo
+            <lb ed="#N" n="54"/>enim vt est in fluxu infirmitatis et defectus et maxime quantum
+            <lb ed="#N" n="55"/>ad esse gratie: signatur per aquam. christus inquantum est
+            medica<lb ed="#N" n="56" break="no"/>mentum siue medicina huius infirmitatis et reparatio huius
+            de<lb ed="#N" n="57" break="no"/>fectus: signatur per vinum. vinum enim non solum cibus est sed
+            <lb ed="#N" n="58"/>medicina. propter quod non opartet quod etc.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1124">
+            ⁋ Ad aliud quod obiicitur.
+            <lb ed="#N" n="59"/>quod aqua non representat feruorem fidei siue caritatis quibus est
+            <lb ed="#N" n="60"/>vnio membrorum cum capite etc. Dicendum quod vt ex dictis patet.
+            <lb ed="#N" n="61"/>aqua conuenienter representat corpus vniendum. vinum caput
+            cui<lb ed="#N" n="62" break="no"/>debet vnio fieri. vnde et mixtio huius cum hoc: vnionem illius cum
+            <lb ed="#N" n="63"/>illo. Nec adhuc est mixtio hec vt significet causam
+            vnio<lb ed="#N" n="64" break="no"/>nis: immo vnionem ipsam. Fides enim et caritas sunt causa
+            <lb ed="#N" n="65"/>vnionis scilicet formaliter loquendo. vnde quia signa sunt in
+            sacra<lb ed="#N" n="66" break="no"/>mentis. ad significandum res sacramentorum non causas rerum:
+            <lb ed="#N" n="67"/>non debet hic esse signum causam vnionis signans: sed vnio
+            <lb ed="#N" n="68"/>nem ipsam.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1148">
+            ⁋ Ad vltimum dicendum. quod quia admixtio aque cum
+            <lb ed="#N" n="69"/>vino est sacramentalis: non debet fieri antequam misteria
+            incho<lb ed="#N" n="70" break="no"/>entur vel fit preparatio ad inchoandum. et in missa solenni debet
+            <lb ed="#N" n="71"/>poni post euangelium. in missis autem priuatis propter
+            pericu<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>lum obliuionis potest admisceri ante scilicet quando ponitur vinum in
+            ca<lb ed="#N" n="73" break="no"/>lice. Ratio autem que ponitur pro alia parte nulla est. quia admixtio
+            <lb ed="#N" n="74"/>aque facta est ante missam immediate. cum vnio statim
+            con<lb ed="#N" n="75" break="no"/>uertende in sanguinem christi est sacramentalis: illa autem que fit in
+            <lb ed="#N" n="76"/>dolio nequaquam.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6x2kc-Dd1e1170">
+          <head xml:id="v78d89-a6x2kc-Hd1e1172">Articulus 3</head>
+          <p xml:id="v78d89-a6x2kc-d1e1174">
+            <lb ed="#N" n="77"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1179">
+            <lb ed="#N" n="78"/>COnsequenter queritur in qua quantitate debet aqua
+            <lb ed="#N" n="79"/>poni. Et videtur quod in tanta quod non absorbeatur a vino.
+            <lb ed="#N" n="80"/>sicut aqua per se et sensibiliter fluxit de latere christi
+            <lb ed="#N" n="81"/>sicut et sanguis. propter istorum autem effluxionem admiscetur aqua
+            <lb ed="#N" n="82"/>vino vt ex dictis patet. Ex quo ergo iste fluxus in hac mixtione
+            <lb ed="#N" n="83"/>signatur. videtur quod sicut fluxus sanguinis signo sensibili et
+            ex<lb ed="#N" n="84" break="no"/>istente in sua specie signatur. similiter et aque fluxus
+            signo<lb ed="#N" n="85" break="no"/>sensibili et existente in sua specie debet signari.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1199">
+            ⁋ Item mixtio
+            <lb ed="#N" n="86"/>est miscibilium alteratorum vnio. ergo si vini et aque debet esse
+            mi<lb ed="#N" n="87" break="no"/>xtio: oportet quod neutrum absorbeatur ab alio. Ubi enim vnum ab
+            <lb ed="#N" n="88"/>altero sibi adiuncto absorbetur: potius est corruptio quam
+            mi<lb ed="#N" n="89" break="no"/>xtorum alteratio.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1210">
+            ⁋ Item ad hoc miscetur aqua vino vt
+            signi<lb ed="#N" n="90" break="no"/>ficet aliquid in hoc sacramento. sed quod non est nihil
+            signifi<lb ed="#N" n="91" break="no"/>cat. ad hoc ergo quod assequatur finem admixtionis: necesse est quod
+            <lb ed="#N" n="92"/>maneat. vel secundum substantiam vel saltem secundum speciem.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1220">
+            ⁋ Contra. ex
+            <lb ed="#N" n="93"/>parte sacramenti corporis non est duplex species sensibilis: a
+            si<lb ed="#N" n="94" break="no"/>mili videtur quod nec ex parte sacramenti sanguinis debet esse duplex
+            <lb ed="#N" n="95"/>species sensibilis.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1229">
+            ⁋ Responsio. quod aqua debet apponi in tam
+            <lb ed="#N" n="96"/>parua quantitate vt absorbeatur a vino et non maneat per se. Ron
+            <lb ed="#N" n="97"/>vna tacta est scm. scilicet vt sit conformitas signi ad signatum.
+            vnio<lb ed="#N" n="98" break="no"/>enim que signatur admixtione hac: non habet esse distinctum per
+            <lb ed="#N" n="99"/>se. Alia est absorbitio nostre mortalitatis siue annihilatio.
+            <lb ed="#N" n="100"/>Tercia ratio est significatio vocationis gentium que
+            inseren<lb ed="#N" n="101" break="no"/>de erant ecclesie de iudeis. sicut oleaster oliue Ro. xi. aqua
+            <lb ed="#N" n="102"/>enim conuertitur in naturam vini: in signum quod gentes erant
+            <lb ed="#N" n="103"/>conuertende et incorporande ecclesie fidelium de iudeis. Propter
+            <lb ed="#N" n="104"/>quod dictum est Petro Act. x. Macta et manduca. Sicut.
+            <lb ed="#N" n="105"/>enim quod manducatur in naturam conuertitur manducantis:
+            <lb ed="#N" n="106"/>sic aqua que gentes incorporandas signat: in naturam vini
+            con<lb ed="#N" n="107" break="no"/>uertitur. per quod ecclesia de iudeis signatur que gentes sibi
+            in<lb ed="#N" n="108" break="no"/>corporabat.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1260">
+            ⁋ Ad illud ergo quod primo obiicitur. dicendum quod
+            vinum<lb ed="#N" n="109" break="no"/>et aqua mixta in hoc sacramento non se habent in illa ratione
+            <lb ed="#N" n="110"/>in qua se habebant sanguis et aqua in effluxione de latere
+            <lb ed="#N" n="111"/>christi: quia in illo effluxu significabatur duplex effectus
+            passi<lb ed="#N" n="112" break="no"/>onis scilicet redemptio humani generis et eiusdem ablutio.
+            Re<lb ed="#N" n="113" break="no"/>demptio inquam a captiuitate per sanguinem: ablutio a
+            pec<lb ed="#N" n="114" break="no"/>catis per aquam. Commixtio autem aque cum vino signat nostre
+            <lb ed="#N" n="115"/>mortalitatis absorbitionem. aqua enim nostram mortalitatem
+            <lb ed="#N" n="116"/>signat. ii. Reg. xiiii. Omnes morimur etc. Per vinum quo
+            <lb ed="#N" n="117"/>signatur sanguis christi eiusdem absorbitionem siue mortificationem
+            <lb ed="#N" n="118"/>prima Corum. xv. Absorpta est mors in victoria. Et vltimo
+            <lb ed="#N" n="119"/>Osee. Ero mors tua o mors. licet enim in nobis morimur: in
+            <lb ed="#N" n="120"/>christo viuimus. Coloc. iii. Mortui estis et vita vratra
+            abscon<lb ed="#N" n="121" break="no"/>dita est cum christo in deo.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1291">
+            ⁋ Ad aliud dicendum. quod mixtio dicitur
+            con<lb ed="#N" n="122" break="no"/>muniter et proprie. Communiter quando aliquid misceatur alicui
+            al<lb ed="#N" n="123" break="no"/>terius nature quod tamen non habet proportionem. sed illud tanquam
+            predo<lb ed="#N" n="124" break="no"/>minans soluit speciem et conuertit in se: et tunc non est mixtio
+            <lb ed="#N" n="125"/>proprie. et talis potest esse in hoc sacramento. et de hac dicitur in
+            fi<lb ed="#N" n="126" break="no"/>ne primi de generatione. quod si gutta aque misceatur
+            am<lb ed="#N" n="127" break="no"/>phore vini: non est mixtio. quia soluitur species. Est alia
+            mi<lb ed="#N" n="128" break="no"/>xtio proprie dicta: miscibilium alteratorum vnio. et hec repugnat
+            <lb ed="#N" n="129"/>huic sacramento. Si autem quereretur: quanta aqua sufficiat
+            mi<lb ed="#N" n="130" break="no"/>xtioni huiusmodi. Dicendum quod gutta sufficit quantuncumque
+            parua<lb ed="#N" n="131" break="no"/>sit: dummodo possit a suo toto separari.
+          </p>
+          <p xml:id="v78d89-a6x2kc-d1e1315">
+            ⁋ Ad vltimum dicendum.
+            <lb ed="#N" n="132"/>quod sicut sciua. dictum est: vt sit conformitas signi ad signatum:
+            con<lb ed="#N" n="133" break="no"/>gruebat vt aqua mutaretur in vinum sicut in vnione
+            ciban<lb ed="#N" n="134" break="no"/>tis cum cibo. cuius est signum hec mixtio. cibans mutatur in
+            <lb ed="#N" n="135"/>cibum vt smum. dictum est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

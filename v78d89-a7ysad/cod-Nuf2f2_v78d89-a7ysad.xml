@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 38, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 38, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="277"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7ysad"><!-- q38m1 -->
+        <head xml:id="v78d89-a7ysad-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-a7ysad-d1e103">
+          <lb ed="#N" n="8"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e108">
+          <lb ed="#N" n="9"/>CIrca primum queritur sic. et ostenditur quod est conuersio
+          <lb ed="#N" n="10"/>panis in corpus: et non simul manet cum corpore
+          <lb ed="#N" n="11"/>dicit enim Hugo. videtur species panis et vini. et
+          sub<lb ed="#N" n="12" break="no"/>stantia panis et vini non creditur. Si autem non
+          cre<lb ed="#N" n="13" break="no"/>ditur ibi esse et ibi sit quod creditur ibi esse: ergo etc.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e121">
+          ⁋ Item Hugo
+          <lb ed="#N" n="14"/>alubi. Conuersio panis et vini in verum corpus et sanguinem christi.
+          <lb ed="#N" n="15"/>non secundum vnionem sed secundum transtationem credenda est.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e128">
+          ⁋ Item habetur
+          <lb ed="#N" n="16"/>auctoritate sanctorum doctorum. scilicet augustinus. ambro. eusebii et dam.
+          <lb ed="#N" n="17"/>dicentis. quod panis et vinum supernaturaliter transit in corpus
+          <lb ed="#N" n="18"/>et sanguinem christi.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e138">
+          ⁋ Item hoc patet ex ipsa forma verborum qua
+          <lb ed="#N" n="19"/>fit conuersio que est. hoc est corpus meum. in qua per ipsum
+          prono<lb ed="#N" n="20" break="no"/>men demonstratur contentum sub specie panis.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e145">
+          ⁋ Item si simul
+          <lb ed="#N" n="21"/>cum corpore christi esset substantia panis. sicut vere dicitur hoc est
+          <lb ed="#N" n="22"/>corpus christi facta consecratione: et vere diceretur. Hic est panis
+          ma<lb ed="#N" n="23" break="no"/>terialis. quod est falsum et hereticum.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e154">
+          ⁋ Item si substantia
+          <lb ed="#N" n="24"/>panis maneret: tunc sumens corpus christi sacramentaliter solue
+          <lb ed="#N" n="25"/>ret ieiunium sumendo. Ex his videtur quod non manet substantia
+          <lb ed="#N" n="26"/>panis cum corpore christi sub specie panis: sed quod conuertitur in corpus
+          <lb ed="#N" n="27"/>christi.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e165">
+          ⁋ Contra. verius esset signum in hoc sacramento. et
+          expres<lb ed="#N" n="28" break="no"/>sius representaret corpus christi. si panis maneret in sua
+          substan<lb ed="#N" n="29" break="no"/>tia et non conuerteretur quam si conuerteretur: et sola species maneret. cum
+          <lb ed="#N" n="30"/>ergo veritati sacramenti congruat expressio signi. magis
+          compete<lb ed="#N" n="31" break="no"/>ret huic sacramento quod panis in sua substantia esset signum: quam quod
+          so<lb ed="#N" n="32" break="no"/>la species panis.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e178">
+          ⁋ Item in aliis sacramentis signa secundum
+          es<lb ed="#N" n="33" break="no"/>sentiam et veritatem sunt illa que apparent. similiter videtur quod in
+          <lb ed="#N" n="34"/>hoc sacramento debeat esse.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e185">
+          ⁋ Item in sacramento veritatis
+          <lb ed="#N" n="35"/>nulla debet esse simulatio vel causa deceptionis. sed si signum
+          <lb ed="#N" n="36"/>in hoc sacramento esset sola species: sensus errarent et deciperentur
+          <lb ed="#N" n="37"/>in eius comprehensione. Uisus enim tactus et gustus iudicant
+          pa<lb ed="#N" n="38" break="no"/>nem esse quod comprehendunt: non autem solam speciem panis.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e197">
+          ⁋ Item
+          <lb ed="#N" n="39"/>dicit Greg. Quisquis fidelium dubium habere possit. in
+          hora<lb ed="#N" n="40" break="no"/>imolationis celos aperiri: summa et yma sociari. sed hoc non
+          fie<lb ed="#N" n="41" break="no"/>ret si aliquid in corpus christi conuerteretur. Unde videtur secundum
+          Gre<lb ed="#N" n="42" break="no"/>go. quod christus descendat de celo. ergo ibi non est conuersio.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e208">
+          ⁋ Item
+          <lb ed="#N" n="43"/>dam. quod consuetudo est hominibus commedere panem et bibere vinum:
+          <lb ed="#N" n="44"/>coniugauit eis diuinitatem et fecit ea corpus et sanguinem.
+          Si<lb ed="#N" n="45" break="no"/>ergo coniugauit illis diuinitatem: saluantur in sua natura et non
+          <lb ed="#N" n="46"/>conuertuntur in aliud.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e219">
+          ⁋ Item si aliquid conuertitur in corpus
+          <lb ed="#N" n="47"/>christi. aut in quod est aut in quod non est. Si in quod non est:
+          <lb ed="#N" n="48"/>ergo corpus de nouo fit. Si in quod est: ergo corpus christi
+          auge<lb ed="#N" n="49" break="no"/>tur.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e228">
+          ⁋ Item vbi aliquid bene potest fieri sine miraculo non est
+          <lb ed="#N" n="50"/>ponendum miraculum. sed corpus christi cum sit gloriosum simul
+          <lb ed="#N" n="51"/>loco cum pane esse potest et idem faceret ac si panis conuertere
+          <lb ed="#N" n="52"/>tur. quod non potest esse sine miraculo: ergo etc.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e237">
+          ⁋ Item in
+          <lb ed="#N" n="53"/>nullum corpus conuertitur cibus nisi quod indiget refectione. sed
+          cor<lb ed="#N" n="54" break="no"/>pus christi non est tale. ergo etc.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e244">
+          ⁋ Si dicatur quod non absorbet vt
+          ter<lb ed="#N" n="55" break="no"/>ra. sed vt radius: scilicet non indigentia sed potentia. Contra. radius
+          <lb ed="#N" n="56"/>non conuertit aquam in se: ergo nec christus panem in corpus suum.
+          <lb ed="#N" n="57"/>Responsio. sicut dicit magister in senten. iiii. libr. Quorundam
+          <lb ed="#N" n="58"/>errantium positio fuit. quod in hoc sacramento non est aliqua
+          con<lb ed="#N" n="59" break="no"/>uersio: sed ad prolationem verborum sine conuersione aliqua fit
+          di<lb ed="#N" n="60" break="no"/>uina virtute vt corpus christi fit ibi. Sed hec positio est
+          contra<lb ed="#N" n="61" break="no"/>fia sanctorum auctoritati. tollit etiam congruitatem sacramenti et
+          <lb ed="#N" n="62"/>minuit vtilitatem meriti. Est autem multiplex ratio quare
+          con<lb ed="#N" n="63" break="no"/>gruit quod panis conuertatur in corpus christi et non maneat
+          simul<lb ed="#N" n="64" break="no"/>sub signo cum corpore christi. Una ratio est ydolatrie euitatio.
+          <lb ed="#N" n="65"/>Si enim sub sacramento maneret panis: fortasse quandque
+          adora<lb ed="#N" n="66" break="no"/>retur indistincte cum domino. Alia est efficatior deductio ad ipsum
+          <lb ed="#N" n="67"/>christum comprehendendum. specie enim panis que modo deducit ad dominum
+          <lb ed="#N" n="68"/>christum comprehendendum et venerandum: tunc mediate deducent. quia
+          pri<lb ed="#N" n="69" break="no"/>mo dedueeret ad comprehensionem panis: et post ad comprehensionem
+          <lb ed="#N" n="70"/>Hnmni. Aia est spiritualior refectio. modo illa refectio est spiritualis
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>diuino: tunc esset in parte carnalis. quia tunc cibus carnalis
+          assu<lb ed="#N" n="72" break="no"/>meretur et non solum spiritualis. Alia est veritatis insinuatio. scilicet
+          <lb ed="#N" n="73"/>vt credatur quod sit tantum cibus anime non corporis. et quod hoc cibo fit
+          <lb ed="#N" n="74"/>vnio spiritualis non corporalis. Minuit autem vtilitatem meriti. quia
+          <lb ed="#N" n="75"/>ponendo quod accidentia non possunt esse sine subiecto: innitendo
+          <lb ed="#N" n="76"/>rationibus humanis meritum fidei minuit. propter hoc positio
+          <lb ed="#N" n="77"/>ista est reprobanda.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e300">
+          ⁋ Ad illud quod dicitur. quod si panis
+          re<lb ed="#N" n="78" break="no"/>maneret in sua substantia. expressius representaret corpus
+          <lb ed="#N" n="79"/>christi etc. Dicendum. quod et si expressior esset tunc representatio: non
+          <lb ed="#N" n="80"/>ita immediata esset deductio ad rem sacramenti comprehendenda
+          <lb ed="#N" n="81"/>et venerandam. deductio autem huiusmodi magis est necessaria quam
+          re<lb ed="#N" n="82" break="no"/>presentatio.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e313">
+          ⁋ Ad illud quod obiicitur. quod in aliis
+          sacramen<lb ed="#N" n="83" break="no"/>tis. signa sunt secundum essentiam etc. Dicendum quod secus est de
+          <lb ed="#N" n="84"/>hoc sacramento et aliis. hoc enim sacramentum consecratur vt
+          <lb ed="#N" n="85"/>assumatur in cibum scilicet spiritualem. propter quod congruit
+          <lb ed="#N" n="86"/>quod nihil ibi carnale sit. non sic est de aliis sacramentis que
+          <lb ed="#N" n="87"/>corporali et materiali oparatione ministrantur. sicut baptisma
+          <lb ed="#N" n="88"/>ablutione corporali et confirmatio in vnctione.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e329">
+          ⁋ Ad illud
+          <lb ed="#N" n="89"/>quod obiicitur. quod sensus errant et decipiuntur in
+          comprehensio<lb ed="#N" n="90" break="no"/>ne speciei panis etc. Dicendum quod in hoc sacramento non est
+          <lb ed="#N" n="91"/>attendendum iudicium sensuum: sed potius fidei meritum. plus
+          <lb ed="#N" n="92"/>enim meretur homo fide huius sacramenti ex hoc. quod in hoc
+          sacra<lb ed="#N" n="93" break="no"/>mento sunt accidentia sine subiecto: quam si essent in subiecto
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e342">
+          <lb ed="#N" n="94"/>⁋ Ad aliud dicendum. quod sermo Greg. tropicus est. et
+          dicun<lb ed="#N" n="95" break="no"/>tur celi aperiri propter diuine bonitatis affluentiam. que
+          mani<lb ed="#N" n="96" break="no"/>festa est in panis celestis communicatione. summa autem dicuntur ymis
+          <lb ed="#N" n="97"/>sociari: propter corporis christi presentiam sub specie elementi
+          existen<lb ed="#N" n="98" break="no"/>tis.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e355">
+          ⁋ Ad aliud dicendum. quod verbum dam. intelligendum est quantum
+          <lb ed="#N" n="99"/>ad continentiam specierum visibilium. vel ratione conuersionis
+          sub<lb ed="#N" n="100" break="no"/>stantie panis qui conuertitur in corpus vnitum diuinitati. et
+          <lb ed="#N" n="101"/>species post conuersionem continet illud. et sic diuinitas dicitur
+          <lb ed="#N" n="102"/>vtrisque coniugari.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e366">
+          ⁋ Ad aliud quod queritur vtrum sit ibi
+          con<lb ed="#N" n="103" break="no"/>uersio in corpus quod est etc. Dicendum quod fit conuersio in
+          <lb ed="#N" n="104"/>corpus quod est. nec propter hoc est alimentum alicuius: quia
+          <lb ed="#N" n="105"/>totum mirabiliter conuertitur in totum. propter quod nec nouum
+          <lb ed="#N" n="106"/>aliquod fit ibi nec maius. hoc autem fieret si naturaliter in parten
+          <lb ed="#N" n="107"/>fieret conuersio. Unde Hugo nequaquam essentia essentie in augmene
+          <lb ed="#N" n="108"/>tum accedit. nec dicimus quasi nouum corpus subito factum de
+          <lb ed="#N" n="109"/>mutata essentia: sed in ipsum corpus verum mutatam essentiam.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e385">
+          <lb ed="#N" n="110"/>⁋ Ad illud quod obiicitur de miraculo. Dicendum est quod non
+          <lb ed="#N" n="111"/>sine ratione competit hic mirabilia fieri. quia et propter
+          congrui<lb ed="#N" n="112" break="no"/>tatem vt ex dictis patet et propter vtilitatem.
+        </p>
+        <p xml:id="v78d89-a7ysad-d1e394">
+          ⁋ Ad vltimum
+          di<lb ed="#N" n="113" break="no"/>cendum. quod panis non conuertitur in corpus christi sicut cibus in
+          ci<lb ed="#N" n="114" break="no"/>babile. nec ei vnitur. nec fit panis conuersio operatione eius in quod
+          <lb ed="#N" n="115"/>fit conuersio sicut solet fieri de cibo: sed virtute diuina totum in
+          <lb ed="#N" n="116"/>totum conuertitur. vnde Hugo. Conuersio ipsa non secundum vnionem
+          <lb ed="#N" n="117"/>sed secundum transitionem credenda est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 107, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 107, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="665"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ai8k1w"><!-- q107prae -->
+        <head xml:id="v78d89-ai8k1w-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-ai8k1w-d1e103">
+          <lb ed="#N" n="139"/>⁋ Questio. cvii. de
+          medica<lb ed="#N" n="140" break="no"/>tione pauperum voluntariorum.
+        </p>
+        <p xml:id="v78d89-ai8k1w-d1e110">
+          <pb ed="#N" n="666"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>SEquitur de medica
+          <lb ed="#N" n="2"/>tione eorum qui omnia sua dederunt pauperibus.
+          <lb ed="#N" n="3"/>Primo ergo queritur vtrum licitum sit talibus
+          mendica<lb ed="#N" n="4" break="no"/>re. Secundo vtrum sit meritorium. Terco vtrum sit
+          <lb ed="#N" n="5"/>magis meritorium omnia sua pauperibus dare et
+          <lb ed="#N" n="6"/>victum suum mendicare: quam sua retinere ad suam sustentationem et
+          pau<lb ed="#N" n="7" break="no"/>perum subuentionem. Quarto quia non sufficit veritatem circa illa
+          <lb ed="#N" n="8"/>que intenduntur diffinire sed falsitatem aduersantium de qua
+          po<lb ed="#N" n="9" break="no"/>nentur rationes ad repellendum ea que falso vel erronee
+          ob<lb ed="#N" n="10" break="no"/>uiandum predictis inducta sunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 69, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 69, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="448"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acyy3h"><!-- q69m2 -->
+        <head xml:id="v78d89-acyy3h-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-acyy3h-Hd1e103" type="question-title">Utrum debeat esse contritio de peccatis et poenis peccatorum an solum de peccatis</head>
+        <p xml:id="v78d89-acyy3h-d1e106">
+          <lb ed="#N" n="110"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e111">
+          <lb ed="#N" n="111"/>COnsequenter queritur. vtrum debeat esse
+          contri<lb ed="#N" n="112" break="no"/>tio de peccatis et penis peccatorum: ansolum
+          <lb ed="#N" n="113"/>de peccatis. Quod solum de peccatis videtur sic.
+          <lb ed="#N" n="114"/>Dicit Augustinus. de ecclesiasticis dogma. Prna est
+          <lb ed="#N" n="115"/>commissa deflerem et flenda non admittere. culpas autem proprie
+          con<lb ed="#N" n="116" break="no"/>mittimus. ergo proprie de his debet esse dolor. Et similiter dicit Amb.
+          <lb ed="#N" n="117"/>quod penitentia est mala preterita plangere et plangenda iterumnon
+          con<lb ed="#N" n="118" break="no"/>mittere. Et Grego. Penitentia est perpetua mala plngere et
+          pla<lb ed="#N" n="119" break="no"/>genda non perpetrare. Per has auctoritates potest concludi. quod door
+          <lb ed="#N" n="120"/>contritionis debet esse de culpis non de penis.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e135">
+          ⁋ Item dolor
+          coniti<lb ed="#N" n="121" break="no"/>tionis debet respondere proprie delectationi peccati. sed in culpa
+          pro<lb ed="#N" n="122" break="no"/>prie fuit delectatio: non in pena. ergo etc.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e143">
+          ⁋ Item omne illud quod
+          <lb ed="#N" n="123"/>iuste infligitur debet voluntarie et gratanter sustineri a iusto.
+          <lb ed="#N" n="124"/>sed pena propter peccatum infflicta siue a deo siue ab homine est
+          <lb ed="#N" n="125"/>iuste inflicta. ergo talis pena est gratanter sustinenda. ergo de
+          pea<lb ed="#N" n="126" break="no"/>peccati numquam est dolendum.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e154">
+          ⁋ Item sustinentia voluntaria
+          pe<lb ed="#N" n="127" break="no"/>ne inflicte pro peccato appropinquat homo deo. hec autem
+          <lb ed="#N" n="128"/>sustinentia est meritoria vel disponens ad meritum.
+          omne<lb ed="#N" n="129" break="no"/>autem illud quo penitens appropinquat deo est gratantur
+          am<lb ed="#N" n="130" break="no"/>plectendum. ergo etc.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e165">
+          ⁋ Contra. dolor contritionis debet esse proprie
+          <lb ed="#N" n="131"/>de his que elongant a deo. talis est omnis pena scilicet tempora
+          <lb ed="#N" n="132"/>lis et purgatorii. nullam enim penam compatitur secum dloria.
+          <lb ed="#N" n="133"/>ergo etc.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e174">
+          ⁋ Item pena peccati est sensibiliter nocitiuum siue
+          sensi<lb ed="#N" n="134" break="no"/>bile nocumentum. quod autem naturalem est non tollitur a gratia. ergo
+          con<lb ed="#N" n="135" break="no"/>tritio que concernit dolorem cum gratia est et esse debet de
+          pra<lb ed="#N" n="136" break="no"/>peccati.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e183">
+          ⁋ Item offensa et recessus a deo est pena. Hiare.
+          <lb ed="#N" n="137"/>ii. Uide quam malum et amarum est reliquisse te deum tuum. hod de his
+          <lb ed="#N" n="138"/>est maxime dolendum. quod offensa dei sit pena patet: sicut ira
+          dei<lb ed="#N" n="139" break="no"/>que non est aliud quam pena rei.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e192">
+          ⁋ Item Augustinus libro. de penitentia.
+          <lb ed="#N" n="140"/>Dolendum est et dolore purgandum. non solum quia peccauii:
+          <lb ed="#N" n="141"/>sed quia virtute se priuauit. sed priuare se virtute est pena.
+          <pb ed="#N" n="449"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>ergo de penis est dolendum.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e206">
+          ⁋ Item Augustinus. de penitentia. Nemo
+          <lb ed="#N" n="2"/>vitam eternam immortalem incorruptibilemque desiderat:
+          nisi<lb ed="#N" n="3" break="no"/>eum vite huius temporalis mortalis corruptibilisque peniteat. sed
+          <lb ed="#N" n="4"/>hec vita est penalis cuius penalitas est homin inflicta propte
+          <lb ed="#N" n="5"/>peccata. quicquid enim patimur: peccata nostra meruerunt. Si ergo
+          <lb ed="#N" n="6"/>oportet nos dolere et penitere de huiusmodi penis. ergo etc.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e219">
+          ⁋ Item
+          na<lb ed="#N" n="7" break="no"/>tura detestatur omne illud quod est illam vicians et deprauans
+          <lb ed="#N" n="8"/>huiusmodi autem est pena. sed virtus est animi habitus nature modo
+          <lb ed="#N" n="9"/>rationi consentaneus. ergo virtus detestatur penam huiusmodi. sed de
+          omni<lb ed="#N" n="10" break="no"/>eo dolendum est si accidat quod virtus detestatur. ergo etc.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e230">
+          ⁋ Responsio.
+          <lb ed="#N" n="11"/>quod contritio per se et proprie quantum est de necessitate culpam respicit
+          <lb ed="#N" n="12"/>penam autem non nisi ex consequenti. vtpote illud quod est culpe
+          an<lb ed="#N" n="13" break="no"/>nexum. licet enim aliquando consideratio damnorum que accidunt ex
+          <lb ed="#N" n="14"/>peccati perpetratione dolendi materiam inducit et etiam dolorem
+          <lb ed="#N" n="15"/>hoc tamen non est de necessitate contritionis immo potius ex abundanti.
+          <lb ed="#N" n="16"/>Cum enim gratia gratisdata excitat ad considerationem damnorum
+          pecca<lb ed="#N" n="17" break="no"/>ti. et consequenter ad dolendum de istis: ille dolor non est contritionis licet
+          <lb ed="#N" n="18"/>quodam modo dispositiuus ad illum. sed dolor ille qui est de
+          conten<lb ed="#N" n="19" break="no"/>ptu dei et auersione ab illo quem inducit gratia gratum faciens est
+          <lb ed="#N" n="20"/>contritionis: nec sine hoc est gratificatio cum deo.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e254">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="21"/>primo obiicitur. quod pena elongat a deo etc. Dicendum quod
+          pena<lb ed="#N" n="22" break="no"/>non elongat actiue: sed dicitur elongare ratione status. quia status
+          <lb ed="#N" n="23"/>glorie non compatitur statum pene. vnde pena non per se elongat a
+          <lb ed="#N" n="24"/>deo: sed potius peccatum propter quod inflicta est. Preterea. est
+          approxi<lb ed="#N" n="25" break="no"/>mare deo dupliciter scilicet per gratiam et per gloriam. pena autem elongat a
+          <lb ed="#N" n="26"/>deo quantum ad appropinquationem per gloriam: culpa quantum ad
+          ap<lb ed="#N" n="27" break="no"/>propinquationem per gratiam. Gloria enim non compatitur secum
+          <lb ed="#N" n="28"/>penam sicut nec gratia culpam: sed pena non elongat a deo
+          <lb ed="#N" n="29"/>quantum ad approximationem per gratiam. de tali autem elongatione est
+          <lb ed="#N" n="30"/>proprie dolendum dolore contritionis.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e278">
+          ⁋ Ad illud quod obiicitur. quod
+          <lb ed="#N" n="31"/>anima refugit nocumentum etc. Dicendum quod hec ratio concludit quod
+          <lb ed="#N" n="32"/>dolendum est de pena peccati. et hoc verum est. quia non
+          conclu<lb ed="#N" n="33" break="no"/>dit quia dolendum est dolore contritionis: immo argumentum
+          <lb ed="#N" n="34"/>peccat secundum consequens.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e289">
+          ⁋ Ad illud quod obiicitur de offensa et
+          <lb ed="#N" n="35"/>recessu a deo etc. Dicendum quod recessus a deo proprie culpa est
+          <lb ed="#N" n="36"/>cui annexa est pena. sicut recessus a summo bono habet
+          pe<lb ed="#N" n="37" break="no"/>nam adiunctam. propter quem scilicet recessum dolendum est
+          pro<lb ed="#N" n="38" break="no"/>prie dolore contritionis: non propter penam annexam proprie.
+          <lb ed="#N" n="39"/>De offensa autem dei dicendum quod duplex est. actiua scilicet qua
+          <lb ed="#N" n="40"/>peccator offendit deum. et passiua qua deus offenditur.
+          offen<lb ed="#N" n="41" break="no"/>sa autem actiua est per culpam et propter culpam. vnde offensa huiusmodi
+          <lb ed="#N" n="42"/>est detestanda propter culpam: et ita culpa magis. quia
+          vnun<lb ed="#N" n="43" break="no"/>quodque propter quod: illud magis. Sumendo autem culpam
+          passi<lb ed="#N" n="44" break="no"/>ue eo modo quo dicitur deum offendi. posito per impossibile
+          <lb ed="#N" n="45"/>quod offensus esset sine culpa: non tantum esset dolendum pro
+          offen<lb ed="#N" n="46" break="no"/>sa quantum dolendum esset pro culpa qua offenditur. Si enim deus
+          <lb ed="#N" n="47"/>esset offensus erga me sine culpa mea. ponatur hoc per
+          impossibi<lb ed="#N" n="48" break="no"/>le: non tantum debereet dolere de illa per se quantum de
+          culpa<lb ed="#N" n="49" break="no"/>mea: quia necessario ad culpam meam sequitur offensa dei. et
+          <lb ed="#N" n="50"/>actiua a me offendente: et passiua dei offensi. et plus debeo
+          <lb ed="#N" n="51"/>dolere de multis aliis malis paribus quam de vna. offensa autem
+          <lb ed="#N" n="52"/>dei passiua non est aliud quam punitio offendentis. vnde sicut
+          <lb ed="#N" n="53"/>magis dolendum est de culpa quam de punitione culpe: sic magis
+          <lb ed="#N" n="54"/>de culpa quam de offensa passiua. Cum ergo obiicitur quod maxime
+          do<lb ed="#N" n="55" break="no"/>lendum est de offensa dei. Dicendum est quod hoc verum est de
+          of<lb ed="#N" n="56" break="no"/>fensa actiue sumpta: hoc est de culpa offendente. offensa
+          <lb ed="#N" n="57"/>autem actiua qua offendo propter culpam est: et propter culpam
+          de<lb ed="#N" n="58" break="no"/>testanda. et ita precipue culpa. quia vbi vnum propter alteru
+          <lb ed="#N" n="59"/>vtrobique vnum tantum.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e347">
+          ⁋ Ad istud quod dicit Augustinus. quod dolendum
+          <lb ed="#N" n="60"/>non solum est quia peccauit etc. Dicendum quod hec auctoritas et
+          con<lb ed="#N" n="61" break="no"/>similes sunt intelligende non de necessitate contritionis: sed ex
+          conse<lb ed="#N" n="62" break="no"/>quenti. quia enim culpe mortali est annexa pena: principaliter
+          <lb ed="#N" n="63"/>et proprie dolendum est de culpa et ex coneqenti de pena. et dolor iste
+          <lb ed="#N" n="64"/>non est contritionis de necessitate: sed est dolor ex abundanti.
+          <lb ed="#N" n="65"/>Preterea. hoc verbum augustinus dolendum est et de dolore purgandum etc.
+          <lb ed="#N" n="66"/>potest sic intelligi. quod dolore purgandum est peccatum: quod omnium
+          <lb ed="#N" n="67"/>istarum penarum erat origo. dolore dico sacramentali quantum ad
+          <lb ed="#N" n="68"/>culpam: satisfactorio quantum ad penam debitam peccato.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e369">
+          ⁋ Ad illud
+          <lb ed="#N" n="69"/>augustin. Nemo vitam eternam etc. Dicendum quod non sumitur ibi
+          <lb ed="#N" n="70"/>vita mortalis et corruptibilis secundum quod est penalis tantum: sed secundum quod
+          <lb ed="#N" n="71"/>est viciola. q. d. debet qui vult recte penitere: de omni eo quod
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>comisit in hac vita mortali et corrupertibili dolere.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e382">
+          ⁋ Ad
+          il<lb ed="#N" n="73" break="no"/>lud quod obiicitur. quod pena viciat naturam et deprauat etc. Dicen
+          <lb ed="#N" n="74"/>dum quod est pena actiua quam scilicet sibi agit homo quando peccat:
+          <lb ed="#N" n="75"/>et est pena assumpta vel inflicta. de hac pena scilicet assumpta
+          <lb ed="#N" n="76"/>vel inflicta semper est gaudendum: aliter enim non esset satisfacto
+          <lb ed="#N" n="77"/>ria. De pena actiua distinguendum est. quia potest considerari
+          in<lb ed="#N" n="78" break="no"/>quantum est lesiua nature tantum: vel inquantum est iuste inflicta ordina
+          <lb ed="#N" n="79"/>tione diuine iusticie que numquam relinquit peccatum impunitum.
+          <lb ed="#N" n="80"/>nec in aliquo instanti permittit dedecus peccati sine decore
+          <lb ed="#N" n="81"/>iusticie. Primo modo considerata pena semper est de ea dolendum.
+          <lb ed="#N" n="82"/>quia inquantum est talis solummodo est nocens et non promouens. Secundo
+          <lb ed="#N" n="83"/>autem modo considerata gaudendum est de ea: quia a deo iuste
+          infli<lb ed="#N" n="84" break="no"/>gitur propter aliquiod bonum eliciendum ex ea.
+        </p>
+        <p xml:id="v78d89-acyy3h-d1e411">
+          ⁋ Ad hoc quod subditur. quod
+          <lb ed="#N" n="85"/>virtus detestatur huiusmodi penam: propter quod de ea dolendum est.
+          Dicem<lb ed="#N" n="86" break="no"/>dum quod hoc est verum. bene enim dolendum est de ea inquantum tantum lesiua
+          na<lb ed="#N" n="87" break="no"/>ture: nec propter hoc sequitur quod de ea debet esse vt tactum est. Nec est
+          <lb ed="#N" n="88"/>contra hoc quod obiectum est pro alia parte. scilicet quod omne illud quod iuste
+          in<lb ed="#N" n="89" break="no"/>fligitur est gratanter sustinendum. quia tactum est de pena actiua
+          in<lb ed="#N" n="90" break="no"/>quantum est iuste inflicta a deo: gaudendum est de pena satisfactoria
+          <lb ed="#N" n="91"/>siue iniuncta a sacerdote nullus dubitat quin de ea sit
+          gau<lb ed="#N" n="92" break="no"/>dendum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

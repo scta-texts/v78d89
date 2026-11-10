@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 18, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 18, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="133"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4jwex"><!-- q18m3 -->
+        <head xml:id="v78d89-a4jwex-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a4jwex-Hd1e103" type="question-title">De non utentibus ratione</head>
+        <p xml:id="v78d89-a4jwex-d1e106">
+          <lb ed="#N" n="77"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e111">
+          <lb ed="#N" n="78"/>DEinde queritur de non habentibus vsum ratio
+          <lb ed="#N" n="79"/>nis vtpote de amentibus et dormientibus vtrum
+          <lb ed="#N" n="80"/>baptizentur: Et videtur quod non: quia fides in adultis
+          <lb ed="#N" n="81"/>requiritur. Nullus autem qui caret vsu lib. arbtro. vel
+          <lb ed="#N" n="82"/>simpliciter vel pro tempore quo caret credit: sed amnes vel
+          dor<lb ed="#N" n="83" break="no"/>miens huiusmodi est: ergo non suscipit sacramentum baptismi.
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e127">
+          <lb ed="#N" n="84"/>⁋ Contra. plus est habere carentiam omnino vsus rationis et
+          <lb ed="#N" n="85"/>voluntatis: quam habuisse et ad tempus carere. Si ergo
+          sacramen<lb ed="#N" n="86" break="no"/>tum baptismi conceditur paruulis qui nunquam habuerunt vsum
+          <lb ed="#N" n="87"/>rationis vel voluntatis et sunt receptibiles illius
+          sacramen<lb ed="#N" n="88" break="no"/>ti multo fortius amentes qui aliquando habent vsum rationis et
+          dor<lb ed="#N" n="89" break="no"/>mientes pro statu illo sunt receptibiles sacramenti.
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e144">
+          ⁋
+          Ad<lb ed="#N" n="90" break="no"/>huc etiam queritur si baptizetur amens vel dormiens et postea
+          <lb ed="#N" n="91"/>liberatus a somno vel infirmitate consentiat. licet ante
+          con<lb ed="#N" n="92" break="no"/>tradixerit: vtrum talis reputandus est baptizatus: Et vide
+          <lb ed="#N" n="93"/>tur quod sic. per simile de ficto qui immersus manente fictione non
+          <lb ed="#N" n="94"/>recipit baptismum ad salutem: recedente autem fictione volens
+          <lb ed="#N" n="95"/>et approbans quod factum est: reputandus est baptizatus
+          <lb ed="#N" n="96"/>ad salutem. vnde voluntas sequens facit eum esse baptizatum
+          <lb ed="#N" n="97"/>similiter videtur in proposito.
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e164">
+          ⁋ Contra. consensus debet
+          prece<lb ed="#N" n="98" break="no"/>dere in adulto vel adminus quod uon dissentiat. Sed talis ante
+          <lb ed="#N" n="99"/>amentiam vel somnum omnino dissensit et contradixit: ergo non
+          susce<lb ed="#N" n="100" break="no"/>pit sacramentum. ergo non fuit baptisma: sed quod ab initio non fuit: ex
+          <lb ed="#N" n="101"/>post facto non ratificatur. ergo talis non est baptizatus licet
+          consen<lb ed="#N" n="102" break="no"/>sus sequatur.
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e177">
+          ⁋ Rensponso. dicendum quod sicut dicitur in decretali distinguitur.
+          <lb ed="#N" n="103"/>de amente et dormiente: si prius quam amentiam incurreret aut dor
+          <lb ed="#N" n="104"/>miret in contradictione constiterat: quia in eis intelligitur
+          contradi<lb ed="#N" n="105" break="no"/>ctionis propositum perdurasse. si fuerint sic immersi: caracterem non
+          <lb ed="#N" n="106"/>recipiunt sacramenti. Secus autem si prius cathecumini extitis
+          <lb ed="#N" n="107"/>sent et habuissent propositum baptizandi. Unde tales in
+          necessi<lb ed="#N" n="108" break="no"/>tatis articulo consueuit ecclesia baptizare.
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e193">
+          ⁋ Ad id autem quod
+          <lb ed="#N" n="109"/>obiicitur primo. dicendum quod licet amens vel dormiens non tunc
+          ha<lb ed="#N" n="110" break="no"/>bet vsum fidei habere tamen potuit prius quando habuit propositum
+          ba<lb ed="#N" n="111" break="no"/>ptizandi et fuit cathecizatus. et ratione illa potest suscipere
+          baptis<lb ed="#N" n="112" break="no"/>ma.
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e204">
+          ⁋ Ad id vero quod obicitur per comparationem ad paruulum qui omnino
+          caru<lb ed="#N" n="113" break="no"/>it vsu rationis et voluntatis. Dicendum quod aliter est de paruulo et aliter
+          <lb ed="#N" n="114"/>de adulto. In paruulo enim non inuenitur obex rationis siue
+          volun<lb ed="#N" n="115" break="no"/>tatis cum non habeat nec habuerit vsum. In adulto vero cum humit
+          <lb ed="#N" n="116"/>voluntatis vsum et pro se teneatur respondere: presumitur de voluntate
+          <lb ed="#N" n="117"/>cum non contradicit baptismo.
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e217">
+          ⁋ Ad id vero quod queritur de amente
+          <lb ed="#N" n="118"/>et dormiente si postea consentiant. Dicendum quod tales pro
+          baptiza<lb ed="#N" n="119" break="no"/>tis non reputantur ratione talis consensus: sed de nouo sunt
+          immergen<lb ed="#N" n="120" break="no"/>di. consensus enim conuenienter precedit ad ratificandum et non
+          conuenien<lb ed="#N" n="121" break="no"/>ter sequitur.
+        </p>
+        <p xml:id="v78d89-a4jwex-d1e229">
+          ⁋ Ad id quod obicitur per simile de ficto. dicendum quod non est simile
+          <lb ed="#N" n="122"/>fictus enim accedens ad baptismum suscipit sacramentum baptismi non
+          <lb ed="#N" n="123"/>rem. Unde recedente fictione et existente penitentia de fictione: gratia
+          <lb ed="#N" n="124"/>cum caractere habet efficaciam baptismatis Non similiter est de
+          <lb ed="#N" n="125"/>dormiente vel amente: in quibus non precessit aliqua
+          volun<lb ed="#N" n="126" break="no"/>tas suscipiendi baptismum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

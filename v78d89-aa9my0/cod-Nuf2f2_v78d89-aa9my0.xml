@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 50, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 50, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="338"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aa9my0"><!-- q50m5 -->
+        <head xml:id="v78d89-aa9my0-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-aa9my0-Hd1e103" type="question-title">Utrum a symoniacis</head>
+        <p xml:id="v78d89-aa9my0-d1e106">
+          <lb ed="#N" n="39"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-aa9my0-d1e111">
+          <lb ed="#N" n="40"/>COnsequenter queritur vtrum a symoniacis
+          <lb ed="#N" n="41"/>dispensandum sit corpus christi. Q non: videtur di.
+          <lb ed="#N" n="42"/>xxxii. preter hoc. Scribit predecessoe noster
+          <lb ed="#N" n="43"/>Grego. rudolfo et bertulfo ducibus inter
+          cete<lb ed="#N" n="44" break="no"/>ra. officium symoniacorum et in fornicatione iacentium
+          scien<lb ed="#N" n="45" break="no"/>ter nullo modo recipiatis. et quantum potestis tales a
+          san<lb ed="#N" n="46" break="no"/>ctis ministeriis vbi oportuerit prohibeatis. Ecce quod omnino
+          <lb ed="#N" n="47"/>prohibetur ne officium talium recipiatur. et hoc propter eorum
+          enor<lb ed="#N" n="48" break="no"/>mitatem. ergo non debet recipi in dispensatione sancti
+          san<lb ed="#N" n="49" break="no"/>ctorum.
+        </p>
+        <p xml:id="v78d89-aa9my0-d1e135">
+          ⁋ Item symoniacus suspensus est a canone. i. q i.
+          <lb ed="#N" n="50"/>reperiuntur. vbi dicitur. Nos huic vulneri canceroso ignitum quod
+          <lb ed="#N" n="51"/>super est adhuc inicimus ferrum. decernentes omnino vt quicumque
+          de<lb ed="#N" n="52" break="no"/>inceps pro accipienda diuini doni dignitate quodlibet
+          premi<lb ed="#N" n="53" break="no"/>um detectus fuerit obtulisse: ex eodem se tempore anathematis
+          ob<lb ed="#N" n="54" break="no"/>probrio nouerit condempnatum. atque a perticipatione corporis et san
+          <lb ed="#N" n="55"/>guinis domini alienum. ex quo illum constat execrabile christo
+          perpe<lb ed="#N" n="56" break="no"/>trasse flagitium. sed a nullo tali suscipiendum est corpus christi
+          <lb ed="#N" n="57"/>nec aliud ecclesie beneficium etc
+        </p>
+        <p xml:id="v78d89-aa9my0-d1e156">
+          ⁋ Contra. i. q. i. per ysaiam.
+          ha<lb ed="#N" n="58" break="no"/>betur quod illi qui quondam non nisi precio dato ad communionis
+          san<lb ed="#N" n="59" break="no"/>cte perticipationem admittebantur licet symoniace: tamen non ideo
+          mi<lb ed="#N" n="60" break="no"/>nus sacri communionis perticipes reputati sunt. sed si non sunt
+          <lb ed="#N" n="61"/>minus perticipes sacre communionis ex hoc quod precio dato
+          admittun<lb ed="#N" n="62" break="no"/>tur: videtur quod non peccant dando precium hac de causa vt admit
+          <lb ed="#N" n="63"/>tantur. multo fortius videtur quod non peccant sumentes sacram
+          commu<lb ed="#N" n="64" break="no"/>nionem a symoniacis: cum hoc videtur magis illicitum quom
+          il<lb ed="#N" n="65" break="no"/>lud.
+        </p>
+        <p xml:id="v78d89-aa9my0-d1e176">
+          ⁋ Responsio. quod symoniaci non est corpus domini dispensare.
+          <lb ed="#N" n="66"/>neque est ab eo suscipiendum neque aliud beneficium ecclesia
+          <lb ed="#N" n="67"/>ssticum. sicut patet di. xxxii. Preter hoc. vt tactum est. Sed
+          <lb ed="#N" n="68"/>de hoc diuersi diuersimode sentiunt. quia quidam dicunt
+          <lb ed="#N" n="69"/>hoc intelligendum esse de symoniaco notorio sicut de noto
+          <lb ed="#N" n="70"/>rio fornicatore. Aliter dicunt alii et melius secundum meum
+          iudi<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>cium. quod etiam occultus symoniacus est suspensus a canone
+          <lb ed="#N" n="72"/>svt patet. i. q. i. reperiuntur. non tantum quo ad se: quia et ita est a
+          <lb ed="#N" n="73"/>libet peccator qui in mortali est: sed etiam quo ad alios a
+          <lb ed="#N" n="74"/>sciunt. qui vitabant eum saltem in occulto. hoc tamen de
+          <lb ed="#N" n="75"/>symoniaco in ordine intelligi debet. de quo extra de symo
+          <lb ed="#N" n="76"/>nia. tanta est. omnis peccator missam cantare potest preter
+          <lb ed="#N" n="77"/>symoniacum. quem quilibet vt ab ordine male accepto remo
+          <lb ed="#N" n="78"/>ueatur accusare potest omnis peccator scilicet occultus. Unde
+          <lb ed="#N" n="79"/>ab occulto symoniaco qui scitur esse symoniacus. non est
+          re<lb ed="#N" n="80" break="no"/>cipiendum corpus christi nec aliud sacramentum. i. q qi. Si quia.
+          <lb ed="#N" n="81"/>vbi dicitur de ordinato symoniace qui ordinatus est nihil
+          <lb ed="#N" n="82"/>ex ordinatione facta proficiat: sed sit alienus a digniiate vel
+          <lb ed="#N" n="83"/>sollicitudine quam pecuniis acquisiuit. et intelligitur ibi
+          no<lb ed="#N" n="84" break="no"/>mine sollicitudinis quilibet ordo ecclesiasticus.
+        </p>
+        <p xml:id="v78d89-aa9my0-d1e221">
+          ⁋ Ad hoc
+          <lb ed="#N" n="85"/>quod obiicitur quod licet aliquis symoniace admittatur ad
+          sa<lb ed="#N" n="86" break="no"/>cram communionem ideo non minus etc. Dicendum quod hoc
+          intelli<lb ed="#N" n="87" break="no"/>gendum est quantum ad sacramentalem sumptionem. Uel potest dici
+          <lb ed="#N" n="88"/>quod hoc intelligendum est de aliquibus qui dato munere admit
+          <lb ed="#N" n="89"/>tebantur ante prohibitionem. Unde subditur ibidem. sed hoc
+          ta<lb ed="#N" n="90" break="no"/>men sacris canonibus constitutum est: ne decetero
+          sacramen<lb ed="#N" n="91" break="no"/>ta christi symoniace tribuantur.
+        </p>
+        <p xml:id="v78d89-aa9my0-d1e239">
+          ⁋ De symoniaco in
+          benefi<lb ed="#N" n="92" break="no"/>cio dico sine preiudicio. quod aut est beneficium cui annexa est
+          <lb ed="#N" n="93"/>cura animarum. et talis symoniacus suspensus est ipso
+          iu<lb ed="#N" n="94" break="no"/>re sicut symoniacus in ordine. et a tali cauendum est quantum
+          <lb ed="#N" n="95"/>ad susceptionem sacre communionis et aliorum
+          sacramento<lb ed="#N" n="96" break="no"/>rum sicut a symoniaco in ordine. Aut est simplex benefici
+          <lb ed="#N" n="97"/>um: et tunc aut eius delictum est occultum aut notorium. de
+          <lb ed="#N" n="98"/>iure vel facto. In primo casu ipse symoniacus est suspensus
+          <lb ed="#N" n="99"/>ipso iure. sicut quilibet in mortali peccato vt. i. q. i.
+          Sacer<lb ed="#N" n="100" break="no"/>dotes. In secundo quo ad se et quo ad alios. vt extra de tempori
+          <lb ed="#N" n="101"/>bus ordinationum. c. quesitum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

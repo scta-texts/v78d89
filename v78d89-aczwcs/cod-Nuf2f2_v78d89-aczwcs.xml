@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 69, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 69, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="449"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aczwcs"><!-- q69m3 -->
+        <head xml:id="v78d89-aczwcs-Hd1e101">Membrum 3</head>
+        <p xml:id="v78d89-aczwcs-d1e103">
+          <lb ed="#N" n="93"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e108">
+          <lb ed="#N" n="94"/>COnsequenter queritur: cum duo sint in
+          pecca<lb ed="#N" n="95" break="no"/>to scilicet actus et difformitas: an debeat esse
+          contri<lb ed="#N" n="96" break="no"/>tio de vtroque. Quod sic: videtur per hoc. quod vtrunque
+          <lb ed="#N" n="97"/>requiritur ad perpetrationem peccati actualis. ad
+          <lb ed="#N" n="98"/>esse enim peccati actualis requiritur actus: ob quod dicitur actuale
+          <lb ed="#N" n="99"/>et deformitas ob quod dicitur peccatum. de peccato actuali dolem
+          <lb ed="#N" n="100"/>dum est proprie.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e126">
+          ⁋ Item sicut meritoria actio duo concernit scilicet
+          <lb ed="#N" n="101"/>ipsam naturam actionis et eiusdem informationem: sic peccatum duo
+          <lb ed="#N" n="102"/>scilicet ipsam actionem et deformitatem. sed contritio proprie est de
+          pecca<lb ed="#N" n="103" break="no"/>to. ergo debet esse de actione et de deformitate.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e135">
+          ⁋ Item quia mala
+          fa<lb ed="#N" n="104" break="no"/>cimus mali sumus. factio ergo mala est quare mali sumus. sed
+          <lb ed="#N" n="105"/>de causa nostre malicie per se debemus conteri. ergo etc.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e143">
+          ⁋ Item quod
+          <lb ed="#N" n="106"/>de actu solo videtur: de illo proprie dolendum est in emenda de quo
+          <lb ed="#N" n="107"/>erat delectatio in culpa. sed ex actu peccati proprie est delectatio non
+          <lb ed="#N" n="108"/>ex deformitate. ergo de actu proprie debet esse dolor siue contritio.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e152">
+          <lb ed="#N" n="109"/>⁋ Item est peccatum commissionis et omissionis: et contritio
+          re<lb ed="#N" n="110" break="no"/>spondens vtrique. sed contritio respondens peccato omissionis est dolor de
+          <lb ed="#N" n="111"/>actu omisso et simplicter de actu. ergo contritio respondens peccato
+          omissi<lb ed="#N" n="112" break="no"/>onis est dolor de actu omisso et simpliciter de actu.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e163">
+          ⁋ Contra.
+          <lb ed="#N" n="113"/>Omne quod a deo est secundum quod huiusmodi bonum est. nec de ansiquo
+          tali<lb ed="#N" n="114" break="no"/>requiritur contritio. sed omnis actio secundum quod huiusmodi a deo est. ergo etc.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e170">
+          <lb ed="#N" n="115"/>⁋ Item hoc idem patet per exemplum. dare elemosynam est bonum in
+          <lb ed="#N" n="116"/>genere. hoc bonum deformatur quandoque per circumstantiam: qua vt quando
+          <lb ed="#N" n="117"/>elemosyna datur scienter malis ad malos vsus: et ribaldis
+          qui<lb ed="#N" n="118" break="no"/>expendunt elemosynam in operibus luxurie. constat quod dans elemo
+          <lb ed="#N" n="119"/>synam non habet necesse conteri de hoc quod dedit elemosynam: sed de hoc quod
+          <lb ed="#N" n="120"/>male dedit. et ita non requiritur contritio de ipsa substantia actus: sed
+          <lb ed="#N" n="121"/>de ipsa deformitate.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e188">
+          ⁋ Responsio. sicut habetur ab Augustins. quod
+          di<lb ed="#N" n="122" break="no"/>cit naturam corruptam duo dicit. actionem scilicet et maliciam. de
+          mali<lb ed="#N" n="123" break="no"/>cia autem proprie et per se dolendum est: de actione autem non nisi inquantum
+          <lb ed="#N" n="124"/>mala. vnde quia a mala actione nunquam potest malicia separari: ideo
+          <lb ed="#N" n="125"/>de mala actione inquantum mala dolendum. sed si posset
+          deformi<lb ed="#N" n="126" break="no"/>tas et malicia a substantia actionis separari: de illa in se nunquam esset
+          <lb ed="#N" n="127"/>dolendum.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e204">
+          ⁋ Ad illud quod obiicitur. quod de peccato actuali necessario
+          <lb ed="#N" n="128"/>concernit actum et deformitatem debet esse contritio etc. Dicendum
+          <lb ed="#N" n="129"/>quod hoc verum est ratione qua deformitas ipsa quodammodo cedit
+          <lb ed="#N" n="130"/>in vnum cum substantia actionis: de ipso actu deformato dolendum est. sed
+          <lb ed="#N" n="131"/>non de actunisi ratione deformationis. Ex hoc patet responsio ad alia que
+          <lb ed="#N" n="132"/>sequuntur.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e218">
+          ⁋ Ad illud quod obiicitur. quod de illo proprie debet esse contritio
+          <lb ed="#N" n="133"/>de quo erat delectatio. Dicendum quod non est verum. cum enim in peccato
+          <lb ed="#N" n="134"/>sit auersio a deo et conuersio ad creaturam: proprie et per se est dele
+          <lb ed="#N" n="135"/>ctatio ex conuersione. cum contritio proprie est de auersione vel
+          conuersi<lb ed="#N" n="136" break="no"/>one inquantum illa sit auersio. et ita magis de auersione. quia
+          <lb ed="#N" n="137"/>vnumquodque propter quod: illud magis. vnde dolor sacramentalis proprie
+          re<lb ed="#N" n="138" break="no"/>fertur ad auersionem: satisfactorius ad delectationem conuersionis.
+          <lb ed="#N" n="139"/>nec hoc dico quod dolor satisfactorius non sit de auersione: sed quia illo
+          <lb ed="#N" n="140"/>satisfit proprie de ipsa delectatione.
+        </p>
+        <p xml:id="v78d89-aczwcs-d1e238">
+          ⁋ Ad illud quod vltimo obii
+          <lb ed="#N" n="141"/>citur. dicendum quod omissio non respicit actum simplitetr et ablolute: sequ
+          <pb ed="#N" n="450"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>actum debitum. propter hoc enim omittit quia non facit illud quod debet. similiter
+          <lb ed="#N" n="2"/>commissio respicit actum debitum siue deformatum. vnde sicut
+          culpa<lb ed="#N" n="3" break="no"/>ex parte ista non est ex omissione actus simpliciter sed actus debiti. et
+          <lb ed="#N" n="4"/>ex parte illa ex perpetratione actus deformati: sic contritio debet csse
+          <lb ed="#N" n="5"/>ex vtraque parte de actuali: non de actu simplicter.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

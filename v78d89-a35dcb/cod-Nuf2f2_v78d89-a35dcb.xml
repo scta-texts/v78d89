@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 10, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 10, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="92"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a35dcb"><!-- q10m3 -->
+        <head xml:id="v78d89-a35dcb-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a35dcb-Hd1e103" type="question-title">De cathecismo</head>
+        <p xml:id="v78d89-a35dcb-d1e106">
+          <lb ed="#N" n="57"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a35dcb-d1e111">
+          <lb ed="#N" n="58"/>COnsequenter queritur de cathecismo qui
+          tamen<lb ed="#N" n="59" break="no"/>prior est in adultis quam exorcismus: eo quod adulti
+          <lb ed="#N" n="60"/>prius instruuntur de fide quam exorcismis se
+          subiici<lb ed="#N" n="61" break="no"/>ant. Unde Rabanus de institutione clericorum.
+          <lb ed="#N" n="62"/>Postquam se baptizandus per confessionem vere fidei in alterius
+          commen<lb ed="#N" n="63" break="no"/>datur dominium. et per abrenunciationem a prioris possessoris se
+          <lb ed="#N" n="64"/>alienauit seruitio: exufflatur ab eo potestas seua vt per pium
+          sacer<lb ed="#N" n="65" break="no"/>dotis ministerium spirituisancto cedat spiritus malignus. Pret. quod
+          ca<lb ed="#N" n="66" break="no"/>thecuminus debeat precedere baptismum. arguitur ex hoc quod
+          do<lb ed="#N" n="67" break="no"/>minus dicit in euangelio. Ite docete eos baptizantes eos etc.
+          <lb ed="#N" n="68"/>Doctrina autem ista ad cathecismum pertinet quod patet per istud
+          <lb ed="#N" n="69"/>quod sequitur. Qui crediderit et baptizatus etc. Ut notetur quod
+          in<lb ed="#N" n="70" break="no"/>structio fidei precedat baptisma in illis qui accipere posunt do
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>ctrinam. vnde dicit hugo. Docere ad fidem pertinet: baptiza
+          <lb ed="#N" n="72"/>re ad emundationem. Arguitur etiam exemplo domini. in quo hoc
+          fi<lb ed="#N" n="73" break="no"/>guratur. prius enim sputo mixto cum luto oculos liniuit ceci: et
+          <lb ed="#N" n="74"/>post ad aquas syloe misit. Unde Rabanus. ante baptismum
+          <lb ed="#N" n="75"/>cathecizandi homo debet preuenire officium vt fidei primo accipiat
+          <lb ed="#N" n="76"/>cathecuminis rudimentum. Item christus prius ceci nati oculos luto
+          <lb ed="#N" n="77"/>et sputo facto superliniuit. et sic ad aquas syloe misit: quia
+          pri<lb ed="#N" n="78" break="no"/>debet baptizandus fide incarnationis christi instrui: et sic ad
+          ba<lb ed="#N" n="79" break="no"/>ptismum iam credulus admitti: vt sciat cuius gratie in eo est
+          perti<lb ed="#N" n="80" break="no"/>ceps: et cui iam debitor fiat deinceps. Ex his ergo patet quod
+          carhe<lb ed="#N" n="81" break="no"/>cismus congruit in adultis precedere baptismum licet necessitate
+          i<lb ed="#N" n="82" break="no"/>gruente vel in capacitate baptizandorum sequatur sicut in paruulis
+          <lb ed="#N" n="83"/>et huiusmodi.
+        </p>
+        <p xml:id="v78d89-a35dcb-d1e172">
+          ⁋ Circa autem cathecismum querendum est primo de quibus
+          <lb ed="#N" n="84"/>debet esse. Secundo quorum fit cathecismus tamquam cathecizandorum.
+          Ter<lb ed="#N" n="85" break="no"/>cio quorum sit cathecizare. Quarto vtrum cathecumini ex
+          rati<lb ed="#N" n="86" break="no"/>one cathecismi vitam spiritualem haberm dicuntur cum ad fidem instruantur.
+        </p>
+        <div xml:id="v78d89-a35dcb-Dd1e182">
+          <head xml:id="v78d89-a35dcb-Hd1e184">Articulus 1</head>
+          <p xml:id="v78d89-a35dcb-d1e186">
+            <lb ed="#N" n="87"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e191">
+            <lb ed="#N" n="88"/>PRimo queritur de quibus sunt instruendi
+            baptizan<lb ed="#N" n="89" break="no"/>vi. et videtur quod sint instruendi de omnibus que
+            accide<lb ed="#N" n="90" break="no"/>runt in omnibus etatibus precedentibus illam in qua natus est
+            <lb ed="#N" n="91"/>dominus. scilicet etate sexta. et etiam illis que in illa contingebant. vnde Hugo
+            <lb ed="#N" n="92"/>in libro. de sacramentis docens quibus instruendi sunt neophiti.
+            deter<lb ed="#N" n="93" break="no"/>minat quod instrui debeant illis que facta sunt in his sex etatibus que
+            <lb ed="#N" n="94"/>computantur ab initio mundi vsque ad ascensionem domini quando dixit
+            disci<lb ed="#N" n="95" break="no"/>pulis. ite docete omnes gentes baptizantes in nomine pa. et fi. et scililicet qui
+            <lb ed="#N" n="96"/>crediderit etc. Martur. vlti. et post subdidit. hec sunt sacramenta
+            <lb ed="#N" n="97"/>fidei christiane ab initio condita in fine credenda sine fine
+            profutu<lb ed="#N" n="98" break="no"/>ra. hec sunt quibus cathecizandos imbuimus. et eorum qui sacramento
+            noui<lb ed="#N" n="99" break="no"/>tatis regenerandi sunt fidem salutari confessione promendam exigimus
+            <lb ed="#N" n="100"/>Idem videtur augustinus velle libro de cathecizandis rudibus dicens.
+            <lb ed="#N" n="101"/>Narratio plena est cum quisque primo cathecizatur: ab eo quod
+            scri<lb ed="#N" n="102" break="no"/>ptum est. In principio creauit deus celum et terram: vsque ad presentia
+            <lb ed="#N" n="103"/>tempora ecclesie.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e228">
+            ⁋ Pret. instruendi sunt in spe resurrectionis et in
+            credu<lb ed="#N" n="104" break="no"/>litate iudicii beatorum et malorum et eorum retributionibus. Unde
+            au<lb ed="#N" n="105" break="no"/>gu. in eodem. Narratione finita: spes resurrectionis intimanda est
+            <lb ed="#N" n="106"/>et pro capacitate ac viribus audientis: proque ipsius temporis
+            modu<lb ed="#N" n="107" break="no"/>lo aduersus varias irrisiones infidelium de corporis resurrectio
+            <lb ed="#N" n="108"/>ne tractandum. et futuri vltimi iudicii bonitate in bonos:
+            seueri<lb ed="#N" n="109" break="no"/>tate in malos: veritate in omnes. commemoratisque cum detestatione et
+            <lb ed="#N" n="110"/>horrore penis impiorum regnum iustorum atque fidelium. et
+            superna<lb ed="#N" n="111" break="no"/>illa ciuitas eiusque gaudium cum desiderio predicandum est. Ex his
+            <lb ed="#N" n="112"/>videtur quod horum sit necessaria instructio in cathecismo.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e250">
+            ⁋ Contra
+            <lb ed="#N" n="113"/>patrini qui obligantur ad instructionem paruulorum secundum ecclesie
+            consuetu<lb ed="#N" n="114" break="no"/>dinem talia ignorant. ergo de talibus istos instruere non possunt.
+            Si<lb ed="#N" n="115" break="no"/>diceretur quod hec ignorantia est illis in peccatum. vt de tali dicatur ignorans
+            <lb ed="#N" n="116"/>ignorabitur. hoc non videtur verum: cum non obligent se patrini in
+            susce<lb ed="#N" n="117" break="no"/>ptione baptizatorum. nisi ad illa instruenda de quibus facit men
+            <lb ed="#N" n="118"/>tionem sacerdos baptizans et respondent pro puero.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e267">
+            ⁋ Pret. tenentur ne
+            <lb ed="#N" n="119"/>illi patrini qui habent noticiam sacre schpritture illos quos de
+            sacro<lb ed="#N" n="120" break="no"/>fonte suscipiunt de his omnibus instruere. Responsio. ad hec sine
+            prsaeiu<lb ed="#N" n="121" break="no"/>ditio melioris sententie. quod aliter sicut dicit augustinus se debent habere qui
+            <lb ed="#N" n="122"/>cathecizantur in rudibus instruendis: aliter in intelligibilibus qui als
+            <lb ed="#N" n="123"/>scripturas nouerunt: et aliter in rudibus adultis: et aliter in
+            par<lb ed="#N" n="124" break="no"/>uulis. In paruulis ergo competit instructio cum sint capaces de
+            sim<lb ed="#N" n="125" break="no"/>bolo apostolorum et oratione dominica. tales enim adheserunt sancte mastri
+            ec<lb ed="#N" n="126" break="no"/>clesie et obedientes doctrine eius. demum paulatim instruendi sunt
+            <lb ed="#N" n="127"/>verbo predicationis. Qui vero adulti sunt nec dum peruenerunt ad
+            ba<lb ed="#N" n="128" break="no"/>ptismum: quandam instructionem debent habere allectiuam ad susceptio
+            <lb ed="#N" n="129"/>nem sacramenti. Et ideo si intelligentes sunt ostendendum est eis
+            qua<lb ed="#N" n="130" break="no"/>liter a principio mundi cura est deo de salute humani generis. et
+            <lb ed="#N" n="131"/>qualiter prefigurauit nostram redemptionem et nostram salutem per sacramenta
+            <lb ed="#N" n="132"/>habendam: et primo per sacramentum baptismi. et sic per hoc habilitetur
+            <lb ed="#N" n="133"/>ad sacramentum baptismi suscipiendum: et ad fidem nostre redemptionis
+            <lb ed="#N" n="134"/>facte per christum et glorificationis in anima et corpore future per ipsum.
+            <lb ed="#N" n="135"/>Rudes autem per quedam exempla manuducendi sunt ad illa.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e306">
+            ⁋ Ad
+            <lb ed="#N" n="136"/>illud quod obiicitur ex verbo hugo. et augustinu. Dicendum. quod illi
+            re<lb ed="#N" n="137" break="no"/>ferebant intentiones ad statum primitiue ecclesie in quo secundum
+            consue<lb ed="#N" n="138" break="no"/>tudinem status illius cathecizantur adulti ab illis qui periciam habue
+            <lb ed="#N" n="139"/>runt instruendi tales. Unde augustinus loquitur ad deo gratias qui
+            pe<lb ed="#N" n="140" break="no"/>tebat ab illo quomo adultos baptizandos cathecizaret: ad quem
+            <pb ed="#N" n="93"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>sepe adducebantur qui fide christiana imbuendi erant: eo quod esti
+            <lb ed="#N" n="2"/>mabatur habere vberem cathecizandi facultatem: et doctrina fidei
+            <lb ed="#N" n="3"/>et suauitate sermonis. sicut in principio libri de
+            cathecizan<lb ed="#N" n="4" break="no"/>dis rudibus continetur. Talibus enim secundum augustinus. decebat fieri
+            instru<lb ed="#N" n="5" break="no"/>ctio siue narratio quedam allectiua ad susceptionem
+            baptisma<lb ed="#N" n="6" break="no"/>tis. ostendendo qualiter ab initio mundi cura erat deo de
+            ho<lb ed="#N" n="7" break="no"/>minis salute: et alia que tacta sunt. modo tamen competenti secundum
+            exi<lb ed="#N" n="8" break="no"/>gentiam temporis et status persone. Unde tacto modo narrationis verbo
+            <lb ed="#N" n="9"/>supradicto: scilicet narratio plena est cum quisque etc. subiungit
+            au<lb ed="#N" n="10" break="no"/>gu. non tamen debemus propterea totum penthateucum totosque
+            iudi<lb ed="#N" n="11" break="no"/>cum et regnorum et Esdre libros totumque euangelium et actus
+            apostolo<lb ed="#N" n="12" break="no"/>rum: vel si ad verbum addicimus memoriter reddere vel nostris
+            <lb ed="#N" n="13"/>verbis omnia que his voluminibus continentur narrando euoluere et ex
+            <lb ed="#N" n="14"/>plicare: quod nec tempus capit nec illa necessitas postulat: sed
+            cun<lb ed="#N" n="15" break="no"/>cta summatim generatimque complecti: ita vt eligantur quedam mira
+            <lb ed="#N" n="16"/>biliora que suauius audiuntur. atque in ipsis articulis constituta sunt
+            <lb ed="#N" n="17"/>et ea tanquam in voluminibus ostendere.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e361">
+            ⁋ De instructione autem paruulorum
+            <lb ed="#N" n="18"/>qui modo baptizantur qui instruendi sunt postquam habuerint vsum
+            ra<lb ed="#N" n="19" break="no"/>tionis non est ita: sed instruendi sunt a patrinis de fide quantum ad
+            <lb ed="#N" n="20"/>articulos qui continentur in simbolo apostolorum ad quorum
+            instructio<lb ed="#N" n="21" break="no"/>nem se obligant patrini vt dicunt quidam respondentes pro paruulis.
+            <lb ed="#N" n="22"/>Unde cum sacerdos querat a paruulo credis in deum patrem
+            <lb ed="#N" n="23"/>omnipo. etc. et patrini respondent credo: dicunt quod patrini obligant
+            <lb ed="#N" n="24"/>puerum ad credendum ista cum habuerit vsum rationis: et se ad
+            in<lb ed="#N" n="25" break="no"/>struendum illos et informandum in eis quantum in ipsis est. Unde
+            cumon<lb ed="#N" n="26" break="no"/>patrini respondent credo: sensus est. puerum ad credendum et me
+            obli<lb ed="#N" n="27" break="no"/>go. obligat enim se ad hoc quod puer credit id est quod operam dabit ad
+            <lb ed="#N" n="28"/>hoc quod credat instruendo eum. et hoc notatur ex hoc quod sacerdos
+            <lb ed="#N" n="29"/>iniungit patrinis et matrinis baptizato puero quod instruant
+            <lb ed="#N" n="30"/>in simbolo apostolorum et oratione dominica. de hoc
+            habebi<lb ed="#N" n="31" break="no"/>tur parlenius infra.
+          </p>
+        </div>
+        <div xml:id="v78d89-a35dcb-Dd1e395">
+          <head xml:id="v78d89-a35dcb-Hd1e397">Articulus 2</head>
+          <p xml:id="v78d89-a35dcb-d1e399">
+            <lb ed="#N" n="32"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e404">
+            <lb ed="#N" n="33"/>COnsequenter queritur de his qui cathecizandi sunt
+            <lb ed="#N" n="34"/>Cum enim gratia nihil facit ociose sicut nec natura
+            <lb ed="#N" n="35"/>Cathecizare autem in susceptibilem doctrine est
+            ocio<lb ed="#N" n="36" break="no"/>sum: ergo non est opus gratie. paruuli autem tales sunt: non ergo
+            <lb ed="#N" n="37"/>cathecizandi nec eis competit cathecismus.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e417">
+            ⁋ Item cum querit
+            <lb ed="#N" n="38"/>sacerdos a puero. credis in deum: vis baptizari. et respondet
+            pa<lb ed="#N" n="39" break="no"/>trinus credo vel volo: pro quo respondent: aut pro se aut pro puero
+            <lb ed="#N" n="40"/>si pro se: mentitur. quia non vult baptizari. Si pro puero: similit
+            <lb ed="#N" n="41"/>mentitur. quia nondum habet vsum libro. arbtro. neque vult aliquid nec
+            <lb ed="#N" n="42"/>credit.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e430">
+            ⁋ Item queritur vtrum paruulus obligetur. cum pro eo respondet
+            <lb ed="#N" n="43"/>patrinus: et videtur quod non: quia non obligatur ex responsione
+            pa<lb ed="#N" n="44" break="no"/>trinorum. quia non habet vsum libro arbtro qui requiritur ad credere.
+            <lb ed="#N" n="45"/>Item etsi aliqua obligatio possit esse sine consensu eius qui
+            <lb ed="#N" n="46"/>obligatur: hoc est in eis qui non subsunt voluntati eius. sed
+            crede<lb ed="#N" n="47" break="no"/>re non est tale immo voluntarium est: ergo nullus ad credendum potest ob
+            <lb ed="#N" n="48"/>ligari nisi interueniente consensu proprio actuali.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e447">
+            ⁋ Item si pater
+            <lb ed="#N" n="49"/>carnalis voueret pro paruulo ipsum intraturum religionem vel quod
+            <lb ed="#N" n="50"/>cumque consimile: non teneretur paruulus. eodem modo licet patrini spoende
+            <lb ed="#N" n="51"/>ant pro paruulo: non obligatur paruulus sponsione patrinorum.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e456">
+            ⁋ Item
+            <lb ed="#N" n="52"/>nec ex precepto domini: quia precepta domini non sunt nisi respectu
+            in<lb ed="#N" n="53" break="no"/>telligentium et susceptibilium discipline. ergo cum paruuli non sint
+            <lb ed="#N" n="54"/>huiusmodi: non subiacent precepto domini.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e465">
+            ⁋ Item augustinus ad Bonifacium
+            <lb ed="#N" n="55"/>difficilimam questionem mihi proposuisti. Si constituam inquis ante te
+            per<lb ed="#N" n="56" break="no"/>uulum. et queras vtrum cum creuerit futurus est castus vel fur: responde
+            <lb ed="#N" n="57"/>bis nescio. et si in paruula etate aliquid boni cogitet: respondebis
+            <lb ed="#N" n="58"/>nescio. Si ergo de moribusnihil audes certum promittere. vel de
+            <lb ed="#N" n="59"/>cogitatione: quid est quod ad baptismum cum offeruntur pro eis respondent
+            cre<lb ed="#N" n="60" break="no"/>do: cum illa etas cogitare non possit.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e481">
+            ⁋ Ad quod dicendum. quod
+            quen<lb ed="#N" n="61" break="no"/>admodum paruulo non credenti et omnino nescienti prestantur multa
+            <lb ed="#N" n="62"/>beneficia ministerio parentum. sicut cibus et potus et vestitus etc.
+            <lb ed="#N" n="63"/>que educationis sunt. nec impedit in aliquo ista beneficia
+            il<lb ed="#N" n="64" break="no"/>lius ignorantia vel incredulitas: non enim propter hoc minus
+            inuolui<lb ed="#N" n="65" break="no"/>tur panis. aut lauatur aut soporatur quia ignorat ista sibi fieri:
+            si<lb ed="#N" n="66" break="no"/>militer medicamenta nihilominus ei adhibentur et sanitas acqui
+            <lb ed="#N" n="67"/>ritur licet illa nesciat sibi adhiberi: sic et oratione parentum absque
+            <lb ed="#N" n="68"/>medicamentis diuinitus ei sanitas tribuatur. nunquid
+            ignoran<lb ed="#N" n="69" break="no"/>tia eius aut deuotionem parentum impediet aut bonitatem diuinam
+            <lb ed="#N" n="70"/>manifestum est quod non. Quia ergo veri parentes spirituales sunt
+            ipsi<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>sancti: et vere master spiritualis est ecclesia. omnium illorum qui ministerio illo
+            <lb ed="#N" n="72"/>rum scilicet sanctorum ecclesie dei sibi generantur siue regenerantur: non
+            <lb ed="#N" n="73"/>obstabit vllo modo nec impedire poterit ignorantia paruulorum
+            <lb ed="#N" n="74"/>quo minus orationibus huiusmodi parentum et matris ecclesie bonitas
+            <lb ed="#N" n="75"/>largiatur eisdem spiritualem sanitatem et alia dona quibus ad vitam
+            spiritua<lb ed="#N" n="76" break="no"/>lem indigere cognoscit.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e519">
+            ⁋ Dicendum ergo ad primum. quod paruulus non
+            pro<lb ed="#N" n="77" break="no"/>prie cathecizatur. sed cum dicitur ab ipso patrino credo: ipse
+            obliga<lb ed="#N" n="78" break="no"/>tur quantum in ipso est ad hoc quod paruulus cathecizetur cum erit
+            discipli<lb ed="#N" n="79" break="no"/>ne susceptibilis. et ideo non fit ociose quod requiritur ante baptismum
+            <lb ed="#N" n="80"/>de huiusmodi in quibus obligatur patrinus pro paruulo.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e530">
+            ⁋ Ad aliud
+            di<lb ed="#N" n="81" break="no"/>cendum quod patrinus respondet pro paruulo vel pro se: secundum quod pro paruulo
+            <lb ed="#N" n="82"/>sensus est credo id est fidei sacramentum suscipio et sic non mentitur
+            <lb ed="#N" n="83"/>Unde augustinus in libro. de baptismo paruulorum. Quis nesciat
+            crede<lb ed="#N" n="84" break="no"/>re esse infantibus baptizari et non credere non baptizari. Sed
+            <lb ed="#N" n="85"/>quod pro se similiter non mentitur. quia ipsa ratione obligat se
+            pa<lb ed="#N" n="86" break="no"/>trinus ad instruendum eum in fide: quando oportunitas se offerret.
+            <lb ed="#N" n="87"/>quia sensus est credo id est me et puerum ad credendum obligo.
+            me<lb ed="#N" n="88" break="no"/>scilicet ad instruendum eum in fide vnde nisi instrueretur ab aliis:
+            pa<lb ed="#N" n="89" break="no"/>trini tenentur illos instruere tentione necessitatis.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e553">
+            ⁋ Ad illud
+            <lb ed="#N" n="90"/>vero quod queritur vtrum paruulus obligetur: responderi potest quod per se
+            obli<lb ed="#N" n="91" break="no"/>gatur patrinus ad procurandum quod credit: paruulus autem obligatur ad
+            <lb ed="#N" n="92"/>credendum cum habebit vsum rationis: ex hoc quod sacramentum
+            <lb ed="#N" n="93"/>fidei suscipit etsi vult saluari.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e564">
+            ⁋ Ad aliud vero dicendum. quod
+            <lb ed="#N" n="94"/>vbi melioratur conditio alicuius: potest aliquis per alium
+            obli<lb ed="#N" n="95" break="no"/>gari licet ignoret. sicut dicit lex. pro ignorante fide iubere.
+            <lb ed="#N" n="96"/>et ignoranti actio requiritur sicut est de pupillo cuius
+            conditio<lb ed="#N" n="97" break="no"/>nem potest meliorare tutor. idem est enim ac si quereretur a
+            <lb ed="#N" n="98"/>pupillo. cur conuenitur in iudicio: cum non intelligat quid ab
+            <lb ed="#N" n="99"/>eo petitur nec sciat petitioni respondere. in quo manifestum est
+            <lb ed="#N" n="100"/>quia tutor debet eum defendere et pro eo respondere: aut totam
+            cau<lb ed="#N" n="101" break="no"/>sam nomine illius agere. Sicut ergo negat autm concedit nomine
+            <lb ed="#N" n="102"/>pupilli ipso ignorante aut contradicente et facit conditionem eius
+            <lb ed="#N" n="103"/>meliorem in causa quam pro ipso agit: sic et multo fortius in
+            cau<lb ed="#N" n="104" break="no"/>sa animarum quod fiet per tutorem spiritualem. Item si leges humane et
+            <lb ed="#N" n="105"/>iusticia prouidit pupillis tutores et adiutores ad acquisitio
+            <lb ed="#N" n="106"/>nem. conseruationem. multiplicationem temporalium: quantofortius
+            iusti<lb ed="#N" n="107" break="no"/>cia et lex diuina pupillos spirituales absque huiusmodi adiutorum
+            spi<lb ed="#N" n="108" break="no"/>ritualium prouisione non dereliquit. propter bonorum spiritualium
+            <lb ed="#N" n="109"/>acquisitionem multiplicationem et conseruationem. et dicimus quod paruulus
+            <lb ed="#N" n="110"/>credit per patrinum: et patrinus credit ei id est ad opus et commodum eius
+            <lb ed="#N" n="111"/>nec paruulus dicitur credere proprie: sed sacramentum fidei suscipere.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e606">
+            <lb ed="#N" n="112"/>⁋ Ad aliud dicendum quod non est simile. quia aliter est in his
+            <lb ed="#N" n="113"/>que sunt de necessitate vite spiritualis sicut est de promissione
+            <lb ed="#N" n="114"/>facta in baptismo: et aliter in his que superaddantur ad
+            perfecti<lb ed="#N" n="115" break="no"/>onem. Nemo enim sine proprio sensu superueniente ad perfectionem
+            <lb ed="#N" n="116"/>tenetur. ad ea enim que sunt de necessitate vite quocumque obligamn
+            <lb ed="#N" n="117"/>te tenetur.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e622">
+            ⁋ Ad aliud dicendum. quod aliud est respondere credo cum
+            <lb ed="#N" n="118"/>tamen nesciatur vtrum credat: et respondere de moribus. Nam cum
+            <lb ed="#N" n="119"/>dicit credo: sensus est. sacramentum fidei suscipio. Unde
+            au<lb ed="#N" n="120" break="no"/>gus. ad Bonifacium. Sicut sacramentum corporis christi corpus christi
+            <lb ed="#N" n="121"/>est. et sicut sacramentum sanguinis christi est sanguis christi: ita
+            sacra<lb ed="#N" n="122" break="no"/>mentum fidei fides. Unde credere est sacramentum fidei
+            ha<lb ed="#N" n="123" break="no"/>bere. et sicut vere respondet et bene. et hoc modo est cum dicitur
+            abrenun<lb ed="#N" n="124" break="no"/>tio sathane: sensus est: in baptismo si digne suscipitur sic
+            ab<lb ed="#N" n="125" break="no"/>renuntio sathane et pompis eius. Est tamen quedam abrenunciatio in
+            <lb ed="#N" n="126"/>patrino ad procurandum quod credat et quod abrenunciet. Si autem
+            <lb ed="#N" n="127"/>ponatur alia expositio patet etiam ad hoc quomo respondendum est.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e646">
+            ⁋
+            Si<lb ed="#N" n="128" break="no"/>autem queratur quare paruuli per alios credunt vel confitentur. vel sic
+            <lb ed="#N" n="129"/>respondent: Augu. paruuli ex adam egroti ad ecclesiam potantur. et
+            <lb ed="#N" n="130"/>si pedibus illi currere non possunt: alienis pedibus currunt.
+            ac<lb ed="#N" n="131" break="no"/>comodat illis mater ecclesia et aliorum os vt credant: et aliorum
+            <lb ed="#N" n="132"/>linguam vt fateantur. Item Isid. de officiis paruuli alio
+            profiten<lb ed="#N" n="133" break="no"/>te baptim antur. qui adhuc loqui vel credere nesciunt: sicut
+            eti<lb ed="#N" n="134" break="no"/>am egri. muti et surdi. quorum vice aliorum profitetur vt pro eis
+            <lb ed="#N" n="135"/>respondeat cum baptizantur.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e666">
+            ⁋ Sed adhuc queritur que sit
+            diffe<lb ed="#N" n="136" break="no"/>rentia cum dicitur abrenuncio sathane et omnibus pompis eius
+            <lb ed="#N" n="137"/>Ad quod responderi potest. quod designatur ibi deformitas
+            peccati<lb ed="#N" n="138" break="no"/>et actus et circumstantie que nomine pompe intelliguntur: vt non
+            ha<lb ed="#N" n="139" break="no"/>bere debeat dyabolus possessionem in ipso ratione
+            deformita<lb ed="#N" n="140" break="no"/>tis vel actus vel circumstantiarum.
+          </p>
+        </div>
+        <div xml:id="v78d89-a35dcb-Dd1e680">
+          <head xml:id="v78d89-a35dcb-Hd1e682">Articulus 3</head>
+          <p xml:id="v78d89-a35dcb-d1e684">
+            <pb ed="#N" n="94"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e693">
+            <lb ed="#N" n="2"/>DEinde queritur quorum officium erat cathecizare
+            adul<lb ed="#N" n="3" break="no"/>tos ad baptismum venientes. dicitur enim in
+            principio<lb ed="#N" n="4" break="no"/>libri de cathecizandis rudibus. quo ad fratrem
+            <lb ed="#N" n="5"/>deo gratias adducebantur: qui christiana fide erant inbuendi cum
+            <lb ed="#N" n="6"/>esset dyaconus. et ita videtur quod eorum officium. Nunc autem sicut
+            ex<lb ed="#N" n="7" break="no"/>orcismus est sacerdotum: ita et cathecismus. cum hec sint
+            sacramen<lb ed="#N" n="8" break="no"/>talia baptismi. officium autem sacerdotis est baptizare: alterius
+            <lb ed="#N" n="9"/>vero est in necessitate.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e713">
+            ⁋ Ad quod responderi potest. quod proprie est
+            sacer<lb ed="#N" n="10" break="no"/>dotis officium circa adultos accedentes. de conse. di. iiii.
+            Nico<lb ed="#N" n="11" break="no"/>laus papa. Cathecismi baptizandorum a sacerdotibus
+            vnius<lb ed="#N" n="12" break="no"/>cuiusque ecclesie possunt fieri. sicut in hac sancta romana
+            ec<lb ed="#N" n="13" break="no"/>clesia: cum deo auctore ministerium exhibemus nostri famulatus
+            so<lb ed="#N" n="14" break="no"/>lenniter fieri comprobantur. patrinos autem incumbit circa paruulos
+            <lb ed="#N" n="15"/>et etiam patrum spiritualium est instruere ipsos cum sint discipline
+            <lb ed="#N" n="16"/>susceptibiles. dicit enim ambro. Quod longe plus debemus
+            dili<lb ed="#N" n="17" break="no"/>gere filios quos de sacro fonte suscipimus: quam illos quos secundum
+            <lb ed="#N" n="18"/>carnem genuimus. sed hanc auctoritatem oportet intelligere non
+            simpli<lb ed="#N" n="19" break="no"/>citer: sed quantum ad hoc scilicet quod spopondit pro isto: pro filio autem
+            car<lb ed="#N" n="20" break="no"/>nali non spopondit actualiter. obligatur tamen tum ex dei precepto
+            <lb ed="#N" n="21"/>tum ex obligatione nature qua fenetur educare filios ad cultum
+            <lb ed="#N" n="22"/>dei. In primitiua autem ecclesia aliorum etiam erat instruere
+            adul<lb ed="#N" n="23" break="no"/>tos ad baptismum accedentes. et hoc per verbum dyonisii qui dicit.
+            <lb ed="#N" n="24"/>quod cathecizandus ducebatur ab anadocho ad hierarchiam.
+            ana<lb ed="#N" n="25" break="no"/>dochus autem dicitur sursum ducens quia sursum ducebat
+            instruen<lb ed="#N" n="26" break="no"/>dum ad sacrum principem. vel dicitur forte propter hoc quod episcopi
+            bapti<lb ed="#N" n="27" break="no"/>zare solebant antiquitus iam instructos in sabbato et prius
+            in<lb ed="#N" n="28" break="no"/>struebantur adulti. Unde di. iiii. de conse. De cathecuminis
+            bapti<lb ed="#N" n="29" break="no"/>zandis id decretum est. vt in paschali festiuitate vel penthe.
+            <lb ed="#N" n="30"/>veniant ad baptizandum. ceteris autem solennitatibus infirmi tantum
+            <lb ed="#N" n="31"/>debent baptizari. Et in eadem di. dicitur. Ante viginti dies
+            ba<lb ed="#N" n="32" break="no"/>ptismi ad purgationem exorcismi cathecumini currant in
+            qui<lb ed="#N" n="33" break="no"/>bus vigiti diebus omnino simbolum quod est credo in deum
+            patren<lb ed="#N" n="34" break="no"/>omnipotentem specialiter doceantur.
+          </p>
+        </div>
+        <div xml:id="v78d89-a35dcb-Dd1e771">
+          <head xml:id="v78d89-a35dcb-Hd1e773">Articulus 4</head>
+          <p xml:id="v78d89-a35dcb-d1e775">
+            <lb ed="#N" n="35"/>⁋ Articulus <sic>quintus</sic>
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e782">
+            <lb ed="#N" n="36"/>DEinde queritur vtrum cathecuminus ex ratione
+            cathe<lb ed="#N" n="37" break="no"/>cismi vitam spiritualem habere dicatur: cum ad fidem
+            <lb ed="#N" n="38"/>instruatur.
+          </p>
+          <p xml:id="v78d89-a35dcb-d1e791">
+            ⁋ Ad quod respondet augu. ad fortunatum
+            <lb ed="#N" n="39"/>sic. Cathecuminum quamuis in bonis operationibus defunctum
+            <lb ed="#N" n="40"/>vitam habere non credimus. excepto duntaxat nisi martirii
+            <lb ed="#N" n="41"/>compleat sacramentum baptizatus confitetur fidem suam
+            co<lb ed="#N" n="42" break="no"/>ram sacerdote: et interrogatus respondet hoc idem martir coram
+            <lb ed="#N" n="43"/>persecutore. Ile post confessionem aspergitur aqua: ille vero
+            <lb ed="#N" n="44"/>aspergitur sanguine vel contingitur igne. Ille manus
+            im<lb ed="#N" n="45" break="no"/>positione pontificis accipit spiritum sanctum: hic
+            habitacu<lb ed="#N" n="46" break="no"/>lum spiritus sancti efficitur dum non est ibi qui loquitur: sed
+            <lb ed="#N" n="47"/>spiritus sanctus qui in illo loquitur. Ille communicat
+            eucha<lb ed="#N" n="48" break="no"/>ristie in commemoratione mortis dei: hic commoritur christo. et
+            lo<lb ed="#N" n="49" break="no"/>quitur de non baptizato vbi non adest quod suppleat vicem
+            ba<lb ed="#N" n="50" break="no"/>ptismi. Nam si sacramentum martirii habeat sicut fuit in
+            <lb ed="#N" n="51"/>beata emerenciana: vitam habet licet non habuerunt
+            sa<lb ed="#N" n="52" break="no"/>cramentum aque.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

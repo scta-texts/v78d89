@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 67, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 67, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="434"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acp509"><!-- q67m2 -->
+        <head xml:id="v78d89-acp509-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-acp509-Hd1e103" type="question-title">Quid sit nomine</head>
+        <p xml:id="v78d89-acp509-d1e106">
+          <lb ed="#N" n="125"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-acp509-d1e111">
+          <lb ed="#N" n="126"/>COnsequenter queritur de ratione huius nominis contriio.
+          <lb ed="#N" n="127"/>quia cum contritio sit actio per essentiam et non passto
+          vi<lb ed="#N" n="128" break="no"/>tactum est: videtur quod debeat exprimi noine
+          siqifi<lb ed="#N" n="129" break="no"/>casate modum actionis: non passionis. vt ita esset
+          <lb ed="#N" n="130"/>congruentia modi significandi ad rem sign. ficatiuam. Quod
+          auten<lb ed="#N" n="131" break="no"/>hoc nomen contritio significet passiue: patet per eius denomnam
+          <lb ed="#N" n="132"/>quod est contritus. a contritione enim dicitur contritus.
+        </p>
+        <p xml:id="v78d89-acp509-d1e129">
+          ⁋ Item cum
+          co<lb ed="#N" n="133" break="no"/>tritio secundum quod est pars penitentie actum importet directe:
+          <lb ed="#N" n="134"/>non passionem. aliter enim non esset meritoria: quare a
+          con<lb ed="#N" n="135" break="no"/>tritione dicitur aliquis contritus et non conterens. vt
+          expe<lb ed="#N" n="136" break="no"/>meretur penitens magis agens quam patiens.
+        </p>
+        <p xml:id="v78d89-acp509-d1e141">
+          ⁋ Item
+          confi<lb ed="#N" n="137" break="no"/>tens denomnatur actiue non passiue: similiter satisfaciens. quare non
+          <lb ed="#N" n="138"/>similiter contritus.
+        </p>
+        <p xml:id="v78d89-acp509-d1e148">
+          ⁋ Item cum contritio sit dolor essentialiter quere
+          <lb ed="#N" n="139"/>non nominatur dolor et non contritio.
+        </p>
+        <p xml:id="v78d89-acp509-d1e153">
+          ⁋ Item cum compunctio quandque
+          <pb ed="#N" n="435"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>accipiatur pro parte penitentie et non pro confessione neque pro
+          <lb ed="#N" n="2"/>satisfactione sed pro contritione: quare non nominatur compunctio in
+          <lb ed="#N" n="3"/>enumeratione pertium penitentie.
+        </p>
+        <p xml:id="v78d89-acp509-d1e166">
+          ⁋ Item nonne conuenienter nominare
+          <lb ed="#N" n="4"/>tur hec pars penitentie contritio vel attritio.
+        </p>
+        <p xml:id="v78d89-acp509-d1e171">
+          ⁋ Item contritio
+          <lb ed="#N" n="5"/>dicitur de con et tritio. vnde con notat associationem similiter
+          con<lb ed="#N" n="6" break="no"/>fessio. quaretercia pars scilicet satisfactio non similiter comnotat asso
+          <lb ed="#N" n="7"/>ciationem vt diceretur confactio vel aliquid tale. vel quare
+          ma<lb ed="#N" n="8" break="no"/>gis iste partes comnnotant associationem quam illa.
+        </p>
+        <p xml:id="v78d89-acp509-d1e182">
+          ⁋ Item que est ratio
+          <lb ed="#N" n="9"/>methaphore qua dicitur penitentem conferi de peccato. et
+          differen<lb ed="#N" n="10" break="no"/>tia huius contritionis ab illa qua peccator conteritur in inferno.
+          Iu<lb ed="#N" n="11" break="no"/>xta illud eccessasti. xxvii. conteretur cum delinquente delictum.
+        </p>
+        <p xml:id="v78d89-acp509-d1e192">
+          ⁋ Re
+          <lb ed="#N" n="12"/>sponsio quod contritio actionem dicit et actionem agentis in seipso.
+          <lb ed="#N" n="13"/>et quoniam actio siue actus completur quasi in passione et in facto esse
+          <lb ed="#N" n="14"/>cum aliquis agit in se. actionis eius inducens complementum in ipso
+          <lb ed="#N" n="15"/>relinquitur quasi passio siue res facta. ideo contritio vt est in
+          pe<lb ed="#N" n="16" break="no"/>nitente nominatu vt passio a sui complemento. et dicitur penitens
+          con<lb ed="#N" n="17" break="no"/>tritus. et ex hoc est quod penitens conuenientius dicitur contritus quam
+          con<lb ed="#N" n="18" break="no"/>terens: cum scilicet gratia operante inducat sue actionis complementum
+          <lb ed="#N" n="19"/>non sic est de confessione et satisfactione. immo ad horum complementum
+          <lb ed="#N" n="20"/>requiritur aliquid extra adiunctum. vt in confessione sacerdos: et
+          <lb ed="#N" n="21"/>in satisfactione sacramentali aliquid extra in quo excitetur
+          <lb ed="#N" n="22"/>et sic patet responsio ad illud.
+        </p>
+        <p xml:id="v78d89-acp509-d1e218">
+          ⁋ Ad aliud dicendum. quod
+          conuenien<lb ed="#N" n="23" break="no"/>tius nominatur hec pars penitentie contritio quam dolor. quia contritio
+          <lb ed="#N" n="24"/>non tantum nominat dolorem sed dolorem intensum cuiusmodi est ne
+          <lb ed="#N" n="25"/>cessarius penitenti. frequenter aut dolore afficitur anima: nec
+          <lb ed="#N" n="26"/>tamen acerbitate doloris conteritur.
+        </p>
+        <p xml:id="v78d89-acp509-d1e229">
+          ⁋ Ad illud quod queritur de
+          <lb ed="#N" n="27"/>compunctione. dicendum quod licet contritio et compunctio idem
+          di<lb ed="#N" n="28" break="no"/>cant vt frequentius: tamen differunt secundum rationem. Ut autem habetur
+          <lb ed="#N" n="29"/>ab augustinu. Lacrime sunt testes doloris. quia contritio dicit ipsam
+          <lb ed="#N" n="30"/>doloris acerbitatem sine signi expressione quantum est de ratione
+          <lb ed="#N" n="31"/>nominis. compunctio dicit ipsum dolorem cum expressione signi id est
+          <lb ed="#N" n="32"/>lacrimarum. Ut enim dicit augustinus lacrime sunt testes doloris.
+          <lb ed="#N" n="33"/>Sicut enim habetur ab ysiud. de sum. bo. Compunctio cordis
+          <lb ed="#N" n="34"/>est humilitas mentis cum lacrimis exoriens de recordatione
+          <lb ed="#N" n="35"/>peccati et timore iudicii.
+        </p>
+        <p xml:id="v78d89-acp509-d1e251">
+          ⁋ Si ex dictu obiiceretur quod pertibus
+          <lb ed="#N" n="36"/>penitentie sacramenti magis conueniret quod exprimerentur
+          no<lb ed="#N" n="37" break="no"/>minibus importantibus significationem exteriorem quom aliis nominibus
+          <lb ed="#N" n="38"/>non huiusmodi. dicendum quod illa parte penitentie que est contritio
+          con<lb ed="#N" n="39" break="no"/>mutatur pena infinita. non ratione significationis ex parte
+          nomi<lb ed="#N" n="40" break="no"/>nis: sed ratione intentionis ex parte rei mediante gratia vt
+          cau<lb ed="#N" n="41" break="no"/>sa prima. propter quod magis congruit quod exprimatur intentio
+          <lb ed="#N" n="42"/>quam significatio.
+        </p>
+        <p xml:id="v78d89-acp509-d1e269">
+          ⁋ Ad illud quod queritur. an conuenienter nomina
+          <lb ed="#N" n="43"/>retur attritio vel tritio. dicendum quod non. Cum enim dolor
+          pe<lb ed="#N" n="44" break="no"/>nitentialis efficaciam habeat a gratia. congruit quod etiam ex
+          <lb ed="#N" n="45"/>parte nominis apponatur aliquid quod connotet associationem gratie.
+          <lb ed="#N" n="46"/>quod notatur per hoc quod dicitur con. Preterea. quia ad veram
+          pe<lb ed="#N" n="47" break="no"/>nitentiam requiritur quod penitens de multis doleat que
+          circun<lb ed="#N" n="48" break="no"/>stant peccata commissa. congruit quod ex parte nominis apponatur
+          <lb ed="#N" n="49"/>aliquid comnotans associationem.
+        </p>
+        <p xml:id="v78d89-acp509-d1e287">
+          ⁋ Ad illud quod queritur
+          qua<lb ed="#N" n="50" break="no"/>re in tercia parte penitentie non ponitur aliquid comnotans asso
+          <lb ed="#N" n="51"/>ciationem etc. dicendum quod aliter respiciunt ipsum peccatum
+          con<lb ed="#N" n="52" break="no"/>tritio et confessio: aliter satisfactio. Contritio enim set
+          confe<lb ed="#N" n="53" break="no"/>sio non solum respiciunt ipsum genus peccati sed et circumstanti
+          <lb ed="#N" n="54"/>as: et illa que ad grauamen peccati concurrunt. propter quod
+          <lb ed="#N" n="55"/>ex parte nominis eorum apponitur nota simultatis. Unde
+          contri<lb ed="#N" n="56" break="no"/>tio dicitur quasi simul tritio de multis. sed satisfactio magis
+          <lb ed="#N" n="57"/>respicit ipsum genus operis siue peccati. Et hocinnuit greg. dicens
+          <lb ed="#N" n="58"/>Sicut arte medicine calida frigidis et frigida calidis
+          cu<lb ed="#N" n="59" break="no"/>rantur: ita dominus noster contraria composuit medicamenta
+          pec<lb ed="#N" n="60" break="no"/>catis. vt lubricis continentiam: tenacibus largitatem:
+          iracun<lb ed="#N" n="61" break="no"/>dis mansuetudinem: elatis preciperet humilitatem. Ecce quod
+          sa<lb ed="#N" n="62" break="no"/>tisfactio per se respicit genus peccati. Preterea. sicut per nomen
+          contri<lb ed="#N" n="63" break="no"/>tionis et confessionis notatur simultas multorum super quibus debet
+          peni<lb ed="#N" n="64" break="no"/>tens dolere et que debet fateri: similiter per nomn satisfactionis
+          no<lb ed="#N" n="65" break="no"/>tatur simultas et pluralitas pro quibus deo satagendum est. Quod
+          <lb ed="#N" n="66"/>enim dico satisfacere: dicit sufficientiam in operibus que requirit emne
+          <lb ed="#N" n="67"/>da penitentie. Unde et si in omnibus sit modus diuersus
+          exprimen<lb ed="#N" n="68" break="no"/>di: idem tamen est in re expressa.
+        </p>
+        <p xml:id="v78d89-acp509-d1e332">
+          ⁋ Ad illud quod queritur. que est ratio
+          me<lb ed="#N" n="69" break="no"/>tbaphore etc. Responsio. nota quod in contritione penitentie
+          <lb ed="#N" n="70"/>tria sunt attendenda. quod conteritur: a quo conteritur et ad quid
+          con<lb ed="#N" n="71" break="no"/>tritio terminatur. Quod conteritur est cor peccatoris. quod est sanquam vas
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>fictile rrpletum veneno peccati. Iuxta illud deuter. xxxii. Fel dra
+          <lb ed="#N" n="73"/>conum vinum eorum. A quo conteritur est duplex mola. vna superius
+          <lb ed="#N" n="74"/>sursum eleuans: et hec est spes venie. ex consideratione
+          diui<lb ed="#N" n="75" break="no"/>ne misericordie. Alia mola deorsum deprimens timore
+          pe<lb ed="#N" n="76" break="no"/>ne: veniens ex consideratione diuine iuiticie. Et de his molis
+          <lb ed="#N" n="77"/>dicitur Deuter. xxiiii. Non accipies loca pignoris inferiorem
+          <lb ed="#N" n="78"/>et superiorem molam. Istud vas conteritur vt peccati delectatio
+          <lb ed="#N" n="79"/>totaliter effundatur. ideo dicitur contritio non fractio. quia
+          fra<lb ed="#N" n="80" break="no"/>ctio est in maiores partes: contritio in minores. et quando in
+          ma<lb ed="#N" n="81" break="no"/>iores partes est fractio: sapor aliquo modo remanet. vt autem non
+          <lb ed="#N" n="82"/>remaneat nec sapor nec veritas: ideo in partes minutas
+          con<lb ed="#N" n="83" break="no"/>teritur. hec autem delectat io totaliter remouetur per penam eter
+          <lb ed="#N" n="84"/>nam: et remouetur per gratiam. et ido vtrobique dicitur contritio et
+          <lb ed="#N" n="85"/>in pena eterna secundum illud eccesasti. xxvii. conteretur cum
+          delinquen<lb ed="#N" n="86" break="no"/>tem delictum et per gratiam. psalm. Cor contritum et humiliatum deus non
+          <lb ed="#N" n="87"/>despicias. sed aliter et aliter quia ibi conteretur in puluerem:
+          <lb ed="#N" n="88"/>non vt aliud vas fiat: quia de impiis dicitur. Non sic impii non
+          <lb ed="#N" n="89"/>sic sed tanquam puluis etc. sed in contritione gratie est contritio
+          <lb ed="#N" n="90"/>ad generandum vas nouum et solidum per humorem gratie et
+          lacri<lb ed="#N" n="91" break="no"/>marum: et ideo recte dicitur contritio non attritio. quia pertium
+          tri<lb ed="#N" n="92" break="no"/>tarum est vnio vt fiat in honorem. secundum illud quod dicitur de
+          pau<lb ed="#N" n="93" break="no"/>lo. Uas electionis est iste mihi Act. ix. Et. ii. thi. ii. Si quis
+          <lb ed="#N" n="94"/>emundauerit se ab istis: erit vas in honorem sanctificatum. et
+          <lb ed="#N" n="95"/>sic patet ratio dicti et differentia contritionis huius ad illam
+          <lb ed="#N" n="96"/>que est in inferno.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

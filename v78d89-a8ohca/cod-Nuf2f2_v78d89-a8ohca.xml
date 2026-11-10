@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 42, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 42, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="310"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8ohca"><!-- q42m4 -->
+        <head xml:id="v78d89-a8ohca-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a8ohca-Hd1e103" type="question-title">De partium significatione</head>
+        <p xml:id="v78d89-a8ohca-d1e106">
+          <lb ed="#N" n="95"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e111">
+          <lb ed="#N" n="96"/>COnsequenter queritur de partium significatione
+          <lb ed="#N" n="97"/>Obiicitur ergo contra significationem diuisionis pse
+          <lb ed="#N" n="98"/>quod hoc sacramentum est sacramentum vnionis. hoc enim
+          sacra<lb ed="#N" n="99" break="no"/>mento significatur vnio corporis christi veri et
+          mi<lb ed="#N" n="100" break="no"/>stici. Sicut enim panis cuius species est sacramentum existit ex multise
+          <lb ed="#N" n="101"/>puris granis vnitis. sic corpus christi ex multis mempris puris
+          <lb ed="#N" n="102"/>et absque omnis peccati macula immunis: et corpus misticum ex
+          mr<lb ed="#N" n="103" break="no"/>tis personis mundis et immaculatis consistit.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e131">
+          ⁋ Item huius sacramt
+          <lb ed="#N" n="104"/>ti efficacia est ad vnionem membrorum christi et eius principalis
+          <lb ed="#N" n="105"/>effectus est vnio eorundem. Unde Augustinus iiii. de trimi. hoc
+          sacre<lb ed="#N" n="106" break="no"/>mentum est signum vnitatis. vinculum caritatis: ergo non
+          vider<lb ed="#N" n="107" break="no"/>quod aliud debeat hic fieri quod sit signum diuisionis. fractio
+          <lb ed="#N" n="108"/>autem hostie signum est diuisionis.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e145">
+          ⁋ Item videtur quod
+          sufficere<lb ed="#N" n="109" break="no"/>diuisio in duas partes. ita quod vna pars significaret caput quod
+          <lb ed="#N" n="110"/>est caput et membrum. sicut vult Inno. et Hug. et etiam sergius
+          <lb ed="#N" n="111"/>papa qui dicit. quod vna pars significat corpus christi quod iam resurre
+          <lb ed="#N" n="112"/>xit. et alia pars significet ipsa membra que tantum membra sunt.
+          Cor<lb ed="#N" n="113" break="no"/>pus enim christus est. vniuersa ecclesia caput scilicet cum membris et vno
+          <lb ed="#N" n="114"/>pars est ipsum caput. caput enim et caput est et pars corporis. similiter
+          ha<lb ed="#N" n="115" break="no"/>hetur ab Hug. et aliis expositoribus scripture sacre.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e163">
+          ⁋ Si
+          <lb ed="#N" n="116"/>diceretur quod diuisio solummodo refertur ad membra tantum id est quod sunt
+          <lb ed="#N" n="117"/>ita membra quod non caput. Contra. ab Hug. et Inno. habetu
+          <lb ed="#N" n="118"/>quod vna pars illarum que ponitur in calice signat christum inquantum est
+          <lb ed="#N" n="119"/>membrum.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e174">
+          ⁋ Preterea. dato quod solummodo significent partes ille o
+          <lb ed="#N" n="120"/>tantum partes ille: adhuc videtur quod sufficeret in duas partes diuide
+          <lb ed="#N" n="121"/>re. quia ecclesia sufficienter diuiditur in viuos et mortuos
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e181">
+          <lb ed="#N" n="122"/>⁋ Si dicatur quod mortui sunt dupliciter. quia quidam in
+          pur<lb ed="#N" n="123" break="no"/>gatorio. quidam in paradiso. hoc non soluit: quia beati non
+          <lb ed="#N" n="124"/>indigent sacrificio: ergo non debent in nostro sacrificio de
+          <lb ed="#N" n="125"/>signari.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e192">
+          ⁋ Item videtur quod in plures partes quam tres debeat
+          di<lb ed="#N" n="126" break="no"/>uidi. quia viui quidam actiui. quidam contemplatiui.
+          qui<lb ed="#N" n="127" break="no"/>dam prelati. quidam boni. quidam mali. Sed si debeant
+          <lb ed="#N" n="128"/>signari viui sicut mortui: multoplures debent esse partes.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e201">
+          <lb ed="#N" n="129"/>⁋ Si dicatur quod mali non debent. Contra christus pro omnibus
+          <lb ed="#N" n="130"/>se obtulit in cruce. sed hec oblatio est rememoratio illius:
+          <lb ed="#N" n="131"/>ergo etc.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e211">
+          ⁋ Item significatio partium his versibus exprimi
+          <lb ed="#N" n="132"/>tur. hostia diuiditur in partes tincta beatos plene.
+          Sic<lb ed="#N" n="133" break="no"/>ca notat viuos seruata sepultos. Contra hanc expositionem
+          <lb ed="#N" n="134"/>obiicitur. dicitur enim quod pars intincta significat beaios
+          <lb ed="#N" n="135"/>Sed contra. calix significat passionem: ergo nullo modo
+          con<lb ed="#N" n="136" break="no"/>gruit ad significandum beatos.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e224">
+          ⁋ Item Sergius papa
+          di<lb ed="#N" n="137" break="no"/>cit quod pars illa significat corpus christi. quod iam resurrexit.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e229">
+          <lb ed="#N" n="138"/>⁋ Item dicitur quod sicca signat viuos. contra Hug. et Imo.
+          <pb ed="#N" n="311"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>dicunt quod vna illarum partium que seruantur extra ca
+          licenm<lb ed="#N" n="2" break="no"/>signantur beati.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e242">
+          ⁋ Item dicitur quod pars seruata significat
+          <lb ed="#N" n="3"/>mortuos. Contra. pauci aut nulli reseruant: ergo nulli
+          perfi<lb ed="#N" n="4" break="no"/>ciunt sacramentum.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e249">
+          ⁋ Item Sergius ponit expositionem hanc.
+          <lb ed="#N" n="5"/>Pars oblate in calicem missa corpus christi quod iam
+          resur<lb ed="#N" n="6" break="no"/>rexit monstrat. Pars commesta ambulantes sunt adhuc
+          su<lb ed="#N" n="7" break="no"/>per terram. Pars in altari vsque ad finem misse remanens
+          <lb ed="#N" n="8"/>corpus iacens in sepulcro: quia vsque in finem seculi
+          corpo<lb ed="#N" n="9" break="no"/>ra sanctorum in sepulchris erunt. Potest ergo queri ratio
+          <lb ed="#N" n="10"/>expositionis eorum qui ponunt christum significari per vnam
+          <lb ed="#N" n="11"/>portionem diuisionis. et illorum qui ponunt solummodo
+          <lb ed="#N" n="12"/>membra alia a christo significari per ipsas partes.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e269">
+          ⁋ Responsio. quod
+          si<lb ed="#N" n="13" break="no"/>cut habetur a magistro. iiii. senten. ipsa fractio passionem christi
+          <lb ed="#N" n="14"/>significat. Pre. Augustinus in li. sententiarum prosperi. Cum
+          fran<lb ed="#N" n="15" break="no"/>gitur hostia. dum sanguis de calice in ora fidelium
+          fundi<lb ed="#N" n="16" break="no"/>tur. quid aliud quam dominici corporis in cruce immolatio
+          eiul<lb ed="#N" n="17" break="no"/>que sanguinis de latere effusio designatur. Partes autem
+          <lb ed="#N" n="18"/>fracte signant secundum aliquas partes corporis mistici. et quia
+          men<lb ed="#N" n="19" break="no"/>bra in corpore mistico sunt in iriplici differentia. quidam enim
+          <lb ed="#N" n="20"/>regnant in gloria. quidam securi expectant in sepulchro. qui
+          <lb ed="#N" n="21"/>dam autem pugnant in merito. Ideo tantum tres partes sunt
+          <lb ed="#N" n="22"/>hec autem significantur versibis pretactis.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e294">
+          ⁋ Ad illud autem quod
+          <lb ed="#N" n="23"/>primo obiicitur. dicendum. quod licet istud sacramentum sit
+          sa<lb ed="#N" n="24" break="no"/>cramentum vnionis et in significando et efficiendo: tamen nihil
+          <lb ed="#N" n="25"/>impedit quin fractio specierum possit aliquid significare. vt
+          <lb ed="#N" n="26"/>pote diuisionem que fuit in passione christi sicut species vna
+          <lb ed="#N" n="27"/>id est indiuisa est signum vnionis.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e307">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="28"/>quod tantum deberent esse due partes scilicet quibus significarentur
+          ca<lb ed="#N" n="29" break="no"/>put et membra. dicendum quod hoc non oportet cum ipsa
+          mem<lb ed="#N" n="30" break="no"/>bra in multiplici comparantur differentia.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e316">
+          ⁋ Ad aliud quod
+          <lb ed="#N" n="31"/>obiicitur. quod deberet sufficere diuisio in duas partes. cum in
+          <lb ed="#N" n="32"/>ecclesia non sint nisi viui et mortui. Dicendum quod mortui sunt
+          <lb ed="#N" n="33"/>in duplici differentia. vnde due partes sunt ad
+          significan<lb ed="#N" n="34" break="no"/>dum illos.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e327">
+          ⁋ Ad illud quod obiicitur. quod non deberet aliqua
+          <lb ed="#N" n="35"/>esse pro beatis. Dicendum. quod hoc sacrificium non tantum
+          offer<lb ed="#N" n="36" break="no"/>tur in expiationem defectuum: sed in gratiarumactionem. et
+          <lb ed="#N" n="37"/>ideo pro miseris et beatis.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e336">
+          ⁋ Ad aliud quod obiicitur. quod
+          viui<lb ed="#N" n="38" break="no"/>sunt in multiplici differentia sicut mortui. dicendum quod non
+          <lb ed="#N" n="39"/>sunt in tanta differentia. Quia omnes viui indigent
+          sacri<lb ed="#N" n="40" break="no"/>ficio expiante a culpa. vnde conuenienter comprehenduntur sub
+          <lb ed="#N" n="41"/>vna differentia. Quidam autem mortui sacrificio liberante
+          <lb ed="#N" n="42"/>a pena. Alii solum laudis memoriam.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e349">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="43"/>de malis. dicendum secundum Augustinus. quod sacrificium corporis christi
+          solum<lb ed="#N" n="44" break="no"/>pro his offerri debet. qui sunt de corpore christi. nec valet quod christus
+          <lb ed="#N" n="45"/>pro omnibus oblatus est: quia hic non signantur omnes
+          pro<lb ed="#N" n="46" break="no"/>quibus est oblatus: sed tantum illi qui sunt de corpore mistico.
+          <lb ed="#N" n="47"/>Ad illud quod obiicitur. quod calix signat passionem. Dicendum
+          <lb ed="#N" n="48"/>sd per calicem figura christi sanguis. cuius effusio erat afflictia valde
+          <lb ed="#N" n="49"/>et penalis: nihilominus gustatio sanguiis siue potatio
+          val<lb ed="#N" n="50" break="no"/>de est suauis et delectabilis. Dicitur enim in glo. super illud. i.
+          <lb ed="#N" n="51"/>Corin. xi. spiritualiter letificat et sic inebriat vt sobrium
+          red<lb ed="#N" n="52" break="no"/>dat. Unde calix meus inebrians quampreclarus est. Propter has
+          <lb ed="#N" n="53"/>duas proprietates et passionem significat et patrie
+          iocun<lb ed="#N" n="54" break="no"/>ditatem: vbi beati inebriabuntur ab vbertate domus dei.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e379">
+          <lb ed="#N" n="55"/>⁋ Ad illud quad per partem intinctam significatur corpus
+          <lb ed="#N" n="56"/>christi quod resurrexit. Dicendum quod eadem proprietate
+          sig<lb ed="#N" n="57" break="no"/>ficatur corpus quod resurrexit per partem intinctam: qua
+          <lb ed="#N" n="58"/>ipsi beati. quia resurrexit in plena et perfecta beatitudine
+          <lb ed="#N" n="59"/>Unde christus patiens et christus resurgens per partem intinctam
+          <lb ed="#N" n="60"/>significatur secundum duas proprietates iam dictas. quarum vna
+          <lb ed="#N" n="61"/>respicit effusionem sanguinis que est valde penalis: et alia
+          <lb ed="#N" n="62"/>potationem que est valde suauis. sicut expressio vini de botro
+          <lb ed="#N" n="63"/>est valde violenta: potatio autem vini iocunda.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e401">
+          ⁋ Ad
+          ali<lb ed="#N" n="64" break="no"/>ud quod obiicitur. quod vna pars extra calicem seruata
+          signi<lb ed="#N" n="65" break="no"/>ficat bonos secundum Inno. et Hug. et sicca pars dicitur
+          signi<lb ed="#N" n="66" break="no"/>ficare viuos id est illos qui viuunt vita miserie. Dicendum quod
+          <lb ed="#N" n="67"/>sicut pars intincta significat vno modo immersos in pena:
+          <lb ed="#N" n="68"/>secundum quod calix significat sanguinis effusionem. Alio modo
+          signi<lb ed="#N" n="69" break="no"/>ficat imbutos gaudio secundum quod calix significat potum sanguinis.
+          <lb ed="#N" n="70"/>sie pars sicca scilicet que non intingitur in calice significat viuos vt
+          <lb ed="#N" n="71"/>Hote illos qui sunt extra calicem affluentie delectationis glorie
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>similiter et beatos vtpote illos qui sunt omnino extra calicem
+          <lb ed="#N" n="73"/>passionis.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e427">
+          ⁋ Ad quod obiicitur. quod pauci vel nulli reseruant
+          <lb ed="#N" n="74"/>etc. Dicendum quod etsi consuetudo illa modo non seruatur
+          for<lb ed="#N" n="75" break="no"/>te propter periculum: nihilominus in tripertita diuisione
+          tri<lb ed="#N" n="76" break="no"/>plex status christi conuenienter significatur.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e436">
+          ⁋ Ad illud quod
+          vl<lb ed="#N" n="77" break="no"/>timo queritur. dicendum quod ecclesia que est corpus christi misticum
+          <lb ed="#N" n="78"/>vno considerata continet numerum iustorum reparatorum per christum
+          <lb ed="#N" n="79"/>et sic non continet ecclesia siue corpus christi misticum ipsum christum qui
+          <lb ed="#N" n="80"/>est caput. Alio modo considerata comprehendit numerum iusto
+          <lb ed="#N" n="81"/>rum simpliciter. videlicet secundum quod extenditur ad membrum
+          re<lb ed="#N" n="82" break="no"/>parans et membra reparata: et sic comprehendit caput et
+          mem<lb ed="#N" n="83" break="no"/>bra alia.
+        </p>
+        <p xml:id="v78d89-a8ohca-d1e454">
+          ⁋ Si autem queratur quare non diuiditur hostia in
+          <lb ed="#N" n="84"/>partes equales. sed ita quod vna pars continet quasi medietatem
+          ho<lb ed="#N" n="85" break="no"/>stie: alie due aliam medietatem. Potest dici sine preiudicio. quod
+          <lb ed="#N" n="86"/>partes diuise significant christum et alia membra: aut alia
+          men<lb ed="#N" n="87" break="no"/>bra tantum. secundum quod significant christum qui exultauit vt gigas ad
+          cur<lb ed="#N" n="88" break="no"/>rendum viam cum membris suis conuenit ipsum significari. per
+          <lb ed="#N" n="89"/>partem que in duplo excedit illam partem qua significatur
+          vna<lb ed="#N" n="90" break="no"/>differentia membrorum. Est enim gigas id est gemne substantie
+          di<lb ed="#N" n="91" break="no"/>uine et humane. secundum autem quod significat tantum membra: quia vna
+          <lb ed="#N" n="92"/>differentia membrorum est adhuc in duabus substantiis. id est
+          cor<lb ed="#N" n="93" break="no"/>pore et anime: conuenit quod illa significetur parte que est duplicis
+          <lb ed="#N" n="94"/>portionis respectu illarum que significant alias differentias
+          <lb ed="#N" n="95"/>membrorum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

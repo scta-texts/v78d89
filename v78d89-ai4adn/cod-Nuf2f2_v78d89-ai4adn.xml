@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 105, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 105, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="656"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ai4adn"><!-- q105m2 -->
+        <head xml:id="v78d89-ai4adn-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ai4adn-Hd1e103" type="question-title">De multiplicitate sive numero elemosynarum</head>
+        <p xml:id="v78d89-ai4adn-d1e106">
+          <lb ed="#N" n="41"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e111">
+          <lb ed="#N" n="42"/>SEquitur de multiplicitate siue numero elemo
+          <lb ed="#N" n="43"/>sinarum. et ponuntur multa genera
+          elemosina<lb ed="#N" n="44" break="no"/>irum a magistris. et maxime a magistro sententiarum libro iiii.
+          <lb ed="#N" n="45"/>scilicet. vii. elemosine corporales que continentur in hoc
+          virsu<lb ed="#N" n="46" break="no"/>Uisito cibo poto redimo tego colligo condo. Quarum sex
+          <lb ed="#N" n="47"/>enumerantur math. xxv. Septima vero Thobie. ii.
+          Simili<lb ed="#N" n="48" break="no"/>ter ponuntur septem spirituales que hoc versu continentur. Consule
+          <lb ed="#N" n="49"/>castiga solare doce remitte fer ora.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e131">
+          ⁋ De numero corpora
+          <lb ed="#N" n="50"/>lium dubitatur cum enim modis pluribus fiant corporales
+          elemosi<lb ed="#N" n="51" break="no"/>ne vtpote portando fatigatum in itinere. nullus enim dubitat
+          <lb ed="#N" n="52"/>quin portare fatigatum aliquo genere vehiculi in via: sit
+          elimo<lb ed="#N" n="53" break="no"/>sina. similiter defendere innocentem a latronibus impetentibus eum
+          <lb ed="#N" n="54"/>vt spolient vel occidant: vel curando vulneratum. cum his modis
+          <lb ed="#N" n="55"/>et aliis pluribus contingat elemosinam fieri: videtur quod
+          diminu<lb ed="#N" n="56" break="no"/>te sunt assignati modi pretacti.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e150">
+          ⁋ Preterea. que elemosina est
+          se<lb ed="#N" n="57" break="no"/>pelire mortuum: cum in nullo releuetur eius miseria.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e155">
+          ⁋ Preterea
+          <lb ed="#N" n="58"/>que est ratio numeri harum elemosinarum.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e160">
+          ⁋ Responsio. elemosina est
+          <lb ed="#N" n="59"/>opus misericordie. misericordia enim miseriam respicit vt illam
+          rle<lb ed="#N" n="60" break="no"/>uet. iuxta ergo numerum miseriarum hominis releuandarum: sumitur
+          nu<lb ed="#N" n="61" break="no"/>merus elemosinarum pretactarum. Homo autem est quoddam vnitum ex
+          cor<lb ed="#N" n="62" break="no"/>pore et anima. vnde quedam miserie perueniunt ex defectu qui oritur
+          <lb ed="#N" n="63"/>ex parte corporis. quedam ex defectu qui oritur ex parte vnionis aninme
+          <lb ed="#N" n="64"/>cum corpore. quedam ex parte anime quos releuant elemosine spirituales.
+          <lb ed="#N" n="65"/>de quibus infra dicetur.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e178">
+          ⁋ Ex parte vnionis que est dissolubilis:
+          <lb ed="#N" n="66"/>accidit miseria mortis que est dissolutio corporis et anime. et hanc
+          <lb ed="#N" n="67"/>miseriam respicit sepelitio siue sepultura mortuorum. et illam
+          re<lb ed="#N" n="68" break="no"/>leuat prout possibile est. que cum non potest prohibere dissolutionem illam
+          <lb ed="#N" n="69"/>prohibet fetorem sequentem scilicet ne viui illo ledantur. vt enim habetur ab
+          <lb ed="#N" n="70"/>augustinus ad paulinum in libo de cura pro mortuis. Omnia que secundum
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>morem geruntur in his scilicet circa funera: magis sunt solatia vi
+          <lb ed="#N" n="72"/>uorum quam adiutoria mortuorum. Preterea. tumulus est memoriale
+          <lb ed="#N" n="73"/>per quod fiunt multa subsidia mortuo. que non fierent si locum
+          deter<lb ed="#N" n="74" break="no"/>minatum non haberent. Unde augustinus. de cura pro mortuis: monumn
+          <lb ed="#N" n="75"/>ta dicuntur quasi monimenta. ideo quod mentem moneant pro defunctis
+          <lb ed="#N" n="76"/>vel sparandam gloriam rsurrectionis.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e207">
+          ⁋ Ex parte corporis multipliciter
+          acci<lb ed="#N" n="77" break="no"/>dit misria quedam enim accidit misria ex impotentia corporis inquantum
+          <lb ed="#N" n="78"/>est organum anime que attenditur in carentia potestatis de seruiendi anime.
+          misri<lb ed="#N" n="79" break="no"/>am enim impotentie ex parte organi deseruiendi anime in motu
+          con<lb ed="#N" n="80" break="no"/>petenti inducit captiuatio siue incarceratio quam releuat
+          <lb ed="#N" n="81"/>redemptio captiuorum. Item est alia miseria ex parte corporis que
+          <lb ed="#N" n="82"/>accidit ex causis complexionum sicut infirmitas. rtrspectu cus
+          <lb ed="#N" n="83"/>releuande est visitatio infirmorum. Quedam ex deperditione substam
+          <lb ed="#N" n="84"/>tie que accidit ex actione qualitatum actiuarum que sunt
+          cali<lb ed="#N" n="85" break="no"/>dum et frigidum. ex actione enim calidi cum sicco accidit misria que
+          <lb ed="#N" n="86"/>dam que dicitur fames. ex actione frigidi cum humido accidit alia que
+          <lb ed="#N" n="87"/>dicitur sitis. ad quarum releuationem est elemosina quedam que est
+          <lb ed="#N" n="88"/>cibatio: et alia que est potatio. Est enim secundum phscun fames
+          ap<lb ed="#N" n="89" break="no"/>petitus calidi et sicci. sitis appetitus frigidi et humidi.
+          Ad<lb ed="#N" n="90" break="no"/>huc prouenit duplex miseria circa corpus humanum a causis
+          <lb ed="#N" n="91"/>extrinsecis. hec duplex miseria est duplex passio. Una est
+          <lb ed="#N" n="92"/>ignominosum nuditatis quam sortitur homo ex originali de
+          <lb ed="#N" n="93"/>bito quam releuat elemosina induitionis. Alia est acerbe
+          af<lb ed="#N" n="94" break="no"/>flictionis que causatur ex impetu imbrium et caumatum. ad quam
+          <lb ed="#N" n="95"/>releuandam est elemosina hospitationis que est protectio ab imbribus
+          <lb ed="#N" n="96"/>et caumalibus. Uel alio modo quia homo est de vegetabilibus: indiget
+          <lb ed="#N" n="97"/>alimentis que sunt cibus et potus. et quia est de sensibilibus:
+          indi<lb ed="#N" n="98" break="no"/>get tegentibus et protegentibus ab excellentibus sensibilibus que
+          corrum<lb ed="#N" n="99" break="no"/>punt sensus. et hec sunt tegumenta immediata vt vestes: et
+          <lb ed="#N" n="100"/>mediata vt domus. et hic viuentium vt domus communiter dicte siue
+          <lb ed="#N" n="101"/>vsuales. vel morientium vt sepultura que nomine extenso
+          do<lb ed="#N" n="102" break="no"/>mus dicuntur. psalmus. Sepulcra eorum domus illorum ineternum. Secundum
+          <lb ed="#N" n="103"/>autem quod homo est rationalis secundum naturam primo institutam est habens
+          sa<lb ed="#N" n="104" break="no"/>nitatem et libertatem. sanitatem in suis componentibus in se:
+          liber<lb ed="#N" n="105" break="no"/>tatem ad alterum. sed respectu horum duorum est duplex defectus. in
+          <lb ed="#N" n="106"/>firmitas in se propter quam indiget visitatione. et quandoque capti
+          <lb ed="#N" n="107"/>uatio propter quam redemptione. et sic sunt septem elemosine
+          cor<lb ed="#N" n="108" break="no"/>porales rleuantes miserias prouenientes ex defectibus qui insunt
+          <lb ed="#N" n="109"/>ex parte corporis in se et vnionis anime cum corpore.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e281">
+          ⁋ Ad hoc ergo quod
+          <lb ed="#N" n="110"/>obiicitur. quod multa sunt genera elemosinarum etc. dicendum quod hoc est
+          <lb ed="#N" n="111"/>verum: sed hec precise numerantur. quia de his precise fit intentio in
+          <lb ed="#N" n="112"/>sacra scriptura. vtpote de sex math. xxv. de septimo Thob.
+          <lb ed="#N" n="113"/>ii. Preterea. ista sunt vsus frequentioris et necessitatis
+          ma<lb ed="#N" n="114" break="no"/>ioris et fructus copiosioris. propter quod magis conuenit quod hec
+          <lb ed="#N" n="115"/>numerentur quam alia. vt ad hec imperendenda membra ecclesie allici
+          <lb ed="#N" n="116"/>antur. per hec solui posunt obiecta.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e300">
+          ⁋ De numero elemosinarum
+          <lb ed="#N" n="117"/>spiritualium potest esse questio: et primodo obiicitur de oratione. quia ex quo
+          <lb ed="#N" n="118"/>oratio est quedam pars satisfactionis diuisa contra elemosinam. non
+          vi<lb ed="#N" n="119" break="no"/>detur quod debeat poni inter genera elemosinarum neque sub
+          ele<lb ed="#N" n="120" break="no"/>mosina contineri.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e311">
+          ⁋ Preterea cum oratio et elemosina et ieiunium
+          <lb ed="#N" n="121"/>sint partes satisfactionis. sicut nec oratio continetur sub ieiunio neque
+          <lb ed="#N" n="122"/>ieiunium sub elemosina neque econuerso: sic nec oratio debet
+          conti<lb ed="#N" n="123" break="no"/>neri sub elemosina.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e320">
+          ⁋ Preterea. cum elemosina simpliciter
+          con<lb ed="#N" n="124" break="no"/>sistat in largitione. patet ex ratione supratacta. cum remissio non
+          <lb ed="#N" n="125"/>dicat aliquod genus largiendi: non debet poni differentia vel
+          <lb ed="#N" n="126"/>modus elemosine.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e329">
+          ⁋ Preterea. que ratio est numeri siue
+          distinctio<lb ed="#N" n="127" break="no"/>nis modorum pretactorum.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e334">
+          ⁋ Ad huiusmodi euidentiam nota. quod
+          se<lb ed="#N" n="128" break="no"/>ptem elemosine spirituales distiguuntur iuxta septem miserias anime
+          <lb ed="#N" n="129"/>per illas septem releuandas. due enim sunt miserie ex parte
+          cogni<lb ed="#N" n="130" break="no"/>tiue. vna est ignorantia. ad quam releuandam est doctrina. alia est
+          <lb ed="#N" n="131"/>miseria perplexitas ipsius rationis inclinate ad opst: ad quam
+          <lb ed="#N" n="132"/>releuandam est consilium. Preterea. alie sunt miserie ex parte
+          affecti<lb ed="#N" n="133" break="no"/>ue. vna est culpe: alia est pene. Illa vero que est culpe aut est reparabi
+          <lb ed="#N" n="134"/>lis per adiutorium humanum. aut simpliciter a deo. Si est
+          repara<lb ed="#N" n="135" break="no"/>hilis ab homine. aut est culpa commissa in te: aut commissa in
+          ali<lb ed="#N" n="136" break="no"/>um. si in te:tunc est ad illam releuandam remissio. siin
+          <lb ed="#N" n="137"/>alium: tunc ad illam releuandam est correptio vel
+          castiga<lb ed="#N" n="138" break="no"/>tio. Si non est reparabilis nisi a deo sicut est culpa obstinatorum et
+          <lb ed="#N" n="139"/>impeniientium: tunc ad illam releuandam est oratio. Si est miseria
+          pe<lb ed="#N" n="140" break="no"/>ne aut est releuanda per verbum aut per factum. Si per verbum: ad
+          il<lb ed="#N" n="141" break="no"/>lam releuandam est consolatio. si per factum: ad illam rtleuandam est
+          suppor<pb ed="#N" n="657"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tatio. Uel sic assignantur septem elemosine respectu
+          creatu<lb ed="#N" n="2" break="no"/>re rationalis secundum septem defectus ipsius spiritus humani. Aut enim
+          <lb ed="#N" n="3"/>est defectus ipsius apprehensiue qui est ignorantia. aut motiue ipsius
+          <lb ed="#N" n="4"/>scilicet malicia. Ignorantia autem potest esse vel eorum que sunt in potestate nostra
+          <lb ed="#N" n="5"/>et tunc opst misericordie respectu talium est consulere. vel aliquorum
+          vti<lb ed="#N" n="6" break="no"/>lium: et tunc est docere. Ipsius autem motiue malicia erit vel culpe
+          <lb ed="#N" n="7"/>vel pene. Si culpe aut potest subueniri ab homine aut non. vt est de
+          <lb ed="#N" n="8"/>obstinatis et huiusmodi: et tunc opus pietatis est orare. si sic. aut
+          <lb ed="#N" n="9"/>peccauit in te: et tunc opust misericordie est remittere. aut in alium: et tunc
+          <lb ed="#N" n="10"/>est corripere. Si pene. aut subuenitur verbo: et tunc est consolari. aut
+          <lb ed="#N" n="11"/>facto: et tunc est supportare. secundum illud Gal. vi. Alter alterius
+          <lb ed="#N" n="12"/>onera portate etc.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e395">
+          ⁋ Ad illud quod obiicitur. quod oratio non debet
+          poni<lb ed="#N" n="13" break="no"/>inter genera elemosine ex quo est pars satisfactionis diuisa contra
+          ele<lb ed="#N" n="14" break="no"/>mosinam etc. potest dici quod elemosina corporalis est pars
+          satisfactio<lb ed="#N" n="15" break="no"/>nis. hec enim sola iniungitur ab ecclesia non autem spiritualis. Pre. aliter
+          <lb ed="#N" n="16"/>sumitur oratio secundum quod simpliciter sumitur oratio: et aliter secundum quod est vnus
+          <lb ed="#N" n="17"/>modus elemosine. quia secundum quod sumitur simpliciter. est ascensus anime ad
+          <lb ed="#N" n="18"/>deum ad aliquid obtinendum. secundum quod est modus elemosine
+          superad<lb ed="#N" n="19" break="no"/>dit ex motu pietatis propositum releuandi miseriam alicus. Nec
+          <lb ed="#N" n="20"/>est simile de oratioe et ieiunio. quoniam vnum est proprie actus spiritualis. aliud
+          <lb ed="#N" n="21"/>proprie actus corporalis. vnde oratio habet conuenientiam cum elemosina spiritua
+          <lb ed="#N" n="22"/>li: non sic habet ieiunium. posset tamen ieiunium quodam extraneo modo
+          <lb ed="#N" n="23"/>loquendi dici elemosina. vt si quis pietate motus ieiunaret pro
+          <lb ed="#N" n="24"/>miseria alicus releuanda: hoc ieiunium posset interpretari
+          elemo<lb ed="#N" n="25" break="no"/>sina. et ille qui ieiunaret faceret elemosinam propter conformitatem
+          <lb ed="#N" n="26"/>intentionis et meriti illius cum elemosina. considerata ergo
+          conueni<lb ed="#N" n="27" break="no"/>entia oratiois ad elemosinam et differentia: defacili potest
+          responderi<lb ed="#N" n="28" break="no"/>ad quesita.
+        </p>
+        <p xml:id="v78d89-ai4adn-d1e433">
+          ⁋ Ad illud quod obiicitur quod remissio non dicit
+          largitio<lb ed="#N" n="29" break="no"/>nem etc. potest dici quod ille qui remitttt et si non largitur aliquid dando
+          <lb ed="#N" n="30"/>largitur tamen de obligando. qui enim remittit alicui illud ad quod ille
+          <lb ed="#N" n="31"/>tenetur: dat quodammodo de obligando eum ab eo quod debebat.
+          <lb ed="#N" n="32"/>Augustinus. in enche. multa sunt genera elemosinarum. quas cum
+          fa<lb ed="#N" n="33" break="no"/>cimus adiuuamur vt dimittantur peccata nostra: sed ea nihil est maius
+          <lb ed="#N" n="34"/>qua ex corde dimittimus quod in nos quisquam peccauit. In virsu
+          su<lb ed="#N" n="35" break="no"/>pra posito non tanguntur nisi sex elemosine spirituales: sed
+          con<lb ed="#N" n="36" break="no"/>sulere sumitur pro duobus scilicet consilio et doctrina.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 86, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 86, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="551"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aft3d4"><!-- q86m2 -->
+        <head xml:id="v78d89-aft3d4-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-aft3d4-Hd1e103" type="question-title">De possibilitate dispensationis cum illo qui tenetur ad restitutionem</head>
+        <p xml:id="v78d89-aft3d4-d1e106">
+          <lb ed="#N" n="49"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-aft3d4-d1e111">
+          <lb ed="#N" n="50"/>SEquitur de possibilitate dispensationis circa
+          re<lb ed="#N" n="51" break="no"/>stitutionem. Et queruntur hoc duo. Primum est si ob
+          <lb ed="#N" n="52"/>ligatio ad restitutionem recipit dispensationem a
+          <lb ed="#N" n="53"/>tentione restitutionis. Secundum si aliquando recipit
+          <lb ed="#N" n="54"/>dispensationem dilationis quantum ad tempus.
+        </p>
+        <div xml:id="v78d89-aft3d4-Dd1e124">
+          <head xml:id="v78d89-aft3d4-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-aft3d4-d1e128">
+            <lb ed="#N" n="55"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e133">
+            <lb ed="#N" n="56"/>PRimo igitur queritur. si raptor vel fur possit in aliquo
+            <lb ed="#N" n="57"/>casu absolui ab obligatione restitutionis: Quod sic
+            <lb ed="#N" n="58"/>videtur. In necessitate fidei. vtpote peregrini terre sancte
+            <lb ed="#N" n="59"/>per hoc quod dicitur super illud Mart. ii. Nunquid legistis quid fecit
+            da<lb ed="#N" n="60" break="no"/>uid quando necessitatem humit. dicit glo. quod non est licitum in lege:
+            ne<lb ed="#N" n="61" break="no"/>cessitas licitum facit. ergo non restituere alienum quod est simpliciter alie
+            <lb ed="#N" n="62"/>num: ex necessitate fit licitum. sed nulla est maior necessitas quam
+            il<lb ed="#N" n="63" break="no"/>la que est fidei: ergo in necessitate fidei licitum est non restituere:
+            ha<lb ed="#N" n="64" break="no"/>bita dispensatione contra obligationem restitutionis
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e155">
+            ⁋ Item omnia
+            bo<lb ed="#N" n="65" break="no"/>na sunt ipsus ecclesie. ergo summo et generali dispensatori ecclesie est
+            <lb ed="#N" n="66"/>licitum bona ecclesie rapta et detenta ipsis raptatoribus dare: et
+            <lb ed="#N" n="67"/>ipsos ab obligatione restitutionis absoluere.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e164">
+            ⁋ Item hoc
+            plane<lb ed="#N" n="68" break="no"/>videtur ex facto domini. qui populo israel bona quibus spoliauerat
+            egi<lb ed="#N" n="69" break="no"/>ptios. asportare precepit: nulla illis facta restitutione.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e172">
+            ⁋ Item
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>necessitas absoluit filios israel ab obseruantia sabbati. ad
+            <lb ed="#N" n="71"/>quam tenebantur precepto dei. sicut patet. i. Mach. ii. Sed non
+            mi<lb ed="#N" n="72" break="no"/>nus obligat preceptum de sabbato obseruando quam necessitas
+            <lb ed="#N" n="73"/>restituendi aliena: et ita videtur quod imminente necessitate. et
+            <lb ed="#N" n="74"/>maxime fidei absolui potest quis ab obligatione restitutionis.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e188">
+            <lb ed="#N" n="75"/>⁋ Item necessitas corporis facit licitum quod simpliciter est illicitum. sicut
+            <lb ed="#N" n="76"/>furari aliena in vltina necessitate. Simili ratione vel fortiori
+            vi<lb ed="#N" n="77" break="no"/>detur. quod necessitas spiritualis scilicet fidei facit licitum quod est
+            illici<lb ed="#N" n="78" break="no"/>tum: scilicet detinere aliena et illa non est restituere. Quod furari
+            ali<lb ed="#N" n="79" break="no"/>ena in vltima necessitate sit licitum: habetur de conse. di. v.
+            di<lb ed="#N" n="80" break="no"/>scipulos.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e204">
+            ⁋ Contra. precepta decalogi moralia perpetua et
+            in<lb ed="#N" n="81" break="no"/>mobilia sunt: ergo sicut non furari perpetuum et immobile est: sic et
+            <lb ed="#N" n="82"/>furtum vel rapinam restituere perpetuum est et immobile. ergo
+            <lb ed="#N" n="83"/>in nullo casu potest quis absolui a precepto restitutionis.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e213">
+            ⁋ Item
+            <lb ed="#N" n="84"/>iii. Ro. Aiuntem nos quidem dicere. faciamus mala vt veniant
+            <lb ed="#N" n="85"/>bona. quorum damnatio iusta est. non ergo propter aliquod bonum
+            in<lb ed="#N" n="86" break="no"/>tentum debet malum fieri: et ita quod propter bonum subsidium terre
+            <lb ed="#N" n="87"/>sancte non debet alienum retineri: neque propter aliquiod aliud
+            bo<lb ed="#N" n="88" break="no"/>num.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e226">
+            ⁋ Item non licet mulierem prostituere se vt pascat patrem
+            <lb ed="#N" n="89"/>existentem in vltima necessitate. nec etiam propter negocium fidei:
+            <lb ed="#N" n="90"/>vtpote si posset sic tyrannum vel principem quantumcunque esset
+            <lb ed="#N" n="91"/>magnus conuertere ad fidem. consimili ratione videtur quod non
+            li<lb ed="#N" n="92" break="no"/>cet aliena rapere vel detinere propter negocium fidei
+            promouen<lb ed="#N" n="93" break="no"/>dum.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e239">
+            ⁋ Responsio. quod obligatio ad restitutionem non recipit
+            di<lb ed="#N" n="94" break="no"/>spensationem. si fur vel raptor sit in soluendo: et habeatur
+            <lb ed="#N" n="95"/>certa noticia persone spoliate. non enim dimittitur peccatum nisi
+            re<lb ed="#N" n="96" break="no"/>stituatur ablatum. vt dicit Augustinus. Et sicut habetur Iob. xiii. de
+            <lb ed="#N" n="97"/>us non indiget vestro mendacio vt pro illo loquamini dolos
+            <lb ed="#N" n="98"/>ita non indiget nostro furto: vt illo aliquid sibi acquiratur
+            <lb ed="#N" n="99"/>nec vult vt de furto vel rapina sibi seruiatur. vt enim habetur
+            <lb ed="#N" n="100"/>Eccesasti. xxxiiii. Immolantis ex iniquo oblatio est maculata.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e258">
+            ⁋ Ad
+            <lb ed="#N" n="101"/>illud quod obiicitur. quod illud est illicitum secundum legem etc. dicendum
+            ali<lb ed="#N" n="102" break="no"/>quod est illicitum quia perpetuam habet maliciam. aliquod
+            illici<lb ed="#N" n="103" break="no"/>tum quia habet maliciam ad tempus. primum non potest fieri licitum ex
+            <lb ed="#N" n="104"/>causa aliqua: secundum potest: vnde non est simile de auulsione
+            spi<lb ed="#N" n="105" break="no"/>carum in sabbato et de non restituendo ablatum. quia auellere
+            <lb ed="#N" n="106"/>spicas in sabbato non habuit perpetuam maliciam: sed ad tempus
+            <lb ed="#N" n="107"/>scilicet quamdiu durauit lex: sed furari rapere perpetuam habet maliciam
+            <lb ed="#N" n="108"/>vnde restituere ablatum pure est morale: et eius oppositum
+            per<lb ed="#N" n="109" break="no"/>petuam habet maliciam. vnde circa illud non potest ecclesia
+            di<lb ed="#N" n="110" break="no"/>spensare.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e282">
+            ⁋ Ad illud quod obiicitur. quod omnia sunt ecclesie. et quod
+            sum<lb ed="#N" n="111" break="no"/>mus dispensator potest dispensare etc. respondendum quod reuera
+            om<lb ed="#N" n="112" break="no"/>nia bona sunt ecclesie et membrorum christi. et quod summus dispensa
+            <lb ed="#N" n="113"/>tor illa potest dispensare que non habent certos possessores. sed
+            bo<lb ed="#N" n="114" break="no"/>na illa quorum sunt certi possessores: nisi exigentibus eorum pec
+            <lb ed="#N" n="115"/>catis dispensare non potest.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e295">
+            ⁋ Ad aliud quod obiicitur. quod
+            He<lb ed="#N" n="116" break="no"/>breis qui spoliauerunt egiptios sine aliqua restitutione. Exo.
+            <lb ed="#N" n="117"/>xii. dicendum quod non tenebantur ad restitutionem: quia hoc fecerunt
+            <lb ed="#N" n="118"/>de precepto eius cuius erant spolia illa scilicet domini: cuius sunt
+            <lb ed="#N" n="119"/>omnia tanquam principalissimi possessoris. Pre. egiptii
+            teneban<lb ed="#N" n="120" break="no"/>tur hebreis in multo maioribus propter seruitium eorum.
+            Ser<lb ed="#N" n="121" break="no"/>uierant enim eis in pallea. luto. latere. per multa tempora Exo. i.
+            <lb ed="#N" n="122"/>vnde et quia dominus qui erat possessor principalis illa bona
+            contu<lb ed="#N" n="123" break="no"/>lit illis: et de eius precepto spoliauerunt illos. et quia
+            teneban<lb ed="#N" n="124" break="no"/>tur illis in multis maioribus: non tenebantur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e317">
+            <lb ed="#N" n="125"/>⁋ Ad illud quod obiicitur. quod necessitas absoluebat filios isrls
+            <lb ed="#N" n="126"/>a tentione sabbati obseruandi etc. dicendum quod de sabbato
+            lega<lb ed="#N" n="127" break="no"/>li poterat esse dispensatio. quia inter precepta decalogi solum
+            il<lb ed="#N" n="128" break="no"/>lud fuit cerimoniale: eo modo quo legale fuit. vt habetur ab
+            <lb ed="#N" n="129"/>Augustin. super Exo. vnde non est simile de dispensatione et precepto de
+            <lb ed="#N" n="130"/>sabbato et de aliis que erant immobilia et perpetua.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e333">
+            ⁋ Ad
+            <lb ed="#N" n="131"/>illud quod obiicitur. quod necessitas corporalis facit licitum etc.
+            di<lb ed="#N" n="132" break="no"/>cendum quod quia in vltima necessitate certum est quod periclitatur. nisi
+            si<lb ed="#N" n="133" break="no"/>bi subueniatur re alterius habita furto vel rapina. In
+            defen<lb ed="#N" n="134" break="no"/>sione autem fidei non potest esse certum quod periclitatur fides nisi sub
+            <lb ed="#N" n="135"/>ueniatur defendentibus furto vel rapina.
+          </p>
+        </div>
+        <div xml:id="v78d89-aft3d4-Dd1e348">
+          <head xml:id="v78d89-aft3d4-Hd1e350">Articulus 2</head>
+          <p xml:id="v78d89-aft3d4-d1e352">
+            <lb ed="#N" n="136"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e357">
+            <lb ed="#N" n="137"/>COnsequenter queritur. Si in casu aliquo recipit resti
+            <lb ed="#N" n="138"/>tutio dispensationem dilationis temporis: Quod sic:
+            vi<lb ed="#N" n="139" break="no"/>detur. quia posito quod aliquis multa rapuerit ad quorum
+            <pb ed="#N" n="552"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>tenetur restitutionem. nec habet aliquid iuste possessum vnde posset
+            <lb ed="#N" n="2"/>illa restituere. nisi forte cum periculo liberorum eius et vxoris
+            <lb ed="#N" n="3"/>et forte proprie persone. constat quod magis est consonum iuri diuino
+            <lb ed="#N" n="4"/>quod differatur restitutio vsque ad pinguiorem fortunam: quam quod statim
+            <lb ed="#N" n="5"/>fiat in periculum omnium predictorum. ergo in casu huiusmodi restitutio
+            reci<lb ed="#N" n="6" break="no"/>pit dilationis dispensationem.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e383">
+            ⁋ Item licet in casu differre
+            <lb ed="#N" n="7"/>solutionem creditorum inuito creditore. vt si debitor impotens
+            <lb ed="#N" n="8"/>sit ad solutionem: similiter videtur quod licet differre restitutionem
+            ra<lb ed="#N" n="9" break="no"/>ptorum in casu consimili.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e392">
+            ⁋ Item necessitas extrema facit omnia
+            <lb ed="#N" n="10"/>commnia. sed ille qui non habet vnde viuat familia sua est in extrema
+            ne<lb ed="#N" n="11" break="no"/>cessitate: ergo in hoc casu iniuste efficitur possessum sunm. In hoc
+            <lb ed="#N" n="12"/>ergo casu potest differre restitutionem.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e402">
+            ⁋ Item confessio exterior et
+            <lb ed="#N" n="13"/>satisfactio exterior licite differtur. et tamen ista debentur deo.
+            praela<lb ed="#N" n="14" break="no"/>tus enim qui audit confessionem loco dei est: et loco dei iniungit
+            <lb ed="#N" n="15"/>penitentiam seu satisfactionem. sed non minus tenemur deo quam
+            tene<lb ed="#N" n="16" break="no"/>mur proximo: ergo licite in aliquo casu differtur restitutio que
+            facien<lb ed="#N" n="17" break="no"/>da est proximo.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e415">
+            ⁋ Item Deut. xxiii. Ingressus vineam
+            proximi<lb ed="#N" n="18" break="no"/>tui comede vuas quantum tibi placuerit. foras autem ne efferas
+            <lb ed="#N" n="19"/>tecum. ergo si secundum legem licitum erat comedere vuas proximi et
+            in<lb ed="#N" n="20" break="no"/>uito proximo: licitum ergo erat accipere rem alienam inuito domino: et
+            <lb ed="#N" n="21"/>ita vt prius. Item super illud Ysai. lviii. omnes debitores vrtros
+            <lb ed="#N" n="22"/>repetitis. dicit Hiero. qui repetit non habentem: domino facit
+            violen<lb ed="#N" n="23" break="no"/>tiam. sed peccatum est domino facere violentiam: ergo peccatum est
+            repe<lb ed="#N" n="24" break="no"/>tere non habentem. non habens reputatur qui non habet vnde viuat
+            nisi<lb ed="#N" n="25" break="no"/>de furto vel rapina: ergo peccaret qui repeteret ab huiusmodi.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e435">
+            <lb ed="#N" n="26"/>Contra. Augustinus. non dimittitur peccatum nisi restituatur ablatum. sed
+            <lb ed="#N" n="27"/>in nullo differenda est dimissio peccati: ergo et in nullo casu
+            differen<lb ed="#N" n="28" break="no"/>da est restitutio ablati.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e444">
+            ⁋ Item precepta negatiua obligant
+            <lb ed="#N" n="29"/>ad semper. ergo hoc preceptum non furtum facies obligat ad semper
+            <lb ed="#N" n="30"/>ergo sicut nunquam furandum est: sic nunquam retinenda est res
+            <lb ed="#N" n="31"/>furata. ergo nunquam furi vel raptori licet differre restitutionem
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e453">
+            <lb ed="#N" n="32"/>⁋ Item Leui. xxii. omne mortuum et captum a bestia non
+            co<lb ed="#N" n="33" break="no"/>medet homo. captum a bestia est quod est raptum a bestiali homine.
+            <lb ed="#N" n="34"/>ergo illicitum est comedere illud: ergo nec etiam pro comestione
+            diffe<lb ed="#N" n="35" break="no"/>renda est restitutio rei furtiue.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e464">
+            ⁋ Item Deut. xxiii. cum
+            vo<lb ed="#N" n="36" break="no"/>tum voueris domino deo tuo non tardes reddere. ergo si votum quod
+            <lb ed="#N" n="37"/>est voluntarium non recipit dilationem: multominus restitutio que
+            <lb ed="#N" n="38"/>necessitatis est recipit dilationem.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e474">
+            ⁋ Responio. quod in casu licet
+            dif<lb ed="#N" n="39" break="no"/>ferre restitutionem. vtpote quando non est in soluendo. vel quando non
+            <lb ed="#N" n="40"/>inuenitur dominus rei furtiue et eius heredes: tunc per consilium
+            prela<lb ed="#N" n="41" break="no"/>ti potest fur vel raptor reseruare penes se rem furatam donec in
+            <lb ed="#N" n="42"/>ueniat domin nm verum. etsi non potest inuenire: debet reddere ecclesie.
+            <lb ed="#N" n="43"/>et ecclesia siue prelatus potest furi vel raptori si valde indigens
+            <lb ed="#N" n="44"/>sit dare: quia in hoc casu efficitur res illa ecclesie. et tunc ecclesia
+            <lb ed="#N" n="45"/>potest illam dare cui voluerit. et boc habetur per legem que habetur Nume.
+            <lb ed="#N" n="46"/>v. Uir siue mulier cum fecerint ex omnibus peccatis que solent
+            homin<lb ed="#N" n="47" break="no"/>bus accidere. et per negligentiam transgressi fuerint mandatum
+            <lb ed="#N" n="48"/>atque deliquerint: peccatum suum confitebuntur et reddent ipsum caput
+            <lb ed="#N" n="49"/>quintamque partem desuper ei in quem peccauerit. Si autem non fuerit
+            <lb ed="#N" n="50"/>qui recipiat: dabunt domino et erunt sacerdotis. Si vero inuenitur
+            <lb ed="#N" n="51"/>dominus. non licet raptori differre restitutionem sine licentia domini.
+            <lb ed="#N" n="52"/>impetrata sine fraude. Multi enim impetrant cum fraude
+            di<lb ed="#N" n="53" break="no"/>centes se non posse reddere cum possint. etsi non potest
+            impetra<lb ed="#N" n="54" break="no"/>re: tenetur statim restituere ex integro.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e511">
+            ⁋ Ad illud quod obicitur non
+            <lb ed="#N" n="55"/>dimittitur peccatum etc. Dicendum quod restitutio dicitur quandque habitus siue
+            <lb ed="#N" n="56"/>voluntas restituendi: quando e actus. non enim dimittitur nisi
+            re<lb ed="#N" n="57" break="no"/>stituatur ablatum. scilicet habitu vel actu. hoc est si non actu
+            re<lb ed="#N" n="58" break="no"/>stituatur: vt habeat voluntatem restituendi.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e522">
+            ⁋ Ad aliud potest
+            dici<lb ed="#N" n="59" break="no"/>quod si raptor vel fur sit in extrema necessitate et vxor et
+            libe<lb ed="#N" n="60" break="no"/>ri eius: ipse potest de re quam tenetur restituere quantum sufficit
+            <lb ed="#N" n="61"/>vni refectioni retinere: et residuum totum tenetur restituere.
+            Si<lb ed="#N" n="62" break="no"/>enim facit quod debet: non dereliquet eum dominus. sed prouidebit ei.
+            <lb ed="#N" n="63"/>vnde psalmus. xxxvi. non vidi iustum derelictum nec semen eius querens
+            <lb ed="#N" n="64"/>panem. et Math. vi. respicite volatilia celi quoniam non serunt neque
+            <lb ed="#N" n="65"/>nent. neque metunt. neque congregant in horrea: et pater vester
+            <lb ed="#N" n="66"/>celestis pascit illa. nonne vos plures estis illis. Et quod ita
+            <lb ed="#N" n="67"/>sit respondendum. patet per illud Math. xix. vende que habes et
+            da<lb ed="#N" n="68" break="no"/>pauperibus. Si enim licitum est omnia sua alienare a se. ita quod
+            post<lb ed="#N" n="69" break="no"/>modum remaneat alienans pauper nihil habens: multofortius
+            <lb ed="#N" n="70"/>iustum est omnem rem furtiuam abiicere a se restituendo: ita quod
+            <lb ed="#N" n="71"/>restituens remaneat pauper nihil habens.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e553">
+            ⁋ Ad aliud quod
+            obii<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>citur. quod sicut nunquam furandum est: sic nec furtum retinendum
+            <lb ed="#N" n="73"/>ec. dicendum est quod sicut existenti in extrema necessitate alienum fit
+            <lb ed="#N" n="74"/>proprium dispensatione necessitatis licet differre actum restitu
+            <lb ed="#N" n="75"/>tionis: sicut tactum est.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e565">
+            ⁋ Ad illud quod obiicitur. quod non est
+            lici<lb ed="#N" n="76" break="no"/>tum comedere captum a bestia etc. dicendum quod hoc intelligendum est
+            <lb ed="#N" n="77"/>iuxta obseruantiam legalem que iam locum non habet. estimo
+            tamen<lb ed="#N" n="78" break="no"/>quod licebat existenti in extrema necessitate. sicut enim non
+            lice<lb ed="#N" n="79" break="no"/>bat laicis comedere panem propositionis: tamen dauid ingruente
+            ne<lb ed="#N" n="80" break="no"/>cessitate licite comedit de illis. i. Reg. xxi. sic est in proposito.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e578">
+            <lb ed="#N" n="81"/>⁋ Ad aliud quod obicitur. quod non debet differri solutio liciti etc.
+            Di<lb ed="#N" n="82" break="no"/>cendum quod hoc intelligendum est si suppetat. facultas reddendi.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e586">
+            <lb ed="#N" n="83"/>⁋ Ad illud quod obiicitur pro alia parte. scilicet quod licitum est differre
+            re<lb ed="#N" n="84" break="no"/>stitutionem in casu etc. dicendum quod hoc est verum in casu quo tactum
+            <lb ed="#N" n="85"/>est.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e595">
+            ⁋ Ad illud quod confessio et satisfactio exterior. licite possunt
+            <lb ed="#N" n="86"/>differri etc. dicendum quod non est simile de confessione et
+            satisfa<lb ed="#N" n="87" break="no"/>ctione quam iniungit sacerdos: et de restitutione. quia
+            confes<lb ed="#N" n="88" break="no"/>sio secundum quod fit sacerdoti: et satisfactio secundum quod iniungitur a
+            sa<lb ed="#N" n="89" break="no"/>cerdote: non sunt ita moralia sicut restitutio que etiam debet fieri
+            ali<lb ed="#N" n="90" break="no"/>qua iniunctione sacerdotis: vt supratactum est.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e608">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="91"/>obiicitur de illo qui ingreditur vineam alterius. potest dupliciter
+            respon<lb ed="#N" n="92" break="no"/>deri. primo per interemptionem huiusmodi intrans vineam
+            proximi<lb ed="#N" n="93" break="no"/>sui non comedebat vuas inuito domino. Uuas enim quas
+            comede<lb ed="#N" n="94" break="no"/>bat in vinea sue erant. non domini: quia dominus celestis qui est domins
+            <lb ed="#N" n="95"/>dominorum: transtulerat dominium in commedentem. Secundo soluitur quia
+            <lb ed="#N" n="96"/>non est simile de restitutione et de illa lege. quia illa lex iudicialis
+            <lb ed="#N" n="97"/>fuit et modo non manet: restitutio pure moralis est et
+            sem<lb ed="#N" n="98" break="no"/>per manet.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e628">
+            ⁋ Ad illud quod obiicitur. quod necessitas extrema
+            fa<lb ed="#N" n="99" break="no"/>cit omnia commnia. dicendum quod iste non est iudicandus esse in tanta
+            ne<lb ed="#N" n="100" break="no"/>cessitate propter quam licitum sit ei totum retinere: sed licitum est
+            <lb ed="#N" n="101"/>ei retinere ad vnam refectionem. sicut dictum est.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e637">
+            ⁋ Ad illud
+            <lb ed="#N" n="102"/>quod obiicitur. quod qui repetit non habentem etc. dicendum quod talis
+            <lb ed="#N" n="103"/>raptor non est iudicandus ex toto non habens: cum multa habeat
+            <lb ed="#N" n="104"/>que posset reddere salua vita sua.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e646">
+            ⁋ Sed de lege que habetur
+            <lb ed="#N" n="105"/>Nume. v. vbi dicitur quod res furtiua reddenda est et quinta pars desuper
+            <lb ed="#N" n="106"/>obiicitur. videntur enim alie esse leges contrarie huic. dicitur
+            <lb ed="#N" n="107"/>enim Exo. xxvii. Si quis furatus fuerit ouem aut bouem et
+            occi<lb ed="#N" n="108" break="no"/>derit vel vendiderit. quinque boues pro vno boue restituet et
+            qua<lb ed="#N" n="109" break="no"/>tuor oues pro vna oue. Item Luc. xix. Si quid aliquem
+            defrau<lb ed="#N" n="110" break="no"/>daui reddo quadruplum. Item porouer. vi. fur deprehensus
+            <lb ed="#N" n="111"/>reddet septuplum.
+          </p>
+          <p xml:id="v78d89-aft3d4-d1e665">
+            ⁋ Respondendum est. quod hec lex que habetur Nume.
+            <lb ed="#N" n="112"/>v. intelligitur de sponte confitente et reddente. vel de eo qui per
+            igno<lb ed="#N" n="113" break="no"/>rantiam furatus fuerat: non de industria. vnde minus
+            punie<lb ed="#N" n="114" break="no"/>batur. Qud vero dicitur in Exo. duplicem casum habebat. si enim animal
+            <lb ed="#N" n="115"/>furatum occidebatur. vel vendebatur: restituebatur in quadruplum.
+            <lb ed="#N" n="116"/>vel in quintuplum. Si vero apud furem inueniebatur animal furatum
+            <lb ed="#N" n="117"/>viuens: restituebatur in duplum. et vterque casus est de fure depie
+            <lb ed="#N" n="118"/>henso vel conuicto. vnde magis puniebatur. Quod vero dicitur prouerh.
+            <lb ed="#N" n="119"/>vi. deprehensus reddat septuplum. intelligitur sic. septuplum. id
+            <lb ed="#N" n="120"/>est perfecte. sic dicitur Ecclesasti. vii. Non semines mala in sulcis in
+            <lb ed="#N" n="121"/>iusticie: et non metes ea in septuplum id est perfecte.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

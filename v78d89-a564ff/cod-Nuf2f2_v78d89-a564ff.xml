@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 20, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 20, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="144"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a564ff"><!-- q20m2 -->
+        <head xml:id="v78d89-a564ff-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a564ff-Hd1e103" type="question-title">De effectu qui est respectu poenae</head>
+        <p xml:id="v78d89-a564ff-d1e106">
+          <lb ed="#N" n="23"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-a564ff-d1e111">
+          <lb ed="#N" n="24"/>SEcundo queritur de effectu qui est respectu
+          pe<lb ed="#N" n="25" break="no"/>ne. Et primo vtrum tollat omnem penam actualis
+          <lb ed="#N" n="26"/>peccati. Deinceps vtrum tollat omneum penam
+          <lb ed="#N" n="27"/>originalis peccati. Consequenter vtrum tollat
+          <lb ed="#N" n="28"/>carentiam diuine visionis.
+        </p>
+        <div xml:id="v78d89-a564ff-Dd1e124">
+          <head xml:id="v78d89-a564ff-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-a564ff-d1e128">
+            <lb ed="#N" n="29"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a564ff-d1e133">
+            <lb ed="#N" n="30"/>AD primum quo queritur vtrum virtute baptismi
+            re<lb ed="#N" n="31" break="no"/>mittitur pena actualis simpliciter: videtur quod
+            <lb ed="#N" n="32"/>non. Augustinus aut homo punit: aut deus punit. Non
+            <lb ed="#N" n="33"/>autem punitur in baptismo: ergo post punietur.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e144">
+            ⁋ Item deutro.
+            <lb ed="#N" n="34"/>xxv. Pro mensura peccati erit et plagarum modus. de
+            ordi<lb ed="#N" n="35" break="no"/>natione ergo diuineiusticie est quod culpa puniatur. et culpa
+            ma<lb ed="#N" n="36" break="no"/>ior grauius. Sed nulla virtus vel gratia deordinat diui
+            <lb ed="#N" n="37"/>nam ordinationem. Si autem vniuersaliter in baptismo remit
+            <lb ed="#N" n="38"/>teretur peccatum quantum ad penam virtute baptismi:
+            dcordi<lb ed="#N" n="39" break="no"/>naretur diuina ordinatio. igitur etc
+          </p>
+          <p xml:id="v78d89-a564ff-d1e160">
+            ⁋ Contra. Ambro.
+            <lb ed="#N" n="40"/>super illud Ro. xi. Sine penitentia dona et bocatio di dicit
+            <lb ed="#N" n="41"/>Gratia dei in baptismo non requirit gemitum vel planctum
+            <lb ed="#N" n="42"/>vel aliquod opus: sed omnia gratis condonat.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e170">
+            ⁋ Quod
+            <lb ed="#N" n="43"/>concedimus. Sed intelligitur quod dicit Ambxo. de
+            exte<lb ed="#N" n="44" break="no"/>rioriori planctu vel gemitu vt dicit mgister in senten. iiii. libro
+            <lb ed="#N" n="45"/>di. iiii. Et glo. xi. ad Ro. super illud. Sine penitentia dicit
+            <lb ed="#N" n="46"/>Gratia dei in baptismonon requirit gemitum vel planctum vel
+            <lb ed="#N" n="47"/>opus aliquod nisi solam fidem et cordis contritionem.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e183">
+            ⁋ Ad hoc quod
+            <lb ed="#N" n="48"/>obiicitur. quod aut homo punit autm deus etc. Dicendum quod homo
+            <lb ed="#N" n="49"/>punitur cum adultus baptizatur dolendo de peccatis et subiiciedo
+            <lb ed="#N" n="50"/>se infime creature. Quod autem verbum augustinus. cum dicitur aut homo punit
+            <lb ed="#N" n="51"/>intelligatur de punitione per dolorem interiorem: patet. quia aliter
+            nul<lb ed="#N" n="52" break="no"/>us sola contritione mexeretur remissionem peccati quantum ad
+            cul<lb ed="#N" n="53" break="no"/>patia et penam. Preterea. verbum illud Iugustinus. intelligitur de peccato
+            <lb ed="#N" n="54"/>actuali. quod puniri habet per penitentiam non per baptismum.
+            Pre<lb ed="#N" n="55" break="no"/>terea. christus punitus fuit in cruce pro peccatis omnium. et etrquiritur aliquid
+            <lb ed="#N" n="56"/>quod est ex parte nostra. non quia non esset suffitiens passio christi: sed quia satis:
+            <lb ed="#N" n="57"/>facere debemus deo quem offedimus in ponitentia. Secus autem est in
+            ba<lb ed="#N" n="58" break="no"/>ptismo.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e209">
+            ⁋ Ad aliud dicendum. quod auctoris legis sine omni
+            preiudi<lb ed="#N" n="59" break="no"/>cio iuris est dispensare contra legem. Undee auctoris iusticie
+            curo<lb ed="#N" n="60" break="no"/>et prima auctoritas omnis iusticie: est misericorditer dispensare
+            <lb ed="#N" n="61"/>et rigorem iuris et equitatem. nec propter hoc in aliquo preiudicatur
+            iu<lb ed="#N" n="62" break="no"/>sticie. immo eoipiso quod sic facit iusticia est. Unde licet peccata in
+            ba<lb ed="#N" n="63" break="no"/>ptismo dimittantur sine punitione quam requirit rigor vel
+            equi<lb ed="#N" n="64" break="no"/>tas iusticie. cum hoc fiat dispensatione diuine misericordie.
+            <lb ed="#N" n="65"/>n nulla deordinatur diuina ordinatio siue iusticia: immo
+            <lb ed="#N" n="66"/>adimpletur. quia iustum est diuina auctoritate vel punire vel percere
+            <lb ed="#N" n="67"/>secundum voluntatem suam. Unde augustinus domine si punis iustus es. qua
+            <lb ed="#N" n="68"/>hoc peccata nostra meruerunt. Si pararcis iustus es: quia hoc
+            <lb ed="#N" n="69"/>decet tuam bonitatem.
+          </p>
+        </div>
+        <div xml:id="v78d89-a564ff-Dd1e237">
+          <head xml:id="v78d89-a564ff-Hd1e239">Articulus 2</head>
+          <p xml:id="v78d89-a564ff-d1e241">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a564ff-d1e248">
+            <lb ed="#N" n="71"/>COnsequenter queritur. vtrum tollat penam culpe
+            ori<lb ed="#N" n="72" break="no"/>ginalis. Et primo queritur de pena in
+            generali<lb ed="#N" n="73" break="no"/>Secundo in spiectiali de pena que est concupiscentia.
+            <lb ed="#N" n="74"/>Tercio de pena que est fomes.
+            <lb ed="#N" n="75"/>Qtca bemandus ..
+            <lb ed="#N" n="76"/>ritur quare magis gratia baptismali remittitur pena culpe
+            <lb ed="#N" n="77"/>actualis quam originalis: cum videatur contrarium. eo quod fortior est
+            <lb ed="#N" n="78"/>obligatio qua quis obligatur proprio peccato quam peccato alterius.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e268">
+            <lb ed="#N" n="79"/>⁋ Preterea. baptismus est proprie remedium originalis.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e273">
+            ⁋ Item cum
+            <lb ed="#N" n="80"/>causa pene originalis et actualis scilicet culpa indifferenter tol
+            <lb ed="#N" n="81"/>latur in baptismo: videtur quod similiter et pena indifferenter remitta
+            <lb ed="#N" n="82"/>tur. et ita si actualis penitus: et originalis penitus. vel si non
+            <lb ed="#N" n="83"/>hec: nec illa.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e285">
+            ⁋ Item pena damni que est carentia visionis dei
+            de<lb ed="#N" n="84" break="no"/>betur vtrique culpe. Unde ysa. xxv. Tollatur impius etc. et hoc
+            in<lb ed="#N" n="85" break="no"/>differenter tollitur in baptismo adultorum et paruulorum vt
+            infra<lb ed="#N" n="86" break="no"/>patebit. Pena autem sensibilis similiter vtrique debetur. quare non
+            si<lb ed="#N" n="87" break="no"/>militer remittitur pena sensibilis vtriusque indifferenter:
+          </p>
+          <p xml:id="v78d89-a564ff-d1e296">
+            <lb ed="#N" n="88"/>⁋ Item vtriusque pena eternaliter debita remittitur: quare non
+            <lb ed="#N" n="89"/>similiter debita temporaliter.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e303">
+            ⁋ Item vterque tam adultus quam paruulus
+            <lb ed="#N" n="90"/>si decederet statim post baptismum preceptum euolaret. igitur cum
+            <lb ed="#N" n="91"/>debitum impedit volatum istum: videtur quod neutri precepto
+            baptis<lb ed="#N" n="92" break="no"/>ma sit debitor pene.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e312">
+            ⁋ Item medici prudentis est non solum tollere
+            <lb ed="#N" n="93"/>morbum. sed et radicem iuxta facultatem suam. Si autem morbum tol
+            <lb ed="#N" n="94"/>leret. et non radicem si posset: imputaretur sibi in maliciam. igitur
+            <lb ed="#N" n="95"/>videtur quod summus medicus debeat tollere morbum originalis
+            <lb ed="#N" n="96"/>cum radice id est corruptione que est ex parte nature. et ita quod
+            <lb ed="#N" n="97"/>non relinquatur post baptismum in baptizato aliqua
+            corru<lb ed="#N" n="98" break="no"/>ptio que fit transtusionis ipsius culpe.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e328">
+            ⁋ Item misericor
+            <lb ed="#N" n="99"/>dia superexaltat iudicium. in operibus igitur misericordie
+            de<lb ed="#N" n="100" break="no"/>bet misericordia maior esse quam in operibus iusticie erat
+            iu<lb ed="#N" n="101" break="no"/>sticia. sed opere diuine iusticie inflicta fuit homini pro peccato
+            <lb ed="#N" n="102"/>pena: igitur videtur quod opere diuine misericordie quo fit
+            <lb ed="#N" n="103"/>remissio pene pro peccato. omnino tollatur pena inflicta
+            <lb ed="#N" n="104"/>opere diuine iusticie.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e344">
+            ⁋ Item misericordia superexaltat
+            iu<lb ed="#N" n="105" break="no"/>dicium. sed diuino iudicio quatuor inflicta sunt homin propter
+            <lb ed="#N" n="106"/>peccatum primorum parentum scilicet infirmitas: ignorantia:
+            mali<lb ed="#N" n="107" break="no"/>cia: et ex his omnibius conflata concupiscentia. igitur et hec
+            dispensa<lb ed="#N" n="108" break="no"/>tione misericordie que exercetur in baptismo qui est
+            remedi<lb ed="#N" n="109" break="no"/>um contra culpam illam: deberent tolli siue deleri.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e358">
+            ⁋ Item augustinus
+            <lb ed="#N" n="110"/>in sermone de chatecismo. baptizatus es mundatus es:
+            <lb ed="#N" n="111"/>restitutum est corpus tuum ad statum primi hominis. Sed
+            <lb ed="#N" n="112"/>in statu primi hominis ante culpam nullis subiectum fuit
+            pe<lb ed="#N" n="113" break="no"/>nalitatibus humana natura. Et Dam. loquens de fide
+            ba<lb ed="#N" n="114" break="no"/>ptismali dicit. Iides nouit facere filios et ad pristinam
+            re<lb ed="#N" n="115" break="no"/>ducit beatitudinem.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e374">
+            ⁋ Item in baptismo renouatur homo
+            <lb ed="#N" n="116"/>quantum ad naturam et personam. Sed nature innouate et perso
+            <lb ed="#N" n="117"/>nenon debetur nisi bonum: igitur post innouationem hanc non de
+            <lb ed="#N" n="118"/>bet aliquid relinqui in natura vel in persona quod sit illi
+            causa<lb ed="#N" n="119" break="no"/>mali scilicet vel pene vel culpe.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e385">
+            ⁋ Item mortalitas et
+            immortali<lb ed="#N" n="120" break="no"/>tas sunt opposita. peccatum et gratia sunt opposita. igitur si pec
+            <lb ed="#N" n="121"/>catum est causa mortalitatis: et gratia erit causa immortalita
+            <lb ed="#N" n="122"/>tis. igitur per gratiam baptismalem tolletux pena mortalitatis
+          </p>
+          <p xml:id="v78d89-a564ff-d1e394">
+            <lb ed="#N" n="123"/>⁋ Item. v. ad. Ro. Sicut per vnius delictum omnes homines in
+            condemna<lb ed="#N" n="124" break="no"/>tionem: sic per vnius iusticiam omnes homines in iustificationem vite. igitur
+            <lb ed="#N" n="125"/>sicut condemnatio per primum hominem fuit quantum ad penam et culpam: similiter
+            <lb ed="#N" n="126"/>et iustificatio erit per christum et a culpa et a pena.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e405">
+            ⁋ Item ibidem
+            <lb ed="#N" n="127"/>Sicut per inobedientiam vnius hominis peccatoris constituti sunt multi.
+            <lb ed="#N" n="128"/>ita per vnius obedientiam iusti constituuntur multi. Qui autem constitu
+            <lb ed="#N" n="129"/>ti sunt peccatores inobedientia primi hominis. non solum
+            macu<lb ed="#N" n="130" break="no"/>lati sunt culpa sed infecti corruptione: ergo cum sufficientior sit obe
+            <lb ed="#N" n="131"/>dientia christi ad iustificandum quam inobedientia premi hominis ad
+            ma<lb ed="#N" n="132" break="no"/>culandum et corrumpendum: videtur quod obedientia christi sint purgatia
+            <lb ed="#N" n="133"/>macula culpe et sanati a corruptione.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e423">
+            ⁋ Item abundantior gratia
+            <lb ed="#N" n="134"/>data fuit per christum quoam mors illata per primum hominem. Ro. v.
+            <lb ed="#N" n="135"/>Si in vnius delicto mors regrauit per vnum: multomagis
+            abun<lb ed="#N" n="136" break="no"/>dantia gratie et ordinationis et iusticie accipientes in vita
+            re<lb ed="#N" n="137" break="no"/>gnabunt per vnum ihm christum: igitur etc.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e435">
+            ⁋ Item baptismus est sacramentum
+            <lb ed="#N" n="138"/>regenerationis. vt dicit dyoni. hec regeneratio est a passione
+            <lb ed="#N" n="139"/>christi. Sed passio christi maioris efficacie est in regenerando
+            <pb ed="#N" n="145"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>et reuificando quam peccatum primi hominis parentis in perimendo.
+            igi<lb ed="#N" n="2" break="no"/>tur vt videtur quecumque sunt illata persone et nature humane
+            <lb ed="#N" n="3"/>peccato primi petentis: sunt ablata regeneratione
+            baptismi<lb ed="#N" n="4" break="no"/>quo habundat virtus passionis christi.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e455">
+            ⁋ Item deleta
+            cau<lb ed="#N" n="5" break="no"/>sa deletur effectus. sed culpa est causa pene omnis:
+            que<lb ed="#N" n="6" break="no"/>cumque enim patimur peccata nostra meruerunt vt vult greg.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e462">
+            <lb ed="#N" n="7"/>Responsio. quod sacramento baptismi contulit deus primos et
+            <lb ed="#N" n="8"/>precipuos effectus passionis sue. passio autem saluatoris
+            ha<lb ed="#N" n="9" break="no"/>puit duos effectus primos et principales. scilicet
+            mundatio<lb ed="#N" n="10" break="no"/>nem a culpa: et solutionem precii qui fiebat in fluxu
+            san<lb ed="#N" n="11" break="no"/>guinis et aque de latere christi. Ioh. xix. In fluxu enim aque
+            <lb ed="#N" n="12"/>fiebat purgatio a culpa. In effluxu sanguinis solutio
+            pre<lb ed="#N" n="13" break="no"/>cii siue satisfactio damni: quod receperat deus pater ex
+            <lb ed="#N" n="14"/>amissione hominis. Istos duos effectus contulit baptismo.
+            <lb ed="#N" n="15"/>cuius virtus est ex fluxu aque et sanguinis de latere christi
+            <lb ed="#N" n="16"/>Unde sicut christus lauit humanum genus aqua lateris: et
+            ba<lb ed="#N" n="17" break="no"/>protismus habet virtutem lauandi a culpa. sicut satisfecit
+            <lb ed="#N" n="18"/>pro homine effusione sanguinis: sic habet baptismus
+            vir<lb ed="#N" n="19" break="no"/>tutem tollendi reatum siue debitum. Unde. v. Ro. Qui
+            <lb ed="#N" n="20"/>est forma futuri. glo. sicut ex latere ade dormientis assum
+            <lb ed="#N" n="21"/>pta est costa vnde formata est eua: sic ex christi latere profluxe
+            <lb ed="#N" n="22"/>runt sacramenta scilicet aqua ablutionis et sanguis redemptio
+            <lb ed="#N" n="23"/>nis per que saluatur ecclesia. Istos igitur effectus scilicet ablutionis a
+            <lb ed="#N" n="24"/>culpa et solutionis reatus que respondent sacramento redemptionis
+            <lb ed="#N" n="25"/>dedit baptismo. propter quod habet virtutem abluendi a culpa et
+            <lb ed="#N" n="26"/>soluendi a pena. Aliis sacramentis dedit virtutem iuxta alios
+            <lb ed="#N" n="27"/>effectus passionis. sicut augmentandi caritatem: conferendi robur
+            <lb ed="#N" n="28"/>contra temptationes etc. quare autem sit tanta virtus et efficacia huius
+            <lb ed="#N" n="29"/>sacramenti dictum est supra. Dicendum est ergo quod pena originalis est
+            <lb ed="#N" n="30"/>duplex scilicet eterna que penitus deletur. et temporalis que deletur quantum
+            <lb ed="#N" n="31"/>ad dominium licet non simpliciter. Unde Ro. vi. Uetus
+            ho<lb ed="#N" n="32" break="no"/>mo noster selis crucifixus est. glo. Est duplex pena.
+            Gehen<lb ed="#N" n="33" break="no"/>nalis et temporalis. Gehennalem prorsus deleuit: temporalem nondum
+            <lb ed="#N" n="34"/>penitus tulit. manet enim fames et sitis. mors et huiusmodi. sed
+            re<lb ed="#N" n="35" break="no"/>gnum et dominium deleuit. hec glo. et loquitur ibi de morte christi
+            <lb ed="#N" n="36"/>cuius efectus descendit ad nos per sacramentum baptismi sicut
+            <lb ed="#N" n="37"/>patet ex litera precedenti. penam igitur originalis tollit quantum ad
+            <lb ed="#N" n="38"/>dominium: non penitus simpliciter.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e534">
+            ⁋ Si queratur quare non omnino
+            tol<lb ed="#N" n="39" break="no"/>lit eam sicut actualis: Dicendum quod huius pene et si sint
+            persona<lb ed="#N" n="40" break="no"/>les id est ipsarum personarum: sunt tamen a natura. vnde debentur ipsis ratione
+            <lb ed="#N" n="41"/>qua sunt de massa maledictionis siue peccati. propter quod
+            rema<lb ed="#N" n="42" break="no"/>nente persona in natura tali: et remanent pene. Hec igitur est
+            pri<lb ed="#N" n="43" break="no"/>ma ratio quare remanent. Alie sunt quasi accidentales scilicet
+            <lb ed="#N" n="44"/>ne homo putaret liberationem a penis esse premium baptismi. Alia
+            <lb ed="#N" n="45"/>exercitatio. Iudi. iii. et alie que infra patebunt.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e552">
+            ⁋ Ad hoc quod
+            <lb ed="#N" n="46"/>obiicitur quod obligatio quo quis obligatur proprio etc. Dicendum quod vtrum
+            <lb ed="#N" n="47"/>que est proprium: differenter tamen. quia licet hoc actum illud contractum:
+            ni<lb ed="#N" n="48" break="no"/>hilominus illud quod est contractum est alligatum causaliter ipsi
+            natu<lb ed="#N" n="49" break="no"/>re aqua contrahitur in ipsa persona. Unde fortiorem adherentia illius
+            <lb ed="#N" n="50"/>quam actualis.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e565">
+            ⁋ Ad aliud quod obiicitur. quod causa vtriusque tollitur
+            <lb ed="#N" n="51"/>scilicet culpa duplex etc. dicendum. quod et si culpa simpliciter sit causa
+            <lb ed="#N" n="52"/>pene: non tamen culpa est causa immediata et proxima in
+            paruu<lb ed="#N" n="53" break="no"/>lis vel adultis. pene dico originalis que comprehendit
+            famen<lb ed="#N" n="54" break="no"/>sitim et huiusmodi: sed potius corruptio nature in ipsis personis
+            <lb ed="#N" n="55"/>Unde cum obiicitur quod causa vtriulque pene tollitur. Dicendum
+            <lb ed="#N" n="56"/>quod hoc non est verum. si intelligatur de causis immediatis:
+            <lb ed="#N" n="57"/>bene enim verum est quod causa pene que debetur culpe actua
+            <lb ed="#N" n="58"/>li tollitur scilicet culpa actualis: sed non pene originalis que est
+            <lb ed="#N" n="59"/>ipsa corruptio nature. et obnoxietas mortis.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e588">
+            ⁋ Ad aliud
+            <lb ed="#N" n="60"/>quod obiicitur de pena damni quod remittitur omnino etc.
+            <lb ed="#N" n="61"/>Dicendum quod pena carentie et pena eterna sensibilis eo quod
+            <lb ed="#N" n="62"/>solum debentur culpe mortali nec alii: necessario tollitur eorum
+            <lb ed="#N" n="63"/>debitum in aduentu gratie gratum facientis. Unde culpa remissa
+            <lb ed="#N" n="64"/>siue deleta et pene iste necessario delentur. beneficium igitur
+            <lb ed="#N" n="65"/>remissionis pene carentie et pene sensibilis eterne: est
+            anne<lb ed="#N" n="66" break="no"/>xum necessario beneficio remissionis culpe et infusionis
+            <lb ed="#N" n="67"/>gratie gratum facientis.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e608">
+            ⁋ Ad hoc quod obiicitur. quod et si vterque
+            <lb ed="#N" n="68"/>decederet statim euolaret. Dicendum quod hoc est quia in
+            mor<lb ed="#N" n="69" break="no"/>te soluitur reatus quem incurrit homo ex preuaricatione diuini
+            prece<lb ed="#N" n="70" break="no"/>pti primi hominis. qui quia non potest ante mortem
+            sol<lb ed="#N" n="71" break="no"/>ui: non tollitur in baptismo.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e619">
+            ⁋ Ad aliud quod obiicitur. quod
+            medi<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>ci prudentis est tollere radicem morbi. Dicendum quod prudentis
+            <lb ed="#N" n="73"/>medici est non folum in equalitatem tollere vnde est morbus: sed
+            equa<lb ed="#N" n="74" break="no"/>litatem vnde sanitas est et virtus humana constituere. Unde proprie
+            <lb ed="#N" n="75"/>est eius intentionis sanitatem perfectam inducere. et ea que ad hoc
+            <lb ed="#N" n="76"/>operantur expedire. Unde medici prudentissimi id est christi intention
+            <lb ed="#N" n="77"/>fuit sanitatem inducere immortalitatis et incorruptibili
+            <lb ed="#N" n="78"/>tatis scilicet corporalis et spiritualis: et illa tollere que hanc
+            <lb ed="#N" n="79"/>impediunt: et illa permittere que ad hanc promouent: sanita
+            <lb ed="#N" n="80"/>tem perfectam promouet corruptio penalis: propter quod hanc
+            <lb ed="#N" n="81"/>tollere noluit. Ad hanc autem sanitatem multipliciter
+            pro<lb ed="#N" n="82" break="no"/>mouet hec corruptio scilicet quia facit hominem agnoscere
+            suu<lb ed="#N" n="83" break="no"/>am miseriam. ysa. xxviii. Uexatio dabit intellectum. Item
+            <lb ed="#N" n="84"/>quia humiliat omnes. osee. vi. humiliatio tua in
+            medio<lb ed="#N" n="85" break="no"/>tui. Item quia deterret et a culpa auertit ex consideratione
+            <lb ed="#N" n="86"/>immensitatis pene. Iob. vi. terrores domini militant
+            con<lb ed="#N" n="87" break="no"/>tra me. Item propter exemplum non peccandi. Iach. iii. Adam.
+            <lb ed="#N" n="88"/>exemplum meum ab adolescentia mea. Item propter
+            exerci<lb ed="#N" n="89" break="no"/>tium virtutum. Iudi. ii. he sunt gentes quas reliquit
+            do<lb ed="#N" n="90" break="no"/>minus vt erudiret isrlis. Item quia excitat ad desiderium
+            <lb ed="#N" n="91"/>celestium. Michee. ii. Surgite et abite quia non habetis
+            <lb ed="#N" n="92"/>hic requiem. Isido. de summo bono. Soluto reatu
+            pecca<lb ed="#N" n="93" break="no"/>ti manet quedam temporalis pena. vt illa vita feruentius quera
+            <lb ed="#N" n="94"/>tur que erit a penis omnibus aliena. Item quia tollit
+            oc<lb ed="#N" n="95" break="no"/>casionem erroris scilicet ne crederetur ablatio pene esse premium
+            <lb ed="#N" n="96"/>baptismi siue fructus: et non vita eterna. Dicendum ergo quod
+            pru<lb ed="#N" n="97" break="no"/>dentis medici est tollere quandoque radicem morbi. sed non quando
+            <lb ed="#N" n="98"/>ita est radix morbi radicata a natura quod tolli non potest sine
+            <lb ed="#N" n="99"/>destructione nature. in tali casu non est tollere medici radicem
+            <lb ed="#N" n="100"/>quia tunc destrueret naturam. Unde quia in homine cor
+            <lb ed="#N" n="101"/>ruptio ita radicata est in natura et annexa immo quasi natura:
+            <lb ed="#N" n="102"/>non est medici summi illam tollere. Preterea. corruptio penalis non
+            <lb ed="#N" n="103"/>est radix morbi proprie loquendo: sed potius dissolutio ipsius
+            cor<lb ed="#N" n="104" break="no"/>ruptionis per lasciuiam. siue lasciuiendo ex incuria siue
+            negli<lb ed="#N" n="105" break="no"/>gentia libro. arbtro. quia inquantum huiusmodi ministrat fomitem morbi peccati. quod
+            <lb ed="#N" n="106"/>proprium est radicis. tamen repressiuam hus dissolutionis sufficientem
+            ordi<lb ed="#N" n="107" break="no"/>nauit medicus et ordinat scilicet libro. arbtro. cum gratia: et subsidium
+            sacramen<lb ed="#N" n="108" break="no"/>torum. Unde ex parte medici nulla reperitur insufficientia.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e703">
+            ⁋ Ad
+            ali<lb ed="#N" n="109" break="no"/>ud misericordia superexaltat iudicium. Dicendum quod vnus
+            sen<lb ed="#N" n="110" break="no"/>sus verbi est iudicium quod fit cum misericordia: per ipsam
+            miseri<lb ed="#N" n="111" break="no"/>cordiam commendabilius est et magis placet: Alius est quod plores
+            me<lb ed="#N" n="112" break="no"/>rentur et soluantur operibus misericordie quam iudicii. Alius quod mise
+            <lb ed="#N" n="113"/>ricordia supponitur operibus iudicii ad moderandum iudicium.
+            ne<lb ed="#N" n="114" break="no"/>per rigorem puniat aut per equitatem: sedpotius per pietatis
+            dispen<lb ed="#N" n="115" break="no"/>sationem. hoc modo dicimus quod in operibus domini misericordia
+            superexal<lb ed="#N" n="116" break="no"/>tat iudicium. Preterea. si sumatur intellectus verbi eo modo quo
+            obie<lb ed="#N" n="117" break="no"/>ctum fuit scilicet quod in operibus misericordie maior debet esse misericordia quam in
+            <lb ed="#N" n="118"/>operibus iusticie iusticia. et ita quicquid homin inflictum est iusticia
+            <lb ed="#N" n="119"/>dei puniente: debet remitti misericordia relaxante. dicendum quod hoc
+            non<lb ed="#N" n="120" break="no"/>om: sed quod vel illud plene remittatur. vel quod alio equali vel
+            <lb ed="#N" n="121"/>maiori efficacia misericordie suppleatur. et sicet hoc scilicet in
+            col<lb ed="#N" n="122" break="no"/>latione gratie et ornatu virtutum et potestatis merendi vitam eternam
+            <lb ed="#N" n="123"/>et multis aliis.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e738">
+            ⁋ Ad illud quod obiicitur quod in baptismo
+            re<lb ed="#N" n="124" break="no"/>stitutum est corpus humanum ad statum primi hominis. Dicendum quod
+            <lb ed="#N" n="125"/>gratia baptismalis multiplicem habet effectum. Unum
+            respe<lb ed="#N" n="126" break="no"/>ctu mali culpe quod tollit: alium respectu mali pene quod dimi
+            <lb ed="#N" n="127"/>nuit. et loquor de pena contracta. tercium respectu boni meri
+            <lb ed="#N" n="128"/>tori ad quod ordinat. quantum igitur ad primum effectum reducit
+            <lb ed="#N" n="129"/>baptismus ad statum primi hominis non quantum ad secundum vel
+            <lb ed="#N" n="130"/>tercium iuxta opinionem ponentium quod non cecidit a gratia sed iuxta
+            <lb ed="#N" n="131"/>opinionem ponentium quod cecidit a gratia reducit ad statum
+            primi<lb ed="#N" n="132" break="no"/>hominis quantum ad primum et tercium.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e760">
+            ⁋ Ad illud dam. reducit ad
+            <lb ed="#N" n="133"/>beatitudinem. dicendum quod est beatitudo innocentie et gratie. de quibus math.
+            <lb ed="#N" n="134"/>vi. Beati pauperes etc. Et glorie dei que est in fruitione dei. primam
+            <lb ed="#N" n="135"/>humit adam ante peccatum et ad illam reducit.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e770">
+            ⁋ Ad hoc quod obiicitur. quod
+            <lb ed="#N" n="136"/>homin innouato non debetur nisi bonum. Dicendum quod hoc verum est prout
+            <lb ed="#N" n="137"/>bonum dicit conditionem generalem scilicet vel finis vel aliquo modo promo
+            <lb ed="#N" n="138"/>uentis in finem. secundum hunc modum pene inflicte bone sunt. quia
+            <lb ed="#N" n="139"/>hominem quodammodo promouent in finem vt tactum est.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e781">
+            ⁋ Ad
+            il<lb ed="#N" n="140" break="no"/>lud quod obiicitur quod mortalitas et immortalitas sunt
+            opposi<lb ed="#N" n="141" break="no"/>ta: similiter peccatum et gratia. dicendum quod mortalitas et immortalitas
+            re<lb ed="#N" n="142" break="no"/>feruntur ad personam hominis ratione qua anima ipsa potest preuari vita sua
+            <pb ed="#N" n="146"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>vel non potest. secundum quodm primo modo considerantur: proprie respiciunt
+            <lb ed="#N" n="2"/>gratiam et peccatum. secundum quod secundo modo: nequaquam. Unde
+            mortali<lb ed="#N" n="3" break="no"/>tas que est ex priuatione vite corporalis: magis dicenda est
+            pena<lb ed="#N" n="4" break="no"/>hominis ex animaduersione diuine sententie quom ex causatione
+            <lb ed="#N" n="5"/>culpe. et dico causatione simpliciter non meritorie. per se esnim
+            lo<lb ed="#N" n="6" break="no"/>quendo culpa est causa meritoria mortis corporalis: immo
+            anni<lb ed="#N" n="7" break="no"/>hilationis simpliciter. non autem est causa sicut priuationis vite
+            <lb ed="#N" n="8"/>anime. huius autem priuationis non est solum causa meritoria. sed
+            effi<lb ed="#N" n="9" break="no"/>ciens. eo modo quo deficiens dicitur efficiens. hanc enim vitam immedi
+            <lb ed="#N" n="10"/>ate et vt causa coniunctissima tollit. Si igitur hoc modo
+            assum<lb ed="#N" n="11" break="no"/>ptis mortalitate et immortalitate arguatur sic. mortalitas
+            <lb ed="#N" n="12"/>et immortalitas sunt opposita: gratia et culpa sunt opposita
+            <lb ed="#N" n="13"/>sed peccatum est causa mortalitatis: igitur gratia immortalitatis
+            <lb ed="#N" n="14"/>bene sequitur secundum quod mortalitas et immortalitas sonant in
+            <lb ed="#N" n="15"/>aptitudinem non in actum. gratia enim finalis est causa
+            immortali<lb ed="#N" n="16" break="no"/>tatis et inseparabilitatis vite anime ab ipsa. Similiter gratia
+            <lb ed="#N" n="17"/>quecumque gratum faciens: est causa inseparabilitatis id est
+            possibili<lb ed="#N" n="18" break="no"/>tatis ad inseparationem vite anime ab ipsa. Non igitur habet locum
+            <lb ed="#N" n="19"/>modus arguendi predictus eo modo quo mortalitas et im
+            <lb ed="#N" n="20"/>mortalitas immortalitatem dicunt corporis: quia non inducuntur
+            <lb ed="#N" n="21"/>a culpa et gratia vt a causis coniunctis: sed potius prout dicunt
+            <lb ed="#N" n="22"/>mortalitatem et immortalitatem anime. Preterea. nec forma
+            ar<lb ed="#N" n="23" break="no"/>guendi aliqua est. Non enim si vnum contrariorum vel priuatiue
+            <lb ed="#N" n="24"/>oppositorum est causa corruptionis alicuius habitus: sequitur
+            <lb ed="#N" n="25"/>quod aliud sit causa habitus oppositi. Non enim sequitur si
+            excel<lb ed="#N" n="26" break="no"/>lens sensibile est causa corruptionis sensus. quod medium est causa
+            <lb ed="#N" n="27"/>habitus contrarii.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e853">
+            ⁋ Ad hoc quod obiicitur de illo verbo
+            <lb ed="#N" n="28"/>v. Ro. Sicut per vnius delictum in omnes etc. Dicendum quod
+            <lb ed="#N" n="29"/>similitudo attenditur ibi quantum ad generalitatem nascendi in
+            <lb ed="#N" n="30"/>peccato siue concupiscentia per adam: et renascendo spiritualiter per
+            <lb ed="#N" n="31"/>christum. Unde glo. ibidem. Nemo nascitur nisi in concupiscentia
+            <lb ed="#N" n="32"/>carnali que contracta est ex primo homine. et nemo renascitur
+            nisi<lb ed="#N" n="33" break="no"/>gratia spirituali que data est a secundo homine. Hec glo. Non
+            <lb ed="#N" n="34"/>igitur attenditur similitudo in modo condemnationis et
+            iustifi<lb ed="#N" n="35" break="no"/>cationis: sed in generalitate condemnatorum per adam et
+            iustifi<lb ed="#N" n="36" break="no"/>catorum per christum.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e875">
+            ⁋ Ad illud quod obiicitur. quod sufficientior erat obe
+            <lb ed="#N" n="37"/>dientia christi ad iustificandum quam inobedientia primi hominis ad
+            con<lb ed="#N" n="38" break="no"/>demnandum etc. Responsio quod verum est quod longemaior et
+            sufficien<lb ed="#N" n="39" break="no"/>tior fuit satis factio qua christus satisfecit pro peccato primi hominis
+            <lb ed="#N" n="40"/>quam ipsum peccatum. non tamen hanc corruptionem penalem tollebat
+            <lb ed="#N" n="41"/>propter causas predictas. Unde licet satisfactio christi excessit
+            re<lb ed="#N" n="42" break="no"/>spectu culpe: nihilominus dispensatiue prouisum fuit
+            huma<lb ed="#N" n="43" break="no"/>ne vtilitati vt illa corruptio penalis non tolleretur. Si autm
+            <lb ed="#N" n="44"/>queretur quare tanto satisfecit cum minor satisfactio
+            suffecis<lb ed="#N" n="45" break="no"/>set: dici potest. quod hoc fuit quia culpe primi hominis
+            conuenie<lb ed="#N" n="46" break="no"/>bat: et illi pro quo satis factum est expediebat. culpe conueniebat
+            <lb ed="#N" n="47"/>vt deus fieret homo et homo factus moreretur. Ut enim dicit
+            am<lb ed="#N" n="48" break="no"/>bro. Oportuit tantam esse humilitatem redemptoris: quanta
+            <lb ed="#N" n="49"/>fuit elatio preuaricatoris. elatio preuaricatoris fuit vt homo
+            <lb ed="#N" n="50"/>esset deus. oportuit igitur vt humilitas redemptoris esset tanta
+            <lb ed="#N" n="51"/>vt deus esset homo. Preterea. conueniebat vt pro culpa commissa
+            <lb ed="#N" n="52"/>impie viuendo: satisfaceret deus homo pie moriendo. Itemi
+            <lb ed="#N" n="53"/>homini expediebat quia vt dicit Bern. Cum vna gutta
+            <lb ed="#N" n="54"/>sanguinis christi sufficeret ad redemptionem hominis: nihilo
+            <lb ed="#N" n="55"/>minus illum effudit in magna habundantia. vt vel sic hominem
+            <lb ed="#N" n="56"/>ad amorem sui alliceret. Preterea. vt homo totaliter a deo
+            pos<lb ed="#N" n="57" break="no"/>sideretur sine perticipatione alterius. Augustinus tanti emit: vt solus
+            pos<lb ed="#N" n="58" break="no"/>sideret.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e925">
+            ⁋ Ad aliud quod obiicitur. quod habundantior fuit gratia
+            da<lb ed="#N" n="59" break="no"/>ta per christum: quam mors illata per delictum primi hominis. Dicendum quod
+            <lb ed="#N" n="60"/>apostolus comparat vitam habendam per christum morti introducte
+            per<lb ed="#N" n="61" break="no"/>primum hominem vnde vult dicere. quod beneficia prestita per christum
+            ha<lb ed="#N" n="62" break="no"/>bundant in bono: respectu mali mortis siue pene illate
+            po<lb ed="#N" n="63" break="no"/>primum hominem. hec autem beneficia referuntur ad vitam gratie et
+            <lb ed="#N" n="64"/>glorie. ad vitam gratie sicut gratia remissionis culpe et donorum
+            <lb ed="#N" n="65"/>siue virtutum et operum iusticie. vt ex glo. patet. qui habundant
+            <lb ed="#N" n="66"/>in bono respectu mortis illate per hominem primum. quia illis
+            <lb ed="#N" n="67"/>mereretur homo vitam eternam. Preterea. gratia christi dabitur electis
+            vi<lb ed="#N" n="68" break="no"/>ta eterna: que incomparabiliter excedit in bonitate omnis
+            <lb ed="#N" n="69"/>pene temporalis grauamen. propter quod dicitur ab apostolo. gratia
+            <lb ed="#N" n="70"/>christi habundantior.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e954">
+            ⁋ Ad illud quod obiicitur. quod passio christi
+            <lb ed="#N" n="71"/>est maioris efficacie in regenerando et reuiuificando quom peccatum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>primi hominis in perimendo. Dicendum quod hoc est verum. vnde
+            multoplu<lb ed="#N" n="73" break="no"/>ra meruit nobis passio christi et recepimus regenerati et
+            re<lb ed="#N" n="74" break="no"/>uificati quam demeruit nobis peccatum primi hominis sicut patet
+            <lb ed="#N" n="75"/>ex predictis. nec propter hoc sequitur quod meruit remissionem
+            pe<lb ed="#N" n="76" break="no"/>narum contractarum. meritum enim eius est quantum ad ea que reparant
+            la<lb ed="#N" n="77" break="no"/>psum et expediunt ad regnum obtinendum. licet autem
+            remissi<lb ed="#N" n="78" break="no"/>one harum penarum fieret reparatio quedam lapsus: non
+            tamen<lb ed="#N" n="79" break="no"/>expediret vt ex causis patet predictis.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e979">
+            ⁋ Ad hoc quod
+            obiici<lb ed="#N" n="80" break="no"/>tur. quod causa sublata tollitur effectus. Dicendum quod hoc non
+            <lb ed="#N" n="81"/>est verum in causis meritoriis et effectibus. Peccatum autem
+            re<lb ed="#N" n="82" break="no"/>spectu pene est causa meritoria. Unde dicendum quod est quedam causa
+            <lb ed="#N" n="83"/>efficiens: et quedam conseruans: quedam inducens sed non conseruans.
+            <lb ed="#N" n="84"/>Primo modo habet veritatem. secundo modo non. exemplum horum est
+            <lb ed="#N" n="85"/>in corpore luminoso et luine. gladio et vulnere. primo modo cul
+            <lb ed="#N" n="86"/>pa non est causa pene. sed secundo modo.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e997">
+            <lb ed="#N" n="87"/>Consequenter que. §. ir.
+            <lb ed="#N" n="88"/>ritur. vtrum in baptismo euacuetur caro a potestate incentiua
+            <lb ed="#N" n="89"/>siue concupiscentia. Quod non: patet. quia vt habetur gal. v. Caro
+            con<lb ed="#N" n="90" break="no"/>cupiscit aduersus spiritum etc. et hoc post baptismum.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1008">
+            ⁋
+            Con<lb ed="#N" n="91" break="no"/>tra. augustinus. de baptismo paruulorum. per baptismum christi id agitur vt
+            <lb ed="#N" n="92"/>caro peccatis euacuetur. non sic autem euacuatur vt in carne
+            con<lb ed="#N" n="93" break="no"/>cupiscentia innata non sit: sed ne obsit. ex hoc videtur quod
+            euacu<lb ed="#N" n="94" break="no"/>ata est concupiscentia quantum ad potestatem nocendi.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1019">
+            ⁋ Item
+            maio<lb ed="#N" n="95" break="no"/>res sunt pene: pena damni et pena gehaene: quam pena
+            concu<lb ed="#N" n="96" break="no"/>piscentie. sed ille tolluntur: ergo multofortius illa que minor est.
+            <lb ed="#N" n="97"/>scilicet pena concupiscentie in presenti.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1028">
+            ⁋ Responsio. dicendum quod
+            rema<lb ed="#N" n="98" break="no"/>net concupiscentia post baptismum licet diminuatur. Augustinus autem
+            <lb ed="#N" n="99"/>loquitur de paruulis quibus non potest nocere concupiscentia. Unde
+            <lb ed="#N" n="100"/>subdit ibidem. Cum post baptismum ad etatem peruenerint: ibi
+            ha<lb ed="#N" n="101" break="no"/>bent cum qua pugnent: eamque adiuuante deo superent: si non gratiam
+            <lb ed="#N" n="102"/>in vacuum susceperint.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1041">
+            ⁋ Ad aliud dicendum quod non sequitur si tollit
+            <lb ed="#N" n="103"/>maiores penas quod tollat minores: quia gratia que iustificat non
+            <lb ed="#N" n="104"/>compatitur secum istas penas maiores sed bene compatitur
+            se<lb ed="#N" n="105" break="no"/>cum minores.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1051">
+            <lb ed="#N" n="106"/>Consequenter que§. iii.
+            <lb ed="#N" n="107"/>ritur vtrum fomes tollatur in baptismo. Quod non: patet. quia
+            con<lb ed="#N" n="108" break="no"/>cupiscentia inordinata est ex fomite. concupiscentia autem manm
+            <lb ed="#N" n="109"/>vt patet.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1062">
+            ⁋ Contra. Ro. xiii. Nox precessit dies autem
+            appropin<lb ed="#N" n="110" break="no"/>quabit. glo. Uetus homo qui in baptismo preteriit id est fomes peccati.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1067">
+            <lb ed="#N" n="111"/>⁋ Item quare non tollitur pena fomitis sicut et alie. Si
+            dice<lb ed="#N" n="112" break="no"/>retur quod relinquitur ad exercitium. Contra. maius est exercitium in
+            <lb ed="#N" n="113"/>penis penalibus quam in penis naturalibus siue fomitis.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1076">
+            ⁋ Item
+            <lb ed="#N" n="114"/>queritur que sunt pene que tolluntur et que sunt ille que non
+            <lb ed="#N" n="115"/>tolluntur.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1083">
+            ⁋ Responsio. quod fomes non tollitur sced dicitur preterire
+            <lb ed="#N" n="116"/>et haptismo quantum ad dominium et quantum ad necessitatem
+            incli<lb ed="#N" n="117" break="no"/>nandi ad culpam. vel etiam inquantum est culpa secundum illos qui
+            po<lb ed="#N" n="118" break="no"/>nunt quod fomes intensus culpa est. non autem preterit inquantum est
+            pe<lb ed="#N" n="119" break="no"/>na nec quantum ad possibilitatem inclinandi ad culpam. Unde. vi
+            <lb ed="#N" n="120"/>ad No. Uetus homo noster semel crucifixus est vt
+            destru<lb ed="#N" n="121" break="no"/>atur corpus peccati. glo. per baptismum id agitur vt vetus homo
+            cru<lb ed="#N" n="122" break="no"/>cifigatur et corpus peccati destruatur. non ita vt in ipsa viuem
+            <lb ed="#N" n="123"/>tem carne concupiscentia respersa et innata repente absumatur
+            <lb ed="#N" n="124"/>et non sit: sed ne homini insit mortuo que inerat nato. non itaque
+            <lb ed="#N" n="125"/>hoc prestatur in baptismo nisi forte miraculo ineffabili
+            crea<lb ed="#N" n="126" break="no"/>toris. vt lex peccati que est in membris prorsus extinguatur et non
+            <lb ed="#N" n="127"/>sit. Et ide habitur ab augustinus lib. de baptismo paruulorum.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1112">
+            ⁋ Ad
+            ali<lb ed="#N" n="128" break="no"/>ud dicendum. quod quedam sunt pene eternales et quedam temporales.
+            <lb ed="#N" n="129"/>ab omni eternali absoluit baptismus delendo omnem culpam
+            <lb ed="#N" n="130"/>In temporali vero distinguendum est. quia quedam contrahuntur. quedam
+            <lb ed="#N" n="131"/>assumuntur siue imponuntur. Contrahuntur autem sicut fames.
+            si<lb ed="#N" n="132" break="no"/>tis et passiones contemparanee vite. quedam imponuntur et assu
+            <lb ed="#N" n="133"/>muntur vt ieiunia et corporalia et spiritualia exercitia et
+            labo<lb ed="#N" n="134" break="no"/>riosa opera. baptismus igitur absoluit ab omni pena
+            eternali<lb ed="#N" n="135" break="no"/>absoluit nihilominus ab omni pena temporali satisfactoria siue
+            <lb ed="#N" n="136"/>assumpta: non autem ab omni contracta: vtpote a fame et siti
+            <lb ed="#N" n="137"/>infirmitate et ceteris penis spiritualibus. Ratio autem huius est.
+            <lb ed="#N" n="138"/>quia deus ad hoc ipsum non ordinauit. et ratio quare non
+            ordina<lb ed="#N" n="139" break="no"/>uit. quia congruum fuit quod huiusmodi penalitates in nobis relinque
+            <lb ed="#N" n="140"/>ret. et hoc ad manifestandum equitatem diuini iudidii
+            <pb ed="#N" n="147"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>ad demonstrandum meritum passionis christi: ad promouendum
+            <lb ed="#N" n="2"/>meritum libro. arbtro. Ad manifestandam equitatem diuini iudicii.
+            <lb ed="#N" n="3"/>vt illa sententia quam dictauerat de morte ade et posteriorum
+            <lb ed="#N" n="4"/>eius immobilis permaneret. Unde ab illa nemo euadit. Ad
+            <lb ed="#N" n="5"/>ostendendum fructum passionis christi. quia si dominus curaret naturam
+            <lb ed="#N" n="6"/>fet fomitem: filius nasceretur immunis a culpa: nec indigeret
+            re<lb ed="#N" n="7" break="no"/>generari a christo deo. Ut igitur omnes se ipsius passione noscant
+            <lb ed="#N" n="8"/>egere: data est virtus sacramento a passione. quod ad hoc
+            ordi<lb ed="#N" n="9" break="no"/>natum est vt penas remittat personales non naturales. quia
+            re<lb ed="#N" n="10" break="no"/>medium respicit personam non naturam. Ad amplificandum meritum
+            <lb ed="#N" n="11"/>lidbo art. quia promouent ad bonum multiplex huiusmodi penalitates.
+            <lb ed="#N" n="12"/>dantur enim propter humilitatem et alia que dicta sunt. Ex his
+            <lb ed="#N" n="13"/>patet responsio ad obiecta.
+          </p>
+        </div>
+        <div xml:id="v78d89-a564ff-Dd1e1176">
+          <head xml:id="v78d89-a564ff-Hd1e1178">Articulus 3</head>
+          <p xml:id="v78d89-a564ff-d1e1180">
+            <lb ed="#N" n="14"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1185">
+            <lb ed="#N" n="15"/>DEinde queritur vtrum per baptismum tollatur
+            pena<lb ed="#N" n="16" break="no"/>damni. que est carentia visionis. et videtur quod sic. quia
+            <lb ed="#N" n="17"/>si moritur baptizatus. virtute baptismi statim euo
+            <lb ed="#N" n="18"/>lat: ergo baptismus carentiam visionis dei tollit.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1196">
+            ⁋ Contra.
+            <lb ed="#N" n="19"/>baptismus institutus fuit ante passionem: ergo tunc habuit
+            ef<lb ed="#N" n="20" break="no"/>fectum suum. sed non tollebat carentiam visionis dei: quia quotquot
+            <lb ed="#N" n="21"/>baptizati erant. etiam baptismo christi: descendebant ad limbum.
+            <lb ed="#N" n="22"/>ergo tollere carentiam visionis non fuit effectus baptismi sed
+            <lb ed="#N" n="23"/>passionis christi.
+          </p>
+          <p xml:id="v78d89-a564ff-d1e1209">
+            ⁋ Ad quod dicendum. quod baptismus tollit
+            caren<lb ed="#N" n="24" break="no"/>tiam visionis. et hoc habet a passione christi a qua virtutem habet sicut
+            <lb ed="#N" n="25"/>et alia sacramenta. Quod autem non habuerit hunc effectum ante
+            <lb ed="#N" n="26"/>passionem. hoc erat quia nondum solutum fuerat precium redemptio
+            <lb ed="#N" n="27"/>nis. Soluto autem precio baptismus consecutus est effectum suum.
+            <lb ed="#N" n="28"/>Et per hoc patet responsio ad obiecta. Nam et passio christi
+            <lb ed="#N" n="29"/>tollit carentiam visionis: et baptismus per virtutem quam habet
+            <lb ed="#N" n="30"/>a passione christi.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

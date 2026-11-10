@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 50, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 50, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="337"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aa8rmf"><!-- q50m4 -->
+        <head xml:id="v78d89-aa8rmf-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aa8rmf-Hd1e103" type="question-title">Utrum a sacerdotibus fornicatoribus</head>
+        <p xml:id="v78d89-aa8rmf-d1e106">
+          <lb ed="#N" n="122"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-aa8rmf-d1e111">
+          <lb ed="#N" n="123"/>COnsequenter queritur vtrum dispensandum est corpus
+          <lb ed="#N" n="124"/>christi a sacerdotibus fornicatoriis. circa hoc sic.
+          <lb ed="#N" n="125"/>di. xxxii. nullus missam audiat presbiteri quem scit
+          <lb ed="#N" n="126"/>concubinam indubitanter habere aut subintrodu
+          <lb ed="#N" n="127"/>ctam mulieren. Introducta dicitur que sub specie alicuius
+          ser<lb ed="#N" n="128" break="no"/>uitii intrat domum sacerdotis. Et si missa eorum non est
+          au<lb ed="#N" n="129" break="no"/>dienda: multofortius nec ab eis sacra communio sumenda.
+        </p>
+        <p xml:id="v78d89-aa8rmf-d1e129">
+          <lb ed="#N" n="130"/>⁋ Item ea. di. c. sequenti. preter hoc precipiendo mandamus vt
+          <lb ed="#N" n="131"/>nullus missam presbiteri audiat quem scit concubinam
+          indu<lb ed="#N" n="132" break="no"/>bitanter habere. Unde et sancta synodus hoc capitulum
+          sub<lb ed="#N" n="133" break="no"/>excommunicatione statuit etc.
+        </p>
+        <p xml:id="v78d89-aa8rmf-d1e141">
+          ⁋ Item di. lxxxi. Si qui sunt
+          <lb ed="#N" n="134"/>presbiteri vel dyaconi vel subdyaconi qui crimen
+          fornica<lb ed="#N" n="135" break="no"/>tionis habeant. interdicimus ei ex parte omnipotentis dei et
+          <lb ed="#N" n="136"/>sancti petri auctoritate ecclesie introitum: vsquedum peniteant
+          <lb ed="#N" n="137"/>vel se emendant. si qui vero in peccato suo perseuerare voluerint:
+          <lb ed="#N" n="138"/>nullus vestrum eorum presumat audire officium et ita vt prius
+        </p>
+        <p xml:id="v78d89-aa8rmf-d1e154">
+          <pb ed="#N" n="338"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>⁋ Contra. augustinus. contra peculianum. neque in homine bono
+          ali<lb ed="#N" n="2" break="no"/>quis sacramenta dei fugiat neque in homine malo.
+        </p>
+        <p xml:id="v78d89-aa8rmf-d1e165">
+          ⁋ Responsio.
+          <lb ed="#N" n="3"/>quod fornicatores sunt in triplici differentia. quidam enim sunt
+          <lb ed="#N" n="4"/>notorii. quidam publici. quidam oculti. Notorii sunt qui
+          de<lb ed="#N" n="5" break="no"/>prehenduntur euidenter in tali crimine vel comprehensi sunt
+          <lb ed="#N" n="6"/>sponte in iure vel canonice super hoc conuicti. Crimen enim
+          red<lb ed="#N" n="7" break="no"/>ditur notorium tribus modis. per sententiam: per confessionem in
+          <lb ed="#N" n="8"/>iure factam. per rei euidentiam. a nullo tali suscipiendum est
+          <lb ed="#N" n="9"/>hoc sacramentum nec aliud. et qui suscipit peccat. Illud autem
+          <lb ed="#N" n="10"/>non interdicitur nisi in penam illorum vt se emendent: non quia
+          <lb ed="#N" n="11"/>sacramenta que conficiuntur ab his aut sint nulla aut
+          immun<lb ed="#N" n="12" break="no"/>da. Unde di. xxxii. preter hoc. predecessores nostri Nicolaus
+          <lb ed="#N" n="13"/>et Grego. a missis sacerdotum quos tales reuera sic
+          consti<lb ed="#N" n="14" break="no"/>terit fideles abstinere decreuerunt. vt etiam peccandi
+          licen<lb ed="#N" n="15" break="no"/>tiam ceteris auferrent: et huiusmodi ad digne penitentie
+          lamen<lb ed="#N" n="16" break="no"/>ta reuocarene. Publici sunt ex fama eis illud imponente
+          <lb ed="#N" n="17"/>et a talibus dum tolerantur ab ecclesia. dum scilicet non
+          suspen<lb ed="#N" n="18" break="no"/>dantur a suo episcopo: possunt suscipi sacramenta. Unde
+          <lb ed="#N" n="19"/>Nicolaus papa. xv. q. vlti. cilt. vlti. Sciscitantibus vobis si a
+          <lb ed="#N" n="20"/>sacerdote que fuerit comprihensus in adulterio. aut sola
+          fa<lb ed="#N" n="21" break="no"/>ma respersus debeatis communionem recipere nec ne.
+          Respo<lb ed="#N" n="22" break="no"/>demus. non potest aliquis quantumcunque pollutus sit
+          sacra<lb ed="#N" n="23" break="no"/>menta diuina polluere. Et infra: idcirco ab eo vsquequo
+          epi<lb ed="#N" n="24" break="no"/>scoporum iuditio reprobetur communio est percipienda. Item
+          <lb ed="#N" n="25"/>extra. de cohabitatione clericorum. nostra. sine dubitatione
+          te<lb ed="#N" n="26" break="no"/>neatis quod a clericis vel presbiteris quamuis fornicatoriis quamdiu
+          <lb ed="#N" n="27"/>tolerantur nec habent operis euidentiam. licite diuina misteria
+          <lb ed="#N" n="28"/>audientur et alia recipiantur ecclesiastica sacramenta. euidentia
+          <lb ed="#N" n="29"/>operis explicat notorium facti de quo in sequenti decretali
+          ha<lb ed="#N" n="30" break="no"/>betur quod iam non indiget testibus cum nulla possit tergiuersatio
+          <lb ed="#N" n="31"/>ne celari. Est igitur regula a notoriis non sunt suscipienda
+          sa<lb ed="#N" n="32" break="no"/>cramenta: sed a publicis quousque ab episcopo suspendantur
+          multo<lb ed="#N" n="33" break="no"/>fortius a fornicatoribus occultis.
+        </p>
+        <p xml:id="v78d89-aa8rmf-d1e235">
+          ⁋ Ad illud quod obiicitur.
+          <lb ed="#N" n="34"/>Neque in homine malo sacramenta dei fugiat. Dicendum quod sic
+          <lb ed="#N" n="35"/>intelligi debet. sugiat id est existimet peiora vel nulla. vel
+          ho<lb ed="#N" n="36" break="no"/>minem malum vocat quenlibet qui est in mortali sed non est de
+          <lb ed="#N" n="37"/>numero supradictorum. vel malum hominem vocat toleratum ab
+          <lb ed="#N" n="38"/>ecclesia vnde neque in malo id est tolerato.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

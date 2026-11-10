@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 63, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 63, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="410"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ac5nbp"><!-- q63m1 -->
+        <head xml:id="v78d89-ac5nbp-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-ac5nbp-d1e103">
+          <pb ed="#N" n="410"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e112">
+          <lb ed="#N" n="2"/>CIrca primum proceditur sic. et ostenditur quod
+          con<lb ed="#N" n="3" break="no"/>tingat a vera penitentia cadere. exemplo
+          da<lb ed="#N" n="4" break="no"/>uid. qui de peccato mortis Urie penituit. cuius
+          <lb ed="#N" n="5"/>etiam penitentiam dominus acceptauit. xii. reg. ii. pec
+          <lb ed="#N" n="6"/>cauit tamen enumerando populum. ii. reg. penlis.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e125">
+          ⁋ Item auctorita
+          <lb ed="#N" n="7"/>te domini Ioh. v. dixit paralitico. Uade et amplius noli
+          pecca<lb ed="#N" n="8" break="no"/>re ne deterius tibi aliquid contingat. Sed non fuisset
+          commina<lb ed="#N" n="9" break="no"/>tus malum propter recidiuum nisi posset cadere: ergo etc.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e134">
+          ⁋ Item
+          <lb ed="#N" n="10"/>videtur idem quod habet esse in libro arbtro. secundum statum vie et hoc non
+          con<lb ed="#N" n="11" break="no"/>firmato. sed tale est vertibile et per vertibilitatem potest cadere a
+          <lb ed="#N" n="12"/>statu gratie et iusticie: ergo et penitentie.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e144">
+          ⁋ Item gratia baptisma
+          <lb ed="#N" n="13"/>lis est maior quam penitentie et confirmationis similiter. sed post
+          <lb ed="#N" n="14"/>veram gratiam baptismatis et confirmationis contingit cadere: ergo
+          <lb ed="#N" n="15"/>et post gratiam penitentie.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e153">
+          ⁋ Contra. amb. et augustinus diffiniunt
+          <lb ed="#N" n="16"/>penitentiam. perpetrata mala plangere: et plangenda
+          vltra<lb ed="#N" n="17" break="no"/>non comittere. ergo si committit post plangenda prius non
+          pe<lb ed="#N" n="18" break="no"/>nituit. si ergo penituit: patet quod vltra non committit.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e162">
+          ⁋ Item
+          <lb ed="#N" n="19"/>ysiud. Inanis est penitentia quam sequens culpa coinquinat.
+          er<lb ed="#N" n="20" break="no"/>go si post peccat prima penitentia fuit inanis. ergo ab
+          op<lb ed="#N" n="21" break="no"/>positis si fuerit vera postea non peccauit.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e171">
+          ⁋ Item idem videtur
+          <lb ed="#N" n="22"/>quod offensa est infinita: ergo et satisfactio si vera est debet esse
+          <lb ed="#N" n="23"/>infinita. ergo cum non sit infinita intensione: saltem est
+          infi<lb ed="#N" n="24" break="no"/>nita duratione. ergo si non semper durat non est vera
+          peniten<lb ed="#N" n="25" break="no"/>tia nec satisfactio.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e182">
+          ⁋ Item vere penitentis est semper dolere
+          <lb ed="#N" n="26"/>de commissis et semper peccatum detestari. sed semper detestanti
+          <lb ed="#N" n="27"/>gratiam impossibile est resurgere: ergo vere prenitentem cum semper
+          <lb ed="#N" n="28"/>detestatur culpam impossibile est cadere.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e191">
+          ⁋ Responsio. dicendum
+          <lb ed="#N" n="29"/>sicut errauerunt aliqui circa penitentiam: sic circa
+          carita<lb ed="#N" n="30" break="no"/>tem. dixerunt enim quod habens semel veram caritatem numquam perdit
+          <lb ed="#N" n="31"/>eam: similiter et habens veram penitentiam nunquam eam perdit. sed
+          <lb ed="#N" n="32"/>hoc est manifestus error et contra scripturam. Ratio autem que
+          <lb ed="#N" n="33"/>istos decepit fuit. quia non considerauerunt quid dicatur vel
+          im<lb ed="#N" n="34" break="no"/>portetur per hoc nomen verum: cum dicitur vera penitentia vel
+          <lb ed="#N" n="35"/>vera caritas. ponentes illud solummodo in his vere esse quod
+          <lb ed="#N" n="36"/>non deficit a fine. sed aliter intelligendum est. scilicet quod veritas
+          <lb ed="#N" n="37"/>penitentie dupliciter accipitur sicut et cuiustibet virtutis.
+          <lb ed="#N" n="38"/>Uno enim modo dicitur virtus vera que habet verum virtutis opst
+          <lb ed="#N" n="39"/>vel nata est habere quantum est de se. et hec veritas est de
+          essen<lb ed="#N" n="40" break="no"/>tia virtutis. Alio modo dicitur virtus vera que perducit in
+          <lb ed="#N" n="41"/>finem. et hec veritas non est essentialis virtuti sed dicit
+          vir<lb ed="#N" n="42" break="no"/>tutis statum siue continuationem. Secundum hoc dicendum. quod
+          si<lb ed="#N" n="43" break="no"/>primo dicatur modo penitentia vera que verum virtutis
+          <lb ed="#N" n="44"/>habet actum: sic de veritate penitentie est detestari malum
+          <lb ed="#N" n="45"/>commissum et pro illo tempore nullum committere. et de futuro
+          pro<lb ed="#N" n="46" break="no"/>ponerenon committere. et ab omnibus his potest homo cadere.
+          <lb ed="#N" n="47"/>et ita a penitentia vera veritate primo dicta. Si autem dica
+          <lb ed="#N" n="48"/>tur vera quia perducit in finem vt ipsa que est finalis et
+          con<lb ed="#N" n="49" break="no"/>tinuata: ab hac non contingit cadere. sed hanc non est dicere
+          <lb ed="#N" n="50"/>hominem habere: nisi finaliter perseueret et ab illa non cadat.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e242">
+          <lb ed="#N" n="51"/>⁋ Ad illud ergo quod obiicitur primo. quod ad veritatem eius
+          <lb ed="#N" n="52"/>spectat plangenda non committere. dicendum quod si
+          loqua<lb ed="#N" n="53" break="no"/>mur de veritate primo modo: ad veritatem spectat non
+          con<lb ed="#N" n="54" break="no"/>mittere tunc nec actu nec proposito. sed non post. et sic
+          ac<lb ed="#N" n="55" break="no"/>cipitur in dictis diffinitionibus. vel si accipiatur pro futuro
+          <lb ed="#N" n="56"/>simpliciter: tunc erit penitentie dicte vere veritate perseue
+          <lb ed="#N" n="57"/>rantie siue ducente in finem. Et per hoc patet illud ysido.
+          <lb ed="#N" n="58"/>quia dicitur inanis propter frustrationem finis.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e262">
+          ⁋ Ad illud
+          <lb ed="#N" n="59"/>autem quod obiicitur quod offensa est infinita. dicendum quod deus
+          <lb ed="#N" n="60"/>remittit offensam per gratiam. sed pro deletione
+          temporali<lb ed="#N" n="61" break="no"/>exigit penam temporalem soluendam per penitentiam. et ideo
+          <lb ed="#N" n="62"/>non oportet quod sit infinita.
+        </p>
+        <p xml:id="v78d89-ac5nbp-d1e273">
+          ⁋ Ad illud quod obiicitur quod semper
+          <lb ed="#N" n="63"/>dolere debet. dicendum quod semper dolere debet habitu. sed
+          <lb ed="#N" n="64"/>licet quis habitu de peccato preterito doleat: nihil
+          im<lb ed="#N" n="65" break="no"/>pedit quin actu committat futurum. vel referendum est ad
+          <lb ed="#N" n="66"/>penitentiam finalem sicut dictum est. De hac materia
+          di<lb ed="#N" n="67" break="no"/>ctum est supra in notificatione illius diffinitionis.
+          Peniten<lb ed="#N" n="68" break="no"/>tia est penitenda non committere etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

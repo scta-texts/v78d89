@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 21, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 21, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="147"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a57l2c"><!-- q21m1 -->
+        <head xml:id="v78d89-a57l2c-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a57l2c-Hd1e103" type="question-title">Utrum parvulis in baptismo conferantur gratiae et virtutes</head>
+        <p xml:id="v78d89-a57l2c-d1e106">
+          <lb ed="#N" n="43"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a57l2c-d1e111">
+          <lb ed="#N" n="44"/>CIrca primum duo queruntur. Primum est vtrum
+          <lb ed="#N" n="45"/>paruulis conferatur gratia in baptismo.
+          Secun<lb ed="#N" n="46" break="no"/>do vtrum conferantur virtutes. et distinguimus
+          <lb ed="#N" n="47"/>inter gratiam et virtutes secundum quod solet
+          distigui<lb ed="#N" n="48" break="no"/>quod gratia dicitur inquantum est gratificatiua: virtus vt est
+          ope<lb ed="#N" n="49" break="no"/>ratiua. vel gratia dicitur vt est perfectiua anime sanctificando
+          <lb ed="#N" n="50"/>illam: virtus habilitando ad meritum.
+        </p>
+        <div xml:id="v78d89-a57l2c-Dd1e129">
+          <head xml:id="v78d89-a57l2c-Hd1e131">Articulus 1</head>
+          <p xml:id="v78d89-a57l2c-d1e133">
+            <lb ed="#N" n="51"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e138">
+            <lb ed="#N" n="52"/>QUeritur ergo primo. Si gratia conferatur paruul in baptismo
+            <lb ed="#N" n="53"/>Uidetur quod sic. paruulus baptizatus est dignus vita eter
+            <lb ed="#N" n="54"/>na. Unde si decederet statim euolaret. hanc autem
+            <lb ed="#N" n="55"/>dignitatem non habet sine gratia. ergo habet gratiam. et ante baptis
+            <lb ed="#N" n="56"/>mum non habuit: ergo etc.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e151">
+            ⁋ Contra. voluntas paruuli non mutatur
+            <lb ed="#N" n="57"/>ergo se habet vniformiter respectu gratie. sed deus semper paratus
+            <lb ed="#N" n="58"/>est dare: ergo quod modo dat modo non. hoc non est nisi propter
+            muta<lb ed="#N" n="59" break="no"/>tionem in voluntate suscipientis. ergo si in paruulo non mutatur
+            vo<lb ed="#N" n="60" break="no"/>luntas: non recipit gratiam.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e162">
+            ⁋ Si dicatur quod paruulus disponitur non
+            <lb ed="#N" n="61"/>actu suo sed fide offerentium: tunc queritur sic. duplex est baptismus
+            <lb ed="#N" n="62"/>ftuminis et flaminis. baptismus fluminis habet virtutem a fide.
+            <lb ed="#N" n="63"/>flaminis a contritione. quare igitur paruulus non assequitur effectum
+            <lb ed="#N" n="64"/>baptismi flaminis contritione parentum. vt si poneretur quod conte
+            <lb ed="#N" n="65"/>rentur pro peccato illius: sicut baptismi fluminis fide parentum.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e176">
+            ⁋ Ite
+            <lb ed="#N" n="66"/>Quuli baptizantur baptismo fluminis in fide parentum. quare non
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="67"/>similiter adulti baptismo flaminis contritione perentum.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e185">
+            ⁋
+            Re<lb ed="#N" n="68" break="no"/>sponsio quod confertur paruulis gratia sanctificationis siue
+            prur<lb ed="#N" n="69" break="no"/>gationis a peccato originali in baptismo. et hoc merito passio
+            <lb ed="#N" n="70"/>nis christi. et aliene fidei: et virtute sacramenti. et ratio huius
+            <lb ed="#N" n="71"/>est: tum ratione diuine misericordie: tum ratione sue
+            impoten<lb ed="#N" n="72" break="no"/>tie: tum ratione talis culpe. quia enim per actum alterius fuit culpa
+            <lb ed="#N" n="73"/>contracta. et ipsi non poterant se adiuuare: misericors deus
+            con<lb ed="#N" n="74" break="no"/>gruum reputauit eis per alium subuenire. quia enim pro illa
+            culpa<lb ed="#N" n="75" break="no"/>nullus satisfacere poterat purus homo: ideo subuenit deus toto
+            <lb ed="#N" n="76"/>humano generi per passionem christi. et rursus quia effectum non
+            ha<lb ed="#N" n="77" break="no"/>bet passio nisi in his qui volunt fieri membra christi et
+            con<lb ed="#N" n="78" break="no"/>sentiunt: et hoc non poterat paruulus velle: ideo subuenit ei
+            <lb ed="#N" n="79"/>voluntas et fides aliena. sed quia fides subuenit profirendo.
+            <lb ed="#N" n="80"/>et hoc est in sacramento vbi est professio mortis christi in signo:
+            <lb ed="#N" n="81"/>ideo subuenit per sacramentum CTria igitur sunt dispositiua
+            <lb ed="#N" n="82"/>paruuli ad salutem. Primum est passio. Secundum fides aliena
+            <lb ed="#N" n="83"/>Tercium vero et immediatum est virtus sacramenti que
+            caracteren<lb ed="#N" n="84" break="no"/>imprimit qui ad gratiam disponit.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e224">
+            ⁋ Ad istud quod obiicitur
+            <lb ed="#N" n="85"/>primo. scilicet quod voluntas paruuli non mutatur etc. Responsio quod
+            <lb ed="#N" n="86"/>voluntas paruuli non operatur ad susceptionem gratie. sed alia
+            <lb ed="#N" n="87"/>que dicta sunt.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e233">
+            ⁋ Ad aliud dicendum quod multiplex est ratio
+            <lb ed="#N" n="88"/>quare paruuli baptizantur fide parentum baptismo fluminis:
+            <lb ed="#N" n="89"/>et non contritione parentum baptismo flaminis. Una est. quia
+            con<lb ed="#N" n="90" break="no"/>tritio non est remedium culpe originalis. vbi enim non fuit dele
+            <lb ed="#N" n="91"/>ctatio in commissione: non requiritur dolor vel penitentia in
+            re<lb ed="#N" n="92" break="no"/>missione. Alia est ratio quia contritio non est remedium
+            nisi<lb ed="#N" n="93" break="no"/>proprii delicti. Ille enim de diuina iusticia debet puniri qui de
+            <lb ed="#N" n="94"/>lectatus est in peccato. Tercia est ratio quia contritio nonhabet
+            <lb ed="#N" n="95"/>virtutem impetrandi quam habet fides. Inter enim omnes
+            vir<lb ed="#N" n="96" break="no"/>tutes maximam habet fides virtutem siue efficaciam
+            impetran<lb ed="#N" n="97" break="no"/>di. cuius ratio est. quia fides captiuat ipsum credentem et humiliat
+            <lb ed="#N" n="98"/>immo annihilat. vnde quia annihilat ipsum in se efficit maxime potem:
+            <lb ed="#N" n="99"/>tem in merito. propter quod operatio miraculorum est merito
+            <lb ed="#N" n="100"/>fidei. Unde math. x. omnia sunt possibilia credenti. glo.
+            que<lb ed="#N" n="101" break="no"/>in nomine ihu postulantur. igitur propter prerogatiuam fidei scilicet
+            me<lb ed="#N" n="102" break="no"/>rendi siue impetrandi: potest fides vnius alii impetrare et
+            <lb ed="#N" n="103"/>mereri efficaciam baptismi. Non sic contritio. Contritione enim
+            <lb ed="#N" n="104"/>vnius non purgatur alius sine fide. quia non est ita efficax
+            impe<lb ed="#N" n="105" break="no"/>trando. nec contritione vnius remittitur actuale alterius: quia
+            il<lb ed="#N" n="106" break="no"/>le debet penitere et dolere pro peccato qui delectatus est in
+            pec<lb ed="#N" n="107" break="no"/>cato. Et ex his patet responsio.
+          </p>
+        </div>
+        <div xml:id="v78d89-a57l2c-Dd1e281">
+          <head xml:id="v78d89-a57l2c-Hd1e283">Articulus 2</head>
+          <p xml:id="v78d89-a57l2c-d1e285">
+            <lb ed="#N" n="108"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e290">
+            <lb ed="#N" n="109"/>COnsequenter queritur. vtrum paruulis conferantur
+            virtu<lb ed="#N" n="110" break="no"/>tes in baptismo. Quod sic: videtur augustinus ad
+            bonifa<lb ed="#N" n="111" break="no"/>cium. Regenerans spiritus sanctus in maioribus
+            offe<lb ed="#N" n="112" break="no"/>rentibus et paruulo renato oblatoque communis est. Sed
+            con<lb ed="#N" n="113" break="no"/>munitas ista non est nisi ratione effectus gratie: igitur eandem gratiam
+            <lb ed="#N" n="114"/>habent in genere paruuli renati et maiores offerentes illos
+            <lb ed="#N" n="115"/>sed maiores habent gratiam cum virtutibus.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e308">
+            ⁋ Item si paruulus
+            <lb ed="#N" n="116"/>decederet euolaret. igitur habet peienas virtutu.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e313">
+            ⁋ Item
+            <lb ed="#N" n="117"/>anima paruuli quantum est in ea: eque est susceptibilis
+            virtu<lb ed="#N" n="118" break="no"/>tum vt anima adulti vel magis: cum nihil sit in ea
+            contra<lb ed="#N" n="119" break="no"/>rium virtuti. quia nec concupiscentia que est in anima
+            adul<lb ed="#N" n="120" break="no"/>torum. Cum igitur dator virtutum conferat eas adulto ex
+            vir<lb ed="#N" n="121" break="no"/>tute baptismi. et eque efficax sit baptismus in paruulo et
+            <lb ed="#N" n="122"/>adulto. et dator eque liberalis: anima paruuli eas recipiet
+            <lb ed="#N" n="123"/>sicut adulti anima.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e332">
+            ⁋ Si diceretur quod motus libro. arbtro. est in adulto
+            <lb ed="#N" n="124"/>non autem in paruulo qui est causa quare iste suscipit ille non.
+            igi<lb ed="#N" n="125" break="no"/>tur pareunte causa peribit effectus. ergo si adultus
+            aliena<lb ed="#N" n="126" break="no"/>tus amittit vsum libro. arbtro. simul et amittit virtutes.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e341">
+            ⁋
+            Si<lb ed="#N" n="127" break="no"/>autem dicetur quod vsus libro. arbtiro. est causa susceptionis virtutum. non
+            <lb ed="#N" n="128"/>tamen amissio causa perditionis. Non enim in omnibus tenet modus
+            <lb ed="#N" n="129"/>iste inferendi. sed sic esset inferendum si motus libr. arbto. est causa:
+            <lb ed="#N" n="130"/>igitur contraria causa est causa amissionis. vt scilicet
+            volun<lb ed="#N" n="131" break="no"/>tas habendi vel voluntas vicii: tunc obiicitur sic. Ponatur quod
+            <lb ed="#N" n="132"/>aliquis paruulus baptizatus antequam perueniat ad annos discre
+            <lb ed="#N" n="133"/>tionis et aptus ad recipiendum virtutes alienetur. et
+            mane<lb ed="#N" n="134" break="no"/>at in illa alienatione vsquequo fuerit adultus et tunc
+            mori<lb ed="#N" n="135" break="no"/>atur: constat quod saluabitur. igitur aliquis adultus potest
+            salua<lb ed="#N" n="136" break="no"/>ri sine caritate.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e365">
+            ⁋ Item fidei in via succedit visio
+            mani<pb ed="#N" n="148"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>festa in patria spei comprehensio. caritas autem manet
+            NNul<lb ed="#N" n="2" break="no"/>lus igitur decedens sine his glorificabitur in patria: cum ergo
+            <lb ed="#N" n="3"/>paruuli glorificantur: igitur etc.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e376">
+            ⁋ Item augustinus dicit quod fides datur
+            <lb ed="#N" n="4"/>et nutritur in baptismo. datur quantum ad paruulos: et nutritur
+            <lb ed="#N" n="5"/>quantum ad adultos. ergo paruulis in baptismo confertur fides: ergo
+            <lb ed="#N" n="6"/>et alie virtutes.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e385">
+            ⁋ Item ioh. iii. Nisi quis renatus fuerit ex aqua
+            <lb ed="#N" n="7"/>et spiritusancto non intrabit in regnum celorum. Sed iste paruulus
+            <lb ed="#N" n="8"/>est renatus: ergo habet suam natiuitatem. Sed in omni
+            natiui<lb ed="#N" n="9" break="no"/>tate datur aliqua vita. non corporalis: ergo spiritualis. Sed illa
+            <lb ed="#N" n="10"/>est fides. Ro. i. Iustus ex fide viuit. ergo paruulo datur fides
+            <lb ed="#N" n="11"/>ergo pari ratione et alie virtutes.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e398">
+            ⁋ Item baptismus facit paruulum
+            <lb ed="#N" n="12"/>dignum et ydoneum ad dotes glorie. que sunt visio dilectio
+            <lb ed="#N" n="13"/>tentio. Sed ad visionem disponitur fide: ad dilectionem
+            cari<lb ed="#N" n="14" break="no"/>tate: ad tentionem spe: ergo paruulus habet virtutes
+            theolo<lb ed="#N" n="15" break="no"/>gicas et alias per consequens.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e410">
+            ⁋ Contra. Omnis virtus vel
+            for<lb ed="#N" n="16" break="no"/>ma habet actionem propriam a qua non cessat. Unde dam.
+            <lb ed="#N" n="17"/>iii. Possibile est substantiam esse expartem naturali actione. igitur
+            <lb ed="#N" n="18"/>cum virtutes nullam habeant actionem in paruulis. non enim potest
+            <lb ed="#N" n="19"/>virtus esse ociosa.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e421">
+            ⁋ Item. v roo. vix pro iusto quis moritur. ibi.
+            <lb ed="#N" n="20"/>glo. Amb. est bonus qui non est iustus scilicet qui natus est in sim
+            <lb ed="#N" n="21"/>plicitate innocentie. qui nondum laborauit vt amplificaret
+            <lb ed="#N" n="22"/>se bonis operibus. vt sunt paruuli in baptismo mundati. hec gul.
+            <lb ed="#N" n="23"/>baptizati ergo boni sunt non tamen iusti. igitur non habent
+            vir<lb ed="#N" n="24" break="no"/>tutem iusticie. igitur nec aliquam aliam. Qui enim habet vnam
+            <lb ed="#N" n="25"/>etc.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e437">
+            ⁋ Item duplex est perfectio anime scilicet scientia et virtus
+            <lb ed="#N" n="26"/>Scientia enim est perfectio cognitiue virtus affectiue. Sed
+            co<lb ed="#N" n="27" break="no"/>gnitiua paruuli non est capax sue perfectiue: igitur nec affectiua
+            <lb ed="#N" n="28"/>sue.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e446">
+            ⁋ Item anima paruuli non est susceptibilis vicii quod est
+            con<lb ed="#N" n="29" break="no"/>trarium virtuti. id est vicii actualis. sed solum originalis quod est
+            <lb ed="#N" n="30"/>contrarium gratie. esse enim virtutis actum respicit siue
+            exerci<lb ed="#N" n="31" break="no"/>cium propter quod virtuteo dicuntur perfectiones potentiarum. sed in
+            <lb ed="#N" n="32"/>contrariis in quibus non alterum determinate inest: ita est quod
+            il<lb ed="#N" n="33" break="no"/>lud quod non est susceptibile vnius nec alterius. igitur quod non
+            <lb ed="#N" n="34"/>vicii contrarii virtutis: nec ipsius virtutis.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e462">
+            ⁋ Item ysid. de
+            <lb ed="#N" n="35"/>officiis. ii. Paruuli alio profitentur qui adhuc loqui vel credere
+            <lb ed="#N" n="36"/>nesciunt. Sed dicit Augustinus. quod nihil aliud est credere quoam fidem
+            <lb ed="#N" n="37"/>habere: igitur non habent fidem.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e471">
+            ⁋ Item. iiii. de conse. Augustinus ad
+            boni<lb ed="#N" n="38" break="no"/>facium. qui non credit et fieri non posse arbitratur. profecto
+            infide<lb ed="#N" n="39" break="no"/>lis est. etiam si habeat sacramentum fidei. longeque melior est
+            <lb ed="#N" n="40"/>paruulus iste. qui et si fidem non habeat in cognitione: non tamen ei
+            cri<lb ed="#N" n="41" break="no"/>men contrarie cogitationis opponit. sed si fidem non habet in
+            co<lb ed="#N" n="42" break="no"/>gnitione non habet fidem: cum fides sit in cognitiua.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e485">
+            ⁋ Item
+            <lb ed="#N" n="43"/>Augustinus. de baptismo paruulorum. et si nondum fides illa que in
+            cre<lb ed="#N" n="44" break="no"/>dentium voluntate consistit. iam tamen ipsius fidei sacramentum fideles
+            <lb ed="#N" n="45"/>facit. ergo a fide quam habent non dicuntur fideles: sed
+            solum<lb ed="#N" n="46" break="no"/>a sacramento fidei.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e496">
+            ⁋ Iterum Augustinus. de baptismo paruulorum.
+            <lb ed="#N" n="47"/>Quis nesciat credere esse infantibus bapt zari: non
+            credere<lb ed="#N" n="48" break="no"/>autem non baptizari. igitur videtur quod credere paruulorum non sit
+            ali<lb ed="#N" n="49" break="no"/>ud quam baptizari.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e505">
+            ⁋ Item iacobi. ii. Sicut corpus sine spiritu
+            mor<lb ed="#N" n="50" break="no"/>tuum est: ita et fides sine operibus mortua est. Sed in paruulis
+            <lb ed="#N" n="51"/>fides et alie virtutes sunt sine operibus: igitur si inest: mortua
+            <lb ed="#N" n="52"/>est. Sed mortua dicitur que non valicet ad vitam: igitur etc.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e514">
+            ⁋ Item
+            <lb ed="#N" n="53"/>hugo. duo sunt in quibus consistit fides. Cognitio et affectus
+            <lb ed="#N" n="54"/>In affectu substantia fidei inuenitur. In cognitione materia
+            <lb ed="#N" n="55"/>igitur cum in paruulo non est cognitio: nec fides. Ubi enim non est
+            <lb ed="#N" n="56"/>materia: nec illud cuius est materia.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e525">
+            ⁋ Item anima non exit
+            <lb ed="#N" n="57"/>in esse nisi in corpore quia simul creatur et infunditur. sic nec exit
+            <lb ed="#N" n="58"/>in bene esse per receptionem virtutum nisi in corpore quia non dantur
+            <lb ed="#N" n="59"/>anime virtutes nisi in corpore. igitur sicut anima non exit in esse
+            <lb ed="#N" n="60"/>nisi existente corpore organico et habente perfectionem membrorum
+            <lb ed="#N" n="61"/>sic nec exit in bene esse nisi anima habente ea que sunt sibi
+            <lb ed="#N" n="62"/>quasi organa in perfectione. Sed quasi organa anime sunt
+            <lb ed="#N" n="63"/>potentie: igitur non existentibus potentiis anime in perfectione
+            <lb ed="#N" n="64"/>quod est antequam possit exire in actum siue in operationem: non
+            <lb ed="#N" n="65"/>dantur virtutes anime.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e547">
+            ⁋ Item Augustinus. voluntas est
+            instru<lb ed="#N" n="66" break="no"/>mentum seipisum mouens. huius voluntatem requirit virtus. igitur
+            <lb ed="#N" n="67"/>si in paruulo non est huiusmodi voluntas: nec virtus.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e555">
+            ⁋ Item duo
+            <lb ed="#N" n="68"/>sunt de substantia virtutis scilicet perficere habentem: et
+            redde<lb ed="#N" n="69" break="no"/>re efficacem in opere. Unde phus. Uirtus est que
+            haben<lb ed="#N" n="70" break="no"/>tem perficit et opus eius bonum reddit. sed hec duo non sunt
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>in paruulo.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e568">
+            ⁋ Item gratia sine virtutibus sufficit ad tollendum
+            <lb ed="#N" n="72"/>reatum mortis. ergo si debet statim mori: frustra dant
+            <lb ed="#N" n="73"/>virtutes.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e575">
+            ⁋ Item catulus ante determinatum tempus non dicitur
+            <lb ed="#N" n="74"/>cecus neque videns. ratione consimili videtur quod puulus ante
+            <lb ed="#N" n="75"/>determinatum tempus in quo possit vti libro. arbtro. non debet dici
+            ha<lb ed="#N" n="76" break="no"/>bere habitum videndi. Sed habitus videndi spiritualiter fides
+            <lb ed="#N" n="77"/>est: ergo non debet dici habere fidem antequam possit vti libro ar.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e586">
+            <lb ed="#N" n="78"/>⁋ Item peccatum originalem est carentia debite iusticie. Unde
+            <lb ed="#N" n="79"/>paruulus moriens sine baptismo. quia caret iusticia natura
+            <lb ed="#N" n="80"/>li quam debet habere damnatur. Gratia autem baptismalis que
+            <lb ed="#N" n="81"/>est reparatiua defectus huius carentie debet commensurari illi
+            de<lb ed="#N" n="82" break="no"/>fectui. igitur non reparabit nisi defectum illius carentie. ad hanc
+            <lb ed="#N" n="83"/>reparationem non requiritur gratia disponens et promouens ad
+            ope<lb ed="#N" n="84" break="no"/>ra virtutum. ergo virtute baptismi non confertur gratia. ergo non
+            <lb ed="#N" n="85"/>confertur gratia que est virtus. quia illa est disponens et promo
+            <lb ed="#N" n="86"/>uens ad opera virtutum.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e608">
+            ⁋ Item est perfectio nature gratie et
+            <lb ed="#N" n="87"/>glorie. perfectionem glorie precedit perfectio gratie. perfectionem
+            <lb ed="#N" n="88"/>gratie perfectio nature. igitur nullus habet perfectionem gratie
+            ni<lb ed="#N" n="89" break="no"/>si sit perfectus in natura. Sed paruulus non est perfectus in
+            na<lb ed="#N" n="90" break="no"/>tura: ex quo potentie anime non possunt exire in suos acius.
+            <lb ed="#N" n="91"/>quia tunc perfectum est vnumquodque cum contingit proprie virtuti.
+            <lb ed="#N" n="92"/>tunc dicitur contingere virtuti proprie: cum virtus in illo
+            po<lb ed="#N" n="93" break="no"/>test exire in actum. vt patet per exemplum phsopi quod est.. vt
+            quan<lb ed="#N" n="94" break="no"/>do potest facere talem quale ipsum est.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e628">
+            ⁋ Item tam in
+            cogniti<lb ed="#N" n="95" break="no"/>uis quam operatiuis. primo est potentia nuda siue
+            indisposi<lb ed="#N" n="96" break="no"/>ta quantum ad actum cognitionis vel operationis. secundo disposi
+            <lb ed="#N" n="97"/>ta siue facilis respectu eorum. tercio perfecta quando inest habitus
+            <lb ed="#N" n="98"/>cognoscendi vel ars operandi. verbigratria. Primo est intellectus
+            <lb ed="#N" n="99"/>nudus. est enim sicut tabula rasa. post per doctrinam disponitur
+            <lb ed="#N" n="100"/>ad sciendum. cuius adepto habitu perfectus est quantum ad hoc. et secundum
+            <lb ed="#N" n="101"/>has differentias distiguunt quidam materialem intellectum
+            pos<lb ed="#N" n="102" break="no"/>sibilem et adeptum. Similiter est in operatiuis secundum quod dicitur paruulus
+            <lb ed="#N" n="103"/>potest scribere. adultus qui addiscit scribere potest et
+            scripto<lb ed="#N" n="104" break="no"/>potest. Patet igitur quod tam in cognitiuis quam operatiuis est potentia
+            <lb ed="#N" n="105"/>nuda facilis et perfecta. Sed potentia facilis precedit perfectam:
+            <lb ed="#N" n="106"/>igitur vbi non est facilis: nec perfecta. sed in paruulo non est facilis
+            <lb ed="#N" n="107"/>quia nulla est in eo dispositio qua habilis sit ad eliciendum
+            <lb ed="#N" n="108"/>actum virtutis. igitur nec perfecta.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e662">
+            ⁋ Item vt dicit augustinus. virtutes
+            <lb ed="#N" n="109"/>numquam sunt ociose. sed virtutes dicuntur ociose quando non operantur. igitur
+            <lb ed="#N" n="110"/>cum in paruulo non operentur non sunt ibi: cum numquam sunt ociose.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e669">
+            <lb ed="#N" n="111"/>Responsio. circa hoc diuersi diuersa sentiunt. Quidamus
+            hoc<lb ed="#N" n="112" break="no"/>enim ponunt paruulos. nec fidem nec aliquam aliam virtutem habere
+            <lb ed="#N" n="113"/>sed in baptismo solum ab originali liberari. Sed in
+            separatio<lb ed="#N" n="114" break="no"/>ne anime a corpore paruuli virtutes illi conferri. similiter quamcito
+            effi<lb ed="#N" n="115" break="no"/>citur adultus si retineat innocentiam. Hec opinio contraria est
+            <lb ed="#N" n="116"/>opinioni communi. nec est consona rationi quia hoc ponit diuersam
+            <lb ed="#N" n="117"/>efficaciam baptismi in digne recipientibus. Item ponit
+            gratia<lb ed="#N" n="118" break="no"/>baptismalem non sufficere ad salutem. vnde simpliciter
+            falsa<lb ed="#N" n="119" break="no"/>est opinio ista.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e691">
+            ⁋ Alii ponunt virtutes paruulis dari quantum ad
+            <lb ed="#N" n="120"/>radicem non quantum ad habitus. quia datur eis gratia delens culpam:
+            <lb ed="#N" n="121"/>non habilitans potentias. quia potentie sunt ligate vnde non
+            <lb ed="#N" n="122"/>sunt nate habilitari. sed cum potentie soluuntur: gratia
+            ramifi<lb ed="#N" n="123" break="no"/>catur in habitus virtutum. Sed hec positio non potest stare: quia tunc
+            <lb ed="#N" n="124"/>aliquis habens virtutes. si ligarentur in eo potentie per stulticiam vel
+            <lb ed="#N" n="125"/>furiam: amitteret eas. quod stultum est dicere: cum sic perderentur
+            <lb ed="#N" n="126"/>sine culpa.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e709">
+            ⁋ Alia est opinio communis. ponentium quod virtutes
+            <lb ed="#N" n="127"/>conferuntur paruulis in baptismo scilicet quantum ad habitus. sed non
+            <lb ed="#N" n="128"/>quantum ad actus. Contra quod obiicitur. Cum habitus est quo
+            poten<lb ed="#N" n="129" break="no"/>tia facile exeat in actum. sed nulla facultas est in paruuli qua
+            <lb ed="#N" n="130"/>potest exire in actum: igitur videtur quod non habeat habitum virtutum.
+            <lb ed="#N" n="131"/>Ad quod dicendum. quod habitus medius est inter actum et potentiam
+            <lb ed="#N" n="132"/>et ita counicat cum vtroque. Unde quandoque se habet in quadam
+            <lb ed="#N" n="133"/>propinquitate siue conformitate cum potentia. quandoe cum actu.
+            <lb ed="#N" n="134"/>Unde sicut in natura perfectibile precedit suum actum in triplici
+            diffe<lb ed="#N" n="135" break="no"/>rentia ante esse completum natura. prout disponitur differentia
+            tripli<lb ed="#N" n="136" break="no"/>ci. scilicet vt dispositione facultate et necessitate. Similiter
+            for<lb ed="#N" n="137" break="no"/>mam vltimam gratuitam que est perfectio glorie precedit virtus siue virtu
+            <lb ed="#N" n="138"/>tes in triplici gradu siue differentia. scilicet vt dispositio
+            respe<lb ed="#N" n="139" break="no"/>ctu sui actus. scilicet in non habentibus vsum libro arbto. vt facultas in
+            haben<lb ed="#N" n="140" break="no"/>tibus qui defacili possunt elicere actus suos. et istis duobus modis
+            <pb ed="#N" n="149"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>in via. et vt necessitas et hoc modo in patria. habitus igitur qui
+            <lb ed="#N" n="2"/>est vt facultas non vt dispositio defacili exit in actum. nec
+            <lb ed="#N" n="3"/>intendo dicere quod habitus virtutum est solum in paruulis
+            dispo<lb ed="#N" n="4" break="no"/>sitiue. id est quod solum dispositi sunt ad virtutem: sed quod sit ibi secundum
+            <lb ed="#N" n="5"/>substantiam et esse. est tamen vt dispositio respectu actus
+            eliciendi<lb ed="#N" n="6" break="no"/>per ipsam sicut in parima necessario est in suo actu medio modo in
+            ha<lb ed="#N" n="7" break="no"/>bentibus libro arbt. quia non semper est coniunctus suo actui. potest tamen
+            <lb ed="#N" n="8"/>quadam facilitate exire in suum actum. Hanc ergo tenentes
+            <lb ed="#N" n="9"/>opinionem possunt respondere ad obiecta.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e766">
+            ⁋ Ad primum ergo
+            <lb ed="#N" n="10"/>dicendum. quod duplex est actus virtutis. vnus est substantialis
+            <lb ed="#N" n="11"/>siue essentialis sine quo virtus in nullo statu esse potestum. qui est in
+            de<lb ed="#N" n="12" break="no"/>coratione subiecti scilicet anime. Uirtus enim in omni statu animam
+            <lb ed="#N" n="13"/>decorat et dignam deo efficit. Alius est eius actus quodammodo
+            <lb ed="#N" n="14"/>accidentalis. licet sit proprius. qui attenditur in operatione quo
+            au<lb ed="#N" n="15" break="no"/>getur decor illius et meritum. a primo actu non cessant
+            virtu<lb ed="#N" n="16" break="no"/>fes. semper enim animam ornant et deo gratam efficiunt. propter quod
+            di<lb ed="#N" n="17" break="no"/>cuntur indumenta anime. Unde. lxi. ysa. Induit me vestimentis
+            <lb ed="#N" n="18"/>salutis. glo. virtutibus ipso christo. et inducit glo. illam
+            auctori<lb ed="#N" n="19" break="no"/>tatem. iii. Gal. Quicumque baptizati estis christum induistis. Unde
+            <lb ed="#N" n="20"/>sicut duplex est actus vestis materialis scilicet ornare qui est
+            <lb ed="#N" n="21"/>actus essentialis. et protegere a nociuo extrinseco. et iste non
+            <lb ed="#N" n="22"/>semper conuenit: sed iuxta congruitatem loci et temporis. Similiter
+            <lb ed="#N" n="23"/>dico de veste spirituali scilicet virtutis.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e799">
+            ⁋ Ad aliud dicendum. quod
+            iu<lb ed="#N" n="24" break="no"/>stus dicitur duobus modis. vel habitu iusticie: et sic non
+            su<lb ed="#N" n="25" break="no"/>mitur iustus. in glo. v. Ro. Uel ab actu siue exercitio iusti
+            <lb ed="#N" n="26"/>cie: et sic sumitur ibi. Unde glo. ibidem. Iustus pro exercitio
+            vir<lb ed="#N" n="27" break="no"/>tutum: hic dicitur qui bonus est.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e811">
+            ⁋ Ad aliud quod obiicitur quod
+            co<lb ed="#N" n="28" break="no"/>gnitiua paruuli non est capax sue perfectiue etc. Dicendum quod non
+            <lb ed="#N" n="29"/>est simile. quia aliter perficitur affectus virtute: aliter intellectus
+            <lb ed="#N" n="30"/>scentia. perficitur enim intellectus acquisitione et labore humano. propter
+            <lb ed="#N" n="31"/>quod indiget vsu libro arbt. et processu temporis. affectus perficitur imms
+            <lb ed="#N" n="32"/>diate et solummodo a deo. Ut enim dicit augustinus virtus est bona
+            quali<lb ed="#N" n="33" break="no"/>tas mentis quam deus operatur in nobis sine nobis. Deo autem
+            <lb ed="#N" n="34"/>nihil est impossibile. propter quod non sequitur. et si intellectus
+            <lb ed="#N" n="35"/>paruuli non potest perfici scientia. ad quod requiritur ministerium et labor
+            <lb ed="#N" n="36"/>humanus: quod nec affectus cuius perfectio est a solo deo.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e833">
+            ⁋ Ad aliud
+            <lb ed="#N" n="37"/>quod obiicitur. quod anima paruuli non est susceptibilis vicii vel pec
+            <lb ed="#N" n="38"/>cati actualis etc. dicendum quod virtus est contraria vicio actua
+            <lb ed="#N" n="39"/>li et originali. similiter gratia. sed differenter appropriate
+            lo<lb ed="#N" n="40" break="no"/>quendo. quia culpa siue peccatum tam originale quam actuale
+            defor<lb ed="#N" n="41" break="no"/>mat imaginem dei cuius reparatio fit per gratiam. Preterea. ex cul
+            <lb ed="#N" n="42"/>pa tam originali quam actuali est quidam defectus siue habitus
+            <lb ed="#N" n="43"/>defectiuus quo efficitur prona et frequenter declinans in
+            opera<lb ed="#N" n="44" break="no"/>mala. huic habitui defectiuo opponitur habitus virtutis quo
+            <lb ed="#N" n="45"/>vera facilitate quadam assurgit ad opera bona siue
+            merito<lb ed="#N" n="46" break="no"/>ria.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e857">
+            ⁋ Ad aliud quod obiicitur quod virtus non est contraria
+            orgina<lb ed="#N" n="47" break="no"/>libro. dicendum quod non est verum.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e862">
+            ⁋ Ad hoc quod dicitur quod esse virtutis
+            re<lb ed="#N" n="48" break="no"/>spicit actum. dicendum quod hoc intelligitur eo modo quo habitus
+            respi<lb ed="#N" n="49" break="no"/>cit actum. Sed habitus consideratur vt dictum est vel vt facultas
+            <lb ed="#N" n="50"/>vel vt necessitas.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e871">
+            ⁋ Ad aliud quod dicit augustinus quod nihil aliud
+            <lb ed="#N" n="51"/>est credere quam fidem habere. dicendum quod verbum augustin. sic intelligitur
+            <lb ed="#N" n="52"/>nihil aliud est credere quam fidem habere in suo actu. Unde ibi
+            suin<lb ed="#N" n="53" break="no"/>tur fides ab augustinus pro actu fidei. sien ibi. Fides est credere
+            <lb ed="#N" n="54"/>quod non vides. paruuli vero non habent fidem in suo actu.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e882">
+            ⁋ Id
+            <lb ed="#N" n="55"/>aliud quod obiicitur per verbum augustinus quod paruuli non habent in cognitione
+            <lb ed="#N" n="56"/>Dicendum quod augustinu. vult dicere quod qui errat in articulis fidetur
+            <lb ed="#N" n="57"/>licet habeat actualem noticiam eorum que creduntur: deterior est
+            <lb ed="#N" n="58"/>id est non est bonus sicut paruulus qui habet sacramentum fidei licet non
+            ha<lb ed="#N" n="59" break="no"/>beat actualem cognitionem eorum que creduntur. Paruuli enim
+            <lb ed="#N" n="60"/>fidem habent siue virtutem fidei: licet non actualem cognitionem
+            <lb ed="#N" n="61"/>eorum que creduntur. Unde illud quod subiungitur. si non fidem habet
+            <lb ed="#N" n="62"/>tan cognitione: non habet fidem. falsum est.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e903">
+            ⁋ Ad illud augustinus
+            <lb ed="#N" n="63"/>quod sequitur. quod nondum fides facit illos fideles sed
+            sacra<lb ed="#N" n="64" break="no"/>mentum fidei. dicendum quod fides sumitur in verbo augustins pro actu
+            <lb ed="#N" n="65"/>fidei.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e912">
+            ⁋ Ad aliud quod dicit augustinus quod credere in paruulis est
+            ba<lb ed="#N" n="66" break="no"/>ptizati etc. dicendum quod ibi dicitur credere fidem profiteri.
+            paruu<lb ed="#N" n="67" break="no"/>li autem aliter non profitentur fidem nisi suscipiendo sacramentum
+            <lb ed="#N" n="68"/>fidei. Similiter sumitur in illo verbo credere. Augustinus ad
+            bo<lb ed="#N" n="69" break="no"/>nifacium. In ecclesia saluatoris per alios paruuli credunt sicut
+            <lb ed="#N" n="70"/>ex aliis que in baptismo remittuntur peccata contraxerunt
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>paruuli dicuntur per alios credere id est sacramenta fidei.
+            profiteri<lb ed="#N" n="72" break="no"/>vel sacramenta suscipere.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e932">
+            ⁋ Ad istud quod obiicitur per aucto
+            <lb ed="#N" n="73"/>ritatem iacob. dicendum quod verbum iacobi intelligitur in tempore
+            <lb ed="#N" n="74"/>congruo operationi. Unde quando homo potest et debet operare si non
+            <lb ed="#N" n="75"/>operatur mortua est fides in ipso. aliter enim in dormiente
+            fi<lb ed="#N" n="76" break="no"/>des mortua est.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e943">
+            ⁋ Ad hoc quod obiicitur. quod materia fidei est in
+            <lb ed="#N" n="77"/>cognitione: in paruulo autem non est cognitio etc. dicendum quod
+            <lb ed="#N" n="78"/>fides inquantum est virtus infusa siue habitus infusus: non
+            requi<lb ed="#N" n="79" break="no"/>rit cognitionem eius quod creditur. necessario dico. Sed sic
+            sumi<lb ed="#N" n="80" break="no"/>tur cognitio in verbo hug. cum dicit. quod in cognitione est mate
+            <lb ed="#N" n="81"/>ria. Unde hugo. aliud est fides qua creditur: aliud est quod fide
+            <lb ed="#N" n="82"/>creditur. In affectu inuenitur fides in cognitione quod creditur in
+            <lb ed="#N" n="83"/>fide. Fides igitur qui est habitus infusus. non requirit
+            cogni<lb ed="#N" n="84" break="no"/>tionem eius quod creditur. sed potius qua creditur. Est enim
+            que<lb ed="#N" n="85" break="no"/>dam lux spiritualis inclinans siue habilitans animam
+            adheren<lb ed="#N" n="86" break="no"/>dum prime veritati propter se. Unde fides infusa paruulo in
+            <lb ed="#N" n="87"/>baptismo duo facit. scilicet animam siue potentiam anime
+            infor<lb ed="#N" n="88" break="no"/>mat: et adherendum prime veritati habilitat. Unde paruulus
+            <lb ed="#N" n="89"/>baptizatus cum peruenit ad etatem adultam. habitu fidei
+            susce<lb ed="#N" n="90" break="no"/>pto in baptismo: abilis est ad credendum articulos fidei.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e976">
+            <lb ed="#N" n="91"/>⁋ Ad id igitur quod dicit hugo. quod in affectu substantia inuenitur
+            <lb ed="#N" n="92"/>fidei: in cognitione materia. dicendum quod loquitur de fide. non
+            <lb ed="#N" n="93"/>inquantum est habitus infusus: sed secundum quod est in actu vltimo. scilicet
+            in<lb ed="#N" n="94" break="no"/>quantum fide qua creditur conuertit se anima ad illud quod credi
+            <lb ed="#N" n="95"/>tur illi adherendo propter se.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e989">
+            ⁋ Ad aliud obiicitur quod sicut anima
+            <lb ed="#N" n="96"/>non exit inesse nisi corpore existente organico et habente perfectio
+            <lb ed="#N" n="97"/>nem membrorum: sic nec erit in bene esse etc. dicendum quod sien
+            <lb ed="#N" n="98"/>dicit phous. Si senex haberet oculum iuuenis: videret ita
+            <lb ed="#N" n="99"/>bene sicut et iuuenis. Unde vt ostendit phopus. Nunquam est aliquis
+            <lb ed="#N" n="100"/>defectus vel impotentia siue debilitas in substantia anime
+            <lb ed="#N" n="101"/>inquantum huiusmodi. sed quicquid est impotentie vel defectus in homine
+            <lb ed="#N" n="102"/>quantum ad ea que respiciunt naturam anime: hoc est ratione
+            defe<lb ed="#N" n="103" break="no"/>ctus ex parte organorum. propter hoc dico quod statim quando
+            anima<lb ed="#N" n="104" break="no"/>creata est: perfecta est secundum nature perfectionem quantum est de se. Quod
+            <lb ed="#N" n="105"/>autem non potest exercere actus proprios. hoc est propter defectum
+            <lb ed="#N" n="106"/>sui perfectibilis. Unde dico quancito est anima: habet potentias
+            <lb ed="#N" n="107"/>perfectas quantum ad perfectionem quam exigit natura.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e1019">
+            ⁋ Ad aliud
+            <lb ed="#N" n="108"/>quod obiicitur. quod voluntas est instrumentum etc. dicendum quod
+            vo<lb ed="#N" n="109" break="no"/>luntas potest considerari vt est potentia siue vis anime
+            simplici<lb ed="#N" n="110" break="no"/>ter: vel prout est inclinans se siue mouens ad eliciendum
+            <lb ed="#N" n="111"/>uctum aliquem. Similiter virtus potest considerari dupliciter. vel
+            <lb ed="#N" n="112"/>secundum substantiam virtutis et vt est actus siue perfectio potentie:
+            <lb ed="#N" n="113"/>vel vt illa mediante potentia elicit quadam facilitate actum
+            <lb ed="#N" n="114"/>virtutis. voluntatem vltimo modo sumptam requirit virtus
+            vlti<lb ed="#N" n="115" break="no"/>mo modo sumptam. sed sic sumendo virtutem non est virtus in
+            <lb ed="#N" n="116"/>paruulis: sed primo modo. prout autem primo modo sumitur virtus:
+            <lb ed="#N" n="117"/>requirit voluntatem primo modo sumptam. et sic tam voluntas
+            <lb ed="#N" n="118"/>quam virtus est in paruulo baptizato. Uirtus autem gratuita est et
+            <lb ed="#N" n="119"/>potest esse sine vsu voluntatis. sed non sine volunta te
+            poten<lb ed="#N" n="120" break="no"/>tia suscipiente.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e1050">
+            ⁋ Ad hoc quod obiicitur. quod virtus perficit
+            haben<lb ed="#N" n="121" break="no"/>tem et eius opus etc. dicendum quod virtus dupliciter conside
+            <lb ed="#N" n="122"/>ratur. Uno modo vt est habitus perficiens potentiam. Alio modo vt ea
+            <lb ed="#N" n="123"/>elicitur opus meritorium. hoc est in ratione informandi simpliciter
+            <lb ed="#N" n="124"/>vel in ratione merendi per actum. Primo modo sumpta est in paruulis:
+            <lb ed="#N" n="125"/>Secundo modo sumpta diffinitur a pho. Ul potest dici. quod illa
+            dif<lb ed="#N" n="126" break="no"/>finitio intelligitur de virtute consuetudinali. Unde cum in paruulo non
+            <lb ed="#N" n="127"/>redditur opus bonum: sequitur quod in eo non sit virtus
+            consuetudina<lb ed="#N" n="128" break="no"/>lis. Si tamen intelligitur de virtute generaliter. dicendum quod tunc
+            <lb ed="#N" n="129"/>reddit opus bonum cum elicit opst.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e1072">
+            ⁋ Ad aliud dicendum quod sequitur.
+            <lb ed="#N" n="130"/>quod licet statim moreretur puer: necesse erant ei virtutes. non propter
+            <lb ed="#N" n="131"/>opus quod eliceretur in presenti: sed propter ornatum anime.
+            Uirtu<lb ed="#N" n="132" break="no"/>tes enim in futuro in ornatum cedunt et quosdam actus habent sio
+            <lb ed="#N" n="133"/>dicit augustinus.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e1083">
+            ⁋ Ad aliud quod sequitur dicendum. quod anima rationalis
+            duo<lb ed="#N" n="134" break="no"/>bus modis dicitur esse susceptibilis virtutis. Uno modo per
+            acqui<lb ed="#N" n="135" break="no"/>siticonem. alio modo per infusionem. Per acquisitionem quando per viam nature
+            <lb ed="#N" n="136"/>mouetur. preparando se et habilitando ad susceptionem. et hoc modo
+            <lb ed="#N" n="137"/>paruulus manens paruulus: non suscipit virtutem fieut nec sclestiam.
+            <lb ed="#N" n="138"/>Sed per infusionem suscipit virtutem antequam vtatur libro. ar. sicut patet
+            <lb ed="#N" n="139"/>in salomoode cui infusa est scientia cum dormiebat. et tunc non
+            po<lb ed="#N" n="140" break="no"/>perat vti lib. art. Nec est simile de catulo: quia ibi consideratur
+            <pb ed="#N" n="150"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>via nature.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e1107">
+            ⁋ Ad aliud quod obiicitur. quod gratia baptimalis quae
+            <lb ed="#N" n="2"/>est reparatiua defectus carentie debite iusticie: debet
+            commen<lb ed="#N" n="3" break="no"/>surari illi defectui. vnde non requiritur virtus promouens ad
+            <lb ed="#N" n="4"/>exercitium operum virtutum etc. Dicendum quod gratia collata a christo
+            <lb ed="#N" n="5"/>in baptismo habundat ab illa que delet peccata. v. romo. Si
+            vni<lb ed="#N" n="6" break="no"/>us delicto mortui sunt multi: multomagis gratia dei et
+            do<lb ed="#N" n="7" break="no"/>num in gratia vnius hominis ihu christi in plures habundat. glo.
+            <lb ed="#N" n="8"/>plus prestat christus regeneratis: quam eis nocuerat adam
+            genera<lb ed="#N" n="9" break="no"/>tis. et post. remissio peccatorum et alia dona spiritus sancti. ml
+            <lb ed="#N" n="10"/>tomagis habundans transiit in omnes filios eius et. iii. ad titum.
+            <lb ed="#N" n="11"/>Quem effudit in nos habunde. glo. scilicet ad rrmissionem omnium pec
+            <lb ed="#N" n="12"/>catorum et copiam virtutum. Istius habundantie causa fuit
+            ad<lb ed="#N" n="13" break="no"/>uentus illius qui est fons gratiarum. Unde. iiii. ad galita. At vbi venit
+            <lb ed="#N" n="14"/>plenitudo temporis. misit deus filium suum. glo. plenitudo temporis
+            <lb ed="#N" n="15"/>dicitur plenitudo gratie. ideo quia in eo dantur dona spiritus sancti.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e1140">
+            ⁋ Ad
+            il<lb ed="#N" n="16" break="no"/>lud quod obiicitur. quod nullus habet perfectionem gratie nisi sit perfectus
+            <lb ed="#N" n="17"/>in natura etc. Dicendum quod natura consideratur in duplici
+            ra<lb ed="#N" n="18" break="no"/>tione. Una est prout consideratur vt informans rem. et sic est
+            perfe<lb ed="#N" n="19" break="no"/>ctio rei quantum ad esse rei. et hoc modo sumpto. dicit Boetius
+            <lb ed="#N" n="20"/>in libro de duabus naturis et vnica persona christi. Natura est vnam
+            <lb ed="#N" n="21"/>quamque rem informans specifica differentia. Alio modo conside
+            <lb ed="#N" n="22"/>ratur vt perficiens rem quantum ad actum siue opus. secundum quod
+            dici<lb ed="#N" n="23" break="no"/>tur natura principium motus vniuscuiusque. et de hac
+            perfecti<lb ed="#N" n="24" break="no"/>one intelligit phus cum dicit tunc perfectum est etc. Similiter virtus
+            <lb ed="#N" n="25"/>gratuita dupliciter consideratur. inquantum informat potentiam
+            <lb ed="#N" n="26"/>cuius est secundum essentiam potentie: vel secundum actum vel vsum eiusdem
+            <lb ed="#N" n="27"/>Perfectio nature secundum primum primum modum sumpta: precedit
+            per<lb ed="#N" n="28" break="no"/>fectionem gratie siue virtutis secundum primum modum sumpta.
+            si<lb ed="#N" n="29" break="no"/>militer et alie perfectiones sibinuicem respondent.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e1174">
+            ⁋ Ad aliud
+            <lb ed="#N" n="30"/>quod sequitur. dicendum quod in virtutibus diffusis non habet locum
+            <lb ed="#N" n="31"/>hec distinctio potentiarum. non enim ibi facilitas precedit
+            perfe<lb ed="#N" n="32" break="no"/>ctionem. quia ex habitu infuso est perfectio et facilitas ad
+            operan<lb ed="#N" n="33" break="no"/>dum. Unde profecto ibi natura precedit facultatem ad opus.
+            <lb ed="#N" n="34"/>prius enim inest habitus quam reddat potentiam facilem ad
+            elicien<lb ed="#N" n="35" break="no"/>dum actum virtutis. In virtutibus acquisitis locum habet vt patet
+            <lb ed="#N" n="36"/>in exemplis propositis.
+          </p>
+          <p xml:id="v78d89-a57l2c-d1e1192">
+            ⁋ Ad illud quod obiicitur postea. quod
+            vir<lb ed="#N" n="37" break="no"/>tutes nunquam sunt ociose etc. dicendum quod verbum augustinus. debet intel
+            <lb ed="#N" n="38"/>ligi per se. nunquam enim sunt ocio se de se. semper enim operantur quantum
+            <lb ed="#N" n="39"/>est de se. Quod autem quandqoem non operantur: hoc debetur potentiis siue
+            vi<lb ed="#N" n="40" break="no"/>ribus que illis perficiuntur. vt quando ligate sunt vel aliquo alio
+            <lb ed="#N" n="41"/>modo impedite vt non possint exire in actum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

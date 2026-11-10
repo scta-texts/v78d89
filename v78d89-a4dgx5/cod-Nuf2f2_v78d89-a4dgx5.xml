@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 17, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 17, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="126"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4dgx5"><!-- q17m3 -->
+        <head xml:id="v78d89-a4dgx5-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a4dgx5-Hd1e103" type="question-title">Utrum parvulus seminatus sive secundum aliquam partem egressus</head>
+        <p xml:id="v78d89-a4dgx5-d1e106">
+          <lb ed="#N" n="53"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-a4dgx5-d1e111">
+          <lb ed="#N" n="54"/>COnsequenter querit. vtrum semi natus vel
+          <lb ed="#N" n="55"/>natus secundum partem aliquam sit susceptibilis
+          ba<lb ed="#N" n="56" break="no"/>ptismi. hoc est post vniuersalem separationem
+          <lb ed="#N" n="57"/>tantum: an etiam post perticularem. Et videtur quod post
+          <lb ed="#N" n="58"/>vniuersalem tantum. tunc enim proprie dicitur natus. renatus autem
+          <lb ed="#N" n="59"/>potest esse postquam est natus et non ante: ergo non in sepaatione perticulari
+          <lb ed="#N" n="60"/>est susceptibilis baptismi.
+        </p>
+        <p xml:id="v78d89-a4dgx5-d1e129">
+          ⁋ Pre. natiuitas que est secundum
+          spi<lb ed="#N" n="61" break="no"/>ritum non est in parte: et in parte non: sed vniuersalis.
+          Natiui<lb ed="#N" n="62" break="no"/>tas ergo secundum carnem que debet esse propinqua dispositio ad
+          <lb ed="#N" n="63"/>hanc natiuitatem spiritualem: debet esse natiuitas secundum totum et
+          <lb ed="#N" n="64"/>non tantum secundum partem.
+        </p>
+        <p xml:id="v78d89-a4dgx5-d1e141">
+          ⁋ Pre. cum contingit aliquando monstra que
+          ha<lb ed="#N" n="65" break="no"/>bent aliquid forme humane et aliquid non. si egrederetur
+          <lb ed="#N" n="66"/>illa pars que spectat ad humanam formam latente alia
+          per<lb ed="#N" n="67" break="no"/>te posset esse error in baptizando. vt ergo vitetur error:
+          vi<lb ed="#N" n="68" break="no"/>detur quod exigatur vniuersalis egressus ipsius partus a
+          ven<lb ed="#N" n="69" break="no"/>tre matris.
+        </p>
+        <p xml:id="v78d89-a4dgx5-d1e154">
+          ⁋ Contra. in ipso egressu a ventre matris mul
+          <lb ed="#N" n="70"/>totiens moriuntur infantes. Si ergo expectaretur
+          vniuer<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>salis egressio. antequam baptizaretur vel aqua tingeret:
+          frequen<lb ed="#N" n="72" break="no"/>ter paruuli morerentur sine baptismo. Sed procuranda est salus
+          <lb ed="#N" n="73"/>anime que condita est ad imaginem dei quanium fieri potest.
+          <lb ed="#N" n="74"/>et maxime placet deo zelus animarum: ergo non existente
+          tota<lb ed="#N" n="75" break="no"/>li egressione si timetur de periculo mortis: fundenda est aqua
+          <lb ed="#N" n="76"/>baptismalis cum inuocatione trinitatis secundum formam ad hoc
+          <lb ed="#N" n="77"/>institutam. Sed si funditur hoc modo baptizatus videtur cum
+          <lb ed="#N" n="78"/>ea concurrunt que ad baptismum exiguntur: ergo perticulari
+          ex<lb ed="#N" n="79" break="no"/>istenti egressione paruulus est susceptibilis baptismatis.
+        </p>
+        <p xml:id="v78d89-a4dgx5-d1e179">
+          <lb ed="#N" n="80"/>⁋ Deinde supposito quod paruulus sit in articulo necessitatis
+          <lb ed="#N" n="81"/>perticulari facta egressio. Queritur vtrum indifferenter
+          qua<lb ed="#N" n="82" break="no"/>cunque parte egrediente aut non: et videtur ex iam dicta ratione.
+          <lb ed="#N" n="83"/>quod siue egrediente manu siue pede in articulo necessitatis
+          <lb ed="#N" n="84"/>tribuendum sit baptisma. anima enim rationalis que est susce
+          <lb ed="#N" n="85"/>ptibilis gratie non est actus alicuius partis corporis determina
+          <lb ed="#N" n="86"/>te: quemadmodum dicitur de sensibili et vegetabili. sed est
+          perfe<lb ed="#N" n="87" break="no"/>ctio totius et dicitur esse vbique in corpore suo sicut habetur in
+          <lb ed="#N" n="88"/>lib. de anima et spiritu. sicut deus est totus in toto orbe: sic
+          anima<lb ed="#N" n="89" break="no"/>vbique tota in toto corpore suo: ergo quacumque parte corporis
+          essentia<lb ed="#N" n="90" break="no"/>li baptizata cum debitis circumstantiis imprimetur caracter in anima
+          <lb ed="#N" n="91"/>rationali.
+        </p>
+        <p xml:id="v78d89-a4dgx5-d1e208">
+          ⁋ Sed contra hoc obiici potest. quod non in omni parte
+          cor<lb ed="#N" n="92" break="no"/>poris omnes sensus vigent sed in capite. ibi enim in figura
+          ca<lb ed="#N" n="93" break="no"/>pitis maxime discernitur perfectio anime rationalis. non sie
+          <lb ed="#N" n="94"/>autem in aliis pertibus. non ergo quacumque parte egrediente: sed illa
+          <lb ed="#N" n="95"/>maxime in qua plus discernitur anima rationalis si tingatur in
+          <lb ed="#N" n="96"/>aqua secundum formam baptismi iudicandus est baptizatus.
+        </p>
+        <p xml:id="v78d89-a4dgx5-d1e221">
+          <lb ed="#N" n="97"/>Ad quod responderi potest. quod nisi periculum mortis vrgeat. ex
+          <lb ed="#N" n="98"/>prectanda est vniuersalis egressio vt plene nascatur antequam
+          re<lb ed="#N" n="99" break="no"/>nascatur. si tamen articulus necessitatis exigat hoc: et
+          appare<lb ed="#N" n="100" break="no"/>at illa pars in qua principaliter discernitur anima rationalis:
+          <lb ed="#N" n="101"/>superfundenda est aqua adhibita debita forma ad hoc instituta
+          <lb ed="#N" n="102"/>In his enim securior pars et salubrior est accipienda. et
+          pre<lb ed="#N" n="103" break="no"/>sumitur ab ecclesia baptizatus esse. Unde si postea
+          plene<lb ed="#N" n="104" break="no"/>nasceretur: non videtur aliquod aliquibus faciendum nisi quod
+          <lb ed="#N" n="105"/>suppleatur quod de sacramentalibus exigitur. non sic autem videtur
+          <lb ed="#N" n="106"/>esse iudicandum si manus vel pes egrediatur. in articilo enim
+          <lb ed="#N" n="107"/>necessitatis si fiat intinctio cum debita forma: pie creditur
+          <lb ed="#N" n="108"/>quod summus sacerdos suppleat existente anima rationali in
+          corpo<lb ed="#N" n="109" break="no"/>re illo. Si tamen nascatur postea et viuat in specie humana: non
+          <lb ed="#N" n="110"/>est dissonum a salute ipsius: nec fit iniuria sacramento si
+          po<lb ed="#N" n="111" break="no"/>stea a sacerdote illo modo quo constitutum est baptizetur vt
+          <lb ed="#N" n="112"/>dicatur. Non te rebaptizo si baptizatus es. Sed si nondum
+          <lb ed="#N" n="113"/>baptizatus es: ego baptizo te in nomine pa. etc. secundum quod
+          ordina<lb ed="#N" n="114" break="no"/>tum est ab Innocentio papa.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

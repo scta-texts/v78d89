@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 36, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 36, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="220"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7jld4"><!-- q36m1 -->
+        <head xml:id="v78d89-a7jld4-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a7jld4-Hd1e103" type="question-title">Utrum licet consecrare locis non consecratis</head>
+        <p xml:id="v78d89-a7jld4-d1e106">
+          <lb ed="#N" n="80"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a7jld4-d1e111">
+          <lb ed="#N" n="81"/>CIrca primum queritur. vtrum licet consecrarelo
+          <lb ed="#N" n="82"/>cis non consecratis. Et videtur quod sic: quia
+          sacra<lb ed="#N" n="83" break="no"/>mentum confirmationis quod est maxima venerati
+          <lb ed="#N" n="84"/>sone habendum et a solis episcopis celebrandum:
+          <lb ed="#N" n="85"/>licet locis non sacris ministrari: similiter videtur de hoc
+          sacramen<lb ed="#N" n="86" break="no"/>to.
+        </p>
+        <p xml:id="v78d89-a7jld4-d1e127">
+          ⁋ Contra. de con. di. i. arguitur sic. Si iudei qui vmbre
+          des<lb ed="#N" n="87" break="no"/>uiebant. loca in quibus domino sacrificabant habebant consecrata.
+          <lb ed="#N" n="88"/>non in aliis quam deo dicatis locis muera deo offerebant:
+          mul<lb ed="#N" n="89" break="no"/>tomagis nos quibus veritas et gratia data est per ihum christum
+          <lb ed="#N" n="90"/>non debemus nisi in templis deo sacratis missas
+          celebra<lb ed="#N" n="91" break="no"/>re et sacrificia deo offerre. et hoc est quod dicitur deutro. xii.
+          <lb ed="#N" n="92"/>Caue ne offeras olocausta in omni loco quem videris: sed
+          <lb ed="#N" n="93"/>in eo quem elegerit dominus offers hostias etc.
+        </p>
+        <p xml:id="v78d89-a7jld4-d1e146">
+          ⁋ Item hoc
+          vi<lb ed="#N" n="94" break="no"/>detur requirere sanctitas rei tractande. cum enim illud quod
+          <lb ed="#N" n="95"/>est ibi tractandum scilicet dominus ihus sit sanctus sanctorum non de
+          <lb ed="#N" n="96"/>bet nisi in loco sacro et deo dicato consecrari.
+        </p>
+        <p xml:id="v78d89-a7jld4-d1e155">
+          ⁋ Item de
+          <lb ed="#N" n="97"/>conse. dis. i. Siluester papa. nullus presbiter missas
+          celebra<lb ed="#N" n="98" break="no"/>re presumat: nisi in consecratis ab episcopo locis.
+        </p>
+        <p xml:id="v78d89-a7jld4-d1e162">
+          ⁋ Responsio.
+          <lb ed="#N" n="99"/>quod non licet consecrare nisi loco sancto siue deo dicato:
+          nisi<lb ed="#N" n="100" break="no"/>necessitate compellente. vt de conse. dis. i. Sicut. ibi dicitur
+          <lb ed="#N" n="101"/>Ricut non alii quom sancti domino sacerdotes debent missas
+          ce<lb ed="#N" n="102" break="no"/>lebrare. nec sacrificia super altare offerre: sic non in aliis quoam
+          <lb ed="#N" n="103"/>domino consecratis locis id est tabernaculis diuinis precibus a
+          pon<lb ed="#N" n="104" break="no"/>cotificibus delibutis: missas cantare et sacrificia offerre licet
+          <lb ed="#N" n="105"/>nisi summa cogerit necessitas. Sanctius est ergo non
+          mir<lb ed="#N" n="106" break="no"/>sam casntare. aut non audire: quam in his locis vbi fieri non
+          opor<lb ed="#N" n="107" break="no"/>tet nisi summa necessitate contingat. Si autem queratur que sit
+          ne<lb ed="#N" n="108" break="no"/>cessitas tanta. dicendum. quod illa determinatur de conse. dis. i.
+          <lb ed="#N" n="109"/>concedimus. vbi dicatur. Concedimus etiam vt sicubi quod peccatis
+          <lb ed="#N" n="110"/>nostris exigentibus per plurimum factum est a normannis et a
+          scla<lb ed="#N" n="111" break="no"/>uis. ab vngaris. et a malis christianis. seu aliquo qualicumm
+          <lb ed="#N" n="112"/>modo fuerint incense et combuste. in capellis cum tabula
+          sa<lb ed="#N" n="113" break="no"/>crata missas iterum celebrari. donec ecclesie ipse
+          restaura<lb ed="#N" n="114" break="no"/>ri queant. In itinere vero positis si ecclesia defuerit sub
+          di<lb ed="#N" n="115" break="no"/>uo seu in tentoriis. Item si tabella altaris sacrata.
+          cete<lb ed="#N" n="116" break="no"/>ra misteria ad id officium pertinentia. ibi affuerint missa
+          <lb ed="#N" n="117"/>rum solennia celebrari concedimus. Nota quod dicitur
+          con<lb ed="#N" n="118" break="no"/>cedimus vbi notatur licentia generalis celebrandi
+          mis<lb ed="#N" n="119" break="no"/>sam tali necessitate ingruente. Non autem existente tali
+          ne<lb ed="#N" n="120" break="no"/>cessitate non licet: nisi concedente episcopo loci. de
+          volun<lb ed="#N" n="121" break="no"/>tate enim et concessione episcopi loci sine tali necessitate
+          li<lb ed="#N" n="122" break="no"/>cet celebrare missam in loco non consecrato. vt de conse. dis
+          <lb ed="#N" n="123"/>i. missarum vbi dicitur. Missarum solennia non vbicumque sed in
+          lo<lb ed="#N" n="124" break="no"/>cis ab episcopo consecratis. vel vbi ipse permiserit celebranda esse
+          <lb ed="#N" n="125"/>censemus. et alibi eodem. sic ergo id est in presenti vita positos
+          <lb ed="#N" n="126"/>oportet nos agnoscere voluntatem dei. vbi agendi et
+          sacri<lb ed="#N" n="127" break="no"/>ficandi locus est. quoniam in aliis locis sacrificari et missas
+          ce<lb ed="#N" n="128" break="no"/>lebrari non licet nisi in his in quibus episcopus
+          permi<lb ed="#N" n="129" break="no"/>serit vel fuerit ab episcopo regulariter ordinato tenente
+          <lb ed="#N" n="130"/>videlicet ciuitatem consecrata fuerint. debent ergo canones
+          <lb ed="#N" n="131"/>quibus dicitur quod non licet consecrare nisi in locis consecratis
+          <lb ed="#N" n="132"/>sic intelligi: scilicet nisi necessitate vrgente vel episcopc
+          loci<lb ed="#N" n="133" break="no"/>contedente.
+        </p>
+        <p xml:id="v78d89-a7jld4-d1e240">
+          ⁋ Ad aliud quod obiicitur. quod sanctitas corporis
+          <lb ed="#N" n="134"/>domini requirit locum sacratum etc. dicendum quod quantacunque
+          <lb ed="#N" n="135"/>imminet necessitas nunquam consecrandum est nisi saltem in
+          <lb ed="#N" n="136"/>altari portatili sacrato quod supra vocatur tabula sacrata. et hoc
+          <pb ed="#N" n="221"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>sufficit episcopo loci concedente vel necessitate imminente.
+        </p>
+        <p xml:id="v78d89-a7jld4-d1e256">
+          ⁋ Ad
+          <lb ed="#N" n="2"/>hoc quod obiicitur per illam auctoritatem. Caue ne offeras etc. quod non
+          <lb ed="#N" n="3"/>debet fieri consecratio huiusmodi nisi in vno loco tantum: sicut secundum
+          <lb ed="#N" n="4"/>ritum legis moysi non offerebantur sacrificia nisi sub
+          vnolo<lb ed="#N" n="5" break="no"/>co tantum a domino constituto: vt veritas conuenienter respondeat
+          <lb ed="#N" n="6"/>figure. Dicendum quod hoc non oportet: tum propter dispendium
+          <lb ed="#N" n="7"/>quod accideret in ecclesia dei ex raritate consecrationis sicut ex
+          <lb ed="#N" n="8"/>dictis als patet: tum quia illa sacrificia scilicet legis fuerunt
+          fi<lb ed="#N" n="9" break="no"/>gure christi offerentis se in sacrificium pro nobis deo patri quod
+          <lb ed="#N" n="10"/>factum erat in vno loco tantum. Unde quantum ad hoc veritas
+          con<lb ed="#N" n="11" break="no"/>uenienter respondet figure. Preterea. filiis isrls prohibitum
+          <lb ed="#N" n="12"/>fuit ne offerrent sacrificia in diuersis locis. vt sic
+          reuoca<lb ed="#N" n="13" break="no"/>rentur a cultu ydolatrie que in diuersis locis exercebatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

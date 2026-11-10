@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 65, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 65, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="416"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ach4qx"><!-- q65m2 -->
+        <head xml:id="v78d89-ach4qx-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ach4qx-Hd1e103" type="question-title">De poenitentia post baptismum</head>
+        <p xml:id="v78d89-ach4qx-d1e106">
+          <lb ed="#N" n="23"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-ach4qx-d1e111">
+          <lb ed="#N" n="24"/>COnsequenter queritur de penitentia mortalium
+          <lb ed="#N" n="25"/>post baptismum. Et primo de mortalibus commissis
+          <lb ed="#N" n="26"/>per ignorantiam. Secundo de mortalibus commissis
+          sci<lb ed="#N" n="27" break="no"/>enter et post traditis obliuioni. Tercio vtrum
+          <lb ed="#N" n="28"/>expedit penitere de peccatis in quibus penitentia fit vsque in finem vite.
+        </p>
+        <div xml:id="v78d89-ach4qx-Dd1e124">
+          <head xml:id="v78d89-ach4qx-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-ach4qx-d1e128">
+            <lb ed="#N" n="29"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e133">
+            <lb ed="#N" n="30"/>QUeritur ergo primo. vtrum necesse sit penitere de peccatis
+            <lb ed="#N" n="31"/>commissis per ignorantiam. Quod sic: videtur per illud
+            Am<lb ed="#N" n="32" break="no"/>bro. Grauissime peccas si ignoras te peccare.
+            <lb ed="#N" n="33"/>Huius autem ratio est secundum quod exponitur. quia talis non querit me
+            <lb ed="#N" n="34"/>dicum. ergo tali necessaria est medicina. hec autem medicina
+            <lb ed="#N" n="35"/>est penitentia.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e149">
+            ⁋ Item augustinus. de correptione et gratia. dicit. quod non
+            <lb ed="#N" n="36"/>excusatur propter ignorantiam quin teneatur credere. pari ratione
+            <lb ed="#N" n="37"/>videtur quod non excusatur homo quin teneatur penitere: ex quo vita
+            <lb ed="#N" n="38"/>spiritualis reparatur per penitentiam. sicut persistit per fidem.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e158">
+            ⁋ Item
+            pec<lb ed="#N" n="39" break="no"/>catum per ignorantiam commissum est peccatum actuale et ex
+            nostro<lb ed="#N" n="40" break="no"/>actu commissum. ergo sine actu nostro non deletur. sed actus per
+            <lb ed="#N" n="41"/>quem deletur culpa est penitentia: ergo etc.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e168">
+            ⁋ Item ignorantia
+            <lb ed="#N" n="42"/>in eo qui peccauit non excusatur a peccato. quia ignorans
+            igno<lb ed="#N" n="43" break="no"/>rabitur. ergo non excusat quin egeat remedio.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e175">
+            ⁋ Contra.
+            <lb ed="#N" n="44"/>penitentia non est nisi de volito. sed quod per ignorantiam fit non
+            <lb ed="#N" n="45"/>est voluntarium: ergo de tali non debet fieri penitentia.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e182">
+            ⁋ Item
+            <lb ed="#N" n="46"/>incognita bona non possumus amare: ergo nec incognita
+            <lb ed="#N" n="47"/>mala non possumus odire nec detestari. ergo de his non est
+            pe<lb ed="#N" n="48" break="no"/>nitentia.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e191">
+            ⁋ Item nullo iure sumus certi vtrum offendimus deum
+            <lb ed="#N" n="49"/>per ignorantiam. sed nullus tenetur agere aliquid ex precepto
+            ni<lb ed="#N" n="50" break="no"/>si ad quod habet certitudinem ex aliquo iure: ergo nullus
+            te<lb ed="#N" n="51" break="no"/>netur penitere de commissis per ignorantiam.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e200">
+            ⁋ Item de solis
+            <lb ed="#N" n="52"/>illis tenemur penitere de quibus tenemur confiteri. sed
+            il<lb ed="#N" n="53" break="no"/>la sola tenemur confiteri que possumus veraciter
+            enarra<lb ed="#N" n="54" break="no"/>re. et illa sola possumus veraciter enarrare que nouimus.
+            <lb ed="#N" n="55"/>quia si dubia vel ignorata asseramus est mendacium. ergo
+            <lb ed="#N" n="56"/>cum ignoranter commissa nesciamus esse peccata: non
+            possu<lb ed="#N" n="57" break="no"/>mus ea veraciter confiteri. ergo nec tenemur de his aliquo
+            <lb ed="#N" n="58"/>modo penitere.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e218">
+            ⁋ Responsio. quod penitere de aliquo est
+            duplici<lb ed="#N" n="59" break="no"/>ter. scilicet in generali et in speciali. In generali quando homo
+            do<lb ed="#N" n="60" break="no"/>let generaliter de commisso omnium quo offensam dei meruit.
+            <lb ed="#N" n="61"/>In speciali quando dolet de hoc vel de illo. dico ergo quod de
+            pecca<lb ed="#N" n="62" break="no"/>tis commissis per ignorantiam debet penitere in generali et dicere
+            <lb ed="#N" n="63"/>cum propheta. Delicta iuuentutis mee et ignorantias meas
+            ne<lb ed="#N" n="64" break="no"/>memineris. In speciali vero non tenetur penitere. sed tenetur facere
+            <lb ed="#N" n="65"/>quod in se est. vt sciat et peccata cogitat. Committuntur autem quandoque
+            <lb ed="#N" n="66"/>peccata per ignorantiam iuris. et tunc cognito iure scit se peccal
+            <lb ed="#N" n="67"/>se. vtpote qui fornicatus est ignorans illud esse peccatum.
+            con<lb ed="#N" n="68" break="no"/>mittuntur etiam per ignorantiam facti diligentia debita non
+            ad<lb ed="#N" n="69" break="no"/>hibita. et hec tunc cognoscantur domino reuelante. vnde tenetur
+            ora<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>revt dominus parcat ei vel reuelet.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e249">
+            ⁋ Ad illud ergo quod
+            obii<lb ed="#N" n="71" break="no"/>citur. quod peccatum commissum per ignorantiam est inuoluntarium
+            <lb ed="#N" n="72"/>Dicendum quod non est omnino inuoluntarium. quia et si non sit
+            co<lb ed="#N" n="73" break="no"/>gnitio deformitatis actus est tamen cognitio substantie actus
+            <lb ed="#N" n="74"/>similiter et voluntatis.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e260">
+            ⁋ Ad illud quod obiicitur quod non
+            pos<lb ed="#N" n="75" break="no"/>sumus odire incognita. Dicendum quod hoc verum est de
+            inco<lb ed="#N" n="76" break="no"/>gnitis omnino. sed incognita in particulari possumus odire in
+            <lb ed="#N" n="77"/>vniuersali. et quia quedam ignorata in particulari per
+            neqli<lb ed="#N" n="78" break="no"/>gentiam sciuntur per diligentiam: ideo tenetur facere quod in
+            se<lb ed="#N" n="79" break="no"/>est vt sciat. et si non occurrit: tunc sufficit penitentia in
+            ge<lb ed="#N" n="80" break="no"/>nerali vt doleat et etiam aliqua mala sustineat: et in multis
+            <lb ed="#N" n="81"/>se offendisse credat que ignorat.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e278">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="82"/>quod nullo iure tenemur ad incertum siue incognitum etc.
+            Dicen<lb ed="#N" n="83" break="no"/>dum quod ad penitentiam sufficit cognitio probabilis. probabi
+            <lb ed="#N" n="84"/>le est cuilibet quod fuit ignorans etiam in adulta etate. quia in
+            <lb ed="#N" n="85"/>multis offenderit. et hoc insinuat lex diuina que de illis
+            do<lb ed="#N" n="86" break="no"/>cet penitere et petere veniam. vnde psalmus. Delicta quis intel
+            <lb ed="#N" n="87"/>ligit ab occultis meis munda me etc.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e294">
+            ⁋ Ad illud quod
+            obi<lb ed="#N" n="88" break="no"/>citur. quod ignorantia non potest confiteri etc. Dicendum quod
+            illa<lb ed="#N" n="89" break="no"/>tenemur confiteri in speciali: pro quibus oportet penitentiam
+            <lb ed="#N" n="90"/>facere in speciali. sed commissa per ignorantiam nisi
+            innotescan<lb ed="#N" n="91" break="no"/>vel per diligentiam eius qui talia comisit vel per reuelationem
+            di<lb ed="#N" n="92" break="no"/>uinam ad penitentiam agendam in speciali non obligant. tamr
+            <lb ed="#N" n="93"/>in confessione debet ipse confitens contritionem ad talia
+            ostende<lb ed="#N" n="94" break="no"/>re et debet de huiusmodi libenter penam portare: et sic in
+            general<lb ed="#N" n="95" break="no"/>potest et debet talia confiteri.
+          </p>
+        </div>
+        <div xml:id="v78d89-ach4qx-Dd1e316">
+          <head xml:id="v78d89-ach4qx-Hd1e318">Articulus 2</head>
+          <p xml:id="v78d89-ach4qx-d1e320">
+            <lb ed="#N" n="96"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e325">
+            <lb ed="#N" n="97"/>COnsequenter queritur de peccatis scienter
+            commissis<lb ed="#N" n="98" break="no"/>oblitis. an de talibus oportet facere penitentiamt
+            <lb ed="#N" n="99"/>Quod sic: videtur. i. Corin. iiii. Nihil mihi conscius
+            su<lb ed="#N" n="100" break="no"/>sed non in hoc iustificatus sum. glo. quia potest latere quod nescio.
+            <lb ed="#N" n="101"/>ergo latentia peccati siue ignorantia impedit iustificationem
+            <lb ed="#N" n="102"/>hoc autem non contingeret nisi de illo teneretur penitere. ergo etc.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e341">
+            <lb ed="#N" n="103"/>⁋ Item si aliquis peccet et post cadat in furiam
+            perseueran<lb ed="#N" n="104" break="no"/>tem antequam peniteat: non potest postmodum iustificari. et hoc
+            <lb ed="#N" n="105"/>est quia non potest de peccatis penitere. ergo si furiosus non
+            <lb ed="#N" n="106"/>excusatur per hoc quod non habet noticiam peccatorum neque
+            <lb ed="#N" n="107"/>discretionem agendorum circa ea vt dimittantur: neque qui
+            obli<lb ed="#N" n="108" break="no"/>tus est excusatur per illorum ignorantiam etc.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e357">
+            ⁋ Si diceretur
+            <lb ed="#N" n="109"/>quod teneretur in generali. hoc non soluit: quia in generalinon
+            <lb ed="#N" n="110"/>latet. immo quilibet debet in generali reputare se fuisse
+            pec<lb ed="#N" n="111" break="no"/>catorem.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e367">
+            ⁋ Item quod teneatur in speciali videtur. quod si non
+            <lb ed="#N" n="112"/>esset oblitus teneretur in speciali penitere: ergo esto quod ex
+            cul<lb ed="#N" n="113" break="no"/>pa inciderit in obliuionem et ex negligentia si non reportat
+            <lb ed="#N" n="114"/>commodum de malicia adhuc tenetur.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e376">
+            ⁋ Item quero quid sit
+            <lb ed="#N" n="115"/>conteri siue penitere in generali siue sub conditione. vt daleo
+            <lb ed="#N" n="116"/>si feci. Similiter potest homo penitere de his que non fecit sicut
+            <lb ed="#N" n="117"/>de his que fecit.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e385">
+            ⁋ Contra. aliquis ita oblitus est quod non
+            po<lb ed="#N" n="118" break="no"/>test aliquo modo recordari. quia memoria non est in nostra
+            po<lb ed="#N" n="119" break="no"/>testate. ergo si non tenetur ad impossibile: non tenetur ad
+            recor<lb ed="#N" n="120" break="no"/>dationem. sed non potest penitere nisi de malis que recordatur.
+            <lb ed="#N" n="121"/>igitur nec de his.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e396">
+            ⁋ Item si fecit homo quod in se est. domina
+            fa<lb ed="#N" n="122" break="no"/>cit quod in se est: sed impossibile est istum facere quod in
+            se<lb ed="#N" n="123" break="no"/>est sine recordatione ad hoc vt iustificetur: similiter possibi
+            <lb ed="#N" n="124"/>le est facere quod in se est sine penitentia: ergo possibile est
+            <lb ed="#N" n="125"/>iustificari sine penitentia. ex quo dominus facit quod in
+            se<lb ed="#N" n="126" break="no"/>est: ergo non tenetur penitere.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e409">
+            ⁋ Item aliquis est paratus
+            do<lb ed="#N" n="127" break="no"/>lere de omnibus et non dolet vel penitet de his nisi quia non
+            <lb ed="#N" n="128"/>recordatur. ergo obliuio introducta est impedimentum
+            pe<lb ed="#N" n="129" break="no"/>nitentie. Si ergo dolet de obliuione remouetur
+            impedimen<lb ed="#N" n="130" break="no"/>tum. ergo iustificatur.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e420">
+            ⁋ Item esto quod totum sit oblitus in
+            <lb ed="#N" n="131"/>generali et in particulari. ita quod non recordatur se offendisse
+            <lb ed="#N" n="132"/>talis non potest penitere nec in generali nec in speciali. et
+            ta<lb ed="#N" n="133" break="no"/>men potest iustificari: quia est viator et potest demereri. ergo non
+            <lb ed="#N" n="134"/>oportet quod de illis peniteat.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e432">
+            ⁋ Responsio. dicendum quod oblitus aut
+            <lb ed="#N" n="135"/>est oblitus omnino ita quod non recordatur nec in generali nec in
+            <lb ed="#N" n="136"/>speciali: aut est oblitus in speciali sed tamen in generali
+            re<lb ed="#N" n="137" break="no"/>cordatur. Quando est oblitus in speciali et tamen in generali
+            re<lb ed="#N" n="138" break="no"/>cordatur: dico quod tenetur penitere et conteri in generali de
+            <lb ed="#N" n="139"/>culpa et negligentia sua. propter quam venit in illam
+            obli<pb ed="#N" n="417"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>uionem. et tenetur facere quod in se est vt recordetur in
+            speciali<lb ed="#N" n="2" break="no"/>vel per recogitationem vel per orationem. Si autem sit omnino oblitus:
+            <lb ed="#N" n="3"/>tenetur conteri in generali et voco conteri in generali. non
+            <lb ed="#N" n="4"/>sub conditione: sed sub estimatione probabili. debet enim
+            pro<lb ed="#N" n="5" break="no"/>babiliter credere quod in multis offendit quorum non
+            recorda<lb ed="#N" n="6" break="no"/>tur. et si ex hac estimatione doleat sicut si certus esset:
+            contri<lb ed="#N" n="7" break="no"/>tus est et penitens. Concedende igitur sunt rationes
+            monstran<lb ed="#N" n="8" break="no"/>tes quod non est necesse conteri in speciali siue penitere. Nec
+            va<lb ed="#N" n="9" break="no"/>let illud quod vltimo opponitur quod nec in generali tenetur quia
+            <lb ed="#N" n="10"/>totum est oblitus. dico enim quod et si totum oblitus est certitu
+            <lb ed="#N" n="11"/>dinaliter: potest tamen cognoscere probabiliter quod aliqua
+            tra<lb ed="#N" n="12" break="no"/>didit obliuioni.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e474">
+            ⁋ Ad illud quod primo obiicitur. dicendum
+            <lb ed="#N" n="13"/>quod argumentum non valet. potest latere quod nescio. ergo latentia
+            <lb ed="#N" n="14"/>peccati impedit iustificationem. immo debet inferri: ergo ex hac
+            <lb ed="#N" n="15"/>latentia non sum iustificatus. vel deberet inferre: ergo
+            laten<lb ed="#N" n="16" break="no"/>tia impedit iustificationis reputa tionem. Ex hoc enim quod
+            ali<lb ed="#N" n="17" break="no"/>quod peccatum potuit latere non reputauit iustificatum.
+            Un<lb ed="#N" n="18" break="no"/>de glo. in nullo remordet me conscientia mea: nec ideo
+            me<lb ed="#N" n="19" break="no"/>iustum puto: quia potest esse quod nescio.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e492">
+            ⁋ Ad hoc quod
+            obii<lb ed="#N" n="20" break="no"/>citur per simile de furioso. Responsio. quod non est simile de eo qui non
+            <lb ed="#N" n="21"/>est compos mentis sue. quia nec generaliter nec specialiter
+            po<lb ed="#N" n="22" break="no"/>test penitere. nec aliquis potest iustificari sine penitentia
+            ge<lb ed="#N" n="23" break="no"/>nerali vel speciali.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e503">
+            ⁋ Ad illud quod obiicitur quod reportat
+            con<lb ed="#N" n="24" break="no"/>modum ex malicia. Dicendum quod non est verum. quia oportet
+            <lb ed="#N" n="25"/>quod doleat in generali de oblitis. similiter et de obliuione. et etiam
+            <lb ed="#N" n="26"/>longe grauius punietur quam si non fuisset oblitus: non tamen
+            pre<lb ed="#N" n="27" break="no"/>cluditur tali via salutis.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e514">
+            ⁋ Ad vltimum patet responsio in parte.
+            <lb ed="#N" n="28"/>quia penitere in generali non est per conditionem: sed potius per
+            <lb ed="#N" n="29"/>certitudinis presumptionem. vt si presumit se aliquando
+            peccas<lb ed="#N" n="30" break="no"/>se. sed non recolit quo peccato. Si enim penitens qui in multis
+            pec<lb ed="#N" n="31" break="no"/>cauit et diu extiterit multum sollicitus. potest presumere se multa
+            <lb ed="#N" n="32"/>commissa dedisse obliuioni. hec autem presumptio quandoque dolorem
+            ge<lb ed="#N" n="33" break="no"/>nerat vehementem. et quantum ad hoc valet quantum certitudo.
+          </p>
+        </div>
+        <div xml:id="v78d89-ach4qx-Dd1e531">
+          <head xml:id="v78d89-ach4qx-Hd1e533">Articulus 3</head>
+          <p xml:id="v78d89-ach4qx-d1e535">
+            <lb ed="#N" n="34"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e540">
+            <lb ed="#N" n="35"/>COnsequenter queritur vtrum expedit penitere de pec
+            <lb ed="#N" n="36"/>catis in quibus penitentia fit vsque in finem vite. Quod
+            <lb ed="#N" n="37"/>sic: videtur. Isido. de trini. xxxi. c. Qui circa fi nem
+            <lb ed="#N" n="38"/>suum per penitentiam desinit esse malus. non ideo debet esse
+            de<lb ed="#N" n="39" break="no"/>speratus quia in termino est vltime vite positus: quia deus
+            <lb ed="#N" n="40"/>non respicit quales sumus: sed quales circa finem existimus. ex
+            <lb ed="#N" n="41"/>fine enim suo vnumquemque aut iustificat aut condemnat. sicut
+            scri<lb ed="#N" n="42" break="no"/>ptum est. ipse iudicat extrema terre.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e560">
+            ⁋ Item exemplum de
+            <lb ed="#N" n="43"/>hoc habemus de latrone suspenso cum domino. Unde Hiero.
+            <lb ed="#N" n="44"/>christus in paradisum de cruce latronem tulit. et etiam ne quis
+            <lb ed="#N" n="45"/>aliquando seram conuersionem putaret: fecit homicidii
+            penan<lb ed="#N" n="46" break="no"/>martirium.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e571">
+            ⁋ Item Ambro. libro. de paradiso. his qui
+            tem<lb ed="#N" n="47" break="no"/>pore necessitatis et periculi vrgentis instantia. presidium
+            peni<lb ed="#N" n="48" break="no"/>tentie et mox reconciliationis implorant. nec satisfactio
+            inter<lb ed="#N" n="49" break="no"/>dicenda est. nec reconciliatio neganda. quia misericordie dei nec
+            <lb ed="#N" n="50"/>mensuram possumus ponere nec tempora desinire: apud quem
+            nul<lb ed="#N" n="51" break="no"/>las patitur moras venie conuersio. Ex dictis videtur quod quacumque
+            <lb ed="#N" n="52"/>hora peccator peniteat quod grata est penitentia.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e588">
+            ⁋ Contra. Non
+            <lb ed="#N" n="53"/>est penitentia salutaris nisi dimittatur peccatum. Sed dicit
+            au<lb ed="#N" n="54" break="no"/>gus. Si vis agere penitentiam quando peccare non potes: peccata
+            <lb ed="#N" n="55"/>te dimiserunt non tu illa. Et loquitur Augu. de illis qui in
+            fi<lb ed="#N" n="56" break="no"/>ne penitent.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e599">
+            ⁋ Item omnis penitentia salutaris est
+            volunta<lb ed="#N" n="57" break="no"/>ria. sed penitentia sera non est voluntaria. vnde Augu. de
+            pe<lb ed="#N" n="58" break="no"/>nitentia qui plus a peccatis relinquitur quam ipse relinquat ea.
+            <lb ed="#N" n="59"/>non libere sed quasi necessitate condennat. ergo etc.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e608">
+            ⁋ Item Augustinus.
+            <lb ed="#N" n="60"/>in sermone de innocentibus. hac animaduersione percutitur
+            pecca<lb ed="#N" n="61" break="no"/>tor. vt moriens obliuiscatur sui: qui dum viueret oblitus est
+            <lb ed="#N" n="62"/>dei. sed qui obliuiscitur dei non penitet peccatorum suorum. quia
+            <lb ed="#N" n="63"/>vt dicitur de penitentia di. vii. Non dignus est in morte
+            su<lb ed="#N" n="64" break="no"/>scipere solacium: qui se non cogitauit moriturum.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e621">
+            ⁋ Resposio.
+            <lb ed="#N" n="65"/>quod penitentia quantumcumque sit sera salutaris est et deo accepta.
+            <lb ed="#N" n="66"/>de peni. di. vii. Tempus penitentie est vsque ad vltimum
+            arti<lb ed="#N" n="67" break="no"/>culum vite. Et post eodem. Penitentia si in extremo vite cum
+            <lb ed="#N" n="68"/>hyatu aduenerit sanatum. sed valde suspecta est sanctis se
+            <lb ed="#N" n="69"/>ra penitentia et maxime. Augus. qui dicit. Si quis positus in
+            <lb ed="#N" n="70"/>vltima voluntate voluerit accipere penitentiam et accipit:
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>fateor vobis non illi negamus quod petit: sed non presumimus
+            <lb ed="#N" n="72"/>quia bene hinc exit. si securus hinc exierit ego nescio.
+            pe<lb ed="#N" n="73" break="no"/>nitentiam dare possumus: securitatem autem dare non
+            possu<lb ed="#N" n="74" break="no"/>mus. Unde nunquid dico damnabitur: sed nec dico
+            liberabi<lb ed="#N" n="75" break="no"/>tur. vis ergo a dubio liberari: vis quod est incertum cauere
+            <lb ed="#N" n="76"/>age penitentiam dum sanus es. Si sic agas: dico tibi quia securus
+            <lb ed="#N" n="77"/>es.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e654">
+            ⁋ Ad illud quod obiicitur. quod peccata dimiserunt te non tu illa
+            <lb ed="#N" n="78"/>Dicendum quod Augugo. loquitur more humano. vel hoc dicit
+            insi<lb ed="#N" n="79" break="no"/>nuando quod presumi potest de tali quod non vere peniteat. nisi aliud
+            <lb ed="#N" n="80"/>appareat in eo. vt scilicet signum vehementis contritionis vel
+            deuoti<lb ed="#N" n="81" break="no"/>onis: vel aliquod aliud signum bonum.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e665">
+            ⁋ Ad aliud quod
+            obiici<lb ed="#N" n="82" break="no"/>tur quod sera penitentia non est voluntaria. Dicendum quod et si
+            co<lb ed="#N" n="83" break="no"/>actus timore hoc faciat et ita quadam ductus necessitate:
+            <lb ed="#N" n="84"/>nihilominus voluntarie facit. sicut ille qui proiicit merces in
+            <lb ed="#N" n="85"/>mari vt euadat periculum dicitur proiecisse voluntarie: licet ductus
+            <lb ed="#N" n="86"/>sit ad hoc necessitate quadam.
+          </p>
+          <p xml:id="v78d89-ach4qx-d1e679">
+            ⁋ Ad illud quod dicit Augustinus
+            <lb ed="#N" n="87"/>quod percutitur hac animaduersione peccator etc. dicendum quod hoc verum
+            <lb ed="#N" n="88"/>est vt frequentius. non autem generaliten
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

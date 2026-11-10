@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 79, Membrum 8</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 79, Membrum 8</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="516"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aeoruy"><!-- q79m8 -->
+        <head xml:id="v78d89-aeoruy-Hd1e101">Membrum 8</head>
+        <head xml:id="v78d89-aeoruy-Hd1e103" type="question-title">Cum quo ordine datae sunt</head>
+        <p xml:id="v78d89-aeoruy-d1e106">
+          <lb ed="#N" n="52"/>⁋ Membrum octauum
+        </p>
+        <p xml:id="v78d89-aeoruy-d1e111">
+          <lb ed="#N" n="53"/>COnsequenter queritur quo ordine
+            conferun<lb ed="#N" n="54" break="no"/>tur. Et primo vtrum dantur cum ordine sacerdotali.
+          <lb ed="#N" n="55"/>Secundo supposito quod sic. vtrum inseparabiliter dantur.
+        </p>
+        <div xml:id="v78d89-aeoruy-Dd1e120">
+          <head xml:id="v78d89-aeoruy-Hd1e122">Articulus 1</head>
+          <p xml:id="v78d89-aeoruy-d1e124">
+            <lb ed="#N" n="56"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e129">
+            <lb ed="#N" n="57"/>CIrca primum obiicitur ad primam partem. et ostenditur
+            <lb ed="#N" n="58"/>quod dantur cum ordine sacerdotali. per hoc verbum
+            <lb ed="#N" n="59"/>Ioh. xx. Accipite spirunmsanctum. quorum remiseritis
+            <lb ed="#N" n="60"/>peccata remittuntur et quorum retinueritis etc.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e140">
+            ⁋ Item glo. super illud
+            <lb ed="#N" n="61"/>Math. quodcumque ligaueris etc. dicit. habet omnis ecclesia
+            iu<lb ed="#N" n="62" break="no"/>diciariam potstatem in presbiteris et episcopis. sed ideo petrus eam
+            <lb ed="#N" n="63"/>specialiter accepit: vt omnes intelligant quod quicunque ab
+            <lb ed="#N" n="64"/>vnitate fidei et societate eius se separauerit. nec a peccatis
+            solui<lb ed="#N" n="65" break="no"/>nec vitam potest ingredi. ecce quod glo. dicit. quod ecclesia habet potestaten
+            <lb ed="#N" n="66"/>in presbiteris et episcopis. ex quo videtur quod illis solis datur hec potestas
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e156">
+            <lb ed="#N" n="67"/>⁋ Item Ambro. libro. de paradiso loquens de potestate ligandi et
+            sol<lb ed="#N" n="68" break="no"/>uendi dicit ius hoc solum datum est sacerdotibus.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e164">
+            ⁋ Item potestas
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>clauium data est quando dominus dixit Ioh. xx. quorum remiseritis peccata
+            re<lb ed="#N" n="70" break="no"/>mittuntur etc. ergo illis solum signatur hec potestas dari: quibus hec
+            ver<lb ed="#N" n="71" break="no"/>ba dicta sunt solis sacerdotibus.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e175">
+            ⁋ Contra. hostiarii inter
+            bo<lb ed="#N" n="72" break="no"/>nos et malos habentes iudicium. dignos recipiunt indignos
+            <lb ed="#N" n="73"/>respuunt. sed hoc est officium clauium: sicut haberi potest ex glo.
+            <lb ed="#N" n="74"/>Math. xvi.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e184">
+            ⁋ Item si alicui competit claues dari. ei magis
+            con<lb ed="#N" n="75" break="no"/>petit qui habet officium hostiarii. hoc autem officium est inferius
+            <lb ed="#N" n="76"/>eo quod est sacerdotis.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e191">
+            ⁋ Item exteriora in sacramentis sunt
+            si<lb ed="#N" n="77" break="no"/>gna interiorum et spiritualium. quoniam sacramentum est inuisibilis
+            gra<lb ed="#N" n="78" break="no"/>tie visibilis forma. ergo vt videtur in illo ordine tunc datur clauis
+            <lb ed="#N" n="79"/>spiritualis interius: cum datur materialis exterius.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e200">
+            ⁋ Item dicit
+            <lb ed="#N" n="80"/>Rabanus. Math. xvi. hoc officium datum est presbiteris et episcopis
+            <lb ed="#N" n="81"/>Contra. archidiaconi et legati habent claues vt euidenter
+            p<lb ed="#N" n="82" break="no"/>tet.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e209">
+            ⁋ Item Greg. potestatem ligandi et soluendi habent qui regis
+            <lb ed="#N" n="83"/>minis gradum sortiuntur. sed hunc gradum non habent antequam
+            ha<lb ed="#N" n="84" break="no"/>bent curam animarum: ergo claues non dantur in susceptone
+            ordi<lb ed="#N" n="85" break="no"/>nis.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e219">
+            ⁋ Item vsus clauium committebatur petro ibi Math. xvi.
+            <lb ed="#N" n="86"/>Tibi dabo claues hoc autem dictum est petro inquantum apostolus
+            <lb ed="#N" n="87"/>non inquantum homo: quia tunc omnes homines haberent claues.
+            <lb ed="#N" n="88"/>nec inquantum sacerdos: quia vnius sacramenti vna potestas. Si
+            er<lb ed="#N" n="89" break="no"/>go potestas consecrandi data est ei in cena inquantum sacerdos: non
+            <lb ed="#N" n="90"/>ergo huiusmodi potstas. Si secundum quod apostolus: sic solum episcopis. qui gerunt
+            <lb ed="#N" n="91"/>vicem apostolorum in terris concesse sunt claues: ergo non per se
+            sacer<lb ed="#N" n="92" break="no"/>dotibus.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e237">
+            ⁋ Item nobilissimus actus datus est a domino nobilissimo
+            <lb ed="#N" n="93"/>ordini scilicet actus consecrandi. ergo alii minus nobiles vtpote
+            <lb ed="#N" n="94"/>ligandi et soluendi debent dari in minoribus ordinibus.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e244">
+            ⁋ Re
+            <lb ed="#N" n="95"/>sponsio. quod potstas clauium datur sacerdotibus rationabiliter et
+            con<lb ed="#N" n="96" break="no"/>gruenter. Ratio est diuina institutio. Institutionis
+            congruen<lb ed="#N" n="97" break="no"/>tia est multiplex. vna est quod harum clauium minister habet officium
+            <lb ed="#N" n="98"/>mediatoris vt ex dictis patet: et officium reconciliatoris. media
+            <lb ed="#N" n="99"/>toris inter deum et hominem: reconciliatoris peccatoris cum ecclesia
+            <lb ed="#N" n="100"/>mediator enim est inter deum et hominem reconciliator: quia
+            pecca<lb ed="#N" n="101" break="no"/>tores reconciliat ecclesie. Ad hoc autem quod possit esse mediator
+            <lb ed="#N" n="102"/>competens: oportet quod possit offerre dona et sacrificia pro
+            pecca<lb ed="#N" n="103" break="no"/>tis quibus deus placatur. ad hoc quod sit reconciliator: oportet quod
+            <lb ed="#N" n="104"/>habeat posse conficiendi corpus christi. et reducere peccatorem
+            <lb ed="#N" n="105"/>ad corpus christi misticum. cuius caput est ipse christus. ideo mirabi
+            <lb ed="#N" n="106"/>lis dei sapientia ordinatissimo modo ordinans ecclesiastcaus
+            <lb ed="#N" n="107"/>potestates. hanc scilicet potestatem ligandi et soluendi solis sacerdoti
+            <lb ed="#N" n="108"/>bus contulit: et ita rationabilissimo et congruentissimo modo
+            <lb ed="#N" n="109"/>contulit potestatem clauium ordini sacerdotali. Ex his patet quod
+            sa<lb ed="#N" n="110" break="no"/>cerdos est sub illo magno pontifice qui penetrauit celos.
+            <lb ed="#N" n="111"/>heb. iiii. et super populum. vt dicat cum centurione Math. vii.
+            <lb ed="#N" n="112"/>homo sum sub potestate constitutus. habens sub me milites. Deat.
+            <lb ed="#N" n="113"/>ii. Ego sequester et medius fui inter deum et vos. vnde aliqua inquam
+            <lb ed="#N" n="114"/>tum deo subditus: aliqua inquantum populo suprpositus dico ergo
+            <lb ed="#N" n="115"/>quod in contritione dimittitur culpa et reatus id est debitum mortis
+            eter<lb ed="#N" n="116" break="no"/>ne: et hoc ex sententia siue misericordia iudicis. huius autem sententie
+            <lb ed="#N" n="117"/>promulgator est sacerdos qui est quasi os domini. de quo Hiere.
+            <lb ed="#N" n="118"/>xv. Si separaueris preciosum a vili: quasi os meum eris. ex hoc est
+            <lb ed="#N" n="119"/>quod sicut os iudicis quasi subditum sibi promulgat sententian
+            <lb ed="#N" n="120"/>iudicis et est vnicum iudici: sicut sacerdos secundum habitudinem
+            <lb ed="#N" n="121"/>subiectionis quam habet ad deum est promulgator sententie et ei
+            <lb ed="#N" n="122"/>vnicus: sic sacerdos loquitur et promulgat sententiam iudicis que
+            <lb ed="#N" n="123"/>si in persona eius dicens. excommunico te. vel absoluo te id est
+            iudi<lb ed="#N" n="124" break="no"/>co te absolutum scilicet a culpa: sic sacerdos dicit in die cene vel
+            <lb ed="#N" n="125"/>in capite ieiunii. absoluo vos. sitisque absoluti ante tribunal
+            <lb ed="#N" n="126"/>christi: et habeatis vitam eternam. et viuatis in secula seculorum. non
+            <lb ed="#N" n="127"/>quod omnium horum habeat sacerdos potestatem: sed hoc eius est vt os vel
+            <lb ed="#N" n="128"/>lingua est tantum habentis hanc potestatem. et ministerium est subiectio
+            <lb ed="#N" n="129"/>nis non potestatis. et proinde non dicitur clauis. inquantum autem preficitur
+            <lb ed="#N" n="130"/>presbiter ratione ordinis: habet potestatem aliquam annexam ordini
+            <lb ed="#N" n="131"/>cum enim penitens per contritionem fiat membrum ecclesie. li
+            <lb ed="#N" n="132"/>beratus a culpa et debito pene eterne: adhuc tenetur ad
+            pe<lb ed="#N" n="133" break="no"/>nam temporalem. sed ad quantam de rigore iusticie nouit
+            de<lb ed="#N" n="134" break="no"/>us qui punit in purgatorio pena inestimabili. sed in
+            con<lb ed="#N" n="135" break="no"/>tritione habet sacerdos potestatem mutandi penam grauem et
+            <lb ed="#N" n="136"/>incertam in penam supra modum leuem et certam. hec autem
+            po<lb ed="#N" n="137" break="no"/>testas mutandi sic est ex virtute clauium: quia hec mutatio
+            at<lb ed="#N" n="138" break="no"/>tenditur in ligatione et solutione. vnde Hugo dicit. quod
+            ligan<lb ed="#N" n="139" break="no"/>do soluit. id est ligando vinculo expiationis soluit a vinculo
+            <pb ed="#N" n="517"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>pene purgatorii. hec enim solutio antecedit ad apertionem. Unde
+            <lb ed="#N" n="2"/>veritas dicit. Quodcumque solueris super terram etc. quasi primo
+            <lb ed="#N" n="3"/>oportet quod soluatur a vinculis: postea quod habeat virtutem
+            proce<lb ed="#N" n="4" break="no"/>dendi in regnum. vnde Ioh. xi. Soluite eum et sinite abire. quia
+            <lb ed="#N" n="5"/>post solutionem procedendum est ad regnum. Rabanus hoc officium
+            <lb ed="#N" n="6"/>committitur presbiteris atque episcopis. vt ignitis peccantium causis
+            <lb ed="#N" n="7"/>quos humiles ac vere penitentes aspexerint: hos a timore
+            <lb ed="#N" n="8"/>perpetue mortis absoluant. Solis ergo sacerdotibus datur et in
+            or<lb ed="#N" n="9" break="no"/>dine sacerdotali potestas clauium. scilicet quantum ad soluendum et
+            ligan<lb ed="#N" n="10" break="no"/>dum quasi mediatoribus inter deum et subditos.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e370">
+            ⁋ Si
+            obiici<lb ed="#N" n="11" break="no"/>atur quod magis conuenit potestatem clauium dari episcopo in consecratio
+            <lb ed="#N" n="12"/>ne episcopi. Dicendum quod nequaquam. quia episcopus non dicit nouum
+            ordi<lb ed="#N" n="13" break="no"/>nem. nec in consecratione episcopi datur ordo nouus: sed tantum
+            am<lb ed="#N" n="14" break="no"/>pliatur potestas vt alibi tactum est.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e381">
+            ⁋ Ad illud quod obiicitur de
+            ho<lb ed="#N" n="15" break="no"/>stiariis quod habent iudicium. dicendum quod habere iudicium et
+            potesta<lb ed="#N" n="16" break="no"/>tem ad repellendum et mittendum est dupliciter. vel ad ipsa
+            sa<lb ed="#N" n="17" break="no"/>cramenta. ita quidem prout debet administrando: vel admittendo
+            <lb ed="#N" n="18"/>ad locum vel repellendo a loco sacramentorum cuiusmoodi est
+            ec<lb ed="#N" n="19" break="no"/>clesia. primum iudicium et potestas spectat ad claues regni de
+            qui<lb ed="#N" n="20" break="no"/>bus incendimus. alterum iudicium et potestas spectat ad infimum
+            or<lb ed="#N" n="21" break="no"/>dinem scilicet hostiarii.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e399">
+            ⁋ Ad illud quod obiicitur de archidiaconis
+            <lb ed="#N" n="22"/>et legatis. dicendum quod clauis datur ministris ecclesie habentibus
+            <lb ed="#N" n="23"/>ordinem et habentibus dignitatem. dignitas autem est quedam
+            super<lb ed="#N" n="24" break="no"/>eminentia ordinis. sicut in alia facultate dicitur dignitas
+            su<lb ed="#N" n="25" break="no"/>pereminentia euidentis veritatis. vnde dignitas dicitur quam
+            <lb ed="#N" n="26"/>quisque probat auditam. vnde Math. xvi. dictum est petro. Tibi
+            <lb ed="#N" n="27"/>dabo cla. petrus enim habuit ordinem et dignitatem. et dicitur ibi in
+            <lb ed="#N" n="28"/>glo. datur hoc officium presbiteris et episcopis etc. clauis enim habet
+            du<lb ed="#N" n="29" break="no"/>plex officium. est enim soluere et ligare in foro penitentie: et hoc
+            <lb ed="#N" n="30"/>conuenit presbiteris tantum. est iterum soluere et ligare in foro iudicia
+            <lb ed="#N" n="31"/>li: et sic habentium dignitatem. et primo episcoporum: et hoc in ordine
+            <lb ed="#N" n="32"/>primo et illius qui vicem petri gerit. et hoc est quod dicitur in
+            <lb ed="#N" n="33"/>dicta glo. comittitur hoc officium episcopis et presbiteris.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e429">
+            ⁋ Ad hoc autem
+            <lb ed="#N" n="34"/>quod queritur. vtrum alii habent claues quam sacerdotes. dicendum quod
+            <lb ed="#N" n="35"/>clauis quo ad vsum ligandi et soluendi in foro penitentiali tantum est
+            sa<lb ed="#N" n="36" break="no"/>cerdotum. iniungere penitentiam et relaxare aliquid de debita
+            pe<lb ed="#N" n="37" break="no"/>na: non potest alius nisi sacerdos. Iste autem vsus descendit a
+            passi<lb ed="#N" n="38" break="no"/>one christi in sacramentum ordinis sacerdotalis. Notandum etiam
+            <lb ed="#N" n="39"/>quod potstas dicitur dupliciter. vel vt clauis: vel non vt clauis. dico
+            <lb ed="#N" n="40"/>ergo quod inferiores praelati non habent potstatem prout est sub ratio
+            <lb ed="#N" n="41"/>ne clauis: licet vocentur in partem sollicitudinis scilicet ad detinen
+            <lb ed="#N" n="42"/>dum iurgia siue causas. nisi nomine clauis extenso. ratio autem
+            <lb ed="#N" n="43"/>clauis secundum quod est in foro causarum dignitas est et confertur episcopo.
+            <lb ed="#N" n="44"/>Potestas autem potest descendere ad alios scilicet inferiores pralatos
+            <lb ed="#N" n="45"/>sed non sub ratione clauis: quia archidiaconi demandant
+            excom<lb ed="#N" n="46" break="no"/>municatos et absolutos. de hoc dicetur infra.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e460">
+            ⁋ Ad illud quod
+            di<lb ed="#N" n="47" break="no"/>cit Greg. quod illi habent potstatem ligandi et soluendi etc. dicendum
+            <lb ed="#N" n="48"/>quod verbum Greg. intelligendum est de vsu potestatis: non de ipsa
+            po<lb ed="#N" n="49" break="no"/>testate habituali que confertur in ordine.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e469">
+            ⁋ Ad hoc quod obiicitur
+            <lb ed="#N" n="50"/>de potestate data petro in cena. dicendum quod duplex est potestas
+            descen<lb ed="#N" n="51" break="no"/>dens a christo. Una ad cohibitionem in iudiciis. in episcopis. et aliis
+            <lb ed="#N" n="52"/>qui summuntur ab illis in partem sollicitudinis. Altera autem potestas
+            <lb ed="#N" n="53"/>in foro penitentie scilicet ligandi et soluendi hec est sacerdotum.
+            vn<lb ed="#N" n="54" break="no"/>de dabantur petro claues inquantum erat apostolus et sacerdos.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e482">
+            <lb ed="#N" n="55"/>⁋ Ad hoc quod obiicitur. quod vnius sacramenti vna est potstas et vnus
+            <lb ed="#N" n="56"/>actus. dico quod vnus actus principalis est sacerdotis scilicet
+            consecra<lb ed="#N" n="57" break="no"/>re: alius actus consequens scilicet actus ligandi et soluendi. Quidam enim
+            <lb ed="#N" n="58"/>actus est qui non potest amitti vt consecrare quia immediate
+            ad<lb ed="#N" n="59" break="no"/>heret ordini. quia fit in virtute verborum sub forma ecclesie
+            <lb ed="#N" n="60"/>prestita. Alius qui potest amitti et non comitti: vt soluere et
+            li<lb ed="#N" n="61" break="no"/>gare in foro penitentiali quia potest suspendi sacerdos.
+            Qui<lb ed="#N" n="62" break="no"/>dam autem est qui potest amitti et committi. vt ligare et soluere in
+            fo<lb ed="#N" n="63" break="no"/>ro iudiciali.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e504">
+            ⁋ Ad hoc quod obiicitur quod nobilissimus actus
+            da<lb ed="#N" n="64" break="no"/>tus est nobilissimo ordini. dicendum quod hoc est verum. ille enim
+            <lb ed="#N" n="65"/>actus qui est consecrare essentialis est sacerdoti ordine existen
+            <lb ed="#N" n="66"/>te. et est actus ille exercitus in memoriam passionis. postea
+            se<lb ed="#N" n="67" break="no"/>quitur actus ligandi et soluendi: et hoc est similiter a virtute passi
+            <lb ed="#N" n="68"/>onis. et ita actus iste supponit ante se sacramentum
+            communio<lb ed="#N" n="69" break="no"/>nis. et propter hoc argumentum suprpositum non valet. sed bene
+            <lb ed="#N" n="70"/>sequeretur. nobilissimus actus est principalis: ergo minus
+            nobi<lb ed="#N" n="71" break="no"/>ile non est principalis.
+          </p>
+        </div>
+        <div xml:id="v78d89-aeoruy-Dd1e526">
+          <head xml:id="v78d89-aeoruy-Hd1e528">Articulus 2</head>
+          <p xml:id="v78d89-aeoruy-d1e530">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e537">
+            <lb ed="#N" n="73"/>COnsequenter queritur vtrum contingat claues separari ab
+            <lb ed="#N" n="74"/>ordine. Quod sic: videtur per hoc. quod aliquis sacerdos die
+            he<lb ed="#N" n="75" break="no"/>sterno iuste vtebatur clauibus: die hodierno vti non
+            <lb ed="#N" n="76"/>potest. vtpote est suspensus ab aliquo iusto iudicio. similiter de degnadato.
+            <lb ed="#N" n="77"/>similiter de hereticis et scismaticis. qui vt dicunt canones non habent
+            <lb ed="#N" n="78"/>potestatem ligandi et soluendi. et tamen ordines habent. ergo claues non
+            se<lb ed="#N" n="79" break="no"/>quuntur ordinem sacerdotalem inseparabiliter. quia ordo non aufertur
+            <lb ed="#N" n="80"/>quod patet per hoc quod caracter non potest auferri.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e557">
+            ⁋ Item obiicitur de anima
+            <lb ed="#N" n="81"/>separata que ordinis caracterem habet: et non habet potestatem
+            claui<lb ed="#N" n="82" break="no"/>um.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e564">
+            ⁋ Si responderetur ad hoc quod habent claues: sed non executionem
+            li<lb ed="#N" n="83" break="no"/>gandi et soluendi. Contra hoc est quod potstas clauium est spiritualis et
+            <lb ed="#N" n="84"/>actiua non passiua et iterum est in potentia libera. scilicet libro. arbtro. que
+            <lb ed="#N" n="85"/>exit in actum quando vult. ergo non potest aliquis habere potestatem quin
+            ha<lb ed="#N" n="86" break="no"/>beat execuconem.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e576">
+            ⁋ Item frustra est potentia quam non sequitur actus
+            </p>
+          <p xml:id="v78d89-aeoruy-d1e578">
+            <lb ed="#N" n="87"/>⁋ Si diceretur quod vsum clauium potest amittere et quod vsus est
+            in<lb ed="#N" n="88" break="no"/>separabilis: non ipsa potestas habitualis que est clauis. Contra.
+            po<lb ed="#N" n="89" break="no"/>testas habitualis est potestas que defacili potest egredi in actum.
+            <lb ed="#N" n="90"/>sed hoc non accidit degradato: ergo clauis est separabilis ab
+            or<lb ed="#N" n="91" break="no"/>dine. cum caracter ordinis nec ordo tollitur in degradato.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e591">
+            ⁋ Item
+            <lb ed="#N" n="92"/>clauis est potestas discernendi soluendi atque ligandi. sed hoc potest
+            <lb ed="#N" n="93"/>separari ab habente ordinem sacerdotalem. vt siquis degradetur et
+            <lb ed="#N" n="94"/>post efficiatur furiosus perpetuo. vt videtur cum non sit dicenda
+            po<lb ed="#N" n="95" break="no"/>testas que nullo modo vel ratione sit reducibilis in actum: potestas
+            <lb ed="#N" n="96"/>dico actiua. licet sit potentia qua que sit reducibilis in actum
+            <lb ed="#N" n="97"/>scilicet consequentem in infinitum.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e607">
+            ⁋ Contra. in ordine
+            sacerdotali<lb ed="#N" n="98" break="no"/>imprimitur caracter et traditur potestas spiritualis que est essentialis
+            or<lb ed="#N" n="99" break="no"/>dini. vnde ordo dicitur signaculum spiritualem. quo spiritualis potestas
+            <lb ed="#N" n="100"/>traditur ordinato. huic ergo est potestas spiritualis essentialis. hec autem
+            <lb ed="#N" n="101"/>potestas est soluendi et ligandi que est potestas clauium: ergo hec potestas non
+            <lb ed="#N" n="102"/>est separabilis ab ordine.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e620">
+            ⁋ Item si aliquid necessario ponit aliud
+            <lb ed="#N" n="103"/>non potest vnum auferri quin aliud auferatur. sed aliquo facto
+            sacer<lb ed="#N" n="104" break="no"/>dote secundum formam ecclesie necessario habet clauem. vnde hec
+            necessa<lb ed="#N" n="105" break="no"/>rio seinuicem consequuntur. scilicet ordo sacerdotalis et habitualis
+            po<lb ed="#N" n="106" break="no"/>testas que clauis est inseparabiliter inheret ordini.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e631">
+            ⁋ Item si esset
+            <lb ed="#N" n="107"/>separabilis vel secundum quod est potestas habitualis: vel etiam secundum vsum
+            preclu<lb ed="#N" n="108" break="no"/>di posset homini via salutis. quia in ommbus sacerdotibus posset
+            <lb ed="#N" n="109"/>separari: et sic penitentes non haberent cui confiterentur nec a quo ab
+            <lb ed="#N" n="110"/>soluerentur.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e643">
+            ⁋ Responsio. quod clauis secundum quod est habitualis potestas non est
+            <lb ed="#N" n="111"/>separabilis ab ordine. vsus tamen separabilis est. Sicut enim videre
+            di<lb ed="#N" n="112" break="no"/>itur dupliciter. aut habere visum: aut vti visu. sic potest dici
+            <lb ed="#N" n="113"/>de potestate clauium. vnde dicendum quod sicut aliquis habet visum
+            <lb ed="#N" n="114"/>habitu tantum. aliquis visum et habitum. aliquis neque visum neque
+            ha<lb ed="#N" n="115" break="no"/>rum: sic est de clauibus. aliquis habet habitualem potstatem et
+            <lb ed="#N" n="116"/>sum sicut sacerdos cui concessus est vsus sine aliquo
+            impe<lb ed="#N" n="117" break="no"/>dimento scilicet suspensionis vel degradationis. vel heretice peruer
+            <lb ed="#N" n="118"/>sitatis vel aliquo alio modo. Aliquis habet habitualem
+            po<lb ed="#N" n="119" break="no"/>estatem et non vsum: sicut impeditus aliquo predictorum
+            impedimen<lb ed="#N" n="120" break="no"/>torum. aliquis neque huiusmodi petatem habet neque vsum: sicut laycus
+            <lb ed="#N" n="121"/>vel clericus existens in ordinibus inferioribus inquantum huiusmodi.
+            Item<lb ed="#N" n="122" break="no"/>siquis habet potestatem ita quod aliquo modo vel casu potest exire in
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e672">
+            <lb ed="#N" n="123"/>um: aliquis ita quod nullo modo potest. huiusmodi potstatem impotentem
+            <lb ed="#N" n="124"/>cire in vsum habet degradatus. hereticus autem et suspensus tantum et
+            <lb ed="#N" n="125"/>ligiosus habet huiusmodi habitum potentie in aliquo casu exire
+            <lb ed="#N" n="126"/>n actum. vnde sicut manus abscisa non habet aliquo modo potestatem at
+            <lb ed="#N" n="127"/>trahendi vtilia et repellendi nociua corpori: sic degradatus nullo
+            <lb ed="#N" n="128"/>nodo habet potestatem vtendi clauibus. potstatem dico que potest
+            progredi<lb ed="#N" n="129" break="no"/>in vsum. dico de iure communi. et sicut manus paralitica potestatem predictam
+            <lb ed="#N" n="130"/>non habet. potest tamen habere per influentiam virtutis a parte corporis
+            sana<lb ed="#N" n="131" break="no"/>ti: sic est de heretico ordinato dico in fide. quia licet vsum
+            clauium<lb ed="#N" n="132" break="no"/>non habeat: potest tamen habere per reconciliationem ecclesie et dispensationem
+            <lb ed="#N" n="133"/>et sicut manus ligata vsum potestatis predicte non habet. potest tamen illum
+            <lb ed="#N" n="134"/>habere si soluatur: similiter suspensus licet vsum clauium non habeat.
+            <lb ed="#N" n="135"/>potest tamen habere si soluatur a suspensione. et sicut manus occupata
+            <lb ed="#N" n="136"/>vno negotio non habet potestatem ad aliud nisi ab illa
+            occu<lb ed="#N" n="137" break="no"/>patione aliqualiter alienetur: sic religiosus cuius status requirit quod
+            <lb ed="#N" n="138"/>contemplando soli deo intendat et vite solitarie insistat:
+            nisi<lb ed="#N" n="139" break="no"/>obedientia superioris indulgeatur: non potest vti clauibus.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e711">
+            ⁋ Ad
+            <lb ed="#N" n="140"/>illud quod obiicitur quod potestas habitualis defacili potest
+            <lb ed="#N" n="141"/>egredi in actum etc. dicendum quod habitus secundum quod est in suo esse
+            <pb ed="#N" n="518"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>optimo non aliquo modo impeditus: est facilis ad egrediendum
+            <lb ed="#N" n="2"/>ad suum actum. sed sic non est in proposito.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e727">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="3"/>quod non est dicenda potestas que nullo modo est reducibilis in suum
+            <lb ed="#N" n="4"/>actum. dicendum quod verum est si non sit impedimentum ex parte habentis
+            <lb ed="#N" n="5"/>vel suscipientis. sed sic non est hic.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e736">
+            ⁋ Ad illud quod obiicitur pro alia
+            <lb ed="#N" n="6"/>parte. quod si esset separabilis: posset homini precludi via salutis.
+            Dicen<lb ed="#N" n="7" break="no"/>dum quod accidere posset perticulariter. tamen christo conseruante ecclesiam
+            <lb ed="#N" n="8"/>suam iuxta illud quod promisit. Uobiscum sum omnibus diebus
+            <lb ed="#N" n="9"/>vsque ad consummationem seculi Math. vlti. numquam accidernet.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e747">
+            ⁋ Ad
+            <lb ed="#N" n="10"/>illud quod obiicitur de hereticis et scismaticis et animabus separatis
+            <lb ed="#N" n="11"/>etc. Dicendum quod sicut est tactum: est loqui de potentia visiua
+            <lb ed="#N" n="12"/>dupbet. et quantum ad essentiam: et quantum ad vsum. similiter est loqui de
+            <lb ed="#N" n="13"/>potentia hac. considerata enim quantum ad essentiam: est radicaliter
+            <lb ed="#N" n="14"/>in anima: et inseparabiliter se tenet cum ordine sacerdotali. conside
+            <lb ed="#N" n="15"/>rata quantum ad vsum: necessario requiritur status viatoris et
+            au<lb ed="#N" n="16" break="no"/>ctoritas iurisdictionis. Quod requiritur status viatoris patet. quia sicut
+            <lb ed="#N" n="17"/>non competit caritati mereri extra statum vie: sic nec potestas
+            reconci<lb ed="#N" n="18" break="no"/>liandi et ministrandi sacramenta nisi in statu ecclesie militantis.
+            <lb ed="#N" n="19"/>Unde potestas clauium quantum ad executionem vsus quandoque amittitur.
+            <lb ed="#N" n="20"/>vnde anima separata huiusmodi vsum non habet. Quod iurisdictio requira
+            <lb ed="#N" n="21"/>tur patet. sacerdos enim est mediator vt tactum est. et sic inferior deo
+            <lb ed="#N" n="22"/>et superior penitente. quia nemo potest aliquem iudicare nisi iudex
+            <lb ed="#N" n="23"/>eius constituatur ab eo qui potest. et ita iurisdictio est tamquam vis
+            moti<lb ed="#N" n="24" break="no"/>ua ipsius clauis siue manus. hac autem deficiente non est qui clauem
+            <lb ed="#N" n="25"/>moueat. et ita si sit clauis numquam aperiet. vnde si amittitur hec
+            iuris<lb ed="#N" n="26" break="no"/>ditio. cessat clauis executio. Hec autem amittitur dupliciter. vel
+            quan<lb ed="#N" n="27" break="no"/>tum ad subditorum ablationem secundum rem et speciem. vt solet esse in degn
+            <lb ed="#N" n="28"/>datis. vel quantum ad renssicut solet esse in scismaticis hereticis
+            <lb ed="#N" n="29"/>et precisis. fornicatoribus notoriis excommunicatis. Et ex his patet
+            respon<lb ed="#N" n="30" break="no"/>sio ad primo quesita.
+          </p>
+          <p xml:id="v78d89-aeoruy-d1e796">
+            ⁋ Ad illud quod obiicitur quod est potstas libera et
+            <lb ed="#N" n="31"/>actiua. dicendum quod quamuis est actiua et libera in essentia: tamen sicut
+            vir<lb ed="#N" n="32" break="no"/>tus visiua non potest exire in actum nisi habeat organum dispositum
+            <lb ed="#N" n="33"/>et medium illuminans: sic est in proposito intelligendum nisi assint que
+            <lb ed="#N" n="34"/>ad assecutionem potestatis sint necessaria: non potest exire in actum suum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

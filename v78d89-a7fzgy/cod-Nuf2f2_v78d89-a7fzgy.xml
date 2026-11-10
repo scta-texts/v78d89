@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 35, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 35, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="218"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7fzgy"><!-- q35m5 -->
+        <head xml:id="v78d89-a7fzgy-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a7fzgy-Hd1e103" type="question-title">Utrum sacerdos haereticus et scismaticus</head>
+        <p xml:id="v78d89-a7fzgy-d1e106">
+          <lb ed="#N" n="49"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e111">
+          <lb ed="#N" n="50"/>⁋ COnsequenter queritur si hereticus qui suscepit
+          <lb ed="#N" n="51"/>ordinem in infidelitate possit consecrare. Et videtur
+          <lb ed="#N" n="52"/>quod sic: quia est sacramentum fidei vt est baptismus.
+          <lb ed="#N" n="53"/>et est sacramentum caritatis vt hoc sacramentum: ergo si
+          sacra<lb ed="#N" n="54" break="no"/>mentum fidei ab heretico qui est infidelis potest dispensari:
+          mus<lb ed="#N" n="55" break="no"/>tofortius sacramentum caritatis poterit ab heretico consecrari.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e127">
+          <lb ed="#N" n="56"/>⁋ Item fides propria alicuius informare non habet siue dirigere
+          <lb ed="#N" n="57"/>nisi actum illius. non enim actum alienum dirigit fides mea. ad
+          <lb ed="#N" n="58"/>actum ergo alicuius dirigendum non est necessaria fides aliena.
+          <lb ed="#N" n="59"/>ergo cum sacerdos non conficiat actu proprio: non enim dicit ego
+          can<lb ed="#N" n="60" break="no"/>ficio vel consecro: sed dicit in persona alterius quod dicit quando
+          con<lb ed="#N" n="61" break="no"/>secrat: in consecratione non exigitur fides propria.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e144">
+          ⁋ Item tria
+          suf<lb ed="#N" n="62" break="no"/>ficiunt ad conficiendum corpus christi ex parte conficientis. ordo
+          <lb ed="#N" n="63"/>sacerdotalis: intentio ecclesie: et prolatio verborum prescriptorum
+          <lb ed="#N" n="64"/>a domino. sed hereticus ordinatus in infidelitate. et si fuerit
+          <lb ed="#N" n="65"/>precisus ab ecclesia propter heresim: non propter hoc amittit
+          or<lb ed="#N" n="66" break="no"/>dinem sacerdotalem. Unde Iugustinus. ad prmenianum et habetur
+          <lb ed="#N" n="67"/>i. q. i. Quod quidam. sicut baptismus in eis ita et ordinatio
+          <lb ed="#N" n="68"/>mansit integra. et loquitur de precisis ab ecclesia. quod patet
+          <lb ed="#N" n="69"/>per hoc quod subditur infra eodem vbi dicitur. Ex his
+          ver<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>his Augustinus. constat in omnibus. tam apostatis quam hereticis vel
+          <lb ed="#N" n="71"/>damnatis permanere christi sacramenta vera. igitur si talis cum
+          <lb ed="#N" n="72"/>intentione conficiendi proferat verba instituta a domino constat
+          <lb ed="#N" n="73"/>quod conficit.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e174">
+          ⁋ Contra. Augustinus et habetur. i. q. i. Extra ecclesiam
+          <lb ed="#N" n="74"/>catholicam non est locus veri sacrificii.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e179">
+          ⁋ Item sacramenta
+          no<lb ed="#N" n="75" break="no"/>ue legis habent fundamentum baptisma quod est
+          sacramen<lb ed="#N" n="76" break="no"/>tum fidei. Unde omnia sacramenta habent fidem
+          sandamen<lb ed="#N" n="77" break="no"/>tum et virtutem a fide. igitur si quis intendit conficere hereticus
+          <lb ed="#N" n="78"/>siue infidelis: deficit in opere suo ab eo quod est fundamentum
+          <lb ed="#N" n="79"/>et a quo debet esse virtus sacramenti: igitur non conficit. UItem
+          <lb ed="#N" n="80"/>dicit Hiero. Odit deus sacrificia hereticorum. detestatur
+          fe<lb ed="#N" n="81" break="no"/>torem eorum: ergo cum ipsi celebrant: nec seipsum mittit nec
+          ange<lb ed="#N" n="82" break="no"/>los vt intersint sacrificio. sed si non est ibi celestis missus:
+          <lb ed="#N" n="83"/>non est ibi missa. ob hoc enim dicitur missa: eo quod celestis missus ad
+          <lb ed="#N" n="84"/>consecrandum et viuificandum corpus adueniat. vt dicit Augustinus. sicut
+          <lb ed="#N" n="85"/>orat ecclesia. Iube hec perferri per manus sancti euangelii tui in
+          <lb ed="#N" n="86"/>sublime alta. tu. ergo non potest vere dici. Ite missa est. et
+          <lb ed="#N" n="87"/>sic non conficiunt verum corpus christi.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e210">
+          ⁋ Item ita est in
+          ce<lb ed="#N" n="88" break="no"/>lesti hierarchia. quod illud cui obuiat siue contradicit
+          pote<lb ed="#N" n="89" break="no"/>stas superior. non exequitur potestas inferior. igitur si ec
+          <lb ed="#N" n="90"/>cesiastica hierarchia ordinatur secundum ordinationem celestis
+          <lb ed="#N" n="91"/>non exequetur inferior illud cui obuiat superior. Si igitur
+          <lb ed="#N" n="92"/>potestas superior scilicet dominus papa obuiat potestati
+          <lb ed="#N" n="93"/>heretici quantum ad potestatem consecrandi: videtur quod here
+          <lb ed="#N" n="94"/>ticus non possit consecrare.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e228">
+          ⁋ Item. xxiiii. q. i. Alexan. ii
+          <lb ed="#N" n="95"/>Audiuimus quod hereticus rauennas dictus archiepiscopus
+          <lb ed="#N" n="96"/>nisus sit te excommunicare. verum quia excommunicatus
+          <lb ed="#N" n="97"/>tem excommunicare non potest: apostolica auctoritate te tuosque
+          <lb ed="#N" n="98"/>absoluendo mandamus exinde nunquam te curare.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e239">
+          ⁋ Item eadem
+          <lb ed="#N" n="99"/>non potest deiicere quenquam iam prostratus. ligandi nanque
+          <lb ed="#N" n="100"/>vel soluendi potestas veris non falsis sacerdotibus a
+          domi<lb ed="#N" n="101" break="no"/>no tradita est. veros sacerdotes vocat fideles toleratos ab
+          <lb ed="#N" n="102"/>ecclesia siue boni sint siue mali. Ex his patet. quod hereticus
+          <lb ed="#N" n="103"/>ex quo non potest excommunicare neque ligare vel absoluere
+          <lb ed="#N" n="104"/>non potest illud quod maius est scilicet corpus domini
+          conse<lb ed="#N" n="105" break="no"/>crare.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e258">
+          ⁋ Item super illud: Ezech. xliiii. Leuite qui longe
+          re<lb ed="#N" n="106" break="no"/>cesserunt a me in errore filiorum israel: et errauerunt a me ptst
+          <lb ed="#N" n="107"/>ydola sua etc. dicit Hiero. Qui in tempore erroris vel perse
+          <lb ed="#N" n="108"/>cutionis ydola secuti sunt. que de corde confinxerunt et non
+          <lb ed="#N" n="109"/>solum voce: sed et manus subscriptione dei filium
+          creatu<lb ed="#N" n="110" break="no"/>ram firmauerunt: quomodo pontificalem vel sacerdotale
+          re<lb ed="#N" n="111" break="no"/>tinent fastigium: qui in laycos redacti pristina debuerunt
+          <lb ed="#N" n="112"/>scelera deplorare. ergo si heretici damnati ab ecclesia
+          re<lb ed="#N" n="113" break="no"/>dacti sunt in laycos: cum layci non possunt conficere
+          cor<lb ed="#N" n="114" break="no"/>pus christi: nec huiusmodi heretici. Et hoc confirmatur per
+          <lb ed="#N" n="115"/>hoc quod dicit dominus de talibus Ezech. xliiii. Non
+          ap<lb ed="#N" n="116" break="no"/>propinquabunt ad me vt saceidotio fungantur mihi. Unde
+          <lb ed="#N" n="117"/>etiam si penituerint: non redeunt in gradum pristinum. sed
+          <lb ed="#N" n="118"/>vt in eodem ca. dicitur fiunt in sanctuario editui et ianito
+          <lb ed="#N" n="119"/>res portarum domus. quod est officium matriculariorum
+          <lb ed="#N" n="120"/>laycorum.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e293">
+          ⁋ Item Criprianus in epistola contra
+          hereti<lb ed="#N" n="121" break="no"/>cos et habetur. i. q. i. Si quis inquit. Constat
+          eucharisti<lb ed="#N" n="122" break="no"/>am fieri apud illos non perosse. vbi nulla spes est et fides
+          fal<lb ed="#N" n="123" break="no"/>sa: ibi omnia per mendacium geruntur.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e302">
+          ⁋ Item. xxiiii. q.
+          <lb ed="#N" n="124"/>i. audiuimus. Quicunque ab vnitate ecclesie que per
+          Pe<lb ed="#N" n="125" break="no"/>trum intelligitur fuerit alienus: execrare potest
+          consecra<lb ed="#N" n="126" break="no"/>re non valet.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e311">
+          ⁋ Item Hiero. Panem pollutum comedunt
+          <lb ed="#N" n="127"/>heretici. sed panis iste non potest pollui: ergo hunc panem
+          <lb ed="#N" n="128"/>non comedunt.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e318">
+          ⁋ Item Criprianus hereticorum
+          sacramen<lb ed="#N" n="129" break="no"/>ta sacrilega sunt. sed hoc sacramentum est sanctissimum in
+          <lb ed="#N" n="130"/>quo continetur sanctus sanctorum: ergo hoc sacramentum
+          <lb ed="#N" n="131"/>non potest ab illis consecrari.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e327">
+          ⁋ Responsio. aliqui fuerunt qui
+          <lb ed="#N" n="132"/>dixerunt quod heretici notorii damnati ab ecclesia consecrare
+          <lb ed="#N" n="133"/>non possunt: heretici occulti non damnati ab ecclesia
+          pos<lb ed="#N" n="134" break="no"/>sunt. sed quia tales concordant positioni Eypriani. qui
+          po<lb ed="#N" n="135" break="no"/>suit quod heretici vera sacramenta non habent quod negat Au
+          <lb ed="#N" n="136"/>gusti. et improbat. Aliter dicendum. scilicet quod heretici
+          pot<lb ed="#N" n="137" break="no"/>sunt conficere. quia licet separati sint ab ecclesia: nihilominus
+          re<lb ed="#N" n="138" break="no"/>manet illis ordo sacerdotalis quo existente conficere possunt.
+          <lb ed="#N" n="139"/>Unde Augustinus. ad permenianum. dicit de hereticis et damnatis.
+          <pb ed="#N" n="219"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>quod quidam dicunt baptisma quod accepit non amittit qui recedit
+          <lb ed="#N" n="2"/>ab ecclesia: ius tamen dandi quod accepit amittit: multis
+          mo<lb ed="#N" n="3" break="no"/>dis apparet frustra et inaniter dici. primo quia nulla
+          osten<lb ed="#N" n="4" break="no"/>ditur causa. cur ille qui illud baptisma amittere non potest
+          <lb ed="#N" n="5"/>ius dandi possit amittere. vtrumque enim sacramentum est et quadam
+          <lb ed="#N" n="6"/>consecratione vtrumque hominibus datur. illud enim cum baptizatur
+          <lb ed="#N" n="7"/>illud cum ordinatur. et ideo licet a catholico vtrumque iterari.
+          <lb ed="#N" n="8"/>Nam si quando ex parte ipsa venientes etiam propositi pro bono
+          pa<lb ed="#N" n="9" break="no"/>cis correcto scismatis errore suscepti sunt. et si visum est
+          <lb ed="#N" n="10"/>opus esse vt eadem officia gererent que agebant: non sunt
+          <lb ed="#N" n="11"/>rursus ordinandi: sed sicut baptismus in eis ita et ordinatio
+          <lb ed="#N" n="12"/>mansit integra: quia in precisione fuerat vicium: quod vnitate
+          <lb ed="#N" n="13"/>pacis est correctum. sic in sacramentis que vbicumque sunt ipsa
+          <lb ed="#N" n="14"/>sunt. Item infra eodem. de his qui ab vnitate ecclesie
+          ca<lb ed="#N" n="15" break="no"/>tholice separati sunt nulla iam questio est quin habeant et
+          da<lb ed="#N" n="16" break="no"/>ri possint. sed perniciose habent pernicioseque tradunt: qui extra
+          <lb ed="#N" n="17"/>vinculum pacis sunt. neutri sacramento iniuria facienda
+          <lb ed="#N" n="18"/>est. sicut non recte habet qui ab vnitate recedit sed tamen
+          ha<lb ed="#N" n="19" break="no"/>bet et ideo redeunti non redditur: sic etiam non recte dat quod
+          ac<lb ed="#N" n="20" break="no"/>cepit. et ideo quod ab eo accipitur venienti ad vnitatem non ite
+          <lb ed="#N" n="21"/>cratur. Ex his patet quod heretici ex lapsu in heresim non amit
+          <lb ed="#N" n="22"/>tunt ordines. quod intelligendum est quantum ad potestatem: non quantum
+          <lb ed="#N" n="23"/>ad officium executionis. vnde. i. q. i. Quod quidam. recedentes ab
+          <lb ed="#N" n="24"/>integritate fidei potestatem acceptam sacramentotenus retinent.
+          <lb ed="#N" n="25"/>effectu vero sue potestatis penitus priuantur. et vocat ibi effectum
+          <lb ed="#N" n="26"/>potestatis executionem siem patet ex predictis. et ponitur ibi
+          exemplum<lb ed="#N" n="27" break="no"/>tale. Sicu commniugati ab inuicem discedentes coniugium selis initum
+          <lb ed="#N" n="28"/>non dissoluunt licet ab opere commniugali inueniuntur alieni.
+          <lb ed="#N" n="29"/>Dicendum igitur quod possunt heretici damnati conficere
+          obserua<lb ed="#N" n="30" break="no"/>ta forma verborum cum intentione faciendi quod facit ecclesia
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e417">
+          <lb ed="#N" n="31"/>⁋ Ad hoc quod obiicitur. quod extra ecclesiam non est locus veri
+          sa<lb ed="#N" n="32" break="no"/>crificii. dicendum quod est sensus extra ecclesiam id est formam
+          eccle<lb ed="#N" n="33" break="no"/>sie. vel sic. extra ecclesiam non efficit sacramentum quod
+          figu<lb ed="#N" n="34" break="no"/>rat: quia hereticus conficit et accipit ad sui damnationem: et
+          con<lb ed="#N" n="35" break="no"/>fert aliis in simili errore positis. vnde. i. q. i. Quod quidam.
+          <lb ed="#N" n="36"/>quamuis possit dici generaliter. sacramenta que apud
+          hereti<lb ed="#N" n="37" break="no"/>cos non aliter quam in ecclesia celebrantur. vera et rata esse quantum
+          <lb ed="#N" n="38"/>ad se: falsa vero et inania quantum ad effectum. et in his a quibus
+          <lb ed="#N" n="39"/>male tractantur. et in illis a quibus male sumuntur. Nec mirum
+          <lb ed="#N" n="40"/>Ipisa enim salus nostra buccellam dedit iude. statim cum buccella
+          <lb ed="#N" n="41"/>non bonus sed malignus spiritus intrauit. non quia bonus non
+          da<lb ed="#N" n="42" break="no"/>ret bonum: sed quia malus male accepit. sicque bonum effectum non
+          <lb ed="#N" n="43"/>habuit: quia vbi illud faceret non inuenit.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e448">
+          ⁋ Si queratur qumo
+          <lb ed="#N" n="44"/>hereticus posset habere intentionem quam habet ecclesia. ex quo
+          <lb ed="#N" n="45"/>intentio sequitur fidem. Responsio. quod posset aliquis errare
+          <lb ed="#N" n="46"/>in alio vel aliis articulis: licet non in isto articulo. Pretere.
+          <lb ed="#N" n="47"/>licet erraret in hoc articulo: nihilominus posset habeure
+          inten<lb ed="#N" n="48" break="no"/>tionem generalem ecclesie.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e461">
+          ⁋ Ad aliud dicendum. quod sicut dictum
+          <lb ed="#N" n="49"/>est in sacramento baptism plenius eo quod talis habet intenti
+          <lb ed="#N" n="50"/>onem ecclesie. et in illa intentione profert verba prescripta in fide
+          <lb ed="#N" n="51"/>ecclesie conficit non in propria: ex quo in intentione consecrat et
+          <lb ed="#N" n="52"/>fides annexa est intentioni consecrat in fide ecclesie.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e472">
+          ⁋ Ad
+          <lb ed="#N" n="53"/>aliud dicendum. quod in sacrificiis hereticorum quedam sunt que
+          <lb ed="#N" n="54"/>a deo sunt. et illa non odit deus neque detestatur. verbigratia
+          <lb ed="#N" n="55"/>In hereticis qui sunt ordinati ab ecclesia est caracter ordinis
+          <lb ed="#N" n="56"/>qui a deo est non a pontifice visibili. Item sunt ibi hec verba:
+          <lb ed="#N" n="57"/>Hoc est corpus meum. hic est sanguis meus. que habent
+          vim<lb ed="#N" n="58" break="no"/>transsubstantiandi. et tam verba quam vis eorum sunt a deo. et a
+          <lb ed="#N" n="59"/>caractere sacerdotali. et vi verborum est quod conficiunt. Unde
+          <lb ed="#N" n="60"/>ex eo quod est commune eis et ecclesie conficiunt. Sunt tamen in
+          sa<lb ed="#N" n="61" break="no"/>crificiis eorum quedam que mala sunt. vt inobedientia et
+          pro<lb ed="#N" n="62" break="no"/>latio eorum verborum: que sunt peccata mortalia. et quantum ad
+          <lb ed="#N" n="63"/>hoc dicit dominus odire sacrificia hereticorum. et detestari
+          <lb ed="#N" n="64"/>fetorem eorum sicut contingit in matrimonio. Dicitur enim quod
+          <lb ed="#N" n="65"/>mutuus consensus maris et femine per verba de presenti
+          ex<lb ed="#N" n="66" break="no"/>pressus: facit matrimonium. et potest esse quod iste sola libidi
+          <lb ed="#N" n="67"/>ne mortali consentiat in istam et econuerso. et ex eadem
+          libi<lb ed="#N" n="68" break="no"/>dine proferuntur hec verba: accipio te in meam: accipio te in
+          me<lb ed="#N" n="69" break="no"/>um. matrimonium est: tamen fit quod est sancta res: sed non ex
+          <lb ed="#N" n="70"/>libidine sed ex consensu et expressione verborum. sicut
+          ce<lb ed="#N" n="71" break="no"/>cus generat videntem. quia non generat ex cecitate. sed ex
+          na<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>tura completa. que dicitur esse completa: quando subiectum
+          <lb ed="#N" n="73"/>illius potest facere tale alterum quale ipsum est.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e521">
+          ⁋ Ad aliud
+          di<lb ed="#N" n="74" break="no"/>cendum. quod potestas ecclesiastice hierarchie ordinata
+          imi<lb ed="#N" n="75" break="no"/>tatur celestem. Unde inquantum potestas ecclesie est ordinata:
+          <lb ed="#N" n="76"/>inferior non exequitur aliquid cui obuiat superior.
+          nihilomi<lb ed="#N" n="77" break="no"/>nus deordinando se quandoue potestas inferior exequitur aliud
+          <lb ed="#N" n="78"/>contra ordinationem superioris. quod non potest esse nisi vbi
+          possi<lb ed="#N" n="79" break="no"/>bile est deordinationi esse.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e537">
+          ⁋ Ad aliud quod obiicitur per locum
+          <lb ed="#N" n="80"/>a maiori sumptum ab impotentia soluendi et ligandi quod non
+          po<lb ed="#N" n="81" break="no"/>test consecrare. dicendum quod non sequitur et ratio est. quia
+          consecra<lb ed="#N" n="82" break="no"/>re ordinis est quem retinet recedens ab vnitate ecclesie. vt
+          <lb ed="#N" n="83"/>i. q. i. Quod quidam. sed non potest excommunicare: quia hoc
+          iuri<lb ed="#N" n="84" break="no"/>ditionis est quam amittit qui recedit ab ecclesia. i. q. i.
+          remis<lb ed="#N" n="85" break="no"/>sionem.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e554">
+          ⁋ Ad aliud dicendum. quod dominus per prophetam. et hiero. in glo.
+          di<lb ed="#N" n="86" break="no"/>cunt illud quod iuris est. quia in veritate recedentes ab ecclesia.
+          <lb ed="#N" n="87"/>non habent ius conficiendi. nec conferendi sacramenta. sicut nec
+          <lb ed="#N" n="88"/>layci. questio autem nostra de facto est. scilicet vtrum de facto
+          <lb ed="#N" n="89"/>possit consecrare.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e565">
+          ⁋ Ad aliud dicendum. quod verbum
+          Ey<lb ed="#N" n="90" break="no"/>priani intelligitur de hereticis qui formam ecclesie non tenent.
+          <lb ed="#N" n="91"/>et hoc patet per illud verbum vbi omnia per mendacium
+          gerun<lb ed="#N" n="92" break="no"/>tur. Illa dicuntur geri per mendacium que extra formam ec
+          <lb ed="#N" n="93"/>clesie geruntur. vel vt dicunt quidam Eyprianus hic
+          erra<lb ed="#N" n="94" break="no"/>uit et corrigit eum augustinus.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e578">
+          ⁋ Ad aliud quod sequitur dicendum
+          <lb ed="#N" n="95"/>quod illud quod dicitur. xxiiii. q. i. intelligitur quantum ad
+          execu<lb ed="#N" n="96" break="no"/>tionem quod sonat cum dicit. non valet id est inualidus est ad
+          <lb ed="#N" n="97"/>exequendum officium consecrationis ex alienatione ab
+          ec<lb ed="#N" n="98" break="no"/>clesia. Ul potest dici quod hoc intelligitur si formam ecclesie
+          <lb ed="#N" n="99"/>non seruat. conficit enim extra ecclesiam si formam obseruet: quia
+          <lb ed="#N" n="100"/>hoc ordinis est quod retinet recedens ab ecclesia. Uel non
+          <lb ed="#N" n="101"/>intelligitur de consecratione sacramenti altaris: sed de
+          conse<lb ed="#N" n="102" break="no"/>cratione episcoporum. Solent enim heretici consecrare seinuicem in
+          <lb ed="#N" n="103"/>episcopos vel archiepsaos sicut habetur. xxiiii. q. i. pudenda.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e600">
+          ⁋ Ad
+          <lb ed="#N" n="104"/>aliud quod obiicitur. quod heretici comedunt panem pollutum. dicendum
+          <lb ed="#N" n="105"/>quod quantum in ipsis est panem istum sanctissimum polluunt et
+          pollu<lb ed="#N" n="106" break="no"/>tum comedunt. vnde. i. q. i. Quod quidam. Constat sanctitatem
+          sacra<lb ed="#N" n="107" break="no"/>mentorum in peruersis hominibus et sceleratis siue in eis qui intus
+          <lb ed="#N" n="108"/>siue in eis qui foris sunt impollutam atet inuiolabilem permanere.
+          <lb ed="#N" n="109"/>et quod dicuntur eam mali polluere: quantum in ipsis est dicuntur: cum illa
+          <lb ed="#N" n="110"/>impolluta permaneant. Item eodem. Sciendum vero est. quod
+          sacramen<lb ed="#N" n="111" break="no"/>to hereticorum dicuntur irrita vel etiam damnanda falsa vel
+          in<lb ed="#N" n="112" break="no"/>ania. non quantum ad se. cum sint sancta et vera. etiam ab
+          hereti<lb ed="#N" n="113" break="no"/>co celebrata: sed quia cum illicite dantibus perfidis sint ad iudi
+          <lb ed="#N" n="114"/>cium: illicite ab eis accipientibus non conferunt spiriumsanctum.
+          Irri<lb ed="#N" n="115" break="no"/>ta et non vera dicuntur: quia quod promittunt et conferre creduntur non
+          <lb ed="#N" n="116"/>tribuunt: et ideo damnanda vt ea dari vel recipi ab
+          hereti<lb ed="#N" n="117" break="no"/>cis non approbetur sed interdicatur. Non enim quantum ad se
+          pol<lb ed="#N" n="118" break="no"/>luta sunt: quamuis ab hereticis pollui dicantur.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e635">
+          ⁋ Ad
+          vltimun<lb ed="#N" n="119" break="no"/>dicendum. quod sacramenta hereticorum dicuntur sacrilega quia et
+          <lb ed="#N" n="120"/>ipsi dispensatores illa disponendo sacrilegi et execrati
+          effi<lb ed="#N" n="121" break="no"/>ciuntur: et similiter cum illis communicantes in eorundem
+          <lb ed="#N" n="122"/>dispensatione.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e646">
+          <lb ed="#N" n="123"/>Consequeer que¬ §.1
+          <lb ed="#N" n="124"/>ritur. vtrum scismatici posunt consecrare siue conficere. Et ad
+          ma<lb ed="#N" n="125" break="no"/>iorem euidentiam eorum que dicuntur. Nota quod scisma intendit
+          sin<lb ed="#N" n="126" break="no"/>gularem constituere ecclesiam: et vniuersalem ecclesiam impugna
+          <lb ed="#N" n="127"/>re que vna est Cantra. viii. Una est columba mea. Unde
+          scismati<lb ed="#N" n="128" break="no"/>ci volentes ecclesiam dei scindere: peccant in fide quo ad illum
+          <lb ed="#N" n="129"/>articulum. vnam sanctam ecclesiam catholicam. Est autem scisma il
+          <lb ed="#N" n="130"/>licita ab vnitate vel vniuersitate scissura. vt. xxiiii. q.
+          i.<lb ed="#N" n="131" break="no"/>scisma. Differt scisma ab heresi: quia heresis in principio
+          <lb ed="#N" n="132"/>sui habet peruersum dogma quod non habet scisma sed in fine
+          con<lb ed="#N" n="133" break="no"/>fingit aliquam heresim vt recte videatur ab ecclesia recessisse
+          <lb ed="#N" n="134"/>vt dicit hiero. xxiiii. q. iii. Inter heresim et scisma. Uel
+          ta<lb ed="#N" n="135" break="no"/>lis est differentia inter heresim et scisma qualis est inter
+          ge<lb ed="#N" n="136" break="no"/>nus et speciem. quia omnis hereticus est scismaticus. sed non
+          <lb ed="#N" n="137"/>econuerso. nisi scisma durauerit: nam tunc in heresim
+          in<lb ed="#N" n="138" break="no"/>cidit.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e684">
+          ⁋ Circa hoc queritur sic. Hoc sacramentum est
+          sa<lb ed="#N" n="139" break="no"/>cramentum vnionis. Hoc enim sacramento vniuntur
+          mem<lb ed="#N" n="140" break="no"/>bra ecclesie: sed vicio scismatis diuiduntur membra
+          eccle<lb ed="#N" n="141" break="no"/>sie abinuicem. Huius ergo sacramenti et scismatis siue
+          <pb ed="#N" n="220"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>scismatici sunt actus contrarii vnde in contingentia sunt
+          ea<lb ed="#N" n="2" break="no"/>dem ratione scismaticus et conficiens siue consecran sunt
+          incon<lb ed="#N" n="3" break="no"/>tingentes. ergo scismaticus non potest conficere vel consecrare.
+        </p>
+        <p xml:id="v78d89-a7fzgy-d1e704">
+          <lb ed="#N" n="4"/>⁋ Responsio. in scismatico habente ordinem sacerdotalem. et
+          <lb ed="#N" n="5"/>vicium scismatis. ratione vicii vel scismatis est incontingens
+          <lb ed="#N" n="6"/>consecranti: ratione ordinis nequaquam. immo habet potestatem conse
+          <lb ed="#N" n="7"/>crandi quia posita in precedente probleumate opponendo et
+          re<lb ed="#N" n="8" break="no"/>spondendo hic conuenienter dici possent. ista sufficiant.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

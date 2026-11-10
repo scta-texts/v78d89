@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 21, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 21, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="150"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a5aiv2"><!-- q21m3 -->
+        <head xml:id="v78d89-a5aiv2-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a5aiv2-Hd1e103" type="question-title">Utrum aequaliter detur gratia omnibus baptizatis</head>
+        <p xml:id="v78d89-a5aiv2-d1e106">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e113">
+          <lb ed="#N" n="72"/>OOnsequenter queritur. vtrum equaliter detur
+          gra<lb ed="#N" n="73" break="no"/>tia omnibus baptizatis digne suscipientibus. quod
+          <lb ed="#N" n="74"/>sic: videtur. Ciprianus. plane eadem gratia
+          spi<lb ed="#N" n="75" break="no"/>ritualis que in baptismo a credentibus
+          equali<lb ed="#N" n="76" break="no"/>ter sumitur. in conuersatione atet actu nostro postmodum vel
+          auge<lb ed="#N" n="77" break="no"/>tur vel minuatur. Ecce quod eadem gratia et equaliter datur
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e129">
+          <lb ed="#N" n="78"/>⁋ Item Iuqutinus. de vnico baptismo alius alio baptizari
+          ma<lb ed="#N" n="79" break="no"/>gis vel minus non dicitur.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e137">
+          ⁋ Item. iii. ad epheo. Unum baptisma
+          <lb ed="#N" n="80"/>glo id est equale.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e142">
+          ⁋ Item quod equalis gratia detur omnibus paruulis:
+          <lb ed="#N" n="81"/>videtur. quia quod tam differentes imprimat effectus: hoc non est
+          <lb ed="#N" n="82"/>nisi vel quia voluntarium agens: vel quia si non est voluntarium
+          <lb ed="#N" n="83"/>tamen differenti modo se habet. vel si eodem modo: materia
+          re<lb ed="#N" n="84" break="no"/>cipiens se habet vel alio. Sed nec sacramentum nec virtus
+          <lb ed="#N" n="85"/>passionis voluntarium est agens. nec ipsum diuersificatur. nec
+          <lb ed="#N" n="86"/>paruulus vnus est magis dispositus quam alter: ergo etc.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e158">
+          ⁋ Item quali
+          <lb ed="#N" n="87"/>cunque conditione paruulus nascatur et qualiacumque habet
+          natu<lb ed="#N" n="88" break="no"/>ralia: vnus non nascitur magis peccator quam alius: ergo
+          pari<lb ed="#N" n="89" break="no"/>ratione in regeneratione vnus non debet regenerari magis
+          <lb ed="#N" n="90"/>vel melius alio.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e169">
+          ⁋ Item vnus non punitur magis alio: ergo nec
+          re<lb ed="#N" n="91" break="no"/>muneratur.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e174">
+          ⁋ Item gratia baptismalis opponitur culpe origina
+          <lb ed="#N" n="92"/>lib. sed culpa originalis equalis est in omnibus. vt innuit
+          ma<lb ed="#N" n="93" break="no"/>gister. ii. senten. in tractatu de peccato originali: ergo gratia
+          ba<lb ed="#N" n="94" break="no"/>ptismalis siue virtus equalem habebit effectum in omnibus
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e183">
+          <lb ed="#N" n="95"/>⁋ Item christus indifferenter et equaliter se obtulit pro omnibus.
+          <lb ed="#N" n="96"/>virtus igitur passionis christi ad omnes se habet equaliter
+          quam<lb ed="#N" n="97" break="no"/>tum in se est. igitur cum baptismus virtutem habet a passione
+          <lb ed="#N" n="98"/>christi: baptismus equalem habet effectum in omnibus.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e195">
+          ⁋ Contra
+          <lb ed="#N" n="99"/>damas. peccatorum remissio omnibus similiter per baptisma datur:
+          <lb ed="#N" n="100"/>gratia autem spiritus secundum proportionem fidei et prepurgationem. igitur
+          <lb ed="#N" n="101"/>gratia datur in baptismo non equaliter: sed secundum purgationem
+          <lb ed="#N" n="102"/>recipientis.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e206">
+          ⁋ Item Math. xxv. dedit vnicuique secundum propriam
+          <lb ed="#N" n="103"/>virtutem. Hec autem virtus attenditur in preparatione et
+          capacita<lb ed="#N" n="104" break="no"/>te suscipientis. igitur qui magis est preparatus: et magis capax
+          <lb ed="#N" n="105"/>etc. sic videtur quod in adultis maiorem et minorem efficaciam
+          ha<lb ed="#N" n="106" break="no"/>beat gratia baptismalis.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e217">
+          ⁋ Item sicut habetur. ii. senten.
+          gra<lb ed="#N" n="107" break="no"/>tuita proportionaliter dantur naturalibus. sed constat quod
+          melio<lb ed="#N" n="108" break="no"/>ra habeant naturalia aliqui quam alii: igitur etc.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e224">
+          ⁋ Item bonitas
+          <lb ed="#N" n="109"/>nature dispositio est ad gratiam. ergo vbi melior natura: me
+          <lb ed="#N" n="110"/>lior dispositio. Sed causa vniformiter agens magis im
+          <lb ed="#N" n="111"/>primit in magis disposito vt lux in aere quam in aqua:
+          ergo<lb ed="#N" n="112" break="no"/>cum vnus paruulus melius est dispositus quoam alius: patet
+          <lb ed="#N" n="113"/>etc.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e237">
+          ⁋ Responsio. quod gratia baptismalis habet plures
+          ef<lb ed="#N" n="114" break="no"/>fectus. Unum contra malum culpe. alium contra
+          ma<lb ed="#N" n="115" break="no"/>lum pene: tercium quantum ad ordinem in bonum respectu
+          <lb ed="#N" n="116"/>meriti. Quatum autem ad primum effectum est equalitas.
+          <lb ed="#N" n="117"/>omnium enim peccatorum in baptismo est simul et plena
+          re<lb ed="#N" n="118" break="no"/>missio. Lux enim que est spiritualis que est gratia: nullas
+          <lb ed="#N" n="119"/>secum compatitur tenebras peccati. In adultis autem
+          <lb ed="#N" n="120"/>quantum ad alia duo non est equalis effectus. hoc tamen non
+          <lb ed="#N" n="121"/>est quantum est de virtute sacramenti: sed quantum est de
+          <lb ed="#N" n="122"/>conditione suscipientis. Unde secundum fidei proportionem
+          ma<lb ed="#N" n="123" break="no"/>iorem et minorem: habet gratia baptismalis maiorem et
+          <lb ed="#N" n="124"/>minorem effectum quantum ad alia duo. Fomes enim inquantum
+          <lb ed="#N" n="125"/>est pena: magis et minus diminuitur per gratiam baptisma
+          <lb ed="#N" n="126"/>lem: secundum quod maior et minor est proportio fidei in suscipiente.
+          <lb ed="#N" n="127"/>Similiter est forte de aliis penis contractis. sciliciet
+          infir<lb ed="#N" n="128" break="no"/>mitate ignorantia malicia. Similiter secundum quod precedit
+          ma<lb ed="#N" n="129" break="no"/>ior et minor purgatio a peccato et circumstantiis pecca
+          <lb ed="#N" n="130"/>tis: maiorem et minorem habet effectum gratia
+          baptis<lb ed="#N" n="131" break="no"/>malis. Quod autem secundum fideni proportionem maiorem et
+          <lb ed="#N" n="132"/>minorem prepurgationem expeditius et efficatius
+          ordi<lb ed="#N" n="133" break="no"/>nat in viam merendi gratia baptismalis liquet: eo enim
+          <lb ed="#N" n="134"/>gratia expeditius agit: quo magis habet fulcimentum
+          <lb ed="#N" n="135"/>et minus impedimentum. Concedi ergo possunt illa que
+          <lb ed="#N" n="136"/>ostendunt gratiam dari in baptismo siue gratiam datam
+          <lb ed="#N" n="137"/>equalis esse efficacie scilicet quantum ad effectum remissionis
+          cul<lb ed="#N" n="138" break="no"/>pe: et hoc quantum est de virtute sacramenti. Quatum ad
+          ali<lb ed="#N" n="139" break="no"/>os effectus: non est equalis efficacie. sed maioris et minoris
+          <lb ed="#N" n="140"/>secundum proportionem fidei et purgationem siue preparationem maiorem vel
+          mi<pb ed="#N" n="151"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>norem: sicut ostendunt due auctoritates secundum damas. et manth.
+          <lb ed="#N" n="2"/>xxv. Unde auctoritas dam. intelligitur de gratia illa que datur
+          <lb ed="#N" n="3"/>per dispositionem suscipientis. qui plus vel minus habilitetur et
+          <lb ed="#N" n="4"/>mouetur ad fidem. non de illa que est ex merito christi que confertur
+          <lb ed="#N" n="5"/>virtute baptismi equaliter: et indifferenter se habet ad omnes.
+          <lb ed="#N" n="6"/>Et eodem modo respondendum est ad aliam auctoritatem. vnusquisque
+          <lb ed="#N" n="7"/>secundum propriam virtutem. id est capacitatem. Nam quod aliquis sit plus
+          <lb ed="#N" n="8"/>vel minus capax: hoc est ex dispositione libro arbtr.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e318">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="9"/>dicit magister. ii. sentem. quod gratuita proportionaliter dantur
+          <lb ed="#N" n="10"/>naturalibus etc. dicendum quod licet quantum est de virtute
+          sacra<lb ed="#N" n="11" break="no"/>menti equalis gratia confertur omnibus. et ipsa gratia quantum est de
+          <lb ed="#N" n="12"/>se equalis est efficacie. nihilominus potest dici quod gratia data
+          <lb ed="#N" n="13"/>in baptismo. ex perfectiori obedientia nature et melius
+          ordi<lb ed="#N" n="14" break="no"/>nata ad opera virtutum: habet maiorem efficaciam in vno quam in alio
+          <lb ed="#N" n="15"/>Sicut enim lux materialis eiusdem incensionis transfundens
+          <lb ed="#N" n="16"/>se per corpora magis et minus dyaphana siue transperentia.
+          ma<lb ed="#N" n="17" break="no"/>gis et minus lucet: sic lux spiritualis scilicet gratia magis et
+          mi<lb ed="#N" n="18" break="no"/>nus operatur secundum quod natura magis et minus obedit illi et
+          ha<lb ed="#N" n="19" break="no"/>bilior est ad opera virtutum. Intelligendum est cum his quod gratia
+          <lb ed="#N" n="20"/>mensuratur secundum libertatem dei dantis: non secundum equalitatem
+          su<lb ed="#N" n="21" break="no"/>scipientis: sed secundum quod preparat se suscipiens. quia ergo deus
+          opera<lb ed="#N" n="22" break="no"/>tur ibi secundum exigentiam sacramenti. et vlterius vnus non est
+          ma<lb ed="#N" n="23" break="no"/>gis dispositus quam alter: ideo equaliter omnibus paruulis dat
+          <lb ed="#N" n="24"/>quantum est de lege communi. quia tum potstas eius non est alligata
+          <lb ed="#N" n="25"/>sacramentis. non est necesse quod semper det equaliter: sed potest
+          fa<lb ed="#N" n="26" break="no"/>cere cui vult priuilegium spiectale.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e361">
+          ⁋ Ad illud quod obiicitur de
+          <lb ed="#N" n="27"/>causa diuersimode agente etc. dicendum quod hoc non habet hic
+          <lb ed="#N" n="28"/>locum: quia deus operatur in sacramento vt agenes voluntarium. vnde
+          <lb ed="#N" n="29"/>secundum libertatem beneplaciti eius cui vult dat plus: cui vult
+          <lb ed="#N" n="30"/>minus. quod patet exemplo sumpto a quibusdam mammas
+          ma<lb ed="#N" n="31" break="no"/>ternas sugentibus. in quibus apparuit gratia efficatior et habum
+          <lb ed="#N" n="32"/>dantior.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e377">
+          ⁋ Ad illa duo que sequuntur scilicet quod in paruulis vnus
+          <lb ed="#N" n="33"/>non nascitur magis peccator quam alius etc. et quod vnus non punitur
+          <lb ed="#N" n="34"/>magis alio etc. dicendum quod non valent hec argumenta: quia
+          iu<lb ed="#N" n="35" break="no"/>sticia non respicit meritum precise: sed misericordia respicit dantis
+          <lb ed="#N" n="36"/>benignitatem.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e388">
+          ⁋ Ad duo que sequuntur patet responsio ex
+          di<lb ed="#N" n="37" break="no"/>ctis. quia gratia secundum quod comparatur ad culpam est equalis efficacie
+          <lb ed="#N" n="38"/>vt dictum est. Similiter meritum christi siue virtus passionis equa
+          <lb ed="#N" n="39"/>liter et indifferenter se habet ad omnes.
+        </p>
+        <p xml:id="v78d89-a5aiv2-d1e397">
+          ⁋ Ad illud quod obii
+          <lb ed="#N" n="40"/>citur. quod bonitas nature est dispositio ad gratiam etc. dicendum
+          <lb ed="#N" n="41"/>quod non est dispositio vt necessitas: sed potius vt congruitas.
+          <lb ed="#N" n="42"/>nisi inquantum motu libro. arbtro. aptetur et habilitetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

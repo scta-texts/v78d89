@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 74, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 74, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="470"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adqdbv"><!-- q74m2 -->
+        <head xml:id="v78d89-adqdbv-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-adqdbv-Hd1e103" type="question-title">Utrum attritio praecedat contritionem</head>
+        <p xml:id="v78d89-adqdbv-d1e106">
+          <lb ed="#N" n="56"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e111">
+          <lb ed="#N" n="57"/>COnsequenter queritur. vtrum attritio precedat
+          con<lb ed="#N" n="58" break="no"/>tritionem. Quod sic: viditur. dicit enim greg. Alii per
+          <lb ed="#N" n="59"/>timorem plangunt. alii per amorem lamentis se
+          affi<lb ed="#N" n="60" break="no"/>ciunt. Sed cum ex amore lamentis quis se
+          affi<lb ed="#N" n="61" break="no"/>cit: contritio est. cuper timorem plangit: attritio est. Sed vt habetur
+          <lb ed="#N" n="62"/>ab augustinus in progressu ad iustificationem timor introducit amo
+          <lb ed="#N" n="63"/>rem sicut seta filu. similiter planctus timoris lamentum amoris: ergo
+          attri<lb ed="#N" n="64" break="no"/>tio introducit contritionem. ergo necessario precedit.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e131">
+          ⁋ Item contritio est
+          quasi<lb ed="#N" n="65" break="no"/>tritio inter duo scilicet amorem et timorem. borum duorum timor est quasi ter
+          <lb ed="#N" n="66"/>minus a quo: amor quasi terminus ad quem. Sed a quo est motus necessario perei.
+          <lb ed="#N" n="67"/>cedens terminum ad quem: sed tritio relata ad timorem est attrition
+          <lb ed="#N" n="68"/>ad amorem est contritio. ergo necessario attritio precedit contritionem.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e143">
+          ⁋ Item
+          <lb ed="#N" n="69"/>attritio dicit tritionem que debet ad contritionem trminari. ergo plus est quaqm
+          contri<lb ed="#N" n="70" break="no"/>tio. si enim motus ad motum frminatur: prius est illo ad quem terminatur.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e150">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>⁋ Contra. paulus fuit conuersus siue iustificatus subito sine
+          <lb ed="#N" n="72"/>aliqua precedente preparatione siue doloris. siue alterius. vt vi
+          <lb ed="#N" n="73"/>detur act. ix. Item greg. nescit tarda molimina spiritus sancti gratia.
+          <lb ed="#N" n="74"/>ergo gratia sanctispuns in reparatione alicus non requirit aliquid precedens
+          <lb ed="#N" n="75"/>quod disponat suum susceptibile.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e166">
+          ⁋ Item si in infusione gratie
+          re<lb ed="#N" n="76" break="no"/>quiritur attritio disponens ad gratie susceptionem et contritionem. hoc
+          <lb ed="#N" n="77"/>est propter distantiam libro. arbtro existentis in statu distandi a statu gratie.
+          <lb ed="#N" n="78"/>sed in opere creationis est maior distantia. vtpote inter nihil et
+          ali<lb ed="#N" n="79" break="no"/>quid. nec tamen requiritur aliquid medium: ergo vt videtur multo fortius
+          <lb ed="#N" n="80"/>nec in opere recreationis.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e179">
+          ⁋ Item opera dei fiunt ad declara
+          <lb ed="#N" n="81"/>tionem sue magnificentie: sed illa in quibus est vltima disposntio
+          <lb ed="#N" n="82"/>precedens: manifestius et magis illam declarant: et ita videtur quod
+          <lb ed="#N" n="83"/>opera mirabilia vtpote creationis et recreationis debet esse sine
+          <lb ed="#N" n="84"/>aliqua creatura disponente.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e190">
+          ⁋ Item quare non iustificat
+          <lb ed="#N" n="85"/>nos sine nobis: sicut creat nos sine nobis.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e195">
+          ⁋ Responsio.
+          di<lb ed="#N" n="86" break="no"/>cendum quod secundum legem communem qua diuina sapientia conuenie
+          <lb ed="#N" n="87"/>ter ordinat illa que operantur ad iustificationem. precedit
+          iu<lb ed="#N" n="88" break="no"/>stificationem preparatio ex parte nostra. que insinuatur zach.
+          <lb ed="#N" n="89"/>.i. cum dicitur. Conuertimini ad me et ego conuertar ad vos. hec
+          <lb ed="#N" n="90"/>autem preparatio debet esse secundum conuenientiam ad iustificatioem. quod
+          <lb ed="#N" n="91"/>tum ad aliquid quod est ex parte dei in iustificatione. et quaantu
+          <lb ed="#N" n="92"/>ad aliquid quod est ex parte nostra. Sicut enim in iustificatione
+          <lb ed="#N" n="93"/>requiritur ex parte iustificantis dei gratia gratisdata. similiter ex
+          par<lb ed="#N" n="94" break="no"/>te nostra dolor attritionis. vnde ad consummatam iustificatioem d
+          <lb ed="#N" n="95"/>fit solutio a culpa et a pena: requiritur triplex dolor scilicet
+          ante<lb ed="#N" n="96" break="no"/>cedens iustificationem. et coexistens et subsequens. primusee
+          do<lb ed="#N" n="97" break="no"/>lor attritionis. secundus est dolor contritionis. tercius est
+          do<lb ed="#N" n="98" break="no"/>lor contritionis satisfactorius. Et siem contritio quodammodo
+          <lb ed="#N" n="99"/>est ex motu libro arbto. que est ex instinctu fidei formate: sic
+          at<lb ed="#N" n="100" break="no"/>tritio ex motu li. arbtro. qui est ex instinctu fidei informis. vnde
+          <lb ed="#N" n="101"/>preparatio ad iustificationem debet esse secundum conuenientiam ad
+          <lb ed="#N" n="102"/>tria que requiruntur ad iustificationem. hec autemlex commuis
+          <lb ed="#N" n="103"/>non preiudicat priuilegio speciali. quo deus aliquando fortasse
+          <lb ed="#N" n="104"/>aliquem iustificat sine omni preparatione. vt videtur de paubo
+          <lb ed="#N" n="105"/>quod tamen non assero. Concedende ergo sunt rationes pro
+          <lb ed="#N" n="106"/>prima parte que sunt ad hoc. quod secundum legem communem tequi
+          <lb ed="#N" n="107"/>ritur attritio precedens contritionem.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e246">
+          ⁋ Ad illud quod obd
+          <lb ed="#N" n="108"/>citur contra hoc de paulo. supposito quod non precessitin eo atrri
+          <lb ed="#N" n="109"/>tio quod non constat mihi: sed potius videtur mihi
+          conua<lb ed="#N" n="110" break="no"/>rium. Dicendum quod iustificatio pauli quaetum ad hoc non erat
+          <lb ed="#N" n="111"/>secundum legem communem: sed potius fuit factum priuilegiatum
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e257">
+          <lb ed="#N" n="112"/>⁋ Ad illud quod obiicitur quod nescit tarda molimina etc.
+          di<lb ed="#N" n="113" break="no"/>cendum quod hoc nihil facit ad propositum. dicitur enim spiritus sancti gratia
+          <lb ed="#N" n="114"/>nescire tarditatem ratione infusionis subite et repentine
+          <lb ed="#N" n="115"/>operationis: cum non obstat impedimentum. subito enim
+          infun<lb ed="#N" n="116" break="no"/>ditur. nec successiue aliquando inducitur: et reparente operatur post
+          <lb ed="#N" n="117"/>infusionem.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e273">
+          ⁋ Ad illud quod obiicitur. quod propter distantiam
+          <lb ed="#N" n="118"/>li. arbto. etc. requiritur preparatio per attritionem etc. dicendum quod est
+          <lb ed="#N" n="119"/>distantia extra genus et hoc est inter ens et nonens. et
+          di<lb ed="#N" n="120" break="no"/>stantia in genere: et hoc est inter ea que conueniunt in esse:
+          <lb ed="#N" n="121"/>diftant tamen quamtum ad conformitatem in genere nature
+          <lb ed="#N" n="122"/>vel moris. vbi est primus modus distantie vt in opere
+          crea<lb ed="#N" n="123" break="no"/>tionis quia ibi non est medium aliquod: necessario
+          excludi<lb ed="#N" n="124" break="no"/>tur medium dispositionis. non est sic vbi est distantia in
+          <lb ed="#N" n="125"/>genere.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e293">
+          ⁋ Ad illud quod obiicitur de declaratione diuie
+          <lb ed="#N" n="126"/>magnificentie. dicendum quod diuina magnificentia attenditur
+          <lb ed="#N" n="127"/>in potestate qua omnia eondidit. et sapiontia qua omnia
+          <lb ed="#N" n="128"/>regit. et bonitats qua omnia ordinat scilicet ad finem. Unde
+          <lb ed="#N" n="129"/>liccet forte si iustificaret impium nulla precedente preparatione
+          <lb ed="#N" n="130"/>ex parte ipsius impii videnetur sua magnificentia quamtum
+          <lb ed="#N" n="131"/>ad eius potentiam magis declarari quem aliqua precedente
+          <lb ed="#N" n="132"/>non tamen declararetur intantum quamtum ad eius sapienti
+          <lb ed="#N" n="133"/>am et bonitatem. rectius enim regitur impius in via ad
+          iu<lb ed="#N" n="134" break="no"/>stificationem et melius ordinatur ad finem: si iustificatur
+          <lb ed="#N" n="135"/>precedente attritione quaqm non precedente. magis enim conueniret
+          <lb ed="#N" n="136"/>impio quod sicut prius recessit a domino per peccati delectatio
+          <lb ed="#N" n="137"/>nem. secundum quod dicitur ez ech. xxiii. denudauit fornicationes
+          su<lb ed="#N" n="138" break="no"/>as et discooperuit ignominiam suam et recessit anima
+          mea<lb ed="#N" n="139" break="no"/>ab ea. sic attritione preparet se ad accessum ad dominum
+          <lb ed="#N" n="140"/>quam quod in nullo preparet se. similiter esset vtilius quia
+          af<lb ed="#N" n="141" break="no"/>flictus attritione ante gratie infusionem facilius
+          penam<pb ed="#N" n="471"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>penitentie sustineret: et habilior fieret ad contritionem
+          satisfa<lb ed="#N" n="2" break="no"/>ctoriam. vnde modus iste magis diuinam declarat
+          magnifi<lb ed="#N" n="3" break="no"/>centiam quantum ad sapientiam et bonitatem quom alius.
+        </p>
+        <p xml:id="v78d89-adqdbv-d1e339">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="4"/>queritur. quare non iustificat nos sine nobis etc. dicendum quod
+          vna<lb ed="#N" n="5" break="no"/>ratio potest sumi ex parte lidbro. aro. cuius libertati preiudicaretur: si
+          ex<lb ed="#N" n="6" break="no"/>istenti in placentia peccati daretur gratia iustificans. de hoc tactum est
+          <lb ed="#N" n="7"/>supiraia. Alia ratio est ex parte diuine iusticie. cui congruit quod sicut
+          <lb ed="#N" n="8"/>peccator prius recessit a domino male relectando quom dominus ab
+          <lb ed="#N" n="9"/>eo gratiam non continuando: sic prius quodammodo conuertatur
+          <lb ed="#N" n="10"/>ad dominum dolendo quam deus ad eum gratiam conferendo. nec est
+          si<lb ed="#N" n="11" break="no"/>mile de creatione que est nulla preexistente gratia materia
+          <lb ed="#N" n="12"/>actionis: et que est a non esse in esse sine medio: vt tactum est
+          <lb ed="#N" n="13"/>de iustificatione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

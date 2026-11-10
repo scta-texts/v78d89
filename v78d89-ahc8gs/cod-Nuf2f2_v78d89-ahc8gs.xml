@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 99, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 99, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="626"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ahc8gs"><!-- q99m1 -->
+        <head xml:id="v78d89-ahc8gs-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-ahc8gs-d1e103">
+          <lb ed="#N" n="73"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e108">
+          <lb ed="#N" n="74"/>PRimo ergo queritur. a quibus abstinendum est diebus
+          <lb ed="#N" n="75"/>ieiunii. Et quod a fructibus videtur sic secundum Augustinus
+          <lb ed="#N" n="76"/>Ieiunium est institutum propter transgressionem
+          <lb ed="#N" n="77"/>primam. sed illa transgressio fuit propter commesti
+          <lb ed="#N" n="78"/>dmnem fructus arboris vetite. ergo ab illis est abstinendum vt
+          pu<lb ed="#N" n="79" break="no"/>niamur in quo peccauimus.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e124">
+          ⁋ Pre. oua sunt maxime nutti
+          <lb ed="#N" n="80"/>tiua et generatiua seminis. ergo nunquam debent sumi siue comedi
+          <lb ed="#N" n="81"/>tempore ieiunii alicuius.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e131">
+          ⁋ Pre. cui negatur quod minus est: et quod
+          ma<lb ed="#N" n="82" break="no"/>ius. quia qui non est dignus minoribus: nec maioribus. sed maior
+          <lb ed="#N" n="83"/>est delectatio et magis inordinata in concubitu etiam licito
+          <lb ed="#N" n="84"/>quam in esu carnium vel quam in duplici commestione. ergo ab illo estab
+          <lb ed="#N" n="85"/>stinendum tempore ieiunii.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e143">
+          ⁋ Pre. cum ieiunium sit institutum contra
+          <lb ed="#N" n="86"/>lasciuiam carnis: ab illis cibis est maxime abstinendum qui
+          prouo<lb ed="#N" n="87" break="no"/>cant ad libidinem. huiusmodi sunt legumina: quia eum sint ventosa
+          fa<lb ed="#N" n="88" break="no"/>ciunt extensionem siue inflammationem in membris genitalibus.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e152">
+          <lb ed="#N" n="89"/>⁋ Pre. plures leguntur fieri excessus per vinum quam per carnes.
+          <lb ed="#N" n="90"/>Gen. ix. Noe inebriatus est per vinum et visa sunt pudenda euus.
+          <lb ed="#N" n="91"/>Gen. xix. Loth inebriatus est et commisit incestum. De quo etiam
+          <lb ed="#N" n="92"/>dicit Augusins. cont. Faustum. Credo culpendus est Loth. non quantum
+          <lb ed="#N" n="93"/>meretur incestus: sed quantum meretur ebrietas. ergo tota culpa in
+          <lb ed="#N" n="94"/>vinum refunditur. propter quod videtur quod abstinendum sit a vino
+          ten<lb ed="#N" n="95" break="no"/>pore ieiunii.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e170">
+          ⁋ Pre. cum ieiunium institutum sit ad repressionem
+          <lb ed="#N" n="96"/>luxurie: que etiam repressio maxime fit ex abstinentia a vino. ergo etc.
+          <lb ed="#N" n="97"/>Quod autem reprimatur impetus luxurie ex abstinentia a vino:
+          <lb ed="#N" n="98"/>ex supradictis patet.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e179">
+          ⁋ Pre. lex noua perfectior est quam vetus. sed
+          <lb ed="#N" n="99"/>in veteri ieiunantes abstinebant ab omni opere seuili. ergo etc.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e184">
+          <lb ed="#N" n="100"/>⁋ Pret. dicit phous. quod inter escam minime sunt nutritiua
+          <lb ed="#N" n="101"/>ignis et aer: maxime autem aqua et terra. ergo animalia aerea minus
+          <lb ed="#N" n="102"/>nutriunt quom aquatica. ergo si illa prohibentur: vt volatilia. magis
+          <lb ed="#N" n="103"/>prohibendi sunt pisces et magis abstinendum est ab illis. Item
+          <lb ed="#N" n="104"/>ex hoc concludi potest. quod minus debent prohiberi volatilia tempore
+          ie<lb ed="#N" n="105" break="no"/>iunii quam pisces. et ita si pisces non prohibentur: nec illa .
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e200">
+          ⁋ Re
+          <lb ed="#N" n="106"/>sponsio. quod ieiunium necessarium est ad carnem domandam ne
+          seui<lb ed="#N" n="107" break="no"/>at ad illicita. ad personam affligendam contra delectationem habtam
+          <lb ed="#N" n="108"/>in peccatis. ad vicia resecanda et peccata tollenda. vt sit
+          recon<lb ed="#N" n="109" break="no"/>ciliatio et pax cum deo: qui peccatis et viciis infestabatur. vnde
+          <lb ed="#N" n="110"/>ab illis abstinendum est que ad carnis lasciuiam nimis prouo
+          <lb ed="#N" n="111"/>cant: que inordinate personam delectant: et que resecationem vicionem
+          <lb ed="#N" n="112"/>impediunt: et peccatorum causas fouent.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e219">
+          ⁋ Ad illud ergo quod
+          ob<lb ed="#N" n="113" break="no"/>ncitur. quod a fructibus est abstinendum: quia prima transgressio ex
+          vsu<lb ed="#N" n="114" break="no"/>fructus euenit. dicitur quod nec tunc nec nunc est simpliciter
+          <lb ed="#N" n="115"/>vsus fructus in vicio. sed inordinatus appetitus nunc: et
+          <lb ed="#N" n="116"/>vsus prohibitus tunc. Inordinatus autem appetitus melius
+          <lb ed="#N" n="117"/>et efficacius reprimitur per abstinentiam ab esu carnium quam
+          per<lb ed="#N" n="118" break="no"/>abstinentiam ab esu fructuum: quia inter nutritiua que sunt
+          <lb ed="#N" n="119"/>vltime compositionis vt sunt animalia maxime nutriunt
+          car<lb ed="#N" n="120" break="no"/>nes Ccommuniter dico propter caliditatem et humiditatem) et
+          faci<lb ed="#N" n="121" break="no"/>unt vigere fomitem. et incentiuum carnis prouocant. hec enim
+          <lb ed="#N" n="122"/>faciunt calidum et humidum. non similiter est de vsu fructuum. propter
+          <lb ed="#N" n="123"/>quod non est ita necessaria eorum abstinentia.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e245">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="124"/>obiicitur. quod oua sunt valde nutritiua. Potest dici quod in
+          ieiu<lb ed="#N" n="125" break="no"/>nio abstinendum est ab illis cibis ex quibus prouocatur
+          ho<lb ed="#N" n="126" break="no"/>mo ad carnis lasciuiam. et ideo a carnibus et que ordinam
+          <lb ed="#N" n="127"/>tur ad carnes: vt oua caseus et lac. Isti enim cibi sunt multi
+          <lb ed="#N" n="128"/>nutrimenti et replent corpora quibus vniuntur multis
+          hu<lb ed="#N" n="129" break="no"/>moribus et lasciuiam prouocant. propter quod tempore
+          qua<lb ed="#N" n="130" break="no"/>dragesimali et quatuor temporum et etiam vigiliarum in
+          ali<lb ed="#N" n="131" break="no"/>quibus partibus a cibis illis consuetudinaliter abstinetur.
+          <lb ed="#N" n="132"/>quandoque tamen propter necessitatem vsus ouorum et
+          lactici<lb ed="#N" n="133" break="no"/>niorum indulgetur. et maxime quando temporibus istis
+          tem<lb ed="#N" n="134" break="no"/>pus festiuum occurrit: in quo non sine ratione decernitur ab
+          <lb ed="#N" n="135"/>illis quorum interest propter festorum solennitatem ieiuni
+          <lb ed="#N" n="136"/>afflictionem debere mitigari. In aliquibus autem terris etiam
+          <lb ed="#N" n="137"/>in temporibus ieiuniorum predictis: propter necessitatem et
+          ie<lb ed="#N" n="138" break="no"/>iunantium infirmitatem vsus talium conceditur.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e280">
+          ⁋ Ad id quod
+          <lb ed="#N" n="139"/>obiicitur de leguminibus. Potest dici quod licet legumina eo quod
+          <pb ed="#N" n="627"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>sunt ventosa faciunt extensionem in membris genitalibus. tamen quia
+          <lb ed="#N" n="2"/>ventosa sunt non multum sunt incorporabilia. Aer enim non
+          faci<lb ed="#N" n="3" break="no"/>le immiscetur corporibus in quibus dominatur terra et aqua:
+          cuiusmodi<lb ed="#N" n="4" break="no"/>sunt legumina. et ideo licet faciant quandam extensionem membrorum:
+          <lb ed="#N" n="5"/>tamen ab eis non opertet abstineri: eo quod non defacili cum aere
+          admi<lb ed="#N" n="6" break="no"/>scentur. et sic non cibant multum. Pret. quia illis dominatur terra et aqua
+          <lb ed="#N" n="7"/>maxime sunt nature frigide. vnde sunt minime incentiua.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e304">
+          ⁋ Ad
+          <lb ed="#N" n="8"/>hoc quod obiicitur. quod maior est inordinatio in concubitu etc. potest
+          <lb ed="#N" n="9"/>dici quod hoc non oportuit propter periculum incontinentie et lapsus
+          graui<lb ed="#N" n="10" break="no"/>oris: cum etiam in concubitu tali sacramentum excusat.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e313">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="11"/>obiicitur de vino. potest dici quod ecclesia prudenter non instituit
+          absti<lb ed="#N" n="12" break="no"/>nentiam fieri debere a vino. propter infirmorum murmurationem
+          <lb ed="#N" n="13"/>et inobedientiam: et etiam necessitatem digestionis. multi enim habent
+          <lb ed="#N" n="14"/>debilem stomachum quibus necessarius est vsus vini propter
+          dige<lb ed="#N" n="15" break="no"/>stionem celebrandam. Pret. panis et vinum necessaria sunt vite
+          <lb ed="#N" n="16"/>secundum Ysido. libro. xx. ethymo.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e329">
+          ⁋ Ad illud quod obiicitur. quod in
+          lege<lb ed="#N" n="17" break="no"/>veteri abstinebant ab omni opere seruili etc. potest dici quod existentes
+          <lb ed="#N" n="18"/>in tempore gratie veritatem tenent et figuram dimiserunt. quia ergo illa
+          va<lb ed="#N" n="19" break="no"/>catio ab opere seruili figurabat vacationem ab opere peccati: quod
+          <lb ed="#N" n="20"/>reddit operatores seruos eius. iuxta illud Io. viii. Qui facit
+          <lb ed="#N" n="21"/>peccatum seruus est peccati. modo in tempore ieiunii cessandum est a pec
+          <lb ed="#N" n="22"/>catis mortalibus ad hoc quod ieiunium sit efficax.
+        </p>
+        <p xml:id="v78d89-ahc8gs-d1e346">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="23"/>obiicitur. quod animalia aerea minus nutriunt quam aquatica. Potest dici.
+          <lb ed="#N" n="24"/>quod natura est sustentanda et vicia resecanda. vnde in statutis
+          <lb ed="#N" n="25"/>communibus condescendendum est infirmitatibus: et voluptatibus
+          <lb ed="#N" n="26"/>resistendum. quia etiam carnes aeree vtpote volatilia: delicias
+          <lb ed="#N" n="27"/>carnales gignunt et fouent. non autem intantum pisces. cum
+          pisci<lb ed="#N" n="28" break="no"/>bus autem est vinum necessarium propter stomachi debilitatem: ideo non
+          <lb ed="#N" n="29"/>omnia sunt subtrahenda tempore ieiunii: nec omnia concedenda.
+          car<lb ed="#N" n="30" break="no"/>nes autem auferuntur vt luxuria siue lasciuia carnis resecetur.
+          <lb ed="#N" n="31"/>vinum et pisces conceduntur ad nature sustentationem. vnde Ysi. lib.
+          <lb ed="#N" n="32"/>de officio ca. xliiii. loquens de vsu carnium et vini ait.
+          Car<lb ed="#N" n="33" break="no"/>nes et vinum post diluuium in vsum hominibus est concessum. namn
+          <lb ed="#N" n="34"/>in initio concessum non fuerat: nisi tantum illud vt scriptum est:
+          li<lb ed="#N" n="35" break="no"/>gnum fructiferum et herbam seminalem dedi vobis in escam.
+          <lb ed="#N" n="36"/>Postea vero Noe data sunt in esum cuncta animalia vnicuique
+          <lb ed="#N" n="37"/>tunc attributa licentia est. Sed postquam christus qui est principium et
+          <lb ed="#N" n="38"/>finis apparuit: hoc quod in principio suspenderat etiam in
+          tempo<lb ed="#N" n="39" break="no"/>rum fine retraxit. loquens per apostolum suum. Bonum est non
+          mandu<lb ed="#N" n="40" break="no"/>care carnes et non bibere vinum. et iterum. qui infirmus est olus
+          <lb ed="#N" n="41"/>manducet. Non igitur quia carnes male sunt prohibentur: sed quia
+          <lb ed="#N" n="42"/>epule earum carnis luxuriam gignunt et faciunt nutrimenta omnium
+          <lb ed="#N" n="43"/>viciorum. esca venter: et venter escis. deus autem hunc et hanc
+          de<lb ed="#N" n="44" break="no"/>struet. piscem sane: quia eum post resurrectionem accepit dominus
+          <lb ed="#N" n="45"/>possumus manducare. hoc enim nec saluator nec apostoli
+          pro<lb ed="#N" n="46" break="no"/>hibuerunt. hec Ysido.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

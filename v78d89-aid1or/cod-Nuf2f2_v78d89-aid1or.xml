@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 108, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 108, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="675"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aid1or"><!-- q108m1 -->
+        <head xml:id="v78d89-aid1or-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-aid1or-Hd1e103" type="question-title">Utrum necesse est talibus laborare labore manvali sive sit praeceptum</head>
+        <p xml:id="v78d89-aid1or-d1e106">
+          <lb ed="#N" n="80"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-aid1or-d1e111">
+          <lb ed="#N" n="81"/>QUeritur ergo primo. vtrum laborare labore
+          manua<lb ed="#N" n="82" break="no"/>li pro necessariis victui sit necessarium siue
+          prece<lb ed="#N" n="83" break="no"/>ptum pauperibus voluntariis. quod sic: vidtur. ii. thes.
+          <lb ed="#N" n="84"/>vlt. Cum essemus apud vos denumciabamus
+          vo<lb ed="#N" n="85" break="no"/>bis quoniam si quis non vult operari non manducet. Et quia posset
+          ali<lb ed="#N" n="86" break="no"/>quis dicere hoc esse intelligendum de opere spirituali et non corporali. Ideo
+          <lb ed="#N" n="87"/>huic occurens glo. dicit. vult seruos di corporaliter operari vnde
+          vi<lb ed="#N" n="88" break="no"/>uant: vt non compellantur egestate necessaria petere. In quo etiam
+          <lb ed="#N" n="89"/>sermone videtur reprobare statum qui ponit necessitatem
+          petendi<lb ed="#N" n="90" break="no"/>necessaria propter egestatem. Et quod apostlus intelligat de opere
+          <lb ed="#N" n="91"/>corporali probat augustinus tam per sermones apostoli quam per ipsius christi in lib.
+          <lb ed="#N" n="92"/>de opere monachorum. hoc etiam manifestat et confirmat sermo
+          <lb ed="#N" n="93"/>apostoli actuum. xx. vbi ait. Ad ea que opst mihi erant ministrauerunt
+          <lb ed="#N" n="94"/>manus iste. vnde et genus artis qua laborabat et victum acquire
+          <lb ed="#N" n="95"/>bat commemoratur actuum scilicet cenofactorie. Amplius in poslolibus
+          lo<lb ed="#N" n="96" break="no"/>cis epostolarum hoc precipitur. vt in eodem capitulo quo supra.
+          Denuncia<lb ed="#N" n="97" break="no"/>mus inquit et obsecramus vt cum silentio operantes suum panem
+          <lb ed="#N" n="98"/>manducent. Nam ad huius laboris assumptionem dedit seipsum
+          <lb ed="#N" n="99"/>formam ad imitandum. sicut dicitur in eodem. vnde. i. thes. iiii. ait.
+          Ro<lb ed="#N" n="100" break="no"/>gamus frates vt operemini manibus vratris. sicut precipimus vobis. et
+          nul<lb ed="#N" n="101" break="no"/>lius aliquid desideretis nedum rogetis vel tollatis aliquod. Et
+          <lb ed="#N" n="102"/>causa dicitur in glo. thes. vlti. ibi. vt nosmeipsos daremus formam
+          <lb ed="#N" n="103"/>Qui frequenter ad alienam mensam ocio deditus conuenit:
+          adu<lb ed="#N" n="104" break="no"/>letur necesse est pascenti.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e166">
+          ⁋ Pre. ephe. iiii. Qui furabatur iam non
+          <lb ed="#N" n="105"/>furetur. magis autem laboret manibus quod bonum est. vt habeat
+          <lb ed="#N" n="106"/>vnde tribuat necessitatem patienti. Si enim vult seruos christi labo
+          <lb ed="#N" n="107"/>rare vt tribuant. videtur quod reprehendere vult non laborantes qui
+          <lb ed="#N" n="108"/>sine labore accipiunt. Amplius numquid non ocium est vituperabile.
+          <lb ed="#N" n="109"/>quis excusare igitur se potest a labore.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e180">
+          ⁋ Pre. si opust corporale es
+          <lb ed="#N" n="110"/>set in dispendium spiritualis: aliqua excusatio videretur a
+          labo<lb ed="#N" n="111" break="no"/>re. nunc autem lectio et oratio. exhortatio. consolatio. correptio.
+          <lb ed="#N" n="112"/>hec inquam omnia opera secundum augustinus aut simul cum labore fieri posunt.
+          <lb ed="#N" n="113"/>aut vicissim: sicut legimus de paulo. euangelizabat et
+          labo<lb ed="#N" n="114" break="no"/>rabat.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e193">
+          ⁋ Pre. secundum augustin. si a predictis operibus spiritualibus est
+          vacan<lb ed="#N" n="115" break="no"/>dum. aliquando necessitate nature vt tempore quietationis. dormitatio
+          <lb ed="#N" n="116"/>nis. potest similiter quis ceteris interuallis ab his vacare intuitu
+          <lb ed="#N" n="117"/>apostolice preceptionis.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e202">
+          ⁋ Ceterum secundum augustinus Esto quod aliquis aliqua
+          <lb ed="#N" n="118"/>spirituali occupatione detentus esset quo minus laborare posset. nun
+          <lb ed="#N" n="119"/>quid omnium qui fuerunt in religione est hoc facere. constat quod non. vnde quic
+          <lb ed="#N" n="120"/>quid sit de priori aliis laborandum videtur. status igitur qui omnes
+          <lb ed="#N" n="121"/>sine labore saluare nititur: videtur erroneus.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e213">
+          ⁋ Pre. nunquid non
+          <lb ed="#N" n="122"/>perfectior vita est que simul mundo renunciat et laborat quam que
+          tantum<lb ed="#N" n="123" break="no"/>modo renunciat et non laborat. constat autem quod sic. perfectio autem
+          de<lb ed="#N" n="124" break="no"/>betur perfecto quare circa perfectionem est non laborare. De perfecta
+          <lb ed="#N" n="125"/>igitur vita glorians et speciem perfectionis preostendens et non laborans: pec
+          <lb ed="#N" n="126"/>care videtur. quia preceptum perfectionis et si non obligat incipientem
+          <lb ed="#N" n="127"/>vel minus perfectum: perfectum tamen constringere videtur. status igitur talium
+          <lb ed="#N" n="128"/>videtur vituperandus.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e231">
+          ⁋ Pre. dicit apostolus. i. thes. ii. Memores
+          <lb ed="#N" n="129"/>estote laboris nostri et fatigationis nocte et die operantes ne
+          <lb ed="#N" n="130"/>quemquam vretum grauaremus. predicauimus vobis euangelium dei.
+          ec<lb ed="#N" n="131" break="no"/>ce ne quem grauaret laborauit. igitur adminus ne grauetur
+          <lb ed="#N" n="132"/>mundus multitudine pauperum religiosorum laborare debent. mum
+          <lb ed="#N" n="133"/>dum non grauari in tanta multitudine in quanta nunc est: non est
+          veri<lb ed="#N" n="134" break="no"/>simile. quare adminus cum tantus sit talium numerus laborare debent.
+          <lb ed="#N" n="135"/>Exemplum habemus de hoc in pratribus quorum officium fuit in maga parte
+          la<lb ed="#N" n="136" break="no"/>borare. vnde augustinus. de moribus ecclesie. officia ad monachos
+          per<lb ed="#N" n="137" break="no"/>tinentia describens. inter cetera ponit laborem manuum. Cum igitur
+          <lb ed="#N" n="138"/>nomine monachorum omnes religiosi videntur contineri: omnium
+          religio<pb ed="#N" n="676"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>sorum officium esse videtur laborare. Qui autem non complent officium sibi
+          <lb ed="#N" n="2"/>debitum peccare videntur.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e262">
+          ⁋ Pre. dicit Beda super illud luce. xii
+          <lb ed="#N" n="3"/>Uendite que possidetis et date elemosinam. non tantum cibos vratros
+          <lb ed="#N" n="4"/>communicate: sed et vendite possessiones vrtras. vt omnibus vratris sil pro
+          do<lb ed="#N" n="5" break="no"/>mino spretis: postea labore manuum operemini vnde viuatis vel
+          <lb ed="#N" n="6"/>elemosinam faciatis. Ecce hic videtur persuadere laborem vel
+          opera<lb ed="#N" n="7" break="no"/>tionem qua victus acquiratur. Pre. qui peccat tenetur penam inflictam
+          <lb ed="#N" n="8"/>subire ex necessitate precepti. sed omnes in adam peccauerunt Ro.
+          <lb ed="#N" n="9"/>iii. cuius peccati pena est labor manualis. Gen. iii. In sudo
+          <lb ed="#N" n="10"/>re vultus tui vesceris pane tuo. vnde bern. super illud.
+          Ecce<lb ed="#N" n="11" break="no"/>nos relinquimus omnia. minime expedit vt in sapientia huius
+          seculi<lb ed="#N" n="12" break="no"/>non reuereamur frustrari iudicium. et deludere vniuersalem
+          sen<lb ed="#N" n="13" break="no"/>tentiam. declinando videlicet laborem hominum et sudorem: ac si
+          nul<lb ed="#N" n="14" break="no"/>lo modo nos contingere videatur quod ade dictum est. aut non in eo labo
+          <lb ed="#N" n="15"/>ris sententiam exceperimus in qua exceptione peccauimus omnes. aut non
+          <lb ed="#N" n="16"/>communis culpe debeat esse pena communis: ergo idem vt prius.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e296">
+          ⁋ Pre. labor
+          <lb ed="#N" n="17"/>manualis est necessarius ad sustentationem vite corporalis. sicut
+          <lb ed="#N" n="18"/>actus virtutum vite spiritualis. sed actus virtutum sunt precepto: ergo et
+          <lb ed="#N" n="19"/>labor corporalis.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e305">
+          ⁋ Pre. illud ad quod sequitur mortale non potest
+          <lb ed="#N" n="20"/>fieri sine mortali: sed ad non laborare manibus: sequeretur non
+          <lb ed="#N" n="21"/>manducare. i. thes. iii. Qui non vult operari non manducet quod
+          <lb ed="#N" n="22"/>est mortalem: ergo et non laborare.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e314">
+          ⁋ Contra. preceptum non est
+          contrari<lb ed="#N" n="23" break="no"/>um precepto neque consilio: sed dominus precipiendo vel consulendo dicit.
+          <lb ed="#N" n="24"/>Nolite solliciti esse anime vratre etc. math. vi. hoc autem contrariatur
+          labo<lb ed="#N" n="25" break="no"/>ri manuum: ergo non est in precepto.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e323">
+          ⁋ Pre. fex vetus quantum ad precepta
+          <lb ed="#N" n="26"/>moralia sufficienter continet omnia necessaria ad salutem. Unde
+          <lb ed="#N" n="27"/>math. xix. Si vis ad vitam ingredi serua mandata. sced in illis
+          <lb ed="#N" n="28"/>non continetur labor manualis: ergo etc.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e332">
+          ⁋ Pre. ad precepta omnes
+          te<lb ed="#N" n="29" break="no"/>nentur: sed ad laborem manualem non omnes tenentur. alioquin diuites
+          <lb ed="#N" n="30"/>qui non laborant propriis manibus peccarent mortaliter.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e339">
+          ⁋ Pre. ad
+          prem<lb ed="#N" n="31" break="no"/>cepta non magis tenentur religiosi quam seculares. sed ad
+          labo<lb ed="#N" n="32" break="no"/>randum magis videntur teneri religiosi quam seculares. cum augustinus
+          <lb ed="#N" n="33"/>reprehendit monachos qui manibus non laborant. non autem alios:
+          <lb ed="#N" n="34"/>ergo etc.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e351">
+          ⁋ Pre. vsus liberalium artium nobilior est quam mechanico
+          <lb ed="#N" n="35"/>rum qui in labore consistit manuali: sed vsus illarum non est
+          necessa<lb ed="#N" n="36" break="no"/>rius vite nec in precepto: ergo nec istarum.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e358">
+          ⁋ Pre. hocipisum videtur.
+          <lb ed="#N" n="37"/>scilicet quod non est necesse laborare. et quod nullus ad hoc obligatur per apostolum.
+          <lb ed="#N" n="38"/>et quod omitti et fieri potest nisi in casu. quod ostenditur sic. accipere
+          vi<lb ed="#N" n="39" break="no"/>ctui necessaria siue elemosinas vnde quis viuere debeat. siue non
+          <lb ed="#N" n="40"/>accipere: non est per se et semper tenendum: sed vtrumque ex causa et circumstantia
+          <lb ed="#N" n="41"/>recipit commendationem et vituperium. et hoc maifestum est per apostolum. qui
+          <lb ed="#N" n="42"/>legitur aliquando accepisse aliquando non. vnde aut sibi est contrarius aut
+          <lb ed="#N" n="43"/>vtrumque secundum se indifferens est. Quod autem acceperit patet. ii. Corum. xi.
+          <lb ed="#N" n="44"/>Alias ecclesias expoliaui accipiens stipendium ad ministerium
+          ve<lb ed="#N" n="45" break="no"/>strum. Unde ambro. in glo. ibidem dicit. quod in hoc multa accepta
+          <lb ed="#N" n="46"/>et data significat.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e382">
+          ⁋ Preterea. phil. vlt. nulla ecclesia communicauit
+          <lb ed="#N" n="47"/>mihi in ratione dati et accepti. nisi vos soli quia et
+          thessaloni<lb ed="#N" n="48" break="no"/>causa semel et bis in vsum mihi misistis. et infra. repletus sum
+          ac<lb ed="#N" n="49" break="no"/>ceptis id est mumeribus secundum glo. ab epafrodito que misistis in
+          odo<lb ed="#N" n="50" break="no"/>rem suauitatis.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e393">
+          ⁋ Pre. ii. thimo. i. det dominus misericordiam onesi
+          <lb ed="#N" n="51"/>phori domui. quia sepe me refrigerauit secundum glo. necessaria
+          mi<lb ed="#N" n="52" break="no"/>nistrando. et infra. et quanta ephesi mihi ministrauit tu
+          meli<lb ed="#N" n="53" break="no"/>us nosti. non etiam nihilominus patet ex ceteris apostolis qui non laboraue
+          <lb ed="#N" n="54"/>runt manuali operatione sicut paulus: ab eis quibus perdicauerunt
+          fti<lb ed="#N" n="55" break="no"/>pendia acceperunt. sicut habetur. i. corum. ix. vnde quod ipse paulus
+          potu<lb ed="#N" n="56" break="no"/>it accepisse et non laborasse ostendit in eodem exemplis multis et
+          <lb ed="#N" n="57"/>rationibus. Et cum hoc sit manifestum: videndum consequenter est ex qua ratione non
+          <lb ed="#N" n="58"/>accepit cum accipore potuit ex iure euangelico quo ministris eius
+          <lb ed="#N" n="59"/>stipendia debentur a fidelibus. sicut patet in glo. i. corum. ix. Et propter
+          <lb ed="#N" n="60"/>hoc dicit augustinus de opere monachorum. quod ipse dominus voluit quod
+          mu<lb ed="#N" n="61" break="no"/>lieres se ad preparanda et ministranda necessaria sequerentur. ostendens
+          <lb ed="#N" n="62"/>quod euangelizantis et ministris tamquam militibus a plebibus dei tamquam
+          <lb ed="#N" n="63"/>a prouiniialibus deberetur. dignus est enim operarius mercede sua vt
+          ha<lb ed="#N" n="64" break="no"/>betur luce. x. Uerum sicut apparet in euangelio prout die augustinus in
+          eo<lb ed="#N" n="65" break="no"/>dem libro. cum accipere fuit licitum. non tamen iussum sed permissum. vt
+          quis<lb ed="#N" n="66" break="no"/>quis vt vellet eo vteretur quod liceret sibi ex domini constitutione. sed si quis
+          <lb ed="#N" n="67"/>vti nollet. non contra iussum faceret: sed de suo iure misericordius
+          <lb ed="#N" n="68"/>decedent. Unde manifestum est. quod accipere fuit iuris non accipere
+          su<lb ed="#N" n="69" break="no"/>pererogationis. sicut habetur ab augustinus in eo. libro. Et greg. xxvi.
+          mo<lb ed="#N" n="70" break="no"/>ralis. Paulus etiam spiritualia precepta transcendens: plus opere
+          exhi<lb ed="#N" n="71" break="no"/>buit quam institutione permissionis acceperit. Cum enim accepisset vt
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>euangelium predicans de euangelio viuernt: et euangelium audientibus
+          <lb ed="#N" n="73"/>contulit: et tamen euangelii sumptibus sustentari recusauit. sic ergo
+          <lb ed="#N" n="74"/>accipere potuit. Accepit autem aliquando ex duabus causis. aut propter
+          <lb ed="#N" n="75"/>sue inopie suppletionem. aut propter largientium fructificationem
+          <lb ed="#N" n="76"/>de primo dictit augustinus de opere monachorum. quod ipse deuenerat ad
+          <lb ed="#N" n="77"/>tantam indigentiam vt de longinquis ecclesiis mitterentur ei
+          necessa<lb ed="#N" n="78" break="no"/>ria. dum tamen ab eis apud quos erat nihil tale acceperat. De
+          secun<lb ed="#N" n="79" break="no"/>do dicit glo. ambro. ii. corm. xi. Accipiens stipendium multa
+          <lb ed="#N" n="80"/>accepta significari. nam a bene correctis fuit accipiendum. ne
+          <lb ed="#N" n="81"/>bene seminantes amitterent fructum. Nam sicut dictum est. dare est
+          <lb ed="#N" n="82"/>vtilius danti quam accipienti. sic ergo accepit.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e467">
+          ⁋ Et sunt plores
+          cau<lb ed="#N" n="83" break="no"/>se quare non accepit videlicet duodecin. Quarum prima est pseudo
+          re<lb ed="#N" n="84" break="no"/>pulsionem. ne et ipsisic acciperent. Sciebat enim quod sinon
+          accipe<lb ed="#N" n="85" break="no"/>rent: non diu predicarent. et hanc causam dicit expresse. i. Corum. xi.
+          <lb ed="#N" n="86"/>Quod autem facio et faciam. non quia non diligo vos: sed vt
+          ampu<lb ed="#N" n="87" break="no"/>tem occasionem eorum. sicut pseudo qui occasionem querunt vt etiam in quo
+          <lb ed="#N" n="88"/>gloriantur inueniantur. sicut et nos. Sciebat enim quod si non accipe
+          <lb ed="#N" n="89"/>rent non diu predicarent. secundum quod dicit glo. Alia fuit propter
+          graua<lb ed="#N" n="90" break="no"/>minis priuationem. erant enim in ecclesia pauperes multi qui citius
+          gra<lb ed="#N" n="91" break="no"/>uarentur ex largitione. et ideo non accepit. et hanc causam dicit ipse
+          <lb ed="#N" n="92"/>manifeste. ii. thes. iii. neque gratis manducauimus panem ab
+          ali<lb ed="#N" n="93" break="no"/>quo: sed die ac nocte laborantes: ne quem vratum grauaremus. hoc est
+          <lb ed="#N" n="94"/>quod dicitur. ii. corum. xi. hoc fecisse ne esset eis onerosus. Tercia
+          <lb ed="#N" n="95"/>causa fuit propter iniuste vendicantium ius accipiendi cohertionem.
+          <lb ed="#N" n="96"/>sicut dicit augustinus de opere monachorum. quod si debebatur inquit accipere
+          <lb ed="#N" n="97"/>noluit. vt exemplo eius cohercerentur. qui sibi talia non ita ordina
+          <lb ed="#N" n="98"/>ti in ecclesia deberi arbitrabantur. Quarta causa fuit ob occasio
+          <lb ed="#N" n="99"/>nis auaricie ablationem. Siquidem si omni tempore accepisset sua ac
+          <lb ed="#N" n="100"/>ceptio quodammodo in occasionem auaricie fuisset. habuissent enim
+          <lb ed="#N" n="101"/>firmiorem occasionem. per hoc illa temporalia petendi et retinendi: et
+          ita<lb ed="#N" n="102" break="no"/>per occasionem incidissent in auariciam. vnde et hanc rationem
+          insinu<lb ed="#N" n="103" break="no"/>at cum dicit. i. thes. ii. Neque enim fuimus aliquando in occasione
+          auari<lb ed="#N" n="104" break="no"/>cie deus testis est. et. ina. cum possemus vobis oneri esse vt apostoli christi.
+          <lb ed="#N" n="105"/>ad comprehendendum eos secundum glo. quibus nec facultas nec
+          pu<lb ed="#N" n="106" break="no"/>dor poscendi. Quinta causa fuit propter odii euacuationem. Nam sicut
+          <lb ed="#N" n="107"/>habietur ab ambro. super illud. i. corm. ix. ibi. non sumus vsi hac
+          <lb ed="#N" n="108"/>potstate. illi inquit a quibus accipere potuit auari erant. et ideo apostolum
+          <lb ed="#N" n="109"/>odirent. si quicquam ab eis acciperet: et propterea non accepit.
+          Se<lb ed="#N" n="110" break="no"/>xta causa fuit propter scandali deuitationem. secundum quod dicit ambro.
+          <lb ed="#N" n="111"/>super illud. i. corum. ix. Non sum liber ipse inquit apostolica
+          dignita<lb ed="#N" n="112" break="no"/>te. potstatem habens non operari manibus. sed de euangelio viuere. ne quem
+          <lb ed="#N" n="113"/>tamen accipiendo scandalizaret non accepit. secundum quod dicit superius
+          si<lb ed="#N" n="114" break="no"/>esca scandalizaret fratriem meum non manducabo carnes
+          ineter<lb ed="#N" n="115" break="no"/>num: ne fratrem meum scandalizem. Septima causa fuit propter
+          licen<lb ed="#N" n="116" break="no"/>tie peccandi ampliationem. secundum quod dicit ambro. i. corum. ix. non
+          <lb ed="#N" n="117"/>sumus vsi hac potestate. ne quod offendiculum demus euangelio
+          <lb ed="#N" n="118"/>christi. hoc inquit ideo dicit. quia si acciperet ab eis: putarent se
+          emis<lb ed="#N" n="119" break="no"/>se licentiam peccandi. Octaua fuit causa propter opiniouis preue
+          <lb ed="#N" n="120"/>deeuangelio infirmationem. secundum quod dicit augustinus. super illud. i.
+          co<lb ed="#N" n="121" break="no"/>rinth. ix. Que est merces mea vt euangelium predicans sine
+          sun<lb ed="#N" n="122" break="no"/>ptu ponam euangelium. Glo. importune exigendo vel indiscrete
+          <lb ed="#N" n="123"/>accipiendo. forte hoc contingeret quod putarent sibi
+          euangelizari<lb ed="#N" n="124" break="no"/>vt euangelium venderetur. Nona causa fuit propter subditorum a
+          desi<lb ed="#N" n="125" break="no"/>dia et ocio reuocationem. ideo enim non accepit sed laborauit et
+          se<lb ed="#N" n="126" break="no"/>ipsum posuit in exemplum. vt per hoc excitarentur ad sui imitationem et
+          <lb ed="#N" n="127"/>ocii dimissionem. Magis enim persuadent opera quam verba. et hanc
+          <lb ed="#N" n="128"/>causam exprimit. ii. thes. vltm. non quasi non habuerimus potstatem supple ac
+          <lb ed="#N" n="129"/>cipiendi: sed ideo supple non accipimus vt nosmetipsos daremus
+          <lb ed="#N" n="130"/>formam vobis ad imitandum. Nos audiuimus enim inter vos quo
+          <lb ed="#N" n="131"/>dam ambulare quiete nihil operantes sed curiose agentes etc.
+          <lb ed="#N" n="132"/>Decima causa fuit propter infirmorum compassionem.
+          <lb ed="#N" n="133"/>secundum quod dicit ambro. i. corm. ix. ibi. Que est merces mea.
+          si<lb ed="#N" n="134" break="no"/>acciperet non adeo infirmis vel humane infirmitati
+          compa<lb ed="#N" n="135" break="no"/>teretur. hoc autem non conueniebat ei qui factus est
+          infir<lb ed="#N" n="136" break="no"/>mus infirmis. Undecima causa fuit propter libertatis
+          <lb ed="#N" n="137"/>arguendi diminutionem. secundum quod dicit glo. ambro. ibi.
+          Si<lb ed="#N" n="138" break="no"/>acciperet: tunc non adeo libere argueret. vigor enim
+          euange<lb ed="#N" n="139" break="no"/>lice auctoritatis et arguendi libertas torpesceret. Duode
+          <lb ed="#N" n="140"/>cima causa fuit propter largitionis defectionem. non enim
+          ali<lb ed="#N" n="141" break="no"/>quando acceperunt: sed propriis manibus victum acquisierunt. quia alii
+          <pb ed="#N" n="677"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>eis non dederunt. secundum quod dicit ambro. super illud. i. corum. iiii.
+          La<lb ed="#N" n="2" break="no"/>boramus operantes manibus nostris. Glo. laboramus manibus
+          no<lb ed="#N" n="3" break="no"/>stris scilicet necessaria nobis operantes. quia nemo dat nobis.
+          He<lb ed="#N" n="4" break="no"/>sunt cause quare apostolus iuere euangelico potuit accipee et non
+          acce<lb ed="#N" n="5" break="no"/>pit. et iste eedem casae sunt quare laborauit. ex eisdem enim laborauit
+          <lb ed="#N" n="6"/>ex quibus non accepit. ex his patet quod nec accipere nec non accipere sit de
+          <lb ed="#N" n="7"/>perse semper tenendum. nihiloninus exemplo pau. qui accipere potuit. et quando
+          <lb ed="#N" n="8"/>que non accepit et ex quibus laborauit: manifestum est quod nullus
+          astri<lb ed="#N" n="9" break="no"/>ctus est ad laborandum seu ad non recipiendum: nisi in certis casibus.
+          <lb ed="#N" n="10"/>et hoc ex causa et ratione. opera enim supererogationis arbitraria sunt. non
+          <lb ed="#N" n="11"/>preceptoria neque obligatoria. non in preceptione sed in electione
+          nisi<lb ed="#N" n="12" break="no"/>ex circumstantia. vnde et coapstoli eius non peccabant qui non laborabant
+          <lb ed="#N" n="13"/>secundum quod dicit augustinus. de opere monachorum. Unde apostolus paulus
+          super<lb ed="#N" n="14" break="no"/>erogare voluit cuius rationem dicit ibidem augustinus. quia ipse sciebat
+          cur<lb ed="#N" n="15" break="no"/>in eccleis gentium non oporteret euangelium esse venale. non culpans
+          <lb ed="#N" n="16"/>coaplos suos: sed distiguens ministerium suum. quia spiritusancto
+          con<lb ed="#N" n="17" break="no"/>monente paraulus et barnabas in gentes et illi in circumcisionem
+          mis<lb ed="#N" n="18" break="no"/>si sunt.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e641">
+          ⁋ Respondendum est ergo ad questionem prepositam. quod non est
+          neces<lb ed="#N" n="19" break="no"/>se pauperibus euangelicis. neque preceptum laborare labore
+          ma<lb ed="#N" n="20" break="no"/>nuali. Ad cuius euidentiam notandum. quod iudicium de vnaquaque
+          re<lb ed="#N" n="21" break="no"/>sumendum est secundum finem ad quem est siue ordinatur. Labor autem
+          ma<lb ed="#N" n="22" break="no"/>nuum ad tria videtur esse vtilis et in merito ordinatur. primo ad
+          <lb ed="#N" n="23"/>ocium vitandum. secundo ad corpus domandum. tercio ad victum
+          queren<lb ed="#N" n="24" break="no"/>dum. Propter primum dicit hiero. ad rusticum monachum. semper
+          ali<lb ed="#N" n="25" break="no"/>quod operis facito ne te dyabolus ociosum inueniat. et quod de opere
+          <lb ed="#N" n="26"/>manuali intelligat. patet per illud quod subiungit: vel fiscellam texe
+          <lb ed="#N" n="27"/>iunco. Et post. In desideriis est omnis ociosus. Propter secundum
+          <lb ed="#N" n="28"/>dicitur. ii. corum. vi. In laboribus. in ieiuniis. in vigiliis. Glo. in
+          la<lb ed="#N" n="29" break="no"/>boribus operum. quia manibus suis operabatur. Quod autem laborabat
+          pro<lb ed="#N" n="30" break="no"/>pter carnem domandam. per hoc patet quod dicitur in ieiuniis. vigiliis. in
+          casti<lb ed="#N" n="31" break="no"/>tate. Propter tercium. actuum. xx. dicitur. Ad ea que mihi opost erant
+          <lb ed="#N" n="32"/>et his qui mecum fuerunt ministrauerunt manus iste. Si ergo conside
+          <lb ed="#N" n="33"/>retur labor manuum secundum quod ordinatur ad tollendum ocium vel ao corti
+          <lb ed="#N" n="34"/>postdomandum. idem est iudicium de labore manuum et de aliis
+          exer<lb ed="#N" n="35" break="no"/>citiis ad hoc ordinatis. Sicut enim non est sub precepto quod ocium precise
+          <lb ed="#N" n="36"/>tollatur tali vel tali occupatione: sed sufficit quod qualicumque licita
+          <lb ed="#N" n="37"/>occupatione ab ocio quis desistat: similiter corpus potest domari
+          ieiu<lb ed="#N" n="38" break="no"/>niis. vigiliis et orationibus. et sic occupatio laboris manuum non
+          <lb ed="#N" n="39"/>est in precepto considerato hoc fine. et similis est ratio de labore
+          manuum<lb ed="#N" n="40" break="no"/>secundum quod ordinatur ad finem scilicet quod est ad domandum carnem. Nullum ergo
+          <lb ed="#N" n="41"/>horum inquantum ordinatur ad hunc vel illum finem. est in pecepto in
+          spe<lb ed="#N" n="42" break="no"/>ciali. quamuis in generali sit in precepto domare corpus
+          qualicun<lb ed="#N" n="43" break="no"/>que exercitio: vt mortifere concupiscentie refrenantur. Secundum autem quod
+          <lb ed="#N" n="44"/>ordinatur ad victum queredum. secundum illud. i. thes. iiii. operamini
+          <lb ed="#N" n="45"/>manibus vratris sicut precepimus vobis. nec solum est in precepto iuris
+          <lb ed="#N" n="46"/>positiui: sed etiam naturalis. Illa enim sunt de lege naturali ad que
+          <lb ed="#N" n="47"/>homo ex suis naturalibus ordinatur vel inclinatur. Sicut autem ex
+          <lb ed="#N" n="48"/>ipsa dispositione corporis homo naturaliter habet ordinem ad opst
+          ma<lb ed="#N" n="49" break="no"/>nuale. propter quod dicit Iob. v. homo ad laborem nascitur. Cum enim
+          <lb ed="#N" n="50"/>aliis animalibus sufficienter natura prouidit in his que ad sustenta
+          <lb ed="#N" n="51"/>tionem vite sue pertinent in cibis et tegumentis: homini in his non
+          <lb ed="#N" n="52"/>prouidit. quia ipse est preditus ratione per quam potest sibi prouidere in omnibus
+          su<lb ed="#N" n="53" break="no"/>pradictis. et ideo dedit ei loco omnium predictorum manus
+          conuenien<lb ed="#N" n="54" break="no"/>tes ad diuersa opera. quibus conceptiones rationis diuersis
+          exerci<lb ed="#N" n="55" break="no"/>tiis exequatur. vt dicit phosolmus. xiiii. de animalibus.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e725">
+          ⁋ Sciendum adhuc
+          <lb ed="#N" n="56"/>quod duplex est preceptum legis nature. Quoddam ordinatur ad
+          tol<lb ed="#N" n="57" break="no"/>lendum defectum singloaris persone scilicet spiritualem. sicut de actibus
+          <lb ed="#N" n="58"/>virtutum preceptum. vel corporalem. vt illud Gen. ii. de omni ligno
+          paradi<lb ed="#N" n="59" break="no"/>si commedes. Aliud vero quod ordinatur ad tollendum defectum speciei.
+          <lb ed="#N" n="60"/>sicut illud gen. iii. Crescite et multiplicamini etc. quo precipitur
+          <lb ed="#N" n="61"/>actus generationis quo natura saluatur et multiplicatur. Hoc
+          <lb ed="#N" n="62"/>tamen interest inter hec duo preceptorum genera. quia ad preceptum
+          le<lb ed="#N" n="63" break="no"/>gis nature obseruandum quilibet tenetur scilicet ad preceptum quod
+          ordi<lb ed="#N" n="64" break="no"/>natur ad singularis persone defectum spiritualem tollendum et
+          corpara<lb ed="#N" n="65" break="no"/>lem. Ad secundum vero quod ordinatur ad defectum speciei tollendum non
+          quili<lb ed="#N" n="66" break="no"/>bet tenetur singlariter. In his enim que pertinent ad speciem: omnes
+          <lb ed="#N" n="67"/>homines computandi sunt vnus homo. iuxta illud porphirii.
+          perticipa<lb ed="#N" n="68" break="no"/>tione speciei ploes homines vnus homo. vnde sicut vnus habet diuersa
+          men<lb ed="#N" n="69" break="no"/>bra quibus occupatur in diuersis officiis ordinatis ad
+          defe<lb ed="#N" n="70" break="no"/>ctum proprium tollendum. que non posunt omnia per vnum membrum exerceri.
+          si<lb ed="#N" n="71" break="no"/>cut oculus videt toti corpori: et pes totum corpus portat. ita om
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>esse in eis que ad totam speciem pertinent. non enim sufficeret vnus homo ad exe
+          <lb ed="#N" n="73"/>quendam omnia quibus societas humana indiget: sed diuersis
+          of<lb ed="#N" n="74" break="no"/>ficiis diuersa occupari om. Unde dicitur Ro. xii. Sicut in vno
+          cor<lb ed="#N" n="75" break="no"/>pore multa membra habemus. omnia autem membra eudem actum non
+          <lb ed="#N" n="76"/>habent: ita vnum corpus sumus in christo. singloli autem alter alterius membra
+          <lb ed="#N" n="77"/>hec autem diuersificatio hominum in diuersis officiis. primo
+          con<lb ed="#N" n="78" break="no"/>tingit ex diuina prouidentia qua humanum statum sic disposuit: vt
+          ni<lb ed="#N" n="79" break="no"/>hil deesse inueniatur de necessariis ad vitam. Secundo vero ex
+          <lb ed="#N" n="80"/>causis naturalibus ex quibus contingit quod in diuersis hominibus diuer
+          <lb ed="#N" n="81"/>se inclinationes sint ad diuersa officia vel artificia vel ad
+          <lb ed="#N" n="82"/>diuersos modos viuendi. ergo quia labore manuum aliquis potest
+          sub<lb ed="#N" n="83" break="no"/>uenire proprio defectui et alieno cum non possit vnus homo sibi
+          suf<lb ed="#N" n="84" break="no"/>ficere in omnibus sed indiget alieno auxilio: patet quod preceptum de
+          la<lb ed="#N" n="85" break="no"/>bore manuum quodammodo sub vtroque genere predictorum continetur
+          <lb ed="#N" n="86"/>Inquantum enim labore manuum vnius subuenitur necessitatibus
+          alio<lb ed="#N" n="87" break="no"/>rum: sic pertinet ad secundum genus. inquantum autem aliquis sibi in
+          neces<lb ed="#N" n="88" break="no"/>sitatibus subuenit pertinet ad primum genus. sicut et in precepto de
+          <lb ed="#N" n="89"/>comedendo. Preceptum autem quod ordinatur ad defectum naturalem
+          <lb ed="#N" n="90"/>vel corporalem tollendum. non obligat nisi defectu exigente. Unde
+          si<lb ed="#N" n="91" break="no"/>esset aliquis qui posset viuere sine cibo: non obligaretur ad preceptum
+          <lb ed="#N" n="92"/>de comedendo. Sic ergo preceptum de opere manuali non obligat
+          <lb ed="#N" n="93"/>aliquem singlorariter secundum quod ordinatur ad tollendum defectum: sed
+          con<lb ed="#N" n="94" break="no"/>muniter aliquo modo. nec secundum quod ordinatur ad tollendum defectum
+          nisi<lb ed="#N" n="95" break="no"/>defectu exigente: et ideo ille qui habet alis vnde licite possit viuere
+          <lb ed="#N" n="96"/>non tenetur manibus operari. et hoc patet per apostolum in tribus locis. vbi de
+          <lb ed="#N" n="97"/>operatione manuali preceptum dat. Primo ad eph. iiii. vbi
+          prece<lb ed="#N" n="98" break="no"/>ptum dat de operatione manuali prohibendo furtum. Qui furaba
+          <lb ed="#N" n="99"/>tur etc. Et. i. thes. iiii. vbi idem precepit prohibendo concupiscentiam
+          <lb ed="#N" n="100"/>rerum alienarum. operamini manibus vratris. et sequitur. sicut precepimus
+          <lb ed="#N" n="101"/>vobis vt honeste ambuletis ad eos qui foris sunt. et nullius
+          <lb ed="#N" n="102"/>aliquod desideretis. Et. ii. thes. ii. vbi idem precepit prohibens tur
+          <lb ed="#N" n="103"/>pia negocia quibus aliqui victum acquirebant. Audiuimus inquit
+          <lb ed="#N" n="104"/>inter nos quosdam in quiete ambulantes nihil operantes sed
+          curi<lb ed="#N" n="105" break="no"/>ose agentes. Glo. qui feda cura sibi necessaria prouident.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e838">
+          ⁋
+          Scien<lb ed="#N" n="106" break="no"/>dum est tamen quod sicut visus est principalior inter alios sensus ratione
+          <lb ed="#N" n="107"/>cuius omnes alii sensus sortinntur nomn visus. vt dicit augustin. similiter
+          <lb ed="#N" n="108"/>manus quia ad plolima opera est necessaria. dicitur organum organorum in li.
+          <lb ed="#N" n="109"/>de anima. et in operatione manuum intelligitur non solum quod manibus
+          <lb ed="#N" n="110"/>fit: sed quod fit quocumque corporis instrumento. et breuiter
+          quodcun<lb ed="#N" n="111" break="no"/>que negocium homo habet seu agat de quo licite potest victum querere: sub
+          <lb ed="#N" n="112"/>labore manuum comprehenditur. Non enim videtur rationale quod magisti
+          <lb ed="#N" n="113"/>artium mechanicarum possint viuere de arte: et magistri artium libe
+          <lb ed="#N" n="114"/>talium non posunt: nec aduocati de pratiocinio quod prestant in
+          causa<lb ed="#N" n="115" break="no"/>et similiter de omnibus aliis licitis occupationibus. Potest ergo dici. quod non
+          <lb ed="#N" n="116"/>est omnino simpliciter pauperibus necessarium laborare labore
+          manu<lb ed="#N" n="117" break="no"/>ali propter vite necessaria: neque preceptum necessitate salutis
+          <lb ed="#N" n="118"/>exequendum.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e869">
+          ⁋ Ad illud quod primo obiicitur. ii. thes. vlt. Si quis non
+          <lb ed="#N" n="119"/>vult operari non manducet: et quod apostolus intelligit de opere
+          manu<lb ed="#N" n="120" break="no"/>ali etc. potest dici vt tactum est laborem manualem esse necessarium
+          <lb ed="#N" n="121"/>aliquibus et preceptum: sed non omnes obligat singulariter. nec exemplum
+          <lb ed="#N" n="122"/>apostoli inducit necessitatem laborandi: quia vt determinatum est
+          la<lb ed="#N" n="123" break="no"/>bor illius fuit magis supererogationis quam necessitatis seclaris
+        </p>
+        <p xml:id="v78d89-aid1or-d1e882">
+          <lb ed="#N" n="124"/>⁋ Ad plora que sequuntur patet responsio ex predictis. quia et si labor
+          <lb ed="#N" n="125"/>manuum sit in precepto: hoc fuit propter casas speeiales et aliquibus
+          perso<lb ed="#N" n="126" break="no"/>nis datum. vtpote vt furtum prohiberetur et alienarum rerum
+          concupi<lb ed="#N" n="127" break="no"/>scentia et acquisitio necessariorum feda cura et ocium.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e893">
+          ⁋ Et ex
+          di<lb ed="#N" n="128" break="no"/>ctis patet ad illud quod obiicitur quod opst corporale potest exerceri sine
+          <lb ed="#N" n="129"/>dispendio spirituali etc. potest dici quod hec ratio concludit posse
+          labo<lb ed="#N" n="130" break="no"/>rare: non necessitatem laborandi. non enim est vite necessarium
+          quic<lb ed="#N" n="131" break="no"/>quiod fieri potestu.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e904">
+          ⁋ Ad aliud quod obiicitur quod necessitate nature
+          va<lb ed="#N" n="132" break="no"/>candum e quandoque ab operibus spiritualibus. ergo ratione apostolice preceptionis similiter
+          <lb ed="#N" n="133"/>etc. dicendum quod non est simile. quia opera necessitatis vt commedere.
+          dormi<lb ed="#N" n="134" break="no"/>re sunt. sine quibus non potest persona subsistere. Unde a talibus se sub
+          <lb ed="#N" n="135"/>trahere omnino esset sibi manus iniicere. vnde quando esset opus spirituale om
+          <lb ed="#N" n="136"/>ab illis propter alia desistere. Pre. preceptio apostoli non
+          vniuersa<lb ed="#N" n="137" break="no"/>liter est obligatoria: sed propter aliquos et propter fines aliquos sicut
+          ta<lb ed="#N" n="138" break="no"/>ctum est. Pre. argumentum non concludit debitum sed posse.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e923">
+          ⁋ Ad alid
+          <lb ed="#N" n="139"/>quod obiicitur. quod licet propter aliquam necessitatem occupationis conueniat
+          <lb ed="#N" n="140"/>alicui persone se subtrahere de labore maumali. non propter hoc debent
+          <lb ed="#N" n="141"/>vliter omnes etc. potest dici quod sicut licitum est maioribus cessare ab operibus
+          <lb ed="#N" n="142"/>corporalibus propter alias et vtiliores occupationes: sic et
+          mmo<pb ed="#N" n="678"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>ribus. et maxime propter illas que obedientia salutari sunt vel
+          iniun<lb ed="#N" n="2" break="no"/>cte. vel vt supra tactum est viris perfectionem profitentibus quampluri
+          <lb ed="#N" n="3"/>mum detestabile: et eorum statui inconsonum est ociis vacare.
+          <lb ed="#N" n="4"/>Ad illud quod obiicitur quod perfectior est vita qua quis mundum
+          relin<lb ed="#N" n="5" break="no"/>quit et laborat quam qui mundum relinquit et non laborat. potest dici quod
+          <lb ed="#N" n="6"/>hoc uodo est vniuersaliter verum. quia talis possit esse occupatio et
+          <lb ed="#N" n="7"/>tam vtilis ecclesie dei et membris christi et ex tanto zelo animarum
+          exer<lb ed="#N" n="8" break="no"/>citata. quod quasi incomperabiliter esset melius huiusmodi occupatione astri
+          <lb ed="#N" n="9"/>gi et cessare ab omni opere manuali quam econuerso: istud infra
+          ple<lb ed="#N" n="10" break="no"/>nius patebit.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e958">
+          ⁋ Ad illud quod obiicitur quod deberent laborare ad
+          <lb ed="#N" n="11"/>vitandum grguamen proximorum. sicut fecit apostolus. potest dici quod forte hoc
+          <lb ed="#N" n="12"/>in casu verum est: sed hoc non concludit necessitatem generalem.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e965">
+          ⁋ Ad il
+          <lb ed="#N" n="13"/>lud quod obiicitur de exemplo primorum patrum etc. Dicendum quod
+          <lb ed="#N" n="14"/>sicut in lege erant precepta quedam localia nec obligabant nisi
+          per<lb ed="#N" n="15" break="no"/>manentes in locis illis propter aliquas locorum conditiones. vt relinque
+          <lb ed="#N" n="16"/>re agros incultos pauperibus quandoque: sic et opera priora patrum
+          <lb ed="#N" n="17"/>temporalia fuerunt. nec omni tempore trahenda in consequentiam.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e978">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="18"/>augustinus. describens opera monachorum insinuat laborem
+          manua<lb ed="#N" n="19" break="no"/>lem ad monachos pertinere. potest dici quod hoc fuit magis temporale et
+          <lb ed="#N" n="20"/>personale quam perpetuum et generale.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e987">
+          ⁋ Ad illud quod proponitur ex
+          <lb ed="#N" n="21"/>auctoritate Bede. potest dici sicut supra dictum est. quod illud non est
+          simpli<lb ed="#N" n="22" break="no"/>citer obligatorium: sed forte ex aliquibus certis circunstantiis.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e994">
+          <lb ed="#N" n="23"/>⁋ Ad illud quod obiicitur quod omnes peccauimus in adam etc. potest dici
+          <lb ed="#N" n="24"/>quod illa verba domini magis sunt prenunciantis penam quam precipientis
+          <lb ed="#N" n="25"/>satisfactionem. Unde premisit maledicta terra in opere tuo etc. et
+          <lb ed="#N" n="26"/>similiter mulieri. in dolore paries filios tuos. et ideo non sequitur
+          <lb ed="#N" n="27"/>quod quilibet homo ad laborandum obligetur ex necessitate precepti. alis
+          <lb ed="#N" n="28"/>sequeretur quod quilibet teneretur ad agri culturam. de qua dominus ibi
+          <lb ed="#N" n="29"/>facit mentionem.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e1013">
+          ⁋ Ad aliud quod sequitur. dicendum quod vita spiritual
+          <lb ed="#N" n="30"/>a nullo potest obseruari nisi per actus virtutum. et ideo quilibet
+          te<lb ed="#N" n="31" break="no"/>netur ad precepta seruanda quesunt de actibus virtutum: sed vita
+          <lb ed="#N" n="32"/>corporalis a multis obseruari potest sine opere manuali: et ides
+          <lb ed="#N" n="33"/>quamuis sit generaliter in precepto: non tamen quilibet ad eius
+          obseruan<lb ed="#N" n="34" break="no"/>tiam tenetur.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e1026">
+          ⁋ Ad illud quod obiicitur quod illud est mortalem ad quod se
+          <lb ed="#N" n="35"/>quitur mortalem etc. potest dici quod non manducare non est mortale:
+          <lb ed="#N" n="36"/>nisi quando sine illo vita seruari non potest: quia tunc sc interficeret. et
+          <lb ed="#N" n="37"/>similiter non om quod aliquis peccet mo: taliter non laborando
+          mani<lb ed="#N" n="38" break="no"/>bus: nisi quando aliter vitam seruare non potest. nisi illicitis curis
+          <lb ed="#N" n="39"/>et ideo cum huiusmodi cure sunt omnino fugiende: sub eadem districione
+          <lb ed="#N" n="40"/>posuit apostolus non manducare et non operari dicens. Qui non vult
+          <lb ed="#N" n="41"/>operari non manducet.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e1044">
+          ⁋ Ad quedam illorum que inducuntur qua scilicet
+          <lb ed="#N" n="42"/>dictum est quod licet laborare sit preceptum. tamen non est obligatorium similiter
+          <lb ed="#N" n="43"/>respondendum est. Ad illud ergo quod obiicitur primo scilicet preceptum non est
+          conri<lb ed="#N" n="44" break="no"/>um precepto etc. dicendum quod dominus non prohibuit omnem sollicitudinen
+          <lb ed="#N" n="45"/>apostolis de his que pertinent ad victum corporis. ala enim ipse loculos
+          <lb ed="#N" n="46"/>non habuisset: sed prohibet sollicitudinem im pertinentem qua mens
+          du<lb ed="#N" n="47" break="no"/>pliciter suffocatur. Primo scilicet quando in rebus temporalibus finem ponit
+          ra<lb ed="#N" n="48" break="no"/>tione operationis. et hoc dominus prohibet. vnde dicit augustinus de opere
+          mona<lb ed="#N" n="49" break="no"/>chorum exponens illud. Nolite solliciti esse etc. non vt ista non pro
+          <lb ed="#N" n="50"/>curentur quantum necessitatis est: sed non vt ista intueantur et propter ista
+          <lb ed="#N" n="51"/>faciant quicquid euangelii predicatione facere iubentur. et habetur in
+          <lb ed="#N" n="52"/>glo. thes. iii. Secundo suffocatur mens quando confidentiam de deo
+          <lb ed="#N" n="53"/>amittit. et hoc dominus intendit prohibere. vnde dicit glo. supe illud mat.
+          <lb ed="#N" n="54"/>vi. hoc exemplo non prohibet prouidentiam nec laborem sed
+          sollicitu<lb ed="#N" n="55" break="no"/>dinem vt tota fiducia nostra sit in deo per quem et aues sine cura
+          vi<lb ed="#N" n="56" break="no"/>uunt.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e1079">
+          ⁋ Ad illud quod obiicitur de veteri lege. dicendum quod hoc preceptum
+          <lb ed="#N" n="57"/>continetur in preceptis decalogi. licet non explicite: vnde habet reduci ad
+          <lb ed="#N" n="58"/>illud. Non furtum facies. quo omnesollicite lucrum quod per laborem
+          ma<lb ed="#N" n="59" break="no"/>nuum acquiritur: prohibetur.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e1088">
+          ⁋ Ad illud quod obiicitur. quod omnes tenentur
+          <lb ed="#N" n="60"/>ad precepta. dicendum quod in quolibet precepto est consideranda possibilitas
+          <lb ed="#N" n="61"/>obseruandi et finis eiusdem. quia propter aliquid bonum inducendum vel
+          <lb ed="#N" n="62"/>malum tollendum. Propter primum dicit hiero. qui dicit deum
+          <lb ed="#N" n="63"/>precepisse aliquod impossibile hominibus implere anathema sit. et
+          <lb ed="#N" n="64"/>ideo ab hoc precepto non excusantur inbecilles corpore et
+          impoten<lb ed="#N" n="65" break="no"/>tes. propter quod excusantur illi qui alio modo possunt consequi
+          fi<lb ed="#N" n="66" break="no"/>nem huiusmodi precepti sicut diuites.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e1106">
+          ⁋ Ad illud quod obiicitur quod ad
+          pre<lb ed="#N" n="67" break="no"/>cepta non magis tenentur religiosi etc. potest dici quod ad laborem
+          <lb ed="#N" n="68"/>manualem equaliter tenentur seculares et religiosi per se
+          loquen<lb ed="#N" n="69" break="no"/>do. Quod patet ex duobus. Primo ex verbis apostoli. ii. thes. iii.
+          di<lb ed="#N" n="70" break="no"/>centes. subtrahatis vos ab omni fratre ambulante inordinate.
+          <lb ed="#N" n="71"/>Rates enim omnes christianos vocat. non enim tunc erant religiosi. Secum
+          <lb ed="#N" n="72"/>do patet ex hoc quia religiosi non tenentur ad alia quam seculares
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="73"/>nnsi ad que voto se obligauerunt: sed per accidens contingit quod illud
+          <lb ed="#N" n="74"/>preceptum magis tangit religiosos quam alios. et hoc quia
+          religio<lb ed="#N" n="75" break="no"/>si in paupertate viuunt. vnde facilius potest eis accidere quod non
+          habe<lb ed="#N" n="76" break="no"/>reni aliunde vnde viuerent quam secularibus. vnde ex statuto regle in
+          <lb ed="#N" n="77"/>aliquibus ordinibus. vt dicit hiero. ad rusticum. Egyptiorum
+          <lb ed="#N" n="78"/>monasteria hunc retinent morem. vt nullum absque opere et labore
+          <lb ed="#N" n="79"/>suscipiant. non tam propter victus necessaria quam anime salutem: ne
+          va<lb ed="#N" n="80" break="no"/>getur perniciosis cogitationibus. sicut etiam ad vigilias et alia quibus
+          <lb ed="#N" n="81"/>domatur corpus tenentur religiosi statutis suis ad que
+          secula<lb ed="#N" n="82" break="no"/>res non tenentur.
+        </p>
+        <p xml:id="v78d89-aid1or-d1e1146">
+          ⁋ Ad aliud quod sequiter. dicendum. quod quamuis vsus
+          <lb ed="#N" n="83"/>siberalium artium sit nobilior: tamen non est ita necessarius ad vitam
+          <lb ed="#N" n="84"/>corporis sustentandam. et pretererea sub opere manuali
+          comprehen<lb ed="#N" n="85" break="no"/>ditur. vt patet ex dictis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 106, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 106, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="661"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ai7c82"><!-- q106m2 -->
+        <head xml:id="v78d89-ai7c82-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ai7c82-Hd1e103" type="question-title">Utrum omnia relinquere pro Deo et nudus sequi Christum sit actus perfectionis</head>
+        <p xml:id="v78d89-ai7c82-d1e106">
+          <lb ed="#N" n="40"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-ai7c82-d1e111">
+          <lb ed="#N" n="41"/>COnsequenter queritur vtrum omnia relinquere pro deo et
+          <lb ed="#N" n="42"/>nudus sequi christum sit actus perfectionis. et circa hoc
+          <lb ed="#N" n="43"/>duo queruntur. Primo in generali. vtrum
+          relin<lb ed="#N" n="44" break="no"/>quere omnia propter christum sit euangelice perfectionis.
+          <lb ed="#N" n="45"/>Secundo in spietiali vtrum sic relinquere omnia vt nihil retineatur nec in
+          con<lb ed="#N" n="46" break="no"/>muni nec in proprio: sit euangelice perfectionis.
+        </p>
+        <div xml:id="v78d89-ai7c82-Dd1e127">
+          <head xml:id="v78d89-ai7c82-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-ai7c82-d1e131">
+            <lb ed="#N" n="47"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e136">
+            <lb ed="#N" n="48"/>CIrca primum opponitur sic ad partem affirmatiuam
+            Ma<lb ed="#N" n="49" break="no"/>thei. xix. Si vis perfectus esse vade et vende omnia que
+            <lb ed="#N" n="50"/>habes et da pauperibus et veni sequere me. Marci. x.
+            <lb ed="#N" n="51"/>Uade quecumque habes vende. ecce quod omnia dare pauperibus et
+            nu<lb ed="#N" n="52" break="no"/>dum sequi christum ipso testante perfectionis est.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e149">
+            ⁋ Pret. glo. ibidem.
+            dili<lb ed="#N" n="53" break="no"/>git eos ihs qui mandata legis custodierit. sed quod minus est his
+            qui<lb ed="#N" n="54" break="no"/>perfecti volunt esse: adiungitur vnde sequitur. Si vis perfectus esse etc. hec
+            <lb ed="#N" n="55"/>glo. Pret. alia glo. Ecce vita contemplatiua que ad euangelium perti
+            <lb ed="#N" n="56"/>net.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e160">
+            ⁋ Pret. perfectis promittitur potstas iudicandi alios. et non
+            iudi<lb ed="#N" n="57" break="no"/>cari ab aliis. sicut patet ex glo. super illud psalmi. Non
+            resur<lb ed="#N" n="58" break="no"/>gunt impii in iudicio et dabitur executio in iudicio. Sed relinquen
+            <lb ed="#N" n="59"/>tibus omnia et in paupertate sequentibus christum promittitur potstas iudicia
+            <lb ed="#N" n="60"/>ria in via: et confertur executio in iudicio. vnde Math. xix.
+            Ecce<lb ed="#N" n="61" break="no"/>nos relinquimus omnia et secuti sumus te. et post. Amn dico vobis
+            <lb ed="#N" n="62"/>quod vos qui secuti estis me: in regeneratione cum sederit filius hominis
+            <lb ed="#N" n="63"/>in sede maiestatis sue: sedebitis et vos super sedes iudicantes
+            <lb ed="#N" n="64"/>duodecim tribus isrlis. ibi glo. Qui relinquerunt omnia et secuti sunt
+            <lb ed="#N" n="65"/>dominum hi iudicabunt.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e183">
+            ⁋ Pret. Martur. x. vnum tibi deest vade et que
+            <lb ed="#N" n="66"/>cumque habes vende et da pauperibus etc. Glo. super illud. Unum
+            ti<lb ed="#N" n="67" break="no"/>bi deest ad perfectionem. ex quo patet. quod ea que sequuntur. scilicet vendere
+            <lb ed="#N" n="68"/>omnia et dare pauperibus etc. perfectionis sunt. Et alia glo. super illud
+            <lb ed="#N" n="69"/>Quecumque habes vende et da pauperibus. que est. omnia omnino. non parten
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>sicut ananias. hoc potissime faciunt qui nihil sibi reseruant.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e199">
+            <lb ed="#N" n="71"/>⁋ Pret. Bern. in quadam epostola. volo te esse amicum pauperum:
+            <lb ed="#N" n="72"/>magis autem imitatorem. ille gradus proficientium est: hic perfectorum.
+            <lb ed="#N" n="73"/>amicitia pauperum regum amicos constituit: amor paupertatis
+            re<lb ed="#N" n="74" break="no"/>ges. regnum denique celorum pauperum est.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e210">
+            ⁋ Pret. perfecti sunt qui
+            <lb ed="#N" n="75"/>discipulatum domini siue vitam discipulorum profitentur. Luc. vi.
+            perfe<lb ed="#N" n="76" break="no"/>ctus omnis erit si sit sicut magister eius. hoc faciunt qui omnia relinquunt
+            <lb ed="#N" n="77"/>propter dominum. vnde Luc. xiiii. omnis ex vobis qui non
+            renunciaue<lb ed="#N" n="78" break="no"/>rit omnibus que possidet: non potest meus esse discipulus. ibi glo. Ue
+            <lb ed="#N" n="79"/>re qui vult meus esse discipulus: opertet quod renunciet omnibus. Et alia
+            <lb ed="#N" n="80"/>glo. sic dicit. Relinquere omnia est tantum perfectorum qui omnia temporalia
+            post<lb ed="#N" n="81" break="no"/>ponunt et solis eternis inhiant.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e228">
+            ⁋ Pret. hoc idem ostenditur
+            exem<lb ed="#N" n="82" break="no"/>plo domini cuius vita forma fuit perfectionis. Math. viii. vulpes
+            fo<lb ed="#N" n="83" break="no"/>ueas habent etc. Glo. Quid me propter lucrum seculi vis sequi.
+            <lb ed="#N" n="84"/>cum ita sim pauper vt nec hospiciolum quod meum sit habeam. ergo christus
+            <lb ed="#N" n="85"/>prorsus nihil habuit. ergo etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e239">
+            ⁋ Item super illud Math. xvii.
+            va<lb ed="#N" n="86" break="no"/>de ad mare etc. Glo. dominus tante paupertatis fuit vt vnde tributa
+            <lb ed="#N" n="87"/>solueret non haberet. habebat quidem iudas commnia in loculis
+            <lb ed="#N" n="88"/>sed res pauperum in vsus suos assumere nephas duxit ad ipsum:
+            <lb ed="#N" n="89"/>dans exemplum nobis. Si ergo christus tante paupertatis fuit quod non
+            po<lb ed="#N" n="90" break="no"/>tuit soluere denarium: manifestum est quod fuit in summa paupertate
+            <lb ed="#N" n="91"/>Luc. ix. vulpes foueas habent etc. Glo. ego sum tante pauperta
+            <lb ed="#N" n="92"/>tis vt nec hospicium habeam vt in eo requiescam.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e257">
+            ⁋ Pre. Ioh. xiiii
+            <lb ed="#N" n="93"/>Uenit princeps ndi huius. Glo. noluit dominus habere quod perderet.
+            <lb ed="#N" n="94"/>pauper venit: ne haberet quod dyabolus auferret. ergo si omnia temporalia
+            <lb ed="#N" n="95"/>possunt perdi: nihil habuit temporale.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e267">
+            ⁋ Pret. ii. Corin. viii.
+            Sci<lb ed="#N" n="96" break="no"/>tis gratiam domini nostri ihu christi quoniam propter nos egenus factus est. qui ergo sic
+            <lb ed="#N" n="97"/>abrenunciat vt egeat: maxime christo se conformat.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e274">
+            ⁋ Pret. super
+            il<lb ed="#N" n="98" break="no"/>lud quod sequitur ibidem. in hoc consilium domini augustinus in originali factus
+            <lb ed="#N" n="99"/>est egenus intantum vt non haberet quod habent vulpes. et in hoc consilium
+            <lb ed="#N" n="100"/>domini subauditur vt eius paupertatem imitemin. Ex quo patet. quod vita
+            <lb ed="#N" n="101"/>christi fuit exemplum perfectionis. omnia relinquere perfectionis est.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e285">
+            ⁋ Prete.
+            <lb ed="#N" n="102"/>christus imitabilis est. maxime quantum ad ea que sustinuit in cruce.
+            <lb ed="#N" n="103"/>iuxta illud. i. Peterea. ii. christus passus est pro nobis vobis relinquens
+            <lb ed="#N" n="104"/>exemplum vt sequamini vestigia eius. in cruce autem fuit nudus
+            pau<lb ed="#N" n="105" break="no"/>per et abiectus. Tren. iii. Recordare paupertatis mee et
+            trans<lb ed="#N" n="106" break="no"/>gressionis absinthii et fellis. in his ergo potissimum est ipsum
+            imi<lb ed="#N" n="107" break="no"/>tari. vnde Hiero. ad eludiam. Uis esse perfectus et in primo stare
+            fa<lb ed="#N" n="108" break="no"/>stigio dignitatis quod fecerunt apostoli: vende omnia que habes et
+            da<lb ed="#N" n="109" break="no"/>pauperibus et sequere saluatorem. et nudam solamque crucem virtute nuda
+            <lb ed="#N" n="110"/>sequaris et nuda.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e307">
+            ⁋ Pret. illud astruitur testimoniis sanctorum
+            <lb ed="#N" n="111"/>Ambro. super lucam. Qualis debet esse qui euangelizat preceptis
+            <lb ed="#N" n="112"/>euangelicis designatur. vt sine virga sine pera sine calciamento
+            <lb ed="#N" n="113"/>sine pane sine pecunia id est subsidii temporalis vel secularis
+            admi<lb ed="#N" n="114" break="no"/>nicula non requirens. fideique totus putet sibi quo minus eo requirit
+            ma<lb ed="#N" n="115" break="no"/>gis posse suppetere. sic ergo hoc attestatur perfectioni predicationis
+            euange<lb ed="#N" n="116" break="no"/>lice: vt nullum prorsus requirat adminiculum seclare. et hoc est esse in
+            al<lb ed="#N" n="117" break="no"/>tissima paupertate.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e325">
+            ⁋ Pret. ibidem in lib. de officio. nullum
+            admin<lb ed="#N" n="118" break="no"/>culum prestant diuicie ad beatam vitam. quod euidenter dominus ostendit in
+            <lb ed="#N" n="119"/>euangelio dicens. Beati pauperes quoniam vestrum est regnum dei. itaque
+            <lb ed="#N" n="120"/>paupertatem famen dolorem que putantur mala non solum
+            impedimen<lb ed="#N" n="121" break="no"/>to non esse ad vitam beatam: sed adminiculum esse euidentissime
+            proba<lb ed="#N" n="122" break="no"/>tum est. si ergo non solum adminiculum non sunt ad vitam beatam bona
+            ex<lb ed="#N" n="123" break="no"/>terna sed etiam dispendium: paupertas autem fames et dolor et huiusmodi
+            <lb ed="#N" n="124"/>que mala reputantur ad vitam beatam expediunt: que vitam beatam
+            im<lb ed="#N" n="125" break="no"/>pediunt relinquere: et que beatam expediunt amplecti perfectionis est.
+            <lb ed="#N" n="126"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e347">
+            ⁋ Pret. Greg. omelis. vi. super Ezech. priores patres
+            coniu<lb ed="#N" n="127" break="no"/>giis vtebantur filios procreabant substntias possidebant curis rei
+            fa<lb ed="#N" n="128" break="no"/>miliaris intendebant. predicatores autem sanctos Isaias prophetie
+            iam<lb ed="#N" n="129" break="no"/>spiritu preuidens substntias deserere: nihil in tera querere nhil possidere:
+            <lb ed="#N" n="130"/>non eos velut homines per terram ambulantes: sed vt nubes volantes
+            <lb ed="#N" n="131"/>nouerat. qui sunt isti qui vt nubes volant Isa. lx.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e361">
+            ⁋ Prete.
+            <lb ed="#N" n="132"/>hiero. in epostola ad iulianum. Si vis perfectus esse vade inquit et
+            ven<lb ed="#N" n="133" break="no"/>de non partem substantie: sed vniuersa que possides. et da pauperibus: non
+            <lb ed="#N" n="134"/>amicis non consanguineis non propinquis non vxori non liberis.
+            <lb ed="#N" n="135"/>plus aliquid addam nihil tibi ob metum inopie reseuab. ne cum
+            <lb ed="#N" n="136"/>anania damneris et zaphira. et da cuncta pauperibus.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e374">
+            ⁋ Pret.
+            <lb ed="#N" n="137"/>Cris. seuniusmode. xviii. super epostola ad Heb. Nemo causetur de
+            pauper<lb ed="#N" n="138" break="no"/>tate tanquam causa sit multorum malorum. neque obloquatur christo qui
+            <lb ed="#N" n="139"/>perfectionem illam dixit. Si vis perfectus esse etc. hec enim ipse et verbis
+            <lb ed="#N" n="140"/>dixit et operibus ostendit et per discipulos suos docuit.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e385">
+            ⁋ Prete.
+            <pb ed="#N" n="662"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Sene. in quadam epostola. breuem tibi formulam dabo qua te
+            meti<lb ed="#N" n="2" break="no"/>aris qua perfectus iam te esse sentias. tunc te habebis inimicum in
+            <lb ed="#N" n="3"/>telliges infelicissimos esse felices.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e398">
+            ⁋ Contra. Eclessasti. xxvii. propt
+            <lb ed="#N" n="4"/>inopiam multi deliquerunt. sed nihil quod est via ducens in culpam
+            spe<lb ed="#N" n="5" break="no"/>ctat ad perfectionem euangelicam etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e405">
+            ⁋ Pret. Ecclesastici. vii. vtilior est
+            sa<lb ed="#N" n="6" break="no"/>pientia cunctis diuitiis. glo. quam sola. sed diuitie non faciunt
+            homi<lb ed="#N" n="7" break="no"/>nem perfectum: ergo multominus nec paupertas et indigentia.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e412">
+            ⁋ Pre.
+            <lb ed="#N" n="8"/>prouerb. xxx. mendicitatem et diuitias ne dederis mihi sed tribue
+            <lb ed="#N" n="9"/>tantum victui meo necessaria. sed nihil facit ad perfectionem
+            euange<lb ed="#N" n="10" break="no"/>licam quod sapiens sapienter recusat. ergo etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e422">
+            ⁋ Pre. verbo predicto
+            sub<lb ed="#N" n="11" break="no"/>iungitur ne forte saciatus alliciar ad negandum deum et dicam quis est
+            do<lb ed="#N" n="12" break="no"/>minus: et egestate compulsus furer et periurem nomn dei mei. Glo.
+            <lb ed="#N" n="13"/>ne copia vel inopia transeuntium rerum in obliuionem decidam
+            eter<lb ed="#N" n="14" break="no"/>norum. ergo inopia facit obliuisci eterna.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e433">
+            ⁋ Responsio. quod pro deo
+            relin<lb ed="#N" n="15" break="no"/>quere et sequi christum in paupertate perfectionis est. quod astruit
+            ipsa<lb ed="#N" n="16" break="no"/>veritas scilicet christus conuersatione et doctrina: amicorum et propinquorum
+            vo<lb ed="#N" n="17" break="no"/>catione: et promissione: et remumeratione. Conuersatione in paupertate
+            <lb ed="#N" n="18"/>artissima vitam inchoando: continuando. vt merito de eo
+            intelli<lb ed="#N" n="19" break="no"/>gatur quod dicitur. pauper sum ego et in laboribus a iuuentute mea. Per
+            <lb ed="#N" n="20"/>hoc enim quod dici sum: notatur immutabilitas siue paupertatis
+            continu<lb ed="#N" n="21" break="no"/>atio. Doctrina paupertatis perfectionem astruendo Math. xix.
+            <lb ed="#N" n="22"/>Amrne dico vobis quod vos qui reliquistis etc. que quadam congruentia de
+            <lb ed="#N" n="23"/>betur pauperibus voluntariis qui in vita ista vt pauperi christo se
+            confor<lb ed="#N" n="24" break="no"/>mant se deiciunt Greg. in moralis. Quisquis stimulo diuini
+            amo<lb ed="#N" n="25" break="no"/>ris excitatus hic possessa reliquit. in iudico proculdubio
+            cul<lb ed="#N" n="26" break="no"/>men iudiciarie potestatis obtinebit. similiter remueratio regni ad
+            <lb ed="#N" n="27"/>quod electi sunt. pauperes elegit deus in hoc mundo. diuites in fide
+            <lb ed="#N" n="28"/>heredes regni etc. Hoc ergo fideliter et infallibiliter tenendum est. quod
+            <lb ed="#N" n="29"/>tot modis patet ab ipsa veritate comprobatum. vnde rationes inducte
+            <lb ed="#N" n="30"/>ad hanc partem sunt tam firmiter tenende quam fideliter astruende.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e470">
+            ⁋ Ad
+            <lb ed="#N" n="31"/>illud quod primo inducitur pro alia parte. scilicet quod propter inopiam
+            multi<lb ed="#N" n="32" break="no"/>deliquerunt etc. patet responsio per distinctionem inopie positam in
+            prece<lb ed="#N" n="33" break="no"/>denti probleumate. Cris. seuiusmode. xviii. sub epostola ad Heb.
+            diui<lb ed="#N" n="34" break="no"/>tie delicie gloria cuncta hec carnis sunt et amor corporum. non
+            igi<lb ed="#N" n="35" break="no"/>tur amemus ampliora: sed paupertatem semper sectemur summum et
+            <lb ed="#N" n="36"/>magnum bonum est.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e486">
+            ⁋ Ad illud quod obiicitur quod vtilior est sapientia
+            <lb ed="#N" n="37"/>cum diuitiis quam sola etc. potest dici quod hoc verum est inquantum diuitie
+            <lb ed="#N" n="38"/>sunt complementa necessitatis egenorum. vnde glo. bonum est
+            necessa<lb ed="#N" n="39" break="no"/>ria indigenti tribuere. hec autem faciunt diuitie erogate
+            pauperi<lb ed="#N" n="40" break="no"/>bus. vnde quo ad hoc signanter dicit vtilior. nec tamen sequitur quod
+            sim<lb ed="#N" n="41" break="no"/>pliciter perfectior. vnde non omne quod est ad aliquid vtilius simpliciter est
+            per<lb ed="#N" n="42" break="no"/>fectius. exemplum patet in actiua et contemplatiua. Actiua enim quo
+            <lb ed="#N" n="43"/>ad aliquid est vtilior: tamen simpliciter contemplatiua perfectior.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e504">
+            ⁋ Ad
+            il<lb ed="#N" n="44" break="no"/>lud quod obiicitur. quod diuitie non faciunt beatum. ergo multo fortius nec
+            <lb ed="#N" n="45"/>paupertas. Dicendum quod bene sequitur de paupertate inuoluntaria
+            <lb ed="#N" n="46"/>sed non voluntaria. voluntaria enim paupertas beatos facit. Augus.
+            <lb ed="#N" n="47"/>super cano. Iacob. felicitas magna christianorum quibus datum est vt
+            <lb ed="#N" n="48"/>paupertatem faciant precium regni celorum. Bern. Regie potestatis est
+            <lb ed="#N" n="49"/>beatificare pro voluntate amicos. vide quam magne dignitatis
+            fa<lb ed="#N" n="50" break="no"/>cta paupertas sit. vt non modo patrocinium ipsa sibi non querat: sed et
+            <lb ed="#N" n="51"/>ferat indigentibus. Ex hoc patet quod paupertas voluntaria de qua
+            loqui<lb ed="#N" n="52" break="no"/>mur hoc bonos facit.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e526">
+            ⁋ Ad aliud scilicet mendicitatem et diuitias
+            <lb ed="#N" n="53"/>ne dederis mihi etc. patet responsio ex dictis. quia sapiens petit quod non
+            <lb ed="#N" n="54"/>arciatur paupertate que ex nimia egestate compellat eum ad furtum er
+            <lb ed="#N" n="55"/>plurium. vt patet ex liatera sequenti. vt autem ex dictis patet talis non est
+            <lb ed="#N" n="56"/>in voluntaria paupertate in que est magna sufficientia. vt enim dicit
+            <lb ed="#N" n="57"/>Bern. Sola paupertas sufficientiam ministrat. vnde et dicit Io.
+            Cri<lb ed="#N" n="58" break="no"/>so. in seuiusmode. xviii. ad Heb. Nihil opulentius eo qui paupertatem spo
+            <lb ed="#N" n="59"/>tem diligit et cum alacritate suscipit. Cris. etiam soluit hanc obie
+            <lb ed="#N" n="60"/>ctionem seuiusmode. viii. ad Heb. vbi inter alia dicit. In veteri
+            testa<lb ed="#N" n="61" break="no"/>mento multa ratio diuitiarum habebatur. paupertatis plurimus erat
+            <lb ed="#N" n="62"/>contemptus: vbi hec quidem maledictum erat. illud benedictio. sed nunc
+            nequa<lb ed="#N" n="63" break="no"/>quam ita est. sed si vis audire paupertatis predicamenta: ipsam professus
+            <lb ed="#N" n="64"/>est christus. et dixit. Filius autem hominis non habet vbi caput suum reclinet.
+            <lb ed="#N" n="65"/>Et iterum discipulis dicebat. Nolite possidere aurum neque
+            argen<lb ed="#N" n="66" break="no"/>tum neque duas tunicas.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e560">
+            ⁋ Ex dictis patet responsio ad glo. que dicit
+            <lb ed="#N" n="67"/>Ne copia vel inopia transeuntium rerum in obliuionem decidam eterno
+            <lb ed="#N" n="68"/>rum. quia paupertas voluntaria exterminat cupiditatem. et spirium ad contem
+            <lb ed="#N" n="69"/>planda celestia erigit. nullus autem spiritus magis est ad celestia contem
+            <lb ed="#N" n="70"/>planda idoneus quam ille qui est omnino exoneratus a temporalibus. cuius
+            thesau<lb ed="#N" n="71" break="no"/>rus in celo est. Ioh. Cris. semone. xviii. ad Heb. paupertatem
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>arripere bonum est. paupertas est adiutrix quedam in via que ducit
+            <lb ed="#N" n="73"/>ad celum vnctio athletica: exercitatio quedam magna: et
+            admi<lb ed="#N" n="74" break="no"/>rabilis portus tranquillus. Sene. in epostola. Si vis vacare animo vt
+            <lb ed="#N" n="75"/>pauper sis: oportet vt pauperi similis sis.
+          </p>
+        </div>
+        <div xml:id="v78d89-ai7c82-Dd1e586">
+          <head xml:id="v78d89-ai7c82-Hd1e588">Articulus 2</head>
+          <p xml:id="v78d89-ai7c82-d1e590">
+            <lb ed="#N" n="76"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e595">
+            <lb ed="#N" n="77"/>COnsequenter queritur vtrum sit actus perfectionis relinquere
+            <lb ed="#N" n="78"/>omnia in proprio et in communi. quod sic: videtur. ex multis pretactis
+            <lb ed="#N" n="79"/>maxime patet quod omnia relinquere est opst perfectionis. Ex hoc
+            <lb ed="#N" n="80"/>potest argui. Si omnia relinquere est opust perfectionis et huiusmodi paupertas
+            <lb ed="#N" n="81"/>statum inducit perfectionis: multo fortius omnia relinquere in proprio et in
+            <lb ed="#N" n="82"/>comuni.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e611">
+            ⁋ Ad idem facit. quia huiusmodi paupertas magis conformat
+            ho<lb ed="#N" n="83" break="no"/>minem paupertati christi et eum magis reddit acceptum christo.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e616">
+            ⁋ Pre.
+            <lb ed="#N" n="84"/>augustinus ad paulinum diffiniens verum contemptorem mdi. reuera inquit
+            <lb ed="#N" n="85"/>omnia contennit qui non solum quantum habuit. sed etiam quantum potuit habere
+            <lb ed="#N" n="86"/>et noluit. potest autem contennere intantum: quod nihil habeat in proprio vel in
+            <lb ed="#N" n="87"/>comuni. ergo talis est verus mdi contemptor.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e628">
+            ⁋ Pret. Bern. ad
+            heinri<lb ed="#N" n="88" break="no"/>cum senonen. archiepisum. Felix qui nihil sibi retentat ex omnibus. non
+            <lb ed="#N" n="89"/>habet foueam vt vulpes: non vt volucres nidum: non loculos quomo
+            iu<lb ed="#N" n="90" break="no"/>das. non domos sicut nec maria in diuersorio. imitatus profecto
+            il<lb ed="#N" n="91" break="no"/>lum qui non habebat vbi rtrclinaret caput. sed qui imitatur christum omnia
+            re<lb ed="#N" n="92" break="no"/>linquendo qui omnia prorsus reliquit perfectus est. vt ex dictis patet. sed hoc
+            po<lb ed="#N" n="93" break="no"/>tissime facit qui nihil sibi neque in communi neque in preuato retinet. ergo
+            <lb ed="#N" n="94"/>etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e646">
+            ⁋ Pret. duplex est ciuitas. dei scilicet et dyaboli. hierlum et
+            ba<lb ed="#N" n="95" break="no"/>bilon. que oppositiones habent et in seipsis et in suis fundamentis. sed
+            <lb ed="#N" n="96"/>fundamentum ciuitatis babilionis vt dicit augustinus est cupiditas: ergo
+            <lb ed="#N" n="97"/>quanto quis recedit a cupiditate tanto magis accedit ad ciuita
+            <lb ed="#N" n="98"/>tem dei. sed paupertas in qua quis nihil habet nec in communi nec in
+            spectiali<lb ed="#N" n="99" break="no"/>et prorsus omnibus renunciatis tam affectu quam effectu: est que
+            <lb ed="#N" n="100"/>maxime elongat ab auaricia: ergo etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e662">
+            ⁋ Pret. diuitie sunt
+            <lb ed="#N" n="101"/>incendium cupiditatis quia difficile est eas habet et non amare
+            <lb ed="#N" n="102"/>Sed quanto plus quis elongat se ab incendio peccati: tanto
+            <lb ed="#N" n="103"/>perfectius agit. hoc autem fit renunciatis omnibus in proprio et in
+            con<lb ed="#N" n="104" break="no"/>muni. ergo etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e673">
+            ⁋ Pret. triplex est consilium. paupertatis:
+            obedien<lb ed="#N" n="105" break="no"/>tie: castitatis. sed quanto quis generalius et vniuersalius obedit:
+            <lb ed="#N" n="106"/>tanto perfectius agit. Similiter de consilio paupertatis. ergo pari ratione de
+            con<lb ed="#N" n="107" break="no"/>silio castitatis. Si dicas quod non est simile. quia diuitie sunt de
+            ne<lb ed="#N" n="108" break="no"/>cessitate vite. hoc nihil est: cum multi qui nihil habent prorsus
+            vi<lb ed="#N" n="109" break="no"/>uere possunt.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e686">
+            ⁋ Pret. perfectior est paupertas quam perfectior
+            comi<lb ed="#N" n="110" break="no"/>tatur obedientia. Sed qui habent proprium in communi: ab illo per
+            obedi<lb ed="#N" n="111" break="no"/>entiam non posunt excludi nisi ratione peccati. qui autem nihil prorsus habent
+            <lb ed="#N" n="112"/>obedire tenentur vbique terrarum. Si ergo perfectio euangelica maxime
+            <lb ed="#N" n="113"/>consistit in perfectione obedientie. ergo vniuersaliter abrenunciare omnibus
+            <lb ed="#N" n="114"/>facit ad perfectionem euangelicam.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e699">
+            ⁋ Pret. contemptus presentium est
+            lauda<lb ed="#N" n="115" break="no"/>bilis. hec est per se vera. ergo maior magis et maxima maxime lauda
+            <lb ed="#N" n="116"/>bilis. sed hoc maxime fit tam in proprio quam in communi omnibus renunciando
+            <lb ed="#N" n="117"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e709">
+            ⁋ Pret. paupertas alta est laudabilis. ergo altissima que est pro
+            <lb ed="#N" n="118"/>prietatem non habere in communi vel in spetiali est laudabilior siue
+            po<lb ed="#N" n="119" break="no"/>tius laudabilissima etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e716">
+            ⁋ Pret. tanto via rectior. quanto eius
+            <lb ed="#N" n="120"/>medium conformius est extremis. sed summa paupertas est tam in initio
+            vi<lb ed="#N" n="121" break="no"/>te quam in termino. ergo si in medio omnia abdicuntur rectissima via
+            pro<lb ed="#N" n="122" break="no"/>ceditur. Sed quanto via rectior tanto perfectior: ergo etc. Greg. in
+            mo<lb ed="#N" n="123" break="no"/>rali libr. xiii. Suntm nonnulli iustorum qui ad comprehendendum culmen
+            per<lb ed="#N" n="124" break="no"/>fectionis accincti. dum altiora interius appetunt: exterius cuncta
+            de<lb ed="#N" n="125" break="no"/>relinquunt. sed exteriora cuncta relinquere fit maxime renunciando
+            <lb ed="#N" n="126"/>temporalibus tam in proprio quom in communi. ergo etc.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e734">
+            ⁋ Pret. Greg. lib. iii.
+            dya<lb ed="#N" n="127" break="no"/>logorum loquitur de Isaac monacho et abbate. Cum beato Isaac
+            cre<lb ed="#N" n="128" break="no"/>bro discipuli humiliter innuerent. vt pro vsu monasterii
+            possessio<lb ed="#N" n="129" break="no"/>nes que offereb antur acciperet. ille sollicitus sue paupertatis custos
+            <lb ed="#N" n="130"/>fortem sententiam tenebat dicens. monachus qui in terra possessionem querit
+            <lb ed="#N" n="131"/>monachus non est. sic qui prope metuebat paupertatis sue
+            securi<lb ed="#N" n="132" break="no"/>tatem perdere: sicut diuites solent diuitias custodire. hec
+            gre<lb ed="#N" n="133" break="no"/>go. Cum in terra possessionem querere monachi veri non sint: patet
+            <lb ed="#N" n="134"/>quod possessionem renunciare tam in proprio quam in communi ad perfectionem facit
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e754">
+            <lb ed="#N" n="135"/>⁋ Pret. beatus Hiero. commendens sanctum hylarionem abbatem ait.
+            re<lb ed="#N" n="136" break="no"/>uersus hylarion cum quibusdam monachis ad patriam petentibus
+            iam<lb ed="#N" n="137" break="no"/>defunctis. partem substantie fratribus partem pauperibus largitus est. nihil sibi
+            <lb ed="#N" n="138"/>omnino reseruans. erat autem annorum quindecim. sic nudus et amotus
+            <lb ed="#N" n="139"/>in christo sollicitudinem ingressus est. hec Hiero. commendatur ergo quod nec
+            <lb ed="#N" n="140"/>in proprio nec in communi aliquid retinuit. hec ergo vere perfectionis est.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e770">
+            <pb ed="#N" n="663"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Pret. Hiero. ad paamachium. Si vis perfectus esse non tibi
+            impo<lb ed="#N" n="2" break="no"/>nitur necessitas vt voluntas premium consequatur. si ergo vis perfectus esse
+            <lb ed="#N" n="3"/>et desideras esse quod prophete quod apostoli quod christus: vende non partem substantie
+            <lb ed="#N" n="4"/>ne timor penurie infidelitatis occasio sit: et cum anania et
+            za<lb ed="#N" n="5" break="no"/>phira pareas. sed vniuersa que possides cumque vendideris da
+            pau<lb ed="#N" n="6" break="no"/>peribus. hec Hiero. ergo minus timent perire qui nec in proprio nec in
+            <lb ed="#N" n="7"/>communi aliquid retinent: quam qui in communi retinent. tam sic quam sic temporalibus
+            <lb ed="#N" n="8"/>renunciare maioris ostenditur perfectionis esse.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e794">
+            ⁋ Contra. Act. xx.
+            be<lb ed="#N" n="9" break="no"/>atius magis est dare quam accipere. qui ergo ponit se in necessitate
+            accipi<lb ed="#N" n="10" break="no"/>estdi et preuat se potestate dandi: preuat se eo quod beatius est: ita vt videtur
+            <lb ed="#N" n="11"/>eo quod est perfectioni vicinius. hoc autem non est consonum ambulanti in via
+            per<lb ed="#N" n="12" break="no"/>fectionis.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e806">
+            ⁋ Pret. omnibus renunciare modo predicto duplicem videtur in
+            <lb ed="#N" n="13"/>ferre iniuriam pauperibus. vnam eximendo sibi potestatem benefaciendi cum
+            <lb ed="#N" n="14"/>eisdem posset benefacere per elemosinarum largitionem: alteram qua
+            <lb ed="#N" n="15"/>in dispendium pauperum et maxime debilium et infirmorum surripit
+            <lb ed="#N" n="16"/>elemosinam que eisdem debetur. quibus quandoque subtrahitur eo quod
+            <lb ed="#N" n="17"/>multotiens sic renunciantibus impenditur. huic consonum est quod
+            dici<lb ed="#N" n="18" break="no"/>tur. i. q. ii. siquis. Non inquit dicere quale peccatum faciunt
+            qui<lb ed="#N" n="19" break="no"/>cibos pauperum presumendo suscipiunt qui ecclesiam quam iuuare de
+            <lb ed="#N" n="20"/>propriis facultatibus debuerant: suis expensis insuper grauant.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e826">
+            <lb ed="#N" n="21"/>⁋ Pret. temptatio dei propriissime est. vitam assumere in qua tota
+            <lb ed="#N" n="22"/>cura deo comittitur sine omni humana prouidentia. quod faciunt omnia
+            <lb ed="#N" n="23"/>relinquentes in proprio et in communi. quia dum superest humanum consilium
+            <lb ed="#N" n="24"/>omnino confugere ad diuinum: est temptare deum.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e837">
+            ⁋ Pret.
+            mendici<lb ed="#N" n="25" break="no"/>tas non est per se de eligendis. et propter hoc dicit glo. augustinus ii. Thess.
+            <lb ed="#N" n="26"/>vlt. Qui non vult operari etc. Apostolus vult seruos dei laborare
+            <lb ed="#N" n="27"/>vt non compellantur egestate necessaria petere. hoc est mendicare quod
+            <lb ed="#N" n="28"/>si esset per se de eligendis: non necesse esset laborare ad eiusdem eua
+            <lb ed="#N" n="29"/>cuationem. nunc autem postquam oportet ei occurrere per manualem
+            opera<lb ed="#N" n="30" break="no"/>tionem: non erit per se de eligendis. quare qui eama per se eligit sine
+            ma<lb ed="#N" n="31" break="no"/>nuali operatione: male videtur agere et contras sententias apostoli et augu.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e855">
+            <lb ed="#N" n="32"/>⁋ Pret. Luc. vi. perfectus omnis erit si sit sicut magister eius. Sed christus
+            <lb ed="#N" n="33"/>loculos habuit. vt patet Ioh. xii. vbi dicitur quod iudas loculos
+            <lb ed="#N" n="34"/>ferebat. ergo proprietatem nolle habere in communi non videtur esse perfectio
+            <lb ed="#N" n="35"/>sed potius superstitio: in qua discipulus videtur se preferre magistro.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e866">
+            <lb ed="#N" n="36"/>⁋ Si dicas quod loculos habuit pro aliis. Contra. augustinus. dicit et
+            <lb ed="#N" n="37"/>habetur. xii. q. i. habebat dominus loculos a fidelibus oblata
+            conser<lb ed="#N" n="38" break="no"/>uans: et suorum necessitatibus et aliis indigentibus tribuebat.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e875">
+            <lb ed="#N" n="39"/>⁋ Pret. nonne apostoli habebant possessiones de quibus dicitur. ii. Co
+            <lb ed="#N" n="40"/>rin. vi. Tamquam nihil habentes et omnia possidentes. nota quod non
+            di<lb ed="#N" n="41" break="no"/>citur nihil habentes sed tamquam nihil. et Act. iii. quotquot
+            possesso<lb ed="#N" n="42" break="no"/>res agrorum aut domorum erant vendentes: offerebant precia et
+            pone<lb ed="#N" n="43" break="no"/>bant ante pedes apostolorum.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e889">
+            ⁋ Pret. gratia est perfectio nature et gloria
+            <lb ed="#N" n="44"/>gratie. vnde nihil aliud est gloria quam gratia perfecta. Similiter status est
+            perfe<lb ed="#N" n="45" break="no"/>ctio status. vnde status glorie est perfectio status gratie. vnde status gratie
+            <lb ed="#N" n="46"/>reddit hominem deiformiorem quam status glorie. sed vt habetur a
+            Boe<lb ed="#N" n="47" break="no"/>cio. Felicitas est status omnium bonorum aggregatione perfectus. quod
+            <lb ed="#N" n="48"/>absque dubio verum est de felicitate glorie. conditio ergo status glorie est
+            <lb ed="#N" n="49"/>sufficientia sine aliquo defectu. ab hac autem sufficientia summe
+            <lb ed="#N" n="50"/>relegata est paupertas que est in omni abiectione tam in
+            speciali<lb ed="#N" n="51" break="no"/>quam in communi et plus quam status abundantie in diuitiis. ergo videtur
+            <lb ed="#N" n="52"/>quod illa non est eligibilis nec appetibilis: sed potius status
+            possiden<lb ed="#N" n="53" break="no"/>tium.  Responsio. omnia relinquere tam in proprio quam in communi est
+            euan<lb ed="#N" n="54" break="no"/>gelice perfectionis. non solum sufficientis: verumetiam abundantis
+            tan<lb ed="#N" n="55" break="no"/>quam perfectionis euangelice consilium principale: et principium fundamenta
+            <lb ed="#N" n="56"/>le: et fundamentum sublime. primum suadet natura. secundum scriptu
+            <lb ed="#N" n="57"/>ra. tercium gratia. Consilium principale potest dici quo ad hoc. quia
+            <lb ed="#N" n="58"/>viam prebet ad alia. Nam abundans paupertas disponit ad
+            car<lb ed="#N" n="59" break="no"/>nis mortificationem et voluntatis proprie renunciationem. cum nihil
+            <lb ed="#N" n="60"/>sibi determinet nec domum nec locum nec aliquam rem. Ad ipsam
+            <lb ed="#N" n="61"/>autem paupertatem viam spirtialiter facit ipsa natura: siue instituta
+            <lb ed="#N" n="62"/>siue lapsa. nam homo nudus formatus. et si in statu illo stetisset:
+            <lb ed="#N" n="63"/>nihil sibi prorsus appropriasset. homo vero nudus nascitur.
+            nu<lb ed="#N" n="64" break="no"/>dus moritur. et ideo hec est rectissima via vt ab extremis non
+            <lb ed="#N" n="65"/>declinans. quantum potest natura pati pauper et nudus incedat. et hoc est
+            <lb ed="#N" n="66"/>quod dicitur. i. Thioo. vi. Nihil intulimus in hunc mundum. haut
+            du<lb ed="#N" n="67" break="no"/>bium quia nec auferre quid possumus. et ex hoc concludit habentes
+            alimen<lb ed="#N" n="68" break="no"/>tum et quibus tegamur his contenti sumus. hoc autem nihil artius
+            vel<lb ed="#N" n="69" break="no"/>pauperius quam simplici victu et operimento esse contentum. quod nature
+            <lb ed="#N" n="70"/>documento docet apostolus tamquam bonum et perfectum.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e950">
+            ⁋ Est etiam
+            princi<lb ed="#N" n="71" break="no"/>pium fundamentale. Lex enim vetus difert a noua in hoc. quod
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>illa timorem hec vero amorem inducit. illa temporalia permittit. hec tem
+            <lb ed="#N" n="73"/>poralia contemnere docet. Si igitur fundamentum perfectionis
+            veri<lb ed="#N" n="74" break="no"/>tatis dei principaliter consistit in caritate. et illa potissime est
+            perfe<lb ed="#N" n="75" break="no"/>cta quando omnis excluditur cupiditas: quia venenum caritatis est
+            <lb ed="#N" n="76"/>cupiditas. hanc autem cupiditatem omnino foras mittit qui omnino
+            reli<lb ed="#N" n="77" break="no"/>quit omnia re et voluntate. sicut radix omnium malorum est cupiditas:
+            <lb ed="#N" n="78"/>sic radix est et principium perfectionis altissima paupertas. Unde augustinus
+            <lb ed="#N" n="79"/>in lib. lxxxiii. questionum. caritatis venenum est spes adipiscendorum
+            <lb ed="#N" n="80"/>aut retinendorum temporalium. nutrimentum eius in initio cupiditatis:
+            <lb ed="#N" n="81"/>perfectio nulla cupiditas. signum profectus eius est in initio timoris:
+            <lb ed="#N" n="82"/>signum perfectionis est nullus timor. quia radix est omnium malorum
+            cupidi<lb ed="#N" n="83" break="no"/>tas: et perfecta caritas foras mittit timorem. Ila igitur pauper
+            <lb ed="#N" n="84"/>tas est perfectissima que omnino cupiditatem extrminat.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e985">
+            ⁋ Est
+            nihilo<lb ed="#N" n="85" break="no"/>minus fundamentum sublime. quia cum duplex sit vita ad quam
+            dispo<lb ed="#N" n="86" break="no"/>nit paupertas. actiua et contemplatiua. actiua deorsum deordinat
+            <lb ed="#N" n="87"/>sed contemplatiua sursim erigit in celum. nullus autem spiritus magis est
+            <lb ed="#N" n="88"/>idoneus ad hoc quam ille qui est exoneratus ab omni onere temporalium. et qui
+            <lb ed="#N" n="89"/>thesaurum suum totum habet in celo. et cuius regnum non est de hoc
+            mum<lb ed="#N" n="90" break="no"/>do. qui non habet hic manentem ciuitatem sed futuram inquirit.
+            ta<lb ed="#N" n="91" break="no"/>lis autem est qui omnibus terrenis perfecte abrenunciauit. et ideo
+            ta<lb ed="#N" n="92" break="no"/>lis iam fundamentum sui edificii collocatum habet in celis. vnde
+            <lb ed="#N" n="93"/>augustinus in libro de agone christiano. cum cognitio et actio beatum faciunt
+            <lb ed="#N" n="94"/>hominem. sicut in cognitione cauendus est error: sic in actione
+            cauen<lb ed="#N" n="95" break="no"/>da est nequicia. Errat autem si quis putat se veritatem cognoscere
+            <lb ed="#N" n="96"/>cum adhuc nequiter viuat: nequicia autem est mundum istum diligere et
+            <lb ed="#N" n="97"/>ea que nascuntur et transeunt pro magno habere: et ea concupiscere et pro his
+            <lb ed="#N" n="98"/>laborare vt acquirat: et letari cum abundauerint. et timere ne pereant
+            <lb ed="#N" n="99"/>et contristari cum pereunt. ille igitur potissime idoneus est ad
+            contritio<lb ed="#N" n="100" break="no"/>nem sublimium qui sic est fundatus: et qui est perfectus contemptor omnium
+            <lb ed="#N" n="101"/>illorum. talis est qui totum cogitatum suum iactat in domino. et omnen
+            <lb ed="#N" n="102"/>sollicitudinem proiicit in eum qui nullam hahet prorsus possessionem.
+            <lb ed="#N" n="103"/>Est igitur perfectionis christiane pro christo nihil prorsus possidere in
+            mun<lb ed="#N" n="104" break="no"/>do. nec in comuni nec in proprio. ideo dominus expressiue hoc contulit: et
+            <lb ed="#N" n="105"/>in semetipso exemplum expressiue ostendit. ideo spiritus sanctus in sanctis
+            <lb ed="#N" n="106"/>hoc multipliciter persuasit. Nam huiusmodi arduissimam paupertatem.
+            si<lb ed="#N" n="107" break="no"/>cut tactum est persuadet natura scriptura et gratia. persuadet dominus
+            <lb ed="#N" n="108"/>ihs christus conuersando instruendo inspirando. Quis enim spiritus
+            ali<lb ed="#N" n="109" break="no"/>us quam dei facit hominem contemnere presentia et amare celestia: hoc
+            <lb ed="#N" n="110"/>non facit spiritus dyabolicus nec mundanus nec proprius: cum semper
+            in<lb ed="#N" n="111" break="no"/>clinet ad bonum preuatum. Hoc igitur facit spiritus sanctus. et hinc est
+            <lb ed="#N" n="112"/>quod spiritusancto dictante istum modum viuendi summus potestifex approba
+            <lb ed="#N" n="113"/>uit. sicut dic decretalis de excessibus praelatorum. Nimis praua.
+            <lb ed="#N" n="114"/>quod regulam et ordinem fratrum predicatorum et minorum sedes apostolica
+            no<lb ed="#N" n="115" break="no"/>scitur approbasse. huic contrarium nulli prorsus licet sentire.
+            quasi<lb ed="#N" n="116" break="no"/>tales videantur stulte agere: periculis se exponere: et deum
+            tempta<lb ed="#N" n="117" break="no"/>re. Nam contra tales dicitur in fine regule beati francisci. in qua
+            <lb ed="#N" n="118"/>paupertas huiusmodi confirmatur. Nulli ergo hominum omnino liceat hanc
+            pa<lb ed="#N" n="119" break="no"/>ginam nostre confirmationis infringere: vel ei ausu temerario contraire
+            <lb ed="#N" n="120"/>contra etiam tales dicit augustinus in tractatu de elemosina. helyas
+            <lb ed="#N" n="121"/>in solitudine coruis ministrantibus pascitur: et daniel in lacu ad
+            le<lb ed="#N" n="122" break="no"/>onum predam iussu regis incluso prandium diuinitus apportatur. et
+            <lb ed="#N" n="123"/>tu metuis ne bene operanti et dominum metuenti desit alimentum: cum ipse
+            <lb ed="#N" n="124"/>in euangelio ad exprobrationem eorum quorum mens dubia et fides
+            per<lb ed="#N" n="125" break="no"/>ua contestetur et dicat. Aspicite volatilia celi quoniam non seminant
+            ne<lb ed="#N" n="126" break="no"/>que metunt neque congregant in horrea et pitur vester celestis pascit
+            il<lb ed="#N" n="127" break="no"/>la. nonne vos pluris estis his et volucribus alimenta diurna
+            pre<lb ed="#N" n="128" break="no"/>stantur. et quibus nullus idem rei sensus est: nec potus nec cibus deest.
+            <lb ed="#N" n="129"/>tu christiano tu christi seruo. tu bonis operibus dedito. tu domino
+            suo<lb ed="#N" n="130" break="no"/>caro aliquid existimas defuturum: an putas qui christum pascit: a
+            <lb ed="#N" n="131"/>christo ipse non pascitur: an ei terrena deerunt quibus celestia et
+            di<lb ed="#N" n="132" break="no"/>uina tribuuntur. vnde hec incredula cogitatio: vnde impia et
+            sacri<lb ed="#N" n="133" break="no"/>lega ista meditatio: quiod facit in domo dei perfidum pectus: quid
+            <lb ed="#N" n="134"/>qui christo non credit appellatur et dicitur christianus: pharisei tibi
+            ma<lb ed="#N" n="135" break="no"/>congruit nomen. Nam cum in euangelio de elemosinis disputaret
+            <lb ed="#N" n="136"/>et vt nobis amicos de terrenis lucris operatione prouida
+            facere<lb ed="#N" n="137" break="no"/>mus. qui nos postmodum in eterna tabnacla susciperent: fidelit
+            <lb ed="#N" n="138"/>et salubriter amonet. addidit primo hec scriptura dicens. audie
+            <lb ed="#N" n="139"/>bat hec omnia pharisei qui erant auari et deridebant eum. quales nunc
+            <lb ed="#N" n="140"/>in ecclesia quosdam videmus: quorum precluse aures et corda
+            ceca<lb ed="#N" n="141" break="no"/>ta nullum de spiritualibus ac salutaribus monitis lumen admittunt.
+            <lb ed="#N" n="142"/>de quibus admirari non opertet quod contemnunt in talibus seruos. quando a
+            <pb ed="#N" n="664"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>talibus ipsum dominum videamus esse contemptum.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1120">
+            ⁋ Ex his apparet
+            eui<lb ed="#N" n="2" break="no"/>denter quod omnino omnibus vniuersaliter abrenunciare pro christo
+            culpan<lb ed="#N" n="3" break="no"/>dum non est: sed potius laudandum tamquam culmen perfectionis euangelice.
+            <lb ed="#N" n="4"/>vnde rationes exempla auctoritates concedende sunt ad istam partem: ad quam
+            <lb ed="#N" n="5"/>sufficientissime astruendam vna sola auctoritas ex ore christi
+            consulen<lb ed="#N" n="6" break="no"/>tes dimittere omnia esset sufficientissima. etiam si multa glosarum ex
+            <lb ed="#N" n="7"/>positorum doctorum viderentur esse contraria. Ait enim augustinus. ad
+            pauli<lb ed="#N" n="8" break="no"/>num de videndo deo sic. attende que et in eis ipsi quibus non visis acco
+            <lb ed="#N" n="9"/>modas fidem. ipsa testium pondera discernenda sunt. nec enim
+            <lb ed="#N" n="10"/>mihi sic credis quemadmodum ambro. aut ambobus nobis equa
+            <lb ed="#N" n="11"/>lance putas esse credendum. numquid euangelio nos vllo modo
+            compara<lb ed="#N" n="12" break="no"/>bis: an scripta nostra scripturis canonicis coequabis. profecto
+            <lb ed="#N" n="13"/>si recte in iudicando sapis: longe nos infra vides ab illa
+            au<lb ed="#N" n="14" break="no"/>ctoritate distare. et me quidem longius. et vterque nostum quantum licet
+            <lb ed="#N" n="15"/>credis: vtramque illi excellentie nequaquam comparas. igitur quoniam diuina
+            au<lb ed="#N" n="16" break="no"/>ctoritas sic expresse dicit omnia dimittenda ei qui vult ad perfectionem
+            con<lb ed="#N" n="17" break="no"/>descendere euangelicam: nimirum est quod verum illud ita certitudinaliter
+            <lb ed="#N" n="18"/>debet teneri: quod ei non possit sine periculo fidei obuiari.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1159">
+            ⁋ Ad
+            <lb ed="#N" n="19"/>illud ergo quod primo obiicitur per illud Act. beatius magis est dare etc.
+            <lb ed="#N" n="20"/>dicendum quod per illud non vult preponere statum habentium et elemosinas
+            <lb ed="#N" n="21"/>largientium statu omnia relinquentium. vnde glo. ibidem. non illis qui
+            reli<lb ed="#N" n="22" break="no"/>ctis omnibus secuti sunt dominum diuites elemosinarios preponit sed hoc
+            <lb ed="#N" n="23"/>dicit. quia qui dant elemosinas. magis accedunt ad beatitudinem quam
+            illi<lb ed="#N" n="24" break="no"/>qui accipiunt. secundum augustinus de opere monachi qui dicit. magis illis
+            qui<lb ed="#N" n="25" break="no"/>hoc faciunt prodest quam illis erga quos faciunt. quia danti valent ad
+            vi<lb ed="#N" n="26" break="no"/>tam eternam: accipienti ad vitam corporalem. nihilominus quandoque
+            acci<lb ed="#N" n="27" break="no"/>piens magis prestat danti quam econuerso. vnde Hiero. super psalmun.
+            <lb ed="#N" n="28"/>cxiv. super illud. dat escam esurientibus. Monachus qui non habet
+            confidem<lb ed="#N" n="29" break="no"/>ter accipiat. qui habet eructans est non accipiat. Scis quia esuris scis
+            <lb ed="#N" n="30"/>quia non habes. maius das beneficium si accipias quod tribuitur tibi.
+            <lb ed="#N" n="31"/>Si autem habes et non esuris: non debes cibum esurientium tollere
+            <lb ed="#N" n="32"/>aut accipere saturatus. accipe quod in ventrem mittas: non quod in
+            <lb ed="#N" n="33"/>sacculum. accipe tunicam que corpus tegat: non que archam impleat.
+            <lb ed="#N" n="34"/>Pre. notatur comparatio inter pauperes laborantes vt aliis erogent
+            <lb ed="#N" n="35"/>et inter ipsos accipiens ab illis. vnde subditur in predicta glo. illos
+            <lb ed="#N" n="36"/>maxime glorificabit: qui cunctis que possident in semetipsis
+            renum<lb ed="#N" n="37" break="no"/>ciantes. nihilominus laborant operando manibus: vt habeant vnde
+            <lb ed="#N" n="38"/>tribuant patienti necessitatem. hec glo. Pret. preuare se potestate dam
+            <lb ed="#N" n="39"/>di et sibi imponere necessitatem accipiendi. et si non sit laudabile
+            <lb ed="#N" n="40"/>de se: tamen ex circumstantia. Nam pruare se sic vt liberius diuinis
+            <lb ed="#N" n="41"/>vacetur: vt exemplum mundani contemptus hominibus prestetur: priuare quidem
+            <lb ed="#N" n="42"/>ob maiorem christi assimulationem. ob maiorem euangelii completionen
+            <lb ed="#N" n="43"/>ob ardentiorem christi dilectionem. ob artiorem penitentie perfectionem.
+            <lb ed="#N" n="44"/>ob huius vite contemnende et alterius vite appetende demonstrationem
+            <lb ed="#N" n="45"/>ob distractionis vitationem. spiritualis quietis adeptionem. ob
+            <lb ed="#N" n="46"/>has causas se hac potestate preuare laudabile est: et laudabilius
+            <lb ed="#N" n="47"/>quam potestatem retinere.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1224">
+            ⁋ Ad illud quod obiicitur. quod omnibus
+            renuncia<lb ed="#N" n="48" break="no"/>re modo predicto duplicem videtur inferre iniuriam etc. dicendum quod
+            <lb ed="#N" n="49"/>non iniuriatur pauperibus qui paupertatem elegit et potestate pretacta se
+            <lb ed="#N" n="50"/>vriuat. quia si sic: iniuriatus fuisset christus pauperibus et mater eius.
+            <lb ed="#N" n="51"/>nihilominus et apostoli. immo potius honorat. primo quia voluntarie
+            <lb ed="#N" n="52"/>statum eorum eligit et in hoc eis assimulatur. secundo quia facto vel
+            <lb ed="#N" n="53"/>exemplo ad sustinendam patienter inuitat. tercio quia statum
+            <lb ed="#N" n="54"/>paupertatis appetendum et diligendum esse tanquam perfectiorem
+            mani<lb ed="#N" n="55" break="no"/>festat.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1245">
+            ⁋ Quod autem dictum est. tales iniuriatos esse pauperibus
+            <lb ed="#N" n="56"/>quia surripiunt quod aliis distribui potest. similiter patet responsio ex
+            <lb ed="#N" n="57"/>eadem ratione. nam si sic esset: quilibet pauper iniuriaretur
+            alte<lb ed="#N" n="58" break="no"/>ri. nunc autem hoc est firmum. quia nullus iniuriatur alteri si
+            acci<lb ed="#N" n="59" break="no"/>pit. dum tamen per fraudem aut dolum aut per aliquam viam inordinatam
+            <lb ed="#N" n="60"/>non surripit quod alteri debetur. duobus enim vel tribus existentibus
+            si<lb ed="#N" n="61" break="no"/>equaliter aliquid eis debetur et detur vni: non est propter hoc
+            iniu<lb ed="#N" n="62" break="no"/>riatum alteri. Ceterum amplum est celarium christi vt omnibus
+            suffici<lb ed="#N" n="63" break="no"/>at pauperibus. potens est deus abundare facere omnem gratiam.
+            <lb ed="#N" n="64"/>sicut apostolus. ii. Corin. ix. Glo. Ambro. xii. Luc. iudecorum est
+            <lb ed="#N" n="65"/>homini curare de cibo vel veste: qui militat regno. nouit rex
+            <lb ed="#N" n="66"/>quemadmodum familiam suam pascat: alat: vestiat. Pret. huiusmodi
+            <lb ed="#N" n="67"/>pauperibus voluntarie mundo renunciantibus precipue debentur
+            elemo<lb ed="#N" n="68" break="no"/>sine sicut infra patebit. et propter hoc nulli iniuriantur. quod si
+            de<lb ed="#N" n="69" break="no"/>betur eis ex superfluis aliorum eisdem distribuatur.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1278">
+            ⁋ Quod autem
+            <lb ed="#N" n="70"/>opponitur de canone. intelligendum est de illis qui sua relinquere
+            <lb ed="#N" n="71"/>nolunt: et tamen sumptibus ecclesie sustentari volunt. sicut manifestum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>est ex astecedentibus et consequentibus in titulo capituli.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1289">
+            ⁋ Ad illud
+            <lb ed="#N" n="73"/>quod obiicitur. quod vitam assumere in qua tota cura deo comittitur est tem
+            <lb ed="#N" n="74"/>ptatio dei proprie etc. dicendum quod hoc non est verum vt ex supradictis
+            <lb ed="#N" n="75"/>patet quibus addendum est quod sermo domini hoc insinuat Math. vi.
+            <lb ed="#N" n="76"/>primum querite regnum dei et iusticiam eius. et hec omnia adiicient
+            <lb ed="#N" n="77"/>vobis. et ille etiam semmo quo sollicitudo tollitur. Mat. vi.
+            No<lb ed="#N" n="78" break="no"/>lite solliciti esse dicentes. Quid manducabimus aut quiod bibemus
+            <lb ed="#N" n="79"/>aut quo operiemur. hec enim omnia gentes inquirunt. Scit enim potur
+            <lb ed="#N" n="80"/>vester quia his omnibus indigetis. Nam secundum quod tangit glo. prouisa sunt
+            <lb ed="#N" n="81"/>hec a deo qui nouit que sunt necessaria in via. vnde ait ibidem.
+            <lb ed="#N" n="82"/>dum patrem audis: ne dubites qui bonis filiis viscera non
+            <lb ed="#N" n="83"/>claudit. quia dat nisi infidelitas auertat. et ideo secundum quod dicit
+            <lb ed="#N" n="84"/>alia glo. Omnia sunt filiorum. et propter hoc etiam adiiciuntur non queren
+            <lb ed="#N" n="85"/>tibus. quibus si subtrahantur ad probationem est. si dantur ad
+            gratiarun<lb ed="#N" n="86" break="no"/>actionem. vnde glo. Bede super illud Luc. xii. nolite solliciti esse
+            <lb ed="#N" n="87"/>anime vestre quid manducetis neque corpori vratro qui vesciamini.
+            pro<lb ed="#N" n="88" break="no"/>hibet sollicitudinem victus et vestitus. que etiam sunt ad necessitatem
+            <lb ed="#N" n="89"/>si enim cura est deo de militibus suis: non est dubium quin illis qui ex
+            <lb ed="#N" n="90"/>propriant se pro eo clementer prouideat. vnde Hiero. ad paulinum.
+            <lb ed="#N" n="91"/>non habet christus vnde suos alat pauperes: vnde in epostola ad
+            exuperan<lb ed="#N" n="92" break="no"/>tium persuadens ad huiusmodi mundum contemptum ait. Imitare Ioseph
+            <lb ed="#N" n="93"/>paulinum derelinque: et iustus sequaris saluatorem. proiice
+            sarci<lb ed="#N" n="94" break="no"/>nam seculi. ne queras diuitias que camelorum preuitatibus comparantur
+            <lb ed="#N" n="95"/>nudus et leuis ad celum euola. ne impleas sacculum quem dominus
+            eua<lb ed="#N" n="96" break="no"/>cuare precepit. Si ergo dignatio tua diues est: imple preceptum.
+            <lb ed="#N" n="97"/>vade omnia vende et da pauperibus. Si tenuis est: non debet
+            que<lb ed="#N" n="98" break="no"/>rere quod erogatura est. quia christus pro voluntate omnia in actum refert
+            <lb ed="#N" n="99"/>quomo autem inuitaret Hiero. ad tantam paupertatem scilicet omnium
+            obie<lb ed="#N" n="100" break="no"/>ctionem: nisi quia sciuit christum suis prouidere militibus. propter hoc
+            <lb ed="#N" n="101"/>amonet. i. Petera. v. Omnem sollicitudinem corporis et anime secundum
+            <lb ed="#N" n="102"/>glo. proiicite in eum. quia ipsi est cura de vobis. quod si vt dictum
+            <lb ed="#N" n="103"/>est subtrahantur que sunt necessaria ad probationem alia competunt
+            re<lb ed="#N" n="104" break="no"/>media. sicut vno tempore discipuli domini sacculos habere potuerunt
+            <lb ed="#N" n="105"/>qui et in alio interdicti sunt secundum Bedam. Ex quo ergo occurrunt
+            <lb ed="#N" n="106"/>plurima remedia: hec abrenunciatio non est dei temptatio: sed
+            <lb ed="#N" n="107"/>manifesta diuina prouisio. vnde Cris. super Math. iiii. Qui ad
+            <lb ed="#N" n="108"/>fontem vadit: non est sollicitus de bibendo. Quid igitur times stul
+            <lb ed="#N" n="109"/>te. dei prouidentia largior est fonte. et infra. non enim propter hoc
+            na<lb ed="#N" n="110" break="no"/>ti sumus vt commedamus: sed vt placeamus.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1374">
+            ⁋ Item glo. Ambro.
+            <lb ed="#N" n="111"/>super illud Luc. x. nolite portare sacculum. tanto debet esse
+            pre<lb ed="#N" n="112" break="no"/>dicatoris fiducia in deo. vt presentis vite sumptus et si non
+            pre<lb ed="#N" n="113" break="no"/>uideat sibi: tamen certissime non defecturos sciat. ne dum oc
+            <lb ed="#N" n="114"/>cupatur mens ad temporalia minus predicet eterna.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1385">
+            ⁋ Item glo.
+            <lb ed="#N" n="115"/>Bede super illud Luc. xii. nolite timere. non tantum non timeatis propter
+            <lb ed="#N" n="116"/>regnum militantibus vite necessaria desunt: sed etiam possessa
+            ven<lb ed="#N" n="117" break="no"/>dere propter elemosinam que est ad idem regnum. Item non est
+            <lb ed="#N" n="118"/>inopia timentibus deum secundum glo. inopia est temporalium. secundum enim
+            Cas<lb ed="#N" n="119" break="no"/>siodo. alii aliquo indigent sed non sui. quibus ipse ait. primum
+            <lb ed="#N" n="120"/>querite regnum dei. et hec omnia adiicientur vobis. prout ibidem
+            <lb ed="#N" n="121"/>dicit Augustinus. pascebat dominus contemnentem se et deserit timentem se.
+            <lb ed="#N" n="122"/>quippe sibi alibi ait. Tibi derelictus est pauper. propter hoc alia
+            <lb ed="#N" n="123"/>glo. Bede super Math. vi. vbi precepit dominus discipulis ne quiod
+            <lb ed="#N" n="124"/>tollerent in via. tanta sit in domino fiducia vt nihil sibi deesse
+            <lb ed="#N" n="125"/>certissime sciant. ne dum sibi prouideant temporalia. minus aliis pro
+            <lb ed="#N" n="126"/>uideant eterna. Pret. licet omnia relinquere in proprio et in
+            commu<lb ed="#N" n="127" break="no"/>ni perfectionis sit. licitum est tamen vti perfectis aliqua prouisione in
+            ca<lb ed="#N" n="128" break="no"/>suo. vnde Ambro. super illud Luc. xii. nolite solliciti esse anime
+            ve<lb ed="#N" n="129" break="no"/>stre etc. quamuis perfectius est pauperibus omnia dare et de mammona ini
+            <lb ed="#N" n="130"/>quitatis amicos facere: tamen propter infirmitatem ob quam de
+            <lb ed="#N" n="131"/>necessario fidei plerumque reuocatur. non prohibetur prouidentia
+            hu<lb ed="#N" n="132" break="no"/>mana: sed tantum sollicitudo que mentem perturbat et reuocat ab
+            <lb ed="#N" n="133"/>eternis. ecce quod in casu prouidentia humana permittitur.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1429">
+            ⁋ Ad
+            <lb ed="#N" n="134"/>aliud quod obiicitur. quod mendicitas non est per se eligibilis. potest dici
+            <lb ed="#N" n="135"/>quod hoc verum est inquantum dicit actum purum. quia pena est
+            pec<lb ed="#N" n="136" break="no"/>cati. et nulla pena per se est eligibilis: tamen virtus in pena est
+            <lb ed="#N" n="137"/>eligibilis per se vt patientia. vnde ratione virtutis que est in
+            <lb ed="#N" n="138"/>vel cum pena. est pena eligibilis. et ita licet mendicitas non
+            <lb ed="#N" n="139"/>est per se eligibilis. est tamen eligibilis inquantum est informata
+            <lb ed="#N" n="140"/>circumstantiis laudabilibus. vtpote quando est exercita pro deo
+            <lb ed="#N" n="141"/>et ratione paupertatis voluntarie quam multa bona
+            consequun<lb ed="#N" n="142" break="no"/>tur. vt enim habetur a Hiero. ad rusticum. paupertas expedita est
+            <pb ed="#N" n="665"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>id est que est ex voluntate habet gloriam. que est illata id est
+            <lb ed="#N" n="2"/>ex necessitate habet cruciatum.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1461">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="3"/>non videtur esse perfectio nihil habere in communi. ex quo christus
+            <lb ed="#N" n="4"/>habuit loculos etc. potest dici vt dictum est in probleumate
+            pre<lb ed="#N" n="5" break="no"/>cedenti. quod ille modus habendi quo loculos habuit et in
+            nul<lb ed="#N" n="6" break="no"/>lo preiudicauit altissime paupertati. Potest etiam addi. quod christus
+            <lb ed="#N" n="7"/>multa fecit dispensatiue non propter se: sed propter aliquid cuius
+            con<lb ed="#N" n="8" break="no"/>trarium aliquando faceret. licet et laudabiliter. immo
+            laudabi<lb ed="#N" n="9" break="no"/>lius agitur quam omittatur sicut manifestum est in eius fuga et
+            abscon<lb ed="#N" n="10" break="no"/>sione Ioh. viii. que non fuit propter potentie defectum: sed propter
+            <lb ed="#N" n="11"/>exemplum. sicut habetur ab aug. super Iohannem omelis. xlix. quod multa
+            <lb ed="#N" n="12"/>fecit non in summe perfectionis ostensionem: sed in infirmorum
+            condescen<lb ed="#N" n="13" break="no"/>sionem. dicit enim augustinus Numquid quia potentia eius defecerat etc.
+            <lb ed="#N" n="14"/>sed in hominis infirmitate viuendi exemplum discipulis
+            demon<lb ed="#N" n="15" break="no"/>strabat. Ex quo apparet non esse imperfectionis si fideles qui sunt
+            <lb ed="#N" n="16"/>membra eius presentie persequentium se subtrahunt et furorem
+            sce<lb ed="#N" n="17" break="no"/>leratorum quandoque declinant. Ro. xii. date locum ire. et ipse idem
+            <lb ed="#N" n="18"/>qui docuit in casu fugere. Math. x. Cum persecuti vos
+            fue<lb ed="#N" n="19" break="no"/>rint in ciuitate vna fugite in aliam. docet quandoque ferienti
+            <lb ed="#N" n="20"/>se opponere. Math. x. Nolite timere eos qui occidunt
+            cor<lb ed="#N" n="21" break="no"/>pus. et hoc similiter patet ex multis factis domini. cum enim carnes
+            co<lb ed="#N" n="22" break="no"/>medit et vinum bibit: non ex hoc vituperabiles ostendit. qui
+            amo<lb ed="#N" n="23" break="no"/>re eius ab vtroque abstinent. quia si hoc inconueniens esset facere que
+            <lb ed="#N" n="24"/>ipse non fecit. licet ergo facere contrarium ei quod dominus fecit. et ratio
+            <lb ed="#N" n="25"/>huiusmodi est. quia huiusmodi possunt ex circumstantia aliqua
+            lauda<lb ed="#N" n="26" break="no"/>biliter et vituperabiliter fieri. a simili in proposito. Quamuis enim christus
+            <lb ed="#N" n="27"/>ob aliquas causas necessarias loculos haberet: tamen
+            lauda<lb ed="#N" n="28" break="no"/>bile est eos propter christum ob rationem aliam non habere. quod patebit
+            <lb ed="#N" n="29"/>si consideremus rationem quare christus loculos habebat. quarum quedam
+            <lb ed="#N" n="30"/>tacte sunt supra preter illas. Una fuit institutio forme
+            ecclesia<lb ed="#N" n="31" break="no"/>stice in pecunia habenda. Cum enim precepit dominus non esse
+            cogitan<lb ed="#N" n="32" break="no"/>dum de crastino Math. vi. non ex hoc dedit intelligere quod nihil
+            pe<lb ed="#N" n="33" break="no"/>cunie seuaretur a sanctis: sed ne deo pro pecunia seruiatur et propter
+            in<lb ed="#N" n="34" break="no"/>opie timorem iusticia deseratur. Item alia causa patet ab aug. super
+            <lb ed="#N" n="35"/>Iohannem omelis. lvii. quare habuit loculos cui angeli ministrant.
+            <lb ed="#N" n="36"/>nisi quia ecclesia loculos habitura erat. Unde loculos habebat:
+            <lb ed="#N" n="37"/>vt doceret non esse peccatum loculos habere. non ad cupiditatis ex
+            <lb ed="#N" n="38"/>aggerationem: sed in pauperum sustentationem. et qui ex cupiditate
+            <lb ed="#N" n="39"/>eos susciperet iude similis esset. Alia ratio est specialis quare dominus
+            locu<lb ed="#N" n="40" break="no"/>los commisit iude. Cris. omlis. vi. super iohannem. commisit loculos
+            <lb ed="#N" n="41"/>iude. vt omnem ab eo abscinderet malefaciendi occasionem. et vt
+            <lb ed="#N" n="42"/>non haberet dicere quoniam propter pecuniarum desiderium faceret quod fecit.
+            <lb ed="#N" n="43"/>sufficientem enim ex loculis habebat concupiscentie mitigationem. vnde
+            <lb ed="#N" n="44"/>multa condescensione ei loculos commisit. obstruens pernitiosam
+            con<lb ed="#N" n="45" break="no"/>cupiscentiam: et tollens omnem excusationem. his ergo de causis loculos
+            <lb ed="#N" n="46"/>habuit. quibus non existentibus laudabilem est loculos abiicere. vnde
+            di<lb ed="#N" n="47" break="no"/>scipuli christi ex diuersis causis possunt eos laudabiliter habere et
+            <lb ed="#N" n="48"/>non habere. sicut patet Luc. xxii. Quando misi vos sine sacculo et
+            pe<lb ed="#N" n="49" break="no"/>ra et calciamentis. nunquid aliquid defuit vobis: et infra eodem.
+            <lb ed="#N" n="50"/>Sed nunc qui habet sacculum: tollat simplciter et peram. ecce quod misit eos
+            <lb ed="#N" n="51"/>cum sacculis. cuius rationem ponit Beda. quod quedam sunt a fidelibus
+            <lb ed="#N" n="52"/>semper obseruanda vt humilitas et cetere virtutes. quedam vero pro
+            tem<lb ed="#N" n="53" break="no"/>pore pretermittenda et pro tempore sustinenda cuiusmodi sunt vigilia
+            <lb ed="#N" n="54"/>nuditas labor operandi et huiusmodi. Unde glo. ibidem dicit. quando
+            mi<lb ed="#N" n="55" break="no"/>si vos etc. non eadem viuendi regula etc. vt supra ex dictis patet
+            <lb ed="#N" n="56"/>quod laudabiliter posuit imitatores christi omnia relinquare. sed christus ex
+            <lb ed="#N" n="57"/>causis aliquibus loculos habuit.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1583">
+            ⁋ Quod autem dictum est.
+            discipu<lb ed="#N" n="58" break="no"/>lum non esse supra magistrum sed ei sufficere vt sit sicut magister eius.
+            re<lb ed="#N" n="59" break="no"/>fertur proprie ad persecutionis tolerationem. et nullius vindicte
+            irri<lb ed="#N" n="60" break="no"/>gationem: vel iniurie recompensationem et consilia. que semper
+            tenen<lb ed="#N" n="61" break="no"/>da sunt sicut manifestum est ex littera Math. x. et glo. ibidem. secundum
+            <lb ed="#N" n="62"/>glo. enim vult ostendere quod si magister passus est patienter: et
+            discipu<lb ed="#N" n="63" break="no"/>lus debet similiter si qua sustinenda se offerant. nec debet dici supra
+            <lb ed="#N" n="64"/>magistrum: si aliquando faciat quod magister non fecit vel etiam contrarium.
+            <lb ed="#N" n="65"/>Item quod dicitur sicut magister. potest distingui. quia quod dico sicut
+            <lb ed="#N" n="66"/>potest dicere equalitatem: et sic non potest esse discipulus sicut
+            <lb ed="#N" n="67"/>magister. vel imitationem: et tunc vel opera christi sunt indifferenter
+            pro<lb ed="#N" n="68" break="no"/>posita omnibus ad imitationem. et horum contrarium facere non licet. Aut
+            <lb ed="#N" n="69"/>non omnibus sed aliquibus vtpote sunt illa opera eximie
+            patien<lb ed="#N" n="70" break="no"/>tie et paupertatis et alia huiusmodi. que sunt quedam proposita perfectis
+            <lb ed="#N" n="71"/>ad imitandam. veruntamen si referatur sermo ad paupertatis
+            expressio<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>nem. potest dici quod nullus habuit paupertatem consimilem
+            pauper<lb ed="#N" n="73" break="no"/>tati christi: quamuis ex causa vt dictum est loculos habuit. Ipse enim
+            <lb ed="#N" n="74"/>cepit facere et docere Actuum .i. vnde proculdubio paupertatem
+            <lb ed="#N" n="75"/>tenuit quam docuit. maxime cum dicat Hiero. quod nihil docuit
+            <lb ed="#N" n="76"/>quod non fecit. et hoc manifestum est ex euangelio. Nam si de
+            pro<lb ed="#N" n="77" break="no"/>prietate domicilii sermo fiat: nullum proprium habuit secundum quod dicit
+            <lb ed="#N" n="78"/>Ioh. Cris. super Ioh. omelis. xviii. super illud Ioh. i. Rabi vbi
+            <lb ed="#N" n="79"/>habitas. querit ibi qualiter habuit mansionem: qui aliter dicit
+            <lb ed="#N" n="80"/>quod filius hominis non habet vbi caput suum reclinet. et ostendit quod
+            <lb ed="#N" n="81"/>parabola de vulpe et de volucre tollit proprietatem: mansio sua
+            ha<lb ed="#N" n="82" break="no"/>bitationem. vnde sermo ille vbi caput reclinet demonstratiuus
+            <lb ed="#N" n="83"/>est quod nullum proprium habitaculum habebat. vnde secundum glo. super
+            il<lb ed="#N" n="84" break="no"/>lud Math. viii. magister sequar te. sensus est. quid me propter
+            lu<lb ed="#N" n="85" break="no"/>crum seculi vis sequi. cum ita sim pauper: quod nec hospicium quod
+            <lb ed="#N" n="86"/>meum sit habeam. vulpes autem habeant foueas.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1650">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="87"/>obiicitur. quod etiam apostoli aliquid habebant secundum illud ii. Corin. vi
+            <lb ed="#N" n="88"/>tanquam nihil habentes etc. Dicendum quod nihil proprium possidebant
+            <lb ed="#N" n="89"/>sed in altissima paupertate viuebant. quia supponendum est illos
+            <lb ed="#N" n="90"/>tanquam filios obedientie preceptum domini adimplesse quo dicebat
+            <lb ed="#N" n="91"/>Math. x. Nolite possidere aurum neque argentum neque
+            pecuni<lb ed="#N" n="92" break="no"/>am neque peram neque calciamenta etc. Greg. in moralis. Rarum
+            <lb ed="#N" n="93"/>est vt qui aurum possident ad requiem tendant.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1668">
+            ⁋ Ad hoc quod
+            <lb ed="#N" n="94"/>dictum est non simpliciter nihil habentes etc. Dicendum quod huiusmodi
+            <lb ed="#N" n="95"/>aduerbia. scilicet tamquam: quasi: multotiens ponuntur non pro
+            similitudina<lb ed="#N" n="96" break="no"/>ria imitatione: sed veritatis expressione. vt in psalmo. Tanquam
+            spon<lb ed="#N" n="97" break="no"/>sus procedens. quamquam et aliam rationem dicat de hoc augus. in
+            <lb ed="#N" n="98"/>glo. addit enim scriptura quasi et tamquam his rebus: que quasi in
+            <lb ed="#N" n="99"/>somnis transeunt. vnde de paupertate apostolorum qui sine omni
+            vi<lb ed="#N" n="100" break="no"/>dentur possessione. dicit ibidem glo. Ambro. hec inquit fuit
+            <lb ed="#N" n="101"/>gloria apostolorum nihil omnino possidere: sine sollicitudine esse: et
+            <lb ed="#N" n="102"/>tam res quam dominos eorum possidere: quia omnia ad pedes apostolorum
+            <lb ed="#N" n="103"/>mittebantur. sicut legitur in actibus apostolorum. Quomodo autem temporalia
+            pos<lb ed="#N" n="104" break="no"/>siderunt: cum in persona sua et aliorum dicat paulus. i. Corin. iiii
+            <lb ed="#N" n="105"/>vsque in hanc horam esurimus et litimus et nudi sumus. Pret.
+            su<lb ed="#N" n="106" break="no"/>stineri posset quod apostoli ad easdem causas ob quas dominus habuit
+            <lb ed="#N" n="107"/>loculos: et ipsi apostoli poterant ad certam causam de rigore
+            pauper<lb ed="#N" n="108" break="no"/>tatis altissime aliquid aliquando intermittere: et ad tempus aliquid
+            <lb ed="#N" n="109"/>habere. aut propter inhospitales regiones per quas transierunt
+            <lb ed="#N" n="110"/>aut ob aliam causam.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1707">
+            ⁋ Ad illud quod obiicitur de actibus apostolorum
+            <lb ed="#N" n="111"/>soluit latra sequens que est. diuidebant singulis prout cuique opus
+            <lb ed="#N" n="112"/>erat.
+          </p>
+          <p xml:id="v78d89-ai7c82-d1e1714">
+            ⁋ Ad illud quod obiicitur quod status habentium temporalia ratione
+            <lb ed="#N" n="113"/>sufficientie que est in temporalibus. est magis conformis statui
+            beati<lb ed="#N" n="114" break="no"/>tudinis vbi est completa sufficientia etc. potest dici quod abundantia
+            <lb ed="#N" n="115"/>temporalium non inducit sufficientiam. sed potius indigentiam. vnde Luc. i.
+            <lb ed="#N" n="116"/>diuites dimisit inanes. psalmus. diuites eguerunt et esurierunt. cuius
+            <lb ed="#N" n="117"/>est ratio. quia diuitie amantem elongant ab eo qui solus sufficit anime
+            <lb ed="#N" n="118"/>scilicet a deo. vnde Ecclesiastici. xi. Si diues fueris non eris immunis a
+            de<lb ed="#N" n="119" break="no"/>licto. Augustinus tanta dignitatis est humana conditio. vt nullum bonum
+            <lb ed="#N" n="120"/>preter summum bonum ei sufficere possit. quia ergo profitentes
+            altissi<lb ed="#N" n="121" break="no"/>mam paupertatem inquantum tales ab illo non elongantur qui
+            suffi<lb ed="#N" n="122" break="no"/>cit anime: propter hoc sola paupertas sufficientiam ministrat secundum
+            <lb ed="#N" n="123"/>Bern. vnde solis pauperibus christi sufficit quod habent. Cum igitur
+            <lb ed="#N" n="124"/>dicitur. quod diuitie sufficientiam ministrant. respondendum est per
+            interem<lb ed="#N" n="125" break="no"/>ptionem. vnde Greg. in moralis. Auaritia desideratis rebus
+            <lb ed="#N" n="126"/>non extinguitur sed augetur. Nam more ignis cum ligna que
+            consu<lb ed="#N" n="127" break="no"/>mat exceperit: excrescit. et aug. in quodam sermone. istas diuitias
+            <lb ed="#N" n="128"/>iniustum est reputare diuitias: que non auferunt egestatem. quomodo
+            <lb ed="#N" n="129"/>enim sunt diuitie quibus crescentibus crescit inopia. cuius causa
+            <lb ed="#N" n="130"/>tacta est. scilicet elongatio a deo. Econtra altissima paupertas
+            pro<lb ed="#N" n="131" break="no"/>pinquissimum statui beatitudinis suum efficit possessorem. cuius hec
+            <lb ed="#N" n="132"/>est ratio. quia anima quanto ab humanis est absolutior seu a
+            munda<lb ed="#N" n="133" break="no"/>nis: eo est deiformitatis capabilior. sicut oculus eo quod nullius
+            <lb ed="#N" n="134"/>coloris est: eo omnis speciei caloris est capabilis. et intellectus
+            <lb ed="#N" n="135"/>possibilis eo quod nullius speciei sensibilis est: eo omnis est capabilis.
+            <lb ed="#N" n="136"/>Similiter anima eo quod a mundanis est absolutior eo est deiformior. et
+            <lb ed="#N" n="137"/>ideo similior et ita beatior. et ideo beati pauperes spiritu quoniam
+            <lb ed="#N" n="138"/>ipsorum est regnum celorum Math. v.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

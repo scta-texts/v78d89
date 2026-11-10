@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 38, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 38, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="280"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a806o5"><!-- q38m4 -->
+        <head xml:id="v78d89-a806o5-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a806o5-Hd1e103" type="question-title">Ad quod genus motus habeat haec mutatio reduci</head>
+        <p xml:id="v78d89-a806o5-d1e106">
+          <lb ed="#N" n="86"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-a806o5-d1e111">
+          <lb ed="#N" n="87"/>Onsequentur queritur ad quod genus motus habeat
+          <lb ed="#N" n="88"/>hec mutatio reduci. Et primo. vtrum habeat
+          re<lb ed="#N" n="89" break="no"/>duci ad motum substantie vel accidentis. Secundo,
+          sup<lb ed="#N" n="90" break="no"/>posito quod ad motum substantie, ante ad generationis
+          <lb ed="#N" n="91"/>vel corruptionis. Tercio. vtrum ad motum augmenti vel
+          nutri<lb ed="#N" n="92" break="no"/>menti. Quarto. si loci mutatio sit annexa huic mutationi.
+        </p>
+        <div xml:id="v78d89-a806o5-Dd1e127">
+          <head xml:id="v78d89-a806o5-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-a806o5-d1e131">
+            <lb ed="#N" n="93"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a806o5-d1e136">
+            <lb ed="#N" n="94"/>Circa primum proceditur sic. i. cor. xi. dicitur. Accipite
+            <lb ed="#N" n="95"/>et commedite. ibi glo. quod illa conuersio non sit formalis
+            <lb ed="#N" n="96"/>manifestum est: quia forma panis et vini remanet. et
+            <lb ed="#N" n="97"/>loquitur glo. de formis accidentalibus. vnde in eadem glo. dictur. quod ex
+            <lb ed="#N" n="98"/>auctoritatibus certum est profitemur scilicet substantiam panis et vini in
+            sub<lb ed="#N" n="99" break="no"/>stantiam corporis et sanguinis conuerti, de priori substantia quedam
+            re<lb ed="#N" n="100" break="no"/>manent scilicet color sapor forma pondus: que priori substantie
+            acci<lb ed="#N" n="101" break="no"/>dentia fuerunt. hec glo. Ex quo igitur accidentia manent: patet quod
+            <lb ed="#N" n="102"/>illa mutatio siue conuersio non est accidentium. igitur est
+            substan<lb ed="#N" n="103" break="no"/>tie.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e160">
+            ⁋ Contra. mutationem substantie comitatur mutatio accidentis scilicet
+            <lb ed="#N" n="104"/>alteratio. vt patet in mutatione generationis et corruptionis:
+            <lb ed="#N" n="105"/>augmenti et alimenti. igitur si hoc est mutatio: substantiae etc.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e167">
+            ⁋ Item
+            <lb ed="#N" n="106"/>mouentibus nobis mouentur omnia que in nobis sunt. Ex hoc
+            <lb ed="#N" n="107"/>patet quod mota substantia mouentur accidentia que sunt in ipsa. ergo mutata
+            sub<lb ed="#N" n="108" break="no"/>stantia mutantur accidentia que sunt in ipsa.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e177">
+            ⁋ Responsio. quod hec est
+            <lb ed="#N" n="109"/>mutatio substantiae: non accidentium sicut dicit glo. praetacta. Rationes autem
+            <lb ed="#N" n="110"/>adducte in contrarium locum haberent si mutatio ista esset naturalis
+            <lb ed="#N" n="111"/>sed in ista mirabili et supernaturali locum non habent.
+          </p>
+        </div>
+        <div xml:id="v78d89-a806o5-Dd1e188">
+          <head xml:id="v78d89-a806o5-Hd1e190">Articulus 2</head>
+          <p xml:id="v78d89-a806o5-d1e192">
+            <lb ed="#N" n="112"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a806o5-d1e197">
+            <lb ed="#N" n="113"/>Onsequetur queritur. vtrum hec mutatio sit generatio
+            <lb ed="#N" n="114"/>vel corruptio. Et videtur quod neutra. Generatio
+            <lb ed="#N" n="115"/>autem esse non potest: quia corpus christi ibi non generat. vnde
+            <lb ed="#N" n="116"/>hug. Non sic corpus christi in pane consecrari dicimus, vt de
+            pa<lb ed="#N" n="117" break="no"/>nem corpus christi esse accipiat. Neque est corruptio, quia
+            cor<lb ed="#N" n="118" break="no"/>ruptio terminatur ad non ens: quod hic non accidit.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e213">
+            ⁋ Contra.
+            <lb ed="#N" n="119"/>corruptio non dicitur esse mutatio in non ens: quia aliqua
+            <lb ed="#N" n="120"/>essentia corrupta relinquitur simpliciter non ens. Corruptio
+            <lb ed="#N" n="121"/>enim vnius est generatio alterius. sed quia quantum est de
+            <lb ed="#N" n="122"/>mutatione ipsa corruptionis reliquitur non ens, sed constat quod
+            <lb ed="#N" n="123"/>in hac mutatione priuatur esse panis: quare igitur non potest
+            di<lb ed="#N" n="124" break="no"/>ci quod hec est mutatio que est corruptio.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e229">
+            ⁋ Item si ad istam
+            <lb ed="#N" n="125"/>mutationem qua priuatur essentia panis sequitur veritas et
+            es<lb ed="#N" n="126" break="no"/>sentia corporis christi. sicut ad corruptionem speciei aeris sequitur
+            existen<lb ed="#N" n="127" break="no"/>tia speciei ignis. quare non dicitur hec mutatio quantum ad hoc
+            ge<lb ed="#N" n="128" break="no"/>neratio. Dicit enim. Augustinus. corpus christi et veritas est et figura.
+            <lb ed="#N" n="129"/>veritas dum corpus christi et sanguinis virtute spiritus sancti ex
+            pa<lb ed="#N" n="130" break="no"/>nis vinique substantia efficitur. quid aliud est illud effici nisi
+            quae<lb ed="#N" n="131" break="no"/>dam productio substantie in esse.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e248">
+            ⁋ Responsio. in hac
+            mu<lb ed="#N" n="132" break="no"/>tatione non est corruptio. quia in corruptione relicta
+            ma<lb ed="#N" n="133" break="no"/>teria priuatur species siue forma. Corruptio enim
+            priua<lb ed="#N" n="134" break="no"/>tionem dicit, non negationem. quod non est hic. Neque ibi
+            <lb ed="#N" n="135"/>est generatio. Corpus enim christi non generatur.
+            Pre<lb ed="#N" n="136" break="no"/>terea. in mutatione corruptionis et generationis idem est
+            ma<lb ed="#N" n="137" break="no"/>teria fieri et facti. Panis autem non est hic materia conuersi:
+            <lb ed="#N" n="138"/>id est eius in quod facta est conuersio, sed solum est materia
+            <lb ed="#N" n="139"/>conuersionis. vnde hic panis est materia eius quod est vt
+            <pb ed="#N" n="281"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>fieri: non eius quod est vt factum.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e274">
+            ⁋ Ad illud Iugustinus. quod
+            cor<lb ed="#N" n="2" break="no"/>pus christi et sanguis ex panis vinique substantia efficitur. Dicendum
+            <lb ed="#N" n="3"/>quod hec prepositio ex: non notat materiam sed ordinem. vt illud
+            <lb ed="#N" n="4"/>ex mane fit meridies id est post. Preterea. quod dicit efficitur: non dicit
+            <lb ed="#N" n="5"/>aliud fieri circa corpus christi quantum ad esse: sed quantum ad esse in
+            <lb ed="#N" n="6"/>sacramento. sub hoc sensu verum corpus et verus sanguis christi vir
+            <lb ed="#N" n="7"/>tute spiritus sancti qua fit transubstantiatio panis et vini: est sub
+            sa<lb ed="#N" n="8" break="no"/>cramento post transubstantiationem.
+          </p>
+        </div>
+        <div xml:id="v78d89-a806o5-Dd1e293">
+          <head xml:id="v78d89-a806o5-Hd1e295">Articulus 3</head>
+          <p xml:id="v78d89-a806o5-d1e297">
+            <lb ed="#N" n="9"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a806o5-d1e302">
+            <lb ed="#N" n="10"/>COnsequenter queritur. vtrum hec mutatio sit muta
+            <lb ed="#N" n="11"/>tio augmenti vel nutrimenti. Quod sic: videtur. dicit
+            <lb ed="#N" n="12"/>enim Damas. quemadmodum naturaliter et per
+            comme<lb ed="#N" n="13" break="no"/>stionem panis et vinum et aqua per totum in corpus et sanguinem
+            <lb ed="#N" n="14"/>commedentis et bibentis transmutatur. et non sit aliud corpus potester
+            <lb ed="#N" n="15"/>corpus eius: ita et propositionis panis et vinum et aqua per inuo
+            <lb ed="#N" n="16"/>cationem et per aduentum spiritus sancti supernaturaliter transit in
+            cor<lb ed="#N" n="17" break="no"/>pus domini et sanguinem. et non sunt duo sed vnum et idem. hec
+            Da<lb ed="#N" n="18" break="no"/>mas. panem propositionis vocat panem propositum in altari.
+            <lb ed="#N" n="19"/>Ex hac similitudine quam ponit Damas. videtur haberi
+            propo<lb ed="#N" n="20" break="no"/>situm.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e328">
+            ⁋ Item cum panis sit minime quantitatis respectu
+            <lb ed="#N" n="21"/>corporis in quod mutatur. cum augmentum sit vbi est mutatio in
+            <lb ed="#N" n="22"/>maius: videtur quod hec mutatio sit mutatio augmenti.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e335">
+            ⁋
+            Con<lb ed="#N" n="23" break="no"/>tra. in nutrimento vel in augmento est vnio alimenti cum eo
+            <lb ed="#N" n="24"/>quod alitur vel augmentatur. hoc non est hic. vnde conuersio
+            <lb ed="#N" n="25"/>ista non secundum vnionem: sed secundum transitionem credenda.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e345">
+            ⁋ Responsio.
+            <lb ed="#N" n="26"/>quod conuersio ista non est motus augmenti vel nutrimenti. quia
+            <lb ed="#N" n="27"/>sicut dicit Hug. non est in hac conuersione vnio aliqua: sed
+            solum<lb ed="#N" n="28" break="no"/>transitio.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e354">
+            ⁋ Ad illud Damas. dicendum. quod quantum ad hoc intel
+            <lb ed="#N" n="29"/>ligitur eius comparatio. quod sicut in motu nutrimenti illud quo
+            <lb ed="#N" n="30"/>alitur et quod alitur post vltimam vnionem non sunt corpora
+            di<lb ed="#N" n="31" break="no"/>uersa: sed illud quo alitur efficitur vnum corpus cum eo quod
+            <lb ed="#N" n="32"/>alitur. sic in hac conuersione illud quod conuertitur transit in
+            cor<lb ed="#N" n="33" break="no"/>pus christi: et non est aliud quam illud. non tamen est vsque quaque simile
+            <lb ed="#N" n="34"/>qua in hac conuersione panis conuertitur simplicter in corpus christi
+            <lb ed="#N" n="35"/>ita quod essentia in essentiam. in nutrimento essentia non conuer
+            <lb ed="#N" n="36"/>ritur in essentiam: sed alimentum efficitur vnum corpus cum alendo per
+            <lb ed="#N" n="37"/>conuersionem in simile secundum speciem et vnionem: non autem efficitur
+            il<lb ed="#N" n="38" break="no"/>lud. Intelligendum est igitur quod hec mutatio est supernaturalis.
+            <lb ed="#N" n="39"/>vnde Damas. panis et vinum per inuocationem spiritus sancti
+            super<lb ed="#N" n="40" break="no"/>naturaliter transit in corpus et sanguinem domini. quod sic patet.
+            <lb ed="#N" n="41"/>Est motus naturalis in substantia scilicet generatio et
+            corru<lb ed="#N" n="42" break="no"/>ptio. in quantitate augmentum et diminutio. in qualitate
+            al<lb ed="#N" n="43" break="no"/>feratio. in motu vel mutatione circa substantiam semper
+            ma<lb ed="#N" n="44" break="no"/>net materia communis quod est subiectum transmutationis. in hac
+            <lb ed="#N" n="45"/>mutatione siue conuersione supernaturali non manet materia
+            <lb ed="#N" n="46"/>aliqua: sed solum manet communitas in transmutatione.
+            Cor<lb ed="#N" n="47" break="no"/>pus enim est quod conuertitur: et corpus in quod conuertitur. non est
+            <lb ed="#N" n="48"/>enim transmutatio corporei in corporeum nec econuerso.
+            ali<lb ed="#N" n="49" break="no"/>quam tamen habet conuenientiam cum transmutatione naturali
+            cir<lb ed="#N" n="50" break="no"/>ca substantiam scilicet in hoc quod non manet forma eius quod
+            conuer<lb ed="#N" n="51" break="no"/>titur: sicut nec in mutatione substantie manet forma
+            sub<lb ed="#N" n="52" break="no"/>stantialis eius quod mutatur. Item est motus naturalis in quen
+            <lb ed="#N" n="53"/>titate scilicet augmentum et diminutio quibus augetur vel
+            dimi<lb ed="#N" n="54" break="no"/>nuitur existens quantum in hac conuersione. et si sic
+            conuer<lb ed="#N" n="55" break="no"/>sio existentis quanti in exntns quantum. ex hac conuersione
+            no<lb ed="#N" n="56" break="no"/>mutatur quantum in quod fit conuersio neque diminuitur. habet tamen
+            conue<lb ed="#N" n="57" break="no"/>nientiam conuersio hec cum illa que est in augmento: in hoc
+            <lb ed="#N" n="58"/>quod hic est conuersio existentis in exisfens. augmentum enim
+            <lb ed="#N" n="59"/>est magnitudinis preexistentis ad diminutum: nec tamen est hic
+            <lb ed="#N" n="60"/>augmentum aliquod. Duo igitur inueniuntur in hac conuersione
+            <lb ed="#N" n="61"/>que est reperire in motu naturali. i. quod de transeunte scilicet pane
+            <lb ed="#N" n="62"/>vel vino forma desinit esse. et transitus fit eius quod transit
+            <lb ed="#N" n="63"/>in id quod erat. quorum primum reperitur in mutatione que est
+            <lb ed="#N" n="64"/>circa substantiam: secundum in mutatione que est circa
+            quanti<lb ed="#N" n="65" break="no"/>tatem. Item in mutatione circa qualitatem manet substantia
+            <lb ed="#N" n="66"/>siue subiectum et transmutatur accmdens. hic omnino accidit contra
+            <lb ed="#N" n="67"/>rium scilicet transmutatio substantie: et permanentia accidentium. vel hec
+            <lb ed="#N" n="68"/>mutatio est contraria alterationi. In hac ergo transmutatione ostem
+            <lb ed="#N" n="69"/>ditur. quod verbum increatum cuius virtute descendente in verbum
+            cre<lb ed="#N" n="70" break="no"/>atum fit transmutatio: habet potestatem super omnem naturam.
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>scilicet super naturam substantie transmutando substantiam entem in
+            <lb ed="#N" n="72"/>substantiam non entem: non relicta materia communi super
+            naturam<lb ed="#N" n="73" break="no"/>accidentis. conseruando accomdens in esse sine substantia super natu
+            <lb ed="#N" n="74"/>ram motus vel mutationis. quia hec super omne genus
+            mu<lb ed="#N" n="75" break="no"/>tationis est: vt patet ex dictis.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e461">
+            ⁋ Et si obiiciatur vlterius ex
+            di<lb ed="#N" n="76" break="no"/>ctis. quod mutatio ista cum non sit aliqua predictarum: neque
+            conti<lb ed="#N" n="77" break="no"/>netur sub illarum aliqua: reduci habeat ad illam que est
+            crea<lb ed="#N" n="78" break="no"/>tio. Dicendum quod hec est mutatio singularis et mirabilis que
+            <lb ed="#N" n="79"/>nullam aliam habet ad plenum consimilem: licet in parte aliis
+            assi<lb ed="#N" n="80" break="no"/>miletur. Non autem reduci habet ad creationem: quia est
+            termi<lb ed="#N" n="81" break="no"/>nus initialis non est omnino nihil sed aliquid. assimilatur tamen ei: quia
+            <lb ed="#N" n="82"/>in ea nihil commune. Neque ad generationem: quia ex parte
+            termini<lb ed="#N" n="83" break="no"/>finalis non est aliquid de nouo factum. sed est mutatio in
+            exi<lb ed="#N" n="84" break="no"/>stens simpliciter. et quantum ad hoc similis est augmento et nutri
+            <lb ed="#N" n="85"/>mento. nec tamen est mutatio augmenti vel nutrimenti: quia
+            il<lb ed="#N" n="86" break="no"/>la nihil augetur vel nutritur. Ad alterationem non reducitur quia
+            illi<lb ed="#N" n="87" break="no"/>est omnino contraria. Neque ad corruptionem vel diminutionem. neque
+            <lb ed="#N" n="88"/>illis similis est quarum operationes omnino imperfecte sunt: que non
+            <lb ed="#N" n="89"/>decent diuinam virtutem hoc operantem.
+          </p>
+        </div>
+        <div xml:id="v78d89-a806o5-Dd1e495">
+          <head xml:id="v78d89-a806o5-Hd1e497">Articulus 4</head>
+          <p xml:id="v78d89-a806o5-d1e499">
+            <lb ed="#N" n="90"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-a806o5-d1e504">
+            <lb ed="#N" n="91"/>COnsequenter queritur. si loci mutatio sit annexa
+            <lb ed="#N" n="92"/>huic conuersioni. Quod sic: videtur. corpus christi modo est
+            <lb ed="#N" n="93"/>hic: sed antea non fuit sed in loco alio. sed aliquod corpus
+            <lb ed="#N" n="94"/>vnum et idem esse in diuersis locis non potest nisi interueniat
+            <lb ed="#N" n="95"/>loci mutatio. igitur cum existente hac conuersione corpus christi est in
+            lo<lb ed="#N" n="96" break="no"/>co in quo prius non fuit: huic conuersioni annexa est loci
+            mu<lb ed="#N" n="97" break="no"/>tatio.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e522">
+            ⁋ Contra. Damas. quia consuetudo est hominibus
+            panen<lb ed="#N" n="98" break="no"/>comedere et vinum bibere et aquam: commniugauit eis eius
+            diui<lb ed="#N" n="99" break="no"/>nitatem: et fecit ea corpus et sanguinem eius. non quoniam ipsum
+            cor<lb ed="#N" n="100" break="no"/>pus quod assumptum est de celo descendit: sed quoniam ipse panis
+            <lb ed="#N" n="101"/>et vinum transit in corpus et sanguinem christi. hec Dam.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e533">
+            ⁋
+            Re<lb ed="#N" n="102" break="no"/>sio. vt dictum est smdum de hac conuersione plures erant opcentiones.
+            <lb ed="#N" n="103"/>Una quod ad prolationem horum verborum. hoc est corpus meum:
+            <lb ed="#N" n="104"/>substantia panis cedit in nihil et virtute verborum fit in
+            cor<lb ed="#N" n="105" break="no"/>pus christi quod prius erat in celo. et sit sub accidentibus panis. qua
+            <lb ed="#N" n="106"/>scilicet sibi non coherent: sed quoquo modo adiacent. Alia est. quod
+            <lb ed="#N" n="107"/>post prolationem verborum adhuc manet ibi substantia panis
+            <lb ed="#N" n="108"/>et simul loco sunt ibi panis et corpus christi. et hoc bene
+            possi<lb ed="#N" n="109" break="no"/>bile est: quia corpus christi glorificatum est. vnde hec ponit quod
+            so<lb ed="#N" n="110" break="no"/>lum virtute verborum fit christus vbi non erat. Iste due
+            opinio<lb ed="#N" n="111" break="no"/>nes ponunt virtute verborum fieri aliquam mutationem loci
+            cir<lb ed="#N" n="112" break="no"/>ca christum. Tercia opinio. quod substantia panis et vini
+            conuer<lb ed="#N" n="113" break="no"/>titur in corpus et sanguinem christi. et hec est veritas quam
+            te<lb ed="#N" n="114" break="no"/>net ecclesia: et alias opiniones reprobat. Dicendum est ergo. quod
+            <lb ed="#N" n="115"/>ipsa elementa virtute verborum conuertuntur in corpus et
+            sangui<lb ed="#N" n="116" break="no"/>nem christi: nulla facta mutatione circa christum. neque
+            generati<lb ed="#N" n="117" break="no"/>onis neque corruptionis neque augmenti vel diminutionis vel al
+            <lb ed="#N" n="118"/>terationis: neque mutationis secundum locum. Unde dicendum est cum
+            Da<lb ed="#N" n="119" break="no"/>mas. quod non descendit christus de celo vt sit sub speciebus painis et
+            <lb ed="#N" n="120"/>vini: sed virtute verborum substantia panis conuertitur in corpus
+            <lb ed="#N" n="121"/>et sanguinem christi: ipsis existentibus eisdem omnino in celo et sub
+            spe<lb ed="#N" n="122" break="no"/>ciebus elementorum.
+          </p>
+          <p xml:id="v78d89-a806o5-d1e582">
+            ⁋ Ad hoc quod obiicitur. quod vnum et idem
+            cor<lb ed="#N" n="123" break="no"/>pus in diuersis locis esse non potest: nisi interueniente loci
+            mu<lb ed="#N" n="124" break="no"/>tatione. Dicendum quod ad hoc quod aliquis mutet locum duo
+            ex<lb ed="#N" n="125" break="no"/>iguntur. scilicet quod sit vbi primum non fuit: et quod non sit vbi prius fuit.
+            <lb ed="#N" n="126"/>primum est inuenire in proposito: non secundum. quia post consecrati
+            <lb ed="#N" n="127"/>onem est vbi prius non fuit: sed cum hoc est vbi prius fuit. propter
+            <lb ed="#N" n="128"/>quod non est necesse ipsum mutare locum. nihilomius idem corpus
+            <lb ed="#N" n="129"/>esse in diuersis locis virtute naturali non potest: nisi interueniat
+            <lb ed="#N" n="130"/>motus localis. licet ergo in alio loco existat quam prius: quia a
+            priori<lb ed="#N" n="131" break="no"/>non recedit. Huic mutationi loci mutatio dissimilis est: quan
+            <lb ed="#N" n="132"/>dam tamen similitudinem habet. quia hacipsa in diuersis locis
+            cor<lb ed="#N" n="133" break="no"/>pus christi existat.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 23, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 23, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="159"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a5tds4"><!-- q23m4 -->
+        <head xml:id="v78d89-a5tds4-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a5tds4-Hd1e103" type="question-title">De differentia illius canonis. qui prius ponit pabulum salis</head>
+        <p xml:id="v78d89-a5tds4-d1e106">
+          <lb ed="#N" n="44"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-a5tds4-d1e111">
+          <lb ed="#N" n="45"/>COnsequenter queritur de illo septenario qui
+          po<lb ed="#N" n="46" break="no"/>nitur in auctoritate cuiusdam canonis vbi dicitur.
+          <lb ed="#N" n="47"/>a primo pabulo salis etc. Circa quod queri potest
+          <lb ed="#N" n="48"/>quare incipit a pabulo salis et non incipit ab
+          <lb ed="#N" n="49"/>exorcismo. Secundo queritur quare sacramentum confirmationis connume
+          <lb ed="#N" n="50"/>ratur cum aliis: cum sit sacramentum separatum.
+        </p>
+        <p xml:id="v78d89-a5tds4-d1e127">
+          ⁋ Ad primum potest responde
+          <lb ed="#N" n="51"/>ri. quod incipit a pabulo salis: vt ostendatur compaternitas ibi
+          in<lb ed="#N" n="52" break="no"/>choari. In tribus enim contrahitur compaternitas. in baptismo. in
+          <lb ed="#N" n="53"/>cathecismo. et in confirmatione. Unde dicit Canon. de conse. di.
+          <lb ed="#N" n="54"/>iiii. In cathecismo. in baptismo. in confirmatione. vnus
+          patri<lb ed="#N" n="55" break="no"/>nus fieri potest si necessitas cogit. Non est tamen consuetudo.
+          Hu<lb ed="#N" n="56" break="no"/>go tamen opinatus est in omnibus antecedentibus contrahi compater
+          <lb ed="#N" n="57"/>nitatem: et ita in exorcismo. Sed videtur melius in
+          catheci<lb ed="#N" n="58" break="no"/>smo: quia ibi agitur de instructione fidei in qua est initium
+          obli<lb ed="#N" n="59" break="no"/>gationis spiritualis. et quia hec impositio salis ad cathecismum
+          <lb ed="#N" n="60"/>pertinet. sicut et sputi linitio: ad iudicium enim sapientie
+          per<lb ed="#N" n="61" break="no"/>tinent: et ideo potest dici quod a primo pabulo salis incepit.
+        </p>
+        <p xml:id="v78d89-a5tds4-d1e154">
+          <lb ed="#N" n="62"/>⁋ Ad secundum responsio est. quod confirmationem connumerat cum aliis
+          <lb ed="#N" n="63"/>in illo septenario: vt ostendat illud esse in quo contrahitur
+          <lb ed="#N" n="64"/>compaternitas. cum autem tria dicantur esse in quibus contrahitur
+          <lb ed="#N" n="65"/>compaternitas: non excluduntur alia intermedia que supra
+          enu<lb ed="#N" n="66" break="no"/>merata sunt. sed principalia nominauit: dans intelligere
+          <lb ed="#N" n="67"/>alia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

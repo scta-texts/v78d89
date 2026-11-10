@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 19, Membrum 10</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 19, Membrum 10</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="141"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4yyos"><!-- q19m10 -->
+        <head xml:id="v78d89-a4yyos-Hd1e101">Membrum 10</head>
+        <head xml:id="v78d89-a4yyos-Hd1e103" type="question-title">De compara tione caracteris baptismalis qui est Dei ad caracterem dyaboli</head>
+        <p xml:id="v78d89-a4yyos-d1e106">
+          <lb ed="#N" n="118"/>⁋ Membrum decimum
+        </p>
+        <p xml:id="v78d89-a4yyos-d1e111">
+          <lb ed="#N" n="119"/>COnsequenter queritur de comparatione
+          caracte<lb ed="#N" n="120" break="no"/>ris baptismalis qui est dei: ad caracterem
+          <lb ed="#N" n="121"/>dyaboli. de quo dicitur. xiii. apoca. vbi loquitur
+          <lb ed="#N" n="122"/>de caractere bestie. Queritur ergo vtrum
+          <lb ed="#N" n="123"/>sint simul in eadem anima. et si simul. vtrum secundum eandem vim. Ui
+          <lb ed="#N" n="124"/>detur enim quod non simul. non enim potest membrum christi et membrum
+          <lb ed="#N" n="125"/>dyaboli esse simul. ergo nec videtur simul posse habere
+          cara<lb ed="#N" n="126" break="no"/>cteres amborum.
+        </p>
+        <p xml:id="v78d89-a4yyos-d1e131">
+          ⁋ Contra. postquam aliquis est membrum christi
+          <lb ed="#N" n="127"/>potest fieri membrum dyaboli. et tunc recipit caracterem eius.
+          ca<lb ed="#N" n="128" break="no"/>racter autem christi semper manet. ergo simul est in eo vterque caracter
+          <lb ed="#N" n="129"/>Quod concedimus. Respondentes ad obiectum. quod non est
+          <lb ed="#N" n="130"/>similis comparatio inter membrum et membrum et inter caracte
+          <lb ed="#N" n="131"/>rem et caracterem. quia inter membrum christi et membrum
+          dyabo<lb ed="#N" n="132" break="no"/>li est oppositio simpliciter: sicut et inter amorem dei et contemptum
+          <lb ed="#N" n="133"/>sui: et amorem sui et contemptum dei. quia duo amores sunt cause
+          <lb ed="#N" n="134"/>illorum duorum membrorum. Sed inter caracterem christi et caracterem
+          <lb ed="#N" n="135"/>dyaboli non est spliciter oppositio. quia caracter christi perpetuus est:
+          <lb ed="#N" n="136"/>caracter autem dyaboli non est perpetuus sed delebilis inquantum
+          <lb ed="#N" n="137"/>huiusmodi. Ratio autem perpetuitatis huius et non illius
+          sumi<lb ed="#N" n="138" break="no"/>tur ex parte imprimentium. quia enim deus imprimens etemus est
+          <pb ed="#N" n="142"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>et immutabilis cum aliis conditionibus alibi dictis: imprimit
+          <lb ed="#N" n="2"/>caracterem perpetuum et indelebilem. Sicut enim imago dei ab
+          ini<lb ed="#N" n="3" break="no"/>tio creationis naturaliter impressa in anima non potest deleri:
+          <lb ed="#N" n="4"/>ita nec caracter dei qui postmodum sacramentaliter id est per
+          sa<lb ed="#N" n="5" break="no"/>cramentum imprimitur: et est distinctiuus imaginis. dyabolus
+          <lb ed="#N" n="6"/>autem licet perpetuus est tamen vertibilis est de natura sua inquantum
+          cre<lb ed="#N" n="7" break="no"/>atura est. et ideo non est potens imprimere caracterem
+          indelebilem<lb ed="#N" n="8" break="no"/>quantum est de se: tamen ex accedenti perpetuatur in damnatis ratione
+          <lb ed="#N" n="9"/>impenitentie.
+        </p>
+        <p xml:id="v78d89-a4yyos-d1e184">
+          ⁋ Quod queritur vlterius vtrum secundum eandem
+          vim<lb ed="#N" n="10" break="no"/>insunt illi duo caracteres. ita scilicet quod vnus supponatur
+          alteri<lb ed="#N" n="11" break="no"/>in eadem vi: dicimus quod non. quia caracter christi est ad
+          distinguen<lb ed="#N" n="12" break="no"/>dum fidelem ab infideli. vnde ex parte cognitiue est. Caracter vero
+          <lb ed="#N" n="13"/>dyaboli inest ratione peccati: vnde in illa vi est in qua proprie est
+          pec<lb ed="#N" n="14" break="no"/>catum id est in voluntate. et ex hoc est quod mutari potest sicut et
+          <lb ed="#N" n="15"/>voluntas.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 32, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 32, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="199"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6xj2o"><!-- q32m6 -->
+        <head xml:id="v78d89-a6xj2o-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-a6xj2o-Hd1e103" type="question-title">Si sanguis potest consecrari ex vino puro sine aqua</head>
+        <p xml:id="v78d89-a6xj2o-d1e106">
+          <lb ed="#N" n="136"/>Membrum sextum
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e111">
+          <lb ed="#N" n="137"/>COnsequenter queritur si sanguis potest
+          conse<lb ed="#N" n="138" break="no"/>crari ex vino puro sine aqua. Quod non: videtur
+          <lb ed="#N" n="139"/>de conse. di. ii. Cyprianus sic. In
+          sacrifican<lb ed="#N" n="140" break="no"/>do calicem domini offerri sola aqua non potest: quo
+          <pb ed="#N" n="200"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>nec vinum solum potest. Item calix domini non est aqua sola et
+          vinum<lb ed="#N" n="2" break="no"/>solum: nisi vtrumque misceatur. qumo nec corpus domini potest esse
+          fari<lb ed="#N" n="3" break="no"/>na nisi vtrumque adunatum fuerit et copulatum et vnius
+          compa<lb ed="#N" n="4" break="no"/>ge solidatum. Ecce quod primo dicit quod in sanctificando
+          cali<lb ed="#N" n="5" break="no"/>cem aqua sola non potest offerri: sicut nec vinum solum. post
+          dicit<lb ed="#N" n="6" break="no"/>Calix domini non est vinum solum: sicut nec corpus domini potest esse
+          fa<lb ed="#N" n="7" break="no"/>rina. Ex his duobus potest argui sic. Ex aqua non potest
+          confi<lb ed="#N" n="8" break="no"/>ci sanguis christi. igitur nec ex vino. Similiter ex alia
+          similitu<lb ed="#N" n="9" break="no"/>dine. ex farina sine aspersione non potest confici corpus christi. igitur
+          <lb ed="#N" n="10"/>nec sanguis ex vino sine aqua.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e148">
+          ⁋ Item aut christus instituit
+          <lb ed="#N" n="11"/>aquam aut non. Si primunt igitur vt videtur necessario est
+          apponen<lb ed="#N" n="12" break="no"/>da: et de necessitate sacramenti. Si non: tunc temeraria presumptione
+          <lb ed="#N" n="13"/>apponitur ab ecclesia romana.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e158">
+          ⁋ Item dominus instituit hoc sacramentum et
+          <lb ed="#N" n="14"/>quantum ad materiam et quantum ad formam. sed tam hec quam illa est sine
+          <lb ed="#N" n="15"/>qua non potest esse sacramentum. sed aqua est de materialibus. igitur etc.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e165">
+          <lb ed="#N" n="16"/>⁋ Item quod signat aliquid quod est de sacramento et principaliter in
+          sa<lb ed="#N" n="17" break="no"/>cramento isto: est de eius necessitate. sed vnio aque cum vino signat
+          <lb ed="#N" n="18"/>aliquid quod est de necessitate huius sacramenti scilicet vnionem membrorum
+          cum<lb ed="#N" n="19" break="no"/>capite. et si hoc: ergo non potest confici ex vino si ponitur sine aqua:
+          <lb ed="#N" n="20"/>cum appositio aque sit de necessitate sacramenti.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e178">
+          ⁋ Contra. magister
+          <lb ed="#N" n="21"/>in. iiii. sentetim. di. xi. Si quis non intendens introducere heresim
+          <lb ed="#N" n="22"/>obliuione aut ignorantia aquam pretermisit: non videtur irritum
+          <lb ed="#N" n="23"/>esse sacramentum. sed ille grauiter est corripiendus. nam grecorum
+          ec<lb ed="#N" n="24" break="no"/>clesia non dicitur apponere aquam. et ad huis probationem introducit
+          <lb ed="#N" n="25"/>auctoritatem Eypriani de conse. di. ii. Scriptura. Si quis de ante
+          <lb ed="#N" n="26"/>tecessoribus nostris ignoranter vel simpliciter non hoc obseruauerit
+          <lb ed="#N" n="27"/>quod nos dominus facere exemplo et magisterio docuit: potest
+          sim<lb ed="#N" n="28" break="no"/>plicitati eiusdem et induligentia domini venia concedi. nobis vero
+          <lb ed="#N" n="29"/>non potest ignosci: qui nunc amoniti et instructi sumus: vt
+          cali<lb ed="#N" n="30" break="no"/>cem domini cum vino mixtum secundum quod dominus obtulit offeramus.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e202">
+          ⁋ Item
+          <lb ed="#N" n="31"/>nihil est de necessitate huius sacramenti materialiter quod non
+          rema<lb ed="#N" n="32" break="no"/>net neque secundum substantiam neque secundum accmdens. sed aqua est talis. ergo etc.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e209">
+          <lb ed="#N" n="33"/>⁋ Item nec videtur esse de congruitate nec quod sit congruum quod
+          ap<lb ed="#N" n="34" break="no"/>ponatur: quia hoc sacramentum est rei habentis omnem saporis
+          suauita<lb ed="#N" n="35" break="no"/>tem. aqua autem est insipida. ergo etc.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e218">
+          ⁋ Responsio. quod si non apponatur
+          <lb ed="#N" n="36"/>aqua: nihilominus consecratum est.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e224">
+          ⁋ Ad illud Cypriani quod
+          <lb ed="#N" n="37"/>est. quod vnum solum non potest etc. Respondet Inno. dicens. quod predicunt
+          <lb ed="#N" n="38"/>vinum solum non posse offerri: determinari debet. quia recipit
+          ex<lb ed="#N" n="39" break="no"/>ceptionem hoc modo. non potest nisi fiat simpliter vel ignoranter.
+          <lb ed="#N" n="40"/>vel non potest id est non debet: quia non dicitur posse fieri quod de
+          iure<lb ed="#N" n="41" break="no"/>non fit. et fere idem dicit magister in senti. Uult igitur dicere quod
+          il<lb ed="#N" n="42" break="no"/>lud verbum Eypriani non potest: non simpliciter intelligitur: sed cum
+          de<lb ed="#N" n="43" break="no"/>terminatione. quia non potest nisi ex simplicitate vel
+          ignoran<lb ed="#N" n="44" break="no"/>tia fiat. Si enim fieret causa introducendi heresim: non potest.
+          <lb ed="#N" n="45"/>ex aqua igitur sola vel ex simila vel granis nullo modo
+          confici<lb ed="#N" n="46" break="no"/>potest. ex vino solo potest eo modo quo dictum est.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e248">
+          ⁋ Sed est
+          ne<lb ed="#N" n="47" break="no"/>peccatum irremissibile non apponere aquam. sicut videtur
+          velle<lb ed="#N" n="48" break="no"/>Cyprianus qui dicit. nobis non potest ignosci etc. Responsio.
+          si<lb ed="#N" n="49" break="no"/>cut est potentia prima: et potentia facilis. similiter quandoque negatur
+          <lb ed="#N" n="50"/>potentia prima id est potentia simpliciter. quandoque potentia facilis:
+          si<lb ed="#N" n="51" break="no"/>cut hic. vnde nobis non potest defacili id est non sine graui penitentia
+          <lb ed="#N" n="52"/>ignosci.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e264">
+          ⁋ Ad hoc quod obiicitur. vtrum dominus apposuerit aquam
+          <lb ed="#N" n="53"/>vel non. dicendum quod dominus apposuit.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e269">
+          ⁋ Ad illud quod arguitur.
+          Si<lb ed="#N" n="54" break="no"/>dominus apposuit: ergo necesse est apponenda. Dicendum quod dominus
+          in<lb ed="#N" n="55" break="no"/>stitnendo apposuit omnia que erant de necessitate efficacie
+          <lb ed="#N" n="56"/>et significationis. vnde hec appositio non est necessaria quantum ad
+          ef<lb ed="#N" n="57" break="no"/>ficaciam sacramenti: est tamen necessaria quantum ad plenitudinem
+          significa<lb ed="#N" n="58" break="no"/>tionis.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e282">
+          ⁋ Ex hoc patet responsio ad illud. quod quedam materialia
+          <lb ed="#N" n="59"/>sunt necessaria ad plenitudinem efficacie. et quantum ad hanc
+          ple<lb ed="#N" n="60" break="no"/>nitudinem non est aqua de necessitate sacramenti. Quedam sunt
+          ma<lb ed="#N" n="61" break="no"/>terialia necessaria ad plenitudinem significationis: sic est aqua
+          <lb ed="#N" n="62"/>de plenitudine. dominus autem apposuit aquam tanquam congruum
+          <lb ed="#N" n="63"/>propter significationem expressiorem: non tanquam necessarium simpliciter.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e295">
+          <lb ed="#N" n="64"/>⁋ Ad aliud quod obiicitur. quod illud quod signat aliquid quod est de
+          <lb ed="#N" n="65"/>necessitate sacramenti etc. Dicendum quod vnio membrorum corporis
+          <lb ed="#N" n="66"/>mistici significatur in vino: vt secdmum. tactum est. et per communus vnio
+          il<lb ed="#N" n="67" break="no"/>lorum cum capite. quia non significantur vt a cephala: sed
+          po<lb ed="#N" n="68" break="no"/>tius vt vnita. Expressius tamen signatur hec vnio per aquam
+          ad<lb ed="#N" n="69" break="no"/>mixtam. Aqua enim signat poplum. et adiunctio illius cum vino
+          si<lb ed="#N" n="70" break="no"/>gnat vnionem popli cum capite. Per vinum signatur corpus
+          <lb ed="#N" n="71"/>christi verum et corpus misticum. licet ergo significet vnionem
+          membro<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>rum cum capite: non tamen est de necessitate ipsius sacramenti. quia
+          <lb ed="#N" n="73"/>et hec vnio ipso vino signatur. Est tamen quantum ad expressam
+          si<lb ed="#N" n="74" break="no"/>gnificationem et plenam. hec enim expressio non est de necessitate: hoc
+          <lb ed="#N" n="75"/>de congruitate.
+        </p>
+        <p xml:id="v78d89-a6xj2o-d1e326">
+          ⁋ Ad aliud quod obiicitur. quod non est de
+          con<lb ed="#N" n="76" break="no"/>gruitate: quia insipida est etc. Dicendum quod ex hoc
+          congruita<lb ed="#N" n="77" break="no"/>tem habet: quia significat poplum qui est insipidus. et sapidus
+          <lb ed="#N" n="78"/>efficitur per vnionem cum christo qui est dei sapicentia. i. corum. i. sicut
+          <lb ed="#N" n="79"/>aqua cum miscetur vino.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

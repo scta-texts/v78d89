@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 16, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 16, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="124"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a48joj"><!-- q16m7 -->
+        <head xml:id="v78d89-a48joj-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-a48joj-Hd1e103" type="question-title">Si in articulo necessitatis posset aliquis baptizare simul et semel plures</head>
+        <p xml:id="v78d89-a48joj-d1e106">
+          <lb ed="#N" n="25"/>Membrum septimum
+        </p>
+        <p xml:id="v78d89-a48joj-d1e111">
+          <lb ed="#N" n="26"/>COnsequenter queritur si in articulo
+          necessita<lb ed="#N" n="27" break="no"/>tis posset aliquis baptizare simul et semel
+          plu<lb ed="#N" n="28" break="no"/>res. dicendo. Baptizo vos etc. et videtur quod non
+          <lb ed="#N" n="29"/>cum hec non sit forma ecclesie.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e122">
+          ⁋ Item ponatur
+          <lb ed="#N" n="30"/>quod aliqui nascantur gemelli ita coniuncti quod non possent
+          distin<lb ed="#N" n="31" break="no"/>gui. vt si haberent terga et ceruices vnita siue coniuncta: tunc opertet
+          <lb ed="#N" n="32"/>dicere baptizo vos: cum constaret illos diuersos esse.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e132">
+          ⁋ Responsio.
+          <lb ed="#N" n="33"/>fine priudicio. quotquot potest quis immergere simul vel
+          perfunde<lb ed="#N" n="34" break="no"/>re aqua: tot potest baptizare simul. sed nullo modo debet nisi in
+          <lb ed="#N" n="35"/>articulo mortis. nec est forma hec baptizandi aliena a foratia
+          <lb ed="#N" n="36"/>insinuata a domino: licet differens a forma communi instituta ab
+          <lb ed="#N" n="37"/>ecclesia: nihilominus quia forma ista nonn est ita extranea a foratia
+          <lb ed="#N" n="38"/>ecclesie vel a forma data a domino: quin aliquo modo indulgeatur in
+          <lb ed="#N" n="39"/>illa. dici potest quod in huiusmodi modo baptizandi saluatur forma de
+          <lb ed="#N" n="40"/>bita verborum.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e152">
+          ⁋ Si obiiceretur quod forma mutatur sicut cum dictur.
+          <lb ed="#N" n="41"/>nos baptizamus. dicendum quod non est verum. Nam sicut dicit
+          Pri<lb ed="#N" n="42" break="no"/>stianus. Nos non geminat singulare suum vt dicatur. ego et
+          <lb ed="#N" n="43"/>ego: sed ego et tu: vel ego et ille. et ideo si dicatur nos baptiza
+          <lb ed="#N" n="44"/>mus: aliquid dicitur quo forma variatur vnde forma mutatur.
+          <lb ed="#N" n="45"/>Sed cum dicitur ego baptizo vos: sensus est baptizo te et te. et ideo
+          <lb ed="#N" n="46"/>non est mutatio forme sed quedam geminatio. Nec hic
+          intro<lb ed="#N" n="47" break="no"/>ducitur persona alia nisi persona baptizans et baptizata. non
+          <lb ed="#N" n="48"/>sic est in forma alia cum dicitur: nos baptizamus: quia vt ex decnctis
+          <lb ed="#N" n="49"/>patet ibi fit mentio de persona aliqua que neque est baptizans neque
+          <lb ed="#N" n="50"/>baptizata. Ex predictis patet. quod vnus potest siml baptizare pluerea
+          <lb ed="#N" n="51"/>non plures vnum. et ratio est mutatio forme in vno non in alio.
+          <lb ed="#N" n="52"/>Potest nihilominus alia ratio assignari. quia non est necesse quod siml
+          <lb ed="#N" n="53"/>duo baptizent si vterque potest verbum dicerme et immergere sed
+          neces<lb ed="#N" n="54" break="no"/>sitas et vtilitas est quod simul duo baptizentur: quando sunt in
+          arti<lb ed="#N" n="55" break="no"/>culo mortis. Alia tamen ratio est. quia baptizans minister significat
+          <lb ed="#N" n="56"/>christum. vnde sicut in hoc quod vnus habeat plures vxores saluari
+          potu<lb ed="#N" n="57" break="no"/>it ratio sacramenti aliquo modo: quia christus est sponsus multarum animarum. sed
+          <lb ed="#N" n="58"/>non econuerso: sic in proposito est intelligendum. quia vnus baptizans
+          <lb ed="#N" n="59"/>est interius scilicet xhristus dominus: a quo est vnitas in sacramento baptismi.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e196">
+          <lb ed="#N" n="60"/>⁋ Ad aliud dici potest. quod si aliquorum partes principales ita essent
+          <lb ed="#N" n="61"/>coniuncte quod non intingi nec perfundi posset vnus sine alio: et
+          con<lb ed="#N" n="62" break="no"/>staret ibi esse duas personas: possent simul baptizari sub
+          for<lb ed="#N" n="63" break="no"/>ma predicta: vt diceretur baptizo vos etc.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e207">
+          <lb ed="#N" n="64"/>⁋ Membrumbctauum
+          <lb ed="#N" n="65"/>Onsequenter queritur vtrum quis posset baptizare
+          <lb ed="#N" n="66"/>sfeipisum. cum non sit alius simplciter vel qui velit in
+          arti<lb ed="#N" n="67" break="no"/>culo mortis. Quod sic: vidtur. cum virtus baptismi
+          at<lb ed="#N" n="68" break="no"/>tendatur in propriis verbis et elemento debito. Iuxta
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>islud verbum Augustinus. Accedit verbum ad elementum et fit sacramentum.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e225">
+          <lb ed="#N" n="70"/>⁋ Item alis videretur precludi via salutis alicui. cum dicitur. iii. Io.
+          <lb ed="#N" n="71"/>Nisi quis renatus f. etc.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e232">
+          ⁋ Item eo quod baptismus est sacramentum necessita
+          <lb ed="#N" n="72"/>tis. est indultum omnibus sine distinctione in necessitate posse
+          bapti<lb ed="#N" n="73" break="no"/>zare alium. quare igitur non eadem ratione indultum in tali necessitate
+          homini<lb ed="#N" n="74" break="no"/>posse baptizare se.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e242">
+          ⁋ Item vt vidtur velle Inno. in decretali quadam
+          <lb ed="#N" n="75"/>dicens. Sane intimasti quod quidam iudeus constitutus in articulo
+          mor<lb ed="#N" n="76" break="no"/>tis. cum inter iudeos tantum existeret: seipsum in aquam immersit. dicendo.
+          <lb ed="#N" n="77"/>Ego baptizo me in nomine po. et. f. et scilicecilicet et ptus si talis continuo
+          de<lb ed="#N" n="78" break="no"/>cessisset protinus euolasset ad patriam. ex hoc videtur quod baptizatus
+          <lb ed="#N" n="79"/>fuerat.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e255">
+          ⁋ Si diceretur quod baptizatus fuit baptismo flaminis. quia
+          <lb ed="#N" n="80"/>ibidem subiungitur. propter sacramenti fidem et si non propter sacramentum fidei hoc non
+          <lb ed="#N" n="81"/>videtur verum: quia baptizati tantum baptismo flaminis non statim
+          euo<lb ed="#N" n="82" break="no"/>lant.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e264">
+          ⁋ Responsio. quod nullus potest baptizare se. cuius vna est ratio. quod sicut
+          <lb ed="#N" n="83"/>alius est generans et genitus nullus enim generat se: sic alius debet esse
+          re<lb ed="#N" n="84" break="no"/>generans et regeneratus. Sinc enim in generatione carnali
+          disti<lb ed="#N" n="85" break="no"/>cte sunt persone ptur et filius: sic in generatione spirituali. Unde in
+          decre<lb ed="#N" n="86" break="no"/>tali Inno. dicitur. sicut in carnali generatione qua proles ex viro et
+          <lb ed="#N" n="87"/>femina nascitur: alius est qui carnaliter gignit et alius qui gignitur carna
+          <lb ed="#N" n="88"/>siter: sic in sacramentali generatione qua soboles ex spiritusancto et aqua
+          re<lb ed="#N" n="89" break="no"/>nascitur alius debet esse qui spiritualiter gigneret: et alius qui spiritualiter
+          <lb ed="#N" n="90"/>gigneretur. Sane cum corpus exterius siue cum cor interius baptiza
+          <lb ed="#N" n="91"/>rur. oportet vt vtrobique paternitas et filiatio valeat
+          inue<lb ed="#N" n="92" break="no"/>niri: quibus baptizans et baptizatus adinuicem rtferantur. Ilia
+          <lb ed="#N" n="93"/>est ratio. quia non posset seruari forma baptizandi instituta ab
+          ec<lb ed="#N" n="94" break="no"/>clesia iuxta formam traditam a domino Mar. vlti. habetur forma
+          tradi<lb ed="#N" n="95" break="no"/>ta a domino cum dicitur. Ite baptizantes eos. vbi insinuatur distinctio
+          <lb ed="#N" n="96"/>psonalis inter baptizantes et baptizatos. Unde dicitur in
+          predicta<lb ed="#N" n="97" break="no"/>decretali. cum inter baptizantem et baptizatum debeat esse discre
+          <lb ed="#N" n="98"/>tio: sicut ex verbis domini colligitur dicentis apostolis baptizate omnes
+          <lb ed="#N" n="99"/>gentes in nomine p. et scf. et scilicescilicet memoratus iudeus denuo est
+          bapti<lb ed="#N" n="100" break="no"/>zandus ab alio: vt ostendatur quod alius est qui baptizatur et alius qui
+          bapti<lb ed="#N" n="101" break="no"/>zat. Ad quod etiam designandum ipse christus non a seipso: sed a Iohe
+          <lb ed="#N" n="102"/>voluit baptizari.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e310">
+          ⁋ Ad hoc quod obicitur. quod accedit verbum ad
+          elemen<lb ed="#N" n="103" break="no"/>tum etc. Dicendum quod in casu tali non accedit verbum ad
+          elemen<lb ed="#N" n="104" break="no"/>tum: quia ibi verbum dicitur forma insinuata a domino et prescripta ab
+          <lb ed="#N" n="105"/>ecclesia: que est baptizo tem etc. non autem baptizo me. Nec est propter
+          <lb ed="#N" n="106"/>hoc via salutis preclusa: quia in articulo volens baptizari et si non
+          <lb ed="#N" n="107"/>habeat qui baptizet eum: si moritur: saluatur in fide habens baptismum
+          <lb ed="#N" n="108"/>flaminis quod supplet defectum in necessitate baptismi fluminis
+        </p>
+        <p xml:id="v78d89-a48joj-d1e326">
+          <lb ed="#N" n="109"/>⁋ Ad hoc quod queritur. quod indultum est in omnibus etc. dicendum quod non est
+          si<lb ed="#N" n="110" break="no"/>mile: quia cum illa indulgentia obseruari potest foratia baptismi: non
+          <lb ed="#N" n="111"/>autem posset cum alia. forma autem est. Ego baptizo te: non autem ego
+          <lb ed="#N" n="112"/>baptizo me.
+        </p>
+        <p xml:id="v78d89-a48joj-d1e337">
+          ⁋ Ad illud quod vltimo obicitur. quod baptizati
+          bapti<lb ed="#N" n="113" break="no"/>smo flaminis non euolant. Dicendum quod regulariter loquendo verum est.
+          <lb ed="#N" n="114"/>aliquando tamen sicut magnitudo contritionis sufficit ad deletionem
+          pene<lb ed="#N" n="115" break="no"/>debite pro culpa. Unde contritus si decederet statim euolaret: similiter
+          <lb ed="#N" n="116"/>magnitudo fidei sufficit baptizato baptismo flaminis cum
+          con<lb ed="#N" n="117" break="no"/>tritione ad deletionem reatus. Unde si sic baptizatus decederet
+          sta<lb ed="#N" n="118" break="no"/>tim euolaret. qualis forte fuit iudei fides de quo loquitur decretal
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

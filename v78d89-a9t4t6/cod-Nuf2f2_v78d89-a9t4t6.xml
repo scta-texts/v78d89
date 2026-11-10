@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 48, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 48, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="332"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9t4t6"><!-- q48m7 -->
+        <head xml:id="v78d89-a9t4t6-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-a9t4t6-Hd1e103" type="question-title">Utrum histriones posunt accedere ad sacram communionem</head>
+        <p xml:id="v78d89-a9t4t6-d1e106">
+          <lb ed="#N" n="86"/>Membrum septimum
+        </p>
+        <p xml:id="v78d89-a9t4t6-d1e111">
+          <lb ed="#N" n="87"/>COnsequenter queritur vtrum histriones posunt
+          acce<lb ed="#N" n="88" break="no"/>dere ad sacram communionem. Quod non: videtur de conse.
+          <lb ed="#N" n="89"/>di. ii. pro dilectione. ibi dicit Eyprianus. pro dile
+          <lb ed="#N" n="90"/>ctione tua consulendum me existimasti super frater
+          <lb ed="#N" n="91"/>kariffime quid mihi videatur de histrione et de mago illo qui
+          <lb ed="#N" n="92"/>apud nos constitutus: adhuc in artis sue dedecore perseuerat.
+          <lb ed="#N" n="93"/>et magister et doctor non erudiendorum sed perdendorum
+          puerorum<lb ed="#N" n="94" break="no"/>id quod male didicit ceteris quoque insinuat. an talibus
+          sa<lb ed="#N" n="95" break="no"/>cra communio cum ceteris christianis debeat dari: autm nobiscum
+          <lb ed="#N" n="96"/>debeat communicare. Puto nec maiestati diuine nec euange
+          <lb ed="#N" n="97"/>lice discipline congruere vt pudor et honor ecclesie tam
+          tur<lb ed="#N" n="98" break="no"/>pi et infami contagione fedetur.
+        </p>
+        <p xml:id="v78d89-a9t4t6-d1e140">
+          ⁋ Contra. de conse. di. ii. Si non
+          <lb ed="#N" n="99"/>ibi dicit Hyla. papa. Si non sunt tanta peccatam vt excommunicetur
+          <lb ed="#N" n="100"/>quis: nec se debet a medicina cornis et sansuinis domin ste
+          <lb ed="#N" n="101"/>igitur vt videtur. nec histriones nec alii peccatores debent sub
+          <lb ed="#N" n="102"/>trahere se a sacra communione: nisi tam graui inuectantur pec
+          <lb ed="#N" n="103"/>cato quod debeant excommunicari.
+        </p>
+        <p xml:id="v78d89-a9t4t6-d1e154">
+          ⁋ Responsio. quod nullus existens in
+          mo<lb ed="#N" n="104" break="no"/>tali scienter debet accedere sicut dictum est. sed siue sit histrio
+          <lb ed="#N" n="105"/>siue alio peccato notatus: post conuersionem ad deum relictis
+          pecca<lb ed="#N" n="106" break="no"/>tis suis non debet illi negari gratia siue beneficium commuionis
+          <lb ed="#N" n="107"/>Unde de conse. di. ii. ex concilio cartaginen. iii. Scenicis at.
+          <lb ed="#N" n="108"/>que histrionibus ceterisque personis huiusmodi vel apostatis reuersis
+          <lb ed="#N" n="109"/>vel conuersis ad deum: gratia vel reconciliatio non negetur.
+        </p>
+        <p xml:id="v78d89-a9t4t6-d1e170">
+          ⁋ A
+          <lb ed="#N" n="110"/>illud quod dicit Cyprianus. quod non congruit maiestati diuine
+          <lb ed="#N" n="111"/>vt pudor et honor ecclesie tam turpi et infami contagione
+          fede<lb ed="#N" n="112" break="no"/>tur. Dicendum quod Cyprianus loquitur de notorio et manifesto
+          i<lb ed="#N" n="113" break="no"/>fami cui non est impercienda sacra communio. et idem dicendum est
+          <lb ed="#N" n="114"/>de quolibet existenti in mortali crimine. et hoc sonant verba
+          <lb ed="#N" n="115"/>sua que sunt. puto non maiestati diuine congruere vt pudor et
+          <lb ed="#N" n="116"/>honor ecclesie tam turpi et infami contagione fedetur.
+          Infami<lb ed="#N" n="117" break="no"/>dicit: quia tales infames sunt.
+        </p>
+        <p xml:id="v78d89-a9t4t6-d1e190">
+          ⁋ Ad illud quod dicit Hyla.
+          pa<lb ed="#N" n="118" break="no"/>ba. quod si non sunt tanta peccata vt excommunicetur quis etc. Dicendum
+          <lb ed="#N" n="119"/>quod excommunicatio vne modo dicitur separatio a communione
+          sacramen<lb ed="#N" n="120" break="no"/>torum. vnde. xi. q. iii. Nullus sacerdotum. Alio modo dicitur separatio
+          <lb ed="#N" n="121"/>a communitate fidelium. vt. vi. qu. i. Ali qui illa. Tercio modo
+          <lb ed="#N" n="122"/>dicitur separatio a numero fidelium. separatio dico quantum ad meritum
+          <lb ed="#N" n="123"/>et hoc vltimo modo sumitur hic excommunicatio. et hoc modo
+          ali<lb ed="#N" n="124" break="no"/>quis existens in mortali est excommunicatus. Unde sic intelligitur
+          <lb ed="#N" n="125"/>verbum Hyla. scilicet si non sunt tanta peccata vt excommunicetur. i
+          <lb ed="#N" n="126"/>sit separatus a numero fidelium. merito dico: sic enim esse pec
+          <lb ed="#N" n="127"/>catum mortalem efficit excommunicatum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

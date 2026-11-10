@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 73, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 73, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="467"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adm064"><!-- q73m1 -->
+        <head xml:id="v78d89-adm064-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-adm064-Hd1e103" type="question-title">De ordine infusionis gratiae ad motum libro arbtro</head>
+        <p xml:id="v78d89-adm064-d1e106">
+          <lb ed="#N" n="31"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-adm064-d1e111">
+          <lb ed="#N" n="32"/>CIrca primum queritur primo de ordine
+          infusi<lb ed="#N" n="33" break="no"/>onis gratie ad motum libro arbtro. Secundo ad
+          contri<lb ed="#N" n="34" break="no"/>tionem. Tercio ad peccati expulsionem.
+        </p>
+        <div xml:id="v78d89-adm064-Dd1e120">
+          <head xml:id="v78d89-adm064-Hd1e122">Articulus 1</head>
+          <p xml:id="v78d89-adm064-d1e124">
+            <lb ed="#N" n="35"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-adm064-d1e129">
+            <lb ed="#N" n="36"/>QUeritur ergo primo an infusio gratie precedat motum lib.
+            <lb ed="#N" n="37"/>arto. Quod sic: videtur. quia motus libro arbtro. in deum non est
+            meri<lb ed="#N" n="38" break="no"/>torius nisi ipsum libro arbto. sit gratia informatum. ergo si
+            mo<lb ed="#N" n="39" break="no"/>tusli. arbtio. de quo hic intenditur est meritorius. quod patet quia aliter non
+            opera<lb ed="#N" n="40" break="no"/>retur ad iustificationem: om quod sit a libro arbtio. gratia informato. ergo
+            in<lb ed="#N" n="41" break="no"/>fusio gratie precedit motum huiusmodi.
+          </p>
+          <p xml:id="v78d89-adm064-d1e145">
+            ⁋ Contra. adulto iustificando
+            <lb ed="#N" n="42"/>non infunditur gratia nisi moueatur in deum motu cognitionis et
+            affe<lb ed="#N" n="43" break="no"/>ctionis. Nisi enim recognoscat deum peccatorum indultorem. et etiam speret
+            <lb ed="#N" n="44"/>aliquo modo ab eo obtinere veniam: non infunditur ei gratia
+            gra<lb ed="#N" n="45" break="no"/>tumfaciens. ergo motus libr. arbtro. precedit gratie infusionem.
+          </p>
+          <p xml:id="v78d89-adm064-d1e156">
+            ⁋ Item quando aliqua
+            <lb ed="#N" n="46"/>duo concurrunt ad aliquod vnum complendum. quorum vnum est
+            materi<lb ed="#N" n="47" break="no"/>ale aliud formale. prius natura est illud quod est materiale: quam
+            il<lb ed="#N" n="48" break="no"/>lud quod est formale: sed gratia et motus libro. arbtro. concurrunt ad
+            mani<lb ed="#N" n="49" break="no"/>festationem impii. et gratia est formale: motus libr. arbtro. materiale. ergo
+            <lb ed="#N" n="50"/>prius est motus libo. arbtio. quam gratia.
+          </p>
+          <p xml:id="v78d89-adm064-d1e170">
+            ⁋ Item motus libro. arbtio. in deum est virtutis
+            <lb ed="#N" n="51"/>iusticie hoc enim exigit iusticia quod anima moueatur in deum. et quantum ad
+            <lb ed="#N" n="52"/>cognitiuam et affectiuam et in omni statu. Sed iusticia et gratia simul
+            <lb ed="#N" n="53"/>sunt. nec vnum est sine alio: ergo silis est infusio gratie cum motu libro. arbto.
+            <lb ed="#N" n="54"/>Responsio. quod motus libo. arbt. quandoque est a gratia gratisdata: quandoque a
+            <lb ed="#N" n="55"/>gratia gratum faciente. quandoque enim mouetur peccator in deum recogitan
+            <lb ed="#N" n="56"/>do dei misericordiam et quantum ad indulgentiam peccatorum et quantum
+            <lb ed="#N" n="57"/>ad munificentiam aliorum beneficiorum. et etiam quantum ad erectionem
+            <lb ed="#N" n="58"/>per spem: et hoc ex gratia gratisdata. et ex hac recogitatione et
+            <lb ed="#N" n="59"/>erectione preparat se ad gratiam suscipiendam. motus autem huiusmodi non
+            <lb ed="#N" n="60"/>est ille qui est vnum de quatuor que dicuntur concurrere ad
+            iustificatio<lb ed="#N" n="61" break="no"/>nem impii: se potius illa qui est informatus gratia gratu faciente. Unde
+            <lb ed="#N" n="62"/>illum precedit infusio gratie adminus prioritate nature.
+          </p>
+          <p xml:id="v78d89-adm064-d1e199">
+            ⁋ Ad
+            il<lb ed="#N" n="63" break="no"/>lud ergo quod obiicitur quod adulto iustificando non infunditur gratia
+            <lb ed="#N" n="64"/>nisi moueatur in deum etc. dicendum quod hoc est verum: sed iste motus alius
+            <lb ed="#N" n="65"/>est ab illo qui est vnum de quatuor predictis.
+          </p>
+          <p xml:id="v78d89-adm064-d1e208">
+            ⁋ Ad illud quod obiicitur.
+            <lb ed="#N" n="66"/>quod materiale precedit formale etc. dicendum quod motus libro arbtro. qui est vnum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="67"/>de quatuor predictis non est ita materiale quin sit formale. non enim est
+            <lb ed="#N" n="68"/>omnino materialis cum sit gratuitus gratia gratum faciente. Non enim
+            <lb ed="#N" n="69"/>nominat solummodo esse motus: sed motus gratuiti. Pre. eo quod
+            concer<lb ed="#N" n="70" break="no"/>nit esse motus cum informatione gratie: natura subsequitur
+            infusio<lb ed="#N" n="71" break="no"/>nem gratie.
+          </p>
+          <p xml:id="v78d89-adm064-d1e226">
+            ⁋ Ad vltimum dicendum. quod licet simil sint gratia et iusticia: non
+            <lb ed="#N" n="72"/>tamen motus iusticie et gratia. vt enim tactum est. gratia est viuificans ipsam
+            <lb ed="#N" n="73"/>animam in se: iusticia est ipsam ordinans ad actus in suis viribus. vnde
+            <lb ed="#N" n="74"/>licet simil sint tempore: non simul sunt natura. sicut nec simul sunt
+            pri<lb ed="#N" n="75" break="no"/>mus actus qui est vita: et alii actus qui sunt vita mediante. Pre. non
+            <lb ed="#N" n="76"/>intelligo quod sit motus iusticie nisi imparatiue: immo potius
+            <lb ed="#N" n="77"/>est a fide eliciente: cuius est proprie assentire veritati.
+          </p>
+        </div>
+        <div xml:id="v78d89-adm064-Dd1e244">
+          <head xml:id="v78d89-adm064-Hd1e246">Articulus 2</head>
+          <p xml:id="v78d89-adm064-d1e248">
+            <lb ed="#N" n="78"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-adm064-d1e253">
+            <lb ed="#N" n="79"/>COnsequenter queritur de ordine infusionis gratie
+            <lb ed="#N" n="80"/>ad contritionem. et videtur quod infusio gratie sit prior cum
+            <lb ed="#N" n="81"/>contritio sit motus meritorius: et hoc mediante gratia
+            <lb ed="#N" n="82"/>gratum faciente.
+          </p>
+          <p xml:id="v78d89-adm064-d1e264">
+            ⁋ Item in omni genere actus generale est quod actus primus
+            <lb ed="#N" n="83"/>prius est quam actus sequens. sicut scientia prius est quam considerare. sed
+            pri<lb ed="#N" n="84" break="no"/>mus actus gratie est informare siue gratificare: actus sequens est
+            <lb ed="#N" n="85"/>mouere ad dolendum ex quo est contritio. est enim contritio a gratia et li.
+            <lb ed="#N" n="86"/>ar. ergo prius est infusio gratie quam contritio.
+          </p>
+          <p xml:id="v78d89-adm064-d1e275">
+            ⁋ Item in omni genere entis
+            <lb ed="#N" n="87"/>creati prius est esse quom moueri. propter quod dicitur quod angeli non simul
+            <lb ed="#N" n="88"/>fuerunt mali et creati. quia prius oportuit quod haberent esse quam
+            mo<lb ed="#N" n="89" break="no"/>uerentur bene vel male. ergo cum in esse ipsius gratie sit ipsam esse:
+            pri<lb ed="#N" n="90" break="no"/>us erit ipsa in anima quam per ipsam animam moueatur. sed contritio est
+            mo<lb ed="#N" n="91" break="no"/>tus a gratia: ergo etc.
+          </p>
+          <p xml:id="v78d89-adm064-d1e289">
+            ⁋ Contra. in perpetratione peccati sunt duo.
+            con<lb ed="#N" n="92" break="no"/>uersio ad bonum secundum nunc: et auersio a bono simpliciter et eter
+            <lb ed="#N" n="93"/>no. ratione delectationis ex conuersione ad bonum vt nunc: requiritur
+            <lb ed="#N" n="94"/>contritio in iustificatione. ratione auersionis a bono simpliciter:
+            re<lb ed="#N" n="95" break="no"/>quiritur gratia. sed in perpetratione peccati prior est conuersio. quia est causa
+            <lb ed="#N" n="96"/>auersionis. ergo in iustificatione prius debet esse illud quod respondet scilicet
+            <lb ed="#N" n="97"/>contritio.
+          </p>
+          <p xml:id="v78d89-adm064-d1e305">
+            ⁋ Item secus est de originali peccato et actuali. quia hoc pec
+            <lb ed="#N" n="98"/>catum est contractum actu alieno: illud est perpetratum actu proprio. sed
+            <lb ed="#N" n="99"/>quia originalis culpe non est causa actus proprius sed alienus. propter hoc
+            il<lb ed="#N" n="100" break="no"/>lud quod est primum et pricipale remedium est ab alio: similiter
+            vi<lb ed="#N" n="101" break="no"/>detur quod primum et principale remedium peccati perpetrati actu pro
+            <lb ed="#N" n="102"/>prio debet esse ab illo qui est perpetrator ipsius. hoc autem remedium est
+            con<lb ed="#N" n="103" break="no"/>tritio potissime: et ita debet esse prius ordine etc.
+          </p>
+          <p xml:id="v78d89-adm064-d1e321">
+            ⁋ Item si infusio
+            <lb ed="#N" n="104"/>gratie precederet ipsam contritionem. cum impossibile sit aliquem habem
+            <lb ed="#N" n="105"/>gratiam quin sit iustus: ergo possit iustificari sine omni contritione. ergo
+            con<lb ed="#N" n="106" break="no"/>tritio non esset necessaria ad salutem. hoc autem falsum est. ergo etc.
+          </p>
+          <p xml:id="v78d89-adm064-d1e330">
+            <lb ed="#N" n="107"/>⁋ Item videtur quod neutrum precedat. quia cum impii iustificatio sit in
+            <lb ed="#N" n="108"/>instanti et hec omnia requiruntur ad iustificationem impii. et in in
+            <lb ed="#N" n="109"/>stanti non est prius et posterius: ergo etc.
+          </p>
+          <p xml:id="v78d89-adm064-d1e339">
+            ⁋ Item si diceretur quod verum
+            <lb ed="#N" n="110"/>est quod simul sunt scilicet natura non tempore. Contra. si hec simul sunt
+            <lb ed="#N" n="111"/>nec potest anima sanari siue gratificari nisi operans. nec operari
+            ni<lb ed="#N" n="112" break="no"/>si gratificata: meritorie dico. tunc est sibi preclusa via salutis
+            <lb ed="#N" n="113"/>cum enim neutrum per se possit nec per se potest operari nec sanari nec rato
+            <lb ed="#N" n="114"/>tificari: sed numquam dum est in via precluditur alicui via salutis: ergo
+            ne<lb ed="#N" n="115" break="no"/>cesse est alterum istorum non esse verum scilicet vel non sanari nisi operans:
+            <lb ed="#N" n="116"/>vel non operari nisi sanata. Sed constat quod non potest
+            operari<lb ed="#N" n="117" break="no"/>meritorie nisi gratificata: ergo non operans potest
+            gratifi<lb ed="#N" n="118" break="no"/>cari. ergo prius tempore potest esse infusio gratie quam motus
+            con<lb ed="#N" n="119" break="no"/>tritionis.
+          </p>
+          <p xml:id="v78d89-adm064-d1e363">
+            ⁋ Responsio. quod infusio gratie et contritio simul sunt
+            <lb ed="#N" n="120"/>tempore: gratia tamen prior est natura. Nec concludit prima
+            ra<lb ed="#N" n="121" break="no"/>tio quod gratia sit prior tempore: sed quod prior. et hoc verum est
+            pri<lb ed="#N" n="122" break="no"/>oritate nature.
+          </p>
+          <p xml:id="v78d89-adm064-d1e373">
+            ⁋ Ad aliud quod obiicitur quod prius est actus
+            <lb ed="#N" n="123"/>primus quam secundus etc. dicendum quod est agens naturaliter: et
+            <lb ed="#N" n="124"/>electiue siue per deliberationem. si ergo dicatur actus
+            na<lb ed="#N" n="125" break="no"/>turalis primus. actus electiuus vel deliberatiuus
+            secun<lb ed="#N" n="126" break="no"/>dus: generaliter verum est quod est actus prior primus quam secum
+            <lb ed="#N" n="127"/>dus. propter quod dicitur. quod necesse est ponere aliquam morulam
+            <lb ed="#N" n="128"/>inter lapsum angelice nature qui fuit per motum
+            volunta<lb ed="#N" n="129" break="no"/>tis: et esse vel creationi ipsorum. sed in illis que solum agunt
+            <lb ed="#N" n="130"/>vt nature sunt simul tempore: potest esse actus primus ipsorum
+            <lb ed="#N" n="131"/>et secundus. et sic est de gratia cuius est primus actus in
+            <lb ed="#N" n="132"/>esse: secundus culpam expellere. Exemplum est de luce que
+            si<lb ed="#N" n="133" break="no"/>mul aduenit aeri et expellit tenebras. anima etiam rationalis
+            <lb ed="#N" n="134"/>si haberet aliquas operationes naturales in corpore in
+            ipsa<lb ed="#N" n="135" break="no"/>sui infusione que facet ad sui receptionem in corpore: posset dici
+            <pb ed="#N" n="468"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quod simul esset suum infundi in corpore et huiusmodi opeationes. opera
+            <lb ed="#N" n="2"/>tiones tamen ipsius inquantum est electiua et deliberatiua necessario
+            <lb ed="#N" n="3"/>secuntur in tempore. gratia autem solum est agens vt natura: ideo non valet
+            <lb ed="#N" n="4"/>in proposito ratio.
+          </p>
+          <p xml:id="v78d89-adm064-d1e417">
+            ⁋ Ad illud quod obiicitur quod prius est esse quom
+            <lb ed="#N" n="5"/>moueri etc. dicendum quod simul potest aliquid esse et moueri
+            motu<lb ed="#N" n="6" break="no"/>naturali. sicut si lapis crearetur superius: simul posset esse et
+            <lb ed="#N" n="7"/>deorsum tendere. ideo cum gratia solum agat naturaliter in anima
+            <lb ed="#N" n="8"/>expellendo culpam sicut lux expellendo tenebram ab aere.
+            si<lb ed="#N" n="9" break="no"/>mul cum est hunc actum habet. Aliter est moueri scilicet motu
+            vo<lb ed="#N" n="10" break="no"/>luntatis et deliberationis. et hoc modo necesse est quod prius habe
+            <lb ed="#N" n="11"/>at res esse quam voluntarie et per electionem ad aliquid moueatur.
+            <lb ed="#N" n="12"/>et sic fuit motus angeli per quem cecidit. ideo ibi est ponere
+            ne<lb ed="#N" n="13" break="no"/>cessario aliquam morulam inter esse et casum. Ex his patet
+            re<lb ed="#N" n="14" break="no"/>sponsio ad illud quod solicet queri. quare angelus non potuit
+            si<lb ed="#N" n="15" break="no"/>mul esse et moueri sicut gratia potest simul esse et mouere
+            subie<lb ed="#N" n="16" break="no"/>ctum. non enim est simile de gratia que simul agit vt natura. et
+            <lb ed="#N" n="17"/>angelo qui voluntarie mouetur et per electionem.
+          </p>
+          <p xml:id="v78d89-adm064-d1e448">
+            ⁋ Ad illa qua
+            <lb ed="#N" n="18"/>obiiciuntur pro alia parte. et primo quod conuersio precedit
+            auer<lb ed="#N" n="19" break="no"/>sionem etc. Dicendum quod alius est ordo in constructione rei et
+            de<lb ed="#N" n="20" break="no"/>structione. Illud enim quod est vltimum in constructione debet esse
+            pri<lb ed="#N" n="21" break="no"/>mum in destructione. vt patet in constructione et destructione
+            do<lb ed="#N" n="22" break="no"/>mus: si ordinate procedatur. Unde pholus. quod vltimum est in
+            genera<lb ed="#N" n="23" break="no"/>tione primum est in resolutione. vnde in expulsione prius debet esse
+            <lb ed="#N" n="24"/>illud quod respondet auersioni scilicet gratie infusio. Preterea.
+            <lb ed="#N" n="25"/>a gratia habent alia quod sunt cooperatiua iustificationi: propter quod
+            <lb ed="#N" n="26"/>conuenit quod sit prima.
+          </p>
+          <p xml:id="v78d89-adm064-d1e470">
+            ⁋ Ad aliud quod obiicitur. quod primum
+            re<lb ed="#N" n="27" break="no"/>medium actualis peccati debet esse actus noster etc. dicendum quod hoc
+            <lb ed="#N" n="28"/>non est verum. quia cum hominis sit spiritus vadens et non rediens.
+            <lb ed="#N" n="29"/>si debeat spiritus redire: oportet quod hoc sit mediante gratia.
+            <lb ed="#N" n="30"/>non enim potest peccator quantum est de se sine adminiculo
+            gra<lb ed="#N" n="31" break="no"/>tie in aliquo cooperari proprie iustificationi. In omni enim opere
+            <lb ed="#N" n="32"/>cooperatorio oportet quod gratia preueniat. et ita motum contriti
+            <lb ed="#N" n="33"/>onis oportet quod gratia preueniat saltem prioritate nature.
+          </p>
+          <p xml:id="v78d89-adm064-d1e488">
+            <lb ed="#N" n="34"/>⁋ Ad illud quod obiicitur. quod si infusio gratie precederet
+            con<lb ed="#N" n="35" break="no"/>tritionem contingeret impium fieri iustum sine contritione. dicendum quod
+            <lb ed="#N" n="36"/>hoc sequeretur si infusio precederet tempore non natura tantum. hoc enim
+            <lb ed="#N" n="37"/>supposito sequeretur quod contritio non esset necessaria ad
+            iusti<lb ed="#N" n="38" break="no"/>ficationem impii. vt patet intuenti.
+          </p>
+          <p xml:id="v78d89-adm064-d1e501">
+            ⁋ Ad illud quod obiicitur.
+            <lb ed="#N" n="39"/>quod neutrum precedit quia iustificatio fit in instanti etc. Di
+            <lb ed="#N" n="40"/>cendum. quod neutrum tempore precedit sed natura solum.
+          </p>
+          <p xml:id="v78d89-adm064-d1e509">
+            ⁋ Ad illud
+            <lb ed="#N" n="41"/>quod obiicitur. quod non potest operari nisi sanata etc. dicendum quod
+            <lb ed="#N" n="42"/>reuera ad hoc quod operetur scilicet meritorie om quod sit sanata siue
+            <lb ed="#N" n="43"/>gratificata: sed non om quod sanata sit prius tempore et postea
+            ope<lb ed="#N" n="44" break="no"/>tur. immo potest simul sanari et operari. quia duplex
+            habet<lb ed="#N" n="45" break="no"/>opus. quoddam momentaneum et in in stanti ipsius
+            iustifi<lb ed="#N" n="46" break="no"/>cationis. et de isto verum est quod potest simul operari et sanari. de
+            <lb ed="#N" n="47"/>operibus autem sequentibus elicitis ab habitibus virtutum
+            ali<lb ed="#N" n="48" break="no"/>ter est. quia de illis necesse est prius tempore sanari et postea opera
+            <lb ed="#N" n="49"/>ri. Unde cum dico. quod operatur sanata: magis sumitur hoc
+            <lb ed="#N" n="50"/>quod dico sanata nominaliter quom perticipialiter. quia simul est
+            <lb ed="#N" n="51"/>gratia sanans et illud opus. nec prius est anima sanata que
+            <lb ed="#N" n="52"/>sic operetur. et est illud opus meritorium non a gratia tempore
+            prece<lb ed="#N" n="53" break="no"/>dente vt sunt opera postea elicita: sed concomitante.
+          </p>
+        </div>
+        <div xml:id="v78d89-adm064-Dd1e541">
+          <head xml:id="v78d89-adm064-Hd1e543">Articulus 3</head>
+          <p xml:id="v78d89-adm064-d1e545">
+            <lb ed="#N" n="54"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-adm064-d1e550">
+            <lb ed="#N" n="55"/>COnsequenter queritur. vtrum gratia precedat pec
+            <lb ed="#N" n="56"/>cati expul sionem: de hoc probleumate tactum est supra
+            <lb ed="#N" n="57"/>vbi actum est de gratia penitentie. vbi dictum est. quod
+            <lb ed="#N" n="58"/>gratia potest considerani dupliciter. Uno modo vt est tollens
+            vi<lb ed="#N" n="59" break="no"/>cia siue peccata ab anima. alio modo vt sui inherentia
+            perfi<lb ed="#N" n="60" break="no"/>cit animam et est habitus anime. vt autem est tollens peccata: sic
+            na<lb ed="#N" n="61" break="no"/>tura precedit infusio gratie ablationem culpe. inquantum considera
+            <lb ed="#N" n="62"/>tur vt habitus perficiens animam penitentis: sic expulsio vicii prem
+            <lb ed="#N" n="63"/>cedit infusionem gratie.
+          </p>
+          <p xml:id="v78d89-adm064-d1e572">
+            ⁋ Contra hoc opponunt quidam sic. quando
+            ali<lb ed="#N" n="64" break="no"/>quid agens inducit formam suam in aliquo subiecto vel materia. vt
+            <lb ed="#N" n="65"/>informantem illam vel vt agentem in illam: om quod agenes et patiens commu
+            <lb ed="#N" n="66"/>nicent in materia. cuiusmodi materia potest deferre formam
+            il<lb ed="#N" n="67" break="no"/>lius agentis. sicut patet quando ignis agit in aera vel in aquam. prius est in
+            il<lb ed="#N" n="68" break="no"/>lis forma ignis vt agens: quam vt informans. quia materia ae
+            <lb ed="#N" n="69"/>ris vel aque que communis est etiam igni potest deferre formam ignis ipsam
+            <lb ed="#N" n="70"/>disponentem ad sui susceptionem vt est informans: sced non sic est in
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>proposito. Non enim gratia que est agenes in anima. cum ipsa anima habet
+            con<lb ed="#N" n="72" break="no"/>municantiam in materia. ideo etc.
+          </p>
+          <p xml:id="v78d89-adm064-d1e596">
+            ⁋ Item gratia que ad iustificationem
+            <lb ed="#N" n="73"/>infunditur constat quod non est nihil: ergo est aliquid. si sit non est in
+            nvi<lb ed="#N" n="74" break="no"/>lo. ergo est in aliquo. non nisi in illo in quo agit. quia deus ad
+            iusu<lb ed="#N" n="75" break="no"/>ficationem anime non agit per aliud quam per gratiam. ergo est in anima. sed est in
+            <lb ed="#N" n="76"/>illa non sicut quedam pars. et impossibile est esse sine eo in quo est
+            <lb ed="#N" n="77"/>gest ibi sicut accidens. et non nisi vt qualitas. quod patet inducendo
+            <lb ed="#N" n="78"/>in omnibus generibus accidentis. sed qualitas est secundum quam quales
+            <lb ed="#N" n="79"/>dicimur. ergo necesse est si intelligatur gratia in anima. vt
+            in<lb ed="#N" n="80" break="no"/>telligatur vt informans.
+          </p>
+          <p xml:id="v78d89-adm064-d1e617">
+            ⁋ Has rationes concedunt quidam
+            pone<lb ed="#N" n="81" break="no"/>do distinctionem supradictam noullam esse. Aliis autem videtur aliter
+            di<lb ed="#N" n="82" break="no"/>cendum scilicet quod ablatio culpe potest esse tripliciter. vel quantum ad rese
+            <lb ed="#N" n="83"/>cationem actuum exteriorum. vel quantum ad ablationem culpe vet
+            <lb ed="#N" n="84"/>reatus pene eterne. vel quantum ad absolutionem a pena temporaa.
+            <lb ed="#N" n="85"/>dicunt ergo quod ablatio peccati quantum ad primum potest esse ante omnem
+            <lb ed="#N" n="86"/>contritionem et gratiam gratum facientem. quia per gratiam gratisdatam
+            <lb ed="#N" n="87"/>potest quis detestari peccatum suum et actum peccati dimittere.
+            <lb ed="#N" n="88"/>Quatum autem ad secundum quod est remissio ipsius culpe vel
+            macn<lb ed="#N" n="89" break="no"/>le peccati et reatus eterni: est immediate post infusionem
+            gra<lb ed="#N" n="90" break="no"/>tie secundum ordinem nature: simul autem sunt tempore. Et dicebant aliqui
+            <lb ed="#N" n="91"/>quod huiusmodi remissionem faciebat deus sine infusione gratie create.
+            <lb ed="#N" n="92"/>propter istam auctoritatem. Isa. xliii. Ego sum qui deleo
+            iniquita<lb ed="#N" n="93" break="no"/>tes tuas propter me. et dicit discretiue ego sum: ad
+            signifi<lb ed="#N" n="94" break="no"/>candum quod nihil aliud nisi ipse delet iniquitates nostras. Quad
+            <lb ed="#N" n="95"/>ad tercium quod est remissio pene temporalis sequentis. contritio istam
+            <lb ed="#N" n="96"/>remissionem precedit. et ad hoc est proprie vt dicunt. Unde tanta potest
+            <lb ed="#N" n="97"/>esse contritio quod pena debita temporalis dimittetur. vnde sic ordinant
+            <lb ed="#N" n="98"/>ista quatuor que in iustificatione concurrunt. quod primoen
+            infu<lb ed="#N" n="99" break="no"/>sio gratie. deinde remissio culpe et reatus pene eterne.
+            ter<lb ed="#N" n="100" break="no"/>cio contritio. quarto remissio pene temporalis. Sed secundum hoc
+            con<lb ed="#N" n="101" break="no"/>tritio non est necessaria ad iustificationem impii. Pre. licet
+            so<lb ed="#N" n="102" break="no"/>lus deus auctoritate et efficacia culpas deleat: non est inco
+            <lb ed="#N" n="103"/>ueniens aliquid sibi cooperari vt gratiam infusam et libro. ar.
+            coo<lb ed="#N" n="104" break="no"/>perando. non solum in consentiendo actui gratie: sed etiam deiestando
+            vee<lb ed="#N" n="105" break="no"/>catum et delendo. et hoc est per actum contritionis. videtur ergo quod distin
+            <lb ed="#N" n="106"/>ctio pretacta sit sustinenda.
+          </p>
+          <p xml:id="v78d89-adm064-d1e676">
+            ⁋ Ad illud quod obiicitur ouod cum
+            idu<lb ed="#N" n="107" break="no"/>citur forma aliqua in materia vel in subiecto: om que agens et
+            <lb ed="#N" n="108"/>patiens communicent in materia. dicendum quod hoc est verum tanm actione
+            <lb ed="#N" n="109"/>nature non in actionibus gratuitis siue supra naturam. quando enim
+            <lb ed="#N" n="110"/>necessario docet animam aliquid necessarium ad vitam. deledo
+            <lb ed="#N" n="111"/>ignorantiam et imprimendo scletiam: non oportet quod anima et vnctio
+            <lb ed="#N" n="112"/>communem habent materiam. Pre. gratia infusa non inducit
+            feran<lb ed="#N" n="113" break="no"/>suam in anima. immo deus illam infundendo perficit animam formaliter
+            <lb ed="#N" n="114"/>Pre. quod dicitur quod gratia agit delendo culpam: modus loquendi est.
+            <lb ed="#N" n="115"/>gratia enim non agit proprie loquendo ad deletionem culpe.
+            sedsua<lb ed="#N" n="116" break="no"/>presentia in anima: omnis culpa mortalis annihilatur.
+          </p>
+          <p xml:id="v78d89-adm064-d1e700">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="117"/>obiicitur. quod gratia est in anima vt accidens et ita denomiat illam etc.
+            <lb ed="#N" n="118"/>Dicendum quod hoc verum est. In eodem enim instanti culpam expellit
+            <lb ed="#N" n="119"/>et animam informat: licet prius natura culpam expellat quam animam
+            <lb ed="#N" n="120"/>informet.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

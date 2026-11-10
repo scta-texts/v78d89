@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 58, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 58, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="389"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-abksar"><!-- q58m2 -->
+        <head xml:id="v78d89-abksar-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-abksar-Hd1e103" type="question-title">De necessitate gratiae</head>
+        <p xml:id="v78d89-abksar-d1e106">
+          <lb ed="#N" n="50"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-abksar-d1e111">
+          <lb ed="#N" n="51"/>COnsequenter queritur de necessitate gratie.
+          <lb ed="#N" n="52"/>Et queritur si voluntas penitendi potest esse
+          <lb ed="#N" n="53"/>sine gratia vel etiam faciendi aliquid bonum.
+          <lb ed="#N" n="54"/>Quod sic: videtur. quia nihil est sic in potestate
+          <lb ed="#N" n="55"/>nostra. sicut voluntas. Si autem voluntas est in potestate
+          <lb ed="#N" n="56"/>nostra: possumus et velle bona et mala. Si enim non posse
+          <lb ed="#N" n="57"/>mus velle a nobis nisi hoc tantum vel illud: qumo esset verum quod
+          <lb ed="#N" n="58"/>dicit augustinus quod nihil est ita in potestate nostra.
+        </p>
+        <p xml:id="v78d89-abksar-d1e131">
+          ⁋ Item
+          Ans<lb ed="#N" n="59" break="no"/>helmus. Uoluntas est instrumentum seipisum mouens. sicut igitur
+          <lb ed="#N" n="60"/>vtens instrumento potest conuertere vsum insfrumenti vel
+          <lb ed="#N" n="61"/>ad hoc vel ad illud: similiter et voluntas potest conuertere ad vel
+          <lb ed="#N" n="62"/>le bonum vel malum. et ita ad penitendum vel non penitendum.
+        </p>
+        <p xml:id="v78d89-abksar-d1e143">
+          <lb ed="#N" n="63"/>⁋ Item zach. i. Co nuertimin ad me et ego conuertar ad
+          <lb ed="#N" n="64"/>vos. Ecce quod monemur ad conuertendum ad deum vt conuerta
+          <lb ed="#N" n="65"/>tur ad nos. igitur vt videtur possumus conuerti ad dominum
+          <lb ed="#N" n="66"/>antequam conuertatur ad nos. Si autem non est conuersio ad deum. ni
+          <lb ed="#N" n="67"/>si existente vel coexistente volntate penitendi: igitur etc.
+        </p>
+        <p xml:id="v78d89-abksar-d1e156">
+          ⁋ Item
+          <lb ed="#N" n="68"/>Origen. super leuiticum. Incipere nostum est sed perficere a deo est. sed
+          <lb ed="#N" n="69"/>incipere est per bonam voluntatem siue volendo bonum.
+        </p>
+        <p xml:id="v78d89-abksar-d1e163">
+          ⁋ Item ezech.
+          <lb ed="#N" n="70"/>iii. Aperui os meum et cibauit me volumine isto. glo. aperto
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>ore dominus cibos largitur. vt initia voluntatis in nobis sint.
+          <lb ed="#N" n="72"/>perfectionem beatitudinis a domino consequimur. Initia autem
+          <lb ed="#N" n="73"/>bone voluntatis sunt in volendo bona: igitur etc. Contra
+          <lb ed="#N" n="74"/>ii. corum. iii. Non sumus sufficientes aliquid cogitare ex nobis
+          <lb ed="#N" n="75"/>quasi ex nobis. multo fortius nec velle. glo. Quis non videt
+          <lb ed="#N" n="76"/>prius esse cogitare quam credere. quippe nullus credit aliquid
+          <lb ed="#N" n="77"/>nisi prius cogitauerit esse credendum.
+        </p>
+        <p xml:id="v78d89-abksar-d1e185">
+          ⁋ Item hiero. de filio
+          <lb ed="#N" n="78"/>prodigo reuertenti Luc. xv. Nec illam voluntatem redeundi
+          ha<lb ed="#N" n="79" break="no"/>beret: nisi eam in occulto pius ei pater inspirasse.
+        </p>
+        <p xml:id="v78d89-abksar-d1e192">
+          ⁋ Item
+          <lb ed="#N" n="80"/>Ro. vii. velle mihi adiacet. glo. bede. Non habitat in
+          me<lb ed="#N" n="81" break="no"/>bonum: quia nec bonum velle nec bonum perficere. Ex his patet
+          <lb ed="#N" n="82"/>quod nec velle penitere nec aliquiod bonum possumus a nobis.
+        </p>
+        <p xml:id="v78d89-abksar-d1e201">
+          <lb ed="#N" n="83"/>Responsio. quod velle bonum meritorium siue gratuitum non
+          <lb ed="#N" n="84"/>possumus nisi adminiculo gratie. Natura enim nostra ita cur
+          <lb ed="#N" n="85"/>ua effecta est. quod subleuari non potest ad bonum gratuitum
+          appe<lb ed="#N" n="86" break="no"/>tendum. nisi adminiculo eius quod supra est. Unde Treno. iiii.
+          <lb ed="#N" n="87"/>Conuerte nos domine ad te et conuertemur. Glo. ibi. Gratia
+          <lb ed="#N" n="88"/>vocantis precedit et excitat libertatem voluntatis. et post. Est
+          <lb ed="#N" n="89"/>autem quoddam velamen nostre infirmitatis sensibus nostris ob
+          <lb ed="#N" n="90"/>lectum. quod nisi illuminatione dei fuerit remotum:
+          con<lb ed="#N" n="91" break="no"/>uerti non valemus. hec glo. EtAugustinus. de gratia et libro arbtr. Ipse vt
+          <lb ed="#N" n="92"/>velimus operatur incipiens: qui volentibus cooperatur perficiens.
+          <lb ed="#N" n="93"/>vt ergc velimus sine nobis operatur: cum autem volumus et sic
+          <lb ed="#N" n="94"/>volumus vt faciamus: nobiscum cooperatur.
+        </p>
+        <p xml:id="v78d89-abksar-d1e231">
+          ⁋ Concedo ergo
+          <lb ed="#N" n="95"/>que pro illa parte inducta sunt. Qumo autem possumus cogitare
+          <lb ed="#N" n="96"/>velle perficere. beatus bern. libro de libro arbtio determinat. dicens
+          <lb ed="#N" n="97"/>apostolus omne quod boni potest esse id est cogitare velle perficere
+          <lb ed="#N" n="98"/>deo attribuit. sed primum profecto sine nobis: secundum nobiscum
+          <lb ed="#N" n="99"/>tercium per nos facit. Siquidem immittendo bonam cogitationem
+          <lb ed="#N" n="100"/>nos preuenit: sane ipsi preuenire nos nequaquam possumus. qui
+          <lb ed="#N" n="101"/>autem neminem bonum inuenit neminem saluat. qui nos preuenit.
+          <lb ed="#N" n="102"/>nec primum itaque in quo nihil facimus: nec vltimum quod
+          ple<lb ed="#N" n="103" break="no"/>rumque extorquet timor inuulis aut simulatio damnabilis
+          <lb ed="#N" n="104"/>sed omnino medium nobis reputatur in meritum. sola quippe
+          bo<lb ed="#N" n="105" break="no"/>na voluntas sufficit. cetera non prosunt si sola defuerit.
+          Ec<lb ed="#N" n="106" break="no"/>ce quod bonam cogitationem facit sine nobis: quia preueniendo
+          <lb ed="#N" n="107"/>nos bonam voluntatem nobiscum. Unde patet quod mediante gratia
+          effici<lb ed="#N" n="108" break="no"/>tur.
+        </p>
+        <p xml:id="v78d89-abksar-d1e264">
+          ⁋ Ad hoc quod obiicitur. quod nihil est ita in potestate nostra
+          <lb ed="#N" n="109"/>sicut voluntas etc. Dicendum quod voluntas dicitur esse in potestate
+          <lb ed="#N" n="110"/>nostra. quia compelli non potest. vnde ratio potest cogi et intellectus:
+          <lb ed="#N" n="111"/>sed voluntas non. nullus enim potest compellere hominem ad
+          <lb ed="#N" n="112"/>aliquid volendum. et hoc etiam intelligitur respectu proprii actus
+          <lb ed="#N" n="113"/>non enim aliquo modo vult nisi velit. Et propter hoc dicitur
+          ni<lb ed="#N" n="114" break="no"/>hil est ita in potestate nostra sicut voluntas. non quia possit
+          <lb ed="#N" n="115"/>homo per se velle quicquid esset bonum ad volendum. et propter
+          <lb ed="#N" n="116"/>hoc dicitur instrumentum seipsum mouens scilicet quia a se mouetur
+          <lb ed="#N" n="117"/>et non ab aliquo cogente.
+        </p>
+        <p xml:id="v78d89-abksar-d1e286">
+          ⁋ Ad id quod obiicitur de illo verbo
+          <lb ed="#N" n="118"/>Each. i. Conuertimin ad me et ego conuertar etc. dicendum
+          <lb ed="#N" n="119"/>quod per hoc quod dicitur conuertimini: insinuatur libertas voluntatis.
+          <lb ed="#N" n="120"/>per hoc quod dicitur ego conuertar ad vos: significatur excitatio
+          <lb ed="#N" n="121"/>diuine bonitatis ad collationem gratie. Unde sensus est. ni
+          <lb ed="#N" n="122"/>si fuerit defectus ex parte libertatis voluntatis vestre:
+          conferam<lb ed="#N" n="123" break="no"/>vobis gratiam qua excitabimini ad efficaciter volendum. Et
+          <lb ed="#N" n="124"/>in hoc insinuatur. quod ex parte voluntatis requiritur obedientia
+          <lb ed="#N" n="125"/>siue inclinatio si gratia debeat habere gratiam. Unde glo. super
+          il<lb ed="#N" n="126" break="no"/>lud trenorum. iiii. conuerte nos. Notandum quod gratia dei non
+          con<lb ed="#N" n="127" break="no"/>uertimur: nisi nostra voluntate conuertamur.
+        </p>
+        <p xml:id="v78d89-abksar-d1e310">
+          ⁋ Ad illud
+          <lb ed="#N" n="128"/>quod dicit Origen. quod incipere nostum est: intelligendum est secundum quod
+          <lb ed="#N" n="129"/>incipere dicit inclinationem libro. arbtrio ad consentiendum gratie excitam
+          <lb ed="#N" n="130"/>ti. sicut dicit glo pretacta.
+        </p>
+        <p xml:id="v78d89-abksar-d1e319">
+          ⁋ Ad illud quod dicit hiero. quod initia
+          <lb ed="#N" n="131"/>bone voluntatis in nobis sunt. dicendum quod glo. non dicit quod
+          <lb ed="#N" n="132"/>sunt a nobis sed in nobis. licet a domino. Unde quando homo
+          ape<lb ed="#N" n="133" break="no"/>rit os cordis obediendo gratie excitanti: dominus gratiam
+          infun<lb ed="#N" n="134" break="no"/>dit efficaciter volendi. Unde dominus aperit os et cibat.
+          vn<lb ed="#N" n="135" break="no"/>de litera. lxx. dicit aperuit et dicit ibi glo. Aperuit scilicet deus. quia
+          <lb ed="#N" n="136"/>ipse aperuit os prophe et cibauit. et dicit ibi alia glo. greg.
+          <lb ed="#N" n="137"/>totiens ad os cordis quasi manum porrigit. quotiens
+          no<lb ed="#N" n="138" break="no"/>bis intellectum aperit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

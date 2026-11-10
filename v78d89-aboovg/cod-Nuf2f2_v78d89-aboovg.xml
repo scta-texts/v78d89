@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 58, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 58, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="390"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aboovg"><!-- q58m4 -->
+        <head xml:id="v78d89-aboovg-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aboovg-Hd1e103" type="question-title">De gratia poenitentiae quantum ad peccati expulsionem</head>
+        <p xml:id="v78d89-aboovg-d1e106">
+          <lb ed="#N" n="107"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-aboovg-d1e111">
+          <lb ed="#N" n="108"/>COnsequenter queritur de gratia penitentie
+          <lb ed="#N" n="109"/>quantum ad peccati expulsionem. de quo que
+          <lb ed="#N" n="110"/>runtur quatuor. Primum est vtrum infusio
+          <lb ed="#N" n="111"/>gratie natura precedit expulsionem culpe.
+          <lb ed="#N" n="112"/>Secundum vtrum ablatio culpe tempore vel duratione prece
+          <lb ed="#N" n="113"/>dat infusionem gratie. Tercium vtrum sit medium aliquod
+          <lb ed="#N" n="114"/>inter vtrumque. Quartum vtrum aliquando sit penitens sine culpa
+          <lb ed="#N" n="115"/>et gratia.
+        </p>
+        <div xml:id="v78d89-aboovg-Dd1e131">
+          <head xml:id="v78d89-aboovg-Hd1e133">Articulus 1</head>
+          <p xml:id="v78d89-aboovg-d1e135">
+            <lb ed="#N" n="116"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-aboovg-d1e140">
+            <lb ed="#N" n="117"/>DE primo ergo queritur vtrum infusio gratie precedit
+            <lb ed="#N" n="118"/>natura expulsionem an econuerso. Quod expullio
+            <lb ed="#N" n="119"/>peccati videtur sic. in psalm. Sic in sancto apparui tibi
+            <lb ed="#N" n="120"/>glo. Nisi quis prius deficiat in malo: numquam perueniet ad borum. sed
+            <lb ed="#N" n="121"/>in malo deficit in expulsione mali siue peccati: ad bonum
+            peruenitin<lb ed="#N" n="122" break="no"/>fusione gratie: igitur pror est ex pulsio peccati quam infusio gratie.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e156">
+            ⁋ Item psu.
+            <lb ed="#N" n="123"/>Qui ascendit super occasum. glo. occasus mortis id est vicionum et pec
+            <lb ed="#N" n="124"/>catorum cedit vbi sol iusticie oritur. quia non eum excipit noua
+            vi<lb ed="#N" n="125" break="no"/>ta nisi vetus ceciderit. ex hoc vidtur quod prius natura est casus vite
+            <lb ed="#N" n="126"/>veteris quam exceptio noue. sed casus veteris est per expulsionem peccati
+            <lb ed="#N" n="127"/>ortus noue per infusionem gratie. igitur etc.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e169">
+            ⁋ Item psalmum. deus meus impolluta
+            <lb ed="#N" n="128"/>via eius. glo. deus non incedit nisi per viam mundam. non enim venit in homines
+            <lb ed="#N" n="129"/>nisi prius mundent viam fidei qua veniet. Ex his patet quod mundicia
+            <lb ed="#N" n="130"/>precedit fidem. sed non est mundicia in anima nisi remissis peccatis: igt
+            re<lb ed="#N" n="131" break="no"/>missio peccatorum precedit existentiam fidei in anima. sed infusione virtutum vel
+            <lb ed="#N" n="132"/>gratie infunditur fides: ergo etc.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e183">
+            ⁋ Item auctoritas. Egressus vicii virtutis
+            <lb ed="#N" n="133"/>operatur ingressum. igitur prius est egressus vicii quam ingressus
+            vir<lb ed="#N" n="134" break="no"/>tutis.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e190">
+            ⁋ Item gratia habet triplicem comparationem. scilicet ad suum efficiens
+            <lb ed="#N" n="135"/>ad subiectum et ad contrarium. comparatione ad contrarium: precedit
+            <lb ed="#N" n="136"/>illam que est ad subiectum: aliter accederet hoc inconueniens
+            <lb ed="#N" n="137"/>quod prius esset gratificatio anime deo quam expulsio peccati. igitur
+            <lb ed="#N" n="138"/>prius natura expellit gratia peccatum quam informet
+            sub<pb ed="#N" n="391"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>fectum. sed in infusione gratie informet gratia ipsam animam
+            <lb ed="#N" n="2"/>quae simul infuditur et infusa est: igitur etc.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e208">
+            ⁋ Item bene sequi
+            <lb ed="#N" n="3"/>tur aliquis habet gratiam gratum facientem: igitur est mundus.
+            <lb ed="#N" n="4"/>et non econuerso. non enim sequitur est mundus: igitur habet
+            gra<lb ed="#N" n="5" break="no"/>tiam gratum facientem: quia primus homo in statu
+            innocen<lb ed="#N" n="6" break="no"/>tie fuit mundus: nec tamen habuit gratiam gratum facientem. sed
+            pri<lb ed="#N" n="7" break="no"/>us est naturaliter a quo non conuertitur consequentia. ergo
+            mun<lb ed="#N" n="8" break="no"/>dicia prior est naturaliter in anima quam gratia gratum faciens
+            <lb ed="#N" n="9"/>sed mundicia est in anima ex remissione culpe: igitur etc.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e226">
+            ⁋ Item
+            <lb ed="#N" n="10"/>in qualibet mundatione prius est respectus a quo: quam terminus
+            <lb ed="#N" n="11"/>ad quem secundum naturam vel tempus. sed iustificatio incipit a
+            ma<lb ed="#N" n="12" break="no"/>lo et terminatur in bonum. sed malum a quo incipit est peccatum
+            <lb ed="#N" n="13"/>siue expulsio peccati: bonum ad quod tendit est gratia siue gratie
+            <lb ed="#N" n="14"/>infusio.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e239">
+            ⁋ Item si deus successiue operaretur. prius expelleret
+            cul<lb ed="#N" n="15" break="no"/>pam quam infunderet gratiam. prius scilicet tempore. sed subita operano
+            si<lb ed="#N" n="16" break="no"/>tollat ordinem temporis: non tamen tollit ordinem nature. cum ergo
+            <lb ed="#N" n="17"/>operatio iustificationis diuine subita sit: prius natura culpam
+            <lb ed="#N" n="18"/>expellit quam gratiam infundit.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e250">
+            ⁋ Item culpa expellitur. aut quando est
+            <lb ed="#N" n="19"/>aut quando non est. non quando non est. quia tunc semper expelleretur. Si
+            <lb ed="#N" n="20"/>quando est: sed quando est in anima non est infusa gratia: quia tunc
+            <lb ed="#N" n="21"/>simul essent duo opposita in eodem. ergo ante expeltitur
+            cul<lb ed="#N" n="22" break="no"/>pa quam infunditur gratia.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e262">
+            ⁋ Item non est aliud priuare priuati
+            <lb ed="#N" n="23"/>onem quam dare habitum. sed culpa est priuatio: gratia habitus. ergo
+            <lb ed="#N" n="24"/>idem est gratiam infundere et culpam tollere. ergo videtur hoc
+            <lb ed="#N" n="25"/>simul fieri tempore et natura: cum eiusdem ad se non sit ordo
+            ali<lb ed="#N" n="26" break="no"/>quis.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e273">
+            ⁋ Contra. Amb. in apolo. dicendum quemadmodum in
+            <lb ed="#N" n="27"/>trans in animam sapientis disciplina imprudentiam tollit et
+            <lb ed="#N" n="28"/>scientia ignorantiam: sic perfecta virtus iniquitatem sed virtus non
+            <lb ed="#N" n="29"/>delet iniquitatem nisi infusa in anima: igitur prior naturaliter
+            <lb ed="#N" n="30"/>est infusio deletione.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e284">
+            ⁋ Item. xv. act. Fide purificans
+            cor<lb ed="#N" n="31" break="no"/>da eorum. Sed fide purificare corda est sordes peccatorum expel
+            <lb ed="#N" n="32"/>lere a corde per fidem: igitur per fidem fit expulsio peccatorum.
+            <lb ed="#N" n="33"/>sed non expelluntur peccata per fidem: igitur existente fide in
+            anima<lb ed="#N" n="34" break="no"/>gratia prius est naturaliter etc.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e295">
+            ⁋ Item est forma accidens
+            <lb ed="#N" n="35"/>et forma substantia. illa que accidens: non agit nisi inquantum
+            <lb ed="#N" n="36"/>est in subiecto. igitur cum gratia est forma que est accidens: non
+            <lb ed="#N" n="37"/>agit expellendo vicium vt ens in subiecto. igitur naturaliter
+            <lb ed="#N" n="38"/>prius est in subiecto quam expellens peccatum.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e306">
+            ⁋ Item dominus per
+            <lb ed="#N" n="39"/>aliquod medium tollit culpam ab anima. Unde remissio
+            pecca<lb ed="#N" n="40" break="no"/>ti non est immediate a deo formaliter loquendo. cuius probatio
+            <lb ed="#N" n="41"/>est. quod semper fuit aliquiod remedium contra peccatum. sicut contra
+            <lb ed="#N" n="42"/>originale ante legem. fides parentum. et in lege circumcisio. et in
+            <lb ed="#N" n="43"/>tempore gratie gratia boptismalis. Unde greg. Quod apud nos
+            <lb ed="#N" n="44"/>valet aqua baptismi: hoc egit apud veteres vel pro
+            paruul<lb ed="#N" n="45" break="no"/>sola fides: vel pro maioribus virtus sacrificii: vel pro his qui ex
+            <lb ed="#N" n="46"/>abrahe stirpe prodierunt misterium circumcisionis. Unde semper
+            <lb ed="#N" n="47"/>fuit aliquid tollens peccatum ab anima a deo scilicet gratia. igitur
+            <lb ed="#N" n="48"/>per gratiam tollitur peccatum. sed non tollitur per gratiam nisi gratia
+            <lb ed="#N" n="49"/>insit anime: igitur prius naturaliter inest gratia quam remissio
+            <lb ed="#N" n="50"/>peccati.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e335">
+            ⁋ Item indirecte obiicitur sic. ponatur quod prius sit
+            re<lb ed="#N" n="51" break="no"/>missio peccati quam infusio gratie. sed exisfente remissione
+            do<lb ed="#N" n="52" break="no"/>minus inhabitat animam. igitur si natura prius est remissio
+            <lb ed="#N" n="53"/>culpe quam infusio gratie: prius inhabitat animam dominus
+            natu<lb ed="#N" n="54" break="no"/>raliter quam habeat gratiam. quod est falsum.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e347">
+            ⁋ Item gratia
+            <lb ed="#N" n="55"/>simul infunditur et creatur. sed creatio gratie precedit
+            expul<lb ed="#N" n="56" break="no"/>sionem culpe: quia culpa expellitur per gratiam. ergo infusio
+            <lb ed="#N" n="57"/>gratie precedit etc. hoc patet per exemplum in igne expellen
+            <lb ed="#N" n="58"/>te frigus. In huiusmodi autem expulsione prius naturaliter
+            vir<lb ed="#N" n="59" break="no"/>tus ignis immittitur in materia quod frigus expellitur. sed deus
+            <lb ed="#N" n="60"/>expellit culpam immittendo gratiam etc.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e363">
+            ⁋ Responsio. ad hoc
+            <lb ed="#N" n="61"/>volunt aliqui dicere quod dominus seipso culpamm expellit. dicitur
+            <lb ed="#N" n="62"/>enim ysa. xliii. Ego sum qui deleo iniquitates tuas propter me.
+            <lb ed="#N" n="63"/>secundum hos deus prius mundat animam et postmodum dat gratiam
+            <lb ed="#N" n="64"/>prius dico natura simul cum tempore. sed quia expulsio pec
+            <lb ed="#N" n="65"/>cati est per infusionem gratie sicut expulsio tenebre materia
+            <lb ed="#N" n="66"/>lis per diffusionem luminis materialis: sicut ponunt quast
+            <lb ed="#N" n="67"/>omnes. Aliter dici potest. quod gratia potest dupliciter
+            conside<lb ed="#N" n="68" break="no"/>rari. Uno modo vt est tollens vicia ab anima siue
+            pecca<lb ed="#N" n="69" break="no"/>ta. Alio modo vt sui inherentia perficit animam et est
+            habi<lb ed="#N" n="70" break="no"/>tus alme. vt autem est tollens peccata: naturaliter precedit
+            <lb ed="#N" n="71"/>infusio gratie ablationem culpe: sicut causa naturaliter est
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>prior suo effectu. Culpa enim est tenebra spiritualis: gratia est
+            <lb ed="#N" n="73"/>sicut lux expellens huiusmodi tenebras. inquantum consideratur vt
+            <lb ed="#N" n="74"/>habitus perficiens animam penitentis que quidem non est apta
+            <lb ed="#N" n="75"/>ad susceptionem gratie nisi expellatur vicium vel peccatum
+            <lb ed="#N" n="76"/>ab anima. sicut dispositio vel aptatio rei alicuius forme
+            <lb ed="#N" n="77"/>vel habitus precedit naturaliter ipsam susceptionem: sic
+            <lb ed="#N" n="78"/>expulsio vicii precedit infusionem gratie. Unde necessaria
+            <lb ed="#N" n="79"/>possunt fieri argumenta ad oppositas partes sic. Anima
+            di<lb ed="#N" n="80" break="no"/>sponitur et aptatur ad susceptionem informationis gratie
+            vel<lb ed="#N" n="81" break="no"/>virtutis. Hec autem dispositio est per expulsionem peccati. igitur
+            <lb ed="#N" n="82"/>si dispositio ad susceptionem forme vel habitus precedit
+            na<lb ed="#N" n="83" break="no"/>turaliter ipsam susceptionem: expulsio vicii naturaliter
+            <lb ed="#N" n="84"/>precedit infusionem gratie. Hoc argumentum necessarium
+            <lb ed="#N" n="85"/>est. Aliud est tale ad contrarium. Omnis causa naturaliter
+            <lb ed="#N" n="86"/>precedit effectum. sed infusio gratie est causa expulsionis
+            vi<lb ed="#N" n="87" break="no"/>cii: ergo naturaliter precedit illud. Istud argumentum simi
+            <lb ed="#N" n="88"/>liter est necessarium. Utrumque igitur argumentum est necessa
+            <lb ed="#N" n="89"/>rium et habet virtutem ab habitudine causali. Primum ab
+            <lb ed="#N" n="90"/>habitudine cause materialis: secundum ab habitudine
+            cau<lb ed="#N" n="91" break="no"/>se efficientis. Propter hoc respondendum ad questionem
+            <lb ed="#N" n="92"/>istam per distinctionem. quia inquantum gratia est auferens
+            vi<lb ed="#N" n="93" break="no"/>cia vel peccata ab anima: prius naturaliter est infusio
+            gra<lb ed="#N" n="94" break="no"/>tie quam expulsio peccati: sicut causa efficiens suo effectu.
+            in<lb ed="#N" n="95" break="no"/>quantum est forma vel habitus perficiens animam penitentis.
+            <lb ed="#N" n="96"/>Hec autem perfectio requirit aptitudinem ex parte anime vel
+            di<lb ed="#N" n="97" break="no"/>spositionem. que aptitudo est et dispositio ab ablatione pec
+            <lb ed="#N" n="98"/>catorum. sicut causa materialis que est dispositio vel
+            apti<lb ed="#N" n="99" break="no"/>tudo materie precedit naturaliter formam perficientem: ita
+            ab<lb ed="#N" n="100" break="no"/>latio peccati precedit infusionem gratie.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e454">
+            ⁋ Ad hoc quod
+            obiici<lb ed="#N" n="101" break="no"/>tur ex glo. illa Nisi prius deficiat in malo nunquam perueniet
+            <lb ed="#N" n="102"/>ad bonum etc. dicendum quod deficere in malo est preparatio
+            <lb ed="#N" n="103"/>quedam vel dispositio ad bonum. Unde concedendum est.
+            <lb ed="#N" n="104"/>quod defectus iste inquantum huiusmodi precedit scilicet vt causa
+            mate<lb ed="#N" n="105" break="no"/>rialis quendam effectum in anima qui est informatio anime.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e467">
+            <lb ed="#N" n="106"/>⁋ Ad aliud quod obiicitur ex alia glo. quod occasus mortis
+            ce<lb ed="#N" n="107" break="no"/>dit etc. Iam patet responsio: quia casus vite veteris est
+            <lb ed="#N" n="108"/>preparatio ad susceptionem vite noue. vnde naturaliter
+            pre<lb ed="#N" n="109" break="no"/>cedit. Similiter patet responsio ad terciam glo. que dicit.
+            <lb ed="#N" n="110"/>quod deus non incedit nisi per viam mundam. Dicendum quod
+            verum<lb ed="#N" n="111" break="no"/>est quod mundificatio vie que est per ablationem peccati: precedit
+            <lb ed="#N" n="112"/>accessum dei qui est informatio anime per virtutem
+            materi<lb ed="#N" n="113" break="no"/>aliter dico. Natura enim precedit mundiciam vie que est ex
+            <lb ed="#N" n="114"/>ablatione peccati accessum domini ad animam: quo informatur
+            <lb ed="#N" n="115"/>anima habitu gratie.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e491">
+            ⁋ Ad id quod obiicitur. quod egressus
+            <lb ed="#N" n="116"/>vicii virtutis operatur ingressum. dicendum quod hec operatio
+            <lb ed="#N" n="117"/>est preparatio quedam vt tactum est. et ita precedit gratiam
+            <lb ed="#N" n="118"/>ad quam recipiendam preparat.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e500">
+            ⁋ Ad hoc quod obiicitur. quod
+            <lb ed="#N" n="119"/>comparatio gratie ad contrarium precedit illam que est ad
+            <lb ed="#N" n="120"/>subiectum. Dicendum quod hoc verum est prout gratia
+            consi<lb ed="#N" n="121" break="no"/>deratur vt est expellens peccatum. quia hec expulsio est
+            pre<lb ed="#N" n="122" break="no"/>paratio ad informationem subiecti scilicet anime. et sic vt dictum
+            <lb ed="#N" n="123"/>est expulsio vicii precedit infusionem gratie. secundum igitur
+          </p>
+          <p xml:id="v78d89-aboovg-d1e514">
+            <lb ed="#N" n="124"/>infusio gratie est informatio anime: gratia infusa sic
+            <lb ed="#N" n="125"/>natura precedit expulsionem gratie. secundum quod infusione
+            gra<lb ed="#N" n="126" break="no"/>tie tollitur siue expellitur peccatum sic infusio precedit.
+            <lb ed="#N" n="127"/>Uel potest aliter dici et planius: idem est tamen cum hoc
+            <lb ed="#N" n="128"/>quod dictum est. scilicet quod infusio gratie duos habet
+            effe<lb ed="#N" n="129" break="no"/>ctus. scilicet expellendi peccatum: et informandi animam.
+            <lb ed="#N" n="130"/>rior autem est expulsio quam informatio. Unde quantum ad
+            effe<lb ed="#N" n="131" break="no"/>ctum expulsionis prior est: quam quantum ad effectum
+            informa<lb ed="#N" n="132" break="no"/>tionis. Cum igitur queritur. vtrum gratie infusio
+            prece<lb ed="#N" n="133" break="no"/>dit expulsionem culpe. Dicendum quod infusio gratie
+            sim<lb ed="#N" n="134" break="no"/>pliciter precedit. sed prout consideratur vt est informans ani
+            <lb ed="#N" n="135"/>mam. sic precedit expulsio.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e543">
+            ⁋ Ad id quod obiicitur. quod mun
+            <lb ed="#N" n="136"/>dicia naturaliter precedit habitum gratie gratum facien
+            <lb ed="#N" n="137"/>tis. Dicendum quod hoc verum est de mundicia prout
+            abstra<lb ed="#N" n="138" break="no"/>hit ab illa que est mundicia innocentie. et dico de
+            inno<lb ed="#N" n="139" break="no"/>centia quantum ad statum conditionis: et ab illa que est
+            per<lb ed="#N" n="140" break="no"/>purgationem a culpa. Mundicia enim generaliter
+            sum<lb ed="#N" n="141" break="no"/>pta ad hanc et illam mundiciam prior est quam habitus
+            gra<lb ed="#N" n="142" break="no"/>tie gratumfacientis. sed ex hoc non sequitur quod mundicia
+            <pb ed="#N" n="392"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>que est ex remissione culpe prior sit.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e567">
+            ⁋ Ad hoc quod obiicitur
+            <lb ed="#N" n="2"/>quod prior est terminus a quo etc. dicendum quod terminus ad quem
+            <lb ed="#N" n="3"/>non est gratia neque gratie infusio: sed magis subiectum
+            mun<lb ed="#N" n="4" break="no"/>datum gratia. Unde concedi potest quod gratia habet prius rationem
+            <lb ed="#N" n="5"/>agentis quam informantis. secundum autem quod habet rationem agentis sic
+            <lb ed="#N" n="6"/>est pricipium iustificationis. secundum quod habet rationem informantis
+            <lb ed="#N" n="7"/>sic est terminus.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e583">
+            ⁋ Ad illud quod obiicitur. si deus successiue
+            <lb ed="#N" n="8"/>operaretur etc. dicendum quod prius expelleretur culpa quam infunderetur
+            <lb ed="#N" n="9"/>gratia vt est formatiua subiecti: non tamen vt est expulsiua
+            ma<lb ed="#N" n="10" break="no"/>lib.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e592">
+            ⁋ Ad illud quod queritur quando culpa expellitur. aut tunc est aut
+            <lb ed="#N" n="11"/>non est. dicendum quod quando non est. quia enim huiusmodi expulsio est muta
+            <lb ed="#N" n="12"/>tio subita: et in tali mutatione simul est fieri et factum esse.
+            <lb ed="#N" n="13"/>vnde expellitur quando primo non est. ex hoc autem non sequitur quod semper
+            <lb ed="#N" n="14"/>expellitur: sed solummodo in primo instanti quando non fuit.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e603">
+            ⁋ Ad
+            ali<lb ed="#N" n="15" break="no"/>ud quod obiicitur. quod idem est tollere priuationem et dare habitum
+            <lb ed="#N" n="16"/>etc. dicendum quod hoc non est verum simpliciter loquendo. lice enim
+            <lb ed="#N" n="17"/>consequenter se habent: vnum tamen non est aliud. Unde inter hec est
+            <lb ed="#N" n="18"/>ordo quod patet sic. qualitas aliqua agens in alio tripliciter potest
+            <lb ed="#N" n="19"/>comparari. vel ad principium quo exit: vel ad contrarium quod
+            <lb ed="#N" n="20"/>expellit: vel ad subiectum quod perficit. et iste comparationes
+            ordi<lb ed="#N" n="21" break="no"/>nate sunt. Primo enim comparatur ad principium a quo exit.
+            se<lb ed="#N" n="22" break="no"/>cundo ad contrarium quod expellit: tercio ad subiectum quod
+            perfi<lb ed="#N" n="23" break="no"/>cit. Non enim potest intelligi aliquod perfectibile deformatum vicio
+            <lb ed="#N" n="24"/>aliquo. aliqua qualitate perfici siue informari: nisi priue
+            <lb ed="#N" n="25"/>intelligatur expulsio vicii deformantis. et imperfectibile est quod
+            <lb ed="#N" n="26"/>intelligatur aliquid expulsum ab aliquo: nisi illud quo
+            expul<lb ed="#N" n="27" break="no"/>sum est intelligatur a suo principio. quoniam ergo gratie infusio
+            <lb ed="#N" n="28"/>sic multipliciter comparatur: he autem comparationes ordinate sunt
+            <lb ed="#N" n="29"/>patet quod horum ordo est et diuersitas. hec autem distinctio valet
+            <lb ed="#N" n="30"/>ad manifestationem predictorum.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e641">
+            ⁋ Ad illa que obiiciuntur pro alia
+            <lb ed="#N" n="31"/>parte scilicet quod virtus tollit iniquitatem et fide purificantur
+            cor<lb ed="#N" n="32" break="no"/>da etc. Una est responsio. quod infusio gratie vel inesse gratie
+            <lb ed="#N" n="33"/>reuera est prior quam expulsio peccati. et hoc concludunt rationes
+            <lb ed="#N" n="34"/>ille. sed hoc non est contra ea que sunt pro alia parte: que
+            conclu<lb ed="#N" n="35" break="no"/>dunt quod expulsio est prior aliquo modo et reuera ita est.
+            pri<lb ed="#N" n="36" break="no"/>or enim est expulsio peccati quam inesse gratie vt est perficiens
+            <lb ed="#N" n="37"/>animam et habitus informans illam. Similir ad hoc quod
+            obii<lb ed="#N" n="38" break="no"/>citur quod gratia vel virtus. quia forma que est accidens non agit
+            <lb ed="#N" n="39"/>nisi inquantum est in subiecto etc. Dicendum quod hoc verum est. Sed
+            <lb ed="#N" n="40"/>inquantum inest potest considerari: vel vt tollit peccatum: vel vt
+            <lb ed="#N" n="41"/>informat subiectum. Ex his patet responsio ad alia.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e667">
+            ⁋ Ad
+            <lb ed="#N" n="42"/>illud quod obiicitur. quod gratia simul creatur et infunditur.
+            dicen<lb ed="#N" n="43" break="no"/>dum quod hoc verum est simul tempore vel instanti: non
+            tamen<lb ed="#N" n="44" break="no"/>simul naturaliter. Similiter creratio precedit naturaliter
+            <lb ed="#N" n="45"/>expulsionem culpe: ergo infusio precedit etc. Hoc verum est modo
+            <lb ed="#N" n="46"/>pretacto scilicet inquantum gratia consideratur vt expulsiua sui contra
+            <lb ed="#N" n="47"/>rii: non vt est perfectiua sui subiecti.
+          </p>
+        </div>
+        <div xml:id="v78d89-aboovg-Dd1e685">
+          <head xml:id="v78d89-aboovg-Hd1e687">Articulus 2</head>
+          <p xml:id="v78d89-aboovg-d1e689">
+            <lb ed="#N" n="48"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-aboovg-d1e694">
+            <lb ed="#N" n="49"/>COnsequenter queritur vtrum ablatio culpe tempore
+            prece<lb ed="#N" n="50" break="no"/>dit infusionem gratie: sic. v. ad Eph. Surge qui
+            <lb ed="#N" n="51"/>dormis et exurge a mortuis. glo. Surge per
+            con<lb ed="#N" n="52" break="no"/>fessionem et exurge per satisfactionem: et illuinabit te christus. hic per
+            <lb ed="#N" n="53"/>fidem et spem: et in futuro per speciem. hec glo. sed confessio et
+            <lb ed="#N" n="54"/>satisfactio non potest esse nisi in tempore: igitur cum per hoc sit
+            expul<lb ed="#N" n="55" break="no"/>sio vicii que quidem precedit illuinationem fidei. expulsio
+            pec<lb ed="#N" n="56" break="no"/>cati tempore precedit infusionem fidei.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e714">
+            ⁋ Responsio. quod cum
+            <lb ed="#N" n="57"/>dicitur. Surge qui dormis per confessionem: confessio sumitur
+            <lb ed="#N" n="58"/>pro proposito confitendi. similiter cum dicitur exurge per
+            satisfa<lb ed="#N" n="59" break="no"/>ctionem: sumitur satisfactio pro proposito satisfaciendi. Un
+            <lb ed="#N" n="60"/>de surge et exurge non dicunt expulsionem vicii: sed
+            prepara<lb ed="#N" n="61" break="no"/>tionem ad susceptionem gratie expulsiue. quia surgere a
+            <lb ed="#N" n="62"/>corpore peccati scilicet per propositum confitendi et exurgere per
+            propo<lb ed="#N" n="63" break="no"/>situm satisfaciendi preparatoria sunt ad receptionem siue
+            il<lb ed="#N" n="64" break="no"/>luminationem gratie. vnde non est intentio glo. quod confessio et
+            sa<lb ed="#N" n="65" break="no"/>tisfactio que sunt partes penitentie precedant illuinationem gratie
+            <lb ed="#N" n="66"/>sed propositum confitendi et satisfaciendi. et hec sepe
+            prece<lb ed="#N" n="67" break="no"/>dunt in penitente scilicet illuminationem fidei et gratie.
+          </p>
+        </div>
+        <div xml:id="v78d89-aboovg-Dd1e741">
+          <head xml:id="v78d89-aboovg-Hd1e743">Articulus 3</head>
+          <p xml:id="v78d89-aboovg-d1e745">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="68"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-aboovg-d1e752">
+            <lb ed="#N" n="69"/>COnsequenter queritur vtrum sit medium aliquod inter esse
+            <lb ed="#N" n="70"/>culpe expellende et in esse gratie expellentis:
+            <lb ed="#N" n="71"/>in quo non insit gratia vel culpa. quod non: patet.
+            <lb ed="#N" n="72"/>quia si tunc decederet penitens: neque saluaretur neque
+            damna<lb ed="#N" n="73" break="no"/>retur. quod esset maximum inconueniens. quia sequeretur illum
+            <lb ed="#N" n="74"/>frustra esse conditum a deo.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e768">
+            ⁋ Preterea. si peccatum expelliter
+            <lb ed="#N" n="75"/>a gratia. aut quando inest peccatum: aut quando non inest
+            <lb ed="#N" n="76"/>Non quando inest: quia quando inest non inest gratia: in
+            <lb ed="#N" n="77"/>alio tempore expellitur peccatum et inest gratia. sed tunc
+            <lb ed="#N" n="78"/>expellitur quando expellit gratia. ergo in aliquo
+            tempo<lb ed="#N" n="79" break="no"/>re vel in instanti inest gratia et expellitur peccatum. sed alis
+            <lb ed="#N" n="80"/>tempore expellit gratia et expulsa est culpa. quia non
+            expel<lb ed="#N" n="81" break="no"/>lit tunc quando expulsa est: igitur tempus vel instans quo expet
+            <lb ed="#N" n="82"/>lit medium est interesse gratie et non inesse culpe. sed solum
+            <lb ed="#N" n="83"/>inest gratia quando non inest culpa: igitur tempus est medium vel
+            <lb ed="#N" n="84"/>instans interesse culpe et inesse gratie scilicet quando neutrum est.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e792">
+            ⁋ Ie
+            <lb ed="#N" n="85"/>sit a. instans in quo primo inest gratia. b. instans in quo
+            <lb ed="#N" n="86"/>vltimo inest culpa. aut a. et b. sunt idem instans: aut diuersum:
+            <lb ed="#N" n="87"/>Si idem: igitur gratia et culpa in eodem instanti insunt eide
+            <lb ed="#N" n="88"/>Si non idem: sed inter quelibet duo instantia est tempus
+            medi<lb ed="#N" n="89" break="no"/>um. igitur etc.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e806">
+            ⁋ Item quando gratia expellit peccatum.
+            autin<lb ed="#N" n="90" break="no"/>est gratia: aut non inest. constat quod inest. Lux enim non
+            expe<lb ed="#N" n="91" break="no"/>lit tenebram nisi quando inest.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e813">
+            ⁋ Preterea. quando gratia expellie
+            <lb ed="#N" n="92"/>peccatum. aut peccatum inest: aut non inest. videt quod quam
+            <lb ed="#N" n="93"/>do inest: quomodo enim expelleret si non inesset. igitur si gratia
+            <lb ed="#N" n="94"/>expellit peccatum: simul insunt gratia et peccatum eidem.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e822">
+            <lb ed="#N" n="95"/>Responsio. quod inter inesse gratie expellentis et inesse
+            cul<lb ed="#N" n="96" break="no"/>pe expellende: non est tempus medium vel instans.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e829">
+            ⁋Ad es
+            <lb ed="#N" n="97"/>que obiiciuntur. Nota quod vt tactum est supra. in illis que
+            <lb ed="#N" n="98"/>subite mutantur. vt vult phous simul est mutari et mutarum
+            <lb ed="#N" n="99"/>esse. Unde quia gratia subito infunditur: simul
+            infundi<lb ed="#N" n="100" break="no"/>tur et est infusa. et quia eadem est subitatio expulsionis
+            <lb ed="#N" n="101"/>peccati et infusionis gratie: simul expellitur et expussum
+            <lb ed="#N" n="102"/>est. Sic igitur patet. quomodo ad illud quod primooo
+            <lb ed="#N" n="103"/>lectum est respondendum est per interemptionem. quia
+            <lb ed="#N" n="104"/>cum dicitur alio tempore expellit gratia et expulsa est ent
+            <lb ed="#N" n="105"/>pa. dicendum quod non est verum: sed eodem vt patet ex
+            di<lb ed="#N" n="106" break="no"/>ctis.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e853">
+            ⁋ Ad hoc quod queritur. vtrum a. scilicet instans
+            <lb ed="#N" n="107"/>quo primo inest gratia. et b. quo vltimo inest culpa: sint
+            <lb ed="#N" n="108"/>idem instans aut diuersa. dicendum quod diuersa cum etgo
+            <lb ed="#N" n="109"/>procedit. sed inter quelibet duo etc. dicendum quod instans
+            <lb ed="#N" n="110"/>et instans possunt considerari vt cadunt sub discretione
+            <lb ed="#N" n="111"/>actuali et numero: sic non inter quelibet sunt infinita
+            <lb ed="#N" n="112"/>nec tempus: sicut nec inter quastibet vnitates numerus.
+            <lb ed="#N" n="113"/>vel vt cadunt solum sub discretione potentiali. hoc est
+            <lb ed="#N" n="114"/>prout est intelligibiliter assignare in continuo instans et
+            <lb ed="#N" n="115"/>instans: et sic inter quelibet duo sunt infinita et tempus
+            <lb ed="#N" n="116"/>medium. primo modo est hic et non secundo. de hoc alis
+            <lb ed="#N" n="117"/>plenius dictum est.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e879">
+            ⁋ Ad hoc quod queritur. vtrum pec
+            <lb ed="#N" n="118"/>catum expellitur a gratia. quando gratia est in anima ant
+            <lb ed="#N" n="119"/>quando non est. dicendum quod quando inest. Cum autem
+            <lb ed="#N" n="120"/>queritur vtrum expellitur peccatum cum est in anima. aut
+            <lb ed="#N" n="121"/>quando non inest. dicendum quod quando non inest: quiasi
+            <lb ed="#N" n="122"/>mul expellitur et expulsum est. expelli tamen dicitur: quia
+            <lb ed="#N" n="123"/>inesset nisi esset gratia qua expulsum est. Cum igitur obiicit. quod
+            <lb ed="#N" n="124"/>non expelleret si non inesset. dicendum quod quia simul ex
+            <lb ed="#N" n="125"/>pellit et expulsum est: expellit quando non inest. dicitur
+            ta<lb ed="#N" n="126" break="no"/>men expellere. quia inesset si presentia illius non essetex
+            <lb ed="#N" n="127"/>pulsum.
+          </p>
+        </div>
+        <div xml:id="v78d89-aboovg-Dd1e904">
+          <head xml:id="v78d89-aboovg-Hd1e906">Articulus 4</head>
+          <p xml:id="v78d89-aboovg-d1e908">
+            <lb ed="#N" n="128"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-aboovg-d1e913">
+            <lb ed="#N" n="129"/>COnsequenter queritur vtrum aliquandosit
+            <lb ed="#N" n="130"/>penitens sine culpa et gratia. Quod autem sic videtur.
+            <lb ed="#N" n="131"/>creationi respondet recreatio vnde assignatur
+            congrui<lb ed="#N" n="132" break="no"/>tas quedam respectu creantis et recreantis: vt debeat
+            <lb ed="#N" n="133"/>per filium fieri recreatio sicut fuit creatio. Ioh. i.
+            Om<lb ed="#N" n="134" break="no"/>nia per ipsum facta sunt. debeat dico de congruo. sed constat
+            <pb ed="#N" n="393"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quod in hominis conditione natura. ens. innocentia siue gratia
+            <lb ed="#N" n="2"/>precessit eandem informatam gratia: igitur vt videtur in
+            recrea<lb ed="#N" n="3" break="no"/>tione hominis debet precedere natura simpliciter prout est in
+            <lb ed="#N" n="4"/>innnocentia et sine culpa: eandem vt est informata gratia.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e942">
+            ⁋ Item
+            <lb ed="#N" n="5"/>licet phoslus nihil ponat esse medium inter sanum et egrum:
+            nihilo<lb ed="#N" n="6" break="no"/>minus medicus ponit medium. prout enim sanitas attenditur in
+            <lb ed="#N" n="7"/>quadam equalitate humorum. egritudo in quacumque dec
+            lina<lb ed="#N" n="8" break="no"/>tione ab ista equalitate: sic non est inter illa medium inquantum
+            egri<lb ed="#N" n="9" break="no"/>tudo dicitur consistere in declinatione illa. ex qua infertur
+            sensi<lb ed="#N" n="10" break="no"/>bile nocumentum et passiones nociue ipsi nature: sic est ponere
+            <lb ed="#N" n="11"/>medium inter sanum et egrum. congrua est igitur vtraque positio. a
+            <lb ed="#N" n="12"/>simili videtur quod congrue est ponere medium inter sanitatem et
+            egri<lb ed="#N" n="13" break="no"/>tudinem spiritualem. et ita potest poni quod inter egritudinem peccati et
+            sa<lb ed="#N" n="14" break="no"/>nitatem gratie sit medium: in quo penitens nec sit in culpa
+            ne<lb ed="#N" n="15" break="no"/>que in gratia.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e968">
+            ⁋ Preterea. natura est substratorium culpe et gratie
+            <lb ed="#N" n="16"/>igitur nec hanc nec illam necesse est inesse. igitur et ipsa natura potest
+            <lb ed="#N" n="17"/>esse sine hac et illa. nec ex hoc preiudicaretur diuine bonitati
+            <lb ed="#N" n="18"/>in aliquo. quare igitur in reparatione non reducitur penitens ad
+            <lb ed="#N" n="19"/>statum innocentie: et relinquitur in statu illo. et iuxta quod
+            <lb ed="#N" n="20"/>se habet in illo: conferatur ei gratia vel relabatur in culpam
+          </p>
+          <p xml:id="v78d89-aboovg-d1e982">
+            <lb ed="#N" n="21"/>Responsio. ad hoc facta fuit creatura rationalis. vt vniretur
+            <lb ed="#N" n="22"/>deo per quandam adherentiam spiritualem secundum quod dicitur. i. Cor. vi.
+            <lb ed="#N" n="23"/>Qui adheret deo vnus spiritus est. Ut enim habetur libro de
+            spi<lb ed="#N" n="24" break="no"/>ritu et anima. tres sunt vniones mirabiles. Una est corporis
+            <lb ed="#N" n="25"/>et anime. Alia est diuinitatis et humanitatis. Tercia est
+            ho<lb ed="#N" n="26" break="no"/>minis et angeli cum deo. Unde ibi dicitur. Mirabilis fuit
+            pri<lb ed="#N" n="27" break="no"/>ma coniunctio: mirabilis et secunda: non minus mirabilis ter
+            <lb ed="#N" n="28"/>cia. cum homo. angelus et deus vnus erit spiritus. Unde sicut
+            <lb ed="#N" n="29"/>nec prima vnio fuit sine medio. nec secunda: sic nec tercia.
+            <lb ed="#N" n="30"/>Unde medium in tercia vnione. vel est gratia imperfecta. sicut est
+            <lb ed="#N" n="31"/>dnum homo est viator. vel perfecta: sicut quando homo est comprehen
+            <lb ed="#N" n="32"/>sor. non enim possibile est creatura ad hanc vnionem sine medio
+            <lb ed="#N" n="33"/>quod est gratia simpliciter vel gratia perfecta.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e1013">
+            ⁋ Ad hoc igitur
+            <lb ed="#N" n="34"/>quod obiicitur. quod sicut in conditione similiter in re paratione
+            ho<lb ed="#N" n="35" break="no"/>mo debet reduci ad statum medium etc. dicendum quod hoc non
+            opor<lb ed="#N" n="36" break="no"/>tet propter plura scilicet que sunt congruentia diuine iusticie:
+            ha<lb ed="#N" n="37" break="no"/>bundantia diuine misericordie. ordinatio diuine
+            prouiden<lb ed="#N" n="38" break="no"/>tie sine sapientie. Non enim congrueret diuine iusticie quod
+            omnino<lb ed="#N" n="39" break="no"/>repararetur natura et reformaretur ad statum conditionis: sed
+            ma<lb ed="#N" n="40" break="no"/>gis congruit vt in memoriam obedientie qua homo fuit inobe
+            <lb ed="#N" n="41"/>diens suo conditori. relinquatur penalis diuisio in
+            transgres<lb ed="#N" n="42" break="no"/>sore et alii defectus penales. hoc satis expresse figuratum
+            <lb ed="#N" n="43"/>est. ii. paralippo. xii. vbi dicitur. quia humiliati sunt non
+            disper<lb ed="#N" n="44" break="no"/>dam eos: sed dabo paxillum auxilii. et non stillabit furor meus
+            <lb ed="#N" n="45"/>super hierlum per manum sesac. vnde tamen seruient ei vt sciant
+            di<lb ed="#N" n="46" break="no"/>stantiam seruitutis mee et seruitutis regni terrarum. sesac
+            in<lb ed="#N" n="47" break="no"/>terprentatur manus sacri id est potestas carnalis cui seuit anima
+            <lb ed="#N" n="48"/>propter suam inobedientiam deo. Preterea. propter habundam
+            <lb ed="#N" n="49"/>tiam diuine bonitatis non sufficit vt remissa esset
+            offensa<lb ed="#N" n="50" break="no"/>dei relicto penitente in defectibus penalibus sine gratia. quia non
+            <lb ed="#N" n="51"/>ad momentum staret sine lapsu in peccatum. Unde ysa. i.
+            <lb ed="#N" n="52"/>Nisi dominus reliquisset nobis semen: quasi zodoma
+            fuisse<lb ed="#N" n="53" break="no"/>mus. semen dicitur aspersio gratie ibi. Preterea. propter
+            ordi<lb ed="#N" n="54" break="no"/>nationem diuine prouidentie. que disposuit conuenientissime
+            <lb ed="#N" n="55"/>vt contraria contrariis curarentur scilicet culpa et vicium: gratia et
+            <lb ed="#N" n="56"/>virtute non conueniret vt remitteretur offensa sine infusione
+            <lb ed="#N" n="57"/>gratie. Preterea. non conueniret vt gratia infunderetur ad
+            <lb ed="#N" n="58"/>reparationem nature tantum. quia perfectio gratie est supra perfectionem
+            <lb ed="#N" n="59"/>nature. Cum igitur queritur cur non est reparatio hominis per
+            re<lb ed="#N" n="60" break="no"/>ductionem ad statum medium sicut fuit in conditione:
+            Dicen<lb ed="#N" n="61" break="no"/>dum quod et si deus hoc facere posset: hoc fieri non debuit propter
+            <lb ed="#N" n="62"/>causas iam tactas scilicet congruentiam iusticie et habundantiam
+            <lb ed="#N" n="63"/>misericordie et prouidentiam sapientie que fuit vt contraria
+            con<lb ed="#N" n="64" break="no"/>trariis curarentur. Unde quia in conditione collata fuerunt
+            <lb ed="#N" n="65"/>naturalia integra et sine corruptione et vicio. que quidem
+            <lb ed="#N" n="66"/>naturalia corrupta sunt et viciata per peccatum. si essent
+            omnino<lb ed="#N" n="67" break="no"/>reparata: nihil relinqueretur in memoriam transgressionis
+            di<lb ed="#N" n="68" break="no"/>uini precepti quod non conueniret. Preterea secundum dispositionem
+            <lb ed="#N" n="69"/>diuine prouidentie. reparatio ista non potest fieri nisi per gratiam
+            ra<lb ed="#N" n="70" break="no"/>tione dicta. gratia autem eo quod excedit in dignitate et bonita
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>te naturam: non potest esse solum reparatiua nature: sed reddit
+            <lb ed="#N" n="72"/>creaturam quam disposuit perfectam vltra perfectionem que est
+            na<lb ed="#N" n="73" break="no"/>ture.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e1104">
+            ⁋ Ad hoc igitur quod obiicitur. quod creationi respondet
+            re<lb ed="#N" n="74" break="no"/>creatio etc. Dicendum quod hoc est quantum ad hoc. quod ea que sue
+            <lb ed="#N" n="75"/>runt condita in creatura rationali corrupta siue viciata
+            per<lb ed="#N" n="76" break="no"/>culpam reparantur. sed quia reparatio est per gratiam
+            inheren<lb ed="#N" n="77" break="no"/>tem que vlterius perficit quam est perfectio nature: non stat reparatio
+            <lb ed="#N" n="78"/>vbi stetit conditio. Preterea. si sine gratia remitteretur
+            offen<lb ed="#N" n="79" break="no"/>sa et relinqueretur homo sibi: in tali corruptione naturalium
+            <lb ed="#N" n="80"/>non staret ad momentum. quod non congruit habundantie
+            diui<lb ed="#N" n="81" break="no"/>ne misericordie.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e1124">
+            ⁋ Ad hoc quod obiicitur. quod inter sanum et
+            <lb ed="#N" n="82"/>egrum vno modo est ponere medium etc. Dicendum quod non est
+            <lb ed="#N" n="83"/>simile in sanitate et egritudine spirituali. quia non est aliquo modo
+            <lb ed="#N" n="84"/>declinare ab equalitate illa penes quam attenditur spiritualis
+            <lb ed="#N" n="85"/>sanitas sine sensibili et periculoso nocumento. quia non est
+            de<lb ed="#N" n="86" break="no"/>clinare ab illa equalitate nisi per auersionem a summo
+            bo<lb ed="#N" n="87" break="no"/>no: ex qua auersione necesse est cadere in nocumentum.
+            ma<lb ed="#N" n="88" break="no"/>xime sensibile et periculosum. Unde non est ponere in illa
+            de<lb ed="#N" n="89" break="no"/>clinatione statum sine nocumento periculoso sicut in alia:
+            <lb ed="#N" n="90"/>nec etiam in reparatione est ponere medium vt ex dictis
+            pa<lb ed="#N" n="91" break="no"/>tet: quia gratia qua fit reparatio perficit vltra posse et
+            perfe<lb ed="#N" n="92" break="no"/>ctionem nature.
+          </p>
+          <p xml:id="v78d89-aboovg-d1e1150">
+            ⁋ Ad illud quod queritur. quod non est necesse
+            <lb ed="#N" n="93"/>gratiam vel culpam inesse nature etc. Dicendum etsi non sit
+            <lb ed="#N" n="94"/>necesse inquantum consideratur natura vt erat condita: necesse
+            <lb ed="#N" n="95"/>est tamen inquantum est lapsa. Nam quia tota humana natura
+            la<lb ed="#N" n="96" break="no"/>psa fuit: et eius reparatio fuit per gratiam creatam. nec aliter
+            po<lb ed="#N" n="97" break="no"/>tuit esse. quia non potuit suscipere gratiam increatam sine
+            di<lb ed="#N" n="98" break="no"/>spositione gratie create. gratia autem perficit in reparando iuxta esse
+            <lb ed="#N" n="99"/>et perfectionem nature. aut necesse est naturam esse in defectu
+            re<lb ed="#N" n="100" break="no"/>spectu esse nature condite: aut supra esse et perfectionem natu
+            <lb ed="#N" n="101"/>re. Preterea. non congruebat diuine iusticie et bonitati et
+            <lb ed="#N" n="102"/>dispositioni prouidentie vt aliter fieret reparatio vt ex dictis
+            <lb ed="#N" n="103"/>patet.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 50, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 50, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="338"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aaayez"><!-- q50m6 -->
+        <head xml:id="v78d89-aaayez-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-aaayez-Hd1e103" type="question-title">Utrum ab haereticis. scismaticis et excommunicatis</head>
+        <p xml:id="v78d89-aaayez-d1e106">
+          <lb ed="#N" n="102"/>Membrum sextum
+        </p>
+        <p xml:id="v78d89-aaayez-d1e111">
+          <lb ed="#N" n="103"/>COnsequenter queritur vtrum dispensandum
+          <lb ed="#N" n="104"/>est sacra communio ab hereticis scismaticis et
+          <lb ed="#N" n="105"/>excommunicatis. Quod non ab hereticis
+          videtu<lb ed="#N" n="106" break="no"/>sic in canone vt patet. xxiiii. q. i. Si quis
+          ac<lb ed="#N" n="107" break="no"/>ceperit. Indicitur grauis penitentia suscipientibus
+          sacram<lb ed="#N" n="108" break="no"/>communionem de manu heretici videlicet nescienti quod ecclesis
+          <lb ed="#N" n="109"/>catholica contradicit. penitentiam vnius anni: scienti et
+          negli<lb ed="#N" n="110" break="no"/>genti penitentiam. x. annorum. ergo illicitum est accipere
+          cor<lb ed="#N" n="111" break="no"/>pus christi ab illis. et hoc non nisi quia illi non habent ius
+          dispe<lb ed="#N" n="112" break="no"/>sandi. ergo etc.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e135">
+          ⁋ Item melius est mortem accipere quam de
+          ma<lb ed="#N" n="113" break="no"/>nu heretici sacram communionem. xxiiii. q. i. cepit.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e141">
+          ⁋ Item
+          om<lb ed="#N" n="114" break="no"/>nis hereticus siue magnus siue paruus siue manifestus siue
+          <lb ed="#N" n="115"/>occultus excommunicatus est ipso iure maiori excommunicatione.
+          extra<lb ed="#N" n="116" break="no"/>de hereticis citilo. ad abolendum. Nullus talis habet ius
+          dispen<lb ed="#N" n="117" break="no"/>sandi corpus christi.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e152">
+          ⁋ Quod non a scismaticis similiter videtur p
+          <lb ed="#N" n="118"/>hoc. quod vnitati ecclesie non communicat: qui scismaticis
+          communi<lb ed="#N" n="119" break="no"/>cat. xxiiii. q. i. Scisma. sed hoc sacramentum non debet
+          dispen<lb ed="#N" n="120" break="no"/>sari nisi communicanti vnitati et a communicante vnitati. ergo
+          <lb ed="#N" n="121"/>non debet dispensari a scismatico neque heretico.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e163">
+          ⁋ Similiter
+          <lb ed="#N" n="122"/>videtur quod neque ab excommunicato. quia vt habetur. xi. q ii
+          <lb ed="#N" n="123"/>quippe. sanctis canonibus cautum constat vt quicumque
+          excomm<lb ed="#N" n="124" break="no"/>municatis communicauerit excommunicetur.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e172">
+          ⁋ Item eadem. q. i.
+          <lb ed="#N" n="125"/>sicut apostoli. excommunicatus est qui excommunicatis
+          commu<lb ed="#N" n="126" break="no"/>nicat. Sed specialissima excommunicatio est in communicatio
+          <lb ed="#N" n="127"/>ne sacre communionis. ergo qui ab excommunicato suscipit
+          sa<lb ed="#N" n="128" break="no"/>cram communionem: excommunicatus est.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e183">
+          ⁋ Item
+          excommuni<lb ed="#N" n="129" break="no"/>catus est membrum dyaboli non christi. xi. q. iii. nihil. nullus
+          <lb ed="#N" n="130"/>talis debet dispensare.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e190">
+          ⁋ Contra. ab istis in vltima
+          neces<lb ed="#N" n="131" break="no"/>sitate suscipiendum est sacramentum baptismi ab adulto. simi
+          <lb ed="#N" n="132"/>liter videtur quod et sacramentum eucharistie. cum in adulterutro
+          <lb ed="#N" n="133"/>fides et contritio supplet vicem sacramenti. vt de conse. di.
+          <lb ed="#N" n="134"/>ii. Crede et manducasti. Et di. iiii. baptismi vicem. Si enim
+          <lb ed="#N" n="135"/>in adulto fides et contritio suppleat vicem sacramenti in
+          ne<lb ed="#N" n="136" break="no"/>cessitate: qua ratione suscipiendum est vnum ab istis et aliud
+          <lb ed="#N" n="137"/>cum neutrum sit de necessitate salutis. quod videtur cum
+          <lb ed="#N" n="138"/>alia vices eorum suppleant.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e211">
+          ⁋ Item extra de symonia citet tam
+          <lb ed="#N" n="139"/>ta. qui ilibet peccator missam cantare potest preter symoniacum
+          <lb ed="#N" n="140"/>ergo hereticus scismaticus excommunicatus potest cantare missam.
+          ssi<pb ed="#N" n="339"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>possunt cantare missam: possunt aliis corpus christi dispensa
+          <lb ed="#N" n="2"/>re.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e224">
+          ⁋ Responsio. quod neque ab heretico neque a scismatico. vel
+          ex<lb ed="#N" n="3" break="no"/>communicato nontorio est sacra communio dispensanda. nec ab illis debet
+          <lb ed="#N" n="4"/>sumere quis sacram communionem nec aliud sacramentum. excepto
+          bapti<lb ed="#N" n="5" break="no"/>smo qui tempore necessitatis potest sumi ab istis. excommunicatus autem
+          <lb ed="#N" n="6"/>minore excommunicatione neque debet celebrare neque sacramentum recipere
+          <lb ed="#N" n="7"/>debet neque conferre extra de sententia excommunicationis. dicitur. Si cele
+          <lb ed="#N" n="8"/>brat minore excommunicatione ligatus. licet grauiter peccet: nullius
+          <lb ed="#N" n="9"/>tamen nomen irregularitatis incurrit. peccant autem
+          confe<lb ed="#N" n="10" break="no"/>rendo ecclesiastica sacramenta.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e244">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="11"/>primo. dicendum quod non est simile de baptismo et contritione: tum
+          pro<lb ed="#N" n="12" break="no"/>pter necessitatem: tum propter vtilitatem. Propter necessita
+          <lb ed="#N" n="13"/>tem quia si assit facultas necessaria est adimpletio decreti
+          sal<lb ed="#N" n="14" break="no"/>uatoris editi. iii. Iohanis. Nisi quis renatus fuerit etc. Unde
+          <lb ed="#N" n="15"/>si assit facultas baptismi. non sufficit adulto contritio ad
+          sa<lb ed="#N" n="16" break="no"/>lutem. Propter vtilitatem. quia plenior fit remissio in
+          ba<lb ed="#N" n="17" break="no"/>ptismo quam in contritione. Baptismus enim absoluit omnino a
+          <lb ed="#N" n="18"/>culpa et reatu et reddit promptum ad euolandum. hoc autem
+          <lb ed="#N" n="19"/>non facit contritio. propter hoc autem indultum est instante
+          ne<lb ed="#N" n="20" break="no"/>cessitate posse recipi baptisma a quolibet. non sic est de
+          sa<lb ed="#N" n="21" break="no"/>cramento altaris.
+        </p>
+        <p xml:id="v78d89-aaayez-d1e270">
+          ⁋ Ad illud quod obiicitur. quod quilibet pec
+          <lb ed="#N" n="22"/>cator missam cantare potest etc. Dicendum quod hoc intelligendum
+          <lb ed="#N" n="23"/>est exceptis aliis enormiter delinquentibus vel mediociter.
+          <lb ed="#N" n="24"/>dummodo eorum crimina notoria sunt de iure vel de facto.
+          hi<lb ed="#N" n="25" break="no"/>enim omnes suspensi sunt quo ad se et quo ad alios. Nam enor
+          <lb ed="#N" n="26"/>mia occulta etiam post actam penitentiam et mediocria
+          <lb ed="#N" n="27"/>notoria impediunt ordinis executionem et quo ad alios extiam
+          <lb ed="#N" n="28"/>de renunciatione. c. nisi cum pridem. talia sunt symonia et
+          ho<lb ed="#N" n="29" break="no"/>micidium. de his extra de accusationibus. his testibus. et
+          <lb ed="#N" n="30"/>secundum aliquos omne peccatum quod ipso iure irrogat insaniam.
+          <lb ed="#N" n="31"/>Pre. sic intelligitur. omnis peccator missam cantare potest
+          <lb ed="#N" n="32"/>scilicet de officii potestate non de merito vite. et hoc intelligitur de
+          praela<lb ed="#N" n="33" break="no"/>to peccatore tolerato non preciso. Aliqui vero dicunt hoc
+          ver<lb ed="#N" n="34" break="no"/>bum omnis peccator potest etc. debere referri ad facultatem
+          <lb ed="#N" n="35"/>dispensandi. q. d. facilius dispensatur cum omnibus aliis
+          <lb ed="#N" n="36"/>criminosis preter homicidam quam cum symoniaco. sed hoc
+          <lb ed="#N" n="37"/>minus recte dicitur. sed intelligendum est simpliciter. quod patet eius
+          <lb ed="#N" n="38"/>initio considerato. quia symoniacus in ipso sui initio
+          communio<lb ed="#N" n="39" break="no"/>nis suspensus est. i. q. i. reperiuntur. et in ipsa sui radice initi
+          <lb ed="#N" n="40"/>atus. et in cuius ortu cadit. i. q. i. quibasdam: et ita ex eo tempore
+          <lb ed="#N" n="41"/>quo crimen symonie comittit quis damnatus est. vnde postea
+          <lb ed="#N" n="42"/>celebrare non potest. sic non est in aliis peccatis. et ita symoni
+          <lb ed="#N" n="43"/>acus celebrare non potest nisi cum eo dispensetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

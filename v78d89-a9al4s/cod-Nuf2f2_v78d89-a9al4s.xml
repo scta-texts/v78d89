@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 46, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 46, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="326"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9al4s"><!-- q46m4 -->
+        <head xml:id="v78d89-a9al4s-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a9al4s-Hd1e103" type="question-title">An plus peccet haereticus sumendo quam existens in alio genere peccati</head>
+        <p xml:id="v78d89-a9al4s-d1e106">
+          <pb ed="#N" n="326"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e115">
+          <lb ed="#N" n="2"/>COnsequenter queritur. vtrum plus peccat
+          here<lb ed="#N" n="3" break="no"/>ticus sumendo corpus christi quam existens in alioge
+          <lb ed="#N" n="4"/>nere peccati. Quod sic: videtur. Qui magis elongatur
+          <lb ed="#N" n="5"/>ab illis que efficiunt hominem dignum ad
+          susci<lb ed="#N" n="6" break="no"/>piendum cuiusmodi sunt fides et caritas. minus digne
+          acce<lb ed="#N" n="7" break="no"/>dit: magis indigne accedit. et qui magis indigne accedit
+          <lb ed="#N" n="8"/>magis peccat: igitur cum hereticus magis elongatur ab his qua
+          <lb ed="#N" n="9"/>reddunt hominem dignum ad suscipiendum quod qui est in alio genere
+          <lb ed="#N" n="10"/>peccati: magis peccat sumendo etc.
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e137">
+          ⁋ Item plus meretur
+          <lb ed="#N" n="11"/>qui comedit corpus christi sacramentaliter et spiritualiter: quam
+          u<lb ed="#N" n="12" break="no"/>le qui manducat altero modo tantum. Similiter videtur quod plus
+          <lb ed="#N" n="13"/>demeretur qui sumendo neutro modo commedit quam qui altero
+          <lb ed="#N" n="14"/>modo. sed infidelio sumendo neutro modo comedit: fidelis pec
+          <lb ed="#N" n="15"/>cator altero modo. ergo videtur quod fidelis plus peccat etc.
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e151">
+          ⁋
+          Con<lb ed="#N" n="16" break="no"/>tra. vbi est maior contemptus ex parte sumentis est grauius pec
+          <lb ed="#N" n="17"/>catum et maius. sed existens in mortali credens accipit cum
+          ma<lb ed="#N" n="18" break="no"/>iori contemptu quam hereticus qui non credit quod est corpus christi
+          <lb ed="#N" n="19"/>quod sumit: sed quod est panis communis. igitur hereticus minus peccat
+          <lb ed="#N" n="20"/>sumendo etc.
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e164">
+          ⁋ Item si in illis que morum sunt plus peccat qui
+          <lb ed="#N" n="21"/>scienter peccat quam qui ignoranter in eodem genere peccati. vnde
+          <lb ed="#N" n="22"/>ii. pe. ii. Melius erit eis non cognoscere via iusticie: qum post
+          <lb ed="#N" n="23"/>cognitionem retrorsum conuerti. Similiter est in islis que
+          fi<lb ed="#N" n="24" break="no"/>dei sunt. et ita videtur quod fidelis qui peccat in hoc
+          sacramen<lb ed="#N" n="25" break="no"/>to ex certa scientia: plus peccat quam infidelis.
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e177">
+          ⁋ Responsio
+          <lb ed="#N" n="26"/>quod ex alia causa peccat hereticus sumendo et ex alia
+          exi<lb ed="#N" n="27" break="no"/>stens in mortali credens. quia hereticus peccat ex
+          dissenfu<lb ed="#N" n="28" break="no"/>id est dissentiendo ab ecclesia siue a fidelibus in veritate
+          cre<lb ed="#N" n="29" break="no"/>dens existens in mortali peccat ex contemptu. Dicendum est
+          <lb ed="#N" n="30"/>igitur. quod infidelis plus peccat simpliciter circa hoc
+          sacra<lb ed="#N" n="31" break="no"/>mentum quam existens in mortali sumendo. sed quia contemptus
+          <lb ed="#N" n="32"/>maxime est causa peccati in sumptione: plus peccat credens
+          <lb ed="#N" n="33"/>existens in mortali sumendo quam haereticus. vnde haereticus indignior ao
+          <lb ed="#N" n="34"/>cedit: credens existens in mortali magis indigne. Cum igitur dicitur
+          <lb ed="#N" n="35"/>qu magis elongatur ab his que efficiunt hominem dignum ad
+          susci<lb ed="#N" n="36" break="no"/>piendum minus digne accedit. Respondendum est per
+          interemptio<lb ed="#N" n="37" break="no"/>nem quod minus digne accedit. aliquis enim dignior alio. quandoque
+          <lb ed="#N" n="38"/>minus digne accedit illo qui minus bonus est: sicut habens
+          <lb ed="#N" n="39"/>maiorem caritatem minus reuerenter accedens et cum minori
+          ti<lb ed="#N" n="40" break="no"/>more et minori diiudicatione: minus digne accedit quam ille
+          qui<lb ed="#N" n="41" break="no"/>habet minorem caritatem et melius preparatus quantum ad hoc
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e214">
+          <lb ed="#N" n="42"/>⁋ Ex his patet in parte responsio adalia. quia hereticus
+          dissen<lb ed="#N" n="43" break="no"/>tiendo ab ecclesia et fidelibus propterdefectum fundamenti siue
+          <lb ed="#N" n="44"/>fidei. omnino manducare indignus est aliquo modo
+          manduca<lb ed="#N" n="45" break="no"/>tionis. et peccat discredendo que accidunt circa vtramque
+          man<lb ed="#N" n="46" break="no"/>ducationem. non est ita de fideli existenti in peccato. si fidelis:
+          <lb ed="#N" n="47"/>tamen non preparet se ita vt digne accipiat. quantum and hoc ex
+          <lb ed="#N" n="48"/>maiori contemptu peccat. Unde sine preiudicio dico. quod pluos
+          <lb ed="#N" n="49"/>peccat fidelis talis in sumendo. hereticus autem plus peccat
+          <lb ed="#N" n="50"/>simpliciter scilicet discredendo mirabilia que fiunt mirabilier
+          <lb ed="#N" n="51"/>in hoc sacramento.
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e238">
+          ⁋ Sed contra hoc obiicitur sic. que fiunt
+          cir<lb ed="#N" n="52" break="no"/>ca hoc sacramentum minime sunt rationi humane persuasibilia
+          <lb ed="#N" n="53"/>nisi eleuetur per fidem. Omni vero habenti fidem dictat ratio et
+          con<lb ed="#N" n="54" break="no"/>scientia quod digne accedendum est ad ipsum. sed dissentiens ab eo
+          <lb ed="#N" n="55"/>quod nullo modo vel cum mapima difficultate est persuasibile
+          mi<lb ed="#N" n="56" break="no"/>nus peccat: quam negligens illud quod ratio et conscientia bona dictat
+          <lb ed="#N" n="57"/>esse faciendum. ergo minus peccat hereticus discredens hoc
+          <lb ed="#N" n="58"/>sacramentum et que fiunt in ipso quam fidelis indigne accedens
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e256">
+          <lb ed="#N" n="59"/>⁋ Ad hoc dicendum. quod licet illa que accidunt circa hoc
+          sacra<lb ed="#N" n="60" break="no"/>mentum et simpliciter ea que fidei sunt minime sunt persua
+          <lb ed="#N" n="61"/>sibilia rationi humane. immo potius sunt contraria: nihilo
+          <lb ed="#N" n="62"/>minus illis est maxime assentiendum. tum ratione auctoris fidei
+          <lb ed="#N" n="63"/>christiane scilicet domini ihu. tum ratione exempli sanctorum. tum ratione
+          expressi<lb ed="#N" n="64" break="no"/>onis sacre scripture. tum ratione attestationis miraculorum Unde
+        </p>
+        <p xml:id="v78d89-a9al4s-d1e273">
+          <lb ed="#N" n="65"/>richardus de sancto vic. Nihil certius nihil constantius
+          te<lb ed="#N" n="66" break="no"/>nemus: quom que fide comprehendimus. vtimur itaque in eorum
+          at<lb ed="#N" n="67" break="no"/>testatione signis pro argumentis. vtinam attenderent iudei.
+          <lb ed="#N" n="68"/>animaduerterent pagani: cum quanta securitate conscientie
+          pro<lb ed="#N" n="69" break="no"/>hac parte ad diuinum iudicium poterimus accedere. Nonne
+          <lb ed="#N" n="70"/>cum fiducia deo dicere poterimus. si error est: a teipso
+          dece<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>pti sumus. Nam ista in nobis tantis signis et prodiqiis
+          con<lb ed="#N" n="72" break="no"/>firmata sunt et talibus. que non nisi per te fieri possunt. certe
+          <lb ed="#N" n="73"/>a summis sanctis viris sunt nobis tradita et cum summa et
+          <lb ed="#N" n="74"/>autentica attestatione probata: teipso cooperante et sermonem
+          <lb ed="#N" n="75"/>confirmante sequentibus signis. Unde discredulitas siue
+          <lb ed="#N" n="76"/>infidelitas hereticorum quantum ad ea que accidunt circa hoc
+          <lb ed="#N" n="77"/>sacramentum et aliorum que fidei sunt superbia maxima
+          cau<lb ed="#N" n="78" break="no"/>sa est. Magis enim presumunt de se quam de omnibus predictis. ex
+          <lb ed="#N" n="79"/>quibus certa sunt que fidei sunt. Unde error fidei
+          maxi<lb ed="#N" n="80" break="no"/>mum peccatum est. quia est ex maximo contemptu. licet enim ea que cit
+          <lb ed="#N" n="81"/>ca hoc sacramentum accidunt minime sunt persuasibilia
+          ra<lb ed="#N" n="82" break="no"/>tionibus humanis. nihilominus certificata sunt modis
+          <lb ed="#N" n="83"/>predictis. propter quod merito credenda sunt. Ex alia parte
+          li<lb ed="#N" n="84" break="no"/>cet dictet credenti ratio et conscientia quod digne accedendum est ad
+          <lb ed="#N" n="85"/>hoc sacramentum: tamen delectatio et amor boni commuta
+          <lb ed="#N" n="86"/>bilis qui est causa peccati non modicum vinculat peccatorem
+          <lb ed="#N" n="87"/>gratia non assistente: ne preparet se ad hoc quod digne accedat.
+          <lb ed="#N" n="88"/>Unde nisi hereticus esset magis peruersus quam alius peccator:
+          <lb ed="#N" n="89"/>ita cito vel citius crederet ea que accidunt circa hoc
+          sacra<lb ed="#N" n="90" break="no"/>mentum: quam peccator alio genere peccati prepararet se ad digne
+          <lb ed="#N" n="91"/>suscipiendum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

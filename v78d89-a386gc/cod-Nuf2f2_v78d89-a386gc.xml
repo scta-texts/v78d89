@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 11, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 11, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="94"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a386gc"><!-- q11m1 -->
+        <head xml:id="v78d89-a386gc-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-a386gc-d1e103">
+          <lb ed="#N" n="73"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a386gc-d1e108">
+          <lb ed="#N" n="74"/>CIrca primum sic queritur. Cum multe sint
+          diffini<lb ed="#N" n="75" break="no"/>tiones baptismi. quarum vna ponitur a magistro
+          <lb ed="#N" n="76"/>in libo sentem. Baptismus est tinctio id est ablutio
+          cor<lb ed="#N" n="77" break="no"/>poralis exterior facta sub forma verborum
+          pre<lb ed="#N" n="78" break="no"/>scripeta. Alia ponitur ab augu. Baptismus est tinctio in aqua
+          <lb ed="#N" n="79"/>verbo vite sanctificata. Tercia a hugo. Baptismus est aqua
+          <lb ed="#N" n="80"/>diluendis criminibus sanctificata per verbum dei. Quarta
+          <lb ed="#N" n="81"/>dyoni. Baptismus est regenerationis sacramentum. secundum quod
+          pri<lb ed="#N" n="82" break="no"/>mitus subsistit anima spiritualiter formans animales motus ad
+          <lb ed="#N" n="83"/>oportunitatem diuinorum eloquiorum et actionum. et ad celestis
+          <lb ed="#N" n="84"/>quietis anagogen iter faciens. Quinta ponitur a dama.
+          Ba<lb ed="#N" n="85" break="no"/>ptismus est principium alterius vite per quod fuit primicie spiritus
+          <lb ed="#N" n="86"/>regeneratio sigillum. custodia et illuminatio mentis.
+          Queren<lb ed="#N" n="87" break="no"/>dum est ergo de singulis aliquid et de comparatione earum
+          ad<lb ed="#N" n="88" break="no"/>inuicem.
+        </p>
+        <p xml:id="v78d89-a386gc-d1e143">
+          ⁋ Cum enim vnius rei vnum est esse. non videntur plures
+          <lb ed="#N" n="89"/>posse esse diffinitiones baptismi. et ita si vna illarum est
+          diffi<lb ed="#N" n="90" break="no"/>nitio: relique non erunt diffinitiones.
+        </p>
+        <p xml:id="v78d89-a386gc-d1e150">
+          ⁋ Responsio. quod diffinitio
+          <lb ed="#N" n="91"/>nes iste dantur secundum genera diuersa causarum principaliter: licet
+          <lb ed="#N" n="92"/>alie cointelligantur inquantum baptisma trahit esse ab illis. Est
+          <lb ed="#N" n="93"/>enim causa materialis secundum quam datur diffinitio hugonis.
+          <lb ed="#N" n="94"/>cum dicitur. Baptismus est aqua etc. licet enim tangatur
+          <lb ed="#N" n="95"/>ibi finis: hoc non est nisi secundum quod materia disponitur vt talis
+          <lb ed="#N" n="96"/>finis quantum est de ipsa consequatur. Est etiam causa forma
+          <lb ed="#N" n="97"/>lis scilicet tinctio siue ablutio. et hoc attendi potest dupliciter
+          <lb ed="#N" n="98"/>vel respectu subiecti cum dicitur ablutio: vel respectu
+          mate<lb ed="#N" n="99" break="no"/>rie cum dicitur tinctio in aqua. vnum est respectu eius quod
+          ab<lb ed="#N" n="100" break="no"/>luitur: aliud respectu eius quo abluitur. In aliis autem
+          ille<lb ed="#N" n="101" break="no"/>due rationes conueniunt. nisi in hoc quod verbum quo fit sancti
+          <lb ed="#N" n="102"/>ficatio sub duplici forma notificatur. In designatione enim
+          <lb ed="#N" n="103"/>magistri verbum designatur in respectu ad institutionem cum
+          <lb ed="#N" n="104"/>dicitur. forma verborum prescripta id est instituta ad hoc. In
+          dif<lb ed="#N" n="105" break="no"/>finitione vero augu. designatur in comparatione ad animam. ad cuius
+          <lb ed="#N" n="106"/>vitam spiritualem disponit. Est iterum causa finalis et penes istam
+          <lb ed="#N" n="107"/>dantur due vltime. dyoni. et dama. sed in hoc differunt quod finis
+          <lb ed="#N" n="108"/>attendi potest dupliciter. vel inquantum efficitur ab agente: et
+          <lb ed="#N" n="109"/>secundum hoc accipitur diffinitio dama. in qua tanguntur effectus
+          spi<lb ed="#N" n="110" break="no"/>ritussancti. quibus anima quodammodo perficitur per baptismi
+          <lb ed="#N" n="111"/>sacramentum. et quia multi sunt secundum prius et posterius: ideo
+          <lb ed="#N" n="112"/>multi tanguntur. Diffinitio vero dyoni. determinat finem secundum
+          <lb ed="#N" n="113"/>quod subiectum quod est anima vel homo. et esse accipit spirituale et
+          <lb ed="#N" n="114"/>motum spiritualem disponente baptismo secundum suam veritatem. Uel
+          <lb ed="#N" n="115"/>sic contingit considerare baptismum inquantum est signum exterius
+          <lb ed="#N" n="116"/>et inquantum habet effectum interiorem. si consideratur primo modo.
+          <lb ed="#N" n="117"/>hoc potest esse dupliciter. vel inquantum habet tantum rationem
+          signifi<lb ed="#N" n="118" break="no"/>candi: et sic est illa diffinitio magistri. Baptismus est ablutio
+          cor<lb ed="#N" n="119" break="no"/>poralis exterior vbi tangitur solum ratio significandi. vel
+          in<lb ed="#N" n="120" break="no"/>quantum habet rationem significandi et aptitudinem
+          disponen<lb ed="#N" n="121" break="no"/>di siue sanctificandi: et sic est illa augu. que est. Baptismus
+          <lb ed="#N" n="122"/>est tinctio in aqua verbo vite sanctificata. per hoc quod additur
+          <lb ed="#N" n="123"/>verbo vite sanctificata insinuatur aptitudo ad
+          sanctifican<lb ed="#N" n="124" break="no"/>dum. Si consideretur quantum ad effectum interiorem siue in
+          efficien<lb ed="#N" n="125" break="no"/>do. hoc esse potest dupliciter. Uel quantum ad ablationem mali. Uel
+          <lb ed="#N" n="126"/>quantum ad positionem boni. Si primo modo: sic est illa hugo.
+          <lb ed="#N" n="127"/>Baptismus est aqua diluendis criminibus sanctificata etc.
+          Si<lb ed="#N" n="128" break="no"/>secundo modo. hoc potest esse dupliciter. aut inquantum est informans
+          <lb ed="#N" n="129"/>et perficiens ipsam animam simpliciter et indistincte: et sic est illa
+          <lb ed="#N" n="130"/>que est dyoni. Aut inquantum est perficiens et informans ipsam
+          <lb ed="#N" n="131"/>quantum ad differentias potentiarum anime: et sic est illa que est
+          da<lb ed="#N" n="132" break="no"/>ma. hec infra melius patebunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

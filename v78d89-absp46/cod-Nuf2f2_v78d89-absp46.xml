@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 60, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 60, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="401"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-absp46"><!-- q60m2 -->
+        <head xml:id="v78d89-absp46-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-absp46-Hd1e103" type="question-title">De signo</head>
+        <p xml:id="v78d89-absp46-d1e106">
+          <lb ed="#N" n="131"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-absp46-d1e111">
+          <lb ed="#N" n="132"/>COnsequenter queritur de signo huius sacramenti
+          <lb ed="#N" n="133"/>Queritur ergo vtrum signa ex parte confitentis debent
+          <lb ed="#N" n="134"/>dici sacramentum: an ex parte ministri id est
+          sacer<lb ed="#N" n="135" break="no"/>dotis. Quod signa ex parte sacerdotis videtur.
+          Peni<lb ed="#N" n="136" break="no"/>tentia est collatiua salutis. hec autem collatio salutis est a
+          <lb ed="#N" n="137"/>deo efficiente mediante ministro instituto ad hoc id est habente
+          <lb ed="#N" n="138"/>potestatem clauium. Cum igitur sacramenta no. le. efficiant quod
+          <lb ed="#N" n="139"/>figurant: efficientia salutis magis est ex parte ministri quam ex
+          <lb ed="#N" n="140"/>parte penitentis. licet dispositio materialis plus sit ex
+          par<lb ed="#N" n="141" break="no"/>te penitentis. signum sacerdotale magis deberet sumi
+          <pb ed="#N" n="402"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>ex parte ministri quam ex parte penitentis. ergo absolutio
+          sacerdo<lb ed="#N" n="2" break="no"/>tis vel iniunctio penitentie: magis debet dici sacramentum
+          <lb ed="#N" n="3"/>quam confessio vel satisfactio.
+        </p>
+        <p xml:id="v78d89-absp46-d1e146">
+          ⁋ Item competenter dicitur. Iste
+          susci<lb ed="#N" n="4" break="no"/>pit sacramentum penitentie. non autem congruit dicere: iste
+          susci<lb ed="#N" n="5" break="no"/>pit scilicet confesfsionem vel satisfactionem. sed congrue dicitur iste
+          su<lb ed="#N" n="6" break="no"/>scipit iniunctionem penitentie: igitur iniunctio sacerdotis
+          poti<lb ed="#N" n="7" break="no"/>us debet dici sacramentum quam confessio vel satisfactio.
+        </p>
+        <p xml:id="v78d89-absp46-d1e158">
+          ⁋ Item
+          <lb ed="#N" n="8"/>signum sacramentale significat ex institutione. sed confessio pec
+          <lb ed="#N" n="9"/>cati est signum contritionis de peccato naturaliter. similiter
+          <lb ed="#N" n="10"/>satisfactio. quando enim confitetur peccatum suum et punit se pro pec
+          <lb ed="#N" n="11"/>cato: signum est quod dolet de peccato: et si nullus hoc instituis
+          <lb ed="#N" n="12"/>set. non sic est de iniunctione penitentie vel absolutione: igitur
+          <lb ed="#N" n="13"/>iniunctio penitentie vel absolutio magis debet esse signum
+          sa<lb ed="#N" n="14" break="no"/>cramentale quam confessio vel satisfactio.
+        </p>
+        <p xml:id="v78d89-absp46-d1e176">
+          ⁋ Contra. penitentia
+          <lb ed="#N" n="15"/>prout est sacramentum ecclesie habet tres partes essentiales tantum
+          <lb ed="#N" n="16"/>que sunt. contritio. confessio. satisfactio. igitur penes hec
+          tria<lb ed="#N" n="17" break="no"/>attenditur tota substantia penitentie sacramenti vt est sacramentum
+          <lb ed="#N" n="18"/>hec tria determinantur circa penitentem non circa ministrum
+          <lb ed="#N" n="19"/>siue sacerdotem. igitur etc.
+        </p>
+        <p xml:id="v78d89-absp46-d1e189">
+          ⁋ Responsio. quod sacramentum
+          no<lb ed="#N" n="20" break="no"/>ue le. imaginem gerit et causa existit. Unde esse
+          sacramenti<lb ed="#N" n="21" break="no"/>non omnino attendi debet in significatione. aut in causalita
+          <lb ed="#N" n="22"/>te: sed in vtroque. Intelligendum igitur quod confessio quelibet
+          <lb ed="#N" n="23"/>non est sacramentalis: sed illa que fit habenti potestatem
+          cla<lb ed="#N" n="24" break="no"/>uium. Ad hoc igitur quod hec sint sacramentalia ex parte
+          peniten<lb ed="#N" n="25" break="no"/>tis requiritur confessio cum subiectione confitentis arbitrio
+          <lb ed="#N" n="26"/>sacerdotis. et satisfactio suscepta a sacerdote. ex parte
+          sacer<lb ed="#N" n="27" break="no"/>dotis requiritur absolutio et iniunctio penitentie. que igitur
+          <lb ed="#N" n="28"/>sunt ex parte penitentis: magis habent rationem signi. que ex parte
+          <lb ed="#N" n="29"/>sacerdotis: magis rationem cause. vtrumque tamen habet. Sed abso
+          <lb ed="#N" n="30"/>lutio et iniunctio causalitati quodammodo formaliter:
+          con<lb ed="#N" n="31" break="no"/>fessio cum subiectione arbitrio sacerdotis et satisfactio in
+          <lb ed="#N" n="32"/>iuncta quodammodo materialiter. Unde ratio cause magis
+          <lb ed="#N" n="33"/>est ex parte eorum que sunt a sacerdote: et minus ex parte eorum
+          <lb ed="#N" n="34"/>que sunt ex parte penitentis. econuerso est de significatione. quia
+          <lb ed="#N" n="35"/>annihilatio sui in confessione et satisfactione. magis sunt
+          si<lb ed="#N" n="36" break="no"/>gna gratie annihilantis culpam et contritionis de peccato
+          <lb ed="#N" n="37"/>quam absolutio sacerdotis et iniunctio penitentie.
+        </p>
+        <p xml:id="v78d89-absp46-d1e231">
+          ⁋ Sed
+          si<lb ed="#N" n="38" break="no"/>contra hoc obiiciatur quia absolutio sacerdotis que fit expres
+          <lb ed="#N" n="39"/>sione talium verborum. Ego absoluo te vel dominus absoluat te.
+          <lb ed="#N" n="40"/>magis exprimit absolutionem a peccato quam confessio peniten
+          <lb ed="#N" n="41"/>tis. Potest resposenderi quod magis exprimit absolutionem ex
+          <lb ed="#N" n="42"/>penitentie impositione scilicet impositione significationis inquantum est
+          <lb ed="#N" n="43"/>vox significatiua ad placitum primi instituentis: sed non
+          inquan<lb ed="#N" n="44" break="no"/>tum est significans ex institutione qua est sacramentalis.
+          <lb ed="#N" n="45"/>immo ipsa confessio magis.
+        </p>
+        <p xml:id="v78d89-absp46-d1e251">
+          ⁋ Ad illud quod primo obiicitur
+          <lb ed="#N" n="46"/>patet responsio. quod licet causalitas salutis maior sit ex parte
+          <lb ed="#N" n="47"/>eorum que fiunt a ministro: non tamen expressio tanta significationis.
+        </p>
+        <p xml:id="v78d89-absp46-d1e258">
+          <lb ed="#N" n="48"/>⁋ Ad aliud quod obiicitur. quod magis congruit dicere iste
+          su<lb ed="#N" n="49" break="no"/>scipit iniunctionem vel absolutionem quam confessionem etc.
+          dicen<lb ed="#N" n="50" break="no"/>dum quod ex hoc non sequitur quod ratio sacramenti non determinetur
+          <lb ed="#N" n="51"/>magis ex parte iniungentis vel absoluentis: sed hec congruentia
+          <lb ed="#N" n="52"/>est quia susceptio est ab alio proprie loquendo. Preterea. penitens
+          <lb ed="#N" n="53"/>dicitur suscipere sacramentum. non quia suscipit sacramentum
+          <lb ed="#N" n="54"/>quantum ad signa: sed potius suscipit quantum ad illa penes
+          <lb ed="#N" n="55"/>que est efficacia maior causalitatis.
+        </p>
+        <p xml:id="v78d89-absp46-d1e279">
+          ⁋ Ad illud quod
+          obii<lb ed="#N" n="56" break="no"/>citur. quod confessio peccati naturaliter est signum
+          contriti<lb ed="#N" n="57" break="no"/>onis non ex institutione. dicendum quod signa sacramentalia
+          si<lb ed="#N" n="58" break="no"/>gnificant ex similitudine naturali. sed representant ex
+          insti<lb ed="#N" n="59" break="no"/>tutione sicut vult hugo. sicut patet de absolutione
+          baptis<lb ed="#N" n="60" break="no"/>mali. vt enim dicit hugo. debet sacramentum quandam
+          simili<lb ed="#N" n="61" break="no"/>tudinem habere ad ipsam rem cuius est sacramentum. secundum quam
+          <lb ed="#N" n="62"/>habile sit ad ipsam rem representandam. institutione que per
+          quam<lb ed="#N" n="63" break="no"/>ordinatum sit ad illam significandam. Quod igitur confessio habet quam
+          <lb ed="#N" n="64"/>dam similitudinem vnde apta est naturaliter significare
+          <lb ed="#N" n="65"/>contritionem: hoc non impedit quin illam eandem possit
+          repr<lb ed="#N" n="66" break="no"/>sentare ex institutione: sed potius hoc requiritur. Unde
+          <lb ed="#N" n="67"/>hoc est magis contra propositum quam pro.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

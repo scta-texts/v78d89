@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 12, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 12, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="99"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3j94a"><!-- q12m2 -->
+        <head xml:id="v78d89-a3j94a-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a3j94a-Hd1e103" type="question-title">De causis institutionis</head>
+        <p xml:id="v78d89-a3j94a-d1e106">
+          <lb ed="#N" n="78"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a3j94a-d1e111">
+          <lb ed="#N" n="79"/>COnsequenter queritur de causa institutionis.
+          <lb ed="#N" n="80"/>Circa quod queritur. quare necessae fuit baptisma
+          <lb ed="#N" n="81"/>post circumcisionem institui. Nam sicut in
+          ba<lb ed="#N" n="82" break="no"/>ptismo tollitur culpa originalis: similiter et in
+          cir<lb ed="#N" n="83" break="no"/>cumcisione tollembatur et pena similiter. et sicut dictum est de baptismo
+          <lb ed="#N" n="84"/>Nisi quis renatus fuerit non intrabit in regnum celorum. similiter
+          <lb ed="#N" n="85"/>de circumcisione dicitur. Masculus cuius prepucii caro
+          circumci<lb ed="#N" n="86" break="no"/>sa non fuerit: peribit etc.
+        </p>
+        <p xml:id="v78d89-a3j94a-d1e131">
+          ⁋ Si dicatur quod ille qui non est baptizatus
+          <lb ed="#N" n="87"/>a regno dei excluditur. qui vero non est circumcisus periturus
+          me<lb ed="#N" n="88" break="no"/>moratur. per quod videtur innui: quod circumcisio suscepta a perditione
+          <lb ed="#N" n="89"/>tantum potuit liberare: baptismus vero renatos etiam ad gloriam
+          <lb ed="#N" n="90"/>perducere. Contra. illi antiqui patres qui circumcisionis gratiam
+          <lb ed="#N" n="91"/>perceperant: a perditione quidem liberabantur. sed ad gloriam non
+          du<lb ed="#N" n="92" break="no"/>cebantur ante passionem christi. baptismus ergo habuit virtutem
+          per<lb ed="#N" n="93" break="no"/>ducendi ad regnum a passione christi. Sed eandem virtutem
+          ha<lb ed="#N" n="94" break="no"/>buisset circumcisio post passionem christi ex quo aperta esset ianua.
+          <lb ed="#N" n="95"/>ergo non fuit propter hoc necesse vt baptisma institueretur et
+          suc<lb ed="#N" n="96" break="no"/>cederet loco circumcisionis.
+        </p>
+        <p xml:id="v78d89-a3j94a-d1e156">
+          ⁋ Ad quod respondendum est. secundum quod
+          <lb ed="#N" n="97"/>dicit hugo de s. vic. quod oportuit vt secundum processum temporum
+          <lb ed="#N" n="98"/>spiritualium gratiarum: signa magis ac magis euidentia etc. et hoc
+          de<lb ed="#N" n="99" break="no"/>clarat euidentibus exemplis vt sm. tactum est. vnde quia circumcisio
+          <lb ed="#N" n="100"/>erat sacramentum perticulare non vniuersale. quia solum dabatur
+          vi<lb ed="#N" n="101" break="no"/>ris et non mulieribus: ideo competebat vt post circumcisionem
+          in<lb ed="#N" n="102" break="no"/>stitueretur sacramentum quod esset vniuersale remedium. Item
+          cir<lb ed="#N" n="103" break="no"/>cumcisio inferabat dolorem in carne: vnde fuit sacramentum
+          la<lb ed="#N" n="104" break="no"/>boriosum. et ideo post illud congruebat quod institueretur sacramentum
+          <lb ed="#N" n="105"/>quod esset sine dolore. et ideo quantum ad hoc perfectius fuit
+          sacramen<lb ed="#N" n="106" break="no"/>tum baptismi. Preterea. in hoc est perfectius: quia est sacramentum
+          <lb ed="#N" n="107"/>regenerationis. quia fiunt filii dei de filiis ire. Io. i. Dedit eis
+          <lb ed="#N" n="108"/>potetantem filios dei fieri his qui credunt in nomine eius. hec autem
+          <lb ed="#N" n="109"/>regeneratio non fuit facta in circumcisione. Non enim ibi dictum
+          <lb ed="#N" n="110"/>est. nisi quis renatus fuerit etc. In circumcisione enim significa
+          <lb ed="#N" n="111"/>tur fieri ablutio. In aqua vero cum sanctificatur quedam
+          dispo<lb ed="#N" n="112" break="no"/>sitio ad regenerationem quod exterius opparet in hoc quod ad
+          ge<lb ed="#N" n="113" break="no"/>nerationem seminum humor aqueus est necessarius. Preterea.
+          ba<lb ed="#N" n="114" break="no"/>ptismus est sacramentum maioris efficacie. non enim tantum est ad
+          mun<lb ed="#N" n="115" break="no"/>dationem a culpa. vel etiam ad sanationem a pena: sicut dicit augustinus.
+          <lb ed="#N" n="116"/>ad Ualerium. sed etiam ad collationem gratie. vnde dicit Cris. Non
+          po<lb ed="#N" n="117" break="no"/>test quis gratiam vite celestis accipere: nisi purgatus fuerit per
+          <lb ed="#N" n="118"/>donum baptismi salutaris. hoc autem sane intelligendum est: non
+          <lb ed="#N" n="119"/>quod alis non possit deus dare gratiam: sed quia conueniens dispositio
+          <lb ed="#N" n="120"/>ad susceptionem gratie celestis est in baptismo. Item est
+          sacramen<lb ed="#N" n="121" break="no"/>tum renouationis sicut habetur. vi. ad Ro. Consepulti sumus
+          <lb ed="#N" n="122"/>cum christo per baptismum in mortem. vt qumo resurrexit christus a mor
+          <lb ed="#N" n="123"/>tuis per gloriam patris: ita et nos in nouitate vite ambulemus.
+          <lb ed="#N" n="124"/>et hec est vna similitudo aque. dicitur enim xiiii. Iob. si senuerit in
+          <lb ed="#N" n="125"/>terra radix eius et in puluere mortuus fuerit truncus eius:
+          <lb ed="#N" n="126"/>ad odorem aque germinabit et faciet comam. Preterea datur
+          <lb ed="#N" n="127"/>quedam refectio spiritualis cum aliis bonis. sicut dicitur super illud
+          <lb ed="#N" n="128"/>psalmus. super aquam refectionis etc. glo. educauit me paulatim vt
+          <lb ed="#N" n="129"/>puerum super aquam refectionis id est baptismum. quo reficiuntur qui
+          in<lb ed="#N" n="130" break="no"/>tegritatem et vires amiserant: et anima ariditate peccatorum sterilis
+          <lb ed="#N" n="131"/>fecundatur. Preterea. est sacramentum illuinationis: sicut dicit dyo. In illo enim
+          <lb ed="#N" n="132"/>significatur quod mens ad diuinum lumen apta illud percipit et illo signtur.
+          <lb ed="#N" n="133"/>propter has ergo proprietates et alias patet necessarium esse istud sacramentum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

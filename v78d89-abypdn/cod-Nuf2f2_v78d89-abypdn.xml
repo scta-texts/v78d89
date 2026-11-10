@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 61, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 61, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="404"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-abypdn"><!-- q61m4 -->
+        <head xml:id="v78d89-abypdn-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-abypdn-Hd1e103" type="question-title">De nominatione huius sacramenti</head>
+        <p xml:id="v78d89-abypdn-d1e106">
+          <lb ed="#N" n="85"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-abypdn-d1e111">
+          <lb ed="#N" n="86"/>COnsequenter queritur de nominatione huius
+          sa<lb ed="#N" n="87" break="no"/>cramenti. Et queritur vtrum debet denomniari a
+          <lb ed="#N" n="88"/>significatione vel a causatione. Quod a causde
+          <lb ed="#N" n="89"/>one: videtur sic. Sacramenta noue legis sunt
+          <lb ed="#N" n="90"/>signam etim cause. et magis sunt ad causandum quam ad significen
+          <lb ed="#N" n="91"/>dum. ergo magis denomnanda sunt a significatione quom a
+          can<lb ed="#N" n="92" break="no"/>satione.
+        </p>
+        <p xml:id="v78d89-abypdn-d1e129">
+          ⁋ Preterea. licet sacramenta ex institutione significeu:
+          <lb ed="#N" n="93"/>magis tamen sunt instituta ad causandum quam ad
+          sigmficandu<lb ed="#N" n="94" break="no"/>Non enim sunt instituta neque ministrata nisi ad salutem
+          cofe<lb ed="#N" n="95" break="no"/>rendam. igitur vt prius
+        </p>
+        <p xml:id="v78d89-abypdn-d1e139">
+          ⁋ Contra. nomn dicitur inquantum est ve
+          <lb ed="#N" n="96"/>ta. vnde ratio denunciationis debet imponi a notificatione.
+          <lb ed="#N" n="97"/>sed magis innotescit penitentia similiter et alia sacramenta a
+          si<lb ed="#N" n="98" break="no"/>gnificatione quam a causatione: igitur magis debent denonari dc
+        </p>
+        <p xml:id="v78d89-abypdn-d1e148">
+          <lb ed="#N" n="99"/>Responsio. multiplex est ratio quare magis denoiantr
+          <lb ed="#N" n="100"/>a significatione quam a causatione. vna est significationis vni
+          <lb ed="#N" n="101"/>uersalitas et perticularitas causationis. vt enim dicit hugo:
+          <lb ed="#N" n="102"/>Sacramentum habet quandam innatam similitudinem
+          respecru<lb ed="#N" n="103" break="no"/>sui significati. quia igitur inquantum est signum: habet
+          simli<lb ed="#N" n="104" break="no"/>tudinem materialem cum suo significato. inquantum causamm
+          <lb ed="#N" n="105"/>lam. et ita ex se habet rationem significandi: cansandi autem no
+          <lb ed="#N" n="106"/>ex se: magis debet denomnari a significatione quem a causa ione
+          <lb ed="#N" n="107"/>vt ab illo quod est illi magis essentiale.
+        </p>
+        <p xml:id="v78d89-abypdn-d1e170">
+          ⁋ Ad illa ergo qde
+          <lb ed="#N" n="108"/>obiecta sunt. scilicet quod magis sunt ad causandum etc. dicendum
+          <lb ed="#N" n="109"/>quod ex hoc non sequitur quod debeat denomniari a causatione. vd
+          <lb ed="#N" n="110"/>propter rationes pretactas: tum quia significatio eoquo est
+          <lb ed="#N" n="111"/>ad significandum siue notificandum conuenit nomini.
+          No<lb ed="#N" n="112" break="no"/>men enim dicitur inquantum est nota vt dictum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

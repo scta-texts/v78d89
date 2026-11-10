@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 9, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="85"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a2z55s"><!-- q9m4 -->
+        <head xml:id="v78d89-a2z55s-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a2z55s-Hd1e103" type="question-title">De efficacia</head>
+        <p xml:id="v78d89-a2z55s-d1e106">
+          <lb ed="#N" n="52"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e111">
+          <lb ed="#N" n="53"/>COnsequenter queritur. vtrum baptismus iohis
+          con<lb ed="#N" n="54" break="no"/>fert gratiam. Quod non: habetur ab hugo. In
+          bapti<lb ed="#N" n="55" break="no"/>smo iohis per intinctionem aqua solum dabatur
+          sacra<lb ed="#N" n="56" break="no"/>mentum. in baptismate christi cum sacramento etiam res
+          <lb ed="#N" n="57"/>sacrammenti percipitur. res autem sacri est gratia. ergo etc.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e124">
+          ⁋ Item alibi dicit
+          <lb ed="#N" n="58"/>Illic solum sacramentum fuit: sed remissio peccatorum non fuit.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e130">
+          ⁋ Item
+          mar<lb ed="#N" n="59" break="no"/>ci. i. fuit iohes in deserto. Glo. penitentie baptismum dedit.
+          ba<lb ed="#N" n="60" break="no"/>ptismum in remissionem peccatorum tantum predicauit: non dedit.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e137">
+          ⁋ Item. iii.
+          <lb ed="#N" n="61"/>luc. Uenit fortior me post me. Glo. cito probauit se non esse
+          <lb ed="#N" n="62"/>christum: qui visibili tantum officio aqua non spiritusancto baptizauit.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e144">
+          ⁋ Item
+          <lb ed="#N" n="63"/>damas. solum sacramentum fuit ibi: sed non remissio peccatorum.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e149">
+          ⁋ Item
+          <lb ed="#N" n="64"/>Mar. i. Ego baptizo vos in aqua: ille baptizabit vos
+          spiritu<lb ed="#N" n="65" break="no"/>sancto. Et Act. i. Iohes quidem baptizabat aqua: vos autem
+          ba<lb ed="#N" n="66" break="no"/>ptizabimin spiritusancto. ergo baptismus iohnis non conferebat spirums.
+          <lb ed="#N" n="67"/>snec gratiam.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e160">
+          ⁋ Item augustinus. baptizauit iohes et baptizatum
+          <lb ed="#N" n="68"/>non est: baptizauit iudas et baptizatum est. quia iudas conferebat
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>baptismum christi: iohnnes vero non conferebat baptismum christi: sed tantum
+          ba<lb ed="#N" n="70" break="no"/>ptismum suum. quia baptismus iohis fuit tantum opust iohis: sed
+          ablu<lb ed="#N" n="71" break="no"/>tio in baptismo iude non tantum fuit opst iude sed etiam dei opus.
+          <lb ed="#N" n="72"/>et hoc quantum ad ablutionem interiorem. ergo baptismus iohnis non
+          ablue<lb ed="#N" n="73" break="no"/>bat interius. ergo non conferebat gratiam.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e178">
+          ⁋ Contra. Mar. i. Erat
+          io<lb ed="#N" n="74" break="no"/>hannes baptizans et predicans baptismum penitentie in remissionem pec
+          <lb ed="#N" n="75"/>catorum. sed remissio peccatorum non fit nisi per gratiam. igitur etc.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e186">
+          ⁋ Item
+          sa<lb ed="#N" n="76" break="no"/>cramenta succedunt semper perfectiora in significando et efficiendo. vnde
+          <lb ed="#N" n="77"/>hugo. Que tempore posteriora fuerunt: effectu gratie spiritualis
+          di<lb ed="#N" n="78" break="no"/>gmora inueniuntur.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e195">
+          ⁋ Item baptismus iohis est sacramentum medium
+          <lb ed="#N" n="79"/>inter circumcisionem et baptismum: siue inter sacramenta veteris legis
+          <lb ed="#N" n="80"/>et noue. igitur debuit esse maioris efficacie sacramentis veteris
+          le<lb ed="#N" n="81" break="no"/>gis et minoris sacramentis noue.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e204">
+          ⁋ Item quando baptizatus fuit christus aper
+          <lb ed="#N" n="82"/>ti sunt celi. sed baptizatus fuit baptismo iohnis. igitur baptismo
+          <lb ed="#N" n="83"/>iohnis aperti sunt celi. igitur cum non aperiantur celi nisi in signum colla
+          <lb ed="#N" n="84"/>tionis gratie etc.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e213">
+          ⁋ Item damas. purgat iohnes ad spirium per aquam
+          <lb ed="#N" n="85"/>sed non purgat nisi conferendo gratiam etc.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e218">
+          ⁋ Item Augustinus. contra donatistas
+          <lb ed="#N" n="86"/>Ita credam iohanem baptizasse in aqua in remissionem peccatorum: vt ab
+          <lb ed="#N" n="87"/>eo baptizatis in spe remitterentur peccata. sed spes remissionis
+          nul<lb ed="#N" n="88" break="no"/>la est nisi sit gratia remittens. ergo in baptismo iohis conferebatur gratia
+          <lb ed="#N" n="89"/>remittens peccata.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e229">
+          ⁋ Item augustinus. in eodem. Ne quisquam contendat etiam in
+          ba<lb ed="#N" n="90" break="no"/>ptismo iohnis dimissa esse peccata. sed ampliorem sanctificationem eis
+          <lb ed="#N" n="91"/>quos iussit apostolus baptizari denuo per baptismum esse collatam: non
+          <lb ed="#N" n="92"/>ago pugnacit. ergo sanctificatio non erat in baptismo iohnis licet
+          <lb ed="#N" n="93"/>maior in baptismo christi. ergo conferebatur ibi gratia.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e241">
+          ⁋ Item augustinus in libro.
+          <lb ed="#N" n="94"/>q. no. et ve. testa. exponens illud. ego baptizo in aqua: ille
+          bapti<lb ed="#N" n="95" break="no"/>zabit vos etc. Hoc est inquit quod dicit per me remissio peccatorum.
+          <lb ed="#N" n="96"/>non tamen datur spiritus sanctus vt purificati dicantur filii. hoc enim
+          saluato<lb ed="#N" n="97" break="no"/>ri reseruatum est vtpote domino. vt filii dei non fierent nisi accepto a
+          <lb ed="#N" n="98"/>filio dei spiritusa. Si ergo remissio peccatorum non datur sine gratia. et per
+          ba<lb ed="#N" n="99" break="no"/>ptismum iohis datur remissio peccatorum. ergo illud baptisma
+          confe<lb ed="#N" n="100" break="no"/>rebat gratiam.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e259">
+          ⁋ Responsio. quod non fuit ibi collatio gratie: sed sola ab
+          <lb ed="#N" n="101"/>lutio exterior preparans ad interiorem que fuit in baptisiuate christi.
+          <lb ed="#N" n="102"/>vnde dicit Cris. spiritus gratiam hoc solum baptisma habet. quod autem est
+          iohan<lb ed="#N" n="103" break="no"/>nis hoc munere est desolatum.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e268">
+          ⁋ Ad illud quod primo obiectum est per illud
+          <lb ed="#N" n="104"/>verbum Marci. Iohnes erat baptizans etc. Dicendum quod sensus est
+          <lb ed="#N" n="105"/>idhes erat baptizans et predicans baptismum christi existentem in
+          remil<lb ed="#N" n="106" break="no"/>sionem peccatorum. vnde ly remissionem peccatorum non determinat ly
+          bapti<lb ed="#N" n="107" break="no"/>zans: sed ly baptismum. et dicebatur baptismus christi baptismus
+          pe<lb ed="#N" n="108" break="no"/>nitentie: quia opertuit adultum qui debuit baptizari penitere de pec
+          <lb ed="#N" n="109"/>catis actualibus que commiserat.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e284">
+          ⁋ Ad illud quod obiicitur. quod sacramenta
+          <lb ed="#N" n="110"/>succedunt efficaciora. dicendum quod hoc verum est de sacramentis que erant ad
+          re<lb ed="#N" n="111" break="no"/>medium originalis. vel loquitur de sacramentis distinguentibus legem
+          <lb ed="#N" n="112"/>a lege. vnde illa que fuerunt in tempore legis nature fuerunt minora:
+          <lb ed="#N" n="113"/>que vero tempore legis scripte maiora: que vero tempore legis gratie maxima.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e295">
+          <lb ed="#N" n="114"/>⁋ Ad illud quod obiicitur. quod baptismus est medium etc. Dicendum quod
+          <lb ed="#N" n="115"/>medium quantum ad euidentiam fuit in significando: quia expressius
+          si<lb ed="#N" n="116" break="no"/>gnificabat sacramentum exterius baptismum christi. non autem fuit medium
+          <lb ed="#N" n="117"/>quantum ad efficaciam in efficiendo.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e306">
+          ⁋ Ad illud quod obiicitur de
+          aperti<lb ed="#N" n="118" break="no"/>one celi. dicendum quod celi aperti sunt non virtute baptismi: sed christi
+          ba<lb ed="#N" n="119" break="no"/>ptizati: qui tunc contulit virtutem regeneratiuam. vnde glo. iii.
+          Ma<lb ed="#N" n="120" break="no"/>thei. ibi: Ecce aperti sunt celi. patet aditus in celum per christum: qui
+          per<lb ed="#N" n="121" break="no"/>adam clausus fuit. et aliam ibidem. flammam vibrantem que viam prohibuit
+          <lb ed="#N" n="122"/>aqua baptisii extinxit. Item celum aperiri est aditum celi per
+          bapti<lb ed="#N" n="123" break="no"/>smum dari ondem. vnde glo. ibi aperti sunt celi. dicit: non tunc primo
+          <lb ed="#N" n="124"/>sibi patuere celestia vel spiritus sanctus datus est: sed nobis per
+          acce<lb ed="#N" n="125" break="no"/>ptum baptismum aditum celi patere et spirumsa. dari monstrauit. vnde
+          <lb ed="#N" n="126"/>cum dicitur. quod baptismo iohnis aperti sunt celi. sensus est. ostensum
+          fu<lb ed="#N" n="127" break="no"/>it aditum celi patere baptizatis.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e331">
+          ⁋ Ad illud quod obiicitur quod
+          pur<lb ed="#N" n="128" break="no"/>get ioh. etc. dicendum quod purgatio illa fuit quantum ad quasdam
+          tene<lb ed="#N" n="129" break="no"/>bras intellectus: quas purgauit instructione annexa. Iohes enim
+          <lb ed="#N" n="130"/>instruxit quos baptizauit de operibus penitentie et in fide
+          baptismi<lb ed="#N" n="131" break="no"/>christi. propter quod dicitur in glo. Io. iii. ibi erat iohnes baptizans. quod quan
+          <lb ed="#N" n="132"/>tum cathecuminis nondum baptizatis prodest doctrina fidei: tantum
+          <lb ed="#N" n="133"/>profuit baptisma iohis ante baptisma christi.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e347">
+          ⁋ Ad illud quod ob
+          <lb ed="#N" n="134"/>iicitr. quod spes reinissionis dabatur in baptismo et ita reinissio. dicendum
+          <lb ed="#N" n="135"/>quod non sequitur sicut ibidem ostenditur. immo ipsa neinssio que sparabatur in
+          bapti<lb ed="#N" n="136" break="no"/>smo christi dabatur. vnde sequitur in auctoritate: vt in baptismo domini id fieret.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e356">
+          <lb ed="#N" n="137"/>⁋ Ad sequens vero dicendum est. quod illud quod dicit augustinus. non dicit asseraendo: sed
+          <lb ed="#N" n="138"/>ostendendo quod vtroque modo potest respondeni.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e363">
+          ⁋ Ad aliud vero dici potest. quod non
+          in<lb ed="#N" n="139" break="no"/>telligit quod in bapus Io. dantur ex vi baptismi reinssio: sed cum illo
+          <pb ed="#N" n="86"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>ex vi penitentie. vnde dicitur. baptizabantur confitentes peccata sua.
+          <lb ed="#N" n="2"/>In baptismo autem christi ex vi baptismi dabatur remissio
+          ori<lb ed="#N" n="3" break="no"/>Sinalis peccati. Uel dicitur hoc: quia per iohnem predicata est remissio
+          <lb ed="#N" n="4"/>peccatorum. vnde augustinus. Io. iii. Ego baptizo in penitentia: ille in
+          re<lb ed="#N" n="5" break="no"/>missione. ego regnum eternum predico: ille dat.
+        </p>
+        <p xml:id="v78d89-a2z55s-d1e383">
+          ⁋ Si autem
+          que<lb ed="#N" n="6" break="no"/>ratur. ex quo baptisma iohis non conferebat gratiam: ad quid erat
+          <lb ed="#N" n="7"/>vtile: Potest dici quod ad plura. Unum est quod excitabat baptiza
+          <lb ed="#N" n="8"/>tos ad deuotionem habendam. Aliud est quod assuefaciebat et
+          prepa<lb ed="#N" n="9" break="no"/>rabat homines ad baptisma christi suscipiendum. Sicut enim
+          pre<lb ed="#N" n="10" break="no"/>parauit predicando viam predicationi christi: ita baptizando preparauit
+          <lb ed="#N" n="11"/>viam baptismo christi. verificans illud malach. iii. Ecce ego mit
+          <lb ed="#N" n="12"/>to angelum meum ante te: qui preparabit viam tuam ante te. Tercium fuit
+          <lb ed="#N" n="13"/>ad reuocandum iudeos a circumcisione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

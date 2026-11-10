@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 49, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 49, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="336"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aa56c2"><!-- q49m6 -->
+        <head xml:id="v78d89-aa56c2-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-aa56c2-Hd1e103" type="question-title">Si liceat petenti Eucharistiam peccatori dari hostiam non consecratam pro eucharistia</head>
+        <p xml:id="v78d89-aa56c2-d1e106">
+          <lb ed="#N" n="89"/>⁋ Membrum sextum
+        </p>
+        <p xml:id="v78d89-aa56c2-d1e111">
+          <lb ed="#N" n="90"/>COnsequenter queritur si liceat petenti
+          euchari<lb ed="#N" n="91" break="no"/>stiam peccatori dari hostiam non consecratam pro
+          eu<lb ed="#N" n="92" break="no"/>charistia. Quod alicui videtur. sic enim scandalum
+          <lb ed="#N" n="93"/>vitaretur quia peccatori perceretur et eucharistia non
+          <lb ed="#N" n="94"/>inhonoraretur per porrectionem eius insensitiuam.
+        </p>
+        <p xml:id="v78d89-aa56c2-d1e124">
+          ⁋ Item illis quo
+          <lb ed="#N" n="95"/>rum vita est spiritualis et diuina debet dari cibus spiritualis et
+          di<lb ed="#N" n="96" break="no"/>uinus. a simili videtur quorum vita est in opposita differentia: debet
+          <lb ed="#N" n="97"/>dari cibus consimilis. talis est cibus carnalis non consecratus
+          <lb ed="#N" n="98"/>ergo etc.
+        </p>
+        <p xml:id="v78d89-aa56c2-d1e136">
+          ⁋ Contra. dominus dedit iude eucharistiam non hosti
+          <lb ed="#N" n="99"/>am non consecratam. ergonon licet aliud.
+        </p>
+        <p xml:id="v78d89-aa56c2-d1e141">
+          ⁋ Item peccator in
+          momr<lb ed="#N" n="100" break="no"/>to posset conuerti et conteri. Act. ii. Factus est repente
+          Gre<lb ed="#N" n="101" break="no"/>go. nescit tarda molimina spiritus sancti gratia. nec scit nec
+          sci<lb ed="#N" n="102" break="no"/>re potest an hoc acciderit petenti. Ioelis. ii. Quis scit si
+          eo<lb ed="#N" n="103" break="no"/>uertatur et ignoscat deus et relinquat post se benedictionem
+          <lb ed="#N" n="104"/>ergo non debet ei negari quod petit.
+        </p>
+        <p xml:id="v78d89-aa56c2-d1e154">
+          ⁋ Item quid
+          prode<lb ed="#N" n="105" break="no"/>rit talis simulatio ex quo enim petit et per eum non est quin acci
+          <lb ed="#N" n="106"/>piat vnde peccat si non accipiat eucharistiam. Simulat
+          <lb ed="#N" n="107"/>autem sine vtilitate non est licita.
+        </p>
+        <p xml:id="v78d89-aa56c2-d1e163">
+          ⁋ Solutio. debet ei
+          eucha<lb ed="#N" n="108" break="no"/>ristia non hostia non consecrata dari. tum quia hoc vult
+          de<lb ed="#N" n="109" break="no"/>minus vt patet ex facto suo: tum quia nescitur an
+          iustific<lb ed="#N" n="110" break="no"/>uerit eum dominus: tum quia simulatio talis non esset
+          vti<lb ed="#N" n="111" break="no"/>lis: tum quia sacramentum veritatis non debet simulari
+          fi<lb ed="#N" n="112" break="no"/>ctione falsitatis. Pret. vt habetur extra de celebratione
+          mis<lb ed="#N" n="113" break="no"/>sarum. cptlio de homine. Quia falsa sunt abiicienda remedia
+          <lb ed="#N" n="114"/>que veris sunt paruulis grauiora. Et ponitur ibidem
+          ca<lb ed="#N" n="115" break="no"/>sus consimilis de presbitero qui finxit se celebrare et non
+          cele<lb ed="#N" n="116" break="no"/>brauit. dicens. licet is qui pro sui criminis conscientia
+          repu<lb ed="#N" n="117" break="no"/>tat se indignum peccat grauiter si se ingerit irreuerenter
+          <lb ed="#N" n="118"/>ad illud: grauius tamen videtur offendere qui sic
+          fraudu<lb ed="#N" n="119" break="no"/>lenter presumpsit simulare: cum ille in solius misericordis
+          <lb ed="#N" n="120"/>dei manum incidat: iste vero non solum deo cui videtur
+          illu<lb ed="#N" n="121" break="no"/>dere sed populo quem decipit se astringat.
+        </p>
+        <p xml:id="v78d89-aa56c2-d1e196">
+          ⁋ Ad primum
+          ergodi<lb ed="#N" n="122" break="no"/>cendum. quod nec sic scandalum vitaretur nec peccatori perceretur vt patet
+          <lb ed="#N" n="123"/>nec eucharistia minus inhonoraretur vel pollueretur. licet enim
+          sa<lb ed="#N" n="124" break="no"/>cramenta quantum in nobis est polluimus peccando: non tamen polluuntur
+          <lb ed="#N" n="125"/>Sic enim habetur. xv. q. vlti. cit. vlti. Non potest aliquis
+          quantucun<lb ed="#N" n="126" break="no"/>que pollutus sit sacramenta diuina que purgatoria cunctarum
+          con<lb ed="#N" n="127" break="no"/>tagionum existunt polluere.
+        </p>
+        <p xml:id="v78d89-aa56c2-d1e212">
+          ⁋ Ad aliud dicendum. quod licet
+          reue<lb ed="#N" n="128" break="no"/>ra alienatis a deo non sit cibus diuinus dandus. Est tamen ipsis
+          <lb ed="#N" n="129"/>petentibus reddendus quando petitur vt debitum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

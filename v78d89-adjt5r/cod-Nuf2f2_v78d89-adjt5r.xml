@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 72, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 72, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="465"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adjt5r"><!-- q72m3 -->
+        <head xml:id="v78d89-adjt5r-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-adjt5r-Hd1e103" type="question-title">Utrum requiritur cum praedictis motus libr</head>
+        <p xml:id="v78d89-adjt5r-d1e106">
+          <lb ed="#N" n="40"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-adjt5r-d1e111">
+          <lb ed="#N" n="41"/>COnsequenter queritur. vtrum requiritur cum
+          <lb ed="#N" n="42"/>predictis motus libr. arbtio. Circa hoc queruntur
+          <lb ed="#N" n="43"/>duo. Primum est si motus huiusmodi requiritur
+          <lb ed="#N" n="44"/>Secundum supposito quod sic: cuius virtutis
+          <lb ed="#N" n="45"/>est motus:
+        </p>
+        <div xml:id="v78d89-adjt5r-Dd1e124">
+          <head xml:id="v78d89-adjt5r-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-adjt5r-d1e128">
+            <lb ed="#N" n="46"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e133">
+            <lb ed="#N" n="47"/>CIrca primum proceditur sic ad partem affirmatiuam
+            <lb ed="#N" n="48"/>Augustinus. Qui creauit te sine te: non iustificabit
+            te<lb ed="#N" n="49" break="no"/>sine te. ergo ad iustificationem impii requiritur
+            ali<lb ed="#N" n="50" break="no"/>quis motus ex parte ipsius. Sed constat quod motus iste non est motus
+            il<lb ed="#N" n="51" break="no"/>lius quo contingit mereri et demereri id est libro arbtro. ergo etc.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e146">
+            ⁋ Item bern.
+            <lb ed="#N" n="52"/>deus immittendo bonam cogitationem nos preuenit immutando
+            ma<lb ed="#N" n="53" break="no"/>lam voluntatem: sibi per consensum nos coniungit. coniunctio ergo
+            iustifi<lb ed="#N" n="54" break="no"/>cati cum deo que fit in iustificatione est per consensum. ergo cooperante
+            <lb ed="#N" n="55"/>libo. arbtio.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e157">
+            ⁋ Item bern. opus salutis duo requirit scilicet deum
+            danten<lb ed="#N" n="56" break="no"/>et libro arbtro. recipiens. Sed libro. ar. non est recipiens vt omnino materiale
+            <lb ed="#N" n="57"/>nullo modo cooperans: ergo ad opus salutis requiritur libro arbtro.
+            co<lb ed="#N" n="58" break="no"/>operans: et ita motus libro arbt.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e167">
+            ⁋ Item idem patet per hoc quod iustificatio
+            <lb ed="#N" n="59"/>adulti quantum est ex parte ipsius in aliquo habundat a iusticia
+            <lb ed="#N" n="60"/>paruuli. hec habundantia est quantum ad consensum adminus.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e174">
+            ⁋
+            Con<lb ed="#N" n="61" break="no"/>tra. deus iustificat per gratiam. fidem. caritatem et iusticiam que
+            vir<lb ed="#N" n="62" break="no"/>tutes sunt. Sed virtus est bona qualitas mentis qua deus operatur
+            <lb ed="#N" n="63"/>in nobis sine nobis: ergo iustificamur sine aliquo quod fit a
+            no<lb ed="#N" n="64" break="no"/>bis.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e185">
+            ⁋ Item in iustificatione accedit homo ad deum. Sed ioh. vi. Ne
+            <lb ed="#N" n="65"/>mo venit ad me nisi ptetr qui misit me traxerit eum: sed tractus
+            <lb ed="#N" n="66"/>est motus violentus. liberum autem arbitrium trahi non potest. Unde
+            Se<lb ed="#N" n="67" break="no"/>neca. Generosus est animus naturaliter conra potstatem
+            recalci<cb ed="#N" n="b"/><lb ed="#N" n="68" break="no"/>trans. duci potest: trahi nequaquam. ergo in huiusmodi tractu non cooperatur
+            <lb ed="#N" n="69"/>siue mouetur libro arbto.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e199">
+            ⁋ Item agens infinite potentie est potentissime
+            <lb ed="#N" n="70"/>agenes. vnde potentius agit quam aliquiod creatum. Sed agens creatum
+            <lb ed="#N" n="71"/>vt lux expellit sibi incontingens scilicet tenebram sine aliqua coopera
+            <lb ed="#N" n="72"/>tione ex parte susceptibilis scilicet aeris: similiter videtur de
+            poten<lb ed="#N" n="73" break="no"/>tissimo operatore quod expellit incontingens sibi scilicet tenebram
+            pec<lb ed="#N" n="74" break="no"/>cati sine aliqua cooperatione ex parte nostra.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e212">
+            ⁋ Item motus iste li.
+            <lb ed="#N" n="75"/>arbto. aut est meritorius et informatus gratia: aut non. constat quod est: cum
+            <lb ed="#N" n="76"/>sit motus virtutis gratuite vt patet ex dictis. sed omnis
+            ta<lb ed="#N" n="77" break="no"/>lis motus est consequens iustificationem et gratiam. ergo et ille iusti
+            <lb ed="#N" n="78"/>ficationem sequitur. sed quod sequitur ad aliud essentialiter non
+            requi<lb ed="#N" n="79" break="no"/>ritur ad ipsum vt causa: ergo male ponitur inter iustificantia
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e225">
+            ⁋ Responsio
+            <lb ed="#N" n="80"/>dicendum quod in iustificatione adulti requiritur motus libro. arbtro. non
+            di<lb ed="#N" n="81" break="no"/>co tamen quod libro. arbtro cooperantis: sed obedientis ad consensum. Non enim
+            <lb ed="#N" n="82"/>datur gratia iustificans nolenti recipere siue dissentienti.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e235">
+            <lb ed="#N" n="83"/>⁋ Ad illud quod obiicitur. quod deus operatur in nobis
+            vir<lb ed="#N" n="84" break="no"/>tutem sine nobis etc. dicendum quod hoc intelligitur sine nobis simil
+            <lb ed="#N" n="85"/>facientibus: non tamen sine nobis scilicet adultis
+            consentienti<lb ed="#N" n="86" break="no"/>bus siue obedientibus ad consensum.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e246">
+            ⁋ Ad illud quod obii
+            <lb ed="#N" n="87"/>citur. quod tractus est motus violentus etc. dicendum quod est tractus
+            <lb ed="#N" n="88"/>violentie siue coactionis: et hoc modo non trahitur libro. arbtro. nec deus sic
+            <lb ed="#N" n="89"/>trahit. et est tractus inductionis: et hoc modo trahit deus quandoque
+            <lb ed="#N" n="90"/>terrendo quandoque percutiendo et aliis modis: et sic inducit consensum
+            <lb ed="#N" n="91"/>et de non voluntario facit voluntarium. Unde bern. Benignus
+            <lb ed="#N" n="92"/>pater qui omnes vult saluos fieri. nullum iudicat salute
+            dignum<lb ed="#N" n="93" break="no"/>quem ante non probauerit voluntarium. Aliquando tamen terret aut
+            <lb ed="#N" n="94"/>percutit vt faciet voluntarium: non vt saluet inuitum. quatenus
+            <lb ed="#N" n="95"/>de malo in bonum mutet voluntatem: transferat non auferat
+            <lb ed="#N" n="96"/>libertatem. Unde in hoc tractu est aliquid primo quod dei est. per quod
+            <lb ed="#N" n="97"/>trahitur iustificandus in consensum et in consensu iustificatur
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e272">
+            <lb ed="#N" n="98"/>⁋ Ad illud quod obiicitur. quod deus est potentissime agens etc.
+            Di<lb ed="#N" n="99" break="no"/>cendum quod motus li arbto. non requiritur in iustificatione propter
+            im<lb ed="#N" n="100" break="no"/>potentiam ex parte dei: sed propter incongruentiam in agendo. dominus enim
+            <lb ed="#N" n="101"/>in operando non omnino operatur secundum infinitatem potentie sue: sed
+            <lb ed="#N" n="102"/>secundum decentiam sue prouidentie et congruentiam susceptibilis. vnde
+            <lb ed="#N" n="103"/>quia libro arbto. siue voluntas libertate quadam gaudet a sua
+            condi<lb ed="#N" n="104" break="no"/>tione: libera dico et in agendo et in recipiendo: decet deum
+            <lb ed="#N" n="105"/>et ipsi congruit. quod non detur illi gratia siue iusticia nisi consentiat
+            <lb ed="#N" n="106"/>Non enim deceret neque congrueret quod illi quod conditum est in omnimoda
+            <lb ed="#N" n="107"/>libertate a coactione quod a suo conditore compelleretur ad alicuius
+            <lb ed="#N" n="108"/>gratuiti susceptionem.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e298">
+            ⁋ Ad illud quod vltimo queritur. Dicen
+            <lb ed="#N" n="109"/>dum quod hoc argumentum non valet. iste motus est informatus
+            <lb ed="#N" n="110"/>gratia. ergo sequitur iustificationem. quia hec quatuor simul sunt
+            <lb ed="#N" n="111"/>tempore licet non natura.
+          </p>
+        </div>
+        <div xml:id="v78d89-adjt5r-Dd1e309">
+          <head xml:id="v78d89-adjt5r-Hd1e311">Articulus 2</head>
+          <p xml:id="v78d89-adjt5r-d1e313">
+            <lb ed="#N" n="112"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e318">
+            <lb ed="#N" n="113"/>COnsequenter queritur cuius virtutis sit libro arbtro.
+            <lb ed="#N" n="114"/>omnis enim motus meritorius est motus alicuius virtu
+            <lb ed="#N" n="115"/>tis. Quod autem sit motus fidei: videitur act. xv. dicitur. Fide
+            <lb ed="#N" n="116"/>purificans corda. Unde videtur quod motus operans ad
+            purga<lb ed="#N" n="117" break="no"/>tionem que fit ad iustificationem impii sit motus fidei.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e331">
+            ⁋ Item
+            <lb ed="#N" n="118"/>bern. amore iustificamur. ergo motus libro arbtro. pertinens ad
+            iusti<lb ed="#N" n="119" break="no"/>ficationem est ex virtute caritatis.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e338">
+            ⁋ Item sine spe non
+            iustifica<lb ed="#N" n="120" break="no"/>bitur quis. ergo si ad iustificationem requiritur motus lib. arbtro.
+            mo<lb ed="#N" n="121" break="no"/>tus iste erit a virtute spei.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e346">
+            ⁋ Item iustificatio per se et proprie
+            <lb ed="#N" n="122"/>dicitur et est a iusticia motus. ergo libro. arbtro. cooperans ad iustificationem
+            <lb ed="#N" n="123"/>est virtutis iusticie.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e353">
+            ⁋ Item timor domini expellit peccatum Eclsiastici. i.
+            <lb ed="#N" n="124"/>ex hoc videtur quod motus libro arbtro. cooperans ad expulsionem peccati que
+            <lb ed="#N" n="125"/>fit in iustificatione: debet esse motus timoris
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e360">
+            ⁋ Responsio. dicunt quidam
+            <lb ed="#N" n="126"/>quod motus libo art. secundum quod hic sumitur non est vnius virtutis anine siue
+            <lb ed="#N" n="127"/>potentie sicut motus terrendi vel diligendi et huiusmodi: sed plurium
+            <lb ed="#N" n="128"/>sicut dicitur de frui et vti quod non determinantur precise circa vnam
+            vir<lb ed="#N" n="129" break="no"/>tutem anime: sed circa plures. similiter est de motu isto qui est
+            <lb ed="#N" n="130"/>in deum et in peccatum. vnde motus libro arbtio. secundum quod hic
+            sumi<lb ed="#N" n="131" break="no"/>tur neque est precise vis intellectiue: neque affectiue: neque
+            elici<lb ed="#N" n="132" break="no"/>tur precise imperio fidei neque imperio amoris vel
+            timo<lb ed="#N" n="133" break="no"/>ris: sed exit in esse ex intellectu fidem illuminato: et
+            timo<lb ed="#N" n="134" break="no"/>re declinante a malo: et amore accendente ad bonum: et
+            <lb ed="#N" n="135"/>spe eleuante ipsum intellectum ad celestia. Unde
+            mo<lb ed="#N" n="136" break="no"/>tus iste secundum quod est in deum: est motus affectus
+            timen<pb ed="#N" n="466"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tis et diligentis ex intellectu fide illuminato. ostendente quid
+            <lb ed="#N" n="2"/>timendum quid sperandum sit et amandum. secundum quod est in peccatum
+            <lb ed="#N" n="3"/>est affectus contemnentis et detestantis peccatum ex intellectu
+            fi<lb ed="#N" n="4" break="no"/>de illuminato: ostendente quid detestandum et aspernandum et de
+            <lb ed="#N" n="5"/>quo dolendum. Unde motus libro. arbt. secundum quod hic sumitur non est
+            mo<lb ed="#N" n="6" break="no"/>tus simplex. sicut motus credendi vel diligendi: sed compositus.
+          </p>
+          <p xml:id="v78d89-adjt5r-d1e402">
+            <lb ed="#N" n="7"/>⁋ His suppositis patet responsio ad quesita. quia ratione qua est
+            mo<lb ed="#N" n="8" break="no"/>tus compositus non elicitur vna vi anime. neque vnius virtutis
+            <lb ed="#N" n="9"/>gratuite impio exit in esse: sed pluribus concurrentibus vt
+            ta<lb ed="#N" n="10" break="no"/>ctum est. Uel potest aliter dici quod est motus fidei per appropriationem
+            <lb ed="#N" n="11"/>quamuis pluribus concurrentibus dicitur: huiusmodi appropriationis ratio est
+            <lb ed="#N" n="12"/>quod fides est prima virtutum: et quod primus assensus veritatis
+            fi<lb ed="#N" n="13" break="no"/>dei est. eo enim quod iustificatio est principium esse gratuiti et perfecti:
+            <lb ed="#N" n="14"/>conuenit quod motus libr. ar. operantis ad iustificationem sit ipsius
+            <lb ed="#N" n="15"/>virtutis que est prima in ordine virtutum. et quod ad iustificationem
+            <lb ed="#N" n="16"/>requiritur assensus ex parte iustificati: conuenit quod motus libo arbtro.
+            <lb ed="#N" n="17"/>cooperans sit virtutis fidei cuius est proprie et per se asfensus
+            veri<lb ed="#N" n="18" break="no"/>tatis. Alia autem concurrentia ad iustificationem non impediunt
+            <lb ed="#N" n="19"/>quin motus iste sit motus fidei: cum ipsa sit prima virtutum et quai
+            <lb ed="#N" n="20"/>fundamentum. et cuius est proprie et per se assensus veritatis. Quod autem
+            <lb ed="#N" n="21"/>iustificatio sit ex fide. habetur. v. ad Ro. Dicitur enim ibi. Iusti
+            <lb ed="#N" n="22"/>ficati ex fide pacem habeamus ad deum. vbi ostenditur quod
+            iustifica<lb ed="#N" n="23" break="no"/>tio a malis commissis non erat ab operibus legis sed a fide.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 30, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 30, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="188"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6nx20"><!-- q30m2 -->
+        <head xml:id="v78d89-a6nx20-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a6nx20-Hd1e103" type="question-title">De causis institutionis huius sacramenti quarum una est mortis Christi commemoratio quae amorem nostum debet sibi totaliter vendicare</head>
+        <p xml:id="v78d89-a6nx20-d1e106">
+          <lb ed="#N" n="7"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-a6nx20-d1e111">
+          <lb ed="#N" n="8"/>SEquitur de causis institutionis huius sacramenti quarum
+          <lb ed="#N" n="9"/>vna est mortis christi commemoratio que amorem nostum
+          de<lb ed="#N" n="10" break="no"/>bet sibi totaliter vendicare. i. Corin. xi.
+          Quoti<lb ed="#N" n="11" break="no"/>enscumque manducabitis etc. Et dominus in institutione
+          <lb ed="#N" n="12"/>huius sacramenti ait. hoc facite in meacommtorationem.
+        </p>
+        <p xml:id="v78d89-a6nx20-d1e124">
+          ⁋ Ilia est
+          cibi<lb ed="#N" n="13" break="no"/>vite ministratio contra illum cibum primorum parentum qui erat cibus
+          mor<lb ed="#N" n="14" break="no"/>tis. vnde illis dictum est. Quacumque hora commederitis etc. Gen. ii.
+          <lb ed="#N" n="15"/>de cibo autem isto dicitur. Quicumque manducauerit ex hoc pane
+          vi<lb ed="#N" n="16" break="no"/>uet ineternum Ioh. vi. vt enim dicit Inno. Ut suam erga nos
+          ca<lb ed="#N" n="17" break="no"/>ritatem ostenderet et nostram erga se caritatem accenderet: dedit se
+          <lb ed="#N" n="18"/>pro nobis in precium. vt per precium redimeret nos a morte: per cibum
+          <lb ed="#N" n="19"/>aleret nos ad vitam.
+        </p>
+        <p xml:id="v78d89-a6nx20-d1e143">
+          ⁋ Alia est ad gustum diuinitatis inuitatio
+          <lb ed="#N" n="20"/>Instituit enim diuina sapientia sacramentum corporis et sanguinis
+          sui<lb ed="#N" n="21" break="no"/>vt ad gustum diuinitatis per gustum humanitatis inuitaret dominus
+          <lb ed="#N" n="22"/>per psalmus. Gustate et videte etc.
+        </p>
+        <p xml:id="v78d89-a6nx20-d1e152">
+          ⁋ Alia est peccatorum quotidianorum
+          ve<lb ed="#N" n="23" break="no"/>nia. vt enim dict Inno. dedit nobis dominus hoed sacramentum salutis. vt
+          <lb ed="#N" n="24"/>quia nos quotidie peccamus: et ipse iam mori non potest. et per hoc
+          sacra<lb ed="#N" n="25" break="no"/>mentum quod in memoriam mortis eius accipimus: remissionem pec
+          <lb ed="#N" n="26"/>catorum quotidie consequamur.
+        </p>
+        <p xml:id="v78d89-a6nx20-d1e163">
+          ⁋ Alia est scripturarum impletio
+          <lb ed="#N" n="27"/>Isa. vii. Uocabitur nomen eius emanuel. Et dominus dixit. vobiscum
+          <lb ed="#N" n="28"/>sum vsque ad consumationem seculi Math. vlti. Item psalmus. Panem
+          <lb ed="#N" n="29"/>angelorum manducauit homo Ioh. vii. Caro mea vere est cibus. et
+          <lb ed="#N" n="30"/>sanguis meus vere est potus. Quomo autem per hoc sacramentum facta est
+          <lb ed="#N" n="31"/>impletio scripturarum patet supra. vbi dictum est de prefiguratione
+          <lb ed="#N" n="32"/>huius sacramenti. et de his plenius habebitur infra vbi tangetur
+          <lb ed="#N" n="33"/>de effectibus huius sacramenti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

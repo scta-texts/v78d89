@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="1"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e77"><!-- q1m1 -->
+        <head xml:id="v78d89-d1e77-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-d1e77-Hd1e103" type="question-title">De quidditate sacramenti</head>
+        <p xml:id="v78d89-d1e77-d1e106">
+          <lb ed="#N" n="18"/>Membrum primum.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e111">
+          <lb ed="#N" n="19"/>Primo ergo queritur de hac ratione communi.
+          Sacra<lb ed="#N" n="20" break="no"/>mentum est sacre rei signum, de aliis rationibus
+          <lb ed="#N" n="21"/>speciailbus. ita. queretur quando specialius agetur de ipsis
+          <lb ed="#N" n="22"/>sacramentis.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e122">
+          ⁋ Et queritur. si sacramentum est
+          <lb ed="#N" n="23"/>sacre rei signum. aut est naturale: aut voluntarium. Non
+          na<lb ed="#N" n="24" break="no"/>turale: quia vt dicit Hugo. sacramentum est ex institutione
+          <lb ed="#N" n="25"/>significans. Contrarium videtur. quia naturaliter aqua abluens
+          <lb ed="#N" n="26"/>gratiam abluentem significat.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e134">
+          ⁋ Item queritur. vtrum
+          sacramen<lb ed="#N" n="27" break="no"/>tum sit demonstratiuum: aut pronosticum: aut rememoratum.
+          <lb ed="#N" n="28"/>Quod demonstratiuum tantum videtur sic. Signum dicitur relatiue
+          <lb ed="#N" n="29"/>ad signatum. sed relatiua simul se ponunt et simul se destruunt.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e143">
+          <lb ed="#N" n="30"/>⁋ Preterea. signum est quod se offert sensui: aliud derelinquens
+          <lb ed="#N" n="31"/>interiori virtuti. idest. intellectui. sed quod non est: non derelinquitur
+          <lb ed="#N" n="32"/>intellectui. intellectus. enim. fantasticus est et accipit speciem
+          <lb ed="#N" n="33"/>acceptam in sensu qui non accipit nisi penitentia. ergo etc.
+          Con<lb ed="#N" n="34" break="no"/>tra. Sacramenta noue legis vt baptismus etc. sunt
+          passio<lb ed="#N" n="35" break="no"/>nis christi signa et resurrectionis. Unde. vi Romanos. Complantati
+          fa<lb ed="#N" n="36" break="no"/>cti sumus similitudini mortis eius. ibi glo. Quicquid gestum
+          <lb ed="#N" n="37"/>est in cruce Christi in sepultura et resurrectione et ascensione
+          <lb ed="#N" n="38"/>et in sessione ad dexteram partis: ita gestum est in his rebus
+          <lb ed="#N" n="39"/>mistice. vt non tantum dictis sed etiam gestis configuretur vita
+          christia<lb ed="#N" n="40" break="no"/>na. In his ergo est quedam mistica representatio misteriorum
+          il<lb ed="#N" n="41" break="no"/>lorum scilicet passionis etc. ergo hec sunt signa illorum. ergo sunt signa
+          <lb ed="#N" n="42"/>preteritorum. Sacramenta autem legis nature et legis scripte
+          <lb ed="#N" n="43"/>fuerunt signa futurorum. ergo sacramentum non solummodo est
+          si<lb ed="#N" n="44" break="no"/>gnum demonstratum. sed et pronosticum et rememoratiuum.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e178">
+          ⁋ Item
+          <lb ed="#N" n="45"/>bene sequitur. sacramentum est sacre rei signum. ergo est signum. Similiter
+          <lb ed="#N" n="46"/>sacramentum est sacre rei singum huic scilicet paruulo. igitur est hoc
+          <lb ed="#N" n="47"/>signum.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e187">
+          ⁋ Item huic raitoni solent dari plures instantie.
+          <lb ed="#N" n="48"/>scilicet de diluuio quo signatur baptisma. de vnctione lapidis
+          <lb ed="#N" n="49"/>infusione olei. Genesi. xxviii. que signata fuerunt sacramenta
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="50"/>gratie. de serpente eneo quo signatur christus. Numeri. xxi.
+          <lb ed="#N" n="51"/>de imaginibus significantibus sanctos. de litteris que sunt
+          si<lb ed="#N" n="52" break="no"/>gna sacrarum sententiarum. de columba in qua apparuit spiritus sanctus
+          <lb ed="#N" n="53"/>Matth. iii. de linguis igneis Act. ii. Constat quod hec omnia
+          <lb ed="#N" n="54"/>sunt signa rei sacre nec tamen sacramenta.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e207">
+          ⁋ Ad primum dicendum.
+          <lb ed="#N" n="55"/>quod in signo quod est sacramentum duo requiruntur. aptitudo
+          na<lb ed="#N" n="56" break="no"/>turalis ad signandum rem sanctam: et ordinatio voluntaria
+          <lb ed="#N" n="57"/>ad idem. Propter primum materialiter loquendo potest dici
+          si<lb ed="#N" n="58" break="no"/>gnum naturale. propter secundum formaliter loquendo voluntarium.
+          <lb ed="#N" n="59"/>Unde Hugo. Omne sacramentum debet habere similitudinem
+          <lb ed="#N" n="60"/>quandam ad ipsam rem cuius est sacramentum. secundum quam
+          ha<lb ed="#N" n="61" break="no"/>bile sit ad eandem rem representandam. institutionem quem per quam
+          or<lb ed="#N" n="62" break="no"/>dinatum sit ad illam signandam. et sumatur institutio
+          quodam<lb ed="#N" n="63" break="no"/>modo communi scilicet ad ordinationem expressam et ordinationem
+          <lb ed="#N" n="64"/>que fit per instinctum.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e231">
+          ⁋ Ad aliud dicendum. quod sacramentum secundum
+          <lb ed="#N" n="65"/>quod dicitur signum non est tantum demonstratiuum: sed est
+          rememo<lb ed="#N" n="66" break="no"/>ratiuum et pronosticum.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e239">
+          ⁋ Ad id quod obiicitur in contrarium dicendum.
+          <lb ed="#N" n="67"/>quod sicut dicit Ambro. Christus in corde tuo: est fides christi in
+          <lb ed="#N" n="68"/>corde tuo. Similiter potest dici quod signata per sacramenta que erant
+          <lb ed="#N" n="69"/>futura in re et non existentia in esse proprio erant in cordibus
+          cre<lb ed="#N" n="70" break="no"/>dentium certituidine fidei. Similiter est de preteritis. et sic erant
+          <lb ed="#N" n="71"/>entis aliquo modo licet non simpliciter.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e252">
+          ⁋ Ad aliud dicendum. quod sacramentum
+          <lb ed="#N" n="72"/>signat huic paruulo habitu: licet non actu. Uel aliter. huic
+          <lb ed="#N" n="73"/>est signum scilicet distinctionis: etsi non sit signum significationis. hoc enim
+          <lb ed="#N" n="74"/>signo ostenditur esse de grege christi: et distinguitur a grege
+          dyabo<lb ed="#N" n="75" break="no"/>li.
+        </p>
+        <p xml:id="v78d89-d1e77-d1e263">
+          ⁋ Ad instantias propositas dicendum. quod ratio predicta scilicet
+          sacra<lb ed="#N" n="76" break="no"/>mentum est sacre rei signum: quodammodo transcendenti
+          ascri<lb ed="#N" n="77" break="no"/>bitur sacramento. prout communis est ad sacramenta legis nature et
+          <lb ed="#N" n="78"/>legis scripte et euangelii. et non solum ad ea que fuerunt
+          instin<lb ed="#N" n="79" break="no"/>cta et instituta: sed ad ea que contingebant eis in figura siue
+          <lb ed="#N" n="80"/>prefigurationem rei sacre. vt fuit diluuium et unctio lapidis et
+          <lb ed="#N" n="81"/>serpens eneus. et alia que fiebant in actualem
+          significa<lb ed="#N" n="82" break="no"/>tionem: sicut fuit de columba et linguis igneis. Uel potest
+          di<lb ed="#N" n="83" break="no"/>ci. quod non est diffinitio siue descriptio sacramenti: sed
+          interpre<lb ed="#N" n="84" break="no"/>tatio quedam. vnde Hugo. quia non omne signum sacre rei
+          sacra<lb ed="#N" n="85" break="no"/>mentum eiusdem conuenienter dici potest. quam et littere sacrorum
+          <lb ed="#N" n="86"/>sensuum et forme siue picture sacrarum rerum signa sunt: quarum
+          <lb ed="#N" n="87"/>tamen sacramenta rationabiliter dici non possunt. idcirco supra
+          memo<lb ed="#N" n="88" break="no"/>rata descriptio ad interpretationem siue expressionem vocis
+          ma<lb ed="#N" n="89" break="no"/>gis quam ad diffinitionem referenda videtur. hec Hugo. Potius
+          <lb ed="#N" n="90"/>ergo dicenda est interpretatio quedam siue ethymologia quam
+          de<lb ed="#N" n="91" break="no"/>scriptio. Si autem velimus sustinere quod ratio predicta non
+          tene<lb ed="#N" n="92" break="no"/>atur in communitate pretacta: sed quod proprie conueniat sacramento
+          pro<lb ed="#N" n="93" break="no"/>prie sumpto: tunc verba postia in illa coartari habent: ita
+          <lb ed="#N" n="94"/>quod solummodo intelligatur signum quod habet aptitudinem
+          natura<lb ed="#N" n="95" break="no"/>lem ad significandum et ex institutione significet. Similiter ex
+          <lb ed="#N" n="96"/>parte sacre significari coartatio habenda est. vt quod dico
+          sa<lb ed="#N" n="97" break="no"/>crum signatum siue res sacra. signetur non vt res: sed vt sacra.
+          <lb ed="#N" n="98"/>verbi. gratia. sanctum impositum est significandum rem sanctam. non
+          <lb ed="#N" n="99"/>vnde est sanctum: sed vnde est res. et quia idem est unde est re et
+          <lb ed="#N" n="100"/>vnde est sanctum: signat rem sanctam vnde sancta est. Unde littere
+          <lb ed="#N" n="101"/>significantes sacras sententias. non significant eas inquantum
+          <lb ed="#N" n="102"/>sacre sunt: sed inquantum sunt res huiusmodi. Unde hec vox deus: non
+          <lb ed="#N" n="103"/>est imposita ad significandum deum vnde sanctum est: sed vnde rest est.
+          <lb ed="#N" n="104"/>Preterea res sacra signata intelligi debet vt est res
+          sa<lb ed="#N" n="105" break="no"/>crans non efficiendo sed disponendo. huiusmodi est gratia sacramentalis.
+          <lb ed="#N" n="106"/>vnde res sacra est que intest rei significande vt eius
+          dispo<lb ed="#N" n="107" break="no"/>sitio quodammodo materialis. per quod patet quod per hoc quod dicit res
+          <lb ed="#N" n="108"/>sacra non intelligitur deus qui est effectiue sacrans. Ex his patet
+          <lb ed="#N" n="109"/>quod instantie proposite sophistice sunt: quia in nulla est reperire
+          <lb ed="#N" n="110"/>quatuor iam dicta scilicet ex parte signi aptitudo naturalis ad
+          si<lb ed="#N" n="111" break="no"/>gnificandum. et significatio ex institutione ex parte sacri
+          signi<lb ed="#N" n="112" break="no"/>ficati siue rei sacre. significatio rei sacre vt sacre non vt
+          <lb ed="#N" n="113"/>rei. et rei sacre sacrantis non vt efficientis: sed vt materialiter
+          <lb ed="#N" n="114"/>disponentis. et ita vt inentis siue inherentis ipsi sacre scilicet
+          <lb ed="#N" n="115"/>anime. ita quod idem intelligitur ibi res sacra quod inuisibiliter gratia. in
+          il<lb ed="#N" n="116" break="no"/>la ratione sacramentum est inuisibilis gratie visibilis forma.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

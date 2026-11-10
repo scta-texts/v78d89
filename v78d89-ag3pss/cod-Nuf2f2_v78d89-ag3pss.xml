@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 89, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 89, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="570"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ag3pss"><!-- q89m2 -->
+        <head xml:id="v78d89-ag3pss-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ag3pss-Hd1e103" type="question-title">De divisione quam ponit beatus Bern</head>
+        <p xml:id="v78d89-ag3pss-d1e106">
+          <lb ed="#N" n="94"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-ag3pss-d1e111">
+          <lb ed="#N" n="95"/>COnsequenter queritur de diuisione quam ponit beatus
+          <lb ed="#N" n="96"/>Bern. in que ponuntur eadem membra que ponit apostolus.
+          <lb ed="#N" n="97"/>sed aliter illa explanat dicit enim sic quod obsecratio est
+          <lb ed="#N" n="98"/>quando aliquis timet per se accedere ad rogandum deum: et
+          <lb ed="#N" n="99"/>ideo pro se mittit intercessorem vt cum dicitur sancte petre ora pro nobis
+          <lb ed="#N" n="100"/>vel aliquid huiusmodi. Et ponit exemplum de muliere que tetigit
+          fim<lb ed="#N" n="101" break="no"/>briam vestimenti christi ihu. et non fuit ausa rogare domini immedia
+          <lb ed="#N" n="102"/>te Marci. v. Sed cum homo postea accipit fiduciam accedit et
+          <lb ed="#N" n="103"/>tunc petit deum pro propriis delictis: oratio est. et ponit exemplum de ista
+          <lb ed="#N" n="104"/>petitione de maria magdalena que primo preuerecundia stetit retro
+          <lb ed="#N" n="105"/>pedes. vnde nec ausa fuit accedere. et tunc sua petitio. obsecratio
+          <lb ed="#N" n="106"/>fuit. sed postea verecundia deposita et fiducia accepta accessit
+          <lb ed="#N" n="107"/>et tunc immediate rogauit dominum. et tunc sua rogatio oratio fuit.
+          <lb ed="#N" n="108"/>Postulatio est quando homo iam habet quandam hilaritatem cordis
+          <lb ed="#N" n="109"/>nec est conscius peccati alicuius et petit gloriam sibi et conseruis suis
+          <lb ed="#N" n="110"/>et gratiarumactio est ita perfecta vt etiam antequam petit dignus sit
+          ex<lb ed="#N" n="111" break="no"/>audiri. secundum quod dicitur Isa. penultiamo adhuc illis loquentibus ego
+          <lb ed="#N" n="112"/>exaudiam. et Ioh. xi. habetur de christo. gratias tibi ago pitur quoniam
+          au<lb ed="#N" n="113" break="no"/>disti me. et quidem semper me audis. patet igitur hic sicut et
+          supra<lb ed="#N" n="114" break="no"/>ordo et sufficientia secundum gradus.
+        </p>
+        <p xml:id="v78d89-ag3pss-d1e157">
+          ⁋ Sed questio oritur vide
+          <lb ed="#N" n="115"/>tur quare nomen commune quod est oratio magis approprietur
+          men<lb ed="#N" n="116" break="no"/>bro secundo quam aliis: cum magis deberet appropriari tercio
+          men<lb ed="#N" n="117" break="no"/>hro: cum ex predictis patet quod illa species sit dignior.
+        </p>
+        <p xml:id="v78d89-ag3pss-d1e167">
+          ⁋ Ad
+          <lb ed="#N" n="118"/>hoc respondet Bern. quod oratio est oris ratio. sed in prima
+          specie<lb ed="#N" n="119" break="no"/>non loquitur homo deo nisi per mediatorem. in secunda vero sine
+          me<lb ed="#N" n="120" break="no"/>diatore loquitur deo et pro se solum. in tercia non pro se solum sed etiam
+          <lb ed="#N" n="121"/>pro conseruis. et ideo cum oratio sit oris ratio: appropriatur
+          se<lb ed="#N" n="122" break="no"/>cunde speciei. licet sit commune nomen.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

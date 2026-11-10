@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 79, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 79, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="509"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aefr5n"><!-- q79m1 -->
+        <head xml:id="v78d89-aefr5n-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-aefr5n-Hd1e103" type="question-title">An sint claves</head>
+        <p xml:id="v78d89-aefr5n-d1e106">
+          <lb ed="#N" n="114"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e111">
+          <lb ed="#N" n="115"/>QUeritur ergo primo an sint claues. videtur quod sic. Math.
+          <lb ed="#N" n="116"/>xvi. Tibi dabo cla. reg. ce.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e118">
+          ⁋ Contra. ostium
+          re<lb ed="#N" n="117" break="no"/>gni celorum apertum est. illud enim aperuit dominus in passione
+          <lb ed="#N" n="118"/>CEsaa.xxii. dabo clauem domus dicend super humerum eius. interli. christus
+          aperi<lb ed="#N" n="119" break="no"/>et et non erit qui claudit. glo. quod in passione rserauit claudi non
+          po<lb ed="#N" n="120" break="no"/>terit. sed ostii existentis inclausibiliter aperti nulla est clauis. Si enim
+          <lb ed="#N" n="121"/>esset: frustra esset. ergo videtur quod ostii regni nulla sit clauis.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e132">
+          ⁋ Item
+          <lb ed="#N" n="122"/>christus est ostium Ioh. x. hoc ostium numquam est clausum. Apoc. iii. Ecce
+          de<lb ed="#N" n="123" break="no"/>di coram te ostium apertum quod nemo poterit claudere. Glo. meipisum
+          <lb ed="#N" n="124"/>a sum verum ostium ad vitam. et ita vt prius.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e141">
+          ⁋ Item augustinus. caritas
+          ec<lb ed="#N" n="125" break="no"/>clesie dimittit peccata nec sine hac dimittuntur. Hec est enim
+          media<lb ed="#N" n="126" break="no"/>tissima causa dimissionis et que nullo modo compatitur peccatum. hec autem est
+          si<lb ed="#N" n="127" break="no"/>ne clauibus: ergo claues non requiruntur ad dimissionem peccatorum. ergo
+          fru<lb ed="#N" n="128" break="no"/>stra date sunt. sed autor nature nihil facit frustra. ergo et c.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e152">
+          ⁋
+          Dicen<lb ed="#N" n="129" break="no"/>dum quod claues sunt et maxime necessarie sunt. vt infra manifestabitur
+          <lb ed="#N" n="130"/>Quod autem sunt habetur Matr. xvi. et Ioh. xx.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e159">
+          ⁋ Nota tamen quod est
+          cla<lb ed="#N" n="131" break="no"/>uis auctoritatis: clauis excellentie: clauis ministerii. prima est
+          so<lb ed="#N" n="132" break="no"/>lius dei: secunda est christi: tercia est praelatorum ecclesie. Est enim obstaculum
+          <lb ed="#N" n="133"/>ostii regni peccatum commissum. contra quod obstaculum est clauis auctorita
+          <lb ed="#N" n="134"/>tis dimittendi peccatum quam solus deus habet. Est etiam aliud
+          obsta<lb ed="#N" n="135" break="no"/>culum reatus mortis eterne: contra quod est clauis excellentie. hanc
+          <lb ed="#N" n="136"/>christus habuit: quia per passionem suam de reatu mortis eterne pro nobis
+          <lb ed="#N" n="137"/>satisfecit et nos ab illo reatu liberauit. vel vt quidam ponbt
+          cla<lb ed="#N" n="138" break="no"/>uis excellentie est contra peccatum originale quod clausit homini
+          ianuan<lb ed="#N" n="139" break="no"/>regni. Est etiam aliud obstaculum. scilicet peccati dimissi obligatio ad
+          <lb ed="#N" n="140"/>aliquam penam temporalem: contra quod est clauis ministerialis quam christus contulit
+          <pb ed="#N" n="510"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>praelatis ecclesie. de quibus hic intenditur.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e190">
+          ⁋ Ad illud quod primo
+          obiici<lb ed="#N" n="2" break="no"/>tur. quod christus aperuit ostium in passione. dicendum quod hoc verum est quantum ad
+          pre<lb ed="#N" n="3" break="no"/>cii solutionem: non tamen quantum ad obstaculi pene temporalis amotionem. ad
+          <lb ed="#N" n="4"/>quam sunt claues de quibus hoc intenditur.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e199">
+          ⁋ Ad illud quod obiicitur de christo
+          <lb ed="#N" n="5"/>quod illud quod in passione reserauit claudi non potestuo. dicendum quod verum est
+          <lb ed="#N" n="6"/>non enim clauditur ostium regni quantum ad obstaculum reatus mortis
+          eter<lb ed="#N" n="7" break="no"/>ne quod christus amouit in passione sua et precium soluit ingressus.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e209">
+          ⁋ Ad
+          <lb ed="#N" n="8"/>illud quod obiicitur per illud Esa. aperuit et nemo claudit. his que deccta
+          <lb ed="#N" n="9"/>sunt addendum est quod ibi loquitur propha de apertione sacre schpreture. Lu. vl
+          <lb ed="#N" n="10"/>ti. aperuit cis sensum vt intelligerent scripturas. Item intelligitur de
+          aper<lb ed="#N" n="11" break="no"/>tione illorum que clausa erant in cerimoniis. vnde glo. Hiero. qui aperuit
+          <lb ed="#N" n="12"/>et nemo claudit: claudit et nemo aperit. quod in passione resauit
+          <lb ed="#N" n="13"/>claudi poterit: quod in cerimoniis clausum est nemo aperit.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e225">
+          ⁋ Ad illud
+          <lb ed="#N" n="14"/>quod obiicitur. quod christus est ostium etc. dicendum quod ostium vno modo dicitur obsta
+          <lb ed="#N" n="15"/>culum ipsius ingressus. alio modo dicitur ipsa via ingressus siue apertura
+          <lb ed="#N" n="16"/>christus igitur dicitur ostium. quia est via Ioh. xiiii. nos intendimus de ostio quod est
+          <lb ed="#N" n="17"/>obstaculum.
+        </p>
+        <p xml:id="v78d89-aefr5n-d1e236">
+          ⁋ Ad illud quod obiicitur. quod caritas ecclesie dimittit
+          <lb ed="#N" n="18"/>peccata etc. dicendum quod et si caritas ecclesie dimittit peccata
+          impetrati<lb ed="#N" n="19" break="no"/>ue et meritorie: non tamen claues inutiles sunt. quia hoc facit ecclesia
+          cla<lb ed="#N" n="20" break="no"/>uibus mediantibus. qualiter autem intelligendum sit illud verbum augustinus
+          ec<lb ed="#N" n="21" break="no"/>clesia dimittit peccata: infra dicetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

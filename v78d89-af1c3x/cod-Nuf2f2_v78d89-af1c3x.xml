@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 81, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 81, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="525"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-af1c3x"><!-- q81m3 -->
+        <head xml:id="v78d89-af1c3x-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-af1c3x-Hd1e103" type="question-title">Supposito quod sic pro quo sit quis excommunicandus</head>
+        <p xml:id="v78d89-af1c3x-d1e106">
+          <lb ed="#N" n="82"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e111">
+          <lb ed="#N" n="83"/>COnsequenter queritur pro quo quis debeat
+          ex<lb ed="#N" n="84" break="no"/>communicari. et queritur vtrum pro damno: vel
+          in<lb ed="#N" n="85" break="no"/>iuria illata ecclesie. Quod sic: videtur Ro. xiii. non
+          <lb ed="#N" n="86"/>sine causa gladium portat. glo. sed vt malos
+          <lb ed="#N" n="87"/>puniat. gladius ecclesie est excommunicatio. excommunicatio enim dicitur
+          <lb ed="#N" n="88"/>mucro episcoporum. xvi. q ii. Uisis infime. Felici mucrone
+          epi<lb ed="#N" n="89" break="no"/>scopi sacerdotum piacula resecentur. ergo excommunicatione sunt
+          co<lb ed="#N" n="90" break="no"/>hercendi iniuriantes ecclesie. et excommunicatione debet se ecclesia
+          <lb ed="#N" n="91"/>contra tales defendere.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e133">
+          ⁋ Item iustum est vnumquemque puniri in
+          <lb ed="#N" n="92"/>eo in quo peccat. ergo si aliquis peccet in ecclesiam inferendo
+          ec<lb ed="#N" n="93" break="no"/>clesie iniuriam et illam bonis suis priuando: iustum est vt
+          pu<lb ed="#N" n="94" break="no"/>niatur in subtractione beneficiorum ecclesie sibi facta. que sunt
+          <lb ed="#N" n="95"/>orationes et alia suffragia: et hoc est per excommunicationem.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e145">
+          ⁋ Item
+          <lb ed="#N" n="96"/>omnis christi actio nostra est lectio. Sed adam fuit excommunicatus a
+          do<lb ed="#N" n="97" break="no"/>mino ab esu ligni vite Gen. iii. dicente domino. Uidete ne
+          for<lb ed="#N" n="98" break="no"/>te sumat de ligno vite. xi. q. iii. euidenter. et hoc propter
+          iniu<lb ed="#N" n="99" break="no"/>riam illatam domino: similiter videtur quod ecclesia debeat
+          excommunica<lb ed="#N" n="100" break="no"/>re pro iniuria sibi illata.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e158">
+          ⁋ Contra. secundum canonem. pro
+          multipli<lb ed="#N" n="101" break="no"/>ci contumacia est aliquis excommunicandus. Una est in non
+          venien<lb ed="#N" n="102" break="no"/>do ad iudicium. et hoc siue per emptoria citatione facta venire
+          <lb ed="#N" n="103"/>contemnit: siue quia maliciose se occultat: siue quia impedit ne
+          <lb ed="#N" n="104"/>ad eum possit citatio peruenire. vt lite non contestata. quoniam
+          <lb ed="#N" n="105"/>frequenter. Alia est quando citatus venit ad iudicium sed non vult
+          sta<lb ed="#N" n="106" break="no"/>re iuri. vel quando ante finitam cause examinationem contumaciter et
+          <lb ed="#N" n="107"/>illicenciatus recedit. Tercia quando offensa est manifesta et
+          ius<lb ed="#N" n="108" break="no"/>sus a iudice non vult emendare. vnde. xi. q. iii. Certum est pro
+          <lb ed="#N" n="109"/>his tribus criminibus excommunicari aliquem debere: cum ad
+          sino<lb ed="#N" n="110" break="no"/>dum canone vocatus venire contempserit: aut si postquam illuc
+          ve<lb ed="#N" n="111" break="no"/>nerit sacerdotalibus obedire contemnit preceptis: aut quia ante
+          <lb ed="#N" n="112"/>finitam cause sue examiniationem a sinodo exire presumit. Ex
+          <lb ed="#N" n="113"/>his videtur quod tantum pro triplici contumacia infertur excommunicatio et
+          <lb ed="#N" n="114"/>ita pro nullo alio.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e191">
+          ⁋ Item et si magnum bonum sequatur: non
+          vide<lb ed="#N" n="115" break="no"/>tur quod debeat inferri excommunicatio. quia Ro. iii. aiunt quidam nos
+          <lb ed="#N" n="116"/>dicere faciamus mala vt veniant bona. quorum damnatio iusta
+          <lb ed="#N" n="117"/>est. ex hoc patet quod non sunt mala facienda vt bona eueniant
+          <lb ed="#N" n="118"/>sed excommunicatio mala est quantum est in se: quia excommunicatio est a
+          qua<lb ed="#N" n="119" break="no"/>libet communione vel legitimo actu separatio. ergo non est
+          inferen<lb ed="#N" n="120" break="no"/>da alicui: etiam propter bonum aliquod quod sequi debeat.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e207">
+          ⁋ Item
+          <lb ed="#N" n="121"/>excommunicatio est beneficiorum subtractio. sed christus cuius actio est
+          no<lb ed="#N" n="122" break="no"/>stra lectio non subtraxit misericordiam suam nec beneficium
+          oratio<lb ed="#N" n="123" break="no"/>nis illis qui iniuriabantur ei scilicet crucifixoribus suis. sed orauit
+          <lb ed="#N" n="124"/>pro eis Luc. xxiii. ergo eccliasticarum personarum non est alicui propter
+          <lb ed="#N" n="125"/>aliquam sibi illatam iniuriam beneficia ecclesie subtrahere.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e220">
+          <lb ed="#N" n="126"/>⁋ Item ad idem valent quedam tacta superius in primo
+          probleuma<lb ed="#N" n="127" break="no"/>te huius questionis
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e227">
+          ⁋ Responsio. ad praetactorum intelligentiam nota quod
+          du<lb ed="#N" n="128" break="no"/>plex est excommunicatio. quedam enim est excommunicatio preseruatiua.
+          qua<lb ed="#N" n="129" break="no"/>dam est curatiua. Prima excommunicatio et si fieri iubeatur ad
+          li<lb ed="#N" n="130" break="no"/>bertatem ecclesie conseruandam sicut secunda propter delicti emendam:
+          <lb ed="#N" n="131"/>tamen prima principaliter fertur ad cauendum a culpa. quia non modicum
+          <lb ed="#N" n="132"/>grauis culpa est in ecclesiam peccare. Secunda autem principaliter
+          in<lb ed="#N" n="133" break="no"/>fertur ad puniendum contumaciam. licet enim aliqui dicant et hoc
+          ha<lb ed="#N" n="134" break="no"/>betur ex decreta. de verborum significatione. ex parte. quod duabus
+          <lb ed="#N" n="135"/>de causis fit excommunicatio scilicet pro contumacia vel offensa: vel quod
+          ali<lb ed="#N" n="136" break="no"/>quis iussus noluit maleficium emendare. quod intelligi debet
+          <lb ed="#N" n="137"/>de excommunicatione curatiua. tamen potest dici quod hec offensa
+          contuma<lb ed="#N" n="138" break="no"/>cia est. sed multiplex est contumacia vt supratactum est et vt habetur. xi.
+          <lb ed="#N" n="139"/>b. iii. Certum est. Preterea. aliquando est contumacia in non restituendo.
+          <lb ed="#N" n="140"/>vt in. l. que non restituere. Aliquando in non emendando delictum vt
+          <lb ed="#N" n="141"/>extra de ver. sig. ex parte. Aliquando in non exhibendo vt ff. de ap. l.
+          <pb ed="#N" n="526"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>creditor. s. iussas. Unde recte inspiciendo excommunicatio
+          cu<lb ed="#N" n="2" break="no"/>ratiua non est nisi pro contumacia. Quod autem dicit canon. xi. q.
+          <lb ed="#N" n="3"/>iii. Certum est pro his tribus criminibus excommunicari debere aliquem
+          <lb ed="#N" n="4"/>etc. non intelligitur cum precisione et potest sic exponi id est pro his
+          tri<lb ed="#N" n="5" break="no"/>bus speciebus contumacie in quibus crimen comittitur. quia vt habetur
+          <lb ed="#N" n="6"/>i. Reg. xv. quasi peccatum ariolandi est repugnare: et quasi scelus
+          ydo<lb ed="#N" n="7" break="no"/>latrie nolle acquiescere. vt. viii. q. i. sciendum. et forte huiusmodi
+          con<lb ed="#N" n="8" break="no"/>tumacie possent ad tres predictos reduci.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e283">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="9"/>primo obiicitur. quod pro damno et iniuria illata ecclesie potest iuste
+          fi<lb ed="#N" n="10" break="no"/>eri excommunicatio. Dicendum quod hoc verum est: sed non principaliter sed
+          pro<lb ed="#N" n="11" break="no"/>contumacia.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e292">
+          ⁋ Ad illud quod obiicitur. quod ille qui priuat ecclesiam
+          bo<lb ed="#N" n="12" break="no"/>nis suis: debet priuari bonis ecclesie etc. potest dici quod hoc verum
+          <lb ed="#N" n="13"/>est dummodo maneat in contumacia et in voluntate manifesta
+          <lb ed="#N" n="14"/>subterfugiendi satisfactionem: aliter non.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e301">
+          ⁋ Ad illud quod
+          obii<lb ed="#N" n="15" break="no"/>citur de adam. potest dici quod adam fuit excommunicatus extenso
+          no<lb ed="#N" n="16" break="no"/>mine excommunicationis. secundum quod dicitur excommunicatio a qualibet licita
+          commu<lb ed="#N" n="17" break="no"/>nione vel legitimo actu separatio. non secundum quod excommunicatio est ex
+          <lb ed="#N" n="18"/>clusio a communione sacramentorum: neque secundum quod dicitur a communione fidelium
+          <lb ed="#N" n="19"/>separatio. xi. q. iii. s. euidenter.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e314">
+          ⁋ Ad illud quod obiicitur. et si
+          ma<lb ed="#N" n="20" break="no"/>gnum bonum sequatur neque pro contumacia neque pro alia causa debet
+          fi<lb ed="#N" n="21" break="no"/>eri excommunicatio etc. Dicendum quod verbum apostoli faciamus mala etc
+          <lb ed="#N" n="22"/>debet intelligi de malo culpe: sed excommunicatio est malum pene. est
+          <lb ed="#N" n="23"/>enim pena contumacium vt habetur in canone. quod intelligatur de
+          malo<lb ed="#N" n="24" break="no"/>culpe quod non debet fieri vt bonum sequatur: patet ex glo. Ro. iii. qui
+          <lb ed="#N" n="25"/>dam enim male intelligentes cum audissent ab apostolis
+          predicari<lb ed="#N" n="26" break="no"/>vbi habundauit malicia. habundauit et gratia. dixerunt apostolos
+          <lb ed="#N" n="27"/>predicasse. faciamus mala vt eueniant bona et dicebant. quanto
+          <lb ed="#N" n="28"/>amplius maiora mala commiserimus: tanto amplius maiora
+          bo<lb ed="#N" n="29" break="no"/>na percipiemus. et quod deus vult vt peccemus vt habeat quod
+          dimit<lb ed="#N" n="30" break="no"/>tat: contra istos dicit apostolus. Faciamus etc.
+        </p>
+        <p xml:id="v78d89-af1c3x-d1e340">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="31" break="no"/>tur. quod christus non subtraxit beneficium orationis inferentibus sibi
+          in<lb ed="#N" n="32" break="no"/>iuriam etc. Dicendum quod lex christi fuit lex misericordie. venit enim vt
+          <lb ed="#N" n="33"/>saluaret mundum. non vt iudicarer Ioh. xii. Pre. docuerat
+          <lb ed="#N" n="34"/>orare pro persequentibus Math. v. Pre. in passione erat in
+          sta<lb ed="#N" n="35" break="no"/>tu summe misericordie. Pre. quantum in ipso fuit pro omnibus se
+          mori<lb ed="#N" n="36" break="no"/>exposuit propter quod congruebat vt maxime misericordem se tunc
+          <lb ed="#N" n="37"/>ostenderet. Nihilominus ad maliciam hominium contumacium
+          coher<lb ed="#N" n="38" break="no"/>cendam et rem publicam tuendam: valde vtiliter dictauit ec
+          <lb ed="#N" n="39"/>clesia vt contumaces excommunicentur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

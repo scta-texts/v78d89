@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 19, Membrum 11</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 19, Membrum 11</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="142"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a50q55"><!-- q19m11 -->
+        <head xml:id="v78d89-a50q55-Hd1e101">Membrum 11</head>
+        <head xml:id="v78d89-a50q55-Hd1e103" type="question-title">Utrum Christus habuerit caracterem</head>
+        <p xml:id="v78d89-a50q55-d1e106">
+          <lb ed="#N" n="16"/>⁋ Membrum undecimum.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e111">
+          <lb ed="#N" n="17"/>COnsequenter queritur. Si christus habuit caracte
+          <lb ed="#N" n="18"/>rem. Quod sic: videtur per hoc quod baptizatus fuit et
+          sa<lb ed="#N" n="19" break="no"/>cerdos: ergo habuit caracterem baptismi et
+          or<lb ed="#N" n="20" break="no"/>dinis.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e122">
+          ⁋ Si diceretur quod non habuit caracteren
+          <lb ed="#N" n="21"/>baptismi. quia baptizatus fuit baptismo Ioh. in quo non
+          <lb ed="#N" n="22"/>imprimebatur caracter. Contra. cum esset sacerdos: habuit
+          ca<lb ed="#N" n="23" break="no"/>racterem ordinis. Et si hoc: ergo habuit caracterem baptismi:
+          <lb ed="#N" n="24"/>cum ille sit fundamentum aliorum.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e134">
+          ⁋ Item agno siue hostie
+          cor<lb ed="#N" n="25" break="no"/>nali ipse coniunxit agnum siue hostiam spiritualem: de se
+          fa<lb ed="#N" n="26" break="no"/>ciens hostiam. A simili videtur quod caracteri carnali debuit
+          con<lb ed="#N" n="27" break="no"/>iungere caracterem spiritualem: suscipiendo illum in se.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e143">
+          ⁋ Si
+          dice<lb ed="#N" n="28" break="no"/>retur quod quia habuit caracterem eternum siue increatum: non
+          <lb ed="#N" n="29"/>debuit suscipere temporalem siue creatum. Contra. habuit scientiam eter
+          <lb ed="#N" n="30"/>nam siue increatam: nihilominus suscepit scientiam temporalem siue
+          <lb ed="#N" n="31"/>creatam. Unde. ii. luce dicitur. Ihs proficiebat sapientia etc. A
+          si<lb ed="#N" n="32" break="no"/>mili videtur. quod licet haberet caracterem eternum siue
+          incre<lb ed="#N" n="33" break="no"/>atum: nihilominus suscepit caracterem carnalem scilicet circumcisionis
+          <lb ed="#N" n="34"/>Sed magis congruebat habenti caracterem eternum suscipere
+          <lb ed="#N" n="35"/>caracterem spiritualem quam carnalem. quod patet per hoc: quod ipse
+          fu<lb ed="#N" n="36" break="no"/>it finis legis carnalis et auctor legis spiritualis. Item fuit
+          <lb ed="#N" n="37"/>membrum ecclesie: ergo distinctus a non membris. et constat quod
+          <lb ed="#N" n="38"/>modo potissimo: ergo non sola gratia sed signo gratie scilicet
+          cara<lb ed="#N" n="39" break="no"/>ctere.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e172">
+          ⁋ Contra. caracter baptismalis est solummodo
+          rena<lb ed="#N" n="40" break="no"/>scentium. christus non fuit renatus nec renascendus. quia non erat
+          <lb ed="#N" n="41"/>filius ire. Unde augustinus in encheri. Ilud vnde peccatum quod in
+          <lb ed="#N" n="42"/>toto genere humano non diluitur nisi per hunc mediatorem.
+          <lb ed="#N" n="43"/>qui solus ita potuit nasci vt ei opus non esset renasci. Non
+          <lb ed="#N" n="44"/>enim renascebantur qui baptismo Iohannis baptizabantur
+          <lb ed="#N" n="45"/>a quo ipse baptizatus fuit: sed quodam precursorio illius
+          mi<lb ed="#N" n="46" break="no"/>nisterio qui dicebat parate viam domino. huic vno in quo
+          so<lb ed="#N" n="47" break="no"/>lo renasci poterant parabantur. Ecce habetur quod christus non
+          <lb ed="#N" n="48"/>indiguit renasci. et ex his ambobus patet quod christus non habu
+          <lb ed="#N" n="49"/>it caracterem.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e196">
+          ⁋ Item caracter conformat et configurat
+          baptiza<lb ed="#N" n="50" break="no"/>tos christo. sed nullus configuratur sibi: non ergo debet suscipere
+          <lb ed="#N" n="51"/>signum configuratiuum sui sibipisi. ergo christus omnino non
+          debu<lb ed="#N" n="52" break="no"/>it suscipere huiusmodi signum.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e205">
+          ⁋ Item caracter est signum
+          compertici<lb ed="#N" n="53" break="no"/>pationis sacramenti fidei. vnde hoc signum non conuenit nisi
+          perti<lb ed="#N" n="54" break="no"/>cipantibus fidem. cum ergo christus non habuerit fidem nec hoc signum
+          <lb ed="#N" n="55"/>habere debuit.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e214">
+          ⁋ Responsio. quod quidam dicunt quod christus
+          assum<lb ed="#N" n="56" break="no"/>psit caracterem ordinis et illum habuit. non autem habuit
+          cara<lb ed="#N" n="57" break="no"/>cterem baptismalem. nec caracterem confirmationis. nec in hoc in
+          <lb ed="#N" n="58"/>aliquo derogabatur sue maiestati. Caracter enim ordinis
+          si<lb ed="#N" n="59" break="no"/>gnum est excellentie. baptismalis vero necessitatis. In christo fuit
+          <lb ed="#N" n="60"/>maxima excellentia: necessitas nulla. Caracterem autem
+          confirma<lb ed="#N" n="61" break="no"/>tionis qui est signum noboris collati siue ministrati virtute
+          sacra<lb ed="#N" n="62" break="no"/>menti non habuit. cum in hoc derogatum esset sue virtuti.
+          Ali<lb ed="#N" n="63" break="no"/>ter videtur dicendum. quod nullum habuit caracterem. nec
+          in<lb ed="#N" n="64" break="no"/>diguit aliquo nec habere debuit: vt patet ex rationibus
+          di<lb ed="#N" n="65" break="no"/>ctis. et illis possunt addi alie scilicet quod caracter disponit ad
+          <lb ed="#N" n="66"/>gratiam: ille nulla indiguit dispositione ad gratiam. cum in
+          pri<lb ed="#N" n="67" break="no"/>mo instanti conceptionis habuit plenitudinem gratie et virtutum
+          <lb ed="#N" n="68"/>Preterea. caracter operatur assimilationem anime cum deo: anime
+          <lb ed="#N" n="69"/>autem eius plena similitudo fuit cum deo ab instanti
+          vnio<lb ed="#N" n="70" break="no"/>nis. Unde in eo reuera non fuit caracter creatus sed
+          cara<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>cter increatus. non solumm per gratiam sicut in aliis: sed per
+          <lb ed="#N" n="72"/>vnionem per quem scilicet caracterem increatum imprimitur
+          ca<lb ed="#N" n="73" break="no"/>racter creatus in aliis. Unde non indiguit caractere
+          crea<lb ed="#N" n="74" break="no"/>to sicut et alii. quia ipsum caracterem increatum habuit per
+          <lb ed="#N" n="75"/>essentiam sibi vnitum: alii vero hominis habent caracterem
+          crea<lb ed="#N" n="76" break="no"/>tum ab increato descendentem.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e264">
+          ⁋ Ad hoc quod postea
+          obii<lb ed="#N" n="77" break="no"/>citur contra hoc scilicet quod fuit baptizatus. Dicendum quod fuit bap
+          <lb ed="#N" n="78"/>tizatus baptismo Iohannis in quo non imprimebatur
+          ca<lb ed="#N" n="79" break="no"/>racter.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e273">
+          ⁋ Ad hoc quod obiicitur quod fuit sacerdos ergo
+          habu<lb ed="#N" n="80" break="no"/>it caracterem. Dicendum quod non sequitur. quia caracter
+          ordi<lb ed="#N" n="81" break="no"/>nis est signum potestatis accepte ab alio. sic autem christus non
+          ha<lb ed="#N" n="82" break="no"/>buit potestatem sacerdotii: sed solo sacerdotii vsu sacerdos
+          <lb ed="#N" n="83"/>fuit. quia et in cena et in cruce seipsum obtulit. Item sacerdos
+          <lb ed="#N" n="84"/>fuit institutione sacramenti non susceptione. vnde nec habuit
+          <lb ed="#N" n="85"/>caracterem. quia caracter confertur in susceptione sacramenti
+          <lb ed="#N" n="86"/>non in institutione.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e291">
+          ⁋ Ad aliud quod obiicitur. quod agno siue
+          <lb ed="#N" n="87"/>hostie carnali coniunxit spiritualem etc. Dicendum. quod similiter
+          <lb ed="#N" n="88"/>caracteri carnali scilicet circumcisionis coniunxit caracterem spiri
+          <lb ed="#N" n="89"/>tualem scilicet in baptismo. non in se: sed in aliquibus membris. scilicet in
+          <lb ed="#N" n="90"/>iudeis conuersis ad fidem. nec in se debuit facere hoc. vt enim
+          <lb ed="#N" n="91"/>patet ex rationibus supra tactis: hoc fieri non posset sine psaeiu
+          <lb ed="#N" n="92"/>dicio et derogatione sue excellentie.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e307">
+          ⁋ Ad illud quod
+          obii<lb ed="#N" n="93" break="no"/>citur. quod licet haberet scientiam increatam: nihilominus
+          ha<lb ed="#N" n="94" break="no"/>buit creatam: similiter videtur quod licet haberet caracterem
+          <lb ed="#N" n="95"/>increatum etc. Dicendum quod non est simile. caracter enim
+          incre<lb ed="#N" n="96" break="no"/>atus ratione qua est in perfectione vltima et summa: non compati
+          <lb ed="#N" n="97"/>tur secum defectum illum reparationis cuius caracter
+          sacra<lb ed="#N" n="98" break="no"/>mentalis est signum. Unde sicut christus licet haberet
+          plenitudinen<lb ed="#N" n="99" break="no"/>summam gratiarum: non tamen habuit gratiam sacramentalem inquam
+          <lb ed="#N" n="100"/>tum huiusmodi. hec enim gratia est reparatiua defectus culpe vel
+          sequa<lb ed="#N" n="101" break="no"/>le culpabilis. que nullo modo fuit in christo. sic non habuit signum
+          <lb ed="#N" n="102"/>sacramentale id est caracterem. quod quidem signum licet
+          digni<lb ed="#N" n="103" break="no"/>tatem importat: tamen est iudicium indignitatis prehabite que
+          nul<lb ed="#N" n="104" break="no"/>la ratione christo competeret. Scientia autem creata licet dicat
+          defe<lb ed="#N" n="105" break="no"/>ctum in comparatione ad scientiam increatam: non tamen dicit
+          defe<lb ed="#N" n="106" break="no"/>ctum simpliciter. Preterea. licet scientia creata sit
+          reparati<lb ed="#N" n="107" break="no"/>ua defectus aliquo modo: non est tamen reparatiua defectus qui est
+          <lb ed="#N" n="108"/>culpabilis vel sequela culpe: sed illius qui est annexus
+          na<lb ed="#N" n="109" break="no"/>ture condite. de necessitate dico et maxime illa quam suscepit
+          <lb ed="#N" n="110"/>christus.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e349">
+          ⁋ Ad illud quod obiicitur quod magis congruebat illi quod
+          <lb ed="#N" n="111"/>haberet caracterem spiritualem quam carnalem. Dicendum quod non est
+          <lb ed="#N" n="112"/>verum. conueniebat enim christum accipere caracterem carnalem propter
+          <lb ed="#N" n="113"/>multas causas supra tactas. vt scilicet legem adimpleret: et
+          con<lb ed="#N" n="114" break="no"/>similis esset patribus et cetera huiusmodi. Non autem conueniebat illum
+          <lb ed="#N" n="115"/>accipere spiritualem rationibus nunc dictis.
+        </p>
+        <p xml:id="v78d89-a50q55-d1e362">
+          ⁋ Ad vltimum
+          <lb ed="#N" n="116"/>dicendum. quod caracter est distinctiuus illorum membrorum qui sunt
+          <lb ed="#N" n="117"/>tantum de numero membrorum et non sunt caput. christus autem est de
+          <lb ed="#N" n="118"/>numero et caput id est illud ad quod sit conformitas et
+          configura<lb ed="#N" n="119" break="no"/>tio in membris. cuius configurationis caracter est signum
+          <lb ed="#N" n="120"/>hec autem configuratio christo non conueniebat vt supra
+          ta<lb ed="#N" n="121" break="no"/>ctum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

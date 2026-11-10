@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 45, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 45, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="320"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a96447"><!-- q45m1 -->
+        <head xml:id="v78d89-a96447-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-a96447-d1e103">
+          <lb ed="#N" n="49"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a96447-d1e108">
+          <lb ed="#N" n="50"/>CIrca primum duo queruntur: Primum est vtrum
+          <lb ed="#N" n="51"/>creatura irrationalis manducat. Secundum
+        </p>
+        <p xml:id="v78d89-a96447-d1e115">
+          <lb ed="#N" n="52"/>vtrum traicit in ventrem.
+        </p>
+        <div xml:id="v78d89-a96447-Dd1e120">
+          <head xml:id="v78d89-a96447-Hd1e122">Articulus 1</head>
+          <p xml:id="v78d89-a96447-d1e124">
+            <lb ed="#N" n="53"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a96447-d1e129">
+            <lb ed="#N" n="54"/>CIrca primum obiicitur sic primo pro parte affirmati
+            <lb ed="#N" n="55"/>ua. facta transsubstantiatione quamdiu manet for
+            <lb ed="#N" n="56"/>ma panis: manet res sacramenti subspecie iqdtur
+            <lb ed="#N" n="57"/>si contingar speciem sumi ab irrationali sub qua est res
+            sacramen<lb ed="#N" n="58" break="no"/>ti: videtur quod manducat sacramentaliter.
+          </p>
+          <p xml:id="v78d89-a96447-d1e142">
+            ⁋ Si dicatur quod
+            man<lb ed="#N" n="59" break="no"/>ducare sacramentaliter est attingere rem sub sacramento.
+            <lb ed="#N" n="60"/>et non solum speciem quod brutis non conuenit videtur tunc quod nec
+            <lb ed="#N" n="61"/>iudeus nec paganus sumit sacramentaliter: igitur est tercius
+            mo<lb ed="#N" n="62" break="no"/>dus manducandi. quod autem non attingant rem sub sacramento
+            <lb ed="#N" n="63"/>patet. quia neque illi vniuntur per fidem. neque per caritatem.
+          </p>
+          <p xml:id="v78d89-a96447-d1e155">
+            ⁋ Prete
+            <lb ed="#N" n="64"/>rea. i. corm. xi. vbi loquitur apostolus de corpore christi. querit magister
+            <lb ed="#N" n="65"/>in glo. de mure. quid comedit sumendo corpus christi: quia
+            ex<lb ed="#N" n="66" break="no"/>quo non comedit pura accidentia: videtur quod comedat corpus
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="67"/>christi etc.
+          </p>
+          <p xml:id="v78d89-a96447-d1e169">
+            ⁋ Item deus magis refugit peccatum quam aliquam
+            crea<lb ed="#N" n="68" break="no"/>turam. ergo si peccator comedit corpus christi etc.
+          </p>
+          <p xml:id="v78d89-a96447-d1e174">
+            ⁋
+            Con<lb ed="#N" n="69" break="no"/>tra. si creatura irrationalis baptizaretur. in nomine paxris et
+            fi<lb ed="#N" n="70" break="no"/>lii et spiritus sancti. non magis fieret illi quam si simplici aqua laua
+            <lb ed="#N" n="71"/>retur. et hoc est: quia non est susceptibilis dignitatis
+            sacranen<lb ed="#N" n="72" break="no"/>talis. Similiter videtur in proposito.
+          </p>
+          <p xml:id="v78d89-a96447-d1e185">
+            ⁋ Item magiter dicit in
+            <lb ed="#N" n="73"/>senten. quod mus non manducat corpus christi.
+          </p>
+          <p xml:id="v78d89-a96447-d1e190">
+            ⁋ Responsio. quod
+            <lb ed="#N" n="74"/>vt supra dictum est. ad manducare corpus christi sacramentaliter secundum
+            <lb ed="#N" n="75"/>quod proprie sumitur. necesse est attingere ipsum contentum vel per modum
+            <lb ed="#N" n="76"/>cogniti vel per modum crediti. vbi igitur nullo modo attingitur scilicet
+            <lb ed="#N" n="77"/>nec sic neque sic: scilicet neque per modum cogniti neque per modum
+            cre<lb ed="#N" n="78" break="no"/>diti: non est manducatio sacramentalis. Unde cum a crea
+            <lb ed="#N" n="79"/>tura irrationali non attingitur neque sic neque sic. igitur non
+            man<lb ed="#N" n="80" break="no"/>ducatur sacramentaliter a creatura huiusmodi: sed est ibi
+            quesi<lb ed="#N" n="81" break="no"/>quedam manducatio carnalis. nec tamen proprie: quia ibi non est
+            <lb ed="#N" n="82"/>diuisio substantie. sed accidentium solum.
+          </p>
+          <p xml:id="v78d89-a96447-d1e212">
+            ⁋ Ad id igitur quod
+            <lb ed="#N" n="83"/>obiicitur. quod tunc sunt plures modi manducandi. dicendum
+            <lb ed="#N" n="84"/>quod non est verum. quia a mure non attingitur corpus christi. vnde
+            <lb ed="#N" n="85"/>nullo modo manducat corpus christi.
+          </p>
+          <p xml:id="v78d89-a96447-d1e221">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="86"/>de manducatione iudei. dicendum quod plus est in huiusmodi
+            man<lb ed="#N" n="87" break="no"/>ducatione quam in manducatione irrationalis creature. quia in
+            man<lb ed="#N" n="88" break="no"/>ducatione iudei est vnio cum accidentibus cum possibilitate
+            <lb ed="#N" n="89"/>vel aptitudine contingendi quod subest. non tamen est ibi
+            man<lb ed="#N" n="90" break="no"/>ducatio sacramentalis: quia illa requirit cum attritione
+            spe<lb ed="#N" n="91" break="no"/>cierum quod attingatur res que subest fide formata vel
+            informi<lb ed="#N" n="92" break="no"/>In manducatione igitur creature irrationalis est vnio cum
+            <lb ed="#N" n="93"/>solis speciebus. in manducatione creature rationalis alio modo
+            <lb ed="#N" n="94"/>quia si est ibi infidelis: est vnio cum speciebus cum possibi
+            <lb ed="#N" n="95"/>litate siue aptitudine contingendi quod subest. Unde illa
+            <lb ed="#N" n="96"/>manducatio est carnalis quantum ad accidentia. cum
+            apti<lb ed="#N" n="97" break="no"/>tudine tamen ad sacramentalem et spiritualem
+            manduca<lb ed="#N" n="98" break="no"/>tionem. habens autem fidem informen contingit id quod subest
+            <lb ed="#N" n="99"/>vt cognitum: habens fidem formatam vt creditum: habeno
+            <lb ed="#N" n="100"/>caritatem vt dilectum. vnde brutum vnitur solum
+            acci<lb ed="#N" n="101" break="no"/>dentibus. Infidelis nihil penitus credens superaddit
+            <lb ed="#N" n="102"/>quandam aptitudinem ad sacramentalem vel spiritualem
+            <lb ed="#N" n="103"/>manducationem habens fidem informem superaddit quod
+            <lb ed="#N" n="104"/>vnitur cognito. habens formatam credito. inquantum habet
+            <lb ed="#N" n="105"/>caritatem vt dilecto.
+          </p>
+          <p xml:id="v78d89-a96447-d1e268">
+            ⁋ Ad id quod obiicitur. quod deus
+            ma<lb ed="#N" n="106" break="no"/>gis detestatur peccatum etc. dicendum quod in peccatore est
+            na<lb ed="#N" n="107" break="no"/>tura et culpa. quamuis enim deus detestatur culpam: non
+            tamen<lb ed="#N" n="108" break="no"/>naturam quam fecit immo illam diligit. Iuxta illud. xi. sapien.
+            <lb ed="#N" n="109"/>Nihil odisti eorum que fecisti. nec etiam vnquam ita
+            corrun<lb ed="#N" n="110" break="no"/>pitur vel deterioratur peccato: quin nobilior sit creatura
+            <lb ed="#N" n="111"/>irrationali sicut vult augustinus. Unde habilitatem habet
+            natu<lb ed="#N" n="112" break="no"/>ralem ad susceptionem sacramentorum: quam non habet ir
+            <lb ed="#N" n="113"/>rationalis creatura.
+          </p>
+        </div>
+        <div xml:id="v78d89-a96447-Dd1e290">
+          <head xml:id="v78d89-a96447-Hd1e292">Articulus 2</head>
+          <p xml:id="v78d89-a96447-d1e294">
+            <lb ed="#N" n="114"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a96447-d1e299">
+            <lb ed="#N" n="115"/>COnsequenter queritur vtrum corpus christi traiicit in
+            <lb ed="#N" n="116"/>ventrem creature irrationalis. Quod sic: videtur
+            <lb ed="#N" n="117"/>per rationes positas in precedenti probleumate.
+            <lb ed="#N" n="118"/>quia si speties traiiciuntur in ventrem creature talis:
+            exoi<lb ed="#N" n="119" break="no"/>corpus inseparabiliter est cum illis igitur etc.
+          </p>
+          <p xml:id="v78d89-a96447-d1e312">
+            ⁋ Item
+            tran<lb ed="#N" n="120" break="no"/>citur in ventrem peccatoris quem magis abhominatur
+            de<lb ed="#N" n="121" break="no"/>quam creaturam irrationalem.
+          </p>
+          <p xml:id="v78d89-a96447-d1e319">
+            ⁋ Item constat quod aliquando
+            <lb ed="#N" n="122"/>ponitur corpus christi in vase polluto et immundo ab
+            infi<lb ed="#N" n="123" break="no"/>delibus et ab aliis peccatoribus. nec ex hoc contrahit
+            cor<lb ed="#N" n="124" break="no"/>pus aliquam immundiciam. quod ergo inconueniens
+            sequi<lb ed="#N" n="125" break="no"/>tur posito quod traiiciatur in ventrem bruti:  ex his videtur
+            <lb ed="#N" n="126"/>quod traiicitur.
+          </p>
+          <p xml:id="v78d89-a96447-d1e333">
+            ⁋ Contra. si traiicitur in ventrem creature
+            irra<lb ed="#N" n="127" break="no"/>tionalis. traiicitur per modum cibi corporalis. sed omne quod per
+            <lb ed="#N" n="128"/>hunc modum intrat in os in ventrem vadit et in secessum emitti
+            <lb ed="#N" n="129"/>tur Math. xv. hoc autem non conuenit corpori christi: ergo etc.
+          </p>
+          <p xml:id="v78d89-a96447-d1e342">
+            <lb ed="#N" n="130"/>Responsio. quod diuersi circa hoc diuersa opinantur. Quidam
+            <lb ed="#N" n="131"/>enim opinantur quod corpus christi continetur in illis speciebus
+            inseparabili<lb ed="#N" n="132" break="no"/>ter quamdiu sunt sacramenta. hoc autem est quamdiu salua est
+            for<lb ed="#N" n="133" break="no"/>ma panis. Et dicunt quod vbicumque ponantur species siue in
+            <lb ed="#N" n="134"/>loco mundo siue immundo siue in ventrem muris: ibi est
+            cor<lb ed="#N" n="135" break="no"/>pus christi. et in hoc non derogatur corpori nec sacramento
+            <lb ed="#N" n="136"/>sed dicunt quod potius est in laudem vtriusque. corpus enim christi
+            <pb ed="#N" n="321"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>cum sit glorificatum inquinari non potest: sacramentum etiam ipsum
+            <lb ed="#N" n="2"/>vt sepe dicit augustin. sanctum et mundum est: et inquinari non potest
+            <lb ed="#N" n="3"/>Alii dicunt quod corpus christi nullo modo descendit in ventrem
+            <lb ed="#N" n="4"/>bruti animalis. et hoc est quia christus non est sub illo
+            sacramen<lb ed="#N" n="5" break="no"/>to nisi eatenus qua ordinabile est ad vsum humanum. vnde
+            <lb ed="#N" n="6"/>quando mus vel aliud brutum rodit. inhabile fit et sacramentum
+            <lb ed="#N" n="7"/>esse desinit: et corpus christi ibi esse desinit: et substantia panis
+            <lb ed="#N" n="8"/>redit sicut Inno. dicit. E Uidetur mihi quod prima
+            opinio<lb ed="#N" n="9" break="no"/>sit tenenda. Si enim canis vel porcus deglutiret hostiam conse
+            <lb ed="#N" n="10"/>cratam integram. non video quare vel quomodo corpus
+            do<lb ed="#N" n="11" break="no"/>mini non simul cum specie traiiceretur in ventrem canis
+            vel<lb ed="#N" n="12" break="no"/>porci. nec ratio alterius opinionis alicuius efficacie videtur
+            <lb ed="#N" n="13"/>quod quia corpus christi non est sub sacramento nisi eatenus qua
+            <lb ed="#N" n="14"/>ordinabile est ad vsum humanum. quod propter hoc non possit
+            tra<lb ed="#N" n="15" break="no"/>iici in ventrem alicuius creature irrationalis. sed ex hoc
+            <lb ed="#N" n="16"/>bene sequeretur. quod non posset comedi ab aliqua creatura
+            <lb ed="#N" n="17"/>tali. Usus autem hominis est finis consecrationis huius
+            sacramen<lb ed="#N" n="18" break="no"/>ti: non finis collationis.
+          </p>
+          <p xml:id="v78d89-a96447-d1e403">
+            ⁋ Ad illud quod obiicitur. quod omne quod
+            <lb ed="#N" n="19"/>intrat per modum corporalis cibi in os: in ventrem vadit
+            <lb ed="#N" n="20"/>etc. Dicendum quod corpus christi non intrat in os bruti vt cibus
+            <lb ed="#N" n="21"/>corporalis. quia nullo modo esset cibus corporalis sed
+            solum<lb ed="#N" n="22" break="no"/>modo ipsa species que dicitur sacramentum: sed in ipsum
+            cor<lb ed="#N" n="23" break="no"/>pus simul intrat cum specie ratione inseparabilitatis vnius ab
+            <lb ed="#N" n="24"/>alio. Si autem ipsa species que est sacramentum ita comminue
+            <lb ed="#N" n="25"/>retur dentibus muris vel alterius bruti. quod ipsa species non
+            <lb ed="#N" n="26"/>esset in suo esse: non traiiceretur corpus christi in ventrem. et in
+            ta<lb ed="#N" n="27" break="no"/>li casu vera est secunda opinio.
+          </p>
+          <p xml:id="v78d89-a96447-d1e425">
+            ⁋ Siaunt queratur facta
+            con<lb ed="#N" n="28" break="no"/>minutione speciei dentibus animalis. quid accidit de
+            cor<lb ed="#N" n="29" break="no"/>pore christi nunquid euolat. Respondetur quod sicut inpanis
+            con<lb ed="#N" n="30" break="no"/>uersione corpus christi non descendit localiter nec mutatur
+            ali<lb ed="#N" n="31" break="no"/>qua immutatione. sed sola panis conuersione incipit esse
+            sub<lb ed="#N" n="32" break="no"/>illis speciebus: sic sola reuersione desinit esse ibi. ita quod
+            nul<lb ed="#N" n="33" break="no"/>la sit in eo mutatio nec localis nec alia.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="23"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e235"><!-- q3m1 -->
+        <head xml:id="v78d89-d1e235-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-d1e235-Hd1e103" type="question-title">Utrum conveniebat illa tunc esse sive aliqua erat illorum indigentia</head>
+        <p xml:id="v78d89-d1e235-d1e106">
+          <lb ed="#N" n="25"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-d1e235-d1e111">
+          <lb ed="#N" n="26"/>Irea primum sic. quod non fuit indigentia aliqua
+          ex<lb ed="#N" n="27" break="no"/>pressionis horum sacramentorum durante lege nature vide
+          <lb ed="#N" n="28"/>tur. sicut enim precepta legis nature non fuerunt
+          <lb ed="#N" n="29"/>expressa exterius. sed ex dictamine legis habita:
+          <lb ed="#N" n="30"/>ita videtur quod ned sacramenta exterius debeant habere expressionem. sed tantum ex
+          <lb ed="#N" n="31"/>dictamine legis nature essent accipienda.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e127">
+          ⁋ Pre. natura et
+          si<lb ed="#N" n="32" break="no"/>tunc aliquantulum inclinata erat. tamen robur humit tunc maius quam
+          po<lb ed="#N" n="33" break="no"/>stea humit vel modo habeat. sicut de aliquo infirmo qui fortem habet natu
+          <lb ed="#N" n="34"/>ram vt se possit a morbo liberare sine medicina exteriori:
+          <lb ed="#N" n="35"/>sic videtur quod tunc temporis non indigeret remediis exterioribus. sed
+          sacra<lb ed="#N" n="36" break="no"/>menta sunt remedia exteriora: vnde non videtur quod tunc illis
+          in<lb ed="#N" n="37" break="no"/>digeret.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e144">
+          ⁋ Pre. si indigebat tunc sacramentis tanquam medicinis
+          pro<lb ed="#N" n="38" break="no"/>pter nature vulnerationem. cum tot modis in genere tunc esset
+          <lb ed="#N" n="39"/>vulnerata. quot modis est nunc vulnerata licet non sub tot
+          diffe<lb ed="#N" n="40" break="no"/>rentiis illorum generum: sacramenta autem sumantur in comparatione ad
+          ge<lb ed="#N" n="41" break="no"/>nera vulnerum: tot essent tunc sacramenta quot modo. Sed hoc non
+          vi<lb ed="#N" n="42" break="no"/>demus. non ergo fuit conuenientia vt videtur nisi duorum sacramentorum:
+          sci<lb ed="#N" n="43" break="no"/>licet vnius contra peccatum originale: et alterius contra peccatum actuale.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e160">
+          <lb ed="#N" n="44"/>⁋ Item homo abductus erat a deo peccando scilicet per sensibilia.
+          Si<lb ed="#N" n="45" break="no"/>ergo reduci conueniebat ad deum: hoc erat per abstractionem a
+          sensibili<lb ed="#N" n="46" break="no"/>bus. sacramenta autem erant sensibilia: ergo non per ista reducendus erat
+          <lb ed="#N" n="47"/>homo ad deum: ergo non erant sacramenta conuenientia. Et est simile. cum
+          pecca<lb ed="#N" n="48" break="no"/>rent homines colendo ydola que erant sensibilia. nunquid ad
+          tollen<lb ed="#N" n="49" break="no"/>dum errorem fuit conueniens alia sensibilia ponere que tollerent vel
+          <lb ed="#N" n="50"/>per que abducerentur ab errore: vel omnino eos abstrahere a cultura
+          <lb ed="#N" n="51"/>sensibilium. vt deum qui est omnino intelligibilis adorarent. et constat
+          <lb ed="#N" n="52"/>quod vltimum fuit conueniens. Unde deut. iiii. dicitur. quod non facerent
+          ali<lb ed="#N" n="53" break="no"/>quam similitudinem vel imaginem reptilium vel iumentorum etc. Unde
+          <lb ed="#N" n="54"/>iudei ex hoc redarguunt christianos quod aliquas habent imagines: cum
+          <lb ed="#N" n="55"/>deum colant inuisibilem. per simile ergo videtur quod tempore legis nature non
+          <lb ed="#N" n="56"/>conueniebant sacramenta que sunt signa sensibilia vt homines
+          reduce<lb ed="#N" n="57" break="no"/>rent ad deum.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e193">
+          ⁋ Ad quod dicendum est. quod aliud fuit de preceptis
+          le<lb ed="#N" n="58" break="no"/>gis nature: et de sacramentis que illo tempore cucurrerunt. Nam precepta
+          <lb ed="#N" n="59"/>erant omnino habentia obligationem a natura. et implicita erant
+          <lb ed="#N" n="60"/>in ipsa: sacramenta vero esse suum non habebant a natura sed ex diuina
+          <lb ed="#N" n="61"/>inspiratione inclinante aliquo modo naturam. et ideo requirebatur extra
+          <lb ed="#N" n="62"/>quedam expressio sacramentorum.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e206">
+          ⁋ Ad secundum dicendum. quod licet natura tunc
+          <lb ed="#N" n="63"/>esset fortior quam modo: nihilominus quia vulnerata erat spiritualiter
+          <lb ed="#N" n="64"/>remediis indigebat per que curaretur. sed sicut dicit hug.
+          pauciori<lb ed="#N" n="65" break="no"/>bus indigebat nunc quam tunc indiguit. Nec est simile de infirmo
+          <lb ed="#N" n="66"/>corporaliter cuius natura est fortis et fortitudine nature
+          expelli<lb ed="#N" n="67" break="no"/>tur nocumentum. Natura enim corporalis et si non habeat
+          medici<lb ed="#N" n="68" break="no"/>nas que iuuent eam: habet tamen accidentia exteriora que iuuant eam
+          mul<cb ed="#N" n="b"/><lb ed="#N" n="69" break="no"/>totiens sicut sunt locus et tempus: et alia huiusmodi in medicina
+          nume<lb ed="#N" n="70" break="no"/>rantur. Pre. in curatione que est secundum naturam. natura est magistra:
+          <lb ed="#N" n="71"/>et medicina est ministra. Non sic autem est ex hac parte. nam natura
+          <lb ed="#N" n="72"/>spiritualis nunquam est ita fortis vel fuit vt posset morbum peccati ex
+          <lb ed="#N" n="73"/>pellere sine adiutorio gratie que desursum est: et ideo omni tempore
+          in<lb ed="#N" n="74" break="no"/>digebat. Quia vero hec gratia aliquando datur in sacramentis: omni tempore
+          <lb ed="#N" n="75"/>erant necessaria sacramenta. Unde et in lege nature licet natura tunc esset
+          <lb ed="#N" n="76"/>fortior respectiue: sed tamen non fuit sic simpliciter fortis ad
+          expellen<lb ed="#N" n="77" break="no"/>dum per se morbum. nec est hec natura magistra: sed gratia que in sacra
+          <lb ed="#N" n="78"/>mentis vel cum sacramentis dabatur.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e244">
+          ⁋ Ad tercium vero dicendum est
+          <lb ed="#N" n="79"/>quod licet tot generibus esset vulnerata quot nunc est: tamen non tot
+          da<lb ed="#N" n="80" break="no"/>ta sunt sacramenta nec tam efficacia vt notetur habundantia
+          <lb ed="#N" n="81"/>gratie in aduentu saluatoris. TCunc enim habuit natura debi
+          <lb ed="#N" n="82"/>litatem. habuit etiam necesse resistere temptationibus dyaboli:
+          <lb ed="#N" n="83"/>nec tamen habuit sacramentum confirmationis. Eodem modo anima in
+          reces<lb ed="#N" n="84" break="no"/>su a corpore indigebat remissione peccatorum venialium: nec
+          tamen<lb ed="#N" n="85" break="no"/>tunc dabatur sacramentum extreme vnctionis. Erant tamen aliqua remedia
+          <lb ed="#N" n="86"/>gratie licet non in sacramento data.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e264">
+          ⁋ A aliud dicendum. quod licet non
+          <lb ed="#N" n="87"/>erant nisi duo genera peccatorum scilicet originale et actuale: non tamen
+          <lb ed="#N" n="88"/>tantum duo erant remedia sacramentalia. Non enim numerus
+          sa<lb ed="#N" n="89" break="no"/>cramentorum secundum quod hic accipitur attenditur secundum hec genera: sed
+          <lb ed="#N" n="90"/>secundum diuersas difcteras horum et penas consequentes hec peccata sicut
+          <lb ed="#N" n="91"/>infra suo loco determinabitur. et ideo preter sacramentum in
+          sacrifi<lb ed="#N" n="92" break="no"/>ciis et decimis et penitentie que est contra actuale peccatum
+          <lb ed="#N" n="93"/>erant alia tunc temporis sacramenta vt coniugium et ordo vt supra dictum
+          <lb ed="#N" n="94"/>est.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e285">
+          ⁋ Ad aliud dicendum est. quod licet homo abductus esset per peccatum
+          <lb ed="#N" n="95"/>a deo per affectionem sensibilium: non tamen tantum per illam: sed etiam per
+          <lb ed="#N" n="96"/>affectum inordinatum intelligibilium. vnde oportuit eum
+          reduci<lb ed="#N" n="97" break="no"/>vtroque modo et per intelligibilia et per sensibilia. vt homo reuertere
+          <lb ed="#N" n="98"/>tur ad deum in tot: in quot auersus est ab eo. secundum quod dicit ysido.
+          <lb ed="#N" n="99"/>Peccauit autem homo in appetendo excellentiam propriam. peccauit
+          <lb ed="#N" n="100"/>etiam in appetendo sensibile vetitum. et ideo conuertendo ad ipsum
+          <lb ed="#N" n="101"/>erant remedia gratie intelligibilia scilicet virtutum diftrie. et rtrmedia
+          sen<lb ed="#N" n="102" break="no"/>sibilia scilicet sacramentorum. que tamen sensibilia sine intelligibilius id est
+          effecti<lb ed="#N" n="103" break="no"/>bus gratie non perficiebant remedium.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e307">
+          ⁋ Ad illud quod obiicitur per
+          si<lb ed="#N" n="104" break="no"/>mile de ablatione imaginum et similitudinum vt reuocaretur homo
+          <lb ed="#N" n="105"/>ab ydolatria ad cultum dei. dicendum est quod hoc fuit quia per illa
+          auer<lb ed="#N" n="106" break="no"/>tebatur et ideo per subtractionem illorum remedium parabatur.
+        </p>
+        <p xml:id="v78d89-d1e235-d1e316">
+          ⁋ Ad hoc
+          <lb ed="#N" n="107"/>vero quod obiicitur de inuectione iudeorum contra christianos. Dicendum est
+          <lb ed="#N" n="108"/>quod hoc non est. quia latria exhibebatur creaturis sensibilibus
+          <lb ed="#N" n="109"/>sed quia excitetur memoria respectu christi hominis et sanctorum quos
+          <lb ed="#N" n="110"/>venerantur dulia. deo enim debemus latriam: christo ratione huma
+          <lb ed="#N" n="111"/>ne nature yperduliam: sanctis vero duliam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

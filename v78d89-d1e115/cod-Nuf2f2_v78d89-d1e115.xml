@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="8"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e115"><!-- q1m4 -->
+        <head xml:id="v78d89-d1e115-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-d1e115-Hd1e103" type="question-title">In quibus consistant sacramenta et de sacramentorum differentia</head>
+        <p xml:id="v78d89-d1e115-d1e106">
+          <lb ed="#N" n="97"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-d1e115-d1e111">
+          <lb ed="#N" n="98"/>DEinde queritur in quibus consistant sacramenta: et que sit
+          <lb ed="#N" n="99"/>differentia sacramentorum. Dicitur quod sacramenta consistunt in rebus. in
+          <lb ed="#N" n="100"/>factis. in dictis. In rebus vt sanctificetur hominis
+          <lb ed="#N" n="101"/>natura. in factis vt opera. in dictis vt verba.
+          <lb ed="#N" n="102"/>vt totum sanctificetur quod homo est et quod hominis est.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e124">
+          ⁋ Sed potest queri vtrum
+          <lb ed="#N" n="103"/>hoc sit commune in diuinis sacramentis secundum omnem differentiam temporis. Preterea. vtrum
+          <lb ed="#N" n="104"/>omnia hec sint necessaria tanquam materialia sacramentorum aut sint plura.
+          <lb ed="#N" n="105"/>Quod non sit commune in omnibus sacramentis secundum omne tempus. videtur per hoc quod non sit
+          <lb ed="#N" n="106"/>verum in sacramentis legis nature. ibi enim nihil legitur de dictis quod
+          fa<lb ed="#N" n="107" break="no"/>ciunt ad sacramentorum sanctificationem. in lege autem gratie inuenitur.
+          Si<lb ed="#N" n="108" break="no"/>militer in facti non videtur aliquid materiale inueniri. Facta
+          au<lb ed="#N" n="109" break="no"/>tem dicuntur significationes crucis et huiusmodi. nec enim signationes
+          inue<lb ed="#N" n="110" break="no"/>niuntur in sacramentis legis nature. nec signationes in sacramentis legis
+          <lb ed="#N" n="111"/>mosayce. Non ergo videtur commune esse in sacramentis secundum omne tempus hec triplex
+          <lb ed="#N" n="112"/>materia sacramentorum.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e149">
+          ⁋ Contra. totus homo corruptus fuerat. ergo totum
+          <lb ed="#N" n="113"/>quod hominis erat foris ad sacramentum sumendum erat. vt totum in sacramento
+          <lb ed="#N" n="114"/>foris sanctificetur et in toto virtus sacramenti interius remedium operaretur
+          <lb ed="#N" n="115"/>sicut dicit Hugo. sed illa totaliter corruptio fuit secundum omne tempus: et primo
+          <lb ed="#N" n="116"/>tempore legis nature. ergo sacramentum quod erat in remedium totius hominis
+          cor<lb ed="#N" n="117" break="no"/>rupti non tantum congruebat esse in rebus sed etiam in factis et dictis.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e162">
+          <lb ed="#N" n="118"/>⁋ Preterea. sacramentum quod est in rebus aliquando fuit in sacrificiis et
+          ob<lb ed="#N" n="119" break="no"/>lationibus vel decimis: aliquando fuit in rebus sanctificatis. sicut in
+          <lb ed="#N" n="120"/>aqua placationis et in huiusmodi liquoribus. Potest ergo queri vtrum secundum omne
+          <lb ed="#N" n="121"/>tempus essent sacramenta secundum huiusmodi differentias rerum. aut secundum diuersa tempora
+          <lb ed="#N" n="122"/>mutarentur differentie rerum. cum enim in differentiis rerum fieret differentia
+          si<lb ed="#N" n="123" break="no"/>gnificationum gratie. et he differentie gratie necessarie essent secundum omne tempus.
+          <lb ed="#N" n="124"/>erant ergo differentie sacramentorum in differentiis rerum necessarie secundum omne tempus.
+          <lb ed="#N" n="125"/>Queritur ergo cum tempore legis gratie erat sacramentum in oleo et eo modo in
+          tem<lb ed="#N" n="126" break="no"/>pore legis scripte. tempore etiam legis gratie est crisma. tempore autem legis
+          <lb ed="#N" n="127"/>scripte oleum vnctionis. tempore autem legis nature nullum horum propter
+          <lb ed="#N" n="128"/>quod hec gratia secundum suas differentias non est necessaria in tempore legis
+          na<lb ed="#N" n="129" break="no"/>ture sicut in aliis differentiis temporum.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e191">
+          ⁋ Ad quod dicendum est. commune est in
+          <lb ed="#N" n="130"/>sacramentis secundum omne tempus quantum ad materiam scilicet quod fiat in rebus et factis.
+          <lb ed="#N" n="131"/>non autem commune est quod fiat in dictis. sed hoc spiritualiter conuenit sacramentis noue
+          <lb ed="#N" n="132"/>legis. Verbum enim incarnatum per quod sacramenta habent virtutem: in sacramentis
+          <lb ed="#N" n="133"/>noue legis per verba spiritualiter virtute contulit. Materia autem in
+          fa<lb ed="#N" n="134" break="no"/>ctis communis dicitur esse secundum quod factum communiter dicitur esse. secundum quod factum communiter
+          ac<lb ed="#N" n="135" break="no"/>cipitur. Circumcisio enim quoddam factum dicit eodem modo crismatio
+          <lb ed="#N" n="136"/>factum determinat. ratione autem istorum factorum significatio erat
+          <lb ed="#N" n="137"/>quod si factum approprietur ei operi quod fit organo humano sine
+          <lb ed="#N" n="138"/>ministerio alterius rei. sicut est significatio vel manuum expansio
+          <lb ed="#N" n="139"/>vel capitis inclinatio. secundum hoc non dicuntur esse facta tempore legis
+          na<lb ed="#N" n="140" break="no"/>ture materia sacramentorum sed tantum ipse res. et secundum hoc posset attendi
+          <pb ed="#N" n="9"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>hec differentia vt sacramenta legis nature habuissent materiam in
+          re<lb ed="#N" n="2" break="no"/>bus et factis. sacramenta autem gratie in rebus et factis et verbis.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e226">
+          ⁋ Ad
+          <lb ed="#N" n="3"/>obiectum vero in contrarium dicendum est. quod licet totus homo corruptus
+          fu<lb ed="#N" n="4" break="no"/>isset et totus reformandus esset. non tamen significatio plene
+          refor<lb ed="#N" n="5" break="no"/>mationis ita fuit in sacramentis tempore legis nature. sicut in sacramentis
+          <lb ed="#N" n="6"/>tempore legis mosayce: nec in illis sicut in sacramentis legis gratie
+          <lb ed="#N" n="7"/>nec efficacia etiam tanta: sed procedente tempore processit declaratio
+          <lb ed="#N" n="8"/>in signis et processit efficacia in eis. sed prouidebatur humano
+          ge<lb ed="#N" n="9" break="no"/>neri secundum temporis incongruentiam. Illud autem quod dicit hugo:
+          atten<lb ed="#N" n="10" break="no"/>ditur de reparatione facta tempore legis gratie.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e246">
+          ⁋ Ad illud vero quod
+          obii<lb ed="#N" n="11" break="no"/>citur de differentiis rerum que ordinantur ad esse sacramenti: quemadmodum
+          <lb ed="#N" n="12"/>sunt oleum et aqua et huiusmodi. Dicendum est quod tempore legis gratie
+          <lb ed="#N" n="13"/>et legis mosayce oleum fuit commune et etiam tempore legis nature
+          <lb ed="#N" n="14"/>sicut habetur Gen. xxviii. Tulit iacob lapidem quem posuerat
+          <lb ed="#N" n="15"/>capiti suo et erexit in titulum fundens oleum desuper. Crisma
+          <lb ed="#N" n="16"/>autem appropriatum est sacramento legis gratie. signat enim gratiam
+          spi<lb ed="#N" n="17" break="no"/>ritualem que est in sacerdote euangelico et in confirmato et in
+          <lb ed="#N" n="18"/>baptizato. quod ex virtute sacramenti non dabatur tempore legis nature vel
+          <lb ed="#N" n="19"/>legis mosayce. Figura tamen illius vnctionis designatur in oleo
+          <lb ed="#N" n="20"/>sancto: quod factum est in lege mosayca ad ungendum
+          taberna<lb ed="#N" n="21" break="no"/>culum et altare thymiamatis et caput summi sacerdotis. et
+          <lb ed="#N" n="22"/>propterea remotius fuit figura in oleo quo iacob vnxit
+          lapi<lb ed="#N" n="23" break="no"/>dem. Ratio autem quare erant plura sacramenta sub lege scripta quam sub
+          <lb ed="#N" n="24"/>lege naturali. quia cum corpus humani generis egrotaret:
+          pau<lb ed="#N" n="25" break="no"/>ca primo erant posita antidota. quia nondum sensit egrotus
+          <lb ed="#N" n="26"/>omnimodo suum defectum. licet in parte sentiret. deinde data lege
+          cre<lb ed="#N" n="27" break="no"/>uit cognitio morbi: secundum quod dicit apostolus. Ro. vii: et ideo tunc
+          <lb ed="#N" n="28"/>plura apposita sacramenta sed nondum efficacia. et quia adhuc de
+          le<lb ed="#N" n="29" break="no"/>ge confidebant nondum aduenit efficacia sacramentorum.
+          appropinquan<lb ed="#N" n="30" break="no"/>te autem tempore gratie cognouerat suum defectum plene et petierunt
+          adiu<lb ed="#N" n="31" break="no"/>torium. et ideo tempore gratie data sunt sacramenta et plura et efficacia. Et
+          <lb ed="#N" n="32"/>hoc videtur hugo his verbis dicere. tempore nature vel legis quasi totus
+          <lb ed="#N" n="33"/>homo dimissus est sibi. postea tempore legis mosayce cognoscenti
+          <lb ed="#N" n="34"/>ignorantiam suam datum est consilium. postea tempore gratie confitenti
+          defec<lb ed="#N" n="35" break="no"/>tum suum prestitum est auxilium.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e303">
+          <lb ed="#N" n="36"/>Consequente queritur .§. i.
+          <lb ed="#N" n="37"/>que sit differentia sacramentorum secundum tres differentias temporum. Assignatur
+          <lb ed="#N" n="38"/>autem vna differentia inter sacramenta noui testamenti et sacramenta veteris.
+          <lb ed="#N" n="39"/>quod sacramenta noui testamenti ad gratiam conferendam sanctificandis
+          in<lb ed="#N" n="40" break="no"/>fusa benedictione sint principaliter instituta. sacramenta vero veteris
+          <lb ed="#N" n="41"/>sunt signa illorum: et illis mediantibus ad sanctificationem
+          ordi<lb ed="#N" n="42" break="no"/>nant. Secunda vero differentia est. quod in sacramentis noui testamenti fit
+          dispo<lb ed="#N" n="43" break="no"/>sitio vt imbuti illis regni celestis ianuam intrare possunt. Non
+          <lb ed="#N" n="44"/>sic autem fuit de sacramentis veteris testamenti siue tempore legis nature:
+          <lb ed="#N" n="45"/>siue tempore legis mosayce. Tercia vero differentia est quod in alliquo
+          <lb ed="#N" n="46"/>sacramento noui testamenti exhibet christus non tantum penitentiam spiritualem: sed
+          <lb ed="#N" n="47"/>et corporalem. non sic autem fuit in sacramentis tempore legis nature vel tempore
+          <lb ed="#N" n="48"/>legis mosayce. Quarta differentia est. quod sacramenta noue legis
+          si<lb ed="#N" n="49" break="no"/>gna sunt et cause inuisibilis gratie ex sua virtute. alia vero sunt
+          <lb ed="#N" n="50"/>signa et non cause.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e339">
+          ⁋ Assignatur etiam differentia inter sacramenta tempore
+          le<lb ed="#N" n="51" break="no"/>gis nature et sacrameta tempore legis mosayce. quod hec ex consilio ad
+          <lb ed="#N" n="52"/>votum proposita sunt. illa vero ex precepto instituta sunt. Alia
+          <lb ed="#N" n="53"/>etiam assignatur. quod sacramenta legis naturalis data sunt hominibus
+          <lb ed="#N" n="54"/>qui sola ratione naturali vitam suam dirigebant. sacramenta vero legis
+          mo<lb ed="#N" n="55" break="no"/>sayce his qui per disciplinam preceptorum ad bene viuendum
+          infor<lb ed="#N" n="56" break="no"/>mabantur. Tercia differentia assignatur ex parte temporis. vt
+          sacramen<lb ed="#N" n="57" break="no"/>ta legis nature durationem etiam haberent tempore legis moysi.
+          sa<lb ed="#N" n="58" break="no"/>cramenta vero legis non haberent durationem tempore legis
+          <lb ed="#N" n="59"/>nature. Sicut fuit sacramentum agni paschalis: et sacramentum vitule
+          <lb ed="#N" n="60"/>rufe et huiusmodi. Quarta etiam assignatur differentia quo ad differentiam
+          <lb ed="#N" n="61"/>effectus. In lege enim erant sacramenta in remedium diuersorum
+          peccato<lb ed="#N" n="62" break="no"/>rum et in medicinam legalium. non sic autem fuit in sacramentis legis
+          na<lb ed="#N" n="63" break="no"/>ture. Assignat autem hugo vnam differentiam communiter in hec tria
+          ge<lb ed="#N" n="64" break="no"/>nera sacramentorum. quod sacramenta legis nature vmbre fuerunt.
+          sacramen<lb ed="#N" n="65" break="no"/>ta autem legis mosayce imago. sacramenta autem legis gratie quasi corpus
+          <lb ed="#N" n="66"/>et hoc dicit propter hanc rationem. quia occulte exprimebatur
+          simi<lb ed="#N" n="67" break="no"/>litudo in sacramentis legis nature. euidentius autem in sacramentis
+          le<lb ed="#N" n="68" break="no"/>gis mosayce. manifeste vero in sacramentis legis gratie. In
+          decima<lb ed="#N" n="69" break="no"/>tione enim obscure intelligebatur similitudo mundationis. In
+          cir<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>cumcisione vero quam dicit pertinere ad legem moysi vel in aqua
+          <lb ed="#N" n="71"/>lustrationis euidentius. In baptismo vero euidentissime
+          de<lb ed="#N" n="72" break="no"/>monstratur. In aqua enim expiationis quedam immundicie
+          exteri<lb ed="#N" n="73" break="no"/>ores et irregularitates tollebantur. in baptismo autem
+          immun<lb ed="#N" n="74" break="no"/>dicie spirituales.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e395">
+          ⁋ Sed potest obiici contra hoc per hoc quod dicit
+          apo<lb ed="#N" n="75" break="no"/>stolus ad heb. legem esse umbram futurorum non ipsam
+          imagi<lb ed="#N" n="76" break="no"/>nem. ergo non in hoc differt a sacramentis legis nature quod est imago
+          <lb ed="#N" n="77"/>et non vmbra.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e404">
+          ⁋ Ad idem facit quod dicit ii col. Nemo vos in
+          <lb ed="#N" n="78"/>cibo aut in potu aut in tempore diei festi aut neomenie aut
+          sab<lb ed="#N" n="79" break="no"/>batorum que sunt vmbra futurorum. corpus autem christi. et dicit glo.
+          <lb ed="#N" n="80"/>vmbra fuerunt id est signa a re pendentia que in figura
+          futuro<lb ed="#N" n="81" break="no"/>rum tunc fiebant. et erat peccatum non obseruare: quia tunc erant
+          <lb ed="#N" n="82"/>precepta: nunc autem sunt testimonia: illud erat tempus
+          signifi<lb ed="#N" n="83" break="no"/>candi: hoc manifestandi. Ex quo accipitur quod conueniebat
+          sa<lb ed="#N" n="84" break="no"/>cramentis veteris legis esse vmbram. sicut et sacramentis
+          le<lb ed="#N" n="85" break="no"/>gis nature.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e424">
+          ⁋ Preterea. qualiter computatur circumcisio inter
+          sa<lb ed="#N" n="86" break="no"/>cramenta legis mosayce: cum data sit tempore legis nature:
+          <lb ed="#N" n="87"/>et tempore patrum. tempus autem legis nature sicut ipse dicit ab
+          <lb ed="#N" n="88"/>adam vsque ad moysen duravit. Quod etiam videtur per hoc quod
+          di<lb ed="#N" n="89" break="no"/>cit augustinus. contra donatistas tempora distinguendo. dicit enim quod
+          pri<lb ed="#N" n="90" break="no"/>mis temporibus vtrumque testamentum fuit occultum scilicet ab adam
+          <lb ed="#N" n="91"/>vsque ad moysen. A moyse autem manifestabatur vetus et
+          oc<lb ed="#N" n="92" break="no"/>cultabatur nouum: quia occulte signabatur. Postea vero quando dominus
+          <lb ed="#N" n="93"/>venit in carne: reuelatum est nouum. vetera autem sacramenta
+          <lb ed="#N" n="94"/>cessauerunt. Ex quo accipitur. cum sacramenta secundum tempora
+          distinguan<lb ed="#N" n="95" break="no"/>tur: tempora autem secundum terminos. quod inter sacramenta legis nature sit
+          <lb ed="#N" n="96"/>circumcisio.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e450">
+          ⁋ Ad quod dicendum est. quod illud quod dicit hugo:
+          acci<lb ed="#N" n="97" break="no"/>pitur secundum quandam appropriationem. eo quod vmbra minus habet de
+          si<lb ed="#N" n="98" break="no"/>militudine corporis quam imago. et propter hoc quod significata in
+          <lb ed="#N" n="99"/>tempore legis nature remotiora fuerunt quam signa in tempore
+          le<lb ed="#N" n="100" break="no"/>gis mosayce: ideo vmbre comparantur. vmbra enim non ita
+          distin<lb ed="#N" n="101" break="no"/>guit differentias eorum que sunt in corpore sicut imago. et hoc modo
+          <lb ed="#N" n="102"/>fuit in signis legis nature. Alio vero modo umbra accipitur
+          <lb ed="#N" n="103"/>communiter ut diuidatur contra veram imaginem. et secundum hoc accipitur
+          <lb ed="#N" n="104"/>illud ad hebre. vmbram habens lex futurorum: non ipsam
+          imagi<lb ed="#N" n="105" break="no"/>nem rerum. Aliquando vero diuiditur vmbra contra corpus. secundum quod
+          <lb ed="#N" n="106"/>patet ex interpositione corporis inter lumen et vmbram. et hoc modo
+          <lb ed="#N" n="107"/>accipitur ad col. ii. et sic iterum communiter accipitur.
+        </p>
+        <p xml:id="v78d89-d1e115-d1e476">
+          ⁋ Ad illud vero
+          <lb ed="#N" n="108"/>quod obiicit de circumcisione. dicendum est ex quo ad hoc quod
+          circum<lb ed="#N" n="109" break="no"/>cisio est data fuit in precepto et determinat quoddam
+          repu<lb ed="#N" n="110" break="no"/>gnans nature. repugnat enim nature quod aliquid subtrahatur de
+          <lb ed="#N" n="111"/>integritate totius: non dicitur pertinere ad legem nature sed ad
+          <lb ed="#N" n="112"/>legem moysi: cum de ipso iterata fiat mentio. secundum autem quod
+          <lb ed="#N" n="113"/>circumcisio indicat superfluitatem concupiscentie abolendam que ex
+          cul<lb ed="#N" n="114" break="no"/>pa originali prouenit. habet quandam similitudinem sicut
+          medici<lb ed="#N" n="115" break="no"/>na respectu rei cui adhiberi debet medicina. et sic pertinet
+          <lb ed="#N" n="116"/>ad legem nature. Pertinebat ergo circumcisio ex alia et alia
+          ra<lb ed="#N" n="117" break="no"/>tione ad legem nature et ad legem moysi. vnde et in vtraque
+          <lb ed="#N" n="118"/>fit mentio de circumcisione. et secundum quosdam fit computatio legis
+          <lb ed="#N" n="119"/>mosayce que dicitur scripta a tempore abrahe: eo quod illo populo
+          <lb ed="#N" n="120"/>descendenti ab Abraham per Ysaac et Iacob
+          percipie<lb ed="#N" n="121" break="no"/>batur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

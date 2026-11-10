@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 43, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 43, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="313"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8slpp"><!-- q43m2 -->
+        <head xml:id="v78d89-a8slpp-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a8slpp-Hd1e103" type="question-title">De idemptitate modorum</head>
+        <p xml:id="v78d89-a8slpp-d1e106">
+          <lb ed="#N" n="41"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e111">
+          <lb ed="#N" n="42"/>COnsequenter queritur. vtrum idem sit
+          mandu<lb ed="#N" n="43" break="no"/>catio sacramentalis et spiritualis. Quod non: patet
+          <lb ed="#N" n="44"/>i. Corin. xi. Quotienscumque etc. Augustinus. bonus
+          <lb ed="#N" n="45"/>accipit sacramentum et rem sacramenti: malus
+          <lb ed="#N" n="46"/>veroo sacramentum et non rem. Ad quod dicimus sacramentum
+          <lb ed="#N" n="47"/>hoc appellari corpus domini de virgine sumptum. rem
+          spi<lb ed="#N" n="48" break="no"/>ritualem carnem christi que est vnitas fidelium. Bonus ergo
+          <lb ed="#N" n="49"/>accipit sacramentum id est carnem christi propriam et sanguinem. et rem id est
+          <lb ed="#N" n="50"/>vnitatem fidelium et gratie augmentum. Malus vero accipit
+          <lb ed="#N" n="51"/>sacramentum id est corpus christi sub sacramento. et non rem id est
+          vni<lb ed="#N" n="52" break="no"/>tatem ecclesie etc. bonus manducat spiritualiter et sacramentaliter.
+          ma<lb ed="#N" n="53" break="no"/>lus vero sacramentaliter tantum.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e140">
+          ⁋ Item non manducans manducat id st
+          <lb ed="#N" n="54"/>non manducans sacramentaliter manducat spiritualiter: et
+          man<lb ed="#N" n="55" break="no"/>ducans sacramentaliter non manducat spiritualiter. et
+          econ<lb ed="#N" n="56" break="no"/>ra hec glo.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e150">
+          ⁋ Item super illud. i. Corin. xi. Qui manducat
+          <lb ed="#N" n="57"/>et bibit indigne. Queritur quomo hic aliquis manducans
+          di<lb ed="#N" n="58" break="no"/>catur manducare indigne: cum dominus dicat. Qui manducat
+          <lb ed="#N" n="59"/>me ipse viuet propter me Ioh. vi. Ad quod dicimus duos es
+          <lb ed="#N" n="60"/>modos manducandi. vnum sacramentalem quo manducant
+          <lb ed="#N" n="61"/>tam boni quam mali: alterum spiritualem quo soli boni
+          man<lb ed="#N" n="62" break="no"/>ducant. secundum illud Augustin. Quid est christum manducare non hoc
+          <lb ed="#N" n="63"/>folum est in sacramento corpus eius accipere: sed in ipso
+          ma<lb ed="#N" n="64" break="no"/>nere et habere ipsum in se manentem. spiritualiter enim
+          mandu<lb ed="#N" n="65" break="no"/>cat qui in vnitate christi et ecclesie quam ipsum sacramentum
+          <lb ed="#N" n="66"/>signat manet. Nam qui discordat a christo: nec carnem christr
+          <lb ed="#N" n="67"/>manducat nec sanguinem bibit. et sibi tante rei
+          sacramen<lb ed="#N" n="68" break="no"/>tm ad iudicium quotidie accipiat. Ex his patet quod alia est
+          <lb ed="#N" n="69"/>manducatio sacramentalis et spiritualis.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e181">
+          ⁋ Contra.
+          ve<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>ritas rei ex veritate actus non dinoscitur. vnde vere
+          cali<lb ed="#N" n="71" break="no"/>dum vere calefacit: et vere lumen vere illuminat. igitur cum
+          <lb ed="#N" n="72"/>corpus christi vere sit cibus vere cibat. sed vere cibare est
+          ispi<lb ed="#N" n="73" break="no"/>ritualiter cibare. quia cum sit cibus spiritualis: vera eius
+          <lb ed="#N" n="74"/>cibatio est cibatio spiritualis. igitur cum sit vere cibus et
+          <lb ed="#N" n="75"/>spiritualis vere cibat id est spiritualiter.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e198">
+          ⁋ Item vt dicit
+          Gre<lb ed="#N" n="76" break="no"/>go. Quedam sunt summe bona. quedam infima. quedam
+          me<lb ed="#N" n="77" break="no"/>diocra. Et ideo dicit Augustinus aliis verbis. scilicet quod quedam sunt
+          <lb ed="#N" n="78"/>maxima bona quedam minima quedam mediocra. Sed
+          <lb ed="#N" n="79"/>dicit Greg. Summe bona sunt que si habeantur non
+          con<lb ed="#N" n="80" break="no"/>tingit eum male vti. Sed inter omnia bona maximum est corpus
+          <lb ed="#N" n="81"/>christi. igitur si habeatur: non contingit eo male vti. sed habet
+          <lb ed="#N" n="82"/>cum manducatur siue sumitur in sacramento: igitur tunc
+          <lb ed="#N" n="83"/>non contingit eo male vti. igitur eius vsus semper est bonus.
+          <lb ed="#N" n="84"/>igitur semper sumitur spiritualiter: quia vsus illius non
+          <lb ed="#N" n="85"/>est bonus nisi spiritualiter sumatur.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e222">
+          ⁋ Item Damas. per
+          <lb ed="#N" n="86"/>illa que sunt assueta secundum naturam: transferimur ad ea que sunt
+          <lb ed="#N" n="87"/>supra naturam. Idem sicut panis et vinum per comestionem
+          na<lb ed="#N" n="88" break="no"/>turaliter in carnem et sanguinem transmutantur
+          manducan<lb ed="#N" n="89" break="no"/>tis et bibentis: ita propositionis panis et vinum per aduentum
+          spi<lb ed="#N" n="90" break="no"/>ritussancti transit in corpus christi et sanguinem. Ex his
+          ver<lb ed="#N" n="91" break="no"/>bis Dam. patet. quod iuxta modum manducationis corporalis: quantum
+          <lb ed="#N" n="92"/>ad aliquam similitudinem inquirendum est de spirituali. Queritur ergo vtrum
+          <lb ed="#N" n="93"/>dicimus corpus christi manducari sacramentaliter. vel ratione similitudinis
+          <lb ed="#N" n="94"/>in masticatione: quod non videtur. quia in masticatione fit quedam
+          <lb ed="#N" n="95"/>diuinsio cibi et distinctio. que non conuenit corpori christi. cum sacramentaliter
+          <lb ed="#N" n="96"/>manducatur. Aut ratione conuersionis que similiter non conuenit. non enim
+          con<lb ed="#N" n="97" break="no"/>uertitur corpus christi in corpus comedentis in huiusmodi manducatione: nec
+          <lb ed="#N" n="98"/>econuerso. Aut ratione separationis. que similiter non conuenit. quia in
+          <lb ed="#N" n="99"/>corpore christi nihil est impurum. Unde non separatur ibi purum ab
+          im<lb ed="#N" n="100" break="no"/>puro. igitur solummodo ratione vnionis. dicitur igitur corpus christi
+          <lb ed="#N" n="101"/>manducari sacramentaliter ratione vnionis eiusdem cum
+          man<lb ed="#N" n="102" break="no"/>ducante. igitur qui sacramentaliter manducat corpus christi. eo quod vnitur
+          <lb ed="#N" n="103"/>eidem: dicitur sic manducare. igitur cum spiritualiter manducare non est aliud
+          <lb ed="#N" n="104"/>quam verum corpus christi: quia eo dicitur manducari quod virtute
+          sacramen<lb ed="#N" n="105" break="no"/>ti vnitur: videtur quod idem sit manducare spiritualiter et
+          sacramen<lb ed="#N" n="106" break="no"/>taliter.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e270">
+          ⁋ Item sicut dicit magister in senten. et habetur in glo. i.
+          <lb ed="#N" n="107"/>Corin. xi. A mure vel ab alio bruto non sumitur corpus christi
+          ali<lb ed="#N" n="108" break="no"/>quo modo. quia etsi contingat quod species sub quibus continetur corpus christi
+          con<lb ed="#N" n="109" break="no"/>municant: nullo modo ipsi corpori christi vero vel mistico vnitur
+          <lb ed="#N" n="110"/>igitur ad omnem modum manducandi requiritur vnio manducantis cum
+          <lb ed="#N" n="111"/>manducato. igitur et ad manducationem sacramentalem. sed quando est huiusmodi
+          <lb ed="#N" n="112"/>vnio est manducatio spiritualis: igitur vt prius.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e286">
+          ⁋ Responsio. quod
+          <lb ed="#N" n="113"/>non est eadem manducatio talis et talis. sed diuersa. cuius
+          di<lb ed="#N" n="114" break="no"/>stinctio a triplici causa ortum habet vt dictum est.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e294">
+          ⁋ Ad
+          pri<lb ed="#N" n="115" break="no"/>mum ergo dicendum. quod quedam sunt essentie que sunt semper
+          coniun<lb ed="#N" n="116" break="no"/>cte suis actibus sicut calidum et huiusmodi. et in talibus ad
+          ve<lb ed="#N" n="117" break="no"/>ritatem rei sequitur veritas actus. quedam sunt que non sunt
+          <lb ed="#N" n="118"/>necessario coniuncte. sed impedimentum habent quandoque ex parte
+          suscepti<lb ed="#N" n="119" break="no"/>bilis siue obiecti: talis est cibus. propter quod non sequitur. est
+          <lb ed="#N" n="120"/>vere cibus: igitur vere cibat. Multi enim sunt qui sumunt
+          ve<lb ed="#N" n="121" break="no"/>rum cibum et bonum: non tamen cibantur vere. immo est eis potius
+          cau<lb ed="#N" n="122" break="no"/>sa mortis propter aliquod impedimentum ex parte illorum.
+          <lb ed="#N" n="123"/>Ad aliud dicendum. quod Greg. et Augustinus. in distinctione bonorum
+          <lb ed="#N" n="124"/>dicunt maxima bona et summe bona virtutes. quibus nullus
+          male<lb ed="#N" n="125" break="no"/>vtitur. vt patet ex diffinitione virtutis quam ponit Augustinus dicens.
+          <lb ed="#N" n="126"/>Uirtus est qualitas bona mentis qua bene viuitur: qua nemo
+          <lb ed="#N" n="127"/>male vtitur etc. Unde sub illa difctria bonorum non comprehenditur
+          <lb ed="#N" n="128"/>corpus christi. Si autem velimus extendere nomen boni. ita quod sub
+          ma<lb ed="#N" n="129" break="no"/>gno siue summe bono comprehendatur corpus christi. di. emus quod
+          <lb ed="#N" n="130"/>tunc dicitur haberi: quando fide operante per dilectionem habetur. non enim
+          <lb ed="#N" n="131"/>dicitur haberi cum habetur in pixide vel in ore. sicut nec virtu
+          <lb ed="#N" n="132"/>tes dicuntur haberi cum habentur in cogitatione vel in
+          intellanctu<lb ed="#N" n="133" break="no"/>sed solum cum informant animam. et reuera quando sic habetur id est cum habens
+          <lb ed="#N" n="134"/>vnitur per fidem et dilectionem: non vtitur male illo inquantum sic habetur.
+        </p>
+        <p xml:id="v78d89-a8slpp-d1e340">
+          <lb ed="#N" n="135"/>⁋ Ad aliud quod sequitur. dicendum quod est vnio multiplex que
+          requi<lb ed="#N" n="136" break="no"/>ritur ad perfectam manducationem corporis christi scilicet per naturam:
+          co<lb ed="#N" n="137" break="no"/>gnitionem: et dilectionem. Ubi autem est ista tria reperire secundum suum
+          perfe<lb ed="#N" n="138" break="no"/>ctum in manducante: est reperiere manducationem secundum suum perfanctum. et vbi alt
+          <lb ed="#N" n="139"/>quod hor deficit: non est perfancta maducatio sic nec vnio. Non igrtur quod
+          <pb ed="#N" n="314"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>aliquis comedens habet fidem informen: aliquis formatam
+          <lb ed="#N" n="2"/>psalmus. Aliquis habet dilectionem per modum doni gratisdati: aliquis per
+          mo<lb ed="#N" n="3" break="no"/>dum gratum facientis. vbi autem est fides formata et dilectio per
+          mo<lb ed="#N" n="4" break="no"/>dum doni gratum facientis in manducante: ibi est maior vnio
+          <lb ed="#N" n="5"/>cum mandacato. et talis manducans spiritualiter manducat. vbi
+          <lb ed="#N" n="6"/>autem est fides informis et dilectio per modum doni gratisdati.
+          <lb ed="#N" n="7"/>ibi est minor vnio et manducatio sacramentalis.
+          Conceden<lb ed="#N" n="8" break="no"/>dum est igitur. quod in vtraque manducatione sacramentali et
+          spi<lb ed="#N" n="9" break="no"/>rituali est vnio quedam. sed differt vnio prout est sacramenta
+          <lb ed="#N" n="10"/>lis manducationis et spiritualis: eo modo quo dictum est. Ex hoc
+          <lb ed="#N" n="11"/>patet responsio ad obiecta. supponatur hoc ad presns quousque hoc
+          <lb ed="#N" n="12"/>plenius determinetur sicut infra fiet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

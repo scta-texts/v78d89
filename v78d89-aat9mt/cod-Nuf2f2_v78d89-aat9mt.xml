@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 53, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 53, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="346"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aat9mt"><!-- q53m2 -->
+        <head xml:id="v78d89-aat9mt-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-aat9mt-Hd1e103" type="question-title">Utrum corpus Christi sumptum intret ventrem</head>
+        <p xml:id="v78d89-aat9mt-d1e106">
+          <lb ed="#N" n="16"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e111">
+          <lb ed="#N" n="17"/>COnsequenter queritur. vtrum eucharistia
+          in<lb ed="#N" n="18" break="no"/>tret ventrem sicut ceteri cibi. Quod sic: videtur.
+          <lb ed="#N" n="19"/>Clemens papa de conse. di. ii. cilt tribus Qui
+          re<lb ed="#N" n="20" break="no"/>sidua corporis domini que in sacrario relicta sunt
+          <lb ed="#N" n="21"/>consumunt. non statim ad accipiendos communes cibos
+          conueni<lb ed="#N" n="22" break="no"/>ant ne putent sancte portioni misceri cibum: qui per
+          callicu<lb ed="#N" n="23" break="no"/>los digestus in secessum emittitur. calliculos vocat
+          occul<lb ed="#N" n="24" break="no"/>tos meatus. sed si dominica portio in ventrem non iret: non
+          <lb ed="#N" n="25"/>videretur quod oporteret ieiunare post sumptionem.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e133">
+          ⁋ Item
+          <lb ed="#N" n="26"/>Beda de conse. di. ii. Si quis per ebrietatem et voracitatem
+          eu<lb ed="#N" n="27" break="no"/>charistiam euomuerit. xl. diebus peniteat. Clerici vel
+          mo<lb ed="#N" n="28" break="no"/>nachi. dyaconi vel presbiteri. lxx. diebus peniteant.
+          Episco<lb ed="#N" n="29" break="no"/>pi. lxxxix. Si pro infirmitatis causa euomuerit. vii. diebus
+          <lb ed="#N" n="30"/>peniteat. Ex his patet quod quis potest euomere corpus
+          christi<lb ed="#N" n="31" break="no"/>igitur intrat in ventrem.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e150">
+          ⁋ Item quare ponendum esset non
+          <lb ed="#N" n="32"/>intrare cum nullam contrahit immundiciam ex introitu
+          hu<lb ed="#N" n="33" break="no"/>iusmodi.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e157">
+          ⁋ Item frequenter collocatur in vase
+          artificiali<lb ed="#N" n="34" break="no"/>longe deteriore et minus precioso quam sit corpus siue venter
+          ho<lb ed="#N" n="35" break="no"/>minis. quod ergo accidit inconueniens si intret etc.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e164">
+          ⁋ Item
+          cor<lb ed="#N" n="36" break="no"/>pus christi non dicitur sacramentaliter manducari propter
+          mastica<lb ed="#N" n="37" break="no"/>tionem speciei panis. Non ergo sufficit masticatio ad huiusmodi
+          mandu<lb ed="#N" n="38" break="no"/>cationem hic requiritur incorparatio. sed si species panis transmittere
+          <lb ed="#N" n="39"/>tur in ventrem. cum existente specie existit corpus christi: ergo etc.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e175">
+          ⁋ Item
+          <lb ed="#N" n="40"/>si corpus christi manducatur. ergo incorporatur ergo trahicitur in ventrem.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e180">
+          <lb ed="#N" n="41"/>Contra. Math. xv. Omne quod intrat in os in ventrem
+          va<lb ed="#N" n="42" break="no"/>dit et in secessum emittitur. sed constat quod corpus christi non emittitur in
+          se<lb ed="#N" n="43" break="no"/>cessum quia non digeritur in ventre aliquo modo.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e189">
+          ⁋ Item vbicum
+          <lb ed="#N" n="44"/>que est corpus christi ibi est adorandus. sed nunquam est adorandus in
+          <lb ed="#N" n="45"/>ventre hominis. ergo etc.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e197">
+          ⁋ Item corpus christi non est cibus
+          ven<lb ed="#N" n="46" break="no"/>tris sed mentis. ergo non trahicitur in ventrem. hoc idem
+          po<lb ed="#N" n="47" break="no"/>test haberi ab Amb. de sacra. Non est iste panis qui vadit
+          <lb ed="#N" n="48"/>in corpus: sed panis vite eterne qui anime substantiam fulcit
+          <lb ed="#N" n="49"/>Et Hug. Cibus iste anime est non corporis. venit ad tem vt
+          gu<lb ed="#N" n="50" break="no"/>stetur: non vt incorporetur.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e210">
+          ⁋ Item Hug. de sancto Uic. dicit tibi
+          <lb ed="#N" n="51"/>cor tuum. quid factum est de corpore christi. postquam sumpsi illud et
+          man<lb ed="#N" n="52" break="no"/>ducaui. audi. corporalem christi presentiam queris: in celo quere vbi est
+          <lb ed="#N" n="53"/>christus ad dexteram patris.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e219">
+          ⁋ Item ibidem. Quando in manibus
+          sa<lb ed="#N" n="54" break="no"/>cramentum eius tenes corporaliter tecum est. denique in
+          visu<lb ed="#N" n="55" break="no"/>in tactu. in sapore corporaliter tecum est. quamdiu sensu corporalis
+          <lb ed="#N" n="56"/>afficitur: presentia corporalis non aufertur. Post quam autem sensus
+          <lb ed="#N" n="57"/>corporalis percipiendo deficit: deinceps corporalis presentia queren
+          <lb ed="#N" n="58"/>da non est. sed spiritualis retinenda. dispensatio completa est.
+          perfe<lb ed="#N" n="59" break="no"/>ctum sacramentum virtus manet. christus de ore ad cor
+          tran<lb ed="#N" n="60" break="no"/>sit. melius est tibi vt eat in mentem quam in ventrem tuum. cibus
+          <lb ed="#N" n="61"/>iste anime non corporis est. hec Hug. Ex hoc patet quod dicit quere
+          <lb ed="#N" n="62"/>in celo: videtur quod non transit in ventrem.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e241">
+          ⁋ Responsio. circa hoc
+          <lb ed="#N" n="63"/>diuersi diuersa sentiunt. Quidam enim dixerunt. quod
+          nonsolum<lb ed="#N" n="64" break="no"/>in ventrem: sed etiam vadit quocunque ille species deferuntur. salua
+          <lb ed="#N" n="65"/>illarum natura siue in ventrem suis siue in locum immundum
+          <lb ed="#N" n="66"/>Aliqui dixerunt. quod non solum in ventrem hominis vadit sed ibi
+          <lb ed="#N" n="67"/>manet quousque refectionis operatio compleatur. Aliqui dixerunt et
+          <lb ed="#N" n="68"/>quod ad ventrem peruenit et manet ibi vsquequo sumptio
+          comple<lb ed="#N" n="69" break="no"/>ta sit et amplius non moratur. Aliqui dixerunt quod solum est e
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>cum illis speciebus quamdiu sunt cum aliquo sensu vt visu vel
+          <lb ed="#N" n="71"/>gustu. et hoc dicunt quod sensit Hug. vt videtur ex dictis.
+          Ra<lb ed="#N" n="72" break="no"/>tio autem diuersitatis harum opinionum hec est. Omnes enim in
+          <lb ed="#N" n="73"/>hoc consentiunt. quod tandiu est corpus christi in illis speciebus quo
+          <lb ed="#N" n="74"/>diu est ratio sacramenti. Dicunt igitur primi quod species panis
+          <lb ed="#N" n="75"/>consecrati tandiu est sacramentum: quamdiu est species panis. cum
+          vi<lb ed="#N" n="76" break="no"/>tus consecrationis ipsam respiciat secundum quod est panis et ibi
+          ma<lb ed="#N" n="77" break="no"/>net quamdiu species ille sunt ordinabiles ad refectionem. vnc
+          <lb ed="#N" n="78"/>dixerunt quod in ventrem vadit et nunquam desinit ibi esse illa
+          propri<lb ed="#N" n="79" break="no"/>etate salua. et ex hoc oritur positio prima. Alii autem dicur
+          <lb ed="#N" n="80"/>quod ratio sacramenti tantum saluatur quamdiu species habilis est ad
+          refe<lb ed="#N" n="81" break="no"/>ctionem humanam. ideo enim instituta est et ad hoc ordinatur et
+          <lb ed="#N" n="82"/>hoc habet quando est extra et in stomacho. quia ibi reficit et er
+          <lb ed="#N" n="83"/>hoc oritur secunda positio. Tercii dicunt quod tandiu saluatur
+          quo<lb ed="#N" n="84" break="no"/>usque recipiatur in vsum manducationis. et quando
+          manduca<lb ed="#N" n="85" break="no"/>tio completa est: tunc sacramentum non est sed fuit. et ex hoc
+          ha<lb ed="#N" n="86" break="no"/>bet ortum tercia positio. Alii dicunt quod quia sacramentum
+          <lb ed="#N" n="87"/>est signum. et signum est quod se offert sensibus. quod tandiu
+          spe<lb ed="#N" n="88" break="no"/>cies est sacramentum: quamdiu nata est sentiri ab aliquo sensu.
+          <lb ed="#N" n="89"/>et ideo cum deficit perceptio sensuum: deficit ratio sacramenti
+          <lb ed="#N" n="90"/>et presentia corporalis. Prima autem opinio que dicit quod corpus
+          <lb ed="#N" n="91"/>christi defertur quocunque species deferuntur et in ventrem
+          ca<lb ed="#N" n="92" break="no"/>nis vel suis vel in alia loca immunda: videtur vera. saluo
+          <lb ed="#N" n="93"/>enim vero esse specierum: adhuc non desinit esse
+          sacramen<lb ed="#N" n="94" break="no"/>tum nec christus sub specie. Secunda oprinio videtur similiter
+          ve<lb ed="#N" n="95" break="no"/>ra quantum ad aliquid. quia dummodo species sunt in suo vero es
+          <lb ed="#N" n="96"/>et ordinabiles ad refectionem: non desinit esse sacramentum. sed
+          <lb ed="#N" n="97"/>quod ibi sit corpus christi quousque sit completa refectionis operatio: ve
+          <lb ed="#N" n="98"/>non existentibus speciebus in vero esse suo permanet operatio
+          re<lb ed="#N" n="99" break="no"/>fectionis: non videtur verum nec verisimile. Similiter
+          ier<lb ed="#N" n="100" break="no"/>etcia opinio vera est. secundum quod tunc dicitur esse sumptio completa
+          <lb ed="#N" n="101"/>quando speciebus consumptis christus transit in animam. secundum autem e
+          <lb ed="#N" n="102"/>sumptio dicitur esse completa facta de gustatione siue
+          degln<lb ed="#N" n="103" break="no"/>etione non est vera. Quarta autem opinio vera est. Uerbum quir
+          <lb ed="#N" n="104"/>Hug. quod est. In visu in tactu in sapore. tecum est quamdiu
+          <lb ed="#N" n="105"/>sensus corporalis etc. intelligitur quantum ad aptitudinem: non ergo
+          <lb ed="#N" n="106"/>tum ad gustationem. gustus non est tantum in lingua: sed in into
+          <lb ed="#N" n="107"/>tu cibi in ventrem siue in corpus. secundum opiniones istas dici pos
+          <lb ed="#N" n="108"/>corpus christi transire in ventrem. Quidam autem aliter dixerunt quod
+          <lb ed="#N" n="109"/>corpus christi nunquam intrat ventrem. sed quod cum est in ore: tunc id
+          esfe<lb ed="#N" n="110" break="no"/>sub specie. sed quando glutitur transire in mentem. Quod videtur
+          <lb ed="#N" n="111"/>Augustinus velle qui dicit. Quoddiu habes in ore tanciu est in te. et
+          <lb ed="#N" n="112"/>non ducitur in secessum: sed rapitur in excessum. sed speciem panis
+          <lb ed="#N" n="113"/>dicunt transire in ventrem. Quod patet nihil esse: cum nihil nisi
+          <lb ed="#N" n="114"/>solus deus possit intrare substantiam anime. vnde corpus
+          <lb ed="#N" n="115"/>christi intrare non potest. propter hoc dici potest. quod intrante specie in
+          <lb ed="#N" n="116"/>ventrem et corpus christi intrat in ventrem sicut in os vel in
+          pixi<lb ed="#N" n="117" break="no"/>de. Unde nota quod est intrare in ventrem dupliciter. quia vel
+          <lb ed="#N" n="118"/>quantum ad substantiam. vel quantum ad cibandi efficaciam.
+          Pri<lb ed="#N" n="119" break="no"/>mo modo descendit aliquod corpus in ventrem: etiam si non sit cibus
+          <lb ed="#N" n="120"/>sed secundo modo. Similiter est aliquid intrare in animam duplicitur. quia vel
+          <lb ed="#N" n="121"/>quantum ad substantiam: et sic intrat animam solum quod illabitur anime
+          <lb ed="#N" n="122"/>scilicet solus deus. vel quantum ad efficaciam et sic dicitur intrare animam
+          <lb ed="#N" n="123"/>quia illam reficit. Si ergo loquamur de intratione quantum ad
+          <lb ed="#N" n="124"/>cibandi efficaciam: sic corpus christi non vadit in ventrem sedin
+          <lb ed="#N" n="125"/>mentem: sicut dicunt sancti. Si loquamur quantum ad substam
+          <lb ed="#N" n="126"/>tiam. sic vadit in ventrem eo modo quo dictum est.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e384">
+          ⁋ Dicendum
+          <lb ed="#N" n="127"/>igitur ad illud quod primo obiicitur contra. quod Matheus
+          loqui<lb ed="#N" n="128" break="no"/>tur de cibis corporalibus qui mutantur in comedentem: non de
+          <lb ed="#N" n="129"/>cibo spirituali qui mutat in se comedentem.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e393">
+          ⁋ Ad aliud
+          dicen<lb ed="#N" n="130" break="no"/>dum quod corpus christi in ventre hominis non est adorandus nequie
+          <lb ed="#N" n="131"/>est ibi venerandus veneratione exteriori. quia non potest constare
+          <lb ed="#N" n="132"/>quando vel quamdiu est in ventre. Pre. ante sumptionem et in ipsa
+          sum<lb ed="#N" n="133" break="no"/>ptione est adorandus: sed post gratiarumactionibus est vacandum pro beneficio
+          <lb ed="#N" n="134"/>accepto. Estimo autem quod vbicumque creditur esse siue in ventre suis
+          <lb ed="#N" n="135"/>siue in ore vel sinu viri vel mulieris. Solent enim alique persone
+          cor<lb ed="#N" n="136" break="no"/>pus christi deferre in ore vel sinu quandoque vt de illo aliquod opst
+          fla<lb ed="#N" n="137" break="no"/>gitiosum facerent. quod ibi sit venerandum et adorandum interius in
+          <lb ed="#N" n="138"/>anima: licet non exterius in opere.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e416">
+          ⁋ Ad illud quod sequitur et ad verbum Am
+          <lb ed="#N" n="139"/>bro. dicendum quod non trahicitur in corpus vt alimentum: nihilominus
+          <pb ed="#N" n="347"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>bene constat quod intrat et animam fulcit non intrando per
+          coa<lb ed="#N" n="2" break="no"/>paralem subiectum sed per effectum substantie et diuinitatem.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e429">
+          ⁋ Ad illud
+          <lb ed="#N" n="3"/>quod dicit Hug. dicendum quod loquitur in casu quo forma panis
+          de<lb ed="#N" n="4" break="no"/>sinit esse. quia desinente forma panis: christi corpus desinit esse
+          <lb ed="#N" n="5"/>sub specie. tunc enim non est querenda presentia corporalis. Sed ex
+          <lb ed="#N" n="6"/>hoc quod dicit Hugo. de ore transit ad cor. videtur supratacta
+          <lb ed="#N" n="7"/>opinis esse vera. Responsio. transit per effectum: non per essentiam
+          car<lb ed="#N" n="8" break="no"/>nis. Si autem queratur quamdiu manet in ventre. Responsio. quamdiu
+          <lb ed="#N" n="9"/>manet species panis et non amplius.
+        </p>
+        <p xml:id="v78d89-aat9mt-d1e447">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="10"/>pro alia parte. quod si corpus christi manducatur ergo incorporatur.
+          Di<lb ed="#N" n="11" break="no"/>cendum quod non sequitur: quia non manducatur vt cibus corporis
+          <lb ed="#N" n="12"/>sed vt cibus anime.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

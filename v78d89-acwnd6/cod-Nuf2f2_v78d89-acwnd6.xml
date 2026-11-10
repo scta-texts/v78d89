@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 69, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 69, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="447"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acwnd6"><!-- q69prae -->
+        <head xml:id="v78d89-acwnd6-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-acwnd6-d1e103">
+          <lb ed="#N" n="38"/>⁋ Questio. ixix. de
+          contri<lb ed="#N" n="39" break="no"/>tionis obiecto.
+        </p>
+        <p xml:id="v78d89-acwnd6-d1e110">
+          <lb ed="#N" n="40"/>SEquitur de
+          cotriti<lb ed="#N" n="41" break="no"/>one quantum ad obiectum. de quo queruntur hec.
+          <lb ed="#N" n="42"/>Primo. vtrum contritio debeat esse de peccato
+          <lb ed="#N" n="43"/>commisso. Secundo. vtrum debeat esse de peccatis
+          <lb ed="#N" n="44"/>et penis peccatorum. Terco. vtrum debeat esse
+          <lb ed="#N" n="45"/>de difformitate et de actu. Quarto. vtrum de originali sicut
+          <lb ed="#N" n="46"/>de actuali. Quinto. vtrum requiritur contritio de veniali sicut de
+          <lb ed="#N" n="47"/>actuali mortali. Sexto. vtrum de peccato quod comittitur ex
+          tri<lb ed="#N" n="48" break="no"/>sticia. Septimo. vtrum de peccato quod comittitur per ignorantiam.
+          <lb ed="#N" n="49"/>Octauo. vtrum de peccato oblito. Nono. vtrum de peccato
+          futu<lb ed="#N" n="50" break="no"/>ro. Decimo. si contritio possit esse de vno solo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

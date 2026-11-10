@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 81, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 81, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="524"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aeyz61"><!-- q81m1 -->
+        <head xml:id="v78d89-aeyz61-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-aeyz61-Hd1e103" type="question-title">An ecclesia debeat excommunicare</head>
+        <p xml:id="v78d89-aeyz61-d1e106">
+          <lb ed="#N" n="60"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e111">
+          <lb ed="#N" n="61"/>CIrca primum proceditur ad affirmatiuam partem.
+          <lb ed="#N" n="62"/>Apslolus legitur excommunicasse. i. Corin. v. Si is qui
+          <lb ed="#N" n="63"/>frater nominatur inter vos sit fornicator. cum huiusmodi
+          <lb ed="#N" n="64"/>nec cibum sumere. Et. i. Corati. xvi. Qui non
+          dili<lb ed="#N" n="65" break="no"/>git dominum ihum sit anathema. Et galt. i. Si quis vob
+          euangeli<lb ed="#N" n="66" break="no"/>zauerit preter id quod accepistis anathema sit.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e127">
+          ⁋ Item hoc vide
+          <lb ed="#N" n="67"/>tur per exemplum in moribus. ptrfamilias secundum rectum ordinem filium
+          <lb ed="#N" n="68"/>inobedie ntem extra domum ad tempus eiicit: vt saltem sic corrigatur. ergo
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>pari ratione ille qui preest in domo domini potest et debet consimilem eiicere exter
+          <lb ed="#N" n="70"/>domum. sed eiicere extra domum est eiicere extra communionem et hoc non
+          <lb ed="#N" n="71"/>est aliud quam excommunicare: ergo etc.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e144">
+          ⁋ Item videmus in arte
+          medendi<lb ed="#N" n="72" break="no"/>quod secundum rectum iudicium membrum putridum ordinatum ad aliorum
+          in<lb ed="#N" n="73" break="no"/>fectionem a corpore est resecandum. sed in spiritualibus membra constat
+          <lb ed="#N" n="74"/>esse putrida per peccatum et alia membra corrumpentia. ergo videtur quod
+          <lb ed="#N" n="75"/>talia recte sunt amputanda secundum rectum regiminis ordinem: sed hoc
+          <lb ed="#N" n="76"/>fit per excommunicationem: ergo etc.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e157">
+          ⁋ Contra. multo meliora sunt
+          spi<lb ed="#N" n="77" break="no"/>ritualia corporalibus. i. Cocritu. ix. Si nos vobesspiritualia
+          semina<lb ed="#N" n="78" break="no"/>mus magnum non est etc. Sed ecclesia cum excomunicat aufert ab
+          ex<lb ed="#N" n="79" break="no"/>communicato spiritualia. sicut dicitur. iiii. sentnti. scilicet orationes et suffragia. non
+          <lb ed="#N" n="80"/>est autem iustum pro oblatione minoris auferre quod maius et
+          meli<lb ed="#N" n="81" break="no"/>us est. igitur ecclesia que iusta est non debet adminus pro ablatione temporal
+          <lb ed="#N" n="82"/>vt redditus vel consilis excommunicare non debet. Sic enim videretur punire
+          <lb ed="#N" n="83"/>supra condignum. et hoc est iniuria. Seneca. Summa iusticia id
+          estni<lb ed="#N" n="84" break="no"/>mius rigor iusticie iniuria est.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e177">
+          ⁋ Item cum deus quantum in se est. semper
+          <lb ed="#N" n="85"/>paratus est cuilibet dare gratiam. videtur quod ecclesia cum excommunicat
+          ali<lb ed="#N" n="86" break="no"/>quem contraria est deo. sicut enim dicitur in sententiis. excommunicare
+          ali<lb ed="#N" n="87" break="no"/>quem est ei subtrahere gratiam: contraria autem sunt datio gratie et ipsius
+          <lb ed="#N" n="88"/>subtractio.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e188">
+          ⁋ Item cum ecclesia excommunicat delinquentem. facit
+          con<lb ed="#N" n="89" break="no"/>tra suas leges iustissimas vt videtur scilicet contra legem scripture.
+          <lb ed="#N" n="90"/>reddit enim malum pro malo. hoc autem prohibet. xii. Ro. Nlli
+          ma<lb ed="#N" n="91" break="no"/>lum pro malo reddentes. Et in eodem. benedicite persequentibua
+          <lb ed="#N" n="92"/>vos. benedicite et nolite maledicere. Math. v. orate pro
+          persequen<lb ed="#N" n="93" break="no"/>tibus et calumniantibus vos. cuius contrarium facit cum excommunicat.
+          sub<lb ed="#N" n="94" break="no"/>trahit enim orationes ecclesie.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e204">
+          ⁋ Item ecclesia militans et eius
+          mi<lb ed="#N" n="95" break="no"/>nistri: imitari debent ecclesiam triumphantem et eius ministros.
+          <lb ed="#N" n="96"/>Exo. xxv. Inspice et fac secundum exemplar quod tibi in monte mon
+          <lb ed="#N" n="97"/>stratum est. Sed in canonica iude legitur. quod cum archangelus cum
+          <lb ed="#N" n="98"/>dyabolo disputans altricaretur de moysi corpore: non
+          excommunica<lb ed="#N" n="99" break="no"/>uit eum. sed dixit. imperet tibi dominus id est reprimat maliciam tuam. igitur
+          <lb ed="#N" n="100"/>neque debet ecclesia militans altricantem cum ipsa ipsum excommunicare.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e220">
+          <lb ed="#N" n="101"/>Responsio. quod ecclesia iuste excommunicat et debet excommunicare. sed
+          intelligen<lb ed="#N" n="102" break="no"/>dum. quod de iusta et recta intentione excommunicantis est. quod non
+          fi<lb ed="#N" n="103" break="no"/>at excommunicatio pro ablato aliquo temporali: sed pro peccato. et sic licet ecclesie
+          <lb ed="#N" n="104"/>quandoque excommunicare.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e232">
+          ⁋ Ad illud quod primo obicitur contra. dicendum quod cum
+          <lb ed="#N" n="105"/>aliquis peccat mortaliter. aufert ecclesie vnum de membris suis et
+          il<lb ed="#N" n="106" break="no"/>li subtrahit seipsum et omnia bona spiritualia. vtpote virtutes et
+          do<lb ed="#N" n="107" break="no"/>na et bona etc. ecclesia autem excommunicando illum multo minora an
+          <lb ed="#N" n="108"/>fert illi. omnes enim orationes et suffragia ecclesie non equalent
+          <lb ed="#N" n="109"/>vni virtuti scilicet caritati. et ita patet quod non iniuste agit ecclesia excommunicas
+          <lb ed="#N" n="110"/>do aliquem pro peccato suo.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e248">
+          ⁋ Ad aliud dicendum. quod ecclesia non est
+          con<lb ed="#N" n="111" break="no"/>traria deo in hoc quod excommunicat. immo ipsum imitatur. deus enim dat
+          <lb ed="#N" n="112"/>gratiam his qui apti sunt et habilitati ad gratiam suscipiendam:
+          <lb ed="#N" n="113"/>aliis non. sic facit ecclesia. illis enim per excommunicationem subtrahit ergo
+          <lb ed="#N" n="114"/>tiam. qui se per peccatum ineptos gratie fecerunt non tamen vt gratia careant
+          <lb ed="#N" n="115"/>sed hoc fine vt ipsi erubescant inde et peniteant. et sic gratiam
+          ha<lb ed="#N" n="116" break="no"/>beant.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e264">
+          ⁋ Ad tercium dicendum. quod medicus volens curare aliquem
+          <lb ed="#N" n="117"/>egrotum subtrahit ei multa bona: vt cibaria delicata. non ide
+          <lb ed="#N" n="118"/>crudeliter agit cum eo nec facit ei malum: sed prodest ei. illa enim
+          <lb ed="#N" n="119"/>subtractio ciborum prodest ei. Similiter alicui peccatori expedit aliquando
+          <lb ed="#N" n="120"/>subtractio bonorum ecclesie et separari a consortio fidelium: vt
+          erube<lb ed="#N" n="121" break="no"/>scendo peniteat et ad habendum gratiam habilitetur
+          habundan<lb ed="#N" n="122" break="no"/>tius ad talia. ideo ecclesia per excommunicationem tali intentioni
+          sbtra<lb ed="#N" n="123" break="no"/>hedo peccatori predicta: non reddit ei malum pro malo sed bonum pro
+          <lb ed="#N" n="124"/>malo.
+        </p>
+        <p xml:id="v78d89-aeyz61-d1e284">
+          ⁋ Ad illud quod obiicitur michael nolebat excomunicare
+          fa<lb ed="#N" n="125" break="no"/>thanam etc. dicendum quod secus est de inflexibili a malicia et de
+          fle<lb ed="#N" n="126" break="no"/>xibili. Inflexibilis enim a malicia vt dyabolus. ad quid
+          excomuni<lb ed="#N" n="127" break="no"/>caretur: cum excommunicatio non detur nisi vt medicina spiritus sancti vt
+          spi<lb ed="#N" n="128" break="no"/>ritus saluus fiat: cum sathan sanari non possit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

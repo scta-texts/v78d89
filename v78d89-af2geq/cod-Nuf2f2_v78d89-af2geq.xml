@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 81, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 81, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="527"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-af2geq"><!-- q81m5 -->
+        <head xml:id="v78d89-af2geq-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-af2geq-Hd1e103" type="question-title">Utrum excommunicatio debeat iterari</head>
+        <p xml:id="v78d89-af2geq-d1e106">
+          <lb ed="#N" n="50"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-af2geq-d1e111">
+          <lb ed="#N" n="51"/>COnsequenter queritur de excommunicationis iteratione
+          <lb ed="#N" n="52"/>Et queritur vtrum aliquis posset pluries
+          excommuni<lb ed="#N" n="53" break="no"/>cari: ita quod maneret in plolibus excommunicationibus simil.
+          <lb ed="#N" n="54"/>Quod sic: videtur per simile. in aliis penis simils et seli
+          <lb ed="#N" n="55"/>contmgit aliquem ligare plolibus ieiuniis et plolibus orationibus et
+          simi<lb ed="#N" n="56" break="no"/>liter de aliis penis: pari ratione potest quis ligari plolibus excommunicatio
+          <lb ed="#N" n="57"/>nibus.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e129">
+          ⁋ Item in remediis morborum ita est. quod morbo iterato ite
+          <lb ed="#N" n="58"/>ratur et remedium. similiter est in penis. quod multiplicatis meritis
+          <lb ed="#N" n="59"/>multiplicantur et pene. similiter videtur quod fieri possit de
+          excomuni<lb ed="#N" n="60" break="no"/>catione que est remedium et pena. quia si causa iteretur: videtur quod et ipsa ex
+          <lb ed="#N" n="61"/>communicatio possit et debet iterari.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e141">
+          ⁋ Item si excommunicatus excommunicari non
+          <lb ed="#N" n="62"/>posset et non excommunicatus posset et etiam grauiore excommunicatione: ergo
+          ex<lb ed="#N" n="63" break="no"/>communicatus esset melioris conditionis quam non excoicatus.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e148">
+          ⁋ Contra.
+          ex<lb ed="#N" n="64" break="no"/>communicatus interfectus est gladio spirituali. sed interfectus non potest magis
+          <lb ed="#N" n="65"/>nec minus interfici: ergo nec excommunicatus iterum excommunicari.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e155">
+          ⁋ Item
+          ex<lb ed="#N" n="66" break="no"/>communicatus exta communionem ecclesie est eiectus. sedvt dicit apostolus. i. Corm. v.
+          <lb ed="#N" n="67"/>Quid mihi de his qui foris sunt iudicare. sed posse excommunicare
+          <lb ed="#N" n="68"/>est posse iudicare. ergo si non om de talibus iudicare: videtur
+          simi<lb ed="#N" n="69" break="no"/>liter quod nec excommunicare.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e166">
+          ⁋ Item excommunicatus est ecclesiasticis
+          benefi<lb ed="#N" n="70" break="no"/>ciis priuatus. et excommunicatio est priuatio. sed priuationes non
+          reci<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>pit magis et minus. non enim dicitur vnus cecus magis cecus altero
+          <lb ed="#N" n="72"/>et minus: ergo etc.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e176">
+          ⁋ Item alter altero non est magis absolutus et
+          mi<lb ed="#N" n="73" break="no"/>nus: nec idem maius seipso. ergo pari ratione nec excommunicatus magis et
+          <lb ed="#N" n="74"/>minus excommunicatus potest esse. Item pena excommunicantionis nulla est maior in
+          <lb ed="#N" n="75"/>ecclesia. vt. xxiiii. q. iii. corripiantur. sed si nulla pena est maior
+          <lb ed="#N" n="76"/>ista: ergo est summa in ecclesia. ergo et si iteretur non propter hoc erit maior:
+          <lb ed="#N" n="77"/>cum sit pena danni.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e189">
+          ⁋ Responsio. quod excommunicatus potest iterum
+          excommunica<lb ed="#N" n="78" break="no"/>ri. et hoc patet ex vsu ecclesie que ingeminat excommunicationes et iuste. vl
+          <lb ed="#N" n="79"/>propter cause iterationem: vel noue culpe commissionem. Potest ergo
+          <lb ed="#N" n="80"/>dici quod tot posunt inferri excommunicationes: quot emergunt cause propter
+          <lb ed="#N" n="81"/>quas debet inferri excommunicatio.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e201">
+          ⁋ Ad illud quod primo obiicitur
+          <lb ed="#N" n="82"/>scilicet quod excommunicatus spiritualiter interficitur. dicendum. quod
+          quemadmo<lb ed="#N" n="83" break="no"/>dum qui peccat mortaliter mortuus est et interficit seipisum per
+          expul<lb ed="#N" n="84" break="no"/>sionem gratie: et adhuc potest magis peccare. quamuis non viuat ad
+          <lb ed="#N" n="85"/>bene agendum: adhuc tamen in eo viuit voluntas ad male
+          operan<lb ed="#N" n="86" break="no"/>dum. et quamuis gratia sit expulsa: potest tamen magis a gratia elongari.
+          <lb ed="#N" n="87"/>sic intelligendum est in proposito. quia quamuis secundum statum illum nihil
+          <lb ed="#N" n="88"/>prosint ecclesiastica sacramenta et suffragia: potest tamen adhuc
+          ma<lb ed="#N" n="89" break="no"/>gis et magis elongari a gratia et a deo qui est vita anime. Nec est simile
+          <lb ed="#N" n="90"/>de interfectione corporali in qua prima interfectio reddit
+          impos<lb ed="#N" n="91" break="no"/>sibilitatem ad vitam. non sic est in proposito. quia adhuc manet
+          apti<lb ed="#N" n="92" break="no"/>tudo ad redeundum.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e227">
+          ⁋ Ad illud quod obiicitur quod extra ecclesiam est.
+          di<lb ed="#N" n="93" break="no"/>cendum. quod et si extra sit quantum ad beneficiorum perticipationem: tamen
+          <lb ed="#N" n="94"/>quia caracterem baptismalem habet indelibilem quantumcumque sit
+          ma<lb ed="#N" n="95" break="no"/>lus. ideo non exigit omnino ecclese potestatem. et ideo ipsum punit et corrigit
+          <lb ed="#N" n="96"/>magis quam paganos et infideles qui numquam fuerunt de potstate
+          <lb ed="#N" n="97"/>ecclesie. et de talibus scilicet paganis loquitur apostolus. non de malis
+          <lb ed="#N" n="98"/>subditis excommunicatis. nam ipse de eis iudicabat.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e243">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="99"/>obiicitur. quod absolutio non recipit iterationem nec remissionem
+          <lb ed="#N" n="100"/>Dicendum quod hoc falsum est. et hoc patet in eo qui ploribus excommunicationibus
+          <lb ed="#N" n="101"/>diuersis de causis est excommunicatus ab eodem. vel qui est excommunicatus
+          <lb ed="#N" n="102"/>a diuersis episcopis: potest absolui ab vna excommunicatione ita quod non ab
+          <lb ed="#N" n="103"/>alia. quia non sic est connexio bonorum spiritualium in absolutione sicut
+          <lb ed="#N" n="104"/>in gratie infusione.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e259">
+          ⁋ Ad illud quod obiicitur quod priuationes non
+          reci<lb ed="#N" n="105" break="no"/>piunt magis et minus: potest responderi dupliciter. primo quod illud est
+          ve<lb ed="#N" n="106" break="no"/>rum in puris priuationibus non in aliis. nam claudus dicitur quis magis et
+          <lb ed="#N" n="107"/>minus: quia non totaliter priuat virtutem gradiendi: similiter et iniustus
+          <lb ed="#N" n="108"/>magis et minus. vel posset dici quod si non ratione actus vel habitus
+          <lb ed="#N" n="109"/>magis et minus recipiant: tamen ratione causarum. Unde magis est elon
+          <lb ed="#N" n="110"/>gatus a visu qui lesus est in neruo vel in pupilla et humore
+          cristalli<lb ed="#N" n="111" break="no"/>no: quam qui altero horum tantum. Similiter intellige in proposito.
+        </p>
+        <p xml:id="v78d89-af2geq-d1e277">
+          ⁋ Ad
+          <lb ed="#N" n="112"/>illud quod vltimo obiicitur. Dicendum quod et si
+          excommuni<lb ed="#N" n="113" break="no"/>catio sit pena damni et damnificans excommunicatum in
+          om<lb ed="#N" n="114" break="no"/>nibus beneficiis ecclesie: tamen multiplicatio excommunicatio
+          <lb ed="#N" n="115"/>nis magis damnificat quam vnica. quia plus elongat eum
+          <lb ed="#N" n="116"/>a beneficiis ecclesiasticis: et magis reddit illum ineptum ad
+          <lb ed="#N" n="117"/>reconciliationem ecclesie et susceptionem gratie. Aliter respondent
+          qui<lb ed="#N" n="118" break="no"/>dam ad hanc questionem. dicentes quod duplex est effectus
+          excommunica<lb ed="#N" n="119" break="no"/>tionis scilicet eiectio et ligatio. Quantum ad primum effectum
+          excommuni<lb ed="#N" n="120" break="no"/>catus amplius excommunicari non potestu. quia qui foris est: expelli non
+          <lb ed="#N" n="121"/>potestu. Quantum ad alium effectum potest excommunicatus iterato
+          excommuni<lb ed="#N" n="122" break="no"/>cari. Ut. iii. q. iiii. Engeltrudam. Ligatus enim amplius potest
+          <lb ed="#N" n="123"/>ligari. quod patet de eo qui pluribus ligatur funibus vel
+          ca<lb ed="#N" n="124" break="no"/>thenis. Ex his etiam posset haberi responsio ad
+          preob<lb ed="#N" n="125" break="no"/>iecta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

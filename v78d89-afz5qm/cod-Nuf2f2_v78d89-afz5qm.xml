@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 88, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 88, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="559"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afz5qm"><!-- q88m1 -->
+        <head xml:id="v78d89-afz5qm-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-afz5qm-Hd1e103" type="question-title">Quid sit oratio secundum definitionem</head>
+        <p xml:id="v78d89-afz5qm-d1e106">
+          <lb ed="#N" n="116"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-afz5qm-d1e111">
+          <lb ed="#N" n="117"/>CIrca primam partem quid sit oratio secundum diffinitionem
+          <lb ed="#N" n="118"/>queritur generaliter de numero diffinitionum et
+          de<lb ed="#N" n="119" break="no"/>inceps spirtialius de ipsis diffinitionibus in
+          arti<lb ed="#N" n="120" break="no"/>culis sequentibus.
+        </p>
+        <div xml:id="v78d89-afz5qm-Dd1e122">
+          <head xml:id="v78d89-afz5qm-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-afz5qm-d1e126">
+            <lb ed="#N" n="121"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e131">
+            <lb ed="#N" n="122"/>Q primum progreditur sic. plores inueniuntur diffinitiones
+            <lb ed="#N" n="123"/>oratiois scilicet tales. Dam. lib. iii. ci. xxiiii. Oratio est ascensus
+            <lb ed="#N" n="124"/>intellectus ad deum. Item ibidem. Oratio est petitio decentium a deo. augustinus in
+            <lb ed="#N" n="125"/>seruiusmode de oratioe et ieiunio. Oratio est rerum inuisibilium inquisitio. Item
+            <lb ed="#N" n="126"/>oratio est pius affectus mentis in deum directus. Amb. oratio est cibi mentis
+            <lb ed="#N" n="127"/>preclaraque alimona suauitatis que membra non onerat: sed in ornam
+            <lb ed="#N" n="128"/>ta conuertit. Gre. super illud iob. xii. Non parca ei potentibus et
+            vir<lb ed="#N" n="129" break="no"/>bis ad deprecandum compositis. veraciter orare est amaros in compunctione
+            <lb ed="#N" n="130"/>gemitus et non composita verba resonare. Iuxta hoc docemur foratiare
+            dif<lb ed="#N" n="131" break="no"/>finitionem sic. Oratio est amarorum gemituum in compunctione resonantia.
+            <lb ed="#N" n="132"/>Bern. in quadam epostola. Oratio est hominis deo adherentis affectio. et
+            fai<lb ed="#N" n="133" break="no"/>liaris quedam et pia allocutio et statio illuinate mentis ad fruendum
+            <lb ed="#N" n="134"/>deo quamdiu licet. Hug. de virtute orandi. Oratio est deuotio ex compunctione
+            <lb ed="#N" n="135"/>procedens. Item in eodem. Oratio est conuersio in deum per pium et humilem
+            <lb ed="#N" n="136"/>affectum fide et spe et caritate subnixa. Item Paulus. i. Thes.
+            <lb ed="#N" n="137"/>vltimo. sine intermissione orate etc. Glo. ibi. Oratio est
+            bo<pb ed="#N" n="560"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>num desiderium. Item sic. oratio est expressio desiderii propter bonum
+            <lb ed="#N" n="2"/>adipiscendum vel malum remouendum informata per verbum
+            inte<lb ed="#N" n="3" break="no"/>rius vel exterius. hec est magistralis.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e177">
+            ⁋ Queritur ergo cum diffinito
+            in<lb ed="#N" n="4" break="no"/>dicat esse. vnius autem non est nisi vnum esse: ergo nisi vna diffinitio.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e182">
+            <lb ed="#N" n="5"/>⁋ Pre. cum idem secundum quod idem est. non possit habere diffinitiones
+            di<lb ed="#N" n="6" break="no"/>uersas: queritur quomodo differunt diffinitiones iste: et secundum quam
+            di<lb ed="#N" n="7" break="no"/>stinctionem in re date sunt.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e192">
+            ⁋ Ad hoc dicendum est quod secundum Boecium esse
+            <lb ed="#N" n="8"/>est quod secundum ordinem retinet seruatque naturam. secundum ergo distinctionem
+            <lb ed="#N" n="9"/>ordinis distinguitur esse: et per consequns diffinitio indicans esse rei.
+            <lb ed="#N" n="10"/>Oratio ergo secundum diuersas operationes sortitur diuersa esse et
+            diffinitio<lb ed="#N" n="11" break="no"/>nes diuersas. Potest ergo oratio considerari in relatione ad potentias
+            <lb ed="#N" n="12"/>anime. que per illam dirigantur ad deum. et secundum hanc considerationem sumuntur
+            <lb ed="#N" n="13"/>tres scilicet Oratio est ascensus intellectus ad deum. et oratio est prius affectus
+            <lb ed="#N" n="14"/>etc. Et illa oratio est cibus mentis etc. Et hoc patet per verba posita in
+            <lb ed="#N" n="15"/>ipsis rationibus. Pre. oratio consideratur in relatione ad statu orantis.
+            <lb ed="#N" n="16"/>et hoc vel prout siatus eius est penitenttie: vel iusticie: vel perfectionis: siue
+            <lb ed="#N" n="17"/>iusticie consumate. secundum hanc considerationem distingui possunt quatuor
+            <lb ed="#N" n="18"/>diffinitiones: secundum primam considerationem sumantur due scilicet illa
+            Hu<lb ed="#N" n="19" break="no"/>go. Oratio est deuotio ex compunctione procedens: et illa oratio est
+            ama<lb ed="#N" n="20" break="no"/>rorum gemituum etc. sed prima vt est ex consideratione diuine misericordie.
+            <lb ed="#N" n="21"/>Unde Hug. deuotio est prius et humilis affectus in deum. qui ex
+            compun<lb ed="#N" n="22" break="no"/>ctionem generatur. territus enim in agnitione malorum suorum animus: et
+            <lb ed="#N" n="23"/>diffidens de propriis viribus: ad deum se conuertit, et tanto
+            arden<lb ed="#N" n="24" break="no"/>tius patrocinium illius expectat: quanto sibi nihil extra deum
+            re<lb ed="#N" n="25" break="no"/>lictum esse vident in quo possit confidere etc. Unde patet quod deuotio ex
+            <lb ed="#N" n="26"/>diuina confidentia surgit. Secunda sumitur vt est ex consideratione
+            ma<lb ed="#N" n="27" break="no"/>lorum comissorum. vnde Hug. Compunctio est quando ex consideratione
+            ma<lb ed="#N" n="28" break="no"/>lorum suorum cor interiori dolorem tangitur. Illa vero oratio
+            conuer<lb ed="#N" n="29" break="no"/>sio est in deum etc. respicit statum iusticie. Illa vero Bernesis.
+            Ora<lb ed="#N" n="30" break="no"/>tio est hominis deo inherentis etc. refertur ad statum perfectionis siue
+            <lb ed="#N" n="31"/>iusticie consumate. Pre. quedam oratio consideratur in relatione ad
+            <lb ed="#N" n="32"/>petendum. et secundum hanc considerationem tanguntur due scilicet illa Augustinus.
+            <lb ed="#N" n="33"/>Oratio est inuisibilium etc. Et illa Dam. Oratio est petitio
+            decen<lb ed="#N" n="34" break="no"/>tium a deo scilicet petendo quedam que feruntur ad veritatem. secundo quedam
+            <lb ed="#N" n="35"/>que feruntur ad bonitate. Illud ei solum decet quod delectat, nihil
+            <lb ed="#N" n="36"/>autem delectat nisi bonum. sic igitur cum in oratione est conuersio ad
+            de<lb ed="#N" n="37" break="no"/>um propter aliquod obtinendum. conuersio vero aut respicit illud quo
+            <lb ed="#N" n="38"/>est conuersio: et secundum hoc assignantur tres prime que distiguuntur per
+            in<lb ed="#N" n="39" break="no"/>tellectum. affectum et mentem. aut respicit statu reuertentis vt est
+            <lb ed="#N" n="40"/>penitentie. iusticie. et perfectionis. et sic distinguuntur quatuor que secuntur
+            <lb ed="#N" n="41"/>quia due respiciunt statum penitentie prout penitentia est ex consideratione
+            proprio<lb ed="#N" n="42" break="no"/>rum malorum. aut ex considerationem diuine clementie. vnde est pecctori
+            co<lb ed="#N" n="43" break="no"/>fidentia petendi. due vltime respiciunt ipsum petendum quod dupliciter
+            <lb ed="#N" n="44"/>considerat. secundum scilicet conditionem veritatis vel bonitatis. Et posset
+            <lb ed="#N" n="45"/>dici quod illa Augustinus. Oratio est rerum inuisibilium inquisitio. refertur
+            <lb ed="#N" n="46"/>ad intellectum speculatiuum. Illa que est Dam. Oratio est ascensus
+            <lb ed="#N" n="47"/>intellectus ad deum: ad practicum. et hoc sonant verba ibi posita scilicet
+            in<lb ed="#N" n="48" break="no"/>quisitio et ascensus. Alia autem diffinito que habereter in glosa super
+            il<lb ed="#N" n="49" break="no"/>lud. i. Thess. vlt. cum intermissione orate. oratio est bonum
+            desideri<lb ed="#N" n="50" break="no"/>um. est orationis improprie sumpte: secundum quod ibidem dicitur. quod non desinit
+            <lb ed="#N" n="51"/>orare qui non desinit esse iustus, sic enim dicitur oratio vita iusticie. Alia
+            <lb ed="#N" n="52"/>que est magistralis hec scilicet Oratio est expressio etc. respicit ipsam
+            prolati<lb ed="#N" n="53" break="no"/>onem que declaratur affectus oratis, et intentio respectu petendi vel
+            <lb ed="#N" n="54"/>obtinendi. Ex dictis patet qualiter respondendum est ad ea que obiecta
+            <lb ed="#N" n="55"/>sunt.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e299">
+            ⁋ Ad primum patet responsio. quod oratio secundum diuersans cooperationes
+            <lb ed="#N" n="56"/>diuersum sortitur esse. et diuerse assignantur diffinitiones. Similiter patet ad
+            <lb ed="#N" n="57"/>secundum. quia patet quod penes aliquam diuersitatem sumuntur diuerse
+            <lb ed="#N" n="58"/>diffinitiones iste.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e310">
+          <head xml:id="v78d89-afz5qm-Hd1e312">Articulus 2</head>
+          <p xml:id="v78d89-afz5qm-d1e314">
+            <lb ed="#N" n="59"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e319">
+            <lb ed="#N" n="60"/>Icto in generali de numero diffinitionum orationis
+            <lb ed="#N" n="61"/>dicendum est spiritualius de ipsis diffinitionibus sigillatim.
+            <lb ed="#N" n="62"/>Et primo de illa Dam. Oratio est ascensus intellectus ad deum. quia cum
+            <lb ed="#N" n="63"/>intellectus et affectus habent oppositionem inuicem. et dispositio et
+            intel<lb ed="#N" n="64" break="no"/>lectus et affectus habent oppositionem. ergo cum oratio sit dispositio
+            af<lb ed="#N" n="65" break="no"/>fectus. vt patet per Augustini diffinitionem non videtur quod sit dispositio
+            intelle<lb ed="#N" n="66" break="no"/>ctus. non ergo videtur conuenire orationi quod sit ascensus intellectus.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e337">
+            ⁋ Item
+            <lb ed="#N" n="67"/>ascensus intellectus ad deum non conuenit omni orationi. cum enim in christo
+            <lb ed="#N" n="68"/>intellectus eius esset vnitus summe veritati non qualibet vnionem sed vnione
+            <lb ed="#N" n="69"/>summa secundum quod possibile est in ipsa creatura. sed ascensus est in
+            distan<lb ed="#N" n="70" break="no"/>tia: ergo in ipso non erat ascensus ad deum intellectus. orasse tamen
+            legi<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>tur Math. xxvi. luce. vi.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e351">
+            ⁋ Pre. non conuenit soli oroni: quia
+            fi<lb ed="#N" n="72" break="no"/>dei bene conuenit ascensus ad deum. et tamen oratio non est fides.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e357">
+            ⁋ Pret. si
+            <lb ed="#N" n="73"/>oratio est ad aliquid impetrandum. exprimi debet in diffinitione ipsius
+            <lb ed="#N" n="74"/>aliquid habens motiui rationem. nihil aut tale tangitur in diffinitione
+            <lb ed="#N" n="75"/>supradicta: ergo male est assignata.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e366">
+            ⁋ Item oratio respicit a deo aliquod
+            <lb ed="#N" n="76"/>ad obtinendum vt obiectum est et non deum proprie: quamuis ipsum respiciat
+            <lb ed="#N" n="77"/>tanquam finem. ergo oratio non est ascensus in deum conferentum: sed potius
+            ali<lb ed="#N" n="78" break="no"/>quod a deo obtinendum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e375">
+            ⁋ Item cum oratio proprie consistat in petendo sine
+            <lb ed="#N" n="79"/>autem illa petitione potest esse ascensus intellectus ad deum. male igitur
+            <lb ed="#N" n="80"/>assignatur orationi ascensus ad deum conuenire. minor patet: quia plerumque
+            <lb ed="#N" n="81"/>ascendit intellectus ad deum intelligendo memorando.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e384">
+            ⁋ Item
+            bono<lb ed="#N" n="82" break="no"/>rum intellectus est in summo. ergo amplius non ascendit. et tamen orant sancti.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e389">
+            <lb ed="#N" n="83"/>⁋ Item cum ascensus intellectus fit per inquisitionem siue per
+            inuestigati<lb ed="#N" n="84" break="no"/>onem: non videtur hec diffinitio differre ab illa. Oratio est inuisibilium
+            <lb ed="#N" n="85"/>rerum inquisitio.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e398">
+            ⁋ Respondeo quod duo sunt necessaria oranti. consideratio
+            pro<lb ed="#N" n="86" break="no"/>prie miserie: et diuine misercordie. Propria miseria consideranda est
+            <lb ed="#N" n="87"/>ne pigriter implorare defectuum suorum supplementum. Diuina
+            <lb ed="#N" n="88"/>misericordia consideranda est: ne de obtinendo quod sibi necessarium est
+            dif<lb ed="#N" n="89" break="no"/>fidat Dan. ix. Non enim in iustificationibus nostris prosternimus preces
+            <lb ed="#N" n="90"/>ante faciem tuam: sed in miserationibus tuis multis. Necesse est igitur
+            <lb ed="#N" n="91"/>oranti vt per intellectu ascendat ad considerationem diuine bonitatis
+            <lb ed="#N" n="92"/>vnde ante inclinationem affectus ad obtinendum: necessarius est ascensus
+            in<lb ed="#N" n="93" break="no"/>tellectus ad considerandum. vnde Hugo. quod efficacius hominem ad
+            oran<lb ed="#N" n="94" break="no"/>di studium excitaret: quod miseria et calamitas tantorum malorum
+            <lb ed="#N" n="95"/>quibus addictus primitur. et quid iocundius ad affectum orandi traheret
+            <lb ed="#N" n="96"/>quam misericordia creatoris sui quam inter mala sua totiens experitur.
+            <lb ed="#N" n="97"/>Ne ergo ad orandum piger sit: hinc sua necessitate compellitur. ne
+            <lb ed="#N" n="98"/>autem tepida et diffidens oret: illum pietate di prouocatus. sic igitur
+            <lb ed="#N" n="99"/>orationi sancta meditatio necessaria est: vt oratio nequat esse perfecta si eam
+            <lb ed="#N" n="100"/>meditatio non committetur. hec Hug. Ex quibus patet. quod ad hoc quod
+            ora<lb ed="#N" n="101" break="no"/>tio sit perfecta. necesse est subleuare intellectum ad diuinorum
+            bene<lb ed="#N" n="102" break="no"/>ficiorum meditationem: que in humanis miseriis releuandis
+            exper<lb ed="#N" n="103" break="no"/>ta sunt orationi necessarius est.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e441">
+            ⁋ Ad illud ergo quod primo obiicitur
+            <lb ed="#N" n="104"/>quod intellectus et affectus per oppositionem se habent etc. Potest dici licet
+            ha<lb ed="#N" n="105" break="no"/>beant oppositionem siue potius disparationem ratione qua ordinata
+            <lb ed="#N" n="106"/>sunt. dispositiones eorum non se excludunt abinuicem. immo
+            mu<lb ed="#N" n="107" break="no"/>tuo se expediunt, vt patet de cognitione et amore, et de ascensu
+            <lb ed="#N" n="108"/>cognitionis et amoris. siue cognitiue et desideratiue. Pre.
+            <lb ed="#N" n="109"/>neque hec diffinitio est ascensus intellectus etc. nec illa oratio est
+            <lb ed="#N" n="110"/>ascensus affectus etc. dicit complete esse oronis: sed potius esse
+            rela<lb ed="#N" n="111" break="no"/>tum huiusmodi diuersimode secundum modos assignatos.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e461">
+            ⁋ Ad illud
+            <lb ed="#N" n="112"/>quod obitur de Christo etc. dicendum est quod in Christo inquantum orauit pre aliis
+            <lb ed="#N" n="113"/>fuit ascensio quantum ad modum predictum. inquantum pro se ascensus
+            hu<lb ed="#N" n="114" break="no"/>manus qui erat quasi in imo ad intellectu diuinum qui fuit in
+            supre<lb ed="#N" n="115" break="no"/>mo. vnde pars. Oratio mea in sinu meo conuertetur. Glo. quia ipsum qui
+            <lb ed="#N" n="116"/>personaliter mihi vnitus est orabam. vnde ascensio in christo huiusmodi
+            <lb ed="#N" n="117"/>fuit de natura ad naturam in christo igitur fuit ascensus intellectus
+            <lb ed="#N" n="118"/>ab imo in altum: quia de indigentia humana ad diuinam
+            munificien<lb ed="#N" n="119" break="no"/>tiam. Pre. de natura humana intellectus sue nature humane ad
+            <lb ed="#N" n="120"/>diuinam.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e483">
+            ⁋ Ad hoc quod dicitur. quod in christo non est distantia intellectus a
+            <lb ed="#N" n="121"/>deitate. dicendum quod licet non sit ibi distantia separationis: est tamen
+            distan<lb ed="#N" n="122" break="no"/>tia diuersitatis scilicet naturarum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e490">
+            ⁋ Ad hoc quod obicitur. quod conuenit fidei
+            <lb ed="#N" n="123"/>etc. dicendum quod ille ascensus est alius ab illo qui est fidei. qui est cum sui
+            <lb ed="#N" n="124"/>captiuationem vltra possibilitatem nature proprie per gratie
+            sublimatio<lb ed="#N" n="125" break="no"/>nem. Bern.. Quid non inueniat fides. attingit inaccessa.
+            de<lb ed="#N" n="126" break="no"/>rehendit ignota. comprehendit immensa. apprehendit nouissima.
+            <lb ed="#N" n="127"/>ipsam denique eternitatem sub illo vastissimo sinu quodammodo
+            cir<lb ed="#N" n="128" break="no"/>cumcludit. et sic patet quomodo respondendum est ad illud quod de ascensu
+            fi<lb ed="#N" n="129" break="no"/>dei proponebatur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e508">
+            ⁋ Ad illud quod obicitur. quod ibi nihil ponitur quod
+            ha<lb ed="#N" n="130" break="no"/>beat rationem motiui: et ita nec rationem impetrandi. dicendum quod licet non
+            <lb ed="#N" n="131"/>ponatur aliquod quod sit motiuum diuine misericordie formaliter dico
+            <lb ed="#N" n="132"/>nihilominus consideratio siue meditatio diuine bonitatis
+            mo<lb ed="#N" n="133" break="no"/>uet ipsum hominem indigentem ad orandum. Unde bene concedendum
+            <lb ed="#N" n="134"/>quod hec ratio non completum dicit esse orationis sed secundum quod et
+            quo<lb ed="#N" n="135" break="no"/>dammodod materialiter. vnde bene verum. quod si esset complete
+            in<lb ed="#N" n="136" break="no"/>dicans esse orationis: exprimeretur in ea aliquod quod haberet rationem
+            <lb ed="#N" n="137"/>motiui.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e528">
+            ⁋ Ad illud quod obicitur. quod oratio respicit proprie vt finem
+            <lb ed="#N" n="138"/>obtinendum non deum conferentem. potest dici. quod oratio diffinitur vt est
+            <lb ed="#N" n="139"/>actus. et inquantum talis habet diffiniri per non per finem obtinendum
+            <lb ed="#N" n="140"/>et est terminus per accidens: quia quandoque sic quandque alio modo
+            effun<lb ed="#N" n="141" break="no"/>ditur oratio solumodo ad placandum deum. Pre. cum sit
+            tri<pb ed="#N" n="561"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>plex oratio. supplicatio: postulatio: et insinuatio. In sola
+            po<lb ed="#N" n="2" break="no"/>stulatione est postulandum terminus: non in supplicatione neque
+            <lb ed="#N" n="3"/>in insinuatione.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e549">
+            ⁋ Ad aliud quod obiicitur. quod sine petitione aliqua
+            <lb ed="#N" n="4"/>potest esse ascensus intellectus ad deum etc. potest dici. quod cum dicitur. Oratio
+            <lb ed="#N" n="5"/>est ascensus etc. sumitur ascensus non quocumque modo: sed ascensus ad
+            a<lb ed="#N" n="6" break="no"/>liquod impetrandum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e558">
+            ⁋ Ad illud quod obicitur. quod intellectus non ascendit
+            <lb ed="#N" n="7"/>etc. potest dici quod vt tactum est. in oratioe sunt duo consideranda.
+            mise<lb ed="#N" n="8" break="no"/>ria humane conditionis reparanda: et diuina misericordia reparans. hec
+            di<lb ed="#N" n="9" break="no"/>stant abinuicem. vnde vnum est in imo: aliud est in summo. quando igitur
+            <lb ed="#N" n="10"/>sancti orant. est ascensus intellectus in illis in hac duplici considera
+            <lb ed="#N" n="11"/>tione. Unde fit ascensus in consideratione humane miserie que est in
+            <lb ed="#N" n="12"/>imo: ad diuinam misericordiam que est in summo.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e574">
+            ⁋ Ad illud quod obicitur
+            <lb ed="#N" n="13"/>quod hec non differt ab illa. Oratio est inuisibilium rerum etc. potest
+            di<lb ed="#N" n="14" break="no"/>ci quod immo. Inquisitio enim secundum quod hoc sumitur dicit actum petendi. prout
+            <lb ed="#N" n="15"/>determinatur petendum secundum veritatis conditionem. vel potest dici vt
+            ta<lb ed="#N" n="16" break="no"/>ctum est. quod inquisitio etc. dicit actum intellectus speculatiui: quod dicitur
+            <lb ed="#N" n="17"/>ascensus intellectus etc. dicit actum practici. vel potest dici quod
+            ascen<lb ed="#N" n="18" break="no"/>sus intellectus secundum quod dicitur. quod oratio est ascensus talis. non dicit in
+            <lb ed="#N" n="19"/>quisitionem sed eleuationem eo modo quo tactum est: inquisitio dicit
+            inue<lb ed="#N" n="20" break="no"/>stigationem ad impetrandum. hec planius infra apparebunt et
+            pa<lb ed="#N" n="21" break="no"/>tebunt.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e597">
+          <head xml:id="v78d89-afz5qm-Hd1e599">Articulus 3</head>
+          <p xml:id="v78d89-afz5qm-d1e601">
+            <lb ed="#N" n="22"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e606">
+            <lb ed="#N" n="23"/>COnsequenter queritur de hac diffinitione augustinus Oratio est
+            <lb ed="#N" n="24"/>pius affectus mentis in deum directus sic. In omni
+            actu<lb ed="#N" n="25" break="no"/>spei est pius affectus in deum directus. Spes enim erigit sic dicit Augustinus
+            <lb ed="#N" n="26"/>ergo pius affectus etc. non conuenit orationi: ergo diffinitio male assignatur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e617">
+            <lb ed="#N" n="27"/>⁋ Pre. ex consideratione diuine bonitatis dirigitur affectus nostur in deum
+            <lb ed="#N" n="28"/>et pie si ex caritate procedat. nec tamen ista directio est oratio. quia tunc
+            <lb ed="#N" n="29"/>quelibet inclinatio affectus ad deum ex feruore caritatis oratio potest
+            <lb ed="#N" n="30"/>dici. quod non conuenit.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e628">
+            ⁋ Pre. omnis notificatio debet dari per propria
+            <lb ed="#N" n="31"/>sed pius affectus non est solum oratiois. immo omnis virtutis: ergo inconuenient
+            <lb ed="#N" n="32"/>oratio per illud diffinitur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e636">
+            ⁋ Pre. nullum accidentale poni debet in
+            diffi<lb ed="#N" n="33" break="no"/>tione alicius. sed pietas accidit orationi: quia est vna de quatuor additi
+            <lb ed="#N" n="34"/>onibus oratiois efficacis que sunt. pie: pro se: perseueranter: ad salutem
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e643">
+            <lb ed="#N" n="35"/>⁋ Pre. cum iste quatuor conditiones sunt oratiois: ergo equa debet per vnam sicut per
+            <lb ed="#N" n="36"/>alteram diffiniri. Cum igitur in ista sola diffinitione vna sola
+            po<lb ed="#N" n="37" break="no"/>natur scilicet pie: videtur diffinitio diminuta.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e652">
+            ⁋ Pre. sicut dicit Hug. de
+            vir<lb ed="#N" n="38" break="no"/>tute orandi. ex consideratione diuine inisericordie siue bonitatis dirigitur
+            <lb ed="#N" n="39"/>affectus in deum ad petendum. Unde non dirigitur in deum per orationem
+            <lb ed="#N" n="40"/>vel oratione affectus quia sapiens: quia misricors. siue bonus: igitur cum
+            <lb ed="#N" n="41"/>illa proprie conueniant aliquibus poni debeant et notificationibus
+            su<lb ed="#N" n="42" break="no"/>is. deberet dici. oratio est pius affectus directus in misericordiam dei.
+            <lb ed="#N" n="43"/>vel in dei bonitatem.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e668">
+            ⁋ Item pie petere est ex caritate petere que
+            in<lb ed="#N" n="44" break="no"/>format spem. vnde vbi est actus spei: est affectus met ex caritate
+            <lb ed="#N" n="45"/>in deum directus. cum spes sit ipsius affectus. Ex hoc sequitur hoc
+            in<lb ed="#N" n="46" break="no"/>conueniens. quod spare est orare. et quod non sit oratio: nisi ex vel in
+            cari<lb ed="#N" n="47" break="no"/>tate
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e679">
+            ⁋ Responsio. quod hec diffinitio datur ex relatione oratiois ad
+            poten<lb ed="#N" n="48" break="no"/>tias anime.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e684">
+            ⁋ Ad illud quo petitur qui est affectus in deum directus.
+            du<lb ed="#N" n="49" break="no"/>obus autem indiget affectus in oratione ad hoc quod complete dirigatur in
+            de<lb ed="#N" n="50" break="no"/>um scilicet ex consideratione proprie miserie et diuine clementie. vnde hug.
+            <lb ed="#N" n="51"/>mens humana ad orandum ne pigra sit hic sua necessitate
+            com<lb ed="#N" n="52" break="no"/>pellitur ne tepide oret: et diffidens illinc dei pietate prouocatur
+            <lb ed="#N" n="53"/>Ilis duabus alis oratio subleuatur. quia dum mens alterna horum
+            consi<lb ed="#N" n="54" break="no"/>deratione se ad deuotionem incessanter excitat: quodam desiderii
+            spiritu<lb ed="#N" n="55" break="no"/>alis impetu sursum leuata volat. et sequitur. necesse est ergo. vt si
+            pru<lb ed="#N" n="56" break="no"/>denter et vtiliter deum orare velimus: iugi meditatione anim nostrum
+            <lb ed="#N" n="57"/>exerceamus. et in consideratione miserie nostre discamus quod nobis
+            ne<lb ed="#N" n="58" break="no"/>cesse est petere: et in consideratione misericordie dei nostri quo desiderio de
+            <lb ed="#N" n="59"/>beamus postulare. Meditatio igitur parit sclestiam. scletia deuotionem
+            <lb ed="#N" n="60"/>deuotio orationem. Deuotio igitur est conuersio in deum pio et humili
+            af<lb ed="#N" n="61" break="no"/>fectu. humilis est enim ex consideratione infirmitatis sue: pius ex
+            consi<lb ed="#N" n="62" break="no"/>deratione diuine clementie. hec in se tres principales virtutes habet.
+            fi<lb ed="#N" n="63" break="no"/>dem specie et caritatem. neque enim homo per deuotionem se ad deum
+            con<lb ed="#N" n="64" break="no"/>uerteret: nisi et crederet se saluari posse: et speraret eum
+            mi<lb ed="#N" n="65" break="no"/>sereri velle. Postremo nisi eu plusquam mala sua diligeret ne
+            <lb ed="#N" n="66"/>quaquam illa mala fugiens refugium sibi in ipso eligeret. Credit
+            <lb ed="#N" n="67"/>ergo sperat. et diligit. Credit potentiam: sperat misericordiam:
+            <lb ed="#N" n="68"/>amat custodiam. Nihil ergo aliud est oratio quam mentis deuotio id est
+            con<lb ed="#N" n="69" break="no"/>uersio in deum per pium et humilem affectum. fide spe et caritate
+            <lb ed="#N" n="70"/>subnixa. hec Hug. Patet igitur ex dictis quod ex consideratione
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>proprie miserie et diuine clementie surgit in nobis pius et
+            humi<lb ed="#N" n="72" break="no"/>lis affectus. humilis per comparationem ad nosturam miseriam: pius ad
+            <lb ed="#N" n="73"/>dei clementiam. et hoc sicut ibi apparet fide spe et caritate
+            impe<lb ed="#N" n="74" break="no"/>rante. congrue ergo hec est oratio pius mentis affectus in deum dire
+            <lb ed="#N" n="75"/>ctus. et quare pius iam apparet: quia consurgit ex consideratione
+            di<lb ed="#N" n="76" break="no"/>uine clementie. credendo potentiam: sperando misericordiam. et
+            di<lb ed="#N" n="77" break="no"/>ligendo custodiam.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e753">
+            ⁋ Ad illud ergo quod primo queritur contra hanc
+            diffini<lb ed="#N" n="78" break="no"/>tionem potest dici. quod pietas vno modo dicitur cultus dei. alio modo virtus quo
+            <lb ed="#N" n="79"/>homo pie mouetur circa existentes in defectu. siue in miseria. aut
+            <lb ed="#N" n="80"/>dicitur ergo pius affectus et prout per hoc dicitur pius: notatur
+            disposi<lb ed="#N" n="81" break="no"/>tio affectus circa cultum diuinum. et prout dicit dispositionem
+            affe<lb ed="#N" n="82" break="no"/>ctus circa indigentiam alicuius. sumitur igitur pius in diffinitione
+            <lb ed="#N" n="83"/>iam dicta secundo modo: scilicet secundum quod dicit dispositionem affectus in
+            conuer<lb ed="#N" n="84" break="no"/>sione ad deum. pro miserie releuatione obtinenda.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e771">
+            ⁋ Pre. quod
+            di<lb ed="#N" n="85" break="no"/>co pius potest dicere dispositionem affectus formatam caritatem vel
+            <lb ed="#N" n="86"/>non formatam. vnde sumitur generaliter prout consideratur in
+            genera<lb ed="#N" n="87" break="no"/>litate quadam per abstractionem a tali modo et tali. et sic patet quod
+            <lb ed="#N" n="88"/>aliter est de actu spei et affectus existentis in caritate prout sunt
+            <lb ed="#N" n="89"/>in directione ad deum quam in oratione: quia directio affectus in
+            oratio<lb ed="#N" n="90" break="no"/>ne est ad aliquod obtinendum: directio affectus in spe est magis ad
+            <lb ed="#N" n="91"/>inherentia cum summa maiestate. directio caritatis cum summa
+            <lb ed="#N" n="92"/>bonitate. vnde differens est directio hinc et inde.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e791">
+            ⁋ Ex his patet
+            <lb ed="#N" n="93"/>responsio ad secundum quesitum. quia differens directio secundum quod est orationis.
+            <lb ed="#N" n="94"/>et secundum quod est affectus spei et caritatis. Preterea fortassis
+            su<lb ed="#N" n="95" break="no"/>mitur pius communiter prout dicit dispositionem affectus. et quantum ad ea
+            <lb ed="#N" n="96"/>que spectant ad cultum dei: eo modo quo psalmi et orationes ecclesie
+            <lb ed="#N" n="97"/>ad cultum dei spectant. et prout dicit dispositionem affectus ex
+            con<lb ed="#N" n="98" break="no"/>uersione ad defectum vel indigentiam releuandam ex
+            efficacia<lb ed="#N" n="99" break="no"/>orationis. et sic actus spei vel caritatis non sunt ipsius affectus sic
+            di<lb ed="#N" n="100" break="no"/>spositi. dico vt eliciti: licet forte vt imparati.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e811">
+            ⁋ Ad illud quod obicitur
+            <lb ed="#N" n="101"/>quod pius affectus est omnis virtutis etc. potest dici quod pius affectus
+            <lb ed="#N" n="102"/>in deum directus ad aliquid impetrandum. secundum quod affectus pius ad
+            <lb ed="#N" n="103"/>hoc dirigitur est oratiois proprius. Pre. pius secundum quod dicit vnam
+            con<lb ed="#N" n="104" break="no"/>ditionem qua facit orationem efficacem. dicit dispositionem formatam
+            <lb ed="#N" n="105"/>caritate. secundum quod ponitur in diffinitione orationis dicit dispositionem
+            <lb ed="#N" n="106"/>communiter sumptam. siue sit formata siue informis. Unde sub alia
+            <lb ed="#N" n="107"/>ratione considerata ponitur hic etc. Uel potest dici. prout dicitur. quod
+            qua<lb ed="#N" n="108" break="no"/>tuor attendi dominut in oratioe scilicet pie etc. hoc intelligitur de oratione
+            sa<lb ed="#N" n="109" break="no"/>tisfactoria: non de oratione communiter sumpta. Uel potest dici quod est
+            quod<lb ed="#N" n="110" break="no"/>dam genus orationis quod dirigitur in deum non causa impetrandi hoc
+            vl<lb ed="#N" n="111" break="no"/>illud: sed causa placendi deo. Est aliud quod est causa
+            impetran<lb ed="#N" n="112" break="no"/>di aliquod a deo. ad efficaciam ergo orationis secundo modo sumpta
+            requi<lb ed="#N" n="113" break="no"/>runtur quatuor conditiones scilicet pie: perseueranter etc. non autem ad
+            <lb ed="#N" n="114"/>primo modo sumpta. sed secundum quod dicitur oratio communiter ad oratioem sic
+            sum<lb ed="#N" n="115" break="no"/>ptam: et sic sumptum et sic.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e846">
+            ⁋ Ad illud quod obiicitur. quod
+            acciden<lb ed="#N" n="116" break="no"/>talem in diffinitione non debet poni etc. dicendum quod pius secundum quod dicit
+            <lb ed="#N" n="117"/>vnam de quatuor conditionibus que faciunt orationem efficacem. non
+            poni<lb ed="#N" n="118" break="no"/>tur in diffinitione orationis. vt ex dictis patet. Unde non ponitur vt est
+            <lb ed="#N" n="119"/>illi accidentale. et ex hoc patet responsio ad aliud quod sequitur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e857">
+            ⁋ Ad
+            il<lb ed="#N" n="120" break="no"/>lud quod obicitur. quod deberet dici quod est affectus directus in misericordiam et
+            <lb ed="#N" n="121"/>bonitatem dei etc. dicendum quod sicut vult Hug. quod ab orante non
+            so<lb ed="#N" n="122" break="no"/>lum petitur suppleri defectus: sed etiam a sapiente et potente. qui a
+            <lb ed="#N" n="123"/>vt dicit hug. homo ad deum se non conuerteret per orationem: nisi
+            se<lb ed="#N" n="124" break="no"/>crederet a deo saluari posse: et speraret eum misereri velle.
+            Po<lb ed="#N" n="125" break="no"/>stremo nisi eum plus quam sua mala diligeret: nequaquam illa fugiens
+            <lb ed="#N" n="126"/>refugium sibi in ipso eligeret. Credit ergo et sperat et diligit.
+            cre<lb ed="#N" n="127" break="no"/>dit potentiam: spearat misericordiam: diligit siue amat custodiam. cum
+            <lb ed="#N" n="128"/>igitur hoc nomine deus dentur intelligi tria predicta sufficienter. sicut
+            <lb ed="#N" n="129"/>dicit Dam. i. li. ci. xii. vbi ostendit. quod primum locum de deo tenet
+            <lb ed="#N" n="130"/>hoc nomen qui est secundum hoc nomen deus quod dicitur a theos quod
+            <lb ed="#N" n="131"/>est fouere diuersa. vel a thetim quod est ardens. deus enim ignis
+            <lb ed="#N" n="132"/>est consumens omnem maliciam. vel a theaste quod est videre omnia.
+            ecce<lb ed="#N" n="133" break="no"/>tria predicta. patet quod perfectius et proprius dicitur omnino dirigi in deum
+            <lb ed="#N" n="134"/>quam in summam bonitatem vel huiusmodi. quia ergo in oratione non petitur
+            solum<lb ed="#N" n="135" break="no"/>modo supplementum defectus boni sed veri et ardui: nec solum
+            consi<lb ed="#N" n="136" break="no"/>derat adorantem diuina bonitas qua vult subuenire. vel sapientia
+            <lb ed="#N" n="137"/>qua cognoscitur quid ab eo petitur. vel potstas qua potest supplere.
+            pro<lb ed="#N" n="138" break="no"/>prius et conuenientius exprimitur directio affectus in deum quam in
+            po<lb ed="#N" n="139" break="no"/>tentem vel sapientem vel bonum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e904">
+            ⁋ Ad illud quod obiicitur. quod pietas
+            <lb ed="#N" n="140"/>accidit orationi etc. dicendum quod hoc non est verum: sed vt ex dictis patet
+            <lb ed="#N" n="141"/>suam sortitur appropriationem secundum quod poniter in distinitione orationis
+            <pb ed="#N" n="562"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>licet enim communius ponatur secundum quod sumitur in diffinitione oratiois quam
+            <lb ed="#N" n="2"/>secundum quod est: vna conditionum orationis efficacis: quia illa communitas
+            sibi<lb ed="#N" n="3" break="no"/>appropriatur est appropriatio quedam ex dictis patet responsio.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e922">
+            ⁋ Ad
+            <lb ed="#N" n="4"/>illud quod sequitur. dicendum quia pie secundum quod est vna conditionum orationis
+            <lb ed="#N" n="5"/>efficacis non ponitur in diffinitione orationis. vel sicut dicunt quidam
+            <lb ed="#N" n="6"/>pium dicit difcftrniam formalem quod non alie. propter quod magis ponitur
+            <lb ed="#N" n="7"/>in diffinitione quam alie.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e933">
+            ⁋ Ad vltimum dicendum. quod pie petere ex
+            ca<lb ed="#N" n="8" break="no"/>ritate secundum quod ex dictis patet. vnde ex ratione proposita non sequitur. quod
+            <lb ed="#N" n="9"/>sperare sit orare neque quod oratio non fiat nisi in vel ex caritate.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e941">
+          <head xml:id="v78d89-afz5qm-Hd1e943">Articulus 4</head>
+          <p xml:id="v78d89-afz5qm-d1e945">
+            <lb ed="#N" n="10"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e950">
+            <lb ed="#N" n="11"/>COnsequenter queritur de illa diffinitione Damasc.
+            <lb ed="#N" n="12"/>Oratio est petitio decentium a deo. sicut habetur ab ans.
+            <lb ed="#N" n="13"/>li. Cur deus homo: christus pro reparatione generis huma
+            <lb ed="#N" n="14"/>ni calicem decentissime bibit passionis. ergo indecentissimum esset
+            <lb ed="#N" n="15"/>vt videtur christum illum non bibisse. sed Math. xxvi. verissime hic
+            <lb ed="#N" n="16"/>orauit: ergo oratio non semper est decentium petitio.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e966">
+            ⁋ Item apostoli oratio
+            <lb ed="#N" n="17"/>indecentium fuit. ii. Corin. xi. quod videtur per hoc. quod dominus simpliciter
+            <lb ed="#N" n="18"/>denegauit quod petebat licet dicatur ter rogasse: ergo plerumque oratio
+            <lb ed="#N" n="19"/>est indecentium.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e975">
+            ⁋ Item glo. illud ibidem dicit. non quod exauditur
+            <lb ed="#N" n="20"/>dyabolus petens temptandum Iob. et non exauditur apostolus petens
+            sti<lb ed="#N" n="21" break="no"/>mulum mouendum. sed dyaboli petitio fuit omnino indecens scilicet quod
+            <lb ed="#N" n="22"/>iustus sine merito puniretur: ergo vt prius.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e985">
+            ⁋ Item glo. i.
+            Dimo<lb ed="#N" n="23" break="no"/>the. v. super illud sine intermissione orate. dicit. quod oratio est desiderium
+            <lb ed="#N" n="24"/>bonum. sed desiderium sine decentium petitione potest esse: ergo male per
+            <lb ed="#N" n="25"/>illud diffinitur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e994">
+            ⁋ Item oratio dispositio est affectus proprie minua
+            <lb ed="#N" n="26"/>proprie intellectus. pertinere igitur semper vdtur ad vim affectiuam. sed
+            <lb ed="#N" n="27"/>petitio decentium nec ad hanc nec ad illa videtur pertinere: sed ad in
+            <lb ed="#N" n="28"/>terpretatiuam: ergo male per illam diffinitur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1003">
+            ⁋ Item cum quatuor conditiones
+            <lb ed="#N" n="29"/>exigantur ad oratioem efficacem scilicet vt pie fiat. pro se: perseueranter: et
+            <lb ed="#N" n="30"/>ad salutem. et vna in diffinitione predicta ponitur. vel datur
+            intelligi<lb ed="#N" n="31" break="no"/>tamen dicitur petitio decentium. nomine enim decentium dantur
+            intelligi<lb ed="#N" n="32" break="no"/>expedientia ad salutem. et alie nec dentur intelligi nec
+            ponan<lb ed="#N" n="33" break="no"/>tur: ergo diffinitio videtur diminuta
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1016">
+            ⁋ Responio. dici potest quod hec
+            diffi<lb ed="#N" n="34" break="no"/>nitio sicut tactum est proprie petenda respicit. et hoc necesse est
+            <lb ed="#N" n="35"/>oranti: vt petitiones eius cum gratiarumactione innotescant apud
+            de<lb ed="#N" n="36" break="no"/>um. Philipio. iiii. vbi dicit glo. petitiones vratre de rebus necessaiis
+            <lb ed="#N" n="37"/>quas vultis impetrare. et hoc cum gratiarumactione. quia qui vult
+            ali<lb ed="#N" n="38" break="no"/>quod impetrare: debet de preteritis gratus esse. ille inquam
+            petitio<lb ed="#N" n="39" break="no"/>nes vratre innotescant apud deum. ita vt sint feruentes non tepide:
+            <lb ed="#N" n="40"/>vt ad deum perueniant id est compleantur. et sequitur quod necesse habet rational
+            <lb ed="#N" n="41"/>creatura obtemparans deo: temporales causas ad eternam veritaten
+            <lb ed="#N" n="42"/>referre. siue petendo quid erga se fiat siue consulendo quod
+            faci<lb ed="#N" n="43" break="no"/>at hec glo. offerte ergo deo petitiones decentes quas glo.
+            pre<lb ed="#N" n="44" break="no"/>dicta vocat res necessarias quod necessarium est oranti.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1042">
+            ⁋ Quod ergo obicitur de
+            <lb ed="#N" n="45"/>christo. quod orauit et tamen oratio sua non fuit decentium. dicendum quod
+            decen<lb ed="#N" n="46" break="no"/>tium fuit. sicut dici plane Dam. libo. iii. ci. xxiiii. quia statim quando dicit
+            <lb ed="#N" n="47"/>oratio est petitio decentium a deo: refert qualiter dicens Lazaro
+            <lb ed="#N" n="48"/>mortuo et tempore passionis orabat.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1053">
+            ⁋ Quare ergo non fuit
+            exau<lb ed="#N" n="49" break="no"/>ditus. Responsio. quoniam cum oratio sit procedens ex voluntate et desiderio
+            <lb ed="#N" n="50"/>secundum quod voluntas humana fuit in christo secundum triplicem differentiam
+            <lb ed="#N" n="51"/>sic et oratio. Nam quedam oratio fuit in ipso procedens auctoritate rationis.
+            <lb ed="#N" n="52"/>et ista semper fuit exaudita. et quia conformis in omnibus diuine
+            <lb ed="#N" n="53"/>voluntati: et quia digne et sancte petebat: ideo exauditus est pro
+            <lb ed="#N" n="54"/>sua reuerentia. Heb. v. Alia fuit oratio procedens auctoritate
+            pi<lb ed="#N" n="55" break="no"/>etatis. et tercia a voluntate carnis. et iste non semper fuerunt ex
+            <lb ed="#N" n="56"/>audite: tum quia in his non conformabatur se deo in omni volito. et
+            <lb ed="#N" n="57"/>hoc patet. petebat enim pro suis crucifixoribus qui tamen non omnes sal
+            <lb ed="#N" n="58"/>uati sunt. Pre. petebat calicem transferri a se quod nolebat
+            do<lb ed="#N" n="59" break="no"/>minus: tum quia ille petitiones plus erant ad nostram eruditionem quod
+            <lb ed="#N" n="60"/>ad diuinam exauditionem. magis enim petebat vt nos erudiret:
+            <lb ed="#N" n="61"/>quam vt deum ad suam petitionem inclinaret.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1085">
+            ⁋ Ad secundum similiter
+            <lb ed="#N" n="62"/>dicendum. quod oratio Pauli decentium fuit. quod patet per effectum. quia
+            <lb ed="#N" n="63"/>dominus exaudiuit eum. et si non ad votum: tamen ad meritum vt dicit
+            <lb ed="#N" n="64"/>glo. supra predictum locum. Eger petit multa a medico que
+            me<lb ed="#N" n="65" break="no"/>dicus non dat nec exaudit ad voluntatem vt exaudiat ad
+            sa<lb ed="#N" n="66" break="no"/>nitatem. Ita dominus non exaudiuit Paulum ad voluntatem. non est
+            <lb ed="#N" n="67"/>magnum exaudiri a deo ad voluntatem. aliquando enim dominus dat
+            ira<lb ed="#N" n="68" break="no"/>tus quod petimus. hec glo. patet igitur quod fuit decentium. tamen dominus eam
+            <lb ed="#N" n="69"/>non acceptauit vt volebat: sed secundum quod ei plus expediebat. et hoc
+            <lb ed="#N" n="70"/>dicit glo. super illud. dixit mihi dominus. glo. melius mihi
+            proui<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>dens.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1110">
+            ⁋ Ad tercium dicendum. quod exauditio sathane non fuit ratione
+            <lb ed="#N" n="72"/>operis operantis. quia illud malum et inordinatum: sed ratione operis
+            <lb ed="#N" n="73"/>operati. vnde temptatio illa habebat contemptationem ad temptantem
+            <lb ed="#N" n="74"/>cuius intentio erat. et ad temptatum Iob. cuius sufficientia erat
+            <lb ed="#N" n="75"/>seu fuit bona cedens illi ad meritum et posteris ad exemplum.
+            <lb ed="#N" n="76"/>Iaco. vlt. et illam dominus acceptauit. et ideo pro illo dicitur sathanas
+            <lb ed="#N" n="77"/>exauditus. vnde Augustinus. ad probam de diligendo deo dicit. quod
+            dyabo<lb ed="#N" n="78" break="no"/>lus postulauit vt probandus eius famulus temptaretur. Dam. lib. ii.
+            <lb ed="#N" n="79"/>c. xxix. Concedit dominus iustum incidere in calamitates. vt eam que
+            <lb ed="#N" n="80"/>in eo latet virtutem aliis manifestam faciat. vt in Iob. et hoc
+            proui<lb ed="#N" n="81" break="no"/>dentia est diuine sicut dicit.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1134">
+            ⁋ Ad quartum dicendum. quod oratio secundum quod
+            <lb ed="#N" n="82"/>dicitur desiderium bonum sumitur generaliter pro iusticia vite: hoc autem
+            su<lb ed="#N" n="83" break="no"/>mitur spetialiter prout hoc de ea intendimus. sed communissime prout est idem
+            <lb ed="#N" n="84"/>quod benefacere.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1143">
+            ⁋ Ad quintum dicendum. quod petitio in diffinitione tacta
+            <lb ed="#N" n="85"/>dicit et motum affectus: et exteriorem expressionem. et ideo non solum
+            <lb ed="#N" n="86"/>pertinet ad interpretatiuam sed magis ad affectum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1150">
+            ⁋ Ad vltimum
+            <lb ed="#N" n="87"/>dicendum. quod necessarium ad salutem prout est vna de quatuor conditionibus
+            <lb ed="#N" n="88"/>que faciunt orationem efficacem. dicit dispositionem caritate
+            inforatia<lb ed="#N" n="89" break="no"/>tam. sed in diffinitione ista etsi detur nomine decentium intelligi:
+            <lb ed="#N" n="90"/>dispotionem tamen dicit communiter sumptam. siue formata sit siue
+            infor<lb ed="#N" n="91" break="no"/>mis. et propter hoc sub alia ratione et alia sumitur hic et ibi.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e1164">
+          <head xml:id="v78d89-afz5qm-Hd1e1166">Articulus 5</head>
+          <p xml:id="v78d89-afz5qm-d1e1168">
+            <lb ed="#N" n="92"/>Articulus quintus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1173">
+            <lb ed="#N" n="93"/>COnsequenter queritur de illa diffinitione Augu. i.
+            <lb ed="#N" n="94"/>Oratio est rerum inuisibilium inquisitio. sed hec diffinitio
+            <lb ed="#N" n="95"/>conuenit meditationi: quia vt dicit Hug. meditatio est
+            <lb ed="#N" n="96"/>frequens cogitatio. modum et causam et rationem vniuscuiusque rei
+            in<lb ed="#N" n="97" break="no"/>uestigans: ergo meditatio circa diuina est de diuinis frequens
+            co<lb ed="#N" n="98" break="no"/>gitatio et inuestigatio eorundem.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1189">
+            ⁋ Idem dicit diffinitio
+            predicta<lb ed="#N" n="99" break="no"/>ergo non conuenit soli diffinito.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1194">
+            ⁋ Item inuestigatio eorum que circa
+            de<lb ed="#N" n="100" break="no"/>um sunt proprie conueniunt lectioni: hoc autem idem dic rerum inuisibi
+            <lb ed="#N" n="101"/>lium inquisitio: ergo male assignatur soli orationi conuenire: cum
+            econ<lb ed="#N" n="102" break="no"/>uerso lectio contra oratioem: et meditatio contra has diuidatur.
+            di<lb ed="#N" n="103" break="no"/>uidit enim Hug. contemplationem et oratioem et meditationem et
+            lectio<lb ed="#N" n="104" break="no"/>nem.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1208">
+            ⁋ Pre. i. Corin. xiii. super illud. datur alii sermo sapicentie. alii
+            <lb ed="#N" n="105"/>sermo scletie diuidit glo. inter sapicentiam et scletiam dicens. quod sapicentia et
+            <lb ed="#N" n="106"/>contemplatio eternorum: scentia vero in actione temporalium. igitur cum sapicentie
+            <lb ed="#N" n="107"/>dona attribuuntur eternorum siue inuisibilium contemplationi siue
+            <lb ed="#N" n="108"/>considerationi male assignatur soli orationi conuenire.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1219">
+            ⁋ Pre. inquisi
+            <lb ed="#N" n="109"/>tio de rebus pertinet solum ad intellectum. oratio autem plus pertinet
+            <lb ed="#N" n="110"/>ad affectum: sicut probat Hug. de virtute orandi vbi dicit. medita
+            <lb ed="#N" n="111"/>tio parit sciestiam. scientia deuotionem. et deuotio oratioem. sed deuotio
+            af<lb ed="#N" n="112" break="no"/>fectus est: quare et oratio multofortius: ergo male videtur per
+            inquisitione<lb ed="#N" n="113" break="no"/>diffiniri.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1232">
+            ⁋ Pre. vbi est scientie plenitudo ibi nulla est inquisitio.
+            <lb ed="#N" n="114"/>et si ponatur: superflue poni videtur. sed in christo orante erat scentie
+            ple<lb ed="#N" n="115" break="no"/>nitudo. quia et illam habuit in principio vite sue: ergo in oratione christi
+            <lb ed="#N" n="116"/>nulla fuit inquisitio. igitur non videt soli orationi conuenire. ergo
+            diffi<lb ed="#N" n="117" break="no"/>nitio male est assignata.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1243">
+            ⁋ Pre. in beatis angelis et animabus
+            san<lb ed="#N" n="118" break="no"/>ctis est cognitio in summo. alioquin non essent beati: et tamen
+            frequen<lb ed="#N" n="119" break="no"/>ter orant pro nobis hoc est planum: ergo inconuenienter oratio per inquisiti
+            <lb ed="#N" n="120"/>onem diffinitur
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1252">
+            ⁋ Ad hoc dicendum est. quod ista diffinitio penes ipsa
+            <lb ed="#N" n="121"/>petenda attenditur sicut et precedens: licet oratio in precedenti magis
+            re<lb ed="#N" n="122" break="no"/>spiciat summam bonitatem cum dicitur petitio decentium. illud enim de
+            <lb ed="#N" n="123"/>cet quod delectat vt quod bonum est. Ista autem respicit summam boni
+            <lb ed="#N" n="124"/>tatem cum dicitur. oratio est rerum inuisibilium inquisitio. Est igitur in
+            diffi<lb ed="#N" n="125" break="no"/>nitione ista inuisibilium rerum inquisitio. non quod orans ibi sistat: sed vt
+            <lb ed="#N" n="126"/>magis opportunius et familiarius valeat impetrare. et in isto
+            si<lb ed="#N" n="127" break="no"/>stat orationis complementum quodammodo. si quis rogare vellet prici
+            <lb ed="#N" n="128"/>pem aliquem siue regem. expediret ei ad illius secretoria quo
+            meli<lb ed="#N" n="129" break="no"/>us posset accedere: vbi opportunius et certe secretius illi posse
+            su<lb ed="#N" n="130" break="no"/>am indigentiam ostendere: et misericordiam ipsius impetrare. sic est in
+            <lb ed="#N" n="131"/>proposito. UUlterius notandum est. quod inuisibilium inquisitio siue
+            in<lb ed="#N" n="132" break="no"/>uestigatio fit plerumque vel ad cognoscendum quod facit lectionis
+            <lb ed="#N" n="133"/>exercitium: vel ad degustandum quod facit sapientie donum. vel quodam
+            <lb ed="#N" n="134"/>medio modo aliquod habens ab vtroque quod facit sancta meditatio. vel
+            <lb ed="#N" n="135"/>ad impetrandum quod facit deuota oratio. Ex his patet responsio ad
+            <lb ed="#N" n="136"/>tria prima argumenta.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1289">
+            ⁋ Ad quartum patet responsio. quod ibi non solum est
+            <lb ed="#N" n="137"/>inquisitio que quidem est secundum intellectum: immo et reuelande miserie
+            im<lb ed="#N" n="138" break="no"/>ploratio que quidem est affectus. vel si dicatur quod sit intellectus. hoc est non
+            <lb ed="#N" n="139"/>speculatiui: sed potius pectici. quod quidem cognitionem comprehendit ne sit
+            <lb ed="#N" n="140"/>erroneus sicut dicit Hug. et affectionem ne sit tepidus.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1301">
+            ⁋ Ad quintum
+            <pb ed="#N" n="563"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>de christo dicendum. inuisibilium inquisitio duobus modis intelligi potest
+            <lb ed="#N" n="2"/>vel ferendo se supra se per nouam considerationem. secundum quod intellectus
+            <lb ed="#N" n="3"/>eleuatur ad deum gradatim: a consideratione creature ad
+            considera<lb ed="#N" n="4" break="no"/>tionem creatoris. et illud christo non potuit conuenire: quia hoc solum
+            <lb ed="#N" n="5"/>est viatoris. ipse autem semper fuit comprehensor. vel ferendo se
+            su<lb ed="#N" n="6" break="no"/>pra se diuinam misericordiam implorando que est supra se: et sic
+            pro<lb ed="#N" n="7" break="no"/>prie sumitur in diffinitione supradicta. et sic bene fuit in christo:
+            <lb ed="#N" n="8"/>quia ista consideratio siue inquisitio scientie plenitudini nullatenus
+            <lb ed="#N" n="9"/>contradicit. primo autem modo contradicit.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1327">
+            ⁋ Ad vltimum de beatis
+            di<lb ed="#N" n="10" break="no"/>cendum. quod ista inquisitio scientie in summo non consideratur actui sancto
+            <lb ed="#N" n="11"/>rum. qui quando orant. non orant pro se. sed pro nobis. et ideo quando
+            implo<lb ed="#N" n="12" break="no"/>rant diuinam misericordiam pro miserie releuatione: non est illud
+            in<lb ed="#N" n="13" break="no"/>telligendum de sua miseria sed de nostra.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e1339">
+          <head xml:id="v78d89-afz5qm-Hd1e1341">Articulus 6</head>
+          <p xml:id="v78d89-afz5qm-d1e1343">
+            <lb ed="#N" n="14"/>Articulus sextus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1348">
+            <lb ed="#N" n="15"/>COnsequenter queritur de diffinitione Ambro. scilicet
+            Ora<lb ed="#N" n="16" break="no"/>tio est cibus mentis preclaraque alimonia suauitatis
+            <lb ed="#N" n="17"/>que membra non onerat. sed in ornamenta conuertit. Sic
+            <lb ed="#N" n="18"/>oratio dicitur hic cibus mentis. et constat quod secundum similitudinem sumptam
+            <lb ed="#N" n="19"/>a cibo corporis. sed ita est de cibo corporis quod sine illo corpus viuet
+            <lb ed="#N" n="20"/>non potest: similiter erit de cibo anime siue mentis quod sine illo anima siue
+            <lb ed="#N" n="21"/>mens viuere non potest. Sed constat animam viuere posse sine contem
+            <lb ed="#N" n="22"/>platione cuius species est oratio: ergo minus conuenienter diffinitur
+            <lb ed="#N" n="23"/>oratio cibus mentis.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1370">
+            ⁋ Item Bern. super cantica dicit. quod
+            oran<lb ed="#N" n="24" break="no"/>do dabitur vinum letificans cor hominis. ergo conuenientius diceretur
+            <lb ed="#N" n="25"/>oratio potus mentis quam cibus mentis.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1377">
+            ⁋ Pret. sicut dicit Bern.
+            <lb ed="#N" n="26"/>Escas bonorum actuum dirigit. sed escas dirigere magis
+            potui<lb ed="#N" n="27" break="no"/>conuenit quam cibo: igitur magis proprie diceretur oratio potus quam cibus.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1385">
+            <lb ed="#N" n="28"/>⁋ Pret. cum refectio anime non solum habeatur ex oratione. sed omnis
+            <lb ed="#N" n="29"/>virtus gratuita et operatio cooperetur anime refectioni: ex quo ea que
+            <lb ed="#N" n="30"/>proprie conueniunt debent in diffinitionibus poni: non deberet ora
+            <lb ed="#N" n="31"/>tio dici cibus anime. sicut nec aliud gratuitum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1396">
+            ⁋ Pret. idem est cibus
+            <lb ed="#N" n="32"/>et alimonia. ergo alterum superfluit.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1401">
+            ⁋ Pret. cum claritas sit
+            dispo<lb ed="#N" n="33" break="no"/>sitio intellectus. alimonia autem sit affectus: non est conueniens
+            con<lb ed="#N" n="34" break="no"/>iunctio alimonia preclara.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1408">
+            ⁋ Pret. si veraciter orare est amaros
+            <lb ed="#N" n="35"/>gemitus in compunctione cordis resonare. vt dicit Greg. ergo nulla
+            <lb ed="#N" n="36"/>est suauitas orationis. et ita non est alimonia suauitatis.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1415">
+            ⁋ Pre.
+            <lb ed="#N" n="37"/>cum oratio satisfactoria sit et penalis. et ideo corporis afflictiua:
+            <lb ed="#N" n="38"/>multum videtur membra corporis onerare. male ergo dicitur membra
+            <lb ed="#N" n="39"/>non onerans.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1424">
+            ⁋ Pret. cum oratios sit dispositio mentis. quomo ad
+            <lb ed="#N" n="40"/>corporis ornamenta pertinebit.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1430">
+            ⁋ Responsio. dicendum est. ista
+            diffini<lb ed="#N" n="41" break="no"/>tio habet proprie respicere vim memoratiuam anime. Orans enim quando
+            <lb ed="#N" n="42"/>dei beneficia memoratur et deuotione perfunditur: non modicam
+            ca<lb ed="#N" n="43" break="no"/>pit refectionem. Bern. super canti. orando dabitur vinum letificans
+            <lb ed="#N" n="44"/>cor hominis. Uinum spiritus quod inebriat: et voluptatum carnalium
+            <lb ed="#N" n="45"/>infundit obliuionem. humectat interiora arentis conscientie:
+            <lb ed="#N" n="46"/>escas bonorum actuum dirigit et deducit per quedam anime membra.
+            <lb ed="#N" n="47"/>fidem roborans: spem confortans: ordinans vegetansque caritatem.
+            <lb ed="#N" n="48"/>et imprgnans mores. hec Bern. patet igitur quomo oratio cibus sit
+            <lb ed="#N" n="49"/>mentis. ipsam reficiendo et escas bonorum operum dirigendo. et
+            <lb ed="#N" n="50"/>per anime membra deducendo.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1454">
+            ⁋ Quod obiicitur quod sicut cibus necessarius
+            <lb ed="#N" n="51"/>sit vite corporis et oratio anime. Dicendum quod duplex habet esse
+            <lb ed="#N" n="52"/>oratio. vnum per comparationem ad deum ad quem dirigitur: et sic
+            reue<lb ed="#N" n="53" break="no"/>ra est cibus anime necessarius sine quo non viuit anima spiritualiter
+            <lb ed="#N" n="54"/>certum enim est quod spiritualiter non viuit nisi pius affectus in deum
+            <lb ed="#N" n="55"/>dirigatur. Aliud est esse orationis quod consistit in petendo quod
+            neces<lb ed="#N" n="56" break="no"/>sarium est oranti. secundum quod diffinitur a dam. petitio est decentiuum
+            <lb ed="#N" n="57"/>a deo. et secundum hoc quod petatur diffinite hoc vel illud: necessitatem
+            <lb ed="#N" n="58"/>non importat.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1474">
+            ⁋ Ad aliud dicendum. quod si proprietates potus orationi
+            <lb ed="#N" n="59"/>conueniunt: non tamen proprietates potus qui solummodo potus est. vt
+            po<lb ed="#N" n="60" break="no"/>tus omnis: sed potus qui est cibus et potus: cuiusmodi est vinum. igitur
+            <lb ed="#N" n="61"/>conuenientiori congruitate dicitur oratio cibus quam potus. Pret. quia
+            ma<lb ed="#N" n="62" break="no"/>gis proprie dicitur seu conuenit cibo reficere quam potui.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1485">
+            ⁋ Quod autem
+            <lb ed="#N" n="63"/>dicit Bern. esse vinum etc. hoc dicit ratione qua est cibus et potus
+            <lb ed="#N" n="64"/>vt ex ipsis verbis patet.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1492">
+            ⁋ Ad aliud potest dici. quod licet alimonia
+            <lb ed="#N" n="65"/>mentis aliis conueniat gratuitis: tamen quodam prerogatiuo
+            spetiali<lb ed="#N" n="66" break="no"/>orationi conuenit. vtpote qua reficitur. aliter. et ad statum perfectionis es
+            <lb ed="#N" n="67"/>ficaciter promouetur. vt ex verbis patet Bern.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1501">
+            ⁋ Ad aliud
+            di<lb ed="#N" n="68" break="no"/>cendum. quod licet idem sit cibus et alimonia: tamen differunt ratione.
+            Ci<lb ed="#N" n="69" break="no"/>bus enim dicitur inquantum cibat et reficit. alimonia qua alit. vnde
+            <lb ed="#N" n="70"/>duo effectus notantur orationis. vnus est refectio spiritualis que est
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>ex coniunctione mentis cum summo bono. Alius est nutritio in
+            amo<lb ed="#N" n="72" break="no"/>re dei que est in anime vita. sicut dicit augustinus in soliloquo. et illud
+            da<lb ed="#N" n="73" break="no"/>tur intelligi plane in auctoritate Bern. supradicta.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1520">
+            ⁋ Ad
+            <lb ed="#N" n="74"/>aliud dicendum cum dicitur alimonia preclara. notatur duplex
+            effe<lb ed="#N" n="75" break="no"/>ctus orationis. scilicet nutritio affectus. et illustratio intellectus. cum
+            <lb ed="#N" n="76"/>hoc enim quod oratio in suauitate iocunditatis nutrit animam quantum ad
+            <lb ed="#N" n="77"/>affectum: illuminat etiam quantum ad intellectum. vnde Cris. in
+            quo<lb ed="#N" n="78" break="no"/>dam sermone dicit. quod danieli orationibus visa panduntur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1533">
+            ⁋ Ad
+            <lb ed="#N" n="79"/>aliud dicendum. quod duo sunt genera lacrimarum. scilicet ex recorda
+            <lb ed="#N" n="80"/>tione offense dei: et iste sunt amaritudinis. et ex consideratione
+            <lb ed="#N" n="81"/>superne patrie. et iste iocunditatis sunt. Sic orationum duo sunt
+            <lb ed="#N" n="82"/>genera. vnum ex consideratione bonitatis diuine et beneficentie: et
+            <lb ed="#N" n="83"/>istud est iocunditatis et hoc est contemplatiuorum. Aliud est
+            ama<lb ed="#N" n="84" break="no"/>ritudinis ex consideratione offense dei satisfaciendo pro illa.
+            Pri<lb ed="#N" n="85" break="no"/>ma tota est iocunditas quantum ad spiritum. licet laborent virtutes
+            <lb ed="#N" n="86"/>animales in orando. et minus regimini corporis sunt intente. istud
+            <lb ed="#N" n="87"/>enim necessario fit quamdiu sumus in hac vita. et quanto plus
+            spiri<lb ed="#N" n="88" break="no"/>tus delectat in tanto plus tabescit caro. Secunda similiter
+            mul<lb ed="#N" n="89" break="no"/>tum habet iocunditatis. sicut dolor penitentialis habet gaudium
+            <lb ed="#N" n="90"/>coniunctum secundum quod dicit augustinus doleas et de dolore gaudeas. et Gre
+            <lb ed="#N" n="91"/>go. in moralis. luctu suo anima pascitur: et ad superna gaudia
+            feren<lb ed="#N" n="92" break="no"/>do subleuatur. Et intus quidem doloris sui gemitus tolerat. si eo
+            <lb ed="#N" n="93"/>refectionis pabulum percipit: quo vis amoris per lacrimas
+            ema<lb ed="#N" n="94" break="no"/>nat. propter quod Ecesasti. v. Miscui mirram cum aromatibus quod est. in
+            <lb ed="#N" n="95"/>amaritudine respirare quadam iocunditate.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1572">
+            ⁋ Ex hoc patet responsio
+            <lb ed="#N" n="96"/>ad aliud. quia et si oratio oneret quantum ad corruptelam. non tamen quantum
+            <lb ed="#N" n="97"/>ad materiam. immo eam eleuat vt magis spiritui sit subiecta et
+            confor<lb ed="#N" n="98" break="no"/>mis. vnde videmus in spiritualibus viris corpus in modico oneratum
+            <lb ed="#N" n="99"/>quamuis anima quasi continue orationi et deuotioni sit intenta.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1583">
+            ⁋ Ad
+            vlti<lb ed="#N" n="100" break="no"/>mum dicendum. quod oratio dicitur membra in ornamenta conuertere: quia
+            <lb ed="#N" n="101"/>multum iuuant ad morum grauitatem. vnde Bern. addit auctorita
+            <lb ed="#N" n="102"/>ti predicte et impregnans mores.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e1593">
+          <head xml:id="v78d89-afz5qm-Hd1e1595">Articulus 7</head>
+          <p xml:id="v78d89-afz5qm-d1e1597">
+            <lb ed="#N" n="103"/>Articulus septimus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1602">
+            <lb ed="#N" n="104"/>COnsequenter queritur de diffinitionibus Greg. et Hug.
+            <lb ed="#N" n="105"/>queritur ergo de ipsis insilis. quia simul concurrunt ad statum
+            <lb ed="#N" n="106"/>penitentis. vna enim respicit penitentie initium: altera
+            <lb ed="#N" n="107"/>complementum. vna est hec. scilicet Hugo. Oratio est deuotio ex
+            comprun<lb ed="#N" n="108" break="no"/>ctione procedens. Altera est Greg. Ueraciter orare est amaros in
+            <lb ed="#N" n="109"/>compunctione gemitus et non composita verba resonare.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1618">
+            ⁋ Obiicitur
+            <lb ed="#N" n="110"/>ergo ad primam sic. Hugo de virtute orandi sic dicit. quod meditatio
+            <lb ed="#N" n="111"/>parit sclesiam. scientia deuotionem. deuotio orationem. sed impossibi
+            <lb ed="#N" n="112"/>le est esse parturientem partum. non enim scientia est deuotio. ergo
+            male<lb ed="#N" n="113" break="no"/>diffinitur sic.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1629">
+            ⁋ Item impossibile est idem simul et semel diuersis
+            <lb ed="#N" n="114"/>motibus moueri. Cum igitur deuotio dicat cordis dilatationem.
+            con<lb ed="#N" n="115" break="no"/>hunctio constrictionem: numquam constituent vnum idem. ergo diffinitio illa
+            <lb ed="#N" n="116"/>est nulla que dicitur. oratio est deuotio ex compunctione procedens.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1639">
+            ⁋ Pre.
+            <lb ed="#N" n="117"/>impossibile est animam simul tristari et gaudere. ergo si deuotio
+            gau<lb ed="#N" n="118" break="no"/>dium importat et coniunctio tristiciam et dolorem. redit idem quod prius.
+            <lb ed="#N" n="119"/>quod deuotio simul et compunctio orationi non potuerunt conuenire. ergo
+            <lb ed="#N" n="120"/>nec per illa debet diffiniri.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1650">
+            ⁋ Item si compunctio facit constrictionem.
+            <lb ed="#N" n="121"/>deuotio dilatationem: hec se habent vt contraria. contrariorum autem contrie
+            <lb ed="#N" n="122"/>sunt cause. et non est vnum alterius causa: ergo deuotio non est ex
+            con<lb ed="#N" n="123" break="no"/>punctione.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1659">
+            ⁋ Pret. obiicitur de secunda. veraciter orare est etc. contra
+            satis<lb ed="#N" n="124" break="no"/>factio et contritio ex opposito diuiduntur. igitur oratio cum sit pars
+            satis<lb ed="#N" n="125" break="no"/>factionis non erit compunctio siue contritio quod idem est: sicut nec
+            satis<lb ed="#N" n="126" break="no"/>factio contritio.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1668">
+            ⁋ Pret. non conuenit soli quia conuenit penitentie vir
+            <lb ed="#N" n="127"/>tuti. cuius est secundum Greg. preterita mala plangere. et tamen penitentia
+            vir<lb ed="#N" n="128" break="no"/>tus non est penitentia sacramentum: quare nec oratio que est pars penitentie
+            sacramenti<lb ed="#N" n="129" break="no"/>compunctio erit.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1677">
+            ⁋ Pret. oratio quantum est de se maxime vt est
+            satis<lb ed="#N" n="130" break="no"/>factoria. est aliquiod impetrandum. ergo videtur quod deberet exprimi per
+            <lb ed="#N" n="131"/>aliquod quod haberet rationem motiui. ergo in diffinitione eius cum nihil
+            <lb ed="#N" n="132"/>exprimatur videtur diminuta.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1686">
+            ⁋ Responsio. dicendum est quod iste
+            diffini<lb ed="#N" n="133" break="no"/>tiones pertinent ad statum penitentis. vnde orationem diffiniunt non
+            so<lb ed="#N" n="134" break="no"/>lum prout petitoria: sed etiam satisfactoria. sed differenter. quia illa
+            <lb ed="#N" n="135"/>Greg. veraciter orare etc. quantum ad initium satisfactionis. a
+            ge<lb ed="#N" n="136" break="no"/>mitibus enim compunctionis incipit oratio inquantum est satisfactoria.
+            <lb ed="#N" n="137"/>Alia est Hugo. scilicet oratio est deuotio etc. quantum ad eiusdem
+            comple<lb ed="#N" n="138" break="no"/>mentum. vltimum enim complementum orationis est deuotio
+            proue<lb ed="#N" n="139" break="no"/>niens ex compunctione. et exsumitur causaliter et ordinatiue. id
+            <lb ed="#N" n="140"/>est post Compunctio enim est causa deuotionis et illam precedens.
+            <pb ed="#N" n="564"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Et vt supra tactum est. he diffinitiones sicut etiam alie. non dicunt
+            <lb ed="#N" n="2"/>esse complementum diffiniti: sed potius esse relatum et diminute.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1716">
+            ⁋ Ex
+            <lb ed="#N" n="3"/>his patet responsio ad primum. quia deuotio non dicit complementum
+            oratio<lb ed="#N" n="4" break="no"/>nis. nec idem similiter quod ipsa: sed potius ipsius complementum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1723">
+            ⁋ Ad
+            <lb ed="#N" n="5"/>secundum et tercium dicendum est. quod dilatari simul et constringi.
+            tri<lb ed="#N" n="6" break="no"/>stari et gaudere prout non sunt in vna potentia sed diuersis: bene
+            <lb ed="#N" n="7"/>est possibile vt contritio et dolor sint in sensualitate. et
+            dilata<lb ed="#N" n="8" break="no"/>tio et gaudium in ratione. sicut est in proposito. vlterius etiam esse in
+            <lb ed="#N" n="9"/>vna vi secundum quod conuertit se supra se non actu simplici sed
+            com<lb ed="#N" n="10" break="no"/>posito: nullum est inconueniens. Unde et augustinus. de ista via dicebat
+            <lb ed="#N" n="11"/>iiii. confessio. quod fletus erat sibi dulcis loquens de amico
+            mor<lb ed="#N" n="12" break="no"/>tuo.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1743">
+            ⁋ Ad aliud dicendum. quod si compunctio constringit et deuotio
+            di<lb ed="#N" n="13" break="no"/>latat tunc sunt contraria etc. Dicendum quod hoc non oportet. calor
+            <lb ed="#N" n="14"/>enim circa diuersa congregat et disgregat. congregat enim
+            homoge<lb ed="#N" n="15" break="no"/>nea. et disgregat eutrogenea. similiter motus in aliqua mate
+            <lb ed="#N" n="16"/>ria est causa caloris: in alia est causa frigiditatis.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1754">
+            ⁋ Ad
+            ali<lb ed="#N" n="17" break="no"/>ud dicendum. quod oratio non sit compunctio essentialiter: sed associa
+            <lb ed="#N" n="18"/>tiue. Greg. enim diffinit ibi orationem inquantum est satisfactoria.
+            <lb ed="#N" n="19"/>et debet assignari compunctioni.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1763">
+            ⁋ Si obiicitur vt prius compunctio
+            <lb ed="#N" n="20"/>est contritio et oratio est satisfactio. Dicendum quod duplex est
+            satis<lb ed="#N" n="21" break="no"/>factio. scilicet exterior que fit per opera exteriora. et hec contra
+            contri<lb ed="#N" n="22" break="no"/>tionem diuiditur que intra est. Alia est exterior. et contra hanc
+            <lb ed="#N" n="23"/>non diuiditur contritio: immo ipsa compunctio vel contritio est ipsa
+            <lb ed="#N" n="24"/>satisfactio interior. que tanta posset esse quod non esset opst satis
+            <lb ed="#N" n="25"/>factione exteriori.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1779">
+            ⁋ Ad aliud dicendum. quod et si penitentie
+            virtu<lb ed="#N" n="26" break="no"/>tis sit peccata defere et amaros gemitus resonare. aliter
+            tamen<lb ed="#N" n="27" break="no"/>est eius quam orationis: quia ipsius est vt peccatum detestantis et
+            vlciscen<lb ed="#N" n="28" break="no"/>tis: orantis autem vt veniam implorantis.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1789">
+            ⁋ Ad vltimum scilicet quod
+            <lb ed="#N" n="29"/>nihil motiuum tangitur. Dicendum quod et si nihil tangitur in
+            moti<lb ed="#N" n="30" break="no"/>uum ex parte illius qui oratur formaliter: tamen tangitur aliquid
+            <lb ed="#N" n="31"/>ex parte eius qui orat. scilicet consideratio proprie offense cum dolore
+            <lb ed="#N" n="32"/>et talem plurimum acceptat deus.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e1802">
+          <head xml:id="v78d89-afz5qm-Hd1e1804">Articulus 8</head>
+          <p xml:id="v78d89-afz5qm-d1e1806">
+            <lb ed="#N" n="33"/>⁋ Articulus octauus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1811">
+            <lb ed="#N" n="34"/>COnsequenter queritur de diffinitione Bern. hac scilicet.
+            <lb ed="#N" n="35"/>Oratio est hominis deo adherentis affectio. et
+            familia<lb ed="#N" n="36" break="no"/>ris quedam et pia allocutio: et statio illuminate mentis
+            <lb ed="#N" n="37"/>ad fruendum deo quamdiu licet.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1822">
+            ⁋ Si oratio est hominis adherentis deo
+            <lb ed="#N" n="38"/>a ffectio. si ille solus adheret deo qui est in caritate: illi solum
+            <lb ed="#N" n="39"/>orant qui sunt in caritate. quod patet esse falsum. si diceretur. quod
+            <lb ed="#N" n="40"/>ideo oratio solum conuenit existentibus in caritate quantum est efficax
+            <lb ed="#N" n="41"/>ad impetrandum. hoc similiter patet esse falsum: vt patet de
+            publica<lb ed="#N" n="42" break="no"/>no qui orando obtinuit veniam et meruit iustificari
+            Luce.<lb ed="#N" n="43" break="no"/>xviii.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1838">
+            ⁋ Item qui adheret deo est in caritate. quia est vnus spiritus cum
+            <lb ed="#N" n="44"/>deo. i. Corin. vi. sed nullus scit vtrum amore vel odio dignus sit
+            <lb ed="#N" n="45"/>Eceiatius. ix. ergo nullus scit se adherere deo. sed a quo excluditur siue
+            <lb ed="#N" n="46"/>remouetur consequens: et antecedens. Si ergo nullus scit se adhertur deo
+            <lb ed="#N" n="47"/>cum adherere deo sit consequens ad orare: nullus scit se orare.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1850">
+            ⁋ Item
+            <lb ed="#N" n="48"/>familiaris et pia allocutio non conuenit orationi. sed potius locutioni
+            <lb ed="#N" n="49"/>quia vt habetur ab Isid. de sum. bo. libo. iii. Cum legimus: deus
+            no<lb ed="#N" n="50" break="no"/>biscum loquitur. ergo non conuenit proprie orationi: ergo non debet
+            <lb ed="#N" n="51"/>poni in eius diffinitione.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1861">
+            ⁋ Item non videtur quod oratio debeat
+            diffini<lb ed="#N" n="52" break="no"/>ri per hoc quod dicitur statio illuminate mentis. quia vt habetur a
+            phso<lb ed="#N" n="53" break="no"/>ille peccat qui diffinit illud quod in quiete est: per illud quod est in
+            <lb ed="#N" n="54"/>motu et econuerso. igitur cum orare dicat actum et ita motum: statio
+            <lb ed="#N" n="55"/>autem quietem: hoc per illud non diffinitur
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1872">
+            ⁋ Pret. cum illuminatio
+            men<lb ed="#N" n="56" break="no"/>tis proprie sit dispositio intellectus. ad fruendum autem deo inflam
+            <lb ed="#N" n="57"/>matio affectus requiratur proprie. prout dicit Augustinus. quod frui est
+            amo<lb ed="#N" n="58" break="no"/>re inherere rei propter se. male videtur dici statio illuminate mentis
+            <lb ed="#N" n="59"/>ad fruendum. sed debuisset dixisse inflammate mentis ad fruendum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1883">
+            <lb ed="#N" n="60"/>⁋ Pret. obiicitur de vltimo quod est ad fruendum quamdiu licet.
+            fini<lb ed="#N" n="61" break="no"/>ti ad infinitum est distantia infinita. vbi autem distantia
+            infini<lb ed="#N" n="62" break="no"/>ta: ibi vnum ad alterum non attingit. sed deus infinitus: creatura
+            <lb ed="#N" n="63"/>omnis finita. ergo creaturam ad deum attingere est impossibilem. Sed
+            <lb ed="#N" n="64"/>frui est per adherentiam et contractum quendam. ergo frui deo creatura est
+            <lb ed="#N" n="65"/>impossibile vt videtur. ergo mens illuminata et si stet ad fruendum
+            <lb ed="#N" n="66"/>deo: frui tamen non licet vt videtur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1901">
+            ⁋ Responsio. dicendum quod hec
+            diffi<lb ed="#N" n="67" break="no"/>nitio est orationis prout respicit statum orantis. non solum vt est
+            iu<lb ed="#N" n="68" break="no"/>sticie: sed vt est iusticie consummate vt supra tactum est. Et quia status
+            <lb ed="#N" n="69"/>iusticie consummate in subiecto suo ponit gratie influentiam
+            afflu<lb ed="#N" n="70" break="no"/>ens autem gratia reddat animam ad contemplandum expeditam et ad
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>fruendum idoneam: ideo tria dicuntur in diffinitione supradicta.
+            <lb ed="#N" n="72"/>Quod oratio est hominis deo adherentis affectio: ecce primum. et
+            fami<lb ed="#N" n="73" break="no"/>liaris quedam et pia allocutio: ecce secundum. et statio illuminate
+            men<lb ed="#N" n="74" break="no"/>tis ad fruendum deo quamdiu licet: ecce tercium.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1923">
+            ⁋ Ex quo patet responsio ad
+            <lb ed="#N" n="75"/>primum. quia et si multi orant qui non sunt in caritate: nullus tamen existens in
+            <lb ed="#N" n="76"/>statu iusticie consummate orat nisi adherendo deo per caritatem.
+            <lb ed="#N" n="77"/>Iusticia enim consummata vt tactum est ponit in subiecto suo
+            af<lb ed="#N" n="78" break="no"/>fluentiam gratie.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1935">
+            ⁋ Ad secundum dicitur. quod nullus scit certitudinali
+            sci<lb ed="#N" n="79" break="no"/>entia se esse in gratia. siue deo adherere: conicere tamen bene potest
+            qua<lb ed="#N" n="80" break="no"/>dam presumptione vehementi se esse deo gratum et acceptum. hoc
+            ha<lb ed="#N" n="81" break="no"/>betur a Bern. qui ponit quatuor signa quibus potest conici vehe
+            <lb ed="#N" n="82"/>menti presumptione aliquem esse in gratia gratum faciente. dicit enim sic.
+            <lb ed="#N" n="83"/>Data sunt signa quedam et indicia manifesta saluti. vt
+            indu<lb ed="#N" n="84" break="no"/>bitabile sit esse de numero electorum in quo ea signa permanserint
+            <lb ed="#N" n="85"/>Unum signum est deuote audire verbum dei. Et hoc signum sumptum
+            <lb ed="#N" n="86"/>est ex Ioh. viii. qui ex deo est verba dei audit. vnde dicit.
+            porro<lb ed="#N" n="87" break="no"/>inter ea que fiduciam prestant et misericordiam spei vnum est illud maxi
+            <lb ed="#N" n="88"/>mum verbum dei. qui ex deo est verba dei audit. Alia tria
+            si<lb ed="#N" n="89" break="no"/>gna sunt opera vite agere: continere a peccatis: flere commissa. et hec
+            <lb ed="#N" n="90"/>tria sunt ab illa auctoritate. i. Ioh. v. Tres sunt qui testimo
+            <lb ed="#N" n="91"/>nium dant in terra. spiritus. aqua et sanguis. vnde dicit. fidelis
+            <lb ed="#N" n="92"/>sermo et omni acceptione dignus: quo testimonia salutis commendantur.
+            <lb ed="#N" n="93"/>Tres inquit sunt qui testimonium dant in terra. spiritus. aqua et
+            san<lb ed="#N" n="94" break="no"/>guis. quis enim est qui habet testimomum effusi sanguinis christi:
+            nisi<lb ed="#N" n="95" break="no"/>qui continet a peccatis. Habet et aqua testimonium qui laborat in
+            ge<lb ed="#N" n="96" break="no"/>mitu suo lauans per singulas noctes lectum suum. sane sanctum
+            super<lb ed="#N" n="97" break="no"/>uenisse spirum certissime noua conuersatio testatur. iam vt breuiter
+            <lb ed="#N" n="98"/>a sanguine aqua. et spiritu habens testimonium: si contines a peccatis:
+            <lb ed="#N" n="99"/>si dignos agis penitentie fructus: ssi facis opera vite. hec Bern.
+            <lb ed="#N" n="100"/>Pret. illud argumentum non valet. secluditur ab isto certitudo ad
+            <lb ed="#N" n="101"/>herendi deo: ergo et orandi. immo est hic fallacia consequentis. licet enim
+            <lb ed="#N" n="102"/>adherere deo ex caritate sit in plus quam orare. prout orare est actu
+            <lb ed="#N" n="103"/>existens in statu iusticie consummate: nihilominus orare
+            simpli<lb ed="#N" n="104" break="no"/>citer est in plus quam adherere deo ex caritate.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e1994">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="105"/>obiicitur per Isiud. quod in lectione deus loquitur nobiscum. Dicendum quod
+            si<lb ed="#N" n="106" break="no"/>cut habetur a pho. in diffinitionibus partes sunt in plus: totum est
+            <lb ed="#N" n="107"/>in equo. vnde non est momentis quod in lectione et in oratione deus
+            lo<lb ed="#N" n="108" break="no"/>quatur nobiscum. partes enim diffinitionis non de necessitate esse
+            proprie<lb ed="#N" n="109" break="no"/>id est conuertibiles: sed ipsa tota. vel potest dici vt dicunt aliqui
+            <lb ed="#N" n="110"/>quod sic habetur ab Isiud. ibidem. nos loquimur deo per lectionem. et
+            <lb ed="#N" n="111"/>deus loquitur nobiscum per orationem. vnde cum allocutio signatur. et ex
+            <lb ed="#N" n="112"/>parte dei et ex parte nostra: in diffinitione orationis signat actum ex parte
+            <lb ed="#N" n="113"/>dei.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2016">
+            ⁋ Ad aliud dicendum. quod non diffinitur quod est in motu per illud
+            <lb ed="#N" n="114"/>quod est inquiete. sed potius per illud quod in motu. quia non precise dicitur
+            <lb ed="#N" n="115"/>quod oratio est statio illuminate mentis: sed additur ad fruendum deo. hoc
+            <lb ed="#N" n="116"/>est mentis iote siue erecte ad fruendum. Pret. verbum phoi non
+            <lb ed="#N" n="117"/>intelligitur de quacumque notificatione: sed de diffinitione proprie
+            sum<lb ed="#N" n="118" break="no"/>pta. vnde instantie que possent rationabiliter dari in illis: non
+            <lb ed="#N" n="119"/>habent locum in istis notificationibus.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2032">
+            ⁋ Ad aliud dicendum quod
+            <lb ed="#N" n="120"/>notificatio non est orationis vt oratio conuenit cuicumque: sed potius vt
+            con<lb ed="#N" n="121" break="no"/>uenit homini deo per gratiam adherenti. que et reddit ipsum ad
+            con<lb ed="#N" n="122" break="no"/>templandum expeditum et ad fruendum idoneum. et ideo quando dicitur quod
+            <lb ed="#N" n="123"/>oratio est hominis deo adherentis affectio et familiaris quedam et
+            <lb ed="#N" n="124"/>pia allocutio. cum subinfertur et statio mentis: mens sicut allo
+            <lb ed="#N" n="125"/>cutione diuina redditur illustrata: ita ex adherentia inflammata
+            <lb ed="#N" n="126"/>est. ista duo perfecte sufficiunt ad fruendum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2050">
+            ⁋ Ad vltimum
+            dicen<lb ed="#N" n="127" break="no"/>dum. quod secundum pristianum sunt quedam verba que licet secundum vocem
+            <lb ed="#N" n="128"/>actiua sunt: significatione tamen sunt passiua. vt hoc verbum video.
+            <lb ed="#N" n="129"/>videre enim non est agere sed recipere. licet igitur finitum non sit
+            age<lb ed="#N" n="130" break="no"/>re in infinitum. nec attingere ad illud in agendo: potest tamen
+            il<lb ed="#N" n="131" break="no"/>lud recipere. et sic potest creatura delectabiliter videre deum ab ipso
+            <lb ed="#N" n="132"/>recipiendo non in ipsum agendo. Sic enim dicitur in psalmums. Nec est qui
+            <lb ed="#N" n="133"/>se abscondat a calore eius. et isto modo potest creatura frui
+            creato<lb ed="#N" n="134" break="no"/>re sed quia istud non est nisi quantum dat dominus et quia dat. et vlterius
+            <lb ed="#N" n="135"/>secundum quod creatura se disponit: ideo conuenienter dicitur ad
+            fruen<lb ed="#N" n="136" break="no"/>dum quo quamdiu licet in diffinitione supradicta.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e2075">
+          <head xml:id="v78d89-afz5qm-Hd1e2077">Articulus 9</head>
+          <p xml:id="v78d89-afz5qm-d1e2079">
+            <lb ed="#N" n="137"/>Articulus nonus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2084">
+            <lb ed="#N" n="138"/>COnsequenter queritur de diffinitione Hugo. scilicet hac.
+            <lb ed="#N" n="139"/>Oratio est conuersio in deum. per pium et humilem affectum
+            <lb ed="#N" n="140"/>fide et spe et caritate subnixa. Sic et ratio
+            conue<pb ed="#N" n="565"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>nit omni gratuite conuersioni in deum. ergo minus bene assignatur oratio
+            <lb ed="#N" n="2"/>ni.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2100">
+            ⁋ Item sicut dicit Hugo ibidem. deuotio est conuersio in deum
+            <lb ed="#N" n="3"/>pio et humili affectu. ergo deuotioni conuenit predicta diffinitio. ergo
+            <lb ed="#N" n="4"/>soli orationi non conuenit. male igitur est assignata.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2107">
+            ⁋ Pret. si oratio est
+            <lb ed="#N" n="5"/>pia: vtique et ad deum conuersa. et econuerso. si conuersio est ad deum
+            ne<lb ed="#N" n="6" break="no"/>cessario est pia conuersio. igitur alterum superflue videtur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2115">
+            ⁋ Pret.
+            au<lb ed="#N" n="7" break="no"/>gu. dicit in quodam seuiusmode. sursum cor et non ad dominum est superbia. ergo per
+            contra<lb ed="#N" n="8" break="no"/>rium sursum cor ad dominum humilitas erit. frustra igitur additur pio et
+            <lb ed="#N" n="9"/>humili affectu.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2124">
+            ⁋ Pret. augustinus. diffiniens orationem et sufficientur dicit
+            <lb ed="#N" n="10"/>eam esse affectum pium solum. ergo superfluit addere humilem vt videtur.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2129">
+            ⁋
+            Pre<lb ed="#N" n="11" break="no"/>te. Math. vi. super illud intra cubiculum. glo. fides aperit et spiritus
+            <lb ed="#N" n="12"/>intrat et exaudit. ergo sola dicenda est subnixa. non ergo spe et carita
+            <lb ed="#N" n="13"/>te.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2138">
+            ⁋ Pret. sola iusticia dicitur subnixa. quia satisfactio iusticie est
+            <lb ed="#N" n="14"/>non fidei spei et caritatis. oratio autem est satisfactoria etc.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2143">
+            ⁋ Responsio
+            <lb ed="#N" n="15"/>dicendum est quod diffinitio ista respicit statum iusticie. Iusti autem oratio
+            <lb ed="#N" n="16"/>perfecte ex tribus integratur. primum est consideratio proprie miserie:
+            secum<lb ed="#N" n="17" break="no"/>donmin consideratio diuine clementie: et tercium est recursus ad postulam
+            <lb ed="#N" n="18"/>dum illum qui potest scit et vult dare affluenter. vnde Hugo de virtu
+            <lb ed="#N" n="19"/>te orandi dicit sic. Necesse est vt sic prudenter et vtiliter deum
+            ora<lb ed="#N" n="20" break="no"/>re iugi meditatione animum nostrum exerceamus. et in consideratione
+            <lb ed="#N" n="21"/>miserie nostre discamus quid nobis necesse est petere. et in conside
+            <lb ed="#N" n="22"/>ratione misericordie dei nostri quo desiderio debeamus postulare. ec
+            <lb ed="#N" n="23"/>ce duo prima. et subiungit quantum ad tercium. neque enim homo per deuo
+            <lb ed="#N" n="24"/>tionem ad deum se conuerteret: nisi crederet a deo saluari posse
+            <lb ed="#N" n="25"/>et speraret eum misereri velle. Postremo nisi eum plus quam
+            sua<lb ed="#N" n="26" break="no"/>mala diligeret: nequaquam illa fugiens refugium in ipso eligeret.
+            cre<lb ed="#N" n="27" break="no"/>dit potentiam. sperat misericordiam. amat custodiam. Nihil aliud ergo
+            <lb ed="#N" n="28"/>est oratio quam conuersio in deum per pium et humilem affectum et fide
+            spe<lb ed="#N" n="29" break="no"/>et caritate subnixa. hec Hugo.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2178">
+            ⁋ Ad hoc ergo quod primo obiicitur
+            <lb ed="#N" n="30"/>potest dici. quod ratio assignata non dicit plene esse rationis. nisi
+            intelli<lb ed="#N" n="31" break="no"/>gatur de conuersione ad deum ad aliquid postulandum: non conuenit
+            <lb ed="#N" n="32"/>omni conuersioni gratuite: sed illi solummodo que asscribitur
+            oratio<lb ed="#N" n="33" break="no"/>ni. Est enim quedam conuersio gratuita ad deum. ad eius beneficia
+            <lb ed="#N" n="34"/>iniitienda. et ad eius bonitatem diligendam. et ad eus
+            pulchritudinen<lb ed="#N" n="35" break="no"/>speculandam. et eius potentiam admirandam. et alie huiusmodi: que
+            con<lb ed="#N" n="36" break="no"/>uersiones non sunt orationes.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2197">
+            ⁋ Ad aliud quod obiicitur de
+            deuo<lb ed="#N" n="37" break="no"/>tione dicendum quod deuotio adorationis refert complementum. et ad
+            il<lb ed="#N" n="38" break="no"/>lud operatur. sed tamen conuersio huiusmodi licet fiat ad deum pio et
+            humili<lb ed="#N" n="39" break="no"/>affectu: non dicit perfectum esse orationis: sed illa que est ad aliquid
+            po<lb ed="#N" n="40" break="no"/>stulandum. propter quod non valet argumentum prehabitum. Quod autem
+            <lb ed="#N" n="41"/>conuersio ad postulandum proprie sit de esse orationis ostendit Hugo
+            <lb ed="#N" n="42"/>in potissimo modo orandi dicens. pura oratio est quando ex
+            abundan<lb ed="#N" n="43" break="no"/>tia deuotionis mens ita accenditur. vt cum ad deum postulatura
+            con<lb ed="#N" n="44" break="no"/>uertitur: prem amoris eius magnitudine etiam petitionis sue
+            obliui<lb ed="#N" n="45" break="no"/>scitur. Nota quod dicit ad deum postulatura conuertitur per quod nota
+            <lb ed="#N" n="46"/>tur quod conuersio huiusmodi est ad postulandum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2221">
+            ⁋ Ad tercium et
+            quar<lb ed="#N" n="47" break="no"/>tum dicendum. quod neutrum pretactarum superfluit. quia in oratione exigitur
+            <lb ed="#N" n="48"/>pius et humilis affectus cum conuersione ad deum. habet enim oratio
+            du<lb ed="#N" n="49" break="no"/>plex motiuum. vnum est de diuina clementia. et ex parte illa surgit
+            <lb ed="#N" n="50"/>pius affectus. Alterum miseria propria: et ex illa humilis affectus
+            <lb ed="#N" n="51"/>vnde Hugo de virtute orandi. pius ex consideratione diuine
+            cle<lb ed="#N" n="52" break="no"/>mentie: humilis ex consideratione infirmitatis sue. hec Hugo.
+            <lb ed="#N" n="53"/>Ultra hoc autem duplex habet motiuum quo tendit in deum et propter hoc
+            <lb ed="#N" n="54"/>complete dicitur oratio conuersio in deum per pium et humilem affectum.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2241">
+            ⁋ Ad
+            <lb ed="#N" n="55"/>aliud quo queritur quare scilicet Augustinus non ponit humilem affectum
+            si<lb ed="#N" n="56" break="no"/>cut pium. oicendum quod bene nobis administrabat petendi
+            materi<lb ed="#N" n="57" break="no"/>am pro nostra miseria et infirmitate. plenior enim curatio
+            petendi<lb ed="#N" n="58" break="no"/>consistit in diuina clementia et bonitate. Hec enim est que mate
+            <lb ed="#N" n="59"/>rialiter et complete materiam respirandi et fiduciam impetrandi ad
+            <lb ed="#N" n="60"/>ministrat. Et ideo augustinus. dans magis formalem diffinitionem
+            oratio<lb ed="#N" n="61" break="no"/>nis. quod patet quia illam per rectum dat non per obliquum: solummodo
+            tan<lb ed="#N" n="62" break="no"/>git illam. Hugo autem totum illud quo manuducimur tangit: et
+            <lb ed="#N" n="63"/>ideo illa duo ponit non in recto sed in obliquo.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2263">
+            ⁋ Ad aliud
+            <lb ed="#N" n="64"/>dicendum. quod quando dicitur fides aperit et impetrat: intelligitur de
+            fi<lb ed="#N" n="65" break="no"/>de per dilectionem operante. quia aliter mortua est. et nihil operatur. nec
+            <lb ed="#N" n="66"/>ex hoc sequitur quod oratio sola fide sit subnixa: immo spe et caritate quod
+            <lb ed="#N" n="67"/>caritate iam patet: quia sine caritate planum est quod non aperit. nec
+            <lb ed="#N" n="68"/>impetrat sine spe. sicut plane dicit Isido. de summo
+            bono<lb ed="#N" n="69" break="no"/>libr. iii. ca. vii. Inaniter oramus si spei fiduciam non habemus.
+            pe<lb ed="#N" n="70" break="no"/>tamus ergo vt ait apostolus. vnusquisque postulet in fide nihil
+            hesi<lb ed="#N" n="71" break="no"/>tans. Qui enim hesitat similis est fluctui maris qui a vento
+            mo<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>uetur et circumfertur Iaco. i.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2286">
+            ⁋ Ad vltimum dicendum. quod oratio ad hoc
+            <lb ed="#N" n="73"/>quod meritoria sit. fidem spem et caritatem necessario presupponit.
+            <lb ed="#N" n="74"/>et ideo dicitur illis subnixa. et sic illis: vt nulla alia virtute vt
+            <lb ed="#N" n="75"/>in consequentibus planius patebit. Quod si satisfactoria sit: tunc
+            iu<lb ed="#N" n="76" break="no"/>sticie est vt generis remoti. satisfactionis vt propinqui. nec propter
+            <lb ed="#N" n="77"/>hoc oportet quod iusticia sit subnixa: sed bene habet ab illa
+            elici<lb ed="#N" n="78" break="no"/>quatenus est satisfactoria.
+          </p>
+        </div>
+        <div xml:id="v78d89-afz5qm-Dd1e2303">
+          <head xml:id="v78d89-afz5qm-Hd1e2305">Articulus 10</head>
+          <p xml:id="v78d89-afz5qm-d1e2307">
+            <lb ed="#N" n="79"/>⁋ Articulus decimus
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2312">
+            <lb ed="#N" n="80"/>COnsequenter queritur de illa diffinitione. oratio est bonum
+            <lb ed="#N" n="81"/>desiderium. que habetur in glo. super illud. i. Thess. v. si
+            <lb ed="#N" n="82"/>ne intermissione orate. sic. Hec diffinitio non conuenit
+            <lb ed="#N" n="83"/>soli orationi cum frequentur multi habeant bonum desiderium: vtpote
+            <lb ed="#N" n="84"/>illi qui habent bonum desiderium subueniendi pauperibus. et
+            intrandi<lb ed="#N" n="85" break="no"/>religionem et expurgandi peccata siue vicia.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2328">
+            ⁋ Item aliud est deside
+            <lb ed="#N" n="86"/>rium et expressio desiderii. oratio consistit in expressione desiderii. ergo non
+            <lb ed="#N" n="87"/>est desiderium. et ita non est bonum desiderium.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2335">
+            ⁋ Item desiderium non
+            <lb ed="#N" n="88"/>dicit aliquorum inquisitionem. sed oratio est rerum inuisibilium inquisitio: ergo oratio
+            <lb ed="#N" n="89"/>non est desiderium.
+          </p>
+          <p xml:id="v78d89-afz5qm-d1e2343">
+            ⁋ Responsio. quod oratio dicitur bonum desiderium
+            impro<lb ed="#N" n="90" break="no"/>prie et communiter loquendo. eo modo quo vita iusticie dicitur oratio. vnde glo.
+            <lb ed="#N" n="91"/>augustin. super illud. i. Thess. v. Sine intermissione orate id est semper iuste
+            <lb ed="#N" n="92"/>viuite. iustus numquam desinit orare nisi desinat iustus esse. semper orat qui
+            <lb ed="#N" n="93"/>semper bene agit. ipsum enim desiderium bonum est oratio. et si continuum est
+            <lb ed="#N" n="94"/>desiderium: continua est oratio. hec glo. Et eo modo quo actiones
+            <lb ed="#N" n="95"/>christi dicte sunt orationes. Heb. v. preces supplicationesque ad de
+            <lb ed="#N" n="96"/>um qui potest illum saluum facere etc. glo. preces et supplicationes
+            <lb ed="#N" n="97"/>christi: dicit actionem et vitam christi. cuius omnis actio fidelium est
+            <lb ed="#N" n="98"/>instructio: est ad deum oratio. Pret. vt supra tactum est. nec hoc
+            of<lb ed="#N" n="99" break="no"/>ficio. nec aliarum supradictarum plures dicunt complete esse orationis:
+            <lb ed="#N" n="100"/>sed potius esse orationis relatum diuersimode secundum modos superius
+            <lb ed="#N" n="101"/>assignatos. ex his patet responsio ad omnia quesita.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

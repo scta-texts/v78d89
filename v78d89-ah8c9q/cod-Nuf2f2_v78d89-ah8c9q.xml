@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 98, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 98, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="621"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ah8c9q"><!-- q98m2 -->
+        <head xml:id="v78d89-ah8c9q-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ah8c9q-Hd1e103" type="question-title">Utrum laudabilior sit abstinentia ab esu carnium vel a potu vini</head>
+        <p xml:id="v78d89-ah8c9q-d1e106">
+          <lb ed="#N" n="39"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e111">
+          <lb ed="#N" n="40"/>COnsequenter queritur. vtrum laudabilius est
+          absti<lb ed="#N" n="41" break="no"/>nere ab esu carnium: aut a potu vini. Quod
+          lau<lb ed="#N" n="42" break="no"/>dabilius sit abstinere a potu vini: videtur
+          <lb ed="#N" n="43"/>sic. Eclesiastici. xxxi. Multos exterminauit vinum
+          <lb ed="#N" n="44"/>Glo. Ebrietas multos subuertit: que sensum minuit: iram
+          <lb ed="#N" n="45"/>excitat: libidinem inflammat: animi secreta reuelat. Ex his
+          <lb ed="#N" n="46"/>patet quod excessus in potu vini hominem valde ledit et vituperabilem
+          <lb ed="#N" n="47"/>reddit. a quibus conseruatur in abstinendo a vino. non autem tantum
+          <lb ed="#N" n="48"/>ledit hominem excessus in commestione carnium. Laudabilior ergo
+          <lb ed="#N" n="49"/>est abstinentia a vino quam a carnibus.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e135">
+          ⁋ Pret. in eodem. Uinum
+          <lb ed="#N" n="50"/>multum potatum irritationem et iram et ruinas multas fac. Ama
+          <lb ed="#N" n="51"/>ritudo anime etc. Glo. patet irritationem et iram et ruinas
+          ebrie<lb ed="#N" n="52" break="no"/>tate nasci et amaritudinem anime et animosam offensionem: virtutes
+          <lb ed="#N" n="53"/>minorari et scelerum vulnera multiplicari. Ex hoc patet quod excel
+          <lb ed="#N" n="54"/>sus in potu vini multum deiicit et deformat hominem: et magis
+          <lb ed="#N" n="55"/>quam excessus in esu carnium. et ita idem quod prius.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e152">
+          ⁋ Pret. ad
+          <lb ed="#N" n="56"/>Epheos. v. Nolite inebriari vino in quo est luxuria. Glo. nihil
+          <lb ed="#N" n="57"/>est quod minus conueniat arguenti quam inebriari vino.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e159">
+          ⁋ Pret.
+          <lb ed="#N" n="58"/>Hiero. ad Eustochium. Hoc moneo hoc obtestor: vt
+          spon<lb ed="#N" n="59" break="no"/>sa christi vinum fugiat pro veneno. et hoc monet virginem: quia vinum
+          <lb ed="#N" n="60"/>maxime castitatem impugnat. ergo abstinere a vino laudabilius est
+          <lb ed="#N" n="61"/>quam abstinere ab esu carnium.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e170">
+          ⁋ Pret. secundum phoscum. sitis est
+          appe<lb ed="#N" n="62" break="no"/>titus frigidi et humidi: fames calidi et sicci. Sed minor est
+          <lb ed="#N" n="63"/>delectatio in appetitione frigidi et humidi quam in appetitione
+          <lb ed="#N" n="64"/>calidi et sicci. quia calidum appositum caliditatem interiorem
+          au<lb ed="#N" n="65" break="no"/>gmentat et siccum siccitatem. ex cuius appositione prouenit
+          disten<lb ed="#N" n="66" break="no"/>parantia que nature desipit. non ita fit ex appositione frigidi et
+          hu<lb ed="#N" n="67" break="no"/>midi id est ita frequenter et intense. Ex quo patet quod maior est
+          dele<lb ed="#N" n="68" break="no"/>ctatio in potu quam in cibo. sed virtus carnales fugit delicias.
+          <lb ed="#N" n="69"/>laudabilius est ergo abstinere a potu quam a cibo.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e190">
+          ⁋ Contra. Eccesasti.
+          <lb ed="#N" n="70"/>xxxi. Equa vita hominibus in sobrietate vinum potatum. Glo.
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>vinum sobrie potatum equalitatem vite non tollit: sed ornamentum
+          <lb ed="#N" n="72"/>omnium virtutum sobrietas potus adducit. quare cum laus
+          consi<lb ed="#N" n="73" break="no"/>stat circa vite equalitatem quam non tollit vinum sobrie potatum.
+          <lb ed="#N" n="74"/>apparet quod abstinere a vino non est multum laudabile.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e206">
+          ⁋ Pret.
+          <lb ed="#N" n="75"/>lapsus humani generis fuit per cibum: non per potum. ergo cum ratione
+          la<lb ed="#N" n="76" break="no"/>psus illius indicitur abstinentia et requiritur: patet quod magis debe
+          <lb ed="#N" n="77"/>mus abstinere a cibo quam a potu.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e215">
+          ⁋ Pret. ad idem valet quod
+          <lb ed="#N" n="78"/>dyabolus dominum de cibo temptauit: non de potu. Ex quo videtur
+          <lb ed="#N" n="79"/>quod huiusmodi temptatio est violentior ad deiiciendum: quare absti
+          <lb ed="#N" n="80"/>nentia contria magis necessaria.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e225">
+          ⁋ Pret. virtus abstinentie
+          princi<lb ed="#N" n="81" break="no"/>paliter consistit circa temporantiam nutrimenti. principalius autem
+          consi<lb ed="#N" n="82" break="no"/>stit ratio siue virtus nutritiua circa cibum quam circa potum. ergo etc.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e232">
+          <lb ed="#N" n="83"/>⁋ Pret. cum monachi abstinent a carnibus et saraceni
+          absti<lb ed="#N" n="84" break="no"/>nent a vino. si laudabilius esset abstinere a vino quam a
+          carni<lb ed="#N" n="85" break="no"/>bus: tunc quantum ad hoc laudabilior esset lex saracenorum quam
+          regu<lb ed="#N" n="86" break="no"/>la monachorum. quod est absurdum dicere.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e243">
+          ⁋ Item queritur. quare
+          vni<lb ed="#N" n="87" break="no"/>uersalis ecclesia instituit abstinentiam a cibo magis quam a
+          po<lb ed="#N" n="88" break="no"/>tu: nisi laudabilior esset hec quam illa.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e250">
+          ⁋ Responsio. ad hoc dicunt
+          qui<lb ed="#N" n="89" break="no"/>dam. quod quando iniunguntur simul respectu eiusdem persone: abstinen
+          <lb ed="#N" n="90"/>tia a carnibus et a vino id est quando vnus et idem simul abstiet ab
+          <lb ed="#N" n="91"/>vtroque: tunc laudabilior est in ipso abstinentia a vino quam a
+          car<lb ed="#N" n="92" break="no"/>nibus. quia abstinentia a vino magis est purgatiua: magis
+          sa<lb ed="#N" n="93" break="no"/>tisfactoria: et magis eleuatiua. Magis purgatiua est: quia
+          <lb ed="#N" n="94"/>per huiusmodi abstinentiam magis mitigatur carnalis concupiscentia quam
+          <lb ed="#N" n="95"/>vinum auget. Item magis satisfactoria est: quia magis penal.
+          <lb ed="#N" n="96"/>vnde penalius est homini a vino abstinere quam a carnibus. Item
+          <lb ed="#N" n="97"/>magis eleuatiua est: quia vinum magis impedit eleuationem
+          men<lb ed="#N" n="98" break="no"/>tis ad superna et magis turbat rationem. vnde in lege
+          veteri<lb ed="#N" n="99" break="no"/>prohibebantur sacerdotes bibere vinum quando intrare debebant
+          <lb ed="#N" n="100"/>sanctuarium. nunquam tamen prohibebatur eis esus carnium. Sed
+          <lb ed="#N" n="101"/>quando diuise sunt huiusmodi abstinentie. ita quod homo abstinet vel a
+          <lb ed="#N" n="102"/>vino tantum vel a carnibus tantum: tunc dico quod laudabilior est
+          ab<lb ed="#N" n="103" break="no"/>stinentia a carnibus quam a vino. et hoc quia abstinentia a
+          car<lb ed="#N" n="104" break="no"/>nibus est salubrior: et abstinentia a vino minus. Item
+          possi<lb ed="#N" n="105" break="no"/>bilior est: quia leuius abstinet homo a carnibus quam a vino.
+          <lb ed="#N" n="106"/>Item rationabilior est: quia est contra concupiscentiam gule
+          <lb ed="#N" n="107"/>per quam peccatum in homines introductum est. Etsi
+          Ma<lb ed="#N" n="108" break="no"/>chumetus iniunxit abstinentiam a vino: hoc non fecit qua
+          <lb ed="#N" n="109"/>huiusmodi abstinentia sit magis meritoria et magis
+          pla<lb ed="#N" n="110" break="no"/>cens deo. sed quia magis facit ad conseruationem
+          reipu<lb ed="#N" n="111" break="no"/>blice de qua semper Arabes curauerunt. quoniam cum in regione
+          <lb ed="#N" n="112"/>calida sit vinum fortissimum: si vterentur saraceni vino
+          for<lb ed="#N" n="113" break="no"/>tissimo sicut et nos: cum ipsi sint sobriii: quotidie essent ebrii
+          <lb ed="#N" n="114"/>et magis voluptatibus dediti: et se mutuo interficerent.
+          <lb ed="#N" n="115"/>propter hoc legistator eorum prohibuit eis vinum. sic ergo vt
+          <lb ed="#N" n="116"/>dictum est: vna via ista abstinentia laudabilior est: alia
+          <lb ed="#N" n="117"/>via illa. Et concedende sunt rationes ad vtranque partem.
+          <lb ed="#N" n="118"/>procedunt enim secundum diuersas vias.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e318">
+          ⁋ Licet autem
+          respon<lb ed="#N" n="119" break="no"/>sio illa probabilis sit: aliter tamen videtur dicendum. quod
+          ab<lb ed="#N" n="120" break="no"/>stinentia a vino sit laudabilior simpliciter quam a carnibus.
+          <lb ed="#N" n="121"/>quia longe fructuosior etiam in diuersis personis aliis
+          existen<lb ed="#N" n="122" break="no"/>tibus eisdem scilicet conditionibus personarum et modis
+          absti<lb ed="#N" n="123" break="no"/>nendi. Preter enim vtilitates pretactas que proueniunt
+          quo<lb ed="#N" n="124" break="no"/>dammodo ex abstinentia a potu vini: proueniunt et alie. quia
+          si<lb ed="#N" n="125" break="no"/>cut vini potatio ineptam confert leticiam: imprudentem
+          ef<lb ed="#N" n="126" break="no"/>ficit in periculis precauendis: in temptationibus infirmum:
+          <lb ed="#N" n="127"/>in exercitio operum virtutum inualidum. per abstinentiam
+          <lb ed="#N" n="128"/>autem a vino hec omnia cessant. vnde huiusmodi
+          abstinen<lb ed="#N" n="129" break="no"/>tia quasi a contrario sensu efficit habiliorem ad dolendum de
+          <lb ed="#N" n="130"/>commissis: prudentiorem in precauendis periculis: et maxime in
+          peri<lb ed="#N" n="131" break="no"/>culo recidiuationis. fortitudinem ministrat in temptationibus
+          <lb ed="#N" n="132"/>deuincendis: expeditiorem in operibus virtutum exercendis. hec
+          <lb ed="#N" n="133"/>autem commoda non ita efficaciter proueniunt ex abstinentia ab
+          esu<lb ed="#N" n="134" break="no"/>carnium quam frequenter concomitatur nimia vini potatio. vnde
+          <lb ed="#N" n="135"/>videtur laudabilius abstinere a potu vini quam ab esu
+          car<lb ed="#N" n="136" break="no"/>nium.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e360">
+          ⁋ Ad illud quod primo obiicitur contra hoc. scilicet quod vinum
+          <lb ed="#N" n="137"/>sobrie potatum equalitatem vite non tollit: tamen quia
+          de<lb ed="#N" n="138" break="no"/>facili et periculose declinatur ab ista sobrietate in potu
+          vi<lb ed="#N" n="139" break="no"/>ni et tollitur vite equalitas. et propter predicta que ex
+          abstinen<lb ed="#N" n="140" break="no"/>tia vini proueniunt: valde laudabilis est abstinentia a vino.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e372">
+          <lb ed="#N" n="141"/>⁋ Ad aliud quod obrcitur. quod lapsus hois accidit per cibum etc.
+          <pb ed="#N" n="622"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>potest dici quod non accidit ex cibo ratione cibi: sed ratione modi quo
+          <lb ed="#N" n="2"/>sumptus fuit contra diuinam prohibitionem. vnde inobedientia per se
+          <lb ed="#N" n="3"/>fuit et proprie causa lapsus: cibus non nisi per accdens. Preterea. hec ratio
+          <lb ed="#N" n="4"/>est magis congruitatis quam necessitatis. quantum autem ad necessitatem
+          ef<lb ed="#N" n="5" break="no"/>ficacior est ratio quod laudabilior est abstinentia a vino quam a
+          car<lb ed="#N" n="6" break="no"/>ne: vt ex dictis patet.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e394">
+          ⁋ Ad illud quod obiicitur. quod dyabolus
+          tem<lb ed="#N" n="7" break="no"/>ptauit dominum de cibo etc. potest dici quod dyabolus non attendebat
+          ten<lb ed="#N" n="8" break="no"/>ptando dominum violentiam temptationis maiorem vel minorem:
+          <lb ed="#N" n="9"/>sed facti dominici seriem et opportunitatem et conuenientiam temptandi.
+          <lb ed="#N" n="10"/>Nam quia dominus post ieiunium. xl. dierum esuriebat: conuenimebat secundum
+          <lb ed="#N" n="11"/>astutiam spiritus temptantis. et opportunum videbatur de cibo et non
+          <lb ed="#N" n="12"/>de potu.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e410">
+          ⁋ Ad hoc quod obiicitur. quod virtus abstinentie
+          principa<lb ed="#N" n="13" break="no"/>liter consistit circa temparantiam nutrimenti etc. potest dici quod licet
+          vir<lb ed="#N" n="14" break="no"/>tus abstinentie ibi consistat: nulla tamen ex hoc est ratio consequentie
+          <lb ed="#N" n="15"/>quod laudabilior est abstinentia a cibo quam a potu. Quod autem
+          tem<lb ed="#N" n="16" break="no"/>parantia laudabilior sit abstinentia: magis est a specialibus
+          condi<lb ed="#N" n="17" break="no"/>tionibus et circumstantiis quam a generali que attenditur in
+          genera<lb ed="#N" n="18" break="no"/>litate abstinendi a cibo et potu. quia ergo vt patet ex dictis plures
+          <lb ed="#N" n="19"/>sunt conditiones laudis circumstantes abstinentiam a vino: quam sint
+          <lb ed="#N" n="20"/>circa abstinentiam a carne et rationes quare hec abstinentia debet
+          <lb ed="#N" n="21"/>dici laudabilior. isti sententie est adherendum.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e432">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="22"/>obiicitur. quod monachi abstinent a carnibus et saraceni a
+          vino<lb ed="#N" n="23" break="no"/>etc. potest dici quod ista ratio nullo modo preiudicat sententie supradicte. de
+          <lb ed="#N" n="24"/>preferenda abstinentia a potu vini: abstinentie ab esu carnium:
+          <lb ed="#N" n="25"/>quantum ad debitum laudis exhibende. Cum enim laus exhibenda
+          <lb ed="#N" n="26"/>sit in testimonium virtutis que consistit circa actus et operationes
+          sin<lb ed="#N" n="27" break="no"/>gulares. etsi abstinentia a vino in isto subiecto
+          perticulari<lb ed="#N" n="28" break="no"/>vel isto ratione aliarum conditionum que circumstant hanc personam
+          <lb ed="#N" n="29"/>vel illam cui omnia cooperantur in bonum sit laudabilis: non tamen est
+          <lb ed="#N" n="30"/>abstinentia in infideli. vtpote in saraceno aliquo modo
+          lauda<lb ed="#N" n="31" break="no"/>bilis: cum secundum quod dicitur in proposito laudabile dicitur a laude que
+          at<lb ed="#N" n="32" break="no"/>testatur virtuti morali siue meritorie. vnde hoc argumentum non
+          va<lb ed="#N" n="33" break="no"/>let. laudabilior est abstinentia a vino in christiano quoam
+          abstinen<lb ed="#N" n="34" break="no"/>tia a carnibus. igitur laudabilior est abstinentia a vino in
+          sara<lb ed="#N" n="35" break="no"/>ceno quam abstinentia a carnibus in christiano.
+        </p>
+        <p xml:id="v78d89-ah8c9q-d1e465">
+          ⁋ Ad vltimum. quia
+          <lb ed="#N" n="36"/>vt tactum est: salubrior est quantum ad sustentationem subiecti
+          vl<lb ed="#N" n="37" break="no"/>persone abstinentia ab esu carnium quam abstinentia a vino. quod est
+          <lb ed="#N" n="38"/>non solummodo potus: sed et cibus et potus. et tamen hoc est valde
+          coope<lb ed="#N" n="39" break="no"/>rans virtuti digestiue: cuius interest prouidere saluti
+          membro<lb ed="#N" n="40" break="no"/>rum. ecclesia etiam quantum ad salutem personarum similiter et corporum magis
+          <lb ed="#N" n="41"/>decreuit fieri abstinentiam a carnibus generaliter quam a vino.
+          <lb ed="#N" n="42"/>hec infra plenius patebunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 11, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 11, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="97"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3e772"><!-- q11m6 -->
+        <head xml:id="v78d89-a3e772-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-a3e772-Hd1e103" type="question-title">De definitione Iohannis</head>
+        <p xml:id="v78d89-a3e772-d1e106">
+          <lb ed="#N" n="106"/>⁋ Membrum sextum
+        </p>
+        <p xml:id="v78d89-a3e772-d1e111">
+          <lb ed="#N" n="107"/>COnsequenter queritur de diffinitione Ioh.
+          <lb ed="#N" n="108"/>dama. Baptismus est principium alterius vite
+          <lb ed="#N" n="109"/>etc. hec enim omnia videntur conuenire
+          caracte<lb ed="#N" n="110" break="no"/>ri. quia per ipsum tanquam immediatam
+          dispositio<lb ed="#N" n="111" break="no"/>nem ad gratiam fiunt in nobis primicie spiritus etc.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e124">
+          ⁋ Prete.
+          <lb ed="#N" n="112"/>idem videtur primicie spiritus et principium alterius vite.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e130">
+          ⁋ Item
+          <lb ed="#N" n="113"/>principium vite spiritualis non potest esse nisi vel efficiens vel
+          fi<lb ed="#N" n="114" break="no"/>nalis vel formalis vel materialis. Sed efficiens et finalis
+          <lb ed="#N" n="115"/>est tantum deus. Uita enim spiritualis solum dicitur que est ab ipso
+          <lb ed="#N" n="116"/>et ad ipsum. principium autem formale est ipsa gratia:
+          materiale<lb ed="#N" n="117" break="no"/>vero anima. ergo baptismus nullo modo est principium.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e143">
+          ⁋ Item
+          <lb ed="#N" n="118"/>Mathei vlti. Ite docete omnes gentes. dicit glo. congruus ordo.
+          <lb ed="#N" n="119"/>quia nisi recipiat anima fidem: non est conferendus ei baptismus.
+          <lb ed="#N" n="120"/>et non potest intelligi de fide offerentium. non enim illa exigitur neces
+          <lb ed="#N" n="121"/>sario: sed ecclesie. ergo fides precedit baptismum. sed fides est
+          pri<lb ed="#N" n="122" break="no"/>ma gratia: non ergo primicie spiritus dantur in baptismo.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e156">
+          ⁋ Item
+          <lb ed="#N" n="123"/>Hiero. omnis qui iam sue voluntatis arbiter constitutus est.
+          <lb ed="#N" n="124"/>cum accedit ad sacramentum baptismi. nisi peniteat eum
+          ve<lb ed="#N" n="125" break="no"/>teris vite: nouam inchoare non potest. ergo ante haptismum
+          exi<lb ed="#N" n="126" break="no"/>gitur gratia gratum faciens in suscipiente.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e167">
+          ⁋ Pret. ex his
+          se<lb ed="#N" n="127" break="no"/>quitur. quod partes diffinitionis non conueniunt semper ipsi diffinito.
+          <lb ed="#N" n="128"/>et ita diffinitio non est vniuersalis vniuersalitate temporis: quia
+          <lb ed="#N" n="129"/>baptismus non est semper principium alterius vite per quod sunt
+          primi<lb ed="#N" n="130" break="no"/>tie spiritus.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e178">
+          ⁋ Pret. omnes ille videntur conuenire gratie que confertur
+          <lb ed="#N" n="131"/>in baptismo. ergo ipsa est sacramentum baptismi.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e183">
+          ⁋ Pret. cum
+          <lb ed="#N" n="132"/>ver gratiam baptismalem reformetur imago in anima. melius
+          <lb ed="#N" n="133"/>deberet dicere imago quam sigillum.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e191">
+          ⁋ Pret. videtur insufficiens. per
+          <lb ed="#N" n="134"/>gratiam enim baptismalem non solum custoditur quis a malo et
+          illu<lb ed="#N" n="135" break="no"/>minatur ad verum: sed etiam acceditur ad bonum et roboratur ad
+          ar<lb ed="#N" n="136" break="no"/>duum. quare ergo solum ponit illa duo scilicet custodiam a malo.
+          <lb ed="#N" n="137"/>et illuminationem in vero.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e202">
+          ⁋ Item queritur de hoc quod dicitur
+          <lb ed="#N" n="138"/>ibidem. remissio peccatorum omnibus datur in baptismo: gratia
+          <lb ed="#N" n="139"/>autem spus secundum proportionem fidei et purgationis. ex hoc obiicitur sicut
+          <lb ed="#N" n="140"/>se habet baptismum ad remissionem peccatorum: sic fides ad gratie
+          <pb ed="#N" n="98"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>collationem. sed baptismus precedit remissionem natura: adminus
+          er<lb ed="#N" n="2" break="no"/>go fides gratiam.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e220">
+          ⁋ Pret. quare peccatorum remissionem appropriat
+          <lb ed="#N" n="3"/>baptismo gratiam vero fidei: cum tamen vtrumque fiat per baptismum
+          <lb ed="#N" n="4"/>Si dicatur quod peccatorum remissio equaliter datur omnibus. gratia
+          <lb ed="#N" n="5"/>autem id est gratie actus vel vsus exigit aliquod meritum a parte
+          <lb ed="#N" n="6"/>libro arto. secundum enim quod quis se preparat et confidit in deo: secundum hoc
+          gra<lb ed="#N" n="7" break="no"/>tia cooperatur plus vel minus suo li. arbtro.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e233">
+          ⁋ Contra. tanta gratia
+          <lb ed="#N" n="8"/>siue libro arbtro cum tanta gratia: potest in tantum actum sine aliquo
+          <lb ed="#N" n="9"/>merito precedenti.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e240">
+          ⁋ Pret. in baptismo datur gratia et remittitur
+          <lb ed="#N" n="10"/>peccatum a virtute influente a passione christi. que cum sit vna et ea
+          <lb ed="#N" n="11"/>dem et equaliter se habens respectu omnium: equaliter fit in
+          <lb ed="#N" n="12"/>omnibus vtcumque baptismum suscipientibus.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e249">
+          ⁋ Pret. cum preponat
+          <lb ed="#N" n="13"/>remissionem peccati gratie infusioni. videtur peruertere ordinem.
+          <lb ed="#N" n="14"/>Nam naturaliter est prius lucis infusio quam expulsio tenebra
+          <lb ed="#N" n="15"/>rum.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e259">
+          ⁋ Item queritur de diuersitate illarum sex perticularum que
+          <lb ed="#N" n="16"/>in diffinitione ponuntur.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e264">
+          ⁋ Ad primum dicendum. quod non conuenit
+          <lb ed="#N" n="17"/>diffinitio caracteri. eo modo quo conuenit baptismo. Nam
+          ba<lb ed="#N" n="18" break="no"/>ptismus est sicut dispositio exterior ad hoc quod fiant illa sex in
+          no<lb ed="#N" n="19" break="no"/>bis. Unde dicitur efficere: quia disponit exterius ad hoc vt illud fiat
+          <lb ed="#N" n="20"/>in nobis. caracter vero vt dispositio interior. ergo vtrique conuenit
+          <lb ed="#N" n="21"/>sed alio modo vni sicut dispositioni exteriori: alio sicut
+          dispo<lb ed="#N" n="22" break="no"/>sitioni interiori.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e280">
+          ⁋ Ad aliud patebit responsio infra in assigna
+          <lb ed="#N" n="23"/>tione modorum differendi pertium diffinitionis.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e285">
+          ⁋ Ad illud quod
+          obii<lb ed="#N" n="24" break="no"/>citur de causa. dicendum quod deus est principium efficiens: et baptismus
+          <lb ed="#N" n="25"/>sed differenter. quia deus principaliter efficiendo: baptismus disponendo
+        </p>
+        <p xml:id="v78d89-a3e772-d1e292">
+          <lb ed="#N" n="26"/>⁋ Ad aliud quod obiicitur. quod fides et gratia precedunt baptismum.
+          di<lb ed="#N" n="27" break="no"/>cendum quod verum est. Nam deus sufficientur se preparanti. statim infundit
+          <lb ed="#N" n="28"/>gratiam. non tamen ex necessitate sed mera liberalitate. Nihilominus
+          <lb ed="#N" n="29"/>tamen baptismus inquantum est de sua virtute in subiecto bene disposito
+          <lb ed="#N" n="30"/>efficit gratiam. et propter hoc dicitur quod primicie spiritus dantur in baptis
+          <lb ed="#N" n="31"/>mo. Potest tamen impediri per fictionem: vel preueniri vt in
+          adul<lb ed="#N" n="32" break="no"/>tis digne accedentibus. eoquod non alligauit deus potentiam suam
+          <lb ed="#N" n="33"/>sacramentis quin sine ipsis conferat gratiam quando vult.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e312">
+          ⁋ Ad
+          <lb ed="#N" n="34"/>hoc quod obiicitur de vniuersalitate. Resonsio partes in diffinitione
+          <lb ed="#N" n="35"/>secundum habitum vel virtutem debent accipi non secundum actum. vt cum
+          di<lb ed="#N" n="36" break="no"/>citur homo est animal rationale mortale non actu rationcinans: sed
+          <lb ed="#N" n="37"/>aptum natum rationcinari. dico autem quod sacramentum in bene
+          <lb ed="#N" n="38"/>disposito susceptibili. gratiam infundit virtualiter et si non
+          <lb ed="#N" n="39"/>actualiter.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e329">
+          ⁋ Ad hoc quod obiicitur quod omnes perticule conueniunt gratie
+          <lb ed="#N" n="40"/>dicendum quod non est verum in illa ratione qua conueniunt baptil
+          <lb ed="#N" n="41"/>mo. quia nec hec pars que generatio neque hec que est
+          sigil<lb ed="#N" n="42" break="no"/>lum.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e338">
+          ⁋ Ad aliud dicendum. quod baptismus est sacramentum fidei
+          <lb ed="#N" n="43"/>cuius est proprium illuminare ad cognitionem veritatis. propter
+          <lb ed="#N" n="44"/>hoc quod specialiter tangitur in diffinitione baptismi. non tamen per
+          <lb ed="#N" n="45"/>hoc excluduntur alia scilicet accessus ad bonum et roboratio ad arduum
+        </p>
+        <p xml:id="v78d89-a3e772-d1e347">
+          <lb ed="#N" n="46"/>⁋ Ad illud quod queritur. quare peccati remissio baptismo
+          at<lb ed="#N" n="47" break="no"/>tribuitur non gratie collatio. Responsio idem est secundum essentiam
+          pec<lb ed="#N" n="48" break="no"/>catorum remissio et gratie infusio. similiter et lucis infusio et
+          <lb ed="#N" n="49"/>tenebrarum expulsio. differunt tamen ratione. et ibi accipitur peccatorum
+          <lb ed="#N" n="50"/>remissio pro ipsa gratia vt est mundans animam et peccata delens. qui
+          <lb ed="#N" n="51"/>effectus comuniter et equaliter datur omnibus in baptismo. et
+          <lb ed="#N" n="52"/>quantum ad remissionem culpe et pene: propter vnitatem virtutis
+          <lb ed="#N" n="53"/>sacramentalis descendentis a passione christi. Quod autem postea
+          di<lb ed="#N" n="54" break="no"/>cit gratia etc. ibi accipitur gratia prout facit dignum vita eterna.
+          <lb ed="#N" n="55"/>ad hoc autem cooperatur et purgatio antecedens. Non enim secundum
+          <lb ed="#N" n="56"/>capacitatem naturalem ipsorum naturalium necessario datur gratia
+          <lb ed="#N" n="57"/>sed secundum quod quisque ex suis naturalibus se preparat. vnde ex
+          dono<lb ed="#N" n="58" break="no"/>naturali quod habet homo se preparando. nihilominus potest
+          <lb ed="#N" n="59"/>accipere gratiam differenter propter diuersitatem voluntatis. ex hoc
+          <lb ed="#N" n="60"/>patet solutio. quare peccatorum remissionem preordinat. gratia enim vt
+          <lb ed="#N" n="61"/>mundans animam seipsam precedit naturaliter vt facit dignum
+          vi<lb ed="#N" n="62" break="no"/>ta eterna.
+        </p>
+        <p xml:id="v78d89-a3e772-d1e386">
+          ⁋ Ad hoc quo queritur de istis sex differentiis.
+          Respon<lb ed="#N" n="63" break="no"/>sio. per illas sex differentias signatur gratia baptismalis secundum
+          di<lb ed="#N" n="64" break="no"/>uersas sui comparationes. potest enim gratia illa comparari ad
+          cau<lb ed="#N" n="65" break="no"/>sam efficientem scilicet spirumsanctum. sicut dicitur primicie spiritus id est
+          pri<lb ed="#N" n="66" break="no"/>mum donum gratum faciens. vel ad finalem sicut dicitur principium
+          <lb ed="#N" n="67"/>vite. vel ad materialem scilicet ad suum subiectum. et hoc dupliciter
+          <lb ed="#N" n="68"/>vel secundum essentiam suam: vel secundum potentias. secundum essentiam dupliciter
+          <lb ed="#N" n="69"/>vel operando per appropriationem ad patrem: et sic est regenera
+          <lb ed="#N" n="70"/>tio anime. vel ad filium: et sic dicitur sigillum. Filius enim est imago
+          <lb ed="#N" n="71"/>patris. precedentes autem effectus pertinent ad spiriumsanctum. Si
+          compara<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>retur ad animam secundum suas potentias hoc est dupliciter. vel secundum
+          <lb ed="#N" n="73"/>cognitiuam sic dicitur illuminatio. vel secundum motiuam et sic custodia
+          <lb ed="#N" n="74"/>custodit enim a malo et in bono que sunt due partes iusticie. vel
+          <lb ed="#N" n="75"/>aliter vt notetur reparatio anime quantum ad substantiam et potentias et
+          <lb ed="#N" n="76"/>ita reparatio imaginis dei. reparatio anime per primas differentias:
+          re<lb ed="#N" n="77" break="no"/>paratio potentiarum per tres vltimas. quia reparatio memorie
+          <lb ed="#N" n="78"/>per hoc quod dicitur sigillum. intelligentie per hoc quod dicitur
+          illuminatio<lb ed="#N" n="79" break="no"/>mentis. voluntatis per hoc quod dicitur custodia. voluntatis enim
+          ha<lb ed="#N" n="80" break="no"/>bet custodiri a malo et in bono.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

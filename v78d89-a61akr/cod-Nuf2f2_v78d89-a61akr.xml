@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 25, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 25, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="165"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a61akr"><!-- q25m1 -->
+        <head xml:id="v78d89-a61akr-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a61akr-Hd1e103" type="question-title">Utrum hoc sacramentum sit alicuius utilitatis simpliciter</head>
+        <p xml:id="v78d89-a61akr-d1e106">
+          <lb ed="#N" n="51"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a61akr-d1e111">
+          <lb ed="#N" n="52"/>CIrca primum primo ostenditur quod est alicuius vtili
+          <lb ed="#N" n="53"/>tatis. dicit enim Melchyades papa. quamuis
+          <lb ed="#N" n="54"/>sufficiat regenerationis officia: victuris tamen
+          <lb ed="#N" n="55"/>necessaria sunt confirmationis auxilia.
+        </p>
+        <p xml:id="v78d89-a61akr-d1e122">
+          ⁋ Contra.
+          <lb ed="#N" n="56"/>iiii. sens. di. i. Per baptisma mundamur: per eucharistiam in
+          bo<lb ed="#N" n="57" break="no"/>no consumamur. baptismus estus viciorum
+          extinguiteuchari<lb ed="#N" n="58" break="no"/>stia spiritualiter reficit. Sed in his scilicet mundatione et bonorum
+          consu<lb ed="#N" n="59" break="no"/>matione cum aliis ibi tactis sufficienter habentur que requiruntur ad
+          <lb ed="#N" n="60"/>salutem: igitur confirmatio superfluit.
+        </p>
+        <p xml:id="v78d89-a61akr-d1e136">
+          ⁋ Item tam sacramentum
+          vtilita<lb ed="#N" n="61" break="no"/>tis quam necessitatis prefigurata fuerunt in lege scilicet in aliquibus
+          <lb ed="#N" n="62"/>sacramentis legis. vt baptismus in circumcisione: eucharistia
+          <lb ed="#N" n="63"/>in agno pascali. Similiter dicendum de aliis.
+        </p>
+        <p xml:id="v78d89-a61akr-d1e145">
+          ⁋ Respondent quidam quod
+          <lb ed="#N" n="64"/>trina inunctio dauid signat trinam inunctionem conferendam
+          men<lb ed="#N" n="65" break="no"/>bris ecclesie. primo enim fuit dauid inunctus in regem in
+          domo<lb ed="#N" n="66" break="no"/>patris sui in bethleem. i. Reg. xvi. hec autem inunctio
+          si<lb ed="#N" n="67" break="no"/>gnificauit vnctionem baptismalem. Secundo vnctus fuit in
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="68"/>Ebron. super duabus tribubus. ii. Reg. ii. que vnctio
+          signifi<lb ed="#N" n="69" break="no"/>cabat vnctionem confirmationis. Prima enim vnctio fuit in
+          signun<lb ed="#N" n="70" break="no"/>future potstatis. qui licet tunc vnctus esset: nondum habuit vsum
+          <lb ed="#N" n="71"/>regnandi neque potestatem: qua signatur vnctio baptismatis in
+          <lb ed="#N" n="72"/>qua nondum regnat lib. arb. quia nondum est vsus sue potestatis.
+          <lb ed="#N" n="73"/>Per secundam vnctionem dauid qua accepit potestatem et vsum
+          re<lb ed="#N" n="74" break="no"/>gnandi signatur vnctio confirmationis. per quam ydonei fiunt
+          <lb ed="#N" n="75"/>ad regenerandum et hostes debellandum. dauid enim ptus secundam
+          <lb ed="#N" n="76"/>vnctionem hostes fortiter debellauit. Tercio vnctus fuit in
+          <lb ed="#N" n="77"/>Ebron super. xii. tribus ii. Reg. v. qua signatur vnctio glorie. que
+          <lb ed="#N" n="78"/>habita habetur potstas plena et plenum dominium regnandi.
+          Un<lb ed="#N" n="79" break="no"/>de. ii. Reg. vii. Cum sedisset rex in domo sua et dedisset ei
+          do<lb ed="#N" n="80" break="no"/>minus pacem vndique ab vniuersis inimicis suis: etc. Uel
+          il<lb ed="#N" n="81" break="no"/>la vnctio signat crismationem episcoporum propter subiectionem
+          <lb ed="#N" n="82"/>multorum. Sed ista dicere non est respondere ad questionem
+          preta<lb ed="#N" n="83" break="no"/>ctam. quia et si hec triplex vnctio aliam triplicem
+          presigna<lb ed="#N" n="84" break="no"/>uit: non tamen fuit hec presignatio per sacramenta legis. sicut
+          fu<lb ed="#N" n="85" break="no"/>it de baptismo et aliis propter quod non videtur responsio
+          suffici<lb ed="#N" n="86" break="no"/>ens. Respondeo quod sacramentum illud est maxime vtilitatis.
+        </p>
+        <p xml:id="v78d89-a61akr-d1e200">
+          ⁋ Ad
+          pri<lb ed="#N" n="87" break="no"/>mum contra hoc obiectum dicendum. quod licet sacramentum baptius
+          <lb ed="#N" n="88"/>smi et eucharistie sufficiant illi qui non est lapsus post
+          ba<lb ed="#N" n="89" break="no"/>ptismum in culpam: nihilommus vtile est sacramentum illud
+          <lb ed="#N" n="90"/>ne labatur in culpam. quia enim vt ait Iob. vii. milicia est
+          vi<lb ed="#N" n="91" break="no"/>ta hominis: valde est sacramentum prestans robur in certa
+          <lb ed="#N" n="92"/>mine contra vicia et temptationes. quia. ii. Chio. ii. Non
+          coro¬<lb ed="#N" n="93" break="no"/>nabitur nisi qui legitime certauerit. Et maxime ad
+          prestan<lb ed="#N" n="94" break="no"/>dum robur ad confitendum christum crucifixum siue fidem illius.
+          <lb ed="#N" n="95"/>Pre. sacramentum eucharistie dicitur consumare in bono. quia
+          <lb ed="#N" n="96"/>est sacramentum amoris a quo est consumatio in bono. i. thio.
+          <lb ed="#N" n="97"/>i. Finis precepti est caritas. Preterea illud argumentum non
+          <lb ed="#N" n="98"/>valet. ista sufficiunt ad salutem: ergo quecumque alia preter hoc
+          su<lb ed="#N" n="99" break="no"/>perfluunt. Quedam enim sunt necessaria ad salutem. quedam
+          ex<lb ed="#N" n="100" break="no"/>pedientia. Necessaria enim sufficiunt non tamen superfluunt
+          expe<lb ed="#N" n="101" break="no"/>dientia. Ubi autem fit questio de illis que necessario
+          requirun<lb ed="#N" n="102" break="no"/>tur tenet hoc argumentum. hec sufficiunt: ergo alia superfluunt
+          <lb ed="#N" n="103"/>vt si arguatur sic hec sufficiunt necessitati rei: ergo alia superfluunt
+          <lb ed="#N" n="104"/>necessitati illius id est non requiruntur necessario quod res sit.
+        </p>
+        <p xml:id="v78d89-a61akr-d1e242">
+          ⁋ Ad
+          <lb ed="#N" n="105"/>aliud dicendum. quod responsio pretacta scilicet de vnctione dauid non
+          suf<lb ed="#N" n="106" break="no"/>ficit. propter hoc dicendum. quod sicut dicitur Ro. x. Finis legis
+          chri<lb ed="#N" n="107" break="no"/>stus propter hoc solum illa sacramenta fuerunt prefigurata aliis
+          <lb ed="#N" n="108"/>sacramentis in lege: que fuerunt instituta in christo et precepta.
+          <lb ed="#N" n="109"/>sicut baptismus vlt. Math. penitentia. iii. Math. Penitentiam
+          <lb ed="#N" n="110"/>agite. Ordo Math. xvi. Quodcunque solueritis eucharistia
+          <lb ed="#N" n="111"/>xxvi. mat. Sacramentum autem confirmationis originem humnit a spiritu sancto qui
+          <lb ed="#N" n="112"/>confirmauit discipulos die penthe. Act. ii. et consequenter exer
+          <lb ed="#N" n="113"/>citium ab apostolis.
+        </p>
+        <p xml:id="v78d89-a61akr-d1e264">
+          ⁋ Si obiicitur contra predicta per verbum Hug.
+          di<lb ed="#N" n="114" break="no"/>centis. crismatis vnctionem iam ab antiquo. in ve. test. institutam
+          <lb ed="#N" n="115"/>legimus: quia tunc quidam reges solum et sacerdotes liniebantur
+          <lb ed="#N" n="116"/>quorum vnctione singularis ille vnctus prefigurabatur: qui prem cunctis
+          <lb ed="#N" n="117"/>perticipibus suis vnctus est. vt cum illo perticiparent in nomine: qui
+          perti<lb ed="#N" n="118" break="no"/>cipes illius esse mererentur in vnctione. a crismate enim christus
+          dici<lb ed="#N" n="119" break="no"/>tur. et a christo christianus nominatur. dici potest quod ex verbo Hug. non
+          <lb ed="#N" n="120"/>habetur quod hoc sacramentum fuit prefiguratum vnctione aliqua
+          legali<lb ed="#N" n="121" break="no"/>sed potius vnctio christi vt ex ipsis verbis patet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

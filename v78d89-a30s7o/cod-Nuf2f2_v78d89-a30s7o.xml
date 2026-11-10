@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 9, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="86"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a30s7o"><!-- q9m5 -->
+        <head xml:id="v78d89-a30s7o-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a30s7o-Hd1e103" type="question-title">Quare appropriatum fuit quoddam baptisma Iohanni</head>
+        <p xml:id="v78d89-a30s7o-d1e106">
+          <lb ed="#N" n="14"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e111">
+          <lb ed="#N" n="15"/>Onsequentur queritur. quare vnum baptisma
+          ap<lb ed="#N" n="16" break="no"/>priatur iohni: cum enim non in nomine iohis datus esset sed
+          <lb ed="#N" n="17"/>in nomine venturi. non erat iohnis nisi vt bapti
+          <lb ed="#N" n="18"/>zantis. eo modo dici posset baptismus
+          cephe<lb ed="#N" n="19" break="no"/>vel baptismus apollo: cum ipsi baptizarent.
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e124">
+          ⁋ Si forte
+          dica<lb ed="#N" n="20" break="no"/>tur quod eius erat tanquam primo introducenns et instituentis.
+          si<lb ed="#N" n="21" break="no"/>cut baptismus christi dicitur: non tantum quia in nomine eius: sed etiam quia
+          <lb ed="#N" n="22"/>instituit. Uidetur contrarium per illud quod dicitur in lib. de
+          bapti<lb ed="#N" n="23" break="no"/>smo contra donatistas. vbi dicitur. baptismus iohnis est sed solum
+          <lb ed="#N" n="24"/>a christo concessus. sed quod iohanes dicit. non potest homo quicquam accipere
+          <lb ed="#N" n="25"/>nisi datum fuerit ei desuper.
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e141">
+          ⁋ Item videtur quod magis debuit
+          di<lb ed="#N" n="26" break="no"/>ci baptismus petri vel pauli cum ipsi baptizassent: quam
+          bapti<lb ed="#N" n="27" break="no"/>smus iohnis. dicit enim augustinus baptizauit iohnes et non est
+          bapti<lb ed="#N" n="28" break="no"/>zatum: baptizauit iudas et est baptizatum.
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e150">
+          ⁋ Item iohnes
+          euange<lb ed="#N" n="29" break="no"/>lizauit iohes baptizauit: in vtroque cooperabatur christus. sed
+          euan<lb ed="#N" n="30" break="no"/>gelium appropriatur iohi: similiter videtur quod baptismus. vel quare non
+          <lb ed="#N" n="31"/>dicitur baptismus iohis apostoli sicut dicitur euangelium.
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e159">
+          ⁋ Item dicitur euam
+          <lb ed="#N" n="32"/>gelium christi et euangelium iohanis: quare non similiter baptismus christi et
+          ba<lb ed="#N" n="33" break="no"/>ptismus iohis: ita vt vtrumque attribuetur auctori vel vtrunque
+          <lb ed="#N" n="34"/>ministro.
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e168">
+          ⁋ Responsio. multiplex est ratio quare baptismus quo
+          bapti<lb ed="#N" n="35" break="no"/>zauit iohnes dicebatur iohis. baptismus quo baptizabat petrus
+          <lb ed="#N" n="36"/>non dicebatur petri. quia baptisma non denomnabatur a dispensatore
+          <lb ed="#N" n="37"/>sed ab institutore. iohnes enim fuit et dispensator et institutor
+          ba<lb ed="#N" n="38" break="no"/>ptismi sui. petrus solum dispensator sui. Item alia est causa. in
+          ba<lb ed="#N" n="39" break="no"/>ptismo iohis vnum tantum fiebat scilicet ablutio exterior et interior.
+          <lb ed="#N" n="40"/>ablutio interior que erat principale et propter quod fiebat non erat a
+          <lb ed="#N" n="41"/>petro. vnde quicquid fiebat in baptismo iohnis ab ipso erat: non
+          <lb ed="#N" n="42"/>similiter quicquid fiebat in baptismo petri a petro.
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e188">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="43"/>obiicitur contra hoc quod dicit augustinus ontra donatistas. quod baptismus iohis
+          fu<lb ed="#N" n="44" break="no"/>it illi a christo datus. Dicendum quod hoc est magis pro: quam contra. quia hec est
+          <lb ed="#N" n="45"/>vna causa quare iohi appropriatur. quia illi soli fuit datum siue
+          conces<lb ed="#N" n="46" break="no"/>sum a domino officium baptizandi sic. vnde augustinus. ibidem. Nulli
+          pro<lb ed="#N" n="47" break="no"/>phetarum nulli prorsus hominum est concessum baptizare in aqua penitentie in
+          <lb ed="#N" n="48"/>remissionem peccatorum. quod concessum est iohi: quia mirabili gratia
+          <lb ed="#N" n="49"/>suspendens in se corda poplorum viam prepararet in eis illi: quem se tan.
+          <lb ed="#N" n="50"/>to predicaret esse maiorem.
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e208">
+          ⁋ Ad aliud quod obiicitur per illud verbum
+          <lb ed="#N" n="51"/>augustinus baptizauit iohnes et non est baptizatum etc. Dicendum quod hoc est
+          <lb ed="#N" n="52"/>magis contra propositionem quam pro. quia sicut est tactum: propter hoc dicebatur bapti
+          <lb ed="#N" n="53"/>smus iohnis: quia quicquid fiebat ibi a iohne fiebat. et quia a iohane:
+          pro<lb ed="#N" n="54" break="no"/>pter hoc nonfuit baptizatus qui ab eo baptizabatur.
+        </p>
+        <p xml:id="v78d89-a30s7o-d1e220">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="55"/>postea queritur dicendum. quod euangelium idem est quod bonum nuncium.
+          <lb ed="#N" n="56"/>Nuncium relationem ad dominum habet mandantem et nuncium
+          denuncian<lb ed="#N" n="57" break="no"/>tem. vnde euangelium ad vtrumque habet respectum: propter quod dicitur esse et christi et
+          <lb ed="#N" n="58"/>iohnis. Item aliter operatur deus in euangelio aliter in baptismo. In
+          <lb ed="#N" n="59"/>euangelio fuit doctrina euangelica. deus infudit veritatem in
+          mem<lb ed="#N" n="60" break="no"/>te euangeliste qui postea eam transfudit in mentes audientium.
+          Ipsa<lb ed="#N" n="61" break="no"/>igitur veritas est euangelica: quia a deo erat in mente euangeliste dicitur
+          <lb ed="#N" n="62"/>ibi esse ipsius dei. quia denunciatur ab ipso euangelista in mentes
+          audi<lb ed="#N" n="63" break="no"/>entium: dicitur esse euangeliste. Non est sic in baptismo. non enim transfunditur
+          <lb ed="#N" n="64"/>mundicia primo a deo in baptizantem et postea ab eo in baptiza
+          <lb ed="#N" n="65"/>tum: immo immediate gratia primo et per se purgans transfunditur siue
+          in<lb ed="#N" n="66" break="no"/>funditur a deo. quia igitur illud quod principale est in baptismo est a christo
+          <lb ed="#N" n="67"/>immediate. ideo dicitur baptisma christi: non petri vel pauli.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

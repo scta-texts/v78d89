@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="9"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e126"><!-- q1m5 -->
+        <head xml:id="v78d89-d1e126-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-d1e126-Hd1e103" type="question-title">Utrum sint alicuius virtutis specialiter</head>
+        <p xml:id="v78d89-d1e126-d1e106">
+          <lb ed="#N" n="122"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-d1e126-d1e111">
+          <lb ed="#N" n="123"/>Consequenter queritur. vtrum sacramenta sint
+          <lb ed="#N" n="124"/>alicuius virtutis spiritualiter. Et primo. cuius
+          <lb ed="#N" n="125"/>virtutis sint. Secundo. a qua virtute
+          ha<lb ed="#N" n="126" break="no"/>beant confirmari efficaciam siue virtutem.
+        </p>
+        <div xml:id="v78d89-d1e126-Dd1e122">
+          <head xml:id="v78d89-d1e126-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-d1e126-d1e126">
+            <lb ed="#N" n="127"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e126-d1e131">
+            <lb ed="#N" n="128"/>Ad primum quod non sint alicuius virtutis spiritualiter
+            <lb ed="#N" n="129"/>videtur sacramenta enim gratiam respiciunt non
+            <lb ed="#N" n="130"/>distinguendo hanc vel illam. ergo non dicuntur esse
+            <lb ed="#N" n="131"/>alicuius virtutis specialiter. Quod etiam patere potest
+            <lb ed="#N" n="132"/>si descendamus ad differentias sacramentorum.
+            Deci<lb ed="#N" n="133" break="no"/>matio non determinat pendentiam vel fortitudinem vel
+            <lb ed="#N" n="134"/>aliquam harum virtutum. et similiter oblatio panis et
+            vi<lb ed="#N" n="135" break="no"/>ni. Similiter potest dici de sacramentis legis mosayce et de
+            sacra<lb ed="#N" n="136" break="no"/>mentis legis gratie. Non ergo sacramenta in sua generali
+            ratio<lb ed="#N" n="137" break="no"/>ne gratiam respiciunt sub ratione virtutis alicuius.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e155">
+            ⁋ Item sanctificatio
+            <pb ed="#N" n="10"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>in tribus consistit sicut dicit Hugo in fide. sacramentis. et operibus
+            <lb ed="#N" n="2"/>bonis. sed opera bona sunt ad virtutes pertinentia. ergo diuiditur gratia
+            <lb ed="#N" n="3"/>in sacramentis a gratia in virtutibus siue virtus a virtute. sed virtutes
+            spirt<lb ed="#N" n="4" break="no"/>les ad opera referuntur. non ergo sacramenta specialiter respiciunt aliquam
+            virtu<lb ed="#N" n="5" break="no"/>tem.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e173">
+            ⁋ Cont. dicit hugo. Sacramenta fidei intelliguntur que cum fide
+            per<lb ed="#N" n="6" break="no"/>cipienda sunt et ad sanctificationem fidelium preparata. et hoc probat per quan
+            <lb ed="#N" n="7"/>dum comparationem ad sacramenta militaria in quibus milites in sua conditione
+            <lb ed="#N" n="8"/>suo domino ad fidem conseruandam obligantur. ergo sacramenta veliciter fidem
+            respici<lb ed="#N" n="9" break="no"/>unt.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e185">
+            ⁋ Hoc etiam videtur per hoc quod dicit augustnus contra faustum dicens. Sicu
+            <lb ed="#N" n="10"/>religiosa sacramenta hebrei celebrauerunt: ita sacrilega irritamen
+            <lb ed="#N" n="11"/>ta pagani. Qunam que immolant gentes vt apostolus dicit: demoniis
+            in<lb ed="#N" n="12" break="no"/>molant et non deo. Cum ergo religio sit in fide: sacramenta veliter respiciunt
+            <lb ed="#N" n="13"/>fidem.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e196">
+            ⁋ Item videtur quod omnia referuntur ad caritatem. per hoc quod dicit augustinus.
+            <lb ed="#N" n="14"/>x. de cio. dei. Quecumque in ministerio tabernaculi siue templi
+            le<lb ed="#N" n="15" break="no"/>guntur: diuinitus esse precepta ad dilectionem dei et proximi referuntur.
+            <lb ed="#N" n="16"/>hoc idem videtur per hoc quod dicitur. iii. gali. An ex operibus legis spiritum
+            <lb ed="#N" n="17"/>accepistis. vbi dicitur. quod omne sacramentum cum intelligitur: vel ad
+            contempla<lb ed="#N" n="18" break="no"/>tionem veritatis vel ad bonos mores refertur. hec autem ad dilecti
+            <lb ed="#N" n="19"/>onem dei et proximi referuntur. ergo omne sacramentum refertur ad caritatem que est
+            <lb ed="#N" n="20"/>dilectio dei et proximi.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e214">
+            ⁋ Ad quod dicendum. quod respectus sacramenti
+            <lb ed="#N" n="21"/>ad virtutem potest intelligi materialiter. vel sicut signum ad
+            signifi<lb ed="#N" n="22" break="no"/>catum. et secundum hunc modum non dicitur sacramentum esse alicus virtutis sed gratie. non
+            <lb ed="#N" n="23"/>in ratione virtutis: licet cum gratia conferantur virtutes. Si vero fiat
+            respe<lb ed="#N" n="24" break="no"/>ctus sacramenti secundum quod est in precepto vel sacrificii prout omne
+            sacrificium<lb ed="#N" n="25" break="no"/>respicit christum et ecclesiam: omne sacramentum refertur ad caritatem tanquam
+            <lb ed="#N" n="26"/>ad finem. Si vero fiat respectus sacramenti inquantum est sacramentum id est inquantum
+            <lb ed="#N" n="27"/>habet virtutem sanctificandi. sacramentum autem dicitur prout ad reparationem
+            refer<lb ed="#N" n="28" break="no"/>tur: secundum hoc dicuntur omnia sacramenta ad fidem referri. vt in fide
+            recipian<lb ed="#N" n="29" break="no"/>tur ab adultis et ab eis tractentur. vnde dicit hugo. Infideles que
+            <lb ed="#N" n="30"/>dam sacramenta habere se dicunt. quamuis non sacra sint: nec sacre rei signi:
+            <lb ed="#N" n="31"/>sed execrationes potius vbi non sacrantur homines sed polluuntur. Ad horum
+            <lb ed="#N" n="32"/>differentiam sacramenta fidei dicta intelligi posunt que a fidelibus tractantur:
+            <lb ed="#N" n="33"/>et cum fide ad sanctificationem recipiuntur.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e245">
+            ⁋ Per hoc potest responderi ad
+            <lb ed="#N" n="34"/>supra obiecta. Prime enim rationes referuntur ad sacramenta prout signa
+            <lb ed="#N" n="35"/>dicuntur. alie vero rationes vbi fit sermo de caritate referuntur ad
+            sa<lb ed="#N" n="36" break="no"/>cramenta prout sunt in precepto vel prout ordinantur ad communiom christi
+            <lb ed="#N" n="37"/>et ecclesie. vltima vero ratio refertur ad sacramenta inquantum sacra sunt. non
+            <lb ed="#N" n="38"/>tantum per significationem: sed per efficaciam. et hoc modo necessaria est fides. Fides
+            <lb ed="#N" n="39"/>autem accipitur tum pro informi tum pro formata.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e126-Dd1e263">
+          <head xml:id="v78d89-d1e126-Hd1e265">Articulus 2</head>
+          <p xml:id="v78d89-d1e126-d1e267">
+            <lb ed="#N" n="40"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e126-d1e272">
+            <lb ed="#N" n="41"/>SEquitur querere a qua virtute habent virtutem scilicet
+            sanctifi<lb ed="#N" n="42" break="no"/>candi. et vt ex dictis patet a fide. Primo igitur queritur.
+            <lb ed="#N" n="43"/>quare magis a fide quam ab alia. Secundo. a quo articulo
+            <lb ed="#N" n="44"/>fidei. Tercio. de fide antiquorum quam habebant virtutem sacramenta eorum.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e283">
+            <lb ed="#N" n="45"/>Circa primum queri § 1
+            <lb ed="#N" n="46"/>tur. quare magis sacramenta dicuntur habere virtutem a fide quam ab alia
+            <lb ed="#N" n="47"/>virtute. quia videtur quod virtutem habere debeant a caritate que est finis
+            <lb ed="#N" n="48"/>et perfectio in his que ad meritum spectant. i. thim. i. Finis
+            prece<lb ed="#N" n="49" break="no"/>pti caritas.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e296">
+            ⁋ Item quare sacramenta virtutem habent a fide siue
+            effica<lb ed="#N" n="50" break="no"/>ciam: virtutes siue opera virtutum a caritate.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e302">
+            ⁋ Item quare neutr
+            di<lb ed="#N" n="51" break="no"/>cuntur habere virtutem siue efficaciam a spe.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e307">
+            ⁋ Responsio. quod fides eo
+            <lb ed="#N" n="52"/>quod captiuat ipsum credentem et humiliat immo annihilat summe in
+            <lb ed="#N" n="53"/>virtutibus impetrat. vnde operatio miraculorum debetur ficdi. Unde
+            <lb ed="#N" n="54"/>ix. Math. Omnia sunt possibilia credenti. Glo. que in nomine
+            ihu<lb ed="#N" n="55" break="no"/>postulantur. Preterea. sacramenta sunt medicine spirituales et
+            reparati<lb ed="#N" n="56" break="no"/>ua defectuum. vnde illis conuenit ratio initiandi bonum vnde sunt
+            in<lb ed="#N" n="57" break="no"/>itiatiua meriti siue efficacie merendi. propter quod oprtet quod habe
+            <lb ed="#N" n="58"/>ant virtutem a fide que est initium vite spiritualis et fundamentum
+            bo<lb ed="#N" n="59" break="no"/>ni. ii. abac. Iustus ex sua fide viuit. Et. xi. heb. Iides est
+            <lb ed="#N" n="60"/>substantia. Glo id est fundamentum omnium bonorum. Alia est ratio. Sacramen
+            <lb ed="#N" n="61"/>tum concernit duo. vnum misticum: et aliud gratuitum. vnde signat
+            <lb ed="#N" n="62"/>et efficit: ratione qua importat quod est misticum. perficit intellectum
+            quo<lb ed="#N" n="63" break="no"/>dammodo: ratione qua gratuitum ipsum affectum: quia tollendo culpam. vnde
+            <lb ed="#N" n="64"/>oportet quod virtutem habeat a virtute que perficit intellectum et affectum.
+            <lb ed="#N" n="65"/>hoc est fides que anima adheret prime veritati propter se. he rationes
+            <lb ed="#N" n="66"/>sunt quasi necessitatis. Alia est ratio congruentie. et est talis. Quod
+            sola<lb ed="#N" n="67" break="no"/>fides in virtutibus sacramentum est. fides enim est sacramentum contemplationis in
+            <lb ed="#N" n="68"/>re. vnde hugo. Fides sacramentum est future contemplationis: et ipsa
+            con<lb ed="#N" n="69" break="no"/>templatio res et virtus sacramenti. Et post hugo ex hoc
+            conclu<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>dit. quod fides est principium restaurationis boni. ex quo habet
+            <lb ed="#N" n="71"/>ratio questionis proposite. dicens sic. Si ergo summum bonum
+            ho<lb ed="#N" n="72" break="no"/>minis contemplatio creatoris sui merito creditur: non inconuenient
+            <lb ed="#N" n="73"/>fides per quam absentem quodammodo videre incipit: initium boni et prin
+            <lb ed="#N" n="74"/>cipium restaurationis eius memoratur. hec hugo. Restaura
+            <lb ed="#N" n="75"/>tio autem fit per sacramenta et inchoatio boni. Ex quo patet quod dictum
+            <lb ed="#N" n="76"/>est. sed alia est virtus et efficacia caritatis. Ratione enim qua habet pro
+            <lb ed="#N" n="77"/>prie bonum summum finem et obiectum ordinat opera virtutum in
+            <lb ed="#N" n="78"/>finem suum et sic illa perficit. Rtone igitur que fides est principium:
+            sa<lb ed="#N" n="79" break="no"/>cramenta a fide efficaciam habent. Rone qua caritas est
+            consumma<lb ed="#N" n="80" break="no"/>tio virtutum: neutrum horum spei conuenit.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e374">
+            <lb ed="#N" n="81"/>Secudo queritum . §. ii.
+            <lb ed="#N" n="82"/>a quo articulo fidei habent generaliter sacramenta virtutem. Quod a fide
+            <lb ed="#N" n="83"/>passionis videtur. Hugo. Passio saluatoris que primo loco
+            sa<lb ed="#N" n="84" break="no"/>cramenta gratie ad effectum salutis sanctificat mediantibus istis
+            <lb ed="#N" n="85"/>illa etiam prioris temporis sacramenta sanctificabat. hec hugo.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e387">
+            ⁋ Item
+            <lb ed="#N" n="86"/>quinto ad ro. In similitudine preuaricatoris ade qui est forma
+            fu<lb ed="#N" n="87" break="no"/>turi. Glo. sicut de latere illius dormientis assumpta est
+            co<lb ed="#N" n="88" break="no"/>sta: sic ex latere istius perfluxert sacramenta per que saluatur ecclesia.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e396">
+            <lb ed="#N" n="89"/>⁋ Contra. iiii. romo. Traditus est propter delicta nostra et
+            resurre<lb ed="#N" n="90" break="no"/>xit propter iustificationem nostram. Ex hoc enim videtur quod ex fide
+            resur<lb ed="#N" n="91" break="no"/>rectionis habeant virtutem.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e405">
+            ⁋ Item de conse. di. iiii. dicit Leo prepa.
+            <lb ed="#N" n="92"/>quod ex resurrectione christi sacramenta sortita sunt virtutem.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e411">
+            ⁋ Responsio. vi.
+            <lb ed="#N" n="93"/>ro. in glo. ibi. Consepulti sumus per baptismum dicitur. Non quod mors
+            <lb ed="#N" n="94"/>qua peccato mortui in baptismo dicuntur. et vita qua nunc in iusticia
+            <lb ed="#N" n="95"/>viuimus in morte et resurrectione christi demonftrata sunt. Mors
+            <lb ed="#N" n="96"/>enim christi et resurrectio non tantum res sed sacramenta sunt. hec glo
+          </p>
+          <p xml:id="v78d89-d1e126-d1e422">
+            ⁋
+            In<lb ed="#N" n="97" break="no"/>telligendum est ergo. quod sacramentis perfecte iustificantibus tollitur in
+            <lb ed="#N" n="98"/>recipiente quod est defectus: et superadditur quod est virtutis. verbi. egrgto. In
+            ba<lb ed="#N" n="99" break="no"/>ptismo tolluntur peccata et reparatur vita per superadditionem gratie
+            promo<lb ed="#N" n="100" break="no"/>uentis in bonum. Dicendum est igitur. quod appropriate loquendo quantum
+            <lb ed="#N" n="101"/>ad defectum qui tollitur: est virtus sacramenti a passione. quantum ad reparationem
+            <lb ed="#N" n="102"/>per superadditam virtutem a resurrectione. vnde virtus fidei passionis
+            me<lb ed="#N" n="103" break="no"/>retur remissionem peccati in sacramento. virtus fidei resurrectionis renouati
+            <lb ed="#N" n="104"/>onem vite per gratiam promouentem in bonum. dico per appropriationem
+            lo<lb ed="#N" n="105" break="no"/>quendo. Fides enim virtusque meretur vtrumque. vnde. iiii. roos. ibi.
+            Tra<lb ed="#N" n="106" break="no"/>ditus est propter delicta nostra etc. Glo. Non quod vtraque id est mors et
+            <lb ed="#N" n="107"/>resurrectio christi delicta tollunt et vtraque iustificant. tamen mors
+            <lb ed="#N" n="108"/>christi sola interitum veteris vite signat. et in sola resurrectione
+            no<lb ed="#N" n="109" break="no"/>ua vita signatur. Qmnino igitur dicendum. quod a fide christi simpliciter humerunt
+            <lb ed="#N" n="110"/>sacramenta virtutem. Nihilominus approprate loquendo quantum ad aliquem
+            <lb ed="#N" n="111"/>effectum: virtutem humerunt a fide passionis. quantum ad aliquem a fide
+            <lb ed="#N" n="112"/>resurrectionis.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e459">
+            <lb ed="#N" n="113"/>Cercio queritur.§. iii.
+            <lb ed="#N" n="114"/>de fide antiquorum quam habebant virtutem sacramenta eorum. Circa hoc sic
+            <lb ed="#N" n="115"/>Augustinus. Eadem fides mediatoris saluos iustos faciebat
+            an<lb ed="#N" n="116" break="no"/>tiquos pusillos cum magnis. quia sicut nos credimus in carne
+            venis<lb ed="#N" n="117" break="no"/>se: sic illi venturum. sicut nos mortuum: sic illi moriturum. hec augustina
+            <lb ed="#N" n="118"/>Igitur pusilli et magni in hac fide salui sunt.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e475">
+            ⁋ Sed contra hoc. Unum
+            <lb ed="#N" n="119"/>idemque dominice crucis tropheum pris prophe et moyses quam apostoli
+            no<lb ed="#N" n="120" break="no"/>uerant et predicabant. sed prophe hoc aliquotiens figuratis velatisque
+            sec<lb ed="#N" n="121" break="no"/>momibus. apostoli autem apostolorumque successores patefacta luce euange
+            <lb ed="#N" n="122"/>lium semper aparte predicabant: ita vt nunc omnis poplus christianus sciere et
+            con<lb ed="#N" n="123" break="no"/>fiteri deat fidem. quam eo tempore pauci admodum et perfectionres quique
+            <lb ed="#N" n="124"/>nouerant. hec Bern. Ecce quod pauci nouerunt fidem quantum ad
+            ar<lb ed="#N" n="125" break="no"/>ticulum de passione.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e493">
+            ⁋ Responsio. que semper requirebantur ad fidem determi
+            <lb ed="#N" n="126"/>nat hugo sic dicens. Hec sunt quibus ab initio nihil minus
+            in<lb ed="#N" n="127" break="no"/>quam recta fides habere potuit. credere vicet vnum deum esse
+            creato<lb ed="#N" n="128" break="no"/>rem omnium: dominum et rectorem vniuersorum. Ipsum quidem non esse mali
+            aul<lb ed="#N" n="129" break="no"/>ctorem. tamen qui in malis suis eius misericordiam quererent: expectarent
+            fu<lb ed="#N" n="130" break="no"/>turum redemptorem. hec hugo. Ecce quod necessaria est fides quantum ad ar
+            <lb ed="#N" n="131"/>ticulos de creatione. conseruatione. et reparatione. vnde concedimus illud
+            <lb ed="#N" n="132"/>quod dicit augustinus.
+          </p>
+          <p xml:id="v78d89-d1e126-d1e511">
+            ⁋ Ad illud quod obiicitur per verbum Bern. dicendum quod est
+            <lb ed="#N" n="133"/>credere explicite: et sic credebant pauci et perfectionres christum
+            pas<lb ed="#N" n="134" break="no"/>surum. et implicite: et sic minores adherendo illis qui fidem
+            expli<lb ed="#N" n="135" break="no"/>cite habebant. vnde hugo. Sano intellectu dici potest: omnes ab
+            in<lb ed="#N" n="136" break="no"/>itio iustos fidem saluatoris humisse. et omnes cum fide redemptionis
+            <lb ed="#N" n="137"/>future iustificatos fuisse. quemadmodum redemptionem vel
+            futu<lb ed="#N" n="138" break="no"/>ram cognouerunt vel cognoscentibus crediderunt. hec hugo. Et
+            <pb ed="#N" n="11"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>secundum hunc modum debet intelligi verbum smum. dictum augustinus. vt vult Hugo. vnde
+            <lb ed="#N" n="2"/>sicut modo aliqui distincte habent fidem omnium articulorum. aliqui implicite
+            <lb ed="#N" n="3"/>credentes quod credit ecclesia ratione maiorum membrorum et
+            eleganti<lb ed="#N" n="4" break="no"/>orum sic et tunc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

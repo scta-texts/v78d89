@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 23, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 23, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="158"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a5q6x6"><!-- q23m1 -->
+        <head xml:id="v78d89-a5q6x6-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a5q6x6-Hd1e103" type="question-title">De ratione numeri secundum beatum Dionysium qui modum et ordinem sumpsit a beato Timotheo</head>
+        <p xml:id="v78d89-a5q6x6-d1e106">
+          <lb ed="#N" n="8"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a5q6x6-d1e111">
+          <lb ed="#N" n="9"/>CIrca primum sic. videtur enim quod bene numeretur
+          <lb ed="#N" n="10"/>intinctio cum aliis. cum illud sit ipsum
+          principa<lb ed="#N" n="11" break="no"/>le sacramentum. Similiter perceptio
+          eukari<lb ed="#N" n="12" break="no"/>stie. cum hoc sit quoddam sacramentum per seipsum
+          <lb ed="#N" n="13"/>distinctum a sacramento baptismi et sacramentalibus eius.
+        </p>
+        <p xml:id="v78d89-a5q6x6-d1e124">
+          <lb ed="#N" n="14"/>⁋ Preterea. propter quid non fit ibi mentio de
+          sacramenta<lb ed="#N" n="15" break="no"/>li illo quod est salis in os missio: et de illo quod est sputi linito
+        </p>
+        <p xml:id="v78d89-a5q6x6-d1e132">
+          <lb ed="#N" n="16"/>⁋ Ad quod respondeo. quod non enumerat dyoni. illa nisi vt ostenda
+          <lb ed="#N" n="17"/>tur quod conueniebant ad solennitatem sacramenti baptismalis.
+          <lb ed="#N" n="18"/>non quod essent de esse illius sacramenti. Quod autem numerauit ipsam
+          <lb ed="#N" n="19"/>intinctionem vel immersionem: hoc non fuit ob hoc quod esset
+          sacra<lb ed="#N" n="20" break="no"/>mentalem et non sacramentum. sed quia in ordine faciendorum
+          <lb ed="#N" n="21"/>occurrebat.
+        </p>
+        <p xml:id="v78d89-a5q6x6-d1e148">
+          ⁋ Ad hoc quod obiicitur de eukaristia. Respondeo quod
+          <lb ed="#N" n="22"/>non ob hoc sit eius numeratio quia sit pars illius sacramenti quod
+          <lb ed="#N" n="23"/>est baptisma: sed vt ostendatur quod baptizati incorporantur christo. vt
+          <lb ed="#N" n="24"/>membra eius fiant sicut dicit augustinus. ad hoc valet vt baptiza
+          <lb ed="#N" n="25"/>ti christo incorporentur vt membra eius fiant. et ideo adultis qui
+          ha<lb ed="#N" n="26" break="no"/>bent vsum intelligendi datur perceptio eucharistie vt manducent
+          <lb ed="#N" n="27"/>sacramentaliter.
+        </p>
+        <p xml:id="v78d89-a5q6x6-d1e164">
+          ⁋ Ad hoc vero quod obiicitur. quod non fit mentio
+          <lb ed="#N" n="28"/>de immissione salis in os vel in linitione sputi. Respondeo quod
+          <lb ed="#N" n="29"/>non dum illa sacramentalia solennitate sacramenti erant
+          adie<lb ed="#N" n="30" break="no"/>cta. et ideo de illis non fecit mentionem. Alia etiam ponit beatus
+          <lb ed="#N" n="31"/>dyoni. pertinentia ad solennitatem que non habemus. Loquitur
+          <lb ed="#N" n="32"/>enim de prostratione baptizandi primo ad orientem et post ad
+          oc<lb ed="#N" n="33" break="no"/>cidentem extensis manibus sursum respiciendo. quod apud nos non
+          <lb ed="#N" n="34"/>geritur. Similiter quod hierarcha ducit baptizandum in chorum
+          eccle<lb ed="#N" n="35" break="no"/>siasticum congregatum in quo cantat gloria in excelsis deo.
+          cumma<lb ed="#N" n="36" break="no"/>iori enim reuerentia et solennitate fiebant tempore illo
+          baptizan<lb ed="#N" n="37" break="no"/>dorum receptiones. quia nondum ecclesia erat intantum multiplicata
+          <lb ed="#N" n="38"/>Unde a hierarcha id est episcopo baptizabantur sacerdotibus astanti
+          <lb ed="#N" n="39"/>bus.
+        </p>
+        <p xml:id="v78d89-a5q6x6-d1e193">
+          ⁋ Si vero queratur ratio numeri in supradictis. dimissa
+          <lb ed="#N" n="40"/>illa parte que est de perceptione eucharistie que non est communis per
+          <lb ed="#N" n="41"/>uulis et adultis: et per se tractabitur tamquam de proprio sacramento
+          <lb ed="#N" n="42"/>Responderi potest per ea que trahuntur a beato dyoni. et
+          abexpo<lb ed="#N" n="43" break="no"/>sitione ecclesiastice hierarchie quod signatur in his diuersis ea que
+          <lb ed="#N" n="44"/>sunt in sacramento babtismi. et per prius et posterius ordinam
+          <lb ed="#N" n="45"/>tur secundum ea que signantur. Primum est recedere a malicia et
+          po<lb ed="#N" n="46" break="no"/>testate dyaboli quod signat ipsa exufftatio et abrenunciatio.
+          <lb ed="#N" n="47"/>Unde dicit dyo. ter exufflare sathanam et ea que sunt
+          abre<lb ed="#N" n="48" break="no"/>nunciationis confiteri. Secundum autem est per confessionem fidei quedam
+          <lb ed="#N" n="49"/>cum deo consignatio. et hoc signatur in benedictione confitentis ter.
+          <lb ed="#N" n="50"/>Primum ergo est recedere a malo. Secundo vniri cum summo vero
+          <lb ed="#N" n="51"/>et quia phoso derelictus surgit in scandala. Tercio
+          inungi<lb ed="#N" n="52" break="no"/>tur oleo sancto ad significandum certamen spirituale quo oportet
+          <lb ed="#N" n="53"/>vincere hostem sicut pugil qui inungitur ad certandum. post
+          vi<lb ed="#N" n="54" break="no"/>ctorie signum sequitur perfecte mori peccato. quod indicat ipsa
+          in<lb ed="#N" n="55" break="no"/>mersio. vt homo sit consepultus christo pr baptismum: et ideo dicit
+          bea<lb ed="#N" n="56" break="no"/>etus dyoni. primo secundum ipsas leges certabit
+          intransgressibi<lb ed="#N" n="57" break="no"/>liter specie pulchrorum premiorum habens. et deinde sequitur. morix
+          <lb ed="#N" n="58"/>peccato cum christo perbaptismum. deinde sequitur naturaliter
+          inno<lb ed="#N" n="59" break="no"/>centia que signatur in veste candida et luciformi. et hoc est quod
+          <lb ed="#N" n="60"/>dicit apostolus. Roo. vi. vt in nouitate vite ambulemus. Post
+        </p>
+        <p xml:id="v78d89-a5q6x6-d1e241">
+          <lb ed="#N" n="61"/>quod sequitur odor boni exempli apud alios. quod signat
+          cri<lb ed="#N" n="62" break="no"/>smatis inunctio. Unde dyon. vngenti perfectiua vnctio facit
+          <lb ed="#N" n="63"/>bene olentem et inuisibiliter odorificatio. Sic ergo respectu
+          <lb ed="#N" n="64"/>mali nota quasi tres gradus. recedere a malo. certare
+          con<lb ed="#N" n="65" break="no"/>tra temptationem. perfecte mori peccato. et est quasi initium
+          vi<lb ed="#N" n="66" break="no"/>te spiritualis progressus et perfectio designata. ex alia parte
+          vni<lb ed="#N" n="67" break="no"/>tio per intellectum cum summa veritate innocentia in affectu.
+          <lb ed="#N" n="68"/>odor bone operationis in effectu. Ratio vero quare non interse
+          <lb ed="#N" n="69"/>ritr inter gradus respicientes malum benedictio confitentis est
+          <lb ed="#N" n="70"/>quia non proficit homo nisi per fidem et inter primum gradum et tercium
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>ponitur benedictio confitentis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

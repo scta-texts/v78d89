@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 98, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 98, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="619"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ah76c4"><!-- q98m1 -->
+        <head xml:id="v78d89-ah76c4-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-ah76c4-d1e103">
+          <lb ed="#N" n="119"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e108">
+          <lb ed="#N" n="120"/>CIrca primum ad partem affirmatiuam sic. Ro.
+          <lb ed="#N" n="121"/>xiii. Curam carnis ne feceritis in desideriis.
+          <lb ed="#N" n="122"/>ibi glo. sic sumenda sunt alimenta quasi
+          medica<lb ed="#N" n="123" break="no"/>menta. sed medicamenta sumenda sunt secundum
+          arta<lb ed="#N" n="124" break="no"/>tionem artis medicine naturalis. ergo et alimenta que sunt sumenda
+          <lb ed="#N" n="125"/>scilicet ieiuniis: similiter sunt sumenda secundum artationem artis spiritual. ars
+          <lb ed="#N" n="126"/>autem spiritualis virtus est. ergo etc.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e126">
+          ⁋ Pret. secundum artem medicine
+          na<lb ed="#N" n="127" break="no"/>turalis non sunt sumenda medicamenta a quolibet et in quolibet
+          <lb ed="#N" n="128"/>tempore. nec similiter medicamenta spiritualia sunt sumenda a quolibet
+          <lb ed="#N" n="129"/>et in quolibet tempore. sed secundum dictamen artis medicine spiritualis cum
+          <lb ed="#N" n="130"/>quodam moderamine et abstinentia. ergo abstinere huiusmodi est
+          mo<lb ed="#N" n="131" break="no"/>tus siue actus virtutis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e139">
+          ⁋ Pret. ibidem Augustinus. glo. quod satis
+          <lb ed="#N" n="132"/>est saluti parum est delectationi vbi virtus moralis. ergo abstinentia
+          <lb ed="#N" n="133"/>huiusmodi ad virtutem spectat moralem.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e147">
+          ⁋ Pret. Hiere. xxxv. super
+          <lb ed="#N" n="134"/>illud. Non bibetis vinum. Glo. non magnum est si ab illicitis
+          ab<lb ed="#N" n="135" break="no"/>stinemus: sed si a licitis propter reuerentiam eius qui ea propter
+          infirmita<lb ed="#N" n="136" break="no"/>tem nostram nobis concessit. Magnum ergo est propter reuerentiam dei a
+          <lb ed="#N" n="137"/>licitis abstinere. quare hoc est opost virtutis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e158">
+          ⁋ Pret. xxxvi.
+          <lb ed="#N" n="138"/>Hiere. super illud. P redicauerunt ieiunium. Glo. vt qut
+          <pb ed="#N" n="620"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>per luxum peccauerunt: per abstinentiam abluantur. ex quo arguitur
+          <lb ed="#N" n="2"/>vt prius.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e171">
+          ⁋ Pret. Dan. x. panem desiderabilem non
+          comedi<lb ed="#N" n="3" break="no"/>et caro et vinum non introierunt in os meum. Glo. a cibis
+          deli<lb ed="#N" n="4" break="no"/>catis abstinuit: quod maxime faciendum est tempore ieiunii. sed est
+          vir<lb ed="#N" n="5" break="no"/>tus a placitis abstinuisse bonis. ergo huiusmodi abstinentia est virtus
+          <lb ed="#N" n="6"/>vel actus virtutis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e182">
+          ⁋ Pret. augustinus. libro euangelicarum questionum.
+          tan<lb ed="#N" n="7" break="no"/>to minus delectat carnalia: quanto sagina spiritualium
+          ma<lb ed="#N" n="8" break="no"/>ior. quare manifestum est quod delectatio carnalium delectationem
+          <lb ed="#N" n="9"/>spiritualium reprimit: et econuerso. quare et abstinentia a carnalibus
+          <lb ed="#N" n="10"/>delectabilibus auget spiritualium saginam et delectationem. ergo etc.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e193">
+          <lb ed="#N" n="11"/>⁋ Pret. Hiero. contra Iulianum. vsus carnium et potus vini
+          se<lb ed="#N" n="12" break="no"/>minarium est libidinis. sed abstinere a seminario libidinis est actus
+          <lb ed="#N" n="13"/>virtutis vel virtus. ergo etc.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e202">
+          ⁋ Pret. quicquid iuuat naturam
+          cor<lb ed="#N" n="14" break="no"/>paralem contra morbum: vel est virtus vel opst virtutis iuuate vel
+          super<lb ed="#N" n="15" break="no"/>addite. ergo similiter quicquid iuuat contra morbum spiritualem vel est virtus
+          <lb ed="#N" n="16"/>vel ops virtutis iuuate vel superaddite. abstinentia a cibo et
+          <lb ed="#N" n="17"/>potu est huiusmodi. quare etc.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e214">
+          ⁋ Pret. abstinentia hominis sensualita
+          <lb ed="#N" n="18"/>tem suppeditat et subiicit rationi. quare opst virtutis iuuate vel
+          <lb ed="#N" n="19"/>superaddite. abstinentia a cibo et potu est huiusmodi. quare etc.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e221">
+          <lb ed="#N" n="20"/>⁋ Pret. Amb. in hexameron tractans illud euangelii.
+          Re<lb ed="#N" n="21" break="no"/>spicite volatilia celi quoniam non serunt neque metunt etc. ita dicit. in
+          <lb ed="#N" n="22"/>hoc verbo docet dominus simplici cibo oleris esse contentum. sed his esse
+          <lb ed="#N" n="23"/>contentum facit abstinentiam huiusmodi. ergo abstinentia est vt prius.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e232">
+          <lb ed="#N" n="24"/>⁋ Contra. Ro. xiiii. Regnum dei non est esca aut potus. ibi glo.
+          <lb ed="#N" n="25"/>in vsu horum non acquiritur regnum dei sicut non amittitur. et
+          sequi<lb ed="#N" n="26" break="no"/>tur ibidem. Non enim vsus ciborum: sed concupiscentia frenanda est. illud ergo quo
+          <lb ed="#N" n="27"/>refrenatur vsus ciborum non est virtus nec actus virtutis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e243">
+          ⁋ Pret.
+          <lb ed="#N" n="28"/>ibidem dicit glo. Non interest quid alimentorum vel quantum
+          acci<lb ed="#N" n="29" break="no"/>piat: dummodo hoc faciat pro congruentia eorum cum quibus viuit: vel pro
+          <lb ed="#N" n="30"/>vsu necessitatis vel salutis. Si autem non interest quid alimentorum
+          <lb ed="#N" n="31"/>vel quantum accipiat etc. ergo tantum accipere vel parum vel maius
+          <lb ed="#N" n="32"/>non est actus virtutis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e256">
+          ⁋ Pret. ibidem habetur. Iustificatur
+          sa<lb ed="#N" n="33" break="no"/>pientia a filiis suis: qui intelligunt nec in abstinendo vel in
+          <lb ed="#N" n="34"/>manducando esse iusticiam: sed in equanimitate tolerandi
+          inopian<lb ed="#N" n="35" break="no"/>quare idem quod prius.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e265">
+          ⁋ Pret. Ro. xiiii. Qui manducat domino
+          <lb ed="#N" n="36"/>manducat. Glo. prima ad honorem et laudem domini. ergo qui abstimet
+          <lb ed="#N" n="37"/>domino quo ad hoc honorem subtrahit. ergo idem quod prius.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e273">
+          ⁋ Preterea.
+          <lb ed="#N" n="38"/>Greg. non cibus sed appetitus in vicio est.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e278">
+          ⁋ Pret. idem Greg
+          <lb ed="#N" n="39"/>Eo tempore quo necessitatis debitum soluitur quid voluptas vel
+          necessi<lb ed="#N" n="40" break="no"/>tas exigat ignoratur. ergo secundum hoc ab omni cibo vel potu
+          abstinen<lb ed="#N" n="41" break="no"/>dum est vel a nullo. sed ab omni non potest se abstinere. ergo a nullo est
+          <lb ed="#N" n="42"/>abstinendum.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e289">
+          ⁋ Pret. Augustinus de vera religione. In copia
+          vo<lb ed="#N" n="43" break="no"/>luptatum prosperisque successibus temporalium. temparantiam suam probat
+          <lb ed="#N" n="44"/>et roborat homo. sed respuere illa in qua probatur virtus: non est opus
+          <lb ed="#N" n="45"/>virtutis aut virtus. quare etc.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e298">
+          ⁋ Pret. si hoc est opst alicuius
+          <lb ed="#N" n="46"/>virtutis non est nisi sobrietatis. sed sobrietatis non potest esse: quia
+          <lb ed="#N" n="47"/>opus sobrietatis est circa omne genus cibariorum tenere
+          me<lb ed="#N" n="48" break="no"/>dium. vnde non discernit sobrietas inter cibaria: sed in omnibus
+          <lb ed="#N" n="49"/>tenet medium. quare abstinere ab aliquo cibo non est ops virtu
+          <lb ed="#N" n="50"/>tis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e311">
+          ⁋ Pret. virtus est certior omni arte: sed vbi nula est
+          cer<lb ed="#N" n="51" break="no"/>titudo in respuendo aliquod genus cibariorum non est virtus.
+          respu<lb ed="#N" n="52" break="no"/>ere enim est potius deficere quam aliquid facere.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e318">
+          ⁋ Pret. quanto
+          <lb ed="#N" n="53"/>maior est pugna: tanto maior est corona. sed si quis vtitur omnibus
+          <lb ed="#N" n="54"/>cibariis et exponit se omnibus: est in maiori pugna si ills bene
+          <lb ed="#N" n="55"/>vtitur: quia tali maior debetur corona. ergo etc.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e328">
+          ⁋ Pret. omnia
+          crea<lb ed="#N" n="56" break="no"/>uit deus vt homo eis vteretur. ergo qui non vtitur omnibus quantum in
+          ipso<lb ed="#N" n="57" break="no"/>est: frustrat intentionem dei creantis. quare peccat.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e335">
+          ⁋ Pret.
+          <lb ed="#N" n="58"/>cuius vsus est malus ipsum est malum. quare si vsus huiusmodi
+          ci<lb ed="#N" n="59" break="no"/>bi vel illius est malus: et ipse cibus est malus. Sed vidit deus
+          cun<lb ed="#N" n="60" break="no"/>cta que fecerat et erant valde bomoa. quare etc.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e344">
+          ⁋ Pret. abstinens
+          <lb ed="#N" n="61"/>a cibis nec est vtens nec fruens. sed actus cuiuslibet virtutis vl
+          <lb ed="#N" n="62"/>est vti vel frui. ergo huiusmodi abstinentia non est opus virtutis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e351">
+          ⁋ Respon
+          <lb ed="#N" n="63"/>sio. dicendum quod abstinentia huiusmodi triplici de causa fieri potest. vel
+          pro<lb ed="#N" n="64" break="no"/>pter immundiciam cauendam: vel propter infirmitatem corporis
+          de<lb ed="#N" n="65" break="no"/>clinandam: vel propter concupiscentiam refrenandam. Circa primum
+          mo<lb ed="#N" n="66" break="no"/>dum errabant manichei et ebionite. dicendo abstinendum esse
+          <lb ed="#N" n="67"/>a cibis propter ciborum aliquorum immundiciam. Abstinere secundo
+          <lb ed="#N" n="68"/>modo pertinet ad medicinam. sed abstinere tercia de causa est virtu
+          <lb ed="#N" n="69"/>tis temporantie. et huiusmodi temporantia recurrere habet secundum triplicem
+          le<lb ed="#N" n="70" break="no"/>gem. secundum legem recte rationis: secundum legem diuinam: et secundum lege
+          ec<lb ed="#N" n="71" break="no"/>clesiasticam. et lex secunda superaddit prim e: tercia vtrique.
+          Pri<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>mo modo currit temprantia apud phos: qui per legem recte
+          ra<lb ed="#N" n="73" break="no"/>tionis sensualitatem refrenabant: et in cibis et potibus medium
+          <lb ed="#N" n="74"/>inueniebant. sed lex diuina superaddit que docet abstinere vt homo
+          <lb ed="#N" n="75"/>liberius assurgat et expeditius ad diuina. vlterius autem lex
+          <lb ed="#N" n="76"/>ecclesiastica que per penitentie sacramentum hominem sanat spiritualiter:
+          iniun<lb ed="#N" n="77" break="no"/>gendo vni abstinentiam a vino: alii a carnibus etc. secundum
+          pecca<lb ed="#N" n="78" break="no"/>ta diuersa. et secundum quod considerat illis expedire abstinere. ergo
+          <lb ed="#N" n="79"/>opus est virtutis fiat modo debito propter finem debitum. et
+          co<lb ed="#N" n="80" break="no"/>cedende sunt rationes ad hanc partem.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e394">
+          ⁋ Ad illud quod primo obii
+          <lb ed="#N" n="81"/>citur contra hoc. scilicet quod regnum dei non est esca et potus etc. Potest
+          di<lb ed="#N" n="82" break="no"/>ci quod apostolus loquitur quantum ad illos qui abstinebant ab aliquibus
+          ci<lb ed="#N" n="83" break="no"/>his absque ratione vel intuitu virtutis: sed propter ipsa cibaria.
+          <lb ed="#N" n="84"/>vnde loquitur contra illos qui decernebant inter cibaria: dice
+          <lb ed="#N" n="85"/>do quedam esse commedenda quedam non. quia erant immunda secundum
+          <lb ed="#N" n="86"/>eos. Unde eodem caposltolo ibi. qui autem infirmus est. dicit g
+          <lb ed="#N" n="87"/>est qui cibos discernit reputans alios mundos alios
+          immun<lb ed="#N" n="88" break="no"/>dos. vsus autem talis id est sic discernentis. non est regnum id est vsu ta
+          <lb ed="#N" n="89"/>li non acquiritur regnum.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e416">
+          ⁋ Ad glo. que dicit quod non interest quid
+          <lb ed="#N" n="90"/>alimentorum etc. Potest dici quod non interest quantum ad legem
+          medi<lb ed="#N" n="91" break="no"/>cine. vnde subditur in glo. dummodo illud faciat pro congruentia
+          <lb ed="#N" n="92"/>hominum et persone sue et valitudine sue nature. differt tamen quantum
+          <lb ed="#N" n="93"/>ad legem penitentie. Uel non interest aliquid elementorum etc. scilicet quantum
+          <lb ed="#N" n="94"/>ad vsum vel ad actum cibationis: licet intersit quantum ad concupiscentiam
+          <lb ed="#N" n="95"/>vtentis. vnde glo. non vsus ciborum: sed concupiscentia est refrenanda.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e433">
+          <lb ed="#N" n="96"/>⁋ Ad aliam glo. que dicit non abstinendo vel manducando esse
+          <lb ed="#N" n="97"/>iusticiam. Potest dici quod illa glo. sic intelligitur. quod iusticia que homo
+          <lb ed="#N" n="98"/>efficitur iustus non est in manducando nec bibendo: sed in
+          equan<lb ed="#N" n="99" break="no"/>mitate tolerandi inopiam. hec autem equanimitas non potest
+          habe<lb ed="#N" n="100" break="no"/>ri nisi per exercitium in virtutibus.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e446">
+          ⁋ Ad illud quod obiicitur. quod
+          <lb ed="#N" n="101"/>non manducat subtrahit honorem deo etc. Potest dici quod non est
+          <lb ed="#N" n="102"/>necesse. quia et manducans et non manducans id est ieiunans
+          refe<lb ed="#N" n="103" break="no"/>vtrique ad deum honorant ipsum. vnde sicut non sequitur. hoc est bonum.
+          <lb ed="#N" n="104"/>ergo eius oppositum est malum. quia vtrumque potest dirigi in bonum f
+          <lb ed="#N" n="105"/>scilicet hoc et suum oppositum. sic est in proposito. vnde hoc argumentum
+          <lb ed="#N" n="106"/>non valet. manducans honorat deum. ergo non manducans siue
+          ie<lb ed="#N" n="107" break="no"/>iunans inhonorat vel subtrahit honorem deo. quia licet duo
+          oppo<lb ed="#N" n="108" break="no"/>sita non simul esse posunt vera et falsa. posunt tamen duo opposita similis
+          <lb ed="#N" n="109"/>esse bona: eo modo quo posunt simul esse. Ron huiusmodi est. quod verum
+          <lb ed="#N" n="110"/>et falsum non sortiuntur esse oppositionis ex relatione in finem: sicut
+          <lb ed="#N" n="111"/>bonum et malum que proprie dicunt conditionem finis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e472">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="112"/>obiicitur. quod cibus non est vicium etc. Potest dici quod hoc intelligendum
+          <lb ed="#N" n="113"/>est per se et causaliter. et quia refrenando appetitum vsus cibi
+          vicio<lb ed="#N" n="114" break="no"/>sus reprimitur. ideo circa vtrumque est virtus.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e481">
+          ⁋ Pret. appetitus
+          <lb ed="#N" n="115"/>et libido quandoque excitantur et augentur ex vsu sine sumptione cibi
+          <lb ed="#N" n="116"/>delicati. propier hoc ab huiusmodi abstinendum est. et opus virtu
+          <lb ed="#N" n="117"/>tis est abstinere.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e490">
+          ⁋ Ad aliud quod obiicitur. quod tempore quo necessitatis
+          <lb ed="#N" n="118"/>debitum absoluitur ignoratur etc. Potest dici quod licet hoc sit verum secd quod
+          <lb ed="#N" n="119"/>medium precisum diuidit inter necessitatem et voluptatem: non tamen est
+          <lb ed="#N" n="120"/>ommni no verum secundum quod medium magis dilatatum diuidit. vnde verbum
+          <lb ed="#N" n="121"/>propconsitum non est vsque quaque verum in omni commestione. vnde vt
+          <lb ed="#N" n="122"/>dictum est. quando sumuntur delicata augetur voluptas in ipsa
+          come<lb ed="#N" n="123" break="no"/>stione. et vsus recedit a medio quandoque plus quandque minus. propter
+          <lb ed="#N" n="124"/>quod virtutis actus est abstinere: licet medium precisum ignoretur.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e508">
+          <lb ed="#N" n="125"/>⁋ Ad illud quod obiicitur. quod in copia voluptatum prosperisque
+          <lb ed="#N" n="126"/>successibus probat homo etc. Potest dici quod in cibis probat homo
+          <lb ed="#N" n="127"/>suam temparantiam et illam roborat quando abstinet ab illis: non quia
+          <lb ed="#N" n="128"/>sumat. vnde abstinens in abundantia ferculorum temporantiam suam
+          <lb ed="#N" n="129"/>roborat. vnde qui abstinet a cibis et potibus non respuit illa
+          qui<lb ed="#N" n="130" break="no"/>bus probatur et roboratur virtus: quia in copia voluptatum
+          proba<lb ed="#N" n="131" break="no"/>tur et roboratur temparantia abstinendo: non voluptuosis vtendo.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e527">
+          <lb ed="#N" n="132"/>⁋ Ad illud quod obiicitur. quod non est opus sobrietatis tenere
+          me<lb ed="#N" n="133" break="no"/>dium circa omne genus cibi etc. Potest dici quod sobrietatis secundum
+          <lb ed="#N" n="134"/>legem currentis non est tenere medium circa hunc cibum vel illum
+          <lb ed="#N" n="135"/>directe secundum quod currit secundum legem recte rationis: sed potius secundum quod
+          <lb ed="#N" n="136"/>regulatur per legem superadditam scilicet diuinam et ecclesiasticam:
+          in<lb ed="#N" n="137" break="no"/>stitutionem siue legem. et secundum quod sic regulatur: habet discernere
+          me<lb ed="#N" n="138" break="no"/>dium et determinare in omni cibo prout determinatio cibi
+          spe<lb ed="#N" n="139" break="no"/>ctat ad ieiunium. et secundum hunc modum determinat medium aliud
+          <lb ed="#N" n="140"/>in vno cibo: et aliud in alio. Nec sequitur quod licet sobrietatis sit
+          <lb ed="#N" n="141"/>determinare medium in omni cibs secundum quod illo v tendum est:
+          <lb ed="#N" n="142"/>quod propter hoc non sit virtutis sobrietatis abitin ere ab aliquo
+          <pb ed="#N" n="621"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>cibo: quia decernendo quod abstinendum est ab aliquo: determinat
+          me<lb ed="#N" n="2" break="no"/>dium in commestione.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e562">
+          ⁋ Ad hoc quod obiicitur. quod virtus est certior omni
+          <lb ed="#N" n="3"/>arte. sed nulla est certitudo in respuendo etc. Potest dici quod hoc non
+          <lb ed="#N" n="4"/>debet intelligi quod virtus moralis sit certior circa ea que spectant
+          <lb ed="#N" n="5"/>ad exercitium operum virtutum quam geometria sit circa ea que fiunt
+          <lb ed="#N" n="6"/>a geometria arte illa. sed sic intelligitur. quod per virtutem melius
+          <lb ed="#N" n="7"/>scitur que requiruntur ad hoc quod quis ad finem intentum progrediatur: quom
+          <lb ed="#N" n="8"/>per aliquam scletiam. quia virtus disponit potissime ad illam certitu
+          <lb ed="#N" n="9"/>dinem que habetur ex vnctione. Pret. virtus dicitur certior omni arte
+          quan<lb ed="#N" n="10" break="no"/>tum ad certitudinem affectus: non quantum ad certitudinem. sicut
+          sen<lb ed="#N" n="11" break="no"/>sus tactus est certioris comprehensionis quam sensus visus.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e584">
+          ⁋ Ad
+          <lb ed="#N" n="12"/>illud quod adiungitur. quod nulla est certitudo in respuendo aliquod.
+          <lb ed="#N" n="13"/>Potest dici quod licet non acquiritur certitudo in respuendo:
+          nihilo<lb ed="#N" n="14" break="no"/>minus ex prehabita certitudine respuuntur nociua. sicut accidit in
+          <lb ed="#N" n="15"/>proposito. et hoc fit ex intuitu et directione virtutis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e595">
+          ⁋ Ad illud
+          <lb ed="#N" n="16"/>quod obiicitur. quod vbi maiorem pugna ibi maior est victoria etc.
+          <lb ed="#N" n="17"/>Potest dici quod hoc verum est quando pugna venit ab exteriori omnino.
+          <lb ed="#N" n="18"/>sed quando crescit ex malicia hominis non est verum. quia magis grauat
+          <lb ed="#N" n="19"/>auarum dare obulum: quam grauaret liberalem dare marcam. et hoc
+          <lb ed="#N" n="20"/>venit ex malicia ipsius auari. Pret. hoc intelligitur vbi
+          ma<lb ed="#N" n="21" break="no"/>ior est pugna et vtilior et fortior resistentia. Sed vtilior est
+          <lb ed="#N" n="22"/>resistentia in abstinentia a cibis quam vtendo illis: ideo et
+          maio<lb ed="#N" n="23" break="no"/>rem acquirit coronam qui a cibis abstinet: quam qui vtitur illis.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e615">
+          <lb ed="#N" n="24"/>⁋ Ad illud quod obiicitur. quod deus omnia creauit ad vsum hominis
+          <lb ed="#N" n="25"/>etc. Potest dici quod licet homini primitus instituto omnia essent subie
+          <lb ed="#N" n="26"/>cta et licita: vult tamen deus et exigit eius iusticia: quod homo qui
+          de<lb ed="#N" n="27" break="no"/>stituit se per abusum creature coerceat se et restringat se ab
+          <lb ed="#N" n="28"/>vsu creaturarum.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e628">
+          ⁋ Et ex hoc patet responsio ad aliud. quod licet omnes
+          cre<lb ed="#N" n="29" break="no"/>ature bone sunt in se: tamen abuti potest homo illis. et propter periculum
+          <lb ed="#N" n="30"/>abusus iustum est quod se reprimat et coerceat ab vsu earum: quia
+          <lb ed="#N" n="31"/>concupisentia et pronitas ad malum propter vsum creaturarum
+          inordi<lb ed="#N" n="32" break="no"/>natum excitatur et augimentatur.
+        </p>
+        <p xml:id="v78d89-ah76c4-d1e640">
+          ⁋ Ad illud quod obiicitur. quod abstinens
+          <lb ed="#N" n="33"/>a cibis nec est vtens nec fruens etc. Potest dici secundum augustinus. vti
+          il<lb ed="#N" n="34" break="no"/>lis est assumere illa in vsum voluntatis sue ad eligendum siue
+          <lb ed="#N" n="35"/>ad respuendum. vnde vsus potest esse et in eligendo et in respuendo.
+          <lb ed="#N" n="36"/>vnde abstinens a cibis potest vti ill quodammodo. et licet vti sit
+          bo<lb ed="#N" n="37" break="no"/>num: concupiscere tamen sit malum. et ideo ratione concupiscentie et abusus
+          re<lb ed="#N" n="38" break="no"/>spuenda sunt huiusmodi creata: et ab eis est abstinendum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

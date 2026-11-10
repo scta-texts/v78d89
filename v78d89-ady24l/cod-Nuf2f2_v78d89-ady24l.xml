@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 75, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 75, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="473"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ady24l"><!-- q75m3 -->
+        <head xml:id="v78d89-ady24l-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ady24l-Hd1e103" type="question-title">Utrum sit motus generalis virtutis vel spectialis virtutis</head>
+        <p xml:id="v78d89-ady24l-d1e106">
+          <lb ed="#N" n="6"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-ady24l-d1e111">
+          <lb ed="#N" n="7"/>COnsequenter queritur. vtrum sit motus generalis
+          <lb ed="#N" n="8"/>virtutis vel spectialis virtutis. Quod generalis
+          vi<lb ed="#N" n="9" break="no"/>detur sic: eiusdem virtutis est gaudium siue
+          pla<lb ed="#N" n="10" break="no"/>centia boni: et dolor siue displicentia eius
+          op<lb ed="#N" n="11" break="no"/>positi. sed gaudere de bono siue placentia boni est actus siue
+          mo<lb ed="#N" n="12" break="no"/>tus vniuscuiusque virtutis: ergo dolere de opposito boni siue
+          di<lb ed="#N" n="13" break="no"/>splicentia mali est actus siue motus generalis virtutis. sed
+          displi<lb ed="#N" n="14" break="no"/>centia siue dolere de malo contritio est: ergo contritio est motus genera
+          <lb ed="#N" n="15"/>lis virtutis vel spetialis.
+        </p>
+        <p xml:id="v78d89-ady24l-d1e133">
+          ⁋ Item vt habetur a pho. bonum et malum non
+          <lb ed="#N" n="16"/>sunt in genere sed sunt genera aliorum. ergo cum generalitas virtu
+          <lb ed="#N" n="17"/>tis est a termino siue a bono actus siue motus sui: cum contritio sit
+          <lb ed="#N" n="18"/>actus siue motus virtutis: cuius terminus siue obiectum est malum
+          <lb ed="#N" n="19"/>detestandum: relinquitur quod contritio sit motus siue actus virtutis
+          <lb ed="#N" n="20"/>gratie generalis. Ad hoc valet quod supratactum est. vbi quesitum est
+          <lb ed="#N" n="21"/>vtrum penitentia sit in vna vi vel in pluribus.
+        </p>
+        <p xml:id="v78d89-ady24l-d1e150">
+          ⁋ Contra. contritio est
+          <lb ed="#N" n="22"/>displicentia mali existentis in perticulari subiecto. quia in
+          proprio<lb ed="#N" n="23" break="no"/>subiecto inquantum huiusmodi. sed motus talis est virtutis spietialis. ergo etc
+          <lb ed="#N" n="24"/>Ad hoc valent quedam que tacta sunt locis supra nominatis.
+        </p>
+        <p xml:id="v78d89-ady24l-d1e159">
+          <lb ed="#N" n="25"/>Responsio. ad hoc potest dici. quod contritio est motus virtutis spetialis
+          elici<lb ed="#N" n="26" break="no"/>tiue.
+        </p>
+        <p xml:id="v78d89-ady24l-d1e166">
+          ⁋ Ad illud quod obiicitur. quod displicentia mali est actus
+          ge<lb ed="#N" n="27" break="no"/>neralis. Dicendum quod et si hoc sit verum. displicentia tamen mali huius
+          <lb ed="#N" n="28"/>psone siue existentis in hoc perticulari subacato: est motus virtutis
+          <lb ed="#N" n="29"/>perticularis. Ut enim habetur ab Amb. Penitentia id est contritio est dolor
+          cor<lb ed="#N" n="30" break="no"/>dis et amaritudo anime pro malis que quisque commisit. hec enim
+          dici<lb ed="#N" n="31" break="no"/>tur de penitentia ratione contritionis.
+        </p>
+        <p xml:id="v78d89-ady24l-d1e179">
+          ⁋ Similiter potest dici ad aliud. quod
+          <lb ed="#N" n="32"/>licet malum et bonum sunt genera aliorum: non tamen bonum et malum
+          <lb ed="#N" n="33"/>secundum quod sunt determinata circa hoc perticulare subiectum de
+          cuius<lb ed="#N" n="34" break="no"/>modi malo est per se et proprie contritio.
+        </p>
+        <p xml:id="v78d89-ady24l-d1e188">
+          ⁋ Ad illud
+          probleuma<lb ed="#N" n="35" break="no"/>terminandum. valent ea que tacta sunt in probleumate de
+          peniten<lb ed="#N" n="36" break="no"/>tia. vtrum sit virtus generalis vel specialis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

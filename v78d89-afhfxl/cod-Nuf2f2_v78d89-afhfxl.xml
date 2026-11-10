@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 84, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 84, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="539"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afhfxl"><!-- q84m2 -->
+        <head xml:id="v78d89-afhfxl-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-afhfxl-Hd1e103" type="question-title">In speciali. scilicet de perti bus illius scilicet oratione. jejunio. et elemosina</head>
+        <p xml:id="v78d89-afhfxl-d1e106">
+          <lb ed="#N" n="131"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-afhfxl-d1e111">
+          <lb ed="#N" n="132"/>COnsequenter queritur de necessitate
+          satisfa<lb ed="#N" n="133" break="no"/>ctionis: et intendo de satisfactione per opus
+          <lb ed="#N" n="134"/>exterius. Primo igitur hic queritur.
+          vrrum<lb ed="#N" n="135" break="no"/>requiratur in satisfactione opus exterius.
+          <lb ed="#N" n="136"/>Secundo. vtrum opus penale.
+        </p>
+        <div xml:id="v78d89-afhfxl-Dd1e124">
+          <head xml:id="v78d89-afhfxl-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-afhfxl-d1e128">
+            <pb ed="#N" n="540"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e137">
+            <lb ed="#N" n="2"/>AD primum quod opus exterius requirater videtur sic.
+            <lb ed="#N" n="3"/>de pecicatis confessis fit per se satisfactio secundum
+            arbi<lb ed="#N" n="4" break="no"/>trium ecclesie. ecclesia autemm arbitratur satisfactionem
+            iu<lb ed="#N" n="5" break="no"/>stam: nisi fiat opere exteriori. quia huiusmodi solutionem iniungit
+            peniten<lb ed="#N" n="6" break="no"/>tibus. ergo in satisfactione necesse est opst exterius.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e150">
+            ⁋ Item sed idem patet e
+            <lb ed="#N" n="7"/>partes satisfactionis que sunt opera exteriora scilicet oratio. ieiunium. et
+            <lb ed="#N" n="8"/>elemosmna.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e157">
+            ⁋ Contra. Io. v. dixit dominus languido quem
+            sa<lb ed="#N" n="9" break="no"/>nauerat ad piscinam. Ecce sanus factus es: iam noli peccare
+            <lb ed="#N" n="10"/>ne deterius aliquid tibi contingat. Sanato ergo non iniunxit dominus
+            ali<lb ed="#N" n="11" break="no"/>quid nisi voluntatem non peccandi que est motus interior. sed omnis christ
+            <lb ed="#N" n="12"/>actio nostra est lectio. ergo sacerdos penitenti sanato per contritionem non
+            <lb ed="#N" n="13"/>debet iniungere exteriorem satisfactionem. non igitur requiritur satisfactio
+            <lb ed="#N" n="14"/>exterior.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e174">
+            ⁋ Item videtur per illud quod dominus mulieri deprehense in
+            adul<lb ed="#N" n="15" break="no"/>terio non iniunxit satisfactionem Ioh. viii. sed tantum dixit ei. vade et
+            <lb ed="#N" n="16"/>amplius noli peccare. Idem videtur per illud quod dicitur ecclesastici. xxi.
+            Fili<lb ed="#N" n="17" break="no"/>peccasti non adiicias iterum.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e183">
+            ⁋ Respondeo. quod est satisfactio sacramentalis
+            <lb ed="#N" n="18"/>vtpote illa que iniungitur a sacerdote. et hec non fit nisi per opst
+            ex<lb ed="#N" n="19" break="no"/>terius. et hec proprie dicitur satisfactior et est vna pars penitentie. Alio modo
+            <lb ed="#N" n="20"/>nomine extenso dicitur satisfactio ops quodcumque siue exterius siue
+            inte<lb ed="#N" n="21" break="no"/>rius: quo penitens meretur remissionem reatus sui peccati. cuiusmodi sunt
+            <lb ed="#N" n="22"/>opera que superintendunt penitentes operibus iniunctis ab ecclesia. et
+            his<lb ed="#N" n="23" break="no"/>modi sunt de consummatione et securitate satisfactionis.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e199">
+            ⁋ Non
+            <lb ed="#N" n="24"/>ergo quod quedam sunt de fundamento satisfactionis. sicut cauere a peccatis
+            <lb ed="#N" n="25"/>sine quo non prodest satisfactio. Eclessastic. xxxiiii. Qui baptizatur a
+            <lb ed="#N" n="26"/>mortuo et iterum tangit mortuum: quid prodest lauatio eius: sic homo
+            <lb ed="#N" n="27"/>qui ieiunat in peccatis suis et iterum eadem faciens: quid prodest
+            hu<lb ed="#N" n="28" break="no"/>miliando se. Quedam sunt ad expeditionem siue ad facultatem
+            <lb ed="#N" n="29"/>satisfactionis: sicut vitatio mali consortii. quia inter malos socios
+            <lb ed="#N" n="30"/>nonfit defacili satisfactio. vnde Math. xxvii. Egressus petrus
+            <lb ed="#N" n="31"/>foras fleuit amare. vbi dicit glo. ab impiorum consilio seclusus
+            <lb ed="#N" n="32"/>culpam lauat. quod non intus. vnde super illud negauit coram omnibus.
+            <lb ed="#N" n="33"/>nescio quid dicis. dicit glo. Quadnoxia prauorum colloquia que
+            co<lb ed="#N" n="34" break="no"/>gunt petrum negare deum. Quedam sunt de substantia satisfactionis.
+            <lb ed="#N" n="35"/>vt ieiunium. oratio. et elemosina. et hec iniungunt sacerdotes
+            pe<lb ed="#N" n="36" break="no"/>nitentibus cum dicunt cauete a peccatis. vitate consortia mala.
+            ie<lb ed="#N" n="37" break="no"/>iunate. orate. et elemosinam date. Quedam sunt de
+            consumma<lb ed="#N" n="38" break="no"/>tione et perfectione et securitate satisfactionis. sicut alia bona que
+            <lb ed="#N" n="39"/>faciunt penitentes supra satisfactionem iniunctam a sacerdote. vnde
+            <lb ed="#N" n="40"/>ysaie. ii. Docebit nos vias suas et ambulabimus in semitis
+            <lb ed="#N" n="41"/>eius id est per sacerdotem docebit nos quid teneamur agere. et he sunt
+            <lb ed="#N" n="42"/>vie. Sed nos strictiorem penitentiam faciamus quam iniuncta sit. sunt
+            <lb ed="#N" n="43"/>enim semite strictiores quom vie. et hec iniungunt sacerdotes in
+            <lb ed="#N" n="44"/>vli cum dicunt penitentibus. omnia bona que facietis sunt vobis pro
+            <lb ed="#N" n="45"/>penitentia. his visis facile est respondere ad obiecta.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e249">
+            ⁋ Ad illa que
+            <lb ed="#N" n="46"/>obiiciuntur quod dominus remisit peccatum sine iniunctione exterioris
+            sa<lb ed="#N" n="47" break="no"/>tisfactionis. Drcendum quod dominus non iniumxit satisfactionem sacramentalem:
+            <lb ed="#N" n="48"/>sed dixit illis fundamentum penitentie scilicet abstinere a peccato. Uel aliter. quod
+            <lb ed="#N" n="49"/>dominus non iniumxit satisfactionem exteriorem: quoniam videbat contritionem
+            <lb ed="#N" n="50"/>esse sufficientem ad deletionem macule et pene. Sed sacerdos nost
+            <lb ed="#N" n="51"/>qui non videt corda penitentium: nescit an sufficiens sit contritio. et
+            <lb ed="#N" n="52"/>propter hoc iniungit satisfactionem exteriorem.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e267">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="53"/>de ecclesiastico vbi dicitur. Fili peccasti non adiicias iterum. Dicendum
+            <lb ed="#N" n="54"/>quod hoc non sufficit scilicet non adiicere. vnde subditur ibidem de satisfactione
+            <lb ed="#N" n="55"/>orationis. cum subditur: sed de pristinis deprecare etc.
+          </p>
+        </div>
+        <div xml:id="v78d89-afhfxl-Dd1e278">
+          <head xml:id="v78d89-afhfxl-Hd1e280">Articulus 2</head>
+          <p xml:id="v78d89-afhfxl-d1e282">
+            <lb ed="#N" n="56"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e287">
+            <lb ed="#N" n="57"/>COnsequenter queritur. vtrum in satisfactione requiritur
+            <lb ed="#N" n="58"/>opus penale. Quod sic: videtur. Dicit enim Greg. in
+            qua<lb ed="#N" n="59" break="no"/>dam omelis. Iustum est vt peccator tantum maiora sibi
+            in<lb ed="#N" n="60" break="no"/>ferat lamenta per penitentiam: quanto maiora intulit sibi damna per
+            <lb ed="#N" n="61"/>culpam.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e300">
+            ⁋ Item in corporalibus et spiritualibus est curatio per
+            con<lb ed="#N" n="62" break="no"/>trarium: vt vult Grego. quia vtrobique contraria contrariis curantur.
+            <lb ed="#N" n="63"/>sed peccatum eo quod ex libidine committitur cum delectatione
+            perpetra<lb ed="#N" n="64" break="no"/>tur et per satisfactionem curatur. ergo opst satisfactionis debet esse penale.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e309">
+            <lb ed="#N" n="65"/>⁋ Item diuina iusticia requirit quod peccatum puniatur. alioquin
+            <lb ed="#N" n="66"/>aliquid esset inordinatum in regno dei: vt habetur ab augustinus. sed pec
+            <lb ed="#N" n="67"/>catum punitur in operibus satisfactionis. et ita vt prius.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e319">
+            ⁋ Item
+            pec<lb ed="#N" n="68" break="no"/>catum efficit factorem debitorem pene. sed in satisfactione soluit
+            <lb ed="#N" n="69"/>quod debet. et ita vt prius.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e326">
+            ⁋ Contra. Ansel. libro. Cur deus homo.
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>Satisfacere est honorere deo debitum impendere. hoc autem non
+            requi<lb ed="#N" n="71" break="no"/>rit opus penale. Exhibetur enim honor deo debitus omni tempore
+            <lb ed="#N" n="72"/>bono non penali. et ita per opera non penalia fit satisfactio.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e337">
+            ⁋ Ire
+            <lb ed="#N" n="73"/>oratio est satisfactoria. inter omnia tamen meritoria est iocundissima
+            <lb ed="#N" n="74"/>et cum delectatione. et ita contingit satisfieri opere delectabili non
+            <lb ed="#N" n="75"/>penali.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e346">
+            ⁋ Item si opst satisfactorium est necessario penale per se:
+            <lb ed="#N" n="76"/>quanto est magis penalermagis est satisfactorium. sed magis
+            <lb ed="#N" n="77"/>est penale tepido et carnali ieiunare vno die quam viro deuo
+            <lb ed="#N" n="78"/>to et feruenti per totam vnam quadragesimam. ergo iste magis facit
+            <lb ed="#N" n="79"/>ieiunando vna die quam ille per totam quadragesimam. quod est
+            <lb ed="#N" n="80"/>inconueniens. quia tunc reportaretur commodum de defectu vel
+            ma<lb ed="#N" n="81" break="no"/>licia.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e362">
+            ⁋ Item si hoc esset: multis esset preclusa
+            possibili<lb ed="#N" n="82" break="no"/>tas satisfaciendi. vt illis qui nullum opus penale possunt
+            <lb ed="#N" n="83"/>agere.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e369">
+            ⁋ Item quedam sunt peccata que perpetrantur cum
+            <lb ed="#N" n="84"/>tristicia. sed satisfactio debet esse per contrarium. ergo
+            si<lb ed="#N" n="85" break="no"/>ne pena debet de his peccatis satisfactio fieri. vtputa sunt
+            <lb ed="#N" n="86"/>accidia. inuidia.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e379">
+            ⁋ Respondeo. quod satisfactio est
+            exercen<lb ed="#N" n="87" break="no"/>da per opera penalia. cuius est ratio multiplex. Una
+            cu<lb ed="#N" n="88" break="no"/>ratio per contrarium. si enim introducta est infirmitas
+            <lb ed="#N" n="89"/>per delectationem culpe: curari debet per sustinentiam
+            pe<lb ed="#N" n="90" break="no"/>ne. Alia est iusta debiti solutio. debitum enim quod
+            contra<lb ed="#N" n="91" break="no"/>hitur peccando: pena soluitur. Alia est deordinati
+            reor<lb ed="#N" n="92" break="no"/>vinatio. qui enim se deordinauit per commissionem culpe:
+            <lb ed="#N" n="93"/>potissime reordinat se per passionem pene. Alia est
+            reuer<lb ed="#N" n="94" break="no"/>sio debita ad statum iusticie. qui enim auersus est a
+            sta<lb ed="#N" n="95" break="no"/>tu iusticie per culpam: debet reuerti ad eundem per
+            pe<lb ed="#N" n="96" break="no"/>nam. Alia est diuini honoris debita exhibitio. qui enim
+            <lb ed="#N" n="97"/>deo honorem abstulit offendendo in culpa: debet deo
+            ho<lb ed="#N" n="98" break="no"/>norem reddere subiiciendo se deo in pena. penitens enim
+            <lb ed="#N" n="99"/>maiorem deo exhibet honorem illi famulando in opere
+            <lb ed="#N" n="100"/>bono et in pene assumpte deiectione: quam tantum famulando in
+            <lb ed="#N" n="101"/>altero.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e414">
+            ⁋ Ad illud ergo quod primo obiicitur. quod
+            satis<lb ed="#N" n="102" break="no"/>facere est impendere etc. Dicendum quod est debitum
+            ho<lb ed="#N" n="103" break="no"/>noris veniens ex bono collato: et hunc debemus
+            impen<lb ed="#N" n="104" break="no"/>dere per gratiarumactiones. et veniens ex mandato
+            iniun<lb ed="#N" n="105" break="no"/>cto: et hunc debemus per obedientie subiectionem. et
+            ve<lb ed="#N" n="106" break="no"/>niens ex maiestatis imperio: et hunc debemus per latrie
+            <lb ed="#N" n="107"/>adorationem. et veniens etiam ex peccato commisso: et
+            iste<lb ed="#N" n="108" break="no"/>honor redditur deo per suipsius punitionem. et hoc est in
+            <lb ed="#N" n="109"/>satisfactione.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e434">
+            ⁋ Ad illud quod obiicitur de oratione.
+            Di<lb ed="#N" n="110" break="no"/>cendum quod etsi orare sit iocundum et delectabile ratione
+            deuoti<lb ed="#N" n="111" break="no"/>onis et feruore ipsius caritatis: nihilominus orare
+            quan<lb ed="#N" n="112" break="no"/>tum est de se: est valde penalem carni. etiam cum quantacunque
+            <lb ed="#N" n="113"/>fiat deuotione et delectatione.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e445">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="114"/>si satisfactorium opus sit penale per se. ergo etc. Dicendum quod
+            <lb ed="#N" n="115"/>aliquid est penalem nature: quia natura est. sicut est
+            absti<lb ed="#N" n="116" break="no"/>nentia ieiunii et erogatio bonorum ex quibus esset sustinenda
+            <lb ed="#N" n="117"/>infirmitas humana. Aliquid est penale ratione
+            deordinatio<lb ed="#N" n="118" break="no"/>nis culpe: quia deordinatur voluntas et inhabilitatur ad bonum
+            <lb ed="#N" n="119"/>cuiusmodi est tepor et carnalitas. his enim deordinatur
+            vo<lb ed="#N" n="120" break="no"/>luntas etc. Prima penalitas congruit operibus satisfactionis.
+            <lb ed="#N" n="121"/>secunda nequaquam. de ista autem secunda opponitur non de
+            prima<lb ed="#N" n="122" break="no"/>⁋ Ad illud quod obiicitur. quod aliqui vel ratione
+            infirmita<lb ed="#N" n="123" break="no"/>tis vel debilitatis nihil penalem posunt sustinere etc. Dicendum
+            <lb ed="#N" n="124"/>quod etsi hoc supponatur. vel nunquam vel raro accidit: nisi forte in
+            <lb ed="#N" n="125"/>graui et perpetuo languore. talibus non sunt indicenda huiusmodi
+            <lb ed="#N" n="126"/>opera laboriosa. sed illis sufficit dolor perpetuus et
+            dete<lb ed="#N" n="127" break="no"/>statio commissi.
+          </p>
+          <p xml:id="v78d89-afhfxl-d1e478">
+            ⁋ Ad aliud dicendum. quod si quedam pec
+            <lb ed="#N" n="128"/>cata perpetrantur cum tristicia: nihilominus eorum
+            ra<lb ed="#N" n="129" break="no"/>dix est libido et cum quadam complacentia libidinosa: que non
+            iinme<lb ed="#N" n="130" break="no"/>rito leticia culpabilis est interpretanda etc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

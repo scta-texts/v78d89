@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="55"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e484"><!-- q7m5 -->
+        <head xml:id="v78d89-d1e484-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-d1e484-Hd1e103" type="question-title">De significatione circumcisionis</head>
+        <p xml:id="v78d89-d1e484-d1e106">
+          <lb ed="#N" n="11"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-d1e484-d1e111">
+          <lb ed="#N" n="12"/>SEquitur inquirere de significatione circumcisio
+          <lb ed="#N" n="13"/>nis. Primo ergo queritur vtrum circumcisio sit
+          so<lb ed="#N" n="14" break="no"/>lum in significando et non in efficiendo.
+          Se<lb ed="#N" n="15" break="no"/>cundo cuius rei sit signum proprie et per
+        </p>
+        <div xml:id="v78d89-d1e484-Dd1e122">
+          <head xml:id="v78d89-d1e484-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-d1e484-d1e126">
+            se<lb ed="#N" n="16" break="no"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e484-d1e131">
+            <lb ed="#N" n="17"/>CIrca primum sic. Quod non sit solum in significando
+            <lb ed="#N" n="18"/>sed in efficiendo videtur: quia homo cecidit in
+            <lb ed="#N" n="19"/>ignorantiam secundum hug. et augustinus et ita congruit
+          remedi<lb ed="#N" n="20" break="no"/>um contra herc. sed hoc fuit per sacramenta et maxime per circum
+            <lb ed="#N" n="21"/>cisionem: ergo circumcisio non tantum fuit in signum sed in remedium
+          seu<lb ed="#N" n="22" break="no"/>efficaciam.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e147">
+            ⁋ Contra. iii. Ro. Sacramenta legalia institu
+          <lb ed="#N" n="23"/>ta fuerunt: non ad iustificationem sed in significationem.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e152">
+            ⁋ Preter.
+          <lb ed="#N" n="24"/>diffinitio circumcisionis posita a dama. nihil ponit nisi
+          si<lb ed="#N" n="25" break="no"/>gnificando.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e160">
+            ⁋ Item augustinus. ad valerium. Circumcisio ad
+          signifi<lb ed="#N" n="26" break="no"/>cationem purgationis valebat: sicut baptismus modo ad
+          inno<lb ed="#N" n="27" break="no"/>uationem.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e167">
+            ⁋ Respono. effectus est non solum in significando sed eti
+          <lb ed="#N" n="28"/>am in purgando.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e172">
+            ⁋ Quod obiicitur de glo. iii. Ro. Respondeo quod
+          <lb ed="#N" n="29"/>non loquiiur de circumcisione sed de aliis legalibus sicut patet ibi.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e177">
+            <lb ed="#N" n="30"/>⁋ Ad hoc quod obiicitur de diffinitione posita a dama.
+          Respon<lb ed="#N" n="31" break="no"/>deo. quod dama. non ponit plenam diffinitionem: sed solum quantum ad
+            <lb ed="#N" n="32"/>vnam partem. quelibet enim ratio dicit totum esse rei. sed vna
+          dif<lb ed="#N" n="33" break="no"/>finitio dicit esse materiale alia formale.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e188">
+            ⁋ Ad auctoritatem
+          <lb ed="#N" n="34"/>Augustinus ad valerium. dicendum quod non intelligit quod
+          circumci<lb ed="#N" n="35" break="no"/>sio sit tantum ad significationem: sed quod sit ad significationem pur
+            <lb ed="#N" n="36"/>gationis cum effectu in paruulis: et ita non ponit
+          signifi<lb ed="#N" n="37" break="no"/>cationem sed efficaciam.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e484-Dd1e201">
+          <head xml:id="v78d89-d1e484-Hd1e203">Articulus 2</head>
+          <p xml:id="v78d89-d1e484-d1e205">
+            <lb ed="#N" n="38"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e484-d1e210">
+            <lb ed="#N" n="39"/>COnsequenter queritur cuius rei signum est
+            circum<lb ed="#N" n="40" break="no"/>cisio proprie. Et queritur vtrum sit signum regene
+            <lb ed="#N" n="41"/>rationis. Quod videtur: quia circumcisio est signum
+            <lb ed="#N" n="42"/>ablationis. Per ablationem autem peccati non fit filius dei: sed per
+            <lb ed="#N" n="43"/>conformitatem gratie prout dicitur Romn. viii. Conformes
+            fieri<lb ed="#N" n="44" break="no"/>imagini filii sui: ergo non est signum regenerationis.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e226">
+            ⁋ Contra.
+            <lb ed="#N" n="45"/>augustinus. in libro de ciui. dei. Circumcisio signum regenerationis fuit
+            <lb ed="#N" n="46"/>et non immerito paruulum propter originale peccatum quo primum dei
+            <lb ed="#N" n="47"/>disipatum est testamentum generatio disperdet nisi
+            genera<lb ed="#N" n="48" break="no"/>tio liberet. sic intelligenda sunt verba diuina. tanquam dictum
+            <lb ed="#N" n="49"/>sit: qui non fuerit regeneratus: interibit anima eius de gene
+            <lb ed="#N" n="50"/>ratione eius. quia testamentum dei dissipauit quando in adam etiam
+            <lb ed="#N" n="51"/>cum omnibus ipse peccauit: ergo circumcisio fuit signum
+            regenera<lb ed="#N" n="52" break="no"/>cionis.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e246">
+            ⁋ Responso. regenerationis dicitur signum. non quia signum fuit
+            <lb ed="#N" n="53"/>bapni mi tantum: sed propter hoc quod remoto originali peccato per
+            cir<lb ed="#N" n="54" break="no"/>cumcisionem fit filius dei per gratiam. prius erat filius ire per culpam
+          </p>
+          <p xml:id="v78d89-d1e484-d1e254">
+            <lb ed="#N" n="55"/>Item adhuc queritur. cum circumcisio instituta sit in
+            reme<lb ed="#N" n="56" break="no"/>dium contra originale. Dicitur enim. iiii. Ro. abraham signum
+            ac<lb ed="#N" n="57" break="no"/>cepit circumcisionis signaculum fidei. in glo. ibi habetur quod
+            cir<lb ed="#N" n="58" break="no"/>cumcisio data fuit in remedium contra originalem. aut igitur est
+            si<lb ed="#N" n="59" break="no"/>gnum remissionis culpe proprie et primo: aut pene. Quod autem
+            <lb ed="#N" n="60"/>culpe videtur glo. ibi. iiii. Ro. signum accepit circumcisionis etc
+            <lb ed="#N" n="61"/>Circumcisio exterior dicitur signum interioris circumcisionis. tale scilicet quod
+            <lb ed="#N" n="62"/>sit habens signiaculum signate rei. vt sicut carne libidinis in
+            circumcisio<lb ed="#N" n="63" break="no"/>ne homo spoliatur: sic anima spoliatur omnibus sordibus prime natiui
+            <lb ed="#N" n="64"/>tatis: et quia nondum dixerat cuius rei: subditi iusticie fidei hec
+            <lb ed="#N" n="65"/>glo. Ecce quod est signum remissionis culpe.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e280">
+            ⁋ Contra. qui circum
+            <lb ed="#N" n="66"/>cidit non tollit totum sed partem aliquam alia remanente. debet igitur
+            <lb ed="#N" n="67"/>esse signum eius quod tolliter in parte. hoc est concupiscentia: non culpa que
+            to<lb ed="#N" n="68" break="no"/>taliter tollitur.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e289">
+            ⁋ Pre. penale oblatum debet esse signum ablationis
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>pene.
+          </p>
+          <p xml:id="v78d89-d1e484-d1e296">
+            ⁋ Item in abraham non habuit circumcisio hunc effanctum
+            </p>
+          <p xml:id="v78d89-d1e484-d1e298">
+            <lb ed="#N" n="70"/>⁋ Responsio. quod est signum diuisionis originalis quo ad culpam et
+            pe<lb ed="#N" n="71" break="no"/>namm: sed generalius quo ad penam. In abraham autem deleta fuit
+            <lb ed="#N" n="72"/>originalis antequam illi preciperetur circumcisio. sed post quando datum
+            <lb ed="#N" n="73"/>fuit illi preceptum de circumcisione et circumcidebat se
+            diminu<lb ed="#N" n="74" break="no"/>ebat circumcisio in ipso concupiscentiam id est gratia in circumcisione: non
+            <lb ed="#N" n="75"/>ex circumcisione. Et notandum vt dicit augustinus quod sacramentum est ex
+            si<lb ed="#N" n="76" break="no"/>militudine representans et ex institutione significans etc.
+            Cir<lb ed="#N" n="77" break="no"/>cumcisio igitur quantum ex similitudine representat proprie penam
+            si<lb ed="#N" n="78" break="no"/>gnificat. inquantum ex institutione signat culpam proprie.
+            ratio<lb ed="#N" n="79" break="no"/>nes autem inducte non probant precise.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

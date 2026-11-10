@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 50, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 50, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="337"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aa83e3"><!-- q50m2 -->
+        <head xml:id="v78d89-aa83e3-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-aa83e3-Hd1e103" type="question-title">Utrum a laycis</head>
+        <p xml:id="v78d89-aa83e3-d1e106">
+          <lb ed="#N" n="45"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-aa83e3-d1e111">
+          <lb ed="#N" n="46"/>COnsequenter queritur vtrum dispensandum sit corpus
+          <lb ed="#N" n="47"/>christi a layco. Quod sic: videtur per hoc. quod videtur esse
+          <lb ed="#N" n="48"/>maioris potstatis et dignitatis dispensare illud
+          <lb ed="#N" n="49"/>sacramentum quod est fundamentum omnium
+          sacramen<lb ed="#N" n="50" break="no"/>torum et fructuosissimum et maximum: quam illud quod est minus
+          <lb ed="#N" n="51"/>huiusmodi. sed sacramentum baptismi est fundamentum aliorum
+          fru<lb ed="#N" n="52" break="no"/>ctuosissimum et maximum. vtpote quo aperitur ianua et efficitur
+          <lb ed="#N" n="53"/>suscipiens promptus ad euolandum. minus hiniusmodi est istud
+          <lb ed="#N" n="54"/>sacramentum: ergo maioris potestatis et dignitatis est
+          dii<lb ed="#N" n="55" break="no"/>pensare baptismi sacramentum quam hoc sacramentum. sed
+          <lb ed="#N" n="56"/>dispensare sacramentum baptismi licitum est layco in
+          casu<lb ed="#N" n="57" break="no"/>similiter videtur quod et istud.
+        </p>
+        <p xml:id="v78d89-aa83e3-d1e140">
+          ⁋ Item bonus laycus magis est
+          acce<lb ed="#N" n="58" break="no"/>ptus deo quam malus sacerdos. et in omni opere suo gratiosior. Unde
+          <lb ed="#N" n="59"/>omnia volita habentis caritatem sunt licita iuxta illud
+          au<lb ed="#N" n="60" break="no"/>Ius. Habe caritatem et fac quicquid vis. ergo videtur quod dispensa
+          <lb ed="#N" n="61"/>tio corporis exercita a layco bono magis est accepta deo quam a
+          <lb ed="#N" n="62"/>sacerdote malo. sed quod est deo magis acceptum est magis
+          li<lb ed="#N" n="63" break="no"/>citum: ergo etc.
+        </p>
+        <p xml:id="v78d89-aa83e3-d1e157">
+          ⁋ Contra. de conse. di. ii. peruenit. ibi dicitur.
+          <lb ed="#N" n="64"/>Quidam presbiteri intantum peruipendebant diuina misteria. vt
+          lay<lb ed="#N" n="65" break="no"/>co aut femine sacrum corpus domini tradant ad deferendum
+          infir<lb ed="#N" n="66" break="no"/>mis. quod quam sit horribile quamque detestabile omnium religiosorum
+          <lb ed="#N" n="67"/>animaduertit prudentia. igitur interdicit per omnia synodus
+          <lb ed="#N" n="68"/>ne talis temeraria presumptio vlterius fiat. Ex hoc patet quod non
+          <lb ed="#N" n="69"/>est licitum etc.
+        </p>
+        <p xml:id="v78d89-aa83e3-d1e173">
+          ⁋ Responsio. quod dispensatio corporis et sanguinis domini.
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>quibus facta est primo et prencipaliter reconciliatio generis
+          hu<lb ed="#N" n="71" break="no"/>mani cum deo: conuenit illis secundum cogrnentiam et commissionem
+          quo<lb ed="#N" n="72" break="no"/>rum est officium reconciliandi. hoc autem officium est primorum
+          <lb ed="#N" n="73"/>et principalium ministrorum ecclesie. Unde hec dispensatio
+          ne<lb ed="#N" n="74" break="no"/>que laycis conuenit qui sunt membra inferiora: neque mulieri¬o
+          <lb ed="#N" n="75"/>bus que sunt sexus inferioris.
+        </p>
+        <p xml:id="v78d89-aa83e3-d1e191">
+          ⁋ Ad primum contra. dicendum
+          <lb ed="#N" n="76"/>quod dispensare sacramentum baptismatis est tam laycis
+          in<lb ed="#N" n="77" break="no"/>dultum quam mulieribus. quia est sacramentum necessitatis. vnde
+          <lb ed="#N" n="78"/>inquantum est sacramentum dignitatis: eius dispensatio est
+          perso<lb ed="#N" n="79" break="no"/>narum digniorum. inquantum necessitatis est omnium in comuni. I
+        </p>
+        <p xml:id="v78d89-aa83e3-d1e202">
+          <lb ed="#N" n="80"/>⁋ Ad aliud dicendum. quod dispensatio huius sacramenti magis
+          <lb ed="#N" n="81"/>spectat ad officii dignitatem quam ad personarum sanctitatem.
+          <lb ed="#N" n="82"/>propter quod ratio predicta nullius est efficacie.
+        </p>
+        <p xml:id="v78d89-aa83e3-d1e211">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="83"/>dicitur quod bonus laycus in omni tempore suo gratiosior etc. Dicendum
+          <lb ed="#N" n="84"/>quod hoc verum est secundum quod opus suum dicitur quod proprie spectat
+          <lb ed="#N" n="85"/>ad eum: non secundum quod opus suum dicitur opus ab eo exercitum
+        </p>
+        <p xml:id="v78d89-aa83e3-d1e220">
+          <lb ed="#N" n="86"/>⁋ Quod dicit augus. Habe caritatem et fac quicquid vis.
+          in<lb ed="#N" n="87" break="no"/>telligendum est quicquid vis voluntate ordinata. quia
+          vnun<lb ed="#N" n="88" break="no"/>quodque tale est meritorium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="14"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e181"><!-- q2m2 -->
+        <head xml:id="v78d89-d1e181-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-d1e181-Hd1e103" type="question-title">De matrimonio</head>
+        <p xml:id="v78d89-d1e181-d1e106">
+          <lb ed="#N" n="105"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-d1e181-d1e111">
+          <lb ed="#N" n="106"/>SEcundo queritur summarie de essentia singulorum.
+          <lb ed="#N" n="107"/>Primo autem queritur summaric de matrimonio. Secundo.
+          <lb ed="#N" n="108"/>de penitentia. Terco. de sacrificio. Quarto. de
+          ob<lb ed="#N" n="109" break="no"/>latione vini et panis. Quinto. de decimatione.
+          <lb ed="#N" n="110"/>Circa martrimonium potest queri. vtrum fuerit institutum vt sacramentum tempore
+          <lb ed="#N" n="111"/>innocentie. Secundo. cuius fuerit sacramentum. Tercio. vtrum tunc
+          fue<lb ed="#N" n="112" break="no"/>rit aliqua illegitimitas in persomnis contrhedis. Quarto. vtrum de
+          le<lb ed="#N" n="113" break="no"/>ge nature fuerit quod vnus cum vna contrahit comniugium.
+        </p>
+        <div xml:id="v78d89-d1e181-Dd1e131">
+          <head xml:id="v78d89-d1e181-Hd1e133">Articulus 1</head>
+          <p xml:id="v78d89-d1e181-d1e135">
+            <lb ed="#N" n="114"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e181-d1e140">
+            <lb ed="#N" n="115"/>CIrca primum sic. videtur quod matrimonium fuit institutum
+            <lb ed="#N" n="116"/>vt sacramentum. In institutione enim coniugii non est facta
+            men<lb ed="#N" n="117" break="no"/>tio respectu alicus signati vel ex parte domini vel ex
+            <lb ed="#N" n="118"/>partem ade. Ex parte enim domini non dicitur nisi quod fuerat adiutorium ipsi
+            vi<lb ed="#N" n="119" break="no"/>ro. et qumo factum sit adiutorium scilicet de costa eius de qua formata
+            <lb ed="#N" n="120"/>fuit mulier. In his autem significatio nulla expresse
+            desi<lb ed="#N" n="121" break="no"/>gnatur. Similiter in verbis ipsius ade cum dicitur. Hoc
+            <lb ed="#N" n="122"/>nunc os ex ossibus meis. nihil enim aliud videtur
+            exprime<lb ed="#N" n="123" break="no"/>re nisi factum ipsius sicut ex ipsa littera sequenti patet: cum
+            <lb ed="#N" n="124"/>dicitur hec vocabitur virago: quia de viro sumpta est. Ex
+            ver<lb ed="#N" n="125" break="no"/>bis etiam sequentibus non videtur nisi institutio eius ad
+            offi<lb ed="#N" n="126" break="no"/>cium. per hoc quod dicitur adherebit vxori sue et erunt duo in
+            car<lb ed="#N" n="127" break="no"/>ne vna. sic ergo ex neutra parte videtur institutio ipsius
+            matri<lb ed="#N" n="128" break="no"/>monii in sacramentum.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e173">
+            ⁋ Preterea. institui dicitur matrimo
+            <lb ed="#N" n="129"/>nium a deo in sacramentum. sed hoc qumo: cum verba illa quibus
+            vi<lb ed="#N" n="130" break="no"/>detur intelligi sacramentum: sint verba ade sicut exprimitur
+            <lb ed="#N" n="131"/>in Gen. ex euangelio autem videtur quod sunt verba domini. sicut habetur
+            <lb ed="#N" n="132"/>xix. Math. vbi recitantur verba proposita. Qui fecit ab
+            ini<lb ed="#N" n="133" break="no"/>tio masculum et feminam fecit eos. et dixit. propter hoc dimittet homo
+            <lb ed="#N" n="134"/>patrem et matrem etc. Et subiungitur. quod deus comniunxit homo
+            <lb ed="#N" n="135"/>non separet. ex quibus verbis colligitur. quod fuerunt verba
+            do<lb ed="#N" n="136" break="no"/>mani. Si autem verba ade fuerunt sicut exprimitur in Gen. vnde est
+            <lb ed="#N" n="137"/>quod dicitur marimonium a deo institutum. Quod autem essent verba ade: hoc
+            <lb ed="#N" n="138"/>etiam habetur. vi. ad Epheo. vbi dicitur in glo. In cuius rei
+            figura<lb ed="#N" n="139" break="no"/>adam qui erat forma futuri: cum de costa sua factam mulierem
+            vi<lb ed="#N" n="140" break="no"/>disse. dicit in Gen. hoc nunc os de ossibus me. et ca. de car. men.
+            <pb ed="#N" n="15"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Ex quo videtur quod mastrimonium non tunc fuerit institutum vt sacramentum
+          </p>
+          <p xml:id="v78d89-d1e181-d1e208">
+            <lb ed="#N" n="2"/>⁋ Preterea si institutum fuit in sacramentum: non videtur fuisse institu
+            <lb ed="#N" n="3"/>tum nisi in signficationem coniunctionis christi et ecclesie. sed si christus non fuisset
+            <lb ed="#N" n="4"/>futurus in carne: non fuisset coniunctio christi et ecclesie in carne. que autem
+            <lb ed="#N" n="5"/>esset ratio christi in carne coniunctio nisi propter redemptionem sicut vidtur ad
+            <lb ed="#N" n="6"/>heb. ii. Illa autem redemptio per mortem non fuisset peccatum: ergo
+            ma<lb ed="#N" n="7" break="no"/>nente statu innocentie non fuisset necessaria assumptio carnis
+            <lb ed="#N" n="8"/>passibilis in christo. quare nec significatio coniunctionis christi et ecclesie
+            <lb ed="#N" n="9"/>in carne huiusmodi. non ergo tunc fuit necessarium institui coniugium in
+            sacra<lb ed="#N" n="10" break="no"/>mentum.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e231">
+            ⁋ Contra habetur. vi. ad eph. vbi dicit apostolus. Sacramentum hoc
+            <lb ed="#N" n="11"/>magnum est: ego autem dico in christo et ecclesia: sed illud non fuit
+            in<lb ed="#N" n="12" break="no"/>stitutum nisi in paradiso: ergo coniugium tunc fuit institutum in sacramentum
+            <lb ed="#N" n="13"/>hoc etiam dicit hug. expresse vbi dici. Quod sacramentum coniugii ex omnibus
+            <lb ed="#N" n="14"/>sacramentis que ad remedium hominis instituta sunt: ante peccatum hominis
+            le<lb ed="#N" n="15" break="no"/>gitur institutum.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e244">
+            ⁋ Item augustinus dormit adam vt fiat eua. moritur christus
+            <lb ed="#N" n="16"/>vt fiat ecclesia. Dormiente adam fit eua de latere: mortuo christo
+            <lb ed="#N" n="17"/>percutitur latus vt fiant sacramenta quibus formetur ecclesia. ex quo colligitur.
+            <lb ed="#N" n="18"/>quod ipsa coniunctio ade et eue ordinata fuit ad signandum coniunctionem
+            <lb ed="#N" n="19"/>christi et ecclesie.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e255">
+            ⁋ Ad quod dicendum est. quod institutum fuit coniugium in
+            <lb ed="#N" n="20"/>sacramentum: et non tantum in officium in paradiso. sicut patet. xxvi. dis. iiii. libro.
+            <lb ed="#N" n="21"/>sentem.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e262">
+            ⁋ Ad illud vero quod obiicitur in contrarium. dicendum est. quod
+            in<lb ed="#N" n="22" break="no"/>stitutum fuit et ratione facti dominice et ratione sermmonis domini. Rtione
+            <lb ed="#N" n="23"/>facti sicut expressit augustinus. in sua auctoritate. eo quod de latere ade
+            dor<lb ed="#N" n="24" break="no"/>mientis formata fuit eua. Rtione autem sermonis domini quam
+            ac<lb ed="#N" n="25" break="no"/>cepit adam a domino ad signandum prophetice coniunctionem christi et ecclesie
+            <lb ed="#N" n="26"/>In extasi enim illa in qua fuit adam: accepit futurorum
+            intelligen<lb ed="#N" n="27" break="no"/>tiam. Unde augustinus. Extasis recte intelligitur ad hoc immissa: vt mens
+            <lb ed="#N" n="28"/>ade perticeps angelice curie intrans in sanctuarium dei
+            nouissi<lb ed="#N" n="29" break="no"/>ma intelligeret. Per illud quod sequitur. Relinquet homo pratrem et
+            <lb ed="#N" n="30"/>matrem etc. signabatur coniunctio duplex christi et ecclesie. primo in
+            <lb ed="#N" n="31"/>consensu. secundo in conformitate carnis. et sic patet plene tunc
+            insti<lb ed="#N" n="32" break="no"/>tui coniugium in sacramentum. et licet nihil dicatur ibi expresse de signato
+            <lb ed="#N" n="33"/>nihilominus adam prophetice illud intellexit et prophetico spiritu
+            <lb ed="#N" n="34"/>eructauit. sicut dicit augustinus et hoc idem ex verbis ipsius apostoli habetur.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e293">
+            <lb ed="#N" n="35"/>⁋ Ad secundum obiectum dicendum. quod licet verba illa legantur esse ipsius
+            <lb ed="#N" n="36"/>ade: tamen et domini fuerunt. Unde augustin. super gen. verba ista. hoc nunc
+            <lb ed="#N" n="37"/>os ex ossibus meis etc. cum ade scriptura fuisse dicat: christus in
+            <lb ed="#N" n="38"/>euangelio deum dixisse declarat. vt intelligamus per illam
+            exta<lb ed="#N" n="39" break="no"/>sim deum diuinitus hoc dixisse. deus ergo instituit facto: institu
+            <lb ed="#N" n="40"/>it et etiam verbo: sed adam mediante.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e309">
+            ⁋ Ad tercium dicendum. quod licet
+            <lb ed="#N" n="41"/>peccato non existente non fuisset mors christi necessaria: et ita nec
+            <lb ed="#N" n="42"/>assumptio carnis mortalis: nihilominus tamen potuit esse
+            si<lb ed="#N" n="43" break="no"/>gnum sacre rei. assumptio enim carnis non tantum designat hanc
+            <lb ed="#N" n="44"/>vtilitatem in scripturis: sed et plures alias. Preterea dicunt quod
+            <lb ed="#N" n="45"/>futurum erat quod homo laberetur per peccatum: conuenienter institutum
+            <lb ed="#N" n="46"/>fuit signum vt homo preuidere posset id per quod esset remedium.
+            <lb ed="#N" n="47"/>et ideo non fuit superuacuum instituere coniugium in sacramentum
+            tem<lb ed="#N" n="48" break="no"/>pore innocentie. sicut ars medicine non est superuacua: et
+            si<lb ed="#N" n="49" break="no"/>nullus egrotaret. valeret enim quantum ad illam partem que est
+            preser<lb ed="#N" n="50" break="no"/>uare ab egritudine: et quantum adillam partem valere posset
+            <lb ed="#N" n="51"/>cum homo egrotaret.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e181-Dd1e337">
+          <head xml:id="v78d89-d1e181-Hd1e339">Articulus 2</head>
+          <p xml:id="v78d89-d1e181-d1e341">
+            <lb ed="#N" n="52"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e181-d1e346">
+            <lb ed="#N" n="53"/>SEcundo queritur cuius rei mastrionium fuerit sacramentum.
+            E<lb ed="#N" n="54" break="no"/>videtur quod fuerit sacramentum duplicis
+            coniunctio<lb ed="#N" n="55" break="no"/>nis. per hoc quod dicit augustinus. de bono coniugali. non est
+            <lb ed="#N" n="56"/>dubium illam mulierem non pertinere ad matrimonium. cum qua
+            <lb ed="#N" n="57"/>docetur non fuisse coniunctio sexus. Quod magis exponit leo
+            <lb ed="#N" n="58"/>papa dicens. cum societas nuptiarum ita a principio sit
+            insti<lb ed="#N" n="59" break="no"/>tutum. vt preter coniunctionem sexuum non habeat in se christi et
+            ec<lb ed="#N" n="60" break="no"/>clesie sacramentum: non est dubium illam mulierem non pertinere ad
+            ma<lb ed="#N" n="61" break="no"/>trimonium in qua docetur non fuisse nuptiale misterium. Ex quo
+            vi<lb ed="#N" n="62" break="no"/>detur. quod matrimonium institutum fuit non tantum ad signndum
+            coniun<lb ed="#N" n="63" break="no"/>ctionem christi et ecclesie in caritate: sed et in nature conformitate.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e372">
+            ⁋ Sed
+            <lb ed="#N" n="64"/>videtur contrarium multiplici ratione. Una est quia mastrimonium est et
+            <lb ed="#N" n="65"/>fuit licet non sequatur carnalis copula. Non consequenti autem
+            car<lb ed="#N" n="66" break="no"/>nali copula non signatur coniunctio christi et ecclesie in conformitate
+            <lb ed="#N" n="67"/>nature: ergo cum adhuc remaneat matrimonium sacramentum
+            <lb ed="#N" n="68"/>et equalis sanctitatis: secundum quod dicit augustinus in libro de bono coniugali:
+            <lb ed="#N" n="69"/>non oportuit primo esse institutum vt sacramentum in significa
+            <lb ed="#N" n="70"/>tionem vtriusque coniunctionis.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e390">
+            ⁋ Pretera. coniunctio christi et ecclesie in
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>caritate: siue dei et ecclesie fuisset: licet non facta esset assum
+            <lb ed="#N" n="72"/>ptio carnis. et hoc esset vele signatum secundum omnem statum: ergo respacatu
+            <lb ed="#N" n="73"/>illius videtur tantum esse mastrionium institutum.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e402">
+            ⁋ Ad quod dicendum. quod
+            respe<lb ed="#N" n="74" break="no"/>ctu vtriusque fuit institutum. Unde sic intelligende sunt auctoritates
+            <lb ed="#N" n="75"/>augustinus. et leonis pape. Quod mulier illa cum que non est permixtio
+            se<lb ed="#N" n="76" break="no"/>xus licet pertineat ad mastrionium: non tamen pertinet ad matrimonium
+            <lb ed="#N" n="77"/>quod expressam et plenam tenet coniunctionem christi et ecclesie.
+            nihilo<lb ed="#N" n="78" break="no"/>minus tamen preter illam haberet rationem sacramenti. licet non totaliter
+            <lb ed="#N" n="79"/>signarentur. Per illud autem quod dicitur in Gen. adherebit
+            vxori<lb ed="#N" n="80" break="no"/>sue notatur coniunctio in caritate. per hoc autem quod sequitur et erunt
+            <lb ed="#N" n="81"/>duo in carne vna: notatur coniunctio in conformitate nature. Sed
+            <lb ed="#N" n="82"/>distinguendum est. Quod vnius signati fuit sacramentum vliter alterius
+            <lb ed="#N" n="83"/>vero adueniente copula carnali: et hoc distinguit hug. dicens
+            <lb ed="#N" n="84"/>Quod alterius societatis sacramentum fuit in coniugio: alterius societa
+            <lb ed="#N" n="85"/>tis sacramentum in coniugii officio: et per hoc potest patere
+            qua<lb ed="#N" n="86" break="no"/>liter respondendum est ad obiecta.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e181-Dd1e434">
+          <head xml:id="v78d89-d1e181-Hd1e436">Articulus 3</head>
+          <p xml:id="v78d89-d1e181-d1e438">
+            <lb ed="#N" n="87"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-d1e181-d1e443">
+            <lb ed="#N" n="88"/>TErcio queritur vtrum fuerit tunc aliqua
+            illegitimi<lb ed="#N" n="89" break="no"/>tas in personis contrahendis. quod non videtur. Cum enim datum
+            <lb ed="#N" n="90"/>esset istud preceptum. Crescite et multiplica. et tantum
+            <lb ed="#N" n="91"/>conditi essenter vir vnus et mulier vna: si mortua esset alterea
+            <lb ed="#N" n="92"/>illarum personarum post procreationem prolis: oporteret filiam
+            cogno<lb ed="#N" n="93" break="no"/>sci a pratre vel matrem a filio: nisi esset multiplicatio prolis. et
+            <lb ed="#N" n="94"/>ita nulla esset persona iilegitima.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e461">
+            ⁋ Preterea in leuitico censentur
+            <lb ed="#N" n="95"/>illegitime persone plures. sicut soror et frater et alia huiusmodi.
+            ta<lb ed="#N" n="96" break="no"/>les autem non erant illegitime a principiornon ergo vidtur a principio
+            ali<lb ed="#N" n="97" break="no"/>qua fuisse illegitimitas personarum: sed quod mastrimonium esset viri et
+            <lb ed="#N" n="98"/>mulieris indiuidue vite retinens consuetudinem.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e472">
+            ⁋ Ad quod
+            di<lb ed="#N" n="99" break="no"/>cendum. quod illegitimitas aliquarum personarum fuit a prencipio scilicet
+            <lb ed="#N" n="100"/>pratris et filie: et mastris et filii. Et hoc designatur ex illis verbis quibus
+            <lb ed="#N" n="101"/>dicitur in gen. Relinquet homo pratrem et mstrem et adherebit
+            vxori<lb ed="#N" n="102" break="no"/>sue etc.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e484">
+            ⁋ Ad illud vero quod obiicitur secundum positionem factam. dicendum
+            <lb ed="#N" n="103"/>est quod licet fieret multiplicatio prolis. operteret illam copulam
+            fieri<lb ed="#N" n="104" break="no"/>pratris cum filia sicut factum fuit. xix. gen. de loth qui cognouit
+            <lb ed="#N" n="105"/>filiam suam. si vero non superessent plures persone. vel dominus alio modo
+            <lb ed="#N" n="106"/>prouideret: vel de illegitima legitimam faceret.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e495">
+            ⁋ Ad aliud
+            <lb ed="#N" n="107"/>vero dicendum. quod licet plures essent persone illegitime processu temporis
+            <lb ed="#N" n="108"/>non tamen ita congruebat a principio cum non erat multiplicatio
+            <lb ed="#N" n="109"/>personarum. Si enim a principio tot essent illegitime: peccarent
+            <lb ed="#N" n="110"/>cognoscendo fratres sorores suas: quod oportuit a principio
+            <lb ed="#N" n="111"/>antequam fieret multiplicatio generationis.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e181-Dd1e509">
+          <head xml:id="v78d89-d1e181-Hd1e511">Articulus 4</head>
+          <p xml:id="v78d89-d1e181-d1e513">
+            <lb ed="#N" n="112"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-d1e181-d1e518">
+            <lb ed="#N" n="113"/>DEinde queritur vtrum de lege nature fuerit quod vnus
+            <lb ed="#N" n="114"/>cum vna contrahat coniugium. et videtur quod sic: per hoc quod dicitur
+            <lb ed="#N" n="115"/>iiii. gent. super illud lamech accepit duas vxomres
+            <lb ed="#N" n="116"/>dicit interli. primus contra naturam et contra morem per
+            bigami<lb ed="#N" n="117" break="no"/>am adulterium comisit. Ex quo accipitur. quod ex lege nature est: quod
+            <lb ed="#N" n="118"/>vna vni coniungatur mastrionialiter.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e534">
+            ⁋ Sed contra hoc est. quod ex lege
+            <lb ed="#N" n="119"/>nature generalis in pluribus animantibus vnus masculus coploatur
+            <lb ed="#N" n="120"/>pluribus feminni sexus. secundum naturam etiam rationalem vnus humit
+            plu<lb ed="#N" n="121" break="no"/>res vxores. sicut legitur de Iacob et de dauid. Si autem esset contra
+            <lb ed="#N" n="122"/>naturam: vterque peccasset. delinquere enim contra legem nature est peccatum
+            <lb ed="#N" n="123"/>Restat ergo quod copulari cum plolibus vxoribus non fuit contra naturam.
+            <lb ed="#N" n="124"/>Et hoc idem dicit augustinus in libro de virgi. antiquis iustis non fuit peccatum
+            <lb ed="#N" n="125"/>quod pluribus vxoribus vtebantur. nec contra naturam hoc faciebant: cum
+            <lb ed="#N" n="126"/>non lasciuiendi causa: sed gignendi hoc facerent.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e554">
+            ⁋ Ad quod dicendum
+            <lb ed="#N" n="127"/>est. quod est natura generalis in animantibus ploribus: et est natura spiaitual
+            <lb ed="#N" n="128"/>in homine. Natura vero spiritialis potest attendi vel comparatione ad
+            bo<lb ed="#N" n="129" break="no"/>num prolis vel comparatione ad bonum fidei: vel bonum sacramenti. secundum ergo
+            <lb ed="#N" n="130"/>naturam generalem non est ratio mastrionii aut coniugii. secundum rationem vero
+            <lb ed="#N" n="131"/>spetialem quod vnus copuletur vni tantum. non est ex ratione boni prolis. quod
+            <lb ed="#N" n="132"/>patet ex hoc. cum enim multiplicari opertuit prolem ad cultum dei: vnus
+            <lb ed="#N" n="133"/>habere potuit plures vxores. Rtaione vero bone fidei et boni sacra
+            <lb ed="#N" n="134"/>menti quod est vlterius si ordinetur natura quod vnus habet
+            plu<lb ed="#N" n="135" break="no"/>res est contra naturam. sic ergo vno modo est contra naturam: alio
+            <lb ed="#N" n="136"/>modo non.
+          </p>
+          <p xml:id="v78d89-d1e181-d1e579">
+            ⁋Quod autem lamech dicitur fecisse contra naturam. hoc
+            <lb ed="#N" n="137"/>fuit quia licet intenderet procreare prolem: non tamen ad cultum dei. et
+            <lb ed="#N" n="138"/>hoc modo faciebat secundum naturam. Iacob seruabat autem in hoc rationem
+            <lb ed="#N" n="139"/>bone prolis: quia non adhesit Lye causa prolis procreande
+            nisi<pb ed="#N" n="16"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>ad cultum dei. sed non in hoc seruauit rationem fidei. quod
+            nulli<lb ed="#N" n="2" break="no"/>alii adhesit per copulam carnalem. Ratio vero sacramenti simpliciter
+            <lb ed="#N" n="3"/>quod est in coniunctione christi cum ecclesia que vna est: non omnino
+            serua<lb ed="#N" n="4" break="no"/>batur ibi. sed in hoc seruabatur: quod in matrimonio rachelis
+            <lb ed="#N" n="5"/>coniunctio ecclesie ratione contemplatiuorum designabatur. In lya vero
+            <lb ed="#N" n="6"/>coniunctio ecclesie ratione actiuorum: de his amplius dictum
+            <lb ed="#N" n="7"/>est supra libro tercio.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

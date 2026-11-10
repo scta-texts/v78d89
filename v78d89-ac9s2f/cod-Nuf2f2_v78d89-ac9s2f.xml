@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 63, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 63, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="412"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ac9s2f"><!-- q63m4 -->
+        <head xml:id="v78d89-ac9s2f-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-ac9s2f-Hd1e103" type="question-title">Utrum contingat lapsum pluries per poenitentiam iteratam resurgere</head>
+        <p xml:id="v78d89-ac9s2f-d1e106">
+          <lb ed="#N" n="11"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e111">
+          <lb ed="#N" n="12"/>COnsequenter queritur vtrum contingat lapsum
+          plu<lb ed="#N" n="13" break="no"/>ries per penitentiam iteratam resurgere. Quod sic:
+          vi<lb ed="#N" n="14" break="no"/>detur per hoc quod minimum bonum est maius bonum: quam
+          <lb ed="#N" n="15"/>maximum malum malum. igitur cum in penitentia ite
+          <lb ed="#N" n="16"/>rata detur gratia gratum faciens. quantuncumque fuerit aggrauatum
+          <lb ed="#N" n="17"/>peccatum in iterante penitentiam per ingratitudinem recidiui
+          <lb ed="#N" n="18"/>sufficiat illi gratia gratisdata ad resurgendum.
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e129">
+          ⁋ Item gratia
+          <lb ed="#N" n="19"/>gratum faciens et si minima sit in suo genere. gratificat
+          homi<lb ed="#N" n="20" break="no"/>nem deo quantumcumque fuerit vilis peccator vel magnus.
+          pecca<lb ed="#N" n="21" break="no"/>toris autem gratificatio deo attestatur resurrectioni eius a
+          cul<lb ed="#N" n="22" break="no"/>pa. ergo etc.
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e141">
+          ⁋ Contra omne peccatum mortale redigit hominen
+          <lb ed="#N" n="23"/>ad nihilum quantum ad esse gratuitum. psalmus. Ego ad nihilum reda
+          <lb ed="#N" n="24"/>ctus sum et nesciui. Inter esse aliquid et nihil est distantia
+          <lb ed="#N" n="25"/>infinita. sed nulla gratia potest in plus infinito: ergo nulla gratia potest
+          <lb ed="#N" n="26"/>in plus quam in resurrectionem a mortali quocumque ad esse gratui
+          <lb ed="#N" n="27"/>tum. ergo cum peccatum iterantis penitentiam propter
+          ingratitudi<lb ed="#N" n="28" break="no"/>nem recidiui maius est simplici mortali: videtur quod per nullam
+          gra<lb ed="#N" n="29" break="no"/>tiam talem contingat resurgere.
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e159">
+          ⁋ Item peccatum deicit animam
+          <lb ed="#N" n="30"/>in infinitum infra se. vnde reddit animam impossibilem ad resur
+          <lb ed="#N" n="31"/>gendum quantum est de se. ergo cum inter impossibile simpliciter et
+          in<lb ed="#N" n="32" break="no"/>ter impossibile quantum est de se quod est impossibile per accidens
+          <lb ed="#N" n="33"/>non sit medium. ex quo iteratione peccati et ingratitudine
+          re<lb ed="#N" n="34" break="no"/>cidiuationis profundius deicitur: videtur quod deiciatur in impossibi
+          <lb ed="#N" n="35"/>le per se. et ita videtur quod resurgere a tanta culpa sit simpliciter
+          <lb ed="#N" n="36"/>impossibile. ergo deiecti iteratione peccatorum et ingratitudine
+          <lb ed="#N" n="37"/>lapsus frequentis: non possunt resurgere gratia penitentie
+          itera<lb ed="#N" n="38" break="no"/>te.
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e181">
+          ⁋ Item multi sunt in via qui ratione frequentis recidiua
+          <lb ed="#N" n="39"/>tionis maiores sunt iudicandi peccatores: quam alii qui
+          damnan<lb ed="#N" n="40" break="no"/>sunt in inferno propter vnum mortalem paruum in genere mortalis
+          <lb ed="#N" n="41"/>sed damnatos tales non contingit resurgere per penitentiam: ergo nec
+          <lb ed="#N" n="42"/>alios vt videtur. Ex quo enim quanto peccatum est grauius tanto
+          ma<lb ed="#N" n="43" break="no"/>gis deicit animam et minus efficit aptam ad resurgendum: videtur quod
+          <lb ed="#N" n="44"/>etc
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e197">
+          ⁋ Responsio. ad euidentiam predictorum intelligendum. quod anima potest
+          <lb ed="#N" n="45"/>considerari vt est actiua et vt est passibilis siue susceptiua. secundum
+          <lb ed="#N" n="46"/>istam duplicem considerationem gratia dupliciter reparat animam post
+          <lb ed="#N" n="47"/>lapsum. Quantum enim consideratur secundum primum modum. eleuat eam
+          <lb ed="#N" n="48"/>gratia quasi in infinitum: quia de non potente ad opera gratuita
+          <lb ed="#N" n="49"/>facit eam potentem. inquantum consideratur secundum secundum modum non
+          ele<lb ed="#N" n="50" break="no"/>uat ipsum in infinitum. immo nec eleuat ipsam quantum possibilis est
+          <lb ed="#N" n="51"/>eleuari: qua quantuncumque eleuatur per gratiam in via: adhuc potest
+          <lb ed="#N" n="52"/>plus eleuari et eleuabitur in gloriu. Pret. ex parte culpe
+          deicien<lb ed="#N" n="53" break="no"/>tis est similiter quod ipsa inquantum est actiua tantum deicitur quod omnino est
+          <lb ed="#N" n="54"/>impotens inquantum huiusmodi surgere ad actum gratuitum. vnde
+          deici<lb ed="#N" n="55" break="no"/>tur quasi in infinitum quantum ad hoc. quod de potente surgere ad
+          <lb ed="#N" n="56"/>opera gratuita fit non potens. inquantum autem est passibilis vel
+          su<lb ed="#N" n="57" break="no"/>sceptiua non tantum deicitur in via scilicet quin possit plus deici. vnde
+          <lb ed="#N" n="58"/>semper remanet aliquid secundum quod non est totaliter deiecta. et ideo
+          <lb ed="#N" n="59"/>remanet aliquid possibilitatis per quod potest per gratiam
+          eleua<lb ed="#N" n="60" break="no"/>ri inquantum est susceptiua. Casus autem anime vt est actiua: est
+          de<lb ed="#N" n="61" break="no"/>fectus ab actione. et cadere eius est deficere. et cadere in vltimo
+          <lb ed="#N" n="62"/>est deficere in vltimo. Unde in casu eius per mortale inquantum est
+          <lb ed="#N" n="63"/>actiua perducitur ad negationem potentie. non tamen dico quin plus
+          <lb ed="#N" n="64"/>posset cadere: sed casus vltra negationem potentie non est
+          <lb ed="#N" n="65"/>ipsius inquantum actiua est. quia inquantum huiusmodi non declinat in
+          <lb ed="#N" n="66"/>defectum maiorem potentie. sed potius susceptibilitatis. dicendum
+          <lb ed="#N" n="67"/>ergo quod quotienscumque fuerit quis passus recidiuum et etiam
+          peniten<lb ed="#N" n="68" break="no"/>tiam iterauit: penitentia vltimo iterata si digna fuerit resur
+          <lb ed="#N" n="69"/>get a culpa: et si sufficienter paracta resurget a pena.
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e254">
+          ⁋ Ad
+          il<lb ed="#N" n="70" break="no"/>lud ergo quod primo obiicitur. scilicet quod peccatum redigit animam in
+          ni<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>hilum etc. Dicendum quod et si redigat animam in nihilum inquantum
+          <lb ed="#N" n="72"/>est actiua gratuito: non tamen inquantum est susceptiua gratie: ticet
+          <lb ed="#N" n="73"/>inter esse et non esse simpliciter sit infinita distantia.
+          tamen<lb ed="#N" n="74" break="no"/>inter esse et non esse huius non est infinita distantia simplicie
+          <lb ed="#N" n="75"/>quia esse possibile est medium. Consideratis enim terminia
+          <lb ed="#N" n="76"/>oppositis inquantum huiusmodi est ibi distantia infinita. Sed
+          con<lb ed="#N" n="77" break="no"/>sideratis illis prout vicissitudinantur circa idem possibile ne
+          <lb ed="#N" n="78"/>quaquam. Pret. defectus ortus ex peccato mortali quantuncumque
+          <lb ed="#N" n="79"/>sit ingratitudine vel aliis circumstantiis aggrauatus.
+          nopo<lb ed="#N" n="80" break="no"/>test extendi vltra infinitum. Pret. et si animam inquatumest
+          <lb ed="#N" n="81"/>actiua contingat deficere quasi defectu infinito: non
+          tamen<lb ed="#N" n="82" break="no"/>contingit eam deficere sic inquantum est materialis vel
+          susce<lb ed="#N" n="83" break="no"/>ptiua. Ex his patet quod in reparatione anime siue in resurtecu
+          <lb ed="#N" n="84"/>one non requiritur quod gratia possit in plus infinito. nec exim
+          <lb ed="#N" n="85"/>am requiritur quod possit in plus infinitum. quia quantum est
+          <lb ed="#N" n="86"/>de anima inquantum est susceptiua gratie qua resurgit a
+          cul<lb ed="#N" n="87" break="no"/>pa: non eleuatur in infinitum.
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e297">
+          ⁋ Ad aliud quod sequitur
+          <lb ed="#N" n="88"/>ex iam dictis patet responsio. quia et si peccatum deiciai animam
+          <lb ed="#N" n="89"/>inquantum est actiua quasi in infinitum: non tamen inquatum est
+          <lb ed="#N" n="90"/>gratie susceptiua. Unde si reddit animam impotentem non
+          red<lb ed="#N" n="91" break="no"/>dit eam impossibilem. quia enim anima non potest fieri non
+          su<lb ed="#N" n="92" break="no"/>sceptiua gratie in via: licet potest fieri non potens ad opera grarut
+          <lb ed="#N" n="93"/>ta. et ex hoc quod est susceptiua gratie potens est resurgere: no potest
+          <lb ed="#N" n="94"/>aliquo modo declinare vltra impossibilitatem per accidens
+          <lb ed="#N" n="95"/>siue vltra impossibilitatem inquantum est de se.
+        </p>
+        <p xml:id="v78d89-ac9s2f-d1e318">
+          ⁋ Ad
+          aliuddi<lb ed="#N" n="96" break="no"/>cendum. quod licet aliqui possent in via dici maiores peccato
+          <lb ed="#N" n="97"/>res eo quod plura et grauiora peccata perpetrauerunt qua aliqui
+          <lb ed="#N" n="98"/>damnati: tamen non sunt dicendi ita graues sicut illi: potet
+          <lb ed="#N" n="99"/>perpetuitatem obstinationis et desperationis et consummationem diuin
+          <lb ed="#N" n="100"/>contemptus. Pret. in talibus magis est causa impossibilitaue
+          <lb ed="#N" n="101"/>resurgendi status peccati quam ipsum peccatum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

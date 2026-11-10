@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 103, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 103, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="650"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ahwp88"><!-- q103m3 -->
+        <head xml:id="v78d89-ahwp88-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ahwp88-Hd1e103" type="question-title">Utrum hora comedendi in jejunio sit in praecepto</head>
+        <p xml:id="v78d89-ahwp88-d1e106">
+          <lb ed="#N" n="94"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e111">
+          <lb ed="#N" n="95"/>COnsequenter queritur vtrum hora comedendi in
+          <lb ed="#N" n="96"/>ieiunio sit in precepto. quod sic: viditur. dixit dominus
+          di<lb ed="#N" n="97" break="no"/>scipulis qui gerunt typum ecclesie. Qui vos
+          au<lb ed="#N" n="98" break="no"/>sdit me audit: et qui vos sempernit me spernit. luc. x.
+          <lb ed="#N" n="99"/>sed qui spirnit statuta dei peccat mortaliter: ergo qui spernit
+          statu<lb ed="#N" n="100" break="no"/>ta ecclesie. Cum ergo hora comedendi sit statuta ab ecclesia et
+          consue<lb ed="#N" n="101" break="no"/>tudine tracta in consequentiam: videtur quod qui illam transgreditur:
+          pec<lb ed="#N" n="102" break="no"/>cat mortaliter.
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e131">
+          ⁋ Pre. hora comedendi honestat ieiunium quare
+          <lb ed="#N" n="103"/>debet esse in precepto sicut ipsum ieiunium
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e137">
+          ⁋ Contra. quidam
+          reli<lb ed="#N" n="104" break="no"/>giosi comedunt ante horam nonam nec tamen ex necessitate aliqua. hoc
+          <lb ed="#N" n="105"/>autem non facerent si hora esset in precepto. ergo etc.
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e144">
+          ⁋ Pre. si hora es
+          <lb ed="#N" n="106"/>set in precepto: ita transgrederetur qui comederet post sicut qui ante vt
+          <lb ed="#N" n="107"/>videtur. sed non peccat qui comedit postnonam tempore ieiunii: ergo nec qui
+          <lb ed="#N" n="108"/>ante: ergo hora non est in precepto.
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e153">
+          ⁋ Pre. non dicitur transgressor qui
+          nul<lb ed="#N" n="109" break="no"/>la hora comedit: sed videtur quod esset transgressor si hora esset in
+          pre<lb ed="#N" n="110" break="no"/>cepto: ergo etc.
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e160">
+          ⁋ Pre. augustinus. dicit. quod quidam per triduum quidam per
+          <lb ed="#N" n="111"/>septem dies non comedunt. ergo transgrediuntur si hora esset in
+          prece<lb ed="#N" n="112" break="no"/>pto quod falsum est: quia non transgrediuntur preceptum de ieiunio
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e167">
+          <lb ed="#N" n="113"/>⁋ Responsio. quod hora commedendi non est in precepto. tamen qui ex contemptu
+          <lb ed="#N" n="114"/>statuti siue consuetudine ecclesie illam horam in comedendo
+          ne<lb ed="#N" n="115" break="no"/>gligeret: peccaret mortaliter. non quia preceptum transgrederetur: sed quia
+          <lb ed="#N" n="116"/>ordinatum ab ecclesia contemneret. nlla enim negligentia est ita leuis
+          <lb ed="#N" n="117"/>quin fiat mortalis si procedat ad contemptum: et hoc sonat verbum
+          <lb ed="#N" n="118"/>domini dicens. qui vos sempernit etc.
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e183">
+          ⁋ Ad aliud potest dici quod si
+          ali<lb ed="#N" n="119" break="no"/>quid sit in precepto nature vel discipline: non tamen expediret
+          <lb ed="#N" n="120"/>quod omnes conditiones etiam honestantes et promouentes ad meritum
+          ma<lb ed="#N" n="121" break="no"/>ius sint in precepto. propter periculum quod accidernet ex preceptorum
+          <lb ed="#N" n="122"/>multitudine. Pre. et si hora manducandi honestat ieiunium
+          <lb ed="#N" n="123"/>non tamen est ita necessaria ad satisfaciendum. sicut ipsum ieiunium.
+          ne<lb ed="#N" n="124" break="no"/>que ita vtilis. quod patet consideratis vtilitatibus eiusdem.
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e200">
+          ⁋ Pre.
+          <lb ed="#N" n="125"/>si hora posita esset in precepto. multis et frequenter fieret causa
+          scrupsli<lb ed="#N" n="126" break="no"/>consciente et ita peccati. Uel potest dici quod et si hora sit in precepto.
+          <lb ed="#N" n="127"/>quia habet magnam latitudinem nec est signata vel determinata
+          <lb ed="#N" n="128"/>etsi quandoque preueniatur vel prerogetur causa necessaria vel rationa
+          <lb ed="#N" n="129"/>bili. non ex hoc peccat ieiunans mortaliter. dico notanter
+          <lb ed="#N" n="130"/>mortaliter nec tamen debet quis notabiliter horam
+          preueni<lb ed="#N" n="131" break="no"/>re quam communniter tenet ecclesia nisi ex causa rationabili. Unde
+          quando<lb ed="#N" n="132" break="no"/>que religiosi possent ita mane surgere et tantum fatigari ante
+          <lb ed="#N" n="133"/>horam sextam. quod ex dispensatione ordinis possent horam
+          communen<lb ed="#N" n="134" break="no"/>anticipare.
+        </p>
+        <p xml:id="v78d89-ahwp88-d1e224">
+          ⁋ Nec est simile de prerogatione hore et anticipatione
+          <lb ed="#N" n="135"/>quia ex comestione post horam non aufertur pena ieiunii sed
+          poti<lb ed="#N" n="136" break="no"/>augetur sicut ex comestione ante. vnde expectare quoadusque
+          <lb ed="#N" n="137"/>hora comestionis pretereat: est magis supererogare quam a
+          debi<lb ed="#N" n="138" break="no"/>to deficere. Similiter qui nulla hora comedit non deficit
+          <lb ed="#N" n="139"/>sed magis supererogat. Ex his patet responsio ad obiecta
+          <lb ed="#N" n="140"/>pro alia parte.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 16, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 16, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="121"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a43dmd"><!-- q16m3 -->
+        <head xml:id="v78d89-a43dmd-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a43dmd-Hd1e103" type="question-title">Utrum haeretici possunt baptizare</head>
+        <p xml:id="v78d89-a43dmd-d1e106">
+          <lb ed="#N" n="22"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-a43dmd-d1e111">
+          <lb ed="#N" n="23"/>SEquitur inquirere vtrum haeretici possunt baptizare
+          <lb ed="#N" n="24"/>Primo igitur queritur vtrum baptisma conferant. Secundo
+          <lb ed="#N" n="25"/>vtrum haereticus quantum ad articulum de baptismo
+          bapti<lb ed="#N" n="26" break="no"/>zat. Terco vtrum cum labuntur in haeresim amittant ius
+          <lb ed="#N" n="27"/>baptizandi vel non. Quarto vtrum illi qui numquam crediderunt posunt
+          <lb ed="#N" n="28"/>baptizare.
+        </p>
+        <div xml:id="v78d89-a43dmd-Dd1e127">
+          <head xml:id="v78d89-a43dmd-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-a43dmd-d1e131">
+            <lb ed="#N" n="29"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e136">
+            <lb ed="#N" n="30"/>CIrca primum queritur. vtrum hereticus possit baptizare. quod
+            <lb ed="#N" n="31"/>sic: videtur. Beda. Siue hereticus siue scismaticus
+            si<lb ed="#N" n="32" break="no"/>ue facinorosus quicumque in confessione sancte trinitatis
+            <lb ed="#N" n="33"/>baptizat non valet ille qui est baptizatus a bonis catholicis
+            re<lb ed="#N" n="34" break="no"/>baptizari. sed constat si non esset baptizatus: baptizari posset et de
+            <lb ed="#N" n="35"/>beret. igitur est baptizatus.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e152">
+            ⁋ Item augustinus. Nulli sacramento iniuria est
+            <lb ed="#N" n="36"/>facienda. illi iniuriantur sacramentis qui dicunt ea pollui per pollutio
+            <lb ed="#N" n="37"/>nem ministrorum.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e159">
+            ⁋ Item. ix. Luc. Preceptor vidimus quendam in nomine
+            <lb ed="#N" n="38"/>tuo demonia eiicientem et prohibuimus: quia non sequitur te nobiscum. et
+            di<lb ed="#N" n="39" break="no"/>xit ihs. nolite prohibere. sic igitur approbauit dominus. quod ille licet
+            ma<lb ed="#N" n="40" break="no"/>lus communiter fecerat cum apostolis. a simili videtur si haeretici communicant cum
+            <lb ed="#N" n="41"/>ecclesia in actu baptizandi quod dominus hoc approbet.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e171">
+            ⁋ Item dominus qui per
+            <lb ed="#N" n="42"/>abraham figuratur quosdam filios generat de sponsa scilicet ecclesia:
+            <lb ed="#N" n="43"/>quosdam de ancilla scilicet de heresi vel de ecclesia inalignantium: ergo
+            <lb ed="#N" n="44"/>heretici conferunt verum baptisma.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e180">
+            ⁋ Item augustinus. contra donatistas
+            <lb ed="#N" n="45"/>muera concessa diuinitus. pertim sunt propria: sicut in hoc tempore
+            infati<lb ed="#N" n="46" break="no"/>gabilis caritas et in futuro vita eterna. pertim vero cum malis
+            per<lb ed="#N" n="47" break="no"/>uersisque comnia: sicut omnia cetera in quibus sunt et sacrosancta
+            mi<lb ed="#N" n="48" break="no"/>steria. sed sub sacrosanctis misteriis continetur baptismus: ergo
+            ba<lb ed="#N" n="49" break="no"/>ptismus communis est catholicis et hereticis. ergo heritici conferunt verum
+            <lb ed="#N" n="50"/>baptisma.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e196">
+            ⁋ Contra. omnia opera ecclesie efficaciam habent ab
+            in<lb ed="#N" n="51" break="no"/>fluentia virtutis a capite in membra. Sed virtus non influit a capite
+            <lb ed="#N" n="52"/>in membrum mortuum: ergo si haereticus: non est membrum. vel si est membrum
+            ali<lb ed="#N" n="53" break="no"/>quo modo est membrum mortuum. per ipsum non est influentia virtutis a
+            ca<lb ed="#N" n="54" break="no"/>pite in opust aliquod. igitur baptismus ab eo ministratus non habet
+            effica<lb ed="#N" n="55" break="no"/>ciam baptismi.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e209">
+            ⁋ Item augustinus. vnde tanta vis aque vt corpus
+            tin<lb ed="#N" n="56" break="no"/>gat et cor abluat nisi faciente verpo non quia dicitur sed quia creditur
+            <lb ed="#N" n="57"/>Ex his patet quod virtus baptismi est a fide. non autem a quacumque: sed
+            <lb ed="#N" n="58"/>requiritur quod credatur quod in aqua est virtus regenerandi ab ipsis
+            ver<lb ed="#N" n="59" break="no"/>bis vel a virtute verborum. Sed quando hereticus solus baptizat paruulum:
+            <lb ed="#N" n="60"/>nullus hoc credat. quia nullus scit quod baptizat: ergo non est baptismus.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e222">
+            <lb ed="#N" n="61"/>⁋ Item augustinus de baptismo paruulorum. ad remissionem originalis
+            <lb ed="#N" n="62"/>prodest eorum fides a quibus offeruntur. vt quascumque maculas
+            <lb ed="#N" n="63"/>per alios a quibus orti sunt contraxerunt: aliorum interrogatione ab
+            <lb ed="#N" n="64"/>eis purgentur. nec augustinus. Sed si solus assistat hereticus qui
+            bapti<lb ed="#N" n="65" break="no"/>zare intendit. non purgatur fide offerentium nec fide heretici:
+            igi<lb ed="#N" n="66" break="no"/>tur non purgatr.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e238">
+            ⁋ Item Ambro. et habetur. iiii. senten. di. iii.
+            li<lb ed="#N" n="67" break="no"/>cet patrem et filium et spirunm sanctum dicas. vel patris vel filii vel
+            <lb ed="#N" n="68"/>ptu sancti minuas potestatem. vacuumem omne ministerium. sed nullo
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>modo potest minui potestas alicuius persone nisi discredendo: ergo etc.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e250">
+            <lb ed="#N" n="70"/>⁋ Item ab existente in mortali peccato neque sibi nec alii aliquo opere
+            <lb ed="#N" n="71"/>eius acquiritur vita eterna. sed ministerio baptismi acquiritur vita
+            eterm<lb ed="#N" n="72" break="no"/>na: igitur non potest fieri ab aliquo heretico.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e259">
+            ⁋ Item augustinu. Quamuis
+            <lb ed="#N" n="73"/>vnum baptisma sit et hereticorum scilicet eorum qui in nomine pa. et fi. et scsilicet
+            <lb ed="#N" n="74"/>baptizant et ecclesie: tamen qui foris ecclesiam baptizantur non sumunt
+            <lb ed="#N" n="75"/>baptismum ad salutem sed ad perniciem: habentes formam
+            sacramenti<lb ed="#N" n="76" break="no"/>virtutem eius abnegantes. Ecce quod baptizati extra ecclesiam non al
+            <lb ed="#N" n="77"/>sequuntur virtutem baptismi: quales sunt baptizati ab
+            hereti<lb ed="#N" n="78" break="no"/>co.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e275">
+            ⁋ Item augustinus. et habetur de conse. di. iiii. Ecclesia paradiso comparata
+            <lb ed="#N" n="79"/>indicat nobis posse quidem baptismum eius foris accipere: sed
+            salu<lb ed="#N" n="80" break="no"/>tem beatitudinis extra eam neminem vel percipere vel tenere. Non enim
+            <lb ed="#N" n="81"/>in mesopotamia vel egipto qua illa flumina peruenerunt est
+            feli<lb ed="#N" n="82" break="no"/>citas vite que in paradiso commemoratur. sic igitur baptismus potest esse
+            <lb ed="#N" n="83"/>extra ecclesiam: munus aut bone vite non nisi intra ecclesiam
+            reperi<lb ed="#N" n="84" break="no"/>tur.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e291">
+            ⁋ Item eadem di. augustinus. Sacramentum etiam dat deus per malos:
+            <lb ed="#N" n="85"/>ipsam vero gratiam non nisi per seipsum et per sanctos. et ideo remissionem peccato
+            <lb ed="#N" n="86"/>rum et per seipsum facit vel per illius columbe membra qui ait. Si
+            dimise<lb ed="#N" n="87" break="no"/>ritis dimittetur. Ex hoc videtur quod nec a malo sacrdote confertur virtus
+            <lb ed="#N" n="88"/>sacramenti: multo fortius nec ab haeretico.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e302">
+            ⁋ Item haeresis non est ecclesia:
+            <lb ed="#N" n="89"/>igitur baptismus haeresis non est baptismus ecclesie.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e307">
+            ⁋ Item haeretici
+            oppo<lb ed="#N" n="90" break="no"/>nunt sic. aut ecclesia est ecclesia. aut haeresis est ecclesia. Si ecclesia est
+            ec<lb ed="#N" n="91" break="no"/>desia: non igitur haeresis est ecclesia. igirtur quod spectat ad ecclesiam non
+            spe<lb ed="#N" n="92" break="no"/>ctat ad haeresim. igistr si ecclesia vere baptizat: haeretici non baptizant:
+            <lb ed="#N" n="93"/>ergo baptizati ab haereticis sunt rtbaptizandi.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e319">
+            ⁋ Item baptisma haereti
+            <lb ed="#N" n="94"/>corum. aut facit filios dei ant non. Si non: igitur non est verum baptisma et
+            <lb ed="#N" n="95"/>ipso baptizati debent iterum baptizari. sed hoc est falsum: igistur
+            baptis<lb ed="#N" n="96" break="no"/>ma haereticorum facit filios dei. et non solum filios dei sed filios spo
+            <lb ed="#N" n="97"/>se: cum huiusmodi generatio sit per sacramenta haereticorum. igitur congregatio est
+            <lb ed="#N" n="98"/>ecclesia.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e332">
+            ⁋ Item baptisma haereticorum aut facit rtrmissionem peccatorum
+            <lb ed="#N" n="99"/>aut non. Si non: tunc non si est verum baptisma et eo baptizati iterum
+            <lb ed="#N" n="100"/>sunt baptizandi. sed hoc est falsum: ergo facit remissionem peccatorum. hoc non est
+            <lb ed="#N" n="101"/>nisi per infusionem spiritus sancti: igitr in ecclesia henticorum inquantum
+            bapti<lb ed="#N" n="102" break="no"/>zant est spiritus sanctus. igitur cum spiritus sanctus non ingreditur ecclesiam
+            mali<lb ed="#N" n="103" break="no"/>gnantium. vnde Osee. xi. Ego dominus et ciuitatem non ingredior scilicet
+            ma<lb ed="#N" n="104" break="no"/>lignantium vt vult glo. igrtur conuentus haereticorum est ecclesia. et non nisi que
+            <lb ed="#N" n="105"/>dicitur. cum non sit ecclesia nisi vna. vi. Cant. Una est columba mea.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e350">
+            <lb ed="#N" n="106"/>⁋ Item greg. Hi haeretici. qui in trinitatis nomine baptizant sicut sunt
+            <lb ed="#N" n="107"/>bonosiati et catafrige non vere baptizant. Aii cum ad sanctam
+            ec<lb ed="#N" n="108" break="no"/>clesiam veniunt baptizantur. quia baptisma non fuit. quia in errore
+            posi<lb ed="#N" n="109" break="no"/>ti trinitatis nomen minime perceperunt. cum ergo baptizentur: manifestum
+            <lb ed="#N" n="110"/>est quod verum baptisma non fuit quod ab illis haereticis dabatur.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e363">
+            ⁋ Item
+            <lb ed="#N" n="111"/>ad Gal. Quotqut baptizati estis christum induistis. sed
+            adulti<lb ed="#N" n="112" break="no"/>scienter baptizati ab haereticis non induunt christum: ergo non baptim abam
+            <lb ed="#N" n="113"/>tur. ergo haeretici non tribuunt verum baptisma.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e372">
+            ⁋ Item baptisma
+            il<lb ed="#N" n="114" break="no"/>lorum non facit vt adulti inter filios dei reputentur. Unde augustinus in libro
+            <lb ed="#N" n="115"/>de fide ad petrum. Sine ecclesie catholice societate nec baptis
+            <lb ed="#N" n="116"/>mus potest alicui prodesse: nisi forte vt minus torqueatur. nec tamen inter
+            <lb ed="#N" n="117"/>filios dei reputetur. sed baptisma verum facit quod inter filios dei
+            <lb ed="#N" n="118"/>reputetur Ioh. i. Dedit eis potestatem filios dei fieri. qui non ex
+            san<lb ed="#N" n="119" break="no"/>guinibus neque ex voluntate carnis neque ex voluntate viri etc.
+            <lb ed="#N" n="120"/>ergo baptisma hereticorum non est verum baptisma.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e390">
+            ⁋ Item Isiud.
+            <lb ed="#N" n="121"/>de sum. bono. Solam ecclesiam catholicam habere baptismum ad
+            <lb ed="#N" n="122"/>salutem zacharias propheta testatur. In die illa erit fons patens
+            <lb ed="#N" n="123"/>domui dauid. domus dauid est ecclesia in qua manet fons in ablutionem
+            <lb ed="#N" n="124"/>peccatorum. haeretici autem id solum imaginaria ostentatione faciunt: ergo non
+            <lb ed="#N" n="125"/>conferunt verum baptisma
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e404">
+            ⁋ Ad quod dicendum quod haeretici baptizantes in
+            <lb ed="#N" n="126"/>forma ecclesie intendentes facere quod facit ecclesia: verum
+            baptisma<lb ed="#N" n="127" break="no"/>ministrant.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e411">
+            ⁋ Ad primum ergo dicendum. quod licet haereticus sit membrum mortuum
+            <lb ed="#N" n="128"/>inquantum persona. non tamen inquantum minister domini. vnde in se est putridus. non vt
+            <lb ed="#N" n="129"/>aliis ministrans quia virtutem habet ministrandi. vel aliter sicut operator
+            ma<lb ed="#N" n="130" break="no"/>terialis quandoque operatur solum mediante membro aliquo vt manu vel
+            ali<lb ed="#N" n="131" break="no"/>quo alio membro. quandoque operatur mediante instrumento aliquo. sic dominus
+            <lb ed="#N" n="132"/>operatur opera virtutum mediantibus membris. sed opera sacramentorum mediam
+            <lb ed="#N" n="133"/>tibus ministris. de primis operibus verum est quod non habent efficaciam
+            nisi<lb ed="#N" n="134" break="no"/>per influentiam a capite in membra. de secundis non est verum.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e429">
+            ⁋ Ad aliud
+            <lb ed="#N" n="135"/>dicendum. quod etsi nullus assistens hoc credat. nihilominus ecclesia hoc
+            <lb ed="#N" n="136"/>credit. quod sufficit in casu tali. in hoc enim quod haereticus intendit facere
+            <lb ed="#N" n="137"/>quod facit ecclesia. informat opst suum et ecclesie operi conformat. Unde
+            <lb ed="#N" n="138"/>conformando intentionem suam intentioni ecclesie. iformat ops suum secundum
+            <lb ed="#N" n="139"/>quod informat ecclesia.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e442">
+            ⁋ Ad hoc quod obiicitur ex verbis augustinus quod ad
+            re<pb ed="#N" n="122"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>missionem originalis prodest eorum fides a quibus offeruntur etc.
+            <lb ed="#N" n="2"/>Dicendum quod quando solus assistit hereticus. reuera non purgatur
+            <lb ed="#N" n="3"/>paruulus fide offerentium nec fide heretici: sed fide ecclesie in cuius
+            <lb ed="#N" n="4"/>fide baptizantur ratione qua tactum est.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e455">
+            ⁋ Ad illud quod obiicitur per
+            <lb ed="#N" n="5"/>verbum ambro. Dicendum quod vt dicit magister in senus di. iii. Cum
+            di<lb ed="#N" n="6" break="no"/>citur ille minuere potestatem pratis et filii etc. hoc intelligendum est quantum
+            <lb ed="#N" n="7"/>ad fidem et intentionem. Et si non credat vnam esse potentiam trium
+            per<lb ed="#N" n="8" break="no"/>sonarum: nec intendat quod exerceatur eorum potentia in purgando istum
+            <lb ed="#N" n="9"/>quem vult baptizare. Unde iste dicitur minuere potestatem pratris et
+            <lb ed="#N" n="10"/>filii etc. qui male sentit de potentia alicuius eorum. non credens vnam
+            <lb ed="#N" n="11"/>illorum esse potentiam. nec intendit illorum potentia illum fore
+            baptizan<lb ed="#N" n="12" break="no"/>dum quem proponit baptizare. quod faciunt haeretici qui baptizant non
+            <lb ed="#N" n="13"/>ea intentione qua baptizat ecclesia.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e477">
+            ⁋ Ad aliud quod obiicitur quod existere
+            <lb ed="#N" n="14"/>te in mortali peccato. sibi nec alii acquiritur vita eterna etc. Dicendum
+            <lb ed="#N" n="15"/>quod aliquo ex istente in mortali peccato non acquiritur vita eterna merito
+            <lb ed="#N" n="16"/>rie: bene potest tamen ministerialiter vt in casu proposito.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e487">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="17"/>sequitur. dicendum. quod paruulus vel adultus baptizatus ab haeretico
+            dun<lb ed="#N" n="18" break="no"/>modo non consentiat heresi sue nec sit separatus ab ecclesia: baptizatus
+            <lb ed="#N" n="19"/>est. et habet baptismus in eo plenam efficaciam. Unde augustinus et habetur
+            <lb ed="#N" n="20"/>de conie. di. iiii. Ille cui tradit haereticus baptismum potest salubriter
+            <lb ed="#N" n="21"/>accipere: si ipso non separato acceperit. vrgente mortis necessitate.
+            <lb ed="#N" n="22"/>Ex his patet quod baptismus hereticorum plenam habet efficaciam in
+            <lb ed="#N" n="23"/>non separato ab ecclesia. et hoc tali necessitate scilicet mortis. hec igitur
+            <lb ed="#N" n="24"/>duo requiruntur scilicet quod non sit separatus et quod in articulo mortis.
+            Si<lb ed="#N" n="25" break="no"/>enim scienter et prudenter faceret quis baptizari se ab heretico siue
+            <lb ed="#N" n="26"/>promitteret nisi in articuilo consentiret quodammodo heresi sue. et ita
+            <lb ed="#N" n="27"/>non reciperet rem sacramenti. Intelligi igitur debent auctoritates
+            <lb ed="#N" n="28"/>supradicte de baptizatis ab hereticis qui sunt extra ecclesiam. vel
+            <lb ed="#N" n="29"/>qui sciunt hereticos tales esse et permittunt se ab illis
+            baptizari<lb ed="#N" n="30" break="no"/>non existente articulo mortis. Unde si quis baptizetur ab hereti
+            <lb ed="#N" n="31"/>co ignorans eum esse hereticum: baptizatus est. Si autem sciat ipsum
+            <lb ed="#N" n="32"/>esse hereticum et timeat sibi de morte instante id est si sit in articulo
+            <lb ed="#N" n="33"/>mortis: similiter est baptizatus.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e526">
+            ⁋ Ad hoc quod obiicitur quod deus non dat
+            <lb ed="#N" n="34"/>gratiam nisi per seipsum. aut per sanctos. et quod remissionem peccatorum facit
+            <lb ed="#N" n="35"/>vel per se vel per membra columbe etc. dicendum quod cum dicitur dare gratiam
+            <lb ed="#N" n="36"/>per sanctos: hoc intelligendum est secundum quod hoc quod dicitur per: dicit causam
+            effi<lb ed="#N" n="37" break="no"/>cientem non simplciter sed meritoriam. Unde augustinus vult distinguere inter
+            <lb ed="#N" n="38"/>bonos et malos in hoc. quod boni meritis suis impetrant gratiam
+            <lb ed="#N" n="39"/>aliis sine ministerio sacramentorum: alii nequaquam scilicet nisi ministerio
+            <lb ed="#N" n="40"/>sacramentorum. Unde intendit ostendere quod boni in hoc preexcellunt
+            ma<lb ed="#N" n="41" break="no"/>los: quod sine sacramentorum minsterio impetrant gratiam et remissio
+            <lb ed="#N" n="42"/>nem peccatorum aliis: quod non faciunt mali.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e548">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="43"/>de donatistis. dicendum quod augustinus mouet questionem talem donatistarum
+            <lb ed="#N" n="44"/>an baptismus christi generet filios ecclesier in parte donati an non.
+            <lb ed="#N" n="45"/>Si generat: igitur sunt de ecclesia. et cum vna sit ecclesia que
+            signifi<lb ed="#N" n="46" break="no"/>catur per tunicam inconsutilem que non fuit diuisa nos arguunt esse extra
+            eccle<lb ed="#N" n="47" break="no"/>siam. Si vero non generat: igitur apud nos sunt rebaptizandi cum
+            <lb ed="#N" n="48"/>non sint per baptismum renati. Et respondet augustinus. ad hoc. Non gene
+            <lb ed="#N" n="49"/>rat ecclesia in parte donati per baptismum vnde separata est: sed vnde
+            con<lb ed="#N" n="50" break="no"/>iuncta. Separata enim est a vinculo caritatis: coniuncta vnitate
+            ba<lb ed="#N" n="51" break="no"/>ptismatis. per hoc igitur quod suum in eis habet: ipsa generat non illi.
+            <lb ed="#N" n="52"/>Ecclesia autem quandoque generat per proprium vterum. quandoque per vteros
+            an<lb ed="#N" n="53" break="no"/>cillarum eisdem sacramentis tamquam ex viri semine. qui autem superbiunt et
+            le<lb ed="#N" n="54" break="no"/>gitime mstri non adiunguntur: similes sunt ysmaheli. qui vero legitimam
+            <lb ed="#N" n="55"/>pratis vxorem diligunt similes sunt filiis iacob: quamuis de ancillis
+            na<lb ed="#N" n="56" break="no"/>ris et partem herditatia pratris sumentibus. qui autem de vtero mastris
+            nati<lb ed="#N" n="57" break="no"/>negligunt gratiam quam acceperunt: similes sunt esau qui reprobatus est
+            <lb ed="#N" n="58"/>a deo licet ex eodem concubitu essent gemini concepti. ix. Ro. Patet
+            <lb ed="#N" n="59"/>igitur per augustinus quod baptizat heresis non vnde diuisa est: sed vnde
+            con<lb ed="#N" n="60" break="no"/>iuncta. Dicendum est igitur. quod hoc argumentum non valet. heresis
+            <lb ed="#N" n="61"/>non est ecclesia: igitur baptisma heresis non est baptismus ecclesie.
+            li<lb ed="#N" n="62" break="no"/>cet enim non conueniat heresis et ecclesia in vinculo caritatis:
+            conue<lb ed="#N" n="63" break="no"/>niunt tamen in vnitate baptismatis.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e596">
+            ⁋ Ad aliud argumentum
+            po<lb ed="#N" n="64" break="no"/>nit augustinus talem instantiam. aut peradisus est peradisus aut egiptus est
+            pra<lb ed="#N" n="65" break="no"/>disus. sed peradisus est peradisus: igitur egiptus non est paradisus. igitur
+            <lb ed="#N" n="66"/>fluuius egipti non est fluuius egipti: sed hoc est falsum: quia fluuius qui est
+            <lb ed="#N" n="67"/>gvon est fluuius perdisi et egipti: quia emanat de peradiso in egiptum
+            <lb ed="#N" n="68"/>Rroiruem baptismus emanat ab ecclesia que est peradisus spiritualis ad
+            <lb ed="#N" n="69"/>commbrantes in heresis tenebris. vnde non sequitur heresis non est
+            <lb ed="#N" n="70"/>ecclesia: igitur baptismus heresis non est baptismus ecclesie.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e614">
+            ⁋ Ad
+            <lb ed="#N" n="71"/>aliud dicendum. quod baptismus hereticorum facit quosdam filios dei
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>vt paruulos: quosdam non vt adultos qui imbuti sunt errore
+            he<lb ed="#N" n="73" break="no"/>reticorum. Unde cum haeretici baptizant huiusmodi adultos. non faciunt
+            <lb ed="#N" n="74"/>eos filios dei: tamen verum baptisma quantum ad rem sacramenti
+            recipi<lb ed="#N" n="75" break="no"/>unt. Unde si veniant ad vnitatem ecclesie non sunt rebaptizandi.
+            <lb ed="#N" n="76"/>quia vt dicit augustinus. Sanandum est quod vulneratum est: non curandum quod
+            <lb ed="#N" n="77"/>sanum est. Sani autem sunt sic baptizati quantum ad hoc in quo
+            con<lb ed="#N" n="78" break="no"/>ueniunt cum ecclesia quantum ad baptismum. Cum igitur heretici
+            paruu<lb ed="#N" n="79" break="no"/>los baptizant et filios dei faciunt: illi dicuntur esse filii ecclesie. non
+            <lb ed="#N" n="80"/>quia eos genuit deus de sponsa legitima id est ecclesia: sed quia eos
+            genue<lb ed="#N" n="81" break="no"/>rit de ancilla id est heresi. nihilominus filii ecclesie dicuntur: quia
+            ec<lb ed="#N" n="82" break="no"/>clesia filios reputat quoscumque deus generat siue genuerit de
+            <lb ed="#N" n="83"/>vtero sponse vt qui a fidelibus sunt baptizati: siue de vteris
+            ancil<lb ed="#N" n="84" break="no"/>larum vt qui baptizati sunt ab hereticis siue paganis siue a quibus
+            <lb ed="#N" n="85"/>cumque qui non sunt de ecclesia. quod significatum est Gen. xvi. vbi dixit
+            <lb ed="#N" n="86"/>zara abrahe. ingredere ad ancillam meam si forte ex illa
+            suscipi<lb ed="#N" n="87" break="no"/>am filios.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e656">
+            ⁋ Ad aliud dicendum quod baptisma haereticorum facit
+            re<lb ed="#N" n="88" break="no"/>missionem peccatorum. non vnde est hominis opus: sed vnde est opst dei. Unde
+            <lb ed="#N" n="89"/>ibi est spiritus sanctus in effectu baptismatis. non inquantum est opost
+            <lb ed="#N" n="90"/>hereticorum: sed dei. Dicunt quidam quod deus baptizat primo auctoritate: ec
+            <lb ed="#N" n="91"/>clesia primo ministerio et secundo auctoritate siue sub auctoritate. heretici vl
+            <lb ed="#N" n="92"/>timo ministerio. et inquantum habent ministerium: sunt de ecclesia.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e670">
+            <lb ed="#N" n="93"/>⁋ Ad auctoritatem greg. dicendum. quod intelligitur de illis
+            hereti<lb ed="#N" n="94" break="no"/>cis qui non seruant formant ecclesie: sed baptizant in nomine patris
+            <lb ed="#N" n="95"/>maioris et filii minoris. et tales non ministrant verum baptisma.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e679">
+            <lb ed="#N" n="96"/>⁋ Ad aliud dicendum. quod christus indui dupliciter dicitur. vel quantum ad
+            sa<lb ed="#N" n="97" break="no"/>cramenti perceptionem. et sic dicuntur omnes induere christum qui baptizam
+            <lb ed="#N" n="98"/>tur in forma ecclesie a quibuscumque baptizentur dum tamen intendant
+            facere<lb ed="#N" n="99" break="no"/>quod facit ecclesia: vel quantum ad gratie susceptionem et sic solum
+            paruuli<lb ed="#N" n="100" break="no"/>qui non ficte accedunt ad baptismum. Ili vero qui baptizantur ab
+            <lb ed="#N" n="101"/>hereticis et sunt imitatores eorum. dicuntur primo modo christum indue
+            <lb ed="#N" n="102"/>re sed non secundo modo.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e697">
+            ⁋ Ad aliud dicendum. quod baptisma heretico
+            <lb ed="#N" n="103"/>rum vt dictum est quosdam facit filios dei vt paruulos. quosdam
+            <lb ed="#N" n="104"/>non: vt adultos qui imbuti sunt errore hereticorum. et de his est
+            ve<lb ed="#N" n="105" break="no"/>rum quod dicit augustinus.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e706">
+            ⁋ Ad vltimum dicendum. quod illud quod dicit Isi.
+            <lb ed="#N" n="106"/>quod heretici illud faciunt imaginaria ostentatione. Si hoc dicitur de
+            <lb ed="#N" n="107"/>illis qui in forna ecclesie. vel baptizantur ab ipsis hereticis:
+            intel<lb ed="#N" n="108" break="no"/>ligitur imago quantum ad formam sacramenti: quia recipitur ibi
+            sacra<lb ed="#N" n="109" break="no"/>mentum. non tamen quantum ad rem sacramenti id est gratiam. non enim in
+            illa<lb ed="#N" n="110" break="no"/>imitantur. Si autem intelligatur de hereticis qui non baptizant in
+            for<lb ed="#N" n="111" break="no"/>ma ecclesie: tunc mutatio non attenditur quantum ad ipsam immersionem:
+            <lb ed="#N" n="112"/>non quantum ad formam sacramenti vel ad rem sacramenti. videtur autem
+            <lb ed="#N" n="113"/>magis primo modo intelligi per hoc quod sequitur. baptisma non est illis ad
+            <lb ed="#N" n="114"/>remissionem peccatorum: sed ad supplicii testimonium datur. vnde etiam in
+            commu<lb ed="#N" n="115" break="no"/>ni prouerbio dicitur de malo christiano legem dei non custodiente. iste est
+            <lb ed="#N" n="116"/>baptizatus in aqua et non in spiritus sancto.
+          </p>
+        </div>
+        <div xml:id="v78d89-a43dmd-Dd1e734">
+          <head xml:id="v78d89-a43dmd-Hd1e736">Articulus 2</head>
+          <p xml:id="v78d89-a43dmd-d1e738">
+            <lb ed="#N" n="117"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e743">
+            <lb ed="#N" n="118"/>COnsequenter queritur vtrum hereticus quantum ad
+            articu<lb ed="#N" n="119" break="no"/>lum de baptismo baptizat id est ille qui discredit
+            sa<lb ed="#N" n="120" break="no"/>cramentum baptismi. quod non: videtur. cum talis non
+            inten<lb ed="#N" n="121" break="no"/>dit baptiz are. quia non intendit quod aliquid fiat paruulo
+            baptiza<lb ed="#N" n="122" break="no"/>to. vnde non intendit baptizare.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e756">
+            ⁋ Responsio. quidam dicunt quod
+            du<lb ed="#N" n="123" break="no"/>plex est intentio baptizantis. vel renspectu effectus: vel respectu
+            <lb ed="#N" n="124"/>forme. Si autem non sit respectu effectus: nihilominus baptizat.
+            <lb ed="#N" n="125"/>vnde non oportet quod intendat effectum sed formam. sed cum ad hoc quod quis
+            <lb ed="#N" n="126"/>baptizet preter materiam debitam et formam verborum requiritur
+            inten<lb ed="#N" n="127" break="no"/>tio: constat quod intentio non versatur circa formam verborum. Unde hugo.
+            <lb ed="#N" n="128"/>Uide et considera quia rationalem esse opertet ops ministrorum dei. nec
+            <lb ed="#N" n="129"/>propter formam solam preiudicare nisi intentio agendi nulla est.
+            pro<lb ed="#N" n="130" break="no"/>pter quod aliter dicendum. quod licet hereticusnon intendat sptaliter
+            <lb ed="#N" n="131"/>et distincte effectum: nihilominus indistincte et quodammodo
+            gene<lb ed="#N" n="132" break="no"/>rali intendit. quia intendit quod ecclesia intendit. dico indistincte
+            <lb ed="#N" n="133"/>et generali quodam modo. et hec posunt bene simul esse quod intendat
+            op<lb ed="#N" n="134" break="no"/>positum alicuius in spetiali id est non intendat illud in spetiali quod
+            inten<lb ed="#N" n="135" break="no"/>dat in generali. sicut aliquis scit quoniam omnis mula est sterilis
+            ni<lb ed="#N" n="136" break="no"/>hilominus dubitat vtrum hec habeat in vtero.
+          </p>
+        </div>
+        <div xml:id="v78d89-a43dmd-Dd1e790">
+          <head xml:id="v78d89-a43dmd-Hd1e792">Articulus 3</head>
+          <p xml:id="v78d89-a43dmd-d1e794">
+            <lb ed="#N" n="137"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e799">
+            <lb ed="#N" n="138"/>COnsequenter queritur vtrum cum labuntur in haersim amittant
+            <lb ed="#N" n="139"/>ius baptizandi vel adhuc seruent. Et videtur quod amittant
+            <lb ed="#N" n="140"/>AIus enim baptizandi stat in vnitate ecclesie. ergo non
+            ha<pb ed="#N" n="123"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>bent ius baptizandi.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e812">
+            ⁋ Ad hoc facit quod dicit augustinus in lib.
+            <lb ed="#N" n="2"/>de baptismo contra donatistas. Si hereticus ius
+            baptizan<lb ed="#N" n="3" break="no"/>di non habuit: tamen christi est quod dedit et illud christi est quod accepit
+            <lb ed="#N" n="4"/>multa enim contra ius dantur: nec tamen ideo vel nulla vel non data
+            <lb ed="#N" n="5"/>dicuntur.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e823">
+            ⁋ Contra. ius dandi baptismum est ex ordine
+            sacer<lb ed="#N" n="6" break="no"/>dotali: sed ordo sacerdotalis tollitur per heresim. Nam si
+            tolle<lb ed="#N" n="7" break="no"/>retur rediens ad vnitatem ecclesie: iterum ordinaretur. sed non
+            ordi<lb ed="#N" n="8" break="no"/>natur: ergo manet ordo. quare et ipsum consequens ordinem scilicet
+            <lb ed="#N" n="9"/>ius baptizandi.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e835">
+            ⁋ Ad hoc facit quod dicit augustinus contra permenianum
+            <lb ed="#N" n="10"/>sicut habent in baptismo quod per eos dari possit: sic in ordinatione
+            <lb ed="#N" n="11"/>ius baptizandi. vtrumque quidem ad perniciem suam quamdiu caritatem
+            <lb ed="#N" n="12"/>non habent vnitatis ecclesiastice.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e844">
+            ⁋ Ad quod videtur dicendum per hoc quod
+            <lb ed="#N" n="13"/>dicit augustinus contra permenianum quod in his qui habuerunt ordinem
+            sa<lb ed="#N" n="14" break="no"/>cerdotalem in ecclesia et postea transierunt ad heresim:
+            rema<lb ed="#N" n="15" break="no"/>neat ius dandi baptismum. dicit enim quod quidam eorum veritate
+            <lb ed="#N" n="16"/>coacti dicere ceperunt. baptismum quidem non amittit qui recedit
+            <lb ed="#N" n="17"/>ab ecclesia: sed tamen multis modis ius dandi amittit quod apparm
+            <lb ed="#N" n="18"/>frustra et inaniter dici. Primo quia nulla ostenditur causa cur
+            <lb ed="#N" n="19"/>ille per ipsam baptismum amittere non potest ius dandi potest amit
+            <lb ed="#N" n="20"/>tere. Utrumque enim sacramentum est. et quadam consecratione vtrumque datur
+            <lb ed="#N" n="21"/>homini. illud cumn baptizatur: illud cum ordinatur in
+            catholica<lb ed="#N" n="22" break="no"/>ecclesia. vtrumque autem non licet iterari. sicut enim redeuntes ad ec
+            <lb ed="#N" n="23"/>clesiam non sunt rursum baptizandi sic nec rursum
+            ordinandi<lb ed="#N" n="24" break="no"/>ius ergo dandi baptisma quod est ex ordine sacerdotali non amit
+            <lb ed="#N" n="25"/>ritur. Si tamen alicui videtur contrarium sicut apparuit in auctoritate
+            <lb ed="#N" n="26"/>augustinus. contra donatistas. distingui potest. quod aliud est habere ius ex
+            or<lb ed="#N" n="27" break="no"/>dine sacerdotali: et aliud ex vnitate fidei ecclesiastice vel ec
+            <lb ed="#N" n="28"/>vite congruitate. potest ergo vno modo habere ius: et alio modo non habere
+            <lb ed="#N" n="29"/>et per hoc soluitur illud quod obiectum est in contrarium: intelligitur enim
+            <lb ed="#N" n="30"/>de iure quod habetur ab vnitate ecclesiastica.
+          </p>
+        </div>
+        <div xml:id="v78d89-a43dmd-Dd1e887">
+          <head xml:id="v78d89-a43dmd-Hd1e889">Articulus 4</head>
+          <p xml:id="v78d89-a43dmd-d1e891">
+            <lb ed="#N" n="31"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e896">
+            <lb ed="#N" n="32"/>COnsequenter queritur. vtrum illi qui nunquam crediderunt
+            <lb ed="#N" n="33"/>posunt conferre baptismum. et videtur. forma enim non datur
+            <lb ed="#N" n="34"/>nisi ab illo qui habet potstatem ad illam. potstatem autem
+            acti<lb ed="#N" n="35" break="no"/>uam dicitur habere ad illam qui habet eam vel nobiliorem. Sed qui non habet
+            fi<lb ed="#N" n="36" break="no"/>dem vel baptismum: non habet formam illam vel nobiliorem ea ergo
+            <lb ed="#N" n="37"/>a tali non datur baptismus. quod autem non habet nobiliorem patet. In
+            infi<lb ed="#N" n="38" break="no"/>deli enim non est forma nobilior fide vel baptismate in quo est
+            <lb ed="#N" n="39"/>fundamentum fabrice spiritualis.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e916">
+            ⁋ Contra. baptisma a quocunque
+            <lb ed="#N" n="40"/>datur in necessitate. non enim eius est baptisma sed christi. de quo dicitur
+            <lb ed="#N" n="41"/>hic est qui baptizat.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e923">
+            ⁋ Arguitur etiam per simile. qui enim ab ecclesie
+            <lb ed="#N" n="42"/>vnitate recesserunt. dare posunt baptisma. Sed minus opponuntur
+            <lb ed="#N" n="43"/>fideles vel non baptizati quam heretici: ergo et illi posunt dare
+            baptil<lb ed="#N" n="44" break="no"/>ma.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e933">
+            ⁋ Ad hoc facit quod dicit ysiud. Romanus pontifex non
+            ho<lb ed="#N" n="45" break="no"/>minem iudicat qui baptizat: sed spirium dei subministrare gratiam
+            ba<lb ed="#N" n="46" break="no"/>ptismi: licet peraganus sit qui baptizat: potest ergo non baptizatus dare
+            <lb ed="#N" n="47"/>baptismum.
+          </p>
+          <p xml:id="v78d89-a43dmd-d1e942">
+            ⁋ Quod concedendum est vt ab ipso in necessitate detur
+            </p>
+          <p xml:id="v78d89-a43dmd-d1e944">
+            <lb ed="#N" n="48"/>⁋ Ad obiectum autem in contrarium dici potest. quod potstas dandi
+            bapti<lb ed="#N" n="49" break="no"/>sma est in prolatione debita verborum ad hoc institutorum cum
+            inten<lb ed="#N" n="50" break="no"/>tione: hoc autem totum potest conuenire non baptizato siue
+            infideli<lb ed="#N" n="51" break="no"/>⁋ Si vero dicatur. quod potstas residet apud ipsum qui habet formam similem
+            <lb ed="#N" n="52"/>vel nobiliorem. Respondendum est quod illa forma que est caracter: im
+            <lb ed="#N" n="53"/>pressa est mediante virtute verborum. Unde proferens verba cum aliis que
+            <lb ed="#N" n="54"/>ad sacramentum baptismi requiruntur. licet non habeat caracterem forma
+            <lb ed="#N" n="55"/>liter: habet tamen quodammodo potestatiue. nec opertet quod inducens
+            for<lb ed="#N" n="56" break="no"/>mam quamcunque habeat talem: instantia enim est in equoce agentibus
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

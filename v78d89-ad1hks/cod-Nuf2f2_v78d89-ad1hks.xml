@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 69, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 69, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="450"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ad1hks"><!-- q69m4 -->
+        <head xml:id="v78d89-ad1hks-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-ad1hks-Hd1e103" type="question-title">An requiritur contritio de originali</head>
+        <p xml:id="v78d89-ad1hks-d1e106">
+          <lb ed="#N" n="6"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e111">
+          <lb ed="#N" n="7"/>COnsequenter queritur. an requiritur contritio de
+          <lb ed="#N" n="8"/>originali. Quod sic: videtur per hoc. quod peccato
+          origina<lb ed="#N" n="9" break="no"/>li fit homo auersus actualiter a deo. sed pro omni
+          tali<lb ed="#N" n="10" break="no"/>debet homo conteri. ergo etc.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e122">
+          ⁋ Item Ro. i. in fine
+          habe<lb ed="#N" n="11" break="no"/>tur ex glo. et ex tex. quod consentientes et agentes pari pena
+          pu<lb ed="#N" n="12" break="no"/>niendi sunt. per consensum autem in Adam omnes sumus peccatores scilicet
+          <lb ed="#N" n="13"/>geatum ad peccatum originale. ergo puniendisumus illa pena qua ipse fuit
+          <lb ed="#N" n="14"/>punitus. sed constat quod punitus fuit dolore contritionis. ergo et nos similiter
+          <lb ed="#N" n="15"/>tem.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e136">
+          ⁋ Item si communicatione cum adam quantum ad consensum vel
+          complacen<lb ed="#N" n="16" break="no"/>tiam facti sumus peccatores: communicatione dissensus vel displicentie
+          <lb ed="#N" n="17"/>debemus iustificari. actus autem contritionis est dissentire vel
+          dis<lb ed="#N" n="18" break="no"/>plicere. ergo etc.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e145">
+          ⁋ Item etsi gratia datur nobis sine nobis: non
+          tamen<lb ed="#N" n="19" break="no"/>datur nec auferatur sine nostro consensu. Similiter videtur quod etsi sine
+          <lb ed="#N" n="20"/>nobis contrahatur originale: non tamen sine nostro assensu
+          aufer<lb ed="#N" n="21" break="no"/>tur. et ita non sine dolore.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e154">
+          ⁋ Item carentia visionis debetur tam
+          ori<lb ed="#N" n="22" break="no"/>ginali quam actuali. ergo si ad tollendum reatum carentie debite
+          actu<lb ed="#N" n="23" break="no"/>ali necessarius est dolor contritionis: similiter ad tollendum reatum carentie
+          <lb ed="#N" n="24"/>debite necessarius est etc.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e163">
+          ⁋ Contra. multi sunt iusti qui nunquam
+          <lb ed="#N" n="25"/>de originali cogitauerunt. tales ergo iustificati sunt sine
+          contri<lb ed="#N" n="26" break="no"/>tione.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e170">
+          ⁋ Item cum paruuli nullo modo possint voluntarie dolere:
+          nul<lb ed="#N" n="27" break="no"/>lo modo possent ab originali iustificari. nisi dicatur quod sufficit
+          <lb ed="#N" n="28"/>dolor parentum. hoc numquam habetur in scriptura quod dolere tenentur
+          <lb ed="#N" n="29"/>pro paruulis. immo sufficit sola fides.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e179">
+          ⁋ Item satisfactio et
+          con<lb ed="#N" n="30" break="no"/>fessio que sunt partes penitentie posteriores sunt quam contritio. sed iste
+          <lb ed="#N" n="31"/>due partes non requiruntur pro originali. ergo nec contritio.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e187">
+          ⁋ Item cum
+          <lb ed="#N" n="32"/>nulla fuerit contrahentium voluntaria delectatio: nec dolor
+          ali<lb ed="#N" n="33" break="no"/>quis requiritur ad purgationem
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e194">
+          ⁋ Responsio. dicendum ad hoc. quod
+          contri<lb ed="#N" n="34" break="no"/>tio cum sit pars penitentie sacramentalis que proprie peccatum actualem respicit
+          <lb ed="#N" n="35"/>quia est secunda tabula post naufragium: proprie et per se et de
+          necessi<lb ed="#N" n="36" break="no"/>tate conformationis cum suo toto scilicet penitentia: actuale peccatum in quo fuit
+          <lb ed="#N" n="37"/>actualis delectatio respicit. conuenit tamen quod displiceat
+          auerten<lb ed="#N" n="38" break="no"/>ti et consideranti damnum quod ex ipso infertur anime. et maxime propter
+          <lb ed="#N" n="39"/>damnum separationis vt alibi tactum est. nec intelligo quod requiritur
+          <lb ed="#N" n="40"/>displicentia que est actus contritionis: sed displicentia leuis penitentie alis
+          <lb ed="#N" n="41"/>pigentie siue nolleitatis. vnde non requiritur dolor contritionis
+          <lb ed="#N" n="42"/>qui vehemens debet esse: sed sufficit leuis displicentia dummodo
+          <lb ed="#N" n="43"/>non contemnat.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e218">
+          ⁋ Ad illud ergo quod obiicitur. quod originali fit homo
+          <lb ed="#N" n="44"/>actualiter auersus a deo etc. Dicendum quod hoc vocabulum
+          auer<lb ed="#N" n="45" break="no"/>sus potest esse nomen vel perticipium. Si sumatur nominaliter scilicet pro eo
+          <lb ed="#N" n="46"/>quod est auersum esse: et hoc quod est actualiter: pro eo quod presentialiter: verum
+          <lb ed="#N" n="47"/>est quod peccato originali auersus est homo actu a deo id est est in
+          <lb ed="#N" n="48"/>esse auerso: quia non est conuersus. et hoc esse magis dicit statum quoam actum
+          <lb ed="#N" n="49"/>Si autem teneatur perticipialiter et hoc quod dico actualiter in propria
+          si<lb ed="#N" n="50" break="no"/>gnificatione: non est verum. quia nullus est auersus a deo origina
+          <lb ed="#N" n="51"/>liter per proprium actum. Cum ergo obiicitur quod pro omni eo quod auersus est
+          <lb ed="#N" n="52"/>a deo etc. Dicendum quod hoc est verum inquantum auersus tenetur
+          perti<lb ed="#N" n="53" break="no"/>cipialiter id est per actum proprium: sed nullus originaliter auertit se a deo.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e242">
+          <lb ed="#N" n="54"/>⁋ Ad illud quod obiicitur. quod consentientes et agentes etc.
+          Dicen<lb ed="#N" n="55" break="no"/>dum quod hoc intelligitur de consentientibus propria voluntate actualiter
+          <lb ed="#N" n="56"/>mouente ad consensum. huiusmodi autem consensus non cadit in
+          origi<lb ed="#N" n="57" break="no"/>nali. proprie enim debet dici consensus respectu alicuius quod
+          vita<lb ed="#N" n="58" break="no"/>ri potest vel non vitari. non autem sic est de originali quod necessitate
+          <lb ed="#N" n="59"/>contrahitur. Omnes enim natura sumus filii ire Epheo. ii.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e258">
+          ⁋ Ad
+          il<lb ed="#N" n="60" break="no"/>lud quod additur. quod per consensum in adam facti sumus peccatores etc.
+          <lb ed="#N" n="61"/>Dicendum quod ille consensus non est libro arbtro. sed potius inclinationis
+          <lb ed="#N" n="62"/>naturalis: quia omnes eramus in adam. illo peccante quodammodo
+          <lb ed="#N" n="63"/>improprie dicimur consentire in peccatum illo consentiente: quia
+          <lb ed="#N" n="64"/>natura natra in ipso suo libro arbtro obediebat. Et ex hoc patet responsio
+          <lb ed="#N" n="65"/>ad illud quod sequitur.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e274">
+          ⁋ Ad illud quod obiicitur. quod virtus non
+          da<lb ed="#N" n="66" break="no"/>tur sine consensu etc. Dicendum quod hoc intelligitur de adultis.
+          <lb ed="#N" n="67"/>paruulis enim in baptismo datur sine eorum consensu. Preterea. non est
+          si<lb ed="#N" n="68" break="no"/>mile de collatione virtutis et traductione originalis. quia a
+          vi<lb ed="#N" n="69" break="no"/>cio in carne parentum contrahitur originale per prop agationem
+          libi<lb ed="#N" n="70" break="no"/>dinosam quod est quasi materia originalis. sicut dicit magister in
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>senteti. virtus autem confertur cooperanti libro. arbtro. per consensum. quia qui creat
+          <lb ed="#N" n="72"/>nos sine nobis: non recreat nos sine nobis. ideo sicut
+          origi<lb ed="#N" n="73" break="no"/>nale sine consensu contrahitur proprio: sic et tolli potest. non sic est de
+          <lb ed="#N" n="74"/>virtute.
+        </p>
+        <p xml:id="v78d89-ad1hks-d1e299">
+          ⁋ Item ad illud quod obiicitur per simile de carentia visio
+          <lb ed="#N" n="75"/>nis dei per contritionem. ratione enim qua culpe actuali mortali de
+          <lb ed="#N" n="76"/>betur carentia hec: ablata culpa per contritionem fit absolutio a
+          re<lb ed="#N" n="77" break="no"/>atu ipsius carentie. vnde culpa proprie remittitur per contritionem
+          <lb ed="#N" n="78"/>et reatus ex coneqenti. Culpe autem actuali proprie debetur dolor
+          ac<lb ed="#N" n="79" break="no"/>alis ratione delectationis actualis precedentis. non sic est de orig
+          <lb ed="#N" n="80"/>nali. Supra vbi tactum est si penitentia requiritur de originali:
+          ta<lb ed="#N" n="81" break="no"/>ctum est aliquid de hac materia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

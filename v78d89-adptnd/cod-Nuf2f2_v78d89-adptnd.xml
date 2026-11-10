@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 74, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 74, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="469"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adptnd"><!-- q74m1 -->
+        <head xml:id="v78d89-adptnd-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-adptnd-Hd1e103" type="question-title">Utrum idem sit attritio quod contritio</head>
+        <p xml:id="v78d89-adptnd-d1e106">
+          <lb ed="#N" n="133"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-adptnd-d1e111">
+          <lb ed="#N" n="134"/>QUeritur ergo primo vtrum idem sit attritio quod
+          contri<lb ed="#N" n="135" break="no"/>tio. Quod sic: videitur per hoc. quod quando quis atteritur de
+          <lb ed="#N" n="136"/>peccatis: dolore non soluto sed continuato: infunditur
+          <lb ed="#N" n="137"/>aliquando gratia vt est contritio. Sed in continuis
+          continui<lb ed="#N" n="138" break="no"/>tas est unitas vt dicit phslus: ergo vnus motus est attritio et contritio.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e124">
+          ⁋ Item
+          <pb ed="#N" n="470"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>si essent duo motus. cum secundum phscum inter quoslibet duos
+          mo<lb ed="#N" n="2" break="no"/>tus necesse sit intercidere quietem mediam: necesse esset semper
+          <lb ed="#N" n="3"/>inter attritionem et contritionem intercidere quietem mediam. hoc autem
+          <lb ed="#N" n="4"/>est falsum.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e141">
+          ⁋ Item nulla circumstantia mutat substantiam operis: sed
+          <lb ed="#N" n="5"/>mutui qui est attritio nihil additur nisi circumstantia scilicet gratia
+          <lb ed="#N" n="6"/>ergo erit idem motus in substantia.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e148">
+          ⁋ Item differre secundum esse completum
+          <lb ed="#N" n="7"/>et incompletum non est aliqua differentia substantialis. sicut patet de
+          pu<lb ed="#N" n="8" break="no"/>erperio non omnino formato et formato. ergo cum attritio dicat
+          <lb ed="#N" n="9"/>motum incompletum respectu contritionis: non differunt in substantia
+        </p>
+        <p xml:id="v78d89-adptnd-d1e157">
+          <lb ed="#N" n="10"/>Contra. timor seruilis principium est attritionis. timor
+          initi<lb ed="#N" n="11" break="no"/>alis principium est contritionis: sed timor seruilis numquam fit
+          initia<lb ed="#N" n="12" break="no"/>lis immo simpliciter differunt: ergo etc.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e166">
+          ⁋ Item contritio est a gratia
+          <lb ed="#N" n="13"/>gratum faciente: attritio a gratia gratisdata. Gratia autem
+          gra<lb ed="#N" n="14" break="no"/>tum faciens opponitur peccato: gratisdata non. quia compatitur
+          secnen<lb ed="#N" n="15" break="no"/>peccatum. ergo simpliciter differt gratia gratumnfaciens a gratia
+          gra<lb ed="#N" n="16" break="no"/>tisdata. ergo et eorum principiata scilicet attritio et contritio.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e177">
+          ⁋ Item
+          ne<lb ed="#N" n="17" break="no"/>cesse est omnem habitum esse formatum a quo immediate egreditur actus
+          <lb ed="#N" n="18"/>formatus: sced a timore seruili immediate egreditur attritio:
+          <lb ed="#N" n="19"/>sed timor seruilis numquam potest esse formatus sicut dicit augustinus immo
+          <lb ed="#N" n="20"/>adueniente caritate expellitur sicut seta adueniente filo. ergo etc.
+          <lb ed="#N" n="21"/>Si dicas quod non solum timor est principium attritionis immo
+          ali<lb ed="#N" n="22" break="no"/>quis amor. hoc nihil est. quia ille amor non esset formiatus nec
+          in<lb ed="#N" n="23" break="no"/>formandus. non enim ponitur caritas esse informis et formata: sicut
+          <lb ed="#N" n="24"/>de fide dcamitnrum de aliis habentibus virtutem.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e197">
+          ⁋ Responsio. dicendum. quod
+          <lb ed="#N" n="25"/>simpliciter differunt attrito et contritio.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e203">
+          ⁋ Ad illud quod obii
+          <lb ed="#N" n="26"/>citur. quod continuitas continui est vnitas. dicendum quod vnus est motus
+          conti<lb ed="#N" n="27" break="no"/>nuitate nature et continuitatis. non est tamen ita vnus vel simplex
+          <lb ed="#N" n="28"/>quin habeat partem et partem. et in vna parte est a gratia gratisdata:
+          <lb ed="#N" n="29"/>et hoc nominat attnitio. in alia parte est a gratia gratu faciente
+          <lb ed="#N" n="30"/>et ipsum prout sic est nominat contritio: et sic simpliciter differunt
+          <lb ed="#N" n="31"/>Unde bene verum est. quod vnus est motus in genere nature: non tamen est
+          <lb ed="#N" n="32"/>vnus in genere moris. immo sunt diumersi et disparati. Nec etiam
+          <lb ed="#N" n="33"/>voluntas eliciens est eadem. Cum enim quis atteritur de aliquibus peccatis
+          <lb ed="#N" n="34"/>suis: adhuc habet voluntatem aliorum: nec vniuersaliter dolet. cum
+          <lb ed="#N" n="35"/>autem gratia infunditur et conteritur illam malam voluntatem dimittit et
+          <lb ed="#N" n="36"/>simpliciter de omnibus dolet.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e229">
+          ⁋ Ad illud quod obiicitur. quod si essent
+          <lb ed="#N" n="37"/>duo motus: intercideret quies media. dicendum quod hoc nihil
+          fa<lb ed="#N" n="38" break="no"/>cit ad propositum. verbum autem phoi intelligitur inter diuersos
+          mo<lb ed="#N" n="39" break="no"/>tus eiusdem speciei et eiusdem mobilis. vt inter ascensum lapidis
+          <lb ed="#N" n="40"/>et descensum eiusdem: necesse est quietem intercidere. Inter motus
+          <lb ed="#N" n="41"/>autem disperatos diuersarum specierum non est sic: sicut est in
+          proposi<lb ed="#N" n="42" break="no"/>to. potest enim quis simul et selis moueri ad albedinc et situm sine
+          qui<lb ed="#N" n="43" break="no"/>ete intercidente.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e247">
+          ⁋ Ad aliud quod obiicitur quod nulla
+          circumstan<lb ed="#N" n="44" break="no"/>na mutat substantiam operis. dicendum. quod gratia in genere moris non
+          <lb ed="#N" n="45"/>est circumstantia nec additur operi vt noua circumstantia: set est nouus
+          <lb ed="#N" n="46"/>motor et nouum efficit dolorem in genere moris. nec debet solum at
+          <lb ed="#N" n="47"/>tribui gratie qualitas operis: sed substantia operis. vt vult bern.
+          <lb ed="#N" n="48"/>in libro de libro. arbto. quia ergo vt est motor facit nouum ops.
+        </p>
+        <p xml:id="v78d89-adptnd-d1e260">
+          ⁋ Ad illud
+          <lb ed="#N" n="49"/>quod obiicitur. quod differt secundum completum et incompletum etc. dicendum quod
+          <lb ed="#N" n="50"/>quando incompletum est aliquid respectu alterius et ordinatur ad illud
+          <lb ed="#N" n="51"/>vt perficiatur ab eodem et compleatur: tunc vnum est quod specie non differt
+          <lb ed="#N" n="52"/>talem completum et incompletum. vt patet in exemplo proposito et in
+          consimili<lb ed="#N" n="53" break="no"/>h. sic autem non est in proposito: sed quando incompletum est alterius generis
+          <lb ed="#N" n="54"/>nec ordinatur ad ipsum completum nec ab illo perficiendum: tunc non
+          <lb ed="#N" n="55"/>sequitur quod non differant: et sic est in proposito.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

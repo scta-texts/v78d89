@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 28, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 28, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="177"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6doe6"><!-- q28m3 -->
+        <head xml:id="v78d89-a6doe6-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a6doe6-Hd1e103" type="question-title">Quis debet vel potest confirmandum tenere</head>
+        <p xml:id="v78d89-a6doe6-d1e106">
+          <lb ed="#N" n="31"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a6doe6-d1e111">
+          <lb ed="#N" n="32"/>SEquitur quis potest vel debet confirmandum ante episcoum
+          te<lb ed="#N" n="33" break="no"/>nere. Et primo queritur. si non confirmatus potest
+          te<lb ed="#N" n="34" break="no"/>nere. Secundo. si mulier. Tercio. si indifferent
+          <lb ed="#N" n="35"/>potest vir tenere mulierem et mulier virum.
+        </p>
+        <div xml:id="v78d89-a6doe6-Dd1e122">
+          <head xml:id="v78d89-a6doe6-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-a6doe6-d1e126">
+            <lb ed="#N" n="36"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e131">
+            <lb ed="#N" n="37"/>CIrca primum proceditur sic. Et videtur quod non
+            confirma<lb ed="#N" n="38" break="no"/>tus non potest tenere ad confirmandum: quia non baptiza
+            <lb ed="#N" n="39"/>tus non potest tenere baptizandum. a simili videtur quod non
+            <lb ed="#N" n="40"/>confirmatus non potest tenere ad confirmandum. Hoc est quod habetur
+            <lb ed="#N" n="41"/>de conse. di. iiii. in baptismate. vbi dicitur. In baptismate vel
+            <lb ed="#N" n="42"/>crismate non potest aliquis suscipere filiolum qui non est confirmatus vel
+            <lb ed="#N" n="43"/>crismatus. sensus canonis est. quod qui non est baptizatus: non potest
+            <lb ed="#N" n="44"/>suscipere filiolum in baptismate: neque non confirmatus potest
+            susci<lb ed="#N" n="45" break="no"/>pere filiolum alium in crismate.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e153">
+            ⁋ Contra. non confirmatus potest
+            <lb ed="#N" n="46"/>baptizare: multo fortius et tenere vt videtur.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e158">
+            ⁋ Item cum sit
+            <lb ed="#N" n="47"/>de gremio ecclesie secundum baptismum. licet non sit confirmatus: quare
+            <lb ed="#N" n="48"/>non potest exequi istud ministerium scilicet tenendi ad confirmandum.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e166">
+            <lb ed="#N" n="49"/>⁋ Item tenere ante episcoum non est aliquid conferre spirituale: sed est tantum
+            <lb ed="#N" n="50"/>operatio corporalis. ergo ad talem actum scilicet ad tenendum ante episcoum
+            <lb ed="#N" n="51"/>non exigitur aliquid spirituale. ergo non oportet quod sit confirmatus.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e175">
+            ⁋ Ite
+            <lb ed="#N" n="52"/>queritur non baptizatus potest baptizare. quare non suscipere potest
+            <lb ed="#N" n="53"/>filiolum in baptismate id est esse compatrinus.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e182">
+            ⁋ Respondeo ad hoc
+            vl<lb ed="#N" n="54" break="no"/>timum. Quia compatrini est instruere filiolum in symbolo.
+            <lb ed="#N" n="55"/>propter hoc enim institutum est in ecclesia quod sint compatrini. non
+            ba<lb ed="#N" n="56" break="no"/>ptizati autem hoc non posunt: quia non sunt instructi. propter hoc non posunt esse
+            <lb ed="#N" n="57"/>compatrini.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e193">
+            ⁋ Ad hoc quod queritur. quare non confirmati non posunt
+            <lb ed="#N" n="58"/>tenere ad confirmandum. Dicendum quod confirmandus debet ab
+            <lb ed="#N" n="59"/>altero teneri vt ostendatur in ipso impotentia standi per se scilicet
+            <lb ed="#N" n="60"/>in temptationibus sine gratia confirmationis. Unde potentia et
+            <lb ed="#N" n="61"/>virtus standi spiritualiter scilicet in pugna temptationum: datur in
+            <lb ed="#N" n="62"/>confirmatione. vnde Melchyades. In baptismate
+            regenera<lb ed="#N" n="63" break="no"/>mur ad vitam: post baptismum confirmamur ad pugnam.
+            Si<lb ed="#N" n="64" break="no"/>igitur in signum impotentie confirmandus tenetur ab alio ad
+            confir<lb ed="#N" n="65" break="no"/>mandum. qui autem impotens est ad standum: impotens est ad
+            <lb ed="#N" n="66"/>alium tenendum vel sustinendum. propter hoc debet esse confirmatus
+            <lb ed="#N" n="67"/>qui alium debet tenere: in signum quod qui alium debet sustentare
+            <lb ed="#N" n="68"/>oportet quod habeat potentiam standi.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e219">
+            ⁋ Quare igitur potest
+            ba<lb ed="#N" n="69" break="no"/>ptizare. Responsio quod quia baptisma est sacramentum necessitatis:
+            lar<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>ga dispensatione prouidit diuina misericordia: vt omnis cuius cumque
+            <lb ed="#N" n="71"/>sit status vel conditionis vel qualitatis possit baptizare.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e229">
+            <lb ed="#N" n="72"/>⁋ Ad id quod queritur. ex quo est de gremio ecclesie quare etc. Responsio.
+            <lb ed="#N" n="73"/>hoc institutum est ab ecclesia ratione predicta. vt sicut in signum
+            impo<lb ed="#N" n="74" break="no"/>tentie standi in spirituali pugna ordinatum est vt confirmandus ab
+            <lb ed="#N" n="75"/>alio teneatur: similiter in signum impotentie sustentandi alium qui non
+            <lb ed="#N" n="76"/>habet potentiam standi per se: ordinatum est quod teneatur confirmandus
+            <lb ed="#N" n="77"/>a confirmato. nec exigit ratio aliqua: quod illi qui sunt de gremio
+            <lb ed="#N" n="78"/>ecclesie posunt quecumque ministeria ecclesie exequi. immo disticta sunt
+            <lb ed="#N" n="79"/>ministeria secundum gradus eorum qui sunt in ecclesia.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e250">
+            ⁋ Ad vltimum
+            <lb ed="#N" n="80"/>dicendum. quod etsi illud tenere sit actio corporalis quantum ad substantiam
+            <lb ed="#N" n="81"/>actus: non tamen quantum ad significationem. quod ergo obiicit quod ad actionem
+            <lb ed="#N" n="82"/>corporalem non exigitur aliquid spirituale. Dicendum quod actio
+            corpo<lb ed="#N" n="83" break="no"/>ralis potest dici secundum rem et significationem. corporalis vt currere
+            <lb ed="#N" n="84"/>quantum est de genere suo. Alia est actio que secundum rem est
+            cor<lb ed="#N" n="85" break="no"/>paralis: secundum significationem vero est spiritualis. vt patet ministerio
+            sacra<lb ed="#N" n="86" break="no"/>mentorum. Primo ergo modo ad actum corporalem non est necessarium
+            ali<lb ed="#N" n="87" break="no"/>quod gratuitum spirituale: sed secundo modo. et talis actio est tenere
+            con<lb ed="#N" n="88" break="no"/>firmandum ante episcoum: vt smmu. dictum est.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6doe6-Dd1e274">
+          <head xml:id="v78d89-a6doe6-Hd1e276">Articulus 2</head>
+          <p xml:id="v78d89-a6doe6-d1e278">
+            <lb ed="#N" n="89"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e283">
+            <lb ed="#N" n="90"/>Onsequentur queritur. si mulier potest tenere
+            confirman<lb ed="#N" n="91" break="no"/>dum ante episcoum. Quod videtur. quia mulier potest tenere
+            ba<lb ed="#N" n="92" break="no"/>ptizandum. ergo cum minor sit obligatio et adminus
+            <lb ed="#N" n="93"/>in tenendo ante episcoum confirmantem ex ipsa tentione: quam tenere
+            ba<lb ed="#N" n="94" break="no"/>ptizandum ante sacerdotem baptizantem. videtur quod si tenere
+            po<lb ed="#N" n="95" break="no"/>test in baptismate: quod potest tenere in confirmatione.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e299">
+            ⁋ Contra
+            <lb ed="#N" n="96"/>sicut dictum est. non confirmatus in signum impotentie sue et
+            in<lb ed="#N" n="97" break="no"/>firmitatis non debet aliquem tenere ad confirmandum. a simili
+            vi<lb ed="#N" n="98" break="no"/>detur quod mulier cum sit conditionis infirme: in signum sue
+            in<lb ed="#N" n="99" break="no"/>firmitatis et debilitatis non debet aliquem tenere.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e310">
+            ⁋ Hoc idem
+            <lb ed="#N" n="100"/>habetur per hoc quod sexus muliebris excluditur a susceptione
+            ordi<lb ed="#N" n="101" break="no"/>nis propter conditionem sexus huius que repugnat dignitati ordinis
+            <lb ed="#N" n="102"/>siue ordinatorum scilicet inferioritas siue infirmitas status. a
+            simili<lb ed="#N" n="103" break="no"/>videtur quod propter conditionem repugnantem que est infirmitas et
+            de<lb ed="#N" n="104" break="no"/>bilitas debet excludi ab huiusmodi ministerio scilicet tenendi.
+            Respon<lb ed="#N" n="105" break="no"/>deo. quod mulier dummodo sit confirmata potest tenere. nec
+            impe<lb ed="#N" n="106" break="no"/>dit sexus debilitas siue infirmitas. Infirmitas enim que
+            de<lb ed="#N" n="107" break="no"/>pendet a sexu que est infirmitas corporalis: non firmatur per
+            <lb ed="#N" n="108"/>sacramentum confirmationis. Infirmitas autem spiritualis scilicet
+            pusillani<lb ed="#N" n="109" break="no"/>mitas tollitur per gratiam confirmationis. que cum sublata fuerit
+            <lb ed="#N" n="110"/>efficitur mulier digna ad ministerium tenendi. hac autem
+            infir<lb ed="#N" n="111" break="no"/>mitate sublata: efficiuntur mulieres quasi viri siue habentes animas
+            <lb ed="#N" n="112"/>viriles. secundum quod legitur. ii. Macha. vii. de illa beata muliere
+            <lb ed="#N" n="113"/>que hortabatur filios suos ad patientiam in morte. quod
+            femi<lb ed="#N" n="114" break="no"/>nee cogitationi masculinum animum inserens dixit ad eos
+            <lb ed="#N" n="115"/>etc.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e348">
+            ⁋ Ad illud ergo quod primo obiicitur. dicendum quod
+            infirmi<lb ed="#N" n="116" break="no"/>tas sexus vel corporis non repugnat fortitudini spiritus
+            <lb ed="#N" n="117"/>que attenditur penes robur corporis. hec autem quandoque tanta est
+            <lb ed="#N" n="118"/>in muliere: quanta in viro et quandoque maior. quamuis vt
+            frequen<lb ed="#N" n="119" break="no"/>tius vir est magis aptus ad actus spirituales fortitudinis.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e359">
+            <lb ed="#N" n="120"/>⁋ Ad illud quod obiicitur de susceptione ordinum. Dicendum
+            <lb ed="#N" n="121"/>quod non est simile: quia ratione sexus vir caput est mulieris. i.
+            <lb ed="#N" n="122"/>Corintr. pi. et hoc principaliter quantum ad actus exteriores
+            <lb ed="#N" n="123"/>et corporales. et ideo repugnat ei susceptio ordinum ratione
+            <lb ed="#N" n="124"/>quorum ordinatus constituitur caput et superior illorum. Unde
+            <lb ed="#N" n="125"/>sexus femineus et susceptio ordinum sibi repugnant: eo quod
+            <lb ed="#N" n="126"/>sexus femineus constituitur sub capite: et non permittitur
+            <lb ed="#N" n="127"/>esse caput. ordo vero econtrario constituit ordinatum caput
+            <lb ed="#N" n="128"/>et superiorem illorum. Confirmatio vero sacramentalis non
+            <lb ed="#N" n="129"/>habet talem repugnantiam cum sexu femineo: eo quod non
+            cor<lb ed="#N" n="130" break="no"/>pus respicit vt dictum est. nec proprietatem corporis: sed tantum
+            ani<lb ed="#N" n="131" break="no"/>mam et infirmitatem eius.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6doe6-Dd1e389">
+          <head xml:id="v78d89-a6doe6-Hd1e391">Articulus 3</head>
+          <p xml:id="v78d89-a6doe6-d1e393">
+            <lb ed="#N" n="132"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e398">
+            <lb ed="#N" n="133"/>Onsequentur queritur. vtrum indifferenter potest vir tenere
+            <lb ed="#N" n="134"/>feminam: et femina virum. Quod sic: videtur. In
+            bapti<lb ed="#N" n="135" break="no"/>smo ita est. quod homo sexus masculini potest tener
+            <lb ed="#N" n="136"/>feminam in baptismo. similiter videtur quod in confirmatione.
+            igi<lb ed="#N" n="137" break="no"/>tur non oportet quod vir semper virum teneat et femina
+            femi<lb ed="#N" n="138" break="no"/>nam. immo sicut in baptismo seinuicem tenere posunt: similie
+            <pb ed="#N" n="178"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>nn confirmatione.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e420">
+            ⁋ Item secundum exigentiam ordinis rationis et
+            <lb ed="#N" n="2"/>nature. fortior habet tenere et sustentare minus fortem. Sed
+            con<lb ed="#N" n="3" break="no"/>firmatus non confirmato fortior reputatur. ergo quelibet persona
+            <lb ed="#N" n="4"/>confirmata potest tenere personam non confirmatam. ergo mulier
+            confir<lb ed="#N" n="5" break="no"/>mata potest tenere virum non confirmatum.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e431">
+            ⁋ Item cum tentio ad
+            con<lb ed="#N" n="6" break="no"/>firmandum nihil operetur ad sacramentum: non refert cuius
+            se<lb ed="#N" n="7" break="no"/>xus sit qui tenere debeat.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e439">
+            ⁋ Contra. ordo nature hoc
+            exi<lb ed="#N" n="8" break="no"/>git quod mulier sit sub viro et non econuerso. sed persona tenens
+            ali<lb ed="#N" n="9" break="no"/>quem ad confirmandum. ex hoc quod tenet illum sortitur
+            maiorita<lb ed="#N" n="10" break="no"/>tem quandam et auctoritatem respectu illius qui tenetur: eo quod in
+            mi<lb ed="#N" n="11" break="no"/>nisterio tali fuit principium sue perfecte christianitatis. ergo si
+            mu<lb ed="#N" n="12" break="no"/>lier debet esse sub viro et non habere auctoritatem respectu viri etc.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e452">
+            <lb ed="#N" n="13"/>⁋ Hoc idem patet per rationem suppositam quare mulieres non
+            reci<lb ed="#N" n="14" break="no"/>piunt ordines. quia ex hoc sequeretur quod haberent poetantem
+            ordi<lb ed="#N" n="15" break="no"/>natam supra viros.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e461">
+            ⁋ Responsio. quod vir potest tenere mulierem et
+            <lb ed="#N" n="16"/>mulier virum ad confirmandum licet aliqui ponebant contrarium. vnde
+            <lb ed="#N" n="17"/>xxx. q. i. Si aliquis. dicitur. Si aliquis filiastrum vel filiastram
+            <lb ed="#N" n="18"/>suam ante episcoum tenuerit ad confirmationem: separaretur ab vxore
+            sua<lb ed="#N" n="19" break="no"/>et aliam nunquam accipiat. similiter et mulier. Hic insinuatur a
+            cano<lb ed="#N" n="20" break="no"/>ne quod vir potest mulierem tenere et econuerso. sed si talem teneat
+            <lb ed="#N" n="21"/>scilicet filiastrum vel filiastram puniri debet. Nihilominus si hoe
+            <lb ed="#N" n="22"/>obseruaretur in aliqua ecclesia quod vir solum teneat etc. sed potest esse
+            <lb ed="#N" n="23"/>ad tollendum periculum affinitatis. Nam quia in huiusmodi tenen
+            <lb ed="#N" n="24"/>contrahitur affinitas. et non solum inter tenentem et parentes eius
+            <lb ed="#N" n="25"/>qui tenetur: sed inter tenentem et ipsum qui tenetur. quando masculus
+            ma<lb ed="#N" n="26" break="no"/>rem tenet et mulier mulierem: tollitur periculum ex contractu
+            affi<lb ed="#N" n="27" break="no"/>nitatis inter illos. propter quod potuit non sine ratione institui
+            <lb ed="#N" n="28"/>in aliqua ecclesia et obseruari. quod tantum vir virum teneat et mulier
+            <lb ed="#N" n="29"/>mulierem.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e494">
+            ⁋ Ad illud quod obiicitur. quod persona tenens sortitur
+            au<lb ed="#N" n="30" break="no"/>ctoritatem et maioritatem dignitatis siue et prioritatis
+            re<lb ed="#N" n="31" break="no"/>spectu illius qui tenetur. quod non conuenit mulieri respectu
+            vi<lb ed="#N" n="32" break="no"/>ri etc. Dicendum quod non sortitur ex hoc auctoritatem poetantis ordinate
+            <lb ed="#N" n="33"/>siue maioritatem dignitatis. sicut est in susceptione ordinis: sed
+            <lb ed="#N" n="34"/>potius efficitur debitor exhibitionis et reuerentie et honoris
+            <lb ed="#N" n="35"/>et subuentionis caritatiue. quantuncumque enim efficitur magnus qui
+            <lb ed="#N" n="36"/>tenetur ad confirmandum: debet habere illum qui tenebat eum
+            etsi<lb ed="#N" n="37" break="no"/>minor sit: in reuerentia. et pro loco et tempore illi honorem
+            exhi<lb ed="#N" n="38" break="no"/>bere: et in necessitatibus caritatiue subuenire.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e516">
+            ⁋ Ex his patet
+            <lb ed="#N" n="39"/>responsio ad aliud. quia secus est de susceptione ordinis in qua
+            <lb ed="#N" n="40"/>confertur auctoritas poetantis ordinate et dignitas maioritatis
+            <lb ed="#N" n="41"/>simptiter. hoc autem non sortitur qui tenet aliquem ad confirmandum
+            <lb ed="#N" n="42"/>ex ministerio huiusmodi.
+          </p>
+          <p xml:id="v78d89-a6doe6-d1e527">
+            ⁋ Ad hoc quod obiicitur pro alia parte. quod qui
+            <lb ed="#N" n="43"/>tenet nihil cooperatur illi sacramento. Dicendum quod etsi nihil
+            co<lb ed="#N" n="44" break="no"/>operetur effectiuem: operatur tamen significatiue. Significat enim
+            <lb ed="#N" n="45"/>quod non confirmatus non habet potentiam standi per se: sed illam
+            acci<lb ed="#N" n="46" break="no"/>pit in confirmatione.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

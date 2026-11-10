@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 11, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 11, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="94"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a39ezg"><!-- q11m2 -->
+        <head xml:id="v78d89-a39ezg-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a39ezg-Hd1e103" type="question-title">De singulis Definitionibus divisim et primo de illa quae est Magistri</head>
+        <p xml:id="v78d89-a39ezg-d1e106">
+          <lb ed="#N" n="133"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e111">
+          <lb ed="#N" n="134"/>SEquitur inquirere de singulis diffinitionibus diuisim
+          <lb ed="#N" n="135"/>et primo de illa que est magistri. que habetur in senten.
+          <lb ed="#N" n="136"/>i. li. di. iii. Baptismus tinctio dicitur. id est ablutio
+          <pb ed="#N" n="95"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>corporis exterior facta: sub forma verborum prescripta. Uidetur quod
+          <lb ed="#N" n="2"/>hec diffinitio sit sufficiens et completa. quia dicit formam
+          baptismi<lb ed="#N" n="3" break="no"/>que attenditur in verbis prescriptis a domino: et materiam per hoc
+          <lb ed="#N" n="4"/>quod dicitur ablutio corporis exterior et conuertitur. plus non
+          vi<lb ed="#N" n="5" break="no"/>detur requirere diffinitio.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e135">
+          ⁋ Contra. Ita se habent
+          diffini<lb ed="#N" n="6" break="no"/>tio et diffinitum. quod vno existente aliud existit: vno
+          desinen<lb ed="#N" n="7" break="no"/>te et aliud. et iterum vno reducto in esse et aliud. illud
+          pla<lb ed="#N" n="8" break="no"/>num est sumpto exemplo generaliter de diffinitione quacum
+          <lb ed="#N" n="9"/>que et diffinito. ergo deficiente ablutione etc. deficit baptismus
+          <lb ed="#N" n="10"/>existente est. et iterum corrupto hoc corrumpitur aliud: et hoc
+          <lb ed="#N" n="11"/>reducto in esse et illud similiter. sed contingit fieri ablutiones
+          <lb ed="#N" n="12"/>huiusmodi et deficere multotiens. et iterum redigi in esse: igitur et
+          <lb ed="#N" n="13"/>similiter est de baptismo. et ita baptismus est iterabilis.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e156">
+          ⁋ Item
+          <lb ed="#N" n="14"/>cum baptismus sit sacramentum noue legis: efficit quod
+          figu<lb ed="#N" n="15" break="no"/>rat. de eius igitur essentia est efficere sicut figurare. non
+          ex<lb ed="#N" n="16" break="no"/>primitur hic aliquid notificans illud inquantum efficit: ergo
+          di<lb ed="#N" n="17" break="no"/>minuta est.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e167">
+          ⁋ Item Hugo. tria requiruntur ad hoc quod
+          sacra<lb ed="#N" n="18" break="no"/>mentum habeat esse completum. scilicet similitudo ex natura:
+          represen<lb ed="#N" n="19" break="no"/>tatio ex institutione: continentia gratie spiritualis ex sanctificatione
+          <lb ed="#N" n="20"/>hoc non est reperire in actione aliqua vnde nec in ablutione
+          <lb ed="#N" n="21"/>Item baptismus perpetuo manet in baptizato. sed ablutio
+          sta<lb ed="#N" n="22" break="no"/>tim deficit: ergo etc. Quod perpetuo manet: videtur. quia cum
+          ali<lb ed="#N" n="23" break="no"/>quis baptizatur recipit sacramentum baptismi. et quamdiu est
+          ba<lb ed="#N" n="24" break="no"/>ptizatus habet sacramentum: sicut quamdiu est vnus albus habet
+          <lb ed="#N" n="25"/>albedinem. sed semel baptizatus semper est baptizatus: igitur
+          sem<lb ed="#N" n="26" break="no"/>per habet sacramentum baptismi.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e189">
+          ⁋ Item si est ablutio exte
+          <lb ed="#N" n="27"/>rior. aut actiue dicta: et tunc esset aliquando peccatum
+          mor<lb ed="#N" n="28" break="no"/>tale. sicut in presbitero symoniace baptizante. et hoc est
+          ab<lb ed="#N" n="29" break="no"/>surdum. aut passiue dicta siue ipsa passio: sed si illa transit tunc
+          <lb ed="#N" n="30"/>baptismus transiret. quod cum non sit: non est baptismus
+          <lb ed="#N" n="31"/>tinctio id est ablutio. actio vel passio.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e202">
+          ⁋ Item Augu. diffiniens
+          <lb ed="#N" n="32"/>baptisma dicit. quod est tinctio in aqua. Magister dicit
+          ablu<lb ed="#N" n="33" break="no"/>tio non apponendo aquam. vnde videtur diminuta.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e209">
+          ⁋
+          Respon<lb ed="#N" n="34" break="no"/>sio. est considerare baptisma vt est habens modum
+          substan<lb ed="#N" n="35" break="no"/>tie que est: aut substantie que fit. prout secundo modo
+          conside<lb ed="#N" n="36" break="no"/>ratur: describitur in proposito.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e218">
+          ⁋ Item est considerare vt est
+          <lb ed="#N" n="37"/>sacramentum solummodo et exercitum ab homine. et sic non
+          con<lb ed="#N" n="38" break="no"/>sideratur in esse completo et optimo. et hoc modo sumptum
+          dif<lb ed="#N" n="39" break="no"/>finitur hic. aut vt est sacramentum exercitum ministerio
+          huma<lb ed="#N" n="40" break="no"/>no habens efficaciam a diuina auctoritate: et sic sumitur secundum
+          <lb ed="#N" n="41"/>esse vltimum et completum. Unde dico. quod prescriptio pretacta
+          noti<lb ed="#N" n="42" break="no"/>ficat baptismum. non secundum esse eius vltimum et completum: sed
+          solum<lb ed="#N" n="43" break="no"/>vt est sacramentum exterius exercitum ministerio humano.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e237">
+          ⁋ Ad
+          <lb ed="#N" n="44"/>illud quod obiicitur primo. quod per conuertentiam notificans et
+          noti<lb ed="#N" n="45" break="no"/>ficatum dicuntur quantum ad esse formale et materiale. Dicendum
+          <lb ed="#N" n="46"/>est quod forma est perfectio rei. Unde sicut duplex est perfectio scilicet
+          <lb ed="#N" n="47"/>materie et compositi: et duplex formale. Unde describitur istud
+          <lb ed="#N" n="48"/>quantum ad formale perfectiuum totius. quod attenditur in
+          effectu<lb ed="#N" n="49" break="no"/>vltimo penes quod est completio totius esse. Pret. illud
+          argu<lb ed="#N" n="50" break="no"/>mentum non valet. hec notificatio describit hoc quantum ad ea
+          <lb ed="#N" n="51"/>que respiciunt esse materiale et formale et conuertibiliter:
+          igi<lb ed="#N" n="52" break="no"/>tur est diffiniens sufticienter. Instantia cum dicitur homo est
+          <lb ed="#N" n="53"/>substantia rationalis mortalis. describitur homo per ea que
+          re<lb ed="#N" n="54" break="no"/>spiciunt esse materiale et formale et conuertibiliter: nec
+          tamen<lb ed="#N" n="55" break="no"/>diffinit sufficienter vt patet intelligenti. sed bene sequeretur
+          <lb ed="#N" n="56"/>si diceretur esse materiale formale et conuertibiliter. per hoc enim
+          <lb ed="#N" n="57"/>quod dicitur. dicit esse materiale et formale: plus dicitur quam cum
+          <lb ed="#N" n="58"/>dicitur. dicit materiam. quia per primum dicitur actus
+          vtrius<lb ed="#N" n="59" break="no"/>que quo notatur vt sunt in esse completo: per secundum non. esse enim est
+          <lb ed="#N" n="60"/>actus entis.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e276">
+          ⁋ Ad hoc autem quod obiicitur ex alia parte. quod non
+          <lb ed="#N" n="61"/>existente vel deficiente diffinito: deficit diffinitio et
+          econuer<lb ed="#N" n="62" break="no"/>so. et similiter reducto in esse. sed contingit huiusmodi ablutionem
+          deperi<lb ed="#N" n="63" break="no"/>re et iterum reduci in esse: igitur baptismus est iterabilis.
+          Dicen<lb ed="#N" n="64" break="no"/>dum est. quod non sequitur. immo debet inferre. igitur potest iterari. quod
+          <lb ed="#N" n="65"/>bene verum est vt est sacramentum tantum scilicet de facto: non de iure.
+          <lb ed="#N" n="66"/>Quod autem baptismus non iteratur. hoc est ratione illius quod ex caractere
+          <lb ed="#N" n="67"/>habet et originalis peccati remissione. et hoc est alterum esse
+          <lb ed="#N" n="68"/>ab eo quod iam dictum est. scilicet ab esse quod respicit esse
+          sacramen<lb ed="#N" n="69" break="no"/>ti tantum.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e298">
+          ⁋ Ad aliud quod obiicitur quod tria requiruntur tantum ad esse
+          <lb ed="#N" n="70"/>completum baptismi. Dicendum quod ablutio exterior ex
+          natu<lb ed="#N" n="71" break="no"/>ra similitudinem habet cum interiori ablutione. virtus enim
+          re<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>generatiua est in aqua materialiter: in verbis formaliter:
+          <lb ed="#N" n="73"/>in ablutione similitudinarie. Item instituitur ad huiusmodi
+          ablu<lb ed="#N" n="74" break="no"/>tionem representandam scilicet Math. vlti. Ite docete omnes gentes.
+          <lb ed="#N" n="75"/>baptizantes eos in no. etc. Baptizare est idem quod intingere
+          <lb ed="#N" n="76"/>siue abluere. Continet autem gratiam spiritualem ratione verbi
+          ap<lb ed="#N" n="77" break="no"/>positi ad actum exercitum. cum dicitur. baptizo te in nomine pa.
+          <lb ed="#N" n="78"/>et fi. Hec autem continentia qua sacramenta dicuntur continere gratiam
+          <lb ed="#N" n="79"/>spiritualem. non est per modum quo aliquid continetur in vase
+          substan<lb ed="#N" n="80" break="no"/>tialiter vt electuarium in pixide: sed eo modo quo ad aliquid
+          <lb ed="#N" n="81"/>quod nihil est alterius continetur in esse quantum ad substantiam et
+          vir<lb ed="#N" n="82" break="no"/>tutem. Sacramenta autem vniuersaliter gratiam spiritualem
+          dicun<lb ed="#N" n="83" break="no"/>tur continere: quia gratiam spiritualem saluant quantum ad esse et
+          vir<lb ed="#N" n="84" break="no"/>tutem. tollendo illa que illam impediunt. hoc autem maxime
+          <lb ed="#N" n="85"/>conuenit ablutioni facte etc. vel potest dici quod institutio non est
+          <lb ed="#N" n="86"/>de esse sacramenti. sed adesse et ideo nihil tangitur. de causa vero
+          <lb ed="#N" n="87"/>sanctificationis et signationis hic tangitur. Nam ex ablutione
+          <lb ed="#N" n="88"/>corporis trahitur signatio: ex forma verborum sanctifica
+          <lb ed="#N" n="89"/>tio.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e345">
+          ⁋ Ad aliud dicendum. quod in baptismo sunt signum
+          si<lb ed="#N" n="90" break="no"/>ue operatio exterior: et effectus interior siue significatum
+          <lb ed="#N" n="91"/>scilicet impressio caracteris. dicitur igitur semper manere non quantum
+          <lb ed="#N" n="92"/>ad opus siue signum exterius: sed quantum ad effectum interio
+          <lb ed="#N" n="93"/>rem siue significatum. vnde reuera non manet simpliciter
+          <lb ed="#N" n="94"/>semper: sed quantum ad aliquem effectum scilicet quantum ad caracteren
+          <lb ed="#N" n="95"/>Cum autem ostenditur quod perpetuo manet per hoc quod quamdiu
+          ali<lb ed="#N" n="96" break="no"/>quis est baptizatus habet sacramentum baptismi: sicut
+          quam<lb ed="#N" n="97" break="no"/>diu est aliquis albus habet albedinem. dicendum quod non est
+          <lb ed="#N" n="98"/>simile. quia albus presentialiter denominatur ab albedine que
+          <lb ed="#N" n="99"/>presentialiter inest: sed baptizatus presentialiter a baptismo de
+          <lb ed="#N" n="100"/>nominatur. qui aliquando infuit.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e371">
+          ⁋ Ad aliud dicendum. quod non
+          <lb ed="#N" n="101"/>intelligitur hic de ablutione actione vel passione: sed de eo quod
+          <lb ed="#N" n="102"/>relinquitur ex his. Cum enim passio transeat cum actione:
+          re<lb ed="#N" n="103" break="no"/>manet nihilominus quod relinquitur ex actione et passione. vt
+          <lb ed="#N" n="104"/>dici possit iste est baptizatus.
+        </p>
+        <p xml:id="v78d89-a39ezg-d1e382">
+          ⁋ Ad aliud dicendum quod non
+          <lb ed="#N" n="105"/>solet fieri ablutio exterior nisi in aqua: datur intelligi per
+          <lb ed="#N" n="106"/>hoc quod dicitur ablutio exterior.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

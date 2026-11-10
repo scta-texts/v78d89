@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 96, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 96, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="613"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ah0vyl"><!-- q96m5 -->
+        <head xml:id="v78d89-ah0vyl-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-ah0vyl-Hd1e103" type="question-title">De efficacia orationis Pauli</head>
+        <p xml:id="v78d89-ah0vyl-d1e106">
+          <lb ed="#N" n="94"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-ah0vyl-d1e111">
+          <lb ed="#N" n="95"/>COnsequenter queritur de efficacia orationis
+          Pau<lb ed="#N" n="96" break="no"/>li petentis amoueri a se stimulum. Et primo
+          <lb ed="#N" n="97"/>prout stimulus dicebatur incentiuum libidinis.
+          <lb ed="#N" n="98"/>Secundo prout dicebatur dolor lateris.
+        </p>
+        <div xml:id="v78d89-ah0vyl-Dd1e122">
+          <head xml:id="v78d89-ah0vyl-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-ah0vyl-d1e126">
+            <lb ed="#N" n="99"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e131">
+            <lb ed="#N" n="100"/>PRimo queritur. vtrum debuit exaudiri petendo
+            amo<lb ed="#N" n="101" break="no"/>tionem incentiui libidinis. Quod sic: videtur per hoc
+            <lb ed="#N" n="102"/>quod amotio primorum motuum ab aliquo efficit ipsum
+            <lb ed="#N" n="103"/>beatum. Psndu. Beatus qui tenebit et allidet paruulos suos ad
+            <lb ed="#N" n="104"/>petram id est qui paruulos qui ex carne nascuntur malos motus
+            <lb ed="#N" n="105"/>antequam crescant retinet ne sint liberi. et allidet ad petram id est
+            <lb ed="#N" n="106"/>christum vt confracti dispereant. sic exponit glo. de primis
+            mo<lb ed="#N" n="107" break="no"/>tibus qui tendunt ad libidinem. ergo cum paulus vellet eos reprimere
+            <lb ed="#N" n="108"/>et christum oraret vt eos tolleret: bene et meritorie orabat. ergo
+            ex<lb ed="#N" n="109" break="no"/>audiendus erat.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e155">
+            ⁋ Ad idem facit illud Ecesiastici. ii. Capite
+            vo<lb ed="#N" n="110" break="no"/>bis vulpes paruulos qui demoliuntur vineas. primi enim motus
+            <lb ed="#N" n="111"/>licet minima venialia sint: tamen demoliuntur animas id est corrumpunt si per
+            <lb ed="#N" n="112"/>mittantur procedere.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e164">
+            ⁋ Preterea. Ysa. xiiii. perdam babilonis
+            no<lb ed="#N" n="113" break="no"/>mem et reliquias et progeniem et germen id est nomen peccati luxurie in quo est
+            <lb ed="#N" n="114"/>confusio perdendum est. Ephes. v. Fornicatio et omnis immundicia non
+            <lb ed="#N" n="115"/>nominetur in vobis sicut decet sanctos. Similiter perdende sunt
+            circumstan<lb ed="#N" n="116" break="no"/>tie que signantur per reliquias. et progenies id est actus. et germen id est
+            primi<lb ed="#N" n="117" break="no"/>motus a quibus veniunt delectatio et consensus et actus. et ita bene
+            <lb ed="#N" n="118"/>et meritorie petiit apostolus remoueri a se incentiuum libidinis. ergo
+            <lb ed="#N" n="119"/>exaudiendus fuit.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e183">
+            ⁋ Pretera. idem videtur per illud Hiere. l.
+            Inter<lb ed="#N" n="120" break="no"/>ficite babilonem nec sit quicquam reliquum.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e188">
+            ⁋ Preterea. super illud
+            <lb ed="#N" n="121"/>hiere. vii. Noli orare pro hoc populo. dicit glo. duo sunt que
+            obsi<lb ed="#N" n="122" break="no"/>stunt orationibus ne audiantur a domino. incorrectus et permanens error
+            <lb ed="#N" n="123"/>et cor impenitens. sed neutrum istorum fuit in paulo. ergo exaudiendus
+            <lb ed="#N" n="124"/>fuit cum non esset in ipso quod subsisteret orationi.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e199">
+            ⁋ Preterea. constat quod
+            <lb ed="#N" n="125"/>paulus petiit pro se in illa petitione et pie et perseueranter. quia ter dominum
+            <lb ed="#N" n="126"/>rogauit vt discederet ab ipso stimulus ille. in ternario consistit
+            <lb ed="#N" n="127"/>perseuerantia. vnde Math. vii. Petite et accipietis. querite et
+            in<lb ed="#N" n="128" break="no"/>uenietis. pulsate et aperietur vobis. constat autem quod ad salutem
+            pe<lb ed="#N" n="129" break="no"/>tiit quia incentiuum libidinis ad perditionem est si procedit. ergo remotio eius
+            <lb ed="#N" n="130"/>est ad salutem. et ista quatuor faciunt orationem exaudibilem. videlicet
+            <lb ed="#N" n="131"/>vt orat pie. perseueranter. pro se. et ad salutem. ergo paulus
+            exaudien<lb ed="#N" n="132" break="no"/>dus fuit in illa petitione.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e219">
+            ⁋ Contra. i. Io. vlti. Quecumque
+            pe<lb ed="#N" n="133" break="no"/>tieritis secundum voluntatem eius etc. ibi glo. augustinus. bona voluntas dei
+            <lb ed="#N" n="134"/>nostram stultam corrigit: vt apostolo paulo contigit scilicet quando petiit a
+            se<lb ed="#N" n="135" break="no"/>amoueri stimulum carnis. Ex hoc patet quod petitio eius stulta fuit
+            <lb ed="#N" n="136"/>ergo non debuit exaudiri.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e230">
+            ⁋ Preterea. super illud Ro. viii. Quid ore
+            <lb ed="#N" n="137"/>mus sicut opertet nescimus. Glo. fallimur quandoque putantes
+            ex<lb ed="#N" n="138" break="no"/>audiri vel prodesse quod non prodest: sicut paulus. vnde responsum
+            re<lb ed="#N" n="139" break="no"/>cepit a domino quod non exaudiretur. ergo apostolus putans sibi
+            pro<lb ed="#N" n="140" break="no"/>desse amotionem stimuli fallebatur. ergo hoc petendo non debuit
+            <pb ed="#N" n="614"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>exaudiri: quia non petebat quod erat illi ad salutem.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e248">
+            ⁋ Pre. Ia.
+            <lb ed="#N" n="2"/>i. Omne gaudium existimate fratres mei cum in temptationes
+            va<lb ed="#N" n="3" break="no"/>rias incideritis id est a persecutione vel a conscientia vel a concupiscentia qua
+            <lb ed="#N" n="4"/>varie temptant. ergo debebat apostolus gaudere de illa temptatione: et
+            <lb ed="#N" n="5"/>non eius amotionem petere.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e260">
+            ⁋ Responsio. Ad euidentiam huiusmodi
+            pro<lb ed="#N" n="6" break="no"/>bleumatis non. quod multiplex est temptatio scilicet interior et
+            ex<lb ed="#N" n="7" break="no"/>terior. Exterior iterum duplex. videlicet dei et dyaboli.
+            tem<lb ed="#N" n="8" break="no"/>petat enim deus et dyabolus. Item dei duplex est. temptat enim
+            preci<lb ed="#N" n="9" break="no"/>piendo: sicut temptauit abraham precipiens ei immolare ysaac
+            <lb ed="#N" n="10"/>vt habetur Gen. xxii. Temptat iterum affligendo et torquendo
+            <lb ed="#N" n="11"/>vt martires. vnde Sapienti. iii. In paucis vexati in multis bene
+            <lb ed="#N" n="12"/>disponentur: quoniam deus temptauit illos et inuenit illos dignos se.
+            <lb ed="#N" n="13"/>Temptatio itaque dyaboli duplex est. quia temptat
+            suggeren<lb ed="#N" n="14" break="no"/>do siue incendendo. vnde Ysa. liiii. Ego creaui fabrum
+            sufflan<lb ed="#N" n="15" break="no"/>tem in igne prunas. Temptat etiam affligendo et temptando:
+            <lb ed="#N" n="16"/>sicut temptauit Iob. Temptatio vero interior est que est a
+            fo<lb ed="#N" n="17" break="no"/>mite et carne. de qua dicitur Iaco. i. Deus intemptator
+            malo<lb ed="#N" n="18" break="no"/>ram est. ipse enim neminem temptat. Unusquisque enim temptatur a
+            <lb ed="#N" n="19"/>concupiscentia sua abstractus et illectus. et hec temptatio interior
+            <lb ed="#N" n="20"/>peccatum est ipsi temptato. sed temptatio interior cui non consentit
+            <lb ed="#N" n="21"/>temptatus: non est peccatum: sed materia virtutis exercende.
+            <lb ed="#N" n="22"/>Ambro. super lucam. temptationem ne vnquam timere debemus. est
+            <lb ed="#N" n="23"/>enim causa victorie: materia triumphorum. diues ille qui
+            tem<lb ed="#N" n="24" break="no"/>ptationem non sensit in seculo: in pena est apud inferos.
+            Di<lb ed="#N" n="25" break="no"/>cimus ergo quod stimulus ille prout erat incentiuum libidinis siue
+            <lb ed="#N" n="26"/>temptatio dyabolica vt patet: dicitur angelus sathane: et fuit
+            <lb ed="#N" n="27"/>materia exercende virtutis ipsi Paulo. vnde non
+            exaudien<lb ed="#N" n="28" break="no"/>dus erat in illa petitione. Nullus enim debet petere non tempta
+            <lb ed="#N" n="29"/>ri temptatione exteriori que non est peccatum: sed materia
+            exercen<lb ed="#N" n="30" break="no"/>de virtutis.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e317">
+            ⁋ Dicendum ergo ad primum obiectum. quod illud quod
+            pe<lb ed="#N" n="31" break="no"/>tiit primos motus a se remoueri: non erat illi ad salutem.
+            <lb ed="#N" n="32"/>Non enim petiit primos motus a se remoueri: sed potius
+            tempta<lb ed="#N" n="33" break="no"/>tionem exteriorem que ipsum incitabat ad libidinem que erat
+            <lb ed="#N" n="34"/>a dyabolo ad decipiendum: a deo temparata ad exercitium
+            vir<lb ed="#N" n="35" break="no"/>tutis. vnde licet stimulus ille non erat illi causa necessaria
+            salu<lb ed="#N" n="36" break="no"/>tis: erat tamen causa adminicularis et exercitium ad salutem.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e333">
+            ⁋ Ex
+            <lb ed="#N" n="37"/>his patet responsio ad secundum et tercium. quia petere amotionem
+            sti<lb ed="#N" n="38" break="no"/>muli: non fuit petere amotionem primorum motuum vel insultuum
+            <lb ed="#N" n="39"/>illorum: sed potius exteriorem temptationem: vt tactum est. et
+            indu<lb ed="#N" n="40" break="no"/>cuntur auctoritates acsi stimulus ille esset temptatio interior.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e344">
+            ⁋ Ad
+            <lb ed="#N" n="41"/>illam glo. que dicit. duo sunt que obsistunt orationibus etc.
+            po<lb ed="#N" n="42" break="no"/>test dici quod non solum ista duo sunt que obsistunt: immo multa.
+            <lb ed="#N" n="43"/>sed ista duo dicit glo. propter poplum obstinatum in malo: cuius
+            <lb ed="#N" n="44"/>cor impenitens et incorreptus error obsistebat: ne
+            Hiere<lb ed="#N" n="45" break="no"/>mias exaudiretur pro eo.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e357">
+            ⁋ Ad vltimum potest dici. quod paulus non
+            <lb ed="#N" n="46"/>petiit ad salutem. immo petiit contra exercitium et perfectionem
+            virtu<lb ed="#N" n="47" break="no"/>tis sue. sicut est responsum ei a domino. nec erat incentiuum libidinis
+            <lb ed="#N" n="48"/>prout erat exterior temptatio apostolo ad perditionem: immo
+            po<lb ed="#N" n="49" break="no"/>tius ad perfectionem.
+          </p>
+        </div>
+        <div xml:id="v78d89-ah0vyl-Dd1e370">
+          <head xml:id="v78d89-ah0vyl-Hd1e372">Articulus 2</head>
+          <p xml:id="v78d89-ah0vyl-d1e374">
+            <lb ed="#N" n="50"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e379">
+            <lb ed="#N" n="51"/>COnsequenter queritur. vtrum paulus debuit
+            exau<lb ed="#N" n="52" break="no"/>diri petendo stimulum amoueri prout dicebatur
+            <lb ed="#N" n="53"/>dolor lateris. Et videtur quod sic: per hoc quod ecclesia petit
+            <lb ed="#N" n="54"/>pro infirmis vt reddatur illis sanitas. vt reddita illis
+            sani<lb ed="#N" n="55" break="no"/>tate gratiarum deo in ecclesia referant actiones. sed orationes ecclesie sunt
+            <lb ed="#N" n="56"/>exaudiende. ergo oratio Pauli qua petebat stimulum amoueri id est
+            do<lb ed="#N" n="57" break="no"/>lorem ad exemplum orationis ecclesie facte debuit exaudiri.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e397">
+            ⁋ Pre.
+            <lb ed="#N" n="58"/>hoc idem videtur per hoc. quod rex vel princeps quicumque proficiscens pro deo:
+            <lb ed="#N" n="59"/>graui detineretur infirmitate. ita quod peregrinationem inceptam
+            con<lb ed="#N" n="60" break="no"/>plere non posset. si peteret a deo sue infirmitatis
+            releuatio<lb ed="#N" n="61" break="no"/>nem vt peregrinationem posset perficere. videtur quod esset exaudiendus.
+            <lb ed="#N" n="62"/>A simili videtur in proposito. quod apostolus petens amoueri dolorem
+            <lb ed="#N" n="63"/>lateris: vt liberius et expeditius posset officium a deo sibi
+            <lb ed="#N" n="64"/>iniunctum exequi: erat exaudiendus.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e415">
+            ⁋ Pret. dicit phosous quod
+            egri<lb ed="#N" n="65" break="no"/>tudo impedit virtutes. sed bonum est orare pro remotione huiusmodi
+            <lb ed="#N" n="66"/>impedimenti. ergo bonum est orare pro liberatione a malo pene.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e423">
+            <lb ed="#N" n="67"/>⁋ Pret. vt sa. tactum est. distinguitur inter orationem et
+            deprecatio<lb ed="#N" n="68" break="no"/>nem. vt oratio fit pro bonis adipiscendis: et deprecatio pro malis
+            <lb ed="#N" n="69"/>amouendis. et ita bonum est orare pro liberatione a malo
+            pene<lb ed="#N" n="70" break="no"/>et oratio Pauli talis fuit. ergo etc.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e434">
+            ⁋ Contra. Ad Heb. xii. In
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>disciplina perseuerate filii. et sumitur ibi disciplina pro
+            flagel<lb ed="#N" n="72" break="no"/>lis quibus deus flagellat filium quem amat. si ergo preceptum est perse
+            <lb ed="#N" n="73"/>uerare in flagellis: illicitum est liberari ab eis et indignum
+            <lb ed="#N" n="74"/>exaudiri.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e447">
+            ⁋ Pret. tribulationes necesse sunt nobis ad vitam
+            eta<lb ed="#N" n="75" break="no"/>nam obtinendum. Act. xiiii. per multas tribulationes oportet intrarei
+            <lb ed="#N" n="76"/>regnum dei. ergo petere eorum amotionem est petem non ad salutem: sed potius cont.
+            <lb ed="#N" n="77"/>et ita talis petitio non est exaudienda.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e456">
+            ⁋ Pret. Gen. vii.
+            multipli<lb ed="#N" n="78" break="no"/>cate sunt aque et eleuauerunt archam in sublime a tera. aque sunt
+            tri<lb ed="#N" n="79" break="no"/>bulationes: archa ecclesia que proficit ex multiplicatione
+            tribulatio<lb ed="#N" n="80" break="no"/>num. ergo non debet orare contra profectum suum. ergo non debet amotionem penarum peter.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e465">
+            <lb ed="#N" n="81"/>⁋ Ad idem facit quod dicitur Exo. i. Quanto egiptii opprimebant
+            iu<lb ed="#N" n="82" break="no"/>deos: tantomagis multiplicabantur et crescebant.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e472">
+            ⁋ Pret. super il
+            <lb ed="#N" n="83"/>lud Hiere. v. percussisti eos et non doluerunt. diem glo. omnis diuina
+            <lb ed="#N" n="84"/>percussio: aut purgatio est nobis vite presentis: aut initium pene
+            <lb ed="#N" n="85"/>future ad reprobos. sed constat quod purgatio vite presentis est bomnoa. go
+            <lb ed="#N" n="86"/>est malum petere quod deus nos bberet a percussione diuina siue a malo
+            <lb ed="#N" n="87"/>pene.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e486">
+            ⁋ Pret. augustinus. orat. domine hoc vre et hoseca.
+            </p>
+          <p xml:id="v78d89-ah0vyl-d1e488">
+            ⁋ Pret. ergoggo. i
+            <lb ed="#N" n="88"/>moralis. quia sancte mentes corruptionis sue vulnus sine putredine non
+            <lb ed="#N" n="89"/>esse sentiunt: libenter se sub manu medici parant: vt aperto vulnere
+            <lb ed="#N" n="90"/>virus sub manu medici exeat quod sana cute intus occidebat.
+            <lb ed="#N" n="91"/>ergo flagella domini purgatoria sunt corruptionis nstre. ergo malum est
+            pe<lb ed="#N" n="92" break="no"/>tere ab ill liberari.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e501">
+            ⁋ Pret. super illud. ii. corum. xii. dicit glo.
+            pro<lb ed="#N" n="93" break="no"/>pter quod scilicet quia grauiter colaphizabar: ego humane timens ter
+            <lb ed="#N" n="94"/>rogaui dominum etc. ergo ex humano timore fuit illa petitio. sed huma
+            <lb ed="#N" n="95"/>nus timor malus est: ergo illa petitio fuit mala. ergo non exaudibir.
+            <lb ed="#N" n="96"/>quia arbor mala et fructus malus.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e512">
+            ⁋ Pret. augustinu. super eundem locum
+            <lb ed="#N" n="97"/>quando petitis temporalia cum modo petite. vt si prosint det: si sciat
+            ab<lb ed="#N" n="98" break="no"/>esse non det. quid enim obsit vel prosit medicus nouit non egrotus. sed
+            <lb ed="#N" n="99"/>paulus non petiit cum hac conditione. ergo indiscrete petiuit. vnde b. Ia
+            <lb ed="#N" n="100"/>cobus eiusdem quarto. reprehendit quosdam dicentes: hodie autm crastio
+            <lb ed="#N" n="101"/>ibimus in ciuitatem illam: quia non apponebant conditionem si dominus voluenit
+            <lb ed="#N" n="102"/>et si vixerimus faciemus hoc vel illud.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e528">
+            ⁋ Pret. Iac. i. Omne
+            gau<lb ed="#N" n="103" break="no"/>dium existiate fratres mei cum in temptationes varias incideritis
+            <lb ed="#N" n="104"/>ergo apostolus tenebatur gaudere de illa temptatione. ergo tenebatur non petere
+            <lb ed="#N" n="105"/>amotionem stimuli: et petiit. ergo non debuit exaudiri.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e537">
+            ⁋ Pre.
+            sup<lb ed="#N" n="106" break="no"/>illud. i. Io. v. quod si petierimus secundum voluntatem eius audiet nos.
+            <lb ed="#N" n="107"/>Ilo. bomna voluntas dei nostram corrigit stultam: vt apostolo paulo
+            <lb ed="#N" n="108"/>otigit. ergo stulta fuit petitio pauli: et ita non debuit exaudiri.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e547">
+            <lb ed="#N" n="109"/>⁋ Pre. ex ratione ista et aliis semd. positis videtur quod peccauit pete
+            <lb ed="#N" n="110"/>do amotionem stimuli. et quia stulta fuit petitio sua vt smcu. hitum est
+            <lb ed="#N" n="111"/>e quia indiscreta: et ita contra discretionem. et per communs contra prudentiam et cdon
+            <lb ed="#N" n="112"/>virtutem. et ita peccatum vt videtur. et etiam conra se: vtem ex glo. Ro. vii. vbi
+            <lb ed="#N" n="113"/>dicitur. quod ex responso didicit conra se esse quod petebat. vt tactum est in presenti
+            in<lb ed="#N" n="114" break="no"/>bleumate. et ita contra caritatem qua tenebatur diligere se.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e563">
+            ⁋ Responsio.
+            <lb ed="#N" n="115"/>dicendum ad hoc quod oratio apostoli de amotione stimuli id est doloris lateris
+            <lb ed="#N" n="116"/>non fuit exaudibilis id est non fuit sibi vtilis nec conueniens vt
+            exaudi<lb ed="#N" n="117" break="no"/>retur. Huiusmodi enim tribulationes et alie humane conditioni inflicte sunt
+            <lb ed="#N" n="118"/>ad hanc vitam corruptibilem contemnendam: et futuram
+            per<lb ed="#N" n="119" break="no"/>quirendam. vnde super illud Iob. vi. Sagitte dei in me sunt
+            <lb ed="#N" n="120"/>quarum indignatio ebibit spiritum. vbi dicit Gregous.
+            Sa<lb ed="#N" n="121" break="no"/>gitte sunt animaduersiones: diuine percussiones. quarum
+            in<lb ed="#N" n="122" break="no"/>dignatio ebibit spiritum id est compescit elationem. Pret.
+            mate<lb ed="#N" n="123" break="no"/>ria sunt exercende virtutis. vnde he sunt gentes quas
+            re<lb ed="#N" n="124" break="no"/>liquit dominus vt in eis erudiret israhelem Iudic. iii. ibi glo.
+            <lb ed="#N" n="125"/>Iugustins. In exodo. xxiii. de his gentibus dicit deus. Non
+            eii<lb ed="#N" n="126" break="no"/>ciam eos in anno vno: ne fiat terra deserta et multiplicentur
+            <lb ed="#N" n="127"/>in te bestie fere. Et post quibusdam interpositis subditur.
+            <lb ed="#N" n="128"/>Quod autem ait ne multiplicentur in te bestie fere. mirum est: si non
+            <lb ed="#N" n="129"/>bestiales cupiditates et libidines intelligi voluit: que solent
+            <lb ed="#N" n="130"/>de repentino successu terrene felicitatis existere. hec glo.
+            <lb ed="#N" n="131"/>Ecce quanta est vtilitas afflictionum modernorum. propter quod
+            <lb ed="#N" n="132"/>non expediebat vt stimulus amoueretur.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e605">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="133" break="no"/>citur. quod ecclesia orat pro infirmis vt illis sanitas reddatur. Potest
+            <lb ed="#N" n="134"/>dici quod ratio competens est quare ecclesia orat pro infirmorum
+            <lb ed="#N" n="135"/>sanitate: que frequenter orationi persone singularis non
+            compe<lb ed="#N" n="136" break="no"/>teret. quare ergo expedit quod non exaudiatur pro amotione cuiuscumque
+            <lb ed="#N" n="137"/>infirmitatis: vt tactum est. Tendon quod ecclesia exaudiatur petendo
+            <lb ed="#N" n="138"/>pro sanitate infirmorum expedit propter plura. vnum est
+            ro<lb ed="#N" n="139" break="no"/>boratio infirmorum in fide. cum enim ad preces ecclesie deus det
+            <lb ed="#N" n="140"/>sanitatem corporalem: roboratur fides fidelium et augmentatur visis
+            <lb ed="#N" n="141"/>mirabilibus que dominus infirmis curandis operatur. et fiunt infideles
+            <pb ed="#N" n="615"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>fideles. Alia ratio est exhibitio honoris largitori sanitatis
+            <lb ed="#N" n="2"/>et gratiarumactio et augmentum cultus dei per consequens.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e636">
+            ⁋ Ad
+            <lb ed="#N" n="3"/>illud quod obiicitur. quod sicut petitio peregrini que fit pro
+            infirmita<lb ed="#N" n="4" break="no"/>te tollenda vt peregrinationem inceptam explere possit: videtur
+            ex<lb ed="#N" n="5" break="no"/>audienda etc. Potest dici quod petitio in stimuli amotione non
+            de<lb ed="#N" n="6" break="no"/>buit fieri ab apostolo. nec sibi congruebat quod amoueretur a domino.
+            <lb ed="#N" n="7"/>bene enim innotuit apostolo. quod ad commodum suum: immo ad salutem
+            <lb ed="#N" n="8"/>suam fuerat illi datus stimulus vt ipse profitetur. ii. ad corum. xii.
+            <lb ed="#N" n="9"/>ibi. Ne magnitudo reuelationum extollat me etc. vnde glo.
+            <lb ed="#N" n="10"/>ibidem. stimulus pungens carnem a deo datus est mihi id est ad
+            <lb ed="#N" n="11"/>meam vtilitatem. ideo scilicet ne magnitudo reuelationum extollat
+            <lb ed="#N" n="12"/>me in superbiam. et post: dominus ad conseruationem humilitatis
+            im<lb ed="#N" n="13" break="no"/>misit. Deus enim ad hoc iusto non percebat: vt eius virtutem in
+            in<lb ed="#N" n="14" break="no"/>firmitate perficeret. hec glo. Noticia ergo apostoli de vtilitate
+            sti<lb ed="#N" n="15" break="no"/>muli causa fuit: quare commotio eius non fuit petenda. et ipsa
+            vtili<lb ed="#N" n="16" break="no"/>tas quare non congruebat sibi quod esset amotus. Pret. licet
+            quodan<lb ed="#N" n="17" break="no"/>modo impediebat executionem officii sui iniuncti: non tamen
+            impe<lb ed="#N" n="18" break="no"/>diebat simplicter. vnde licet non poterat exequi officium illud sine graua
+            <lb ed="#N" n="19"/>mine quod illi intulit stimulus ille: tamen exequi potuit. propter quod non
+            <lb ed="#N" n="20"/>erat illi expediens propter executionem officii vt esset stimulus
+            amo<lb ed="#N" n="21" break="no"/>tus. Ex his patet quod non est simile de releuatione infirmitatis
+            <lb ed="#N" n="22"/>principis peregrinantis: et apostoli stimulum patientis.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e682">
+            ⁋ Ad illud
+            <lb ed="#N" n="23"/>quod obiicitur. quod egritudo impedit virtutes secundum phoscum. Potest
+            di<lb ed="#N" n="24" break="no"/>ci quod quatuor sunt genera virtutum secundum Macrobium. de his
+            <lb ed="#N" n="25"/>era. vltima petitione dominice orationis.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e691">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="26"/>deprecatio est pro malis amouendis etc. Potest dici quod bonum est et
+            <lb ed="#N" n="27"/>meritorium orari siue deprecari pro malis amouendis. nec
+            <lb ed="#N" n="28"/>tamen cuiusque est bonum nec pro quibuscumque malis. vnde
+            argumen<lb ed="#N" n="29" break="no"/>tum peccat secundum consequens. Pret. licite potest peti. et tunc potuit
+            <lb ed="#N" n="30"/>amotio mali siue liberatio a malo sicut petitur in oratione
+            <lb ed="#N" n="31"/>dominica. et maxime quando malum est causa fastidii et impatientie. sicut
+            <lb ed="#N" n="32"/>accidit frequenter. Sicut enim quibusdam est melius viuere in
+            di<lb ed="#N" n="33" break="no"/>uitiis quam in paupertate: sic melius est quibusdam in sanitate
+            <lb ed="#N" n="34"/>corporali quam in egritudine. sed simpliciter loquendo melius est
+            pe<lb ed="#N" n="35" break="no"/>nas presentes sustinere quam esse sine illis. et maxime viris
+            perfe<lb ed="#N" n="36" break="no"/>ctis: cuiusmodi fuit apostolus.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e718">
+            ⁋ Ad illa que opponuntur pro ista
+            <lb ed="#N" n="37"/>parte: potest dici quod reuera apostoli petitio non erat exaudienda sibi
+            <lb ed="#N" n="38"/>id est ad vtilitatem et ad salutem suam.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e725">
+            ⁋ Ad illud quod primo
+            ob<lb ed="#N" n="39" break="no"/>iicitur. ex quo preceptum est perseuerare in disciplina: illicitum est
+            <lb ed="#N" n="40"/>petere liberari ab illa etc. Potest dici quod frequenter in
+            sacra<lb ed="#N" n="41" break="no"/>scriptura dicuntur aliqua per modum precepti que vim precepti non
+            obti<lb ed="#N" n="42" break="no"/>nent. vnde illud quod dicit apostolus. In disciplina perseuerate filii.
+            <lb ed="#N" n="43"/>magis est hortatio quam preceptum. Hortatur enim apostolus ad
+            perseue<lb ed="#N" n="44" break="no"/>randum patienter in flagellis. vnde glo. perseuerate vsque in finem in
+            <lb ed="#N" n="45"/>disciplina patienter ferendo.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e743">
+            ⁋ Ad illud quod obiicitur. quod
+            tribu<lb ed="#N" n="46" break="no"/>lationes sint necessarie ad salutem. vnde petere liberationem earum est
+            <lb ed="#N" n="47"/>petere contra salutem. Dicendum quod etsi tribulationes sepe
+            profi<lb ed="#N" n="48" break="no"/>ciant ad salutem: non tamen precise et causaliter sunt necessarie ad
+            sa<lb ed="#N" n="49" break="no"/>lutem. vnde stimulus apostoli non fuit illi causa precisa salutis: quia etiam
+            <lb ed="#N" n="50"/>stimulo amoto non fuit illi preclusa via salutis.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e756">
+            ⁋ Ad illa
+            <lb ed="#N" n="51"/>duo que sequuntur potest dici. quod licet multiplicatione tribulationum
+            <lb ed="#N" n="52"/>proficiant membra ecclesie: non tamen peccant qui petunt liberationem alicus
+            <lb ed="#N" n="53"/>rribulationis siue miserie: sed meritorie potest fieri huiusmodi
+            peti<lb ed="#N" n="54" break="no"/>tio et si ex caritate fiat: et ad salutem sui vel proximi vel
+            hono<lb ed="#N" n="55" break="no"/>rem dei. vt sicut fortasse apostolus meritorie petiuit stimuli
+            amo<lb ed="#N" n="56" break="no"/>tionem: vt liberius officio predicationis et aliis bominis posset
+            <lb ed="#N" n="57"/>vacare.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e774">
+            ⁋ Ad illud quod post obiicitur. quod percussio diuina est
+            pur<lb ed="#N" n="58" break="no"/>gatio presentis vite etc. Potest dici quod licet percussio diuina sit
+            causa<lb ed="#N" n="59" break="no"/>quandoque purgationis: licet tamen aliquibus causis petere liberationem
+            <lb ed="#N" n="60"/>ab huiusmodi percussione. huiusmodi enim percussiones vt stimulus apostoli: non
+            <lb ed="#N" n="61"/>sunt directe et per se ad purgationem malorum vel augmentum
+            bo<lb ed="#N" n="62" break="no"/>norum: sed de sapienti vsu sanctorum qui sapienter vtuntur malis
+            pe<lb ed="#N" n="63" break="no"/>ne: considerantes vitam istam plenam esse miseriis: et ob hoc
+            contemnen<lb ed="#N" n="64" break="no"/>dam et querendam esse meliorem. Pret. vbi ignoratur voluntas dei
+            <lb ed="#N" n="65"/>licitum est velle et petere oppositum eius quod vult deus. sicut
+            conti<lb ed="#N" n="66" break="no"/>git de altero duorum angelorum: de quibus habetur Dan. x. quorum
+            <lb ed="#N" n="67"/>alter volebat liberationem popli: et alter non. et vterque erat
+            bo<lb ed="#N" n="68" break="no"/>nus secundum Greg. et constat quod alter volebat quod deus nolebat.
+            <lb ed="#N" n="69"/>sic licitum fuit apostolo velle amotionem stimuli cum ignoraret deum
+            <lb ed="#N" n="70"/>velle oppositum. Ex his patet responsio ad quedam que sequuntur.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e805">
+            ⁋ Ad
+            <lb ed="#N" n="71"/>illud quod obiicitur. quod petebat ex humano timore etc. Potest dici
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>quod illud verbum: ego humane timens ter dominum rogaui etc. non
+            in<lb ed="#N" n="73" break="no"/>telligitur de humano timore qui malus est: sed exponitur sic. humane
+            <lb ed="#N" n="74"/>timens sicut homo fragilis cui naturalem est timere mortem.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e819">
+            <lb ed="#N" n="75"/>⁋ Ad aliud obiectum quod sequitur. dicendum quod licet apostolus in illa
+            appe<lb ed="#N" n="76" break="no"/>titione non posuerit conditionem actu: subintellexit tamen haitu. vnde
+            <lb ed="#N" n="77"/>cum modo petiit: et sic non peccauit.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e828">
+            ⁋ Ad aliud quod sequitur.
+            di<lb ed="#N" n="78" break="no"/>tendum quod apostolus gaudebat de presentia stimuli: quia sciebat illum
+            <lb ed="#N" n="79"/>dolorem esse a deo. sed nesciebat an in futuro vellet deus illum
+            <lb ed="#N" n="80"/>dolorem remanere. vnde licitum fuit ei petere respectu futuri
+            <lb ed="#N" n="81"/>quod remoueretur.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e839">
+            ⁋ Ad aliud obiectum quod sequitur. dicendum quod
+            pe<lb ed="#N" n="82" break="no"/>titio apostoli non fuit stulta in genere: quia sepe orat ecclesia pro
+            infir<lb ed="#N" n="83" break="no"/>mitate tollenda. sed dicitur fuisse stulta respectu excellentie
+            per<lb ed="#N" n="84" break="no"/>sone apostolice: quia debuit cum maiori deliberatione petere quam
+            pe<lb ed="#N" n="85" break="no"/>tierit: et cum maiori discretione. vnde eius petitio non fuit
+            <lb ed="#N" n="86"/>vsque quaque discreta. non tamen fuit contra discretionem simpliciter: sed contera
+            <lb ed="#N" n="87"/>discretionem consummatam.
+          </p>
+          <p xml:id="v78d89-ah0vyl-d1e855">
+            ⁋ Ad ea quibus videtur quod peccauit
+            apo<lb ed="#N" n="88" break="no"/>stolus petendo: et quia petitio sua fuit stulta et indiscreta id est contra
+            <lb ed="#N" n="89"/>discretionem et contra prudentiam. iam patet responsio ex dictis qumdo stul
+            <lb ed="#N" n="90"/>ta et qudo indiscreta. nec valet illud argumentum. petebat contra
+            <lb ed="#N" n="91"/>se. ergo contra caritatem. amotio enim stimuli non erat contra
+            carita<lb ed="#N" n="92" break="no"/>tem. amotus enim aliquando talis fuit stimulus salua tamen caritate. sed
+            <lb ed="#N" n="93"/>dicitur petiuisse contra se: quia stimulus ille operabatur ei in bonum.
+            <lb ed="#N" n="94"/>videlicet ad perfectionem virtutis. vnde nec ex his sequitur quod
+            peccaue<lb ed="#N" n="95" break="no"/>rit petendo stimuli amotionem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

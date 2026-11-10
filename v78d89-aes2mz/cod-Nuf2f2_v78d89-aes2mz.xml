@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 80, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 80, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="518"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aes2mz"><!-- q80m1 -->
+        <head xml:id="v78d89-aes2mz-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-aes2mz-Hd1e103" type="question-title">Utrum haec potestas possit in culpam</head>
+        <p xml:id="v78d89-aes2mz-d1e106">
+          <lb ed="#N" n="44"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e111">
+          <lb ed="#N" n="45"/>CIrca primum obiicitur ad partem affirmatir am. Ioh.
+          <lb ed="#N" n="46"/>xx. Quorum rtrmiseritis peccata etc.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e118">
+          ⁋ Item vir iustus
+          <lb ed="#N" n="47"/>merito vite gratiam impetrat peccatori: et ita con
+          bso<lb ed="#N" n="48" break="no"/>lutionem a peccato siue a culpa. licet illi non sit
+          commis<lb ed="#N" n="49" break="no"/>sum officium mediatoris: ergo multo fortius et idem potest cui commissum
+          <lb ed="#N" n="50"/>est officium sacerdotis sacerdos: et ita obtinet quod iste
+          absolui<lb ed="#N" n="51" break="no"/>tur a c ilpa. et si hoc potest obtinere et ita potest etc. et hoc facit virtute
+          cla<lb ed="#N" n="52" break="no"/>uis: quia inquantum habet officium mediatoris.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e135">
+          ⁋ Item sacramentum
+          peni<lb ed="#N" n="53" break="no"/>tentie est remedium contra mortalem actuale sicut baptismus contra
+          ori<lb ed="#N" n="54" break="no"/>ginale. ergo sicut virtute baptismi deletur originale: ita virtute
+          peni<lb ed="#N" n="55" break="no"/>tentie deletur actualem. sed virtus penitentie principaliter consistit penes
+          <lb ed="#N" n="56"/>poecstecem ligandi et soluendi. ergo etc.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e146">
+          ⁋ Item sacramentum baptismi
+          <lb ed="#N" n="57"/>delet omnem. ulpam sed tamen in hoc non derogatur diuine potentie in
+          ali<lb ed="#N" n="58" break="no"/>quo. sed maioris virtutis est susceptiuus spiritus rationalis quoam aqua: ergo
+          vi<lb ed="#N" n="59" break="no"/>detur quod sine aliquo inconuenienti possit dici. quod sacerdos virtute
+          po<lb ed="#N" n="60" break="no"/>testatis ligandi et soluendi ministerialiter absoluit a culpa
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e157">
+          ⁋
+          Con<lb ed="#N" n="61" break="no"/>tra domino frequenter imponebatur blasphemia quia dimisit peccata. et
+          <lb ed="#N" n="62"/>hoc non ob aliud: nisi quod peccata dimitter est solius dei. non ergo
+          sacerdo<lb ed="#N" n="63" break="no"/>tis.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e166">
+          ⁋ Item augustinus et Rich. de sancto victo. dicunt. quod in suscitatione
+          <lb ed="#N" n="64"/>lazari significata est rsuscitatio peccatoris. sed lazarus est prius a domino
+          <lb ed="#N" n="65"/>iustificatus quam traderetur discipulis exoluendus: ergo absolutio sacra
+          <lb ed="#N" n="66"/>dotis nihil valet antequam homo sit iustificatus per gratiam et suscitatus a
+          <lb ed="#N" n="67"/>morte culpe. ergo sacerdos non potest super culpam.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e177">
+          ⁋ Item paris
+          potesta<lb ed="#N" n="68" break="no"/>tis est interius baptizare et a culpa mortali absoluere. sed deus non
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>debuit potestatem baptizandi interius communicare ne spes poneretur in
+          <lb ed="#N" n="70"/>homine: ergo pari ratione nec potestatem absoluendi ab actuali.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e188">
+          ⁋ Ite
+          <lb ed="#N" n="71"/>nulla fit remissio culpe nisi per gratiam. sed gratiam dari est potentie in
+          <lb ed="#N" n="72"/>finite. ergo etc.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e196">
+          ⁋ Responsio. circa hoc diuersi diuersa sentiunt. Qui
+          <lb ed="#N" n="73"/>dam enim dixerunt quod est loqui de clauium potestate. autm prout operatur in
+          <lb ed="#N" n="74"/>proposito confitendi: aut in actu confessionis. Si prout operatur in proponi
+          <lb ed="#N" n="75"/>to confitendi: sic quia illud propositum clauditur in contritione. et in contrito
+          <lb ed="#N" n="76"/>ne deletur culpa: sic virtus quodammodo se extendit ad delendum
+          <lb ed="#N" n="77"/>culpam. non enim a culpa potest iustificari nisi proponat sacerdoti
+          <lb ed="#N" n="78"/>confiteri. Si autem loquamur de potestate illa prout operatur in actu
+          ab<lb ed="#N" n="79" break="no"/>soluendi: sic non potest in culpam. pro eo quod digne accedens ad
+          abso<lb ed="#N" n="80" break="no"/>lutionem accedit contritus et spirteraliter suscitatus: et ita est ei cuba
+          <lb ed="#N" n="81"/>iam remissa. Sed iste modus dicendi licet iudicatur probabilis:
+          <lb ed="#N" n="82"/>fantasticus est. primo quia nullum sacramentum dicitur operari anteque
+          <lb ed="#N" n="83"/>exerceatur circa subiectum. Item plus potest sacramentum quand est in
+          <lb ed="#N" n="84"/>actu quam quando est in solo proposito. Si ergo potestas hec in proposito deet
+          <lb ed="#N" n="85"/>culpam: multofortius dum exercetur in actu.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e227">
+          ⁋ Alii dicunt aliter scilicet
+          <lb ed="#N" n="86"/>quod habens clauem per potestatem clauis mediator est dei ad hominem et
+          <lb ed="#N" n="87"/>hominis ad deum. Unde per ipsum peccator ascendit ad deum. et sic est
+          sa<lb ed="#N" n="88" break="no"/>cerdos os peccatoris siue loquens de peccatore. et per ipsum descendit
+          <lb ed="#N" n="89"/>deus ad hominem: et sic est sacerdos os dei eo quod seperat preciolum a
+          vi<lb ed="#N" n="90" break="no"/>libro. secundum quod ascendit habet se per modum inferioris et supplicantis:
+          <lb ed="#N" n="91"/>secundum quod descendit per modum superioris et iudicantis. secundum primum
+          mo<lb ed="#N" n="92" break="no"/>dum potest gratiam impetrare et ad hoc est ydoneus: secundum secundum
+          mo<lb ed="#N" n="93" break="no"/>dum potest ecclesie reconciliare. et ideo in signum huius in forma
+          <lb ed="#N" n="94"/>absolutionis premittitur oratio per modum deprecatiuum: et subiumquitur
+          <lb ed="#N" n="95"/>absolutio per modum indicatiuum. et deprecatio gratiam impetrat: et
+          <lb ed="#N" n="96"/>absolutio gratiam supponit. numquam enim sacerdos absolueret
+          quen<lb ed="#N" n="97" break="no"/>quam de quo non presumeret quod esset absolutus a deo. Si ergo queratur
+          <lb ed="#N" n="98"/>vtrum potestas clauium se extendat ad delendam culpam. dicendum quod
+          be<lb ed="#N" n="99" break="no"/>ne potest se extendere per modum deprecantis et impetrantis
+          absolu<lb ed="#N" n="100" break="no"/>tionem: sed per modum in pertinentis nequaquam. Quoaniam ergo potstas
+          so<lb ed="#N" n="101" break="no"/>nat in actionem inpertinentem ex se: potest dici conuenienter et vere. quod
+          <lb ed="#N" n="102"/>non extendit se supra culpam.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e266">
+          ⁋ Ad illud quod obiicitur de Ioh. xx
+          <lb ed="#N" n="103"/>Dicendum quod illud quod dicitur ibi de remissione peccati: intelugieo
+          <lb ed="#N" n="104"/>de remissione pene vel offensione culpe.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e273">
+          ⁋ Ad illud quod
+          ob<lb ed="#N" n="105" break="no"/>citur quod vbi iustus impetrat gratiam. dicendum quod verum est non vnde
+          lar<lb ed="#N" n="106" break="no"/>gitur eam. et potest bene sacerdos ibi gratiam impetrare pecctori. hoc
+          <lb ed="#N" n="107"/>ipse non dat eam sed alius. ideo illi soli attribuitur absolutio a
+          cul<lb ed="#N" n="108" break="no"/>pa.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e284">
+          ⁋ Ad illud quod obiicitur. quod sacramentum penitentie est corra
+          <lb ed="#N" n="109"/>peccatum actualem. Dicendum quod sacramentum penitentie accipitur prout
+          <lb ed="#N" n="110"/>comprebendit rem interiorem scilicet contritionem. per eum modum per quem in
+          per<lb ed="#N" n="111" break="no"/>fectione penitentie tria concurrunt. scilicet contritio confessio et
+          satisfa<lb ed="#N" n="112" break="no"/>ctio.
+        </p>
+        <p xml:id="v78d89-aes2mz-d1e295">
+          ⁋ Ad hoc quod obiicitur. quod sacramentum baptismi delet
+          cul<lb ed="#N" n="113" break="no"/>paa. Dicendum quod in baptismo deletur culpa per gratiam. sed illius non est causa
+          <lb ed="#N" n="114"/>efficiens simpliciter: sed potius dispositiua. sed virtus diuina. et dicitur
+          ba<lb ed="#N" n="115" break="no"/>ptismus peccata dimittere ratione rei interioris quam deus infundiusili
+          <lb ed="#N" n="116"/>sacramentum penitentie. sed quod exterius est scilicet in sacerdote vt
+          da<lb ed="#N" n="117" break="no"/>uis: hoc non potest neque se extendit ad hoc. scilicet ad culpam delendam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

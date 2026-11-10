@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 86, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 86, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="552"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aftwuu"><!-- q86m3 -->
+        <head xml:id="v78d89-aftwuu-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-aftwuu-Hd1e103" type="question-title">De tentione ad restitutionem</head>
+        <p xml:id="v78d89-aftwuu-d1e106">
+          <lb ed="#N" n="122"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-aftwuu-d1e111">
+          <lb ed="#N" n="123"/>COnsequenter queritur de tentione restitutionis id est
+          <lb ed="#N" n="124"/>quis tenetur ad restitutionem. Et primo vtrum illi qui
+          re<lb ed="#N" n="125" break="no"/>cuperant ablata eis per furtum vel rapinam tenentur
+          <lb ed="#N" n="126"/>ad istorum restitutionem. Secundo vtrum acquirentes
+          a<lb ed="#N" n="127" break="no"/>liquid per ypocrisim vel simulationem religionis. Tercio vtrum
+          <lb ed="#N" n="128"/>mentiens se esse pauperem si aliquid sic acquirat tenetur restituere.
+          <lb ed="#N" n="129"/>Quarto vtrum currentes cum fure tenentur ad restitutionem
+          acqui<lb ed="#N" n="130" break="no"/>sitorum sic. Quinto queritur spetialius de aliquibus perticipantibus
+          <lb ed="#N" n="131"/>cum fure si teneatur ad restitutionem. Sexto si turpiter
+          acqui<lb ed="#N" n="132" break="no"/>rens tenetur ad restitutionem.
+        </p>
+        <div xml:id="v78d89-aftwuu-Dd1e135">
+          <head xml:id="v78d89-aftwuu-Hd1e137">Articulus 1</head>
+          <p xml:id="v78d89-aftwuu-d1e139">
+            <lb ed="#N" n="133"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e144">
+            <lb ed="#N" n="134"/>QUeritur ergo. si ille qui recuperat rem subtractam sibi
+            <lb ed="#N" n="135"/>furto vel violentia vel equipollenter. furtiue vl
+            <lb ed="#N" n="136"/>violenter: tenetur ad restitutionem rei quam sic recupera
+            <lb ed="#N" n="137"/>uit. Quod sic: videtur per hoc. quod nihil iuste possidetur quod furto
+            <lb ed="#N" n="138"/>vel violentia acquiritur. furtum enim et violentia contraria sunt
+            iuri<lb ed="#N" n="139" break="no"/>et lege prohibita. ergo si quis furto vel violentia recuperat aliquid quo
+            <lb ed="#N" n="140"/>fuit damnificatus furto vel violentia alterius: illud iniuste
+            <pb ed="#N" n="553"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>possidetur ab illo: ergo tenetur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e168">
+            ⁋ Item qui recuperat
+            dan<lb ed="#N" n="2" break="no"/>num quod incurrit furto vel violentia. deprehensus humano iudicio
+            <lb ed="#N" n="3"/>penam subiret damnationis: ergo si humanum iudicium regulatur diuino
+            <lb ed="#N" n="4"/>iudicio: qui recuperat illa que sunt ablata furto vel violentia secundum
+            <lb ed="#N" n="5"/>diuinum iudicium debet subire iudicium damnationis: ergo iniuste
+            possi<lb ed="#N" n="6" break="no"/>detur quod rtrcuperatur furto vel violentia: et ita vt pris.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e181">
+            ⁋ Item furtine et
+            <lb ed="#N" n="7"/>violenter subtracta non nisi auctoritate iudicis a fure vel spoliatione
+            <lb ed="#N" n="8"/>sunt tollenda. ergo non furto vel violentia spoliati. immo si sciretur
+            <lb ed="#N" n="9"/>et agereturho eum: iuste compelleretur ad restitutionem: sed ignorantia
+            <lb ed="#N" n="10"/>illorum non excusat eum. ergo etc.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e193">
+            ⁋ Item queritur de seruiente qui
+            alicui<lb ed="#N" n="11" break="no"/>domino seruit fideliter: et dominus non vult ei reddere mercedem suam et
+            <lb ed="#N" n="12"/>furatur domino equipollens mercedi sue. ant teneatur ad restitutionem
+            <lb ed="#N" n="13"/>videtur quod sic: quia tractat rem alienam inuito domino: ergo comittit
+            fur<lb ed="#N" n="14" break="no"/>tum. et ita tenetur restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e204">
+            ⁋ Item non debet sibi facere ius cum non sit
+            <lb ed="#N" n="15"/>iudex. ergo non iuste possidet rem istam: ergo tenetur restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e209">
+            ⁋
+            Op<lb ed="#N" n="16" break="no"/>positum videtur sic. ecclesia comodat pecuinam scitur decimas. et preter
+            <lb ed="#N" n="17"/>sortem accipit decimas. et non est ibi vsura: quia decime sue sunt.
+            <lb ed="#N" n="18"/>eadem ratione cum iste latenter vel violenter accipit rem suam inuito in
+            <lb ed="#N" n="19"/>iusto possessore: non facit furtum vel rapinam: quia accipit quod
+            su<lb ed="#N" n="20" break="no"/>um est.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e222">
+            ⁋ Item iosue. viii. legitur quod filii isrlis ceperunt ciuitatem
+            hay<lb ed="#N" n="21" break="no"/>per insidias. Et dicit ibi Augustinus. Cum quis iustum bellum
+            recepe<lb ed="#N" n="22" break="no"/>rit. vtrum aperta pugna vel insidiis vincat: nihil ad iusticiam
+            <lb ed="#N" n="23"/>interest. et per hoc innuit quod non fuit peccatum filiis isrlis capere ciuita
+            <lb ed="#N" n="24"/>tem que sua erat ex datione domini. ergo non est peccatum si quis rem suam
+            <lb ed="#N" n="25"/>per insidias recuperat. et ita non tenetur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e235">
+            ⁋ Item
+            le<lb ed="#N" n="26" break="no"/>gitur Exo. xii. quod filii isrlis postulauerunt nomine mutui ab
+            egi<lb ed="#N" n="27" break="no"/>ptiis aurum et argentum et vestem plorimam. et non reddiderunt. quia
+            <lb ed="#N" n="28"/>seruierunt egiptiis. et egiptii non reddiderant eis mercedem
+            su<lb ed="#N" n="29" break="no"/>am. nec peccauerunt non restituendo. Eadem ratione si seruiens
+            <lb ed="#N" n="30"/>spoliet dominum suum nolentem reddere mercedem: non tenetur ad
+            resti<lb ed="#N" n="31" break="no"/>tutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e251">
+            ⁋ Respono. sine preiudicio opinando iuxta quorundam sententiam
+            <lb ed="#N" n="32"/>quod cum aliquis furtiue vel violenter recuperat: non rem suam sed
+            equipol<lb ed="#N" n="33" break="no"/>lentem rei sue: si hoc incontinenti fiat scilicet sine interpositione temporis
+            <lb ed="#N" n="34"/>non tenetur ad restitutionem rei illius : nisi fur vel raptor reddat
+            <lb ed="#N" n="35"/>quod abtulit illi. quia licitum est vim vi repellere incontinenti. Exem
+            <lb ed="#N" n="36"/>pli gratia. aliquis aufert alicui equum suum vel furatur. ille cui
+            ab<lb ed="#N" n="37" break="no"/>latus est equus statim insurgit in eum. et cum non possit auferre
+            illi<lb ed="#N" n="38" break="no"/>equum quem spoliator abstulit illi: aufert illi suum. in hoc
+            casu<lb ed="#N" n="39" break="no"/>non tenetur ad restitutionem: nisi fur vel raptor restituat illi quod
+            <lb ed="#N" n="40"/>abstulit: nisi forte melior fuerit equus spoliatoris quam
+            spoliati<lb ed="#N" n="41" break="no"/>tunc tenetur quod restitutionem tanti quanti preualet. Quod autem incontinenti
+            <lb ed="#N" n="42"/>potest recuperare rem suam licite rapiendo rem equipollentem rei sue:
+            <lb ed="#N" n="43"/>videtur per simile sumptum in lege Neut. xix. vbi legitur. quod cum aliquis
+            <lb ed="#N" n="44"/>non de industria interfecerit aliquem. propinquus occisi impune
+            <lb ed="#N" n="45"/>poterit occindere occisorem incontinenti: dummodo dolore stimuletur
+            <lb ed="#N" n="46"/>licet prior occisor non fuerit reus mortis. multa enim perpetrata
+            in<lb ed="#N" n="47" break="no"/>stante dolore remanent impunita que si cessante dolore fierent
+            <lb ed="#N" n="48"/>essent punienda. vnde spoliatus re sua si incontinenti manente
+            do<lb ed="#N" n="49" break="no"/>lore ex damno sibi illato recuperaret rem sibi furtiue siue
+            violen<lb ed="#N" n="50" break="no"/>tia subtracta. furto vel rapina rei equipollentis sancta
+            spolia<lb ed="#N" n="51" break="no"/>tori: non credo quod teneretur ad restitutionem. Si autem tempore
+            interpo<lb ed="#N" n="52" break="no"/>lato cessaret dolor. non vidtur mihi quod possit cum vera conscientia rem
+            suam<lb ed="#N" n="53" break="no"/>recuperare. Si vero rem suam recuperat furto vel rapina rei
+            equipollemn<lb ed="#N" n="54" break="no"/>tis furti reus est. quia hec res numquam fuit sua sed per iudicium rem suam debet
+            <lb ed="#N" n="55"/>recuperare. si vero rem suam recuperat furto vel violentia. non tene
+            <lb ed="#N" n="56"/>tur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e309">
+            ⁋ Ad illud ergo quod obicitur. quod nihil iuste
+            pos<lb ed="#N" n="57" break="no"/>sidetur quod furto vel rapina possidetur. dicendum quod hoc est verum. nec
+            <lb ed="#N" n="58"/>ille qui rem suam recuperat illam subtrahendo iniuste detinenti fur
+            <lb ed="#N" n="59"/>tum comittit: sed quod suum est accipit. Nec ille que rem equipollentem
+            <lb ed="#N" n="60"/>rei sibi furto vel rapina subtracte incontinenti aufert
+            spoli<lb ed="#N" n="61" break="no"/>ator fur vel raptor indicandus est: sicut nec ille homincida qui
+            occi<lb ed="#N" n="62" break="no"/>dit occisorem proximi sui dum dolore mortis proximi stimulatur.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e325">
+            <lb ed="#N" n="63"/>⁋ Si dicatur quod talis contractet rem alienam inuito domino. dicendum quod
+            <lb ed="#N" n="64"/>hec argumentatio non tenet. Iste contractat rem alienam inuito
+            <lb ed="#N" n="65"/>domino: ergo comittit furtum vel rapinam. Quod enim dicitur inuito domino intel
+            <lb ed="#N" n="66"/>ligitur de voluntate rationali et discreta. sicut cum dicitur quecumque vultis
+            <lb ed="#N" n="67"/>vt faciant vobist homines. et vos eadem facite illis intelligitur de
+            vo<lb ed="#N" n="68" break="no"/>luntate rationali et discreta. non enim precipit dominus vt aliquis
+            faci<lb ed="#N" n="69" break="no"/>at aliquid inhonestum aliis. a quibus vult sibi inhonestum fieri: sicu
+            <lb ed="#N" n="70"/>non precepit aliquem interpellare mulierem de turpitudine. liem
+            <lb ed="#N" n="71"/>ipse velit quod mulier interpellet ipsum deturpitudine. Similiter
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>voluntas raptoris qua non vult sibi auferri vt compellatur ad
+            re<lb ed="#N" n="73" break="no"/>stitutionem indiscreta est. Debet enim velle quod multum subtrahe
+            <lb ed="#N" n="74"/>ret ei de suo quod compelleretur ad restitutionem. et sic liberaretur a
+            <lb ed="#N" n="75"/>peccato. Cum ergo diffinitur furtum. contrectatio rei aliene inuito
+            <lb ed="#N" n="76"/>domino: intelligendum est merito et iuste inuito. vnde in casu
+            propo<lb ed="#N" n="77" break="no"/>sito. hec est falsa. iste contractat rem alienam inuito domino.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e362">
+            ⁋ Ad
+            <lb ed="#N" n="78"/>id quod obicitur. quod recuperans rem suam furto vel rapina: subiret
+            <lb ed="#N" n="79"/>iudicium damnationis si esset deprehensus etc. potest dici quod magis
+            <lb ed="#N" n="80"/>hoc est. quia iudicium humanum fit frequenter magis secundum ea que
+            ap<lb ed="#N" n="81" break="no"/>parent quam secundum ea que requirit necessitas iusticie.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e373">
+            ⁋ Ad id quod
+            <lb ed="#N" n="82"/>obicitur. quod iudicium humanum regulatur secundum iudicium diuinum. potest
+            di<lb ed="#N" n="83" break="no"/>ci. quod hoc verum est: vbi humanum non deuiat a rectitudine
+            iu<lb ed="#N" n="84" break="no"/>sticie. sed quia humanum iudicium frequenter secundum allegata et ea que
+            <lb ed="#N" n="85"/>apparent magis quam secundum ea que veritati innituntur. iudicium huma
+            <lb ed="#N" n="86"/>num quandoque contrarium est diuino. Unde non est iustum simpliciter sed secundum
+            <lb ed="#N" n="87"/>quid. vnde hoc argumentum non valet. iste tenetur restituere secundum
+            <lb ed="#N" n="88"/>iudicium humanum: ergo tenetur restituere secundum iusticiam.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e391">
+            ⁋ Ad
+            <lb ed="#N" n="89"/>id quod obicitur. quod furto vel rapina sublata non sunt tollenda
+            ni<lb ed="#N" n="90" break="no"/>si auctoritate iudicis etc. Dicendum quod hoc verum est si quodo huiusmodi deduce
+            <lb ed="#N" n="91"/>retur in iudicium.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e400">
+            ⁋ Ad hoc quod subditur: si sciretur et ageretur
+            con<lb ed="#N" n="92" break="no"/>tra eum: compelleretur ad restitutionem. dicendum quod hoc non est verum
+            nisi<lb ed="#N" n="93" break="no"/>oriretur scandalum in scientibus: forte propter scandalum teneretur
+            <lb ed="#N" n="94"/>ad restitutionem. non propter sclesiam rei aliene subtracte.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e410">
+            ⁋ De ser
+            <lb ed="#N" n="95"/>uiente vero potest dici. quod nec in tempore negate mercedis. nec pottus:
+            <lb ed="#N" n="96"/>licitum est ei spoliare dominum suum. quia nihil quod dominus habet est vel
+            fu<lb ed="#N" n="97" break="no"/>it seruientis: neque ipse seruiendo et iam completo seruitio
+            effi<lb ed="#N" n="98" break="no"/>cit quod suum esset: sed quod suum debeat esse. causa enim efficiens
+            me<lb ed="#N" n="99" break="no"/>ritoria non est. sicut aliquis per caritatem meretur vitam
+            eternan<lb ed="#N" n="100" break="no"/>ipse proprie non est causa vite eterne: sed deus quia eam dat vel
+            red<lb ed="#N" n="101" break="no"/>dit meritis.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e428">
+            ⁋ Nec est simile de hoc quod Iosue per insidias cepit
+            <lb ed="#N" n="102"/>ciuitatem hay. quia dominus iam contulerat terram promissionis filiis
+            <lb ed="#N" n="103"/>israel. Similiter non est simile de spoliatione egiptiorum. vnde transtulit
+            <lb ed="#N" n="104"/>dominium rerum illarum.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e437">
+            ⁋ Ad id quod obicitur. quod nullus debet facere
+            <lb ed="#N" n="105"/>sibi ius etc. dicendum quod hoc dicitur propter conseruationem reipublice.
+            pe<lb ed="#N" n="106" break="no"/>riculum enim maximum immineret reipublice. si quilibet faceret
+            si<lb ed="#N" n="107" break="no"/>bi ius. vnde vbi nullum periculum imminet reipublice: vtpote quando
+            <lb ed="#N" n="108"/>aliquis sine omni scandalo recuperat rem sibi ablatam: bene licet
+            <lb ed="#N" n="109"/>facere sibi ius. nec tenetur ad restitutionem sic secundum modum
+            pre<lb ed="#N" n="110" break="no"/>tactum. dicendum est ad predicta iuxta scientiam iurisperitorum. Sed
+            <lb ed="#N" n="111"/>secundum diffinitionem illorum qui periti sunt in iure diuino: potest dici.
+            <lb ed="#N" n="112"/>quod qui sine scandalo rem suam latenter vel per violentiam
+            accepe<lb ed="#N" n="113" break="no"/>rit. vel rem equalentem rei sue: non tenetur restitutio. quia
+            sim<lb ed="#N" n="114" break="no"/>pliciter non tenetur. Et si obiiciatur vt tactum est. quod contrectet
+            <lb ed="#N" n="115"/>rem alienam: dicendum quod non vt alienam. vnde talis non est
+            iu<lb ed="#N" n="116" break="no"/>dicandus fur.
+          </p>
+        </div>
+        <div xml:id="v78d89-aftwuu-Dd1e468">
+          <head xml:id="v78d89-aftwuu-Hd1e470">Articulus 2</head>
+          <p xml:id="v78d89-aftwuu-d1e472">
+            <lb ed="#N" n="117"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e477">
+            <lb ed="#N" n="118"/>COnsequenter queritur. qui simulationis religionis ac
+            <lb ed="#N" n="119"/>quirit aliquid. sicut facit vpocrita: si tenetur ad
+            <lb ed="#N" n="120"/>restitutionem: Quod sic: videtur per hoc. quod qui simulat
+            <lb ed="#N" n="121"/>se religiosunm cum non sit: fraudem comittit hac similatione et
+            proxi<lb ed="#N" n="122" break="no"/>mum decepit. sed fraus et deceptio nulli debet patrocinari.
+            <lb ed="#N" n="123"/>ergo sic acquirere non debet patrocinari sic acquirenti: ergo debet
+            re<lb ed="#N" n="124" break="no"/>stituere sic acquisita.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e495">
+            ⁋ Item nihil quod sic acquiritur similatione
+            <lb ed="#N" n="125"/>ypocrisis: acquiritur iusto titulo. vnde nec iuste possidetur. ergo sic
+            <lb ed="#N" n="126"/>acquirens aliquid furto quod est simplex iniquitas: tenetur ad
+            <lb ed="#N" n="127"/>restitutionem. ergo.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e504">
+            ⁋ Contra. episous confert alicui prebendam qui malus est
+            <lb ed="#N" n="128"/>scilicet fornicator: quem credit bonum et castum. talis licet sit malus et
+            <lb ed="#N" n="129"/>creditur esse bonus: non tenetur ad restitutionem beneficii
+            acce<lb ed="#N" n="130" break="no"/>pti siue resignationem: similiter videtur quod licet similatione ypocrisis
+            <lb ed="#N" n="131"/>aliquis credatur bonus esse cum sit malus. et aliquid acquisiuit.
+            <lb ed="#N" n="132"/>non tenetur ad restitutionem acquisiti.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e518">
+            ⁋ Item aliquis acquisiuit
+            a<lb ed="#N" n="133" break="no"/>liquid fornicando vel adulterando. iste non tenetur ad resti
+            <lb ed="#N" n="134"/>tutionem. similiter videtur de illo qui acquirit aliquid similando se esse
+            re<lb ed="#N" n="135" break="no"/>ligiosum.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e527">
+            ⁋ Item licet cupiditas deformet actum acquisitionis.
+            <lb ed="#N" n="136"/>cupidus tamen non tenetur ad restitutionem illorum que acquirit. similiter vt
+            vi<lb ed="#N" n="137" break="no"/>dotur. licet similatio ypocrisis deformet actum acquisitionis
+            <lb ed="#N" n="138"/>aliquorum: non tamen tenetur ypocrita ad illorum restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e536">
+            <lb ed="#N" n="139"/>⁋ Item quare tenetur magis vpocrita ad restitutionem
+            acqui<lb ed="#N" n="140" break="no"/>sitorum quam peccator alterius peccati.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e543">
+            ⁋ Responio. quod ille qui acquirit aliquid
+            <lb ed="#N" n="141"/>per vpocrisim tenetur ad restitutionem. ratio huius. quia
+            <pb ed="#N" n="554"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>illem qui dat alicui ypocrite guem estimat bonum et
+            re<lb ed="#N" n="2" break="no"/>ligiosum. non dat per se loquendo ypocrite: sed
+            interpreta<lb ed="#N" n="3" break="no"/>tiue viro religioso. vnde non transfertur dominium rei date ad
+            <lb ed="#N" n="4"/>vpocritam. vnde ypocrita non est possessor iuste rei date: sed
+            <lb ed="#N" n="5"/>vsurpatiue et inuito: ergo rei aliene contrectator. propter quod tene
+            <lb ed="#N" n="6"/>tur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e565">
+            ⁋ Rones ergo que sunt pro illa parte possunt
+            <lb ed="#N" n="7"/>concedi. adminus gratia termini.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e570">
+            ⁋ Ad id quod obiicitur. quod
+            ille<lb ed="#N" n="8" break="no"/>cui cofertur prebenda ab episcopo qui creditur esse bonus licet sit
+            <lb ed="#N" n="9"/>malus non tenetur ad restitutionem. dicendum quod non est simile. quia
+            <lb ed="#N" n="10"/>sicet ille qui confert illi prebendam credat illum esse castum:
+            tamen<lb ed="#N" n="11" break="no"/>ille cui confertur fraudem nullam comittit propter quam illi confertur
+            <lb ed="#N" n="12"/>quia non simulat se castum tali intentione. vnde licet ingrediens
+            <lb ed="#N" n="13"/>sit malus vtpote fornicator. licitus tamen est ingressus ad
+            pre<lb ed="#N" n="14" break="no"/>bendam. vnde non tenetur restituere. sed acquirens aliquid
+            per<lb ed="#N" n="15" break="no"/>ypocrisim tenetur: quia ingrediens est viciosus. et viciosus in
+            <lb ed="#N" n="16"/>gressus: quia fraude et dolo ingreditur. sed si ingrederetur per
+            for<lb ed="#N" n="17" break="no"/>nicationem. sicut si episcopus matrem vel sororem clerici cognosceret et
+            <lb ed="#N" n="18"/>ob hoc ei daret: tenetur clericus resignare cognita veritate.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e597">
+            <lb ed="#N" n="19"/>⁋ Ad id quod obiicitur. quod qui fornicando aliquid acquirit non tene
+            <lb ed="#N" n="20"/>tur restituere. dicit enim Augustinus. quod mertrix turpiter agit quia
+            <lb ed="#N" n="21"/>meretrix: sed non turpiter agit: quia accipit. vnde licet acquirat
+            mere<lb ed="#N" n="22" break="no"/>trix meretricando. non tenetur tamen restituere: quia non comittit
+            frau<lb ed="#N" n="23" break="no"/>dem acquirendo. recipit enim precium corporis sui locati ad
+            forni<lb ed="#N" n="24" break="no"/>cationem perpetrandam. Unde secus est de illo qui acquirit per
+            ypo<lb ed="#N" n="25" break="no"/>crisim. qui eo quod acquirit per fraudem iniuste possidet quod
+            ac<lb ed="#N" n="26" break="no"/>quirit et acquisitum inuito domino contrectet. sicut tactum est.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e617">
+            ⁋ Ad
+            <lb ed="#N" n="27"/>aliud dicendum. quod deformatio actus acquisitionis non est causa:
+            <lb ed="#N" n="28"/>quare debet acquisitum restitui: sed potius fraus commissa in
+            ac<lb ed="#N" n="29" break="no"/>quisitione que efficitur quod rei acquisite non transfertur dominium: sed
+            <lb ed="#N" n="30"/>inuito domino per se loquendo ab ypocrita contrectatur. Ex dictis
+            <lb ed="#N" n="31"/>patet responsio ad vltimum. vt enim tactum est. dominium rei acquisite per
+            <lb ed="#N" n="32"/>vpocrisim non transfertur ad ypocritam: sicut dominium rei
+            acqui<lb ed="#N" n="33" break="no"/>site per aliud peccatum. sicut per cupiditatem vel fornicationem. et
+            <lb ed="#N" n="34"/>alia genera peccatorum: vt patet ex dictis.
+          </p>
+        </div>
+        <div xml:id="v78d89-aftwuu-Dd1e638">
+          <head xml:id="v78d89-aftwuu-Hd1e640">Articulus 3</head>
+          <p xml:id="v78d89-aftwuu-d1e642">
+            <lb ed="#N" n="35"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e647">
+            <lb ed="#N" n="36"/>COnsequenter queritur. si diues mentiendo se esse
+            <lb ed="#N" n="37"/>pauperem acquirat aliquid teneatur ad restitutionem:
+            <lb ed="#N" n="38"/>Quod sic: videtur per hoc. quod talis dolo et fraude acquirit: et
+            <lb ed="#N" n="39"/>proximum damnificando acquirit. quare tenetur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e658">
+            <lb ed="#N" n="40"/>⁋ Item idem videtur per simile ab illo qui acquirit per ypocrisim.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e663">
+            <lb ed="#N" n="41"/>⁋ Item similator alterius persone si per similationem acquirit aliquid
+            <lb ed="#N" n="42"/>temporale illud tenetur restituere. sicut si promisi sorti centum
+            mar<lb ed="#N" n="43" break="no"/>cas. et plato similet se esse sortem. et obtineat a me centum
+            mar<lb ed="#N" n="44" break="no"/>cas: tenetur ad restitutionem. ergo si similator alterius fortune. sicut
+            <lb ed="#N" n="45"/>cum diues similat se esse pauperem. obtineat per illam
+            simulati<lb ed="#N" n="46" break="no"/>onem multa bona que deberent dari pauperibus: tenetur illa
+            <lb ed="#N" n="47"/>restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e682">
+            ⁋ Contra. hiusuododi dona et illa maxime obtentu
+            <lb ed="#N" n="48"/>paupertatis benedictiones dicuntur in sacra scriptura. vnde gen.
+            <lb ed="#N" n="49"/>xxxiii. dixit Iacob ad esau. Suscipe benedictionem quam
+            attuli<lb ed="#N" n="50" break="no"/>tibi. Item. ii. Corin. ix. necessarium estimaui rogare frens. vt
+            <lb ed="#N" n="51"/>preueniant nos et preparent repromissam benedictionem etc. et
+            loqui<lb ed="#N" n="52" break="no"/>tur de collectis que fiebant in sanctos. sed simiulatio alterius persone in
+            <lb ed="#N" n="53"/>benedictionibus non irritam facit benedictionem. Unde gen. xxvii.
+            <lb ed="#N" n="54"/>Iacob similauit se esse esau et recepit benedictionem. nec fuit
+            ir<lb ed="#N" n="55" break="no"/>rita illa benedictio: licet per fraudem fuerit obtenta. Unde ysac
+            <lb ed="#N" n="56"/>dixit. Uenit germanus tuus fraudulenter et accepit benedictionem
+            <lb ed="#N" n="57"/>tuam.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e706">
+            ⁋ Item si episcous credit ordinare sortem et ordinat platonem
+            <lb ed="#N" n="58"/>ordinatus est plato non sortes. ergo similatio non facit
+            benedictio<lb ed="#N" n="59" break="no"/>nem irriram. licet fraus innixa fuerit. et ita videtur quod non
+            te<lb ed="#N" n="60" break="no"/>neantur predicti ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e715">
+            ⁋ Responso. quod licet non sit
+            peni<lb ed="#N" n="61" break="no"/>tus simile de errore persone et de errore fortune. vt patet in
+            matri<lb ed="#N" n="62" break="no"/>monio vbi simiulatio alterius persone impedit matrimomum. et
+            si<lb ed="#N" n="63" break="no"/>mulatio alterius fortune non impedit tamen in proposito casu
+            dici<lb ed="#N" n="64" break="no"/>mus. quod diues qui similat se esse pauperem: tenetur ad restitutionem eius
+            <lb ed="#N" n="65"/>quod per similationem acquisiuit. sed non restituere ei a quo accepit: quia
+            ille<lb ed="#N" n="66" break="no"/>meritum habet apud deum. quia dedit intuitu paupertatis. sed tenetur
+            <lb ed="#N" n="67"/>restituere pauperibus quibus ille dedisset. si non errasset: si
+            con<lb ed="#N" n="68" break="no"/>stet illi qui sint.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e735">
+            ⁋ Ad aliud dicendum. quod sicut dictum est
+            vpo<lb ed="#N" n="69" break="no"/>crita qui acquirit per ypocrisim tenetur restituere: similiter et
+            <lb ed="#N" n="70"/>iste qui mentitur se esse pauperem cum sit diues. et sic mentiendo
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>polose et fraudulenter: acquirit ea que danda erant
+            paupe<lb ed="#N" n="72" break="no"/>ribus. Et notandum est hic. quod non est simile de benedictione
+            spi<lb ed="#N" n="73" break="no"/>rituali et corporali. quia benedictio spiritualis a deo est. vt habetur
+            <lb ed="#N" n="74"/>Nume. vi. Inuocabunt sacrdotes nomen meum super filios israel
+            <lb ed="#N" n="75"/>et ego benedicam eis. Unde per similationem alterius persone non
+            ir<lb ed="#N" n="76" break="no"/>ritatur ordo et benedictio spiritualis. cui enim deus benedicit:
+            benedi<lb ed="#N" n="77" break="no"/>ctus est. non enim deus potest decipi. Iob. xiii. aut decipietur vt homo
+            <lb ed="#N" n="78"/>nostris fraudulentiis: quasi diceret non. Sed benedictio corpalis
+            <lb ed="#N" n="79"/>siue datio elemosyne hominis opus est qui decipi potest. Quod vero dicit
+            <lb ed="#N" n="80"/>venit germanus frater tuus etc. non fuit ista fraudulentia
+            so<lb ed="#N" n="81" break="no"/>nans in malum. Licuit enim Iacob subripere primogenita
+            <lb ed="#N" n="82"/>iesau tanquam violento et possessori: quia dominus contulerat
+            primo<lb ed="#N" n="83" break="no"/>genita Iacob. quod intellexit ysaac confirmando dedit
+            benedi<lb ed="#N" n="84" break="no"/>ctionem dicens: et eris benedictus. sicut dictum est in
+            prece<lb ed="#N" n="85" break="no"/>denti questione. quod qui recuperat rem suam furtiue a fure non facit
+            <lb ed="#N" n="86"/>furtum simpliciter.
+          </p>
+        </div>
+        <div xml:id="v78d89-aftwuu-Dd1e780">
+          <head xml:id="v78d89-aftwuu-Hd1e782">Articulus 4</head>
+          <p xml:id="v78d89-aftwuu-d1e784">
+            <lb ed="#N" n="87"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e789">
+            <lb ed="#N" n="88"/>COnsequenter queritur. si currens cum fure tenetur
+            <lb ed="#N" n="89"/>ad restitutionem acquisitorum sic currendo. et sunt no
+            <lb ed="#N" n="90"/>uem modi currendi cum fure vt dicunt. de quorum
+            singu<lb ed="#N" n="91" break="no"/>lis potest rationabiliter dubitari.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e800">
+            ⁋ Primo autem modo curritur
+            <lb ed="#N" n="92"/>cum fure: cum aliquis precipit alicui male facere. sicut occidere
+            ves<lb ed="#N" n="93" break="no"/>furari. et ille occidit vel furatur. et similiter in aliis malis
+            <lb ed="#N" n="94"/>actionibus. Unde dicitur Math. ii. Mittens herodes occidit
+            <lb ed="#N" n="95"/>omnes pueros qui erant in bethleem etc. occidisse dicitur: quia
+            <lb ed="#N" n="96"/>precepit occidere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e813">
+            ⁋ Secundo inquinatur quis mala actione
+            alte<lb ed="#N" n="97" break="no"/>rius: quando consulit ei male agere. Unde iob. xii. adducet
+            con<lb ed="#N" n="98" break="no"/>siliarios in stultum finem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e821">
+            ⁋ Tercio per consensum. Ro. i.
+            <lb ed="#N" n="99"/>Qui talia agunt digni sunt morte. non solum qui faciunt: sed
+            <lb ed="#N" n="100"/>etiam qui consentiunt facientibus.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e828">
+            ⁋ Quarto modo per adula
+            <lb ed="#N" n="101"/>tionem: quando aliquis laudat malefactorem de malefacto suo.
+            <lb ed="#N" n="102"/>ysa. ix. Et erunt qui beatificant populum istum seducentes: et qui
+            <lb ed="#N" n="103"/>beatificantur precipitati.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e837">
+            ⁋ Quinto quando quis recipit raptoren
+            <lb ed="#N" n="104"/>vel furem in domo sua cum rapina. ysa. iiii. Rapina
+            paupe<lb ed="#N" n="105" break="no"/>ris in domo vestra.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e844">
+            ⁋ Sexto cum habet aliquis partem
+            rapi<lb ed="#N" n="106" break="no"/>ne vel furti scienter. sicut illi qui scienter recipiunt pecunias
+            <lb ed="#N" n="107"/>ab vsurariis quam sciunt esse de vsura. ysa. i. Principes
+            in<lb ed="#N" n="108" break="no"/>fideles socii furum.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e853">
+            ⁋ Septimo quando aliquis videt aliquem
+            fura<lb ed="#N" n="109" break="no"/>ri vel rapere et tacet: cum per clamorem posset exterreri
+            ma<lb ed="#N" n="110" break="no"/>lefactor: et sic dimittere malum opus. Unde Deutro. xxii.
+            <lb ed="#N" n="111"/>Si puellam virginem desponsauerit vir. et inuenerit eam
+            ali<lb ed="#N" n="112" break="no"/>quis in ciuitate et concubuerit cum illa: duces vtrumque ad
+            por<lb ed="#N" n="113" break="no"/>tam ciuitatis illius et lapidibus obruentur. puella quia non
+            clama<lb ed="#N" n="114" break="no"/>uit cum esset in ciuitate.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e869">
+            ⁋ Octauo quando quis non resistit furi vl
+            <lb ed="#N" n="115"/>malefactori cum posset resistere. vnde Prouerb. xxiiii.
+            Erue<lb ed="#N" n="116" break="no"/>eos qui ducuntur ad mortem: et qui trahuntur ad interitum liberare
+            <lb ed="#N" n="117"/>non cesses etc. vnde non caret scrupulo societatis occulte: qui
+            ma<lb ed="#N" n="118" break="no"/>nifesto facinori desinit obuiare.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e881">
+            ⁋ Nono per celationem
+            vide<lb ed="#N" n="119" break="no"/>licet cum queritur res furtiua vbi sit. et ille qui scit vbi sit: non
+            <lb ed="#N" n="120"/>manifestat. Unde prouerb. xxix. Qui cum fure perticipat: odit
+            <lb ed="#N" n="121"/>animam suam. adiurantem audit et non indicat. Istis nouem
+            <lb ed="#N" n="122"/>modis contingit aliquem maculari peccato furis vel raptoris.
+            <lb ed="#N" n="123"/>vnde peccatori dicitur. Si videbas furem currebas cum eo. psalmus. xlix.
+            Re<lb ed="#N" n="124" break="no"/>tinentur autem isti modi istis versibus. Iussio consilium consensus
+            <lb ed="#N" n="125"/>palpo recurrens. Participans mutus non obstans non
+            manife<lb ed="#N" n="126" break="no"/>stans. Currere cum fure faciunt furtique reatum.
+            <lb ed="#N" n="127"/>Siclladus querlur . li.
+            <lb ed="#N" n="128"/>de his casibus. Et primo de primo. vtrum ille qui precipit
+            <lb ed="#N" n="129"/>rapere vel furari tenetur ad restitutionem furti vel rapine: Quod sic
+            <lb ed="#N" n="130"/>videtur. quia occasionem danni dat proximo suo. qui autem dat occasionen
+            <lb ed="#N" n="131"/>damni: damnum fecisse videtur. qui autem damnum facit debet danum restituen
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e912">
+            <lb ed="#N" n="132"/>⁋ Item iste est culpabilis culpa furti et pena est sequela culpe
+            <lb ed="#N" n="133"/>ergo puniendus est pena furti. pena autem furti est restitutio dam
+            <lb ed="#N" n="134"/>ni illati cum alia quam iniunget discretus sacerdos.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e921">
+            ⁋ Item
+            </p>
+          <p xml:id="v78d89-aftwuu-d1e923">
+            <lb ed="#N" n="135"/>Math. xiii. alligate zizaniam per fasciculos. glo. non fastem
+            <lb ed="#N" n="136"/>quia pro modo quisque punietur. ergo cum secundum glo. similes in culpa debent
+            <lb ed="#N" n="137"/>esse similes in pena: tam ille qui rapit quam ille qui precipit.
+            te<lb ed="#N" n="138" break="no"/>netur ad restitutionem cum sint similes in culpa.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e934">
+            ⁋ Contra. ille qui
+            <lb ed="#N" n="139"/>precipit rapere vel furari non perticipat furti vel rapti.
+            sup<pb ed="#N" n="555"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>posito hoc. sed ille tenetur ad restitutionem qui aliquid possidet de
+            <lb ed="#N" n="2"/>re rapta vel furata: ergo talis non tenetur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e945">
+            ⁋ Responio.
+            <lb ed="#N" n="3"/>quod quando ille qui precepit est perticeps. vt qui precepit subditis vt
+            rapi<lb ed="#N" n="4" break="no"/>ant: tenetur ad restitutionem. nisi ille qui rapuerit restituat. quia
+            il<lb ed="#N" n="5" break="no"/>le facit. Unde in casu proposito. quia prestat auctoritatem: quia precipit tene
+            <lb ed="#N" n="6"/>tur ad restitutionem. Nec valet illud argumentum nihil
+            possi<lb ed="#N" n="7" break="no"/>det de furto: ergo non tenetur ad restitutionem. quia licet nihil possideat
+            <lb ed="#N" n="8"/>de furto vel rapina: tamen causa est furti vel rapine et dannificatio
+            <lb ed="#N" n="9"/>nis proximi. propter quod tenetur restituere et reddere illum indemnen.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e964">
+            <lb ed="#N" n="10"/>⁋ Sed adhuc queritur. ponatur quod amicus precipiat amico pauperi quod
+            <lb ed="#N" n="11"/>rapiat vel furetur vbicumque possit vt diues fiat. sed ille qui in hoc
+            <lb ed="#N" n="12"/>casu precipit ad restitutionem vt estimo tenetur. non quia precipit: qua
+            <lb ed="#N" n="13"/>non habet auctoritatem precipiendi. vnde preceptum suum non habet vim
+            pre<lb ed="#N" n="14" break="no"/>cepti: sed potius interpretandum est consilium.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e977">
+            ⁋ Sed adhuc que
+            <lb ed="#N" n="15"/>ritur. si pater precipiat filiofamilias. vel magister disciplo quem
+            <lb ed="#N" n="16"/>tenet sub virga quod rapiat vel furetur. si tenetur ad restitutionem:
+            <lb ed="#N" n="17"/>Responio. sine preiudicio. quod pater et magister eo quod prestant auctoritatem
+            <lb ed="#N" n="18"/>filio et discipulo in casu proposito tenentur ad restitutionem:
+            nisi<lb ed="#N" n="19" break="no"/>alii restituant. verumtamen nec seruus domino. nec filius prati.
+            <lb ed="#N" n="20"/>nec discipulus magistro tenetur obedire in casu proposito.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e993">
+            <lb ed="#N" n="21"/>vonsequenter que .§. ii.
+            <lb ed="#N" n="22"/>ritur. si ille qui currit cum fure secundo modo. scilicet ille qui dat
+            con<lb ed="#N" n="23" break="no"/>silium de rapiendo vel furando tenetur ad restitutionem: Et
+            <lb ed="#N" n="24"/>videtur quod sic: quia consulens de furto vel rapina facienda.
+            fa<lb ed="#N" n="25" break="no"/>cit aliquid per quod proximus damnificatur in possessione sua.
+            <lb ed="#N" n="26"/>sed qui damnificat proximum suum debet illum reddere indemnen:
+            <lb ed="#N" n="27"/>iuxta legem naturalem et diuinam que precipit. quod aliis faciamus
+            <lb ed="#N" n="28"/>que vellemus nobis fieri Math. vii.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1013">
+            ⁋ Item fur non peccat
+            <lb ed="#N" n="29"/>nisi in deum et in proximum. non enim peccat in se. sed consulens
+            pec<lb ed="#N" n="30" break="no"/>cat in deum. proximum. et furem quem scandalizat: ergo cum fur tene
+            <lb ed="#N" n="31"/>tur restituere: multo fortius et consulens: vt videtur.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1022">
+            ⁋ Item vt
+            <lb ed="#N" n="32"/>supradictum est. qui occasionem damni dat. damnum dedisse
+            vide<lb ed="#N" n="33" break="no"/>tur. sed consulens dat occasionem dani: et ita vt prius.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1029">
+            ⁋ Item
+            ra<lb ed="#N" n="34" break="no"/>tiones posite supra valent ad hoc ostendendum scilicet quibus ostenditur
+            <lb ed="#N" n="35"/>quod qui precipit tenetur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1037">
+            ⁋ Contra. ille qui dat
+            con<lb ed="#N" n="36" break="no"/>silium alicui quod aliquid iuste acquirat: non ex hoc remumerari
+            me<lb ed="#N" n="37" break="no"/>retur parte rei acquisite vel toto acquisito. Similiter videtur quod qui
+            consu<lb ed="#N" n="38" break="no"/>lit aliquid acquirere furto vel rapina: non ex hoc tenetur in aliquo
+            <lb ed="#N" n="39"/>damnificari: vtpote restituendo partem rei furtiue vel totam.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1048">
+            <lb ed="#N" n="40"/>⁋ Item ille qui consulit alicui quod furetur aliquid qui fuit in
+            fir<lb ed="#N" n="41" break="no"/>mo proposito illud. nec plus nec minus facit propter consilium
+            <lb ed="#N" n="42"/>sibi datum: non est causa vel occasio furti commissi. ex quo potest
+            argui<lb ed="#N" n="43" break="no"/>quod consulens non tenetur ad restitutionem: ex quo consilium illius
+            <lb ed="#N" n="44"/>non fuit causa vel occasio furti.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1061">
+            ⁋ Item si consulens rapere
+            <lb ed="#N" n="45"/>vel furari obligat seipsum ad restitutionem: ergo videtur quod ille idem
+            <lb ed="#N" n="46"/>consulens restituere furtum vel rapinam. absoluit seipsum a
+            <lb ed="#N" n="47"/>tentione restitutionis. ergo si consilium de restitutione facienti non
+            <lb ed="#N" n="48"/>absoluit a tentione restitutionis: neque consilium de rapiendo
+            <lb ed="#N" n="49"/>vel furando aliquid obligat restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1074">
+            ⁋ Responsio. quod consulens de
+            <lb ed="#N" n="50"/>furto faciendo. eo quod consilium talem est causa vel occasio
+            damni<lb ed="#N" n="51" break="no"/>ficationis proximi: tenetur ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1081">
+            ⁋ Ad id quod obiicitur.
+            <lb ed="#N" n="52"/>quod aliquis iuste acquirat aliquid. non ex hoc meretur necessitate
+            <lb ed="#N" n="53"/>remumerari parte rei acquisite vel toto: ergo a sensu contrario qui
+            consu<lb ed="#N" n="54" break="no"/>lit quod furtiue etc. potest dici quod non sequitur. dicunt enim. plura
+            re<lb ed="#N" n="55" break="no"/>quiruntur ad hoc quod aliquis acquirat sibi bonum meritum siue
+            grat<lb ed="#N" n="56" break="no"/>tuitum: quam ad hoc quod mereatur damnificari in bono gratuito
+            <lb ed="#N" n="57"/>acquisito. Sic est in proposito. ad hoc enim quod aliquis mereatur
+            si<lb ed="#N" n="58" break="no"/>ue acquirat bonum gratuitum: oportet quod genus operis quod
+            ex<lb ed="#N" n="59" break="no"/>ercet sit de genere bonorum. quod fiat recta intentione: et in carita
+            <lb ed="#N" n="60"/>te. sed ad hoc quod priuetur merito: sufficit vel quod opus sit malum.
+            <lb ed="#N" n="61"/>vel quod intentio agentis sit peruersa. vel quod caritas deficiat. Si
+            <lb ed="#N" n="62"/>militer dico in proposito. ad hoc quod aliquis mereatur
+            danifica<lb ed="#N" n="63" break="no"/>ri debito restitutionis male: sufficit vnum scilicet prauum vel
+            peruer<lb ed="#N" n="64" break="no"/>sum consilium. Ad hoc autem quod mereatur remumerari necessitate
+            iu<lb ed="#N" n="65" break="no"/>sticie. non sufficit consilium de fideli acquisitione: sed requiritur ad
+            <lb ed="#N" n="66"/>hoc sollicitudo et labor in acquirendo. si enim aliquis det alii
+            con<lb ed="#N" n="67" break="no"/>silium quod acquirat aliquid iuste. et assistat illi in labore et
+            solli<lb ed="#N" n="68" break="no"/>citudine acquirendi et in aliis si qua necessaria sunt ad illud
+            ac<lb ed="#N" n="69" break="no"/>quirendum: iusticia requirit vt remumeretur parte rei acquisite.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1123">
+            ⁋ Ad
+            <lb ed="#N" n="70"/>aliud dicendum. quod quando quis dat consilium alicui de rapiendo vel
+            furan<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>do. non rapturus vel furaturus. nisi inductus esset consilio tali.
+            con<lb ed="#N" n="72" break="no"/>sulens tenetur ad restitutionem. sed si nullo modo est inductus consilio
+            <lb ed="#N" n="73"/>sed als esset furaturus vel rapturus: licet peccet sic consulendo.
+            <lb ed="#N" n="74"/>non tenetur ad restitutionem. quia consilium eius non est causa vel occasio
+            <lb ed="#N" n="75"/>furti vel rapine perpetrate: neque proximo in aliquo damnificato.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1141">
+            <lb ed="#N" n="76"/>⁋ Ad aliud dicendum. quod ille qui consulit absolutus est a tentione
+            re<lb ed="#N" n="77" break="no"/>stitutionis: si ille cui consulit furari restituat. vnde sicut qui consulit
+            <lb ed="#N" n="78"/>furari. si alius furetur tenetur ad restituendum: similiter qui consulit
+            re<lb ed="#N" n="79" break="no"/>stituere absoluitur a tentione restitutionis si alius restituat.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1152">
+            <lb ed="#N" n="80"/>Consequenter que. §. tii.
+            <lb ed="#N" n="81"/>ritur. si ille qui currit cum fure tercio modo scilicet consentiendo
+            furi<lb ed="#N" n="82" break="no"/>tenetur ad restitutionem: Quod sic: videtur per hoc. quod consentiens et
+            fa<lb ed="#N" n="83" break="no"/>ciens pari pena puniendi sunt.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1163">
+            ⁋ Item videtur per illud quod habe
+            <lb ed="#N" n="84"/>tur Ro. i. non solum qui ea faciunt: sed et consentientes facientibus etc.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1168">
+            <lb ed="#N" n="85"/>⁋ Item videtur per hoc. quod prebens assensum furanti. dat
+            occasio<lb ed="#N" n="86" break="no"/>nem damnificandi proximum: vt supra tactum est.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1175">
+            ⁋ Contra. ille qui
+            <lb ed="#N" n="87"/>complacet vel consentit alicui de coeundo cum muliere. non propter
+            <lb ed="#N" n="88"/>hoc est reus pene: quam ille qui coit in currit: quia irrecuperabiliter amittit
+            <lb ed="#N" n="89"/>aureolam virginitatis. quod non facit alius qui solum peccat
+            con<lb ed="#N" n="90" break="no"/>sentiendo. similiter et ille qui consentit furto non est reus illius pene.
+            <lb ed="#N" n="91"/>scilicet restitutionis: cuius est ille reus qui furtum perpetrat. Similiter potest
+            <lb ed="#N" n="92"/>obiici de homicida actuali et voluntario. dicitur enim super illud
+            <lb ed="#N" n="93"/>i. Ro. plenos homicidiis inuidia. ploaliter dicit homicidiis:
+            <lb ed="#N" n="94"/>quia est homincidium actus et voluntatis. Homincida voluntarius non est
+            <lb ed="#N" n="95"/>reus pene istius scilicet irreglaritatis: cuius est reus homincida actus. qui enim
+            <lb ed="#N" n="96"/>vult interficere hominem et non interficit: non est irreglaris.
+            <lb ed="#N" n="97"/>ex hoc videtur quod velle furari non obligatur ad illam penam ad quam
+            <lb ed="#N" n="98"/>tenetur ille qui furatur. nec etiam qui assentit furto alieno. vel qui
+            <lb ed="#N" n="99"/>vult quod alius furetur. et ita quod assentit furto alterius non tenetur
+            <lb ed="#N" n="100"/>ad restitutionem. sicut tenetur ille qui furatur.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1208">
+            ⁋ Item videtur
+            <lb ed="#N" n="101"/>per illud quod ille qui committit symoniam emendo prebendam
+            te<lb ed="#N" n="102" break="no"/>netur ad eius resignationem et ad restitutionem bonorum
+            percepto<lb ed="#N" n="103" break="no"/>rum de illa. ad quod non tenetur ille qui complacet et assentit
+            <lb ed="#N" n="104"/>emptioni symoniace.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1220">
+            ⁋ Item videtur per illum qui est bigamus. qui
+            in<lb ed="#N" n="105" break="no"/>currit penam iuste secundum irregularitatem: quam non incurrit qui
+            con<lb ed="#N" n="106" break="no"/>placeat vel qui assentit quod aliquis est bigamus. et ita videtur quod
+            <lb ed="#N" n="107"/>in viciis que non sunt peccata vtpota bigamia: et que sunt peccata vt
+            <lb ed="#N" n="108"/>homicidium et symonia: agentes et consentientes non sunt earum
+            <lb ed="#N" n="109"/>dem penarum debitores.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1233">
+            ⁋ Responsio sicut tactum est de currente cum
+            <lb ed="#N" n="110"/>fure consulendo. vno modo temnetur ad restitutionem: alio modo non. sic
+            <lb ed="#N" n="111"/>potest dici in proposito. si quis currit cum fure assentiendo furi alius
+            <lb ed="#N" n="112"/>non furaturo: tenetur ad restitutionem. Si autem alis furaretur: non
+            <lb ed="#N" n="113"/>teneretur. vel si complacent sibi post factum. co quod in tali casu non
+            <lb ed="#N" n="114"/>est causa vel occasio damnificationis alicuius: non tenetur danifica
+            <lb ed="#N" n="115"/>ri in restitutionem alicuius rei.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1249">
+            ⁋ Ad illud quod obicitur contra hoc. per
+            il<lb ed="#N" n="116" break="no"/>lum qui cognoscit actu aliquam mulierem et illum qui assentit eidem
+            <lb ed="#N" n="117"/>dicendum quod non est simile. Iste enim qui mulierem cognouit: carnis
+            ami<lb ed="#N" n="118" break="no"/>sit integritatem. et per comomunus aureolam virginitatis. Et quia
+            pri<lb ed="#N" n="119" break="no"/>mum amisit irrecuperabiliter: et secundum. Assentiens autem illi non
+            <lb ed="#N" n="120"/>amisit primum: et ideo non secundum. quia licet peccauerit peccato
+            assen<lb ed="#N" n="121" break="no"/>sus quo incurrit anime corruptionem: et amisit anime integritatem: illam
+            <lb ed="#N" n="122"/>potest recuperare per penitentiam: carnis integritatem non potest. Non
+            <lb ed="#N" n="123"/>sic est de assentiente furtu qui furanti prestat audaciam
+            furan<lb ed="#N" n="124" break="no"/>di: et propositum eius ad furandum reddit efficax. Unde
+            consenti<lb ed="#N" n="125" break="no"/>endo est causa vel occasio furti. saluo quod supra dictum est scilicet
+            <lb ed="#N" n="126"/>quod fur als non erat furaturus.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1275">
+            ⁋ Ad id quod obiicitur de
+            hominci<lb ed="#N" n="127" break="no"/>da voluntario et assentiente. dicendum quod qui assentit alicui volenti
+            in<lb ed="#N" n="128" break="no"/>terficere hominem et illum assensum exprimit: penam incurrit
+            ho<lb ed="#N" n="129" break="no"/>micide: scilicet irregularitatis. et quantum ad hoc simile est in hoc
+            ca<lb ed="#N" n="130" break="no"/>su et in furto. Sed quia pena irregularitatis proprie debetur
+            ho<lb ed="#N" n="131" break="no"/>micidio actu exercitato. non homicidio voluntario: quod
+            nuli<lb ed="#N" n="132" break="no"/>nocet: consentiens vero furti nocet alicui. quia vt dictum est causa vel
+            <lb ed="#N" n="133"/>occasio furti: non est simile de assentiente furi vel voluntario
+            ho<lb ed="#N" n="134" break="no"/>micidio quantum ad reatum pene irreglaritatis aparte. et restitu
+            <lb ed="#N" n="135"/>tionis a parte illa. Reatus enim irreglaritatis debetur actui non
+            <lb ed="#N" n="136"/>voluntati. assensui vero siue complacentie non debetur: nisi eo modo
+            <lb ed="#N" n="137"/>quo dictum est. sicut penitentia restitutionis assensui furto vel penitentie. et hoc
+            <lb ed="#N" n="138"/>ratione damnificationis proximi quam importat.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1304">
+            ⁋ Ad id quod
+            <lb ed="#N" n="139"/>obiicitur de pena bigamie. potest dici: quod bigamia non est
+            dicen<lb ed="#N" n="140" break="no"/>da ex assensu siue complacentia habendi siue complacendi plures:
+            <pb ed="#N" n="556"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>sed ex cognitione actuali. Ille enim bigamus est. qui cum ploibus
+            car<lb ed="#N" n="2" break="no"/>nem diuidit. Et quia talis impeditus efficitur ad hoc quod sit sponsus
+            <lb ed="#N" n="3"/>ecclesie: qui debet esse vnius id est indiuisus. Iuxta illud. ii. Corin. xi.
+            <lb ed="#N" n="4"/>despondi enim vos vni viro etc. incurrit penam irregularitatis
+            <lb ed="#N" n="5"/>ascendendi ad ordinem sponsi ecclesie: prouenit ex diuisione. hoc
+            <lb ed="#N" n="6"/>alis habet explanari. Ex assensu furti accidit reatus
+            iustificati<lb ed="#N" n="7" break="no"/>onis propter damnificationem proximi cuius est causa vel occasio.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1330">
+            <lb ed="#N" n="8"/>Consequenter que. §. iiii.
+            <lb ed="#N" n="9"/>ritur. si currens quarto modo cum fure tenetur ad restitutionem scilicet
+            <lb ed="#N" n="10"/>per adulationem: quando aliquis adulatur alicui furi vel raptori laudam
+            <lb ed="#N" n="11"/>do ipsum de furto vel rapina sua. quod non: vidtur sic. adulatio et
+            fur<lb ed="#N" n="12" break="no"/>tum non se habent in aliqua consequentia. ergo vt videtur: nullus obligatur
+            <lb ed="#N" n="13"/>ex vno delicto alterius. ergo adulator non obligatur ad debitum
+            <lb ed="#N" n="14"/>furti scilicet restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1349">
+            ⁋ Item si adulator tenetur ad
+            restitutio<lb ed="#N" n="15" break="no"/>nem furti alicuius. hoc est: quia aliquid imprimitur in voluntate
+            fu<lb ed="#N" n="16" break="no"/>rantis ex adulatione sibi facta. sed sicut haberi potest a pho.
+            <lb ed="#N" n="17"/>Laus mhil ponit in laudato: similiter nec adulatio aliquid ponit
+            <lb ed="#N" n="18"/>in adulato. ergo videtur quod adulator non tenetur ad restitutionem
+            ali<lb ed="#N" n="19" break="no"/>quam pro furto: quod comittit adulatus.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1362">
+            ⁋ Contra. commendatio
+            ali<lb ed="#N" n="20" break="no"/>cuius furantis vel rapientis licet sit iniusta: tamen incitat furem
+            vel<lb ed="#N" n="21" break="no"/>raptorem quantum facit consilium vel assensus. vel forte plus
+            <lb ed="#N" n="22"/>ergo si consulens vel assentiens furanti vel rapienti tenetur ad
+            resti<lb ed="#N" n="23" break="no"/>tutionem: et adulator similiter tenetur.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1373">
+            ⁋ Responio. ad hoc potest dici quod
+            si<lb ed="#N" n="24" break="no"/>adulatio sistat in generali non descendendo ad furtum vel
+            ra<lb ed="#N" n="25" break="no"/>pinam. sed laudando personam furis vel raptoris tanquam bonam et
+            <lb ed="#N" n="26"/>honestam: non est iudicandus teneri ad restitutionem. sed si laudat
+            <lb ed="#N" n="27"/>furtum vel rapinam. et sic inducitur fur ad furandum: tenetur
+            adu<lb ed="#N" n="28" break="no"/>lator ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1386">
+            ⁋ Ex hoc patet responsio ad primum. quia si
+            indu<lb ed="#N" n="29" break="no"/>catr fur ad furandum adulatione: adulatio se habet in aliqua
+            consequen<lb ed="#N" n="30" break="no"/>tia ad furtum: quia est causa furti.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1393">
+            ⁋ Ad id quod obiicitur. quod laus
+            ni<lb ed="#N" n="31" break="no"/>hil ponit in laudato. dicendum quod sic debet intelligi: laus est
+            exhibi<lb ed="#N" n="32" break="no"/>tio reuerentie in signum virtutis per expressionem vocis. Laus ergo
+            ni<lb ed="#N" n="33" break="no"/>hil ponit in laudato. hoc est nihil accidit vel accrescit in
+            lau<lb ed="#N" n="34" break="no"/>dato virtutis. ex testimonio quod ei perhibetur. vt si dicatur de aliquo
+            <lb ed="#N" n="35"/>quod sit bonus. huiusmodi dicere nihil bonitatis ponit in eo.
+            Nihilomi<lb ed="#N" n="36" break="no"/>nus laus aliquid ponit in eo laudato: scilicet vanam gloriam vel
+            pre<lb ed="#N" n="37" break="no"/>sumptionem vel aliquid huiusmodi. Similiter adulatio aliquam relinquit
+            <lb ed="#N" n="38"/>impressionem adulati: licet nihil quod ei imponitur adulando
+            po<lb ed="#N" n="39" break="no"/>nitur in ipso ex ipsa adulatione.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1415">
+            <lb ed="#N" n="40"/>Consequenter
+            queri§.b<lb ed="#N" n="41" break="no"/>tur de quinto modo currendi cum fure. vt quando aliquis recipit furem vel
+            <lb ed="#N" n="42"/>raptorem scienter secum in domo sua cum furto vel rapina. vtrum te
+            <lb ed="#N" n="43"/>netur ad restitutionem: Et videtur quod sic: quia recipiens furem in domo
+            sua<lb ed="#N" n="44" break="no"/>si depreohensus esset: secundum ius humanum subiret sententiam damnationis. sed
+            <lb ed="#N" n="45"/>omne illud habitum vel receptum pro furto vel recipiens esset sic
+            pu<lb ed="#N" n="46" break="no"/>niendus vel a fure principali: ergo si non restitueretur a fure
+            principa<lb ed="#N" n="47" break="no"/>li etc.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1436">
+            ⁋ Item beatus loanomarus de quadam summa pecuine que ei
+            offe<lb ed="#N" n="48" break="no"/>rebatur non voluit accipere nisi. xii. denarios. dicens residuum esse
+            <lb ed="#N" n="49"/>de rapina: ergo nullus debet recipere rem furtiuam quam scit esse furtiuam
+            si<lb ed="#N" n="50" break="no"/>ei datur. et si receperit: tenetur restiture.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1445">
+            ⁋ Contraa. ponatur quod aliquis
+            <lb ed="#N" n="51"/>fur vel raptor timore mortis confugiat cum spoliis ad domum
+            <lb ed="#N" n="52"/>alicus vt mortem euadat. et comittit se bone fidei ipsius et
+            spolia<lb ed="#N" n="53" break="no"/>illa. tenetur ne ille ad prodendum illum et rrstitutionem spoliorum illis.
+            <lb ed="#N" n="54"/>videtur quod non. quia si hoc facit: in crimine proditionis redarguendus est.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1456">
+            <lb ed="#N" n="55"/>⁋ Pre. potest contingere quod si restitueret spolia illa. exponeret se vel
+            <lb ed="#N" n="56"/>spoliatorem morti: et ita incurreret culpam hominicidii. ex quo videtur quod
+            <lb ed="#N" n="57"/>non tenetur illa restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1465">
+            ⁋ Responsio. quod ille apud quem latet latro
+            <lb ed="#N" n="58"/>cum spoliis. dummodo habeat spolia in potstate sua. tenetur illa restitu
+            <lb ed="#N" n="59"/>ere. nec est proditionis crimine redarguendus: si spolia furto habita
+            <lb ed="#N" n="60"/>suo domino restituat. immo potius exequitur quod iusticia requirit. nec
+            <lb ed="#N" n="61"/>ex hoc fidem violat: quia in illicito voto debet rescindi fides. vt dicit
+            <lb ed="#N" n="62"/>vsiud. quomo si illa reciperet cum proposito seruandi furi vel sibi
+            <lb ed="#N" n="63"/>ipsi: esset furti perticeps et reus mortis secundum legem humanam. propter quod
+            <lb ed="#N" n="64"/>necesse habet illa restituere. quod intelligimus scilicet sine proditione persone
+            <lb ed="#N" n="65"/>et si immineret aliquod periculum sibi. vt si timeret quod furtum sibi
+            in<lb ed="#N" n="66" break="no"/>poneretur: posset illa committere persone ecclesiastice scilicet sacerdoti sub
+            <lb ed="#N" n="67"/>sigillo confessionis ad restituendum.
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="68"/>Consequenter que s. or.
+            <lb ed="#N" n="69"/>ritur de sexto modo currendi cum fure. vt si aliquis partem habeat
+            <lb ed="#N" n="70"/>furti vel rapine scienter: sicut qui recipiunt pecuniam scienter ab
+            <lb ed="#N" n="71"/>vsurariis quam sciunt esse de vsura: vel a fure quam sciunt esse de
+            <lb ed="#N" n="72"/>furto: et illam conuertunt in vsus suos. vtrum teneantur ad
+            restitu<lb ed="#N" n="73" break="no"/>tionem: et videtur quod sic: per hoc quod vsurarius et fur nihil iuste
+            pos<lb ed="#N" n="74" break="no"/>sident. vnde nihil ab istis habetur iuste per se loquendo. et quicquid habetur
+            <lb ed="#N" n="75"/>ab istis restitui debet veris dominis. vnde si aliqui accipiunt aliquid
+            <lb ed="#N" n="76"/>ab illis: tenentur istis restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1511">
+            ⁋ Item. ii. Tob. Uidete
+            ne<lb ed="#N" n="77" break="no"/>furtiuus sit. quia non licet nobis aliquid ex furto edere autm contingere
+            <lb ed="#N" n="78"/>Contra. i. Corin. x. omne quod vob apponitur manducate nil in
+            <lb ed="#N" n="79"/>ferrogantes propter conscientiam. ergo licet rem furtiuam manducare: et hoc
+            <lb ed="#N" n="80"/>si conuertetur in vsus proprios: ergo licet accipere rem furtiuam.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1522">
+            ⁋ Re
+            <lb ed="#N" n="81"/>spon. quod qui comedunt vel in alios vsus conuertunt aliquid de
+            vsu<lb ed="#N" n="82" break="no"/>ra vel furto scienter. siue sint religiosi siue alii: tenentur ad
+            re<lb ed="#N" n="83" break="no"/>stitutionem. et etiam si dubitent an sint huiusmodi: similiter tenentur ne
+            con<lb ed="#N" n="84" break="no"/>mittant se discrimini. habetur enim pro regula. quod quicumque habet conscientiam
+            <lb ed="#N" n="85"/>de re quod sit aliena: tenetur illam restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1536">
+            ⁋ Ad id quod dicit
+            apo<lb ed="#N" n="86" break="no"/>stolus. i. Corin. x. non intelligitur furtiua sed potius de ydolaticis
+            <lb ed="#N" n="87"/>id est cibis immolatis ydolis. Uel intelligitur secundum quosdam quando
+            <lb ed="#N" n="88"/>ille qui dat rem furtiuam habet alia multa de quibus potest
+            face<lb ed="#N" n="89" break="no"/>re restitutionem. maxime cum datum est talis res que non potest
+            <lb ed="#N" n="90"/>vendicari.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1549">
+            <lb ed="#N" n="91"/>Consequenter que s. vii.
+            <lb ed="#N" n="92"/>ritur. vtrum illi qui currunt cum fure tribus vltimis modis. vt quando
+            <lb ed="#N" n="93"/>quis videt aliquem furari vel rapere. et posset resistere
+            malefa<lb ed="#N" n="94" break="no"/>ctori clamando et non facit. vel quando non resistit malefactori cum
+            <lb ed="#N" n="95"/>posset. vel quando celat furtum vel rapinam: vt quando queritur et ille scit
+            <lb ed="#N" n="96"/>vere et non manifestat: vtrum teneatur ad restitutionem: et videtur quod
+            <lb ed="#N" n="97"/>sic: quia quilibet istorum dat occasionem danni proximo. ergo currentes cum
+            fu<lb ed="#N" n="98" break="no"/>re his tribus modis sunt culpabiles culpa furti. non enim
+            dice<lb ed="#N" n="99" break="no"/>rentur aliter currentes cum fure. quia illi dicuntur currere cum fure: qui
+            ma<lb ed="#N" n="100" break="no"/>culantur culpabili actione furis. qui autem sunt culpabiles causa
+            furti<lb ed="#N" n="101" break="no"/>tenentur soluere penam que debetur furi scilicet restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1575">
+            ⁋ Item quilibet istorum
+            <lb ed="#N" n="102"/>puniretur cum fure. si scienter quod non obuiasset malefactori. igitur qu
+            <lb ed="#N" n="103"/>libet tenetur ad penam que debetur pro furto: hoc est restiture.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1582">
+            ⁋ Item
+            <lb ed="#N" n="104"/>vt habetur a sanctis. qui potest impedire malum et non impedit: assentit. serd
+            <lb ed="#N" n="105"/>agentes et consentientes pari pena puniendi sunt. ergo etc.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1589">
+            ⁋ Eon
+            <lb ed="#N" n="106"/>tra. nullus tenetur ad restitutionem furti vel rapine. nisi aliquo
+            ma<lb ed="#N" n="107" break="no"/>scilicet actu interiori vel actu exteriori furi vel raptori sit
+            coo<lb ed="#N" n="108" break="no"/>paratus. sed currentes tribus modis iam tactis nullo modo sunt cooperati
+            <lb ed="#N" n="109"/>furi vel raptori: quod patet per hoc. quod non clamare. non resistere. non
+            ma<lb ed="#N" n="110" break="no"/>nifestare. solummodo priuationem dicunt actuum: ergo isti modi non ob
+            <lb ed="#N" n="111"/>ligant ad restitutionem.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1605">
+            ⁋ Responsio quod inter currentes cum fure sunt quidam
+            <lb ed="#N" n="112"/>qui sola priuatione nonpositione aliqua maculantur crimine furti.
+            <lb ed="#N" n="113"/>vtpote vltimi tres currentes cum fure scilicet non clamans: non
+            re<lb ed="#N" n="114" break="no"/>sistens: non manifestans: et tales inquantum tales non tenentur ad
+            <lb ed="#N" n="115"/>restitutionem. sicut alii de quibus supratactum est. qui aliquo modo operando
+            <lb ed="#N" n="116"/>affirmatiue maculantur actione furti.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1619">
+            ⁋ Ad id quod obicitur. quod
+            cur<lb ed="#N" n="117" break="no"/>rentes istis modis dant occasionem danni etc. Dicendum quod currens
+            <lb ed="#N" n="118"/>cum fure per puram negationem per se loquendo non dant occasionem
+            dan<lb ed="#N" n="119" break="no"/>ni: sed illi qui aliquo modo per puram affirmationem vtpote per consensum vel
+            <lb ed="#N" n="120"/>factum vel dictum.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1630">
+            ⁋ Ad id quod obicitur. quod ex quo cum fure sunt
+            culpa<lb ed="#N" n="121" break="no"/>biles culpa furti: tenentur ad restitutionem. dicendum quod hoc non
+            gene<lb ed="#N" n="122" break="no"/>raliter tenet. licet enim currens cum fure sit culpabilis culpa
+            fur<lb ed="#N" n="123" break="no"/>ti: non tamen sequitur quod teneatur ad restitutionem: quia fur in furando
+            <lb ed="#N" n="124"/>exercet aliquod opst exterius: quod non exercet semper currens cum fure.
+            <lb ed="#N" n="125"/>propter hoc aliquam penam incurrit iuste fur: quam non incurrit omnis
+            <lb ed="#N" n="126"/>currens cum fure. et est simile in homincidio actuali et voluntario. vt
+            <lb ed="#N" n="127"/>supratactum est.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1648">
+            ⁋ Ad id quod obicitur. quod quilibet istorum currentium
+            <lb ed="#N" n="128"/>cum fure si sciretur quod non obuiasset malefactori: puniretur secundum
+            le<lb ed="#N" n="129" break="no"/>ges humanas etc. dicendum quod ratione quo non obuiat malefactori non est
+            <lb ed="#N" n="130"/>puniendus nec puniretur: sed forte ex aliqua presumptione puniretur scilicet
+            <lb ed="#N" n="131"/>ex presumptione consensus. vel complacentie vel perticipationis cum
+            fu<lb ed="#N" n="132" break="no"/>re. Unde leges humane quandoque in talibus casibus errant. nec regulam
+            <lb ed="#N" n="133"/>tur secundum legem diuinam.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1664">
+            ⁋ Ad id quod obicitur. quod ille qui potest
+            impedi<lb ed="#N" n="134" break="no"/>re malum etc. Dicedum quod hoc intelligendum est qui potest ex officio.
+            Iu<lb ed="#N" n="135" break="no"/>dex enim vel rector reipublice. qui non obuiat malo cum possit
+            <lb ed="#N" n="136"/>iure officii: interpretatur consentiens.
+          </p>
+        </div>
+        <div xml:id="v78d89-aftwuu-Dd1e1674">
+          <head xml:id="v78d89-aftwuu-Hd1e1676">Articulus 5</head>
+          <p xml:id="v78d89-aftwuu-d1e1678">
+            <pb ed="#N" n="557"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Articulus quintus
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1687">
+            <lb ed="#N" n="2"/>COnsequenter queritur spetialius de aliquibus
+            pertici<lb ed="#N" n="3" break="no"/>pantibus cum fure. Participatur enim aliquis re furtiua
+            <lb ed="#N" n="4"/>aut per successionem hereditariam: aut per dationem:
+            <lb ed="#N" n="5"/>aut per contrattum venditionis et emptionis. ponatur enim talis
+            ca<lb ed="#N" n="6" break="no"/>sus. quod aliquis ptrfamilias decendat qui habet tres marcas auri.
+            <lb ed="#N" n="7"/>quarum vna est furtiua: et dimittit eas tribus filiis suis
+            cuili<lb ed="#N" n="8" break="no"/>bet vnam. non determinans que sit furtiua: sed in generali dicat
+            <lb ed="#N" n="9"/>vnam illarum esse furtiuam. Quero an quilibet illorum per se tenetur
+            <lb ed="#N" n="10"/>restituere marcam. an omnus simul sumpti ita quod nullus per se: et
+            <lb ed="#N" n="11"/>videtur quod vltimo modo: quia nullus obligatur ad soluendum totum
+            de<lb ed="#N" n="12" break="no"/>bitum pratis. sed ad partem tantum: quia tantum in parte hereditatis succedit.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1713">
+            <lb ed="#N" n="13"/>Contra. quilibet per se dubitat an habeat marcama furtiuam
+            <lb ed="#N" n="14"/>ergo dubitat an habeat rem alienam et comittit se discrimini:
+            si<lb ed="#N" n="15" break="no"/>non restituat marcama. et ita peccat mortaliter. ergo quilibet
+            te<lb ed="#N" n="16" break="no"/>netur restituere totam: vt in peccatum mortale non labatur.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1724">
+            ⁋
+            So<lb ed="#N" n="17" break="no"/>lutio. quilibet illorum tenetur restituere tantum terciam partem. et non
+            va<lb ed="#N" n="18" break="no"/>let hec argumentatio quilibet per se dubitat an habeat
+            marcan<lb ed="#N" n="19" break="no"/>furtiuam etc. non tamen comittit se discrimin si totam non restituat: quia
+            <lb ed="#N" n="20"/>restitutio debet fieri ab omnibus tribus. vnde quilibet illorum peccat
+            <lb ed="#N" n="21"/>si portionem suam non restituat.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1738">
+            ⁋ Ponatur adhuc quod verum constat
+            <lb ed="#N" n="22"/>quod duo non velint restituere aliquid de marca: tenetur ne ille
+            ter<lb ed="#N" n="23" break="no"/>cius totam restituere: Responso. sine preiudicio quod non. non enim
+            tene<lb ed="#N" n="24" break="no"/>batur quilibet illorum ad restitutionem insolidum: sed vnusquisque ad
+            <lb ed="#N" n="25"/>portionem suam: sicut receperunt portionem in bonis pratris.
+            Si<lb ed="#N" n="26" break="no"/>enim omnia bona essent ad vnum reuoluta: estimo quod teneretur.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1751">
+            <lb ed="#N" n="27"/>Item queritur an ille qui habet rem furtiuam per contractum emptio
+            <lb ed="#N" n="28"/>nis vel venditionis. tenetur eam restituere: Quod sic: videtur. quia
+            nul<lb ed="#N" n="29" break="no"/>la talis venditio est secundum ius diuinum conueniens. minus enim
+            malum<lb ed="#N" n="30" break="no"/>est dare rem furtiuam quam vendere. sed non licet furi vel raptori
+            da<lb ed="#N" n="31" break="no"/>re rem furtiuam vel recipere ab aliquo scienter: ergo non licet eam
+            ven<lb ed="#N" n="32" break="no"/>dere vel emere. ergo si eam scit emens furtiuam: tenetur eam restituere
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1767">
+            <lb ed="#N" n="33"/>⁋ Item fur vel raptor non potest dare vel vendere rem furtiuam
+            <lb ed="#N" n="34"/>verissimo domino scilicet deo. quia deo immolantis ex iniquo oblatio est
+            <lb ed="#N" n="35"/>maculata Ecclesasi. xxxiiii.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1776">
+            ⁋ Item in eodem qui offert sacrificium ex
+            <lb ed="#N" n="36"/>substantia paupererum. quasi qui victimat filium in conspectu patris sui.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1781">
+            <lb ed="#N" n="37"/>⁋ Item ysa. lxi. Ego dominus diligens iudicium et odio habens
+            ra<lb ed="#N" n="38" break="no"/>pinam in olocaustum. ergo multominus licet furi dare vel vendere
+            <lb ed="#N" n="39"/>rem furtiuam alii.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1790">
+            ⁋ Item qui emit rem furtiuam scienter: scit
+            il<lb ed="#N" n="40" break="no"/>lam esse rem euincibilem. vel forte non euincatur ab illo cuius est:
+            <lb ed="#N" n="41"/>quia timet laborem et expensas: ergo emens cum sana conscientia illam
+            <lb ed="#N" n="42"/>non restituere non potest.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1800">
+            ⁋ Item et si res furtiua non esset euin
+            <lb ed="#N" n="43"/>cibilis. quia consumpta esset: non ob hoc absolutus esset apud deum
+            <lb ed="#N" n="44"/>ille qui scienter rem furtiuam consumpsisset. immo magis puniendus
+            <lb ed="#N" n="45"/>esset: quia non saluasset integram. Legitur enim Exo. xxii. quod si quis
+            <lb ed="#N" n="46"/>furatus fuerit ouem vel bouem. et occiderit vel vendiderit.
+            <lb ed="#N" n="47"/>quinque boues pro vno boue restituet. et quatuor oues pro vna
+            <lb ed="#N" n="48"/>oue. si inuentum fuerit apud eum. scilicet furem quod furatus
+            fue<lb ed="#N" n="49" break="no"/>rit viuens. siue bos. siue afinus. siue ouis: duplum
+            restitu<lb ed="#N" n="50" break="no"/>et. Et ita magis puniebatur qui rem furtiuam consumpferat: quam qui
+            <lb ed="#N" n="51"/>integram seruauerat. patet ergo quod nullus sana conscientia
+            <lb ed="#N" n="52"/>potest retinere rem quam scit esse furtiuam.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1824">
+            ⁋ Contra. ille qui
+            <lb ed="#N" n="53"/>habet rem furatai per contractum modo iam dicto: non dam
+            <lb ed="#N" n="54"/>nificat proximum: quia nullo modo cooperatus est damnatione
+            proximi<lb ed="#N" n="55" break="no"/>ex quo non reddit furem impotentem ad soluendum.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1833">
+            ⁋ Responsio quod
+            il<lb ed="#N" n="56" break="no"/>le qui habet rem furtiuam per contractum vel alio modo iam
+            <lb ed="#N" n="57"/>dicto: tenetur ad restitutionem. Ad huius rei euidentiam nota.
+            <lb ed="#N" n="58"/>quod peccatum sequitur pena. et iuste punitur pena peccatum. et maius
+            ma<lb ed="#N" n="59" break="no"/>iori. Cum hoc nota. quod fur qui occidit animal furatum. grauius
+            <lb ed="#N" n="60"/>punitur secundum legem quod puniretur si reseruasset apud scil. vt patet
+            <lb ed="#N" n="61"/>Exo. xxii. si quis furatus fuerit ouem etc. Ex hoc patet quod plus
+            <lb ed="#N" n="62"/>peccat alienans rem furtiuam dando vel vendendo: quam si illam
+            <lb ed="#N" n="63"/>integram reseruaret. Unde nec vendere nec dare licet furi
+            <lb ed="#N" n="64"/>rem furtiuam: ne se reddat impotentem ad restituendum. Unde
+            <lb ed="#N" n="65"/>Eccesiati. xxxiiii. Qui offert sacrificium de substantia pauperis quasi
+            <lb ed="#N" n="66"/>qui victimat filium in conspectu patris. ergo peccat mortaliter
+            <lb ed="#N" n="67"/>dando rem furtiuam etiam deo: quia impotentem se redit ad
+            resti<lb ed="#N" n="68" break="no"/>tuendum. Unde per ipsum non stat quo minus. quin pauper cui abstulit
+            <lb ed="#N" n="69"/>rem suam moriatur fame: cooperator est homicidii. vnde sequitur.
+            pa<lb ed="#N" n="70" break="no"/>nis egentium vita est pauperis. qui defraudat illum homo
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>sanguinis est. vnde peccat fur vel raptor. si dat vel vendit
+            rem<lb ed="#N" n="72" break="no"/>furtiuam vel non consumit. peccat etiam mortaliter
+            recipi<lb ed="#N" n="73" break="no"/>ens eam gratis. vel emens a fure sciens eam furtiuam:
+            ni<lb ed="#N" n="74" break="no"/>si valde ei sit necessaria. vtpote in vltima necessitate. quia
+            <lb ed="#N" n="75"/>dat occasionem peccati mortalis ipsi furi. sicut peccat morta
+            <lb ed="#N" n="76"/>liter qui accipit pecuniam ad vsuram: cum det occasionem
+            <lb ed="#N" n="77"/>peccati mortalis vsurario. nisi in necessitate. tunc enim non
+            <lb ed="#N" n="78"/>dat occasionem peccandi si reddit ius suum vsurario. qui
+            te<lb ed="#N" n="79" break="no"/>netur gratis comodare pecuniam indigenti. Iuxta illud
+            <lb ed="#N" n="80"/>Luc. vi. Mutuum date nihil inde sperantes. dicimus
+            er<lb ed="#N" n="81" break="no"/>go quod cum habet quis conscientiam rei aliene. siue illam
+            <lb ed="#N" n="82"/>obtinuerit per dationem siue per emptionem: tenetur illam
+            <lb ed="#N" n="83"/>restituere. non domino cum conscientia qui eam furatus est non
+            li<lb ed="#N" n="84" break="no"/>heretur. sed qui eam habet per emptionem debet eam vendenti resti
+            <lb ed="#N" n="85"/>tuere vt accipiat precium. magis enim debet sibi prodesse quam alii. et
+            <lb ed="#N" n="86"/>debet inducere furem ad hoc vt restituat eam vero domino.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1905">
+            <lb ed="#N" n="87"/>⁋ Ad id quod obiicitur in contrarium in parte patet responsio. quia qui emit
+            <lb ed="#N" n="88"/>rem furtiuam: damnificat eum cui subtracta est. reddendo
+            fu<lb ed="#N" n="89" break="no"/>rem impotentem ad illam restituendam. et ipsi furi audaciam
+            <lb ed="#N" n="90"/>prestat alia furandi: eo quod expedit illum de re quam furatus est
+            <lb ed="#N" n="91"/>et videtur eidem consentire.
+          </p>
+        </div>
+        <div xml:id="v78d89-aftwuu-Dd1e1919">
+          <head xml:id="v78d89-aftwuu-Hd1e1921">Articulus 6</head>
+          <p xml:id="v78d89-aftwuu-d1e1923">
+            <lb ed="#N" n="92"/>⁋ Articulus sextus
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1928">
+            <lb ed="#N" n="93"/>COnsequenter queritur. si turpiter acquirens vt
+            ale<lb ed="#N" n="94" break="no"/>ator. vel lusor. vel alio modo. vel mererrix:
+            tenean<lb ed="#N" n="95" break="no"/>tur restituere sic acquisitum: Quod aleatores
+            tenean<lb ed="#N" n="96" break="no"/>tur: videtur per hoc quod iura ciuilia iubent acquisita per aleam
+            re<lb ed="#N" n="97" break="no"/>stitui: et competentibus actionibus sic amissa repeti. ergo
+            tali<lb ed="#N" n="98" break="no"/>ter acquisita non iuste possidentur a possessore. ergo debent
+            resti<lb ed="#N" n="99" break="no"/>tui.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1946">
+            ⁋ Contra. quod acquiritur per interuentionem pacti inter
+            per<lb ed="#N" n="100" break="no"/>tes et obligationes dicti: iuste acquiritur. nec restitui tenetur:
+            <lb ed="#N" n="101"/>alioquin neque pactum neque veritas condicti obligaret. sed
+            pa<lb ed="#N" n="102" break="no"/>ctum interuenit inter aleatores et assertio condicti siue verita
+            <lb ed="#N" n="103"/>iis. ergo acquisitum ab aleatoribus iuste possidetur: ergo non est restituen
+            <lb ed="#N" n="104"/>dum.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1959">
+            ⁋ Respono. quod aleatores nisi fraudes immisceant in ludis
+            su<lb ed="#N" n="105" break="no"/>is. non de scricto iure tenentur ad restitutionem. pactum enim
+            interue<lb ed="#N" n="106" break="no"/>nit inter partes: quod vterque perti placet et obligatio condicti.
+            Un<lb ed="#N" n="107" break="no"/>de secundum pactum illud et obligationem condicti: nec ille qui
+            ami<lb ed="#N" n="108" break="no"/>sit de iure potest repetere: nec ille qui lucratus est tenetur
+            re<lb ed="#N" n="109" break="no"/>stituere. Et quod antiqua iura iubent illud restitui: et
+            conce<lb ed="#N" n="110" break="no"/>dunt actionem repetendi: nobis videtur magis esse quasi satil
+            <lb ed="#N" n="111"/>factio pro peccato quam obligatio ad restitutionem. Non est enim
+            <lb ed="#N" n="112"/>honestum huiusmodi. nec licitum: nec honesta occupatio in talibus
+            <lb ed="#N" n="113"/>immo multum sepe damnosa efficitur reipublice. cum occasione
+            lu<lb ed="#N" n="114" break="no"/>di distrahantur possessiones. et exhereditentur successores et
+            <lb ed="#N" n="115"/>posteri. vnde Iustinianus dicit. quod alearum ludus prodiit in
+            lacri<lb ed="#N" n="116" break="no"/>mas. vnde ad cohibitionem mali subsequentis data est ista lex
+            <lb ed="#N" n="117"/>de aleatoribus. Sicut et in foro penitentiali iniungitur sepe
+            satisfa<lb ed="#N" n="118" break="no"/>ctio pecuniaria. non solum eis qui lucrantur: sed etiam qui amiserunt
+            <lb ed="#N" n="119"/>vt reprimatur inhonesta occupatio et malum subsequens.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e1995">
+            <lb ed="#N" n="120"/>Oimiiiter queritur .§. i.
+            <lb ed="#N" n="121"/>de acquisitis in torneamentis. vtrum debeant restitui: et videtur quod
+            <lb ed="#N" n="122"/>sic: cum torneameta sunt prohibita ab ecclesia. que autem contra prohibitionem
+            <lb ed="#N" n="123"/>ecclesie sunt acquisita: vt videtur: non sunt iuste possessa. ergo dminut
+            resti<lb ed="#N" n="124" break="no"/>tui.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2008">
+            ⁋ Contra. que acquiruntur in torneamentis si acquiruntur cum inter
+            <lb ed="#N" n="125"/>uentione pacti etc. vt prius.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2013">
+            ⁋ Responsio. quod acquisita in torneamentis
+            <lb ed="#N" n="126"/>non est necesse restituere. eo quod illorum transferunt dominium ratione
+            <lb ed="#N" n="127"/>legis institute inter torneamentores. Nec valet hoc
+            argumen<lb ed="#N" n="128" break="no"/>tum hec sunt acquisita contra prohibitionem ecclesie: ergo rest ituenda.
+            <lb ed="#N" n="129"/>quia si sunt acquisita contra prohibitionem ecclesie: nihilominus
+            <lb ed="#N" n="130"/>illorum transfertur dominium. si autem non esset tale transtatum
+            domi<lb ed="#N" n="131" break="no"/>nium: necesse esset illa restituere etc.
+            <lb ed="#N" n="132"/>Omliiter duerttur. .
+            <lb ed="#N" n="133"/>vtrum acquisitum meretricio debeat restitui: Quod sic: videtur per illud
+            <lb ed="#N" n="134"/>quod iniuste acquiritur iusto titulo non possidetur. quod iniusto titulo
+            <lb ed="#N" n="135"/>possidetur: iusto domino debet restitui.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2037">
+            ⁋ Pre. quod vsura acquiritur quia
+            in<lb ed="#N" n="136" break="no"/>iuste acquiritur restitui debet: similiter videtur de acquisito per
+            meretrici<lb ed="#N" n="137" break="no"/>um.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2044">
+            ⁋ Item math. vii. non potest arbor mala fructus bonos facere.
+            <lb ed="#N" n="138"/>sed meretricari malum est: ergo per illud non potest fieri possessio
+            bo<pb ed="#N" n="558"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>na: ergo iniuste possidet meretrix que acquirit per meretricium. ergo
+            <lb ed="#N" n="2"/>non potest illa sana conscientia possidere: et ita tenetur illa restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2055">
+            <lb ed="#N" n="3"/>⁋ Item Deut. xxiii. non offertis mercedem prostibuli nec precium
+            <lb ed="#N" n="4"/>carnis in domo domini dei tui. quicquid illud est quod noueris: quia
+            <lb ed="#N" n="5"/>abhoinnatio est vtrumque apud dominum deum tuum. Et super hoc dicit glo.
+            <lb ed="#N" n="6"/>Augustinus. Mercedem meretricis videtur repulisse: quia prohibuit
+            mere<lb ed="#N" n="7" break="no"/>tricem de filiabus isrlis. ne quis hoc putet expiari: si aliquis in templum
+            <lb ed="#N" n="8"/>inde offerret deo quo fuit abhominnatio. ergo secundum hoc meretrix de
+            ac<lb ed="#N" n="9" break="no"/>quisito per meretricium non potest facere domino oblationem et hoc est: quia non
+            <lb ed="#N" n="10"/>iuste possidet. ergo tenetur illa restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2076">
+            ⁋ Contra. dicit Augustinus quod
+            <lb ed="#N" n="11"/>meretrix turpiter acquirit: sed non turpiter anccipit: ergo non est turpis
+            <lb ed="#N" n="12"/>eius possessio: licet acquisita sit per meretrioium suum. Est ergo licitum quod
+            <lb ed="#N" n="13"/>acquirit. vnde non debet habere conscentiam rei aliene: ergo non tenetur restituere.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2085">
+            <lb ed="#N" n="14"/>Ad hoc potest dici. quod mentrix non tenetur restiture quod acquisiuit per
+            <lb ed="#N" n="15"/>meretricium. nec valicet hec argumentatio. mertrix per peccatum
+            acqui<lb ed="#N" n="16" break="no"/>rit: ergo non potest bona conscientia retinere acquisitum. Multi enim ex
+            ardenti<lb ed="#N" n="17" break="no"/>cupiditate de nundinis ad nundinas pergunt et multa lucrantur et
+            <lb ed="#N" n="18"/>acquirunt sine fraude. nec tenentur restiture: cum non deceperint
+            ali<lb ed="#N" n="19" break="no"/>quem. Nec est simile de acquisito per mentricium et vsuram: quia acquisiti per
+            <lb ed="#N" n="20"/>mentricium transfertur dominium: acquisiti per vsuram non transfertur.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2103">
+            <lb ed="#N" n="21"/>⁋ Ad illud autem quod actus meretricii non est arbor buiusmodi
+            possessi<lb ed="#N" n="22" break="no"/>onis. nec possessio fructus eius proprie loquendo: sed potius datio
+            pre<lb ed="#N" n="23" break="no"/>cii siue locationis est arbor: accipere fructus est dationis. dare enim et
+            <lb ed="#N" n="24"/>accipere correlatiue se habent. licitum autem est dare mertrici. immo
+            iu<lb ed="#N" n="25" break="no"/>stum est vt reuocet eam a peccato qui occasionem dedit peccando: ne per
+            <lb ed="#N" n="26"/>paupertatem compellatur iterum fornicari. Unde licitum est ei accipere et
+            <lb ed="#N" n="27"/>retinere. et sic tam arbor quam fructus licitum.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2121">
+            ⁋ Ad aliud dicendum. quiod
+            <lb ed="#N" n="28"/>non omnis oblatio acquisita per meretricium est abhomininabilis domino:
+            <lb ed="#N" n="29"/>sed publica oblatio que fit cum scandalo est abhomininabilis. sicut
+            <lb ed="#N" n="30"/>si meretrices traherent currum ad fabricam ecclesie vel darent
+            paia<lb ed="#N" n="31" break="no"/>num sericum vel fenestram vitream in ecclesia. talia non debet ecclesia
+            re<lb ed="#N" n="32" break="no"/>cipere a congregatione meretricum: ne videatur approbare opst
+            me<lb ed="#N" n="33" break="no"/>retricium. sed preuatas elemosynas dare pauperibus de pecuina sic
+            <lb ed="#N" n="34"/>acquisita licitum est eis. et offerre candelas et husuomdodi in quibus non
+            <lb ed="#N" n="35"/>est scandalum. quod vero dicit Augustinus in glo. Ne quis putaret hoc
+            ex<lb ed="#N" n="36" break="no"/>piari si quiod inde in templum offerret: intelligendum est sic. ne quis
+            <lb ed="#N" n="37"/>putaret licitum esse meretricari: si de sic acquisito fieret oblatio
+            <lb ed="#N" n="38"/>quo domino abhominatio fuit. Posset enim aliqua mulier sic esse stulta
+            <lb ed="#N" n="39"/>quod putaret licitum sibi fornicari: si totum acquisitum pauperibus
+            ero<lb ed="#N" n="40" break="no"/>garet. sicut credunt multi periurium non esse peccatum: cum per ipsum
+            <lb ed="#N" n="41"/>res prximi conseruetur. hoc autem non est verum: quia non sunt facienda
+            <lb ed="#N" n="42"/>mala vt eueniant bona.
+          </p>
+          <p xml:id="v78d89-aftwuu-d1e2156">
+            ⁋ Histriones similiter non tenentur ad
+            re<lb ed="#N" n="43" break="no"/>stitutionem acquisitorum per hiftrionatum: quia in huiusmodi transfertur
+            domi<lb ed="#N" n="44" break="no"/>nium. sicut in acquisitis per meretricium.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

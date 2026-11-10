@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 61, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 61, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="402"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-abvfq9"><!-- q61m1 -->
+        <head xml:id="v78d89-abvfq9-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-abvfq9-Hd1e103" type="question-title">De unitate huius sacramenti</head>
+        <p xml:id="v78d89-abvfq9-d1e106">
+          <lb ed="#N" n="79"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e111">
+          <lb ed="#N" n="80"/>QUeritur ergo primo de vnitate huius
+          sacra<lb ed="#N" n="81" break="no"/>menti et videtur quod sit vnum. Ambro. sicut vnum
+          <lb ed="#N" n="82"/>baptisma et vna penitentia.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e120">
+          ⁋ Item inten
+          <lb ed="#N" n="83"/>tio vnius sequitur intentionem entis. Unde eius
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e126">
+          <lb ed="#N" n="84"/>⁋dem generis sunt esse: et esse vnum. Sed penitentia eo quod est sa
+          <lb ed="#N" n="85"/>cramentum. est in genere relationis. igitur si illa que penite
+          <lb ed="#N" n="86"/>tie sunt habent vnitatem relationis: habent vnitatem esse. iqu
+          ve<lb ed="#N" n="87" break="no"/>nitentia sacramentum vnum est. Quod autem habeat vnitatem relatio
+          <lb ed="#N" n="88"/>nis patet eo quod omnia que penitentie sunt ad vnum referuntur
+          <lb ed="#N" n="89"/>scilicet remissionem peccati.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e142">
+          ⁋ Contra. videtur quod non sit vnum sacra
+          <lb ed="#N" n="90"/>mentum. quia cum plura sunt signa in hoc sacramento. cum
+          sa<lb ed="#N" n="91" break="no"/>cramentum proprie et prime attenditur penes signum: videtur
+          <lb ed="#N" n="92"/>quod plura sunt sacramenta.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e151">
+          ⁋ Si diceretur quod vnum est ob
+          vni<lb ed="#N" n="93" break="no"/>tate rei vltime significate que est deletio culpe. Conta.
+          <lb ed="#N" n="94"/>hoc sacramento deletur multiplex culpa siue multa
+          pecca<lb ed="#N" n="95" break="no"/>ta que non habent vnitatem nisi in genere. et circa multipli
+          <lb ed="#N" n="96"/>citatem culpe est multiplex deletio. si igitur hoc sacramentum
+          <lb ed="#N" n="97"/>est vnum ab vnitate illa: non est vnum simpliciter sed in genece
+          <lb ed="#N" n="98"/>tantum. Item si vnum est ab vnitate rei vltime significate: iqitur
+          <lb ed="#N" n="99"/>oportet quod habeant naturalem similitudinem cum illo signinca
+          <lb ed="#N" n="100"/>to. igitur oportet quod contritio. confessio. satisfactio
+          similitu<lb ed="#N" n="101" break="no"/>dinem habeant cum deletione culpe. Queritur que sit ila
+          si<lb ed="#N" n="102" break="no"/>militudo.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e175">
+          ⁋ Item secundum phoscum est vnum indiuisibile. vnum
+          con<lb ed="#N" n="103" break="no"/>tinuum. vnum diffinitione. ea que concurrunt ad esse penite
+          <lb ed="#N" n="104"/>tie: neque habent vnitatem indiuisibilitatis: neque continuati
+          <lb ed="#N" n="105"/>onis. neque diffinitionis. igitur nec penitentia est vnum sic.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e184">
+          ⁋Irem
+          <lb ed="#N" n="106"/>sacramentum est quod imaginem gerit et causa existit. sed
+          con<lb ed="#N" n="107" break="no"/>tritio est talis. Contritio enim est signum deletionis
+          peccati<lb ed="#N" n="108" break="no"/>et causa quantum ad aliquid. similiter est de satisfactione. igitur
+          <lb ed="#N" n="109"/>vnumquodque horum est sacramentum. igitur tria sunt
+          sacramen<lb ed="#N" n="110" break="no"/>ta in penitentia.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e197">
+          ⁋ Item Ambro. et habetur in glo. super
+          <lb ed="#N" n="111"/>illud Math. iii. Penitentiam agite. Triplex est modua
+          pe<lb ed="#N" n="112" break="no"/>nitentie. Primus errores et omnia mala ante baptismum
+          <lb ed="#N" n="113"/>abrenumciare et condemnare. quod necesse est ad christum
+          ventu<lb ed="#N" n="114" break="no"/>ris. Secundus post baptismum lapsos per penitentiam
+          reno<lb ed="#N" n="115" break="no"/>uari. Tercius quo sancti quotidie a talibus purgantu pec
+          <lb ed="#N" n="116"/>catis sine quibus vita non agitur. Ex hoc patet quod est vnus
+          <lb ed="#N" n="117"/>modus penitendi super venialibus sicut super mortalibus. sed
+          sacra<lb ed="#N" n="118" break="no"/>mentum baptismi est aliud sacramentum quam penitentia. eo
+          <lb ed="#N" n="119"/>quod peccatum originale a quo purgatur homo per baptismum
+          <lb ed="#N" n="120"/>est aliud per essentiam et secundum genus: quam actuale a quo
+          pur<lb ed="#N" n="121" break="no"/>gatur homo per penitentiam. eo enim quod morbi differunt: ne
+          <lb ed="#N" n="122"/>cesse est differre medicinas. eadem ratione videtur quod
+          sa<lb ed="#N" n="123" break="no"/>cramentum penitentie quo deletur mortale debet esse illud
+          <lb ed="#N" n="124"/>quam illud quo deletur veniale: ex quo mortale et veniale
+          si<lb ed="#N" n="125" break="no"/>militer differunt per essentias et secundum genus. aliud enim genus
+          <lb ed="#N" n="126"/>peccati est mortalem quam veniale.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e235">
+          ⁋ Item in baptismo
+          tolli<lb ed="#N" n="127" break="no"/>tur peccatum originalem et reatus damnationis eterne
+          <lb ed="#N" n="128"/>aliis penis annexis originali. id est fomite. et ceteris per
+          <lb ed="#N" n="129"/>manentibus ad que tollenda sunt alia sacramenta. quod
+          <lb ed="#N" n="130"/>patet per hoc. quod omnia sacramenta sunt medicine
+          ali<lb ed="#N" n="131" break="no"/>quorum morborum. et constat quod non morborum
+          relicto<lb ed="#N" n="132" break="no"/>rum ex actuali. vnde non est vnum sacramentum quo tollitur
+          <lb ed="#N" n="133"/>originale et pene annexe. A simili videtur de sacramento do
+          <lb ed="#N" n="134"/>tollitur actuale mortale. quod vno sacramento tollitur actuale
+          <lb ed="#N" n="135"/>mortale cum reatu damnationis eterne: et alio vel aliis
+          tollun<pb ed="#N" n="403"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tir pene temperales. igitur cum contritione tolliter culpa cum
+          re<lb ed="#N" n="2" break="no"/>atu eterne damnationis: confessione et satisfactione tolluntur
+          <lb ed="#N" n="3"/>pene temporales: non sunt vnum sacramentum. contritio.
+          con<lb ed="#N" n="4" break="no"/>fessio satisfactio.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e268">
+          ⁋ Item vt dicit hugo. sacramentum est
+          <lb ed="#N" n="5"/>ex institutione significans: ex similitudine representans
+          <lb ed="#N" n="6"/>ex sanctificatione inuisibilem gratiam conferens. Non
+          <lb ed="#N" n="7"/>autem est vnum sacramentum ex institutione. quia non fuit simul
+          <lb ed="#N" n="8"/>institutum. quia confessio iacobi vltia: satisfactio secundum quosdam Mth.
+          <lb ed="#N" n="9"/>iii. Penitentiam agite. Neque ex similitudine representationis.
+          <lb ed="#N" n="10"/>non enim conueniunt in representatione. contritio enim representat
+          <lb ed="#N" n="11"/>deletionem culpe aliquando pene. Neque ex sanctificatione qua
+          con<lb ed="#N" n="12" break="no"/>fertur gratia inuisibilis: quia hoc solummodo est a contritione
+          <lb ed="#N" n="13"/>Responsio. quod hoc sacramentum vnum est. licet enim
+          plu<lb ed="#N" n="14" break="no"/>ra sunt signa: conueniunt tamen in ratione vna que est annihila
+          <lb ed="#N" n="15"/>tio penitentis et peccati. Annihilat enim se penitens et conterere
+          <lb ed="#N" n="16"/>do et confitendo et satisfaciendo. et in hoc habent signa
+          na<lb ed="#N" n="17" break="no"/>turalem conuenientiam cum significato. sicut enim penitens
+          <lb ed="#N" n="18"/>annihilat se conterendo. confitendo. satisfaciendo. et dominus
+          anni<lb ed="#N" n="19" break="no"/>hilat peccatum in ipso penitente.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e303">
+          ⁋ Ad illud quod obiicitur quod
+          iu<lb ed="#N" n="20" break="no"/>xta multitudinem peccatorum est multiplex deletio. dicendum quod
+          <lb ed="#N" n="21"/>hoc verum est materialiter loquendo id est multorum est deletio.
+          <lb ed="#N" n="22"/>sed formaliter vna est. quia vnica actione gratie omnia de
+          <lb ed="#N" n="23"/>lentur. tanta enim est virtus et potentia gratie. quod vna
+          acti<lb ed="#N" n="24" break="no"/>one in vno instanti omnia tollit peccata.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e316">
+          ⁋ Si diceretur quod
+          <lb ed="#N" n="25"/>motus numeratur a fine sicut dealbatio ab albedine et
+          de<lb ed="#N" n="26" break="no"/>nigratio a nigredine. dicendum quod hoc itelligitur in
+          motu<lb ed="#N" n="27" break="no"/>naturali. qui regulatur secundum intentionem efficientis ad hoc vel
+          <lb ed="#N" n="28"/>illud precise: non autem intelligendum est de motu qui est
+          supra<lb ed="#N" n="29" break="no"/>naturam. siue de actione gratie.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e329">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="30"/>de modis vnius distinctis a pho. dicendum quod phous in illa
+          <lb ed="#N" n="31"/>diuisione que est in vnum indiuisibile et vnum continuum et
+          <lb ed="#N" n="32"/>vnum diffinitione. intendit comprehendere que sunt vnum sim
+          <lb ed="#N" n="33"/>pliciter. scilicet vnum numero. disputat enim contra ponentes omnia
+          <lb ed="#N" n="34"/>esse vnum siue plura vnum esse. Hanc autem vnitatem non habent
+          <lb ed="#N" n="35"/>partes penitentie. Preterea. non sequitur. et si partes alicuius
+          <lb ed="#N" n="36"/>non sunt vnum numero adinuicem relata: quod per hoc totum quod
+          <lb ed="#N" n="37"/>est ex his non est vnum. Est enim instantia in pertibus ex quibus est
+          <lb ed="#N" n="38"/>homo scilicet ex corpore et anima.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e351">
+          ⁋ Ad aliud quod obiicitur. quod
+          vna<lb ed="#N" n="39" break="no"/>queque pars penitentie est vnum sacramentum. dicendum quod et si
+          signa<lb ed="#N" n="40" break="no"/>sunt multa: conueniunt tamen in vna ratione que est annihila
+          <lb ed="#N" n="41"/>tio penitentis. similiter et sunt causa vnius scilicet deletionis
+          peccati<lb ed="#N" n="42" break="no"/>actualis. Unde quia inquantum cause sunt. efficientiam habent ex
+          <lb ed="#N" n="43"/>ordine quantum ad vnum. vt confessio ex contritione et satisfactio
+          <lb ed="#N" n="44"/>ex vtrisque. et causa sunt vnius quod est deletio peccati. diuer
+          <lb ed="#N" n="45"/>sitas creationis huiusmodi non facit sacramenta diuersa sed vnum
+          <lb ed="#N" n="46"/>potius. quia igitur hec vnitatem habent in signando et
+          effi<lb ed="#N" n="47" break="no"/>ciendo. dico formaliter loquendo. et si sit in illis
+          diuersi<lb ed="#N" n="48" break="no"/>tas materialis: non efficiunt diuersa sacramenta sed vnum
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e376">
+          <lb ed="#N" n="49"/>⁋ Ad illud quod obiicitur. quod triplex est modus penitentie
+          <lb ed="#N" n="50"/>etc. dicendum quod sacramentum baptismi est aliud quam
+          pe<lb ed="#N" n="51" break="no"/>nitentie. non quia aliud in essentia et secundum genus est peccatum
+          <lb ed="#N" n="52"/>originalem et actuale: sed quia alio modo et ab alia radice
+          ori<lb ed="#N" n="53" break="no"/>tur in homine originale et alia actuale. originalem enim ortum
+          <lb ed="#N" n="54"/>habet in homine non a voluntate propria neque actu proprio
+          <lb ed="#N" n="55"/>sed voluntate et actu alieno. Quia enim actuale peccatum
+          <lb ed="#N" n="56"/>est a voluntate propria et actu eius in quo est: conuenit vt
+          <lb ed="#N" n="57"/>purgatio illius fiat per aliquod sacramentum in quo
+          ho<lb ed="#N" n="58" break="no"/>mo cooperetur voluntarie. et quia committitur in offensam
+          <lb ed="#N" n="59"/>siue in iniuriam dei et ecclesie: conuenit quod ad illius deletio
+          <lb ed="#N" n="60"/>nes concurrant operationes quibus fiat reconciliatio deo et ec
+          <lb ed="#N" n="61"/>clesie. qua les sunt contritio confessio et satisfactio. Alite
+          <lb ed="#N" n="62"/>est de originali quod non habet ortum in homine a
+          volun<lb ed="#N" n="63" break="no"/>tate propria et actione. Unde ratio quare diuersis
+          sacramen<lb ed="#N" n="64" break="no"/>tis deletur originale et actuale non est diuersitas peccati
+          <lb ed="#N" n="65"/>quantum ad essentiam et genus: sed magis diuersitas est in
+          <lb ed="#N" n="66"/>modo contrahendi hoc et illud. Hec autem diuersitas non est
+          <lb ed="#N" n="67"/>inter actuale mortalem et veniale.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e420">
+          ⁋ Ad illud quod
+          obiici<lb ed="#N" n="68" break="no"/>tur. quod eo quod morbi differunt debet esse diuersa medicina. hoc
+          <lb ed="#N" n="69"/>non est necessarium in morbis spiritualibus et medicinis. Idem
+          <lb ed="#N" n="70"/>enim est sanatiuum peccati actualis et originalis scilicet
+          baptis<lb ed="#N" n="71" break="no"/>mus: morbi tamen letales spirituales habent proprias
+          me<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>dicinas sicut patet de originali et actuali. alii non habent
+          <lb ed="#N" n="73"/>Plura enim sacramenta sunt remedia et medicina
+          actua<lb ed="#N" n="74" break="no"/>is ve nialis.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e439">
+          ⁋ Ad illud quod obiicitur. quod duplex est
+          ge<lb ed="#N" n="75" break="no"/>nus pene. Est enim pena quedam qua non elongatur
+          premi<lb ed="#N" n="76" break="no"/>um. quantumcunque enim homo esset oppressus fomite si decederet
+          <lb ed="#N" n="77"/>in gratia. nisi esset debitor alterius pene: non tardaretur
+          <lb ed="#N" n="78"/>a susceptione premiii. Est autem et aliud genus pene cuius
+          <lb ed="#N" n="79"/>debitum elongat a susceptione premii. cuiusmodi sunt
+          pe<lb ed="#N" n="80" break="no"/>ne debite pro actuali. vnde omnes pene actualis que tolluntur
+          <lb ed="#N" n="81"/>et contritione et confessione et satisfactione. vnius conditionis
+          <lb ed="#N" n="82"/>sunt quantum ad hoc: quod non ablate vel solute susceptionem
+          tar<lb ed="#N" n="83" break="no"/>dant premii. Et harum omnium quantum ad hoc est vna ratio. cum
+          <lb ed="#N" n="84"/>culpa cuius sunt pene. propter quod harum cum culpa non
+          <lb ed="#N" n="85"/>debet esse nisi sacramentum remedium. Non est similiter de
+          fo<lb ed="#N" n="86" break="no"/>mite et pena eterna que debetur originali et ipsius origina
+          <lb ed="#N" n="87"/>lis. fomes enim non tardat susceptionem premii sicut et
+          culpa<lb ed="#N" n="88" break="no"/>originalis. culpa enim originalis et pena fomitis non sunt
+          <lb ed="#N" n="89"/>eiusdem conditionis. sicut culpa actualis et pena que
+          tol<lb ed="#N" n="90" break="no"/>litur confessione et soluitur satisfactione. propter quod est
+          <lb ed="#N" n="91"/>alia ratio hinc et inde. vnde non conuenit si culpe
+          origi<lb ed="#N" n="92" break="no"/>nalis et pene illius sunt plura sacramenta remedia: quod
+          <lb ed="#N" n="93"/>propter hoc debeant esse plura culpe actualis et penarum
+          il<lb ed="#N" n="94" break="no"/>lius. Ratione enim qua culpa actualis cum pena
+          de<lb ed="#N" n="95" break="no"/>bita est eiusdem rationis. vno sacramento habent expiari.
+        </p>
+        <p xml:id="v78d89-abvfq9-d1e487">
+          <lb ed="#N" n="96"/>⁋ Ad vltimum dicendum. quod sacramentum penitentie non
+          <lb ed="#N" n="97"/>est vnum ex institutione. quia non fuit vna institutio vt
+          <lb ed="#N" n="98"/>tactum est: sed potius ex similitudine representationis.
+          li<lb ed="#N" n="99" break="no"/>cet enim contritio habeat similitudinem cum dimissione
+          <lb ed="#N" n="100"/>culpe: alia scilicet confessio et satisfactio cum dimissione
+          <lb ed="#N" n="101"/>pene: conueniunt tamen in vna ratione quantum ad
+          annihi<lb ed="#N" n="102" break="no"/>lationem peccati et penitentis vt supra tactum est. Ad hoc
+          <lb ed="#N" n="103"/>vt mihi videtur competentius potest dici. quod sacramentum
+          <lb ed="#N" n="104"/>penitentie est vnum. inquantum ex sanctificatione
+          inuisibi<lb ed="#N" n="105" break="no"/>lem gratiam confert. inquantum enim ex sanctificatione
+          inui<lb ed="#N" n="106" break="no"/>sibilem gratiam confert sanctificat purgando a culpa et
+          <lb ed="#N" n="107"/>pena. ex ista sanctificatione que vna est. est sacramentum
+          <lb ed="#N" n="108"/>vnum. Magis enim dicenda est vnitas sacramenti ex
+          par<lb ed="#N" n="109" break="no"/>te efficientie quam sanctificationis: quia magis est ad
+          effici<lb ed="#N" n="110" break="no"/>endum quam ad siznificandum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 8, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 8, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="81"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e605"><!-- q8m5 -->
+        <head xml:id="v78d89-d1e605-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-d1e605-Hd1e103" type="question-title">De dispensatione novae legis</head>
+        <p xml:id="v78d89-d1e605-d1e106">
+          <lb ed="#N" n="12"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-d1e605-d1e111">
+          <lb ed="#N" n="13"/>COnsequenter queritur de dispensatione
+          sacramen<lb ed="#N" n="14" break="no"/>torum noue legis. Et queritur vtrum aliquo modo
+          <lb ed="#N" n="15"/>sint dispensanda ministerio angelorum. Et quod non:
+          <lb ed="#N" n="16"/>videtur. dicit enim Hugo. Tria sunt in
+          sacra<lb ed="#N" n="17" break="no"/>mentis: similitudo ex creatione: institutio ex
+          dispensati<lb ed="#N" n="18" break="no"/>one: sanctificatio ex benedictione. Prima est indita per
+          crea<lb ed="#N" n="19" break="no"/>torem. secunda adiuncta per saluatorem. tercia ministrata per
+          <lb ed="#N" n="20"/>dispensatorem. Et vt ipse determinat consequenter: dispensa
+          <lb ed="#N" n="21"/>tor est ipse sacerdos qui sanctificat ipsa elementa. Ex quo
+          <lb ed="#N" n="22"/>videtur quod operatio angelica non requiritur in collatione vel
+          <lb ed="#N" n="23"/>dispensatione sacramentorum.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e137">
+          ⁋ Contra. dicit Hug. Quia
+          <lb ed="#N" n="24"/>homo visibilia concupiscens corruptus fuerat: congrue
+          re<lb ed="#N" n="25" break="no"/>parandus in eisdem visibilibus salutis occasionem recipere
+          de<lb ed="#N" n="26" break="no"/>bebat. vt per eadem resurgeret per que corruerat. Ex hoc
+          vlti<lb ed="#N" n="27" break="no"/>mo verbo potest inferri. si homo corruerat per angelum: ergo
+          re<lb ed="#N" n="28" break="no"/>surgere debuit per eundem cooperantem iu collatione
+          sacramen<lb ed="#N" n="29" break="no"/>torum. quia in hac materia loquitur Hugo. sed cooperari non posset
+          <lb ed="#N" n="30"/>nisi dispensando. ergo etc.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e156">
+          ⁋ Item quia corruptus fuit et
+          pec<lb ed="#N" n="31" break="no"/>cauit subiiciendo se angelo id est dyabolo: ab angelis
+          debe<lb ed="#N" n="32" break="no"/>ret querere salutem. et ita vt prius.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e163">
+          ⁋ Item angeli
+          cooperam<lb ed="#N" n="33" break="no"/>tur homini proficienti operibus virtutis: quare non similiter
+          resur<lb ed="#N" n="34" break="no"/>genti operibus sacramentorum.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e170">
+          ⁋ Item ex eo quod a primo homine
+          <lb ed="#N" n="35"/>erat transfusum ad alios peccatum: qui primo peccauit et
+          <lb ed="#N" n="36"/>fuit causa peccati aliorum: congruebat vt esset reparatio per
+          ho<lb ed="#N" n="37" break="no"/>minem: vt habetur ab Ansel. et ab Augustinus. Eadem ratione cum
+          <lb ed="#N" n="38"/>angelus fuit causa peccati quod transfusum est ad omnes:
+          <lb ed="#N" n="39"/>videtur aliquo modo quod ministerio angelorum deberet fieri
+          re<lb ed="#N" n="40" break="no"/>paratio.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e186">
+          ⁋ Item cum homo proprie purgatur per sacramenta: sed
+          <lb ed="#N" n="41"/>ministerium angelorum respectu nostri est in tribus scilicet
+          purga<lb ed="#N" n="42" break="no"/>tione. illuminatione. perfectione. Angeli enim vt dicit Dyo.
+          <lb ed="#N" n="43"/>purgant et illuminant et perficiunt. igitur etc.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e195">
+          ⁋ Si respendeatur. quod
+          <lb ed="#N" n="44"/>quia spiritus sunt: non est eorum exhibere ministerium corporale
+          <lb ed="#N" n="45"/>tunc queritur quare per illos non fit aliquod opus spirituale: sicut per
+          <lb ed="#N" n="46"/>opus operatum in sacramentis.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e204">
+          ⁋ Responsio. multiplex est
+          cau<lb ed="#N" n="47" break="no"/>sa quare non exhibetur aliquid in sacramento operatione
+          ange<lb ed="#N" n="48" break="no"/>lica. Una est. vt tota reparatio humana gratie saluatoris de
+          <lb ed="#N" n="49"/>beatur. vt sicut illo solo facta est reconciliatio per mortem:
+          <lb ed="#N" n="50"/>et illo solo fieret reparatio per sacramenta id est que virtutem habent
+          <lb ed="#N" n="51"/>a morte. Item alia. vt euidentior esset diuina iusticia in
+          pu<lb ed="#N" n="52" break="no"/>nitione dyaboli: qui procurauit lapsum humanum. quia si homo
+          <lb ed="#N" n="53"/>aliquo modo esset reparatus natura angelica: videretur in
+          <lb ed="#N" n="54"/>aliquo satisfactum esse de iniuria facta deo in oblatione
+          ho<lb ed="#N" n="55" break="no"/>minis. a simili in redemptione humana conuenientius fuit
+          sa<lb ed="#N" n="56" break="no"/>tisfactum deo de iniuria sibi facta ab homine: quia per hominem
+          <lb ed="#N" n="57"/>facta est reconciliatio. vnde Ansel. Quia homo deliquit
+          sa<lb ed="#N" n="58" break="no"/>tisfacere debuit. alius tamen fuit qui satisfecit et qui deliquit.
+          <lb ed="#N" n="59"/>Item alia. vt virtus saluatoris euidentior appareret: qui
+          vi<lb ed="#N" n="60" break="no"/>libus creaturis contulit virtutem curandi. Alia causa est
+          <lb ed="#N" n="61"/>conuenientia sacramenti. conuenit enim vt sacramentum significet
+          <lb ed="#N" n="62"/>exterius quod interius operatur. quod non posset esse si fieret per
+          <lb ed="#N" n="63"/>angelum cuius operatio est inuisibilis sicut ipse. conuenit enim vt
+          <lb ed="#N" n="64"/>per ministrum sensibilem et huius operationem significetur auctor
+          inui<lb ed="#N" n="65" break="no"/>sibilis operans interius et operatio interior. Sunt etiam cause quare
+          <lb ed="#N" n="66"/>non sit remedium sacramentale per angelicam operationem scilicet
+          plenitu<lb ed="#N" n="67" break="no"/>do diuine misericordie. euidentia diuine iusticie. manifestatio
+          di<lb ed="#N" n="68" break="no"/>uine potentie. congruentia sacramenti.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e255">
+          ⁋ Ad prima duo ob
+          <lb ed="#N" n="69"/>iecta dicendum est. quod si in verbo Hug. assignaretur tota ratio quare
+          <lb ed="#N" n="70"/>sacramenta in his visibilibus innstituta sunt bene teneret
+          argu<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>mentum. Non enim est per hoc tota causa quod per hoc cecidit neque
+          <lb ed="#N" n="72"/>quod illis corruptus est. Preterea. non est simile de corruptione contra
+          <lb ed="#N" n="73"/>cta ab illis et dyabolo. quia creatura visibilis in nullo
+          deme<lb ed="#N" n="74" break="no"/>ruit. nec fuit ex malicia creature quod homo cecidit: sicut fuit ex
+          <lb ed="#N" n="75"/>malicia dyaboli. vnde nec sibi in se nec sibi in natura
+          consi<lb ed="#N" n="76" break="no"/>mili debuit homo humiliari propter hoc.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e276">
+          ⁋ Ad aliud quod obiicitur. quod
+          <lb ed="#N" n="77"/>ab eo quod natura humana lapsa est peccato hominis: reparari debuit
+          <lb ed="#N" n="78"/>per hominem. ergo etc. dicendum quod hoc quod hoc dicitur congrueret si contingeret
+          an<lb ed="#N" n="79" break="no"/>gelum satisfacere pro culpa illa. et sic procedit ratio. quia enim hominis
+          <lb ed="#N" n="80"/>peccatum per hominem traductum debuit expiari: conueniens fuit vt per
+          <lb ed="#N" n="81"/>hominem. Similiter si peccatum angeli deberet expiari quod fuit causa
+          <lb ed="#N" n="82"/>quodammodo traductionis: per angelum fieri debuit.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e292">
+          ⁋ Ad illud
+          <lb ed="#N" n="83"/>quod obiicitur. quod angeli cooperantur homini proficienti similiter debent
+          ho<lb ed="#N" n="84" break="no"/>mini resurgenti. dicendum quod verum est et cooperantur: licet non ministrando
+          sa<lb ed="#N" n="85" break="no"/>cramenta. In omni enim statu assistunt homin. vnde paruulis assistunt
+          <lb ed="#N" n="86"/>custodientes a vexatione dyaboli et oppressione corporali. adultis
+          <lb ed="#N" n="87"/>excitando ad declinationem mali et exercitium boni.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e305">
+          ⁋ Ad aliud
+          <lb ed="#N" n="88"/>quod obiicitur. quod angeli purgant illuinant et perficiunt. dicendum quod
+          pur<lb ed="#N" n="89" break="no"/>gatio illa non est a culpa. quia purgare secundum Hugo. est tollere tene
+          <lb ed="#N" n="90"/>bras ex parte intellectus. vnde secundum Hugo. purgare est respectu
+          <lb ed="#N" n="91"/>termin a quo: illuinare respectu termini ad quem. vnde illuinatio est
+          il<lb ed="#N" n="92" break="no"/>lustratio ad cognoscendum simpliciter vel limpidius quam prius.
+          perfe<lb ed="#N" n="93" break="no"/>ctio est in adoptione finis.
+        </p>
+        <p xml:id="v78d89-d1e605-d1e321">
+          ⁋ Si autem obiicitur quod angeli
+          coopera<lb ed="#N" n="94" break="no"/>buntur reparationi secunde que erit in resurrectione corporum. similiter videtur quod
+          <lb ed="#N" n="95"/>debent cooperari prime scilicet reparationi animarum. hec autem fit per gratiam
+          sa<lb ed="#N" n="96" break="no"/>cramentorum. Responsio. quod angeli cooperabuntur reparationi quantum ad
+          col<lb ed="#N" n="97" break="no"/>lectionem puluerum et reparationem corporum ex pulueribus: non autem quantum
+          <lb ed="#N" n="98"/>ad infusionem animarum neque reparationem per gloriam. hec autem reparatio que
+          <lb ed="#N" n="99"/>glorie est: proprie respondet illi que est per gratiam sacramentorum non alia. propter quod non
+          <lb ed="#N" n="100"/>sequitur. si cooperabitur secunde: quod propter hoc prime. quia illa reparatio cui
+          co<lb ed="#N" n="101" break="no"/>operatur nonrespondet isti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

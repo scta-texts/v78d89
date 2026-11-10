@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 77, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 77, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="503"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aeah3y"><!-- q77m6 -->
+        <head xml:id="v78d89-aeah3y-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-aeah3y-Hd1e103" type="question-title">De ordine confessionis</head>
+        <p xml:id="v78d89-aeah3y-d1e106">
+          <lb ed="#N" n="67"/>⁋ Membrum sextum
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e111">
+          <lb ed="#N" n="68"/>SEquitur de ordine confessionis. queritur vtrum confessio
+          <lb ed="#N" n="69"/>necessario sequitur post iustificationem. quod sic: videtur.
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>quia omnis fidelis ex precepto tenetur confiteri. sed gratia non absoluit
+          <lb ed="#N" n="71"/>a tentione precepti. ergo post gratiam susceptam in iustificatione tenetur
+          <lb ed="#N" n="72"/>confiteri.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e127">
+          ⁋ Item in pertibus penitentie priori: non absoluitur penitens a
+          <lb ed="#N" n="73"/>post eriore. vnde contritus et confessus non absoluitur a satisfactione.
+          <lb ed="#N" n="74"/>A simili nec contritione a confessione ergo adhuc temetur confiteri.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e135">
+          ⁋ Item agere
+          <lb ed="#N" n="75"/>penitentiam precipitur a domino Math. iii. sed in perfectione penitentie sunt tria scilicet
+          <lb ed="#N" n="76"/>contritio confessio et satisfactio. ergo penitens non adimplet preceptum de
+          pe<lb ed="#N" n="77" break="no"/>nitentia nisi confiteatur. ergo penitens contritus temetur confiteri.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e144">
+          ⁋ Item ad hoc quod
+          <lb ed="#N" n="78"/>sufficiat contritio ad iustificationem. necessaum est proponitum confitendi. sed
+          <lb ed="#N" n="79"/>propositum cadit ab efficacia nisi exeat in actum offerente se
+          oppo<lb ed="#N" n="80" break="no"/>tuintate. et nllitet rtrputatur lis omnino desinit. et si hoc penitens desinit
+          <lb ed="#N" n="81"/>esse iustus: necesse est post iustificationem offerente opportuintate
+          confiterei<lb ed="#N" n="82" break="no"/>vl cadere a iusticia
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e157">
+          ⁋ Contra. qui habet iusticiam habet omne quod ad salutem est
+          <lb ed="#N" n="83"/>necessaum. sed omnis iustificatus habet iusticiam: ergo habet omne quod ad salutem est
+          <lb ed="#N" n="84"/>necessam. si ergo confessio non est necessaria ad iustificationem nec post
+          iustifica<lb ed="#N" n="85" break="no"/>cticonum est necessaria ad salutem. ergo iustificatus ad confessionem non temetur.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e166">
+          ⁋ Item
+          <lb ed="#N" n="86"/>si iustificatus temetur ad confessionem. aut ergo propter deletionem culpe: aut
+          <lb ed="#N" n="87"/>propter deletionem pene. non culpe: quia culpa iam deleta est. non pene: quia
+          <lb ed="#N" n="88"/>tanta potest esse contritio quod delet totam penam et si aliquid rtersiduum est: potest
+          <lb ed="#N" n="89"/>delere per satisfactionem exteriorem. ergo nullo modo tenetur.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e177">
+          ⁋ Item duplex est
+          <lb ed="#N" n="90"/>forum scilicet dei et ecclesie. secundum forum dei puitur quis in purgatorio multo
+          <lb ed="#N" n="91"/>grauius quam in hoc mudo. secundum forum ecclesie in hac vita. sed potest quis rnuncia
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e184">
+          ⁋
+          <lb ed="#N" n="92"/>re iudicio in foro minori et transferat se ad forum maius: ergo licite
+          <lb ed="#N" n="93"/>liquis post contritionem potest expectare penam purgatoriam. ergo non temetur
+          iu<lb ed="#N" n="94" break="no"/>dicari in foro ecclesie: ergo nec confiteri.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e194">
+          ⁋ Responsio. dicendum quod secundum quod
+          <lb ed="#N" n="95"/>iustificatio dicitur infusio gratie que non est snde contritione: confessio natura et
+          <lb ed="#N" n="96"/>tempore sequitur iustificationem.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e201">
+          ⁋ Ad obiecta ergo dicendum. quod confessio est
+          insti<lb ed="#N" n="97" break="no"/>tuta sub precepto. et ideo quia ab hoc precepto non absoluitur penitens per
+          <lb ed="#N" n="98"/>susceptionem gratie: contritus necesse habet confiteri et post iustificationem. et
+          si<lb ed="#N" n="99" break="no"/>non confitetur cadit a iusticia. Sicut enim nullus potest iustificari qui sacramenta
+          <lb ed="#N" n="100"/>contennit: sic nullus in iusticia perseuerat si post iustificationem ex
+          con<lb ed="#N" n="101" break="no"/>temptu negligat confiteri. et ideo si potest confiteri et non curat cadit a
+          iu<lb ed="#N" n="102" break="no"/>sticia: cum cadat a proposito confitendi snden quo iustificari non potereat.
+          <lb ed="#N" n="103"/>Concedendum ergo quod confessio post iustificationem est necessaria necessitate
+          pre<lb ed="#N" n="104" break="no"/>cepti.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e221">
+          ⁋ Ad illud ergo quod obicitur. qui habet iusticiam habet omne quod necessaum est
+          <lb ed="#N" n="105"/>ad salutem. dicendum quod verum est si perseueraret in illa. Sed quamuis snden
+          con<lb ed="#N" n="106" break="no"/>fessione possit quis iusticiam adipisci. tamen in illa non potest diu
+          perma<lb ed="#N" n="107" break="no"/>nere sine confessione quin amittat. non solum autem sunt necessaria ad
+          salu<lb ed="#N" n="108" break="no"/>tem illa que necessario requiruntur ad iusticie adeptionem: verumetiam illa que
+          <lb ed="#N" n="109"/>requiruntur ad habite conseruationem.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e234">
+          ⁋ Ad aliud quod obicitur. aut est necessaria
+          <lb ed="#N" n="110"/>propter deletionem culpe etc. dicendum quod ratio tentionis non est deletio culpe
+          <lb ed="#N" n="111"/>vel pene: sed institutio ecclesie. Pretera. nullus absoluitur ab hac
+          ten<lb ed="#N" n="112" break="no"/>tione: quantuncunm absoluatur a culpa vel a pena.
+        </p>
+        <p xml:id="v78d89-aeah3y-d1e243">
+          ⁋ Ad aliud quod
+          <lb ed="#N" n="113"/>obicitur de duplici foro etc. dicendum quod penitens in hac vita subiectus
+          <lb ed="#N" n="114"/>est foro ecclesie. ita quod ab ipso non potest appellare. Preter. fecit
+          iniuriam<lb ed="#N" n="115" break="no"/>ecclesie et ideo si potest comparere temetur nisi impossibilitas excusatur.
+          Ne<lb ed="#N" n="116" break="no"/>mo enim ad forum purgatorii admittitur qui forum ecclesie contenit. cum
+          <lb ed="#N" n="117"/>in nulo fiat iniuria peccatori: si requiratur satisfactio de peccato
+          suo<lb ed="#N" n="118" break="no"/>in foro ecclesie. de hoc habitum est supra in primo probleumate.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

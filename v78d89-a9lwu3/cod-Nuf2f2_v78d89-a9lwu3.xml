@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 48, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 48, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="330"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9lwu3"><!-- q48m2 -->
+        <head xml:id="v78d89-a9lwu3-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a9lwu3-Hd1e103" type="question-title">Utrum illi qui exercent cyrocinia possint accedere ad sacram communionem</head>
+        <p xml:id="v78d89-a9lwu3-d1e106">
+          <lb ed="#N" n="97"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a9lwu3-d1e111">
+          <lb ed="#N" n="98"/>COnsequenter queritur vtrum illi qui exercent
+          cyro<lb ed="#N" n="99" break="no"/>cinia possint accedere ad sacram communionem.
+          <lb ed="#N" n="100"/>Et videtur quod sic: per hoc quod milicia est necessaria
+          <lb ed="#N" n="101"/>in ecclesia dei et exercitium eius similiter. Quomo enim
+          de<lb ed="#N" n="102" break="no"/>fenderent milites ecclesiam dei contra infideles: nisi in
+          vsu<lb ed="#N" n="103" break="no"/>armorum essent exercitati. hoc autem exercitium potissime
+          habe<lb ed="#N" n="104" break="no"/>re congruit per cyrocinia. Usus ergo armorum licitus
+          est<lb ed="#N" n="105" break="no"/>ecclesie parutilis. sed nihil talem impedit accessum ad sacram
+          <lb ed="#N" n="106"/>communionem.
+        </p>
+        <p xml:id="v78d89-a9lwu3-d1e133">
+          ⁋ Contra. vt habetur extra de torneamentis. i.
+          <lb ed="#N" n="107"/>ca. Si quis eorum id est torneatorum ibi scilicet in torneamentis
+          <lb ed="#N" n="108"/>mortuus fuerit. quamuis ei poscenti penitentia non negetur: ec
+          <lb ed="#N" n="109"/>clesiastica tamen careat sepultura. Ex hoc patet quod
+          talisin<lb ed="#N" n="110" break="no"/>flicta est pena scilicet carentia sepulture ecclesiastice. que non
+          <lb ed="#N" n="111"/>solet infligi nisi pro graui delicto. vt pro infidelitate pro
+          vsu<lb ed="#N" n="112" break="no"/>rarum exactione et pro maxima obeuntis iniquitate. Ex hoc
+          <lb ed="#N" n="113"/>patet quod delictum talium graue est. sed existens in peccato
+          grr<lb ed="#N" n="114" break="no"/>ui non debet accedere. ergo etc.
+        </p>
+        <p xml:id="v78d89-a9lwu3-d1e154">
+          ⁋ Responsio. quod milites quandiu
+          <lb ed="#N" n="115"/>sunt in proposito et voluntate torneandi non debent
+          accedere<lb ed="#N" n="116" break="no"/>quia non sunt in statu saluandorum. tum quia torneamenta sunt pro
+          <lb ed="#N" n="117"/>hibita vt plane habetur extra de torneamentis. i. c. tum quia
+          <lb ed="#N" n="118"/>intentione peruersa exercentur scilicet ad ostensionem virium et ad
+          glo<lb ed="#N" n="119" break="no"/>riam temporalem acquirendam: tum quia sunt causa multorum
+          <lb ed="#N" n="120"/>malorum scilicet extorsionum rapinarum. homicidiorum et inuidiarum.
+          <lb ed="#N" n="121"/>propter quod non immerito dicuntur nundine vel ferie. extra de tor
+          <lb ed="#N" n="122"/>neamentis. i. ca. Aliqui autem dixerunt quod non durat
+          prohi<lb ed="#N" n="123" break="no"/>bitio de torneamentis. prohibitio enim illa facta fuit ex
+          cau<lb ed="#N" n="124" break="no"/>sa propter cedes hominum que ibi frequenter fieri solebant.
+          <lb ed="#N" n="125"/>propter hoc quod milites inermes torneabant. cum ergo
+          tem<lb ed="#N" n="126" break="no"/>pore moderno sint armati et raro accidit aliquem
+          interfici<lb ed="#N" n="127" break="no"/>cessante causa prohibitionis cessat et prohibitio. Sed vt
+          exi<lb ed="#N" n="128" break="no"/>stimo adhuc durat prohibitio. licet quandoque fuerit
+          suspen<lb ed="#N" n="129" break="no"/>sa ex causa ad tempus. videlicet vt inuenirentur alicubi
+          mi<lb ed="#N" n="130" break="no"/>lites congregati occasione torneandi et ibi posset verbum
+          <lb ed="#N" n="131"/>crucis predicari.
+        </p>
+        <p xml:id="v78d89-a9lwu3-d1e193">
+          ⁋ Ad illud quod obiicitur. quod exercitium
+          mi<lb ed="#N" n="132" break="no"/>litie est parutile ecclesie et illud fit potissime in torneamentis
+          <lb ed="#N" n="133"/>etc. Dicendum quod licet torneamenta quantum ad hoc aliquid
+          ha<lb ed="#N" n="134" break="no"/>bent vtilitatis: tamen rationibus et causis predictis exercitium
+          <lb ed="#N" n="135"/>illorum damnabilem est. vt habetur. iii. ad Ro. mala non sunt
+          fa<lb ed="#N" n="136" break="no"/>cienda vt bona eueniant.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

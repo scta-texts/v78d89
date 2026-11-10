@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 37, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 37, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="228"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7whfu"><!-- q37prae -->
+        <head xml:id="v78d89-a7whfu-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-a7whfu-d1e103">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="63"/>Loco questio. xxvvii
+          <lb ed="#N" n="64"/>tractatus de officio misse tripartitus.
+        </p>
+        <p xml:id="v78d89-a7whfu-d1e112">
+          <lb ed="#N" n="65"/>SEquitur de officio
+          <lb ed="#N" n="66"/>misse siue de missa. Officium autem dicitur
+          <lb ed="#N" n="67"/>quasi efficium: ab efficiendo dictum
+          pro<lb ed="#N" n="68" break="no"/>pter decorem sermonis vna mutata
+          lit<lb ed="#N" n="69" break="no"/>tera. vel certe vt quisque illa agat que
+          nul<lb ed="#N" n="70" break="no"/>li officiant: sed prosint omnibus. sicut dicit Rabanus. Et vt
+          <lb ed="#N" n="71"/>idem dicit. Officiorum genera licet sint plurima: tamen illud
+          <lb ed="#N" n="72"/>precipue quod in sacris diuinisque rebus habetur: officii
+          no<lb ed="#N" n="73" break="no"/>mine censetur esse nuncupandum.
+        </p>
+        <p xml:id="v78d89-a7whfu-d1e134">
+          ⁋ Nota ergo quod missa dicitur
+          mul<lb ed="#N" n="74" break="no"/>tipliciter. Quandoque enim dicitur missa totum quod dicitur ab introitu
+          <lb ed="#N" n="75"/>vsque Ite missa est. Quandoque dicitur pars que primo cantatur scilicet
+          in<lb ed="#N" n="76" break="no"/>troitus: et dicitur missa quoniam angelus mittitur. Quandoque dicitur
+          mil<lb ed="#N" n="77" break="no"/>sa ab introitu vsque ad offertorium que dicitur missa
+          cathe<lb ed="#N" n="78" break="no"/>cuminorum. Cathecuminus dicitur nouiter instructus in
+          fide<lb ed="#N" n="79" break="no"/>nondum baptizatus. et dicitur missa ab emittendo. quia tunc
+          <lb ed="#N" n="80"/>emittebatur foras. Tunc enim dyaconus solet dicere. 
+          exe<lb ed="#N" n="81" break="no"/>ant cathecumini foras. Isido. Inde missa. quia
+          sacramen<lb ed="#N" n="82" break="no"/>tis altaris interesse non possunt. qui nondum regenerati
+          no<lb ed="#N" n="83" break="no"/>scuntur. amplius enim non licet neque iudeis neque paganis
+          <lb ed="#N" n="84"/>neque cathecuminis interesse. quia nondum sunt membra ec
+          <lb ed="#N" n="85"/>clesie. hoc significabat illud dictum de domino Ioh. ii. Ihs
+          <lb ed="#N" n="86"/>non credebat se eis: ipse enim sciebat quid esset in homine. I
+          <lb ed="#N" n="87"/>le autem de quibus dictum est significantur per cathecuminos.
+          Quando<lb ed="#N" n="88" break="no"/>que dicitur missa illud tantum quod sub silentio dicitur. Quanmdoque dici
+          <lb ed="#N" n="89"/>tur missa solummodo illa verba quibus dominicum corpus
+          <lb ed="#N" n="90"/>conficitur.
+        </p>
+        <p xml:id="v78d89-a7whfu-d1e173">
+          ⁋ Secundum quod missa dicitur primo modo diuiditur in tres
+          <lb ed="#N" n="91"/>partes. In quarum prima insinuatur illuminatio populi que
+          <lb ed="#N" n="92"/>extenditur vsque ad oblationem hostie. In secunda
+          immola<lb ed="#N" n="93" break="no"/>tio sacrificii que extenditur vsque post communionem. In
+          ter<lb ed="#N" n="94" break="no"/>cia rememoratio accepti beneficii diuini. que extenditur
+          <lb ed="#N" n="95"/>vsque ad finem misse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

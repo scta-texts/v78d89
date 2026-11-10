@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 87, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 87, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="558"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afvsaw"><!-- q87m1 -->
+        <head xml:id="v78d89-afvsaw-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-afvsaw-Hd1e103" type="question-title">Utrum divisio satisfactionis in partes pretactas sit sufficienter assignata</head>
+        <p xml:id="v78d89-afvsaw-d1e106">
+          <lb ed="#N" n="53"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e111">
+          <lb ed="#N" n="54"/>QUeritur ergo primo. vtrum diuisio satisfactionis in
+          <lb ed="#N" n="55"/>partes pretactas sit sufficienter assignata. Quod sic:
+          vi<lb ed="#N" n="56" break="no"/>detur per hoc. quod partes assignate correspondent tribus
+          <lb ed="#N" n="57"/>concupiscentiis que sunt indices peccati. de quibus. i. Io
+          <lb ed="#N" n="58"/>ham. ii. Omne quod est in mdo. aut concupiscentia carnis: aut concupiscentia
+          <lb ed="#N" n="59"/>oculorum: aut superbia vite. quia ergo tria sunt propter que necessaria est
+          satisfa<lb ed="#N" n="60" break="no"/>ctio scilicet abstinentia ieiunii contra concupiscentiam carnis. erogatio
+          ele<lb ed="#N" n="61" break="no"/>mosyne contra concupiscentiam oculorum. humilitas oratiois contra superbiam
+          vi<lb ed="#N" n="62" break="no"/>te. vnde Augustinus. Si vis orationem tuam volare in celum: fac ei duas
+          <lb ed="#N" n="63"/>alas scilicet ieiunium et elemosynam. hec enim tria tollunt pondus pec
+          <lb ed="#N" n="64"/>cati. abstinentia tollit pondus peccati carnis: elemosyna auaricie:
+          <lb ed="#N" n="65"/>oratio superbie.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e140">
+          ⁋ Circa hoc querit sic Augu. vt recitat magister in
+          <lb ed="#N" n="66"/>tractatu de penitentia. Ad agendam penitentiam non sufficit mores in
+          me<lb ed="#N" n="67" break="no"/>lius permutare: et a mal factis recedere: nisi de his que facta
+          sa<lb ed="#N" n="68" break="no"/>tisfaciat domino per penitentie dolorem: per humilitatis gemitum: per contriti
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>cordis sacrificium: cooperantibus elemosynis. eccehic inter ea
+          <lb ed="#N" n="70"/>que sunt satisfactoria solummodo tangit elemosynam. propter quod non
+          <lb ed="#N" n="71"/>videtur quod ieiunium et oratio sint generalia satisfactoria.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e159">
+          ⁋ Item
+          <lb ed="#N" n="72"/>i. Timo. iiii. pietas valet ad omnia. et loquitur apostolus de pietate
+          <lb ed="#N" n="73"/>que est in elemosynarum largitione. ergo est anthidotum vele quod curat omnem
+          <lb ed="#N" n="74"/>morbum spiritualem. ergo sufficit elemosyna ad satisfaciendum pro omni
+          pec<lb ed="#N" n="75" break="no"/>cato etc.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e170">
+          ⁋ Item luc. xi. date elemosynam et ecce omnia munda sunt
+          <lb ed="#N" n="76"/>vobis: et ita vt prius.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e175">
+          ⁋ Pre. videtur. quod due partes essent assignnde
+          <lb ed="#N" n="77"/>tantum scilicet oratio et ieiunium. dicitur enim Math. ix. hoc genus demoniorum etc.
+          <lb ed="#N" n="78"/>ibi dici glo. ieiunio saluantur pestes carnis. oratione pestes
+          mem<lb ed="#N" n="79" break="no"/>tis. et non nisi pestes carnis sunt et mentis: ergo ad satisfactionem
+          <lb ed="#N" n="80"/>omnium pestium siue peccatorum sufficit ieiunium et oratio.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e186">
+          ⁋ Preterea. peccatum
+          <lb ed="#N" n="81"/>diuiditur bimembri diuisione. secundum quod dicitur omne peccatum est ex amore
+          <lb ed="#N" n="82"/>male accendente: vel timore male humiliante. Alio modo
+          trimen<lb ed="#N" n="83" break="no"/>pri vt ibi. omne quod est in mdo etc. Alio modo septimembri et
+          mul<lb ed="#N" n="84" break="no"/>tis aliis modis. quare ergo sumuntur partes satisfactionis per oppositum
+          <lb ed="#N" n="85"/>dromitris peccati secundum quod diuiditur trimembri diuisione: magis quam secundum
+          <lb ed="#N" n="86"/>quod alio modo diuiditur. Mto enim ploa sunt genera peccatorum quam tria.
+          <lb ed="#N" n="87"/>cum ergo generibus peccatorum dominut respondere genera satisfactionis: vidtur o
+          <lb ed="#N" n="88"/>multo plores dominut assignari partes quam tres.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e206">
+          ⁋ Item multa alia sunt
+          <lb ed="#N" n="89"/>satisfactoria preter tria pretacta scilicet peregriationes. vigilie et
+          disci<lb ed="#N" n="90" break="no"/>pline et multa alia. vnde videtur idem vt prius.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e213">
+          ⁋ Responsio. quolibet horum
+          tri<lb ed="#N" n="91" break="no"/>um dicitur proprie: et communiter: et communissime. Proprie est oratio ascensus in
+          <lb ed="#N" n="92"/>deum ad aliquod degustandum aut impetrandum. Communiter dicta oratio
+          <lb ed="#N" n="93"/>comprehendit omnem actum contemplatiue ad deum relatum. Commnissime
+          di<lb ed="#N" n="94" break="no"/>cta comprehendit omneum actum bonum. secundum quod dicitur. Non cessat orare qui
+          <lb ed="#N" n="95"/>non cessat benefacere. In glo. i. Timoth ii. Similiter ieiunium proprie
+          <lb ed="#N" n="96"/>dicitur abstinentia ab escis et potibus. communiter dicitur afflictio carnis:
+          <lb ed="#N" n="97"/>communissime dicitur abstinentia ab omni mortali ysa. lviii. Nonne hoc est
+          <lb ed="#N" n="98"/>maius ieiunium quod elegi: dissoluere colligationes impietatis. Similir
+          <lb ed="#N" n="99"/>elemosyna proprie est opst pietatis impensum proximo ad releuandum
+          <lb ed="#N" n="100"/>eius indigentiam corporalem. comune omne opst pietatis impensum proximo
+          <lb ed="#N" n="101"/>siue corporale siue spirituale. communissime dicitur omne opst misericordie
+          impen<lb ed="#N" n="102" break="no"/>sum siue proximo. siue sibipsi. secundum quod dicit Augustinus quod elemosyna hominis
+          <lb ed="#N" n="103"/>debet incipere a seipsa. secundum illud Ecesiati. xxx. Miserere anime
+          <lb ed="#N" n="104"/>tue placens deo. hec ergo tria prout sunt partes satisfactionis: non ac
+          <lb ed="#N" n="105"/>cipiuntur communissime non proprie: sed communiter. Et tunc patet horum distinctio
+          <lb ed="#N" n="106"/>et sufficientia ex hoc. Cum sit triplex radix peccati secundum quod
+          dici<lb ed="#N" n="107" break="no"/>tur. i. Ioh. ii. Aut concupiscentia carnis: et contra hanc est
+          ie<lb ed="#N" n="108" break="no"/>iunium. Aut concupiscentia oculorum: et contra hanc est elemosyna.
+          <lb ed="#N" n="109"/>Aut superbia vite: et contra hanc est oratio. Uel aliter: opst penale aut
+          <lb ed="#N" n="110"/>ordinat ad deum: et sic est oratio. aut ad nos: sic est ieiunium quod
+          <lb ed="#N" n="111"/>affligat carnem nostram. aut ad proximum: sic est elemosyna. hec autem
+          ordi<lb ed="#N" n="112" break="no"/>natio insinuatur ad Titum. ii. Sobrie et pie et iuste viuamus etc
+          <lb ed="#N" n="113"/>sobrie quantum ad se: pie quantum ad deum: iuste quantum ad proximum
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e266">
+          <lb ed="#N" n="114"/>⁋ Ad illud ergo quod primo obicitur. quod secundum Augustinus. alia sunt
+          satisfacto<lb ed="#N" n="115" break="no"/>ria. dicendum quod ieiunium et oratio intelliguntur. per gemitum humilitatis
+          <lb ed="#N" n="116"/>et sacrificium cordis contriti. gemitus enim humilitatis ad
+          pas<lb ed="#N" n="117" break="no"/>sionem carnis infertur. sacrificium cordis in oratione perficitur. que est
+          <lb ed="#N" n="118"/>pius mentis affectus in deum directus.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e279">
+          ⁋ Ad illud quod obiicitur.
+          <lb ed="#N" n="119"/>quod pietas valet ad omnia etc. Dicendum quod licet elemosyna valeai ad
+          <lb ed="#N" n="120"/>omne genus peccati delendum scilicet dispositiue: non tamen propter hoc quod
+          <lb ed="#N" n="121"/>alie partes satisfactionis non sint satisfactorie. Non enim dicitur ad
+          <lb ed="#N" n="122"/>omnia valere. quia est medicina generalis sanans omnes
+          mor<lb ed="#N" n="123" break="no"/>hos per contrrietatem. sed quia aliquo modo est operatiua ad remissionem omnis
+          <lb ed="#N" n="124"/>peccati ex dei misericordia.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e295">
+          ⁋ Ad illud quod obicitur. date elemosynam
+          <lb ed="#N" n="125"/>etc. Dicendum quod hoc intelligitur secundum quod elemosyna est opst pietatis
+          <lb ed="#N" n="126"/>auersum in ipsum agentem secundum ordinis exigentiam pietatis.
+          pro<lb ed="#N" n="127" break="no"/>ut dicitur Ecesiastici. xxx. Miserere anime tue placens deo.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e304">
+          ⁋ Ad
+          ali<lb ed="#N" n="128" break="no"/>ud dicendum. quod cum obicitur ieiunio sanantur pestes etc. Dicendum. pestes
+          <lb ed="#N" n="129"/>sunt occasiones naturales ad peccandum. cuiusmodi sunt calida et
+          <lb ed="#N" n="130"/>humida complexio. et nimia carnositas et huiusmodi. que aliquando sunt
+          <lb ed="#N" n="131"/>occasiones peccati carnis. que ieiunio reprimuntur. similiter pestes
+          <lb ed="#N" n="132"/>mentis dicuntur occasiones libidinis. sicut est accidia sicut est
+          <lb ed="#N" n="133"/>passio et alia huiusmodi que in oratione remouentur. vnde non dicit
+          vi<lb ed="#N" n="134" break="no"/>cia vel peccata sed pestes.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e322">
+          ⁋ Adhuc etiam notandum quod quodlibet isto
+          <lb ed="#N" n="135"/>rum scilicet ieiunium. et oratio. et elemosyna etc. est satisfactorium et medicina
+          <lb ed="#N" n="136"/>nec tamen dicendum est quod penitentia sit medicina effectiua sanitatis
+          <lb ed="#N" n="137"/>spiritualis. immo solus deus sanat ipsam animam per gratie
+          infusi<lb ed="#N" n="138" break="no"/>onem: sed est medicina conseruatiua et preseruatiua et
+          meliora<lb ed="#N" n="139" break="no"/>tiua sanitatis spiritualis. sicut enim non dicitur perfecte sanatus
+          cor<pb ed="#N" n="559"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>poraliter qui defacili patitur recidiuum. immo necesse est talem
+          vti<lb ed="#N" n="2" break="no"/>medicina et dieta conseruatiua sanitatis: ita non est perfecte
+          sa<lb ed="#N" n="3" break="no"/>natus spiritualiter qui leui occasione labitur in peccatum. vnde necesse est
+          <lb ed="#N" n="4"/>talem vti medicina conseruatiua sanitatis. et de tali medicina
+          <lb ed="#N" n="5"/>dictum est: quod sanat oculum. non sanat calcaneum etc. Pestis enim
+          <lb ed="#N" n="6"/>superbie non sanatur sic per ieiunium. quia licet infusa sit gratia: adhuc
+          <lb ed="#N" n="7"/>tamen remanet fomes et inflammatur ex ea parte ex qua prius erat
+          in<lb ed="#N" n="8" break="no"/>flammatus. vnde bene potest concedi quod ieiunium satisfaciat pro peccato
+          super<lb ed="#N" n="9" break="no"/>bie. sed non sanat nisi peccatum luxurie. vnde alia ratione dicitur
+          medi<lb ed="#N" n="10" break="no"/>cina: alia ratione dicitur satisfactoria. vnde non valet hoc
+          argumen<lb ed="#N" n="11" break="no"/>tum. nullius pene debitor est iste: ergo ex toto est sanatus. cum enim
+          <lb ed="#N" n="12"/>debitor sit pene alicus: adhuc manet in ipso fomes
+          inflamma<lb ed="#N" n="13" break="no"/>tus et pronitas cadendi.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e366">
+          ⁋ Ad aliud dicendum. quod tunc satisfactum est
+          <lb ed="#N" n="14"/>conuenienter quando delinquens reconciliatus est perfecte in quem deliquit. et
+          <lb ed="#N" n="15"/>perfancte punitur ipse delinquens coram illis: erga quos deliquit. vt deo per
+          <lb ed="#N" n="16"/>orationis huminlitatem: proximo per elemosyne largitatem: sibi per carnis
+          <lb ed="#N" n="17"/>maculationem. Item hec tria sunt contra tres appetitus hominis. contra
+          appe<lb ed="#N" n="18" break="no"/>titum vegetabilis ieiunium. contra appetitum sensibilis elemosyna. contra
+          <lb ed="#N" n="19"/>appetitum rationalis oratio. et hoc dico quantum ad partem inferiorem rationis
+          <lb ed="#N" n="20"/>appetitus vegetabilis infertur ad corpus. rationalis ad animam:
+          sensi<lb ed="#N" n="21" break="no"/>bili ad vtrumque. vnde ieiunium ad corpus: oratio ad animam: elemosyna ad
+          <lb ed="#N" n="22"/>vtrumque refertur. His ergo tribus perfecte et totaliter affligitur homo. et ideo
+          <lb ed="#N" n="23"/>perfecta fit et vtilis reconciliatio. propter quod conuenientissime per ista
+          <lb ed="#N" n="24"/>tria distinguuntur tres partes satisfactionis.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e393">
+          ⁋ Adhuc etiam
+          notan<lb ed="#N" n="25" break="no"/>dum. quod proximum ad vitam est saluatio vite. et propter hoc vita manente
+          <lb ed="#N" n="26"/>voluntaria: pena ex parte carnis est principalis et prima satisfacto
+          <lb ed="#N" n="27"/>ria. que est subtractio ab his que saluant. sed hoc est ieiunium. quare ipsum
+          <lb ed="#N" n="28"/>est prencipale satisfactorium ex parte carnis: cum ad eius oppositum
+          in<lb ed="#N" n="29" break="no"/>clinatur natura. Similiter ex parte proximi est proximum saluare vitam eius. sed
+          <lb ed="#N" n="30"/>hoc principaliter fit per exemosynam: ergo elemosyna est principaliter satisfactoria
+          <lb ed="#N" n="31"/>quo ad proximum. Quia vero nihil plus placet deo ex parte nostra
+          satis<lb ed="#N" n="32" break="no"/>faciendum quam recognitio peccati. et proprie impotentie: et
+          supplicatio<lb ed="#N" n="33" break="no"/>venie: hoc autem fit in oratione satisfactoria: ideo principaliter satisfacto
+          <lb ed="#N" n="34"/>rium quantum ad deum est oratio propter hoc ergo hec tria ponuntur principaliter
+          sa<lb ed="#N" n="35" break="no"/>tisfactoria.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e419">
+          ⁋ Aliter potest dici ad obiecta. quod cum oratio dicatur proprie.
+          <lb ed="#N" n="36"/>communiter. et communissime: similiter elemosna et ieiunium. in predictis auctoritatibus
+          <lb ed="#N" n="37"/>quibus oratio vel elemosyna solum sufficit ad satisfaciendum: vel quod oratio
+          <lb ed="#N" n="38"/>et ieiunium: potest dici quod in illis auctoritatibus non sumuntur ieiunium ele
+          <lb ed="#N" n="39"/>mosyna et oratio spectialiter: secundum quod sunt partes satisfactorie: sed
+          communis<lb ed="#N" n="40" break="no"/>sime sumuntur.
+        </p>
+        <p xml:id="v78d89-afvsaw-d1e432">
+          ⁋ Ad illud quod obicitur. quod plora sunt satisfactoria scilicet
+          <lb ed="#N" n="41"/>vigilie peregrinationes etc. potest dici quod secundum quod tria dicta communiter
+          <lb ed="#N" n="42"/>sumuntur: multa genera operum in se comprhendunt. vnde vigilie
+          di<lb ed="#N" n="43" break="no"/>scipline comprehenduntur sub ieiunio communiter sumpto. Similiter est de
+          <lb ed="#N" n="44"/>aliis satisfactoriis que sub his tribus communiter sumptis
+          comprehendun<lb ed="#N" n="45" break="no"/>tur. vel ad illa reducuntur sicut adminiculantia illis. vt enim habetur ab
+          <lb ed="#N" n="46"/>Augustinus. molestie tribulationes temporales tanquam morum ad victoriam
+          <lb ed="#N" n="47"/>plorimum prosunt. vel ad sanandum tumorem superbie: vel ad
+          proban<lb ed="#N" n="48" break="no"/>dam exercendamque patimam. ex quo relinquitur. quod alique pene
+          infli<lb ed="#N" n="49" break="no"/>cte sunt sicut quedam adiutoria orationis ieiunii et elemosyne. Unde sicut
+          <lb ed="#N" n="50"/>sunt tria peccata generalia ad que alia reducuntur sicut ad principalio
+          <lb ed="#N" n="51"/>ra: similiter sunt satisfactoria vt vigilie. discipline. et huiusmodi. que alio
+          <lb ed="#N" n="52"/>modo reducuntur ad tria principalia satisfactoria que sunt
+          ie<lb ed="#N" n="53" break="no"/>iunium oratio et elemosyna.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

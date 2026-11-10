@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 11, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 11, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="96"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3c1o0"><!-- q11m4 -->
+        <head xml:id="v78d89-a3c1o0-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a3c1o0-Hd1e103" type="question-title">De definitione Augustini</head>
+        <p xml:id="v78d89-a3c1o0-d1e106">
+          <lb ed="#N" n="99"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e111">
+          <lb ed="#N" n="100"/>Ubitatur de diffinitione augustinus. hac scilicet baptismus
+          <lb ed="#N" n="101"/>est tinctio in aqua verbo vite sanctificata. Que
+          <lb ed="#N" n="102"/>non videtur multum differre a prima scilicet illa que
+          <lb ed="#N" n="103"/>est magistri senten. tinctio enim in aqua non est
+          <lb ed="#N" n="104"/>aliud hic quam ablutio. Sanctificatio autem per verbum vite
+          se<lb ed="#N" n="105" break="no"/>quitur ex forma verborum prescripta: cum verbum
+          acce<lb ed="#N" n="106" break="no"/>dit ad elementum.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e129">
+          ⁋ Obiicitur tamen de hoc quod dicitur
+          tin<lb ed="#N" n="107" break="no"/>ctio et non determinatur cuius. vnde videtur quod diminuta sit
+          <lb ed="#N" n="108"/>cum multorum solet esse tinctio quorum non est baptismus.
+          <lb ed="#N" n="109"/>Unde videtur quod deberet dicere baptismus est tinctio hominis
+          <lb ed="#N" n="110"/>in a qua.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e141">
+          ⁋ Item si baptismus est tinctio. aut tinctio actio:
+          <lb ed="#N" n="111"/>aut tinctio passio. Non tinctio actio: quia illa est ipsius
+          age<lb ed="#N" n="112" break="no"/>tis vt sacerdotis vel alterius intingentis. Non tinctio passio
+          <lb ed="#N" n="113"/>quia sacramenta efficiunt quod figurant. tinctio passio fit et
+          <lb ed="#N" n="114"/>non facit.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e152">
+          ⁋ Item tinctio transit et non manet: baptismus
+          ma<lb ed="#N" n="115" break="no"/>net.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e157">
+          ⁋ Item dicit verbo vite. aut ibi sumitur verbum vite pro
+          <lb ed="#N" n="116"/>verbo creato: aut increato. Non increato vt videtur: quia
+          ver<lb ed="#N" n="117" break="no"/>bum illud est verbum prolatum a sacerdote. Unde hugo. In
+          <lb ed="#N" n="118"/>baptismo sunt tria. Representatio ex similitudine: significatio
+          <lb ed="#N" n="119"/>ex institutione: virtus ex significatione. Prima est indita per creato
+          <lb ed="#N" n="120"/>rem. secunda adiuncta per saluatorem. tercia ministrata per
+          dispensa<lb ed="#N" n="121" break="no"/>torem.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e173">
+          ⁋ Contra. hugo. Recte per verbum dei sanctificantur que
+          <lb ed="#N" n="122"/>per verbum dei creata subsistunt. per verbum creare potuit: et per
+          ver<lb ed="#N" n="123" break="no"/>bum sanctificare non poterat. hec hug. sed creata subsistunt per
+          <lb ed="#N" n="124"/>verbum increatum.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e182">
+          ⁋ Item queritur de hoc quod dicit sanctificata
+          <lb ed="#N" n="125"/>Sanctificatio hec non est aliud quam collatio virtutis
+          regene<lb ed="#N" n="126" break="no"/>ratiue. sed hec fuit collata ex contactu carnis christi.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e189">
+          ⁋ Responsio ad
+          <lb ed="#N" n="127"/>primum. quod licet contigerit multa tingi que non sunt vel fuerunt
+          bapti<lb ed="#N" n="128" break="no"/>sata: non tamen in aqua verbo vite sanctificata. Illa enim tinctio
+          <lb ed="#N" n="129"/>regeneratio est. Si enim aliquid aliud ab homine tingeret in aqua
+          <lb ed="#N" n="130"/>cum prolatione horum verborum in nomine pa. et fi. et scililicet non esset illa
+          <lb ed="#N" n="131"/>tinctio in aqua sanctificata verbo vite. Uerbum enim illud non
+          <lb ed="#N" n="132"/>est verbum vite nisi habilibus ad vitam et inquantum profertur cum
+          in<lb ed="#N" n="133" break="no"/>tentione habilitandi ad vitam.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e208">
+          ⁋ Ad aliud dicendum. quod
+          ba<lb ed="#N" n="134" break="no"/>ptismus dicitur tinctio passio. que licet fiat siue efficiatur:
+          ni<lb ed="#N" n="135" break="no"/>hilominus efficit. Efficitur enim exterius et efficit interius vt supra
+          ta<lb ed="#N" n="136" break="no"/>ctum est.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e217">
+          ⁋ Ad aliud dicendum. quod transit secundum actum: manet autem
+          <lb ed="#N" n="137"/>secundum effectum. et maxime quantum ad caracterem.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e222">
+          ⁋ Ad aliud
+          dicem<lb ed="#N" n="138" break="no"/>dum. quod verbum sumitur pro verbo creato et increato scilicet filio
+          dei<lb ed="#N" n="139" break="no"/>sed differenter. pro creato quo fit sanctificatio per se efficiendo
+          <lb ed="#N" n="140"/>magis autem prout hic accipitur attenditur de verbo creato quod
+          acce<pb ed="#N" n="97"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>dens ad elementum efficit sacramentum.
+        </p>
+        <p xml:id="v78d89-a3c1o0-d1e235">
+          ⁋ Ad aliud dicendum. quod
+          <lb ed="#N" n="2"/>sanctificatio id est virtus regeneratiua est a contactu carnis christi
+          po<lb ed="#N" n="3" break="no"/>tentialiter: a verbo actualiter. exemplum ad hoc est color
+          moti<lb ed="#N" n="4" break="no"/>uum visus de nocte: potentia de die actu. per contactum enim fit
+          qua<lb ed="#N" n="5" break="no"/>dam dispositio in elemento aque. que per verbum in actum
+          reduci<lb ed="#N" n="6" break="no"/>tur: cum a sacerdote ex intentione debite profertur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 44, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 44, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="319"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a93k2v"><!-- q44m7 -->
+        <head xml:id="v78d89-a93k2v-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-a93k2v-Hd1e103" type="question-title">Utrum Christus poterat facere quod anima sua in triduo esset cum corpore existente in uno loco: et cum eodem existente in alio loco</head>
+        <p xml:id="v78d89-a93k2v-d1e106">
+          <lb ed="#N" n="106"/>⁋ Membrum septimum
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e111">
+          <lb ed="#N" n="107"/>COnsequenter queritur. vtrum christus poterat facere quod
+          <lb ed="#N" n="108"/>anima sua in triduo esset cum corpore existente in
+          <lb ed="#N" n="109"/>vno loco: et cum eodem existente in alio loco.
+          <lb ed="#N" n="110"/>Et videtur quod sic: per hoc. Anima est magis nata esse in corpore
+          <lb ed="#N" n="111"/>cuius est perfectio quam in alio. sed dominus fecit quod ipsa
+          anima<lb ed="#N" n="112" break="no"/>non existens in corpore suo fuit in inferno: ergo cum magis nata
+          <lb ed="#N" n="113"/>esset esse in corpore suo quam in inferno: videtur quod existente corpore
+          <lb ed="#N" n="114"/>christi sub sacramento facilius fieri posset quod esset in corpore illo
+          <lb ed="#N" n="115"/>quam in inferno. et ita patet propositum.
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e133">
+          ⁋ Item si animam exutam
+          <lb ed="#N" n="116"/>a corpore existente in sepulcro. non posset vnire eidem
+          existen<lb ed="#N" n="117" break="no"/>ti sub sacramento: videtur impotens fuisse.
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e141">
+          ⁋ Item non est
+          cor<lb ed="#N" n="118" break="no"/>poris glorificati ratione qua est glorificatum esse simul et semel in
+          <lb ed="#N" n="119"/>diuersis locis. Unde corpus christi non ratione qua est glorificatum
+          <lb ed="#N" n="120"/>est simul et semel in diuersis locis: sed ratione qua est deificatum
+          <lb ed="#N" n="121"/>siue vnitum diuintati. sed si virtute diuintatis potuit homo in
+          sua<lb ed="#N" n="122" break="no"/>integritate simul et semel esse in diuersis locis: cum in
+          tri<lb ed="#N" n="123" break="no"/>duo sepulture fuit vtraque natura christi hominis scilicet corpus et anima
+          <lb ed="#N" n="124"/>vnita diuinitati: potuit vtraque natura esse in diuersis locis
+          <lb ed="#N" n="125"/>quibuscumque. igitur anima christi exuta a corpore existente in
+          forma<lb ed="#N" n="126" break="no"/>propria. simul et semel potuit virtute diuintatis esse in
+          inferno<lb ed="#N" n="127" break="no"/>et in corpore christi existente sub forma panis
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e165">
+          ⁋ Contra. his
+          <lb ed="#N" n="128"/>suppositis sequitur. quod posset facere contradictoria simul et
+          se<lb ed="#N" n="129" break="no"/>mel esse vers. quia tunc alicui esset viuus et homo: alicui
+          mor<lb ed="#N" n="130" break="no"/>tuus et non homo. quod non videtur. Quod ostenditur sic. nulla est
+          <lb ed="#N" n="131"/>veritas quam deus nesciat. vnde in mente eius est omnis veritas
+          <lb ed="#N" n="132"/>si igitur essent contradictoria simul vera: essent in mente eius
+          ve<lb ed="#N" n="133" break="no"/>ritates contradictorie. sed ipse est quicquid est in mente eius igitur
+          <lb ed="#N" n="134"/>esset ibi contradictoria.
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e183">
+          ⁋ Responsio. dicendum quod deus potuit
+          <lb ed="#N" n="135"/>tunc et potest fecisse: quod anima fuisse alicui in corpore suo et alicui
+          cor<lb ed="#N" n="136" break="no"/>pus sine illa. posset quidam de potentia: non autem de congruentia.
+          <lb ed="#N" n="137"/>non enim congrueret quod corpus christi esset mortuum et viuum. huiusmodi
+          <lb ed="#N" n="138"/>autem confusio formarum non conuenit diuine sapientie qua omnia
+          <lb ed="#N" n="139"/>optime ordinantur. Unde bene concedo. quod potiut fecisse
+          ani<lb ed="#N" n="140" break="no"/>man exutam a corpore existente sub forma propria: intrare
+          <pb ed="#N" n="320"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>corpus existens sub specie panis. sed non congruebat sicut
+          comn<lb ed="#N" n="2" break="no"/>gruebat quod intrabat infernum.
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e207">
+          ⁋ Ad illud quod obiicitur. quod
+          ani<lb ed="#N" n="3" break="no"/>ma est magis nata vniri cum corpore etc. dicendum quod ad hoc
+          <lb ed="#N" n="4"/>est magis nata: quod magis congruit diuine ordinationi.
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e214">
+          ⁋ Ad
+          <lb ed="#N" n="5"/>id quod queritur. vtrum poterat fecisse quod corpus fuisset in
+          di<lb ed="#N" n="6" break="no"/>uersis locis. ita quod haberet animam sibi vnitam in vno loco et
+          <lb ed="#N" n="7"/>non in alio. dico quod potuit de potentia non tamen de congruentia
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e223">
+          <lb ed="#N" n="8"/>⁋ Ad aliud quod obiicitur. quod virtute deitatis potuit
+          anima<lb ed="#N" n="9" break="no"/>christi simul et semel esse in inferno: et in corpore christi existente sub
+          <lb ed="#N" n="10"/>forma panis. dicendum quod etsi potuit der potentia: non tamen de
+          <lb ed="#N" n="11"/>congruentia. quia si esset in corpore existente sub forma panis. aut
+          <lb ed="#N" n="12"/>perficeret corpus illud viuificando: aut non. Si sic: igitur
+          ac<lb ed="#N" n="13" break="no"/>ciderent inconuenientia que posita sunt esse viuum et esse
+          mor<lb ed="#N" n="14" break="no"/>tuum. et quod christus hic esset homo et ibi non homo. Si non: tunc
+          accide<lb ed="#N" n="15" break="no"/>ret quod anima esset in corpore organizat perfectibili ab ipsa et non
+          <lb ed="#N" n="16"/>viuificaret illud sed esset mortuum. quod est contra diuinam
+          or<lb ed="#N" n="17" break="no"/>dinationem. Unde non videtur conueniens hec positio.
+        </p>
+        <p xml:id="v78d89-a93k2v-d1e248">
+          ⁋ Ad sed
+          <lb ed="#N" n="18"/>quod obiicitur in contrarium. quia tunc contradictorie essent simul
+          ve<lb ed="#N" n="19" break="no"/>re. dicendum quod hoc posito non accidit contradictorie simul esse
+          <lb ed="#N" n="20"/>vera. quod sic patet. secundum enim illam positionem demonstrata
+          car<lb ed="#N" n="21" break="no"/>ne in pixide: bec vera esset hec caro est viua.
+          demonstrata<lb ed="#N" n="22" break="no"/>eadem in sepulcro hec esset vera: hec caro est mortua et per
+          con<lb ed="#N" n="23" break="no"/>sequens non est viua. nec sunt iste contradictorie. hec caro
+          ali<lb ed="#N" n="24" break="no"/>cui est viua alicui non est viua: sed subcontrarie. sed hec esset
+          <lb ed="#N" n="25"/>ei contradictoria. nusquam est viua que non concederetur illa posi
+          <lb ed="#N" n="26"/>tione stante. similiter nec hec. hec caro christi non est viua
+          de<lb ed="#N" n="27" break="no"/>monstrata ea in sepulcro. Est enim sensus. hec caro numquam est
+          <lb ed="#N" n="28"/>viua. confundit enim negatio qucd confundit confuse et distri
+          <lb ed="#N" n="29"/>butiue. nec sequitur. alicui non est viua. ergo non est viua.
+          si<lb ed="#N" n="30" break="no"/>cut non sequitur: aliquis homo non currit: ergo nullus homo cur
+          <lb ed="#N" n="31"/>rit. Preterea. non dico quod posito quod contradictorie essent
+          si<lb ed="#N" n="32" break="no"/>mul vere. quod propter hoc sequeretur quod deus esset sibi contradi
+          <lb ed="#N" n="33"/>ctorius. et causa huius est. quia vnica simplicissima ydea
+          <lb ed="#N" n="34"/>vtranque veritatem haberet in mente: sicut eadem habet
+          oppo<lb ed="#N" n="35" break="no"/>sitorum cognitionem in diuersis temporibus. quia tamen huius confusio
+          <lb ed="#N" n="36"/>fieret in preiudicium diuine sapientie omnia congrue ordinantis
+          <lb ed="#N" n="37"/>licet huiusmodi posset facere de potentia: non tamen de congruentia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

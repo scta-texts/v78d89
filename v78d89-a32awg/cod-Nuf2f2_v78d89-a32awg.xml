@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 9, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="86"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a32awg"><!-- q9m6 -->
+        <head xml:id="v78d89-a32awg-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-a32awg-Hd1e103" type="question-title">Qui fuerunt illo baptismo baptizati</head>
+        <p xml:id="v78d89-a32awg-d1e106">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="68"/>⁋ Membrum sextum
+        </p>
+        <p xml:id="v78d89-a32awg-d1e113">
+          <lb ed="#N" n="69"/>SEquitur inquirere qui fuerunt baptismo illo
+          bapti<lb ed="#N" n="70" break="no"/>zati. Primo ergo queritur de christo si baptizatus fuerit
+          <lb ed="#N" n="71"/>eodem baptismo. Secundo. si congruebat illum solo
+          <lb ed="#N" n="72"/>iohis baptismo baptizari. Tercio. de
+          cir<lb ed="#N" n="73" break="no"/>cumstantiis baptismi. Quarto. vtrum paruuli et mulieres
+          ba<lb ed="#N" n="74" break="no"/>ptizati fuerunt baptismo iohis.
+        </p>
+        <div xml:id="v78d89-a32awg-Dd1e129">
+          <head xml:id="v78d89-a32awg-Hd1e131">Articulus 1</head>
+          <p xml:id="v78d89-a32awg-d1e133">
+            <lb ed="#N" n="75"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a32awg-d1e138">
+            <lb ed="#N" n="76"/>⁋CIrca primum sic. Cum omnis christi actio nostra est
+            instru<lb ed="#N" n="77" break="no"/>ctio. si baptizatus est iohnis baptismo. ergo et nos
+            <lb ed="#N" n="78"/>debemus baptizari illo baptismo. sed hoc non conquit:
+            <lb ed="#N" n="79"/>ergo non congruebat quod christus baptizaretur illo baptismo.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e149">
+            ⁋ Item
+            su<lb ed="#N" n="80" break="no"/>scepit circumcisionem que aliis erat in remedium culpe
+            origina<lb ed="#N" n="81" break="no"/>lis. ergo debuit baptizari illo baptismate que erat aliis in
+            re<lb ed="#N" n="82" break="no"/>missionem culpe originalis. sed hoc non fuit baptisma iohis. ergo non
+            <lb ed="#N" n="83"/>debuit illo baptismo baptizari.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e160">
+            ⁋ Ad quod dicendum. quod
+            pluri<lb ed="#N" n="84" break="no"/>bus de causis voluit christus baptizari et etiam baptismo iohis
+            <lb ed="#N" n="85"/>quarum tres tanguntur in glo. super illud Mar. i. Baptizatus est ihs
+            <lb ed="#N" n="86"/>a iohne. vbi dicitur. quod tribus de causis vt veritatem et humilitatem im
+            <lb ed="#N" n="87"/>pleret. vt baptisma iohis approbaret vt iordanis aquam
+            <lb ed="#N" n="88"/>sanctificans per descensionem columbe: spirumsa. in baptismo esse demodo
+            <lb ed="#N" n="89"/>straret. Item aliam causam tangit augustinus. in libro. de natura summi
+            bo<lb ed="#N" n="90" break="no"/>ni. vbi dicit. quod ille per quem facta sunt omnia ab illo qui factus est inter
+            <lb ed="#N" n="91"/>omnia baptizari voluit. vt ostenderet non interesse quis a quo
+            bapti<lb ed="#N" n="92" break="no"/>zaretur cum eo baptismo quo baptizatus est pharisei baptizentur.
+            <lb ed="#N" n="93"/>Nec cum phariseis dedigngretur ille baptizari si haberent huiusmodi
+            <lb ed="#N" n="94"/>baptismum pharisei a quo ille certi sacramenti voluit baptizari. et
+            <lb ed="#N" n="95"/>hoc idem dicitur in glo. super illud. angelis suis mandauit de te etc.
+            <lb ed="#N" n="96"/>Aliam etiam causam tangit augustinus. in libr. q. no. et ve. testa. vbi dicitur.
+            <lb ed="#N" n="97"/>Saluator mundi instituit fieri debere non propter peccatum: sed propter
+            <lb ed="#N" n="98"/>iusticiam implendam. Dignum enim erat vt exemplo esset futuris
+            fi<lb ed="#N" n="99" break="no"/>liis dei: qui per baptismum filios dei fieri docebat. debuit in se hoc
+            <lb ed="#N" n="100"/>visibiliter demonstrare: quo comperto credentes se posse inuisibiliter
+            <lb ed="#N" n="101"/>spiriunsa. accipere in spe haberent. Aliam autem causam assignat Cris. quare
+            <lb ed="#N" n="102"/>dominus ostensurus mirabilia quedam in baptismo suo voluit ab
+            ipso<lb ed="#N" n="103" break="no"/>baptizari scilicet quia iohnem multomaiorem quam christum existimabant. et
+            <lb ed="#N" n="104"/>ideo vt hanc opentiom remoueret: venit ostensurus mirabilia que fuert
+            <lb ed="#N" n="105"/>quando baptizatus est. vnde dicit Cris. Contigit autem et christum
+            baptizari<lb ed="#N" n="106" break="no"/>a iohne. quod magis hanc certificabat suspicationem etsi nihil
+            preo<lb ed="#N" n="107" break="no"/>rum esset. Cogitabant enim quoniamquidem mstorum hoc vnus erat. neque enim
+            si<lb ed="#N" n="108" break="no"/>non multorum vnus esset: non vtique cum multis ad baptisma venisset.
+            <lb ed="#N" n="109"/>Ille autem maior eo et multomirabilior. nnde igitur ne hec
+            opi<lb ed="#N" n="110" break="no"/>nio apud multos existeret: et celi aperiuntur baptizato eo: et
+            <lb ed="#N" n="111"/>spiritus sanctus descendit: et vox cum eo predicans vnigeniti dignita
+            <lb ed="#N" n="112"/>tem. Sic ergo assignantur diuerse cause quare christus voluit
+            bapti<lb ed="#N" n="113" break="no"/>zari a iohane.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e229">
+            ⁋ Ad hoc quod obiicitur. quod per hoc quod baptizatus est
+            instru<lb ed="#N" n="114" break="no"/>xit alios ad simile quod non congruebat. dicendum quod congruebat illo
+            ba<lb ed="#N" n="115" break="no"/>ptismo baptizari quo peccata non dimittebantur. cum ipse non tantum sine
+            <lb ed="#N" n="116"/>peccato esset: sed etiam venit ad tollendum peccata. Nec etiam est
+            <lb ed="#N" n="117"/>simile de nobis qui nascimur cum peccato. fuit enim eius actio quo ad
+            <lb ed="#N" n="118"/>hoc nostera instructio. Si dominus humiliauit se ad baptismum serui:
+            <lb ed="#N" n="119"/>nos qui indigemus humiliemus nos ad baptismum conserui. Preterea.
+            <lb ed="#N" n="120"/>iohnes instruxit quos baptizauit baptisma suum non sufficere ad
+            <lb ed="#N" n="121"/>salutem: sed baptisma christi. In hoc autem quod instruxit baptisma
+            io<lb ed="#N" n="122" break="no"/>hannis esse appetendum: instruxit baptisma christi magis
+            appe<lb ed="#N" n="123" break="no"/>ti debere. vnde. iii. Math. Ego baptizo vos in aqua: ipse
+            ba<lb ed="#N" n="124" break="no"/>ptizabit vos in spiritusa. ibi glo. tantum corpora lauo: quia peccata
+            sol<lb ed="#N" n="125" break="no"/>uere nequeo. vt sicut nascendo predicando precurro: sic
+            bapti<lb ed="#N" n="126" break="no"/>zando vt penitens quos ego hoc signaculo ab
+            impeniten<lb ed="#N" n="127" break="no"/>tibus decerno ad baptisma christi dirigam.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e262">
+            ⁋ Ad secundum
+            <lb ed="#N" n="128"/>dicendum. quod non est simile de circumcisione quam suscepit
+            <lb ed="#N" n="129"/>et de baptismo. Circumcisionem enim non propter hoc
+            susce<lb ed="#N" n="130" break="no"/>pit quod erat remotiua culpe originalis: sed vt eam
+            termi<lb ed="#N" n="131" break="no"/>nandam monstraret sui sanguinis effusione in passione.
+            <lb ed="#N" n="132"/>vt habetur ab Orige. cuius arra erat in circumcisione.
+            <lb ed="#N" n="133"/>et propter alias causas quas tangit Augusti. super illud
+            <lb ed="#N" n="134"/>Luce. Postquam consummati sunt dies octo vt
+            circumcidere<lb ed="#N" n="135" break="no"/>tur. Baptisma autem iohannis suscepit vt virtutem aque
+            <lb ed="#N" n="136"/>conferret sue carnis contactu: et nos ad baptisma suum
+            <pb ed="#N" n="87"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>dirigeret vt sacramentum regenerationis acciperemus sicut in supra
+            <lb ed="#N" n="2"/>dicta tangitur auctoritate. Pret. alia causa fuit exemplum ad
+            <lb ed="#N" n="3"/>implende perfecte iusticie. que habetur. iii. math. cum dicitur. sic nos
+            <lb ed="#N" n="4"/>decet adimplere omnem iusticiam. glo. sic decet id est per humilitatis
+            <lb ed="#N" n="5"/>exemplum. Alia glo. sic decet nos dare exemplum implende omnis
+            <lb ed="#N" n="6"/>iusticie vel omnem iusticiam id est perfectam humilitatem. Unde glo. sic de
+            <lb ed="#N" n="7"/>cet id est in subdendo seruo et inferiori omnem iusticiam id est humilitatem
+            <lb ed="#N" n="8"/>que est omnis iusticia et perfecta humilitas. hec autem perfecta
+            humi<lb ed="#N" n="9" break="no"/>litas fuit in subdendo se seruo baptizanti baptismate in
+            di<lb ed="#N" n="10" break="no"/>gniori. scilicet quod tantum erat sacramentum.
+          </p>
+        </div>
+        <div xml:id="v78d89-a32awg-Dd1e312">
+          <head xml:id="v78d89-a32awg-Hd1e314">Articulus 2</head>
+          <p xml:id="v78d89-a32awg-d1e316">
+            <lb ed="#N" n="11"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a32awg-d1e321">
+            <lb ed="#N" n="12"/>DEinde queritur quare nonsolum christus baptizatus fuit
+            <lb ed="#N" n="13"/>baptismo Ioh. cum congrueret. quod alius esset
+            baptis<lb ed="#N" n="14" break="no"/>mus quo baptizatur dominus qui non indigebat
+            mun<lb ed="#N" n="15" break="no"/>datione peccati: cum nullum haberet: et alius seruorum qui indigebant
+            <lb ed="#N" n="16"/>baptismo quo peccata mundabantur.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e334">
+            ⁋ Ad quod respondendum per illud
+            <lb ed="#N" n="17"/>quod dicit augu. in libo de baptismo contra donatistas. Si ioh.
+            <lb ed="#N" n="18"/>solum christum baptizasset. melioris baptismi dispensator
+            fuis<lb ed="#N" n="19" break="no"/>se ioh. putaretur: quo ipse christus solus tinctus esset: quam christi quo
+            <lb ed="#N" n="20"/>christiani tinguntur. Et rursus. si omnes prius baptismo ioh.
+            <lb ed="#N" n="21"/>deinde christi baptizari oporteret: ininus plenus minusque
+            p<lb ed="#N" n="22" break="no"/>fectus baptismus christi merito crederetur: qui non
+            suffice<lb ed="#N" n="23" break="no"/>ret ad salutem.
+          </p>
+        </div>
+        <div xml:id="v78d89-a32awg-Dd1e353">
+          <head xml:id="v78d89-a32awg-Hd1e355">Articulus 3</head>
+          <p xml:id="v78d89-a32awg-d1e357">
+            <lb ed="#N" n="24"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a32awg-d1e362">
+            <lb ed="#N" n="25"/>COnsequenter queritur de circumstantiis. scilicet illis que
+            <lb ed="#N" n="26"/>circumstabant baptismum quo baptizatus est.
+            Que<lb ed="#N" n="27" break="no"/>ritur ergo primo quare spiritus sanctus descendit super
+            <lb ed="#N" n="28"/>christumm in baptismo. et quare sicut columba. et quare christus
+            descen<lb ed="#N" n="29" break="no"/>dit prius in iordanem vt baptizaretur: et deinde spiritus sanctus in
+            <lb ed="#N" n="30"/>specie columbe: cum prius sit vsus ecclesie vt foris consecretur. et
+            <lb ed="#N" n="31"/>deinde descendat baptizando. et quare statim aperti sunt
+            ce<lb ed="#N" n="32" break="no"/>li super eum. et quare vox patris facta est ad eum dicens. hic est
+            <lb ed="#N" n="33"/>filius meus dilectus etc.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e384">
+            ⁋ Responsio vt dicitur in glo. iii. Math.
+            <lb ed="#N" n="34"/>que ad literam contingebant in baptismo illo: mistica sunt nobis
+            <lb ed="#N" n="35"/>vnde ad instructionem nostram contingebant.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e391">
+            ⁋ Ad primum ergo
+            dicen<lb ed="#N" n="36" break="no"/>dum. quod in descensu spiritus sancti super eum: monstrabatur spiriunmsanctum
+            da<lb ed="#N" n="37" break="no"/>ri in baptismo. vnde glo. ibidem. tunc non primum sibi patuere
+            cele<lb ed="#N" n="38" break="no"/>stia vel spiritus sanctus est datus: sed nobis per acceptum baptismum
+            adi<lb ed="#N" n="39" break="no"/>tum celi pater et spiriunsanctum dari monstrauit.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e403">
+            ⁋ Item quasi columba
+            <lb ed="#N" n="40"/>descendit. vt baptizatos virtutibus fecundari et datoris virtutum
+            <lb ed="#N" n="41"/>qualitatem scilicet mansuetudinem et simplicitatem ostenderet. Unde glo.
+            <lb ed="#N" n="42"/>Bene spiritus in columba que simplex est et mansueta descendit: vt
+            <lb ed="#N" n="43"/>sue nature simplicitatem. et eum in quem descendebat mitem
+            miseri<lb ed="#N" n="44" break="no"/>cordie preconem datoremque indicaret. Similiter omnes baptismo
+            re<lb ed="#N" n="45" break="no"/>nati. vii. virtutibus in columba significatis debent repleri.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e419">
+            <lb ed="#N" n="46"/>⁋ Quare christus primum descendit in iordanem etc. hanc questionem
+            <lb ed="#N" n="47"/>determinat beatus ambro. sic. descendit christus. descendit et
+            spiritus<lb ed="#N" n="48" break="no"/>sanctus quare autem prior descendit christus postea spiritus sanctus cum
+            <lb ed="#N" n="49"/>forma et vsus hoc habeat baptismi: vt ante fons consecretur et
+            <lb ed="#N" n="50"/>tunc descendat baptizandus. christus autem descendit: secutus est spiritus
+            <lb ed="#N" n="51"/>sanctus. vt non quasi ipse sanctificationis ministerio egere
+            vide<lb ed="#N" n="52" break="no"/>retur: sed vt sanctificaret ipse: sanctificaret et spiritus sanctus.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e437">
+            <lb ed="#N" n="53"/>⁋ Quare aperti sunt celi super eum iam patet responsio ex dictis.
+            <lb ed="#N" n="54"/>Sed aliam rationem ponit Cris. dicens. vt discat quoniam baptizato
+            <lb ed="#N" n="55"/>hoc fit ad superiorem patriam deo vocante et suadente nihil
+            commu<lb ed="#N" n="56" break="no"/>ne habere ad terram.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e448">
+            ⁋ Ad id quod queritur quare vox pratris
+            fa<lb ed="#N" n="57" break="no"/>cta etc. Responsio. vt sic ostenderetur filios ire per baptismum fieri
+            fi<lb ed="#N" n="58" break="no"/>lios dei. Unde glo. ibi. sic qui baptizatur ostenditur filius dei.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e455">
+            <lb ed="#N" n="59"/>⁋ Quare autem hec congruebant christo in baptismate scilicet apertio
+            ce<lb ed="#N" n="60" break="no"/>li et descensus spiritus sancti et vox pratris: fuit amotio erroris
+            popli<lb ed="#N" n="61" break="no"/>credentis iohnem fuisse maiorem christo vt dicit auctoritas Cris.
+            <lb ed="#N" n="62"/>suprdicta scilicet illa. contingit et baptizari christum a iohane etc.
+          </p>
+        </div>
+        <div xml:id="v78d89-a32awg-Dd1e467">
+          <head xml:id="v78d89-a32awg-Hd1e469">Articulus 4</head>
+          <p xml:id="v78d89-a32awg-d1e471">
+            <lb ed="#N" n="63"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-a32awg-d1e476">
+            <lb ed="#N" n="64"/>COnsequenter queritur vtrum paruuli et mulieres
+            bapti<lb ed="#N" n="65" break="no"/>zati fuerunt baptismo ioh. Quod sic videtur.
+            baptis<lb ed="#N" n="66" break="no"/>mus ioh. fuit quoddam preparatorium ad baptismum
+            <lb ed="#N" n="67"/>christi. Sed baptisma christi dandum fuit omnibus scilicet paruulis et adultis
+            <lb ed="#N" n="68"/>vtriusque sexus. ex quo ergo preparatio vel dispositio equatur perfecti
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>oni: videtur quod omnibus baptizandis baptismate christi dandum erat
+            <lb ed="#N" n="70"/>baptisma ioh. Quod autem dispositio equetur perfectioni in gratuitis
+            <lb ed="#N" n="71"/>videtur per simile sumptum in naturalibus in quibus non
+            introduci<lb ed="#N" n="72" break="no"/>tur nisi precedat dispositio secundum phosum qui dicit in libro. de anima.
+            <lb ed="#N" n="73"/>actus actiuorum sunt in patiente et disposito.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e502">
+            ⁋ Item videtur per
+            <lb ed="#N" n="74"/>simile de aliis preparatoriis scilicet exorcismo et cathecismo. qui
+            per<lb ed="#N" n="75" break="no"/>uulis et mulieribus dantur: a simili videtur de baptismate ioh.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e509">
+            <lb ed="#N" n="76"/>⁋ Item Maratur. i. dicitur. Egrediebantur ab illis hierosolimite
+            <lb ed="#N" n="77"/>vniuersi et omnis regio iudee baptizabantur in illo flumine
+            ior<lb ed="#N" n="78" break="no"/>danis confitentes peccata sua. Ecce quod dicit hierosolimite vniuer
+            <lb ed="#N" n="79"/>si et omnis regio iudee.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e521">
+            ⁋ Contra. baptismus iohnis fuit
+            baptis<lb ed="#N" n="80" break="no"/>mus penitentie. que non erat paruulorum. martur. i. Fuit ioh. in deser
+            <lb ed="#N" n="81"/>to baptizans et predicans baptismum penitentie in remissionem pec
+            <lb ed="#N" n="82"/>catorum.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e530">
+            ⁋ Item baptismus ille dabatur vt eius assuefactio alliceret
+            <lb ed="#N" n="83"/>a ritu et affectu circumcisionis et prepararet eo ad baptisma
+            <lb ed="#N" n="84"/>christi. he autem cause non habebant locum in paruulis. ergo etc.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e537">
+            ⁋
+            Respon<lb ed="#N" n="85" break="no"/>deo quod baptismus ioh. non dabatur neque dari debuit paruulis. cius
+            <lb ed="#N" n="86"/>ratio est hec. quia baptismus ille dabatur ad preparationem
+            volunta<lb ed="#N" n="87" break="no"/>tis ad baptismum christi. In iudeis autem duplex erat
+            impedimen<lb ed="#N" n="88" break="no"/>tum susceptionis baptisma christi vnum retrahens a susceptione
+            sa<lb ed="#N" n="89" break="no"/>cramenti scilicet affectus et assuefactio circumcisionis. Aliud impediens
+            <lb ed="#N" n="90"/>susceptionem rei ipsius sacramenti scilicet gratie. et hoc erat peccatum actua
+            <lb ed="#N" n="91"/>le. propter quod iohnes docebat illos quos baptizabat penitere:
+            <lb ed="#N" n="92"/>et baptismus eius dicebatur baptismus penitentie. vtrumque istorum
+            im<lb ed="#N" n="93" break="no"/>pedimentorum erat in actuali voluntate que in paruulis non est:
+            <lb ed="#N" n="94"/>et ideo non erat causa aliqua quare conueniebat paruulos isto
+            <lb ed="#N" n="95"/>baptismate baptizari.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e563">
+            ⁋ Ad primo obiectum dicendum quod baptil
+            <lb ed="#N" n="96"/>ma iohnis non erat preparatorium vniuersale ad baptismum
+            vni<lb ed="#N" n="97" break="no"/>uersale: sed solummodo adultorum qui habebant duo
+            impedimen<lb ed="#N" n="98" break="no"/>ta iam dicta. quorum neutrum ad paruulos pertinebat. Nec est
+            simi<lb ed="#N" n="99" break="no"/>le de dispositione naturali et perfectione. et dispositione et perfectione
+            <lb ed="#N" n="100"/>que sunt a voluntaria dispositione vel institutione. dispositio enim
+            <lb ed="#N" n="101"/>naturalis que est a natura que agit per impetum. equatur sue
+            per<lb ed="#N" n="102" break="no"/>fectioni: alia quia est ab electione nequaquam.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e581">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="103"/>obiicitur de aliis preparatoriis scilicet exorcismo et cathecismo que
+            <lb ed="#N" n="104"/>adhuc exercentur circa paruulos. Dicendum quod hoc est vt
+            forma<lb ed="#N" n="105" break="no"/>vna et vnus modus obseruetur in ecclesia in ministerio
+            baptismi<lb ed="#N" n="106" break="no"/>hec autem scilicet cathecismus et exorcismus quasi sacramentalia
+            exer<lb ed="#N" n="107" break="no"/>centur. sed baptisma iohis fuit quoddam genus baptismi: non
+            <lb ed="#N" n="108"/>sacramentale baptismi christi.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e597">
+            ⁋ De mulieribus potest dici. opinan
+            <lb ed="#N" n="109"/>do non asserendo quod non baptizabantur illo baptismo: tum propter
+            <lb ed="#N" n="110"/>honestatem maxima enim esset inhonestas et valde indecens
+            mu<lb ed="#N" n="111" break="no"/>lieres denudari coram viris et in loco ad quem erat
+            con<lb ed="#N" n="112" break="no"/>fluxus multitudinis virorum. tum quia non oportuit illas
+            re<lb ed="#N" n="113" break="no"/>uocari a ritu circumcisionis: ex quo non fuerunt circumcise
+            <lb ed="#N" n="114"/>tum quia exemplum virorum allexit illas ad volendum
+            bapti<lb ed="#N" n="115" break="no"/>zari baptismo christi.
+          </p>
+          <p xml:id="v78d89-a32awg-d1e616">
+            ⁋ Ad aliud quod obiicitur per illud
+            ver<lb ed="#N" n="116" break="no"/>bum. i. martur. Egrediebantur ad illum hierosolimite vniuersi
+            <lb ed="#N" n="117"/>etc. dicendum quod fit ibi distributio pro viris. et est accomoda
+            di<lb ed="#N" n="118" break="no"/>stributio. Non est enim credibile quod omnes iudei fuerunt
+            bapti<lb ed="#N" n="119" break="no"/>zati illo baptismate: sed maior pars.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

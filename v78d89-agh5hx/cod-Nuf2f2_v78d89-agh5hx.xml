@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 91, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 91, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="585"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-agh5hx"><!-- q91m5 -->
+        <head xml:id="v78d89-agh5hx-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-agh5hx-Hd1e103" type="question-title">Utrum conveniat damnatis orare quod sic: videtur</head>
+        <p xml:id="v78d89-agh5hx-d1e106">
+          <lb ed="#N" n="109"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e111">
+          <lb ed="#N" n="110"/>COnsequenter queritur. vtrum conueniat damnatis orare
+          <lb ed="#N" n="111"/>Quod sic: videtur. ii. Corin. xi. super illud. ter dominum
+          <lb ed="#N" n="112"/>rogaui. dicit glo. Exauditur dyabolus Iob petens
+          <lb ed="#N" n="113"/>temptandum. et non exauditur apostolus petens stimulum amouendum. hic
+          <lb ed="#N" n="114"/>plane habetur quod demones orant qui sunt damnati. et exaudiuntur. igitur illis
+          <lb ed="#N" n="115"/>competit orare.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e127">
+          ⁋ Pre. dicit augustinus. de orando deo ad probam. dedit
+          <lb ed="#N" n="116"/>dominus quod dyabolus postulauit: vt probandus eus famulus temptaretur.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e133">
+          <lb ed="#N" n="117"/>⁋ Pre. greg. ii. libro. moralis. Tribus modis loquitur dyabolus ad
+          de<lb ed="#N" n="118" break="no"/>um. vel cum vias suas insinuat. vel electorum innocentiam scilicet criminibus
+          <lb ed="#N" n="119"/>accusat: vel temptandam eandem innocentiam postulat: ecce quod
+          postu<lb ed="#N" n="120" break="no"/>lat.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e144">
+          ⁋ Queritur etiam si posunt orare. Quod sic: videtur. quia quandoque
+          trans<lb ed="#N" n="121" break="no"/>figurant se in angelos lucis. vt incitant homines ad orandum
+          <lb ed="#N" n="122"/>et ad opera bona vt magis seducant. ergo illa facere et sciunt et
+          <lb ed="#N" n="123"/>faciunt et posunt.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e153">
+          ⁋ Pre. omns damnati habent liberam voluntatem
+          <lb ed="#N" n="124"/>que quidem cogi nullo modo potest. manet enim libertas a coactione
+          <lb ed="#N" n="125"/>tam in beatis quam in damnatis. sicut et in deo. ergo cum orare sit voluntatis:
+          <lb ed="#N" n="126"/>orare poterinit si voluerint.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e162">
+          ⁋ Pre. habetur a pho quod illud quod mouetur
+          <lb ed="#N" n="127"/>alicubi naturaliter. quiescit ibi naturaliter. et quod alibi mouetur
+          violen<lb ed="#N" n="128" break="no"/>tia. ibi quiescit violentia. ergo similiter et quod alicubi mouetur voluntarie
+          <lb ed="#N" n="129"/>ibi voluntarie quiescit. sed damnati ad malum moti sunt voluntarie.
+          <lb ed="#N" n="130"/>ergo voluntarie in illo quiescunt. Sed omne quod voluntarie in aliquo quiescit
+          <lb ed="#N" n="131"/>potest moueri ad oppositionem: ergo damnati poterunt moueri ad bonum
+          <lb ed="#N" n="132"/>orationis vel alterius.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e178">
+          ⁋ Si dicatur quod vocales oratioes pronunciare bene
+          <lb ed="#N" n="133"/>posunt. et bene etiam se conuertere posunt propter libertatem arbitrii ad opposita
+          <lb ed="#N" n="134"/>secundum affirmationem et negationem non tamen posunt ad opposita siue
+          contrria<lb ed="#N" n="135" break="no"/>in genere moris. vt sunt bonum et malum. nec orare possunt
+          <lb ed="#N" n="136"/>actu interiori.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e189">
+          ⁋ Obiicitur contra hoc. libere exeuntem in actus timoris
+          <lb ed="#N" n="137"/>et credulitatis. Iac. ii. demones credunt et contremiscunt. sed fides
+          <lb ed="#N" n="138"/>et timor actus interiores sunt et principia iustificationis. ergo
+          pari<lb ed="#N" n="139" break="no"/>ratione poterunt in actum interioris orationis.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e199">
+          ⁋ Pre. cum voluntas
+          <lb ed="#N" n="140"/>libsior sit et potentior quantum ad actus interiores. qui pure in voluntate
+          <pb ed="#N" n="586"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>consistunt quam quantum in exteriores. si demones ire posunt in
+          exteri<lb ed="#N" n="2" break="no"/>ores vt temptare istum vel non temptare: ergo magis quantum ad
+          interi<lb ed="#N" n="3" break="no"/>ores: vt bene velle orare mentalem et huiusmodi.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e215">
+          ⁋ Pre. anguloli aposta
+          <lb ed="#N" n="4"/>te naturaliter diligunt se. vnde magis diligunt se quam odio habeant
+          ho<lb ed="#N" n="5" break="no"/>mines. Sed quando vident homines per suas temptationes proficere: eos
+          desi<lb ed="#N" n="6" break="no"/>nunt temptare. et cessant a malo actu in proximum ipsius profectum
+          <lb ed="#N" n="7"/>detestantes. ergo multo fortius videntes quod malicia est nobis
+          nociua<lb ed="#N" n="8" break="no"/>cessant ab illa. quia sue nature est lesiua. Sed si sic: posunt bona
+          ap<lb ed="#N" n="9" break="no"/>petere orare deum. et huiusmodi facere. ergo etc
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e231">
+          ⁋ Ad oppositum. Dam.
+          <lb ed="#N" n="10"/>Oratio est ascensus intellectus ad deum. danati autem a deo penitus
+          <lb ed="#N" n="11"/>sunt auersi.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e238">
+          ⁋ Pre. damnatis non potest conuenire. quia in malicia
+          obsti<lb ed="#N" n="12" break="no"/>nati sunt. vnde iusticie obsequium deo in nulo obsequuntur. sed oratio
+          ni<lb ed="#N" n="13" break="no"/>hil est quam obsequium iusticie: sicut dicit glo. Mat. vi. super illud quod
+          <lb ed="#N" n="14"/>oraueris. glo. non est opus narrare sed obsecrare: quod est obsequium
+          <lb ed="#N" n="15"/>iusticie.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e249">
+          ⁋ Pre. in damnatis est continuus ascensus in superbiam secundum
+          il<lb ed="#N" n="16" break="no"/>lud psalmus. Superbia eorum qui te oderunt ascendit semper. ergo continuus recessus a
+          <lb ed="#N" n="17"/>deo. sed impossibile est duos motus contrrios simil esse in eodem. Cum ergo oratio
+          <lb ed="#N" n="18"/>sit coniunctio cum spiritusancto. sicut dicit Augustinus in semone de oratione et
+          ie<lb ed="#N" n="19" break="no"/>iunio: ergo impossibile est oratioem esse in damnatis.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e260">
+          ⁋ Pre. ad Ro.
+          <lb ed="#N" n="20"/>viii. super illud spiritus adiuuat infirmitatem nostram glo. quod non
+          solum<lb ed="#N" n="21" break="no"/>illud quod oratio impetrat. sed etiam ipsa oratio inter gratie mumera reperitur. ergo
+          <lb ed="#N" n="22"/>cum gratie munera damnatis non possint conuenire: quia si sic damnati
+          <lb ed="#N" n="23"/>non essent: ergo nec oratio.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e272">
+          ⁋ Pre. damnati orare non possent quin
+          ipsi<lb ed="#N" n="24" break="no"/>peniterent. quia pars penitentie est oratio sed penitus sunt impenitentes.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e277">
+          ⁋ Pre.
+          <lb ed="#N" n="25"/>frustra postulatur venia vbi nula est releuans misericordia. in damna
+          <lb ed="#N" n="26"/>tis nula misericordia quan tum ad euasionem: similiter nulla misericordia quo ad
+          <lb ed="#N" n="27"/>pene mitigationem. Si ergo poneretur oratio in ipsis: hoc esset ratione alte
+          <lb ed="#N" n="28"/>rius illorum. vel potius vtriusque. ergo videtur quod nullo modo oratio eis
+          conue<lb ed="#N" n="29" break="no"/>niat.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e290">
+          ⁋ Pre. frustra ponitur oratio vbi ad bonum nula humiliatio
+          <lb ed="#N" n="30"/>Ideo enim danati dicuntur: quia non posunt deinceps assurgere ad
+          ali<lb ed="#N" n="31" break="no"/>quod bonum. ergo etc.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e297">
+          ⁋ Ad hoc potest dici. quod si appellemus orare oratioes
+          <lb ed="#N" n="32"/>aliquas pronunciare: isto modo orare posunt damnati. Si vero appellemus
+          <lb ed="#N" n="33"/>orare aliquod petere: secundum quod dicit actum vocis concordante actu
+          cor<lb ed="#N" n="34" break="no"/>dis. vel etiam ipsum actum cordis: nullo modo orare posunt. et hoc
+          clare<lb ed="#N" n="35" break="no"/>scit si consideremus eorum preuitatem: oratiois dignitatem: et dei bonitaten
+          <lb ed="#N" n="36"/>Dicendum igitur quod non potest esse in damnatis oratio si attendatur prauitas.
+          <lb ed="#N" n="37"/>cum enim continue moueantur per contemptum in deum: nullo modo potest esse in ipsis
+          <lb ed="#N" n="38"/>humilis affectus. sine quo oratio proprie sumpta nullatenus potest esse. Pre.
+          <lb ed="#N" n="39"/>vlterius si attendatur oratiois digntas. cum oratio virtute sua supra se ele
+          <lb ed="#N" n="40"/>uet proprium substntum: propter quod dicit Augustinus quod est pius mentis affectus in
+          <lb ed="#N" n="41"/>deum directus. Et dam. quod est ascensus intellectus in deum. cum
+          ipsi<lb ed="#N" n="42" break="no"/>penitus sunt auersi: locum in eis oratio non habet. Pre. si attendit
+          diui<lb ed="#N" n="43" break="no"/>na bonitas. non enim deus a quo est omne bonum gratie mumera non valentibus
+          <lb ed="#N" n="44"/>proficere elargitur. quales sunt damnati qui non posunt penitere.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e328">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="45"/>obicitur primis tribus argumentis. dicendum quod nihil faciunt ad
+          proposi<lb ed="#N" n="46" break="no"/>tum. quia etsi petere dicuntur: magis est intelligendum quod petant a deo
+          ma<lb ed="#N" n="47" break="no"/>num sibi laxari ad bonorum vexationem: quam proprie miserie
+          releua<lb ed="#N" n="48" break="no"/>tionem. et preterea sua oratio non tenet proprie oratiois rationem.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e339">
+          ⁋ Ad
+          ali<lb ed="#N" n="49" break="no"/>ud quod obicitur. quod incitant homines ad orandum. dicendum quod hoc maliciose
+          <lb ed="#N" n="50"/>faciunt et ad seducendum. et ratio huiusmodi: quia habent penitus in opposita
+          <lb ed="#N" n="51"/>dispositione ad oratioem voluntatem. non sequitur ergo quod si possunt suggerere
+          <lb ed="#N" n="52"/>hominibus oratioes decentorias: quod ipsi posunt orare sicut decet.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e351">
+          ⁋ Ad
+          <lb ed="#N" n="53"/>illud quod obicitur. quod habent orandi liberam voluntatem. dicendum quod prout
+          coa<lb ed="#N" n="54" break="no"/>ctio proprie sumitur prout est ab extrinseco secundum quod dicit Bern. quod
+          li<lb ed="#N" n="55" break="no"/>bertas est coactione equaliter in deo et anglolis et demonibus et in nobs
+          <lb ed="#N" n="56"/>quia cum voluntate propria tenent se in statu a quo nolunt liberari. et sed
+          <lb ed="#N" n="57"/>propter obstinationem superbie numquam voluntas ipsorum ab ipso statu
+          <lb ed="#N" n="58"/>potest mutari. hoc tamen accidit non propter defectum naturalis voluntatis
+          <lb ed="#N" n="59"/>sed propter maliciam obstinationis: et sic patet quod oratio in eis esse non potest
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e369">
+          <lb ed="#N" n="60"/>⁋ Ad hoc quod obicitur. quod voluntarie in malo quiescunt. dicendum quod phos
+          so<lb ed="#N" n="61" break="no"/>lum hoc loquitur de mobilibus naturalibus et violentis. et non
+          volunta<lb ed="#N" n="62" break="no"/>riis. et hoc patet quia voluntas non equa mouetur in bonum et in malum. sicut
+          <lb ed="#N" n="63"/>graue deorsum et leue sursum: quia in bonum moris per se non potest: sed
+          <lb ed="#N" n="64"/>requiritur adiutorium gratie. in malum tamen per se potest. sed sumendo
+          conrrieta<lb ed="#N" n="65" break="no"/>tem in quam potest libro arbtio. tunc bene verum est quod quando quiescit in vno: quod
+          <lb ed="#N" n="66"/>potest moueri in oppositum. Pre. esto quod ita voluntarie quiescant in
+          <lb ed="#N" n="67"/>malo sic quod possint moueri in oppositum adhuc non sequitur
+          ar<lb ed="#N" n="68" break="no"/>gumentum vt sibi hoc possint per libertatem voluntatis quantum est
+          <lb ed="#N" n="69"/>de se. Obstinatio enim repugnat. vreu etsi quantum ad voluntatem
+          <lb ed="#N" n="70"/>sbstratam virtibiles sunt: non tamen quantum ad maliciam eiusdem
+          volunta<lb ed="#N" n="71" break="no"/>tis in qua sunt obstinati.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e398">
+          ⁋ Ad hoc quod obicitur de fide et timore.
+          di<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>cendum quod illud credere non est actus fidei. immo magis est
+          credu<lb ed="#N" n="73" break="no"/>litas coacta que non est principium merendi vel penitendi. ex
+          perimen<lb ed="#N" n="74" break="no"/>to enim penarum quas sustinent cognoscunt illum esse omnipotentem a d
+          <lb ed="#N" n="75"/>puniuntur. hoc verum est de anglois preuis et animabus infidelibus.
+          <lb ed="#N" n="76"/>De fidelium autem animabus que damnate sunt propter earum prauitatem
+          <lb ed="#N" n="77"/>dicendum quod etsi habitus aliqui virtutum in eis remanserint vt acus suos
+          <lb ed="#N" n="78"/>eliciant: nunquam tamen posunt esse merendi principium in eisdem propter statum scilicet
+          <lb ed="#N" n="79"/>et propter voluntatem penitus obstinatam. Similiter dicendum est de timore. quod
+          <lb ed="#N" n="80"/>nullo modo merendi est principium nec penitendi: sed magis naturalis
+          <lb ed="#N" n="81"/>quam voluntarius debet dici.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e423">
+          ⁋ Ad illud quod obicitur. quod magis posunt in actus
+          <lb ed="#N" n="82"/>interiores: verum est si intelligatur de illis que sue subsunt pietati.
+        </p>
+        <p xml:id="v78d89-agh5hx-d1e428">
+          <lb ed="#N" n="83"/>⁋ Ad aliud quod obicitur. quod diligunt se. dicendum quod bene vellent abstinet a
+          <lb ed="#N" n="84"/>malo inquantum nature est lesiuum: non tamen inquantum est displicitiuum. et
+          <lb ed="#N" n="85"/>in hoc solum est principium merendi. Quod enim alicui displiceat
+          ma<lb ed="#N" n="86" break="no"/>lum prout est dei offensiuum: sine gratia esse non potest.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

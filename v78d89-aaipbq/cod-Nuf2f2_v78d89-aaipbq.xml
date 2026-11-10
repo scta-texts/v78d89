@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 51, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 51, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="342"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aaipbq"><!-- q51m4 -->
+        <head xml:id="v78d89-aaipbq-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aaipbq-Hd1e103" type="question-title">De necessitate actus manducandi</head>
+        <p xml:id="v78d89-aaipbq-d1e106">
+          <lb ed="#N" n="8"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e111">
+          <lb ed="#N" n="9"/>COnsequenter queritur de necessitate actus
+          mandu<lb ed="#N" n="10" break="no"/>candi. queritur ergo vtrum necesse sit manducare
+          <lb ed="#N" n="11"/>corpus christi. Quod sic: videtur. Ioh. vi. Nisi mandu.
+          <lb ed="#N" n="12"/>car. fi. ho. et bi. ei. sangui. non ha. vi. in vobis.
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e122">
+          <lb ed="#N" n="13"/>⁋ Item baptismus est sacramentum necessitatis ob decretum siue
+          in<lb ed="#N" n="14" break="no"/>dictum domini. Ioh. iii. Nisi quis renatus fuerit etc. Similiter videtur quod
+          <lb ed="#N" n="15"/>hoc sacramentum sit sacramentum necessitatis propter decretum domini.
+          Ioha<lb ed="#N" n="16" break="no"/>vi. Nisi manducaueritis etc.
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e134">
+          ⁋ Item ordinatum est ab
+          eccle<lb ed="#N" n="17" break="no"/>sia quod adminus in anno semel vnusquisque communicet sicut patet ex
+          <lb ed="#N" n="18"/>decretali supradicta. Omnis vtriusque sexus etc. Sed quod ordina
+          <lb ed="#N" n="19"/>tum est et institutum ab ecclesia romana inuiolabiliter est
+          ob<lb ed="#N" n="20" break="no"/>seruandum: et eius obseruantia necessaria est ad salutem. ergo etc.
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e145">
+          ⁋ Item
+          <lb ed="#N" n="21"/>istud videtur ex verbo Innoc. supratacto quo habetur. quod necessario
+          <lb ed="#N" n="22"/>manducandus est agnus vt a vastante angelo protegamur.
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e152">
+          <lb ed="#N" n="23"/>Contra. solum illud est sacramentum necessitatis quo non suscepto
+          <lb ed="#N" n="24"/>non viuit vita gratie qui est illud suscepturus. sicut patet de
+          ba<lb ed="#N" n="25" break="no"/>ptismo. ante susceptionem baptismi quantumcunque vixerit homo
+          <lb ed="#N" n="26"/>est filius ire. ergo si hoc sacramentum est necessitatis: ante eius
+          susce<lb ed="#N" n="27" break="no"/>ptionem nullus viuit vita gratie. hoc autem est falsum. quia tunc
+          <lb ed="#N" n="28"/>nullus saluaretur si moreretur ante eius susceptionem
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e168">
+          ⁋ Responsio.
+          <lb ed="#N" n="29"/>quod hoc sacramentum non est de necessitate salutis quantum est de
+          sui<lb ed="#N" n="30" break="no"/>institutione: sed si hoc est: est de mandato supraaddito.
+          verbi<lb ed="#N" n="31" break="no"/>gratia. ecclesia constituit vt fideles communicent semel in
+          anno<lb ed="#N" n="32" break="no"/>et in morte. vnde si quis negligit non est sine contemptu et
+          <lb ed="#N" n="33"/>r peccat mortaliter et hec institutio ecclesie fuit sub precepto.
+          <lb ed="#N" n="34"/>svt patet ex decretali supradicta scilicet omnis vtriusque etc.
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e184">
+          ⁋ Ad
+          <lb ed="#N" n="35"/>illud quod obiicitur primo. dicendum quod verbum domini Ioh. vi.
+          <lb ed="#N" n="36"/>intelligitur de manducatione spirituali que est per fidem sine qua
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e191">
+          <lb ed="#N" n="37"/>nemo adultus saluatur. Ex hoc patet responsio ad aliud quod in
+          <lb ed="#N" n="38"/>illo intellectu quo indictum est vel decretum a domino: est de
+          <lb ed="#N" n="39"/>necessitate videlicet de manducatione spirituali.
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e201">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="40"/>obiicitur de institutione ecclesie. dicendum quod eo modo quo
+          in<lb ed="#N" n="41" break="no"/>stitutum est ab ecclesia necesse habet obseruari. nec potest ne
+          <lb ed="#N" n="42"/>e gligi sine offensa mortali suppetente facultate.
+        </p>
+        <p xml:id="v78d89-aaipbq-d1e210">
+          ⁋ Ad illud
+          <lb ed="#N" n="43"/>hviso Inno. dicendum quod intelligi debet aut de manducatione
+          <lb ed="#N" n="44"/>spirituali. aut de manducatione sacramentali ratione
+          institu<lb ed="#N" n="45" break="no"/>tionis ecclesie.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

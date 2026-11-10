@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="6"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e101"><!-- q1m3 -->
+        <head xml:id="v78d89-d1e101-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-d1e101-Hd1e103" type="question-title">De sacramentorum institutione</head>
+        <p xml:id="v78d89-d1e101-d1e106">
+          <lb ed="#N" n="25"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-d1e101-d1e111">
+          <lb ed="#N" n="26"/>Dicto de necessitate sacramentorum: consequenter dicendum est de
+          <lb ed="#N" n="27"/>institutione. Primo queritur de necessitate
+          insti<lb ed="#N" n="28" break="no"/>tutionis. id est si de esse sacramenti sit institutio. Secundo.
+          <lb ed="#N" n="29"/>de obligatione institutionis. id est si omissionem
+          se<lb ed="#N" n="30" break="no"/>quitur transgressio. Tercio. de tempore institutionis. Quarto. de
+          <lb ed="#N" n="31"/>auctore institutionis siue de instituente.
+        </p>
+        <div xml:id="v78d89-d1e101-Dd1e127">
+          <head xml:id="v78d89-d1e101-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-d1e101-d1e131">
+            <lb ed="#N" n="32"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e101-d1e136">
+            <lb ed="#N" n="33"/>QUeritur ergo si institutio sit de esse sacramenti. Quod sic
+            <lb ed="#N" n="34"/>videtur. In omni sacramento est quedam similitudo signi siue
+            sa<lb ed="#N" n="35" break="no"/>cramenti ad signatum siue rem sacramenta. ob quam est
+            habili<lb ed="#N" n="36" break="no"/>tas ex parte signi ad representationem rei. ut patet. In aqua est quedam
+            simili<lb ed="#N" n="37" break="no"/>tudo gratie. sicut enim aqua fit ablutio corporalis: similiter gratia fit ablutio
+            <lb ed="#N" n="38"/>spiritualis. Non autem ubicumque est talis
+            <lb ed="#N" n="39"/>similitudo faceret sacramentum: cum aqua ratione sue fluxibilitatis et
+            in<lb ed="#N" n="40" break="no"/>terminationis significet fluxum peccati et inordinationem. indifferenter esset
+            <lb ed="#N" n="41"/>sacramentum gratie et peccati. Quod autem aqua significatur peccatum: haberetur greg. xlix.
+            <lb ed="#N" n="42"/>Effusus es vt aqua. oportet ergo cum hoc vt fiat significatio ex
+            insti<lb ed="#N" n="43" break="no"/>tutione. aliter enim essent infinita sacramenta. vnde hugo. debet omne sacramentum
+            simili<lb ed="#N" n="44" break="no"/>tudinem habere quamdam ad ipsam rem cuius est sacramentum. secundum quam
+            habi<lb ed="#N" n="45" break="no"/>le sit ad eandem rem representandam. institutionem quoque per quam
+            ordina<lb ed="#N" n="46" break="no"/>tum sit ad illam significandam.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e169">
+            ⁋ Contra, nihil quod est institutum potest
+            <lb ed="#N" n="47"/>pretermitti sine reatu preuaricationis. sed dicit hugo quod sacramenta
+            le<lb ed="#N" n="48" break="no"/>gis nature pretermitti poterant sine reatu preuaricationis. igitur
+            <lb ed="#N" n="49"/>etc. dicit enim hugo. Neque estimandum est illa prima naturalis
+            le<lb ed="#N" n="50" break="no"/>gis sacramenta ita homini ex necessitate indita: vt qui ea non fuisset
+            ex<lb ed="#N" n="51" break="no"/>ecutus: reatum prevaricationis incurreret.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e182">
+            ⁋ Responsio. duplex
+            <lb ed="#N" n="52"/>est institutio siue modus instituendi. Una obligatione
+            prec<lb ed="#N" n="53" break="no"/>eptoria: sicut instituta sunt sacramenta baptismi Iohannes iii: Nisi quis
+            <lb ed="#N" n="54"/>renatus fuerit etc. Et circumcisio similiter gen, xvii: Masculus cuius
+            <lb ed="#N" n="55"/>prepucii caro circumcisa etc. Alia secreta eruditione consilii
+            diui<lb ed="#N" n="56" break="no"/>ni. vnde hugo. Deus hominem a principio ad hec exercenda concilio
+            <lb ed="#N" n="57"/>erudiuit: sed precepto non obligauit. et hoc modo instituta erant
+            sa<lb ed="#N" n="58" break="no"/>cramenta legis nature. Primus modus dicitur proprie institutio
+            <lb ed="#N" n="59"/>secundarius communiter. Extendendo igitur vim institutionis ad hunc
+            <lb ed="#N" n="60"/>modum duplicem: omne sacramentum necessario requirit institutorem.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e205">
+            ⁋ Ad
+            <lb ed="#N" n="61"/>hoc ergo quod primo obiicitur. quod requiritur instituio etc. responendum est
+            <lb ed="#N" n="62"/>quod sic. nomine institutionis communiter sumpto.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e101-Dd1e214">
+          <head xml:id="v78d89-d1e101-Hd1e216">Articulus 2</head>
+          <p xml:id="v78d89-d1e101-d1e218">
+            <lb ed="#N" n="63"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e101-d1e223">
+            <lb ed="#N" n="64"/>SEcundo queritur de obligatione institutionis scilicet si
+            te<lb ed="#N" n="65" break="no"/>netur homo ex precepto secundum quodlibet tempus ita quod si non
+            im<lb ed="#N" n="66" break="no"/>pleret transgrederetur. Et videtur quod non esset
+            transgres<lb ed="#N" n="67" break="no"/>sio. Vbi enim non est preceptum non est transgressio precepti. sed nullum
+            <lb ed="#N" n="68"/>erat preceptum in lege nature de sacramentis perficiendis preterquam de
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="69"/>circumcisione. Non enim aliquod preceptum fuit expressum de
+            sacri<lb ed="#N" n="70" break="no"/>ficiis vel de decimis. Non ergo transgressio fuit tempore illo si non
+            <lb ed="#N" n="71"/>adimplerentur.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e245">
+            ⁋ Ad idem. Hugo assignans differentiam inter
+            sa<lb ed="#N" n="72" break="no"/>cramenta legis nature et sacramenta legis mosayce et legis gratie
+            <lb ed="#N" n="73"/>dicit. quod sacramenta legis nature non ex precepto indicata videntur: sed ex
+            <lb ed="#N" n="74"/>consilio ad votum proposita. Sacramenta vero scripte legis et gratie:
+            necessi<lb ed="#N" n="75" break="no"/>tatem quandam executionis inducere. preterea et non ex consilio tantum.
+            <lb ed="#N" n="76"/>sed ex precepto instituta noscuntur.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e258">
+            ⁋ Preterea. ostenditur per simile. Si
+            me<lb ed="#N" n="77" break="no"/>dicine alique corporales prouise sunt ab artifice ad remedium:
+            <lb ed="#N" n="78"/>non propter hoc eger peccat si non accipiat medicinam: licet videat
+            <lb ed="#N" n="79"/>eam sibi vtilem. sed ex hoc potest incurrere periculum vt non minuatur
+            <lb ed="#N" n="80"/>egritudo vel tollatur: Eodem modo videtur si medicus spiritualis
+            <lb ed="#N" n="81"/>prouidit medicinam spiritualem ad remedium in ipsi sacramentis. non
+            pro<lb ed="#N" n="82" break="no"/>pter hoc eger spiritualiter transgredietur non sumendo medicinam
+            <lb ed="#N" n="83"/>sed accidit quod permanebit in periculo egritudinis vel
+            languo<lb ed="#N" n="84" break="no"/>ris quam habet: et fortassis augebitur. non ergo tempore legis fuit
+            trans<lb ed="#N" n="85" break="no"/>gressio si quedam sacramenta non perficerentur.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e281">
+            ⁋ Sed videtur contrarium. sicut
+            <lb ed="#N" n="86"/>enim data sunt quedam precepta tempore legis naturalis. sicut fuit
+            <lb ed="#N" n="87"/>illud: Crescite et multiplicamini. et illud: Carnem cum sanguine
+            <lb ed="#N" n="88"/>non comedetis. sanguinem enim animarum vestrarum requiram etc. quedam
+            <lb ed="#N" n="89"/>etiam scripta erant in mente. sicut illa precepta legis nature.
+            <lb ed="#N" n="90"/>quod tibi non vis fieri hoc alii non facias. in quorum obseruatione
+            <lb ed="#N" n="91"/>erat meritum vite eterne: dummodo ex gratia imperentur. A
+            si<lb ed="#N" n="92" break="no"/>mili videtur quod danda fuissent precepta de sacramentis
+            adimplen<lb ed="#N" n="93" break="no"/>dis: vt sic tolleretur per gratiam impedimentum peccati. et secundum hoc
+            <lb ed="#N" n="94"/>in lege nature transgressor reputaretur: qui sacramenta huiusmodi non
+            per<lb ed="#N" n="95" break="no"/>ficeret.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e305">
+            ⁋ Preterea. cum transgressor reputaretur qui faceret contra
+            <lb ed="#N" n="96"/>precepta scripta in tabulis cordis: quare similiter non reputaretur
+            <lb ed="#N" n="97"/>transgressor qui non subiret sacramenta que similiter scripta essent in
+            tabu<lb ed="#N" n="98" break="no"/>lis cordis.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e314">
+            ⁋ Preterea. in lege mosayca et in lege gratie
+            trans<lb ed="#N" n="99" break="no"/>gressores reputati sunt qui pro tempore debito sacramenta non subierunt
+            <lb ed="#N" n="100"/>vel perfecerunt. pari ergo ratione cum essent in remedium transgressores
+            <lb ed="#N" n="101"/>dicendi essent tempore legis naturalis quia non adimpleret.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e323">
+            ⁋ Item.
+            <lb ed="#N" n="102"/>tempore legis naturalis transgressor dicebatur qui non adimpleuit
+            <lb ed="#N" n="103"/>sacramentum circumcisionis: maxime si esset adultus. quare similiter non
+            <lb ed="#N" n="104"/>dicerentur transgressores quo ad alia sacramenta. vtpote decimas
+            <lb ed="#N" n="105"/>et oblationes et sacrificia.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e334">
+            ⁋ Ad quod dicendum. quod deus hominem
+            <lb ed="#N" n="106"/>a principio ad exercenda consilio erudiuit: sed precepto non
+            ob<lb ed="#N" n="107" break="no"/>ligabit donec postera illa venirent in quibus homo precepti
+            ca<lb ed="#N" n="108" break="no"/>pax obedientiam exhiberet et preuaricationem cauere addisceret.
+            <lb ed="#N" n="109"/>Primum igitur ante legem quasi paruulos consilio nutriuit. postea sub
+            <lb ed="#N" n="110"/>lege quasi exercitatos precepto de sacramentis temptauit.
+            Nouis<lb ed="#N" n="111" break="no"/>sime vero sub gratia ad omnem perfectionem in libertate spiritus
+            inuita<lb ed="#N" n="112" break="no"/>uit. Hoc autem videtur per hoc quod dicit augustinus. contra donatistas. vbi
+            di<lb ed="#N" n="113" break="no"/>cit quod ad animales pertinet vetus testamentum: ad spirituales nouum.
+            <lb ed="#N" n="114"/>sed primis temporibus vtrumque fuit occultum ab adam vsque ad
+            moy<lb ed="#N" n="115" break="no"/>sen. Ex quibus colligitur. quod ipse legis nature non erant
+            trans<lb ed="#N" n="116" break="no"/>gressores qui non dabant decimas: vel qui non offerebant
+            sacri<lb ed="#N" n="117" break="no"/>ficia.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e363">
+            ⁋ Ad obiecta autem in contrarium respondendum quod non est simile
+            <lb ed="#N" n="118"/>de preceptis et sacramentis. precepta enim ad hoc dabantur vt
+            mul<lb ed="#N" n="119" break="no"/>tiplicaretur genus humanum sine nocumento alterius et ad
+            me<lb ed="#N" n="120" break="no"/>ritum vite eterne. Sacramentum autem circumcisionis ad hoc fuit
+            insti<lb ed="#N" n="121" break="no"/>tutum vt in ipso fieret deletio originalis culpe. Ante autem
+            cir<lb ed="#N" n="122" break="no"/>cumcisionem erat ipsa fides parentum pro ipsis paruulis. pro
+            adul<lb ed="#N" n="123" break="no"/>tis vero inspiratum erat de sacrificiis. Ubi ergo manifesta erat
+            <lb ed="#N" n="124"/>institutio: ibi erat transgressio. vbi vero non erat periculum: erat
+            <lb ed="#N" n="125"/>si non adimpleretur. sed non propter hoc preuaricatio.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e384">
+            ⁋ Ad illud vero
+            <lb ed="#N" n="126"/>quod obiectum est de preceptis scriptis in mente. Dicendum est quod non
+            <lb ed="#N" n="127"/>est simile de illis et sacramentis. Natura enim dictat ea que
+            pre<lb ed="#N" n="128" break="no"/>cepta sunt. vt sine quibus non est salus aliquo modo. dictat
+            au<lb ed="#N" n="129" break="no"/>tem ipsa sacramenta post lapsum nature per que conuenientius possit
+            <lb ed="#N" n="130"/>esse salus.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e397">
+            ⁋ Ad tercium vero dicendum. quod aliud est de sacramentis
+            <lb ed="#N" n="131"/>legis mosayce et legis gratie: et aliud de sacramentis tempore
+            le<lb ed="#N" n="132" break="no"/>gis nature. Sacramenta enim pro illis duobus temporibus instituta erant
+            <lb ed="#N" n="133"/>vt si non adimplerentur: esset transgressio. hoc dico de sacramentis
+            <lb ed="#N" n="134"/>pro maiori parte. Tempore vero legis nature non sic erat nisi de
+            <lb ed="#N" n="135"/>circumcisione. In omnibus autem temporibus si fieret contemptus
+            sa<lb ed="#N" n="136" break="no"/>cramentorum esset occasio periculi et transgressionis. hoc autem fuit.
+            <lb ed="#N" n="137"/>quia tempore legis gratie et legis moysi sacramenta erant in precepto. tempore
+            <lb ed="#N" n="138"/>autem nature quedam respondentia illis erant in consilio.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e417">
+            ⁋ Ad
+            <lb ed="#N" n="139"/>vltimum vero dicendum est. quod non fuit simile de sacramento circumcisionis et
+            <pb ed="#N" n="7"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>de aliis. Sacramentum enim circumcisionis institutum fuit ad non
+            ex<lb ed="#N" n="2" break="no"/>presse tanquam pro se in remedium originalis peccati. de aliis
+            <lb ed="#N" n="3"/>vero fiebat inspiratio: non expressa institutio. Non quia non
+            vale<lb ed="#N" n="4" break="no"/>rent ad remedium peccati: sed vt ostenderetur quod in fide cum virtutibus
+            <lb ed="#N" n="5"/>esset plena salus. nec ex lege nature simpliciter essent onerati
+            <lb ed="#N" n="6"/>nisi ad ista tanquam paruuli qui nondum potestatem habent onera
+            <lb ed="#N" n="7"/>portauerint.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e101-Dd1e442">
+          <head xml:id="v78d89-d1e101-Hd1e444">Articulus 3</head>
+          <p xml:id="v78d89-d1e101-d1e446">
+            <lb ed="#N" n="8"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-d1e101-d1e451">
+            <lb ed="#N" n="9"/>SEquitur de tempore institutionis. Et primo vtrum
+            <lb ed="#N" n="10"/>omnia sunt instituta secundum omne tempus a tempore
+            <lb ed="#N" n="11"/>lapsus humani. Secundo. an institua fuerunt in
+            <lb ed="#N" n="12"/>tempore innocentie.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e462">
+            <lb ed="#N" n="13"/>Circa primum sic. §.1.
+            <lb ed="#N" n="14"/>Videtur quod non omnia sunt instituta secundum omne tempus. nihil enim
+            <lb ed="#N" n="15"/>legitur de institutione sacrificiorum tempore legis nature. nihil etiam
+            <lb ed="#N" n="16"/>legitur de institutione decimarum illo tempore. Nusquam enim legitur ante
+            <lb ed="#N" n="17"/>legem scriptum. qui decimas non dederit. qui sacrifica non
+            ob<lb ed="#N" n="18" break="no"/>tulerit: peribit anima illa de populo suo. sicut legebatur. Masculus
+            <lb ed="#N" n="19"/>cuius caro prepucii circumcisa non fuerit: peribit anima illa ex populo
+            <lb ed="#N" n="20"/>suo. Dixit etiam Iacob sicut habetur gen. xxviii. Si dominus deus
+            <lb ed="#N" n="21"/>meus fuerit mecum in vita que ambulo etc. decimas et hostias
+            <lb ed="#N" n="22"/>pacificas offeram tibi ex vniuersis qui dedisti mihi. Ex quo
+            ap<lb ed="#N" n="23" break="no"/>paret quod voluntatis tunc temporis erant: non necessitatis. et ita quod non
+            <lb ed="#N" n="24"/>sunt instituta. Similiter potest dici de sacramento penitentie: non enim
+            le<lb ed="#N" n="25" break="no"/>gitur in Gen. de institutione eius: cum tamen ipsum necessarium fuit secundum
+            <lb ed="#N" n="26"/>omne tempus. non enim dicitur est ibi penitentiam age. Quacumque enim
+            <lb ed="#N" n="27"/>hora penitentiam egeris saluus eris. nec dictum est ibi:
+            Conuer<lb ed="#N" n="28" break="no"/>timini filii redeuntes et sanabo aduersationes vestras. Eodem
+            <lb ed="#N" n="29"/>modo potest dici immo multo fortius de aliis sacramentis.
+            <lb ed="#N" n="30"/>vt de sacramento ordinis et confirmationis et huiusmodi.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e504">
+            ⁋ Contra.
+            <lb ed="#N" n="31"/>dicitur iiii. sententiarum quod sacramenta institua sunt: et assignantur
+            vtilita<lb ed="#N" n="32" break="no"/>tes ipsorum sacramentorum institutorum. Illas autem vtilitates
+            ha<lb ed="#N" n="33" break="no"/>beri omni tempore conueniebat.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e514">
+            ⁋ Preterea. hugo dicit. quod sacramenta
+            in<lb ed="#N" n="34" break="no"/>stituta sunt sub naturali lege. sed naturalis lex concurrit a
+            <lb ed="#N" n="35"/>principio. ergo et sacramenta habuerunt institutionem secundum omne tempus
+            <lb ed="#N" n="36"/>quia et tempore legis nature et tempore legis euangelice et mosayce.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e523">
+            <lb ed="#N" n="37"/>⁋ Preterea. ex ipsa ratione sacramenti patet hoc cum dicitur quod sacramentum est
+            <lb ed="#N" n="38"/>ex similitudine representans: ex institutione significans. Cum ergo
+            si<lb ed="#N" n="39" break="no"/>gnificatio esset tempore legis nature: erat et tunc institutio.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e532">
+            ⁋ Item
+            <lb ed="#N" n="40"/>ii Gen. loquitur dominus de institutione coniugii siue matrimonii.
+            <lb ed="#N" n="41"/>cum dictum est. Non est bonum hominem esse solum: faciamus ei
+            <lb ed="#N" n="42"/>adiutorium simile sibi. et quod tulit vnam de costis eius et
+            reple<lb ed="#N" n="43" break="no"/>uit carnem pro ea et formauit euam de costa. et postea
+            secu<lb ed="#N" n="44" break="no"/>tum est. hoc nunc os ex ossibus meis etc. Quod etiam testatur apostolus.
+            <lb ed="#N" n="45"/>quinto ad Ephesios. vbi recitat illud gen. et subiungit. sacramentum hoc
+            <lb ed="#N" n="46"/>magnum est. ego autem dico in christo et in ecclesia. Hugo etiam
+            atte<lb ed="#N" n="47" break="no"/>statur dicens. Sacramentum coniugii solum ex omnibus sacramentis qui ad
+            re<lb ed="#N" n="48" break="no"/>medium hominis instituta sunt: ante peccatum hominis legitur
+            insti<lb ed="#N" n="49" break="no"/>tutum. non tamen propter peccatum: sed ad sacramentum solum et ad officium.
+            <lb ed="#N" n="50"/>ad sacramentum propter eruditionem. ad officium propter exercitationem.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e558">
+            <lb ed="#N" n="51"/>⁋ Preterea. magister in. iiii. libro sententiarum. xxiii. distinctione. dicit. quod sacramentum
+            peni<lb ed="#N" n="52" break="no"/>tentie sicut coniugii ante tempus gratie etiam a primordio humani
+            <lb ed="#N" n="53"/>generis cepit. utrumque enim institutum fuit in primis
+            parenti<lb ed="#N" n="54" break="no"/>bus. ergo sacramenta tempore legis nature institutionem acceperunt. de
+            tem<lb ed="#N" n="55" break="no"/>pore enim legis mosayce et legis euangelice planum est quod in illis
+            <lb ed="#N" n="56"/>fuerunt sacramenta institua.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e574">
+            ⁋ Preterea. sacramenta data erant in
+            re<lb ed="#N" n="57" break="no"/>medium peccati originalis et actualis quo ad culpam et quo ad
+            pe<lb ed="#N" n="58" break="no"/>nam. Si ergo necessitas fuit secundum omne tempus: congruebat quod a
+            sum<lb ed="#N" n="59" break="no"/>ma sapientia fieret institutio eorum per que esset remedium secundum omne
+            <lb ed="#N" n="60"/>tempus. congruit ergo quod fieret institutio sacramentorum.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e585">
+            ⁋ Ad quod
+            <lb ed="#N" n="61"/>dicendum est. quod loquendo proprie de institutione: non est facta
+            insti<lb ed="#N" n="62" break="no"/>tutio omnium sacramentorum tempore legis nature sed paucorum.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e593">
+            ⁋ Ad illud
+            <lb ed="#N" n="63"/>quod obiectum est. quod dicit magister in sent. institutionem fieri
+            sa<lb ed="#N" n="64" break="no"/>cramentorum et propter determinatas vtilitates. dicendum est quod
+            lo<lb ed="#N" n="65" break="no"/>quitur ibi de sacramentis legis noue et veteris. ponit enim
+            cir<lb ed="#N" n="66" break="no"/>cumcisionem inter sacramenta legis veteris. licet prius a domino tempore
+            <lb ed="#N" n="67"/>abrahe facta fuerit institutio.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e606">
+            ⁋ Ad secundum vero dicendum. quod
+            <lb ed="#N" n="68"/>hugo non accipit proprie institutionem: vel illud quod dicitur ibi de
+            <lb ed="#N" n="69"/>institutione ad sacramenta veteris et noue legis refertur. tamen
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>secundum quod alibi dicit: loquitur de institutione communiter dicens.
+            sacra<lb ed="#N" n="71" break="no"/>menta ab initio ad restaurationem hominis instituta sunt et
+            <lb ed="#N" n="72"/>curationem. alia sub naturali lege: alia sub scripta: alia
+            <lb ed="#N" n="73"/>sub gratia. sed non proprie dicitur institutio sed quedam
+            ordi<lb ed="#N" n="74" break="no"/>natio indita homini ex instinctu divino.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e626">
+            ⁋ Ad tercium vero
+            <lb ed="#N" n="75"/>dicendum. quod ratio sacramenti proprie accipitur secundum totam rationem
+            <lb ed="#N" n="76"/>suam de sacramento noue legis. Istud enim ex
+            sanctificati<lb ed="#N" n="77" break="no"/>one inuisibilem gratiam confert. Quartum autem ad precedens
+            <lb ed="#N" n="78"/>membrum scilicet ex institutione significans conuenit sacramento
+            <lb ed="#N" n="79"/>veteris legis. Quantum ad primum quod est ex similitudine
+            re<lb ed="#N" n="80" break="no"/>presentans: quibusdam sacramentis legis nature: non autem
+            <lb ed="#N" n="81"/>quantum ad illud membrum ex institutione signans nos
+            com<lb ed="#N" n="82" break="no"/>muniter accipiamus.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e646">
+            ⁋ Ad quartum vero quod obiicitur de
+            <lb ed="#N" n="83"/>coniugio. dicendum quod sacramentum coniugii institutum fuit in
+            offi<lb ed="#N" n="84" break="no"/>cium et non tunc in remedium. Nos autem loquimur hoc de
+            <lb ed="#N" n="85"/>illis secundum quod sunt in remedium. Vnde quod ante lapsum
+            fue<lb ed="#N" n="86" break="no"/>rit in officium institutum: post lapsum fuerit in officium et
+            <lb ed="#N" n="87"/>in remedium.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e659">
+            ⁋ Ad illud vero quod post obiicitur de sacramento
+            <lb ed="#N" n="88"/>penitentie. dicendum quod non fuit manifeste institutum. sed dicitur
+            <lb ed="#N" n="89"/>implicite institutum in hoc quod dictum est a domino. In quacumque
+            <lb ed="#N" n="90"/>die comederis morte morieris. vt per comestionem significetur
+            <lb ed="#N" n="91"/>delectatio peccati que obligat hominem ad mortem
+            peniten<lb ed="#N" n="92" break="no"/>tie ante mortem pene in futuro. sed hoc infra planius
+            determina<lb ed="#N" n="93" break="no"/>bitur.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e675">
+            ⁋ Ad vltimum dicendum quod licet sacramenta omnia instituta
+            <lb ed="#N" n="94"/>sint in remedium: non tamen tempore legis nature facta est omnium
+            <lb ed="#N" n="95"/>institutio proprie. sed secundum maiorem appropinquationem et minorem
+            <lb ed="#N" n="96"/>ad gratiam plenitudinem. vnde pauca instituta sunt in
+            le<lb ed="#N" n="97" break="no"/>ge nature: plura in tempore legis mosayce. Quedam vero
+            ad<lb ed="#N" n="98" break="no"/>dita sunt in tempore legis gratie. Si vero obiiciatur de
+            peni<lb ed="#N" n="99" break="no"/>tentia: quare non fuit manifeste instituta tempore legis
+            na<lb ed="#N" n="100" break="no"/>ture que est in remedium actualis peccati: sicut circumcisio
+            <lb ed="#N" n="101"/>instituta fuit in remedium originalis peccati. Dicendum est
+            <lb ed="#N" n="102"/>quod sacramentum penitentie currere debebat secundum hunc ordinem. vt primo
+            <lb ed="#N" n="103"/>esset dictamen nature. secundo inualescente concupienscentia super
+            nat<lb ed="#N" n="104" break="no"/>uram: essent quedam remedia constituta sicut erant sacrificia
+            <lb ed="#N" n="105"/>secundum quod legitur in Leuicito. de sacrificiis pro peccatis. Cum autem
+            <lb ed="#N" n="106"/>venit plenitudo temporis ex virtute passionis puntas clauium
+            <lb ed="#N" n="107"/>quendam recipit effectum superadditum in sacramento penitentie. et ita
+            in<lb ed="#N" n="108" break="no"/>stitutio idest ordinatio aliter et aliter fiebat in lege scilicet veteri
+            <lb ed="#N" n="109"/>et lege gratie manifeste. in lege vero nature occulte. de isto
+            <lb ed="#N" n="110"/>diffusius agetur imposterum.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e715">
+            <lb ed="#N" n="111"/>Secundo queritur §. ii.
+            <lb ed="#N" n="112"/>An in tempore innocentie instituta fuerunt. Et videtur quod sic. propter
+            <lb ed="#N" n="113"/>matrimonium et propter sacramentum penitentie vt tangit magister in libro sent.
+            <lb ed="#N" n="114"/>Ad hoc etiam videtur quod sacramenta sunt data ad
+            sanctifican<lb ed="#N" n="115" break="no"/>dum. sicut ergo gratie in virtutibus pro tempore illo erant
+            necessa<lb ed="#N" n="116" break="no"/>rie: ita gratia in sacramentis. cum hec sanctificarent sicut et illa.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e731">
+            <lb ed="#N" n="117"/>⁋ Sed econtra videtur esse. quia a tempore morbi fuit necessaria
+            medici<lb ed="#N" n="118" break="no"/>na. sed tempus morbi fuit a tempore culpe. sacramenta autem data sunt in
+            <lb ed="#N" n="119"/>medicina. ergo a tempore culpe conueniebat institutio sacramentorum.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e740">
+            <lb ed="#N" n="120"/>⁋ Ad idem facit quod dicit hugo. Ex quo homo a statu prime
+            in<lb ed="#N" n="121" break="no"/>corruptionis lapsus in corpore per mortalitatem egrotare ceperit.
+            <lb ed="#N" n="122"/>continuo deus reparando in sacramentis suis medicinam preparauit.
+            <lb ed="#N" n="123"/>que prout ratio postulabat et causa diuersis temporibus et locis ad
+            <lb ed="#N" n="124"/>curationem exhibuit. A tempore ergo culpe instituta sunt sacramenta.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e753">
+            <lb ed="#N" n="125"/>⁋ Item proposuit deus edictum informans hominem. vt quicumque
+            <lb ed="#N" n="126"/>eum saluatorem et liberatorem eligeret: eiusdem sue electionis
+            <lb ed="#N" n="127"/>votum in perceptione sacramentorum approbare debuisset. sed
+            <lb ed="#N" n="128"/>hoc fuit necessarium a tempore culpe. ab illo enim tempore fuit
+            <lb ed="#N" n="129"/>liberator. ergo a culpe tempore instituta erant sacramenta.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e766">
+            ⁋
+            Vi<lb ed="#N" n="130" break="no"/>detur autem quod a tempore gratie. Gratia enim reparans culpam
+            se<lb ed="#N" n="131" break="no"/>cuta est culpam. sacrameta autem vasa gratie sunt. ergo a tempore
+            <lb ed="#N" n="132"/>gratie reparantis sunt instituta.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e775">
+            ⁋ Per simile etiam videtur hoc
+            <lb ed="#N" n="133"/>idem. sicut enim est in morbo corporali quod primo cadit homo in
+            <lb ed="#N" n="134"/>corporalem morbum: et postea queruntur medicinalia per que
+            <lb ed="#N" n="135"/>fiat reparatio sanitatis. sic est etiam in morbo spirituali: quod
+            <lb ed="#N" n="136"/>primo cadit homo in morbum spiritualem deinde
+            querun<lb ed="#N" n="137" break="no"/>tur illa per que fit reparatio a morbo spirituali. sed hec sunt
+            <lb ed="#N" n="138"/>sacramenta. ergo institutio sacramentorum fuit post tempus
+            cul<lb ed="#N" n="139" break="no"/>pe a tempore gratie reparantis.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e794">
+            ⁋ Ad idem facit quod dicit Hugo.
+            <pb ed="#N" n="8"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Tria fuerunt in reparatione hominis. tempus. locus et remedium. Tempus
+            <lb ed="#N" n="2"/>est vita presens. locus est mundus ille. remedium in tribus constat. In
+            <lb ed="#N" n="3"/>fide. in sacramentis. in operibus bonis. Tempus longum: ne imperatus
+            preoc<lb ed="#N" n="4" break="no"/>cupetur locus asper: vt preuaricator castigetur. remedium
+            effi<lb ed="#N" n="5" break="no"/>cax: vt infirmus sanetur. Efficacia autem huius remedii fuit gratia.
+            <lb ed="#N" n="6"/>Cum ergo sacramenta efficaciam haberent ex gratia: ad quod infirmus sanetur. a
+            <lb ed="#N" n="7"/>tempore gratie post lapsum erat institutio sacramentorum.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e816">
+            ⁋ Ad quod dicendum
+            <lb ed="#N" n="8"/>est. quod sacramenta instituta sunt a tempore gratie reparantis. nec dico tempus
+            <lb ed="#N" n="9"/>gratie reparantis solummodo tempus post aduentum christi. sed tempus quo homo
+            indi<lb ed="#N" n="10" break="no"/>guit gratia reparante. dico autem institutionem per ordinationem vel per
+            <lb ed="#N" n="11"/>inspirationem vel per promulgationem. et hoc patet per hoc. quod primo tempore abel
+            <lb ed="#N" n="12"/>et caym fiebat summo de sacrificiis: qui primo sunt nominata sacramenta
+            <lb ed="#N" n="13"/>in remedium.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e832">
+            ⁋ Ad illud vero quod obiicitur de matirmonio. dicendum est quod
+            <lb ed="#N" n="14"/>institutio matrimonii tempore innocentie fuit in officium et in quandam
+            <lb ed="#N" n="15"/>significationem. sed in remedium vergebatur consequenter. nec fit mentio
+            <lb ed="#N" n="16"/>eius prout est in remedium ante tempus gratie reparantis. De hoc autem quod dicitur
+            <lb ed="#N" n="17"/>penitentia tempore innocentie instituta: hoc non dicitur expresse. Et licet penitentia
+            prece<lb ed="#N" n="18" break="no"/>deret in adam ante tempus abel et caym: tamen non fuit expressio eius vt
+            sa<lb ed="#N" n="19" break="no"/>cramenti. in ipso enim erat contritio: sed non exprimitur confessio aut
+            sa<lb ed="#N" n="20" break="no"/>tisfactio: in quibus est complectio sacramenti. et propter hoc non est dicendum quod sacramenta in
+            <lb ed="#N" n="21"/>remedium instituta sunt tempore innocentie. Et licet contritus fuerit
+            <lb ed="#N" n="22"/>adam: in scriptura Gen. non fit mentio post eiectionem eius de
+            <lb ed="#N" n="23"/>paradiso. sed statim de ipsis sacrificiis subiungitur et oblationibus.
+            <lb ed="#N" n="24"/>vt designetur quod presignabit deus ipsam reparationem fiendam.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e858">
+            <lb ed="#N" n="25"/>⁋ Ad illud quod obiicitur. quod sacramenta data fuerant ad
+            sacrifican<lb ed="#N" n="26" break="no"/>dum. et ideo necessaria in tempore innocentie sicut et virtutes. Dicendum est
+            <lb ed="#N" n="27"/>quod aliter fuit de virtutibus et aliter de sacramentis. Gratia enim in virtutibus
+            <lb ed="#N" n="28"/>fuit ad hoc vt sine illis non esset salus. Gratia vero in sacramentis: vt
+            repara<lb ed="#N" n="29" break="no"/>tio salutis fieret post lapsum. vnde tunc non indigebat homo tantum
+            gra<lb ed="#N" n="30" break="no"/>tia in virtutibus sed gratia in sacramentis. Sed attendendum est. quod licet sacramenta
+            or<lb ed="#N" n="31" break="no"/>dinata essent ad sanctificationem. quedam sunt in quibus datur
+            sancti<lb ed="#N" n="32" break="no"/>ficatio. quedam vero fuerunt in quibus signabatur sanctificatio: non
+            <lb ed="#N" n="33"/>quod ex virtute eorum daretur. et talia a principio data sunt. processu
+            <lb ed="#N" n="34"/>vero temporis alia sicut infra dicetur. Sed nec ista nec illa tempore
+            innocen<lb ed="#N" n="35" break="no"/>tie erant necessaria: cum tunc non esset indigentia remedii: nec esset
+            effica<lb ed="#N" n="36" break="no"/>cia remedii.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e887">
+            ⁋ Ad illud vero quod obiicitur. quod a tempore morbi fuit
+            <lb ed="#N" n="37"/>necessaria institutio sacramenti. dicendum est quod a tempore morbi dicitur dupliciter. vel
+            <lb ed="#N" n="38"/>ab initio morbi vel cito post. Primo modo non sunt instituta
+            <lb ed="#N" n="39"/>sacramenta tempore morbi. Secundo modo instituta sunt: quia cito siue
+            conti<lb ed="#N" n="40" break="no"/>nuo post morbi initium. Et sic intelligitur quod dicit hugo.
+            conti<lb ed="#N" n="41" break="no"/>nuo vt repararet in sacramentis suis medicinam preparauit. Et illud quod
+            <lb ed="#N" n="42"/>alibi dicit. Si quis querat tempus institutionis sacramentorum, sciat quia quamdiu
+            <lb ed="#N" n="43"/>morbo est. tempus est medicine. vt sic intelligatur statim post. Et similiter
+            <lb ed="#N" n="44"/>illud quod dicitur. quod ab exordio mundi sacramenta salutis sue homini
+            propo<lb ed="#N" n="45" break="no"/>suerit. hoc est cito post exordium mundi. per hoc possunt patere que obiecta
+            <lb ed="#N" n="46"/>sunt. Dicunt autem quidam. quod apud sapientem medicum qui preuidet
+            <lb ed="#N" n="47"/>futurum esse morbum: non supervacue preparentur medicine si statim
+            pos<lb ed="#N" n="48" break="no"/>sent adhiberi morbo venienti. et hoc modo fuit apud summe
+            sa<lb ed="#N" n="49" break="no"/>pientem deum. qui preuidit hominem peccaturum si aliquid sacramentum prius
+            in<lb ed="#N" n="50" break="no"/>stituit ad remedium futurorum. vt statim veniente morbo posset
+            ad<lb ed="#N" n="51" break="no"/>hiberi et hoc modo posset dici secundum illud quod dicit magister in sententiis de
+            sa<lb ed="#N" n="52" break="no"/>cramento penitentie. sed de hoc infra plenius dicetur.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e101-Dd1e925">
+          <head xml:id="v78d89-d1e101-Hd1e927">Articulus 4</head>
+          <p xml:id="v78d89-d1e101-d1e929">
+            <lb ed="#N" n="53"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-d1e101-d1e934">
+            <lb ed="#N" n="54"/>QUarto queritur a quo facta sit institutio sacramentorum
+            <lb ed="#N" n="55"/>scilicet vtrum a deo vel ab homine. Quod autem a deo videtur per
+            <lb ed="#N" n="56"/>illud. iiii. sent. in principio. Samaritanus
+            vulne<lb ed="#N" n="57" break="no"/>rato appropinquans: curationi eius sacramentorum alligamenta
+            adhi<lb ed="#N" n="58" break="no"/>buit. quia contra originalis et actualis peccati vulnera sacramentorum remedium
+            <lb ed="#N" n="59"/>deus instituit.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e950">
+            ⁋ Item sacramenta ordinantur ad gratiam et instituuntur. sed
+            <lb ed="#N" n="60"/>ordinatio ad gratiam est solius dei. quia et hoc gratie est: ideo
+            institu<lb ed="#N" n="61" break="no"/>tio sanctorum solius dei est.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e957">
+            ⁋ Item sicut dicit hugo. sacramentum est
+            cor<lb ed="#N" n="62" break="no"/>porale siue materiale elementum extrinsecus oculis suppositum: ex
+            <lb ed="#N" n="63"/>similitudine representans: ex institutione signans: ex sanctificatione
+            <lb ed="#N" n="64"/>inuisibilem gratiam conferens. Sic igitur tria requiruntur ad esse
+            sa<lb ed="#N" n="65" break="no"/>cramenti. Primum scilicet representatio ex similitudine est a deo qui est
+            con<lb ed="#N" n="66" break="no"/>ditor creaturarum. Secundum scilicet significatio ex institutione est
+            <lb ed="#N" n="67"/>ab ipso mediatore siue saluatore christo. Tercium scilicet ex
+            sancti<lb ed="#N" n="68" break="no"/>ficatione collatio inuisibilis gratie est a dispensatore et a
+            salua<lb ed="#N" n="69" break="no"/>tore. Vnde hugo. quod elementa sacramenta sunt. non natura prima facit
+            <lb ed="#N" n="70"/>hec apposita institutio per dispensationem: et gratia infusa per
+            benedicti<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>onem. que duo si elementa post primam naturam non accepissent
+            sa<lb ed="#N" n="72" break="no"/>cramenta proprie esse non potuissent. dedit prime nature
+            humilita<lb ed="#N" n="73" break="no"/>tem ut hoc esse possent. adiungit secunda institutio auctoritatem vt hoc
+            fie<lb ed="#N" n="74" break="no"/>rent. superaddit tercia benedictio sanctitatem vt hec essent.
+            Pri<lb ed="#N" n="75" break="no"/>ma facta per creatorem. Secunda proposita per saluatorem. Tercia
+            <lb ed="#N" n="76"/>administrata per dispensatorem. Primum creator per maiestatem
+            <lb ed="#N" n="77"/>vasa formauit. postea saluator per institutionem eadem
+            proposu<lb ed="#N" n="78" break="no"/>it. postremo dispensator per benedictionem hec ipsa mandauit et
+            <lb ed="#N" n="79"/>gratia impleuit. Ex his patet quod institutio pertinet ad saluatorem
+            <lb ed="#N" n="80"/>scilicet christum.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e1003">
+            ⁋ Contra. sacramenta ueteris legis instituta sunt a
+            mo<lb ed="#N" n="81" break="no"/>yse. similiter confirmatio ab apostolis: vt patet Acta. iii. Et extrema
+            vn<lb ed="#N" n="82" break="no"/>ctio vltimum. Iaco. et ita sacramenta veteris et noue legis sunt
+            insti<lb ed="#N" n="83" break="no"/>tuta ab homine.
+          </p>
+          <p xml:id="v78d89-d1e101-d1e1012">
+            ⁋ Ad hoc dici potest. quod sacramenta instituta sunt a deo
+            <lb ed="#N" n="84"/>auctoritate. ab homine puro solum ministerio. a saluatore christo deo et
+            <lb ed="#N" n="85"/>homine auctoritate et ministerio. Ipse enim instituit auctoritate inquantum deus:
+            <lb ed="#N" n="86"/>ministerio inquantum homo ministrando ipsa sacramenta. sicut patet de sacramento
+            alta<lb ed="#N" n="87" break="no"/>ris. Moyses autem instituit ut ministerium assumpto officio
+            mi<lb ed="#N" n="88" break="no"/>nisterii a christo auctore. per quos vt dicit magister. iiii. sent. erat
+            di<lb ed="#N" n="89" break="no"/>spositurus ecclesias. alia tamen et alia erat ratio ministerii prout erat
+            <lb ed="#N" n="90"/>christi homini et apostolorum. quia vt erat Christi hominis erat ministerium quasi
+            sub<lb ed="#N" n="91" break="no"/>auctoritatis. vt apostolorum purum ministerium. Subauctoritas autem
+            <lb ed="#N" n="92"/>vno modo est ipsius mediatoris. non dico mediatori eo modo quo
+            <lb ed="#N" n="93"/>Christus deus homo et mediator: sed eo modo quo christus homo est mediator scilicet
+            <lb ed="#N" n="94"/>inter deum incarnatum et purum hominem. descendit enim auctoritas secundum
+            <lb ed="#N" n="95"/>descensum mediatoris siue mediatoris. et ex hoc patet responsio
+            <lb ed="#N" n="96"/>ad obiecta.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

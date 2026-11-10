@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 43, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 43, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="314"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8uirb"><!-- q43m4 -->
+        <head xml:id="v78d89-a8uirb-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a8uirb-Hd1e103" type="question-title">Pro quanto dicatur quis manducare sacramentaliter</head>
+        <p xml:id="v78d89-a8uirb-d1e106">
+          <lb ed="#N" n="90"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e111">
+          <lb ed="#N" n="91"/>COnsequenter queritur pro quanto dicitur quis
+          sa<lb ed="#N" n="92" break="no"/>cramentaliter manducare. et queritur an ex
+          so<lb ed="#N" n="93" break="no"/>la actione corporali. Quod sic: videtur per simile in
+          sa<lb ed="#N" n="94" break="no"/>cramento baptismi qui enim immergitur corporaliter
+          <lb ed="#N" n="95"/>in aqua forma baptismi seruata: baptizantur sacramentaliter. similiter
+          vi<lb ed="#N" n="96" break="no"/>detur quod qui recipit sacramentum hoc corporaliter manducat
+          sacramentali<lb ed="#N" n="97" break="no"/>ter.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e129">
+          ⁋ Item manducatio spiritualis attenditur in actione spirituali.
+          <lb ed="#N" n="98"/>ergo videtur quod sacramentalis attenditur in actione corporali.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e135">
+          ⁋ Item
+          mi<lb ed="#N" n="99" break="no"/>nima dispositio que possit haberi ad hoc sacramentum est fides
+          in<lb ed="#N" n="100" break="no"/>formis. sed sine hac potest manducari sacramentaliter: ergo sola actio
+          co¬<lb ed="#N" n="101" break="no"/>paralis sufficit. Probatio minoris. hereticus sacerdos potest
+          confi<lb ed="#N" n="102" break="no"/>cere. sed non minus est conficere quam sacramentaliter sumere: ergo hereticus potest
+          <lb ed="#N" n="103"/>sacramentum sumere. ergo sine actu fidei potest sacramentaliter manducari: ergo
+          <lb ed="#N" n="104"/>sola actione corporali.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e151">
+          ⁋ Item quecumque inseparabiliter sunt
+          vni<lb ed="#N" n="105" break="no"/>ta. quamdiu sunt in nullo actu separantur. ergo si vnum sumitur et mandu
+          <lb ed="#N" n="106"/>catur et aliud. sed sic se habent species panis et corpus christi: igitur
+          <lb ed="#N" n="107"/>qui manducat speciem comedit corpus christi. sed non spiritualiter: erg
+          <lb ed="#N" n="108"/>sacramentaliter. ergo comedit sacramentaliter sola actione corporali.
+          <lb ed="#N" n="109"/>Contra. ad actum sacramentalem requiritur intentio. si enim
+          ver<lb ed="#N" n="110" break="no"/>ba diceret aliquis et non intenderet consecrare non conficeret. I
+          <lb ed="#N" n="111"/>simili videtur quod et si quis sumeret species sacramenti et
+          manduca<lb ed="#N" n="112" break="no"/>ret. et non intenderet sumere sacramentum: non manducaret
+          sacramenta<lb ed="#N" n="113" break="no"/>liter.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e173">
+          ⁋ Item fides est fundamentum omnium sacramentorum. et
+          maxi<lb ed="#N" n="114" break="no"/>me huius: quia in forma huius dicitur misterium fidei etc.
+          er<lb ed="#N" n="115" break="no"/>go si aliquis degustat et non credit: non sumit
+          sacramenta<lb ed="#N" n="116" break="no"/>riter. Item duo sunt de integritate sacramenti. scilicet
+          signi<lb ed="#N" n="117" break="no"/>ficatio et sanctificatio. sed ei qui non credit nec significat sacramentum
+          <lb ed="#N" n="118"/>neque efficaciam sanctificationis prestat: ergo talis nullo
+          mo<lb ed="#N" n="119" break="no"/>do manducat.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e189">
+          ⁋ Item si sola masticatio corporalis sufficeret
+          <lb ed="#N" n="120"/>tunc malus vel angelus assum pto carne et homo ignorans
+          <lb ed="#N" n="121"/>sacramentum sacramentaliter sumeret: quod non est verum.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e196">
+          ⁋
+          Respon<lb ed="#N" n="122" break="no"/>sio. quod sacramentaliter manducare est sacramentum manducare et
+          <lb ed="#N" n="123"/>vt sacramentum. ad hoc enim quod actus sit sacramentalis: necesse est
+          <lb ed="#N" n="124"/>quod respiciat ipsum sacramentum vt sacramentum. ad hoc quod
+          ali<lb ed="#N" n="125" break="no"/>quis manducando species manducet sacramentum: duo
+          ex<lb ed="#N" n="126" break="no"/>iguntur. scilicet existentia cibi et eius ad cibatum debita
+          conue<lb ed="#N" n="127" break="no"/>nientia. et post exigitur existentia cibi et eius ad cibandum
+          <lb ed="#N" n="128"/>debita siue naturalis conuenientia. Primum patet. quia si non
+          <lb ed="#N" n="129"/>oncesserit sacramenti confectio: non potest sequi manducatio
+          <lb ed="#N" n="130"/>Secundum exigitur. quia cibus iste solum hominibus est concessus
+          <lb ed="#N" n="131"/>vnde sicut homo solus baptizatur: ita corpus christi sacramentaliter a
+          solo<lb ed="#N" n="132" break="no"/>homine manducatur. et sicut solus homo suscipit sacramentum baptismi: ita
+          <lb ed="#N" n="133"/>solus homo suscipit sacramentum eucharistie. Ad hoc autem quod manducet
+          <lb ed="#N" n="134"/>vt sacramentum necessaria est intentio et intentionis regulatio. vel
+          <lb ed="#N" n="135"/>secundum fidem que est in christo: vel secundum fidem que est in altero.
+          In<lb ed="#N" n="136" break="no"/>tentio inquam necessaria est. Nam si quis iret ad mensam et
+          <lb ed="#N" n="137"/>intenderet corpus reficere. et aliquis pro pane communi sacramentum sibi
+          <lb ed="#N" n="138"/>sicut panem offerret. et ipse intenderet omnino cibum
+          corpora<lb ed="#N" n="139" break="no"/>lem sumere: nemo diceret eum sacramentum manducasse.
+          <pb ed="#N" n="315"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>Necesse est etiam quod illa intentio dirigatur vel secundum fidem que est
+          <lb ed="#N" n="2"/>in ipso vel in altero: quia vele oportet quod credat quod sub illa
+          spe<lb ed="#N" n="3" break="no"/>cie aliquid lateat spirituale quod sumere intendat: vel oportet
+          <lb ed="#N" n="4"/>quod saltem intendat sumere quod alios credere estimat quamuis
+          <lb ed="#N" n="5"/>ipse non credat. Unde si aliquis hereticus intendit accipere quod
+          <lb ed="#N" n="6"/>estimat ecclesiam credere corpus christi esse: quamuis non credat:
+          <lb ed="#N" n="7"/>sacramentaliter comedit. quia quamuis intentio sua non
+          regule<lb ed="#N" n="8" break="no"/>tur nec attingat rem sacramenti per propriam fidem: attingit
+          <lb ed="#N" n="9"/>tamen mediante fide aliena. nam sacramentaliter comedit quamuis
+          <lb ed="#N" n="10"/>non ita attingat sicut ille qui credit fide propria. et sic patet pro
+          <lb ed="#N" n="11"/>quanto dicatur sacramentaliter manducare scilicet quia sacramentum
+          <lb ed="#N" n="12"/>primo vere existit. et ipse qui manducat illud sacramentum
+          <lb ed="#N" n="13"/>sumere intendit. siue quia credit esse verum sacramentum. siue quia
+          <lb ed="#N" n="14"/>estimat alios credere.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e272">
+          ⁋ Ad primum ergo quod obiectum est. quod
+          <lb ed="#N" n="15"/>sufficit sola manducatio corporalis etc. Dicendum non sufficit.
+          <lb ed="#N" n="16"/>immo requiritur pretacta scilicet quod manducet sacramentum vt
+          sacra<lb ed="#N" n="17" break="no"/>mentum. et ad hoc necessaria est intentio et intentionis
+          regu<lb ed="#N" n="18" break="no"/>latio vel fides que est in ipso vel que est in alio.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e284">
+          ⁋ Ad illud
+          <lb ed="#N" n="19"/>simile de baptismo. dicendum. quod in baptismo adulti non
+          <lb ed="#N" n="20"/>sufficit immersio cum forma verborum: sed requiritur quod assit
+          in<lb ed="#N" n="21" break="no"/>tentio regulata fide propria vel aliena et sic est in proposito.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e293">
+          <lb ed="#N" n="22"/>⁋ Ad id quod obiicitur per simile de spirituali manducatione.
+          di<lb ed="#N" n="23" break="no"/>cendum quod non est simile. quia in actu fidei et caritatis semper
+          <lb ed="#N" n="24"/>res spiritualis attingitur. et ita res spiritualis non frustratur. sed cum
+          <lb ed="#N" n="25"/>quis manducat corporaliter potest esse quod non attingat aliquid quam quod
+          <lb ed="#N" n="26"/>spiritualiter subest. nec intellectu. nec affectu. nec per se. nec per
+          <lb ed="#N" n="27"/>alterum. et ita non manducat vt sacramentum.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e309">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="28"/>obiicitur de fide informi quod est minima dispositio ad hoc
+          sacra<lb ed="#N" n="29" break="no"/>mentum. dicendum quod non est verum quia minor est cognitio
+          estima<lb ed="#N" n="30" break="no"/>tionis quam fidei informis. et minus est intendere facere quod alius
+          <lb ed="#N" n="31"/>facit: quam intendere quod credit. hic tamen quia aliqua dispositio est.
+          <lb ed="#N" n="32"/>ideo aliquo modo manducatio sacramentalis est quamuis non ita
+          <lb ed="#N" n="33"/>plene.
+        </p>
+        <p xml:id="v78d89-a8uirb-d1e325">
+          ⁋ Ad illud quod obiicitur de inseperabilitate. dicendum
+          <lb ed="#N" n="34"/>quod et si inseparabilia sunt quantum ad simultatem essendi. quamdiu enim
+          <lb ed="#N" n="35"/>est species simul sunt: non tamen sunt inseparabilia quantum ad
+          simul<lb ed="#N" n="36" break="no"/>tatem patiendi. Potest enim quis perforare et frangere speciem
+          <lb ed="#N" n="37"/>cum nihil fiat circa rem contentam. similiter et manducare. et
+          <lb ed="#N" n="38"/>quoniam sacramentum dicit comparationem ad rem: nihil dicitur
+          at<lb ed="#N" n="39" break="no"/>tingere rem sacramenti nisi attingat rem aliquo genere
+          <lb ed="#N" n="40"/>cognitionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

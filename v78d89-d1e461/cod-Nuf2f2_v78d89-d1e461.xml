@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="50"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e461"><!-- q7m3 -->
+        <head xml:id="v78d89-d1e461-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-d1e461-Hd1e103" type="question-title">De latione sive datione circumcisionis</head>
+        <p xml:id="v78d89-d1e461-d1e106">
+          <lb ed="#N" n="93"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-d1e461-d1e111">
+          <lb ed="#N" n="94"/>SEquitur de latione siue datione
+          circumcisi<lb ed="#N" n="95" break="no"/>onis. Et primo queritur de datione. Secundo
+        </p>
+        <p xml:id="v78d89-d1e461-d1e118">
+          <lb ed="#N" n="96"/>Iex parte eorum quibus data fuit.
+        </p>
+        <div xml:id="v78d89-d1e461-Dd1e124">
+          <head xml:id="v78d89-d1e461-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-d1e461-d1e128">
+            <lb ed="#N" n="97"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-d1e461-d1e133">
+            <lb ed="#N" n="98"/>QUeritur ergo a quo data fuit ipsa circumcisio Quod autem
+            <lb ed="#N" n="99"/>data fuit a deo patet plane Gen. xvii. Ubi dicitur
+            <lb ed="#N" n="100"/>dixit deus ad abraham. Tu custodies pactum meum
+            <lb ed="#N" n="101"/>et semen tuum post te in generationibus suis. hoc est pactum meum
+            <lb ed="#N" n="102"/>quod obseruabitis inter me et vos et semen tuum post te.
+            <lb ed="#N" n="103"/>circumcidetur ex vobis omne masculinum.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e149">
+            ⁋ Contra. cum deus
+            <lb ed="#N" n="104"/>non dederit legem per se sed per ministrum. cum circumcisio sit
+            ini<lb ed="#N" n="105" break="no"/>tium legis: videtur quod dari debuit a deo per ministrum vel quare non.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e156">
+            <lb ed="#N" n="106"/>⁋ Item illa que data fuerunt in lege in remedium actualis peccati.
+            <lb ed="#N" n="107"/>data fuerunt per ministrum et non immediate a deo. a simili videtur
+            <lb ed="#N" n="108"/>quod debeat esse de remedio originalis.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e166">
+            ⁋ Responsio. quod
+            circumci<lb ed="#N" n="109" break="no"/>sio data fuit in remedium originalis peccati quod a solo deo est per
+            <lb ed="#N" n="110"/>meritum passionis christi. Ad ostendendum ergo quod a solo deo est
+            <lb ed="#N" n="111"/>deletio originalis culpe: data est circumcisio a deo immediate et
+            <lb ed="#N" n="112"/>non per ministrum sicut actuale. Ad ostendendum vero quod deletio
+            cul<lb ed="#N" n="113" break="no"/>pe: simpliciter est a deo datum fuit baptisma christi in quo fit deletio
+            om<lb ed="#N" n="114" break="no"/>nis culpe immediate a deo.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e182">
+            ⁋ Ad aliud dicendum Quod remedia
+            <lb ed="#N" n="115"/>que data fuerunt in lege non fuerunt remedia culpe. quantum ad
+            <lb ed="#N" n="116"/>opus operatum dico: sed potius satisfactoria. et data in culparum
+            <lb ed="#N" n="117"/>punitionem: non in purgationem. sicut fuit circumcisio data ad
+            purga<lb ed="#N" n="118" break="no"/>tionem culpe originalis.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e461-Dd1e194">
+          <head xml:id="v78d89-d1e461-Hd1e196">Articulus 2</head>
+          <p xml:id="v78d89-d1e461-d1e198">
+            <lb ed="#N" n="119"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e461-d1e203">
+            <lb ed="#N" n="120"/>SEquitur de datione circumcisionis ex parte eorum quibus
+            da<lb ed="#N" n="121" break="no"/>ta fuit. primo ergo queritur quibus data fuit quantum ad
+            <lb ed="#N" n="122"/>gentem. Secundo quibus data fuit quantum ad sexum.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e212">
+            <lb ed="#N" n="123"/>Eircavriulum. §.
+            <lb ed="#N" n="124"/>proceditur sic. videtur quod non data fuit nisi semini abrahe.
+            <lb ed="#N" n="125"/>Hugo. Circumcisio data non est nisi semini abrahe. vt in
+            <lb ed="#N" n="126"/>carne signi ficarentur. qui in carne vnirentur.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e223">
+            ⁋ Item
+            ali<lb ed="#N" n="127" break="no"/>bi. Circumcisionis sacramentum semini abrahe datum est.
+            <lb ed="#N" n="128"/>quatenus singularis et discreta maneret generatio de qua
+            <lb ed="#N" n="129"/>christus nasceretur.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e233">
+            ⁋ Contra. morbus fuit vniuersalis: ergo
+            <lb ed="#N" n="130"/>remedium debet esse vniuersale.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e238">
+            ⁋ Item in lege nature erat
+            <lb ed="#N" n="131"/>remedium vniuersale scilicet fides et sacrificia. similiter in
+            <lb ed="#N" n="132"/>lege gratie: a simili videtur quod in lege scripta.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e245">
+            ⁋ Item Gen.
+            <lb ed="#N" n="133"/>xvii. vbi datum fuit preceptum de circumcisione datum est
+            <lb ed="#N" n="134"/>non solum abrahe et semini eius. sed et vernaculis et seruis
+            <lb ed="#N" n="135"/>emptitiis.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e254">
+            ⁋ Item ibidem. masculus cuius prepucii caro non
+            <lb ed="#N" n="136"/>fuit circumcisa: delebitur anima illius de populo suo. quia
+            pa<lb ed="#N" n="137" break="no"/>ctum meum irritum fecit. Ecce quod dicit absolute et
+            vniuer<pb ed="#N" n="51"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>saliter. masculus cuius prepucii caro: non dicit masculus
+            <lb ed="#N" n="2"/>de semine abrahe. Ex quo videtur. quod omnes masculos
+            obli<lb ed="#N" n="3" break="no"/>gat illud preceptum.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e270">
+            ⁋ Item glo. super illud. quia pactum meum
+            irri<lb ed="#N" n="4" break="no"/>tum fecit dicit. pactum di non secundum opus sed secundum originem in primo
+            ho<lb ed="#N" n="5" break="no"/>mine irritum fecerunt: in quo omnes peccauerunt. vult igitur
+            <lb ed="#N" n="6"/>glo. quod omnes illi fecerunt pactum dei irritum: qui nascuntur cum
+            <lb ed="#N" n="7"/>originali. Si igitur irritatio pacti dri fuit causa quare
+            pe<lb ed="#N" n="8" break="no"/>rire debeant incircumcisi. et hoc quia non adimpletum fuit in eis
+            <lb ed="#N" n="9"/>preceptum de circumcisione: videtur quod omnibus habentibus peccatum
+            <lb ed="#N" n="10"/>originale datum fuit illud preceptum.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e288">
+            ⁋ Item. ix. hiere.
+            Uisi<lb ed="#N" n="11" break="no"/>tabo super omnem qui incircumcisum habet prepucium super
+            egi<lb ed="#N" n="12" break="no"/>ptum et super iudam. et super edom et super filios amon et super
+            <lb ed="#N" n="13"/>moab etc. Ibi glo. hiero. Multitudo gentium maxime iude
+            <lb ed="#N" n="14"/>et palestine confines vsque hodie circumciduntur. et precipue egiptii
+            <lb ed="#N" n="15"/>et ydumei. amonite et moabite et omnis regio saracenorum
+            <lb ed="#N" n="16"/>qui habitant in solitudine. Hic patet et ex textu et ex glo.
+            <lb ed="#N" n="17"/>quod non solum exercebatur ritus circumcisionis in semine abrahe
+            <lb ed="#N" n="18"/>sed in aliis multis. igitur aliis fuit circumcisio in remdium originalis
+            <lb ed="#N" n="19"/>sicut semini abrahe.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e311">
+            ⁋ Item quod melius est et perfectius deo est
+            at<lb ed="#N" n="20" break="no"/>tribuendum. sed vniuersaliter prouideri melius est quam
+            perti<lb ed="#N" n="21" break="no"/>culariter: igitur hoc dei est igitur cum prouidit homini in
+            re<lb ed="#N" n="22" break="no"/>medium originalis per circumcisionem: circumcisio debet esse
+            reme<lb ed="#N" n="23" break="no"/>dium generale.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e322">
+            ⁋ Item ratio quare baptismus sequitur circum
+            <lb ed="#N" n="24"/>cisionem est. quia baptismus est communior et perfectior. Unde magister
+            <lb ed="#N" n="25"/>iiii. senten. i. dist. Ideo mutata est circumcisio per baptismum
+            <lb ed="#N" n="26"/>quia sacramentum baptismi communius est et perfectius. Eadem ratione
+            si<lb ed="#N" n="27" break="no"/>circumcisio sequitur sacramenta legis nature. et sacramentum quod ibi
+            <lb ed="#N" n="28"/>erat remedium contra originale immutatum est per circumcisionem:
+            <lb ed="#N" n="29"/>circumcisio debet esse communior et perfectior vel saltim ita
+            con<lb ed="#N" n="30" break="no"/>munis.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e340">
+            ⁋ Responsio. suppositis supradictis scilicet quod conueniebat
+            sa<lb ed="#N" n="31" break="no"/>cramentum circumcisionis dari abrahe. et rationibus pro hoc
+            as<lb ed="#N" n="32" break="no"/>signatis addendum est. quod fuit morbus vniuersalis: causa tamen
+            <lb ed="#N" n="33"/>morbi non fuit vniuersalis sed perticularis. in remedium ergo
+            <lb ed="#N" n="34"/>morbi vniuersalis fuit data vniuersalis medicina. sed
+            rati<lb ed="#N" n="35" break="no"/>one cause que erat perticularis: fuit data perticularis medicina.
+            <lb ed="#N" n="36"/>Quod perticularis fuit causa patet. quia causa morbi fuit
+            corru<lb ed="#N" n="37" break="no"/>ptio persone singularis scilicet primi hominis. persona enim eius
+            cor<lb ed="#N" n="38" break="no"/>rupta corrupit naturam: ex cuius corruptione est corruptio
+            ge<lb ed="#N" n="39" break="no"/>neraliter personalis. et quia preceptum datum fuit ade et per
+            vi<lb ed="#N" n="40" break="no"/>rum descendit preceptum ad mulierem: omnes descendentes a
+            <lb ed="#N" n="41"/>viro obligati erant in viro. v. ad Ro. per vnum hominem in
+            <lb ed="#N" n="42"/>hunc mundum peccatum intrauit et per peccatum mors. duplex ergo
+            reme<lb ed="#N" n="43" break="no"/>dium statutum est. vniuersale contra morbum vniuersalem. cum
+            <lb ed="#N" n="44"/>dominus dedit quod in fide parentum cum sacrificiis remitteretur pec
+            <lb ed="#N" n="45"/>catum originale. Item quia in viro habundauit causa corruptionis.
+            <lb ed="#N" n="46"/>quia per virum transfusa est corruptio: statuit dominus remedium par
+            <lb ed="#N" n="47"/>ticulare contra causam perticularem. hoc autem fuit in lege
+            scri<lb ed="#N" n="48" break="no"/>peta st hoc conueniebat fieri in lege illa: non in lege nature vel
+            <lb ed="#N" n="49"/>euangelii. lex nature et gratie siue euangelii fuerunt veles. lex enim
+            <lb ed="#N" n="50"/>moysi quantum ad propria fuit perticularis et vnigeniti data. vnde
+            <lb ed="#N" n="51"/>glo. super illud Exo. xxiii. Ascende ad me dicit. quia lex tantum vni
+            <lb ed="#N" n="52"/>populo commietenda erat: euangelii gratia omnibus predicanda: ad
+            ac<lb ed="#N" n="53" break="no"/>cipiendam legem solus moyses ascendit. quod debet intelligi quantum
+            <lb ed="#N" n="54"/>ad propria legis scilicet legalia: quia quantum ad moralia fuit velis. sed
+            <lb ed="#N" n="55"/>illa non erant legis moysi sed legis nature. Unde lex illa non
+            <lb ed="#N" n="56"/>fuit nisi expressiua et manifestiua legis nature quantum ad hec.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e399">
+            <lb ed="#N" n="57"/>⁋ Sed obiicitur. virtus cicumcisionis siue purgatio per
+            circumcisi<lb ed="#N" n="58" break="no"/>onem nullo modo respicit causam morbi siue illum a quo est: sed
+            <lb ed="#N" n="59"/>potius morbum. igitur ex relatione ad causam non debet reciper
+            <lb ed="#N" n="60"/>congruitatem: sed ex relatione ad morhum. igitur cum morbus
+            <lb ed="#N" n="61"/>erat vniuersalis: etc. Responso. quod hec congruitas que assignatur
+            illi<lb ed="#N" n="62" break="no"/>sacramento: est in signando non in efficiendo. Unde licet
+            cir<lb ed="#N" n="63" break="no"/>cumcisio non respicit causam morbi per efficaciam: respicere
+            <lb ed="#N" n="64"/>tamen ponitur per signationem. vel potest dici vt dicit hug. Tres sunt
+            <lb ed="#N" n="65"/>circumcisiones. Una in carne tantum que est sacramentum. alie due que
+            <lb ed="#N" n="66"/>sunt res et virtus sacramenti. altera que fit in presenti quando anima per
+            di<lb ed="#N" n="67" break="no"/>spositionem iniquitatis circumcidetur. altera que in futuro fiet quando per
+            <lb ed="#N" n="68"/>depositionem corruptionis circumcidetur corpus. Prima igitur est in
+            <lb ed="#N" n="69"/>carne. secunda in mente. tercia in corpore. hec hug. sed tam
+            cir<lb ed="#N" n="70" break="no"/>cumcisio mentis que fit per depositionem iniquitatis: quam circum cisio
+            <lb ed="#N" n="71"/>corporis que fiet per depositonem corruptionis:
+            particula<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>ris est. vt igitur congrueret et configuraretur signum signa
+            <lb ed="#N" n="73"/>to et sacramentum rei: congruebat vt circumcisio particularis
+            <lb ed="#N" n="74"/>esset.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e442">
+            ⁋ Si obiicitur ratione eadem quod baptismus deberet esse
+            <lb ed="#N" n="75"/>particularis. et sacramentum quod erat in remedium
+            origina<lb ed="#N" n="76" break="no"/>lis in lege nature. Dicendum quod non est verum. quia proprie
+            sa<lb ed="#N" n="77" break="no"/>cramenta legis scripte data sunt in figuram. Unde. i.
+            Co<lb ed="#N" n="78" break="no"/>rin. x. Omnia contingebant illis in figuram.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e453">
+            ⁋ Et si obiicitur
+            <lb ed="#N" n="79"/>quod nullum debebat esse tempus in quo non esset vniuersale
+            reme<lb ed="#N" n="80" break="no"/>dium: sicut vniuersalis erat morbus. Dicendum quod hoc verum
+            <lb ed="#N" n="81"/>est. Unde in illo tempore licet circumcisio non esset
+            vniuersa<lb ed="#N" n="82" break="no"/>le: erat tamen aliquid adiunctum quod cum illo vniuersalitatem
+            <lb ed="#N" n="83"/>faciebat. fides enim cum oblationibus que est adiuncta
+            cir<lb ed="#N" n="84" break="no"/>cumcisioni. que medicina adhuc durabat propter mulieres et
+            <lb ed="#N" n="85"/>propter preuentos: reddebat vniuersalem medicinam contra
+            mor<lb ed="#N" n="86" break="no"/>bum originalis peccati et originalis concupiscentie. Ad quod
+            <lb ed="#N" n="87"/>igitur obiicitur. quod morbus fuit generalis igitur et remedium.
+            <lb ed="#N" n="88"/>Dicendum quod sic fuit scilicet respectu morbi: quia in nullo
+            <lb ed="#N" n="89"/>erat morbus qui non haberet remedium licet non esset vnde
+            <lb ed="#N" n="90"/>esset vnum remedium distinctum in se. et hoc bene sufficie
+            <lb ed="#N" n="91"/>bat et bene congruebat.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e485">
+            ⁋ Ad illud quod obiicitur. per simile
+            <lb ed="#N" n="92"/>in lege nature et lege ve. Dicendum quod non est simile. quia
+            le<lb ed="#N" n="93" break="no"/>ges ille non fuerunt vniuersales hec autem perticularis et
+            vni<lb ed="#N" n="94" break="no"/>populo instituta. Unde. vii. numeri. Que est alia gens sic
+            in<lb ed="#N" n="95" break="no"/>clita vt habeat cerimonias iustaque iudicia et vniuersam
+            le<lb ed="#N" n="96" break="no"/>gem quam ego propono hodie ante oculos vestros. et hoc
+            ha<lb ed="#N" n="97" break="no"/>betur in glo. predicta Exo. xxiii.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e501">
+            ⁋ Ad illud quod obiicitur. quod
+            prece<lb ed="#N" n="98" break="no"/>ptum de circumcisione fuit datum non solum abrahe. sed et
+            verna<lb ed="#N" n="99" break="no"/>culis et seruis. Dicendum quod reuera non tantum extendebat se ad
+            <lb ed="#N" n="100"/>iudeos qui erant de stirpe: sed qui erant de domo. et hoc patet ex
+            <lb ed="#N" n="101"/>forma precepti. dicitur enim tam vernaculus quam empticius circum
+            <lb ed="#N" n="102"/>cidetur et quicumque est de stirpe vestra. et hoc patet expressius
+            <lb ed="#N" n="103"/>per expletionem precepti quam abraham impleuit. dicitur enim
+            <lb ed="#N" n="104"/>quod abraham tulit omnes vernaculos domus sue et vniuersos
+            <lb ed="#N" n="105"/>quos emerat et circumcidit. Estimo tamen quod preceptum inquantum
+            <lb ed="#N" n="106"/>datum erat abrahe et semini eius: erat necessitatis. inquantum
+            <lb ed="#N" n="107"/>aliis honestatis siue congruitatis. Honestum enim fuit quod
+            fa<lb ed="#N" n="108" break="no"/>milia conformaretur domino suo in cultu iuxta illud Ecesistici. x. secundum
+            <lb ed="#N" n="109"/>iudicem popli sic et ministri eius.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e530">
+            ⁋ Ad illud quod obiicitur quod
+            <lb ed="#N" n="110"/>Gen. xvii. dicitur generaliter: masculus cuius prepucii caro etc
+            <lb ed="#N" n="111"/>Dicendum quod intellectus illius generalitatis ex litera
+            anteceden<lb ed="#N" n="112" break="no"/>ti patet que est. circumcidetur ex vobis omne masculinum. et
+            <lb ed="#N" n="113"/>eodem. omne masculinum in generationibus vestris
+            circumci<lb ed="#N" n="114" break="no"/>detur. Unde non omnus obligat illud preceptum. sed eos qui erant
+            <lb ed="#N" n="115"/>de stirpe abrahe: aliis tamen valebat circumcisio si sumerent
+            si<lb ed="#N" n="116" break="no"/>cut habetur in glo. Gen. xvii. ysmahelem et vernaculos non
+            <lb ed="#N" n="117"/>intendebat deus: tantum vt prepucium carnis abrahe et sobolis
+            <lb ed="#N" n="118"/>eius circumciderntur. sed ei quem a cunctis elegerat mortalibus:
+            eter<lb ed="#N" n="119" break="no"/>ni testamenti munera conferebat. Unde paulus. Non enim
+            <lb ed="#N" n="120"/>sumus circumcisio etc. Pre. datur in illo precepto intelligi. quod sicut
+            <lb ed="#N" n="121"/>preuaricatio fuit generalis: ita remedium omnibus viris vtile
+            <lb ed="#N" n="122"/>et si non obligarentur.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e561">
+            ⁋ Si vero queratur vtrum essent obligati qui
+            <lb ed="#N" n="123"/>non erant de stirpe ad hoc quod circumciderentur. ita quod si non essent
+            cir<lb ed="#N" n="124" break="no"/>cumcisi peccarent mortaliter si essent de domo. videtur quod non
+            <lb ed="#N" n="125"/>sed dominus erat obligatus quantum in se erat ad illos
+            circumci<lb ed="#N" n="126" break="no"/>dendos si in domo vellent manere ne dissonarent in ritu
+            fa<lb ed="#N" n="127" break="no"/>milia a dno. Hoc etiam videtur extrahi Exod. xii. vbi dicitur
+            <lb ed="#N" n="128"/>quod oportuit prius vernaculum vel empticium circumcidi ad hoc
+            <lb ed="#N" n="129"/>quod celebraret phase. et ita si volebat celebrare ritum
+            condi<lb ed="#N" n="130" break="no"/>tionaliter tenebatur.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e581">
+            ⁋ Ad hoc quod obicitur. de glo. illa. pactum
+            <lb ed="#N" n="131"/>dei non secundum opus sed secundum originem fecerunt irritum etc.
+            Dicen<lb ed="#N" n="132" break="no"/>dum quod glo. vult quod illi quibus datum fuit preceptum de circum
+            <lb ed="#N" n="133"/>cisione fecerunt irritum pactum id est manserunt in originali.
+            <lb ed="#N" n="134"/>quia non fuit illis alia via salutis. vnde debebant perire. vnde
+            illi<lb ed="#N" n="135" break="no"/>quibus datum fuit preceptum dicti sunt irritum fecisse pactum: quia
+            <lb ed="#N" n="136"/>illis fuit hoc solum remedium. Uel aliter potest exponi et aliter
+            vo<lb ed="#N" n="137" break="no"/>cari causa perditionis. scilicet secundum quod pactum dicitur ipsa circumcisio.
+            <lb ed="#N" n="138"/>Unde gen. xvii. Tu custodies pactum meum. intellige
+            circumci<lb ed="#N" n="139" break="no"/>siones. vnde inter illos et deum fuit circumcisio pactum id est
+            refor<lb ed="#N" n="140" break="no"/>matio pacis per ablutionem: vnde pactum dicitur quasi pacis
+            <lb ed="#N" n="141"/>actum. sicut habetur Exo. xix. Si custodieritis pactum
+            me<lb ed="#N" n="142" break="no"/>um id est pacis actum dicit interlinearis quasi diceret. qui non
+            <pb ed="#N" n="52"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>erunt circumcisi de vobis. quia non obseruant preceptum
+            <lb ed="#N" n="2"/>circumcisionis que reformabat pacem vratram de offensa
+            origi<lb ed="#N" n="3" break="no"/>nali peribunt.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e620">
+            ⁋ Ad illud quod obiicitur de illo. ix. hiere. narratur
+            <lb ed="#N" n="4"/>de egiptiis et aliis qui erant circumcisi. dicendum quod hoc non fuit. qua
+            <lb ed="#N" n="5"/>illis data fuit circumcisio in remedium: sed hoc fiebat ad imita
+            <lb ed="#N" n="6"/>tionem ritus abrahe et iudeorum. consideratis beneficiis dei
+            iu<lb ed="#N" n="7" break="no"/>deis exhibitis. sicut legitur quod multi de egiptiis exierunt de
+            egi<lb ed="#N" n="8" break="no"/>pto cum hebreis: visis mirabilibus que dominus fecit ad
+            liberatio<lb ed="#N" n="9" break="no"/>nem hebreorum Exo. xium. sed et vulgus promiscui sexus
+            innume<lb ed="#N" n="10" break="no"/>rabilem ascendit cum eis.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e639">
+            ⁋ Ad illud quod obiicitur. quod deo quod
+            me<lb ed="#N" n="11" break="no"/>lius est semper est attribuendum. Dicendum quod hoc intelligitur
+            <lb ed="#N" n="12"/>secundum quod bonum generaliter dicit conditionem ordinis vel
+            crea<lb ed="#N" n="13" break="no"/>turarum adinuicem vel creaturarum ad finem: non autem secundum quod
+            bo<lb ed="#N" n="14" break="no"/>nitas dicit rei perfectionem in se quia hoc ponere esset destrue
+            <lb ed="#N" n="15"/>re ordinem generalem in rebus. qua si hoc: sequeretur omnia
+            <lb ed="#N" n="16"/>eiusdem speciei vel generis esse equalia. Et dicit augustinus Si
+            om<lb ed="#N" n="17" break="no"/>nia essent equalia non essent omnia: nihilominus secundum quod bonum dicit
+            <lb ed="#N" n="18"/>generaliter conditionem ordinis: semper quod est melius est deo
+            at<lb ed="#N" n="19" break="no"/>tribuendum. et sic melius est. quia maioris congruentie in
+            ordi<lb ed="#N" n="20" break="no"/>ne vt quod aliquod sacramentum sit perticulare. aliud
+            vniuersa<lb ed="#N" n="21" break="no"/>le: quam si omnia essent vniuersalia. Pre. illa perticularitas fuit
+            <lb ed="#N" n="22"/>vt designaretur perticularitas cause que fuit in viro. nec
+            pro<lb ed="#N" n="23" break="no"/>pter hoc tollebatur vniuersalitas remedii.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e670">
+            ⁋ Ad vltimum
+            di<lb ed="#N" n="24" break="no"/>cendum. quod si baptismus sequitur ad circumcisionem ratione maio
+            <lb ed="#N" n="25"/>ris perfectionis vel communioris. hoc tamen non est causa generalis
+            <lb ed="#N" n="26"/>ordinationis: quia non omne sacramentum sequens erat communius
+            an<lb ed="#N" n="27" break="no"/>tecedente illud: sed potius duplex perfectio scilicet in euidentia
+            si<lb ed="#N" n="28" break="no"/>gnificandi et efficacia operandi. secundum autem hanc duplicem
+            perfe<lb ed="#N" n="29" break="no"/>ctionem sacramentum legis scripte sequitur ordinate
+            sacramtn<lb ed="#N" n="30" break="no"/>ta legis nature: et sacramenta legis noue sacramenta
+            le<lb ed="#N" n="31" break="no"/>cis veteris.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e690">
+            <lb ed="#N" n="32"/>Mestat inquirere cir.§. ii.
+            <lb ed="#N" n="33"/>ca hoc quibus dari debuit quantum ad sexum. et videtur quod personis
+            <lb ed="#N" n="34"/>vtriusque sexus. sicut morbus fuit communis vtrique sexui: similiter
+            <lb ed="#N" n="35"/>et medicina debuit communis esse vtriusque sexui.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e701">
+            ⁋ Pre. medicina
+            <lb ed="#N" n="36"/>curatiua originalis et in lege nature et in lege euangelii
+            in<lb ed="#N" n="37" break="no"/>distincte dabatur vtriusque sexui: a simili videtur de medicina
+            <lb ed="#N" n="38"/>curatiua originalis in lege scripta.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e710">
+            ⁋ Pre. si circumcisio
+            da<lb ed="#N" n="39" break="no"/>ta fuit. quatenus per hoc signaculum populus dei ab infidelibus
+            di<lb ed="#N" n="40" break="no"/>stingueretur. vt habetur a Hug. et a dama. vterque autem sexus
+            con<lb ed="#N" n="41" break="no"/>tinebatur in populo dei: ergo etc.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e719">
+            ⁋ Pre. si danda erat circumcisio
+            <lb ed="#N" n="42"/>personis alterius sexus tantum: videtur quod debuit potius dari
+            mu<lb ed="#N" n="43" break="no"/>lieribus quam viris. sicut a muliere erat initium peccati. Eccessastici.
+            <lb ed="#N" n="44"/>xxix. et plus erat in illa de defectu originalis scilicet pronitatis
+            <lb ed="#N" n="45"/>igitur illi debuit dari remedium morbi.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e731">
+            ⁋ Item in sexu mulie
+            <lb ed="#N" n="46"/>l ri magis vigebat morbus: igitur magis indiguit
+            reme<lb ed="#N" n="47" break="no"/>dio: igitur cum diuina bonitas prouidet vnicuique iuxta quod
+            indi<lb ed="#N" n="48" break="no"/>cet etc.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e740">
+            ⁋ Responsio. multiplex est ratio quare magis congrue
+            <lb ed="#N" n="49"/>bat quod fieret in viro quam in muliere. Una tacta est supra scilicet
+            cor<lb ed="#N" n="50" break="no"/>ruptio perticularis ipsius primi viri. licet enim in omnibus esset
+            ge<lb ed="#N" n="51" break="no"/>neralis et vtriusque sexus: tamen erat perticularis et solius sexus
+            <lb ed="#N" n="52"/>virilis. Alia est ex parte propagationis morbi. quia scilicet talis ratio
+            <lb ed="#N" n="53"/>propagationis principaliter est in viro. quia quod de viro
+            descen<lb ed="#N" n="54" break="no"/>dit ratio em tenet actiui. Unde quia vir est causa descensus morbi
+            <lb ed="#N" n="55"/>ad posteros: conueniens fuit vt illi daretur remedium sicut ipse
+            <lb ed="#N" n="56"/>fuit causa morbi. Item reatus originalis fuit eternus vnde
+            conuenie<lb ed="#N" n="57" break="no"/>bat vt eius remedium fieret per circularem cessationem que
+            significa<lb ed="#N" n="58" break="no"/>ret eternitatem reatus. quod non fieret si mulier circumcideretur.
+            <lb ed="#N" n="59"/>Item originale fuit quasi peccatum circulare. quia ab anima primi hominis
+            <lb ed="#N" n="60"/>peruenit corruptio in carnem. et a carne iterum in animam
+            descenden<lb ed="#N" n="61" break="no"/>tis ab ipso. Item in primo homine persona corrupit naturam: in
+            <lb ed="#N" n="62"/>aliis natura personam. Item alia est ratio scilicet signatio curationis
+            <lb ed="#N" n="63"/>anime per circumcisionem huiusmodi et non carnis. vnde Hugo. Solis
+            ma<lb ed="#N" n="64" break="no"/>sculis data est circumcisio carnis. quia sacra schprettura per
+            masculi<lb ed="#N" n="65" break="no"/>num sexum animam: per muliebrem vero carnem significare solet. vt
+            vi<lb ed="#N" n="66" break="no"/>delicet ostenderetur. quod illa exterior circumcisio animabus sanctificationem
+            <lb ed="#N" n="67"/>contulit: sed carni non abstulit corruptionem.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e784">
+            ⁋ Ad illud quod primo
+            <lb ed="#N" n="68"/>obicitur. quod morbus indistincte conuenit vtrique sexui etc. Nicendum quod et
+            <lb ed="#N" n="69"/>si in morbo non esset distinctio: conueniens tamen fuit quod in
+            medicina<lb ed="#N" n="70" break="no"/>esset. cuius ratio est. quia circumcisio non fuit solum data in remedium sed
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>in signum. magis autem congruebat circumcisionem fieri in viro
+            ra<lb ed="#N" n="72" break="no"/>tione qua data fuit in signum quam in muliere vt ex dictis patet.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e800">
+            <lb ed="#N" n="73"/>⁋ Ad aliud quod obicitur per simile sumptum a lege nature et euangeli
+            <lb ed="#N" n="74"/>dicendum quod non est simile. quia vt supra tactum est. ea que erant proprie de legi
+            <lb ed="#N" n="75"/>scripta: non erant data tantum ad efficendum. sed potius ad signficandum
+            <lb ed="#N" n="76"/>omnia enim contingebant illis in figura. propter hoc ratio congruentie que est
+            <lb ed="#N" n="77"/>ex parte significationis: maxime est attendenda in illis. Sacramenta autem
+            <lb ed="#N" n="78"/>legis euangelii erant per se ad efficiendum. erant enim per se data in
+            re<lb ed="#N" n="79" break="no"/>medium: non autem in signum. Sacramenta vero legis nature et si
+            institu<lb ed="#N" n="80" break="no"/>ta erant non solum in remedium sed in signum: erant tamen magis
+            confu<lb ed="#N" n="81" break="no"/>sa. nec ita distincte significabant sicut quedam que erant legis
+            <lb ed="#N" n="82"/>scripte. progressus enim in legibus quarum sacramenta data erant in
+            si<lb ed="#N" n="83" break="no"/>gnum et remedium: erat ab imperfectiori ad perfectius. lex enim
+            na<lb ed="#N" n="84" break="no"/>turalis eo modo quo dicimus sacramenta. scilicet decimas sacrificia et
+            obla<lb ed="#N" n="85" break="no"/>tiones fuisse legis naturalis: erat minoris perfectionis quam lex
+            <lb ed="#N" n="86"/>scripta. Unde indistinctio erat in sacramentis legis nature. quia
+            ea<lb ed="#N" n="87" break="no"/>dem exercebantur in remedium originalis propter viros et
+            muli<lb ed="#N" n="88" break="no"/>eres. et in remedium originalis et actualis in lege scripta
+            di<lb ed="#N" n="89" break="no"/>stinguebantur. quia alia exercebantur in remedium huius et illius legis.
+            <lb ed="#N" n="90"/>Unde imperfectio legis prime requirebat istam distinctionem.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e842">
+            ⁋ Ad
+            <lb ed="#N" n="91"/>illud quod obicitur. quod circumcisio data fuit ad distinguendum etc.
+            <lb ed="#N" n="92"/>Dicendum quod vir est caput mulieris. i. corin. xi. propter quod
+            sufficie<lb ed="#N" n="93" break="no"/>bat ad popli fidelis distinctionem signaculum datum viris: sicut ad
+            <lb ed="#N" n="94"/>hoc quod homo distinguatur ab homine signum distinctionis in capite.
+            <lb ed="#N" n="95"/>Pre. circumcisio data fuit in signum distinctionis gentis
+            iudeo<lb ed="#N" n="96" break="no"/>rum ex qua christus debebat nasci ab aliis. et quia propagatio et
+            genealo<lb ed="#N" n="97" break="no"/>gia per se attenditur penes mares: ideo eis data fuit non mulieri
+            <lb ed="#N" n="98"/>bus.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e862">
+            ⁋ Ad illud quod obicitur. quod a muliere est initium peccati. Dicendum quod
+            <lb ed="#N" n="99"/>intelligitur de peccato actuali. sed a viro est initium transfusionis
+            <lb ed="#N" n="100"/>originalis. vir enim habundauit a muliere: quia in viro fuit
+            vni<lb ed="#N" n="101" break="no"/>uersalis natura.
+          </p>
+          <p xml:id="v78d89-d1e461-d1e872">
+            ⁋ Ad aliud quod obicitur. quod mulier magis habet
+            <lb ed="#N" n="102"/>de pronitate et ita in illa est maior effectus originalis.
+            Dicen<lb ed="#N" n="103" break="no"/>dum quod illud quod est corruptionis in muliere: non est causa
+            pri<lb ed="#N" n="104" break="no"/>ma corruptionis in posteris. sua enim corruptio non est
+            tranffu<lb ed="#N" n="105" break="no"/>sibilis ad posteros. vnde illa non est causa transfusionis sicut
+            <lb ed="#N" n="106"/>vir. vnde non debuit dari remedium illud quod perticulariter
+            da<lb ed="#N" n="107" break="no"/>tum fuit contra morbum qui transsunditur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

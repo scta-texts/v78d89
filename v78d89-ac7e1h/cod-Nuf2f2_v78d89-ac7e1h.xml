@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 63, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 63, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="410"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ac7e1h"><!-- q63m2 -->
+        <head xml:id="v78d89-ac7e1h-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-ac7e1h-Hd1e103" type="question-title">Utrum contingat penite tiam iterare</head>
+        <p xml:id="v78d89-ac7e1h-d1e106">
+          <lb ed="#N" n="69"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e111">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>⁋ COnsequenter queritur vtrum contingat penite
+          <lb ed="#N" n="71"/>tiam iterare. Et videtur quod sic. exemplo
+          da<lb ed="#N" n="72" break="no"/>uid. qui primo peccauit homicidio et penita
+          <lb ed="#N" n="73"/>it. Rursus numerando poplum et penituit. et
+          <lb ed="#N" n="74"/>dominus vtramque pernitentiam acceptauit.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e127">
+          ⁋ Item auctoriiate
+          <lb ed="#N" n="75"/>Ezech. xviii. Si impius egerit penitentiam ab omibus
+          pec<lb ed="#N" n="76" break="no"/>catis etc. omnium iniquitatum eius quas operatus est non
+          recorda<lb ed="#N" n="77" break="no"/>bor. sed non distinguit peccatorem: ergo verum est de eo qui
+          reci<lb ed="#N" n="78" break="no"/>diuauit. quia terminus in conditionali in antecedente tenetur
+          <lb ed="#N" n="79"/>vniuersaliter.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e141">
+          ⁋ Item esto quod aliquis diu fuit in penitentia
+          <lb ed="#N" n="80"/>propter aliquod peccatum postea lapsus est in culpam. sed
+          con<lb ed="#N" n="81" break="no"/>stat quod peioris esset conditionis si non egisset penitentiam. ed
+          <lb ed="#N" n="82"/>si preclusa esset sibi via resurge ndi per penitentiam
+          deterio<lb ed="#N" n="83" break="no"/>ris esset conditionis quam si non fecisset penitentiam. sed constat
+          <lb ed="#N" n="84"/>quod hoc non est verum: ergo non est tali preclusa via hec.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e154">
+          ⁋ Item hoc
+          <lb ed="#N" n="85"/>videtur per hoc. quod deus pronior est ad miserandum quam ad
+          condem<lb ed="#N" n="86" break="no"/>nandum. sed quantumcunque homo deo seruierit si penitet de
+          <lb ed="#N" n="87"/>bono facto deus obliuiscitur bonorum: ergo si penitet de
+          malo<lb ed="#N" n="88" break="no"/>remittit.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e165">
+          ⁋ Item si non potest resurgere secundo. autm hoc est quia
+          <lb ed="#N" n="89"/>non potest secundo penitere: aut quia deus non acceptat. No
+          prio<lb ed="#N" n="90" break="no"/>modo: quia libro arbt. est in nobis vertibile et tota die verti
+          vi<lb ed="#N" n="91" break="no"/>demus. Non secundo modo. Penitere enim est conteri et humiliari de
+          <lb ed="#N" n="92"/>peccato secundum psalm. Sacrificium deo spiritus contribulatus cor contritum
+          <lb ed="#N" n="93"/>et humiliatum deus non despicies.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e178">
+          ⁋ Contra. heb. vi.
+          Im<lb ed="#N" n="94" break="no"/>possibile est eos qui prolapsi sunt rursus renouari ad
+          ve<lb ed="#N" n="95" break="no"/>nitentiam.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e185">
+          ⁋ Item prouerb. xxviii. qui peruersis graditur viis
+          cou<lb ed="#N" n="96" break="no"/>cidet semel.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e190">
+          ⁋ Item Ambro. in libro. de vnica penitentia dic.
+          <lb ed="#N" n="97"/>quod vnica est penitentia sicut vnicum baptisma.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e196">
+          ⁋ Item videm
+          <lb ed="#N" n="98"/>quod sacramentum penitentie habet effectum a christi passione.
+          <lb ed="#N" n="99"/>vt baptismus. sed passio christi est vnica et amplius non potest pati: iquat
+          <lb ed="#N" n="100"/>nec penitentia iterari. et hoc est quod dicit apostolus. heb. vi. Rur
+          <lb ed="#N" n="101"/>sum crucifigentes in sibimetipsis filium dei.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e207">
+          ⁋ Item baptsma
+          <lb ed="#N" n="102"/>non iteratur nec iterari potest ne fiat contumelia sagrameto
+          <lb ed="#N" n="103"/>et veniat in contemptum: pari ratione nec penitentia.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e214">
+          ⁋ Ssio.
+          <lb ed="#N" n="104"/>dicendum quod error fuit maximus quod penitentia non possit iterari.
+          <lb ed="#N" n="105"/>quia claudit viscera diuine misericordie. et tunc omnes peccatores
+          <lb ed="#N" n="106"/>vel fere omnes cogeret desperare. et ideo dicendum quod iterari pot
+          <lb ed="#N" n="107"/>dum est in hac vita. sed quotiens potest infra dicetur. sed post hne
+          <lb ed="#N" n="108"/>vitam non potestum. Et ratio quare penitentia possit et debeat iterari et
+          <lb ed="#N" n="109"/>baptismus non: est triplex. Una est quia in baptismo imprimitur
+          ca<lb ed="#N" n="110" break="no"/>racter qui est indelibilis: impenitentia non. Secunda ratio est
+          <lb ed="#N" n="111"/>quia baptismus est contra morbum non iterabilem qualis est moro on
+          <lb ed="#N" n="112"/>ginialis: sed penitentia est contra morbum iterabilem qualis est morbus
+          <lb ed="#N" n="113"/>peccati actualis. vnde quia medicina debet aptari morbo: patet
+          <lb ed="#N" n="114"/>etc. Tercia ratio est. quia baptismus habet totam efficaciam a passione
+          <lb ed="#N" n="115"/>penitentia non: sed ab actu nostro. et ita baptismus non iteratur sicut
+          <lb ed="#N" n="116"/>nec passio. penitentia vero iteratur. secundum quod voluntas nstra conuerti
+          <lb ed="#N" n="117"/>tur et rtuertitur Inde est quod in baptismo omnis pena remiitituram
+          pe<lb ed="#N" n="118" break="no"/>nitentia non. et si baptismus iteraretur: daretur nobis occasopec
+          <lb ed="#N" n="119"/>candi. non sic est in penitentia quia bene punit.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e251">
+          ⁋ Ad illud ergo quod
+          obii<lb ed="#N" n="120" break="no"/>citur in contrarium de verbo apostoli. Impossibile est etc. potest fieri vis in
+          <lb ed="#N" n="121"/>hoc quod dico impossibile est etc. quia non ex viribus humanis. vel
+          im<lb ed="#N" n="122" break="no"/>possibile id est difficile. loquitur enim de perfectis qui difficulter
+          resur<lb ed="#N" n="123" break="no"/>gunt vel vt fiat vis in penitentia. quia loquitur de
+          reno<lb ed="#N" n="124" break="no"/>uatione que est in penitentia quam sequitur baptismus
+          <lb ed="#N" n="125"/>Hic enim virtutem totam habet ab hostia passionis. et de
+          <lb ed="#N" n="126"/>hac dicit apostolus. x. ad heb. Non relinquitur hostia pro
+          <lb ed="#N" n="127"/>peccato.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e271">
+          ⁋ Ad aliud Amb. dicendum quod intelligi debet
+          <lb ed="#N" n="128"/>de penitentia solenni. et hoc secundum morem aliquarum
+          ecdle<lb ed="#N" n="129" break="no"/>siarum.
+        </p>
+        <p xml:id="v78d89-ac7e1h-d1e278">
+          ⁋ Ad illud quod obiicitur de baptismo et
+          cont<lb ed="#N" n="130" break="no"/>melia sacramenti. patet responsio ex dictis. vnde
+          dicen<lb ed="#N" n="131" break="no"/>dum. quod non est simile. Hic enim nulla contumelia fit
+          sa<lb ed="#N" n="132" break="no"/>cramento. Preterea efficaciam habet iterata penitentia
+          <lb ed="#N" n="133"/>sed baptismus secundus nullius est efticacie. Nec fit
+          eti<lb ed="#N" n="134" break="no"/>am contumelia passioni: quia non sic totam et plenam
+          <lb ed="#N" n="135"/>efficaciam a passione recipit sicut sacramentum
+          baptis<lb ed="#N" n="136" break="no"/>mi. Et nota ad euidentiam obiectorum. quod he auctorita
+          <lb ed="#N" n="137"/>tes scilicet quod impossibile est eos qui semel etc. Heb. vi. et
+          <lb ed="#N" n="138"/>voluntarie peccantibus etc. hebre. x. multipliciter
+          pos<lb ed="#N" n="139" break="no"/>sunt intelligi. vel vt exprimatur impotentia
+          nostrenatu<lb ed="#N" n="140" break="no"/>re que potest per se cadere non resurgere. psalm spiritus vadens
+          <pb ed="#N" n="411"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>et non rediens. et potest insinuari malum irreprobilitatis ex huiusmodi
+          <lb ed="#N" n="2"/>casu vt vult Hugo. quia quantuncumque resurgit bonus quia illud
+          bo<lb ed="#N" n="3" break="no"/>num habuisset sine casu et insuper aliquid bonum superaddisset:
+          <lb ed="#N" n="4"/>damnificatur ex casu. vel vt intelligatur de tempore futuro. totum enim
+          <lb ed="#N" n="5"/>hoc tempus est penitentie datum et tota hec habitatio nostra ad
+          <lb ed="#N" n="6"/>hoc est. sed post hanc vitam locus penitentie non est: quia si
+          es<lb ed="#N" n="7" break="no"/>set: esset locus secunde penitentie. Iob. xxiiii. dedit ei dominus
+          <lb ed="#N" n="8"/>locum penitentie. locum dicit non loca. Sapiscentie. xii. dans locum
+          <lb ed="#N" n="9"/>in peccatis penitentie. Ioh. ix. Ueniet nox quando nemo
+          po<lb ed="#N" n="10" break="no"/>test operari. Nec propter hoc via penitentie precluditur: sed
+          <lb ed="#N" n="11"/>potius quantum sit malum cadere ostenditur. bonum enim est
+          sur<lb ed="#N" n="12" break="no"/>gere: sed melius non cecidisse. bonum est sanari: sed melius non
+          <lb ed="#N" n="13"/>infirmatum fuisse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

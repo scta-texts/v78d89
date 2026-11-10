@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 28, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 28, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="173"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6alp1"><!-- q28prae -->
+        <head xml:id="v78d89-a6alp1-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-a6alp1-d1e103">
+          <lb ed="#N" n="62"/>⁋ Questio. xxviii. de dispe
+          <lb ed="#N" n="63"/>satione sacramenti confirmationis.
+        </p>
+        <p xml:id="v78d89-a6alp1-d1e110">
+          <lb ed="#N" n="64"/>Onsequeter querit
+          <lb ed="#N" n="65"/>tur de dispensatione. Circa quod primo
+          que<lb ed="#N" n="66" break="no"/>ritur. quis potest confirmare. Secundo. quis debeat
+          <lb ed="#N" n="67"/>confirmari. Tercio. quis debet vel potest
+          confir<lb ed="#N" n="68" break="no"/>mandum tenere. Quarto. vtrum debuit christus
+          <lb ed="#N" n="69"/>confirmari. Quinto. de tempore confirmationis. Sexto. de loco
+          con<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>firmationis. Septimo. de iteratione confirmationis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

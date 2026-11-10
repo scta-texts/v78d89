@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 13, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 13, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="113"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3p1dr"><!-- q13m4 -->
+        <head xml:id="v78d89-a3p1dr-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a3p1dr-Hd1e103" type="question-title">De immersione</head>
+        <p xml:id="v78d89-a3p1dr-d1e106">
+          <lb ed="#N" n="64"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-a3p1dr-d1e111">
+          <lb ed="#N" n="65"/>SEquitur inquirere de immersione. Circa
+          quam<lb ed="#N" n="66" break="no"/>hec querumiur. Primo queritur quantum
+          opor<lb ed="#N" n="67" break="no"/>teat de corpore immergi vel perfundi. vtrum
+          to<lb ed="#N" n="68" break="no"/>tum vel partem. Secundo de numero
+          immer<lb ed="#N" n="69" break="no"/>sionum scilicet quotiens debeat immergi. Tercio de necessitate
+          <lb ed="#N" n="70"/>numeri immerlionum. Quarto de maiori congruitate
+          nume<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>ri. Quinto de comparatione immersionis ad effectum baptismi. Sex
+          <lb ed="#N" n="72"/>to de comparatione immersionis ad virtutem sacramenti.
+        </p>
+        <div xml:id="v78d89-a3p1dr-Dd1e132">
+          <head xml:id="v78d89-a3p1dr-Hd1e134">Articulus 1</head>
+          <p xml:id="v78d89-a3p1dr-d1e136">
+            <lb ed="#N" n="73"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e141">
+            <lb ed="#N" n="74"/>CIrca primum queritur si necesse sit illum qui debet
+            ba<lb ed="#N" n="75" break="no"/>ptizari immergi vel non. Item si immergatur vtrum
+            ne<lb ed="#N" n="76" break="no"/>cesse est paruulum totaliter immergi vel sufficiat quod
+            <lb ed="#N" n="77"/>aliqua pars immergatur. et si hoc queritur que.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e152">
+            ⁋ Responsio.
+            <lb ed="#N" n="78"/>quod baptismus solet duobus modis fieri. vel per immersionem
+            <lb ed="#N" n="79"/>vel per aspersionem. siue per infusionem pelui vel cypho. Unde non
+            <lb ed="#N" n="80"/>est necesse quod semper paruuli immergantur.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e161">
+            ⁋ Ad hoc quod est
+            argu<lb ed="#N" n="81" break="no"/>mentum quod apostoli baptizantes plura milia hominum in vna die
+            <lb ed="#N" n="82"/>sicut habetur. iii. act. omnes non poterant in aqua mergere. Unde
+            <lb ed="#N" n="83"/>dicendum quod si vel propter debilitatem sacerdotis vt si esset
+            debi<lb ed="#N" n="84" break="no"/>lis manibus quod non posset puerum mergere: vel propter modicita
+            <lb ed="#N" n="85"/>tem aque. vel quia consuetudo est patrie: aspergantur aqua vel perfum
+            <lb ed="#N" n="86"/>dantur sufficit. Item in aliquo casu non posset paruulus
+            immergi<lb ed="#N" n="87" break="no"/>vt quando semi nati sunt. nec potest pariens prem nimia debilitate
+            pue<lb ed="#N" n="88" break="no"/>rum totaliter emittere. et instat hora mortis. vel quando solum
+            emit<lb ed="#N" n="89" break="no"/>titur caput: in tali casu necesse est vt exerceatur baptismus
+            asper<lb ed="#N" n="90" break="no"/>sione vel perfusione aque. Pret. si aqua esset tam modica quod non
+            <lb ed="#N" n="91"/>posset paruulus totaliter immergi. Uel si ex nimia debilitate
+            per<lb ed="#N" n="92" break="no"/>uulus absque periculo mortis non posset sustinere quod totaliter
+            immer<lb ed="#N" n="93" break="no"/>geretur: vel aliquo casu necessario contingente: sufficeret quod pars
+            <lb ed="#N" n="94"/>principalior caput cum pectore immergeretur vel caput tantum vel
+            fa<lb ed="#N" n="95" break="no"/>cies vt dicunt quidam. et hoc dico vrgente necessitate. In
+            sa<lb ed="#N" n="96" break="no"/>cramentis autem necessitatis ampla est diuina misericordia
+            <lb ed="#N" n="97"/>iuxta quod necessitas requirit facta acceptans.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3p1dr-Dd1e202">
+          <head xml:id="v78d89-a3p1dr-Hd1e204">Articulus 2</head>
+          <p xml:id="v78d89-a3p1dr-d1e206">
+            <lb ed="#N" n="98"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e211">
+            <lb ed="#N" n="99"/>DEinde queritur quotiens debet baptizandus
+            immergi<lb ed="#N" n="100" break="no"/>scilicet vtrum semel vel ter. Quod autem ter: videtur. de conse. di.
+            <lb ed="#N" n="101"/>iiii. Ex canonibus apostolorum. Si quis presbiter vel episcopus
+            <lb ed="#N" n="102"/>non trinam mersionem vnius ministerii celebrat sed semel immergat in
+            <lb ed="#N" n="103"/>baptismate quod dari a quibusdam iubetur in morte domini id est in
+            in<lb ed="#N" n="104" break="no"/>uocatione mortis domini: deponatur.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e227">
+            ⁋ Item hiero. super epostolam
+            <lb ed="#N" n="105"/>ad Philp. vt ibidem habetur. eodem modo in patrem et filium et
+            <lb ed="#N" n="106"/>spirium sanctum baptizamur et ter mergimur: vt trinitatis
+            appa<lb ed="#N" n="107" break="no"/>reat vnum sacramentum.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e236">
+            ⁋ Item pelagius ibidem. Euangelicum preceptum
+            <lb ed="#N" n="108"/>nos amonet in nomine trinitatis trina immersione sanctum
+            baptis<lb ed="#N" n="109" break="no"/>ma vnicuique dare.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e244">
+            ⁋ Item greg. hiero. ambro. dama. hugo
+            <lb ed="#N" n="110"/>de sancto victore: assignant rationem immersionis triplicis. ex quo
+            <lb ed="#N" n="111"/>insinuant trinam debere fieri
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e251">
+            ⁋ Contra. videtur quod tantum vna debe
+            <lb ed="#N" n="112"/>at esse immersio. eo quod vnum sit baptisma.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e256">
+            ⁋ Pret. baptismus
+            ce<lb ed="#N" n="113" break="no"/>lebratur in memoriam mortis christi que vna est. ergo debet fieri nisi
+            <lb ed="#N" n="114"/>vna immersio.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e263">
+            ⁋ Item vt dicit magister in senten. baptismus est
+            tin<lb ed="#N" n="115" break="no"/>ctio corporis exterior sub forma verborum prescripta. sed in
+            vnica<lb ed="#N" n="116" break="no"/>mersione est tinctio corporis: ergo etc.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e270">
+            ⁋ Item idem videtur
+            <lb ed="#N" n="117"/>ex diffinitione augustinus. que est: baptismus est tinctio in aqua
+            ver<lb ed="#N" n="118" break="no"/>bo vite sanctificata. immo ex his rationibus videtur quod ter
+            immer<lb ed="#N" n="119" break="no"/>gere est trinum facere baptismum. quia si in vna tinctione est
+            <lb ed="#N" n="120"/>baptismus: in alia similiter est: in tercia similiter.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e281">
+            ⁋ Responsio. sicut deter
+            <lb ed="#N" n="121"/>minat magister in senten. et vt patet ex verbis sanctorum. et
+            vnica<lb ed="#N" n="122" break="no"/>imersio sufficit ad veritatem sacramenti: et trina congruit.
+            <lb ed="#N" n="123"/>Unde propter causas diuersas in diuersis ecclesiis inoleuit
+            <lb ed="#N" n="124"/>diuersa consuetudo mergendi semel vel ter. Unde de conse.
+            <lb ed="#N" n="125"/>dis. iiii. ex tholetano concilio. propter vitandum scismatis
+            scasa<lb ed="#N" n="126" break="no"/>dalum. vel heretici dogmatis vsum: simplam teneamus
+            ba<lb ed="#N" n="127" break="no"/>ptismatis mersionem. Unde canones determinantes nume
+            <lb ed="#N" n="128"/>rum mersionum. diuersas causas et consuetudines ecclesiarum
+            <lb ed="#N" n="129"/>attendunt. Et greg. de trina immersione baptismi. nihil verius
+            <lb ed="#N" n="130"/>responderi potest. quam quod ipsi sensistis. quia in vna fide nihil
+            effi<lb ed="#N" n="131" break="no"/>cit ecclesie consuetudo diuersa. quia in tribus subsistentiis vna
+            <lb ed="#N" n="132"/>substantia est: reprehensibile esse nullatenus potest infantem in
+            ba<lb ed="#N" n="133" break="no"/>ptismo. vel ter vel semel immergere. quia in tribus immersioni
+            <lb ed="#N" n="134"/>bus personarum trinitas. et in vna potest diuinitatis signa
+            <lb ed="#N" n="135"/>ri singularitas. Unde dicendum quod secundum consuetudinem ec
+            <lb ed="#N" n="136"/>clesie romane trina debet esse immersio. Quandoque tamen et in
+            ali<lb ed="#N" n="137" break="no"/>qua ecclesia propter heresim vitandam. quia scilicet heretici
+            immergan<lb ed="#N" n="138" break="no"/>do ter dogmatizabant heresim: vnicam fecerunt immersionem.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e324">
+            ⁋ Ad
+            <lb ed="#N" n="139"/>illud quod obiicitur. quod vnum est baptisma etc. dicendum. quod etsi sit
+            <pb ed="#N" n="114"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>vnum baptisma: nihilominus propter multiplex eius misticum et
+            mul<lb ed="#N" n="2" break="no"/>tiplex morale de quibus infra dicetur: conuenit multiplici
+            immer<lb ed="#N" n="3" break="no"/>sione exerceri.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e340">
+            ⁋ Ad aliud dicendum. quod non solum celebratur in
+            <lb ed="#N" n="4"/>memoriam mortis christi. nec solum propter hoc vt infra patebit:
+            <lb ed="#N" n="5"/>propter quod illa ratio nulla est.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e347">
+            ⁋ Ad aliud quod obiicitur. quod
+            ba<lb ed="#N" n="6" break="no"/>ptismus est tinctio etc. Dicendum quod descriptiones huiusmodi dicunt
+            <lb ed="#N" n="7"/>esse siue substantiam baptismi: non modum vsus. Unde siue sit
+            <lb ed="#N" n="8"/>immersio vnica siue trina baptismus est: dummodo concurrunt alia
+            <lb ed="#N" n="9"/>que requiruntur scilicet forma verborum a domino prescripta cum
+            mate<lb ed="#N" n="10" break="no"/>ria debita et actus et intentio.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e360">
+            ⁋ Ad hoc quod obiicitur. quod si
+            ba<lb ed="#N" n="11" break="no"/>ptismus est tinctio etc. igitur et intingere ter: ter baptizare est.
+            Re<lb ed="#N" n="12" break="no"/>sponsio quod non sequitur. quia ad baptismum non sufficit tinctio
+            si<lb ed="#N" n="13" break="no"/>ue immersio: sed intentio cum prescripta forma verborum et aliis
+            preta<lb ed="#N" n="14" break="no"/>ctis.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e371">
+            ⁋ Ad hoc quod obiicitur per canonem de conse. di. iiii. Si
+            presbi<lb ed="#N" n="15" break="no"/>ter vel episcopus non trinam mersionem vnius etc. Dicendum quod non
+            infli<lb ed="#N" n="16" break="no"/>gitur tali pena depositionis quia non baptizat vnica immersione
+            <lb ed="#N" n="17"/>sed quia formam communem et consuetudinem non tenet. quia
+            bapti<lb ed="#N" n="18" break="no"/>zat in morte domini et non in forma instituta a domino et vsitata ab
+            <lb ed="#N" n="19"/>ecclesia. Unde non tenendo formam paruulos seducit. Preterea
+            <lb ed="#N" n="20"/>non tenet consuetudinem ecclesie romane que trinam exercet
+            immer<lb ed="#N" n="21" break="no"/>sionem. Aliud enim est semel immergi sub ista forma verborum
+            <lb ed="#N" n="22"/>baptizo te in morte domini quod hic non intenditur: aliud est in
+            <lb ed="#N" n="23"/>nomine trinitatis vnica immersione quod in ecclesiis
+            qui<lb ed="#N" n="24" break="no"/>busdam permittitur.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3p1dr-Dd1e396">
+          <head xml:id="v78d89-a3p1dr-Hd1e398">Articulus 3</head>
+          <p xml:id="v78d89-a3p1dr-d1e400">
+            <lb ed="#N" n="25"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e405">
+            <lb ed="#N" n="26"/>DEinde queritur de necessitate numeri immersionum.
+            <lb ed="#N" n="27"/>et queritur si necessario requiritur vnus modorum
+            predi<lb ed="#N" n="28" break="no"/>ctorum. vnde queritur. Si quis immergatur bis vel
+            <lb ed="#N" n="29"/>quater vtrum sit baptizatus vel non. Et videtur quod non: quia cum
+            <lb ed="#N" n="30"/>tinctio sit de substantia baptismi sicut et forma: quod sicut non
+            <lb ed="#N" n="31"/>est baptismus nisi obseruata forma verborum et vnica: similite
+            <lb ed="#N" n="32"/>non erit baptismus nisi modo obseruato mergendi siue
+            for<lb ed="#N" n="33" break="no"/>ma. vt scilicet semel vel ter fiat: secundum formam et modum ordinatum ab
+            <lb ed="#N" n="34"/>ecclesia.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e427">
+            ⁋ Item si baptizaretur bina immersione vel
+            quater<lb ed="#N" n="35" break="no"/>na. eadem ratione videtur quod quina vel sena et sic quasi
+            in<lb ed="#N" n="36" break="no"/>finitis modis immergendi fieri posset.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e434">
+            ⁋ Respondent aliqui quod
+            <lb ed="#N" n="37"/>bina immersione non baptizantur: quia numerus binarius est
+            <lb ed="#N" n="38"/>infaustus. vnde dicunt quod si vnica immersio fiat vel trina cum
+            <lb ed="#N" n="39"/>aliis que requiruntur verus est baptismus. Si bina non: quia
+            <lb ed="#N" n="40"/>numerus iste est infaustus. quod sit numerus infaustus habe
+            <lb ed="#N" n="41"/>tur ex canone. Sed hec causa nulla videtur. quia sicut
+            bina<lb ed="#N" n="42" break="no"/>rius dicitur numerus infaustus: quia recedit primo ab vnitate
+            <lb ed="#N" n="43"/>vnde significat recessum a prima vnitate id est deo. similiter potest dici
+            <lb ed="#N" n="44"/>faustus: quia est proxime accedens ad vnitatem. vnde binarius est
+            <lb ed="#N" n="45"/>numerus preceptorum caritatis quibus maxime appropinquatur
+            <lb ed="#N" n="46"/>deo. Sicut igitur binarius quia est numerus infaustus. facit quod
+            bi<lb ed="#N" n="47" break="no"/>naria immersio non facit baptizari: similiter et quia est faustus faciet
+            <lb ed="#N" n="48"/>contrarium. propter quod videtur mihi hanc causam nullius esse
+            neces<lb ed="#N" n="49" break="no"/>sitatis. propter quod dici potest. quod cum in mersione requiritur
+            prola<lb ed="#N" n="50" break="no"/>tio forme verborum facta modica interpolatione vel nulla.
+            si<lb ed="#N" n="51" break="no"/>militer consequentes debent esse immersiones et sine
+            interpolatio<lb ed="#N" n="52" break="no"/>ne. Unde cum immersiones debeant responderi prolationi verborum.
+            <lb ed="#N" n="53"/>constat cum verba debeant modica vel nulla interpolatione
+            si<lb ed="#N" n="54" break="no"/>ue pausatione proferri: non posset quom plures esse immersiones vt
+            <lb ed="#N" n="55"/>scilict. x. vel. xii. quia si verba forme prescripte ita diu
+            pronuncia<lb ed="#N" n="56" break="no"/>rentur: fieret pronunciatio talis vox non articulata.
+            Dicen<lb ed="#N" n="57" break="no"/>dum est igitur quod siue trina immersione siue bina siue quater
+            <lb ed="#N" n="58"/>na vel quina fiat: aliis obseruatis. vt intentione recta:
+            for<lb ed="#N" n="59" break="no"/>ma verborum prescripta pronunciata in debita articulatio
+            <lb ed="#N" n="60"/>ne baptismus est. peccarent tamen grauiter sic baptizantes.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e490">
+            <lb ed="#N" n="61"/>⁋ Ad hoc quod obiicitur. quod cum intinctio sit de substantia
+            <lb ed="#N" n="62"/>sacramenti sicut forma etc. Dicendum quod non est simile: quia
+            <lb ed="#N" n="63"/>vnica est forma verborum prescripta: non similiter vnica
+            immer<lb ed="#N" n="64" break="no"/>sio tantum vel trina tantum. Unde immersio est de substantia: non autem
+            <lb ed="#N" n="65"/>precise in numero tali vel in tali.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3p1dr-Dd1e504">
+          <head xml:id="v78d89-a3p1dr-Hd1e506">Articulus 4</head>
+          <p xml:id="v78d89-a3p1dr-d1e508">
+            <lb ed="#N" n="66"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e513">
+            <lb ed="#N" n="67"/>DEinde queritur de maiori congruitate numeri
+            immer<lb ed="#N" n="68" break="no"/>sionum sic. cum numerus talis vel talis immersionum
+            <lb ed="#N" n="69"/>non sit de necessitate baptismi precise. quare
+            ma<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>gis instituit ecclesia debere exerceri trina immersione quam
+            vni<lb ed="#N" n="71" break="no"/>ca vel bina vel aliquo alio modo.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e527">
+            ⁋ Responsio quod immersio
+            tri<lb ed="#N" n="72" break="no"/>na maxime consona est effectui baptismi. et inquantum eius
+            ef<lb ed="#N" n="73" break="no"/>ctus est in significando et purgando. Unde quia quantum ad id
+            <lb ed="#N" n="74"/>quod concernit misticum et quantum ad id quod gratuitum
+            maxi<lb ed="#N" n="75" break="no"/>me exprimitur efficacia eius in trina immersione: magis tenet
+            ec<lb ed="#N" n="76" break="no"/>clesia hunc modum quam alium. quantum autem ad efficaciam in
+            figuran<lb ed="#N" n="77" break="no"/>do congruit. vnde Dama. Typus mortis christi est baptismus.
+            <lb ed="#N" n="78"/>per tres enim immersiones tres dies dominice sepulture
+            exprimun<lb ed="#N" n="79" break="no"/>tur. Et de conse. di. iiii. augu. omelia. ii. Postquam credere
+            pro<lb ed="#N" n="80" break="no"/>misistis: tercio capita vestra in fonte sacro immersimus. qui
+            <lb ed="#N" n="81"/>ordo baptismatis duplici misterii significatione celebratur
+            <lb ed="#N" n="82"/>Recte enim tercio mersi estis: qui accepistis baptismum in
+            no<lb ed="#N" n="83" break="no"/>mine ihu christi. qui tercia die resurrexit a mortuis. Illa enim
+            <lb ed="#N" n="84"/>tercio repetita dimersio. typum dominice exprimit sepulture. per
+            <lb ed="#N" n="85"/>quam christo sepulti estis in baptismo. et cum christo resurrexistis
+            <lb ed="#N" n="86"/>in fide. vt peccatis abluti in sanctitate virtutum christum
+            imitan<lb ed="#N" n="87" break="no"/>do. Item Greg. tercia immersio est significatiua misterii
+            tri<lb ed="#N" n="88" break="no"/>nitatis quantum ad efficaciam in gratificando conuenit. vnde Hiero.
+            <lb ed="#N" n="89"/>trina immersio. est cogitationis. locutionis. operationisque munda
+            <lb ed="#N" n="90"/>tio: vel triplicis concupiscentie. Hec autem tam quantum ad
+            <lb ed="#N" n="91"/>primam partem est in adultis. qui peccant cogitatione.
+            lo<lb ed="#N" n="92" break="no"/>cutione operatione. quantum ad secundam in paruulis et adultis
+            <lb ed="#N" n="93"/>in quibus viget concupiscentia triplex. quibus datur
+            vir<lb ed="#N" n="94" break="no"/>tus in baptismo ad vitandum triplex peccatum. Item
+            Am<lb ed="#N" n="95" break="no"/>bro lidbo. de sacramentis. Interrogatus es. credis in deum
+            patren<lb ed="#N" n="96" break="no"/>omnipotentem et dixisti credo. et mersus es: vnde sepultus es
+            <lb ed="#N" n="97"/>peccato. Interrogatus iterum. credis in dominum ihm christum et
+            <lb ed="#N" n="98"/>crucem eius: et dixisti credo: iterum mersus es: et sic christo
+            con<lb ed="#N" n="99" break="no"/>sepultus. Qui enim cum christo sepelitur: cum christo resurget.
+            <lb ed="#N" n="100"/>Interrogatus es iterum. credis in spiriumsanctum. et dixisti.
+            <lb ed="#N" n="101"/>credo: mersus es tercio: vt multiplicem culpam multiplex
+            <lb ed="#N" n="102"/>spiritus sancti gratia in trina confessione absolueret. Hec autem
+            <lb ed="#N" n="103"/>assignatio conuenit et paruulis et adultis. quantum ad duo
+            pri<lb ed="#N" n="104" break="no"/>ma membra. quantum ad tercium adultis: qui multiplici
+            pecca<lb ed="#N" n="105" break="no"/>to purgantur in baptismo. Potest etiam dici quod trina fit
+            immer<lb ed="#N" n="106" break="no"/>sio propter adeptionem trium virtutum theologicarum.
+            scili<lb ed="#N" n="107" break="no"/>cet fidei spei et caritatis.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3p1dr-Dd1e609">
+          <head xml:id="v78d89-a3p1dr-Hd1e611">Articulus 5</head>
+          <p xml:id="v78d89-a3p1dr-d1e613">
+            <lb ed="#N" n="108"/>⁋ Articulus quintus
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e618">
+            <lb ed="#N" n="109"/>DEinde queritur de immersione in comparatione ad
+            ef<lb ed="#N" n="110" break="no"/>fectum baptismi sic. Queritur si paruulus
+            prima<lb ed="#N" n="111" break="no"/>immersione facta statim decedat. vtrum dicendus
+            <lb ed="#N" n="112"/>est baptizatus: Quod non videtur: cum non sit baptismus
+            ni<lb ed="#N" n="113" break="no"/>si inuocatione trinitatis. Item si hoc: superflueret secunda et
+            ter<lb ed="#N" n="114" break="no"/>cia immersio.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e634">
+            ⁋ Item queritur. si immersione prima omnia
+            ver<lb ed="#N" n="115" break="no"/>ba proferantur. vtrum due mersiones sequentes sunt de
+            sub<lb ed="#N" n="116" break="no"/>stantia baptismi.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e641">
+            ⁋ Item si in secunda immersione omnia
+            ver<lb ed="#N" n="117" break="no"/>ba proferantur vtrum alie essent de substantia sacramenti.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e647">
+            <lb ed="#N" n="118"/>Ad primum dicendum est. quod in necessitate tali baptizatus est.
+            <lb ed="#N" n="119"/>supplente summi sacerdotis gratia quod ex alia parte
+            de<lb ed="#N" n="120" break="no"/>ficit: quia nescit tarda molimina spiritus sancti gratia. Pret.
+            <lb ed="#N" n="121"/>potest dici. quod in prima immersione suscipit caracterem cum
+            <lb ed="#N" n="122"/>gratia. Indiuisa enim sunt opera trinitatis et subita. quia
+            ne<lb ed="#N" n="123" break="no"/>scit tarda etc. Aliis immersionibus additis ostenditur
+            cara<lb ed="#N" n="124" break="no"/>cter impressus per trinitatis confessionem.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e665">
+            ⁋ Ad aliud
+            di<lb ed="#N" n="125" break="no"/>cendum quod vt tactum est in illa immersione in qua exprimitur
+            <lb ed="#N" n="126"/>actus baptismi cum inuocatione trinitatis: sacramentum
+            <lb ed="#N" n="127"/>confertum confertur. alie immersiones ostendunt impressionem
+            ca<lb ed="#N" n="128" break="no"/>racteris per trinitatis confessionem.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3p1dr-Dd1e677">
+          <head xml:id="v78d89-a3p1dr-Hd1e679">Articulus 6</head>
+          <p xml:id="v78d89-a3p1dr-d1e681">
+            <lb ed="#N" n="129"/>⁋ Articulus sextus
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e686">
+            <lb ed="#N" n="130"/>DEinde queritur de immersione in comparatione ad
+            vir<lb ed="#N" n="131" break="no"/>tutem sacramenti. et queritur quando aqua incipit
+            <lb ed="#N" n="132"/>esse sacramentum: et quando desinit esse sacramentum: et
+            quamn<lb ed="#N" n="133" break="no"/>dium durat virtus purgatiua in aqua. vtrum sic incipiat esse
+            <lb ed="#N" n="134"/>sacramentum cum immersione illa et cum illa desinat vel post
+            immer<lb ed="#N" n="135" break="no"/>sionem maneat.
+          </p>
+          <p xml:id="v78d89-a3p1dr-d1e702">
+            ⁋ Dicendum quod licet ex contactu carnis christi
+            mun<lb ed="#N" n="136" break="no"/>dissime collata est virtus regeneratiua aquis: nihilominus quia
+            <lb ed="#N" n="137"/>virtus illa potentialis est: et requiritur forma verborum
+            pre<lb ed="#N" n="138" break="no"/>scripta a domino. per que virtus illa reducatur in actum quando cum
+            actu<pb ed="#N" n="115"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>exercito. accedit verbum ad elementum et fit sacramentum. et cum
+            du<lb ed="#N" n="2" break="no"/>rat prolatio verborum prescripta cum actu exercito est
+            sacramen<lb ed="#N" n="3" break="no"/>tum. et incipit esse et desinit esse sacramentum quando incipit et
+            <lb ed="#N" n="4"/>desinit hec prolatio cum immersione.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

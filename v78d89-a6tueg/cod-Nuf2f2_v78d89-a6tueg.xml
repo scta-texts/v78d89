@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 32, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 32, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="191"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6tueg"><!-- q32m1 -->
+        <head xml:id="v78d89-a6tueg-Hd1e101">Membrum 1</head>
+        <p xml:id="v78d89-a6tueg-d1e103">
+          <lb ed="#N" n="5"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a6tueg-d1e108">
+          <lb ed="#N" n="6"/>CIrca primum queruntur duo. Primum est qua
+          <lb ed="#N" n="7"/>re tantum sub his speciebus panis et vini conficitur.
+          <lb ed="#N" n="8"/>Secundum est si vtraque specierum harum sit de inte
+        </p>
+        <p xml:id="v78d89-a6tueg-d1e117">
+          <lb ed="#N" n="9"/>gritate huius sacramenti.
+        </p>
+        <div xml:id="v78d89-a6tueg-Dd1e122">
+          <head xml:id="v78d89-a6tueg-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-a6tueg-d1e126">
+            <lb ed="#N" n="10"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e131">
+            <lb ed="#N" n="11"/>QUeritur ergo primo quare tantum sub speciebus panis et vini
+            in<lb ed="#N" n="12" break="no"/>stitutum est hoc sacramentum confici. quia cum hoc
+            sacramen<lb ed="#N" n="13" break="no"/>tum prefiguratum fuit non solummodo in pane et
+            vino<lb ed="#N" n="14" break="no"/>oblato abrahe a melchi. Gen. xiiii. sed in agno paschali Exo.
+            <lb ed="#N" n="15"/>xii. et in hedo quem obtulit manue cum libamentis Iudic. xiii. et
+            <lb ed="#N" n="16"/>in diuersis sacrificiis in lege: que expressiorem gerebant similitudinem
+            <lb ed="#N" n="17"/>passi christi quam panis et vinum. et in fauo mellis quem ionathas
+            <lb ed="#N" n="18"/>virga conuertit ad os suum. i. Reg. xiii. Cum veritas debeat
+            respon<lb ed="#N" n="19" break="no"/>dere figure: non videtur quod magis debeat dari sub specie panis et
+            <lb ed="#N" n="20"/>vini quam sub aliqua alia pretactarum. vel si sub his et illis similiter.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e155">
+            <lb ed="#N" n="21"/>⁋ Item christus dedit corpus suum in recordationem passionis. Unde
+            <lb ed="#N" n="22"/>Luc. xxii. Hoc est corpus meum quod pro vobis tradetur. hoc facite in
+            me<lb ed="#N" n="23" break="no"/>am commemorationem. glo. super illud. i. Cori. xi. Quotienscumque
+            man<lb ed="#N" n="24" break="no"/>ducabitis panem hunc. et cali. bi. mor. do. a. dicit. In commemorati
+            <lb ed="#N" n="25"/>one mortis debet sumi. sed panis est sacramentum corporis absolute
+            <lb ed="#N" n="26"/>ducens in memoriam illius non vt passum est: ergo non videtur quod panis de
+            <lb ed="#N" n="27"/>beat esset sacramentum corporis: sed aliquid ducens in passionem corpo
+            <lb ed="#N" n="28"/>ris: sicut vinum ducit in passionem in qua effusus est sanguis et
+            <lb ed="#N" n="29"/>diuisus a carne. Quod autem panis signat corpus christi absolute non
+            <lb ed="#N" n="30"/>cum conditione passionis patet. panis enim est representatiuum corporis christi
+            <lb ed="#N" n="31"/>quia sicut panis ex multis granis: ita corpus est ex multis membris
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e181">
+            <lb ed="#N" n="32"/>⁋ Item panis non signat corpus vt est destitutum et additum
+            dissolu<lb ed="#N" n="33" break="no"/>tioni: sed potius vt est in opposita conditione scilicet in integritate et
+            con<lb ed="#N" n="34" break="no"/>stitutione.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e191">
+            ⁋ Item vt dicit Hugo. opertet vt secundum processum temporum
+            spi<lb ed="#N" n="35" break="no"/>ritualium gratiarum signa magis semper ac magis euidentia ac
+            declaran<lb ed="#N" n="36" break="no"/>tia formarentur. vt cum effectu salutis cresceret cognitio
+            verita<lb ed="#N" n="37" break="no"/>tis. igitur cum panis et vinum erant sacramenta legis nature:
+            sacra<lb ed="#N" n="38" break="no"/>menta legis scripte erant signa magis euidentia ac
+            declaran<lb ed="#N" n="39" break="no"/>tia spiritualis gratie. igitur gratia spiritualis huius sacramenti: debuit
+            repre<lb ed="#N" n="40" break="no"/>sentari aliquo sacramento legis moysi. quam legis nature. et
+            ma<lb ed="#N" n="41" break="no"/>xime species mellis quod fuit figura huius sacramenti. i. Reg. xiiii.
+            <lb ed="#N" n="42"/>ratione processus temporis et saporis. Sapi. viii. Non habet
+            amari<lb ed="#N" n="43" break="no"/>tudinem etc.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e213">
+            ⁋ Item Hugo. prima sacramenta fuerunt vmbra. secunda
+            <lb ed="#N" n="44"/>imago. tercia corpus. quarto sequitur veritas spiritus. plus igitur
+            <lb ed="#N" n="45"/>congruebat quod institueretur sub aliqua specie sacramenti legis scripte
+            <lb ed="#N" n="46"/>quam legis nature.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e222">
+            ⁋ Item cum existente veritate cessat vmbra. Ob
+            <lb ed="#N" n="47"/>latio panis et vini fuit vmbra huius sacramenta: non debet ergo esse
+            <lb ed="#N" n="48"/>cum hoc sacramento.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e229">
+            ⁋ Si responderetur quod cessauit nec modo fit oblatio
+            <lb ed="#N" n="49"/>aliqua panis et vini deo. Contra. ante consecrationem hostie offertur
+            <lb ed="#N" n="50"/>panis et vinum deo in celebratione misse. et dicitur in prima oblatio
+            <lb ed="#N" n="51"/>ne. Suscipe sancta trinitas hanc oblationem quam offerimus etc.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e238">
+            <lb ed="#N" n="52"/>⁋ Item sacramentum est ex similitudine significans ex institutione
+            re<lb ed="#N" n="53" break="no"/>presentans etc. Illud igitur vbi est maxima similitudo maxime debet
+            in<lb ed="#N" n="54" break="no"/>stitui sacranentum. sed caro christi maximam similitudinem habet cum
+            <lb ed="#N" n="55"/>carne alia et sanguis cum sanguine. igitur hoc sacramentum debet
+            in<lb ed="#N" n="56" break="no"/>stitui fieri sub specie carnis et sanguinis.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e251">
+            ⁋ Item in hoc sacramento
+            <lb ed="#N" n="57"/>continetur christus vt cibus paruulorum qui prius erat cibus angelorum. Sed
+            ci<lb ed="#N" n="58" break="no"/>bus paruulorum est lac: ergo in lacte debet confici.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e259">
+            ⁋ Item obiicitur de
+            vi<lb ed="#N" n="59" break="no"/>no. quia hic signatur christus vt cibus siue potus sanans. sed vinum non
+            da<lb ed="#N" n="60" break="no"/>tur infirmis: ergo non debet confici in vino hoc sacramentum. quod est
+            <lb ed="#N" n="61"/>sanatiuum infirmitatis spiritualis.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e268">
+            ⁋ Responsio. multiplex est
+            ra<lb ed="#N" n="62" break="no"/>tio quare corpus christi sub istis speciebus scilicet panis et vini
+            conueni<lb ed="#N" n="63" break="no"/>enter significatur: et in nullo sacramento legis moysi. Una est
+            <lb ed="#N" n="64"/>expressa similitudo signi ad signatum. Unde. i. Corin. xi. Hoc
+            fa<lb ed="#N" n="65" break="no"/>cite quotienscumque fa. in meam comme. glo. Porro species illa
+            visi<lb ed="#N" n="66" break="no"/>bilis sacramentum est gemine rei contente et signate. et species illa
+            vtram<lb ed="#N" n="67" break="no"/>que rem significat: et vtriusque gerit expressam similitudinem. Nam
+            si<lb ed="#N" n="68" break="no"/>cut panis prem cetaris cibis corpus reficit et sustentat. et vinum
+            homi<lb ed="#N" n="69" break="no"/>nem letificat et inebriat: sic caro christi interiorem hominem
+            ma<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>gis ceteris gratiis spiritualiter reficit et saginat. quem et sanguis
+            <lb ed="#N" n="71"/>christi spiritualiter letificat et sic inebriat vt sobrium reddat. Unde
+            <lb ed="#N" n="72"/>psalmus. Calix meus inebrians quampreclarus est. habet etiam
+            similitudi<lb ed="#N" n="73" break="no"/>nem cum re significata tantum. que est vnitas fidelium. quia sicut
+            <lb ed="#N" n="74"/>ex multis granis conficitur vnus panis et ex pluribus racemis
+            <lb ed="#N" n="75"/>vinum confluit: sic ex multis fidelium personis vnitas ecclesie
+            con<lb ed="#N" n="76" break="no"/>stat. Alia ratio est consuetudo siue generalitas alimenti quo
+            <lb ed="#N" n="77"/>vita nature sustentatur. huiusmodi enim conuenientissime ducunt ad
+            il<lb ed="#N" n="78" break="no"/>lud quo vita spiritualis in omnibus nutritur. vnde Dama. Quia
+            con<lb ed="#N" n="79" break="no"/>suetudo est hominibus lauari aqua et oleo vngi. coniugauit aqua
+            <lb ed="#N" n="80"/>et spiritum sanctum et fecit id lauacrum regenerationis. Et quia
+            con<lb ed="#N" n="81" break="no"/>suetudo est hominibus paner commedere et vinum bibere: coniugauit
+            <lb ed="#N" n="82"/>eis deitatem et fecit ea corpus eius et sanguinem. vt per hec que sunt
+            <lb ed="#N" n="83"/>secundum naturam consueta in quibus vita conseruatur: ad ea que sunt super
+            <lb ed="#N" n="84"/>naturam anima transferatur.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e322">
+            ⁋ Item ex alia parte. Noluit dominus vt
+            <lb ed="#N" n="85"/>daretur hoc sacramentum sub specie alicuius veteris testa. vt ostem
+            <lb ed="#N" n="86"/>deretur illa sacramenta cessare: et noua iam introducta.
+            vn<lb ed="#N" n="87" break="no"/>de. i. Corin. xi. Hoc facite quotienscumque sumitis etc. glo.
+            Sci<lb ed="#N" n="88" break="no"/>endum ideo post celebratum vetus pascha. dominum corpus et
+            san<lb ed="#N" n="89" break="no"/>guinem suum dedisse discipulis: vt ostenderet veteris legis
+            sa<lb ed="#N" n="90" break="no"/>cramenta cessatura. inter que precipuum erat agni paschalis
+            sa<lb ed="#N" n="91" break="no"/>cramentum. et noue legis sacramenta instituenda: inter que
+            excel<lb ed="#N" n="92" break="no"/>lit dominici corporis sacramentum.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e342">
+            ⁋ Ex hoc patet responsio ad primo obie
+            <lb ed="#N" n="93"/>ctum. Non enim debuit institui dari in specie agni vel hedi vel
+            <lb ed="#N" n="94"/>alterius alicuius sacramenti veteris legis: ne nondum videantur
+            <lb ed="#N" n="95"/>legalia cessare. immo illa in multitudine debuerunt figurare
+            <lb ed="#N" n="96"/>christum passum: in cuius recordatione datur hoc sacramentum. Unde
+            <lb ed="#N" n="97"/>augu. iiii. de trinitate. Oportuit quod qui per multa eramus diui
+            <lb ed="#N" n="98"/>si a deo: quod multa vnum conclamarent futurum scilicet christum passum.
+            <lb ed="#N" n="99"/>Pret. expressius signatur res huius sacramenti quantum ad rem vtramque
+            <lb ed="#N" n="100"/>specie panis et vini: quam alterius alicuius sacramenti vt ex dictis
+            <lb ed="#N" n="101"/>patet.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e364">
+            ⁋ Et sic patet responsio ad illud quod obiicitur. quod in sacrificiis
+            <lb ed="#N" n="102"/>legis expressius significabatur christus passus. Pret. licet essent
+            si<lb ed="#N" n="103" break="no"/>gna euidentiora quia principaliter ad significandum christum passum
+            <lb ed="#N" n="104"/>ordinabantur: tamen non erant euidentiora quantum ad expressionem
+            <lb ed="#N" n="105"/>gratie spiritualis. que principaliter signatur in sacramento noue
+            <lb ed="#N" n="106"/>legis.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e377">
+            ⁋ Ad illud quod obiicitur quod specie panis representatur
+            cor<lb ed="#N" n="107" break="no"/>pus christi absolute non referendo ad passionem. Dicendum quod vt
+            di<lb ed="#N" n="108" break="no"/>cit Hugo. Sacramentum signat ex similitudine representat ex
+            in<lb ed="#N" n="109" break="no"/>stitutione. Unde dicendum quod licet ex naturali similitudine
+            signi<lb ed="#N" n="110" break="no"/>ficet corpus absolute: ex institutione tamen signat corpus cum conditione
+            <lb ed="#N" n="111"/>scilicet vt est relatum ad passionem. Pret. licet species panis in se
+            consi<lb ed="#N" n="112" break="no"/>derata representet corpus absolute: tamen vt commeditur signat
+            expo<lb ed="#N" n="113" break="no"/>situm morti. Passio enim christi commestioni comperatur propter vehementiam
+            <lb ed="#N" n="114"/>pene et multiplicem comminutionem. Unde psalmus. Relus domus tue
+            comme<lb ed="#N" n="115" break="no"/>dit me. glo. fuit mihi causa mortis.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e400">
+            ⁋ Ad hoc quod obiicitur de
+            il<lb ed="#N" n="116" break="no"/>lo verbo Hugo. Dicendum quod Hugo comparat adinuicem illa
+            sa<lb ed="#N" n="117" break="no"/>cramenta que fiebant in remedium originalis per decimationem
+            <lb ed="#N" n="118"/>circumcisionem et baptismum: non autem comperat illa que solum
+            signa<lb ed="#N" n="119" break="no"/>erant. cuiusmodi erat oblatio panis et vini a melchi. Gen.
+            <lb ed="#N" n="120"/>xiiii.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e413">
+            ⁋ Ad illud quod obiicitur de oblatione panis et vini etc.
+            <lb ed="#N" n="121"/>Dicendum quod hec oblatio non est absolute et simpliciter
+            inten<lb ed="#N" n="122" break="no"/>tionis offerentis: sed est quedam preparatio ad ipsum sacramentum.
+            <lb ed="#N" n="123"/>vnde non est oblatio que est sacramentum.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e422">
+            ⁋ Ad illud quod se
+            <lb ed="#N" n="124"/>quitur. quod sacramentum est ex similitudme significans etc.
+            Dicen<lb ed="#N" n="125" break="no"/>dum quod et si caro et sanguis expressiorem gerunt
+            similitu<lb ed="#N" n="126" break="no"/>dinem carnis christi quam panis inquantum est caro: non tamen inquantum
+            <lb ed="#N" n="127"/>est cibus. Panis enim vt tactum est. est cibus generalis
+            omni<lb ed="#N" n="128" break="no"/>um et omni tempore. propter quod in multis locis scripture
+            pa<lb ed="#N" n="129" break="no"/>nis generaliter nominat genus cibi. vt patmet Exo. xviii.
+            ve<lb ed="#N" n="130" break="no"/>neruntque aaron. et omnes seniores israhel vt commederent
+            pa<lb ed="#N" n="131" break="no"/>nem cum eo. Panis ibi ponitur pro cibo generaliter. Sicut
+            <lb ed="#N" n="132"/>igitur omnium et omni tempore est cibus: sic christus sine quo nullus viuere siue
+            <lb ed="#N" n="133"/>ali potest. propter quod dicitur panis Ioh. vi. et ibidem dicitur.
+            <lb ed="#N" n="134"/>Nisi manducaueritis carnem filii hominis et biberitis eius
+            san<lb ed="#N" n="135" break="no"/>guinem: non ha. vi. in vobis. Sic igitur ratione qua est
+            alimen<lb ed="#N" n="136" break="no"/>tum generale omnium et omni tempore quod non est de carne: magis
+            <lb ed="#N" n="137"/>christo conuenit quam caro. Item panis inter alia que nutriunt
+            pre<lb ed="#N" n="138" break="no"/>cipue habet virtutem nutriendi. In cuius signum commestio
+            pa<lb ed="#N" n="139" break="no"/>nis non generat fastidium sicut et alii cibi. Unde dicunt
+            medi<lb ed="#N" n="140" break="no"/>ci et in dietis scribitur. quod cibus iste est conuenientissimus
+            hu<pb ed="#N" n="192"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>mane nature. Similiter est de vero pane christo de quo Ecclessti. xxiiii.
+            <lb ed="#N" n="2"/>Qui edunt me adhuc esuriunt ratione igitur vniuersalitatis et
+            vir<lb ed="#N" n="3" break="no"/>tutis eius magis comparatur cibus iste pani quam alii cibo.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e470">
+            ⁋ Pret.
+            pa<lb ed="#N" n="4" break="no"/>nis expressius representat corpus misticum quam caro. quod quidem
+            cor<lb ed="#N" n="5" break="no"/>pus constat ex multis in se distinctis in vno tamen adunatis:
+            si<lb ed="#N" n="6" break="no"/>cut panis ex multis granis in vnum tamen concurrentibus. quod non
+            <lb ed="#N" n="7"/>conuenit carni.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e481">
+            ⁋ Ad illud quod obiicitur. quod est cibus paruulorum
+            <lb ed="#N" n="8"/>etc. Dicendum quod est cibus paruulorum id est humilium. sed proprie est illorum
+            <lb ed="#N" n="9"/>qui creuerunt in fide. Unde augustinus. cibus sum grandium. vnde
+            <lb ed="#N" n="10"/>in pane conuenienter non in lacte fuit institutum.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e490">
+            ⁋ Ad illud
+            <lb ed="#N" n="11"/>quod obiicitur de vino quod non sanat. Dicendum quod vinum datur
+            <lb ed="#N" n="12"/>conualescentibus et non actu infirmantibus. In quo signatur quod
+            <lb ed="#N" n="13"/>illud sacramentum debet dari iam confitentibus per bonam
+            conscien<lb ed="#N" n="14" break="no"/>tiam: non iacentibus in lecto peccati.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6tueg-Dd1e503">
+          <head xml:id="v78d89-a6tueg-Hd1e505">Articulus 2</head>
+          <p xml:id="v78d89-a6tueg-d1e507">
+            <lb ed="#N" n="15"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e512">
+            <lb ed="#N" n="16"/>COnsequenter queritur. si vtraque species sit de
+            integri<lb ed="#N" n="17" break="no"/>tate huius sacramenti. Quod sic: videtur per hoc. quod dominus
+            in<lb ed="#N" n="18" break="no"/>stituendo hoc sacramentum in vtraque specie confecit. Sed
+            <lb ed="#N" n="19"/>non est completum sacramentum nisi quod ipse instituit. ergo etc. Et
+            pos<lb ed="#N" n="20" break="no"/>sunt rationes ad idem sumi ex predictis.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e525">
+            ⁋ Contra. sub quali
+            <lb ed="#N" n="21"/>bet specie totus christus continetur. nec aliquid amplius sub duabus quam
+            <lb ed="#N" n="22"/>sub vna: nec aliud continetur sedommnino idem. ergo videtur quod altera
+            <lb ed="#N" n="23"/>tantum sit de integritate: cum vna remota remaneai sacramentum
+            <lb ed="#N" n="24"/>completum.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e536">
+            ⁋ Item fideles integrum et perfectum sumunt
+            sacra<lb ed="#N" n="25" break="no"/>mentum. nec tamen sumunt nisi sub altera specie tantum: ergo etc.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e542">
+            <lb ed="#N" n="26"/>Responsio. quod in hoc sacramento duo sunt efficacia et
+            signifi<lb ed="#N" n="27" break="no"/>cantia. Potest ergo aliud esse de integritate sacramenti.
+            <lb ed="#N" n="28"/>aut quantum ad efficaciam aut quantum ad significantiam.
+            Effica<lb ed="#N" n="29" break="no"/>cia huius sacramenti respicit duo. scilicet rem contentam et
+            significa<lb ed="#N" n="30" break="no"/>tam: et significatam et non contentam. quantum ad efficaciam inquantum
+            respi<lb ed="#N" n="31" break="no"/>cit rem contentam et significatam: altera tantum est species de integrita
+            <lb ed="#N" n="32"/>te. quia in vtraque specie continetur totius christus. Inquantum efficacia respicit
+            <lb ed="#N" n="33"/>signatum et non contentum: vtraque est de integritate. quia sumpto hoc
+            <lb ed="#N" n="34"/>sacramento digne in vtraque specie. maior est effectus vnionis
+            cor<lb ed="#N" n="35" break="no"/>poris mistici cum capite quam sumpto sub altera. Quantum autem ad
+            <lb ed="#N" n="36"/>significantiam sunt de integritate. quia neutra specie signatur
+            <lb ed="#N" n="37"/>res huius sacramenti. quia christus quantum ad corpus non signatur
+            sacra<lb ed="#N" n="38" break="no"/>mentaliter in specie vini: neque quantum ad sanguinem
+            sacramentali<lb ed="#N" n="39" break="no"/>ter in specie panis. Pret. in hoc sacramento signatur christus vt
+            <lb ed="#N" n="40"/>est cibus. perfecte manducantes reficiens sacramentaliter et
+            spi<lb ed="#N" n="41" break="no"/>ritualiter. perfecta autem refectio non est in pane tantum nec in
+            vino<lb ed="#N" n="42" break="no"/>tantum: sed in vtroque. Reficit autem hoc sacramentum non quoscumque
+            <lb ed="#N" n="43"/>sed manducantes spiritualiter. Manducare autem
+            spirituali<lb ed="#N" n="44" break="no"/>ter est recognoscere et refici circa eius passionem que fuic
+            <lb ed="#N" n="45"/>in corporis eius multiplici afflictione et sanguinis
+            effusio<lb ed="#N" n="46" break="no"/>ne. in quo manifestatur immensa dei caritas et in hoc anima
+            <lb ed="#N" n="47"/>perfecte reficitur et delectatur. et ideo vtrumque distincte
+            signa<lb ed="#N" n="48" break="no"/>tur scilicet corpus et sanguis. Pret. delectatio et refectio non est
+            <lb ed="#N" n="49"/>in passione quia passio: sed quia nostra redemptio. nos enim
+            <lb ed="#N" n="50"/>nostra vtilitas delectat que est redemptio nostra corpore et
+            <lb ed="#N" n="51"/>sanguine christi.
+          </p>
+          <p xml:id="v78d89-a6tueg-d1e601">
+            ⁋ Ex his patet responsio ad obiecta. quia etsi to
+            <lb ed="#N" n="52"/>tum sit in vtraque specie: non tamen per vnam perfecte signatur
+            <lb ed="#N" n="53"/>Fideles autem perfectum sacramentum suscipiunt quantum ad
+            effi<lb ed="#N" n="54" break="no"/>caciam que respicit contentum et significatum. non tamen
+            sum<lb ed="#N" n="55" break="no"/>ptio in vna specie est tante efficacie inquantum respicit
+            signi<lb ed="#N" n="56" break="no"/>ficatum et non contentum: quante est in vtraque. non tamen oportet
+            <lb ed="#N" n="57"/>quod ipsi sumant in vtraque specie propter periculum
+            effusionis<lb ed="#N" n="58" break="no"/>propter periculum erroris: ne simplices crederent totum christum
+            <lb ed="#N" n="59"/>sub altera specie non esse. sicut fuit de quodam non credente quod
+            <lb ed="#N" n="60"/>esset sanguis in sacramento corporis: qui videbat
+            sangui<lb ed="#N" n="61" break="no"/>nem exire de hostia.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

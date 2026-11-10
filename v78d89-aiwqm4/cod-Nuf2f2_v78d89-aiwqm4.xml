@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 111</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 111</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="693"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aiwqm4"><!-- q111 -->
+        <head xml:id="v78d89-aiwqm4-Hd1e101">Quaestio 111</head>
+        <head xml:id="v78d89-aiwqm4-Hd1e103" type="question-title">Per duos com petit fieri elemosyna</head>
+        <p xml:id="v78d89-aiwqm4-d1e106">
+          <lb ed="#N" n="138"/>Questio. cxi. per duos com
+          <lb ed="#N" n="139"/>petit fieri elemosyna.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e113">
+          <pb ed="#N" n="694"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>Irsequenter que
+          <lb ed="#N" n="2"/>ritur. per quos competit elemosnam fieri. Et
+          pri<lb ed="#N" n="3" break="no"/>mo queritur. vtrum competat quod fiat per seruum vel
+          <lb ed="#N" n="4"/>per alium quencunque. vt per filium vel consanguine
+          <lb ed="#N" n="5"/>um vel amicum vel vicinum: ponatur ergo casus
+          <lb ed="#N" n="6"/>talis. Alicui diuiti iniunctum est dare in satisfactione. xx.
+          li<lb ed="#N" n="7" break="no"/>bras pauperibus. et cum sit in caritate precipit seuo suo vt det. xx.
+          <lb ed="#N" n="8"/>libras pauperibus. ille vero est extens in mortali peccato: ergo nullius est
+          <lb ed="#N" n="9"/>meritoria. ergo nec vite eterne nec remissionis pene: et ita non
+          <lb ed="#N" n="10"/>absoluitur dominus a pena. forte dicetur quod quamuis non absoluatur
+          ra<lb ed="#N" n="11" break="no"/>tione actionis scilicet dationis: tamen absoluitur ratione dati vel
+          passio<lb ed="#N" n="12" break="no"/>nis dationis. sed hoc non potest esse vt videtur: quia si intelligitur
+          rati<lb ed="#N" n="13" break="no"/>one dati id est ratione eius quod est datum pure. illud est pecunia et
+          <lb ed="#N" n="14"/>erat pecunia antequam daretur: tamen non absoluebatur antequam daretur
+          <lb ed="#N" n="15"/>Si vero datum accipitur prout est in datione passione. ergo gratia
+          pas<lb ed="#N" n="16" break="no"/>sionis absoluitur. et hoc est falsum. quia passionibus nec
+          me<lb ed="#N" n="17" break="no"/>remur nec demeremur: et ita videtur quod illa datio in nullo
+          pro<lb ed="#N" n="18" break="no"/>sit domino.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e159">
+          ⁋ Contra. ille facit cuius auctoritate fit. ergo illa actio est a
+          do<lb ed="#N" n="19" break="no"/>mino precipiente in caritate. ergo informatur caritate domini precipien
+          <lb ed="#N" n="20"/>tis: ergo est meritoria domino precipienti.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e167">
+          ⁋ Preterea. si non absolueretur
+          <lb ed="#N" n="21"/>adhuc teneret. ergo si rem daret seruo in mortali adhuc teneretur.
+          <lb ed="#N" n="22"/>et sic posset depauperari dominus quod valde durum esset diffinire.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e174">
+          <lb ed="#N" n="23"/>⁋ Pre. dominus posito quod precipiat in caritate. sed quando seruus dat
+          ser<lb ed="#N" n="24" break="no"/>uus est in caritate: et dominus in mortali sit. ita queritur si hec datio
+          <lb ed="#N" n="25"/>prosit domino: videtur quod non. quia non est capax remissionis pene cum
+          <lb ed="#N" n="26"/>sit in mortali. Sed contra hec actio est executio: sed executio
+          relati<lb ed="#N" n="27" break="no"/>ue dicitur ad preceptum. sed preceptum factum est in caritate: ergo hec datio
+          <lb ed="#N" n="28"/>procedit ex precepto facto in caritate: est ergo meritoria
+          domino<lb ed="#N" n="29" break="no"/>⁋ Pre. ponatur quod dominus sit in mortali quando precipit. et quando seruus
+          ex<lb ed="#N" n="30" break="no"/>equatur dominus est in caritate et seruus. similiter queritur an hec datio
+          va<lb ed="#N" n="31" break="no"/>leat domino. videtur quod sic: cum sit in caritate. Contra. hec datio
+          pro<lb ed="#N" n="32" break="no"/>cedit ex precepto facto in mortali. ergo ex precepto mortuo: quia
+          bo<lb ed="#N" n="33" break="no"/>na opera facta in mortali mortua sunt. et mortuum non est causa
+          vi<lb ed="#N" n="34" break="no"/>ui: ergo hec datio mortua est quantum ad dominum: ergo non prodest ei.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e203">
+          <lb ed="#N" n="35"/>⁋ Pretea. ponatur quod seruus extens in caritate ignorante domino qui est
+          <lb ed="#N" n="36"/>in mortali faciat elemosynas multas de bonis domini sui.
+          postmo<lb ed="#N" n="37" break="no"/>dum reuelat domino suo quod fecit. et in tempore renelationis dominus est in
+          <lb ed="#N" n="38"/>caritate: qui in tempore dationis fuit in mortali. et dominus ratam et
+          gra<lb ed="#N" n="39" break="no"/>tam habet illam donationem. Queritur an sic prosit domino illa datio
+          <lb ed="#N" n="40"/>quantum a liberationem a pena. videtur quod non: quia quando fiebat erat
+          <lb ed="#N" n="41"/>dominus in mortali. Sed contra. ratihabitio est in caritate: sed
+          rati<lb ed="#N" n="42" break="no"/>habitio mandato comparatur: ergo tantum valet quantum si dominus
+          man<lb ed="#N" n="43" break="no"/>daret modo dari. sed si modo mandaret et seruus modo exequeretur
+          va<lb ed="#N" n="44" break="no"/>leret domino datio istius elemosne quantum ad liberationem a pena:
+          <lb ed="#N" n="45"/>et ita per ratihabitionem que fit in caritate vtilis efficitur domino
+          da<lb ed="#N" n="46" break="no"/>tio elemosyne facta per manum serui sui.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e232">
+          ⁋ Solo. ad primum casum
+          <lb ed="#N" n="47"/>potest dici secundum illos qui dicunt. quod omnis actio est a deo: quod
+          absol<lb ed="#N" n="48" break="no"/>uit dominum. Sic enim non est inconueniens secundum illos dicem quod eadem
+          <lb ed="#N" n="49"/>actio est bona et mala. prout est a deo bona: prout a dyabolo
+          <lb ed="#N" n="50"/>vel ab homine mala. Sic non est inconueniens dicere secundum illos. quod
+          <lb ed="#N" n="51"/>eadem actio est meritoria vel demeritoria. Unde datio illa est
+          de<lb ed="#N" n="52" break="no"/>meritoria seruo: et meritoria domino vt ponunt exemplum de
+          sacer<lb ed="#N" n="53" break="no"/>dote qui ad petitionem fidelium deuotorum celebrat missam ex
+          cupi<lb ed="#N" n="54" break="no"/>ditate oblationum. hec celebratio misse est meritoria fidelibus
+          <lb ed="#N" n="55"/>et demeritoria sacerdoti. Sed secundum istos qui dicunt. quod non omnis
+          <lb ed="#N" n="56"/>actio est a deo: non potest solui ita. quia illi non dicunt quod eadem actio
+          <lb ed="#N" n="57"/>numero sit bona et mala vel meritoria vel demeritoria. propter
+          <lb ed="#N" n="58"/>hoc aliter soluendum est. Dicedum ergo quod illa datio pura nulli est
+          meri<lb ed="#N" n="59" break="no"/>toria nec domino nec seruo. liberatur tamen dominus et absoluitur. non per
+          da<lb ed="#N" n="60" break="no"/>tionem: sed per voluntatem dandi coniunctam dationi passioni. Licet enim
+          <lb ed="#N" n="61"/>passione non meremur: tamen passio est obtnctum voluntatis merito
+          <lb ed="#N" n="62"/>rie. Est enim patima virtus. et eius motus actualis est voluntas
+          pati<lb ed="#N" n="63" break="no"/>endi coniuncta passioni. et per huius voluntatem coniunctam passioni
+          <lb ed="#N" n="64"/>meretur patima. non solum auream: sed etiam aureolam vt in martirio.
+          <lb ed="#N" n="65"/>Similiter voluntas abstinendi est meritoria coniuncta abstinentie
+          <lb ed="#N" n="66"/>siue passioni affligenti corpus ex abstinentia. Similiter dicimus
+          <lb ed="#N" n="67"/>quod voluntas domini precipientis. voluntas inquam dandi coniuncta
+          <lb ed="#N" n="68"/>dationi passioni est meritoria domino. non solum vite eter
+          <lb ed="#N" n="69"/>ne: sed etiam remissionis pene.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e284">
+          ⁋ Ad secundum casum
+          dici<lb ed="#N" n="70" break="no"/>mus. quod non prodest domino ad vitam eternam qui est in
+          mortali<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>datio elemosyne quam facit seruus pro ipso licet dominus
+          prece<lb ed="#N" n="72" break="no"/>perit in caritate. quia dominus quando peccauit mortaliter: ipso
+          <lb ed="#N" n="73"/>facto reuocauit mandatum inquantum erat meritorium.
+          extra<lb ed="#N" n="74" break="no"/>xit enim in se omnen virtutem et omne meritum quod habebat.
+          vn<lb ed="#N" n="75" break="no"/>de datio illa non valuit. sicut non valicet quod facit procurator
+          ali<lb ed="#N" n="76" break="no"/>cuius in curia post reuocationem procurationis.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e303">
+          ⁋ Ad tercium
+          <lb ed="#N" n="77"/>casum dicimus. quod ratione dationis quam exequitur seruus facto
+          <lb ed="#N" n="78"/>precepto in mortali. non liberatur dominus. iuxta illud. ex ptst
+          <lb ed="#N" n="79"/>facto nequit conualescere: quod ab initio non valuit.
+          concedi<lb ed="#N" n="80" break="no"/>mus tamen quod datio serui quam facit in caritate licet dominus preceperit
+          <lb ed="#N" n="81"/>in mortali occasio potest esse liberationis a pena: quia
+          domi<lb ed="#N" n="82" break="no"/>nus quando exequitur seruus est in caritate: et ita capax est
+          remis<lb ed="#N" n="83" break="no"/>sionis pene. tantum enim possunt pauperes que recipiunt elemosy
+          <lb ed="#N" n="84"/>nam orare pro domino: quod dominus liberabitur a tanta pena a
+          quan<lb ed="#N" n="85" break="no"/>ta liberaretur si esset in caritate in tempore preceptionis.
+        </p>
+        <p xml:id="v78d89-aiwqm4-d1e326">
+          ⁋ Ad
+          <lb ed="#N" n="86"/>vltimum casum dici potest. quod si tanta est ratihabitio quod si non
+          <lb ed="#N" n="87"/>esset datum modo ipse dominus daret cum est in caritate.
+          reue<lb ed="#N" n="88" break="no"/>ra tunc valet domino sicut dixi in primo casu. Si vero non est tam
+          <lb ed="#N" n="89"/>ta. non videtur quod multum ei valeat a seruo: tamen non potest
+          ali<lb ed="#N" n="90" break="no"/>quid petere ex quo aliquo modo ratum habuit. et licet vt
+          supra<lb ed="#N" n="91" break="no"/>dictum est data sic non valeant domino ad vitam eternam
+          <lb ed="#N" n="92"/>nec ad remissionem pene: valere possunt tamen ad habilitatio
+          <lb ed="#N" n="93"/>nem et gratiam et alia bona.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

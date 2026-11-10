@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 69, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 69, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="450"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ad30wf"><!-- q69m5 -->
+        <head xml:id="v78d89-ad30wf-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-ad30wf-Hd1e103" type="question-title">Utrum requiritur contritio de peccato veniali</head>
+        <p xml:id="v78d89-ad30wf-d1e106">
+          <lb ed="#N" n="82"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e111">
+          <lb ed="#N" n="83"/>COnsequenter queritur. vtrum requiritur contritio de
+          <lb ed="#N" n="84"/>peccato veniali. Quod sic: videtur. quia vt habeturin
+          <lb ed="#N" n="85"/>quarto senn. di. xvi. de venialibus quantulacumque
+          <lb ed="#N" n="86"/>penitentia habenda est.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e122">
+          ⁋ Item ab augustinus in libro. de decem
+          cor<lb ed="#N" n="87" break="no"/>dis habetur. quod corde dicendum est: dimitte nobis debita nra.
+          <lb ed="#N" n="88"/>hoc autem dicitur pro venialibus. Dicere aliquid ex corde est dicem cum
+          pon<lb ed="#N" n="89" break="no"/>dere et affectu. sic autem dicere non est sine dolore.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e132">
+          ⁋ Item auqus e
+          <lb ed="#N" n="90"/>enche. Uenimale est minor amor dei scilicet quam esse debet. sed si est minus amor
+          <lb ed="#N" n="91"/>dei quam esse debet. ergo peccato veniali subtrahitur aliquid de amore
+          <lb ed="#N" n="92"/>dei debito. ergo peccato veniali vel fit alique auersio a deo vel ede
+          <lb ed="#N" n="93"/>gatio. sed pro omni tali dolendum est.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e143">
+          ⁋ Item nulla creatura mouee
+          <lb ed="#N" n="94"/>per electionem potest mouere motu infinito. ergo omnis amor
+          libidi<lb ed="#N" n="95" break="no"/>nosus mortalis finitus est. ergo non excedit in infinitum amore peccati
+          <lb ed="#N" n="96"/>venialis. ergo nec remedium mortalis excedit in infinitum
+          veme<lb ed="#N" n="97" break="no"/>dium venialis. ergo dolor aliquantus requiritur pro remedio venialis.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e154">
+          <lb ed="#N" n="98"/>⁋ Item ab augustinus. habetur. quod pro vita hominis saluanda non est dicendum
+          <lb ed="#N" n="99"/>mendacium. et loquitur de mendacio veniali. ergo plus est dolendum de
+          <lb ed="#N" n="100"/>vno mendacio et similiter de alio veniali commsso: quam de morte
+          ho<lb ed="#N" n="101" break="no"/>minis. et ita non modicum est dolendum.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e165">
+          ⁋ Contra. Beda. Qde
+          <lb ed="#N" n="102"/>ex ignorantia et fragilitate committimus sine confessione dimiirum
+          <lb ed="#N" n="103"/>tur. sed de quibus tenemur conteri: tenemur confiteri. erd pro
+          veni<lb ed="#N" n="104" break="no"/>alibus non tenemur conteri sicut nec confiteri.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e174">
+          ⁋ Item nulus tenetur
+          <lb ed="#N" n="105"/>conteri nisi secundum quod gratia informat. sed gratia informat ad
+          expellen<lb ed="#N" n="106" break="no"/>dum sibi contrarium. venialem autem gratie non est contrarium: quod simul in
+          <lb ed="#N" n="107"/>eodem posunt esse. ergo veniale non est dolendum.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e183">
+          ⁋ Responsio. quod onum
+          <lb ed="#N" n="108"/>peccatorum venialium quantuncumque sint leuia requiritur contritio vn
+          <lb ed="#N" n="109"/>speciali vel in generali. quia ex quo voluntati actuali commissa
+          <lb ed="#N" n="110"/>sunt: necessario ad eorum remissionem requiritur dolor actualis. hoc
+          <lb ed="#N" n="111"/>serd. plenius tactum est. Distinguunt autem quidam quod venialiam
+          qu<lb ed="#N" n="112" break="no"/>dam sunt minora: quedam maiora. Minora sunt sicut
+          pri<lb ed="#N" n="113" break="no"/>mi motus: qui magis dicendi sunt passiones quam aciones.
+          <lb ed="#N" n="114"/>peccata tamen sunt. et quia pars anime in qua vigent subiacet regimi
+          ra<lb ed="#N" n="115" break="no"/>tionis: non immerito imputantur. tamen vt dicunt de huiusmodi non
+          reo<lb ed="#N" n="116" break="no"/>ritur dolor siue contritio. Maiora autem venialia sunt que
+          mom<lb ed="#N" n="117" break="no"/>volantatis et amore inordinato sub deo tamen committuntur. Et de
+          <lb ed="#N" n="118"/>his distinguunt. quia aut ista veniunt in actualem considerationem ei
+          <lb ed="#N" n="119"/>auertentiam: aut non. Si sic: requiritur contritio specialis ad
+          eo<lb ed="#N" n="120" break="no"/>rum remissionem. vt enim habetur ab augustinus. nullum est ita
+          paruum<lb ed="#N" n="121" break="no"/>veniale quod non fiat mortalem cum placet. non quia veniale fiat
+          mor<lb ed="#N" n="122" break="no"/>talem: sed quia adherentia talis dummodo non displicet fit
+          libidi<lb ed="#N" n="123" break="no"/>nosa et mortalis. Si vero non cadat sub consideratione spieali:
+          <lb ed="#N" n="124"/>sufficit generalis contritio ad eius remissionem que necesse est
+          pe<lb ed="#N" n="125" break="no"/>nitentem de omni eo quod elongat a deo dolere.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e226">
+          ⁋ Hec autemliuet
+          <lb ed="#N" n="126"/>non absque ratione dicuntur: videtur tamen aliquantulum aliter dicendum.
+          <lb ed="#N" n="127"/>scilicet quod de omni peccato veniali siue sit ex primis motibue
+          <lb ed="#N" n="128"/>siue ex voluntate rationalis. quocumque modo fiat dummodo peccatum
+          <lb ed="#N" n="129"/>sit et actuale: necessaria est contritio.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e237">
+          ⁋ Ad illud ergo quod primo
+          obg<lb ed="#N" n="130" break="no"/>citur contra hoc per auctoritatem Bede. Dicendum quod verbum bede intelli
+          <lb ed="#N" n="131"/>gitur de confessione speciali. sicut enim sufficit contritio generalis
+          gro<lb ed="#N" n="132" break="no"/>tum ad ea que non auertit humana memoria: sic sufficit
+          confes<lb ed="#N" n="133" break="no"/>sio generalis. vnde quantum ad talia sufficit contritio et confessio
+          <lb ed="#N" n="134"/>generalis.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e250">
+          ⁋ Ad illud quod obiicitur de gratia informante etc.
+          <lb ed="#N" n="135"/>Dicendum quod gratia informis non solum inducit de illis on
+          <lb ed="#N" n="136"/>secum non contingunt id est de mortalibus peccatis: sed etiam
+          <lb ed="#N" n="137"/>de illis que aliquo modo elongant a fine. Preterea. etsi
+          gra<lb ed="#N" n="138" break="no"/>tia non opponitur veniali in se: opponitur tamen illi
+          inquan<lb ed="#N" n="139" break="no"/>tum disponit ad mortalem. hoc planius tactum est sm.
+          Conceden<lb ed="#N" n="140" break="no"/>de sunt ergo rationes quibus persuadetur. quod de omni peccato
+          ve<pb ed="#N" n="451"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>niali requiritur contritio in speciali vel in generali.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e270">
+          ⁋ Quia
+          <lb ed="#N" n="2"/>autem quedam tacta sunt pro alia parte que videntur habere dubitati
+          <lb ed="#N" n="3"/>onem: aliquid tangendum est de illis. Ad illud ergo quod obiicitur. quod
+          <lb ed="#N" n="4"/>peccatum veniale est minor amor dei etc. Dicendum quod hoc
+          intel<lb ed="#N" n="5" break="no"/>ligitur sic. quod qui peccat venialiter quantum ad hoc minus amat quam
+          de<lb ed="#N" n="6" break="no"/>beret. deo enim debetur amor ex toto corde et tota anima et ex
+          <lb ed="#N" n="7"/>tota mente. totum enim illi debetur a quo totum habetur. Bern. Ipse
+          <lb ed="#N" n="8"/>totum ei sese debere non ignorat: quem sui totius non ignorat
+          <lb ed="#N" n="9"/>auctorem. sed si minus diligat: nodo tamen intanto minus quod a deo
+          <lb ed="#N" n="10"/>auertitur vel elongatur. scilicet quantum ad diminutionem radicis. Non
+          <lb ed="#N" n="11"/>enim subtrahitur aliquid siue diminuitur de amore caritatis: sed
+          <lb ed="#N" n="12"/>respectu eius facta est diminutio que inesset si non
+          peccas<lb ed="#N" n="13" break="no"/>set. sicut quodam modo loquendi dicitur. quod peccata alicus
+          mali<lb ed="#N" n="14" break="no"/>cum morte preuenitur diminuta sunt. non quia que commisit
+          dimi<lb ed="#N" n="15" break="no"/>nuta sunt: sed quia cessat a malis que postea perpetrasset qui
+          ma<lb ed="#N" n="16" break="no"/>la malis addidisset.
+        </p>
+        <p xml:id="v78d89-ad30wf-d1e305">
+          ⁋ Ad illud verbum Augustinus. quod non est
+          di<lb ed="#N" n="17" break="no"/>cendum mendacium etc. Dicendum quod mentiri et alia mala de
+          <lb ed="#N" n="18"/>sui natura a nobis nullo modo sunt vtibilia id est ordinanda in
+          <lb ed="#N" n="19"/>finem. Non enim facienda sunt mala vt bona eueniant. et sic
+          <lb ed="#N" n="20"/>non hac nec alia ratione mala fieri debent: quia nec ex malis
+          <lb ed="#N" n="21"/>possumus bona aliqua elicere. hoc non est nisi solius dei. et propter
+          <lb ed="#N" n="22"/>hoc nulla ratione debemus minimum malum facere. nec tamen
+          sequi<lb ed="#N" n="23" break="no"/>tur quod si mentiamur mendacio veniali: quod plus tenemur
+          do<lb ed="#N" n="24" break="no"/>lere quam pro morte proximi vel incursu alicuius damni temporalis.
+          <lb ed="#N" n="25"/>quia efficacior est dolor spiritualis gratia informatus et pro paruo
+          veni<lb ed="#N" n="26" break="no"/>ali: quam dolor maximus sensibilis pro damno temporali.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

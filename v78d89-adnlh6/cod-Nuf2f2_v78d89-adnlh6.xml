@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 73, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 73, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="469"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adnlh6"><!-- q73m3 -->
+        <head xml:id="v78d89-adnlh6-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-adnlh6-Hd1e103" type="question-title">De ordine contritionis ad expulsionem peccati</head>
+        <p xml:id="v78d89-adnlh6-d1e106">
+          <lb ed="#N" n="44"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e111">
+          <lb ed="#N" n="45"/>COnsequenter queritur de ordine contritionis ad
+          <lb ed="#N" n="46"/>expulsionem peccati. et videtur quod contritio precedat
+          <lb ed="#N" n="47"/>sicut causa precedit effectum.
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e120">
+          ⁋ Item si lumen non
+          pos<lb ed="#N" n="48" break="no"/>set induci in aerem nisi aere ad hoc cooperante.
+          <lb ed="#N" n="49"/>non solum luminis inductio precederet expulsionem tenebre: sed etiam
+          <lb ed="#N" n="50"/>actus aeris: sed sic est in proposito. ergo si motus libro. arbtro. qui est contritio
+          <lb ed="#N" n="51"/>requiritur ad hoc quod gratia introducat iustificationem per expulsio
+          <lb ed="#N" n="52"/>nem peccati. patet quod non solum infusio gratie precedit expulsionem peccati
+          <lb ed="#N" n="53"/>siced etiam contritio.
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e137">
+          ⁋ Item si contritio sequeretur culpe remissionem
+          <lb ed="#N" n="54"/>cum remissa culpa necessario sit homo iustus: ergo etiam si non sequeretur
+          <lb ed="#N" n="55"/>contritio esset iustus. sed hoc est falsum ergo necessario precedit.
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e144">
+          ⁋ Item
+          si<lb ed="#N" n="56" break="no"/>remissio culpe esset omnino a libro art. tunc constat quod actus detestationis
+          <lb ed="#N" n="57"/>eam precederet: sed sicut precedit esse illud quod est tota causa: ita quod est
+          <lb ed="#N" n="58"/>adiuuatiuum. ergo si contritio est motus a libro. arbtro. adiuuans gratui
+          <lb ed="#N" n="59"/>ti et faciens viam ad culpam delendam: patet quod est prior.
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e155">
+          ⁋ Contra.
+          <lb ed="#N" n="60"/>motus contritionis est motus formatus: sed gratia prius naturaliter
+          <lb ed="#N" n="61"/>informat subiectum quam accidens. ergo prius naturaliter est homo
+          gra<lb ed="#N" n="62" break="no"/>tus quam contritus: sed esse gratificatum sequitur peccati expulsionem:
+          <lb ed="#N" n="63"/>ergo et contritio que puenit ab anima gratificata.
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e166">
+          ⁋ Item contritio est
+          mo<lb ed="#N" n="64" break="no"/>tus meritorius. sed omnis motus meritorius procedit a
+          radice<lb ed="#N" n="65" break="no"/>mundata. ergo cum radix mundetur per peccati expulsionem: patet quod
+          <lb ed="#N" n="66"/>expulsio peccati precedit contritionem.
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e175">
+          ⁋ Item contritio est opss bonum
+          <lb ed="#N" n="67"/>sed opst bonum precedit habitus bonus. ergo prius anima naturaliter
+          ha<lb ed="#N" n="68" break="no"/>bilitatur quam conteratur: sed im possibile est animam intelligere habilem
+          <lb ed="#N" n="69"/>ad bonum nisi expulsa culpa: ergo etc.
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e184">
+          ⁋ Responsio. quod aliquorum
+          <lb ed="#N" n="70"/>opinio fuit. quod rrmissio culpe antecederet contritionem. et quod
+          remis<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>sio culpe inquantum est vnum de illis que concurrunt ad iustificationem
+          <lb ed="#N" n="72"/>impii: non dicitur quantum ad ablationem macule: sced ad remissionem
+          <lb ed="#N" n="73"/>pene vel sequelem ablationem: sed hec opinio minus recta vidtur
+          <lb ed="#N" n="74"/>quia contritio necessaria est in ipsius gratie infusione. vnde natura precedit
+          <lb ed="#N" n="75"/>peccati expulsionem. Unde aliter dicunt quidam. Contritio potest dici
+          <lb ed="#N" n="76"/>ipse motus instantaneus doloris gratia informatus. primo
+          purga<lb ed="#N" n="77" break="no"/>tiuus culpe qui respicit peccatum inquantum est peccatum: et est etiam respectu
+          <lb ed="#N" n="78"/>omnium inquantum sunt dei offensiua. Uel potest contritio dici actus
+          <lb ed="#N" n="79"/>successiuus discurrens per peccata singula. Primo modo deccta
+          <lb ed="#N" n="80"/>contritio precedit remissionem culpe natura non tempore. quia tempore sil
+          <lb ed="#N" n="81"/>sunt infusio gratie et motus libro. ar. et contritio et peccati remissio. sub
+          <lb ed="#N" n="82"/>ordine tamen causalitatis vel nature. inquantum autem contritio est actus
+          <lb ed="#N" n="83"/>successiuus sequitur peccati remissionem. Et licet hec distinctio
+          <lb ed="#N" n="84"/>competat huic materie et secundum veritatem sic sumitur contritio
+          du<lb ed="#N" n="85" break="no"/>pliciter: quia ex ipsa non respondetur ad obiecta. Aliter dicendum scilicet quod
+          <lb ed="#N" n="86"/>contritio primo modo dicta in vna consideratione precedit: in alia
+          <lb ed="#N" n="87"/>sequitur. Ad huius euidentiam nota. quod anima detestando peccatum
+          <lb ed="#N" n="88"/>disponit se ad gratiam suscipiendam. gratia vero adueniens in animam
+          <lb ed="#N" n="89"/>quia illa detestatio erat quasi dispositio media ad gratiam in
+          <lb ed="#N" n="90"/>troducendam per naturam: prius respicit illam detestationem per illam
+          <lb ed="#N" n="91"/>culpam delendam. et ita ex respectu gratie ad illam detestationem est
+          <lb ed="#N" n="92"/>contritio: ex respectu gratie ad culpam est remissio culpe. et ideo
+          con<lb ed="#N" n="93" break="no"/>tritio per naturam precedit expulsionem culpe. Et ponitur ad hoc
+          <lb ed="#N" n="94"/>exemplum tale. Intelligatur aer obtenebratus ex presentia nubium
+          <lb ed="#N" n="95"/>nec nubes ille expelli posunt quin obtenebrent nisi per motum
+          ae<lb ed="#N" n="96" break="no"/>ris et luminis irradiationem. Ad hoc enim quod aer recipiat
+          priman<lb ed="#N" n="97" break="no"/>illuminationem: om simul cum solis irradiatione concurrere ventum
+          <lb ed="#N" n="98"/>et post ad perfectam restitutionem luminis oporteret adhuc
+          ven<lb ed="#N" n="99" break="no"/>tum sequi qui nubes expelleret: per hunc modum potest intelligi de
+          <lb ed="#N" n="100"/>contritione et infusione gratie. ita tamen quod causalitas actiua ex ista
+          <lb ed="#N" n="101"/>parte attribuenda est irradiationi solis: similiter ex alia ipsi infusioni
+          <lb ed="#N" n="102"/>gratie.
+        </p>
+        <p xml:id="v78d89-adnlh6-d1e260">
+          ⁋ Ad illud ergo quod obiicitur in contrarium. quod motus contritionis est
+          <lb ed="#N" n="103"/>gratia informatus et ita a subiecto informato. et quod est
+          meritori<lb ed="#N" n="104" break="no"/>us et ita procedit a radice munda. et quod est actus bonus et ita
+          proce<lb ed="#N" n="105" break="no"/>dit ab habitu bono etc. dicendum quod actus informari potest a gratia
+          <lb ed="#N" n="106"/>dupliciter. Uno modo secundum quod gratia ipsum motum secundum substantiam
+          <lb ed="#N" n="107"/>motus producit in esse. mouendo libro art. ad bonum. et tunc verum
+          <lb ed="#N" n="108"/>est quod anime gratificatio et mundatio et habilitatio ad bonum
+          <lb ed="#N" n="109"/>talem actum precedit. Alio modo actus informatur a gratia non
+          produ<lb ed="#N" n="110" break="no"/>cente ipsum sed adueniente ipsi anime. vt quando libro arbtro. est in actu
+          consono<lb ed="#N" n="111" break="no"/>gratie. tunc etiam adueniens libro arbtro. in actu simil vrumque tempore informat
+          <lb ed="#N" n="112"/>scilicet potentiam et actum. prius tamen natura actum quam potentiam sicut
+          dispo<lb ed="#N" n="113" break="no"/>sitionem intermediam. et de tali non est verum quod sequatur mundati
+          <lb ed="#N" n="114"/>onem vel informationem. immo precedit et ordinatur ad remissionen
+          <lb ed="#N" n="115"/>culpe quod quidem non facit aliquis actus a gratia eductus
+          <lb ed="#N" n="116"/>prout dicitur gratu faciens. Nam etiam ille actus quo anima se disponit est
+          <lb ed="#N" n="117"/>a gratia secundum quod gratia dicit aliquid gratisdatum. quia libro. art
+          <lb ed="#N" n="118"/>hi. non se disponit ad gratiam gratum facientem sine aliquo
+          <lb ed="#N" n="119"/>gratisdato. et sic patent tria obiecta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

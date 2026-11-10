@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 55, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 55, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="374"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ab2o7p"><!-- q55m3 -->
+        <head xml:id="v78d89-ab2o7p-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ab2o7p-Hd1e103" type="question-title">De subiecto poenitentiae quo ad vires animae</head>
+        <p xml:id="v78d89-ab2o7p-d1e106">
+          <lb ed="#N" n="37"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-ab2o7p-d1e111">
+          <lb ed="#N" n="38"/>COnsequenter queritur de subiecto penitentie
+          <lb ed="#N" n="39"/>scilicet in qua vi anime sit penitentia virtus.
+          Ce<lb ed="#N" n="40" break="no"/>primo queritur vtrum sit in vna vel in pluribus
+        </p>
+        <p xml:id="v78d89-ab2o7p-d1e120">
+          <lb ed="#N" n="41"/>Secundo dato quod in vna que est illa.
+        </p>
+        <div xml:id="v78d89-ab2o7p-Dd1e126">
+          <head xml:id="v78d89-ab2o7p-Hd1e128">Articulus 1</head>
+          <p xml:id="v78d89-ab2o7p-d1e130">
+            <lb ed="#N" n="42"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e135">
+            <lb ed="#N" n="43"/>CIrca primum proceditur sic. et videtur quod sit in
+            plu<lb ed="#N" n="44" break="no"/>ribus siue in qualibet. In alia et alia vi. est
+            vir<lb ed="#N" n="45" break="no"/>tus castitatis et virtus fortitudinis. quia hec in
+            <lb ed="#N" n="46"/>irascibili: illa in concupiscibili. Sed vt dicit phus. Qui
+            <lb ed="#N" n="47"/>sustinet pericula et eo ipso gaudet fortis est. qui autem trista
+            <lb ed="#N" n="48"/>tur timidus. Similiter qui remouetur a voluptatibus
+            cor<lb ed="#N" n="49" break="no"/>poralibus et hoc ipso gaudet: castus est. qui autem tristatur:
+            <lb ed="#N" n="50"/>incontinens. Ex his videtur. quod eiusdem est virtutis
+            gaudi<lb ed="#N" n="51" break="no"/>um de bono suo et tristicia de eius opposito. igitur cum hoc
+            <lb ed="#N" n="52"/>sit generalem in singulis virtutibus. virtutes autem diuerse
+            di<lb ed="#N" n="53" break="no"/>uersarum sunt virium anime: in diuersis viribus anime.
+            immo<lb ed="#N" n="54" break="no"/>in singulis in quibus sunt ipse virtutes: est ipsa tristicia de
+            op<lb ed="#N" n="55" break="no"/>positis. huiusmodi autem tristicia est virtutis penitentie: igitur
+            vir<lb ed="#N" n="56" break="no"/>tus penitentie est in singulis viribus anime.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e168">
+            ⁋ Item Isa.
+            <lb ed="#N" n="57"/>xvi. Uenter meus ad moab quasi cithara sonabit. Interly.
+            <lb ed="#N" n="58"/>venter sensus meus conuersus ad moab penitentem quasi
+            ci<lb ed="#N" n="59" break="no"/>thara sonabit plangendo luctum. Et dicit ibi glo. Sicut
+            ci<lb ed="#N" n="60" break="no"/>thara sonitum compositum non emittit si vna corda rupta fuerit:
+            <lb ed="#N" n="61"/>sic spiritualis venter prophe si vna virtutum corda defuerit dulces
+            <lb ed="#N" n="62"/>melodias non resonabit. Secundum hoc patet quod ex hoc quod
+            ali<lb ed="#N" n="63" break="no"/>quis resonet luctum melodie plangendo peccata aliorum
+            <lb ed="#N" n="64"/>quia ibi loquitur textus et glo. de planctu compassionis pro peccatis
+            <lb ed="#N" n="65"/>aliorum: necesse est in hoc planctu concurrere omnes virtutes
+            <lb ed="#N" n="66"/>multo fortius vt videtur debent concurrere in planctu
+            proprio<lb ed="#N" n="67" break="no"/>rum peccatorum. sed constat quod non requiritur concursus virtutum
+            <lb ed="#N" n="68"/>nisi illarum que sunt in illis viribus in quibus est huiusmodi
+            plan<lb ed="#N" n="69" break="no"/>ctus: igitur cum virtutes sint in singulis viribus. et
+            plan<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>etus iste similiter erit. sed iste planctus est virtutis peniten
+            <lb ed="#N" n="71"/>tie: igitur virtus penitentie est in omnibus viribus.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e204">
+            ⁋ Item vt
+            <lb ed="#N" n="72"/>vult phous per obiecta cognoscuntur actus et per actus potenue.
+            <lb ed="#N" n="73"/>Unde secundum distinctionem actuum: est distinguere de poteniiis. sed
+            <lb ed="#N" n="74"/>penitentie tria sunt opera. ieiunium. oratio. largitio elemosine
+            <lb ed="#N" n="75"/>immo hec sunt opera vnius partis penitentie quia satisiacu
+            <lb ed="#N" n="76"/>onis: ieiunium autem quo punitur peccator et quo vindicatur
+            <lb ed="#N" n="77"/>delectatio peccati. vt videtur est in irascibili: cuius est
+            surge<lb ed="#N" n="78" break="no"/>re in vindictam et punitionem. Oratio est ipsius rationalis quia
+            <lb ed="#N" n="79"/>oratio est ascensio intellectus ad deum vt dicit Damas.
+            Ee<lb ed="#N" n="80" break="no"/>mosine largitio que est opus pietatis et misericordie: est
+            <lb ed="#N" n="81"/>ipisius concupiscibilis. hec autem opera eliciuntur ab his
+            <lb ed="#N" n="82"/>tribus viribus mediante penitentia: igitur penitentia
+            de<lb ed="#N" n="83" break="no"/>terminat sibi has tres vires in quibus est. igitur non dice
+            <lb ed="#N" n="84"/>da est esse in vna vi sed in pluribus.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e236">
+            ⁋ Item quecumque sunt
+            <lb ed="#N" n="85"/>talia quorum vnum est destructiuum alterius communicant in
+            ma<lb ed="#N" n="86" break="no"/>teria siue in subiecto in quo sunt. Ex hoc enim est destructio
+            <lb ed="#N" n="87"/>vnius per alterum: quodlibet inest eidem cui alterum
+            in<lb ed="#N" n="88" break="no"/>fuit. igitur cum vicium non determinat sibi vnam vim tantum i
+            <lb ed="#N" n="89"/>qua est sed et omni (omnes enim vires sunt subiecta viciorum
+            <lb ed="#N" n="90"/>igitur cum penitentia proprie sit virtus destructiua peccato
+            <lb ed="#N" n="91"/>rum: erit similiter in omni vi.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e254">
+            ⁋ Item perfecta iusticia dus
+            <lb ed="#N" n="92"/>requirit. ordinationem in bonum: et declinationem a malo. Dedi
+            <lb ed="#N" n="93"/>natio a malo est per penitentiam: quia penitentia est commissa
+            se<lb ed="#N" n="94" break="no"/>re et iterum flenda non comittere. ordinatio ad bonum est per
+            <lb ed="#N" n="95"/>aliquas virtutes. sed minor est conuenientia malorum quod
+            bo<lb ed="#N" n="96" break="no"/>norum: bonum enim est indiuisibile. malum multifarium. Pe
+            <lb ed="#N" n="97"/>terea. virtutum est conexio et vnitas non autem viciorum. Si igitux
+            <lb ed="#N" n="98"/>virtutes requirunt multas vires in quibus habeant esse e
+            <lb ed="#N" n="99"/>cut prudentia in rationali: temporantia in concupiscibili:
+            font<lb ed="#N" n="100" break="no"/>tudo in irascibili. igitur multo fortius et vicia requirunt dv:
+            <lb ed="#N" n="101"/>res in quibus sunt. sed virtus tollens vicia vel peccata hae
+            <lb ed="#N" n="102"/>bet esse in vi in qua est peccatum quod per eam tollitur: igitur
+            cu<lb ed="#N" n="103" break="no"/>virtute penitentie tolluntur omnia peccata: virtus
+            penitenti<lb ed="#N" n="104" break="no"/>habet esse in omni vi.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e285">
+            ⁋ Contra. penitentia virtus est
+            habi<lb ed="#N" n="105" break="no"/>tus quidam discretus et singularis inquantum consideratur vt ensa
+            <lb ed="#N" n="106"/>in illo penitente vel illo. quod autem talem est non potelt essei
+            sul<lb ed="#N" n="107" break="no"/>stantiis diuersis: igitur si est in hac vi perticulasi vt insubie
+            <lb ed="#N" n="108"/>cto: non potest esse in alia. quia si hoc: vel sequeretur quod idem
+            acv<lb ed="#N" n="109" break="no"/>esset in diuersis subiectis simul et semel: vel quod
+            transserreise<lb ed="#N" n="110" break="no"/>a subiecto in subiectum. quorum vtrumque est impossibile. vc
+            <lb ed="#N" n="111"/>enim dicit Boetius. Accidentia sunt indignantis nature.
+            <lb ed="#N" n="112"/>perimi possunt: permutari autem nequaque.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e305">
+            ⁋ Item differt
+            habe<lb ed="#N" n="113" break="no"/>re penitentiam et fructum penitentie. vnde Hugo. Si doles vr
+            <lb ed="#N" n="114"/>improbas malum quod fecisti: penitentiam habes.
+            Circumscri<lb ed="#N" n="115" break="no"/>pto igitur fructu penitentie siue actu fructus: dolere et
+            ipro<lb ed="#N" n="116" break="no"/>bare malum commissum dicit actum penitentie: sed dolere de
+            pec<lb ed="#N" n="117" break="no"/>cato isto vel illo cum hec diuersitas sit naturalis: non ponet
+            <lb ed="#N" n="118"/>aliquam differentiam propter quam necesse est dolorem sic
+            diuersifi<lb ed="#N" n="119" break="no"/>catum esse in diuersis viribus. igitur propter hanc diuersitatem
+            <lb ed="#N" n="120"/>naturalem tantum: non ponetur actus penitentie esse in diuersis
+            vi<lb ed="#N" n="121" break="no"/>ribus neque habitus esse in diuersis. ergo penitentia nonest
+            <lb ed="#N" n="122"/>in pluribus viribus vt in subiecto.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e329">
+            ⁋ Quod concedimus.
+            </p>
+          <p xml:id="v78d89-ab2o7p-d1e331">
+            ⁋Ad
+            ob<lb ed="#N" n="123" break="no"/>iecta vero contra hec infra respondebitur.
+          </p>
+        </div>
+        <div xml:id="v78d89-ab2o7p-Dd1e337">
+          <head xml:id="v78d89-ab2o7p-Hd1e339">Articulus 2</head>
+          <p xml:id="v78d89-ab2o7p-d1e341">
+            <lb ed="#N" n="124"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e346">
+            <lb ed="#N" n="125"/>SUpposito quod hec sit in vi vna. Consequenter
+            que<lb ed="#N" n="126" break="no"/>ritur que sit illa. quod in accidentali. videtur sic.
+            Op<lb ed="#N" n="127" break="no"/>posita nata sunt fieri circa idem. sed tristicia et
+            <lb ed="#N" n="128"/>leticinam siue delectatio sunt contraria: igitur erunt in eodem vt
+            <lb ed="#N" n="129"/>in subiecto. sed leticia siue delectatio est in concupiscibili:
+            <lb ed="#N" n="130"/>igitur tristicia in eadem. sed si tristicia et leticia
+            simplic<lb ed="#N" n="131" break="no"/>ter sunt in eadem vi et tristicia de peccato et leticia de
+            contra<lb ed="#N" n="132" break="no"/>rio erunt in eadem. sed tristicia de peccato est penitentia: igitur
+            <lb ed="#N" n="133"/>etc.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e368">
+            ⁋ Item cuius est delectari ex presentia delectabilis eiusde
+            <lb ed="#N" n="134"/>est tristari de presentia oppositi. sed concupiscibilis est delecta
+            <lb ed="#N" n="135"/>ri de presentia boni gratuiti: igitur eius est tristari de presentia
+            con<lb ed="#N" n="136" break="no"/>trarii scilicet peccati.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e377">
+            ⁋ Item delectari de bono inquantum bonunen.
+            <lb ed="#N" n="137"/>est proprie virtutis caritatis: igitur tristari de malo inquantum
+            <lb ed="#N" n="138"/>malum est erit eiusdem. quia vt dicit Boetius. virtus sese
+            di<lb ed="#N" n="139" break="no"/>ligit aspernaturque contrarium. sed tristari de malo est
+            peniten<pb ed="#N" n="375"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tie virtutis. igitur est in eodem genere potentie in quo est
+            cari<lb ed="#N" n="2" break="no"/>tas.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e394">
+            ⁋ Item in eadem vi est dilectio boni et odium mali. sed
+            di<lb ed="#N" n="3" break="no"/>lectio boni est in concupiscibili. igitur et odium mali. Sed. iiii.
+            <lb ed="#N" n="4"/>libo. sentntim. xiiii. di. dicitur. Illa vera est penitentia que peccatum
+            abo<lb ed="#N" n="5" break="no"/>let. quod illa sola facit que scelus corrigit. Illa vero scelus
+            cor<lb ed="#N" n="6" break="no"/>rigit que odium commissi criminis et committendi cum desiderio
+            <lb ed="#N" n="7"/>satisfaciendi affert.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e407">
+            ⁋ Item Augustinus. peccatum est ita voluntarium
+            <lb ed="#N" n="8"/>quod si non esset voluntarium non esset peccatum. sed eidem vi habent
+            in<lb ed="#N" n="9" break="no"/>esse contraria. igitur et virtus est in voluntate. igitur et penitentia
+            cum<lb ed="#N" n="10" break="no"/>sit virtus. igitur si voluntas est ipsius concupiscibilis sine ipsa.
+            <lb ed="#N" n="11"/>igitur etc.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e418">
+            ⁋ Item videtur quod sit in sola concupiscibili sic. In
+            natu<lb ed="#N" n="12" break="no"/>ralibus ita est. quod ea virtute qua aliquid mouetur in vnum
+            op<lb ed="#N" n="13" break="no"/>positorum secundum differentiam situs: declinat a reliquo. verbi. grgio. ea
+            <lb ed="#N" n="14"/>virtute qua mouetur leue sursum: illa eadem declinat ad
+            de<lb ed="#N" n="15" break="no"/>orsum. igitur a simili in spiritualibus. ea virtute qua quis monetur
+            <lb ed="#N" n="16"/>in bonum: illa eadem declinat a malo. sed in concupiscibili
+            in<lb ed="#N" n="17" break="no"/>formata mouetur aliquis in bonum. igitur illa eadem informata
+            <lb ed="#N" n="18"/>declinabit a malo. igitur vterque habitus et quo mouetur in
+            bo<lb ed="#N" n="19" break="no"/>num et quo declinatur a malo: est in concupiscibili. igitur si
+            vir<lb ed="#N" n="20" break="no"/>tute penitentie solummodo declinatur a malo: penitentia solum erit in
+            <lb ed="#N" n="21"/>concupiscibili. similiter et illa si mouetur in bonum.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e442">
+            ⁋ Contra. tres
+            <lb ed="#N" n="22"/>sunt motiue. rationalis. concupiscibilis. irascibilis. sed
+            consen<lb ed="#N" n="23" break="no"/>sus vis rationalis sufficit ad peccatum. igitur potest esse peccatum
+            <lb ed="#N" n="24"/>et non in concupiscibili. igitur et penitentia. igitur non semper est penitentia in
+            <lb ed="#N" n="25"/>concupiscibili.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e453">
+            ⁋ Quod autem sit in irascibili videtur: quia
+            appe<lb ed="#N" n="26" break="no"/>titus vindicte est in irascibili. sed hoc est virtutis penitentie vt
+            di<lb ed="#N" n="27" break="no"/>cit Augustinus. in libro de penitentia. quia penitentia est quedam dolentis
+            vin<lb ed="#N" n="28" break="no"/>dicta: puniens in se quod dolet commisisse. igitur penitentia est in irascibi
+            <lb ed="#N" n="29"/>li.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e464">
+            ⁋ Item Sacrificate sacrificium iusticie. Glo. quid iustius
+            <lb ed="#N" n="30"/>quam vt suis quisque peccatis potius quam alienis irascatur. seque
+            <lb ed="#N" n="31"/>puniens per penitentiam et satisfactionem deo offeratur. Ex hoc habe
+            <lb ed="#N" n="32"/>tur. quod a virtute penitentie irascitur sibi penitens et sese punit. sed
+            <lb ed="#N" n="33"/>irasci est vis irascibilis.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e476">
+            ⁋ Item secundum Augustinus. penitere est
+            pe<lb ed="#N" n="34" break="no"/>nam tenere. sed vis que penam tenet et sustinet est
+            irascibi<lb ed="#N" n="35" break="no"/>lis.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e483">
+            ⁋ Item penitentia virtus non solum respicit culpam
+            inquam<lb ed="#N" n="36" break="no"/>tum culpam: sed vt est in subiecto scilicet homine. qui offendit vt
+            <lb ed="#N" n="37"/>puniatur et per punitionem fiat emenda. et hec duo habentur
+            <lb ed="#N" n="38"/>in. iiii. sententim. vbi dicitur. quod penitentia dicitur a puniendo. et quod per
+            peni<lb ed="#N" n="39" break="no"/>tentiam mala plangimus cum emendationis proposito. sed vis
+            <lb ed="#N" n="40"/>cuius est punire est irascibilis. ergo etc.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e496">
+            ⁋ Quod autem sit in
+            rati<lb ed="#N" n="41" break="no"/>onali videtur. Ro. viii. Spiritus postulat pro nobis. Siritus
+            <lb ed="#N" n="42"/>autem ille appellatur synderesis a Hiero. qui semper
+            remur<lb ed="#N" n="43" break="no"/>murat contra malum. sed gemere est motus penitentie. ergo motus
+            pe<lb ed="#N" n="44" break="no"/>nitentie est in illo spiritu id est synderesi. igitur penitentia que
+            habi<lb ed="#N" n="45" break="no"/>tus illius motus est in synderesi: est in rationali vi. igitur etc.
+            <lb ed="#N" n="46"/>hac eadem ratione videtur quod sit in synderesi.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e512">
+            ⁋ Icem psalmus.
+            <lb ed="#N" n="47"/>Spera in domino quoniam adhuc confitebor illi. Glo id est de
+            pecca<lb ed="#N" n="48" break="no"/>tis agam penitentiam. Et vt habetur in glo. ibi: Quare tristis
+            <lb ed="#N" n="49"/>es anima mea. ratio confortat animam sensualem. Ex his vide
+            <lb ed="#N" n="50"/>tur quod penitentia est in rationali: ex quo ratio consulando
+            sensua<lb ed="#N" n="51" break="no"/>litatem dicit se facturam penitentiam.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e525">
+            ⁋ Responsio. Circa hoc diuer
+            <lb ed="#N" n="52"/>si diuersa sentiunt. Quidam enim ponebant hanc questionen
+            <lb ed="#N" n="53"/>nullam esse. dicentes quod quelibet virtus est in qualibet
+            vi<lb ed="#N" n="54" break="no"/>anime. cum hoc ponentes quod potentie anime sunt vna essentia: sed
+            <lb ed="#N" n="55"/>diuerse relatione ad opera diuersa. preterea. ponunt omnes virtu
+            <lb ed="#N" n="56"/>tes in vna anima esse vnum et idem: sed diuerse dicuntur secundum
+            opera<lb ed="#N" n="57" break="no"/>diuersa. Sed hec positio duo falsa ponit. vnum est quod
+            poten<lb ed="#N" n="58" break="no"/>tie anime sunt eadem essentia. aliud quod omnes virtutes sunt ide
+            <lb ed="#N" n="59"/>habitus distincti tantum ex relatione ad opera diuersa. Et quia
+            <lb ed="#N" n="60"/>hec opinio est rationi dissona: diffinitioni phoorum et docto
+            <lb ed="#N" n="61"/>rum sacre scripture contraria: et fundamenti sacre scriptue
+            <lb ed="#N" n="62"/>pro magna parte subuersiua: merito est reprobanda. De
+            <lb ed="#N" n="63"/>his autem alibi est inquirendum.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e554">
+            ⁋ Alii ponebant quod
+            peniten<lb ed="#N" n="64" break="no"/>tia circuit omnes vires: quia omnia peccata expellit et omnia
+            <lb ed="#N" n="65"/>deflet. et quoniam ad fletum perfectum concurrit motus omnium
+            vi<lb ed="#N" n="66" break="no"/>rium: volebant quod penitentia in omnibus viribus esset sicut iusti
+            <lb ed="#N" n="67"/>cia generalis. Et hoc nituntur confirmare per glo. super illud:
+            <lb ed="#N" n="68"/>Uenter meus ad moab etc. Ysa. xvi. Sed hec opinio est
+            <lb ed="#N" n="69"/>omnino improbabilis. quia cum penitentia sit vnus habitus
+            <lb ed="#N" n="70"/>necesse est quod determinet sibi vnum subiectum. In hoc autem
+            <lb ed="#N" n="71"/>decipiuntur quod actum proprium et specialem penitentie non
+            consi<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>derant. qui non omnis: sed alicuius virtutis specialis. Preterea.
+            <lb ed="#N" n="73"/>hoc decipit eos. quod penitentia ab omnibus virtutibus imparatur.
+            <lb ed="#N" n="74"/>vnde est quod ad luctum penitentie omnes virtutes concurrunt
+            con<lb ed="#N" n="75" break="no"/>nexe.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e585">
+            ⁋ Alii ponebant quod est in rationali motiua. quia cum
+            <lb ed="#N" n="76"/>actus iusticie qui est reddere vnicuique quod suum est. proprie
+            <lb ed="#N" n="77"/>sit ipsius rationis. quia iste actus est iudicialis. et ratio est
+            <lb ed="#N" n="78"/>iudex in regno anime: videtur eis quod iusticia est in
+            rationali<lb ed="#N" n="79" break="no"/>vt est iudex. sicut prudentia est in eo quod est vt dux siue
+            con<lb ed="#N" n="80" break="no"/>siliarius. et quoniam ratio vt iudex imparat toti anime. hinc est: quod
+            <lb ed="#N" n="81"/>iusticia cardinalis dicitur omnes vires anime circuisse. et hinc
+            <lb ed="#N" n="82"/>est quod continet habitus virtutum qui videntur ad affectionem
+            <lb ed="#N" n="83"/>pertinere sicut obedientiam et penitentiam. et hinc est quod penitentia
+            <lb ed="#N" n="84"/>est in vna vi: tamen multas videtur circuire. et ideo in
+            rati<lb ed="#N" n="85" break="no"/>onali est vt est regitiua irascibilis et concupiscibilis. vt
+            mo<lb ed="#N" n="86" break="no"/>ueat concupiscibilem ad gemendum pro culpa: et irascibilem
+            <lb ed="#N" n="87"/>ad puniendum ipsam animam pro eadem. Hec autem positio non
+            <lb ed="#N" n="88"/>videtur vera: quia vis rationalis non est ratio que imparat toti
+            <lb ed="#N" n="89"/>anime: neque que regnat in regno eius. Preterea. rationalis moti
+            <lb ed="#N" n="90"/>ua mouet vim inferiorem non concupiscibilem et irascibilem
+            <lb ed="#N" n="91"/>que vna cum ipsa condiuidit vim motiuam et motam. sed
+            <lb ed="#N" n="92"/>libro arbti. mouet illas tres. et ille mote mouent vires
+            inferio<lb ed="#N" n="93" break="no"/>res que sunt mote tantum.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e627">
+            ⁋ Aliter ergo videtur dicendum. Ad illorum
+            <lb ed="#N" n="94"/>ergo euidentiam que tacta sunt non. quod motiue anime rationalis
+            <lb ed="#N" n="95"/>diuisio est in voluntatem naturalem et libro arbtro. voluntas enim
+            <lb ed="#N" n="96"/>diuiditur in voluntatem naturalem que est respectu bonorum
+            <lb ed="#N" n="97"/>naturalium: que non possumus non appetere. sicut sunt esse
+            <lb ed="#N" n="98"/>viuere et intelligere. et voluntatem rationalem que est respectu
+            <lb ed="#N" n="99"/>bonorum non naturalium: que possumus velle et non velle. que
+            <lb ed="#N" n="100"/>sunt in nobis finis et eorum que sunt ad finem. Rationalis secundum
+            <lb ed="#N" n="101"/>quod motiua est cognitiua boni et discretiua operabilium. Uis
+            <lb ed="#N" n="102"/>enim rationalis diuiditur in cognitiuam que est cognitiua
+            ve<lb ed="#N" n="103" break="no"/>ri et contemplatiua entium: et in motiuam que est cognitiua
+            <lb ed="#N" n="104"/>boni et discretiua operabilium. vnde Damas. Raonale hoc
+            con<lb ed="#N" n="105" break="no"/>templatiuum: hoc est actiuum. contemplatiuum est quod excogitat
+            <lb ed="#N" n="106"/>vt habent entia. actiuum est consiliatiuum quod determinat in
+            <lb ed="#N" n="107"/>actibus rectam rationem. Uoluntas igitur rationalis et ratio
+            <lb ed="#N" n="108"/>vt est cognitiua boni et discretiua operabilium: concurrunt
+            <lb ed="#N" n="109"/>in ipso libro arbtio. vnde Damas. coniugate sunt cognoscitiue
+            vir<lb ed="#N" n="110" break="no"/>tutes et vitales in eodem. et vocat vitales motiuas. vnde
+            di<lb ed="#N" n="111" break="no"/>cit libro. arbtro appetit: libro. art. vult: libro arbto. inquirit: libr. arbto. scrutatur:
+            <lb ed="#N" n="112"/>lidbro arbtro. impetum facit: libro arbt. agit. Dicitur autem appetere et venie
+            <lb ed="#N" n="113"/>quantum ad voluntatem. Inquirere et scrutari quantum ad rationem
+            <lb ed="#N" n="114"/>discretiuam. Impetere et agere quantum ad executionem
+            volun<lb ed="#N" n="115" break="no"/>tatis siue voliti et iudicati. Dicendum igitur quod in illa vi
+            mo<lb ed="#N" n="116" break="no"/>tiua in qua commniugate sunt ratio discretiua et voluntas id est in
+            <lb ed="#N" n="117"/>libro ar. est virtus penitentia. hec est enim prima motiuarum imparantis
+            <lb ed="#N" n="118"/>non imparata sicut vult Cris. Synderesis autem etsi
+            insti<lb ed="#N" n="119" break="no"/>gat ad bonum et remurmurat contra malum: non dicitur esse de
+            <lb ed="#N" n="120"/>numero motiuarum imparantium: quia instigatio eius non est
+            <lb ed="#N" n="121"/>imperium. non enim habet effectum semper sua instigatio.
+            <lb ed="#N" n="122"/>Dicendum est igitur. quod in libro arbtro est virtus penitentie sicut et
+            <lb ed="#N" n="123"/>alie virtutes. Si enim ponantur virtutes esse in
+            imparan<lb ed="#N" n="124" break="no"/>tibus et imparatis scilicet rationali concupiscibili irascibili:
+            di<lb ed="#N" n="125" break="no"/>co sicut in subiecto sequitur necessario quod non est prima
+            ex<lb ed="#N" n="126" break="no"/>peditio potentiarum a virtute gratuita: nec prima virtus
+            <lb ed="#N" n="127"/>mouendi meritorie: sed potius a natura. quia ex quo
+            he<lb ed="#N" n="128" break="no"/>inferiores scilicet rationalis concupiscibilis irascibilis
+            im<lb ed="#N" n="129" break="no"/>parate mouentur: si in ipsis essent virtutes vt in substantiis
+            <lb ed="#N" n="130"/>propriis et primis virtus gratuita ageret imparata a natura
+            <lb ed="#N" n="131"/>et non ageret non imparata. Preterea lidbro. arbtro. est facultas
+            ratio<lb ed="#N" n="132" break="no"/>nis et voluntatis qua bonum eligitur gratia assistente etc.
+            <lb ed="#N" n="133"/>hec autem assistentia est per modum assistentie qua perfectio
+            <lb ed="#N" n="134"/>sistit in perfectibili. et tunc est in illo sicut in subiecto. Non
+            <lb ed="#N" n="135"/>est enim rationi consonum. quod vis inferior etiam adiuta
+            gra<lb ed="#N" n="136" break="no"/>tia erigeret vim superiorem in actum: cum nullum habeat
+            <lb ed="#N" n="137"/>in illud imperium nec inclinationem sed econuerso. propter hoc
+            <lb ed="#N" n="138"/>ponenda est virtus simpliciter et quelibet in primo
+            moti<lb ed="#N" n="139" break="no"/>uo vt in subiecto. bene tamen ponende sunt virtutes in
+            vi<lb ed="#N" n="140" break="no"/>ribus imparatis sicut motiua in motis.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e731">
+            ⁋ Ad hoc quod obii
+            <lb ed="#N" n="141"/>citur. quod leticia et tristicia sunt in concupiscibili. sed
+            tristari<lb ed="#N" n="142" break="no"/>est virtutis penitentie etc. Dicenndu quod non sequitr. quia hac
+            ra<pb ed="#N" n="376"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tione posset concludi quod penitentia est in omni alia vi vel
+            poten<lb ed="#N" n="2" break="no"/>tia. quia vnaqueque vel gaudet habitui sui boni et tristatur
+            <lb ed="#N" n="3"/>de carentia. sed sequeretur si diceretur tristari siue tristicia est
+            <lb ed="#N" n="4"/>in concupiscibili vt in prima motiua. Igitur si tristari siue
+            <lb ed="#N" n="5"/>tristicia est virtutis penitentie: penitentia est in eadem. sed prima falsa
+            <lb ed="#N" n="6"/>est.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e753">
+            ⁋ Ad aliud quod obiicitur. quod delectari de bono inquantum
+            bo<lb ed="#N" n="7" break="no"/>num est: et tristari de malo inquantum malum est. est solius
+            <lb ed="#N" n="8"/>caritatis. Dicendum quod etsi hoc sit verum: non tamen est
+            <lb ed="#N" n="9"/>solius caritatis delectari de hoc bono et tristari de eius
+            ope<lb ed="#N" n="10" break="no"/>posito: sed singularum virtutum. vnaqueque enim virtus
+            conde<lb ed="#N" n="11" break="no"/>lectatur bono suo et tristatur de eius opposito.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e766">
+            ⁋ Ad illud
+            <lb ed="#N" n="12"/>quod obiicitur. quod in eadem vi est dilectio boni et odium
+            ma<lb ed="#N" n="13" break="no"/>libro. et dilectio boni est in concupiscibili etc. iam patet
+            respo<lb ed="#N" n="14" break="no"/>sio. quia si dilectio boni est odium mali sicut in
+            concupi<lb ed="#N" n="15" break="no"/>scibili: non sunt in ea vt in primo motiuo.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e777">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="16"/>obiicitur. quod peccatum est ita voluntarium etc. Dicendum quod
+            <lb ed="#N" n="17"/>hoc intelligitur secundum quod voluntarium dicitur a voluntate que
+            <lb ed="#N" n="18"/>est libro arbt. non que est concupiscibilis motiue et mote.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e787">
+            ⁋ Ad
+            <lb ed="#N" n="19"/>hoc quod obiicitur. quod ea virtute qua aliquid mouetur in vnum
+            <lb ed="#N" n="20"/>oppositorum secundum differentiam situs et declinat a reliquo.
+            <lb ed="#N" n="21"/>et ita vterque habitus scilicet quo quis mouetur in bonum et
+            <lb ed="#N" n="22"/>quo declinat a malo erit in concupiscibili. Dicendum vt
+            <lb ed="#N" n="23"/>supra quia concupiscibilis mouetur imparata a libo. aro. vnde
+            <lb ed="#N" n="24"/>in libro ar. sunt habitus proprie et vt in subiecto proprio
+            expedi<lb ed="#N" n="25" break="no"/>entes et ordinantes actus virium inferiorum scilicet rationa
+            <lb ed="#N" n="26"/>bilis concupiscibilis et irascibilis.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e807">
+            ⁋ Ad ea quibus videtur
+            <lb ed="#N" n="27"/>ostendi quod est in vi irascibili: quia in vi irascibili est
+            appe<lb ed="#N" n="28" break="no"/>titus vindicte. Dicendum quod appetitus vindicte pro qua
+            <lb ed="#N" n="29"/>est actus virtutis est libo. art. siue voluntatis libro arbtro. et est vis
+            <lb ed="#N" n="30"/>irascibilis. voluntatis libro. arbi. est vt primo mouentis ad
+            <lb ed="#N" n="31"/>actum vindicationis: vis irascibilis est vt exequentis actum
+            <lb ed="#N" n="32"/>vindicationis. vnde libro arbt. mouet vim irascibilem ad actum
+            <lb ed="#N" n="33"/>vindicte. Irascibilis surgit in actum ipsum. virtus autem
+            <lb ed="#N" n="34"/>proprie est primi mouentis siue imparantis: non exequentis
+            <lb ed="#N" n="35"/>quod imparatum est.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e829">
+            ⁋ Ex hoc patet responsio ad aliud quod
+            <lb ed="#N" n="36"/>arguitur ex glo. illa: quid iustius quam vt suis quisque
+            irasca<lb ed="#N" n="37" break="no"/>tur peccatis etc. quia lib. arbtro. est irasci vt primo mouentis.
+            <lb ed="#N" n="38"/>quia eius est vt decernentis et volentis irascibilem moue
+            <lb ed="#N" n="39"/>ri contra mala et insurgere in vindictam malorum.
+            Irasci<lb ed="#N" n="40" break="no"/>bilis est exequi actum decretum et volitum a libro. artrio.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e842">
+            ⁋ Ad
+            <lb ed="#N" n="41"/>aliud quod obiicitur. quod penam tenere et sustinere penam prout
+            <lb ed="#N" n="42"/>est actus penitentie virtutis: est ipsius penitentis. non tantum
+            <lb ed="#N" n="43"/>alicuius vis anime: immo potius ipsius persone.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e851">
+            ⁋ Ad
+            il<lb ed="#N" n="44" break="no"/>lud quod obiicitur. quod vis irascibilis est punire etc. patet
+            re<lb ed="#N" n="45" break="no"/>sposnnsio. quia vt punitio est actus virtutis est libro. arbto. etc. vt
+            <lb ed="#N" n="46"/>tactum est.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e860">
+            ⁋ Ad ea que videntur ostendere quod sit in
+            ratio<lb ed="#N" n="47" break="no"/>nali sic est respondendum. Ad hoc quod primo obiicitur. quod spiritus
+            <lb ed="#N" n="48"/>postulat pro nobis gemitibus inenarrabilibus Rom. viii.
+            <lb ed="#N" n="49"/>Spuns ille dicitur synderesis que est in vi rationali.
+            Di<lb ed="#N" n="50" break="no"/>cendum quod synderesis non est in vi rationali secundum quod vis
+            ra<lb ed="#N" n="51" break="no"/>tionalis diuiditur contra concupiscibilem et irascibilem: quia
+            <lb ed="#N" n="52"/>est quoddam motiuum vt natura: quoddam vt ratio.
+            Mo<lb ed="#N" n="53" break="no"/>tiuum vt natura triplex est. Unum est supremum quod est
+            mo<lb ed="#N" n="54" break="no"/>tiuum in bonum superius. scilicet in bonum honestum: quod
+            sim<lb ed="#N" n="55" break="no"/>pliciter sua vi allicit quod est synderesis. que est naturaliter
+            <lb ed="#N" n="56"/>inclinans animam rationalem ad bonum honestum:
+            remur<lb ed="#N" n="57" break="no"/>murans et retrahens ab inhonesto. Aliud est motiuum
+            in<lb ed="#N" n="58" break="no"/>fimum quod est motiuum in bonum infimum siue in bonum quod
+            <lb ed="#N" n="59"/>est delectabile carni scilicet sensualitas. Aliud est motiuum
+            me<lb ed="#N" n="60" break="no"/>dium quod est motiuum in bonum medium quod est bonum
+            <lb ed="#N" n="61"/>naturale. scilicet esse viuere intelligere et huiusmodi. quod dicitur
+            <lb ed="#N" n="62"/>naturalis voluntas. Unde synderesis non est in vi
+            rati<lb ed="#N" n="63" break="no"/>onali: nisi extenso nomine vis rationalis dicatur generale
+            <lb ed="#N" n="64"/>motiuum rationalem in anima. Preterea. non dicitur spiritus id est
+            syn<lb ed="#N" n="65" break="no"/>deresis postulare pro nobis gemitibus inenarrabilibus:
+            <lb ed="#N" n="66"/>quia eliciat actum gemendi. sed quia remurmurando
+            con<lb ed="#N" n="67" break="no"/>tra malum facit auctores mali gemere. non dico facit
+            im<lb ed="#N" n="68" break="no"/>parando: sed quasi monendo et inducendo.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e911">
+            ⁋ Ad hoc quod
+            <lb ed="#N" n="69"/>habetur ex glo. Spera in domino quoniam adhuc
+            confi<lb ed="#N" n="70" break="no"/>tebor illi. qua dicitur quod ratio confortans sensualitatem:
+            <lb ed="#N" n="71"/>dicit agam penitentiam de peccatis. Dicendum quod ratio
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>non dicitur ibi rationalis imparata a libero arbi. sed ratio
+            <lb ed="#N" n="73"/>que est econtrario diuisa contra vim irrationalem. Unde nota. quod
+            <lb ed="#N" n="74"/>ratio multipliter sumitur. Quandoque sumitur communiter prout est act
+            <lb ed="#N" n="75"/>vel vis totius rationalis motiue et cognitiue. secundum quod dicit vod
+            <lb ed="#N" n="76"/>gusti. quod ratio est illa vis anime qua differimus a brutis. et sic
+            <lb ed="#N" n="77"/>sumitur prout diuiditur contra vegetabilem et sensibilem. Alio m
+            <lb ed="#N" n="78"/>sumitur strictius. scilicet prout est vis vel actus rationalis scilicet
+            mo<lb ed="#N" n="79" break="no"/>tiue et cognitiue. et sic dicitur ratio vis cognitiua veri et
+            fa<lb ed="#N" n="80" break="no"/>si: boni et mali ad hoc vt fiat vel non fiat. et sic est ratio pars
+            <lb ed="#N" n="81"/>libro arbtro. et sic comprhendit rationem prout est concernens rationem superio
+            <lb ed="#N" n="82"/>rem et inferiorem. Tercio modo sumitur prout est vis vel actus
+            <lb ed="#N" n="83"/>superioris rationalis scilicet cognitiue et motiue. prout dicit
+            <lb ed="#N" n="84"/>Augustinus. libro de spiritu et anima. quod anima tenet suum rationale
+            <lb ed="#N" n="85"/>sine carne: quia ratio que est vis superioris rationalis et
+            qua<lb ed="#N" n="86" break="no"/>tum ad opera: est coniuncta carni. Quarto modo sumitur
+            <lb ed="#N" n="87"/>vt est vis rationalis cognitiue tantum. secundum quod dicitur cognit
+            <lb ed="#N" n="88"/>ua veri et falsi: boni et mali. non vt fiat vel non fiat. et sie
+            <lb ed="#N" n="89"/>est pure cognitiua. Quinto modo sumitur vt est pure
+            moti<lb ed="#N" n="90" break="no"/>ua. et sic est actus vel vis rationalis: inquantum rationalis
+            <lb ed="#N" n="91"/>diuiditur contra concupiscibilem et irascibilem. Sexto n
+            <lb ed="#N" n="92"/>sumitur prout est pars inferior rationis cognitiua tantum. secundum
+            <lb ed="#N" n="93"/>quod diuiditur contra intellectum et intelligentiam. prout
+            <lb ed="#N" n="94"/>dicitur quod anima ratione percipit naturas corporum:
+            in<lb ed="#N" n="95" break="no"/>tellectu spiritum creatum: intelligentia deum. Et sic
+            su<lb ed="#N" n="96" break="no"/>mitur a Boetio de consolatione. vbi diuidit anime vires
+            <lb ed="#N" n="97"/>in sensum imaginationem rationem et intelligentiam
+            <lb ed="#N" n="98"/>primo modo sumitur adhuc strictius: quantum ad actum
+            spi<lb ed="#N" n="99" break="no"/>cialem qui est discernere. prout diuiditur contra
+            ingeniu<lb ed="#N" n="100" break="no"/>memoriam. prout ingenium dicitur inuestigare ignota:
+            re<lb ed="#N" n="101" break="no"/>tio discernere inuenta: memoria seruare iudicata.
+            Su<lb ed="#N" n="102" break="no"/>mitur igitur in glo. supradicta secundo modo. scilcet
+            proue<lb ed="#N" n="103" break="no"/>ratio est ipsius liberi ar. cuius proprie est facere
+            peniu<lb ed="#N" n="104" break="no"/>tiam. Uel potest sumi ratio in glo. illa prout diuiditur
+            con<lb ed="#N" n="105" break="no"/>tra concupiscibilem et irascibilem. et sic dicit se facturam
+            pe<lb ed="#N" n="106" break="no"/>nitentiam id est executuram actum penitentie imperio superi
+            <lb ed="#N" n="107"/>oris. nec ideo sequitur quod penitentia sit in illa vt ex dictis
+            <lb ed="#N" n="108"/>patet.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e1002">
+            ⁋ Ad ea que inducuntur ad ostendendum quod
+            peniten<lb ed="#N" n="109" break="no"/>tia virtus est in singulis viribus. quia vniuscuiusque est
+            gau<lb ed="#N" n="110" break="no"/>dium de suo bono et tristicia de eius opposito. et illud
+            gau<lb ed="#N" n="111" break="no"/>dium et eius oppositum sunt in eadem vi in qua est virtus etc
+            <lb ed="#N" n="112"/>Dicendum quod omnes virtutes sunt in vna vi per se loquendo.
+            <lb ed="#N" n="113"/>scilicet in voluntate siue in libro arbtro. vnde dico sicut dicit magister de
+            <lb ed="#N" n="114"/>fide. quod in affectu substantia fidei inuenitur: in cognitione
+            <lb ed="#N" n="115"/>materia. vnde per se loquendo fides virtus est in affectiua
+            si<lb ed="#N" n="116" break="no"/>ue in voluntate. secundum quod in illa est materiale est in cognitiua.
+            <lb ed="#N" n="117"/>Similiter dico de aliis quod vel omnino sunt in affectiua siue in
+            <lb ed="#N" n="118"/>voluntate sicut caritas et spes et iusticia et alie huiusmodi. Ue
+            <lb ed="#N" n="119"/>quantum ad substantiam siue formaliter loquendo: vt
+            pruden<lb ed="#N" n="120" break="no"/>tia fortitudo tempantia dico inquatum gratuite sant quanam
+            <lb ed="#N" n="121"/>tamen ad aliquid quod est materialem in illis viribus. eo enim
+            <lb ed="#N" n="122"/>sunt gratuite qo actus illaa sunt coluntss e
+            rae<lb ed="#N" n="123" break="no"/>tionale siue discretiua informata gratia. non ratione qua
+            <lb ed="#N" n="124"/>actus illiciti sunt a propriis viribus.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e1039">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="125" break="no"/>citur de glo. super illud. Uenter meus ad moab. que dicit.
+            <lb ed="#N" n="126"/>quod si vna corda rupta fuerit: non resonabit dulcem melodiam.
+            <lb ed="#N" n="127"/>Dicendum quod ex hoc non probatur quod penitentia est virtus
+            <lb ed="#N" n="128"/>generalis neque in omni vi anime: sed solum quod penitentia non
+            <lb ed="#N" n="129"/>est accepta deo nisi cum illa sit concursus omnium aliarum
+            vir<lb ed="#N" n="130" break="no"/>tutum. vt enim tactum est: hanc generalitatem habet
+            pe<lb ed="#N" n="131" break="no"/>nitentia. quia omnes virtutes comitantur illam in
+            electi<lb ed="#N" n="132" break="no"/>one suorum actuum et etiam ex connexione virtutum.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e1059">
+            ⁋ Ad
+            <lb ed="#N" n="133"/>aliud quod obiicitur. quod secundum numerum actuum penitentie que
+            <lb ed="#N" n="134"/>sunt ieiunium. oratio. elemosine largitio. debet esse in tribus
+            <lb ed="#N" n="135"/>viribus. scilicet irascibili rationali et concupiscibili. Dicendum
+            <lb ed="#N" n="136"/>quod isti actus non sunt primi actus penitentie: sed actus
+            conse<lb ed="#N" n="137" break="no"/>quentes. vnde iuxta congruitatem illorum inquantum
+            refe<lb ed="#N" n="138" break="no"/>rantur ad potentias: non debet penitentia assignari esse
+            <lb ed="#N" n="139"/>in vna vi vel in pluribus. preter. si essent actus immediati
+            <lb ed="#N" n="140"/>penes illos non assignaretur virtus penitentie esse in
+            di<lb ed="#N" n="141" break="no"/>uersis viribus: sed in lib. arbto. siue in voluntate
+            rationali<lb ed="#N" n="142" break="no"/>informata gratia.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e1083">
+            ⁋ Ad id quod obiicitur. quod vicium vel
+            <pb ed="#N" n="377"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>peccatum non determinat sibi vim vnam in qua est vt in
+            sub<lb ed="#N" n="2" break="no"/>iecto: sed multas. igitur cum penitentia sit destructiua omnium viconrum etc.
+            <lb ed="#N" n="3"/>Dicendum quod prima est falsa: quia omne peccatum est in volum
+            <lb ed="#N" n="4"/>tate rationali siue discretiua siue libro. arbto. vnde generaliter dico quod
+            <lb ed="#N" n="5"/>omnis virtus gratuita est in libro. arbt. siue voluntate libro. arbtro similiter et
+            <lb ed="#N" n="6"/>peccatum.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e1103">
+            ⁋ Ad illud quod obiicitur. quod virtutes requirunt multas
+            vi<lb ed="#N" n="7" break="no"/>res ad hoc quod sint. sicut prudentia rationalem: temparantia
+            con<lb ed="#N" n="8" break="no"/>cupiscibilem. igitur etc. Dicendum quod ad esse virtutum ratione que
+            <lb ed="#N" n="9"/>virtutes sunt formaliter dicende non requiruntur vires multe
+            <lb ed="#N" n="10"/>immo sufficit libr. arbto. tamen quantum ad esse materiale et inquantum
+            <lb ed="#N" n="11"/>referuntur ad actus exteriores requiruntur multe. sicut fides
+            <lb ed="#N" n="12"/>ratione qua est cognitio quedam requirit cognitiuam. ratione
+            <lb ed="#N" n="13"/>autem qua importat voluntarium assensum respectu
+            prime<lb ed="#N" n="14" break="no"/>veritatis requirit affectiuam. Similiter est de prudentia et
+            <lb ed="#N" n="15"/>aliis.
+          </p>
+          <p xml:id="v78d89-ab2o7p-d1e1126">
+            ⁋ Ea que ostendunt quod penitentia est in vna vi vel potentia
+            <lb ed="#N" n="16"/>concedo. vnde concedo quod est vnicus habitus singularis. vnde
+            <lb ed="#N" n="17"/>non potest esse nisi in vna vi. Preterea. actus primus penitentie non
+            <lb ed="#N" n="18"/>variatur formaliter sed materialiter tantum. secundum quod penitentia dicit aliquen
+            <lb ed="#N" n="19"/>actum penitentie. vt dolendi in isto siue circa istud et illud. Unde
+            <lb ed="#N" n="20"/>dico quod penitentia prout est virtus siue habitus anime vnicus
+            <lb ed="#N" n="21"/>est et vnicam debet habere vim in qua sit. Aliquibus forte
+            <lb ed="#N" n="22"/>videbitur hec sententia minus conueniens. quia communiter a
+            <lb ed="#N" n="23"/>doctoribus et patribus nostris solent tres virtutes theolo
+            <lb ed="#N" n="24"/>gice secundum has tres vires distingui et illis aptari. que
+            distin<lb ed="#N" n="25" break="no"/>ctio et aptatio minime congruit eis: nisi in viribus ipsis essent
+            <lb ed="#N" n="26"/>tanquam in substantiis. et ita hec sententia a sententiis patrum
+            vi<lb ed="#N" n="27" break="no"/>detur dissentire. Preterea. quia videtur aliquibus quod virtutes sunt in
+            <lb ed="#N" n="28"/>viribus anime egredientibus in actum imparatum: non in ipsis
+            imparan<lb ed="#N" n="29" break="no"/>tibus. hoc autem non videtur: cum magis conueniat quod anima
+            infor<lb ed="#N" n="30" break="no"/>metur et perficiatur informatione et perfectione vis nobilioris quam
+            <lb ed="#N" n="31"/>minus nobilis. et etiam magis sunt iste apte informationi
+            <lb ed="#N" n="32"/>virtutum quam ille. Preterea. magis conuenit quod inferiores
+            moti<lb ed="#N" n="33" break="no"/>ue rectificentur et informentur virtutibus que sunt in
+            superiori<lb ed="#N" n="34" break="no"/>bus motiuis quam econuerso. Nec si sententia predecessorum
+            <lb ed="#N" n="35"/>fuit quod inferiores motiue scilicet rationalis concupiscibilis et
+            irasci<lb ed="#N" n="36" break="no"/>bilis informentur et rectificentur tam virtutibus theologicis quam
+            <lb ed="#N" n="37"/>cardinalibus: non propter hoc necesse est quod sint in illis sicut
+            <lb ed="#N" n="38"/>in substantiis: sed potius in superiori motiuo scilicet libro arbtro. a quibus
+            <lb ed="#N" n="39"/>in parte eliciunt actus suos. liberum arbto. enim imparando
+            inferi<lb ed="#N" n="40" break="no"/>oribus virtutibus mouet illas ad executionem voliti et
+            iu<lb ed="#N" n="41" break="no"/>dicati. vnde dicitur impetere et agere. Preterea. si virtutes
+            re<lb ed="#N" n="42" break="no"/>etificantes motiuas egredientes in actum essent semper in illis
+            <lb ed="#N" n="43"/>vt in substantiis: tunc oportet quod essent quandoque in sensuali
+            mo<lb ed="#N" n="44" break="no"/>tiuo vt in subiecto.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

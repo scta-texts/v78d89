@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 93, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 93, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="592"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-agmynt"><!-- q93m1 -->
+        <head xml:id="v78d89-agmynt-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-agmynt-Hd1e103" type="question-title">Utrum aliquis debeat orare prose</head>
+        <p xml:id="v78d89-agmynt-d1e106">
+          <lb ed="#N" n="49"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-agmynt-d1e111">
+          <lb ed="#N" n="50"/>CIrca primum queritur sic ad partem affirmatiuam.
+          <lb ed="#N" n="51"/>Maxime expedit vnicuique potedus proprie
+          mise<lb ed="#N" n="52" break="no"/>rie releuare. hoc autem fit per oratiom: igitur
+          maxime<lb ed="#N" n="53" break="no"/>competit vnicuique pro se orare.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e122">
+          ⁋ Preterea. si oratio est
+          <lb ed="#N" n="54"/>magne vtilitatis. et nullus debet esse vtilior alii quam sibipsi. vt enim
+          <lb ed="#N" n="55"/>persuadet Bern. in libro de consideratione. In acquisitione salutis.
+          ne<lb ed="#N" n="56" break="no"/>mo vtilior et sollicitior vnico matris sue: idtur maxime debet
+          vnus<lb ed="#N" n="57" break="no"/>quisque orare pro se.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e134">
+          ⁋ Preter. pro eo orandum est cui bonum est optandum. sed
+          <lb ed="#N" n="58"/>vnicuique est bonum optandum. igitur debet orare pro se.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e139">
+          ⁋ Contra. sicut dicitur
+          <lb ed="#N" n="59"/>Ioh. ix. deus peccatores non audit et vnusquisque debet se reputare pec
+          <lb ed="#N" n="60"/>catorem: ergo vnusquisque debet se reputare a deo se inexaudibilem. sed
+          <lb ed="#N" n="61"/>nullus qui credit se inexaudibilem a deo. debet deum orare pro se: igitur
+          <lb ed="#N" n="62"/>etc.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e150">
+          ⁋ Pretera. pro illo solummodo est orandum. qui est caritate
+          diligen<lb ed="#N" n="63" break="no"/>dus vnde pro ils demmus solummodo orare qui sunt nobis caritate
+          con<lb ed="#N" n="64" break="no"/>iucti. sed vt dicit greg. Nemo ad semetipsum proprie caritaten
+          <lb ed="#N" n="65"/>dicitur habere. ergo etc.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e159">
+          ⁋ Preterea. deus a nullo est orandus nisi ab amico
+          <lb ed="#N" n="66"/>quia si quis aliquem oraret qui eius inimicus esset: magis prouocaret
+          <lb ed="#N" n="67"/>eum ad indignationem et iram quam inclinaret ad sue voluntatis
+          <lb ed="#N" n="68"/>adimpletionem. ergo nullus debet deum orare nisi presumat se esse
+          ami<lb ed="#N" n="69" break="no"/>cum dei. sed nemo scit an amore vel odio dignus sit Ecc. ix.
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>ergo etc.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e175">
+          ⁋ Responsio. ad hoc pot dici quod homo potest et conueniens
+          <lb ed="#N" n="71"/>est orare pro se etiam si sit in peccato.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e180">
+          ⁋ Ad illud quod primo obiicitur
+          <lb ed="#N" n="72"/>quod deus peccatores non audit. dicendum quod vt supra tactum est. hoc
+          intelli<lb ed="#N" n="73" break="no"/>gendum est de peccatoribus habentibus voluntatem perseuerandi in peccatis
+          su<lb ed="#N" n="74" break="no"/>is id est impenitentibus. peccatores autem penitentes exaudit. multi
+          <lb ed="#N" n="75"/>autem ex quodam timore reputant se peccatores qui non habet peccatum in
+          <lb ed="#N" n="76"/>conscientia. vel si habent: penitent et proponunt de illo satisfacere.
+          il<lb ed="#N" n="77" break="no"/>los exaudit deus.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e197">
+          ⁋ Ad illud quod obiicitur quod nullus diligatur a se
+          <lb ed="#N" n="78"/>dilectione caritatis etc. dicendum quod non est verum. immo ordo
+          ca<lb ed="#N" n="79" break="no"/>ritatis requirit. quod homo primo diligat deum. secundo seipsum. ter
+          <lb ed="#N" n="80"/>cio proximum.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e206">
+          ⁋ Ad illud verbum Greg. quod nemo ad seipsum dicit.
+          <lb ed="#N" n="81"/>habere caritatem. potest dici quod facienda est vis in hoc quod dicit proprie. vnde
+          <lb ed="#N" n="82"/>dicit. Nemo proprie ad seipsum dicitur habere caritatem. Caritas
+          <lb ed="#N" n="83"/>enim siue amor caritatis est copula amantis et amati. est enim
+          <lb ed="#N" n="84"/>vinculum perfectionis Col. iii. vnde caritas vnitiua est
+          copulati<lb ed="#N" n="85" break="no"/>ua et ordinatia. sed proprie loquendo neque vnius est copulatio:
+          ne<lb ed="#N" n="86" break="no"/>que vnio: neque ordinatio. immo hec ploralitatem requirunt. vnde
+          <lb ed="#N" n="87"/>greg. non negat quin homo diligat se ex caritate. sed dicit quod non habet
+          <lb ed="#N" n="88"/>ad se caritatem. Cum enim caritas sit voluntas formata. scilicet
+          <lb ed="#N" n="89"/>gratia. et intelligendum est de voluntate habitu vel actu. illa
+          vo<lb ed="#N" n="90" break="no"/>suntate vult aliquis sibi bonum quod est idem quod diligere.
+        </p>
+        <p xml:id="v78d89-agmynt-d1e230">
+          ⁋ Ad
+          il<lb ed="#N" n="91" break="no"/>lud quod obiicitur. quod nemo scit. ant amore vel odio dignus
+          sit<lb ed="#N" n="92" break="no"/>potest dici quod hoc est verum scientia certitudinis: potest tamen ex signis qui
+          <lb ed="#N" n="93"/>husdam hoc probabiliter presumere. et hoc sufficit ad orandum et
+          <lb ed="#N" n="94"/>pro se et pro alio. Uel potest dici quod nemo scit etc. hoc verum est de.
+          <lb ed="#N" n="95"/>amore predestinationis siue finali.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

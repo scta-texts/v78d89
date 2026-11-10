@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 74, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 74, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="471"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adt6c4"><!-- q74m4 -->
+        <head xml:id="v78d89-adt6c4-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-adt6c4-Hd1e103" type="question-title">Utrum attritio potest fie ri contritio</head>
+        <p xml:id="v78d89-adt6c4-d1e106">
+          <lb ed="#N" n="49"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e111">
+          <lb ed="#N" n="50"/>OOnsequenter queritur. vtrum attritio potest fie
+          <lb ed="#N" n="51"/>ri contritio. Quod sic: videtur per hoc. quod fides
+          infor<lb ed="#N" n="52" break="no"/>mis est principium attritionis: fides formata est
+          <lb ed="#N" n="53"/>principium contritionis. sed fides informis potest
+          <lb ed="#N" n="54"/>fieri formata vt communiter supponitur: ergo etc.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e124">
+          ⁋ Item dolor
+          attri<lb ed="#N" n="55" break="no"/>tionis bonus est et donum dei quantum est de ipso. ergo non tolliter
+          adueni<lb ed="#N" n="56" break="no"/>ente gratia. Sed adueniente gratia gratificatur et informatur
+          ipsa<lb ed="#N" n="57" break="no"/>anima in se et quantum ad potentias eius. et etiam actus qui eliciuntur
+          <lb ed="#N" n="58"/>ex ipsis: ergo dolor attritionis ex quo non expellitur gratificatur: et ita
+          <lb ed="#N" n="59"/>fit contritio.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e138">
+          ⁋ Item dispositio et habitus differunt per facile
+          mo<lb ed="#N" n="60" break="no"/>bile et difficile. Iste autem proprietates facile difficile circa idem
+          <lb ed="#N" n="61"/>simul non se compatiuntur. nec hoc impedit quin dispositio fiat
+          ha<lb ed="#N" n="62" break="no"/>bitus: a simili videtur in proposito. quod licet aliqua sint annexa at
+          <lb ed="#N" n="63"/>tritioni et contritioni que non se compatiuntur circa idem: hoc non
+          im<lb ed="#N" n="64" break="no"/>pedit quin attritio quantum ad actum siue substantiam doloris possit
+          <lb ed="#N" n="65"/>fieri contritio.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e154">
+          ⁋ Item tam attritio quam contritio fit ex timore. sed
+          <lb ed="#N" n="66"/>attritio ex seruili: contritio ex initiali. sed possibile est quod
+          ti<lb ed="#N" n="67" break="no"/>mor initialis tollatur a contritione per timorem finalem siue
+          reuere<lb ed="#N" n="68" break="no"/>tie: similiter videtur quod possibilem est quod timor seruilis tollatur ab
+          at<lb ed="#N" n="69" break="no"/>tritione. et si hoc: tunc dolor attritionis posset informari
+          gra<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>tia. et ita dolor contritionis: et attritio fieret contritio. Con
+          <lb ed="#N" n="71"/>tra. attritio eo quod est in mortali et opus mortuum et ita non
+          <lb ed="#N" n="72"/>potest reuiuiscere per gratiam. et ita cum contritio sit opus
+          <lb ed="#N" n="73"/>gratuitum et ita viuum: attritio non potest fieri contritio.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e175">
+          <lb ed="#N" n="74"/>⁋ Item attritio est ex timore seruili: contritio est ex timo
+          <lb ed="#N" n="75"/>re initiali qui habet respectum ad primum. sed timorem
+          ser<lb ed="#N" n="76" break="no"/>uilem impossibile est fieri initialem: cum vnus sit a
+          spiri<lb ed="#N" n="77" break="no"/>tu seruitutis. alicuius autem a spiritu adoptionis: ergo attritio non
+          <lb ed="#N" n="78"/>potest fieri contritio.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e188">
+          ⁋ Item Hiero. super. xxviii. Math. iudas
+          <lb ed="#N" n="79"/>penitentia ductus etc. Nihil profuit iude egisse penitentiam per quam
+          <lb ed="#N" n="80"/>scelus corrigere non potuit: ergo illa attritio non potuit per
+          <lb ed="#N" n="81"/>uenire vt fieret contritio que corrigit scelus.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e197">
+          ⁋ Responsio.
+          di<lb ed="#N" n="82" break="no"/>cendum quod cum queritur. vtrum attritio potest fieri contritio.
+          <lb ed="#N" n="83"/>istud potest duobus modis intelligi. vel ita quod motus
+          attri<lb ed="#N" n="84" break="no"/>tionis potest informari et ita fieri contritio: vel quod habitus ex quo
+          <lb ed="#N" n="85"/>quis exit in actum attritionis potest informari et fieri
+          con<lb ed="#N" n="86" break="no"/>tritio. Quatum ad primum intellectum non potest: quantum ad
+          se<lb ed="#N" n="87" break="no"/>cundum potest.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e213">
+          ⁋ Ad illud ergo quod primo obiicitur per simile
+          <lb ed="#N" n="88"/>de fide informi que potest fieri formata etc. potest dici. quod hoc
+          sup<lb ed="#N" n="89" break="no"/>posito. quod fides informis potest fieri formata id est habitus fide
+          <lb ed="#N" n="90"/>informis adueniente gratia: non tamen sequitur quod attritio potest
+          fi<lb ed="#N" n="91" break="no"/>eri contritio. habitus enim fidei quia est quoddam permanens
+          <lb ed="#N" n="92"/>et non successiuum. adueniente gratia potest informari: attritio
+          <lb ed="#N" n="93"/>autem que est actus et cuius est esse fieri non in permanentia: non potest
+          <lb ed="#N" n="94"/>informari adueniente gratia. Preterea. attritio et contritio sunt actus
+          <lb ed="#N" n="95"/>specie differentes sicut gratia gratisdata et gratum faciens. contritio
+          <lb ed="#N" n="96"/>enim est a libro arbto. et gratia gratumn faciente quorum vtrique actus totaliter
+          <lb ed="#N" n="97"/>est attribuendus: attritio ex libro arto. et gratia gratisdata. vnde et
+          <lb ed="#N" n="98"/>ratione difcftrie qua actus differt ab habitu. non est simile de at
+          <lb ed="#N" n="99"/>tritione et contritione et de fide informi et formata. Pre. ratione
+          <lb ed="#N" n="100"/>qua ipsi actus differunt specie et materialiter et formaliter
+          lo<lb ed="#N" n="101" break="no"/>quendo: actus iste non potest fieri ille. Actus enim substantialiter
+          <lb ed="#N" n="102"/>transeunt. et etiam illud quo informantur suo modo scilicet gratia
+          <lb ed="#N" n="103"/>gratisdata et gratumfaciens essentialiter differunt. nec
+          vna<lb ed="#N" n="104" break="no"/>potest fieri altera.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e253">
+          ⁋ Ad illud quod obiicitur. quod dolor
+          attritio<lb ed="#N" n="105" break="no"/>nis bonus etc. Dicunt quidam quod si actus attritionis siue
+          <lb ed="#N" n="106"/>dolor non interrumpitur: sed sit vt continuus quoadusque gratia
+          <lb ed="#N" n="107"/>adueniente anima informetur et gratificetur. et tunc attritio fit
+          con<lb ed="#N" n="108" break="no"/>tritio. si interrumpatur nequaquam. Uidetur tamen aliter dicendum. quod
+          si<lb ed="#N" n="109" break="no"/>cut tactum est supraa. huiusmodi actus nunquam est ita continuus vel
+          sim<lb ed="#N" n="110" break="no"/>plex quin habeat partem et partem. nec vna pars potest esse alia. et
+          <lb ed="#N" n="111"/>ita licet bona sit attritio quantum est de se id est de substantia
+          mo<lb ed="#N" n="112" break="no"/>tuo: tamen quia deficit et euanescit in suo progressu. quia non
+          ha<lb ed="#N" n="113" break="no"/>bet esse nisi in fieri: adueniente gratia non informatur neque fit
+          <lb ed="#N" n="114"/>contritio.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e277">
+          ⁋ Ad aliud dicendum. quod non est simile de dispositione
+          <lb ed="#N" n="115"/>et habitu et attritione et contritione. quia licet dispositio sit
+          fa<lb ed="#N" n="116" break="no"/>cile mobilis: tamen eius esse est permanens. vnde continuatione in
+          <lb ed="#N" n="117"/>permanentia radicatur et fit difficile mobilis.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e286">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="118"/>obiicitur. quod possibile est quod ab attritione tollatur illa imperfectio que
+          <lb ed="#N" n="119"/>est ex consideratione pene etc. Dicendum quod vt tactum est. quia
+          <lb ed="#N" n="120"/>motus contritionis deficit semper in suo progressu. posito quod tol
+          <lb ed="#N" n="121"/>leretur illa imperfectio que est ex consideratione pene: non
+          infor<lb ed="#N" n="122" break="no"/>maretur adueniente gratia.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e299">
+          ⁋ Si obiiciatur. quod hac ratione nec
+          <lb ed="#N" n="123"/>motus contritionis informaretur quia deficit in suo
+          progres<lb ed="#N" n="124" break="no"/>su. Dicendum quod informatur ex informatione libro. arbtro. cuius est
+          mo<lb ed="#N" n="125" break="no"/>tus. nec est simile de imperfectione contritionis vel timoris ini
+          <lb ed="#N" n="126"/>tialis qui est ex consideratione pene et de attritionis vel timo
+          <lb ed="#N" n="127"/>ris seruilis: quia ablatio imperfectionis ex vna parte ponit
+          <lb ed="#N" n="128"/>ottritionem extra genus suum scilicet ingratuitorum ex alia non ponit
+          <lb ed="#N" n="129"/>contritionem extra genus sed gratuitorum. Secundum autem quod attritio
+          no<lb ed="#N" n="130" break="no"/>minat habitum vtpote displicentiam peccati radicatam in
+          ani<lb ed="#N" n="131" break="no"/>ma de quo insurgunt motus frequenter. potest dici quod attritio potest
+          <lb ed="#N" n="132"/>fieri contritio. sed distinguendum est. quod attritio sic sumpta est ex
+          <lb ed="#N" n="133"/>fide informi que potest fieri formata sicut et fides. Sed adhuc
+          di<lb ed="#N" n="134" break="no"/>stinguendum est. quia quedam fides informis numquam potest fieri
+          for<lb ed="#N" n="135" break="no"/>mata sicut fides demonum. quia credunt et contremiscunt Iac. ii. hec
+          <lb ed="#N" n="136"/>enim fides declinat tantum ad penam et non potest inclinare libr. artro. ad
+          <lb ed="#N" n="137"/>premium. hec etiam fides est in damnatis. quia inclinat eos tantum in
+          ti<lb ed="#N" n="138" break="no"/>morem qui penalis est eis. Alia est fides informis inclinans ad
+          <lb ed="#N" n="139"/>penam: potest tamen inclinare libro. ar. ad premium eternum. et ista fides
+          ge<lb ed="#N" n="140" break="no"/>nerat attritionem possibilem fieri contrite nem. Unde hec attritio habet
+          <pb ed="#N" n="472"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>possibilitatem vt fiat contritio: alia non.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e347">
+          ⁋ Ad hoc ergo quod obiicitur
+          <lb ed="#N" n="2"/>contra hoc. quod opus mortuum non potest viuificari. dicendum quod est
+          <lb ed="#N" n="3"/>quoddam opus mortuum de se vt est opst peccati: et istud non potest
+          re<lb ed="#N" n="4" break="no"/>uiuiscere. Aliud est ops mortuum ex contagionis perticipatione
+          <lb ed="#N" n="5"/>peccati non ex se: sed potius ex hoc quod est in mortuo. et hoc dupliciter.
+          <lb ed="#N" n="6"/>quia vel semper est cum mortali nec potest esse sine: et sic est de actu
+          <lb ed="#N" n="7"/>attritionis. vel non est necesse quod semper sit cum mortali: et sic est
+          <lb ed="#N" n="8"/>de habitu motus attritionis. primum nunquam viuificatur: secundum quia
+          <lb ed="#N" n="9"/>habet esse in permanentia: habet possibilitatem quod non sit cum
+          mortali<lb ed="#N" n="10" break="no"/>propter quod potest informari: et quantum ad hoc attritio fiet contritio.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e369">
+          <lb ed="#N" n="11"/>⁋ Ad illud quod obiicitur. quod timor seruilis non potest fieri initials
+          <lb ed="#N" n="12"/>etc. dicendum quod secundum Greg. in moralis. ex habitu timoris seruilis
+          <lb ed="#N" n="13"/>retrahitur a peccato timore pene. tamen libenter peccaret si non
+          time<lb ed="#N" n="14" break="no"/>ret. Alio modo ex timore initialis habitu cessat a perpetratione
+          <lb ed="#N" n="15"/>peccati et libenter relinqueret peccatum et satisfaceret de peccato. si
+          do<lb ed="#N" n="16" break="no"/>minus daret illi gratiam. Iste scilicet timor seruilis potest fieri initia
+          <lb ed="#N" n="17"/>lis: sed alius non. quia in eo viuit voluntas peccandi si speraret
+          <lb ed="#N" n="18"/>impunitas: potest tamen disponere ad ipsum.
+        </p>
+        <p xml:id="v78d89-adt6c4-d1e390">
+          ⁋ Ad illud quod obiicitur
+          <lb ed="#N" n="19"/>de penitentia iude. dicendum quod penitentia sua non fuit possibilis ad
+          contritio<lb ed="#N" n="20" break="no"/>nem. quia non habuit respectum ad premium sed ad penam. nec ad
+          <lb ed="#N" n="21"/>dei bonitatem sed ad sui maliciam vnde desperauit. Unde leo
+          pa<lb ed="#N" n="22" break="no"/>pa. Infeliciter extitisti iuda quem non penitentia reuocauit ad
+          <lb ed="#N" n="23"/>dominum: sed desperatio traxit ad laqueum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

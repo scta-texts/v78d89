@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 65, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 65, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="415"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acg48d"><!-- q65m1 -->
+        <head xml:id="v78d89-acg48d-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-acg48d-Hd1e103" type="question-title">Tangetur de poenitentia ante baptismum</head>
+        <p xml:id="v78d89-acg48d-d1e106">
+          <pb ed="#N" n="415"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-acg48d-d1e115">
+          <lb ed="#N" n="2"/>CIrca primum duo queruntur. Primum est
+          <lb ed="#N" n="3"/>vtrum penitendum sit de peccato originali.
+          <lb ed="#N" n="4"/>Secundum vtrum accedens ad baptismum necesse
+        </p>
+        <p xml:id="v78d89-acg48d-d1e124">
+          <lb ed="#N" n="5"/>habet prius penitere de actuali.
+        </p>
+        <div xml:id="v78d89-acg48d-Dd1e130">
+          <head xml:id="v78d89-acg48d-Hd1e132">Articulus 1</head>
+          <p xml:id="v78d89-acg48d-d1e134">
+            <lb ed="#N" n="6"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-acg48d-d1e139">
+            <lb ed="#N" n="7"/>CIrca primum sic ad partem affirmatiuam Augustinus. de
+            cor<lb ed="#N" n="8" break="no"/>reptione et gratia. Corripiatur in singulis quod est
+            <lb ed="#N" n="9"/>omnium. et loquitur de originali. sed correptio male
+            men<lb ed="#N" n="10" break="no"/>tis est penitentia vt habetur supra.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e150">
+            ⁋ Item augustinus. in eodem.
+            Corri<lb ed="#N" n="11" break="no"/>piatur origo damnabilis: vt ex dolore correptionis voluntas
+            re<lb ed="#N" n="12" break="no"/>generationis oriatur. Quid autem est correptio doloris quam
+            peniten<lb ed="#N" n="13" break="no"/>tia. et ita vt prius.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e159">
+            ⁋ Item ab augustinus. habetur in eodem quod habentes
+            <lb ed="#N" n="14"/>originale debent sibi displicere. sed huiusmodi displicentia non est
+            si<lb ed="#N" n="15" break="no"/>ne pena: ergo habentes originale debent penitere scilicet
+            peniten<lb ed="#N" n="16" break="no"/>tia contritionis vel attritionis.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e169">
+            ⁋ Item de eo quo homo iuste
+            ar<lb ed="#N" n="17" break="no"/>guitur ab alio: iuste arguitur a semetipso. Sed augu. dicit in
+            <lb ed="#N" n="18"/>libro. de correptione et gratia. quod peccator pro originali est arguendus
+            <lb ed="#N" n="19"/>ergo peccator debet arguere seipsum. sed homo de culpa arguit
+            <lb ed="#N" n="20"/>seipsun per penitentiam. igitur etc.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e180">
+            ⁋ Item sicut ira per zelum detestatur
+            <lb ed="#N" n="21"/>homo omnem iniusticiam in alio: ita penitentiam omnem iniusticiam
+            <lb ed="#N" n="22"/>in seipso. Sed originale est iniusticia in homine: ergo est
+            de<lb ed="#N" n="23" break="no"/>testanda per penitentiam etc.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e189">
+            ⁋ Item omnis qui vult deo
+            reconcilia<lb ed="#N" n="24" break="no"/>ri. necesse habet detestari omne quod separat ab eo. sed originale
+            <lb ed="#N" n="25"/>separat. ergo etc.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e196">
+            ⁋ Item de peccato de quo iuste punitur a deo debet
+            <lb ed="#N" n="26"/>penitens punire seipsum. sed pro originali iuste punitur homo a deo
+            <lb ed="#N" n="27"/>pena carentie. que est maxima pena: quia maximum damnum.
+            <lb ed="#N" n="28"/>ergo pro eo debet se punire.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e205">
+            ⁋ Contra. potentior est vis
+            rege<lb ed="#N" n="29" break="no"/>nerariua sacramenti quam vis propagatiua hominis corrupti. sed per
+            <lb ed="#N" n="30"/>propagationem sine delectatione voluntaria rationabili transfundi
+            <lb ed="#N" n="31"/>tur originale. ergo ab oppositis immo multo fortius per
+            sacramen<lb ed="#N" n="32" break="no"/>tum sine dolore voluntario rationabili deletur.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e216">
+            ⁋ Item omnis
+            pe<lb ed="#N" n="33" break="no"/>nitentia est respectu voliti. non enim penitet homo de eo quod
+            <lb ed="#N" n="34"/>noluit. sed originale numquam fuit voluntarium: ergo de illo non
+            <lb ed="#N" n="35"/>est necessaria penitentia.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e226">
+            ⁋ Item omnis penitentia est in
+            actu<lb ed="#N" n="36" break="no"/>volente. sed originale est in paruulo et in quo est morbus et
+            re<lb ed="#N" n="37" break="no"/>medium. ergo non oportet ipsum penitere: cum non possit actu
+            <lb ed="#N" n="38"/>velle.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e235">
+            ⁋ Item omnis penitentia est respectu actus proprii.
+            peni<lb ed="#N" n="39" break="no"/>tet enim de eo quod fecit non de alieno. sed originalem est per
+            acrum<lb ed="#N" n="40" break="no"/>alienum: ergo etc.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e242">
+            ⁋ Item baptismus ordinatur contra originale.
+            <lb ed="#N" n="41"/>sed non sunt duo remedia contra idem: ergo penitentia non est
+            re<lb ed="#N" n="42" break="no"/>medium contra originale.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e249">
+            ⁋ Responsio. dicendum quod de originali peccato
+            <lb ed="#N" n="43"/>est loqui dupliciter. comuniter et specialiter. comuniter vt est
+            <lb ed="#N" n="44"/>morbus. et sic ad eius deletionem non requiritur aliquis actus ex parte
+            <lb ed="#N" n="45"/>eius in quo est: vt patet in paruulo. Et est iterum loqui
+            specia<lb ed="#N" n="46" break="no"/>liter quantum ad adultos simplices. qui huiusmodi morbum se
+            habe<lb ed="#N" n="47" break="no"/>re nesciunt. et quantum ad hoc non oportet quod aliquis actus
+            detesta<lb ed="#N" n="48" break="no"/>tionis interueniat. Et est iterum loqui quantum ad adultos discre
+            <lb ed="#N" n="49"/>tiores qui huiusmodi morbum se habere eognoscunt. illis debet
+            displi<lb ed="#N" n="50" break="no"/>cere quod habent peccatum originale: et vniuersaliter omne quod separat
+            <lb ed="#N" n="51"/>a deo. immo vt estimo necesse est quod eis displiceat: ex quo
+            con<lb ed="#N" n="52" break="no"/>stat illis quod illo separantur a deo. et de talibus potest intelligi illud
+            <lb ed="#N" n="53"/>augus. de correptione et gratia. Corripiatur origo damnabilis vt ex
+            <lb ed="#N" n="54"/>dolore etc. nec credo quod correptio illa sit correptio penitentie
+            <lb ed="#N" n="55"/>vt obiectum est que fit per contritionem. confessionem et
+            satisfactio<lb ed="#N" n="56" break="no"/>nem: sed potius reprehensionis qua existens in originali ex
+            <lb ed="#N" n="57"/>citatur ad purgationem baptismalem. secundum illud augus.
+            corri<lb ed="#N" n="58" break="no"/>piatur origo etc. et loquitur augul. in casu. vt quando aliquis
+            <lb ed="#N" n="59"/>negligitur consurgere ad baptiimum vt purgetur ab originali.
+            <lb ed="#N" n="60"/>vult ergo augustinu. vt talis reprehendat se ex tali negligentia. vt ex
+            <lb ed="#N" n="61"/>citatus ex huiusmodi reprehensione accedat ad baptismum.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e293">
+            ⁋ Ex
+            <lb ed="#N" n="62"/>his patet responsio ad primo obiecta. quia nec correptio de que
+            <lb ed="#N" n="63"/>loquitur augus. est correptio penitentie: sed quedam repreheusio
+            <lb ed="#N" n="64"/>qua excitetur ad baptismum. vnde dolor correptionis non est
+            af<lb ed="#N" n="65" break="no"/>flictio penitentie: sed displicentia status proprii ex hoc quod
+            separa<lb ed="#N" n="66" break="no"/>tus est a deo. Prete. nec estimo quod in diffinitione penitentie
+            <lb ed="#N" n="67"/>ponatur correptio sed correctio.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e309">
+            ⁋ Ad hoc quod obiicitur quod
+            <lb ed="#N" n="68"/>huiusmodi displicentia non est sine penitentia. Dicendum quod hoc est
+            fal<lb ed="#N" n="69" break="no"/>sum. est enim sine penitentia sacramentali. immo ad eius purgatio
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>nem non requiritur dolor aliquis afflictiuus. Ratio autem quare non
+            <lb ed="#N" n="71"/>est necessarius dolor siue penitentia est. quod non ex actu nostro
+            commil<lb ed="#N" n="72" break="no"/>sum est. et sic licet in adulto sit talis originalis displicentia
+            <lb ed="#N" n="73"/>non tamen est penitentia: quia penitentia sicut ostensum est. proprie etst
+            re<lb ed="#N" n="74" break="no"/>spectu voliti.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e330">
+            ⁋ Ad illud quod obiicitur. quod peccator est
+            arguen<lb ed="#N" n="75" break="no"/>dus pro originali. Dicendum quod hoc non est ratione contractus ipsius
+            <lb ed="#N" n="76"/>originalis sed ratione more in eodem. Unde arguendus est
+            ne<lb ed="#N" n="77" break="no"/>in ipso velit permanere.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e339">
+            ⁋ Ad illud quod obiicitur. quod
+            peniten<lb ed="#N" n="78" break="no"/>tia detestatur omnem iniusticiam in seipso etc. Dicendum quod hoc
+            de<lb ed="#N" n="79" break="no"/>bet intelligi de iniusticia acta non contracta. similiter est de
+            <lb ed="#N" n="80"/>ira per zelum.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e348">
+            ⁋ Ad illud quod obiicitur. quod homo debet dete
+            <lb ed="#N" n="81"/>stari omne quod separat a deo. Dicendum quod intelligendum est
+            <lb ed="#N" n="82"/>de detestatione displicentie. sed propter huiusmodi detestationem non
+            <lb ed="#N" n="83"/>dicitur quis penitens. non autem intelligendum est de detestatione
+            pe<lb ed="#N" n="84" break="no"/>nitentie nisi sit introductum ex propria voluntate.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e359">
+            ⁋ Ad illud
+            <lb ed="#N" n="85"/>quod obiicitur. quod penitens debet punire se pro eo pro quo iuste
+            pu<lb ed="#N" n="86" break="no"/>nitur a deo. Dicendum quod hoc generaliter intellectum est
+            fal<lb ed="#N" n="87" break="no"/>sum. omnis iuste punitur a domino propter peccata primorum parentum:
+            <lb ed="#N" n="88"/>sed hec est vera. pro omni voluntario commisso pro quo
+            iustepu<lb ed="#N" n="89" break="no"/>nit deus committentem: debet ipse punire se.
+          </p>
+        </div>
+        <div xml:id="v78d89-acg48d-Dd1e373">
+          <head xml:id="v78d89-acg48d-Hd1e375">Articulus 2</head>
+          <p xml:id="v78d89-acg48d-d1e377">
+            <lb ed="#N" n="90"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-acg48d-d1e382">
+            <lb ed="#N" n="91"/>COnsequenter queritur vtrum adultus accedens ad
+            ba<lb ed="#N" n="92" break="no"/>ptismum necesse habeat primum penitere de
+            actuali<lb ed="#N" n="93" break="no"/>quod sic: videtur Act. ii. Penitemini et baptizetur
+            vnus<lb ed="#N" n="94" break="no"/>quisque vestrum. glo. dicturus de baptismate premisit lamentationem
+            <lb ed="#N" n="95"/>vt prius se aqua inflictionis infunderent: et post sacramento
+            ba<lb ed="#N" n="96" break="no"/>ptismatis lauarent.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e398">
+            ⁋ Item Math. iii. Exibant ad illum etc.
+            <lb ed="#N" n="97"/>glo. iam tunc exemplum baptizandis dabatur confitendi peccata et
+            <lb ed="#N" n="98"/>promittendi meliora. ergo si debeat confiteri similiter et
+            conteri<lb ed="#N" n="99" break="no"/>et satisfacere.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e407">
+            ⁋ Item super illud psalmus. In cubilibus vestris
+            compu<lb ed="#N" n="100" break="no"/>gimini. sacrificate sacri. glo. vt extincto veteri homine per
+            pe<lb ed="#N" n="101" break="no"/>nitentiam: sacrificium iusticie secundum regenerationem noui hominis
+            <lb ed="#N" n="102"/>offeratur deo. sed regeneratio noui hominis fit per baptismum:
+            er<lb ed="#N" n="103" break="no"/>go penitentia precedit baptismum. cum extinctio veteris
+            homi<lb ed="#N" n="104" break="no"/>nis ad minus secundum naturam regenerationem noui precedat.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e421">
+            ⁋ Item
+            <lb ed="#N" n="105"/>dominus saluator et beatus Iohes baptista inceperunt predicationem
+            <lb ed="#N" n="106"/>suam a penitentia. sed ab eo debuerunt incipere quod est salutis
+            initi<lb ed="#N" n="107" break="no"/>um. ergo si ita inceperunt patet quod debet homo accipere
+            peniten<lb ed="#N" n="108" break="no"/>tiam.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e432">
+            ⁋ Item prima persona corrupit naturam. sed actuale est
+            <lb ed="#N" n="109"/>corruptio persone et originalem nature. et contra actualem est
+            peni<lb ed="#N" n="110" break="no"/>tentia: ergo preit baptismum.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e439">
+            ⁋ Item paruulus non habet
+            nisi<lb ed="#N" n="111" break="no"/>originalem: sed adultus actualem cum originali. sed qui habet
+            <lb ed="#N" n="112"/>ampliorem morbum debet habere amplius remedium. cum
+            <lb ed="#N" n="113"/>ergo baptismus sit necessarius paruulo: aliquid vltra
+            baptis<lb ed="#N" n="114" break="no"/>mum erit necessarium adulto. sed hoc non est nisi penitentia.
+            <lb ed="#N" n="115"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e452">
+            ⁋ Contra. baptismus est ianua sacramentorum. sed
+            ia<lb ed="#N" n="116" break="no"/>nua est primo ante cuius ingressum non est ingressus ad aliud.
+            <lb ed="#N" n="117"/>ergo ante ipsum nihil debet primitti. ergo etc.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e459">
+            ⁋ Item
+            peniten<lb ed="#N" n="118" break="no"/>tia est secunda tabula post naufragium vt dicit Hiero. et
+            dici<lb ed="#N" n="119" break="no"/>tur secunda respectu prime que est baptismus. ergo non
+            prece<lb ed="#N" n="120" break="no"/>dit illum.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e468">
+            ⁋ Item baptismus omnem culpam delet. Unde
+            <lb ed="#N" n="121"/>augus. ad valentinum. Lauacro regenerationis omnia pec
+            <lb ed="#N" n="122"/>cata hominum mundantur atque sanantur. sed superfluum est
+            <lb ed="#N" n="123"/>est facere per plura quod potest fieri per vnum. ergo ad emun
+            <lb ed="#N" n="124"/>dationem non est penitentia necessaria.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e480">
+            ⁋ Responsio. dicendum
+            <lb ed="#N" n="125"/>quod est loqui de penitentia vt est virtus: et vt est sacramentum.
+            <lb ed="#N" n="126"/>Si loquamur de penitentia vt est virtus. cuius actus est
+            <lb ed="#N" n="127"/>contritio: necesse est quod precedat baptismum in adulto
+            qui<lb ed="#N" n="128" break="no"/>habet actuale peccatum. Nemo enim inchoare potest
+            no<lb ed="#N" n="129" break="no"/>uam vitam: nisi peniteat eum veteris vite. Si autem
+            loqua<lb ed="#N" n="130" break="no"/>mur de penitentia vt est sacramentum. secundum quod homo
+            confi<lb ed="#N" n="131" break="no"/>tetur recipit absolutionem. dico quod non est necesse
+            precede<lb ed="#N" n="132" break="no"/>re sed de congruo potest. Fit enim confessio sacerdoti vt
+            ho<lb ed="#N" n="133" break="no"/>mo erubescat et peccata sua recognoscat. vt de eorum
+            remis<lb ed="#N" n="134" break="no"/>sione deo ingratus non existat. et quamtum ad hoc congruum est
+            <lb ed="#N" n="135"/>sed non oportet neque debet sequi absolutio nec ligatio. quia
+            <lb ed="#N" n="136"/>omnino soluitur in baptismo. ergo penitentia quantum ad contritio
+            <lb ed="#N" n="137"/>nem precedit necessario: quantum ad confessionem de congruo: quantum
+            <lb ed="#N" n="138"/>ad absolutionem et satisfactionem neutro modo. et quia
+            sacramen<lb ed="#N" n="139" break="no"/>tum completum est in absolutione. quia ibi remittitur de
+            pe<pb ed="#N" n="416"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>nitentia debita: ideo dico quod penitentia secundum quod est
+            sacramen<lb ed="#N" n="2" break="no"/>tum ecclesie sequitur: non precedit.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e522">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="3"/>quod lamenta penitentie debent precedere. Dicendum quod illud
+            conce<lb ed="#N" n="4" break="no"/>dendum est. Similiter exemplum dabatur confitendi non quia
+            necessari<lb ed="#N" n="5" break="no"/>um: sed quia congruum.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e531">
+            ⁋ Ad illud quod obiicitur. quod extincto
+            ve<lb ed="#N" n="6" break="no"/>teri homine etc. Dicendum quod non solum est regeneratio noui
+            ho<lb ed="#N" n="7" break="no"/>minis per baptismum sed per penitentiam. hic autem loquitur de
+            rege<lb ed="#N" n="8" break="no"/>neratione per penitentiam. sicut enim per baptismum fit regenera
+            <lb ed="#N" n="9"/>tio noui hominis per amotionem vetustatis peccati originalis
+            <lb ed="#N" n="10"/>sic per penitentiam fit regeneratio noui hominis per amotionem
+            <lb ed="#N" n="11"/>vetustatis peccati actualis.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e547">
+            ⁋ Ad illud quod obiicitur. quod
+            pre<lb ed="#N" n="12" break="no"/>dicatio domini incepit a penitentia. dicendum quod incepit a
+            <lb ed="#N" n="13"/>penitentia virtute: non sacramento.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e554">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="14" break="no"/>citur. quod prior est corruptio persone etc. Dicendum quod verum est
+            <lb ed="#N" n="15"/>in primis parentibus: sed post fuit econuerso. et quia
+            sacramen<lb ed="#N" n="16" break="no"/>ta currunt secundum cursum necessitatis nostre: prius debuit est
+            <lb ed="#N" n="17"/>baptismus.
+          </p>
+          <p xml:id="v78d89-acg48d-d1e565">
+            ⁋ Ad illud quod obiicitur quod amplius remediur
+            <lb ed="#N" n="18"/>debet habere etc. Dicendum quod verum est scilicet contritiomm: sed
+            <lb ed="#N" n="19"/>non oportet quod aliud sacramentum. quia baptismus ad
+            vtrum<lb ed="#N" n="20" break="no"/>que valet. et ideo non requiritur aliquod sacramentum: sed
+            suffi<lb ed="#N" n="21" break="no"/>cit actus mentis per quem se preparet ad effectum baptismi:
+            <lb ed="#N" n="22"/>alioquin accederet fictus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

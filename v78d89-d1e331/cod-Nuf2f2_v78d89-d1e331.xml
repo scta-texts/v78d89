@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="28"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e331"><!-- q5m2 -->
+        <head xml:id="v78d89-d1e331-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-d1e331-Hd1e103" type="question-title">De remedio decimarum et sacrificiorum</head>
+        <p xml:id="v78d89-d1e331-d1e106">
+          <lb ed="#N" n="15"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-d1e331-d1e111">
+          <lb ed="#N" n="16"/>SEcundo queritur que oblatio fuit in
+          remedium<lb ed="#N" n="17" break="no"/>originalis. vt enim dicit hugo sub lege natura
+          <lb ed="#N" n="18"/>li data sunt sacramenta decimationes
+          sacrifi<lb ed="#N" n="19" break="no"/>cia. oblationes. et vt vult hugo decimationes
+          <lb ed="#N" n="20"/>dabantur in remedium originalis. Sed contra greg. Quod apud
+          <lb ed="#N" n="21"/>nos valet aqua baptismi: hoc egit apud veteres vel
+          pro<lb ed="#N" n="22" break="no"/>paruulis sola fides: vel pro maioribus virtus sacrificii: vel
+          pro<lb ed="#N" n="23" break="no"/>his qui ex abrahe stirpe prodiernt misterium circumcisionis.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e131">
+          ⁋ Item
+          <lb ed="#N" n="24"/>poterant ne diuersa secundum quod ex dictis videtur fieri in
+          remedi<lb ed="#N" n="25" break="no"/>um huiusmodi secundum humanam dispositionem.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e139">
+          ⁋ Item quare non est
+          sacra<lb ed="#N" n="26" break="no"/>mentum aliud institutum ex precepto ad remedium originalis in
+          <lb ed="#N" n="27"/>lege nature: sicut in lege scripta et in lege gratie.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e146">
+          ⁋ Item quare
+          <lb ed="#N" n="28"/>in sacramento quod erat in remedium originalis peccati. tunc non
+          fi<lb ed="#N" n="29" break="no"/>ebat aliquid circa personam curandam: sicut in circumcisione et
+          <lb ed="#N" n="30"/>baptismo.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e155">
+          ⁋ Item quare diuersa offerebantur in remedium
+          <lb ed="#N" n="31"/>originalis. sicut decime secundum hug. sacrificia secundum greg. cum tantum
+          <lb ed="#N" n="32"/>vnum habeatur remedium in lege moysi et euangelii.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e162">
+          ⁋ Item cum
+          <lb ed="#N" n="33"/>in remedium originalis fiebant sacrificia secundum greg. et
+          decima<lb ed="#N" n="34" break="no"/>tiones secundum hug. quare non similiter tercium scilicet oblatio.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e169">
+          ⁋
+          Respo<lb ed="#N" n="35" break="no"/>sio et primo ad vltimum quesitum. Quod ante legem sicut ex dictis
+          <lb ed="#N" n="36"/>patet plura offerebantur in remedium originalis. quecumque tamen
+          <lb ed="#N" n="37"/>offerebantur: offerebantur in fide venturi. vnde fiebant oblationes in
+          si<lb ed="#N" n="38" break="no"/>gnum venturi quo debuit fieri reparatio humani generis. hec autem
+          <lb ed="#N" n="39"/>reparatio dispensanda fuit immolatione deo facta in
+          reconciliati<lb ed="#N" n="40" break="no"/>onem humani generis. quod signatum fuit sacramento sacrificiorum.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e185">
+          <lb ed="#N" n="41"/>⁋ Preterea. non fuit dispensanda immolatione siue sacrificio
+          <lb ed="#N" n="42"/>cuiuscumque. sed dei hominis qui fuit hostia sufficiens ad
+          redem<lb ed="#N" n="43" break="no"/>ptionem. quod significatum erat in oblatione decime. Numerus
+          de<lb ed="#N" n="44" break="no"/>narius est numerus perfectionis quo signatur perfectio deo
+          attribuen<lb ed="#N" n="45" break="no"/>da. Unde hug. denarius numerus quoniam perfectus est: signum est bomini
+          <lb ed="#N" n="46"/>tatis et virtutis qui deo tribuitur. Similiter. v. leui. super illud
+          deci<lb ed="#N" n="47" break="no"/>mam partem ephi. glo. ephi est tres mensuras continens. Unde
+          <lb ed="#N" n="48"/>signat trinitatem sicut ibidem dicitur in glo. Ista igitur
+          sacramen<lb ed="#N" n="49" break="no"/>ta quodammodo spetiali dominicam passionem significant. qua se
+          ob<lb ed="#N" n="50" break="no"/>tulit propter nostram reparationem. vna per representationem sufficientie
+          <lb ed="#N" n="51"/>hostie oblate: alia per representationem modi offerendi. Non
+          simi<lb ed="#N" n="52" break="no"/>liter est de sacramento oblationis que indisticte facta nulli
+          spe<lb ed="#N" n="53" break="no"/>ciali proprietate sacramentum redemptionis nostre representat. Iuxta
+          <lb ed="#N" n="54"/>igitur proprietates has conueniens fuit. tam sacramentum
+          sacrifi<lb ed="#N" n="55" break="no"/>ciorum quam oblationis decimarum exerceri in remedium originalis.
+          <lb ed="#N" n="56"/>et hoc vt aperiantur secundum diuersa tempora secundum quod leguntur
+          sacri<lb ed="#N" n="57" break="no"/>ficia fucta scilicet a tempore noe Gen. viii. et decimas offerri a
+          tem<lb ed="#N" n="58" break="no"/>pore abrahe Gen. xv. Uel per decimam signatur. decima
+          dra<lb ed="#N" n="59" break="no"/>gma perdita que inuenta. ix. dragmis est vnienda. Luc. xv.
+          <lb ed="#N" n="60"/>Unde per oblationem christi. signatur decima dragma deo
+          reconcili<lb ed="#N" n="61" break="no"/>anda. per sacrificium filius dei proprio sacrificio hominem
+          recon<lb ed="#N" n="62" break="no"/>cilians. et ita duabus oblationibus signatur. et reconcilians et
+          re<lb ed="#N" n="63" break="no"/>conciliatus.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e238">
+          ⁋ Ad primum dicendum. quod non obtulit vnusquisque in
+          re<lb ed="#N" n="64" break="no"/>medium originalis iuxta sensum suum. nec licuit. sed fiebant
+          <lb ed="#N" n="65"/>huiusmodi secundum instructionem eorum qui viuebant iuxta familiare
+          consi<lb ed="#N" n="66" break="no"/>lium domini. vnde sicut minores fideles erant. licet non habebant
+          no<lb ed="#N" n="67" break="no"/>ticiam fidei distincte: adherentes illis qui habebant sicut hugo
+          <lb ed="#N" n="68"/>dicit. Similiter in huiusmodi oblationibus doctrine illorum
+          adhe<lb ed="#N" n="69" break="no"/>serunt. vt filii adam secundum quod pater docuit illos obtulerunt deo
+          <lb ed="#N" n="70"/>primicias Gen. iiii. Similiter filii noe ad exemplum patris
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>sui. de quo gen. viii. Similiter filii abrahe ad exemplum
+          <lb ed="#N" n="72"/>abrahe. Gene. xv.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e262">
+          ⁋ Ad aliud dicendum. quod in tempore illo propter
+          re<lb ed="#N" n="73" break="no"/>ligionis nouitatem erant homines instruendi vt neophiti. non
+          <lb ed="#N" n="74"/>cohercendi preceptis vt examinati. Unde hugo. deus hominem
+          <lb ed="#N" n="75"/>a principio ad hec exercenda consilio erudiuit. sed precepto non
+          <lb ed="#N" n="76"/>obligauit: donec postea illa venirent in quibus homo precepti
+          <lb ed="#N" n="77"/>capax obedientiam exhibere et preuaricationem cauere addisceret.
+          <lb ed="#N" n="78"/>Item. xiii. exo. ibi cum emisisset pharao poplum dicit glo. si a
+          <lb ed="#N" n="79"/>principio amaritudo temptationum pulsaret: facile ad vicia
+          <lb ed="#N" n="80"/>redirent a quibus longe recesserunt. de egypto ergo exeuntibus
+          eui<lb ed="#N" n="81" break="no"/>cino bella subtrahuntur: quia relinquentibus seculum quedam
+          pri<lb ed="#N" n="82" break="no"/>us tranquillitas ostenditur. ne in ipsa teneritate et
+          inchoati<lb ed="#N" n="83" break="no"/>one turbati ad hoc quod reliquerant redeant. Item ysid.
+          pri<lb ed="#N" n="84" break="no"/>mordia conuersorum blandis modis sunt reuouenda. ne si ab
+          <lb ed="#N" n="85"/>asperitate incipiant: exterriti ad priores lapsus recurrant
+        </p>
+        <p xml:id="v78d89-d1e331-d1e293">
+          <lb ed="#N" n="86"/>⁋ Ad aliud dicendum. quod illa sacramenta debebant solum in
+          persona<lb ed="#N" n="87" break="no"/>purgandi exerceri. que habebant virtutem aliquid
+          conferendi<lb ed="#N" n="88" break="no"/>eidem. sicut opus operatum in circumcisione et baptismo. sed
+          vir<lb ed="#N" n="89" break="no"/>tus sacrificiorum et decimationis non fuit in efficiendo. sed in
+          si<lb ed="#N" n="90" break="no"/>gnando. similiter et alia huiusmodi in tempore illo: et hoc
+          conuenie<lb ed="#N" n="91" break="no"/>bat secundum dispositionem diuine prouidentie. scilicet vt primo esset
+          exerci<lb ed="#N" n="92" break="no"/>tatio in illis quorum virtus erat in signando. deinde in illis
+          <lb ed="#N" n="93"/>quorum virtus erat in signando et efficiendo. et sic secundum
+          appropini<lb ed="#N" n="94" break="no"/>quationem temporis perfecte salutis: maioris essent efficacie signa
+          <lb ed="#N" n="95"/>salutis. Unde hugo. diuine dispensationis ordo et ratio hoc
+          po<lb ed="#N" n="96" break="no"/>poscit. vt sicut ab initio procurrente tempore magis semper ac
+          ma<lb ed="#N" n="97" break="no"/>gis aduentus saluatoris appropiniquauit: sic semper magis ac
+          <lb ed="#N" n="98"/>magis effectus salutis cresceret et cognitio veritatis.
+        </p>
+        <p xml:id="v78d89-d1e331-d1e324">
+          ⁋ Ad
+          <lb ed="#N" n="99"/>hoc quod queritur. quare diuersa offerebantur in remedium.
+          dicen<lb ed="#N" n="100" break="no"/>dum quod hugo determinans quare necessaria fuit institutio
+          <lb ed="#N" n="101"/>multorum et variorum et intermissorum sacramenta. assignat tres
+          <lb ed="#N" n="102"/>causas. scilicet exercitationem. delectationem. intermissionem. Dicit enim.
+          <lb ed="#N" n="103"/>In his virtutum studiis mirabili dispensatione deus et
+          preui<lb ed="#N" n="104" break="no"/>dit multiplicitatem et varietatem et intermissionem. vt humana
+          <lb ed="#N" n="105"/>mens in multiplicitate exercitationem: et varietate
+          dele<lb ed="#N" n="106" break="no"/>ctationem: et intermissione recreationem inueniat hec hugo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 52, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 52, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="345"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aar6ii"><!-- q52m7 -->
+        <head xml:id="v78d89-aar6ii-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-aar6ii-Hd1e103" type="question-title">Utrum liceat peccatorem vel laicum in aliquo casu tangere corpus Christi</head>
+        <p xml:id="v78d89-aar6ii-d1e106">
+          <lb ed="#N" n="38"/>⁋ Membrum septimum
+        </p>
+        <p xml:id="v78d89-aar6ii-d1e111">
+          <lb ed="#N" n="39"/>COnsequenter queritur. vtrum liceat peccatorem
+          <lb ed="#N" n="40"/>vel laicum in aliquo casu tangere corpus christi.
+          <lb ed="#N" n="41"/>Quod non: videtur sic. Qui presumit id quod est
+          <lb ed="#N" n="42"/>speciali ordini deputatum et appropriatum vsur
+          <lb ed="#N" n="43"/>pat quod suum non est. sed tangere corpus christi est personarum ad
+          <lb ed="#N" n="44"/>sacros ordines promotarum et maxime sacerdotum: ergo quicunque
+          <lb ed="#N" n="45"/>laicus hoc attemptat: peccat cum presumat quod ad se non
+          spe<lb ed="#N" n="46" break="no"/>ctat.
+        </p>
+        <p xml:id="v78d89-aar6ii-d1e131">
+          ⁋ Item maius est tangere ipsam rem factam quam eius signum. sed
+          <lb ed="#N" n="47"/>Ora qui immundus erat secundum legem (quia cognouerat vxorem suam
+          <lb ed="#N" n="48"/>nocte vt dcitur peccauit tangendo archam. quod patet. quia a
+          <lb ed="#N" n="49"/>domino interfectus fuit: ergo multo fortius peccator qui corpus christi
+          <lb ed="#N" n="50"/>tangit. Nec videtur quod in aliquo casu possit: quia oza tetigit
+          <lb ed="#N" n="51"/>archam ne caderet sicut. ii. Reg. vi. ergo etc.
+        </p>
+        <p xml:id="v78d89-aar6ii-d1e145">
+          ⁋ Item plus abhor
+          <lb ed="#N" n="52"/>ret deus fetorem peccati quam luti: ergo pro maiore debitore habet quod a
+          pec<lb ed="#N" n="53" break="no"/>catoris manibus contrectetur: quam quod in lutum deiicitur vel a brutis
+          anima<lb ed="#N" n="54" break="no"/>libus conculcetur. ergo videtur quod in nullo casu debet homo peccator
+          presu<lb ed="#N" n="55" break="no"/>mere sanctissimum christi corpus pollutis manibus contrectare:
+          <lb ed="#N" n="56"/>Contra. a promittit cibum naturalem ad vsum humanum.
+          <lb ed="#N" n="57"/>amptum inutiliter deperire peccat si possit colligere. secundum illud
+          <lb ed="#N" n="58"/>domini. Colligite fragmenta ne pereant. sed cibus corporis christi est
+          <lb ed="#N" n="59"/>multo nobilior: ergo qui potest ipsum cum ceciderit ne perdatur
+          <lb ed="#N" n="60"/>colligere tenetur. sed qui facit illud ad quod tenetur non
+          pec<lb ed="#N" n="61" break="no"/>cat: ergo etc.
+        </p>
+        <p xml:id="v78d89-aar6ii-d1e169">
+          ⁋ Item sicut tenetur quis dominum suum honorare
+          <lb ed="#N" n="62"/>ita tenetur inhonestam eius collocationem impedire. ergo peccator
+          vi<lb ed="#N" n="63" break="no"/>dens corpus christi in luto si non sit qui amoueat: tenetur remoue
+          <lb ed="#N" n="64"/>re. ergo etc.
+        </p>
+        <p xml:id="v78d89-aar6ii-d1e178">
+          ⁋ Ad hoc dicendum sine preiudicio. quod laicus et sacrados
+          <lb ed="#N" n="65"/>peccator in casu tangi posunt corpus christi. Uerbigratia. si iaceret
+          <lb ed="#N" n="66"/>in luto vili vel alicui vbi esset expositum porco vel casni ad
+          <lb ed="#N" n="67"/>comedendum. et sacerdos peccator vel laicus motus fide et
+          reue<lb ed="#N" n="68" break="no"/>rentia ipsum tolleret et poneret loco competenti: non peccaret
+          <lb ed="#N" n="69"/>Ad illud quod obiicitur. quod tangere corpus christi est personarum
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>promotarum ad sacros ordines etc. Dicendum quod hoc verum est
+          <lb ed="#N" n="71"/>quantum ad ea que spectant ad consecrationem et dispensationem.
+          tan<lb ed="#N" n="72" break="no"/>gere enim corpus christi ad dispensandum illud alicui vel vt exer
+          <lb ed="#N" n="73"/>ceat aliquid circa illud quod ad consecrationem pertineat: est solum per
+          <lb ed="#N" n="74"/>sonarum ordinatarum: sed tangere illud vt amoueatur a loco
+          vi<lb ed="#N" n="75" break="no"/>li dummodo tangens moueatur fide et reuerentia: licet a laico.
+        </p>
+        <p xml:id="v78d89-aar6ii-d1e207">
+          <lb ed="#N" n="76"/>⁋ Ad aliud dicendum. quod oa percussus fuit. quia contra
+          prece<lb ed="#N" n="77" break="no"/>ptum domini fecit quia preceperat quod soli sacerdotes archam
+          fer<lb ed="#N" n="78" break="no"/>rent nec licuit alicui ipsam contingere nisi esset mundus. hec
+          <lb ed="#N" n="79"/>autem ratio est literalis quare percussus fuit oza. Pre. oza gessit
+          figu<lb ed="#N" n="80" break="no"/>ram sacerdotum immundorum qui celebrantes in immundicia peccati
+          <lb ed="#N" n="81"/>percutiendi sunt morte spirituali.
+        </p>
+        <p xml:id="v78d89-aar6ii-d1e223">
+          ⁋ Ad illud quod licet dominus
+          <lb ed="#N" n="82"/>magis abhorreat vilitatem peccati quam luti. et licet sibi displiceat
+          <lb ed="#N" n="83"/>pertractatio a manibus peccatoris scilicet in consecratione et
+          dispensa<lb ed="#N" n="84" break="no"/>tione: nihilominus placet sibi reuerentia exhibita in
+          amoti<lb ed="#N" n="85" break="no"/>one corporis a loco vili in casu pretacto.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

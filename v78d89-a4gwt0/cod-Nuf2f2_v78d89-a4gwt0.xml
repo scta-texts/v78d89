@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 17, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 17, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="127"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4gwt0"><!-- q17m6 -->
+        <head xml:id="v78d89-a4gwt0-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-a4gwt0-Hd1e103" type="question-title">Utrum sanctificati in utero sint baptizandi</head>
+        <p xml:id="v78d89-a4gwt0-d1e106">
+          <lb ed="#N" n="115"/>Membrum sextum
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e111">
+          <lb ed="#N" n="116"/>COnsequenter queritur. vtrum sanctificatus in vte
+          <lb ed="#N" n="117"/>ro debeat baptizari cum natus est. et quod sic: videtur
+          <lb ed="#N" n="118"/>quia talis per sanctificationem non habet
+          caracteren<lb ed="#N" n="119" break="no"/>sed debet signo christi configurari quod fit in
+          bapti<lb ed="#N" n="120" break="no"/>smo: ergo debet baptizari.
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e124">
+          ⁋ Item baptizati baptismo
+          flami<lb ed="#N" n="121" break="no"/>nis baptizantur aqua et tenentur baptizari. vt patet de Corne
+          <lb ed="#N" n="122"/>lio Act. x. sed sanctificari non est aliud quam gratiam spiritus sancti recipere:
+          <lb ed="#N" n="123"/>ergo sanctificati tenentur baptizari.
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e134">
+          ⁋ Item nullus quantumcunque
+          ma<lb ed="#N" n="124" break="no"/>gnus absoluitur a diuino mandato. sed dominus dedit mandatum de
+          su<lb ed="#N" n="125" break="no"/>scipiendo baptisma: ergo ita tenetur ad hoc sanctificatus vt alius
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e141">
+          <lb ed="#N" n="126"/>Contra. vigor singularis preuilegii semper transcendit bene
+          <lb ed="#N" n="127"/>ficium commune. ergo in sanctificatione datur gratia curans in baptismo
+          <lb ed="#N" n="128"/>et maior et efficacior. sed ordo non est a maiore perfectione ad
+          mi<lb ed="#N" n="129" break="no"/>norem sed econtra: ergo sanctificatus non tenetur baptizari.
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e152">
+          ⁋ Item si
+          sancti<lb ed="#N" n="130" break="no"/>ficatus baptizatur. videtur quod sit vanitas. quia quod potest sufficienter
+          fie<lb ed="#N" n="131" break="no"/>ri per vnum frustra fit per duo in natura. ergo si natura nihil facit
+          <lb ed="#N" n="132"/>frustra: multominus gratia. sed gratia sanctificans sufficit ad
+          cura<lb ed="#N" n="133" break="no"/>tionem alioquin deus agit imperfecte: ergo etc.
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e163">
+          ⁋ Item videtur quod sit ibi
+          <lb ed="#N" n="134"/>contemptus. quia qui baptizatus est: si iterum baptizetur facit contumeliam
+          <lb ed="#N" n="135"/>sacramento. quia primum remedium reputat insufficiens: ergo pari ratione
+          <lb ed="#N" n="136"/>qui baptizatur post sanctificationem iniuriatur sanctificationi
+          <lb ed="#N" n="137"/>Responsio. dicendum quod sanctificatus baptizari debet
+          bapti<lb ed="#N" n="138" break="no"/>smo aqua. sicut baptizatus baptismo flaminis. Et est ratio
+          tri<lb ed="#N" n="139" break="no"/>plex. Prima propter bonum obedientie. quia deus precipit vt omnes qui
+          <pb ed="#N" n="128"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>nascantur renascantur aqua. Secunda propter humilitatem. quia
+          <lb ed="#N" n="2"/>debet se reputare peccatorem et indigere christi redemptione.
+          Ter<lb ed="#N" n="3" break="no"/>cia propter vnitatem: vt ab aliis membris christi non discordet. non
+          <lb ed="#N" n="4"/>ergo baptizatur propter hoc quod sanctificatio non sufficiat: sed propter
+          <lb ed="#N" n="5"/>rationes predictas propter quarum exempla dandal fuit christus circumcisus.
+          <lb ed="#N" n="6"/>vt scilicet obediret legi subiecit se signo peccatoris quo non ipse
+          se<lb ed="#N" n="7" break="no"/>peccatorem: sed alios se peccatores profiteri docet. postremo vt
+          prati<lb ed="#N" n="8" break="no"/>bus non esset dissimilis. patet ergo responsio quod sanctificatus non
+          reci<lb ed="#N" n="9" break="no"/>pit baptismum in remedium. quod si faceret: esset inordinatio
+          va<lb ed="#N" n="10" break="no"/>nitas et contemptus. sed in signum quod habet tria coniuncta bona silicet
+          obe<lb ed="#N" n="11" break="no"/>dientiam humilitatem et vnitatem quantum ad vnitatem caracteris
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e207">
+          <lb ed="#N" n="12"/>⁋ Ad illud ergo quod obiicitur. quo sanctificatio transcendit. dicendum
+          <lb ed="#N" n="13"/>quod quamuis hoc verum sit quantum ad gratiam que delet culpam et
+          habili<lb ed="#N" n="14" break="no"/>tat ad bonum. tamen non transcendit quantum ad caracterem: quia illum
+          <lb ed="#N" n="15"/>non imprimit. et ideo ratione illius adhuc baptismus debet recipi.
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e218">
+          <lb ed="#N" n="16"/>⁋ Ad illud quod obiicitur quod superfluit. patet responsio quod non recipit ad
+          <lb ed="#N" n="17"/>idem ad quod precessit sanctificatio.
+        </p>
+        <p xml:id="v78d89-a4gwt0-d1e226">
+          ⁋ Ad illud quod obiicitur. quod
+          <lb ed="#N" n="18"/>rebaptizatus iniuriatur baptismo. dicendum quod hoc verum est quia
+          ite<lb ed="#N" n="19" break="no"/>rat idem remedium et ad idem non sic est in proposito et sic patet totun.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

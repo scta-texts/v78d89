@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 28, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 28, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="175"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a6bzk9"><!-- q28m2 -->
+        <head xml:id="v78d89-a6bzk9-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a6bzk9-Hd1e103" type="question-title">Quis debeat confirmari</head>
+        <p xml:id="v78d89-a6bzk9-d1e106">
+          <lb ed="#N" n="134"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a6bzk9-d1e111">
+          <lb ed="#N" n="135"/>SEquitur quis debet vel potest confirmari. Et
+          <lb ed="#N" n="136"/>primo queritur. si generaliter sunt omnes
+          confir<lb ed="#N" n="137" break="no"/>mandi. Secundo. si preposteratio ordinis
+          sa<lb ed="#N" n="138" break="no"/>cramentorum confirmationis et baptismi:
+          impedi<lb ed="#N" n="139" break="no"/>at susceptionem confirmationis.
+        </p>
+        <div xml:id="v78d89-a6bzk9-Dd1e124">
+          <head xml:id="v78d89-a6bzk9-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-a6bzk9-d1e128">
+            <pb ed="#N" n="176"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e137">
+            <lb ed="#N" n="2"/>CIrca primum arguitur primo. ostendendo quod non omnes
+            <lb ed="#N" n="3"/>sunt confirmandi sic. Et primo videtur. excludi
+            de<lb ed="#N" n="4" break="no"/>beant mulieres. quia hoc sacramentum ordinat ad pugnam
+            <lb ed="#N" n="5"/>sed mulieres excludebantur a bello. ergo debent excludi ab hoc
+            sacra<lb ed="#N" n="6" break="no"/>mento.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e150">
+            ⁋ Item videtur quod debeant excludi paruuli per eandem
+            rati<lb ed="#N" n="7" break="no"/>onem: cum non apti ad portandum arma.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e155">
+            ⁋ Item videntur
+            excludi<lb ed="#N" n="8" break="no"/>illi qui sunt in periculo mortis: quia illi exeutem extia omnem
+            pugnan<lb ed="#N" n="9" break="no"/>tiam. ergo liberi sunt a sacramento pugne.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e163">
+            ⁋ Item videtur quod hoc sacra
+            <lb ed="#N" n="10"/>mentum non competit mutis: quoniam hoc sacramentum est ad liberam nominis christi
+            <lb ed="#N" n="11"/>confessionem. sed muti non posunt ore confiteri. ergo frustra recipiunt
+            qui<lb ed="#N" n="12" break="no"/>hoc recipiunt.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e172">
+            ⁋ Item videtur quod soli clerici sunt confirmandi.
+            Ra<lb ed="#N" n="13" break="no"/>banus. A summo sacerdote per impositionem manus peraclitus
+            tra<lb ed="#N" n="14" break="no"/>ditur baptizato vt roboretur per spiremsanctum ad predicandum
+            <lb ed="#N" n="15"/>aliis quod ipse in baptismo consecutus est. sed soli clerici predicant.
+            <lb ed="#N" n="16"/>ergo etc.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e183">
+            ⁋ Item aut ab hoc sacramento excluduntur aliqui: aut nulli.
+            <lb ed="#N" n="17"/>si aliqui: non ergo est omnium. sed nulli excluduntur: ergo caracter
+            impres<lb ed="#N" n="18" break="no"/>sus distinguit solum ab infidelibus. ergo a quot et eisdem a quot
+            <lb ed="#N" n="19"/>et quibus caracter baptismalis. ergo videtur quod alter istorum
+            super<lb ed="#N" n="20" break="no"/>fluat. quod est inconueniens.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e194">
+            ⁋ Contra. quod istud sacramentum
+            compe<lb ed="#N" n="21" break="no"/>tat omnibus videtur. quia sicutr dicit Rabanus. In sed
+            sacramen<lb ed="#N" n="22" break="no"/>to datur septiformis gratia spiritus sancti. sed iste effectus est omnibus
+            <lb ed="#N" n="23"/>generalis. ergo et hoc sacramentum.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e203">
+            ⁋ Item quod conuenimat omni sexui
+            vi<lb ed="#N" n="24" break="no"/>detur: et maxime muliebri. quia omnes qui pie volunt viuere
+            persecu<lb ed="#N" n="25" break="no"/>tionem patiuntur. ergo et sexus muliebris qui maxime est pius et
+            deuo<lb ed="#N" n="26" break="no"/>tus. Sed infirmo qui persecutionem patitur sunt maxime
+            necessa<lb ed="#N" n="27" break="no"/>ria arma fortitudinis. ergo cum hec dentur in confirmatione:
+            vi<lb ed="#N" n="28" break="no"/>detur quod mulieres maxime indigent hoc sacramento.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e216">
+            ⁋ Item
+            vi<lb ed="#N" n="29" break="no"/>detur quod sit necessarium omni etate et maxime puerili videtur: quia
+            <lb ed="#N" n="30"/>discreti ducis est armare milites ante pugnam et ante lesionem
+            <lb ed="#N" n="31"/>sed pugna et lesiones incipiunt in annis discretionis. ergo
+            compe<lb ed="#N" n="32" break="no"/>tens est sacramentum confirmationis ante annos discretionis dari.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e228">
+            ⁋ Item
+            <lb ed="#N" n="33"/>videtur quod omni statui. quia certum est de viuentibus. etiam hoc ostenditur
+            <lb ed="#N" n="34"/>de morientibus auctoritate Hugo. quia dicit in libro. de sacramentis.
+            <lb ed="#N" n="35"/>Qmunino periculosum esset si ab hac vita sine confirmatione mignare
+            <lb ed="#N" n="36"/>contingeret. et ita morienti etiam oportunum est
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e239">
+            ⁋ Responsio.
+            dicen<lb ed="#N" n="37" break="no"/>dum quod illud sacramentum omnibus competit propter gratie
+            amplia<lb ed="#N" n="38" break="no"/>tionem que ibi datur. sed maxime competit his qui sunt de
+            acie<lb ed="#N" n="39" break="no"/>pugnantium in bello spirituali. et quia hoc competit omni sexui:
+            <lb ed="#N" n="40"/>ideo et hoc sacramentum omnibus competit.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e250">
+            ⁋ Ad illud quod obiicitur de
+            <lb ed="#N" n="41"/>mulieribus patet. licet enim non competat illis bellum materiale:
+            con<lb ed="#N" n="42" break="no"/>petit tamen spirituale. Mulieres enim in hoc bello strenue fuerunt
+            <lb ed="#N" n="43"/>vt patet de beata Agneta et aliis virginibus que martirizate
+            <lb ed="#N" n="44"/>sunt pro confessione et nomine christi.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e261">
+            ⁋ Ad illud quod obiicitur de
+            par<lb ed="#N" n="45" break="no"/>uulis. dicendum quod paruuli non armantur pro statu illius etatis vt tunc
+            <lb ed="#N" n="46"/>pugnent: sed vt postmodum sint pugnaturi. Sed nec hoc nisi
+            con<lb ed="#N" n="47" break="no"/>uenientur: quia arma illa non sunt aggrauantia ed alleuiantia.
+            <lb ed="#N" n="48"/>nec solum sunt defendentia: sed premunientia. et melius est
+            ho<lb ed="#N" n="49" break="no"/>mini muniri ante lesionem quam post.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e274">
+            ⁋ Ad id quod obiicitur de
+            il<lb ed="#N" n="50" break="no"/>lis qui sunt in periculo mortis patet responsio. quia non recipiunt
+            <lb ed="#N" n="51"/>sacramentum ad pugnantiam et conflictum: sed ad meritum obedientie
+            <lb ed="#N" n="52"/>et virtutis augmentum. quod est eis vtilem et bonum.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e283">
+            ⁋ Ad illud
+            <lb ed="#N" n="53"/>quod obiicitur de mutis. dicendum quod sacramentum illud est ad roborationem
+            <lb ed="#N" n="54"/>fidei in corde. et hoc ita indigie mutus: vt disertus nec tantum
+            <lb ed="#N" n="55"/>in corde: verumetiam in nutu et passione potest christum confiteri.
+            <lb ed="#N" n="56"/>et ideo hoc sacramento indiget sicut et alii.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e295">
+            ⁋ Ad illud
+            Raba<lb ed="#N" n="57" break="no"/>ni dicendum. quod ibi sumitur predicare nomine extenso pro publica
+            confir<lb ed="#N" n="58" break="no"/>matione. vt sit sensus ad predicandum aliis id est ad
+            publice<lb ed="#N" n="59" break="no"/>confitendum fidem: quam in baptismo suscepit.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e304">
+            ⁋ Ad vltimum
+            di<lb ed="#N" n="60" break="no"/>cendum. quod caracter confirmationis ab eisdem distinguitur a quibus
+            <lb ed="#N" n="61"/>baptismalis. nec tamen superfluit: quia secundum alium et alium statum
+            <lb ed="#N" n="62"/>distinguit. quamuis enim omnis christianus sit christi pugil: tamen ex gratia
+            <lb ed="#N" n="63"/>alia et alia et in alio statu dicitur christianus et pugil. et secundum alium
+            <lb ed="#N" n="64"/>et alium actum scilicet confirmationem exteriorem et credulitatem
+            interio<lb ed="#N" n="65" break="no"/>rem. et quia secundum aliud distinguit caracter confirmationis et
+            <lb ed="#N" n="66"/>caracter baptismatis: et alium statum gratie disponit. ideo non
+            super<lb ed="#N" n="67" break="no"/>fluit. et cum alius sit status fidei: et caracter statum
+            respi<lb ed="#N" n="68" break="no"/>ciat: quamuis fides sit eadem: caracter est aliud signum
+            exte<lb ed="#N" n="69" break="no"/>rius.
+          </p>
+        </div>
+        <div xml:id="v78d89-a6bzk9-Dd1e330">
+          <head xml:id="v78d89-a6bzk9-Hd1e332">Articulus 2</head>
+          <p xml:id="v78d89-a6bzk9-d1e334">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e341">
+            <lb ed="#N" n="71"/>Onsequentur queritur. si preposteratio ordinis
+            sacra<lb ed="#N" n="72" break="no"/>mentorum confirmationis et baptismi: impediat susce
+            <lb ed="#N" n="73"/>ptionem confirmationis. Primo queritur. vtrum non baptiza
+            <lb ed="#N" n="74"/>tus ptest confirmari. Secundo. vtrum non baptizatus possit recipere
+            sa<lb ed="#N" n="75" break="no"/>cramentum confirmationis sine susceptione rei.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e354">
+            <lb ed="#N" n="76"/>Qllaprimu proce §i
+            <lb ed="#N" n="77"/>ditur sic. Baptismus est ianua omnium sacramentorum. igitur si hec figura
+            <lb ed="#N" n="78"/>vera sit et non potest intrari in domum nisi per ianuam. ergo non in aliquod sacra
+            <lb ed="#N" n="79"/>mentum nisi prius intrauerit per baptismum.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e365">
+            ⁋ Item confirmatio
+            re<lb ed="#N" n="80" break="no"/>spicit aliquid preexstens: quia quod non est non potest confirinari. sed nullum sacra
+            <lb ed="#N" n="81"/>mentum necessario preit confirmationem aliud a baptismate. si ergo
+            ali<lb ed="#N" n="82" break="no"/>quid presupponitur: vdetur quod baptismus.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e375">
+            ⁋ Contra. si rite quis
+            susci<lb ed="#N" n="83" break="no"/>piat ordines: primo debet fieri subdyaconus quam dyaconus. tamen
+            si<lb ed="#N" n="84" break="no"/>ante subdyaconatum susciperet quis ordinem dyaconatus: dicunt quod
+            <lb ed="#N" n="85"/>vere habet ordinem. Sed ant debeat ministrare alia questio est. ergo a
+            si<lb ed="#N" n="86" break="no"/>mili licet baptismus precedere habeat confirmationem si rite fiat: tamen
+            si<lb ed="#N" n="87" break="no"/>quis ante baptismum confirmaretur: confirmationem vere haberet siue
+            sa<lb ed="#N" n="88" break="no"/>cramentum confirmationis. ergo non baptizatus potest confirmari.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e391">
+            ⁋ Item esse
+            <lb ed="#N" n="89"/>prncedit ordinatum esse. prius enim est res quoam ordinata alii. et propter hoc
+            <lb ed="#N" n="90"/>illa quorum esse non est esse relatum posunt esse: licet non habeant esse ordinatum.
+            <lb ed="#N" n="91"/>Talia sunt sacramenta scilicet baptismus et confirmatio. non enim referuntur
+            <lb ed="#N" n="92"/>adinuicem. Secluso ergo ordine quocumque: nihilominus hec
+            sacra<lb ed="#N" n="93" break="no"/>menta posunt esse. Sed non potest esse confirmatio nisi existente aliquo
+            confir<lb ed="#N" n="94" break="no"/>mato. ergo omni secluso ordine potest aliquis esse confirmatus. igitur licet
+            <lb ed="#N" n="95"/>non precessit baptisma potest aliquis confirmari.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e409">
+            ⁋ Responsio. quod non
+            ba<lb ed="#N" n="96" break="no"/>ptizatus non potest confirmari. Rton huius est. quia gratia regenerationis
+            <lb ed="#N" n="97"/>spiritualis que datur in baptismate precedit gratiam corroborationis
+            <lb ed="#N" n="98"/>spiritualis: sicut generatio naturalis precedit corroborationem
+            <lb ed="#N" n="99"/>membrorum. Alia ratio est. quod confirmatio confertur tantum existentibus in ecclesia.
+            <lb ed="#N" n="100"/>baptismate autem ponitur homo in ecclesia et efficitur de corpore illius.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e422">
+            <lb ed="#N" n="101"/>⁋ Ad obiectum primum contra hoc potest dici. quod non est simile de
+            ordi<lb ed="#N" n="102" break="no"/>nibus et sacramentis scilicet baptismate et confirmatione. non enim est ita
+            essenti<lb ed="#N" n="103" break="no"/>alis comparatio ordinum superiorum ad inferiorem: sicut confirmationis
+            <lb ed="#N" n="104"/>ad baptisma. propter ministeriales diuersitates eorum et
+            incon<lb ed="#N" n="105" break="no"/>tingentiam. vt enim dicunt. ordo non est tantum sacramentum sed etiam officium.
+            <lb ed="#N" n="106"/>Cuilibet enim ordini deputatur suum officium. et potest aliquis officium
+            <lb ed="#N" n="107"/>vnius ordinis exequi sine alio. vt officium dyaconatus sine
+            <lb ed="#N" n="108"/>subdyaconatu. ideo patet quod ordines non habent adinuicem necessariam
+            <lb ed="#N" n="109"/>ordinationem. Baptismus autem et confirmatio habent effectus propter
+            <lb ed="#N" n="110"/>quos sunt. et non potest effectus confirmationis esse sine effectu
+            ba<lb ed="#N" n="111" break="no"/>ptismi et vniuersaliter nullum sacramentum sine baptismo. ideo alia
+            <lb ed="#N" n="112"/>sacramenta ad baptismum necessariam habent ordinationem.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e451">
+            ⁋ Ad aliud
+            dicen<lb ed="#N" n="113" break="no"/>dum. quod quando esse alicuius dependet ab alio: non habet prius esse quam esse
+            <lb ed="#N" n="114"/>ordinatum. immo simul talis est confirmatio respectu
+            bapti<lb ed="#N" n="115" break="no"/>smatis. Esse enim confirmationis dependet ab esse baptismatis.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e460">
+            <lb ed="#N" n="116"/>⁋ Ad illud quod dicitur. quod baptismus et confirmatio non
+            referum<lb ed="#N" n="117" break="no"/>tur adinuicem etc. Dicendum quod quedam sunt quorum est mutua
+            <lb ed="#N" n="118"/>relatio. cuiusmodi sunt illa que sunt et dicuntur adaliquid.
+            ta<lb ed="#N" n="119" break="no"/>lia non sunt baptismus et confirmatio. Quedam autem sunt et si
+            il<lb ed="#N" n="120" break="no"/>lorum non est mutua relatio: vnum tamen quantum ad esse dependet ab
+            <lb ed="#N" n="121"/>alio. propter quod aliud quod dependet non potest esse sine alio. sic est
+            <lb ed="#N" n="122"/>hic. vnde arguitur ex insufficienti.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e479">
+            <lb ed="#N" n="123"/>Consequeler que . ii.
+            <lb ed="#N" n="124"/>ritur. Utrum non baptizatus possit recipere sacramentum confirmationis
+            <lb ed="#N" n="125"/>sine susceptione rei. quod videtur: quia non baptiz atus potest suscipere
+            <lb ed="#N" n="126"/>eucharistie sacramentum. licet non fuerit baptizatus: licet non suscipiat rem
+            <lb ed="#N" n="127"/>sacramenti. Similiter accedens ficte ad baptismum suscipit ipsum sacramentum
+            <lb ed="#N" n="128"/>licet non rem sacramenti. Eadem ratione videtur quod aliquis non baptizatus potest
+            <lb ed="#N" n="129"/>suscipere sacramentum confirmationis licet non suscipiat rem.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e497">
+            ⁋ Item aliquis
+            <lb ed="#N" n="130"/>non baptizatus potest mori pro christo et confiteri christum. ergo non
+            bapti<lb ed="#N" n="131" break="no"/>zatus potest habere rem huius sacramenti ante baptismum. ergo pari ratione et sacra
+            <lb ed="#N" n="132"/>mentum.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e506">
+            ⁋ Contra. non habens esse sacramenti baptismatis non suscipit
+            <lb ed="#N" n="133"/>rem confirmationis. ergo non habens sacramentum huius: non recipit sacramentum
+            <lb ed="#N" n="134"/>illius.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e513">
+            ⁋ Responsio. quod caracter baptismalis est fundamentum
+            <lb ed="#N" n="135"/>aliorum caracterum sacramentalium. Unde nullum sacramentum quo
+            impri<lb ed="#N" n="136" break="no"/>mitur caracter potest suscipi ab aliquo: nisi prius suscepto
+            <lb ed="#N" n="137"/>sacramento baptismids dico sacramentaliter. vnde sicut non suscepto
+            <pb ed="#N" n="177"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>baptismate quantum ad rem sacramenti. non potest aliquis suscipere sacramentum
+            con<lb ed="#N" n="2" break="no"/>firmationis. quantum ad rem sacramenti: sic non suscepto baptismo
+            sacra<lb ed="#N" n="3" break="no"/>mentaliter: nec suscipi potest sacramentum confirmationis sacramentaliter
+            <lb ed="#N" n="4"/>hoc autem patet per hoc quod determinatur ab Inno. in. iii. de
+            presbi<lb ed="#N" n="5" break="no"/>tero non baptizato. veniens ad appellationem. dicit enim ibi. quia in
+            <lb ed="#N" n="6"/>concilio apud compende. legitur constitutum. Si quis in presbiterum
+            <lb ed="#N" n="7"/>ordinatus depreohenderit se non esse baptizatum: baptizetur et
+            <lb ed="#N" n="8"/>iterum ordinetur. Nos circa latum preceptum in casu
+            dubitabi<lb ed="#N" n="9" break="no"/>li quod tutius est sequentes mandamus: quatenus ipsum ad
+            sin<lb ed="#N" n="10" break="no"/>gulos ordines vsque ad sacerdotium promouere procures: et
+            per<lb ed="#N" n="11" break="no"/>mittas eum in sacerdotio ministrare. Sed constat si in
+            susce<lb ed="#N" n="12" break="no"/>ptione ordinis ante baptismum fuisset ordinatus: per
+            reiterati<lb ed="#N" n="13" break="no"/>onem iniuriatum fuisset sacramento. et ita patet quod non fuit ordinatus.
+            im<lb ed="#N" n="14" break="no"/>mo quod plus est: matrimonium non habet bonum sacramenti in non baptiza
+            <lb ed="#N" n="15"/>tis. Unde in. iiii. de diuorcio. Quanto re nouimus. determina
+            <lb ed="#N" n="16"/>tur quod inter commniuges infideles non baptizatos: in casu potest
+            <lb ed="#N" n="17"/>altera persona transire ad secunda vota. ex quo patet quod ibi non fuit
+            <lb ed="#N" n="18"/>bonum sacramenti. sed non est ita de baptizatis coniugibus. Si enim post
+            <lb ed="#N" n="19"/>baptismum infidelis fuerit alter coniugum: ratum est semper
+            matrimo<lb ed="#N" n="20" break="no"/>nium. vnde dicitur in decretis. Etsi martrimonium verum inter infideles
+            <lb ed="#N" n="21"/>existat: non tamen est ratum. Inter fideles autem ratum et firmum
+            ex<lb ed="#N" n="22" break="no"/>istit: quia fidei sacramentum. quod semel admissum numquam amittitur. ratum
+            <lb ed="#N" n="23"/>efficit coniugii sacramentum: vt ipsum in coniugibus vllo perdurante perduret
+            <lb ed="#N" n="24"/>sacramentum autem fidei vocat baptismum.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e578">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="25"/>de eucharistia iam patet responsio: quia ibi caracter nullus
+            impri<lb ed="#N" n="26" break="no"/>mitur. et ita non habet adeo essentialem ordinem ad baptisma sicut
+            con<lb ed="#N" n="27" break="no"/>firmatio et ordo.
+          </p>
+          <p xml:id="v78d89-a6bzk9-d1e587">
+            ⁋ Ad id quod obiicitur. quod potest confiteri et mori.
+            <lb ed="#N" n="28"/>Dicendum quod verum est sine sacramento: sed non sine re illius sacramenti. vnde
+            <lb ed="#N" n="29"/>et sicut obiectum est. sicut res husnon potest haberi sine re illius: sic nec
+            <lb ed="#N" n="30"/>caracter sine caractere.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

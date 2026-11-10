@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 13, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 13, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="104"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3lbxk"><!-- q13m2 -->
+        <head xml:id="v78d89-a3lbxk-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a3lbxk-Hd1e103" type="question-title">De materia baptismi</head>
+        <p xml:id="v78d89-a3lbxk-d1e106">
+          <lb ed="#N" n="3"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a3lbxk-d1e111">
+          <lb ed="#N" n="4"/>COnsequenter queritur de materia baptismi.
+          <lb ed="#N" n="5"/>Primo ergo queritur de substantia materie.
+          Se<lb ed="#N" n="6" break="no"/>cundo de quantitate. Tercio de idemptitate.
+          <lb ed="#N" n="7"/>Primo enim queritur si baptismus debeat fieri in
+          <lb ed="#N" n="8"/>aqua. Secundo. quanta aqua requiratur. Tercio. si baptismus
+          <lb ed="#N" n="9"/>idem est quod aqua.
+        </p>
+        <div xml:id="v78d89-a3lbxk-Dd1e127">
+          <head xml:id="v78d89-a3lbxk-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-a3lbxk-d1e131">
+            <lb ed="#N" n="10"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e136">
+            <lb ed="#N" n="11"/>CIrca primum sic. videtur quod non debeat fieri in aqua
+            <lb ed="#N" n="12"/>quia regenerans et regeneratum debent habere conue
+            <lb ed="#N" n="13"/>nientiam. sed homo regeneratur qui est compositum:
+            <lb ed="#N" n="14"/>aqua vero baptismi simplex est. preterea. corpus hominis
+            elementa<lb ed="#N" n="15" break="no"/>tum est: sed aqua elementum. non est igitur coniunctio conueniens.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e149">
+            ⁋ Item
+            <lb ed="#N" n="16"/>queritur quare magis fit in hoc elemento quam in alio. quia si
+            ba<lb ed="#N" n="17" break="no"/>ptismus significat sepulturam christi et resurrectionem: sepultura
+            <lb ed="#N" n="18"/>christi fiebat in terra non in aqua. videtur quod etc. Sic enim signatum
+            <lb ed="#N" n="19"/>magis congrueret significato. vi. ad roo. Consepulti enim sumus
+            <lb ed="#N" n="20"/>cum ill o per baptismum in mortem. vt qumo resurrexit christus a
+            <lb ed="#N" n="21"/>mortuis: ita et nos etc.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e165">
+            ⁋ Item in nullo sacramento neque
+            le<lb ed="#N" n="22" break="no"/>gis nature neque legis scripte: quod fiebat ad purgationem
+            ori<lb ed="#N" n="23" break="no"/>ginalis erat aqua. igitur a simili etc.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e173">
+            ⁋ Item omnia sacramenta
+            <lb ed="#N" n="24"/>eorum que fiebant ad purgationem originalis in veteri lege
+            ha<lb ed="#N" n="25" break="no"/>bebant ortum principaliter a terra. quare non similiter in noua vt
+            <lb ed="#N" n="26"/>esset conuenientia figurati ad figuras. Dicit enim Hug. omnia
+            <lb ed="#N" n="27"/>illa superioris temporis sacramenta siue sub lege naturali siue sub
+            <lb ed="#N" n="28"/>scripta: signa quedam fuerunt et figure eorum que nunc exhibi
+            <lb ed="#N" n="29"/>ta sunt sub gratia sacramentorum.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e189">
+            ⁋ Item istud est sacramentum
+            <lb ed="#N" n="30"/>necessitatis. sed aqua non est semper parata immo multi moriuntur
+            <lb ed="#N" n="31"/>ante. cum igitur aer sit omnibus communis et paratus: videtur quod
+            debe<lb ed="#N" n="32" break="no"/>ret fieri in aere.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e198">
+            ⁋ Item si congruebat sacramentum istud
+            fieri<lb ed="#N" n="33" break="no"/>in liquore aliquo: quare non fiebat in oleo quo significatur
+            <lb ed="#N" n="34"/>spiritus sanctus siue gratia spiritus sancti.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e205">
+            ⁋ Item si baptisma fiebat
+            <lb ed="#N" n="35"/>in aqua quia aqua effluxit de latere christi Io. xix. quare non
+            <lb ed="#N" n="36"/>similiter in sanguine qui similiter effluxit.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e212">
+            ⁋ Item quod fluxit de
+            la<lb ed="#N" n="37" break="no"/>tere christi: aut fuit aqua pura quod non videtur. hoc enim esset contra
+            <lb ed="#N" n="38"/>naturam. quod scilicet aqua pura efflueret de corpore humano. aut
+            fu<lb ed="#N" n="39" break="no"/>it humor aqueus. et si hoc: tunc videtur quod in alio liquore ab aqua
+            <lb ed="#N" n="40"/>pura possit fieri.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e223">
+            ⁋ Item videtur quod in aqua et sanguine
+            simul<lb ed="#N" n="41" break="no"/>commixtis fieri deberet: quia simul effluxerunt a latere christi in
+            <lb ed="#N" n="42"/>passione a qua baptismus habet virtutem.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e231">
+            ⁋ Item circumcisioni
+            <lb ed="#N" n="43"/>successit baptismus sicut signatum ad signum siue figuratum
+            <lb ed="#N" n="44"/>ad figuram. sed sacramentum circumcisionis fiebat ferro vel
+            la<lb ed="#N" n="45" break="no"/>pide que nullam habent conuenientiam ad aquam. vnde etc.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e240">
+            ⁋ Item quare
+            <lb ed="#N" n="46"/>sacramentum quo purgatur originale in lege gratie fiebat aqua: in
+            le<lb ed="#N" n="47" break="no"/>ge scripta lapide vel ferro:
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e247">
+            ⁋ Item arguitur sic. sicut causa
+            <lb ed="#N" n="48"/>se habet ad causam: et effectus ad effectum. sed causa circumcisionis
+            fu<lb ed="#N" n="49" break="no"/>it ferrum vel lapis: baptismi aqua. sed horum nulla conuenientia.
+            <lb ed="#N" n="50"/>igitur nec effectuum scilicet circumcisionis et baptismi.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e256">
+            ⁋ Responsio.
+            <lb ed="#N" n="51"/>huic questioni scilicet quare baptismus fit in aqua respondet Dam.
+            <lb ed="#N" n="52"/>sic dicens. Quoniam in incorruptione fecit nos deus.
+            transgredien<lb ed="#N" n="53" break="no"/>tes enim salutare eius mandatum corruptione mortis condem
+            <lb ed="#N" n="54"/>nauit: vt non in mortale esset malum. condescendens seruis vt
+            mi<lb ed="#N" n="55" break="no"/>sericors et secundum nos factus a corruptione propria passione
+            re<lb ed="#N" n="56" break="no"/>demit et irrigauit nobis ex sancta et immaculata eius
+            co<lb ed="#N" n="57" break="no"/>sta fontem remissionis. aquam quidem in regenerationem et
+            ab<lb ed="#N" n="58" break="no"/>lutionem peccati et corruptionis: sanguinem autem potum vite
+            <lb ed="#N" n="59"/>eterne datorem. et mandatum dedit nobis per aquam
+            regenera<lb ed="#N" n="60" break="no"/>ri et spiritum per inuocationem et orationem aque superueniente
+            spiri<lb ed="#N" n="61" break="no"/>tu. Quniam enim duplex homo ex anima et corpore duplicem dedit
+            no<lb ed="#N" n="62" break="no"/>bis purgationem per aquam et spiritum. spiritu quidem quod secundum
+            imagi<lb ed="#N" n="63" break="no"/>nem et similitudinem est renouante. aqua autem per spiritus gratiam
+            <lb ed="#N" n="64"/>corpus a peccato purgante et a corruptione liberante: et
+            mor<lb ed="#N" n="65" break="no"/>tis quidem imaginem explente aqua autem vite arram attribuente
+            <lb ed="#N" n="66"/>spiritu. a principio enim spiritus dei ferebatur super aquas et
+            antiqui<lb ed="#N" n="67" break="no"/>tus scriptura testatur aque quod in ea est purgatio.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e295">
+            ⁋ Item hoc
+            <lb ed="#N" n="68"/>sacramentum institutum fuit fieri in aqua potius quam in alio
+            <lb ed="#N" n="69"/>elemento vel elementato: propter proprietates aque que huic
+            sa<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>cramento magis congruunt. aqua enim siue humidum aqueum
+            <lb ed="#N" n="71"/>habet vim mundificatiuam. Hugo. In solo elemento aque
+            <lb ed="#N" n="72"/>sacramentum baptismi consecrari institutum est: quia hec sola
+            plo<lb ed="#N" n="73" break="no"/>nam et perfectam mundationem habet. alii liquores omnes aqua purim
+            <lb ed="#N" n="74"/>cantur. et si quid alio quolibet liquore tactum fuerit: aqua abluitr
+            <lb ed="#N" n="75"/>vt emundetur. hec Hugo. Cum enim habeat vim mundificatiuam
+            <lb ed="#N" n="76"/>conuenit vt per tactum carnis christi in qua omnis mundicia a
+            trans<lb ed="#N" n="77" break="no"/>fusione peccati fuit: conferetur ratio mundificandi a sordibus
+            <lb ed="#N" n="78"/>culpe. Item per naturam frigiditatis habet vim repressiuam
+            calo<lb ed="#N" n="79" break="no"/>ris. vnde conuenit vt per contactum carnis christi in qua non erat
+            con<lb ed="#N" n="80" break="no"/>cupiscentia peccati: adueniente spirituali vi verbi:
+            refrigera<lb ed="#N" n="81" break="no"/>ret carnem a concupisentia peccati. Item ratione dyaphaneitatis
+            si<lb ed="#N" n="82" break="no"/>ue transparentie per ipsam transit lumen: et illud sibi
+            quodan<lb ed="#N" n="83" break="no"/>modo incorporat. Unde conuenit vt per ipsam virtute verbi deo
+            <lb ed="#N" n="84"/>agente transeat lux gratie ad animam. non quod sit gratia in
+            bapti<lb ed="#N" n="85" break="no"/>smo sicut in subiecto: sed ratione virtutis commnis. vt ex virtute verbi
+            <lb ed="#N" n="86"/>vite: conferatur per gratiam vita spiritualis baptizato si digne
+            susci<lb ed="#N" n="87" break="no"/>piat. Item ratione perspicui quod habet: comnem cum corpore celesti
+            <lb ed="#N" n="88"/>habet virtutem siue vim viuificatiuam. vnde conuenit vt illa
+            me<lb ed="#N" n="89" break="no"/>diante anima viuificaretur vita spirituali. Iste autem proprietates
+            con<lb ed="#N" n="90" break="no"/>ueniunt baptismo qui habet virtutem mundandi sordes
+            spiritu<lb ed="#N" n="91" break="no"/>ales et reprimendi incentiuum fomitis. Item per ipsum
+            transfun<lb ed="#N" n="92" break="no"/>ditur lumen gratie ad animas et viuificatur ipsa anima vita spiritua
+            <lb ed="#N" n="93"/>li siue gratie.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e355">
+            ⁋ Ex hoc patet responsio ad primum. quia quamuis aqua non
+            <lb ed="#N" n="94"/>conueniat cum regenerato inquantum simplex vel inquantum elementum
+            <lb ed="#N" n="95"/>nihilominus conuenit cum ipsa regenerante siue cum effectu
+            il<lb ed="#N" n="96" break="no"/>lius ratione proprietatum que predicte sunt. et hec conuenientia
+            po<lb ed="#N" n="97" break="no"/>tius attenditur in sacramentis. vt sit conuenientia in
+            proprietati<lb ed="#N" n="98" break="no"/>bus potius quam in substantia de qua obiicit.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e369">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="99"/>queritur quare magis exercetur baptismus in hoc elemento quam in
+            <lb ed="#N" n="100"/>alio: et maxime quam in terra. Dicendum quod duo attendi debent
+            <lb ed="#N" n="101"/>in sacramento scilicet misticum solum: et misticum morale. vnde et hec
+            <lb ed="#N" n="102"/>in baptismo attendi debent. misticum solum circa christum scilicet
+            passi<lb ed="#N" n="103" break="no"/>onem eius et resurrectionem: que significatur per immersionem
+            <lb ed="#N" n="104"/>et elemuationem ab aqua. misticum morale quantum ad ea que fiunt
+            <lb ed="#N" n="105"/>circa baptiza tum scilicet purgationem. repressionem
+            incentiui<lb ed="#N" n="106" break="no"/>etc. propter que principaliter et per se exercetur baptismus. quantum
+            <lb ed="#N" n="107"/>ad ista congruit magis aqua quam terra vel sanguis. Corpus
+            <lb ed="#N" n="108"/>enim mersum in terra vel sanguine potius sordidatur quam pur
+            <lb ed="#N" n="109"/>gatur vel mundatur. non similiter est de aqua: immo habet
+            virtu<lb ed="#N" n="110" break="no"/>tem mundificatiuam qua mundantur corpora immersa. vnde
+            signi<lb ed="#N" n="111" break="no"/>ficat gratiam mundantem ipsam animam. Similiter est de aliis
+            effecti<lb ed="#N" n="112" break="no"/>bus.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e402">
+            ⁋ Ad aliud quod obiicitur. quod neque lege nature neque in
+            le<lb ed="#N" n="113" break="no"/>ge scripta et c. Dicendum quod hoc non oportuit: immo vt dicit
+            <lb ed="#N" n="114"/>Hug. oportuit vt secundum processum temporum spiritualium gratiarum
+            si<lb ed="#N" n="115" break="no"/>gna magis semper ac magis euidentia etc. vnde conueniens fuit
+            <lb ed="#N" n="116"/>vt baptismus fieret in aqua que euidentius gratiam
+            repre<lb ed="#N" n="117" break="no"/>sentat quam decimatio vel circumcisio: vt Hugo ostendit.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e415">
+            ⁋ Ad
+            <lb ed="#N" n="118"/>illud quod obiicitur de sacramentis legis nature et legis
+            vete<lb ed="#N" n="119" break="no"/>ris que fiebant ad purgationem originalis quod habebant ortum a
+            <lb ed="#N" n="120"/>terra. Dicendum quod lex scripta omnia conclusit sub maledicto.
+            <lb ed="#N" n="121"/>vnde de terra que maledicta erat. iii. Gen. congruebat vt
+            <lb ed="#N" n="122"/>ortum haberet quo exercebatur sacramentum purgationis: immo omnia
+            <lb ed="#N" n="123"/>sacrificia eorum ex terra ortum habebant hac ratione. vt
+            cogno<lb ed="#N" n="124" break="no"/>scerent se per sacramenta legalia non pertingere ad plenam
+            perfe<lb ed="#N" n="125" break="no"/>ctionem: sed adhuc persistere in maledictione. et sic cogerentur
+            fu<lb ed="#N" n="126" break="no"/>gere ad christum. Hec est causa spiectialis quare congruebat vt
+            sacrifi<lb ed="#N" n="127" break="no"/>cia et sacramenta legis veteris haberent ortum ex tera.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e439">
+            ⁋ Ad
+            <lb ed="#N" n="128"/>illud quod obiicitur. quod quia est sacramentum necessitatis conueniebat quod
+            fi<lb ed="#N" n="129" break="no"/>eret in aere. Dicendum quod non. licet enim aer sit humidus: non
+            tamen<lb ed="#N" n="130" break="no"/>quodlibet humidum aptum est ad lauandum vel ad abluendum: sed
+            <lb ed="#N" n="131"/>humidum aqueum. Alia etiam ratio est. quia aer naturaliter calidus
+            <lb ed="#N" n="132"/>est: et ideo ita non conuenit ad repressionem fomitis sicut aqua que est
+            <lb ed="#N" n="133"/>frigida.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e455">
+            ⁋ Et quod obiicit quod est sacramentum necessitatis. dicendum quod
+            ve<lb ed="#N" n="134" break="no"/>rum est: et ideo instituit dominus vt fieret in elemento communi ad
+            <lb ed="#N" n="135"/>hoc tamen apto: quod solum est aqua. vt nullus posset excusari a susce
+            <lb ed="#N" n="136"/>ptione sacramenti.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e464">
+            ⁋ Ad hoc quod obiicitur. quod per oleum signatur gratia etc.
+            <lb ed="#N" n="137"/>Responsio. quod verum est: sed ratione effectus gratie qui sunt confortare et
+            con<lb ed="#N" n="138" break="no"/>firmare. oleum enim confortat et consolidat illud quod linitur illo. Istos
+            <lb ed="#N" n="139"/>autem effectus habet gratia in confirmatione. alios autem effectus habet
+            <lb ed="#N" n="140"/>in baptismo scilicet purgationis et decorationis. quia gratia baptizabilis
+            <pb ed="#N" n="105"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>purgat siue mundificat animam et decorat. quantum ad hos
+            effe<lb ed="#N" n="2" break="no"/>ctus expressius significatur per aquam quam per oleum. Ex his dictis
+            <lb ed="#N" n="3"/>patet responsio ad plura que sequuntur. Sanguis enim mundificatiuam
+            <lb ed="#N" n="4"/>vim non habet sed potius sordidat et maculat. et ideo non conuenit
+            <lb ed="#N" n="5"/>huic sacramento. Sanguis autem christi habet vim mundificatiuam et
+            <lb ed="#N" n="6"/>viuificatiua causaliter.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e494">
+            ⁋ Ad illud quod queritur quare
+            sacra<lb ed="#N" n="7" break="no"/>mentum purgationis in veteri lege exercebatur ferro vel
+            lapi<lb ed="#N" n="8" break="no"/>de: in nouo in aqua. Responsio. vt habetur. vii. Act populus ille
+            <lb ed="#N" n="9"/>durus erat et resistens spiritui sancto. ideo congruebat vt
+            pur<lb ed="#N" n="10" break="no"/>gatio illorum fieret ferro vel lapide: que non de facili cedunt
+            <lb ed="#N" n="11"/>vel recipiunt impressionem. Sed sacramentum purgationis christianorum
+            <lb ed="#N" n="12"/>quorum est imitari christum obedientem patri vsque ad mortem. ii.
+            <lb ed="#N" n="13"/>Phil. congrue fit in aqua que maxime cedit et facillime
+            reci<lb ed="#N" n="14" break="no"/>pit impressionem.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e514">
+            ⁋ Ad aliud quod obiicitur quod circumcisio fuit
+            si<lb ed="#N" n="15" break="no"/>gnum baptismi: vnde debebant conuenire in signo. Dicendum
+            <lb ed="#N" n="16"/>quod circumcisio non dicitur esse figura siue signum baptismi
+            repre<lb ed="#N" n="17" break="no"/>sentationis ex parte signi: sed potius ratione conuenientie ex parte
+            si<lb ed="#N" n="18" break="no"/>gnati. vnde Hug. Mandauit deus abrahe vt circumcideret
+            pel<lb ed="#N" n="19" break="no"/>lem prepucii: sibi in signum: posteris in exemplum tantum ad
+            prio<lb ed="#N" n="20" break="no"/>rem statum superaddens. quatenus per hoc signaculum populus dei ab
+            <lb ed="#N" n="21"/>infidelibus discerneretur: quousque ille veniret qui non solum de
+            <lb ed="#N" n="22"/>filiis abrahe sed de vniuersis gentibus fideles colligeret. ac
+            <lb ed="#N" n="23"/>per hoc non iam signaculum carnis in genere: sed per signaculum
+            <lb ed="#N" n="24"/>baptismatis secernerentur in sanctificatione. hec Hugo.
+            Si<lb ed="#N" n="25" break="no"/>gnum igitur fuit baptizantis quantum ad hoc. quod sicut genus abrahe
+            <lb ed="#N" n="26"/>fuit discretum ab aliis caractere carnali: sic genus christi id est
+            fi<lb ed="#N" n="27" break="no"/>deles discretum ab aliis caractere spirituali id est. sanctificate.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e545">
+            <lb ed="#N" n="28"/>⁋ Ad hoc quod obiicitur. quod sicut se habet causa ad causam etc. Dicendum
+            <lb ed="#N" n="29"/>quod hoc non tenet in causis instrumentalibus. lignum enim et lapis
+            <lb ed="#N" n="30"/>non conueniunt nisi in genere. nihilominus in multis effectibus
+            <lb ed="#N" n="31"/>proximis conueniunt. vtrumque enim aptum est ad supportandum ad
+            conte<lb ed="#N" n="32" break="no"/>rendum et ad alia multa. Nec est aliqua necessitas inferendi. quia
+            <lb ed="#N" n="33"/>causa in comparatione sumitur equiuoce. quia hoc sumitur causa
+            instrumen<lb ed="#N" n="34" break="no"/>talis: ibi causa materialis.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e563">
+            ⁋ Ad illud quod queritur vtrum de
+            la<lb ed="#N" n="35" break="no"/>tere christi fluxit aqua vel humor aqueus. Dicendum quod aqua secundum
+            te<lb ed="#N" n="36" break="no"/>stimonium Io. xix. et hoc ad eliminandum errorem manicheorum:
+            <lb ed="#N" n="37"/>qui posuerunt christum non habere corpus verum. Cum enim de
+            compositi<lb ed="#N" n="38" break="no"/>one corporis humani prima componentia sint elementa. non primo
+            <lb ed="#N" n="39"/>componentia humores qui constant ex elementis: vt ostenderet se
+            ha<lb ed="#N" n="40" break="no"/>bere corpus verum: vtrumque fluxit de corpore eius scilicet elementum vt
+            <lb ed="#N" n="41"/>aqua: et humor vt sanguis. in qua simul fluxerunt alii tres
+            humo<lb ed="#N" n="42" break="no"/>res sicut in minutionibus.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e583">
+            ⁋ Si autem queratur si in articulo
+            mor<lb ed="#N" n="43" break="no"/>tis aliquis in vino vel alio liquore propter defectum aque
+            baptiza<lb ed="#N" n="44" break="no"/>retur. vtrum esset baptizatus vel in aqua mixta cum alio liquore vt
+            <lb ed="#N" n="45"/>oleo vel sanguine. Responsio. quod si in quocumque alio liquore ab aqua
+            <lb ed="#N" n="46"/>baptizaretur quis: non esset baptizatus. nec etiam si in aqua mixta
+            <lb ed="#N" n="47"/>cum aliquo liquore: nisi aqua intantum dominaretur quod aqua esset
+            <lb ed="#N" n="48"/>si autem alius liquor dominaretur: nequaquam. et ratio huius est propter
+            in<lb ed="#N" n="49" break="no"/>stitutionem diuinam. quia dominus instituit in aqua et non in alio liquore.
+            <lb ed="#N" n="50"/>nec etiam contulit aliis liquoribus virtutem regeneratiuam sicut aqua.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3lbxk-Dd1e605">
+          <head xml:id="v78d89-a3lbxk-Hd1e607">Articulus 2</head>
+          <p xml:id="v78d89-a3lbxk-d1e609">
+            <lb ed="#N" n="51"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e614">
+            <lb ed="#N" n="52"/>COnsequenter queritur de quantitate. et quia tactum est
+            <lb ed="#N" n="53"/>quanta aqua debet dici baptismus vbi
+            superabun<lb ed="#N" n="54" break="no"/>dat aqua. vt si quis baptizaretur in fluuio vel mari.
+            <lb ed="#N" n="55"/>queritur quanta sufficiat vbi est defectus aque. et queritur vtrum
+            <lb ed="#N" n="56"/>si fuerit tanta modicitas aque vt non possit baptizans tingere
+            <lb ed="#N" n="57"/>nisi vnam partem corporis: vtrum debeat dici baptismus. cum non
+            <lb ed="#N" n="58"/>determinetur a domino vtrum totum corpus debeat tingi vel aliqua
+            <lb ed="#N" n="59"/>pars.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e634">
+            ⁋ Ad quod dicendum. quod in articulo necessitatis sufficit tantum
+            <lb ed="#N" n="60"/>de aqua quod ibi possit intingi principalis pars corporis: cum ibi
+            <lb ed="#N" n="61"/>vigeant omnes sensus. si tamen dubitetur an fuerit baptizatus:
+            re<lb ed="#N" n="62" break="no"/>medium habemus: quia non dicitur iteratum quod nescitur esse factum. et de his
+            <lb ed="#N" n="63"/>habemus formam expressius ab Inno. vt dicatur non rebaptizo te
+            <lb ed="#N" n="64"/>hoc si non fueris baptizatus etc. Ego baptizo te.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3lbxk-Dd1e648">
+          <head xml:id="v78d89-a3lbxk-Hd1e650">Articulus 3</head>
+          <p xml:id="v78d89-a3lbxk-d1e652">
+            <lb ed="#N" n="65"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e657">
+            <lb ed="#N" n="66"/>COnsequenter queritur de idemptitate aqua et baptismi.
+            <lb ed="#N" n="67"/>Et queritur vtrum baptismus siue sacramentum baptismi
+            <lb ed="#N" n="68"/>secundum suam essentiam sit aqua. Quod sic: videtur per
+            diffiniti<lb ed="#N" n="69" break="no"/>one Hugo. que est. Baptismus est aqua abluendis criminibus
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>sanctificata. Idem videtur per diffinitionem sui generis que est.
+            <lb ed="#N" n="71"/>Sacramentum est elementum ex similitudine representans etc. ergo si aqua est
+            <lb ed="#N" n="72"/>elementum. sacramentum baptismi est aqua.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e677">
+            ⁋ Si diceretur.
+            diffini<lb ed="#N" n="73" break="no"/>tiones predicte sunt assignate per causam materialem non per
+            essen<lb ed="#N" n="74" break="no"/>tiam. Contra. hec predicatio est per essentiam. baptismus est
+            sa<lb ed="#N" n="75" break="no"/>cramentum. et hec: sacramentum est signum. et hec: signum est
+            spe<lb ed="#N" n="76" break="no"/>cies sensibilis aliud faciens in cognitionem venire. ergo hec est
+            ve<lb ed="#N" n="77" break="no"/>ra secundum essentiam: baptismus est species vel forma visibilis
+            <lb ed="#N" n="78"/>rei inuisibilis. sed hec forma vel species non est nisi aqua. igitur etc.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e693">
+            <lb ed="#N" n="79"/>⁋ Item in baptismo gratia que est res sacramenti significatur per
+            <lb ed="#N" n="80"/>aquam. quod patet per hoc. quod gratia abluens intra: signatur per aquam
+            <lb ed="#N" n="81"/>abluentem extra. ergo gratia significatur per aquam. sed illud est
+            sacra<lb ed="#N" n="82" break="no"/>mentum per quod signatur res sacramenti. ergo aqua est sacramentum. sed non
+            <lb ed="#N" n="83"/>aliud quam baptismus. ergo etc.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e707">
+            ⁋ Contra. aliud est ablutio in
+            <lb ed="#N" n="84"/>aqua: et aliud ipsa aqua. ablutio enim in aqua non est aqua. Sed
+            <lb ed="#N" n="85"/>dicit magister sent. quod baptismus est ablutio corporis exterior
+            <lb ed="#N" n="86"/>facta sub forma verborum prescripta. ergo baptismus non est aqua:
+            <lb ed="#N" n="87"/>cum sit ablutio in aqua.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e718">
+            ⁋ Item quare quandoque dicitur baptismus
+            <lb ed="#N" n="88"/>aqua: quandque ablutio in aqua: quandoque tinctio. que est istorum differentia:
+            <lb ed="#N" n="89"/>et sunt ne diuersa sacramenta vel unum sacramentum:
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e725">
+            ⁋ Respondeo. quod
+            <lb ed="#N" n="90"/>cum dicitur baptismus aqua. est predicatio materialis. et
+            dif<lb ed="#N" n="91" break="no"/>finitio Hugo. est assignata per causam materialem. vnde nomine
+            ex<lb ed="#N" n="92" break="no"/>tenso scilicet eo modo quo pars essentialis alicuius scilicet materia vel
+            for<lb ed="#N" n="93" break="no"/>ma dicitur de illo cuius est pars per essentiam et econuerso. hoc est per
+            com<lb ed="#N" n="94" break="no"/>municationem essentie alicuius: sic potest dici baptismus esse aqua
+            essen<lb ed="#N" n="95" break="no"/>tialiter siue per essentiam. proprie autem dicendo aliquid esse aliud
+            <lb ed="#N" n="96"/>per essentiam eo quod eadem est essentia illorum omnino. sicut est de
+            diffi<lb ed="#N" n="97" break="no"/>nitione et diffinito. et de Sorte et hoc sedente eodem
+            demon<lb ed="#N" n="98" break="no"/>strato. sic non debet dici baptismus esse aqua secundum suam essentiam.
+            <lb ed="#N" n="99"/>Cum ergo obiicitur. quod hec predicatio est per essentiam: baptismus
+            <lb ed="#N" n="100"/>est sacramentum. Dicendum quod hoc verum est eo modo quo predicatio
+            <lb ed="#N" n="101"/>est per essentiam. quando aliquid quod est de esse alterius predicatur de
+            <lb ed="#N" n="102"/>illo. Genus enim est de esse speciei: et non dicit totum esse eius.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e756">
+            ⁋ Cum
+            <lb ed="#N" n="103"/>autem subditur quia baptismus est forma vel species rei visibilis
+            <lb ed="#N" n="104"/>faciens aliud in cognitionem venire. et hec est species aqua.
+            Di<lb ed="#N" n="105" break="no"/>cendum quod aqua non facit aliud id est rem sacramenti in cognitionem
+            <lb ed="#N" n="106"/>venire inquantum est aqua: sed inquantum est aqua abluens. aqua enim
+            <lb ed="#N" n="107"/>abluens signum est gratie intus mundantis: et ablutio signum
+            <lb ed="#N" n="108"/>interioris mundationis. et ita vtrumque sacramentum. nec tamen duo
+            sacra<lb ed="#N" n="109" break="no"/>menta quia vnum est propter alterum. aqua enim non est sacramentum
+            <lb ed="#N" n="110"/>nisi inquantum est abluens. et lotio non est sacramentum nisi quia lotio
+            <lb ed="#N" n="111"/>aque vel in aqua. et ideo vnum tantum sacramentum. Nec dicitur baptismus aqua
+            <lb ed="#N" n="112"/>simplciter in diffinitione Hugo. sed aqua sanctificata: quo nota
+            <lb ed="#N" n="113"/>tur quod dicitur aqua abluens in ablutione enim sanctificatur ipsa
+            <lb ed="#N" n="114"/>aqua: quia tunc verba sanctificantia proferuntur.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e785">
+            ⁋ Ad aliud dicendum
+            <lb ed="#N" n="115"/>quod aqua est sacramentum non inquantum est aqua solum proprie
+            <lb ed="#N" n="116"/>loquendo: sed potius inquantum illi conuenit actus ablutionis.
+            <lb ed="#N" n="117"/>nec res sacramenti est proprie loquendo gratia: sed gratia mundans siue
+            <lb ed="#N" n="118"/>spiritualiter abluens.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e796">
+            ⁋ Ex his patet responsio ad illud quod obiicitur
+            <lb ed="#N" n="119"/>pro alia parte. quia licet baptismus sit ablutio: ex hoc non sequitur quod non
+            <lb ed="#N" n="120"/>sit aqua abluens. quia aqua inquantum abluens est
+            sacramen<lb ed="#N" n="121" break="no"/>tum.
+          </p>
+          <p xml:id="v78d89-a3lbxk-d1e806">
+            ⁋ Ad vltimum dicendum. quod baptismus dicitur aqua
+            mate<lb ed="#N" n="122" break="no"/>rialiter loquendo vt dictum est. tinctio et ablutio quasi
+            for<lb ed="#N" n="123" break="no"/>maliter. Sed tinctio simpliciter dicit formam actus exterioris
+            <lb ed="#N" n="124"/>ablutio dicit formam exterioris: concernendo quodam
+            <lb ed="#N" n="125"/>modo effectum ipsius actus. Ablutio enim dicit tinctionem
+            <lb ed="#N" n="126"/>cum effectu ipsius mundationis. ablutio enim est lotio a
+            <lb ed="#N" n="127"/>sorde vel aliquo huiusmodi.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

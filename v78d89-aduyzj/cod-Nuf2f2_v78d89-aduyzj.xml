@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 75, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 75, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="472"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aduyzj"><!-- q75m1 -->
+        <head xml:id="v78d89-aduyzj-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-aduyzj-Hd1e103" type="question-title">Utrum contritio sit donum spiritus sancti quod sic: videtur</head>
+        <p xml:id="v78d89-aduyzj-d1e106">
+          <lb ed="#N" n="33"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e111">
+          <lb ed="#N" n="34"/>QUeritur ergo primo. vtrum contritio sit donum spiritus sancti
+          <lb ed="#N" n="35"/>Quod sic: videtur. dicit augustinus et habetur. iiii. sen. donum
+          <lb ed="#N" n="36"/>spiritus sancti habet qui confitetur et penitet id est qui conteritur.
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e120">
+          <lb ed="#N" n="37"/>⁋ Item prouerb. i. Initium sapicentie timor domini. ibi
+          <lb ed="#N" n="38"/>habetur ex glo. quod duplex est timor scilicet seruilis et initialis. et
+          vter<lb ed="#N" n="39" break="no"/>que est initium sapicentie. sed attritio est ex timore seruili: contritio ex
+          <lb ed="#N" n="40"/>timore initiali. sed quod est causa cause: est causa causati. ergo
+          con<lb ed="#N" n="41" break="no"/>tritio datur a spiritusancto a quo datur sua causa scilicet timor initialis.
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e134">
+          <lb ed="#N" n="42"/>⁋ Item dolor de peccato id est contritio efficacior est ad iustificandum
+          <lb ed="#N" n="43"/>quam timor. sed tior est donum spiritus sancti: ergo fortiori ratione et contritio.
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e141">
+          ⁋ Item
+          <lb ed="#N" n="44"/>Ro. viii. Spiritus postulat pro nobis gemitibus inenarrabilibus
+          <lb ed="#N" n="45"/>id est facit postulare. et exponit glo. quedam de spiritusancto. glo.
+          fa<lb ed="#N" n="46" break="no"/>cit nos gemere plus quam dici posset. ergo gemitus penitentie id est contritio est
+          <lb ed="#N" n="47"/>datum ab ipso.
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e152">
+          ⁋ Contra. non est aliquod septem donorum. neque enim
+          <lb ed="#N" n="48"/>sapicentia neque intellectus etc. ergo non est donum.
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e157">
+          ⁋ Responsio dicunt quidam
+          <lb ed="#N" n="49"/>quod dolor comphenditur sub pietate. eo enim quod pietas est contraria
+          <lb ed="#N" n="50"/>duriciei et vt frequentius perducit cor in tenerirudinem. vnde est
+          do<lb ed="#N" n="51" break="no"/>lor et passio de propria miseria et aliena. duricia autem facit
+          de<lb ed="#N" n="52" break="no"/>sistere ab huiusmodi siue retardare: dicunt quod ad donum pietatis
+          <lb ed="#N" n="53"/>reduci habet. Similiter potest dici quod donum sumitur communiter et proprie.
+          communi<lb ed="#N" n="54" break="no"/>ter prout dicitur in comparatione ad dantem. qui dat sine spe
+          re<lb ed="#N" n="55" break="no"/>tributionis. secundum quod secundum phoscumdm dicitur quod donum est datio
+          irre<lb ed="#N" n="56" break="no"/>dibilis. secundum ergo quod donum dicitur in relatione ad datorem
+          <lb ed="#N" n="57"/>iberalem scilicet sine redditione: vt ad illum qui dat omnia
+          af<lb ed="#N" n="58" break="no"/>fluenter et non improperat. similiter contritio et alia colla
+          <lb ed="#N" n="59"/>ia a liberali datore: dona possunt dici. Iuxta illud Iaco.
+          <lb ed="#N" n="60"/>i. Omne donum perfectum desursum est descendens a patre
+          <lb ed="#N" n="61"/>suminum. Proprius sumitur donum ex superadditione gratie
+          <lb ed="#N" n="62"/>super gratiam virtutum. vtpote quando datur in adiutorium
+          <lb ed="#N" n="63"/>virtutum ad actus eorum expediendos. secundum quem modum
+          su<lb ed="#N" n="64" break="no"/>muntur septem dona numerata ysa. ix. et sic non est donum
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e194">
+          <lb ed="#N" n="65"/>⁋ Ad aliud quod obiicitur. quod dolor melius dicendum est
+          <lb ed="#N" n="66"/>donum quam timor. dicendum quod non est verum: eo enim quod
+          ti<lb ed="#N" n="67" break="no"/>mor negligit. et dono conuenit iuuare virtutes ad actus
+          su<cb ed="#N" n="b"/><lb ed="#N" n="68" break="no"/>os expediendos: plus conuenit ista expeditio et
+          iuuamen<lb ed="#N" n="69" break="no"/>timori quam dolori. Illud perfectius terminatum est in
+          tra<lb ed="#N" n="70" break="no"/>ctatu de donis.
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e211">
+          ⁋ Ad illud quod obiicitur. quod lugere est
+          be<lb ed="#N" n="71" break="no"/>atitudinis et ita non est donum. hoc potest concedi eo modo
+          <lb ed="#N" n="72"/>quo tactum est.
+        </p>
+        <p xml:id="v78d89-aduyzj-d1e219">
+          ⁋ Ad illud quod opponitur. quod virtus et
+          be<lb ed="#N" n="73" break="no"/>atitudo diuiduntur per opposita. dicendum quod virtus sumitur
+          <lb ed="#N" n="74"/>comuniter et proprie. secundum quod communiter: diffinitur bona
+          quali<lb ed="#N" n="75" break="no"/>tas mentis etc. et sic beatitudo est virtus. secundum autem quod
+          pro<lb ed="#N" n="76" break="no"/>prie dicitur virtus circa primos actus potentiarum in finem.
+          <lb ed="#N" n="77"/>vel in id quod est ad finem: non est beatitudo virtus.
+          pro<lb ed="#N" n="78" break="no"/>prie enim loquendo dicuntur beatitudines: quia secundum statum
+          di<lb ed="#N" n="79" break="no"/>gnissimum vie disponunt ad beatitudinem patrie. licet enim
+          <lb ed="#N" n="80"/>virtutes et dona disponant: dignissime tamen disponunt
+          <lb ed="#N" n="81"/>ille forme. et ex relatione immediata ad beatitudinem
+          pa<lb ed="#N" n="82" break="no"/>trie dicuntur beatitudines. sicut patet ex serie euangelica.
+          <lb ed="#N" n="83"/>cum dicitur beati pauperes spiritu quoniam ipsorum est
+          regnum<lb ed="#N" n="84" break="no"/>celorum. Preterea accepto nomine virtutis secundum communem
+          <lb ed="#N" n="85"/>rationem. adhuc est dicere. quod aliunde est virtus et aliunde
+          <lb ed="#N" n="86"/>beatitudo. Nam in exemplum virtus est ad aliud. in
+          exen<lb ed="#N" n="87" break="no"/>plum beatitudo est ad quod alia. et preter hoc virtus determi
+          <lb ed="#N" n="88"/>nat sibi actum: beatitudo non sed posse habet ad omnem
+          <lb ed="#N" n="89"/>virtutem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 53, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 53, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="345"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aaslth"><!-- q53prae -->
+        <head xml:id="v78d89-aaslth-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-aaslth-d1e103">
+          <lb ed="#N" n="86"/>Questio iiii. de actum man
+          <lb ed="#N" n="87"/>ducandi in comparatione ad manducatum.
+        </p>
+        <p xml:id="v78d89-aaslth-d1e110">
+          <lb ed="#N" n="88"/>COnsequenter
+          que<lb ed="#N" n="89" break="no"/>ritur de actu manducandi in
+          compara<lb ed="#N" n="90" break="no"/>tione ad manducatum. Primo
+          queri<lb ed="#N" n="91" break="no"/>tur vtrum liceat sumere corpus christi sub
+          spe<lb ed="#N" n="92" break="no"/>cie panis tantum: sine sumptione sub specie vini.
+          <lb ed="#N" n="93"/>Secundo vtrum corpus christi sumptum intret ventrem. Tercio
+          <lb ed="#N" n="94"/>vtrum eiiciatur per vomitum. Quarto vtrum sub propria specie scilicet
+          <lb ed="#N" n="95"/>carnis sit sumendum. Quinto de reditione specie panis post
+          <lb ed="#N" n="96"/>corpus sumptum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 62, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 62, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="404"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-abzzwj"><!-- q62m1 -->
+        <head xml:id="v78d89-abzzwj-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-abzzwj-Hd1e103" type="question-title">Utrum poenitentiae sacramentum sit fundamentum</head>
+        <p xml:id="v78d89-abzzwj-d1e106">
+          <lb ed="#N" n="123"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-abzzwj-d1e111">
+          <lb ed="#N" n="124"/>PRimo queritur vtrum penitentie sacamt
+          <lb ed="#N" n="125"/>tum sit fundamentum. Quod sic: videtur per hoc
+          <lb ed="#N" n="126"/>quod illud quod prius est ordine nature in
+          edi<lb ed="#N" n="127" break="no"/>ficio spirituali fundamentum est sicut in
+          <lb ed="#N" n="128"/>edificio materiali. sed penitentia virtus est prima virtus
+          <lb ed="#N" n="129"/>et eo modo quo est prima est fundamentum. Igitur cum
+          <lb ed="#N" n="130"/>penitentia sacramentum in suo esse concernit
+          penitenti<lb ed="#N" n="131" break="no"/>am virtutem: videtur quod similiter sit fundamentum in
+          edi<lb ed="#N" n="132" break="no"/>ficio spirituali.
+        </p>
+        <p xml:id="v78d89-abzzwj-d1e133">
+          ⁋ Item impossibile est domum dei
+          edifica<lb ed="#N" n="133" break="no"/>ri in corpore hominis nisi destruatur edificium saihane
+          <lb ed="#N" n="134"/>et ipse expellatur. Sed hec destructio et expulsio fit
+          persa<lb ed="#N" n="135" break="no"/>cramentum penitentie.
+        </p>
+        <p xml:id="v78d89-abzzwj-d1e143">
+          ⁋ Si diceretur quod non: immo per
+          <lb ed="#N" n="136"/>penitentiam virtutem. Contra. perfectius destruitur edificium
+          <pb ed="#N" n="405"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>dyaboli per sacramentum penitentie: quam per virtutem
+          peniten<lb ed="#N" n="2" break="no"/>tie. ergo destructio ipsa magis ascribenda est ipsi penitentie
+          <lb ed="#N" n="3"/>sacramento quam virtuti. sed in edificio spirituali dicitur funda
+          <lb ed="#N" n="4"/>mentum illud quod est primo operatiuum: ergo
+          sacramen<lb ed="#N" n="5" break="no"/>tum penitentie est fundamentum. In edificio enim
+          materi<lb ed="#N" n="6" break="no"/>ali dicitur fundamentum materiale substratum. In
+          spiri<lb ed="#N" n="7" break="no"/>tuali quod est primum operatiuum intra sicut patet de fide.
+        </p>
+        <p xml:id="v78d89-abzzwj-d1e167">
+          <lb ed="#N" n="8"/>⁋ Item sacramento penitentie tolluntur peccata: et
+          vir<lb ed="#N" n="9" break="no"/>tutes inseruntur. quod autem tale est: est initium edificii
+          spi<lb ed="#N" n="10" break="no"/>ritualis. initium autem et fundamentum idem sunt:
+          er<lb ed="#N" n="11" break="no"/>go etc. In peccatore autem nihil est edificii spiritualis. per
+          <lb ed="#N" n="12"/>sacramenta autem penitentie amouentur impedimenta
+          <lb ed="#N" n="13"/>ipsius constructionis. et sternuntur ea super que
+          edifican<lb ed="#N" n="14" break="no"/>tur illa ex quibus construitur et perficitur ipsum edificium
+          <lb ed="#N" n="15"/>et ita videtur vt prius.
+        </p>
+        <p xml:id="v78d89-abzzwj-d1e187">
+          ⁋ Contra. penitentia
+          sacramen<lb ed="#N" n="16" break="no"/>tum non nominatur. vi. heb. vbi illa nominantur que
+          ra<lb ed="#N" n="17" break="no"/>tionem fundamenti sortiuntur.
+        </p>
+        <p xml:id="v78d89-abzzwj-d1e194">
+          ⁋ Responsio. quod modo
+          <lb ed="#N" n="18"/>quodam communi dicitur penitentia sacramentum
+          funda<lb ed="#N" n="19" break="no"/>mentum. modo autem speciali quo dicitur fundamentum
+          <lb ed="#N" n="20"/>vi. hebre. ibi. non rursum iacientes fundamentum
+          peniter<lb ed="#N" n="21" break="no"/>tie ab operibus mortuis etc. non dicitur fundamentum
+          <lb ed="#N" n="22"/>hec infra plenius patebunt.
+        </p>
+        <p xml:id="v78d89-abzzwj-d1e207">
+          ⁋ Rationes ergo prime que
+          <lb ed="#N" n="23"/>concludunt quod penitentia sacramentum dicitur
+          fundamen<lb ed="#N" n="24" break="no"/>tum possunt concedi. Similiter et ille que concludunt quod
+          <lb ed="#N" n="25"/>non est fundamentum. quia licet modo quodam
+          communi<lb ed="#N" n="26" break="no"/>dicitur fundamentum: non tamen illo modo speciali quo
+          <lb ed="#N" n="27"/>determinatur. vi. ad hebre. sic primo determinatur
+          com<lb ed="#N" n="28" break="no"/>muniter que dicuntur fundamentum et eorum differentia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 79, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 79, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="512"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aelfme"><!-- q79m5 -->
+        <head xml:id="v78d89-aelfme-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-aelfme-Hd1e103" type="question-title">Ad quid sint claves praecise</head>
+        <p xml:id="v78d89-aelfme-d1e106">
+          <lb ed="#N" n="89"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-aelfme-d1e111">
+          <lb ed="#N" n="90"/>COnsequentur queritur ad quid sint claues precise. vtrum
+          <lb ed="#N" n="91"/>tantum ad aperiendum: an ad aperiendum et claudendum.
+          <lb ed="#N" n="92"/>Quod ad aperiendum tantum: videtur per hoc quod claues date
+          <lb ed="#N" n="93"/>sunt ad commodum nostum sed non est commodum nostum quod
+          re<lb ed="#N" n="94" break="no"/>gnum nobis claudatur.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e124">
+          ⁋ Item ingressus regni celorum clauditur per
+          <lb ed="#N" n="95"/>obstaculi appositionem. Appositio obstaculi est claudens
+          ingres<lb ed="#N" n="96" break="no"/>sum per peccati commissionem. claues autem non suntad faciendum homines pec
+          <lb ed="#N" n="97"/>care: ergo nec ad soluendum etc.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e134">
+          ⁋ Item quicumque vtitur instrumento ad
+          <lb ed="#N" n="98"/>illud ad quod est: recte vtitur illo. sed sacerdos claudendo aditum
+          re<lb ed="#N" n="99" break="no"/>gni non recte facit sed peccat: ergo clauis non est ei ad hoc data.
+          proba<lb ed="#N" n="100" break="no"/>tio minoris Math. xxiii. ve vobis scribe et pharisri qui
+          claudi<lb ed="#N" n="101" break="no"/>tis regnum celorum ante homines. ergo peccarent in hoc.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e145">
+          ⁋ Item nihil idem est
+          <lb ed="#N" n="102"/>ad oppositos fines. sed claudere et aperire regnum celorum sunt
+          oppo<lb ed="#N" n="103" break="no"/>sita: ergo clauis non ordinatur ad hec duo.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e152">
+          ⁋ Item baptismus apit
+          ce<lb ed="#N" n="104" break="no"/>lum et non claudit. Similiter videtur de claue quod tantum aperiat. Mat. .
+          <lb ed="#N" n="105"/>Ascendit de aqua et ecce celi aperti sunt. et vidit spiritum
+          descenden<lb ed="#N" n="106" break="no"/>tem sicut columbam et venientem super se. Glo. Rabani. non tune
+          pri<lb ed="#N" n="107" break="no"/>mum sibi patuere celestia vel spiritus sanctus datus est. sed nobis per
+          acc<lb ed="#N" n="108" break="no"/>ptum baptismum aditum celi patrie et spinunsanctum dari
+          monstra<lb ed="#N" n="109" break="no"/>uit.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e168">
+          ⁋ Item cum de christo dicitur Esa. xxii. dabo clauem domus dauid so
+          <lb ed="#N" n="110"/>per humerum eius. aperiet et nemo claudet: claudet et nemo apriet
+          <lb ed="#N" n="111"/>maxime patet quod officium ministrorum determinatum est ad vnam paree tantum quato
+          <lb ed="#N" n="112"/>ad officium clauium.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e177">
+          ⁋ Item cum alicui precluditur ingxessus regni.
+          <lb ed="#N" n="113"/>fit contra legem ecclesie que interdicit ne malum pro malo fiat. Ro. xii.
+          nul<lb ed="#N" n="114" break="no"/>li malum pro malo reddentes. et Math. vi. bendefacite his qui
+          ode<lb ed="#N" n="115" break="no"/>runt vos. ergo claues non debent esse neque sunt ad claudendum alicui in
+          <lb ed="#N" n="116"/>gressum.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e188">
+          ⁋ Item cum soluere et ligare non sunt clauis vsus. sed
+          ma<lb ed="#N" n="117" break="no"/>nus magis: non videtur quod dominus deberet clauibus attribuere vsum
+          ligan<lb ed="#N" n="118" break="no"/>di et soluendi. quod non facit Mat. xvi. queritur ergo vnde hoc sit.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e196">
+          ⁋
+          Con<lb ed="#N" n="119" break="no"/>tra. in datione clauium deus dedit non solum potestatem soluendi: sed et
+          ligam<lb ed="#N" n="120" break="no"/>di. non solum dimittendi peccata: sed etiam retinendi. sicut patet Mat. xvi
+          <lb ed="#N" n="121"/>et Ioh. xx. et per hoc quod soluunt sunt ad aperiendum et per hoc quod remit
+          <lb ed="#N" n="122"/>tunt similiter. ergo ab oppositis per hoc quod ligant et retinent erunt ad
+          clau<lb ed="#N" n="123" break="no"/>dendum: non ergo solum ad aperiendum.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e209">
+          ⁋ Item clauis dicitur
+          metapho<lb ed="#N" n="124" break="no"/>rice in spiritualibus ad similitudinem clauis in temporalibus. sed in
+          mate<lb ed="#N" n="125" break="no"/>rialibus officium clauis non tantum est aperire. sed et claudere: ergo etc.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e216">
+          <lb ed="#N" n="126"/>⁋ Item intelligatur quod si non esset peccatum tunc esset celum apertum. nunc
+          <lb ed="#N" n="127"/>autem clauditur per peccatum. Ex peccato enim sequitur pena peccati vna. scilicet
+          <lb ed="#N" n="128"/>reatus pene gehaenne. altera carentia visionis dei. est ergo clauis
+          <lb ed="#N" n="129"/>ad aperiendum celum et claudendum infernum bonis: et econuersoma
+          <lb ed="#N" n="130"/>lis scilicet ad claudendum celum et aperiendum infernum.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e229">
+          ⁋ Ad
+          euiden<lb ed="#N" n="131" break="no"/>tiam pretactorum nota. quod vt dicit Isido. ethi. xv. ostium dicitur
+          ge<lb ed="#N" n="132" break="no"/>neraliter per quod ab aliquo arcemur ingressu. ab obstando dictum
+          <lb ed="#N" n="133"/>sed constat quod duo sunt que arcent nos ab introitu celi. scilicet
+          culpa<lb ed="#N" n="134" break="no"/>et pena debita. et ita dici potest duplex ostium celi. et apertio
+          ostio<lb ed="#N" n="135" break="no"/>rum horum non est nisi remotio obstaculorum horum. et claues non sunt
+          ni<lb ed="#N" n="136" break="no"/>si potestates remouentes hec obstacula. sed quia peccatum remouet solus
+          <lb ed="#N" n="137"/>deus et penam simul annexam que est infernum. patet quod huiusmodi
+          <lb ed="#N" n="138"/>ostii clauem habet solus christus. Apoc. iii. hec dicit sanctus et
+          ve<lb ed="#N" n="139" break="no"/>rus: qui habet clauem dauid qui aperit et nemo claudit etc.
+          <lb ed="#N" n="140"/>hec clauis quodammodo est potestas inserta. per crucem enim
+          <lb ed="#N" n="141"/>siue passionem christi ostium aperiebatur: quia ibi abolita est culpa et
+          pe<pb ed="#N" n="513"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>ne eterne debitum. his qui credunt dimittitur et acceptant illud per
+          sa<lb ed="#N" n="2" break="no"/>cramenta ad hoc instituta. verum tamen aliquid pene fuit ibi non
+          dimis<lb ed="#N" n="3" break="no"/>sum: et ita adhuc est aliud obstaculum. scilicet pene temporalis. cuius
+          re<lb ed="#N" n="4" break="no"/>motionem obstaculi que est ostii apertio reseruatur sacerdoti. et
+          <lb ed="#N" n="5"/>quia remoto obstaculo culpe et eterne pene: debetur pena
+          pur<lb ed="#N" n="6" break="no"/>gatoria. vel presentes sunt iste due pene sicut duplex ostium.
+          <lb ed="#N" n="7"/>vnum remotius ab ingressu. scilicet purgatorium quod longius est: et aliud
+          <lb ed="#N" n="8"/>propinquius. scilicet pena presens.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e275">
+          ⁋ Cum his nota. quod potstas sacerdoti
+          <lb ed="#N" n="9"/>bus communiter concessa respectu subditorum: non est absoluendum omnino
+          <lb ed="#N" n="10"/>debitum peccati. non enim decebat hoc omnibus communicari. ne culpa sine
+          pe<lb ed="#N" n="11" break="no"/>na remaneret et relinqueretur aliquid inordinatum in regno christi. et ideo
+          <lb ed="#N" n="12"/>est illis data potestas ligandi et soluendi id est vt ligando soluerent id est
+          <lb ed="#N" n="13"/>ligando ad penam temporalem: soluerent ab alio id est purgatorio. nec est
+          <lb ed="#N" n="14"/>data potestas ligandi nisi propter solutionem. quoniam igitur soluere aliquem
+          <lb ed="#N" n="15"/>a debito est remouere obstaculum. et hoc est aperire celum et per conse
+          <lb ed="#N" n="16"/>quens ligare est claudere idem. ideo dico quod iste claues simul sunt
+          <lb ed="#N" n="17"/>ad ligandum et soluendum claudendum et aperiendum. sed actus
+          ligan<lb ed="#N" n="18" break="no"/>di et soluendi competit eis immediate et respectu subiecti. vt
+          supra<lb ed="#N" n="19" break="no"/>dictum est: sed actus aperiendi in relatione ad finem vltimum. Et quoniam
+          <lb ed="#N" n="20"/>testimonium denomnatur ab optimo et a fine: et ideo magis
+          deno<lb ed="#N" n="21" break="no"/>minatur illa potstas a nomine respiciente finem. quia vero instrumentum quod
+          <lb ed="#N" n="22"/>ordinatur ad claudendum et aperiendum in corporalibus est clauis:
+          <lb ed="#N" n="23"/>ideo talis potestas recte dicitur clauis. non tamen est omnimoda similitu
+          <lb ed="#N" n="24"/>do: sed aliqua. clauis enim materialis ad vtrumque principaliter
+          <lb ed="#N" n="25"/>et principalius ad claudendum propter latrones et fures. sed spiritualis
+          <lb ed="#N" n="26"/>principalius est ordinata ad aperiendum. nec ordinata est ad
+          clau<lb ed="#N" n="27" break="no"/>dendum nisi propter apertionem: sicut nec ad ligandum nisi propter
+          <lb ed="#N" n="28"/>solutionem. et ita quemadmodum medicina est scientia sani et egri.
+          <lb ed="#N" n="29"/>sani per se. et egri per accidens: ita intelligendum est in proposito.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e323">
+          <lb ed="#N" n="30"/>⁋ Ad hoc ergo quod obiicitur. quod clausio regni est nobis damnosa etc.
+          <lb ed="#N" n="31"/>Dicendum quod in corporalibus est quedam ligatio simpliciter nocens: vt
+          <lb ed="#N" n="32"/>quando ligatur quis ne euadat mortem. quedam simpliciter expediens
+          <lb ed="#N" n="33"/>sicut quando ligatur homo medicamento emplastri. sic in spiritualibus
+          liga<lb ed="#N" n="34" break="no"/>tio peccati impedit: sed ligatio sacerdotis bene facit ad velocio
+          <lb ed="#N" n="35"/>rem et expeditionrem solutionem.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e340">
+          ⁋ Ad illud quod obiicitur quod clausio
+          in<lb ed="#N" n="36" break="no"/>gressus fit per appositionem obstaculi et c. Dicendum quod est quedam
+          <lb ed="#N" n="37"/>clausio bona et expediens: et hanc facit clauis. quedam est damno
+          <lb ed="#N" n="38"/>sa et mala quam facit peccatum siue debitum. clauis enim non ligat
+          <lb ed="#N" n="39"/>debito peccati: sed impositione remedii.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e351">
+          ⁋ Ad illud quod obiicitur quod
+          <lb ed="#N" n="40"/>sacerdos claudendo aditum regni non vtitur claue ad quod est sed
+          <lb ed="#N" n="41"/>peccat. dicendum quod clausio illa de qua dicit Math. xxiii. Ue
+          <lb ed="#N" n="42"/>vobis scribe et pharisei etc. non intelligitur de illa que fit per
+          cla<lb ed="#N" n="43" break="no"/>ues sacrdotales: sed de illa que fit per malum exemplum. vt patet de glo.
+          <lb ed="#N" n="44"/>ibidem.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e364">
+          ⁋ Ad illud quio de obiicitur. quod nihil idem est ad oppositos actus
+          <lb ed="#N" n="45"/>etc. Dicendum quod verum est intelligendo de fine per se. bene tamen est aliquid
+          <lb ed="#N" n="46"/>ad opposita ita quod ad vnum per se et ad aliud per accidens. et ita est
+          <lb ed="#N" n="47"/>in proposito.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e373">
+          ⁋ Ad illud quod obiicitur per simile de baptismo qui
+          ape<lb ed="#N" n="48" break="no"/>rit et nemo claudit. dicendum quod non est simile. Ratio huius est. quia
+          <lb ed="#N" n="49"/>baptismus aperit sine gemitu et planctu quocumque vnde non ligat
+          <lb ed="#N" n="50"/>ad aliquam penam siue fati sfactionem. penitentia non similiter facit.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e382">
+          ⁋ Ad
+          il<lb ed="#N" n="51" break="no"/>lud quod obiicitur de illo Esa. quod dicit de christo. aperiet et nemo
+          clau<lb ed="#N" n="52" break="no"/>det etc. dicendum quod hoc intelligendum est de apertione per precii solutionem
+          <lb ed="#N" n="53"/>quam operatus est christus in passione. et etiam per effectum quem fecit in
+          ascen<lb ed="#N" n="54" break="no"/>sione. A christo enim est triplex apertio ianue regni. scilicet per causam in
+          <lb ed="#N" n="55"/>baptismo. per precii solutionem et per effectum. nulla istarum apertionum
+          <lb ed="#N" n="56"/>fit mediante claue a sacerdote: sed solummodo apertionis
+          mani<lb ed="#N" n="57" break="no"/>festatio.
+        </p>
+        <p xml:id="v78d89-aelfme-d1e400">
+          ⁋ Ad illud quod obiicitur. quod ecclesia iuxta quod christus docuit
+          <lb ed="#N" n="58"/>non reddit malum pro malo. dicendum quod non est intentio ecclesie
+          red<lb ed="#N" n="59" break="no"/>dere malum pro malo: sed malum vt remouet seu reuocet a
+          malo<lb ed="#N" n="60" break="no"/>ad bonum. vt. i. Corin. v. tradidit huiusmodi hominem sathane in
+          in<lb ed="#N" n="61" break="no"/>teritum carnis: vt spiritua saluus sit in die iudicii domini nostri ihu christi
+        </p>
+        <p xml:id="v78d89-aelfme-d1e412">
+          <lb ed="#N" n="62"/>⁋ Ad illud quod obiicitur. quod soluere et ligare non est vsus clauis
+          <lb ed="#N" n="63"/>etc. Dicendum quod potestas illa habet actum in relatione ad
+          <lb ed="#N" n="64"/>subiecta et in relatione ad finem actus. in comparatione ad
+          sub<lb ed="#N" n="65" break="no"/>iectum respicit potestas habitum siue vsum: sed in comparatio
+          <lb ed="#N" n="66"/>ne ad finem respicit fructum. et quia denomnatio est ab optimo
+          <lb ed="#N" n="67"/>ideo dominus clauem illam potestatem nominauit. sed quia
+          execu<lb ed="#N" n="68" break="no"/>tio et vsus respicit actum primum. ideo illi claui actum
+          ligandi<lb ed="#N" n="69" break="no"/>et soluendi attribuit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

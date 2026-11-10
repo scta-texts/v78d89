@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 102, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 102, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="647"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ahrphr"><!-- q102m4 -->
+        <head xml:id="v78d89-ahrphr-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-ahrphr-Hd1e103" type="question-title">Utrum ieiunium sit praeceptum vel consilium</head>
+        <p xml:id="v78d89-ahrphr-d1e106">
+          <lb ed="#N" n="116"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e111">
+          <lb ed="#N" n="117"/>COnsequenter queritur. vtrum ieiunium sit preceptum
+          <lb ed="#N" n="118"/>vel consilium. quod preceptum: videtur sic Augustinus. de
+          confli<lb ed="#N" n="119" break="no"/>ctu viciorum dicit. Quod deus ne homo comedendi
+          mem<lb ed="#N" n="120" break="no"/>suram excederet abstinentiam impetrauit. quod autem
+          <lb ed="#N" n="121"/>imparatum est a domino preceptum est: ergo abstinentia siue ieiunium est
+          prece<lb ed="#N" n="122" break="no"/>ptum.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e127">
+          ⁋ Preterea. duo sunt genera peccati carnis. scilicet luxuria et
+          gu<lb ed="#N" n="123" break="no"/>la. continentia a peccato carnis quod est luxuria est preceptum: similiter
+          er<lb ed="#N" n="124" break="no"/>go esse debet abstinentia gule. scilicet per ieiunium.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e135">
+          ⁋ Preterea.
+          omne<lb ed="#N" n="125" break="no"/>opst virtutis cadit sub precepto. ieiunium est huiusmodi: quia est opstemporan
+          <lb ed="#N" n="126"/>tie vel alterius virtutis. vt supra visum est: ergo etc.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e142">
+          ⁋ Preterea. omne illud
+          <lb ed="#N" n="127"/>cuius transgressio in peccatum mortale est: opst est precepti. ieiunium est
+          <lb ed="#N" n="128"/>huiusmodi: ergo vt supra.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e149">
+          ⁋ Contra. nulla abstinentia a licitis est opst
+          <lb ed="#N" n="129"/>precepti. sed supererogantionis. aliter non esset satisfactorium secundum greg.
+          <lb ed="#N" n="130"/>ieiunium est huiusmodi: ergo etc.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e156">
+          ⁋ Preterea. nullum preceptum ordinat ad se sed
+          <lb ed="#N" n="131"/>ad de um vel proximum. ieiunium ordinat ad se: ergo etc.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e161">
+          ⁋ Preterea.
+          ie<lb ed="#N" n="132" break="no"/>iunium non est preceptum prime tabule neque secunde. vt patet
+          in<lb ed="#N" n="133" break="no"/>tuenti: ergo vt videtur non est de numero preceptorum.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e168">
+          ⁋ Preterea.
+          pce<lb ed="#N" n="134" break="no"/>pto semper et omnibus necessaria erat obseruantia. sed membra ecclesie
+          ha<lb ed="#N" n="135" break="no"/>bebantur semper necesse ieiunare Math. ix. Nunquid possunt filii
+          <lb ed="#N" n="136"/>lugere quamdiu sponsus etc. glo. quos genuit de ecclesia. Marci.
+          <lb ed="#N" n="137"/>ii. luc. v. dicitur ieiunare: ergo ieiunium non est preceptum. cum nullus vnquam
+          <lb ed="#N" n="138"/>fuerit absolutus a debito seruandi precepta.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e182">
+          ⁋ Responsio. quod
+          <lb ed="#N" n="139"/>est duplex genus precepti scilicet nature vt est illud quod est ex instinctu
+          <pb ed="#N" n="648"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>nature: et ipsi anime rationabili impressum. Math. vii. Omnia
+          quae<lb ed="#N" n="2" break="no"/>cumque vultis vt faciant vobis homines ea et vos facite illis. et
+          <lb ed="#N" n="3"/>eius negatiua Tho. iiii. Quod ab alio oderis fieri tibi: vide
+          <lb ed="#N" n="4"/>tu ne aliquando alteri facias. Et discipline. vt illud Gen. ii.
+          <lb ed="#N" n="5"/>de ligno scientie boni et mali etc. huiusmodi autem precepta non sunt
+          na<lb ed="#N" n="6" break="no"/>turaliter anime impressa. nec ex instinctu nature
+          adimplen<lb ed="#N" n="7" break="no"/>da: sed ex auctoritate precipientis. Similiter et ops consilii siue
+          super<lb ed="#N" n="8" break="no"/>erogationis dicitur quod cooperatur statui perfectionis. cuiusmodi est propse
+          <lb ed="#N" n="9"/>abdicare voluntati. perfecte continere: et omnia pro christo rlinquere
+          con<lb ed="#N" n="10" break="no"/>muniter siue nomine extenso. secundum quod omne illud opst sine quo potest esse
+          <lb ed="#N" n="11"/>salus anime siue sit opst perfectionis siue imperfectionis dummodo sit
+          coo<lb ed="#N" n="12" break="no"/>parans merito: potest dici opus supererogationis.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e217">
+          ⁋ Ad illud ergo quod
+          <lb ed="#N" n="13"/>queritur. vtrum ieiunium sit ops precepti vel consilii siue supererogatio
+          <lb ed="#N" n="14"/>nis: potest dici quod secundum quod preceptum est nature et ex instinctu
+          natu<lb ed="#N" n="15" break="no"/>re non est preceptum. Secundum autem quod est preceptum discipline est preceptum
+          <lb ed="#N" n="16"/>vt dicunt. Uel aliter secundum quod preceptum communiter sumitur et ad preceptum
+          <lb ed="#N" n="17"/>nature et discipline est preceptum. Similiter secundum quod consilium siue
+          super<lb ed="#N" n="18" break="no"/>erogatio proprie sumitur non est consilium. secundum quod nomine extenso est consilium
+          <lb ed="#N" n="19"/>siue supererogatio.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e235">
+          ⁋ Ad illud quod obiicitur de verbo augustinus. quod
+          do<lb ed="#N" n="20" break="no"/>minus imparauit abstinentiam etc. potest concedi quod preceptum est eo modo quo
+          <lb ed="#N" n="21"/>tactum est.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e242">
+          ⁋ Ad illud quod obiicitur quod continentia a peccato carnis
+          pre<lb ed="#N" n="22" break="no"/>cipitur et cadit sub precepto etc. potest dici quod non omnia que
+          precipiun<lb ed="#N" n="23" break="no"/>tur: precipiuntur directe et verbis exprimentibus plene quod
+          preci<lb ed="#N" n="24" break="no"/>pitur: sed quodammodo implicite et indirecte. vnde non est preceptum de
+          <lb ed="#N" n="25"/>humilitate neque prohibitio directe ex verbis expressis de
+          super<lb ed="#N" n="26" break="no"/>bia: sed reducuntur ad preceptum de sanctificatione sabbati vt dicunt
+          <lb ed="#N" n="27"/>doctores. in sanctificatione enim sabbati duo sunt necessaria.
+          hu<lb ed="#N" n="28" break="no"/>militas disponens et pax consumens. sine his enim non potest quis
+          de<lb ed="#N" n="29" break="no"/>eo debito modo vacare. ratione enim vtriusque prohibetur ibi superbia:
+          in<lb ed="#N" n="30" break="no"/>directe tamen et ex consequenti. quia non est pax dicit deus impiis Isa.
+          <lb ed="#N" n="31"/>lvii. Similiter prouer. xiii. Inter superbos semper iurgia sunt. Ibidem
+          <lb ed="#N" n="32"/>prohibetur gula. quia prouer. xxiii. Lui ve. cuius pratri ve. cui rixe
+          <lb ed="#N" n="33"/>cui fouea. cui sine causa vulnera. cui suffossio oculorum: nonne
+          <lb ed="#N" n="34"/>his qui commorantur in vino et student calicibus optandis.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e273">
+          ⁋
+          Si<lb ed="#N" n="35" break="no"/>queratur quare non datur expressum preceptum de abstinentia gule sicut
+          <lb ed="#N" n="36"/>de continentia luxurie. potest dici sicut dicunt. quod precepta ordinant
+          <lb ed="#N" n="37"/>hominem proprie ad deum et ad proximum: repressio gule ordinat
+          ho<lb ed="#N" n="38" break="no"/>minem in se et non ita directe in proximum sicut repressio
+          luxu<lb ed="#N" n="39" break="no"/>rie.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e286">
+          ⁋ Ad illud quod obiicitur. quod omne opus virtutis cadit sub prem
+          <lb ed="#N" n="40"/>cepto. potest dici quod licet hoc sit verum de actibus preceptorum nature:
+          <lb ed="#N" n="41"/>non tamen discipline cuiusmodi est ieiunium. vnde ratio pretacta nihil
+          <lb ed="#N" n="42"/>valicet.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e296">
+          ⁋ Ad illud quod obiicitur quod omne illud cuius transgressio est
+          <lb ed="#N" n="43"/>mortale peccatum est opost precepti etc. potest dici quod hoc etiam verum est
+          fun<lb ed="#N" n="44" break="no"/>pto precepto nomine extenso scilicet ad preceptum nature et preceptum
+          disci<lb ed="#N" n="45" break="no"/>pline. et sic sumpto precepto: ieiunium est preceptum siue actus
+          prece<lb ed="#N" n="46" break="no"/>pti.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e307">
+          ⁋ Ad illud quod obiicitur. quod est opst supererogationis. quia nulla
+          <lb ed="#N" n="47"/>abstinentia a licitis est ops precepti etc. potest dici quod quedam sunt
+          <lb ed="#N" n="48"/>licita in se et secundum se: tamen post prohibitionem de illis habitam sunt
+          il<lb ed="#N" n="49" break="no"/>licita. verbigratia. commedere carnes aquam erant prohibite licitum fuit
+          <lb ed="#N" n="50"/>simplicter: sed post prohibitionem illicitum fuit temporibus prohibitis.
+          inquan<lb ed="#N" n="51" break="no"/>tum ergo commedere carnes est illicitum eo modo quo tactum est abstinentia
+          <lb ed="#N" n="52"/>a carnibus et huiusmodi: ieiunium potest esse precepti opus.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e323">
+          ⁋ Ad hoc quod
+          <lb ed="#N" n="53"/>obiicitur quod nullum preceptum ordinat ad se etc. potest dici quod hoc verum
+          <lb ed="#N" n="54"/>est de preceptis decalogi quantum ad actus eorum primos et
+          princi<lb ed="#N" n="55" break="no"/>pales. sed quantum ab actus consequentes et indirectos bene potest.
+          <lb ed="#N" n="56"/>non est autem hoc verum de preceptis discipline. Ad hoc nota quod
+          pre<lb ed="#N" n="57" break="no"/>cepta decalogi ordinant directe et per se ad deum et ad
+          proximum<lb ed="#N" n="58" break="no"/>quodammodo et ex consequenti ad se. vt hoc. diliges proximum tuum
+          <lb ed="#N" n="59"/>sicut teipsum. et sic nihil impedit ieiuiunium esse opst precepti
+          quam<lb ed="#N" n="60" break="no"/>uis ordinet ad se. ieiunans enim obedit ecclesie. Alio modo
+          emen<lb ed="#N" n="61" break="no"/>dam facit. inquantum ergo est opst iusticie scilicet cum soluit emsndam: ordinat
+          <lb ed="#N" n="62"/>ad deum. inquantum est temporantie scilicet reprimendo fomitem vel huiusmodi
+          or<lb ed="#N" n="63" break="no"/>dinat hominem ad se. inquantum obedit ordinat hominem ad
+          proxi<lb ed="#N" n="64" break="no"/>mum. inquantum est opus caritatis ordinat ad hec omnia.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e352">
+          ⁋ Ad
+          il<lb ed="#N" n="65" break="no"/>lud quod obiicitur quod neque est preceptum prime tabule neque secundo. .
+          <lb ed="#N" n="66"/>responsio ex dictis. licet non sit actus proprius et primcipalis alicuius
+          <lb ed="#N" n="67"/>precepti decalogi: tamen reducitur quodammodo ex consequenti ad
+          prece<lb ed="#N" n="68" break="no"/>ptum de sanctificatione sabbati et etiam ad aliud: secundum diuersos
+          <lb ed="#N" n="69"/>eius actus pretactos.
+        </p>
+        <p xml:id="v78d89-ahrphr-d1e365">
+          ⁋ Ad illud quod obiicitur quod aliquo tempore non fuit
+          <lb ed="#N" n="70"/>necesse filiis dei et ecclesie ieiunare etc. potest dici quod hoc
+          intelli<lb ed="#N" n="71" break="no"/>gitur de ieiunio meroris: et hoc significatur verbo lugendi cum dicitur
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>numquid posunt filii sposi lugere. et glo. ibidem hoc verbo lugere ex
+          <lb ed="#N" n="73"/>primitur ieiunium quod pertinet ad humilitatem tribulationis. Er
+          <lb ed="#N" n="74"/>alia glo. Non posunt ieiunio affligi dum eos om de sponsi presentia
+          <lb ed="#N" n="75"/>gratulari. et Marci. ii. dicit glo. quia plus profuit eius presentia
+          <lb ed="#N" n="76"/>quam corporalis abstinentia. non ergo conueniebat apostolis tunc ieiunare
+          <lb ed="#N" n="77"/>de apostolis enim loquitur quos vocat filios sponse. ieiunare dico ie
+          <lb ed="#N" n="78"/>iunio meroris: dum oportuit illos presentia corporali sponsi
+          gra<lb ed="#N" n="79" break="no"/>tulari. Ex hoc non sequitur. quod non est precepti. cum ex
+          speciali<lb ed="#N" n="80" break="no"/>priuilegio non oportuit illos ieiunare.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

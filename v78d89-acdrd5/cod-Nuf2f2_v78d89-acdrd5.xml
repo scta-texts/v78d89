@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 64, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 64, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="413"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acdrd5"><!-- q64m2 -->
+        <head xml:id="v78d89-acdrd5-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-acdrd5-Hd1e103" type="question-title">Utrum poenitentia publica sive solennis sit iterabilis</head>
+        <p xml:id="v78d89-acdrd5-d1e106">
+          <lb ed="#N" n="60"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e111">
+          <lb ed="#N" n="61"/>COnsequenter queritur vtrum penitentia publica
+          <lb ed="#N" n="62"/>siue solennis sit iterabilis. Quod sic: videtur per hoc
+          <lb ed="#N" n="63"/>quod culpa est iterabilis. Iteratio autem culpe non
+          <lb ed="#N" n="64"/>minuit aliquid de enormitate culpe neque de
+          <lb ed="#N" n="65"/>granitate: ergo si caute culpe congruebat huiusmodi piaculum
+          <lb ed="#N" n="66"/>videtur quod ipsi iterato congruit idem.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e127">
+          ⁋ Item culpa pro qua
+          <lb ed="#N" n="67"/>imponitur non excedit in infinitum alia peccata. ergo si in
+          <lb ed="#N" n="68"/>illis semper iteratur: videtur quod in ista debeat iterari. aut ista
+          <lb ed="#N" n="69"/>culpa esset in infinitum maior. sicut est de peccato
+          dyaboli<lb ed="#N" n="70" break="no"/>quod quia est quasi in infinitum maius peccato hominis: huiusmodi non
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>remittitur per penitentiam sicut illius.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e144">
+          ⁋ Item istud potest
+          ostendi<lb ed="#N" n="72" break="no"/>rationibus supra positis. quia publica peccata penitentia
+          ma<lb ed="#N" n="73" break="no"/>nifesta debent expiari. sicut habetur de peni. di. i. petrus.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e151">
+          ⁋ Item
+          <lb ed="#N" n="74"/>semper occultum peccatum occulta penitentia est puniendum: ergo
+          <lb ed="#N" n="75"/>similiter et publicum publica semper puniendum.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e158">
+          ⁋ Item ratio
+          <lb ed="#N" n="76"/>nes assignate supra quare peccatum est puniendum publica
+          <lb ed="#N" n="77"/>penitentia scilicet enormitas criminis et publicatio et debitum
+          pu<lb ed="#N" n="78" break="no"/>niendi et incussio timoris: ita congruunt cul pe iterate sicut
+          <lb ed="#N" n="79"/>iniciate. ergo etc.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e169">
+          ⁋ Contra. di. l. Si quis. s. potest et alite
+          <lb ed="#N" n="80"/>intelligi. Est enim quedam penitentia que solennis appellatur.
+          <lb ed="#N" n="81"/>que semel tantum in ecclesia conceditur. de quo Ambro. ait.
+          si<lb ed="#N" n="82" break="no"/>cut vnum est baptisina: ita vnica est penitentia.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e178">
+          ⁋ Item non
+          <lb ed="#N" n="83"/>est secundo locus penitentie.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e183">
+          ⁋ Item reperiuntur quamplurimi qui
+          <lb ed="#N" n="84"/>sepius agendam penitentiam putant: qui luxuriantur in
+          <lb ed="#N" n="85"/>christo. Nam si vere penitentiam agerent: nunquam iterandam
+          pa<lb ed="#N" n="86" break="no"/>tarent. Unica penitentia ibi dicitur irreiterabilis.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e193">
+          ⁋ Item
+          <lb ed="#N" n="87"/>si matrimonium legitime contractum propter sacramentum quod
+          <lb ed="#N" n="88"/>significat. scilicet inseparabilem vnionem diuine nature et
+          huma<lb ed="#N" n="89" break="no"/>ne: non iteratur respectu earundem personarum: ergo
+          simili<lb ed="#N" n="90" break="no"/>ter nec istud sacramentum iterabitur. cum significet
+          eiectio<lb ed="#N" n="91" break="no"/>nem primorum parentum de paradiso que semel tantum facta est.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e206">
+          <lb ed="#N" n="92"/>⁋ Responsio. dicendum quod ista penitentia non iteratur. et huis
+          du<lb ed="#N" n="93" break="no"/>plex est ratio scilicet reuerentia sacramenti. significat enim
+          expul<lb ed="#N" n="94" break="no"/>sionem primorum parentum de peradiso. et ne quod tanta
+          solenni<lb ed="#N" n="95" break="no"/>tate celebratum est infirmetur et vilescat. nunquam tamen
+          nega<lb ed="#N" n="96" break="no"/>tur penitentibus penitentia sicut nec venia. sicut enim dominus
+          <lb ed="#N" n="97"/>in futuro seipsum negare non poterit. vt habetur. ii. Thimo. ii
+          <lb ed="#N" n="98"/>sic nec in presenti vult veniam vel penitentiam denegari. Unde
+          <lb ed="#N" n="99"/>augus. ad macedonium. Quamuis caute et salubriter prouisum
+          <lb ed="#N" n="100"/>sit vt locus humilime penitentie semel tantum in ecclesia
+          conce<lb ed="#N" n="101" break="no"/>datur. ne medicina nimis vtilis nimis vilis haberetur:
+          ta<lb ed="#N" n="102" break="no"/>men quotidie peccantibus nunquam per penitentiam venia negatur.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e232">
+          <lb ed="#N" n="103"/>⁋ Ad primum ergo dicendum. quod licet culpa iterata non est
+          mi<lb ed="#N" n="104" break="no"/>nor sed etiam maior quam fuit primo commissa: non tamen
+          con<lb ed="#N" n="105" break="no"/>uenit quod puniatur sicut illa. In penitentia enim solenni sunt
+          <lb ed="#N" n="106"/>quedam consideranda ex parte peccati: quedam ex parte
+          <lb ed="#N" n="107"/>pene. Unde quamuis congrueret quantum est ex parte immanita
+          <lb ed="#N" n="108"/>tis sceleris quod sic puniretur scilicet publice vel solenniter: non
+          ta<lb ed="#N" n="109" break="no"/>men congruit ipsi solennitati rationibus pretactis.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e250">
+          ⁋ Ad aliud
+          <lb ed="#N" n="110"/>quod obiicitur. quod culpa non excedit in infinitum. bene
+          con<lb ed="#N" n="111" break="no"/>cedo. quod vlterius concluditur: ergo debet penitentia solennis
+          <lb ed="#N" n="112"/>iterari. dico quod non sequitur. sed quod penitentia debet iterum
+          <lb ed="#N" n="113"/>dari. Ipsa enim solennitas dicit quandam confirmationem et
+          <lb ed="#N" n="114"/>excellentiam. propter quod repugnat vt inquantum solennis itere
+          <lb ed="#N" n="115"/>tur. Quod enim solenniter fit perpetuitatem importat. et ideo
+          <lb ed="#N" n="116"/>repugnat ei mutabilitas et per consequens iterabilitas. sed non
+          <lb ed="#N" n="117"/>repugnat quin iterum puniatur si recidiuet. debet enim
+          pu<lb ed="#N" n="118" break="no"/>niri tanta pena vt confusio solennis penitentie in
+          acerbita<lb ed="#N" n="119" break="no"/>te et magnitudine recompensetur.
+        </p>
+        <p xml:id="v78d89-acdrd5-d1e274">
+          ⁋ Ad illud quod obiicitur.
+          <lb ed="#N" n="120"/>quod rationes supra assignate etc. Dicendum quod etsi
+          conueni<lb ed="#N" n="121" break="no"/>unt quantum est ex parte penitentie inquantum est penitentia: non
+          <lb ed="#N" n="122"/>tamen ex parte qua est solennis. dicit enim Gracianus quod bene
+          <lb ed="#N" n="123"/>iteratur secundum consuetudinem quarundam ecclesiarum. quod
+          <lb ed="#N" n="124"/>vt estimo intelligendum est de penitentia publica: non de
+          solem<lb ed="#N" n="125" break="no"/>ni inquantum proprie sumptum est. quia in tali repugnat
+          sacra<lb ed="#N" n="126" break="no"/>mentum iterationi. de peni. di. iii. vbi dicitur illud ambro.
+          <lb ed="#N" n="127"/>reperiuntur etc. non secundum generalem sed secundum specialem consuetudinen
+          <lb ed="#N" n="128"/>ecclesie de solenni penitentia dictum. intelligitur que apud
+          quos<lb ed="#N" n="129" break="no"/>dam semel celebrata non iteratur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 79, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 79, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="510"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aehhyj"><!-- q79m2 -->
+        <head xml:id="v78d89-aehhyj-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-aehhyj-Hd1e103" type="question-title">Quid sit clavis</head>
+        <p xml:id="v78d89-aehhyj-d1e106">
+          <lb ed="#N" n="22"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e111">
+          <lb ed="#N" n="23"/>COnsequenter queritur quid sit clauis. cui dicitur conuenienter
+          <lb ed="#N" n="24"/>quod clauis est potstas ligandi atque soluendi cum iudicio
+          <lb ed="#N" n="25"/>Aliter sic. clauis est potestas discernendi ligandi atque
+          <lb ed="#N" n="26"/>soluendi. et potest summi hec ratio ex textu et glo.
+          Ma<lb ed="#N" n="27" break="no"/>th. xvi. tercio modo sic. Claues sunt discernendi scia et potentia. quo
+          <lb ed="#N" n="28"/>dignos debet recipere indignos vero excludere a rtgno.
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e127">
+          ⁋ Circa
+          prima<lb ed="#N" n="29" break="no"/>rationem queritur sic. scentia clauis est. dicitur enim communitur quod due sint claues scilicet
+          sci<lb ed="#N" n="30" break="no"/>entia et potentia. sed scientia discernendi non est potestas ligandi etc. ratio ergo
+          <lb ed="#N" n="31"/>supposita claui non conuenit cum claue.
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e137">
+          ⁋ Item si clauis diffinienda
+          <lb ed="#N" n="32"/>erat per aliquid quod vni claui conuenit tantum et non vtrique: quare potius per
+          ali<lb ed="#N" n="33" break="no"/>quiod quod conuenit potentie quam quod conuenit scentie.
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e144">
+          ⁋ Si diceretur quod diffinitur per
+          <lb ed="#N" n="34"/>illud quod vtrique conuenit. quia dicitur quod est potestas ligandi atque soluendi cum
+          iu<lb ed="#N" n="35" break="no"/>dicio. per hoc enim quod dicit cum iudicio: tangitur sclestia. Queritur ergo quare dicitur quod
+          <lb ed="#N" n="36"/>potestas magis tangitur in reccatitudine et iudicium in obliquitate quam econuer
+          <lb ed="#N" n="37"/>so: cum in executione clauium prius requiritur scletia et patus potstas.
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e155">
+          ⁋ Item in li.
+          <lb ed="#N" n="38"/>sentem. dicitur. quod clauis est scletia discernendi et iudicandi potentia. hoc ergo
+          <lb ed="#N" n="39"/>aut ibi male notificatur.
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e162">
+          ⁋ Item circa primam et secundam potest queri. cur
+          <lb ed="#N" n="40"/>clauis non notificetur per actus proprios. cum actus proprii sint aperire et
+          <lb ed="#N" n="41"/>claudere: notificanda esset per ipsos. vt diceretur clauis est potstas
+          aperiendi<lb ed="#N" n="42" break="no"/>et claudendi etc. ligare enim et soluere non videtur actus clauis. sed potius
+          <lb ed="#N" n="43"/>vincla.
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e173">
+          ⁋ Item potest queri differentia rationum dictarum.
+          </p>
+        <p xml:id="v78d89-aehhyj-d1e175">
+          ⁋ Responio. ad hec
+          <lb ed="#N" n="44"/>quod nomine clauis extenso dicitur clauis scletia. proprie autem dicitur clauis potestas
+          <lb ed="#N" n="45"/>ligandi et soluendi. aliqui enim ponebant sclestiam non esse clauem. si enim
+          cla<lb ed="#N" n="46" break="no"/>uis per se est ad aperiendum et claudendum: hec proprie per se facit potstas
+          <lb ed="#N" n="47"/>ligandi et soluendi non sclestia. patet quod hec proprius erat clauis quam illa. et
+          <lb ed="#N" n="48"/>propter hoc in ratione posita magis ponitur potestas in rectitudine quom
+          sci<lb ed="#N" n="49" break="no"/>entia. tangitur autem scentia per hoc quod dicitur iudicium. sicut tactum est.
+          Ma<lb ed="#N" n="50" break="no"/>gister tamen in sententiis ponit rationem que vtrique conuenit ratione qua vtraque
+          <lb ed="#N" n="51"/>communiter loquendo dicitur clauis.
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e196">
+          ⁋ Ad illud quod obiicitur quod ligare
+          <lb ed="#N" n="52"/>et soluere non sunt actus clauis. dicendum quod ratio dicta datur per actus
+          ante<lb ed="#N" n="53" break="no"/>cedentes. scilicet per ligationem et solutionem. non enim conuenit aperire non
+          solu<lb ed="#N" n="54" break="no"/>to vinclo. et qui soluit vinculum potestatem confert intrando. quia ergo
+          vincu<lb ed="#N" n="55" break="no"/>lum est impedimentum ingressus et apertionis: soluere autem est auferre
+          <lb ed="#N" n="56"/>impedimentum apertionis. hoc autem est auferre vinculum pene
+          pecca<lb ed="#N" n="57" break="no"/>ti. quando notificatur clauis per potestatem ligandi atque soluendi: notificatur
+          <lb ed="#N" n="58"/>per illud quo existente est apertio. sicut ille qui remouet impediens ne
+          <lb ed="#N" n="59"/>graue descendat: facit graue descendere. non ergo absurde notificatur
+          <lb ed="#N" n="60"/>clauis cum dicitur. quod est potstas discernendi ligandi atque soluendi siue
+          <lb ed="#N" n="61"/>potestas cum discretione siue cum iudicio. In hac autem notificatione
+          re<lb ed="#N" n="62" break="no"/>lucet vestigium trinitatis a qua est omnino virtus clauium. quod sic patet.
+          <lb ed="#N" n="63"/>triplex est hierarchia. diuina. angelica. et humana. Patri
+          attri<lb ed="#N" n="64" break="no"/>buitur potentia: filio scietia siue discretio: spirituisancto operatio bona.
+          <lb ed="#N" n="65"/>Ab hac autem hierarchia diuina descendit angelica et humana.
+          <lb ed="#N" n="66"/>angelica autem descendit ab ea: quia angelica est potestas ordinata cum
+          <lb ed="#N" n="67"/>scletia et operatione. potestas descendit a potestate que patri: scientia a sapientia
+          <lb ed="#N" n="68"/>que filio: operatio ab operatione summa que spirituisancto appropriatur. Similiter
+          <lb ed="#N" n="69"/>virtus ecclesiastice hierarchie descendit a diuina: quia hec est ordina
+          <lb ed="#N" n="70"/>ta potstas ad discernendum et operandum. Scire autem secundum quod hic
+          sumi<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>tur est discernem inter lepram et lepram. Clauis ergo est potstas ordinata
+          <lb ed="#N" n="72"/>ad summam operationem cum scientia precedente. est autem suma operatio que
+          im<lb ed="#N" n="73" break="no"/>mediata est ad operationem regni. soluere ergo et ligare implicantur in
+          <lb ed="#N" n="74"/>illa summa operatione. sic patet qualiter in clauibus ecclesiasticis
+          relu<lb ed="#N" n="75" break="no"/>eet vestigium trinitatis.
+        </p>
+        <p xml:id="v78d89-aehhyj-d1e252">
+          ⁋ Ad vltimum quod obiicitur. dici potest quod
+          <lb ed="#N" n="76"/>supra tactum est. rationes due predicte assignantur per actus precedentes: iu
+          <lb ed="#N" n="77"/>dicia per actus consequentes qui sunt recipere et excludere. quore aute
+          <lb ed="#N" n="78"/>prime rationes potius assignate sunt per actus astecedentes quam proprios
+          <lb ed="#N" n="79"/>hec potest esse ratio. quod licet aperire et claudere sint actus magis pro
+          <lb ed="#N" n="80"/>prii ipsis intraturis regnum et excludendis ab eodem: subiecta
+          <lb ed="#N" n="81"/>tamen solutionis sunt penes penitentes et impenitentes ligationis.
+          no<lb ed="#N" n="82" break="no"/>sic est de apertione et clausione. licet enim sit apertio salutis d
+          <lb ed="#N" n="83"/>clausio ligatis: tamen soluti non sunt subiecta apertionis quantum est de
+          <lb ed="#N" n="84"/>modo loquendi neque ligati subiecta clausionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

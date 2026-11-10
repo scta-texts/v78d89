@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 42, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 42, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="309"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a8jzm3"><!-- q42m1 -->
+        <head xml:id="v78d89-a8jzm3-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a8jzm3-Hd1e103" type="question-title">De fractione contenti</head>
+        <p xml:id="v78d89-a8jzm3-d1e106">
+          <lb ed="#N" n="15"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e111">
+          <lb ed="#N" n="16"/>QUeritur ergo primo. vtrum vera fractio sit in
+          cor<lb ed="#N" n="17" break="no"/>pore christi. Quod sic: videtur ab Augu. dicente.
+          <lb ed="#N" n="18"/>Norunt fideles quando manducant carnem christi
+          <lb ed="#N" n="19"/>vnusquisque accipit partem suam. quod si
+          verum<lb ed="#N" n="20" break="no"/>sest: ergo diuiditur in partem et partem.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e124">
+          ⁋ Item hoc idem
+          vi<lb ed="#N" n="21" break="no"/>detur ex confessione Berengarii. que accepta fuit a
+          Nico<lb ed="#N" n="22" break="no"/>slao papa. de conse. di. ii. Confessus enim est corpus christi
+          verum<lb ed="#N" n="23" break="no"/>manibus attrectari sacerdotis et frangi. Si ergo ista
+          con<lb ed="#N" n="24" break="no"/>fessio accepta est vt fidelis patet etc.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e136">
+          ⁋ Item corpus christi
+          ve<lb ed="#N" n="25" break="no"/>rum manducatur. quod si hoc atteritur: ergo frangitur.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e141">
+          ⁋ Item
+          spe<lb ed="#N" n="26" break="no"/>cies exterior est sacramentum non corporis christi. sed dicit
+          Hu<lb ed="#N" n="27" break="no"/>go. si in aliquo sacramentum a similitudine recederet:
+          ve<lb ed="#N" n="28" break="no"/>rum sacramentum non esset. Si autem species frangitur et
+          <lb ed="#N" n="29"/>non corpus: a similitudine recedit. ergo cum sit verum
+          sa<lb ed="#N" n="30" break="no"/>cramentum: necesse est quod corpus frangatur sicut et species.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e154">
+          <lb ed="#N" n="31"/>⁋ Item cum species frangitur et masticatur. aut corpus christi
+          <lb ed="#N" n="32"/>frangitur et masticatur: aut non. Si sic: habeo propositum.
+          <lb ed="#N" n="33"/>Si non: et similitudo hoc pretendit. dicit enim Hug. quantum
+          <lb ed="#N" n="34"/>ad nos seruat per omnia corruptibilis cibus similitudinen
+          <lb ed="#N" n="35"/>et tamen non amittit quantum ad se inuiolabilis corporis
+          ve<lb ed="#N" n="36" break="no"/>ritatem. videtur corrodi et manet incorruptus. et similitu
+          <lb ed="#N" n="37"/>do est mater falsitatis: maxime cum non subest veritas que
+          <lb ed="#N" n="38"/>apparet: ergo hoc sacramentum non est sacramentum
+          ve<lb ed="#N" n="39" break="no"/>ritatis sed falsitatis.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e176">
+          ⁋ Contra. si corpus christi frangeretur
+          <lb ed="#N" n="40"/>et diuideretur. cum sit corpus animatum: esset corruptibi
+          <lb ed="#N" n="41"/>le. quod ei non conuenit nec est possibile.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e183">
+          ⁋ Item si
+          frangi<lb ed="#N" n="42" break="no"/>tur et masticatur: eadem ratione et digeritur et in secessum
+          <lb ed="#N" n="43"/>emiititur. quod est nephas sentire.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e190">
+          ⁋ Responsio. quidam
+          di<lb ed="#N" n="44" break="no"/>xerunt vt recitat magister in sententr. quod corpus christi verum
+          <lb ed="#N" n="45"/>frangitur in sacramento. et tamen non corrumpitur. et hoc
+          <lb ed="#N" n="46"/>quidem fit per virtutem supra naturam sicut factum est quod
+          <lb ed="#N" n="47"/>corpus christi passibile datum est discipulis et tamen non est
+          <lb ed="#N" n="48"/>ab eorum dentibus passum. Et in assertione sue positionis
+          <lb ed="#N" n="49"/>habere voluerunt confessionem Berengarii. sed hec
+          posi<lb ed="#N" n="50" break="no"/>tio non potest stare. quia si est incorruptibile non diuiditr
+          <lb ed="#N" n="51"/>si frangitur diuiditur: ergo simul diuiditur et non diuiditur
+          <lb ed="#N" n="52"/>et tunc deus faceret duo contradictorie opposita simul esse
+          ve<lb ed="#N" n="53" break="no"/>ra. quod nunquam faciet. Propter hoc dicendum quod corpus christi
+          <lb ed="#N" n="54"/>verum non frangitur. immo in quotcunque partes species
+          <lb ed="#N" n="55"/>diuiditur: ipsum corpus est totum et integrum. Unde Hugo.
+          <lb ed="#N" n="56"/>Si contingat aliquando sicut contingere solet: aut videas alique
+          fie<lb ed="#N" n="57" break="no"/>ri in hoc sacramento que minus digna esse videbuntur. nolt
+          <lb ed="#N" n="58"/>horrere: sola species que apparet hoc habet.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e226">
+          ⁋ Ad id quod
+          <lb ed="#N" n="59"/>obiicitur de confessione Berengarii et verbo Augustinu.
+          Dicen<lb ed="#N" n="60" break="no"/>dum quod vtrumque dictum est ratione specierum exteriorum
+          cir<lb ed="#N" n="61" break="no"/>ca quas contingit esse attritionem fractionem et masticationem
+          <lb ed="#N" n="62"/>nec modus iste loquendi est tenendus. Recipit tamen ecclesia
+          <lb ed="#N" n="63"/>confessionem Berengarii et publicauit quamuis minus exhpristi
+          <lb ed="#N" n="64"/>sam ad elidendum suum errorem: quia non concedebat
+          cor<lb ed="#N" n="65" break="no"/>dus christi ibi verum esse nisi sicut in signo. vnde propter hoc
+          re<lb ed="#N" n="66" break="no"/>cipit illam ecclesia vt intelligeretur ibi vere esse: et non vere
+          <lb ed="#N" n="67"/>diuidi.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e248">
+          ⁋ Ad illud quod obiicitur de manducatione.
+          dicen<cb ed="#N" n="b"/><lb ed="#N" n="68" break="no"/>dum quod in manducatione sunt tria. Masticatio. In ventrem
+          <lb ed="#N" n="69"/>traiicio. et incorparatio. et hec tria respondent tribus que sunt in sacra
+          <lb ed="#N" n="70"/>mento. quia manducatio est specierum tantum. incorparatio quantum ad
+          <lb ed="#N" n="71"/>corpus christi misticum. In ventrem traiicio est non solum specierum sed etiam
+          <lb ed="#N" n="72"/>corporis christi veri. quod ibi est quamdiu species panis remanet. Non
+          <lb ed="#N" n="73"/>ergo dicitur corpus christi verum manducari corporaliter: quia corporaliter
+          <lb ed="#N" n="74"/>masticetur. Sicut enim non frangitur: sic nec masticatur. sed dicitur
+          man<lb ed="#N" n="75" break="no"/>ducari ratione incorparationis. non quia manducans illud sibi in
+          <lb ed="#N" n="76"/>corporat sed econuerso. Unde Augustinu. Non tamen me mutabis in
+          <lb ed="#N" n="77"/>te sicut cibum carnis tue: sed tu mutaberis in me id est
+          corpori<lb ed="#N" n="78" break="no"/>meo mistico vnieris.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e275">
+          ⁋ Ad illud Hug. si in aliquo a
+          simi<lb ed="#N" n="79" break="no"/>litudine recederet etc. Dicendum quod verbum Hug. sic debet intel
+          <lb ed="#N" n="80"/>ligi. si cibus iste sacramentalis recederet in aliquo a
+          simili<lb ed="#N" n="81" break="no"/>tudine cibi corporalis: sacramentum hoc non esset verum sacramentum
+          <lb ed="#N" n="82"/>sed ex hac dissimilitudine ipsa veritas manifestaretur
+          vn<lb ed="#N" n="83" break="no"/>de subditur. et proderet se ibi et tolleret locum fidei. neque iam
+          <lb ed="#N" n="84"/>crederetur sed videretur. Uerbigratia. Si species panis non esset
+          <lb ed="#N" n="85"/>diuisibilis neque masticabilis sicut nec contentum. et ista
+          rece<lb ed="#N" n="86" break="no"/>deret a cibo corporali dissimilitudine hac iam apparet etiam
+          <lb ed="#N" n="87"/>secundum sensum quod ibi contineretur aliquid indiuisibile et
+          incorru<lb ed="#N" n="88" break="no"/>ptibile: et ita fides non haberet ibi locum hoc credendo.
+        </p>
+        <p xml:id="v78d89-a8jzm3-d1e299">
+          <lb ed="#N" n="89"/>⁋ Ad aliud dicendum. quod similitudo de qua loquitur pug.
+          <lb ed="#N" n="90"/>non est mater falsitatis. qui intelligit de similitudine. que
+          <lb ed="#N" n="91"/>est inter commestitionem sacramentalem que fit in
+          mastican<lb ed="#N" n="92" break="no"/>do ipsas species et in ventrem traiiciendo. et comestionem
+          <lb ed="#N" n="93"/>corporalem que fit comedendo verum panem. huic enim
+          si<lb ed="#N" n="94" break="no"/>militudini veritas subest. Non autem loquitur de
+          similitudi<lb ed="#N" n="95" break="no"/>ne que est inter diuisionem specierum et corporis christi
+          con<lb ed="#N" n="96" break="no"/>tenti. si autem loquitur de illa: locum haberet argumentum
+          <lb ed="#N" n="97"/>sed non est sic. Quod autem dicit quantum ad nos sacramentum
+          <lb ed="#N" n="98"/>seruat etc. dicit ratione specierum. Quod autem subdit et tamen
+          <lb ed="#N" n="99"/>non amittit etc. dicit ratione corporis christi contenti. Quod
+          au<lb ed="#N" n="100" break="no"/>tem dicit videtur corrodi: hoc intelligitur secundum apparentiam
+          <lb ed="#N" n="101"/>exteriorem sensibilem. Sed sicut supra tactum est. in hoc
+          <lb ed="#N" n="102"/>sacramento decipitur iudicium sensus. quia ad
+          compre<lb ed="#N" n="103" break="no"/>hensionem veritatis huius sacramenti non potest attingere
+          <lb ed="#N" n="104"/>nec propter hoc est error vel deceptio in ipso. quia creditur
+          iudi<lb ed="#N" n="105" break="no"/>cio intellectus eleuari per fidem qui ad veritatis
+          compre<lb ed="#N" n="106" break="no"/>hensionem pertingit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

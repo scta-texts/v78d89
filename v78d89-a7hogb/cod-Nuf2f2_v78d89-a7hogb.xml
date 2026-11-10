@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 35, Membrum 6</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 35, Membrum 6</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="220"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7hogb"><!-- q35m6 -->
+        <head xml:id="v78d89-a7hogb-Hd1e101">Membrum 6</head>
+        <head xml:id="v78d89-a7hogb-Hd1e103" type="question-title">Utrum sacerdos degradatus</head>
+        <p xml:id="v78d89-a7hogb-d1e106">
+          <lb ed="#N" n="9"/>Membrum sextum
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e111">
+          <lb ed="#N" n="10"/>COnsequenter queritur vtrum degradati possint
+          <lb ed="#N" n="11"/>consecrare. quod sic: videtur ex predictis.
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e118">
+          ⁋ Contra.
+          <lb ed="#N" n="12"/>i. q. i. Quod quidam. ponitur differentia inter illos
+          <lb ed="#N" n="13"/>qui habent potestatem baptizandi et ius
+          consecran<lb ed="#N" n="14" break="no"/>di. dicitur autem sic. potstas dandi baptismum et ius
+          consecrandi<lb ed="#N" n="15" break="no"/>dominicum corpus et largiendi sacros ordines: plurimum inter
+          <lb ed="#N" n="16"/>se differunt. Suspenso enim vel deposito sacerdote nulla ei
+          re<lb ed="#N" n="17" break="no"/>linquitur potestas sacrificandi sacramentum baptismi: tamen non solum
+          <lb ed="#N" n="18"/>a sacerdote deposito vel layco catholico: verumetiam vel
+          he<lb ed="#N" n="19" break="no"/>retico vel pagano: si ministratum fuerit: nulla reiteratione
+          <lb ed="#N" n="20"/>violabitur. hic plane habetur quod degradatus non habet potestatem
+          <lb ed="#N" n="21"/>consecrandi.
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e143">
+          ⁋ Item. i. q. i. quod quidam. degradatus episcopus
+          largien<lb ed="#N" n="22" break="no"/>di sacros ordines non habet potstatem. facultatem tamen bapti
+          <lb ed="#N" n="23"/>zandi non amisit. Ex hoc patet quod episcopus degradatus non habet
+          <lb ed="#N" n="24"/>officium episcopi neque potestatem. vnde non potest ordines conferre. A
+          simi<lb ed="#N" n="25" break="no"/>li videtur quod sacerdos degradatus iure non habet officium
+          sa<lb ed="#N" n="26" break="no"/>cerdotis nec potestatem consecrandi.
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e156">
+          ⁋ Item eius est
+          interpretari<lb ed="#N" n="27" break="no"/>cuius est condere. igitur si episcopus qui contulit ordines siue
+          condi<lb ed="#N" n="28" break="no"/>dit in degnadato interpretetur illum nullum esse et omni carere potestate
+          <lb ed="#N" n="29"/>standum est eius ordinationi. igitur non est ordo in talibus alicus
+          <lb ed="#N" n="30"/>potstatis.
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e167">
+          ⁋ Item nullus habens ordinem sacerdotalem puniendus
+          <lb ed="#N" n="31"/>est a iudice seculari. sed degradatus traditur puniendus a
+          iu<lb ed="#N" n="32" break="no"/>dice seculari: ergo caret ordine sacerdotali. ergo non habet
+          <lb ed="#N" n="33"/>potestatem consecrandi. Rationes que ostendunt quod hereticus
+          po<lb ed="#N" n="34" break="no"/>test consecrare: ostendunt similiter quod et degradatus.
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e178">
+          ⁋
+          Re<lb ed="#N" n="35" break="no"/>sponsio. quod degradatus habet potestatem consecrandi. ius
+          tamen<lb ed="#N" n="36" break="no"/>exequendi non habet sicut supradictum est de heretico. sicut enim
+          cara<lb ed="#N" n="37" break="no"/>ctere non potest priuari: nec sic potestate conficiendi.
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e187">
+          ⁋ Ad
+          pri<lb ed="#N" n="38" break="no"/>mum ergo dicendum. quod illud quod proponitur. i. q i. dicitur
+          oppo<lb ed="#N" n="39" break="no"/>nendo. vum ibidem premittitur. opponitur huic sententie augustinus. Uel
+          <lb ed="#N" n="40"/>potest dici quod ibi dicitur potestas consecrandi executio potestatis
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e196">
+          <lb ed="#N" n="41"/>⁋ Ad aliud quod obiicitur dicendum. quod vt dicunt non est simile de
+          <lb ed="#N" n="42"/>ehpiscopo degradato et sacerdote: quia in ordine episcopali non
+          impri<lb ed="#N" n="43" break="no"/>mitur caracter sicut in sacerdotali qui scilicet caracter impressus
+          <lb ed="#N" n="44"/>in anima deleri non potest. vnde solummodo aufertur illi officium
+          <lb ed="#N" n="45"/>consecrandi. non enim aufertur illi potestas: sed executio potestatis. sed
+          <lb ed="#N" n="46"/>quia in ordine episcopali non imprimitur caracter: in
+          degradan<lb ed="#N" n="47" break="no"/>do aufertur ei potstas conferendi ordines et officium executionis
+          <lb ed="#N" n="48"/>Alter dicitur quod si episcopus degradatus ordinaret aliquem est
+          <lb ed="#N" n="49"/>ordinatus. Et quod dicitur quod non habet potstatem largiendi ordines
+          <lb ed="#N" n="50"/>intelligitur de potestate executionis. quasi diceret. Ligata est
+          po<lb ed="#N" n="51" break="no"/>testas quantum ad executionem. Unde. i. q. i. Ne augustinus in hac
+          sen<lb ed="#N" n="52" break="no"/>tentia penitus reprobemus. intelligamus aliud esse
+          potesta<lb ed="#N" n="53" break="no"/>tem distribuendi sacros ordines: aliud esse executionem
+          ipsi<lb ed="#N" n="54" break="no"/>us potestatis. Qui intra vnitatem catholice ecclesie constir
+          <lb ed="#N" n="55"/>tuti sacerdotalem vel episcopalem vnctionem acceperunt: officium et
+          <lb ed="#N" n="56"/>executionem sui officii consecratione adipiscuntur.
+          Receden<lb ed="#N" n="57" break="no"/>tes vero ab integritate potestatem acceptam sacramentotenus
+          <lb ed="#N" n="58"/>retinent: effectu vero sue potestatis penitus priuantur.
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e239">
+          ⁋ Ad
+          <lb ed="#N" n="59"/>aliud quod obiicitur. quod eius est interpretari etc. dicendum quod
+          ca<lb ed="#N" n="60" break="no"/>racter vnde est potestas ordinis est immediate a deo. Licet
+          <lb ed="#N" n="61"/>episcopus cooperetur ministerialiter. Dominus autem non interpretatur
+          <lb ed="#N" n="62"/>degradatum carere potestate consecrandi nec episcopus etiam: sed
+          <lb ed="#N" n="63"/>iure executionis.
+        </p>
+        <p xml:id="v78d89-a7hogb-d1e252">
+          ⁋ Ad vltimum dicendum. quod degradatus
+          me<lb ed="#N" n="64" break="no"/>ritis suis exigentibus non gaudet priuilegio ordinatorum
+          <lb ed="#N" n="65"/>nec tuitione ecclesie: propter hoc subiacet iuditio
+          potesta<lb ed="#N" n="66" break="no"/>tis secularis: non quia caret ordine.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

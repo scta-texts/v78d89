@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 81, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 81, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="526"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-af29yk"><!-- q81m4 -->
+        <head xml:id="v78d89-af29yk-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-af29yk-Hd1e103" type="question-title">A quo possit fieri sententia</head>
+        <p xml:id="v78d89-af29yk-d1e106">
+          <lb ed="#N" n="40"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-af29yk-d1e111">
+          <lb ed="#N" n="41"/>COnsequenter queritur a quo possit fieri sententia
+          <lb ed="#N" n="42"/>excommunicationis. Et queritur primo vtrum tantum
+          <lb ed="#N" n="43"/>ab habente claues. Secundo vtrum ab
+          om<lb ed="#N" n="44" break="no"/>nibus habentibus claues.
+        </p>
+        <div xml:id="v78d89-af29yk-Dd1e122">
+          <head xml:id="v78d89-af29yk-Hd1e124">Articulus 1</head>
+          <p xml:id="v78d89-af29yk-d1e126">
+            <lb ed="#N" n="45"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-af29yk-d1e131">
+            <lb ed="#N" n="46"/>Q primum quod feratur tantum ab habentibus claues: videt
+            <lb ed="#N" n="47"/>per hoc quod soluere et ligare sunt actus clauium scilicet
+            excomuni<lb ed="#N" n="48" break="no"/>care et ligare vt habetur a magistro. iiii. sen. et cuius est actus
+            <lb ed="#N" n="49"/>eius est potentia: ergo etc.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e142">
+            ⁋ Item excommunicare est a sacramentorum
+            communi<lb ed="#N" n="50" break="no"/>one separare. sed eius est proprie et per se a communione sacramentorum separare:
+            cu<lb ed="#N" n="51" break="no"/>ius est sacramenta ministrare. Hoc est tantum habentium claues: ergo
+            <lb ed="#N" n="52"/>etc.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e151">
+            ⁋ Item petro data est potstas ligandi et soluendi in foro
+            iu<lb ed="#N" n="53" break="no"/>diciali et penitentiali. quero ergo quando. non nisi quando date fuerunt
+            ci<lb ed="#N" n="54" break="no"/>claues: ergo qui non habet claues non habet hanc potstatem.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e159">
+            ⁋ Item
+            maio<lb ed="#N" n="55" break="no"/>ris virtutis est et potestatis ligare vinculo excommunicationis quam
+            pena<lb ed="#N" n="56" break="no"/>satisfactionis. sed solummodo habens claues potest penitentiam iniungere
+            <lb ed="#N" n="57"/>confessiones audire: et penitentia satisfactionis ligare: ergo solus talis
+            <lb ed="#N" n="58"/>potest excommunicare.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e170">
+            ⁋ Contra. iudices delegati habent potentiam
+            <lb ed="#N" n="59"/>excommunicandi. tamen multi eorum claues non habent: quia non sunt
+            sacer<lb ed="#N" n="60" break="no"/>dotes ergo aliquis potest excommunicare qui non habet claues.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e177">
+            ⁋ Si
+            tu<lb ed="#N" n="61" break="no"/>dicas quod non sua auctoritate excommunicauit. obiicitur tunc de
+            archidya<lb ed="#N" n="62" break="no"/>cono quod ex suo officio causas audit et descindit: ergo
+            excommunica<lb ed="#N" n="63" break="no"/>re potest et tamen si non est sacerdos non habet claues.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e186">
+            ⁋ Si tu dicas
+            <lb ed="#N" n="64"/>quod immo habet per demandationem vel consuetudinem. quare non similiter habet
+            <lb ed="#N" n="65"/>actum ligandi et soluendi in foro penitentiali per commissionem vel per
+            <lb ed="#N" n="66"/>consuetudinem: non enim videtur maior ratio in vno quam in alio.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e195">
+            ⁋ Item
+            <lb ed="#N" n="67"/>elecrus canonice et approbatus certum est quod antequam ordinetur in
+            pre<lb ed="#N" n="68" break="no"/>sbiterum non habet claues. tamen potest causas audire et excommunicare
+            sua<lb ed="#N" n="69" break="no"/>auctoritate: ergo etc.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e204">
+            ⁋ Item sacerdos parochialis non habet secundum
+            iura<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>auctoritatem excommunicandi nisi pro furtis et rapinis et consimilibus
+            <lb ed="#N" n="71"/>constat quod ipse habet claues et vsum clauium: ergo excommunicatio non
+            <lb ed="#N" n="72"/>simpliciter est a potestate clauium.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e215">
+            ⁋ Item multitudo tota vt
+            <lb ed="#N" n="73"/>capitulum excommunicat ita quod nullus. sed multitudinem habere claues
+            <lb ed="#N" n="74"/>ita quod nullus est impossibile: ergo actus excommunicationis non est a
+            cla<lb ed="#N" n="75" break="no"/>ue.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e224">
+            ⁋ Iuxta hoc queritur cum ita sit multitudo. quod non possit ex
+            <lb ed="#N" n="76"/>communicari ita quod nullus: quare potest excommunicare ita quod nullus.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e229">
+            ⁋ Re
+            <lb ed="#N" n="77"/>sponsio. intelligendum est quod dominus contulit petro potestatem ligandi
+            <lb ed="#N" n="78"/>et soluendi in foro penitentiali et similiter in foro iudiciali. Pria
+            <lb ed="#N" n="79"/>autem potestas respicit ordinem sacerdotalem. secunda dignitatem siue
+            pre<lb ed="#N" n="80" break="no"/>lationem. Unde secundum primam. par potest ligare parem. secundum secundam
+            <lb ed="#N" n="81"/>non potest nec parem nec superiorem. et hoc est ideo quia hec est
+            ordi<lb ed="#N" n="82" break="no"/>nis: illa dignitatis siue prelationis. prima potestas scilicet ligandi et
+            <lb ed="#N" n="83"/>soluendi in foro penitentiali aditum regni aperit: et propter hoc
+            <lb ed="#N" n="84"/>recte dicitur clauis secunda per censuram iudicis ecclesiasticam
+            contuma<lb ed="#N" n="85" break="no"/>ces cohercet. et ideo dicitur gladius. Prima potstas quia est dona
+            <lb ed="#N" n="86"/>ta petro vt sacerdoti. ideo in omnes sacerdotes descendit:
+            quan<lb ed="#N" n="87" break="no"/>uis non omnes habeant executionem. Secunda collata fuit
+            Petro<lb ed="#N" n="88" break="no"/>vt erat pralatus: et ideo descendit in personas ecclesiasticas que
+            <lb ed="#N" n="89"/>habent praelationem et iurisditionem. Unde qui habent iurisditionem
+            ordi<lb ed="#N" n="90" break="no"/>natam ad aliquos in iudicando: potstatem habent excommunicandi id est
+            <lb ed="#N" n="91"/>cohercendi eos per censuram ecclesiasticam: de hoc habebitur
+            in<lb ed="#N" n="92" break="no"/>fra.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e266">
+            ⁋ Ad illud quod obiicitur primo. quod soluere et ligare sunt actus
+            <lb ed="#N" n="93"/>clauium etc. dicendum quod hoc verum est in foro penitentiali: non autem in
+            <lb ed="#N" n="94"/>foro iudiciali: dico necessario.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e273">
+            ⁋ Ad illud quod obicitur. quod eius est a
+            con<lb ed="#N" n="95" break="no"/>munione sacramentorum separare id est excommunicare. cuius est communionem eorum
+            <lb ed="#N" n="96"/>ministrare etc. Dicendum quod non est eius tantum: sed eius qui habet potestatem
+            su<lb ed="#N" n="97" break="no"/>bra communitatem et maxime cohercendi illos per censuram
+            ecclesia<lb ed="#N" n="98" break="no"/>sticam: tales quandoque habent claues quandque non habent.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e284">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="99"/>obiicitur. quod petro data est potestas ligandi et soluendi in vtroque
+            fo<lb ed="#N" n="100" break="no"/>ro quando sibi date fuerunt claues etc. Dicendum quod petro fuerunt
+            <lb ed="#N" n="101"/>date claues in plenitudine. non sic date sunt singulis. Aliterm
+            <lb ed="#N" n="102"/>dicunt quidam. quod primo fuit data clauis petro simpliciter Mat.
+            <lb ed="#N" n="103"/>xvi. scilicet ligandi et soluendi in foro penitentie. sed i. xviii. si
+            ec<lb ed="#N" n="104" break="no"/>clesiam non audierit: sit tibi sicut ethnicus et publicanus. Et
+            <lb ed="#N" n="105"/>post subditur. Amn dico vobis quecunque alligaueritis super
+            ter<lb ed="#N" n="106" break="no"/>ram. erunt ligata et in celis. interli. vinculo anathematis
+            <lb ed="#N" n="107"/>fuit data potestas ligandi et soluendi in alio foro.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e307">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="108"/>obiicitur. quod maioris est potestatis ligare vinculo excommunicationis
+            <lb ed="#N" n="109"/>etc. dicendum quod se habent sicut excedentia et excessa: et sunt alterius et
+            <lb ed="#N" n="110"/>alterius coordinationis. et ideo non sequitur quod qui habet vnam potstatem
+            <lb ed="#N" n="111"/>habet aliam. vtraque tamenconcurrit ad potstatis plenitudinem et vna
+            sine<lb ed="#N" n="112" break="no"/>alia esse non potest. pluribus tamen conceditur clauis quam gladius: quia ploes
+            <lb ed="#N" n="113"/>baeet ordinem sacerdotalem quam praelationem vel ecclesiasticam iurisditi
+            <lb ed="#N" n="114"/>onem. Et si queratur huiusmodi ratio: duplex est. Una est diffusio boni.
+            <lb ed="#N" n="115"/>quia potestas clauium est ad reconciliandum prauos: gladii ad
+            compellen<lb ed="#N" n="116" break="no"/>dum vel cohercendum. Alia ratio est vitatio periculi. quia pauci sunt
+            <lb ed="#N" n="117"/>qui sciant hoc ense percutere. vnde propter periculum: paucorum manibus
+            tra<lb ed="#N" n="118" break="no"/>di debuit.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e333">
+            ⁋ Ad illud quod vltimo queritur. quare multitudo potest
+            ex<lb ed="#N" n="119" break="no"/>communicare ita quod nullus de multudine: et non excomunicari. dicendum quod peccata
+            <lb ed="#N" n="120"/>sibi determinant subiecta singlaria. Unde nulla sunt peccata
+            mul<lb ed="#N" n="121" break="no"/>titudinis inquantum multitudo: licet sint personarum illius multitudi
+            <lb ed="#N" n="122"/>nis. iurisditio autem bene potest esse multitudinis. licet non alicuius
+            perso<lb ed="#N" n="123" break="no"/>ne singlaris.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e346">
+            ⁋ Si queratur vnde hoc. dicendum quod multitudo cooperatur
+            <lb ed="#N" n="124"/>ad plenitudinem potentie. Unde multitudo potest trahere nauem: quam
+            <lb ed="#N" n="125"/>nulla persona singlraris trahere potest. vnde quia in multitudine am
+            <lb ed="#N" n="126"/>pliatur potstas. et hec potestas scilicet ligandi in foro iudiciali quandam
+            <lb ed="#N" n="127"/>plenitudinem importat: bene congruit multitudini non vnicuique
+            <lb ed="#N" n="128"/>sed excommunicatio in pena que propter peccatum infligitur. et si peccatum aliquod
+            <lb ed="#N" n="129"/>propter quod fertur excommunicatio supra multitudinem sit multorum: nihi
+            <lb ed="#N" n="130"/>lominus est singulorum: propter quod et pena illata singlis infertur.
+          </p>
+        </div>
+        <div xml:id="v78d89-af29yk-Dd1e366">
+          <head xml:id="v78d89-af29yk-Hd1e368">Articulus 2</head>
+          <p xml:id="v78d89-af29yk-d1e370">
+            <lb ed="#N" n="131"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-af29yk-d1e375">
+            <lb ed="#N" n="132"/>COnsequenter queritur. vtrum omnes habentes claues
+            <lb ed="#N" n="133"/>habent potstatem ligandi et soluendi in foro
+            iudicia<lb ed="#N" n="134" break="no"/>lib. Quod sic: videtur per hoc. quod existentes in
+            inferiori<lb ed="#N" n="135" break="no"/>bus ordinibus posunt quibus non sunt claues annexe. vt
+            archidy<lb ed="#N" n="136" break="no"/>aconi: et electi canonice in episcopos. sed videtur quod id quod potest minor
+            <lb ed="#N" n="137"/>potest maior: ergo etc.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e391">
+            ⁋ Item. xvi. q. i. alia causa est. ibi dicitur et est verbum
+            <lb ed="#N" n="138"/>hiero. Illi id est presbitero si peccauero licet tradere me in
+            interi<pb ed="#N" n="527"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tum carnis. vt spiritus fiat saluus id est excommunicare. ex hoc viditur quod licet
+            <lb ed="#N" n="2"/>presbiteris excommunicare peccatores. et etiam qui non sunt subiti eorum
+            <lb ed="#N" n="3"/>quia loquitur ibi de monacho. quem licet presbitero excommunicare si pec
+            <lb ed="#N" n="4"/>cauerit.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e407">
+            ⁋ Item ii. q. i. Nemo. vbi dicitur. Nemo episcpus. nemo presbi
+            <lb ed="#N" n="5"/>ter excommunicet aliquem antequam causa probetur. ecce quod non solum episcopus: sed
+            <lb ed="#N" n="6"/>presbiter simplex potest excommunicare.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e415">
+            ⁋ Item idem potest haberi. xi. q. iii
+            <lb ed="#N" n="7"/>Quomo. vbi dicitur. Quomo sacerdos immundum non facit leprosum:
+            <lb ed="#N" n="8"/>sic episcopus vel presbiter non alligat eos qui insontes sunt. et ita sicut
+            <lb ed="#N" n="9"/>smdiu.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e424">
+            ⁋ Contra. videtur quod foli episcopi excommunicare posunt. dicitur enim. xvi. q. ii
+            <lb ed="#N" n="10"/>Uisis. Felici mucrone episcopi sacerdotum piacula resecentur
+          </p>
+          <p xml:id="v78d89-af29yk-d1e429">
+            <lb ed="#N" n="11"/>⁋ Item adhuc videtur quod mucro huiusmodi id est excommunicatio sit solius
+            <lb ed="#N" n="12"/>episcopi. xxiiii. q. iii. corripiantur. vbi dicitur. quod ipsa que damnificatio dicitur
+            <lb ed="#N" n="13"/>quam facit episcopale iudicium qua pena in ecclesia nulla maior esse
+            <lb ed="#N" n="14"/>potestu. ecce quod loquens de pena que est excommunicatio dicit illam fieri ab
+            <lb ed="#N" n="15"/>episcopali iudicio: ita et id quod prius
+          </p>
+          <p xml:id="v78d89-af29yk-d1e442">
+            ⁋ Responsio. quod non solum episcopi nec
+            <lb ed="#N" n="16"/>omnes habentes potestatem clauium excommunicare posunt: sed omnes vralati qui
+            <lb ed="#N" n="17"/>presunt collegiis vt abbates et priores excommunicare posunt. et
+            vni<lb ed="#N" n="18" break="no"/>uersaliter omnes praelati habentes iurisditionem. vt extiam de
+            iudi<lb ed="#N" n="19" break="no"/>ciis. decernimus. quia iurisditio nulla est sine cohertione. et
+            di<lb ed="#N" n="20" break="no"/>cunt quidam quod quilibet sacerdos habens parochialem ecclesiam hoc
+            <lb ed="#N" n="21"/>potest facere: circa quos sanius est consuetudinem attendere. Unde in
+            sacer<lb ed="#N" n="22" break="no"/>dotibus parochialibus consuetudo seruanda est que dat
+            iurisditio<lb ed="#N" n="23" break="no"/>nem. vt habicitur. ix. q. iii. conquestus. Simplices autem sacerdotes
+            <lb ed="#N" n="24"/>qui non habent iurisditionem excommunicare non posunt nisi ex
+            commissi<lb ed="#N" n="25" break="no"/>one.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e466">
+            ⁋ Ad hoc ergo quod primo obiicitur. quod existentes in ordinibus in
+            <lb ed="#N" n="26"/>ferioribus etc. dicendum quod hoc bene sequeretur si potestas hec esset
+            an<lb ed="#N" n="27" break="no"/>nexa ordini simpliciter. quod non est verum sed potius iurisditioni.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e473">
+            <lb ed="#N" n="28"/>⁋ Ad illud quod additur scilicet quod illud quod potest minor potest maior. sed
+            <lb ed="#N" n="29"/>verum est vt maioritas et minoritas ordinate se habent.
+            vtpo<lb ed="#N" n="30" break="no"/>tem in eodem genere siue ordinatione.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e483">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="31"/>quod sacerdos potest simpliciter excommunicare per illud decretum. xvi.
+            <lb ed="#N" n="32"/>q. i. alia causa. Dicendum. quod in illo decreto sumitur presbiter pro episcopo. qui est
+            <lb ed="#N" n="33"/>praelatus monachorum: et tunc potest monachum excommunicare. In alio
+            <lb ed="#N" n="34"/>decreto scilicet ii. q. i. Nemo. intelligitur quod presbe id est archipresber siue
+            <lb ed="#N" n="35"/>plebanus qui habet iurisditionem potest excommunicare: non quicumque. extra de
+            <lb ed="#N" n="36"/>offi. iudi. ordi. cum ab ecclesiarum. Similiter dicendum est ad tercium.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e499">
+            ⁋ Ad
+            <lb ed="#N" n="37"/>illud quod obiicitur. quod soli episcopi posunt. quia eorum est gladius vel
+            mucro<lb ed="#N" n="38" break="no"/>Dicendum quod piacula sacerdotum mucrone episcopi sunt resecanda
+            <lb ed="#N" n="39"/>et de hoc intelligitur decretum pretactum. licet enim aliqui
+            voca<lb ed="#N" n="40" break="no"/>ti in partem sollicitudinis episcopalis huiusmodi mucrone id est
+            excommunica<lb ed="#N" n="41" break="no"/>tione vtantur: tamen auctoritas remanet penes episcoum cuius officium
+            <lb ed="#N" n="42"/>ipsi exercent quantum ad hoc.
+          </p>
+          <p xml:id="v78d89-af29yk-d1e515">
+            ⁋ Pretera. ad hoc et aliud quod sequitur potest
+            <lb ed="#N" n="43"/>dici. quod soli episcopi possunt excommunicare cum illa solennitate que tangitur
+            <lb ed="#N" n="44"/>xi. q. iii. debent. vbi dicitur. debent. xii. sacerdotes episcoum circunstare
+            <lb ed="#N" n="45"/>et lucernas ardentes in manibus tenere. quas in exclusione
+            <lb ed="#N" n="46"/>anathematis proiicere debent in terram et conculcare pedibus.
+            deni<lb ed="#N" n="47" break="no"/>de epostolas per parochias mittere continentes excommunicatorum nomina
+            <lb ed="#N" n="48"/>et casas excomunicationis. et huiusmodi excommunicatio quia grauius scindit dicitur
+            <lb ed="#N" n="49"/>mucro. quandoque tamen sine huiusmodi solennitate excommunicant.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

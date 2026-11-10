@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 52, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 52, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="344"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aapspf"><!-- q52m5 -->
+        <head xml:id="v78d89-aapspf-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-aapspf-Hd1e103" type="question-title">Utrum actus manducandi sit videndo vel masticando vel gustando</head>
+        <p xml:id="v78d89-aapspf-d1e106">
+          <lb ed="#N" n="32"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-aapspf-d1e111">
+          <lb ed="#N" n="33"/>COnsequenter queritur. vtrum actus
+          maducan<lb ed="#N" n="34" break="no"/>di sit videndo vel masticando vel gustando
+          <lb ed="#N" n="35"/>Quod videndo videtur sic. Cibus iste est vere cibus
+          <lb ed="#N" n="36"/>anime non corporis: sed anima non cibatur masticando vel
+          <lb ed="#N" n="37"/>sic aliquo modo sed aspiciendo siue videndo eo enim quod est cibus
+          <lb ed="#N" n="38"/>spiritualis et quod cibatur spirituale maxime debet sumi in vsum
+          sen<lb ed="#N" n="39" break="no"/>su illo qui est maxime spiritualis scilicet visu.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e129">
+          ⁋ Item christus in pratia
+          <lb ed="#N" n="40"/>inquantum videbitur erit refectio comprehensorum et solum inquantum
+          <lb ed="#N" n="41"/>huius quia visio est tota merces igitur debet esse refectio via
+          <lb ed="#N" n="42"/>torum inquantum videtur.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e139">
+          ⁋ Item comprehensor cibatur videndo
+          <lb ed="#N" n="43"/>secundum veritatem: igitur viator debet cibari videndo per similitu
+          <lb ed="#N" n="44"/>dinem. species enim panis similitudinem christi gerit vt sumitur in hoc
+          <lb ed="#N" n="45"/>sacramento.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e148">
+          ⁋ Item augustinus. Ut quid paras ventrem crede et
+          man<lb ed="#N" n="46" break="no"/>ducasti. quod intelligitur de manducatione spirituali scilicet fide. igitur
+          <lb ed="#N" n="47"/>et sacramentalis debet esse visione corporali vel quare non.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e155">
+          ⁋ Item
+          si<lb ed="#N" n="48" break="no"/>species sub qua est corpus christi maxime et proprie est obiectum
+          <lb ed="#N" n="49"/>visus et magis quam gustus. quia color videtur proprie: gustus
+          <lb ed="#N" n="50"/>autem non est nisi grosse substantie. quia etsi sapor sit obiectum
+          gu<lb ed="#N" n="51" break="no"/>stus: non gustatur sapor sced sapidum: sed color proprie videtur:
+          <lb ed="#N" n="52"/>igitur si sacramentalis manducatio est per misterium sensus:
+          <lb ed="#N" n="53"/>proprie debet esse per visum.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e171">
+          ⁋ Item cum vtraque manducatio scilicet
+          <lb ed="#N" n="54"/>sacrametalis et spiritualis fiat per fidem. fides autem est ex
+          au<lb ed="#N" n="55" break="no"/>ditu Ro. x. videtur quod sacramentali manducatione et spiritua
+          <lb ed="#N" n="56"/>li debet potius deseruire sensus auditus: quam gustus vel
+          vi<lb ed="#N" n="57" break="no"/>sus.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e182">
+          ⁋ Contrarium huius patet ex dispensatione domini. non enim
+          <lb ed="#N" n="58"/>dedit discipulis suis corpus suum ad videndum sed ad
+          gu<lb ed="#N" n="59" break="no"/>standum.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e189">
+          ⁋ Responsio. multiplex est ratio quare sumptio
+          sacramen<lb ed="#N" n="60" break="no"/>talis habeat fieri commedendo. Una est expressio representatio
+          mor<lb ed="#N" n="61" break="no"/>tis christi. hoc enim sacramentum est signum siue sacramentum
+          <lb ed="#N" n="62"/>mortis christi. Unde hoc facite in meam commemorationem. luce. xxii.
+          <lb ed="#N" n="63"/>vulneratio autem corporis et effusio sanguinis christi expressius
+          si<lb ed="#N" n="64" break="no"/>gnificatur secundum commestionem quam per acium alterius sensus. Unde
+          <lb ed="#N" n="65"/>mors christi dicitur commestio. psalmus. Telus domus tue commedit
+          <lb ed="#N" n="66"/>me. glo. id est fuit mihi causa mortis. Alia est expressior
+          repre<lb ed="#N" n="67" break="no"/>sentatio effectus sacramenti qui est roboratio anime. hoc autem
+          <lb ed="#N" n="68"/>sacramento datur robur anime ad resistendum et ad proficiendum
+          <lb ed="#N" n="69"/>Maius enim prestatur robur ex vsu gustus quam alterius sensus
+          <lb ed="#N" n="70"/>Item vsus alimenti magis deseruit vnioni membrorum in
+          cor<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>pore et conseruationi in vnione et augmentationi que exerceri
+          ha<lb ed="#N" n="72" break="no"/>bet per gustum quam vsus auditus vel visus. quia igitur hoc sac
+          <lb ed="#N" n="73"/>mentum est ad conseruandum vnionem membrorum christi mistici. et
+          <lb ed="#N" n="74"/>ad augmentum vnionis et conseruationis etc. Preterea. omnis
+          <lb ed="#N" n="75"/>sacramentalis sumptio cuiuscumque sacramenti est quo
+          conferrur<lb ed="#N" n="76" break="no"/>gratia delens culpam: est per coniunctionem corporalem
+          sacramenti<lb ed="#N" n="77" break="no"/>cum suscipiente. et hoc requiritur quia debet suscipiens
+          sa<lb ed="#N" n="78" break="no"/>cramentum humiliare se sub creaturis inferioribus: sicut in
+          <lb ed="#N" n="79"/>peccando humiliauit se ponendo creaturam inferiorem inter se
+          <lb ed="#N" n="80"/>et deum: cum deberet immediate coniungi deo. hec humiliatio non
+          <lb ed="#N" n="81"/>fieret in solo aspectu elementorum huius sacramenti sicut fit in
+          <lb ed="#N" n="82"/>gustu.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e244">
+          ⁋ Dicendum igitur ad primo obiectum quod licet cibus
+          <lb ed="#N" n="83"/>sit spiritualis et quod cibatur spirituale: non propter hoc
+          de<lb ed="#N" n="84" break="no"/>bet fieri per sensum maxime spiritualem: sced per sensum cus vsns
+          <lb ed="#N" n="85"/>maxime deseruit spiritui siue spirituali refectioni scilicet gustus
+          <lb ed="#N" n="86"/>Esus enim gustus maxime deseruit spirituali refectionum. quia
+          <lb ed="#N" n="87"/>expressius representat ea propter que institutum fuit sacramentum
+          <lb ed="#N" n="88"/>istud. Quod igitur dicitur quod anima non cibatur masticando
+          <lb ed="#N" n="89"/>et huiusmodi non est verum: immo magis quam videndo: eo quod hoc modo
+          <lb ed="#N" n="90"/>expressius significatur anine ratio quare datur cibus huiusmodi.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e264">
+          <lb ed="#N" n="91"/>⁋ Ad hoc quod obiicitur. quod sola visio est refectio in patria
+          <lb ed="#N" n="92"/>etc. Dicendum quod visioni que est per speciem in patria
+          respon<lb ed="#N" n="93" break="no"/>det illa que fidei est. sed visio que est tota merces nonenm
+          comple<lb ed="#N" n="94" break="no"/>ta in sola speculatione: sed in experientia gustus cui
+          respon<lb ed="#N" n="95" break="no"/>det in via fides non vt est solum in cogitatione: sed vt est operans
+          <lb ed="#N" n="96"/>per dilectionem. ad gal. v. et hec visio scilicet fidei operantis per dilectio
+          <lb ed="#N" n="97"/>nem maxime reficit animam in via. Unde ex comparatione predicta
+          <lb ed="#N" n="98"/>non sequitur quod refectio que habetur ex manducatione
+          hur<lb ed="#N" n="99" break="no"/>sacramenti: debeat esse per visionem huius sacramenti.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e286">
+          ⁋ Id
+          <lb ed="#N" n="100"/>aliud quod obiicitur. quod sicut apprehensor cibatur videndo
+          <lb ed="#N" n="101"/>secundum veritatem: similiter et viator secundum similitudinem etc.
+          Re<lb ed="#N" n="102" break="no"/>sponsio. hoc verum est secundum similitudinem enigmaticam et
+          spe<lb ed="#N" n="103" break="no"/>cularem. secundum quam est visio fidei. hec enim visio illi respondet que
+          <lb ed="#N" n="104"/>est in patria. vnde peccatum secundum consequens est in argumento:
+        </p>
+        <p xml:id="v78d89-aapspf-d1e299">
+          <lb ed="#N" n="105"/>⁋ Ad illud quod obiicitur. quod spiritualis manducatis est
+          <lb ed="#N" n="106"/>per visionem spiritualem etc. Dicendum quod hoc non oportet. mae
+          <lb ed="#N" n="107"/>ducatio spiritualis que est vnio cum corpore misticor conue
+          <lb ed="#N" n="108"/>nit cum visione spirituali que est fides: quia huiusmodi visio
+          ma<lb ed="#N" n="109" break="no"/>xime disponit ad huiusmodi vnionem. Unde quia sacramentamentalig
+          <lb ed="#N" n="110"/>manducatio ordinata est ad spiritualem. et sacramentalis
+          ma<lb ed="#N" n="111" break="no"/>ducatio habet fieri vsu illius sensus qui maxime disponit
+          <lb ed="#N" n="112"/>ad manducationem spiritualem. Usus autem gustus maxime
+          <lb ed="#N" n="113"/>disponit eoquod expressiue representat ea propter que est hoc
+          sacra<lb ed="#N" n="114" break="no"/>mentum.
+        </p>
+        <p xml:id="v78d89-aapspf-d1e323">
+          ⁋ Ad hoc quod obiicitur. quod fides est ex auditu etc.
+          <lb ed="#N" n="115"/>Dicendum quod hec manducatio est mediante fide habita ex
+          <lb ed="#N" n="116"/>auditu. Unde auditus deficit illi scilicet fidei qua mediante est
+          man<lb ed="#N" n="117" break="no"/>ducatio ipsa. Unde auditus inquantum fides est ex auditu
+          prece<lb ed="#N" n="118" break="no"/>dit ipsam manducationem. non ergo ratione qua fides est ex
+          <lb ed="#N" n="119"/>auditu. manducatio illa debet esse audiendo: sed potius
+          co<lb ed="#N" n="120" break="no"/>medendo. ratione multiplicis expressionis que magis
+          con<lb ed="#N" n="121" break="no"/>uenit vsui gustus quam alterius sensus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

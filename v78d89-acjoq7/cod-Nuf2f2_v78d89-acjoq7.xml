@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 66, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 66, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="431"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-acjoq7"><!-- q66m1 -->
+        <head xml:id="v78d89-acjoq7-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-acjoq7-Hd1e103" type="question-title">In generali</head>
+        <p xml:id="v78d89-acjoq7-d1e106">
+          <pb ed="#N" n="431"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-acjoq7-d1e115">
+          <lb ed="#N" n="2"/>CIrca primum queritur. an sint partes
+          peniten<lb ed="#N" n="3" break="no"/>tie virtutis. Secundum. an sint partes
+          pe<lb ed="#N" n="4" break="no"/>nitentie sacramenti.
+        </p>
+        <div xml:id="v78d89-acjoq7-Dd1e124">
+          <head xml:id="v78d89-acjoq7-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-acjoq7-d1e128">
+            <lb ed="#N" n="5"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e133">
+            <lb ed="#N" n="6"/>CIrca primum proceditur ad partem affirmatiuam sic.
+            <lb ed="#N" n="7"/>Triplex est peccatum. scilicet cordis. oris. et operis. sed
+            <lb ed="#N" n="8"/>sapicentie. xi. per que peccat quis per hec et punietur. et hoc
+            <lb ed="#N" n="9"/>requirit iusticia. igitur triplex debet esse punitio peccati respondens
+            <lb ed="#N" n="10"/>peccato sic commisso. scilicet cordis oris et operis. hec autem punitio
+            <lb ed="#N" n="11"/>fit per contritionem confessionem et operis satisfactionem. ergo iusticia penitentie
+            <lb ed="#N" n="12"/>requirit hec tria: et ex his tribus integratur. ergo etc.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e151">
+            ⁋ Item omne
+            <lb ed="#N" n="13"/>peccatum fit in iniuriam dei et ecclesie. virtus autem iusticie
+            re<lb ed="#N" n="14" break="no"/>quirit quod emenda fiat illi cui facta est iniuria. igitur penitentia que
+            <lb ed="#N" n="15"/>est pars iusticie: requirit quod fiat satisfactio deo et ecclesie. sed
+            sa<lb ed="#N" n="16" break="no"/>tisfaciens alicui sine recognitione delicti non habet colorem
+            iu<lb ed="#N" n="17" break="no"/>sticie immo magis videtur inducta huiusmodi emenda violentia
+            <lb ed="#N" n="18"/>quam iusticia. igitur si debet fieri satisfactio ecclesie secundum normam
+            <lb ed="#N" n="19"/>iusticie: requiritur necessario recognitio delicti: hoc est confessio.
+            <lb ed="#N" n="20"/>igitur penitentia que est species iusticie requirit confessionem. sed constat quod
+            <lb ed="#N" n="21"/>requirit alia duo. et ita vt prius.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e173">
+            ⁋ Item his concurrentibus
+            <lb ed="#N" n="22"/>penitentia virtus completur in suo esse: et his deficientibus deficit.
+            <lb ed="#N" n="23"/>sed illa ad quorum concursum sortiuntur res esse completum et ad quo
+            <lb ed="#N" n="24"/>rum defectum deficiunt: sunt essentialia ad illud. sed contritio
+            con<lb ed="#N" n="25" break="no"/>fessio satisfactio non sunt essentialia nisi eo modo quo partes
+            <lb ed="#N" n="26"/>sunt essentiales toti. ergo etc.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e187">
+            ⁋ Contra. sola contritione contingit
+            <lb ed="#N" n="27"/>culpam et penam deleri. hec autem contritio est penitentie virtutis
+            <lb ed="#N" n="28"/>non penitentie sacramenti. sufficit igitur penitentie virtuti sola contritio.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e194">
+            <lb ed="#N" n="29"/>⁋ Item Ambro. Penientia vera est dolor cordis et amaritudo
+            <lb ed="#N" n="30"/>anime pro malis que quisque commisit. aut hec est ratio penitentie
+            virtu<lb ed="#N" n="31" break="no"/>tis: et tunc habeo propositum. aut penitentie sacramenti: et tunc
+            simili<lb ed="#N" n="32" break="no"/>ter. quia penitentia sacramentum non est vera neque efficax sine illa
+            <lb ed="#N" n="33"/>que est virtus.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e207">
+            ⁋ Item penitentia virtus est haitus. sed contritio
+            con<lb ed="#N" n="34" break="no"/>fessio satisfactio sunt actus egredientes a penitentia virtute. sed
+            <lb ed="#N" n="35"/>nullus actus alicuius virtutis est pars illius. ergo etc.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e214">
+            ⁋ Responsio.
+            <lb ed="#N" n="36"/>contritio confessio satisfactio non sunt partes penitentie virtutis
+            pro<lb ed="#N" n="37" break="no"/>prie loquendo. quia sicut dicit magister. iiii. libro. sentius. di. xiiii.
+            Peniten<lb ed="#N" n="38" break="no"/>tia exterior sacramentum est: interior virtus mentis. nec contritio
+            <lb ed="#N" n="39"/>exterior confessio satisfactio sunt proprii actus eliciti a
+            pe<lb ed="#N" n="40" break="no"/>nitentia virtute: sed solummodo actus penitendi siue
+            dolen<lb ed="#N" n="41" break="no"/>di de peccato.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e230">
+            ⁋ Ad illud ergo quod obiicitur. quod iusticia penitentie
+            re<lb ed="#N" n="42" break="no"/>quirit. quod per que peccat homo per hec etc. Dicendum quod in hoc
+            <lb ed="#N" n="43"/>sacramento sunt plures defectus. Unus est ex hoc. quod eo quod penitentia
+            <lb ed="#N" n="44"/>requirit per que peccat homo per hec et puniatur: infert quod
+            vir<lb ed="#N" n="45" break="no"/>tus penitentie hoc requirit. et hoc non est verum: quia virtus
+            pe<lb ed="#N" n="46" break="no"/>nitentie solummodo est in hoc quia elicit actus penitendi
+            si<lb ed="#N" n="47" break="no"/>ue dolendi. sed iusticie penitentie id est iusticia completiua et
+            perfe<lb ed="#N" n="48" break="no"/>ctiua requirit quod puniatur peccatum per illud quod debite respondet.
+            <lb ed="#N" n="49"/>hoc est: vt illud quo committitur culpa subeat penam. hec
+            igi<lb ed="#N" n="50" break="no"/>tur respondentia pene non est secundum exigentiam penitentie virtutis: sed
+            <lb ed="#N" n="51"/>potius secundum exigentiam iusticie perficientis in opere quod
+            incho<lb ed="#N" n="52" break="no"/>atum est per virtutem penitentie in anima. Pret. si adhuc supponere
+            <lb ed="#N" n="53"/>tur quod virtus penitentie requirit quod punitio respondeat peccato in
+            pec<lb ed="#N" n="54" break="no"/>cante: ex hoc non sequeretur quod peccatum eius puniretur
+            confessi<lb ed="#N" n="55" break="no"/>one et operis satisfactione: immo est peccatum per communus in alio
+            <lb ed="#N" n="56"/>quia in omni peccato requiritur contritio confessio et satisfactio.
+            <lb ed="#N" n="57"/>hec enim generaliter requiruntur in omni peccato. sed si peccatum oris
+            <lb ed="#N" n="58"/>sit multiloquium: debet puniri silentio. si detractio:
+            reparati<lb ed="#N" n="59" break="no"/>one fame. et consimiliter in aliis peccatis oris.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e272">
+            ⁋ Ad aliud quod ob
+            <lb ed="#N" n="60"/>iicitur. quod iusticia requirit quod fiat satisfactio deo et ecclesie: et hoc
+            <lb ed="#N" n="61"/>recognoscendo peccatum scilicet recognitione confessionis etc. Dicern
+            <lb ed="#N" n="62"/>dum vt sm. tactum est. hoc bene requirit iusticia: non tamen penitentia
+            vu<lb ed="#N" n="63" break="no"/>tus. actus enim pntnte virtutis non est in respondentia secundum debitum
+            <lb ed="#N" n="64"/>iusticie: sed in exitu proprio a suo habitu: nisi inquantum ordinatur
+            <lb ed="#N" n="65"/>et consummatur a virtute iusticie. Duplex enim requiritur ordina
+            <lb ed="#N" n="66"/>tio in operibus virtutum: et a duplici ordinatiua scilicet a
+            carita<lb ed="#N" n="67" break="no"/>te propter quod dicitur ordinatio virtutum: et a iusticia. Iusticia enim
+            <lb ed="#N" n="68"/>est virtus generaliter ordinatiua sicut et caritas. sed hec
+            respi<lb ed="#N" n="69" break="no"/>ciendo bonum: illa respiciendo debitum. quia enim quod sumus et
+            pos<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>sumus a deo est: quod sumus et possumus deo debemus. i.
+            para<lb ed="#N" n="71" break="no"/>lip. vlti. Tua sunt omnia: et que de manu tua accepimus
+            <lb ed="#N" n="72"/>dedimus tibi. Quod igitur penitens peniteat siue exeat in actum
+            <lb ed="#N" n="73"/>penitendi: hoc debetur penitentie virtuti. quod exeat eo modo quo debet vt
+            sa<lb ed="#N" n="74" break="no"/>tisfaciat deo et ecclesie: hoc debetur iusticie. et est simile in operibus aliis
+            <lb ed="#N" n="75"/>virtutum. aliquis enim continet vt mereatur: actus continentie elicitur a
+            <lb ed="#N" n="76"/>virtute temparantie. aliquis continet vt debito modo satisfaciat deo
+            <lb ed="#N" n="77"/>cui iniuriatus est per incontinentiam: actus continendi imparatur a
+            <lb ed="#N" n="78"/>virtute iusticie. continere ergo vt est actus satisfactorius secundum
+            re<lb ed="#N" n="79" break="no"/>gulam debiti est a iusticia operante. similiter est in proposito.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e320">
+            ⁋ Ad
+            <lb ed="#N" n="80"/>illud quod obiicitur quod his concurrentibus penitentia virtus est completa in
+            <lb ed="#N" n="81"/>suo esse etc. Dicendum quod virtus vno modo completur in suo esse inquam
+            <lb ed="#N" n="82"/>tum est habitualiter perficiens suum subiectum. et hoc modo completionis
+            <lb ed="#N" n="83"/>completa est virtus penitentie sine concursu predictorum. Alio modo
+            <lb ed="#N" n="84"/>completur in suo esse inquantum est egrediens in actus suos quibus
+            <lb ed="#N" n="85"/>progreditur expedite in finem eliciendo vel imparando: et hoc modo
+            <lb ed="#N" n="86"/>completur in esse. his concurrentibus siue deficientibus adhuc est
+            <lb ed="#N" n="87"/>penitentia virtus in suo esse substantiali. vnde patet quod hec non sunt eius
+            <lb ed="#N" n="88"/>partes. Dicendum est igitur. quod contritio confessio satisfactio sunt
+            opera<lb ed="#N" n="89" break="no"/>penitentie virtutis: non partes proprie loquendo. et egrediuntur ab
+            ipsa<lb ed="#N" n="90" break="no"/>tanquam actus ab haintu. differenter tamen: quia contritio ab ipsa eliciente:
+            <lb ed="#N" n="91"/>confessio et satisfactio ab ipsa imparante.
+          </p>
+        </div>
+        <div xml:id="v78d89-acjoq7-Dd1e351">
+          <head xml:id="v78d89-acjoq7-Hd1e353">Articulus 2</head>
+          <p xml:id="v78d89-acjoq7-d1e355">
+            <lb ed="#N" n="92"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e360">
+            <lb ed="#N" n="93"/>Onsequentur queritur. vtrum contritio confessio
+            satisfa<lb ed="#N" n="94" break="no"/>ctio sunt partes penitentie sacramenti. Quod sint: patet sic. que
+            consti<lb ed="#N" n="95" break="no"/>tuunt rem in esse integre et perfecte sunt partes illius.
+            <lb ed="#N" n="96"/>sed contritio confessio satisfactio constituunt penitentiam sacramentum
+            integre<lb ed="#N" n="97" break="no"/>et perfecte. igitur etc. Probatio medie. Ioh. os aureum. perfancta
+            <lb ed="#N" n="98"/>penitentia cogit penitentem omnia libentur sufferre. In corde eius
+            con<lb ed="#N" n="99" break="no"/>tritio: in ore eius confessio: in opere tota humilitas. hec est
+            fru<lb ed="#N" n="100" break="no"/>ctifera penitentia. hec Ioh. Si igitur fructifera penitentia est penitentia
+            per<lb ed="#N" n="101" break="no"/>fecta et integra. ergo etc.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e382">
+            ⁋ Item penitentia non habet perfectam efficaciam
+            <lb ed="#N" n="102"/>nisi istis tribus concurrentibus. peccatum enim separat a deo: ab
+            ec<lb ed="#N" n="103" break="no"/>clesia: a beatitudine. penitentia ratione contritionis habet efficaciam
+            reconci<lb ed="#N" n="104" break="no"/>liandi deo: ratione confessionis reconciliandi ecclesie: ratione
+            satisfa<lb ed="#N" n="105" break="no"/>ctionis merendi quod non differatur beatitudo. sine igitur his tribus
+            <lb ed="#N" n="106"/>non habet esse suum completum: sed istis concurrentibus habet.
+            <lb ed="#N" n="107"/>igitur sunt partes illius.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e398">
+            ⁋ Contra. sacramentum simplex est.
+            <lb ed="#N" n="108"/>sed simplicitas non compatitur diuisionem per partes.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e404">
+            ⁋ Item
+            <lb ed="#N" n="109"/>qui efficit totum efficit partes. similiter qui ministrat to
+            <lb ed="#N" n="110"/>tum ministrat et partes. sed sacerdos est minister
+            sacramen<lb ed="#N" n="111" break="no"/>ti penitentie et ministrat illud. igitur si non ministrat illa que
+            di<lb ed="#N" n="112" break="no"/>cuntur partes scilicet contritionem confessionem satisfactionem:
+            <lb ed="#N" n="113"/>non sunt partes penitentie.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e417">
+            ⁋ Item penitens conteritur. confitetur.
+            <lb ed="#N" n="114"/>satisfacit. igitur partes iste sunt penitentis vt efficientis. sed
+            <lb ed="#N" n="115"/>penitens non facit ipsum sacramentum. igitur he non sunt
+            <lb ed="#N" n="116"/>partes penitentie.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e426">
+            ⁋ Item ex summa dei misericordia est: quod
+            <lb ed="#N" n="117"/>semper punit citra meritum siue condignum. ergo peccatum
+            <lb ed="#N" n="118"/>commissum sola voluntate cordis: solo dolore cordis est
+            pu<lb ed="#N" n="119" break="no"/>niendum. Si enim puniretur corde ore et opere exteriori:
+            vi<lb ed="#N" n="120" break="no"/>detur quod supra meritum puniretur. igitur tria predicta non sunt
+            <lb ed="#N" n="121"/>generaliter loquendo partes penitentie.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e439">
+            ⁋ Item Augustinus. lib. de
+            <lb ed="#N" n="122"/>sermone in monte. Sunt tres peccati differentie. in corde:
+            <lb ed="#N" n="123"/>in facto: in consuetudine vel verbo: tamquam tres mortes.
+            vna<lb ed="#N" n="124" break="no"/>quasi in domo scilicet cum corde consentitur libidini. altera quasi
+            pro<lb ed="#N" n="125" break="no"/>lata iam extra portam cum in factum procedit assensio.
+            ter<lb ed="#N" n="126" break="no"/>cia cum male consuetudinis tanquam mole premitur animus:
+            <lb ed="#N" n="127"/>vel noxie defensionis clipeo armatur quasi in sepulchro
+            iam<lb ed="#N" n="128" break="no"/>putrescens. hec sunt tria genera mortuorum que dominus legitur
+            <lb ed="#N" n="129"/>suscitasse Math. ix. Luc. vii. Io. xi. huic igitur triplici
+            re<lb ed="#N" n="130" break="no"/>medio occurritur contritione confessione satisfactione. Ex
+            <lb ed="#N" n="131"/>his patet quod huic morbo scilicet cordis: est remedium singlorare scilicet
+            <lb ed="#N" n="132"/>contritio. alii morbo scilicet oris confessio. igitur generaliter hec tria
+            <lb ed="#N" n="133"/>scilicet contritio etc. non sunt partes penitentie. sed secundum quod penitentia est de
+            <lb ed="#N" n="134"/>peccato cordis contritio similiter et de aliis.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e470">
+            ⁋ Item Ioh. os
+            <lb ed="#N" n="135"/>aureum. Sicut dominum tribus modis offendimus scilicet corde ore
+            <lb ed="#N" n="136"/>opere vel manu: ita tribus modis satisfaciamus scilicet contritione etc.
+            <lb ed="#N" n="137"/>et ita vtsmu.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e479">
+            ⁋ Item fructus sacramenti non est pars sacramenti. sed vt
+            di<lb ed="#N" n="138" break="no"/>cit magister in. iiii. di. xvi. satisfactio precipitur a Iohne. vbi dicitur.
+            <lb ed="#N" n="139"/>facite dignos fructus penitentie Math. iii. igitur qui
+            satisfa<pb ed="#N" n="432"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>cit: facit dignos fructus penitentie. igitur satisfactio est fructus
+            pe<lb ed="#N" n="2" break="no"/>nitentie: non ergo pars.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e493">
+            ⁋ Item nihil dicendum est pars penitentie quo non fit gratia
+            <lb ed="#N" n="3"/>aliqua penitenti. sed per satisfactionem non fit aliqua gratia penitenti: quia
+            con<lb ed="#N" n="4" break="no"/>tritione culpa deletur et comutatur pena eterna in temporalem. In
+            con<lb ed="#N" n="5" break="no"/>fessione virtute clauium remittitur aliquid de pena debita in
+            in<lb ed="#N" n="6" break="no"/>iunctione pene soluende facta a sacerdote. facta igitur inium
+            <lb ed="#N" n="7"/>ctione et absolutione a sacerdote: solummodo est penitens
+            de<lb ed="#N" n="8" break="no"/>bitor pene iniuncte: quam incipit soluere quando incipit
+            satisfa<lb ed="#N" n="9" break="no"/>cere. sed ad absolutionem illius pene iniuncte omnino tenetur nec
+            <lb ed="#N" n="10"/>aliquid remittitur ei in satisfactione sequente iniunctione. igitur
+            <lb ed="#N" n="11"/>satisfactione illa nulla fit sibi gratia. ex quo totam penam necesse habet
+            <lb ed="#N" n="12"/>soluere.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e517">
+            ⁋ Item sacramentum penitentie efficit et signat. vnde nihil debet esse
+            <lb ed="#N" n="13"/>pars illius nisi efficiat et significet. sed contritio que solius cordis er
+            <lb ed="#N" n="14"/>et nullo modo signum nihil signat. illa que est cum signo
+            v<lb ed="#N" n="15" break="no"/>fletu vel huiusmodi non efficit quod significat. igitur neque contritio
+            ta<lb ed="#N" n="16" break="no"/>lis: neque talis est pars penitentie sacramenti.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e528">
+            ⁋ Item super illud psalmus.
+            Cogita<lb ed="#N" n="17" break="no"/>bo pro peccato meo. dicit glo. duo modi sunt perfecte penitentie:
+            <lb ed="#N" n="18"/>confessio et emendatio.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e535">
+            ⁋ Item Amb. in seuiusmode. xl. Ecce nunc
+            <lb ed="#N" n="19"/>tempus acceptabile. ii. corum. vi. dicit. Penientia vera dolor est
+            cor<lb ed="#N" n="20" break="no"/>dis et amaritudo anime pro malis que quisque comisit. hoc
+            descri<lb ed="#N" n="21" break="no"/>bitur vera penitentia: nec tangitur aliquid de confessione vel
+            satisfacti<lb ed="#N" n="22" break="no"/>one.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e546">
+            ⁋ Item in glo. psalmus. Domine ne in furore: primi scilicet in glo. titu
+            <lb ed="#N" n="23"/>lib. viii. Sunt precipue modi remissionis quibus peccata delentur
+            <lb ed="#N" n="24"/>scilicet baptismus. elemosina. martirium. fratris errantis
+            conuer<lb ed="#N" n="25" break="no"/>sio. remittere in se peccanti. fletus. satisfactio pro peccatis.
+            con<lb ed="#N" n="26" break="no"/>municatio corporis et sanguinis domini. hic nihil tangitur de
+            confes<lb ed="#N" n="27" break="no"/>sione similiter neque de contritione. igitur non sunt de modis
+            remis<lb ed="#N" n="28" break="no"/>sionis peccati. sed partes penitentie sunt de modis. ergo etc.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e562">
+            ⁋ Responsio.
+            <lb ed="#N" n="29"/>quod he sunt partes penitentie sacramenti scilicet complete siue consummate.
+            <lb ed="#N" n="30"/>secundum quod dicitur res perfecta omnes defectus reducens ad perfectum.
+            <lb ed="#N" n="31"/>Et hoc insinuat auctoritas Iohis os aurei: que est. perfecta
+            pe<lb ed="#N" n="32" break="no"/>nitentia cogit etc.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e574">
+            ⁋ Ad hoc igitur quod primo obiicitur. quod
+            sacra<lb ed="#N" n="33" break="no"/>mentum est simplex etc. Dicendum quod sicut dicit Hug. sacramentum
+            <lb ed="#N" n="34"/>est ex similitudine representans: ex institutione significans. ergo
+            <lb ed="#N" n="35"/>etc. Non est igitur penitentia simplex ratione institutionis: quia
+            plu<lb ed="#N" n="36" break="no"/>res fuerunt institutiones: quia confessionis. Iac. vlti.
+            satisfacti<lb ed="#N" n="37" break="no"/>onis. Math. iii. ibi. Facite dignos fructus penitentie. Neque
+            in<lb ed="#N" n="38" break="no"/>quantum est representans ex similitudine. Alia est enim similitudo
+            con<lb ed="#N" n="39" break="no"/>tritionis ad illud quod representat: et confessionis et satisfactionis
+            <lb ed="#N" n="40"/>ad illa que representant. sed simplex est ratione qua
+            sanctifi<lb ed="#N" n="41" break="no"/>cat inuisibilem gratiam conferens. Dicitur igitur simplex non
+            in<lb ed="#N" n="42" break="no"/>quantum est signum: quia quo ad illud est diuisibile. quia quoddam
+            <lb ed="#N" n="43"/>signum est in contritione secundum magistrum in sen. quoddam in
+            con<lb ed="#N" n="44" break="no"/>fessione: quoddam in satisfactione. Neque inquantum est causa: quia
+            <lb ed="#N" n="45"/>causa est deletionis culpe et pene: et alterius est causa
+            contri<lb ed="#N" n="46" break="no"/>tio: et alterius confessio: et alterius satisfactio materialiter
+            <lb ed="#N" n="47"/>loquendo. sed simplex dicitur ratione potissimi effectus qui est
+            sancti<lb ed="#N" n="48" break="no"/>ficatio. Et nota quod aliud est dicere sacramentum vnum: et
+            ali<lb ed="#N" n="49" break="no"/>ud simplex. multitudo enim partium non impedit vnitatem:
+            <lb ed="#N" n="50"/>simplicitatem autem impedit. Simplicitas autem dicit
+            indiui<lb ed="#N" n="51" break="no"/>sionem simpliciter. vnde forme simplices dicuntur. Unitas non
+            ne<lb ed="#N" n="52" break="no"/>cessario dicit indiuisionem simpliciter sed quo. Ex simpliciter enim
+            <lb ed="#N" n="53"/>diuersis efficitur vnum. vnde etsi penitentia similitudine representa
+            <lb ed="#N" n="54"/>tionis est vnum: non tamen simpliciter. sed simplex dicitur quia
+            <lb ed="#N" n="55"/>sanctificat.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e626">
+            ⁋ Ad hoc quod obiicitur. quod sacerdos ministrat
+            sacra<lb ed="#N" n="56" break="no"/>mentum et non ministrat partes etc. Responsio. sacramentum
+            no<lb ed="#N" n="57" break="no"/>ue legis imaginem gerit et causa existit. vnde sacramentum non
+            atten<lb ed="#N" n="58" break="no"/>ditur in significatione tantum vel efficacia tantum: sed in vtroque. Pre.
+            <lb ed="#N" n="59"/>quelibet confessio non est sacramentalis: sed illa sola que fit
+            haben<lb ed="#N" n="60" break="no"/>ti poetantem clauium. Licet igitur actus confitendi et
+            satisfaciendi<lb ed="#N" n="61" break="no"/>non sit ab illo qui ministrat ipsum sacramentum: sunt tamen ab
+            ipso<lb ed="#N" n="62" break="no"/>vt sunt partes sacramenti. Illud euidentius patet secdm. vbi tactum
+            <lb ed="#N" n="63"/>est. vtrum signa ex parte penitentis debeant dici sacramentum
+            <lb ed="#N" n="64"/>vel ex parte sacerdotis.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e648">
+            ⁋ Ad illud quod obiicitur. quod penitens
+            <lb ed="#N" n="65"/>est efficiens horum: sed penitens non efficit sacramentum etc. Iam patet
+            <lb ed="#N" n="66"/>responsio. Est enim efficiens horum vt actus sunt: sed non vt sunt
+            sa<lb ed="#N" n="67" break="no"/>cramentalia siue partes sacramenti per se loquendo. licet quodam
+            <lb ed="#N" n="68"/>modo materialiter.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e659">
+            ⁋ Ad illud quod obiicitur. quod deus punit citur
+            <lb ed="#N" n="69"/>condignum: igitur peccatum commissum corde etc. Dicendum quod
+            <lb ed="#N" n="70"/>homo peccando meretur redigi in nihilum. vnde deus punit
+            pec<lb ed="#N" n="71" break="no"/>catorem citra condignum relinquendo illi esse. quod quidem bonum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>est in se et ordinatum in pena. vnde Tren. iii. Misericordie domini
+            <lb ed="#N" n="73"/>quia non sumus consumpti. Pret. quia iniuriatur
+            peccan<lb ed="#N" n="74" break="no"/>do illi qui est infinitus potestate sapientia bonitate: meretur
+            <lb ed="#N" n="75"/>penam infinitam non solum duratione sed intensione. vnde eo o
+            <lb ed="#N" n="76"/>ens in pena punitur pena finita acerbitate: punitur citra
+            con<lb ed="#N" n="77" break="no"/>dignum. Quod igitur obiicitur. quod punit citra meritum.
+            Dicendi<lb ed="#N" n="78" break="no"/>quod cum dicitur punit citra condignum: hoc est punit pena minoris
+            <lb ed="#N" n="79"/>acerbitatis quam meruit peccator.. Ex hoc non sequitur quod non debet
+            <lb ed="#N" n="80"/>nire peccatum cordis nisi solummodo pena cordis.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e690">
+            ⁋ Ad
+            <lb ed="#N" n="81"/>illud Augustinus. quod tres sunt differentie peccati. in corde. in facto
+            <lb ed="#N" n="82"/>in consuetudine vel verbo. quibus occurritur contritione
+            confes<lb ed="#N" n="83" break="no"/>sione satisfactione. Dicendum quod non vult dicere quod peccato
+            co<lb ed="#N" n="84" break="no"/>dis occurritur remedio quod est contritio. et peccato oris
+            reme<lb ed="#N" n="85" break="no"/>dio quod est confessio. et peccato operis remedio quod est sati
+            <lb ed="#N" n="86"/>ctio. sed vult dicere quod vnicuique horum est occurrendum hoc
+            ti<lb ed="#N" n="87" break="no"/>plici remedio. quod patet per hoc: quod augustinus. vocat peccatum i
+            <lb ed="#N" n="88"/>peccatum noxie defensionis. quo peccat homo quando nititur ad
+            de<lb ed="#N" n="89" break="no"/>fensionem peccati sui. vnde dicit augustinus. Est peccatum
+            co<lb ed="#N" n="90" break="no"/>et peccatum operis. secundum quod dicitur peccatum operis communiter quando conser
+            <lb ed="#N" n="91"/>sus libidinis interioris progreditur in opus quodcumque:
+            se<lb ed="#N" n="92" break="no"/>sit opus oris siue manus siue alterius organi. e peccais
+            <lb ed="#N" n="93"/>consuetudinis vel verbi. et sumitur peccatum consuetudint
+            <lb ed="#N" n="94"/>berbi pro vna differentia peccati. quia peccatum verbi defensig
+            <lb ed="#N" n="95"/>nis quasi consequens est vel annexum peccato consuetud
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e725">
+            <lb ed="#N" n="96"/>⁋ Similiter dicendum ad aliud quod dicit Ioh. os aureum. quod sicut
+            <lb ed="#N" n="97"/>tribus modis deum offendimus: sic tribus modis satis
+            <lb ed="#N" n="98"/>mus. hoc non dicitur quia de peccato cordis satisfaciamus vno
+            <lb ed="#N" n="99"/>modo similiter de ceteris: sed intelligendum est quod pro vnoquoo
+            <lb ed="#N" n="100"/>ciamus his eim nodis. somuse
+            <lb ed="#N" n="101"/>diorum ad peccata intelligenda est in genere et
+            indistin<lb ed="#N" n="102" break="no"/>est: sicut sunt tres morbi in genere actualis morta
+            <lb ed="#N" n="103"/>sunt remedia in genere. non ita quod tria tribus distinct
+            <lb ed="#N" n="104"/>deant: sed singulis omnia.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e748">
+            ⁋ Ad illud quod obiicitur. quod satisfactio
+            <lb ed="#N" n="105"/>est fructus etc. Dicendum quod satisfactio non est fructus per
+            <lb ed="#N" n="106"/>nitentie proprie loquendo: sed quo. quia in pertibus penitentie satisfa
+            <lb ed="#N" n="107"/>ctio immediatius se habet respectu fructus. quia illa
+            marmme<lb ed="#N" n="108" break="no"/>appropinquatur beatitudini que est fructus penitentie.
+            Coniri<lb ed="#N" n="109" break="no"/>tione enim reconciliamur deo. confessione ecclesie. satisfactione
+            <lb ed="#N" n="110"/>propinquamur beatitudini. Uel potest dici quod. iii. Math.
+            fru<lb ed="#N" n="111" break="no"/>ctus penitentie dicitur penitentia fructuosa: vt que est consummata
+            <lb ed="#N" n="112"/>tisfactionem. vnde facite dignos fructus penitentie id est fruetuosam
+            <lb ed="#N" n="113"/>penitentiam id est consummatam satisfactionem. Dignus autem est fructus
+            pen<lb ed="#N" n="114" break="no"/>id est digne et fructuosa est facta: quando quantitas et qualitas
+            pe<lb ed="#N" n="115" break="no"/>s
+            <lb ed="#N" n="116"/>aliud quod obiicitur. quod nulla gratia fit penitenti satisfactione etc.
+            <lb ed="#N" n="117"/>Dicendum quod satisfactio vt est iniuncta ab habente petantem
+            cla<lb ed="#N" n="118" break="no"/>uium: est pars penitentie. Iniungens autem penam satisfactionis souii
+            <lb ed="#N" n="119"/>et ligat penitentem: soluit a pena purgatorii et ligat adtem
+            <lb ed="#N" n="120"/>poralem. penitens igitur soluens illam penam temporalem
+            abso<lb ed="#N" n="121" break="no"/>uitur a debito pene purgatorii: que incomperabiliter grauior
+            <lb ed="#N" n="122"/>est. Si autem contemnit soluere illam: efficitur reus eterne. Si an
+            <lb ed="#N" n="123"/>tem esset preuentus eo quod illam soluere non posset: satisfaceret in
+            <lb ed="#N" n="124"/>purgatorio multo grauiore. vnde patet quod satisfactione fit
+            magne<lb ed="#N" n="125" break="no"/>gratia penitenti.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e796">
+            ⁋ Ad hoc quod queritur de contritione: quod non
+            <lb ed="#N" n="126"/>videtur esse pars. Dicendum quod penitentia duo concernit. effica ciam fiue
+            <lb ed="#N" n="127"/>causalitatem: et significationem. contritio igitur interior est pars
+            exi<lb ed="#N" n="128" break="no"/>quantum est causa. licet enim penitentia sit et causa et signum: non propter hoc
+            oper<lb ed="#N" n="129" break="no"/>tet quod quicquid sit pars illius sit similiter.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e807">
+            ⁋ Ad illud quod obiicitur quod
+            <lb ed="#N" n="130"/>duo sunt modi perfecte penitentie: confessio et emendatio sicut dicit
+            <lb ed="#N" n="131"/>glo. ibi. Cogitabo pro peccato meo. Dicendum quod vt ibidem
+            <lb ed="#N" n="132"/>patet preimissum est ibi de contritione. ibi: dolor meus in
+            cospe<lb ed="#N" n="133" break="no"/>ctu meo semper. vnde glo. inde dolet quia deliquit. vnde ibidem
+            <lb ed="#N" n="134"/>in glo. vult dicere. quia dolor contritionis precedit accusano
+            <lb ed="#N" n="135"/>nem confessionis. nec hec sufficiunt ad perfectam penitentiam: sed exigit
+            <lb ed="#N" n="136"/>emendatio per ieiunia: fletus: et huiusmodi. vnde insinuatur in illa
+            <lb ed="#N" n="137"/>glo. comparatio eorum que perficiunt penitentiam id est confessionis et
+            emen<lb ed="#N" n="138" break="no"/>dationis ad illud quod inchoat penitentiam scilicet contritionem. vnde cum
+            <lb ed="#N" n="139"/>dicit glo. duo modi sunt perfecte penitentie. sensus est: duo modisunt
+            <lb ed="#N" n="140"/>quibus penitentia inchoata in contritione perficitur.
+          </p>
+          <p xml:id="v78d89-acjoq7-d1e833">
+            ⁋ Ad hoc quod obiicitur
+            <lb ed="#N" n="141"/>de glo. super illud. Dndee ne in furore. quia ibi non fit mentio de
+            <lb ed="#N" n="142"/>confessione neque de contritione. Dicendum quod satisfactio tenetur
+            con<pb ed="#N" n="433"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>plexiue: et sic comprehendit tres partes penitentie. satisfacere enim
+            sacra<lb ed="#N" n="2" break="no"/>mentaliter secundum quod pena est sacramentum ecclesie: comprehendit conteri et
+            confi<lb ed="#N" n="3" break="no"/>teri et satisfacere pertialiter dictum. Uel potest dici. quod sub luctu
+            con<lb ed="#N" n="4" break="no"/>prehenditur contritio que est luctus interior anime. et sic tanguntur ibi
+            <lb ed="#N" n="5"/>due partes penitentie. non tangitur tercia scilicet confessio: quia sunt modi
+            pre<lb ed="#N" n="6" break="no"/>cipui remissionis quos tangit. In partibus penitentie modi sunt
+            preci<lb ed="#N" n="7" break="no"/>pui remissionis: contritio sati ffactio. altera enim dimittitur
+            cul<lb ed="#N" n="8" break="no"/>pa: reliqua dimittitur pena. licet enim confessione erubescentie
+            an<lb ed="#N" n="9" break="no"/>nexe remittitur aliquantulum de pena: hoc non fit confessione
+            sim<lb ed="#N" n="10" break="no"/>pliciter. vnde pertium penitentie precipui modi remissionis sunt contritio
+            <lb ed="#N" n="11"/>et satisfactio. propter quod in enumeratione precipuorum modorum
+            <lb ed="#N" n="12"/>non numeratur confessio.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

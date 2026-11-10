@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 14, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 14, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="115"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3rmf3"><!-- q14m1 -->
+        <head xml:id="v78d89-a3rmf3-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-a3rmf3-Hd1e103" type="question-title">Utrum a conta ctu carnis Christi</head>
+        <p xml:id="v78d89-a3rmf3-d1e106">
+          <lb ed="#N" n="12"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e111">
+          <lb ed="#N" n="13"/>CIrca primum sic. Ioh. Cris. Nunquam aqua
+          ba<lb ed="#N" n="14" break="no"/>ptismi purgare peccata credentium posset: nisi conta
+          <lb ed="#N" n="15"/>ctu dominici corporis sanctificata fuisset.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e120">
+          ⁋
+          Con<lb ed="#N" n="16" break="no"/>tra. esto quod christus non fuisset baptizatus per hanc
+          for<lb ed="#N" n="17" break="no"/>manm in nomine pratris etc. Et virtute passionis delentur culpa et
+          pe<lb ed="#N" n="18" break="no"/>na in baptismo et eque reprimitur fomes. Cum enim mors christi
+          fue<lb ed="#N" n="19" break="no"/>rit pena. ex ea pena quam caro christi sustinuit vnita diuinitati
+          <lb ed="#N" n="20"/>fit remissio talis et maxima debilitatio fomitis. ergo
+          super<lb ed="#N" n="21" break="no"/>uacuum est ponere quod aqua recepit vim deliberatiuam ex hoc
+          <lb ed="#N" n="22"/>contactu vel virtutem deletionis culpe aut pene.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e139">
+          ⁋ Item
+          que<lb ed="#N" n="23" break="no"/>ritur quam vim habuerit aqua: et quare non potius dicitur hic de
+          <lb ed="#N" n="24"/>aqua que fluxit de latere christi cum sanguine.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e146">
+          ⁋ Item vim
+          dici<lb ed="#N" n="25" break="no"/>tur habuisse ex contactu carnis christi et iterum a verbo: que
+          dif<lb ed="#N" n="26" break="no"/>ferentia.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e153">
+          ⁋ Item nonne contactus ille potuit sufficere ad vim
+          re<lb ed="#N" n="27" break="no"/>generatiuam conferendam. ita quod nulla virtus verbi adderetur: sicut
+          <lb ed="#N" n="28"/>anqua ex vi sibi collata mundauit Naaman a lepr absque
+          ali<lb ed="#N" n="29" break="no"/>quo addito.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e162">
+          ⁋ Item queritur quomo verbum sanctificet aquam
+          <lb ed="#N" n="30"/>cum fiat in personam baptizati. quando autem aliquid benedici
+          <lb ed="#N" n="31"/>tur conuersio fit super illud vt benedico te creatura salis: et in
+          <lb ed="#N" n="32"/>fontibus dicitur: qui super te pedibus ambulauit etc.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e171">
+          ⁋ Item
+          <lb ed="#N" n="33"/>quomodo accedit verbum ad elementum: cum potius ad personam.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e176">
+          <lb ed="#N" n="34"/>⁋ Item queritur quare alia elementa non sunt sanctificata
+          <lb ed="#N" n="35"/>ex contactu carnis christi vt aqua.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e184">
+          ⁋ Responsio dicendum ad hoc. quod
+          <lb ed="#N" n="36"/>circa rem quancumque consideranda sunt nonsolum que ad esse: sed
+          <lb ed="#N" n="37"/>que ad bene esse pertinent. dominus enim qui venit saluare quod
+          fue<lb ed="#N" n="38" break="no"/>rat perditum. nonsolum fecit hoc per potentiam sed per sapientiam
+          <lb ed="#N" n="39"/>siue per potentiam ordinatam. et hoc est quod augu. dicit.
+          po<lb ed="#N" n="40" break="no"/>terat quidem modus alius esse nostre saluationis: sed nullus
+          <lb ed="#N" n="41"/>conuenientior. Eodem modo dicendum. quod si non fuisset christus
+          ba<lb ed="#N" n="42" break="no"/>ptizatus: haberet eundem effectum baptismus. tamen vt omnia
+          <lb ed="#N" n="43"/>fierent secundum ordinem: decuit ita fieri. vnde per colligantiam
+          car<lb ed="#N" n="44" break="no"/>nis descendentis per libidinosam propagationem: omnis
+          ani<lb ed="#N" n="45" break="no"/>ma contraxit originalis culpe et pene immundiciam et pena
+          car<lb ed="#N" n="46" break="no"/>nem assumpsit non sic descendentem: cum anima ipsi carni
+          coniun<lb ed="#N" n="47" break="no"/>cta et sibi qui est principium vite. que caro nullam habuit
+          immun<lb ed="#N" n="48" break="no"/>diciam. et quia in aqua facienda erat regeneratio. vt conue
+          <lb ed="#N" n="49"/>niens erat fieri secundum proprietatem elementi: voluit vt sicut ex
+          <lb ed="#N" n="50"/>contactu carnis imunde prius contracta est immundicia: ita ex conta
+          <lb ed="#N" n="51"/>ctu carnis sue contraheret elementum regenerationis scilicet aqua
+          <lb ed="#N" n="52"/>vim sanctificatiuam. Item similiter per contactum carnis que
+          <lb ed="#N" n="53"/>fuit imunis a calore concupiscentie danda fuit vis expressiua
+          <lb ed="#N" n="54"/>fomitis.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e228">
+          ⁋ Ad verbum ergo Cris. quod nunquam aqua etc.
+          Respon<lb ed="#N" n="55" break="no"/>sio quod exponendum est. non posset ita conuenienter: licet ita
+          ple<lb ed="#N" n="56" break="no"/>ne et ita efficaciter.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e235">
+          ⁋ Ad aliud dicendum. quod illa aqua que
+          <lb ed="#N" n="57"/>fluxit de latere christi. ad hoc fluxit vt esset signum quod per mortem
+          <lb ed="#N" n="58"/>christi virtutem haberet baptismus. et ideo fluxit cum sanguine.
+          <lb ed="#N" n="59"/>et in hoc quod in latere christi a perto. signum fuit quod ianua paradisi
+          <lb ed="#N" n="60"/>erat reserata per mortem christi.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e246">
+          ⁋ Ad aliud dicendum. quod potstas
+          <lb ed="#N" n="61"/>virtutis regeneratiue non est in aqua nisi cum verbum
+          sanctifi<lb ed="#N" n="62" break="no"/>catur. sed ex contactu carnis christi dicitur collata hoc modo quod
+          in<lb ed="#N" n="63" break="no"/>telligitur de potentia ante actum. a verbo autem habuit
+          poten<lb ed="#N" n="64" break="no"/>tiam cum actu et fuit hec potentia ad illam completiua.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e257">
+          ⁋ Ad aliud
+          <lb ed="#N" n="65"/>dicendum. quod non est simile de mundatione Naaman: cum illa
+          fue<lb ed="#N" n="66" break="no"/>rit corporalis scilicet lepra: peccatum autem spirituale. et ideo licet aqua ex
+          <lb ed="#N" n="67"/>virtute sibi collata disponat ad mundationem. preter hoc secundum
+          con<lb ed="#N" n="68" break="no"/>uenientiam medicine requirebatur spirituale remedium scilicet spiritus et
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>virtus verbi. verbum quidem animam caracterizat. spiritus
+          vi<lb ed="#N" n="70" break="no"/>uificat.
+        </p>
+        <p xml:id="v78d89-a3rmf3-d1e275">
+          ⁋ Ad aliud dicendum. quod sanctificatio aque est prepara
+          <lb ed="#N" n="71"/>toria vt in fontibus. et quia sola aqua tunc esset sanctificanda
+          <lb ed="#N" n="72"/>demonstratur aqua. et est alia sanctificatio aque in actu
+          tin<lb ed="#N" n="73" break="no"/>ctionis: et tunc non oportet demonstrari aqua sed persona que
+          <lb ed="#N" n="74"/>intingitur cuius est recipere per verbum caracterem. per spiritum gratiam
+          <lb ed="#N" n="75"/>et in eodem spiritu sanctificatur aqua perfecte quod significatur in
+          <lb ed="#N" n="76"/>hoc quod dicit Dama. de illo quod dicitur. i. Corin. x. omnes
+          <lb ed="#N" n="77"/>in moyse baptizati sunt in nube et in mari. Nebula fimbu
+          <lb ed="#N" n="78"/>um est spiritus: mare vero aqua. virtus etiam verbi attingit aquam
+          <lb ed="#N" n="79"/>in hoc quod immergatur in aqua inuocato super aquam nomine
+          tri<lb ed="#N" n="80" break="no"/>nitatis. Unde hec vox in nomine trinitatis respicit hoc
+          ver<lb ed="#N" n="81" break="no"/>bum baptizo quod est intingo in aqua. et secundum hoc sanctificatur
+          <lb ed="#N" n="82"/>aqua. respicit etiam personam siue suppositum quod
+          demonstra<lb ed="#N" n="83" break="no"/>tur per pronomen et nominatur expresse: et sic sanctificat personam.
+          <lb ed="#N" n="84"/>Ad hoc quod vltimo queritur. quare alia elementa non sunt
+          <lb ed="#N" n="85"/>sanctificata ex contactu carnis christi. Dicendum quod non sufficit
+          con<lb ed="#N" n="86" break="no"/>tactus: sed requiritur voluntas dei instituentis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

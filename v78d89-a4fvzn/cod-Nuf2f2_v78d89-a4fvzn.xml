@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 17, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 17, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="126"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4fvzn"><!-- q17m5 -->
+        <head xml:id="v78d89-a4fvzn-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a4fvzn-Hd1e103" type="question-title">Utrum differri debet baptismus an non</head>
+        <p xml:id="v78d89-a4fvzn-d1e106">
+          <lb ed="#N" n="133"/>⁋ Membrum quintum
+        </p>
+        <p xml:id="v78d89-a4fvzn-d1e111">
+          <lb ed="#N" n="134"/>COnsequenter queritur. vtrum baptismus possit
+          <lb ed="#N" n="135"/>differri. Et primo queritur vtrum debeat
+          dif<lb ed="#N" n="136" break="no"/>ferri vsque ad finem vite. Secundo dato quod non
+        </p>
+        <p xml:id="v78d89-a4fvzn-d1e120">
+          <lb ed="#N" n="137"/>vtrum vque ad etatem adultam.
+        </p>
+        <div xml:id="v78d89-a4fvzn-Dd1e126">
+          <head xml:id="v78d89-a4fvzn-Hd1e128">Articulus 1</head>
+          <p xml:id="v78d89-a4fvzn-d1e130">
+            <pb ed="#N" n="127"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e139">
+            <lb ed="#N" n="2"/>CIrca primum sic obiicitur. ille modus
+            conuenientissi<lb ed="#N" n="3" break="no"/>mus est susceptioni baptismi quo maturius peruenitur
+            <lb ed="#N" n="4"/>ad salutem. Sed qui baptizatur in fine statim euolat:
+            <lb ed="#N" n="5"/>quia in baptismate deletur culpa et pena. huius ergo expecta
+            <lb ed="#N" n="6"/>tione citius et maturius peruenitur ad salutem quam susceptione
+            ba<lb ed="#N" n="7" break="no"/>ptismi tempore anteriori: ergo etc.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e155">
+            ⁋ Pre. omnis christi actio nostra est
+            <lb ed="#N" n="8"/>instructio. Christus autem non expectauit tantum etatem adultam: sed
+            fe<lb ed="#N" n="9" break="no"/>re vsque ad finem vite sue distulit baptizari. non enim accessit ad
+            <lb ed="#N" n="10"/>baptismum antequam esset. xxx. annorum: ergo conueniret vt sic expecta
+            <lb ed="#N" n="11"/>rent eius membra.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e166">
+            ⁋ Contra. nullus certus est de die vel
+            hora<lb ed="#N" n="12" break="no"/>mortis. nullus autem exponere se debet periculo spirituali cum habeat
+            <lb ed="#N" n="13"/>viam bonam et salubrem quam eligat. ergo non est expectandum
+            <lb ed="#N" n="14"/>vsque ad finem vite vel vsque ad etatem virilem vt suscipiatur
+            ba<lb ed="#N" n="15" break="no"/>ptismus.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e178">
+            ⁋ Prete. videtur esse contemptus
+            sacramenti<lb ed="#N" n="16" break="no"/>cum enim teneatur vnusquisque ad susceptionem baptismatis si potest
+            <lb ed="#N" n="17"/>et scienter differt cum possit et omittit et contemnit: peccat er
+            <lb ed="#N" n="18"/>go sic differendo.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e187">
+            ⁋ Responso. quod non debeat differri susceptio
+            ba<lb ed="#N" n="19" break="no"/>ptismi vsque in finem vite et tunc peccata omnia dimittantur. quia
+            di<lb ed="#N" n="20" break="no"/>latio illa peccatum est et diuturna existentia in hoc peccato est causa
+            per<lb ed="#N" n="21" break="no"/>ditionis. Unde Cris. quomo quis propterea peccat vt sanctum
+            baptis<lb ed="#N" n="22" break="no"/>ma in nouissima sua expiratione suscipiat: fortassis non
+            adi<lb ed="#N" n="23" break="no"/>piscitur. et credite mihi non terrens vos dico quod dicturus sum
+            <lb ed="#N" n="24"/>multos noai qui hec passi sunt qui spe baptismatis multa pec
+            <lb ed="#N" n="25"/>cabant. circa diem autem mortis discesserunt vacui. deus enim
+            pro<lb ed="#N" n="26" break="no"/>pter hoc baptisma tribuit vt soluat peccata: non vt addat. Si
+            <lb ed="#N" n="27"/>quis vero ad hoc baptisma vtitur vt ampliora delinquat: ipsum
+            <lb ed="#N" n="28"/>fit negligentie causa et sumitur causa pro occasione. non enim
+            sacra<lb ed="#N" n="29" break="no"/>mentum quod per se dat remissionem peccatorum est causa peccati: sed
+            oc<lb ed="#N" n="30" break="no"/>casio quedam potest esse negligentie. nullus autem debet esse
+            negli<lb ed="#N" n="31" break="no"/>gens de sua salute: nec per tantum tempus remanere ipse filius ire
+            <lb ed="#N" n="32"/>et quod deterius est filius gehenne. nec subtrahere sibi
+            communi<lb ed="#N" n="33" break="no"/>onem bonorum spiritualium et augmentum meritorium.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e222">
+            ⁋ Ad illud
+            <lb ed="#N" n="34"/>quod primo contra hoc obiicitur. quod hoc modo scilicet expectando
+            bapti<lb ed="#N" n="35" break="no"/>sma vsque in finem maturius peruenitur ad salutem siue ad gloriam
+            <lb ed="#N" n="36"/>Dicendum quod hoc non est verum nisi forte per accidens. eo enim quod
+            <lb ed="#N" n="37"/>nullus talis certus est de die mortis. neque certus est si dabitur
+            <lb ed="#N" n="38"/>sibi gratia contritionis et facultas baptismatis: sic differendo
+            eui<lb ed="#N" n="39" break="no"/>denti exponit se periculo. cum hoc quod pruat se beneficiis ecclesie.
+            <lb ed="#N" n="40"/>talis enim exponit se consimili periculo: quali exponit se peccans
+            <lb ed="#N" n="41"/>continue in spe penitendi in fine. Unde tali timendum esset ne
+            ver<lb ed="#N" n="42" break="no"/>bum Augustinus. verificaretur in ipso. scilicet hac animaduersione percutitur
+            <lb ed="#N" n="43"/>peccator. vt cum moritur obliuiscitur sui: qui dum viueret oblitus
+            <lb ed="#N" n="44"/>est dei. Nec accipiendum est exemplum a domino qui non indigebat
+            <lb ed="#N" n="45"/>baptizari. qui ad hoc significandum in illa etate baptizatus est
+            <lb ed="#N" n="46"/>vt misterium trinitatis et operatio decalogi in hoc
+            intelligan<lb ed="#N" n="47" break="no"/>tur. Decalogus enim per fidem trinitatis melius intelligitur et
+            imple<lb ed="#N" n="48" break="no"/>tur. quilibet enim nostum qui nascitur filius ire indiget ipsa
+            purga<lb ed="#N" n="49" break="no"/>ri ab originali peccato: et ab actuali si quod perpetratur.
+          </p>
+        </div>
+        <div xml:id="v78d89-a4fvzn-Dd1e260">
+          <head xml:id="v78d89-a4fvzn-Hd1e262">Articulus 2</head>
+          <p xml:id="v78d89-a4fvzn-d1e264">
+            <lb ed="#N" n="50"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e269">
+            <lb ed="#N" n="51"/>COnsequenter queritur. vtrum baptismus debet dis
+            <lb ed="#N" n="52"/>ferri quousque paruulus sit adultus: et videtur quod
+            de<lb ed="#N" n="53" break="no"/>beat differri. quia cum sit duplex vita scilicet naturalis
+            <lb ed="#N" n="54"/>et spirnalis. primam facit infusio anime: secundam infusio gratie. Sed
+            <lb ed="#N" n="55"/>anima dans vitam naturalem non infunditur quousque sit corpus
+            <lb ed="#N" n="56"/>organim atum et completum: ergo nec gratia dans vitam spiritualem debet
+            in<lb ed="#N" n="57" break="no"/>fundi anime quousque sit perfecta et quasi organsz ata in potentiis
+            <lb ed="#N" n="58"/>sicut corpus in membris. igitur cum potentie sint ligate ante aduim
+            <lb ed="#N" n="59"/>tam etatem: non debet baptizari ante istam.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e291">
+            ⁋ Item duplex est
+            <lb ed="#N" n="60"/>potentia anime sicut innuit Dam scilicet naturalis et rationalis.
+            <lb ed="#N" n="61"/>Sed in naturali nihil imprimitur nisi naturaliter: ergo in
+            ratio<lb ed="#N" n="62" break="no"/>nali nihil debet imprimi nisi voluntarie. Sed antequam sit ad
+            <lb ed="#N" n="63"/>ultus non habet vsum voluntatis: ergo ante non debet
+            reci<lb ed="#N" n="64" break="no"/>pere gratiam: ergo nec baptizari.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e304">
+            ⁋ Item vanum dicitur esse quod
+            <lb ed="#N" n="65"/>non potest attingere proprio fini. Si igitur gratia datur anime vt
+            <lb ed="#N" n="66"/>per ipsam posset deuenire in finem: nec potest ante adultam eta
+            <lb ed="#N" n="67"/>tem: videtur quod si daretur in vanum fieret. Sed hoc non eonue
+            <lb ed="#N" n="68"/>nit deo cum nihil faciat in vanum.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e316">
+            ⁋ Contra. constat quod vulnus
+            <lb ed="#N" n="69"/>corporale quanto citius sonatur tanto laudabilior est medicus
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>et magis expedit fanato. Ex dilatione enim curationis
+            red<lb ed="#N" n="71" break="no"/>ditur quandoque vulnus stupidum et incurabile. Si ergo ita est in
+            <lb ed="#N" n="72"/>corporali. multo fortius ita est et in spirituali. Si ergo deus est summus
+            <lb ed="#N" n="73"/>medicus et laudabilis summe et vtilime agens: videtur quod non
+            <lb ed="#N" n="74"/>debeat differri sua medicina. igitur cum medicina datur in
+            ba<lb ed="#N" n="75" break="no"/>ptismo: statim debet curandus baptizari.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e336">
+            ⁋ Item duplex est
+            na<lb ed="#N" n="76" break="no"/>tiuitas scilicet in vtero et ex vtero. Statim autem ptus natiuitatem in
+            <lb ed="#N" n="77"/>vtero vel in ipsa natiuitate contrahit anima morbum letalem
+            scili<lb ed="#N" n="78" break="no"/>cet culpam originalem: ergo statim post natiuitatem ex vtero debet
+            asse<lb ed="#N" n="79" break="no"/>qui medicinam vitalem scilicet gratiam baptismalem. quia sicut mors
+            <lb ed="#N" n="80"/>sequitur natiuitatem primam: sic vita debet sequi natiuitatem
+            secun<lb ed="#N" n="81" break="no"/>dam. et sicut in prima est immediatio: sic in secunda non debet esse
+            <lb ed="#N" n="82"/>dilatio.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e354">
+            ⁋ Responsio. quod non est expectandum. sed baptizandus est
+            <lb ed="#N" n="83"/>statim paruulus. statim dico secundum quod congruit. Rationibus autem
+            <lb ed="#N" n="84"/>dictis possunt addi alie: scilicet mors subita et damnatio.
+            fre<lb ed="#N" n="85" break="no"/>quenter enim propter debilitatem naturalem subito moriuntur
+            <lb ed="#N" n="86"/>paruuli. Alia est oppressio a demonibus. presumitur enim
+            probabi<lb ed="#N" n="87" break="no"/>liter quod demones plus posunt in eis quando sunt in originali quam quando
+            <lb ed="#N" n="88"/>sunt in gratia. Alia est impressio imaginationum et fantasiarum
+            <lb ed="#N" n="89"/>in anima paruuli a demonibus. cum enim ante baptismum sit anima
+            <lb ed="#N" n="90"/>paruuli quodammodo in potestate dyaboli. ipse conatur quantum
+            <lb ed="#N" n="91"/>potest imprimere illi imagines et fantasias per quas habilis
+            effi<lb ed="#N" n="92" break="no"/>ciatur ad malum quando venerit ad etatem prouectiorem.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e378">
+            ⁋ Ad
+            primun<lb ed="#N" n="93" break="no"/>ergo obiectum contra hoc dicendum. quod anima perfecta est ad receptionem gra
+            <lb ed="#N" n="94"/>tie. quia iam habet potentias aptas perfici gratia. quantum ad primum et
+            <lb ed="#N" n="95"/>principalem actum gratie qui est viuificare et gratificare ipsam deo.
+            <lb ed="#N" n="96"/>Unde nota quod anima et actus est et motor. quamuis igitur non sit
+            ad<lb ed="#N" n="97" break="no"/>huc motor perfectus corporis. et hoc quia corpus non est adhuc totalit
+            <lb ed="#N" n="98"/>completum respectu operationis: est tamen perfecte actus et ideo apta est
+            <lb ed="#N" n="99"/>ad recipiendum ipsam gratiam vt viuificetur et gratificetur et si non
+            <lb ed="#N" n="100"/>vt operetur.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e398">
+            ⁋ Ad secundum dicendum. quod duplex est voluntas scilicet propria
+            <lb ed="#N" n="101"/>et aliena. Dicendum igitur quod licet paruulus non habeat vsum
+            volum<lb ed="#N" n="102" break="no"/>tatis proprie: habet tamen suffragium voluntatis aliene. et hoc est
+            <lb ed="#N" n="103"/>sufficiens ad susceptionem gratie baptismalis. quia eius infusio est
+            <lb ed="#N" n="104"/>ex dei misericordia. misericordia autem pensat miseriam. et sicut
+            <lb ed="#N" n="105"/>miseria contracta est a voluntate aliena: sic et misericordia
+            rele<lb ed="#N" n="106" break="no"/>uat miseriam per voluntatem alienam.
+          </p>
+          <p xml:id="v78d89-a4fvzn-d1e414">
+            ⁋ Ad tercium dicendum. quod
+            du<lb ed="#N" n="107" break="no"/>plex est finis gratie scilicet gratificare et viuificare et disponere
+            po<lb ed="#N" n="108" break="no"/>tentias ad operationem. licet igitur non attingit per gratiam vltimo
+            <lb ed="#N" n="109"/>fini. attingit tamen primo et ideo non datur in vacuum. Namn
+            <lb ed="#N" n="110"/>primus finis principalis est ipsi gratie: vltimus est quasi
+            secum<lb ed="#N" n="111" break="no"/>darius vnde opus diuinum perfectum est. et preterea per gratiam
+            <lb ed="#N" n="112"/>magis ac magis habilitatur anima. vt cum habuerit organum
+            <lb ed="#N" n="113"/>expeditum: possit exire facilius in alium finem. et ideo eti
+            <lb ed="#N" n="114"/>am respectu illius non datur in vanum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

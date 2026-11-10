@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 70, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 70, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="455"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-adadm3"><!-- q70m1 -->
+        <head xml:id="v78d89-adadm3-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-adadm3-Hd1e103" type="question-title">Quid sit justificatio impii</head>
+        <p xml:id="v78d89-adadm3-d1e106">
+          <lb ed="#N" n="14"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-adadm3-d1e111">
+          <lb ed="#N" n="15"/>CIrca primum proceditur sic. vt dicit Bernen.
+          Iu<lb ed="#N" n="16" break="no"/>stificatio est diuini consilii reuelatio. sed cum
+          reue<lb ed="#N" n="17" break="no"/>latio consilii attendatur quantum ad amotionem
+          vela<lb ed="#N" n="18" break="no"/>minis ipsius cognitiue: non autem quantum ad amotionem
+          <lb ed="#N" n="19"/>macule ipsius affectiue quod fit in iustificatione: non videtur quod
+          <lb ed="#N" n="20"/>iustificatio sit reuelatio. eiusdem enim partis anime est iustificatio
+          <lb ed="#N" n="21"/>a peccato cuius est ipsa malicia peccati.
+        </p>
+        <p xml:id="v78d89-adadm3-d1e129">
+          ⁋ Item Bern. timore
+          vo<lb ed="#N" n="22" break="no"/>camur: amore iustificamur. ergo cuius partis anime proprie est amor:
+          <lb ed="#N" n="23"/>eius proprie est et iustificatio. sed amor est ipsius affectiue. ergo etc.
+        </p>
+        <p xml:id="v78d89-adadm3-d1e137">
+          <lb ed="#N" n="24"/>⁋ Item iustificatio est voluntatis rectitudo siue
+          rectifica<lb ed="#N" n="25" break="no"/>tio. vt enim dicit Ansel. Iusticia est rectitudo voluntatis
+          pro<lb ed="#N" n="26" break="no"/>pter se seruata. iustificatio ergo proprie respicit ipsam
+          volunta<lb ed="#N" n="27" break="no"/>tem siue affectiuam.
+        </p>
+        <p xml:id="v78d89-adadm3-d1e148">
+          ⁋ Item iustificatio est gratificatio. impius
+          <lb ed="#N" n="28"/>enim per auersionem a deo fit gratis deo per infusionem gratie gratum
+          fa<lb ed="#N" n="29" break="no"/>cientis. sed reuelatio diuinorum consiliorum siue secretorum dei non
+          <lb ed="#N" n="30"/>gratificat deo impium: neque in huiusmodi reuelatione datur gratia
+          gra<lb ed="#N" n="31" break="no"/>tum faciens. vt patet in li. numerorum. Balaam enim fuerunt
+          reue<lb ed="#N" n="32" break="no"/>lata diuina consilia scilicet de incarnatione filii quam prophetauit
+          <lb ed="#N" n="33"/>dicens. Orietur stella ex Iacob etc. Nume. xxiiii. Item vt patet
+          <lb ed="#N" n="34"/>ex verbis Bern. Iustificatio est gratum amoris siue
+          infu<lb ed="#N" n="35" break="no"/>sio caritatis. Luc. vii. Remittuntur ei peccata multa quoniam
+          dile<lb ed="#N" n="36" break="no"/>xit multum.
+        </p>
+        <p xml:id="v78d89-adadm3-d1e170">
+          ⁋ Preterea. vt ex dictis patet: idem dicitur per
+          iustificati<lb ed="#N" n="37" break="no"/>onem et gratificationem: per amoris infusionem: et per diuini consilii
+          <lb ed="#N" n="38"/>reuelationem. que est ergo ratio dicendi sic diuersimode.
+        </p>
+        <p xml:id="v78d89-adadm3-d1e177">
+          ⁋
+          Re<lb ed="#N" n="39" break="no"/>sponsio. dicendum quod iustificatio est libero arbitrio. rectitudo. iuxta illud
+          <lb ed="#N" n="40"/>Ansel. Iusticia est rectitudo etc. hec est rectitudo qua anima
+          <lb ed="#N" n="41"/>ordinata est a deo principio scilicet mouente in ipsum finem. quando
+          <lb ed="#N" n="42"/>enim hi sunt termini inter quos mouetur anima nec recedit ab
+          il<lb ed="#N" n="43" break="no"/>lis: tunc est iusticia in illa.
+        </p>
+        <p xml:id="v78d89-adadm3-d1e190">
+          ⁋ Ad illud quod dicit Bern. quod
+          <lb ed="#N" n="44"/>iustificatio est diuini consilii reuelatio. Dicendum quod Bern.
+          <lb ed="#N" n="45"/>exprimit quodammodo ordinem progressus ad iustificationem
+          <lb ed="#N" n="46"/>impii. vnde exponens illud Ro. viii. quos predestinauit etc. dicit.
+          <lb ed="#N" n="47"/>Audit se vocari anima cum timore concutitur: sentit se iustificari
+          <lb ed="#N" n="48"/>cum amore perfunditur. Et postea dicit. Iustificatio est diuini
+          <lb ed="#N" n="49"/>consilii reuelatio. hoc est. diuinum consilium quod fuit occultum
+          <lb ed="#N" n="50"/>in predestinatione: est reuelatum in iustificatione. vnde
+          prede<lb ed="#N" n="51" break="no"/>stinatio est de profunditate diuini consilii et quasi fit consilio
+          <lb ed="#N" n="52"/>diuino. vocatio fit per incussionem timoris. iustificatio per
+          <lb ed="#N" n="53"/>reuelationem diuini consilii que fit per infusionem gratie siue
+          amo<lb ed="#N" n="54" break="no"/>ris secundum Bern.
+        </p>
+        <p xml:id="v78d89-adadm3-d1e216">
+          ⁋ Ad hoc ergo quod primo obiicitur. quod reuelatio
+          <lb ed="#N" n="55"/>tollit velamen cognitiue etc. Dicendum quod hec ablatio
+          ve<lb ed="#N" n="56" break="no"/>laminis est per infusionem gratie gratum facientis siue amoris
+          gra<lb ed="#N" n="57" break="no"/>tuiti. Infusio autem gratie huiusmodi determinatur circa affectiuam
+          <lb ed="#N" n="58"/>primo et per se: ex cuius traditione illustratur cognitiua.
+          Gra<lb ed="#N" n="59" break="no"/>tia enim lux quedam est. et amor non solum incendit: sed illuminat.
+          <lb ed="#N" n="60"/>vnde Ecclesiastici. vlt. Lampades eius lampades ignis atque
+          flam<lb ed="#N" n="61" break="no"/>marum. Et ecclesiastici ii. Qui timetis deum diligite illum: et
+          illuminabun<lb ed="#N" n="62" break="no"/>tur corda vestra. Preterea. duplex est modus reuelandi
+          consi<lb ed="#N" n="63" break="no"/>lium a domino scilicet verbo et opere. hoc est reuelatione consilii vel
+          ad<lb ed="#N" n="64" break="no"/>impletione consiliati. hoc vltimo modo sumitur hic reuelatio
+          <lb ed="#N" n="65"/>consilii. et huiusmodi reuelatio primo et per se respicit affectum.
+          <lb ed="#N" n="66"/>Ex his patet responsio ad alia que sequuntur.
+        </p>
+        <p xml:id="v78d89-adadm3-d1e246">
+          ⁋ Ad illud quod
+          que<lb ed="#N" n="67" break="no"/>ritur de differentia iustificationis et gratificationis etc. Dicendum
+          <lb ed="#N" n="68"/>quod in iustificatione reparatur anima et informatur et efficitur
+          deifor<cb ed="#N" n="b"/><lb ed="#N" n="69" break="no"/>mis. Ex hac autem informatione et deiformitate est grata
+          <lb ed="#N" n="70"/>deo siue accepta illuminatur cognitiua et inflammatur affectiua:
+          <lb ed="#N" n="71"/>disponitur et rectificatur operatiua. Ex prima consideratione
+          di<lb ed="#N" n="72" break="no"/>citur gratificatio: ex secunda reuelatio: ex tercia infusio
+          amo<lb ed="#N" n="73" break="no"/>ris: ex quarta iustificatio. liberum enim arbitrium informatur
+          fi<lb ed="#N" n="74" break="no"/>de informante per dilectionem Gal. v. vnde in hac informatione
+          <lb ed="#N" n="75"/>concurrunt fides caritas et operatio. ex relatione ad fidem dicitur
+          <lb ed="#N" n="76"/>reuelatio. ex relatione ad caritatem amoris infusio. ex
+          rela<lb ed="#N" n="77" break="no"/>tione ad opus dicitur iustificatio. Iusticia enim animam disponit
+          <lb ed="#N" n="78"/>ad recte operandum. Ex his autem est accepta deo: vnde dicitur
+          gra<lb ed="#N" n="79" break="no"/>tificatio. Uel hec informatio potest considerari vt erat
+          pro<lb ed="#N" n="80" break="no"/>uisa ab eterno. et dicitur reuelatio diuini consilii: velut
+          red<lb ed="#N" n="81" break="no"/>dat animam deo gratam et dicitur gratificatio. vel est disponens
+          <lb ed="#N" n="82"/>et iuuans ad recte operandum et dicitur iustificatio. vel est
+          ordi<lb ed="#N" n="83" break="no"/>nans in finem et dicitur infusio amoris.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

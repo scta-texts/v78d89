@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 46, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 46, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="323"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a99jpe"><!-- q46m3 -->
+        <head xml:id="v78d89-a99jpe-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a99jpe-Hd1e103" type="question-title">An quilibet existens in peccato mortali peccet mortaliter sumendo corpus Christi</head>
+        <p xml:id="v78d89-a99jpe-d1e106">
+          <lb ed="#N" n="133"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a99jpe-d1e111">
+          <lb ed="#N" n="134"/>COnsequenter queritur. vtrum existens in
+          <lb ed="#N" n="135"/>peccato mortali peccet mortaliter sumendo
+          <lb ed="#N" n="136"/>corpus christi. Et primo vtrum talis sumendo
+          <lb ed="#N" n="137"/>peccet damnabiliter. Secundo vtrum semper
+          <lb ed="#N" n="138"/>peccent sic.
+        </p>
+        <div xml:id="v78d89-a99jpe-Dd1e124">
+          <head xml:id="v78d89-a99jpe-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-a99jpe-d1e128">
+            <pb ed="#N" n="324"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e137">
+            <lb ed="#N" n="2"/>CIrca primum proceditur sic super illud Marci. xiiii.
+            <lb ed="#N" n="3"/>Ue homini illi etc. glo. Ue homini illi qui ad
+            men<lb ed="#N" n="4" break="no"/>sam domini indigne accedit. Iste enim in
+            exemplum<lb ed="#N" n="5" break="no"/>iude filium hominis tradit. sed constat quod taliter operando
+            pec<lb ed="#N" n="6" break="no"/>cat mortaliter: ergo qui accedit indigne. vtpote qui est in
+            <lb ed="#N" n="7"/>peccato mortali mortaliter peccat.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e153">
+            ⁋ Item sup illud. i. corum.
+            <lb ed="#N" n="8"/>xi. Qui manducat etc. glo. patet quia sancta obsunt malis
+            <lb ed="#N" n="9"/>et bonis sunt ad salutem: et malis ad iudicium. et loquitur ibi
+            <lb ed="#N" n="10"/>de corpore christi qui sumitur a malis ad iudicium
+            condemnatio<lb ed="#N" n="11" break="no"/>nis: sed mali sunt peccatores ergo etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e164">
+            ⁋ tem qui proiiceret
+            cor<lb ed="#N" n="12" break="no"/>pus christi in fterquilinium peccaret damnabiliter: sed non est
+            <lb ed="#N" n="13"/>vilius sterquilinium quam homo peccator. ergo etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e172">
+            ⁋ Contra. hoc
+            sa<lb ed="#N" n="14" break="no"/>cramentum est de maximis bonis: sed maximis bonis non
+            <lb ed="#N" n="15"/>contingit male vti vt dicit augustinus. de libro arbto. ergo nec hoc
+            sacra<lb ed="#N" n="16" break="no"/>mento contingit male vti. ergo peccator non peccat sumendo.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e181">
+            <lb ed="#N" n="17"/>⁋ Item non egent qui sani sunt medico: sed qui male habent
+            <lb ed="#N" n="18"/>luce. v. ergo cum peccator male habeat medicina indiget
+            <lb ed="#N" n="19"/>et maxime ista in qua ille accipitur in vsum qui est summa
+            <lb ed="#N" n="20"/>medicina. sed qui accedit ad medicinam qua indiget non er
+            <lb ed="#N" n="21"/>rat. etsi non errat non peccat. ergo etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e194">
+            ⁋ Item peccator tenetur
+            <lb ed="#N" n="22"/>aliquo tempore sumere corpus christi. sed nullus peccat
+            facien<lb ed="#N" n="23" break="no"/>do id ad quod tenetur. ergo etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e201">
+            ⁋ Si diceretur quod peccat quia
+            <lb ed="#N" n="24"/>non debito modo fecit. Contra. actus manducationis est in
+            prece<lb ed="#N" n="25" break="no"/>pto non modus. ergo etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e208">
+            ⁋ Responsio. quod peccator sumit corpus
+            <lb ed="#N" n="26"/>christi ad sui damnationem. quia vt habetur. i. corm. xi. Iudicium
+            <lb ed="#N" n="27"/>sibi manducat et bibit. non quia ipsum corpus sed et animam
+            ma<lb ed="#N" n="28" break="no"/>culat. Unde glo. super illud. i. corum. xi. Quicumque manducat
+            <lb ed="#N" n="29"/>vtique sanctum est quod accipimus. nec illo reus est qui
+            acci<lb ed="#N" n="30" break="no"/>pit quia illa res est mala quam accipit: sed quia ille malus
+            <lb ed="#N" n="31"/>male accipit quod accipit. et hoc est quia peccator ipsum
+            con<lb ed="#N" n="32" break="no"/>temnit: dum se preparare quem immundum scit negligit. Et est
+            <lb ed="#N" n="33"/>ibi peccatum omissionis et peccatum contemptus. quia christo
+            <lb ed="#N" n="34"/>quantum in se est contumeliam facit. vnde dicit apostolus. quod reus est
+            <lb ed="#N" n="35"/>corporis et sanguinis domini. quia ei contumeliam facit et
+            <lb ed="#N" n="36"/>contemnit.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e234">
+            ⁋ Ad primum contra hoc dicendum. quod non solum isto
+            sa<lb ed="#N" n="37" break="no"/>cramento sed etiam ipso deo contingit male vti: cum scilicet ipse
+            di<lb ed="#N" n="38" break="no"/>ligitur propter aliud. virtutibus autem specialitex non contingit
+            <lb ed="#N" n="39"/>male vti. quia ille sunt quibus formaliter vtitur. Contingit
+            <lb ed="#N" n="40"/>tamen virtutibus male vti vt obiecto: et sic intelligendum est
+            <lb ed="#N" n="41"/>in proposito.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e248">
+            ⁋ Ad aliud quod obiicitur. quod peccator indiget
+            <lb ed="#N" n="42"/>medicina etc. Dicendum. quod sicut medicina corporalis
+            no<lb ed="#N" n="43" break="no"/>cet infirmo inparato: sic spiritualis homini inparato
+            <lb ed="#N" n="44"/>est occasio nocumenti. Unde medicina sumenda est a
+            prepara<lb ed="#N" n="45" break="no"/>to siue cum preparatione: non tantum corporalis sed et
+            spiritua<lb ed="#N" n="46" break="no"/>bi. et maxime illa que est nobilissima et mundissima.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e261">
+            ⁋ Ad
+            <lb ed="#N" n="47"/>illud quod obiicitur quod peccator tenetur manducare etc.
+            <lb ed="#N" n="48"/>Dicendum quod non peccat ratione actus. sed circumstantie. sicut
+            <lb ed="#N" n="49"/>si aliquis elemosinam daret in contemptum dei: sic et ille pec
+            <lb ed="#N" n="50"/>cat qui bonum malo modo facit.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e272">
+            ⁋ Ad id quod subditur
+            <lb ed="#N" n="51"/>quod modus non est in precepto. Dicendum quod etsi non sit
+            expres<lb ed="#N" n="52" break="no"/>fus aliquo precepto: maxime tamen est attendendus sicut
+            <lb ed="#N" n="53"/>patet. i. corum. xi.
+          </p>
+        </div>
+        <div xml:id="v78d89-a99jpe-Dd1e283">
+          <head xml:id="v78d89-a99jpe-Hd1e285">Articulus 2</head>
+          <p xml:id="v78d89-a99jpe-d1e287">
+            <lb ed="#N" n="54"/>Articulus secundus
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e292">
+            <lb ed="#N" n="55"/>COnsequenter queritur vtrum peccator semper
+            pec<lb ed="#N" n="56" break="no"/>cat mortalifer id est in omni casu. Quod sic. videtur
+            <lb ed="#N" n="57"/>i. corum. xi. Qui manducat indigne indicium
+            si<lb ed="#N" n="58" break="no"/>hi manducat et bibit. et sumitur ibi iudicium pro
+            damna<lb ed="#N" n="59" break="no"/>tione. sed nullus meretur damnationem nisi peccans
+            mor<lb ed="#N" n="60" break="no"/>taliter. igitur etc. Sed omnis existens in peccato mortali si
+            mandu<lb ed="#N" n="61" break="no"/>cat: manducat indigne: igitur omnis existens in
+            morta<lb ed="#N" n="62" break="no"/>lib. etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e312">
+            ⁋ Si diceretur quod existens in mortali et aliquo
+            casu<lb ed="#N" n="63" break="no"/>potest accedere et non indigne: tunc sic. omnis existens in
+            <lb ed="#N" n="64"/>mortali indignus est ad sumendum corpus christi. sed. i. corum.
+            <lb ed="#N" n="65"/>xi. Qui manducat et bibit indigne etc. ibi glo. Indignus
+            <lb ed="#N" n="66"/>est qui aliter celebrat misterium eukaristie quam a christo
+            tra<lb ed="#N" n="67" break="no"/>ditum est. et qui indeuota mente accedit ad eukaristiam. vel
+            <lb ed="#N" n="68"/>in voluntate peccandi manens: et ille talis reus est corporis
+            <lb ed="#N" n="69"/>et sanguinis domini id est mortis christi penas dabit id est ac si christum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>occiderit punietur. hec glo. Ex hoc patet. quod existens in
+            mor<lb ed="#N" n="71" break="no"/>tali semper peccat mortaliter accedendo ad eukaristiam
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e336">
+            <lb ed="#N" n="72"/>⁋ Item existens in mortali et sciens hoc. constat quod peccal
+            <lb ed="#N" n="73"/>mortaliter accedendo. ponatur igitur quod sint duo
+            homi<lb ed="#N" n="74" break="no"/>nes quorum vnus est in peccato et hoc scit: et alius in
+            pec<lb ed="#N" n="75" break="no"/>cato et nescit hoc: sed credit contrarium. iste vltimus
+            mi<lb ed="#N" n="76" break="no"/>nus est dispositus ad manducandum quam primus. igitur si
+            pri<lb ed="#N" n="77" break="no"/>mus semper peccat mortaliter accedendo: et secundus qui est
+            <lb ed="#N" n="78"/>minus dispositus. probatio quod minus est dispositus. Amb.
+            <lb ed="#N" n="79"/>Grauissime peccat qui ignoranter peccat. igitur iste qui
+            <lb ed="#N" n="80"/>ignorat se esse in peccato grauissime peccat: igitur minime
+            <lb ed="#N" n="81"/>est dispositus ad medicinam. si exponatur grauissime id est
+            <lb ed="#N" n="82"/>periculosissime idem sequitur. quia vt dictum est. iste est in
+            pec<lb ed="#N" n="83" break="no"/>to mortali sicut et alius et in maiori periculo damnationis
+            <lb ed="#N" n="84"/>sed quod est in maiori periculo damnationuis non tollit indignita
+            <lb ed="#N" n="85"/>tem accedendi. igitur si accedit: ita indigne accedit sicut et
+            <lb ed="#N" n="86"/>alius.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e372">
+            ⁋ Item iustus credens se esse in mortalisi accedit
+            pec<lb ed="#N" n="87" break="no"/>cat mortaliter et semper taliter accedens peccat. Sed
+            exi<lb ed="#N" n="88" break="no"/>stens in mortali credens se esse iustum deterius disponiur
+            <lb ed="#N" n="89"/>ad accedendum quam iustus credens se esse in mortali: probatio
+            <lb ed="#N" n="90"/>quantum ad hoc quod iste est iustus et ille in mortali. constat quod
+            <lb ed="#N" n="91"/>melius est dispositus quantum ad hoc quod iste credit se in
+            pec<lb ed="#N" n="92" break="no"/>cato. et ille in gratia melius disponitur: quia hec
+            creduli<lb ed="#N" n="93" break="no"/>tas est ex humilitate scilicet qua iustus credit se esse in peccato. il
+            <lb ed="#N" n="94"/>la ex presumptione scilicet qua peccator credit se esse iustum. sed
+            me<lb ed="#N" n="95" break="no"/>lius disponitur humilis quam presumptuosus: igitur omnino
+            <lb ed="#N" n="96"/>melius dispositus est iste qui est iustus et credit se esse in pec
+            <lb ed="#N" n="97"/>cato quam alius. igitur si iste peccaret si accederet: multo for
+            <lb ed="#N" n="98"/>tius et alius.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e401">
+            ⁋ Item qui indigne accedit indignus
+            acce<lb ed="#N" n="99" break="no"/>dit. quia qui indigne accedit peccat mortaliter: igitur
+            ef<lb ed="#N" n="100" break="no"/>ficitur indignus. igitur si ille qui indigne accedit
+            pecca<lb ed="#N" n="101" break="no"/>mortaliter: igitur qui indignus accedit peccat mortaliter.
+            <lb ed="#N" n="102"/>In accidentibus ita est pro illud quod sequitur ad accidens sed
+            <lb ed="#N" n="103"/>tur ad consequens. vt si homo est albus animal est album: corpus est albun
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e414">
+            <lb ed="#N" n="104"/>⁋ Item qui indigne accedit peccat. igitur qui non peccat digne
+            <lb ed="#N" n="105"/>accedit. sed qui digne accedit facit quod in se est vt dignus
+            <lb ed="#N" n="106"/>sit tantuo sacramento. sed si facit quod in se est: et dominus facit quod
+            <lb ed="#N" n="107"/>in se est. igitur dominus facit illum dignum. sed dignus non fit nisi
+            per<lb ed="#N" n="108" break="no"/>gratiam gratum facientem. ergo etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e427">
+            ⁋ Item. i. corum. xi. Qui bibit
+            ca<lb ed="#N" n="109" break="no"/>licem etc. glo. si desit fides vel caritas iudicium sibi
+            mandu<lb ed="#N" n="110" break="no"/>cat et bibit. sed existenti in mortali deest etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e434">
+            ⁋ Item. i. corum. xi.
+            <lb ed="#N" n="111"/>Qui manducat et bibit. glo. indigne. vt qui in crimine ess
+            <lb ed="#N" n="112"/>vel qui irreuerenter tractat: ergo omnis qui est in peccato
+            morta<lb ed="#N" n="113" break="no"/>li indigne manducat: sed semper peccat qui indigne
+            man<lb ed="#N" n="114" break="no"/>ducat. ergo etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e445">
+            ⁋ Item. i. corum. xi. probet se homo et sic de pane
+            illo<lb ed="#N" n="115" break="no"/>edat. Ad hoc ergo quod accedat ita quod non sit reus corporis domini:
+            <lb ed="#N" n="116"/>oportet quod probet se. Sed glo. dicit ibidem. probet id est examiner
+            <lb ed="#N" n="117"/>et purget seipsum. ergo qui commedit non examinatus et non
+            <lb ed="#N" n="118"/>purgatus peccat. Sed existens in peccato mortali non est
+            ex<lb ed="#N" n="119" break="no"/>aminatus nec purgatus. ergo talis semper peccat commedendo.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e459">
+            <lb ed="#N" n="120"/>⁋ Item inter dignum et indignum manducantibus nihil est
+            me<lb ed="#N" n="121" break="no"/>dium. ergo omnis qui manducat est dignus vel indignus. et
+            simili<lb ed="#N" n="122" break="no"/>ter manducat digne vel indigne. sed nullus peccator digne
+            <lb ed="#N" n="123"/>manducat: ergo nec digne. ergo omnis indigne: sed talis
+            semper<lb ed="#N" n="124" break="no"/>peccat etc.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e472">
+            ⁋ Item sumere in mortali non est mortale vt dicitur. sed
+            <lb ed="#N" n="125"/>scienter sumere in mortali mortalem est. hoc constat. igitur cum
+            <lb ed="#N" n="126"/>scienter dicit circumnstantiam actus: circumstantia scientie facit
+            no<lb ed="#N" n="127" break="no"/>uum genus peccati. Cum enim sumere in mortali non est mortale. sed
+            <lb ed="#N" n="128"/>scienter sumere facit nouum genus peccati. hoc autem fassum.
+            <lb ed="#N" n="129"/>quia in nullo genere actus circumstantia scientie facit nouum
+            <lb ed="#N" n="130"/>peccatum.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e488">
+            ⁋ Contra. vt ostensum est. ad indigne accedere sequitur
+            indi<lb ed="#N" n="131" break="no"/>gnum accedere et non conuertibiliter. indignum dico ex
+            mor<lb ed="#N" n="132" break="no"/>tali peccato. igitur oppositum antecedentis stare potest cum
+            <lb ed="#N" n="133"/>consequente. igitur hec possunt simul stare est indignus et
+            <lb ed="#N" n="134"/>digne accedit. sed qui digne accedit non peccat: igitur qui
+            <lb ed="#N" n="135"/>est indignus eoquod est in mortali in aliquo casu potest
+            acceden<lb ed="#N" n="136" break="no"/>sine peccato.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e504">
+            ⁋ Item si accedere in mortali semper esset
+            morta<lb ed="#N" n="137" break="no"/>le. cum nullus potest scire se esse in caritate. et vere et certa
+            scien<lb ed="#N" n="138" break="no"/>tia scit quod si accedit in mortali peccat mortaliter. igitur
+            <lb ed="#N" n="139"/>quicumque accedit nescit vtrum peccat mortaliter vel non. igrtur
+            <lb ed="#N" n="140"/>omnis accedens exponit se discrimini.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e515">
+            ⁋ Responsio. quod
+            </p>
+          <p xml:id="v78d89-a99jpe-d1e517">
+            <pb ed="#N" n="325"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quicumque scsenter est in mortali si accedit peccat mortaliter.
+            <lb ed="#N" n="2"/>sed vt dicunt qui est in mortali ignorans se esse in mortali. licet
+            <lb ed="#N" n="3"/>accedat in aliquo casu non peccat. vt accedit quandoque. quando
+            <lb ed="#N" n="4"/>atteritur quis de peccatis suis. et credit se contritum
+            suffici<lb ed="#N" n="5" break="no"/>enter fuisse licet non sit. et cum hoc fecerit alia que ecclesia
+            or<lb ed="#N" n="6" break="no"/>dinat. fecerit dico opere exteriori. dicunt quod talis accedens
+            si<lb ed="#N" n="7" break="no"/>ne omni remorsu conscientie non peccat mortaliter: adhibitis
+            <lb ed="#N" n="8"/>aliis que sunt adhibenda.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e542">
+            ⁋ Ad illud igitur quod obiicitur.
+            <lb ed="#N" n="9"/>qui manducat indigne etc. Dicendum secundum illos. quod talis non
+            <lb ed="#N" n="10"/>manducat indigne eo modo quo ibi sumitur indigne.
+            Indi<lb ed="#N" n="11" break="no"/>gne enim manducat vt habetur ex glo. qui aliter celebrat
+            mi<lb ed="#N" n="12" break="no"/>sterium eukaristie quam a christo traditum est etc. Unde potest notari in
+            <lb ed="#N" n="13"/>illo verbo triplex dignitas. Una in verbo alia in mente
+            <lb ed="#N" n="14"/>tercia in voluntate. Vel vna respicit preteritum. alia presns. ter
+            <lb ed="#N" n="15"/>cia futurum. Preterea cum dicit. qui aliter celebrat etc. hoc
+            di<lb ed="#N" n="16" break="no"/>cit quantum ad conficientes siue ad volentes conficere. qui non
+            de<lb ed="#N" n="17" break="no"/>uota mente ad eukaristiam accedunt. quod facit qui non
+            discer<lb ed="#N" n="18" break="no"/>nit corpus domini ab aliis cibis: sed indiscrete et negligenter
+            <lb ed="#N" n="19"/>sumit: venerationem singlariter debitam non exhibens. quod
+            no<lb ed="#N" n="20" break="no"/>tatur. i. corum. xi. cum dicitur non diiudicans corpus christi vt patet in
+            <lb ed="#N" n="21"/>glo. Uel qui in voluntate manet peccandi. et hoc dicitur quantum
+            <lb ed="#N" n="22"/>ad conficientes et ad sumentes. Si igitur aliquis existens
+            <lb ed="#N" n="23"/>in mortali non habens voluntatem peccandi accedat cum debi
+            <lb ed="#N" n="24"/>ta reuerentia: nec celebrat aliter misterium quam a christo traditum
+            <lb ed="#N" n="25"/>est: non accedat indigne.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e581">
+            ⁋ Ad aliud quod obiicitur. quod omnis
+            <lb ed="#N" n="26"/>existens in mortali indignus est. sed vt dicit glo. i. corum. xi.
+            In<lb ed="#N" n="27" break="no"/>dignus est qui aliter celebrat etc. dico quod qui sic est indignus
+            <lb ed="#N" n="28"/>peccat. Indignus enim prout ibi describitur dicit indignitaten
+            <lb ed="#N" n="29"/>in accedendo. non autem dicit indignitatem ex peccato alis commisso
+            <lb ed="#N" n="30"/>Unde glo. ibi exponens indigne exponit indignus. vnde qui
+            <lb ed="#N" n="31"/>sic manducat indignus indigne manducat.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e597">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="32"/>obiicitur. quod si scienter existens in peccato etc. Dicendum quod licet
+            <lb ed="#N" n="33"/>qui scienter est in peccato. non ita periculose peccat sicut qui
+            igno<lb ed="#N" n="34" break="no"/>ranter: tamen magis est indispofitus ad corpus christi sumendum
+            <lb ed="#N" n="35"/>quam ille qui ignoranter. quia talis accedit cum contemptu et
+            ir<lb ed="#N" n="36" break="no"/>reuerentia sacramenti. Unde sicut est duplex medicina
+            corpora<lb ed="#N" n="37" break="no"/>lis. curatiua et conseruatiua: sic est duplex medicina spiritualis
+            <lb ed="#N" n="38"/>scilicet curatiua et conseruatiua. Curatiua penitentia.
+            conserua<lb ed="#N" n="39" break="no"/>tiua eukaristia. Unde qui scienter est in peccato. minus est
+            di<lb ed="#N" n="40" break="no"/>lpositus et magis indispositus ad medicinam conseruatiuam
+            <lb ed="#N" n="41"/>scilicet eukaristiam. qui ignoranter est in peccato: magis est
+            indispo<lb ed="#N" n="42" break="no"/>situs ad medicinam curatiuam.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e623">
+            ⁋ Ad id quod queritur. quod
+            <lb ed="#N" n="43"/>maius periculum damnationis non tollit indignitatem
+            acce<lb ed="#N" n="44" break="no"/>dendi immo potius ponit. Dicendum est quod reuera non tollit sed
+            <lb ed="#N" n="45"/>causa illius tollit scilicet ignorantia: eoquod quia ignoranter pec
+            <lb ed="#N" n="46"/>cat minus contemnit. Unde ignorantia est causa minoris
+            <lb ed="#N" n="47"/>contemptus.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e636">
+            ⁋ Ad aliud quod obiicitur quod iustus credens
+            <lb ed="#N" n="48"/>se esse in mortali: est melius dispositus quam peccator credens
+            <lb ed="#N" n="49"/>se esse iustum etc. dicendum. quod licet melius sit dispositus primus
+            <lb ed="#N" n="50"/>quam secundus simpliciter: non tamen quantum ad hoc: eoquod
+            con<lb ed="#N" n="51" break="no"/>scientia de peccato maiorem generet contemptum.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e647">
+            ⁋ Ad
+            <lb ed="#N" n="52"/>hoc quod obiicitur. quod qui indigne accedit indignus
+            acce<lb ed="#N" n="53" break="no"/>dit. hoc sequitur ad hoc. igitur etc. Dicendum quod non sequitur
+            <lb ed="#N" n="54"/>quod indignus ex quacumque causa: sed dignus ex causa qua
+            <lb ed="#N" n="55"/>sequitur ad indigne. Unde sicut non sequitur homo est
+            al<lb ed="#N" n="56" break="no"/>bus: igitur animal est album. prout animal sumitur in sua
+            <lb ed="#N" n="57"/>generalitate id est non sequitur pro omne. Similiter dico in
+            propo<lb ed="#N" n="58" break="no"/>sito quod bene sequitur. si indigne accedens peccat. igitur
+            indi<lb ed="#N" n="59" break="no"/>gnus accedens peccat. non tamen prout indignus sumitur in
+            sua<lb ed="#N" n="60" break="no"/>generalitate id est prout indignus dicitur quis ex quacumque causa:
+            <lb ed="#N" n="61"/>sed prout indignus est ex accessu huiusmodi.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e672">
+            ⁋ Ad id quod
+            obiici<lb ed="#N" n="62" break="no"/>lur. quod qui indigne accedit peccat igitur etc. Dici potest quod qui
+            <lb ed="#N" n="63"/>facit quod in se est id est cum omni diligentia et modo quo
+            po<lb ed="#N" n="64" break="no"/>test et debet preparat se:tunc dominus facit quod in se est
+            <lb ed="#N" n="65"/>id est confert gratiam. Sed licet faciat quod in se est id est
+            prepa<lb ed="#N" n="66" break="no"/>rat se sufficienter secundum conscientiam suam. et ita quod non est sibi
+            <lb ed="#N" n="67"/>conscius peccati. non propter hoc est consequens quod dominus
+            fa<lb ed="#N" n="68" break="no"/>ciat quod in se est id est quod conferat sibi gratiam. Unde. i. corm.
+            <lb ed="#N" n="69"/>iii. Nihil mihi conscius sum: sed non in hoc iustificatus sum.
+            <lb ed="#N" n="70"/>Io. In nullo remordet me conscientia mea. sed non ideo
+            me<lb ed="#N" n="71" break="no"/>lustum puto. quia potest esse quod nescio. Delicta enim quis
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e696">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>intelligit. Humiliat se apostolus hec dicens. vt homo loquitur
+            <lb ed="#N" n="73"/>qui potest habere culpam nescius. hec glo. Talis igitur
+            <lb ed="#N" n="74"/>qui preparat se quod non est sibi conscius peccati vt dicunt
+            qui<lb ed="#N" n="75" break="no"/>dam digne accedit id est non peccat accedendo.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e709">
+            ⁋ Ad illud
+            si<lb ed="#N" n="76" break="no"/>desit fides etc. dicendum quod intelligitur de esse in conscientia. vnde
+            <lb ed="#N" n="77"/>si desit scilicet in conscientia. hoc est si credat se habere mortale.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e716">
+            <lb ed="#N" n="78"/>⁋ Ad illud quod obiicitur. quod indigne accedit qui in
+            crimi<lb ed="#N" n="79" break="no"/>ne est. Dicendum quod hoc intelligitur cum hac determinatione
+            <lb ed="#N" n="80"/>Non diiudicans corpus christi. Unde glo. ibidem. propter hoc
+            iu<lb ed="#N" n="81" break="no"/>dicium sibi manducat qui indigne manducat. non diiudi
+            <lb ed="#N" n="82"/>cans corpus domini id est discernens corpus domini ab aliis
+            ci<lb ed="#N" n="83" break="no"/>bis: sed indiscrete et negligenter sumit venerationem sigula
+            <lb ed="#N" n="84"/>riter debitam non exhibens. Unde ex hac glo. habetur quod
+            <lb ed="#N" n="85"/>licet sit in peccato mortali aliquo. dummodo accedat discre
+            <lb ed="#N" n="86"/>tem et reuerenter non accedit indigne. et hoc intelligitur
+            si<lb ed="#N" n="87" break="no"/>non habeat in conscientia.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e740">
+            ⁋ Ad illud quod obiicitur. quod debet
+            <lb ed="#N" n="88"/>esse examinatus et purgatus etc. Dicendum quod reuera
+            de<lb ed="#N" n="89" break="no"/>bet examinare conscientiam si sit in mortali vel non. Si autem
+            <lb ed="#N" n="90"/>non habet mortale in conscientia tunc debet purgare se a quoti
+            <lb ed="#N" n="91"/>dianis. Unde glo. ibi probet etc. vt si peccata sint quotidia
+            <lb ed="#N" n="92"/>na et non sint mortifera et dimittat confratri accessurus ad
+            <lb ed="#N" n="93"/>altare et dicat. et dimitte nobis debita nostra sicut et nos
+            <lb ed="#N" n="94"/>dimittimus debitoribus nostris.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e758">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="95"/>inter dignum et indignum manducantibus non est medium
+            <lb ed="#N" n="96"/>etc. Dicendum quod volens ad hoc sacramentum accedere
+            de<lb ed="#N" n="97" break="no"/>bet preparare se. sed quandoque sufficiens est preparatio: et tunc
+            <lb ed="#N" n="98"/>accedens digne accedit. vtpote quando non restat aliquod
+            <lb ed="#N" n="99"/>mortale in anima. et accedit cum timore et reuerentia.
+            Quand<lb ed="#N" n="100" break="no"/>que preparatio non est sufficiens secundum veritatem: sed tamen secundum
+            probabili<lb ed="#N" n="101" break="no"/>tatem et conscentiam accedentis. Quandque neutro modo: vt vbi est
+            simpli<lb ed="#N" n="102" break="no"/>citer contemptus. vel interpretatiue. vt vbi est grauius culpa
+            <lb ed="#N" n="103"/>vel negligentia. Qui autem sufficienter est preparatuns digne
+            man<lb ed="#N" n="104" break="no"/>ducat. Qui autem imparatus accedit manducat indigne. Qui
+            <lb ed="#N" n="105"/>autem est paratus probabiliter et secundum dictamen conscientie. non
+            simpli<lb ed="#N" n="106" break="no"/>citer manducat digne neque indigne. quia vnde talis non mere
+            <lb ed="#N" n="107"/>tur offensam immo frequenter inuenit gratiam. Unde
+            quodan<lb ed="#N" n="108" break="no"/>modo medium est inter digne accedere et indigne:
+            sumen<lb ed="#N" n="109" break="no"/>do indigne simpliciter et digne.
+          </p>
+          <p xml:id="v78d89-a99jpe-d1e794">
+            ⁋ Ad illud quod
+            obii<lb ed="#N" n="110" break="no"/>citur. quod circumstantia scientie non facit nouum genus
+            pecca<lb ed="#N" n="111" break="no"/>ti. Dicendum quod scientia actus alicuius inquantum est
+            circun<lb ed="#N" n="112" break="no"/>stantia illius actus. non facit nouum genus peccati: facit
+            <lb ed="#N" n="113"/>tamen inquantum refertur ad aliud quod respicit actum vt quod
+            <lb ed="#N" n="114"/>est determinatio eius aut efficiens illius. vt est ipse agens
+            <lb ed="#N" n="115"/>vel aliud huiusmodi. Uerbigratia. Non est aliud genus operis
+            <lb ed="#N" n="116"/>fornicari et fornicari scienter. vel coire et coire scienter:
+            <lb ed="#N" n="117"/>tamen coire cum non sua et scienter coire cum non sua. vt
+            <lb ed="#N" n="118"/>quod ly scienter referatur ad illud quod est determinatio actus
+            <lb ed="#N" n="119"/>sunt actus diuersi generis scilicet in moribus. quia aliquis potest
+            <lb ed="#N" n="120"/>coire cum non sua sine peccato: ildeo tamen scienter. Similitr
+            <lb ed="#N" n="121"/>sumere corpus christi et scienter sumere non sunt actus diuer
+            <lb ed="#N" n="122"/>si generis. sed sumere corpus christi et sumere cum scientia
+            <lb ed="#N" n="123"/>moralis id est scienter existentem in mortali sumere est actus
+            <lb ed="#N" n="124"/>diuersi generis: ab eo quod est sumere. Dico ergo sine
+            pre<lb ed="#N" n="125" break="no"/>iudicio assentiens predictis. quod quandoque existens aliquis in
+            <lb ed="#N" n="126"/>mortali secundum veritatem. non tamen habet conscientiam morta
+            <lb ed="#N" n="127"/>lis. qui preparat se sufficienter secundum conscientiam suam vt
+            di<lb ed="#N" n="128" break="no"/>gne accedat. non tamen sufficienter secundum veritatem. bene ac
+            <lb ed="#N" n="129"/>cidit quod in ipsa susceptione confertur sibi gratia et resurgit a
+            <lb ed="#N" n="130"/>morte peccati et vnitur corpori christi. Nonne vt dicunt
+            san<lb ed="#N" n="131" break="no"/>cti hoc sacramento vniuntur membra corpori. Unde dico
+            <lb ed="#N" n="132"/>quod que vnita sunt fortius vniuntur. et quandoque gratia collata in
+            <lb ed="#N" n="133"/>ipsa susceptione sacramenti vnit non vnitum. Unde augustinus in
+            <lb ed="#N" n="134"/>quodam sermone de verbis euangelii. Qui manducat
+            me<lb ed="#N" n="135" break="no"/>viuit propter me. quando manducatur vita manducatur
+            <lb ed="#N" n="136"/>nec occiditur vt manducetur. Ecce plane dicit augustinus quod quando
+            <lb ed="#N" n="137"/>manducatur viuificat mortuos. sed si viuificat mortuos
+            <lb ed="#N" n="138"/>confert gratiam viuificantem.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

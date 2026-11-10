@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="47"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e439"><!-- q7m1 -->
+        <head xml:id="v78d89-d1e439-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-d1e439-Hd1e103" type="question-title">De circumcisione diffinitione</head>
+        <p xml:id="v78d89-d1e439-d1e106">
+          <lb ed="#N" n="49"/>Membrum primum
+        </p>
+        <p xml:id="v78d89-d1e439-d1e111">
+          <lb ed="#N" n="50"/>QUeritur ergo primo quid est circumcisio. Et
+          <lb ed="#N" n="51"/>diffinitur sic a dama. Circumcisio est signum
+          <lb ed="#N" n="52"/>determinans israhel a gentibus cum quibus
+          con<lb ed="#N" n="53" break="no"/>uersabatur. Aliter vero ponitur talis
+          diffini<lb ed="#N" n="54" break="no"/>ctio. Circumcisio est signaculum curationis ab originali. Ter
+          <lb ed="#N" n="55"/>cio dicitur circumcisio abscisio superfluitatis concupiscentie.
+          <lb ed="#N" n="56"/>et hoc in parte habetur a dama. dicente. Quod peccatum est
+          <lb ed="#N" n="57"/>superfluitas concupiscentie. huiusmodi autem abscisio fuit
+          circun<lb ed="#N" n="58" break="no"/>cisio que significabatur in abscisione superfluitatis inutilis in
+          <lb ed="#N" n="59"/>membro hominis. hoc habetur m glo. iiii. ad Ro. ibi. signum
+          <lb ed="#N" n="60"/>accepit etc. vbi dicitur circumcisio exterior dicitur signum
+          in<lb ed="#N" n="61" break="no"/>terioris circumcisionis. tale scilicet quod sit habens signaculum
+          si<lb ed="#N" n="62" break="no"/>gnificate. vt sicut carne libidinis in circumcisione homo
+          spo<lb ed="#N" n="63" break="no"/>liatur: sic anima spolietur omnibus sordibus prime natiuita
+          <lb ed="#N" n="64"/>tis.
+        </p>
+        <p xml:id="v78d89-d1e439-d1e146">
+          ⁋ Circa hoc dubitatur sic. Si vnius rei vnum est esse:
+          <lb ed="#N" n="65"/>vnius vna debet esse diffinitio.
+        </p>
+        <p xml:id="v78d89-d1e439-d1e152">
+          ⁋ Item quod ponitur in
+          ra<lb ed="#N" n="66" break="no"/>tione alicuius: per se conuenit eidem sicut vult phous. ergo cum
+          <lb ed="#N" n="67"/>esse circumcisionis determinatur in significatione siue in
+          signi<lb ed="#N" n="68" break="no"/>ficando per le:vt ex prima ratione patet: ergo illi non conuenit
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="69"/>ratio efficientie siue efficiendi. ergo esse eius solum est in
+          signi<lb ed="#N" n="70" break="no"/>ficando non in efficiendo quod est falsum vt infra patebit.
+        </p>
+        <p xml:id="v78d89-d1e439-d1e168">
+          <lb ed="#N" n="71"/>⁋ Quatum ad secundam obiicitur. Ratio illa non distinguit
+          circun<lb ed="#N" n="72" break="no"/>cisionem a baptismo. baptismus enim signum est curationis ab
+          <lb ed="#N" n="73"/>originali. Similiter oblatio que offerebatur ante datam cir
+          <lb ed="#N" n="74"/>cumcisionem cum fide erat signum curationis ab originali: non
+          <lb ed="#N" n="75"/>ergo est ratio propria circumcisionis.
+        </p>
+        <p xml:id="v78d89-d1e439-d1e181">
+          ⁋ Similiter obiicitur de
+          <lb ed="#N" n="76"/>tercia ratione. Cum enim in baptismo abscindatur aliquid de
+          <lb ed="#N" n="77"/>superfluitate concupiscentie vt patet per dama. non tantum conuenit
+          ra<lb ed="#N" n="78" break="no"/>tio illa circumcisioni.
+        </p>
+        <p xml:id="v78d89-d1e439-d1e190">
+          ⁋ Ad primum dicendum. quod reuera vnius
+          <lb ed="#N" n="79"/>vnum est esse secundum rationem siue causam vnam. et similiter vna
+          <lb ed="#N" n="80"/>diffinitio: secundum autem diuersas plures. Unde dicendum est. quod
+          <lb ed="#N" n="81"/>in hoc differunt he tres rationes. quod prima est circumcisionis
+          <lb ed="#N" n="82"/>inquantum est ad distinguendum. secunda est eius inquantum est
+          contra<lb ed="#N" n="83" break="no"/>morbum originalem. tercia est inquantum est in remedium
+          con<lb ed="#N" n="84" break="no"/>tra concupiscentiam que est sequela culpe originalis.
+        </p>
+        <p xml:id="v78d89-d1e439-d1e206">
+          ⁋ Ad
+          <lb ed="#N" n="85"/>aliud dicendum. quod dama. non ponit plenam diffinitionem
+          <lb ed="#N" n="86"/>circumcisionis: sed solum quantum ad vnam eius partem. Circumcisio
+          <lb ed="#N" n="87"/>enim determinabatur circa duo. quorum vnum erat in
+          distinguen<lb ed="#N" n="88" break="no"/>do. aliud in efficiendo. Ad duo enim erat principaliter scilicet ad
+          <lb ed="#N" n="89"/>deletionem originalis et ad distinctionem popli dei a non populo.
+          <lb ed="#N" n="90"/>Quelibet enim ratio non dicit totum esse: sed vna dicit esse
+          mate<lb ed="#N" n="91" break="no"/>riale: alia formale.
+        </p>
+        <p xml:id="v78d89-d1e439-d1e224">
+          ⁋ Ad aliud dicendum est. quod licet cessent
+          <lb ed="#N" n="92"/>alia signa curationis ab originali: tamen nullum erat permanens
+          <lb ed="#N" n="93"/>in carne in qua fieret iudicium curationis ab originali
+          nisi<lb ed="#N" n="94" break="no"/>in circumcisione. et sic intelligenda est ratio signi scilicet in
+          car<lb ed="#N" n="95" break="no"/>ne permanens. Sacrificium enim vel oblatio fuit signum
+          exte<lb ed="#N" n="96" break="no"/>rius: baptismus vero qui est ablutio corporalis: signum est
+          <lb ed="#N" n="97"/>ablutionis spiritualis. ablutio autem corporalis non est permanens
+          <lb ed="#N" n="98"/>in carne.
+        </p>
+        <p xml:id="v78d89-d1e439-d1e243">
+          ⁋ Ad illud quod obiicitur de tercia diffinitione.
+          <lb ed="#N" n="99"/>dicendum quod licet in baptismate abscinditur de superfluitate
+          con<lb ed="#N" n="100" break="no"/>cupiscentie et plusquam in circumcisione: tamen magis
+          appropria<lb ed="#N" n="101" break="no"/>tur ratio signi abscisionis huiusmodi circumcisioni. quia sicut in
+          <lb ed="#N" n="102"/>circumcisione tollitur quedam particula carnis maiore
+          ma<lb ed="#N" n="103" break="no"/>nente: ita tollitur quedam pars concupiscentie altera
+          manen<lb ed="#N" n="104" break="no"/>te. quantum est de vi circumcisionis. In baptismo autem fit
+          ab<lb ed="#N" n="105" break="no"/>lutio carnis a sordibuns et in hoc signat ablutionem
+          spiri<lb ed="#N" n="106" break="no"/>tualem a sordibus peccati.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

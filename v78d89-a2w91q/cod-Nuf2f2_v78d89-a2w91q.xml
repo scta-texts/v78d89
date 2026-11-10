@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9, Praeambulum</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 9, Praeambulum</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="84"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a2w91q"><!-- q9prae -->
+        <head xml:id="v78d89-a2w91q-Hd1e101">Praeambulum</head>
+        <p xml:id="v78d89-a2w91q-d1e103">
+          <lb ed="#N" n="21"/>Questio. ix. de vaptmo
+          <lb ed="#N" n="22"/>Iohannis.
+        </p>
+        <p xml:id="v78d89-a2w91q-d1e110">
+          <lb ed="#N" n="23"/>Abiluusm ert subra de
+          <lb ed="#N" n="24"/>sacramentis noue legis: consequentur dicendum est de
+          <lb ed="#N" n="25"/>singulis in specie. Et primo de baptismo
+          <lb ed="#N" n="26"/>christ qui est ianua sacramentorum. deinceps de aliis
+        </p>
+        <p xml:id="v78d89-a2w91q-d1e121">
+          <lb ed="#N" n="27"/>⁋secundum quod exigit ratio ordinis. Rtionne autem
+          ba<lb ed="#N" n="28" break="no"/>ptismi christi dicendum est de preparatoriis ad baptismum christi: que tria
+          <lb ed="#N" n="29"/>fuerunt scilicet baptismus iohnis qui cessauit: et exorcismus: et cathe
+          <lb ed="#N" n="30"/>cismus. Que sic distinguuntur. Baptismus iohis exterius
+          pre<lb ed="#N" n="31" break="no"/>parabat ad baptismum christi. Exorcismus cohibebat poetantem
+          dya<lb ed="#N" n="32" break="no"/>boli. Cathecismus ad instruendum intellectum baptizandi.
+          <lb ed="#N" n="33"/>Ipse baptismus christi erat ad purgandum affectum a culpa
+          ori<lb ed="#N" n="34" break="no"/>ginali et sequela eius. vt sic plenum detur adiutorium.
+          Ba<lb ed="#N" n="35" break="no"/>ptismus autem iohnis erat preparatorium ab initio vt non
+          abhor<lb ed="#N" n="36" break="no"/>rerent homines subiicere se baptismati christi. Et ideo primo
+          vi<lb ed="#N" n="37" break="no"/>dendum est de illo.
+        </p>
+        <p xml:id="v78d89-a2w91q-d1e147">
+          ⁋ Primo ergo queritur. quare baptismus christi
+          <lb ed="#N" n="38"/>habuit preparatorium proprium plusquam alia sacramenta. Secundo. hoc
+          suppo<lb ed="#N" n="39" break="no"/>sito. vtrum baptismus iohnis sit sacramentum. Tercio queritur de
+          for<lb ed="#N" n="40" break="no"/>ma eius. Quarto. de efficacia. Quinto. quare
+          appropri<lb ed="#N" n="41" break="no"/>atum fuit quoddam baptisma iohni. Sexto. qui fuerunt illo
+          ba<lb ed="#N" n="42" break="no"/>ptismo baptizati. Septimo. vtrum baptizati baptismo
+          io<lb ed="#N" n="43" break="no"/>hannis erant rebaptizandi baptismo christi. Octauo. de
+          insti<lb ed="#N" n="44" break="no"/>tutione. Nono. de cessatione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

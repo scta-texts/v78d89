@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 9, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="84"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a2wvev"><!-- q9m2 -->
+        <head xml:id="v78d89-a2wvev-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a2wvev-Hd1e103" type="question-title">Hoc supposito. utrum baptismus iohnis sit sacramentum</head>
+        <p xml:id="v78d89-a2wvev-d1e106">
+          <lb ed="#N" n="82"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e111">
+          <lb ed="#N" n="83"/>QUeritur consequenter vtrum sit sacramentum. Quod sic
+          <lb ed="#N" n="84"/>videtur. dicit magister hugo. Inter baptisma
+          io<lb ed="#N" n="85" break="no"/>hannis et baptisma christi hec distantia est. quod in
+          <lb ed="#N" n="86"/>baptismo iohnis solum sacramentum dabatur. in
+          <lb ed="#N" n="87"/>baptisinate christi cum sacramento etiam res sacramenti percipitur.
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e124">
+          <lb ed="#N" n="88"/>⁋ Item sacramentum est sacre rei signum. baptismus iohnis est
+          <lb ed="#N" n="89"/>signum baptismatis christi vt dicit magister. ii. dis. iiii. libro. sententi. primo
+          <lb ed="#N" n="90"/>ca. quid ergo erat.
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e134">
+          ⁋ Contra. non est sacramentum veteris legis vtet.
+          <lb ed="#N" n="91"/>fiebat enim sub hac forma verborum. Ego baptizo te in nomine
+          <lb ed="#N" n="92"/>venturi. que forma in nulla ablutione immundi alicuius
+          ob<lb ed="#N" n="93" break="no"/>seruabatur in lege veteri.
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e143">
+          ⁋ Item baptizati baptismo iohis
+          <lb ed="#N" n="94"/>recipiebant spirum sanctum per impositionem manuum. vt Act. viii. quod
+          <lb ed="#N" n="95"/>non contigit in aliquo sacramento veteris legis. Nec est sacramentum
+          no<lb ed="#N" n="96" break="no"/>ue legis. quod patet: quia sacramenta noue legis efficiunt quod
+          fi<lb ed="#N" n="97" break="no"/>gurant. sed hoc sacramentum figurat remissionem peccatorum: quod non
+          effici<lb ed="#N" n="98" break="no"/>ebat. vnde hugo. Sacramentum vtrobique quantum ad formam exteriorem
+          <lb ed="#N" n="99"/>idem fuit: sed quantum ad effectum idem non fuit. quia illic
+          remissio<lb ed="#N" n="100" break="no"/>peccatorum non fuit. hic virtus sacramenti in remissionem peccato
+          <lb ed="#N" n="101"/>rum condonatur.
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e163">
+          ⁋ Item sacramentum est quod est institutum ad aliquod
+          <lb ed="#N" n="102"/>sacrum signandum. Non enim omne quod sacrum quocumque modo
+          signi<lb ed="#N" n="103" break="no"/>ficat sacramentum dicitur: sed quod ex institutione. baptismus iohnis
+          <lb ed="#N" n="104"/>non fuit institutus ad significandum: sed potius ad exercendum
+          <lb ed="#N" n="105"/>ad preparationem ad baptisma christi.
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e174">
+          ⁋ Item ex hoc videtur quod sit
+          <lb ed="#N" n="106"/>potius sacramentale quam sacramentum sicut est exorcismus et
+          ca<lb ed="#N" n="107" break="no"/>thecismus. quod etiam videtur: quia Io. iii. Erat iohnes baptizans
+          <lb ed="#N" n="108"/>in enon. ibi dicit glo. quantum cathecuminis nondum baptiza
+          <lb ed="#N" n="109"/>tis prodest doctrina fidei: tantum profuit baptismus iohis ante
+          ba<lb ed="#N" n="110" break="no"/>ptisma christi etc.
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e187">
+          ⁋ Responsio. quod sumendo sacramentum nomine extenso: eo
+          <lb ed="#N" n="111"/>modo quo sacramentum dicitur sacre rei signum: fuit sacramentum. fuit enim
+          si<lb ed="#N" n="112" break="no"/>gnum baptismatis christi. Unde respondent quidam. quod est sacramentum
+          <lb ed="#N" n="113"/>non tamen veteris legis neque noue: sed medium. transitus enim a
+          sa<lb ed="#N" n="114" break="no"/>cramentis veteris legis ad sacramenta noue legis: debet esse
+          <lb ed="#N" n="115"/>per medium quod conueniret cum vtroque. tale erat baptisma iohnis.
+          <lb ed="#N" n="116"/>quia quantum ad significandum cum sacramentis veteris legis: quia
+          <lb ed="#N" n="117"/>non efficiebat quod figurabat. et similiter quantum ad terminationem quo
+          <lb ed="#N" n="118"/>ad materiam et formam in parte cum sacramentis noue legis. In parte
+          di<lb ed="#N" n="119" break="no"/>co: quia fiebat nomine venturi. sacramenta noue legis fiunt in
+          no<lb ed="#N" n="120" break="no"/>mine pratis et filii et spiritus sancti. Similiter in hoc quod dabatur tempore gratie
+          <lb ed="#N" n="121"/>tanquam preparatorium ad baptisma christi.
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e213">
+          ⁋ Ad illud quod obiicitur.
+          <lb ed="#N" n="122"/>quod potius debet dici sacramentale etc. dicendum quod sacramentalia
+          <lb ed="#N" n="123"/>dicuntur que propter ipsa sacramenta tantum exercentur. baptismus autem iohis
+          <lb ed="#N" n="124"/>non fuit tantum preparatorium ad baptisma christi: immo propter aliud
+          fie<lb ed="#N" n="125" break="no"/>bat scilicet in penitentiam peccatorum. Nec sequitur si cathecismus et
+          ba<lb ed="#N" n="126" break="no"/>ptismus iohis conueniebant in aliquo fine. quod si vnum est
+          sacramen<lb ed="#N" n="127" break="no"/>tum: et aliud.
+        </p>
+        <p xml:id="v78d89-a2wvev-d1e230">
+          ⁋ Ad aliud quod obiicitur. quod institutus fuit ad
+          ex<lb ed="#N" n="128" break="no"/>ercendum. verum est. nihilominus ad significandum scilicet
+          baptisma<lb ed="#N" n="129" break="no"/>christi. In multis autem sacramentis prima et principalis
+          institu<lb ed="#N" n="130" break="no"/>tio fuit ad exercendum: nihilominus sacramenta dicuntur quia habent ratione
+          <lb ed="#N" n="131"/>figurandi. sicut est de omnibus fere sacramentis legis veteris.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 25, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 25, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="165"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a62ddd"><!-- q25m2 -->
+        <head xml:id="v78d89-a62ddd-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a62ddd-Hd1e103" type="question-title">Utrum sit alicuius utilitatis quae est necessitatis</head>
+        <p xml:id="v78d89-a62ddd-d1e106">
+          <lb ed="#N" n="122"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e111">
+          <lb ed="#N" n="123"/>COnsequenter queritur si sacramentum confirmationis est
+          ne<lb ed="#N" n="124" break="no"/>cessarium ad salutem: Quod non: videtur. Ex quo sacramento
+          <lb ed="#N" n="125"/>baptismatis conferuntur omnia que necessaria sunt ad
+          sa<lb ed="#N" n="126" break="no"/>lutem. Dic enim augustinus libro. de sacramentis. per aquam
+          ba<lb ed="#N" n="127" break="no"/>ptismi transitus est a terrenis ad celestia: de peccato ad vitam: de
+          <lb ed="#N" n="128"/>culpa ad gratiam: de inquinato ad sanctificationem. qui per hanc aquam
+          <lb ed="#N" n="129"/>transit non moritur sed resurgit.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e129">
+          ⁋ Item in baptismo datur gratia cum
+          <lb ed="#N" n="130"/>omnibus virtutibus. Sed qui habet virtutes habet arma sufficientia ad
+          pu<lb ed="#N" n="131" break="no"/>gnam: ergo etc.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e137">
+          ⁋ Item nullus cadit nisi volens. ergo ex quo habet gratiam ipsum
+          <lb ed="#N" n="132"/>stabilitatem: potest stare: ergo non est necesse cadere. ergo gratia
+          consu<lb ed="#N" n="133" break="no"/>mationis non est necessaria.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e144">
+          ⁋ Item minima caritatis sufficit
+          <lb ed="#N" n="134"/>ad resistendum omni temptationi. ex hoc patet idem quod
+          <lb ed="#N" n="135"/>prius: cum caritas habeatur sine hoc sacramento.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e151">
+          ⁋ Contra. Rabanus
+          <lb ed="#N" n="136"/>omnes fideles per manus impositionem episcoporum post baptismum accipere
+          <pb ed="#N" n="166"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>debent spiritum sanctum. vt pleni christiani inueniantur.
+          igi<lb ed="#N" n="2" break="no"/>tur ante confirmationem non sunt pleni christiani: igitur si decedunt
+          <lb ed="#N" n="3"/>non habent plenam gloriam.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e167">
+          ⁋ Item ex concilio aurelis. habetur quod non
+          <lb ed="#N" n="4"/>est christianus qui non est confirmatus: dicitur enim ibi. Nunquam erit
+          <lb ed="#N" n="5"/>christianus qui non in confirmatione episcopali fuerit confirmatus.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e174">
+          ⁋ Item
+          <lb ed="#N" n="6"/>hag. In gestis pontificalibus legitur quod Siluester papa
+          con<lb ed="#N" n="7" break="no"/>stituit. vt baptizatum presbiter in vertice crismate liniat
+          pro<lb ed="#N" n="8" break="no"/>pter occasionem quidem mortis. ne forte propter absentiam episcopi c
+          <lb ed="#N" n="9"/>et difficultatem eum consequendi: sine manus impositione
+          ba<lb ed="#N" n="10" break="no"/>ptizatum ab hac vita migrare contigerit: auod quidem
+          omni<lb ed="#N" n="11" break="no"/>no periculosum esset. Si autem omnino periculosum est sine
+          confir<lb ed="#N" n="12" break="no"/>matione migrare: igitur confirmatio necessgria est saluti: quia
+          <lb ed="#N" n="13"/>quod ibi loquatur de periculo damnationis patet per hoc quod subium
+          <lb ed="#N" n="14"/>gitur. Quid autem prodest si a lapsu erigeris: nisi etiam ad
+          stan<lb ed="#N" n="15" break="no"/>dum confirmeris. per hoc quod innuitur quod baptismus nullius
+          <lb ed="#N" n="16"/>vtilitatis est sine confirmatione.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e200">
+          ⁋ Item Ro. x. Corde
+          credi<lb ed="#N" n="17" break="no"/>tur ad iusticiam. ore autem confessio fit ad salutem. vtrumque ergo
+          <lb ed="#N" n="18"/>est necessarium ad salutem. Sed nullus saluatur nisi credat vel
+          <lb ed="#N" n="19"/>habeat fidei sacramentum: ergo nullus saluatur nisi confiteatur
+          <lb ed="#N" n="20"/>vel habeat sacramentum ad hoc ordinatum scilicet sacramentum
+          <lb ed="#N" n="21"/>confirmationis.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e214">
+          ⁋ Respondeo. quod hoc sacramentum non est
+          necessi<lb ed="#N" n="22" break="no"/>tatis. proprie sumendo necessitatem eo modo quo dicitur esse
+          <lb ed="#N" n="23"/>necessarium sine quo non potest esse salus. extenso nomine
+          necessi<lb ed="#N" n="24" break="no"/>tatis: eo modo quo necessarium dicit: vtilem est necessarium ad
+          <lb ed="#N" n="25"/>salutem vt ex dictis patet.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e225">
+          ⁋ Ad primum ergo obiectum
+          contra<lb ed="#N" n="26" break="no"/>hoc. dicendum quod est plenitudo sufficientie et plenitudo
+          ha<lb ed="#N" n="27" break="no"/>bundantie: siue plenitudo in esse et plenitudo in robore.
+          quan<lb ed="#N" n="28" break="no"/>tum ad primam plenitudinem pleni christiani fiunt in baptismo.
+          <lb ed="#N" n="29"/>quantum ad secundam in confirmatione. vnde Pelchyades papa. in
+          <lb ed="#N" n="30"/>baptismo spiritus sanctus confertur ad innocentiam. In
+          confirma<lb ed="#N" n="31" break="no"/>tione ad pugnam. et quamuis continuo sufficiant regenerationis
+          <lb ed="#N" n="32"/>officia: victuris tamen necessaria sunt confirmationis
+          auxi<lb ed="#N" n="33" break="no"/>lia.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e245">
+          ⁋ Ad aliud dicendum. quod christianus dicitur vel ex eo quod
+          cara<lb ed="#N" n="34" break="no"/>cterem christi habeat: vel ex eo quod miles christi sit in certamine
+          con<lb ed="#N" n="35" break="no"/>tra aduersarium. primo modo est christianus etiam non confirmatus
+          <lb ed="#N" n="36"/>secundo modo non.
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e254">
+          ⁋ Ad illud quod obiicitur ex verbo Hug.
+          dicen<lb ed="#N" n="37" break="no"/>dum quod Hug. loquitur de illis qui per negligentiam transeunt
+          si<lb ed="#N" n="38" break="no"/>ne hoc sacramento: et moriuntur illo non suscepto: vnde
+          negli<lb ed="#N" n="39" break="no"/>gentia illis imputatur in peccatum mortalem. Unde Hug.
+          timen<lb ed="#N" n="40" break="no"/>dum est illis qui per negligentiam amittunt episcopi presentiam. et non
+          <lb ed="#N" n="41"/>suscipiunt manus impositionem. ne forte preterea damnentur
+          <lb ed="#N" n="42"/>quia festinare debuerunt. Ex institutione enim ecclesie est. quod
+          <lb ed="#N" n="43"/>nullus ab hoc sacramento excipitur. sed omnes suscipere debent vt
+          <lb ed="#N" n="44"/>sint strennni pugnatores. et ideo si quis cum habet locum tempus
+          <lb ed="#N" n="45"/>et oportunitatem negligendo contempnit: periculo se exponit
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e276">
+          <lb ed="#N" n="46"/>⁋
+        </p>
+        <p xml:id="v78d89-a62ddd-d1e281">
+          ⁋ Ad aliud quod obiicitur de confessione fidei. per illud Ro. x.
+          cor<lb ed="#N" n="47" break="no"/>de creditur ad iusticiam etc. Dicendum quod non est simile de
+          fide<lb ed="#N" n="48" break="no"/>et confessione. quia credere semper est necessarium ex quo homo est
+          <lb ed="#N" n="49"/>adultus: sed confiteri non oportet nisi pro loco et tempore. Similiter
+          <lb ed="#N" n="50"/>semper est necessarium sacramentum fidei scilicet baptismus ad
+          sa<lb ed="#N" n="51" break="no"/>lutem et existenti in minori etate et maiori: sacramentum
+          con<lb ed="#N" n="52" break="no"/>firmationis non existenti nisi in maiori. vnde Melchyades
+          <lb ed="#N" n="53"/>papa et habetur de conse. di. iii. Quamuis continuo transituris
+          suf<lb ed="#N" n="54" break="no"/>ficiant regenerationis beneficia: victuris tamen necessaria sunt
+          con<lb ed="#N" n="55" break="no"/>firmationis auxilia. Regeneratio per se saluat mox in
+          pace<lb ed="#N" n="56" break="no"/>beati seculi percipiendos: confirmatio armat et instruit ad
+          <lb ed="#N" n="57"/>agones mundi huius et praelia reseruandos. Qui autem post
+          ba<lb ed="#N" n="58" break="no"/>ptismum acquisita innocentia immaculatus puenit ad mortem.
+          confir<lb ed="#N" n="59" break="no"/>matur morte: quia iam non posunt peccare postmortem. sic ergo
+          intelli<lb ed="#N" n="60" break="no"/>gendum est de sacramento hoc quod non est sacramentum necessitatis: cum
+          si<lb ed="#N" n="61" break="no"/>ne gratia confirmationis ex sola gratia baptismali cum quadam
+          <lb ed="#N" n="62"/>strennuitate nature omne genus temptationis vincere contingat
+          <lb ed="#N" n="63"/>et pro fidei confessione vsque ad mortem resistere. de hoc
+          tange<lb ed="#N" n="64" break="no"/>tur infra. In aliquibus forte est gratia necessaria sine periculis ad
+          <lb ed="#N" n="65"/>pugnam. in quibus quamuis libro arbtio. non posset cogi: tamen tanta nutat
+          <lb ed="#N" n="66"/>infirmitate quod nequaquam staret forti impellente temptatione:
+          ni<lb ed="#N" n="67" break="no"/>si gratia superaddita gratie baptismali fructificante sustentaretur
+          <lb ed="#N" n="68"/>et illa infirmitas curaretur. et ideo quandoque et quantum ad aliquos
+          <lb ed="#N" n="69"/>necessaria est contra lapsum. non propter exterius impellens. tantum: sed
+          pro<lb ed="#N" n="70" break="no"/>pter infirmitatem interiorem et debilitatem. Unde in aliquibus
+          <lb ed="#N" n="71"/>licet gratia siue caritas in quocumque sit gradu sufficiat quantum
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>est de se ad resistendum omni temptationi: tamen propter
+          infirmi<lb ed="#N" n="73" break="no"/>tatem ipsius libro. arbto. siue libere voluntatis: necessaria gratia
+          confirma<lb ed="#N" n="74" break="no"/>tionis: vel aliqua alia ne resistens deficiat in pugna.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

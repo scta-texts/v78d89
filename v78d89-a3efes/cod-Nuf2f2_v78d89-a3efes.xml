@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 11, Membrum 7</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 11, Membrum 7</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="98"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3efes"><!-- q11m7 -->
+        <head xml:id="v78d89-a3efes-Hd1e101">Membrum 7</head>
+        <head xml:id="v78d89-a3efes-Hd1e103" type="question-title">In quo genere praedicabili sit baptismus</head>
+        <p xml:id="v78d89-a3efes-d1e106">
+          <lb ed="#N" n="81"/>⁋ Membrum septimum
+        </p>
+        <p xml:id="v78d89-a3efes-d1e111">
+          <lb ed="#N" n="82"/>COnsequenter queritur in quo genere
+          predicabili<lb ed="#N" n="83" break="no"/>sit baptismus. et videtur quod sit in genere relationis
+          <lb ed="#N" n="84"/>cum baptismus sit sacramentum. sacramentum autem
+          <lb ed="#N" n="85"/>est signum essentialiter: propter essentialiter ad
+          ali<lb ed="#N" n="86" break="no"/>ud dicitur.
+        </p>
+        <p xml:id="v78d89-a3efes-d1e124">
+          ⁋ Item cum baptismus sit aqua verbo vite
+          sanctifi<lb ed="#N" n="87" break="no"/>cata. quod dico sanctificata non ponit in aliquo genere: igitur est in
+          <lb ed="#N" n="88"/>genere substantie.
+        </p>
+        <p xml:id="v78d89-a3efes-d1e132">
+          ⁋ Item baptismus est ablutio etc. hec predicatio
+          <lb ed="#N" n="89"/>non est accidentalis: quia tunc posset dici denonatiue de baptisio
+          <lb ed="#N" n="90"/>sicut albedo de homine. Nec causalis: quia est ipsum sacramentum
+          <lb ed="#N" n="91"/>igitur est essentialis ergo baptismus et ablutio sunt in eodem genere.
+          <lb ed="#N" n="92"/>Sed ablutio actio est in genere actionis: ablutio passio in
+          ge<lb ed="#N" n="93" break="no"/>nere passionis et ita videtur quod sit in genere actionis vel passionis.
+        </p>
+        <p xml:id="v78d89-a3efes-d1e145">
+          <lb ed="#N" n="94"/>⁋ Item videtur quod sit de genere habitus. quia due sunt proprietates
+          ha<lb ed="#N" n="95" break="no"/>bitus scilicet adiacentia et ornatus habitus. hec conueniunt baptismo:
+          <lb ed="#N" n="96"/>Baptismus enim est corporum et eorum que circa corpus sunt
+          adiacen<lb ed="#N" n="97" break="no"/>tia.
+        </p>
+        <p xml:id="v78d89-a3efes-d1e156">
+          ⁋ Item cum baptismus concernit duo essentialiter in suo esse. scilicet
+          <lb ed="#N" n="98"/>quo signat siue figurat: et quo efficit. debet vt videtur esse in
+          di<lb ed="#N" n="99" break="no"/>uersis generibus. ratione qua signum est vel imago in relatione:
+          <lb ed="#N" n="100"/>ratione qua efficit in actione siue in genere actionis.
+        </p>
+        <p xml:id="v78d89-a3efes-d1e165">
+          ⁋ Responsio. quod
+          <lb ed="#N" n="101"/>nihil impedit idem diuersis rationibus in diuersis esse
+          generi<lb ed="#N" n="102" break="no"/>bus. sicut solet dici magnum inquantum dicit magnitudinem
+          ab<lb ed="#N" n="103" break="no"/>solute et simpliciter: dicitur esse in genere quantitatis. ratione
+          <lb ed="#N" n="104"/>qua dicit excessum respectu perui in genere relationis. Pret.
+          que<lb ed="#N" n="105" break="no"/>dam dicuntur adaliquid simpliciter et inquantum propriis nominibus
+          designan<lb ed="#N" n="106" break="no"/>tur. vt duplum et dimidium. quedam non secundum se. sed secundum modum sui
+          ge<lb ed="#N" n="107" break="no"/>neris. secundum quod dicit phous in predicamento qualitatis habitus et
+          <lb ed="#N" n="108"/>dispositio eorum que ad aliquid sunt esse dicebamus. pene enim
+          <lb ed="#N" n="109"/>in omnibus talibus genera ad aliquid dicuntur. nihil autem horum
+          <lb ed="#N" n="110"/>que singularia sunt. et ponit exemplum de disciplina que
+          di<lb ed="#N" n="111" break="no"/>citur ad aliquid. non autem gratiamatica. Iuxta hunc modum
+          dici<lb ed="#N" n="112" break="no"/>potest. quod baptismus secundum quod diuersimode consideratur. in
+          di<lb ed="#N" n="113" break="no"/>uersis est generibus.
+        </p>
+        <p xml:id="v78d89-a3efes-d1e196">
+          ⁋ Ad predictorum intelligentiam
+          notan<lb ed="#N" n="114" break="no"/>dum. quod cum baptismus non sit vnum per essentiam sed per ordinem
+          <lb ed="#N" n="115"/>sicut et alia sacramenta. secundum diuersa sui habet poni in diuer
+          <lb ed="#N" n="116"/>sis generibus. propter quod intelligitur quod baptismus potest
+          <lb ed="#N" n="117"/>considerari dupliciter. vel inquantum nominat quid nature:
+          <lb ed="#N" n="118"/>vel inquantum nominat quid misticum. Inquantum autem nominat
+          <lb ed="#N" n="119"/>quid nature: sumitur vel materialiter vel formaliter vel
+          vtro<lb ed="#N" n="120" break="no"/>que modo. Si formaliter: sic nominat ablutionem que est in
+          pre<lb ed="#N" n="121" break="no"/>dicamento actionis vel passionis. Si materialiter: nominat
+          <lb ed="#N" n="122"/>aquam siue elementum in quo fit ablutio sicut balneum vel
+          la<lb ed="#N" n="123" break="no"/>uacrum sic est in genere substantie. Si vtroque modo sic non
+          <lb ed="#N" n="124"/>dicit quod vnius generis: immo quod quodammodo est in genere
+          sub<lb ed="#N" n="125" break="no"/>stantie et quodammodo in genere accidentis. vtpote actionis
+          <lb ed="#N" n="126"/>vel passionis. Si autem loquamur de baptismo secundum quod
+          nomi<lb ed="#N" n="127" break="no"/>nat quid misticum. hoc potest esse dupliciter. vel exterius vel
+          in<lb ed="#N" n="128" break="no"/>terius. quia duplex est baptismus interior et exterior.
+          Baptis<lb ed="#N" n="129" break="no"/>mus quidem exterior inquantum dicit sacramentum siue quid misticum
+          <lb ed="#N" n="130"/>est signum formaliter loquendo. et est in genere relationis.
+          mate<lb ed="#N" n="131" break="no"/>rialiter vero siue causaliter est sensibilis forma secundum quod
+          sacramen<lb ed="#N" n="132" break="no"/>tum dicitur inuisibilis gratie visibilis forma. et reducitur ad
+          ter<lb ed="#N" n="133" break="no"/>ciam speciem qualitatis. Secundum autem quod nominat baptismum
+          in<lb ed="#N" n="134" break="no"/>teriorem hoc potest esse dupliciter. vel in fieri: et sic reducitur ad genus
+          <lb ed="#N" n="135"/>actionis vel passionis vel inest factum: et sic reducitur ad
+          habi<lb ed="#N" n="136" break="no"/>tum sicut mentis mundicia. et ita ad primam speciem qualitatis
+          <lb ed="#N" n="137"/>et sic patet quomo secundum diuersas considerationes baptismus ad
+          di<lb ed="#N" n="138" break="no"/>uersa genera habet reduci. per hoc patet quomo ad quesita respondem
+          <lb ed="#N" n="139"/>dum est.
+        </p>
+        <p xml:id="v78d89-a3efes-d1e255">
+          ⁋ Ad hoc quod obiicitur quod est de genere habitus quia ornat et
+          <lb ed="#N" n="140"/>adiacet. dicendum quod hoc non sequitur. alio enim modo adiacet et ornat
+          <lb ed="#N" n="141"/>quam quod est de genere habitus. Baptismus enim ornat antimam ornatu
+          <pb ed="#N" n="99"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>qui est effectus gratuitus siue gratie. non eo modo quo anulus
+          or<lb ed="#N" n="2" break="no"/>nat manum vel vestimentum corpus. vnde habitus est proprie
+          orna<lb ed="#N" n="3" break="no"/>tus corporum. et hoc dico essentialiter. sed baptismus animarum et
+          <lb ed="#N" n="4"/>non essentialiter: sed effectiue. efficit enim ornatum in anima: ipse autem
+          <lb ed="#N" n="5"/>non est ornatus. Preterea. ornatus et adiacentia habitus est
+          solum<lb ed="#N" n="6" break="no"/>corporum: et corporum secundum partem corporis: non secundum totum. neutrum
+          con<lb ed="#N" n="7" break="no"/>uenit baptismo. neque adiacet corpori solum neque corpori secundum
+          <lb ed="#N" n="8"/>partem dico necessario. vt autem dicit phous. hoc autem non secundum totum sed secundum
+          <lb ed="#N" n="9"/>perticularem diuisionem. vt armatum esse: calciatum esse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

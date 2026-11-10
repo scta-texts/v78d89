@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9, Membrum 8</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 9, Membrum 8</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="89"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a32miy"><!-- q9m8 -->
+        <head xml:id="v78d89-a32miy-Hd1e101">Membrum 8</head>
+        <head xml:id="v78d89-a32miy-Hd1e103" type="question-title">De institutione</head>
+        <p xml:id="v78d89-a32miy-d1e106">
+          <lb ed="#N" n="54"/>⁋ Membrum octauum
+        </p>
+        <p xml:id="v78d89-a32miy-d1e111">
+          <lb ed="#N" n="55"/>COnsequenter queritur de institutione
+          baptismi<lb ed="#N" n="56" break="no"/>ioh. Et queritur vtrum fuit institutus a deo vel a
+          <lb ed="#N" n="57"/>iohane. Quod autem a deo videtur sic. Ille rei
+          institu<lb ed="#N" n="58" break="no"/>tor est: cuius precepto et auctoritate res fit. Sed
+          <lb ed="#N" n="59"/>iohes auctoritate domini et precepto baptizabat: vnde ioh. i. Qui
+          <lb ed="#N" n="60"/>misit me baptizare ille mihi dixit etc. ergo iohs missus a deo
+          <lb ed="#N" n="61"/>baptizabat etc.
+        </p>
+        <p xml:id="v78d89-a32miy-d1e129">
+          ⁋ Item baptista siue baptizator est nomen
+          offi<lb ed="#N" n="62" break="no"/>cii et officii honorabilis. Sed nemo assumit sibi honorem. v.
+          <lb ed="#N" n="63"/>ad heb. alioquin esset vsurpatio quod non fuit in iohne: ergo ioh. factus
+          <lb ed="#N" n="64"/>fuit baptista a domino et ab eo institutus ad baptizandum. ergo
+          bapti<lb ed="#N" n="65" break="no"/>mus fuit institutus a deo.
+        </p>
+        <p xml:id="v78d89-a32miy-d1e141">
+          ⁋ Conta. si baptismus ioh. esset institu
+          <lb ed="#N" n="66"/>tus a domino. denomniaretur ab eo et non a iohne: sicut patet de baptis
+          <lb ed="#N" n="67"/>mo christi. dabatur enim baptismus christi a petro et paulo: tamen denomnia
+          <lb ed="#N" n="68"/>batur a christo qui fuit institutor: et non ab eis. a simili videtur de proposi
+          <lb ed="#N" n="69"/>to.
+        </p>
+        <p xml:id="v78d89-a32miy-d1e152">
+          ⁋ Item si institutus esset a domino: staret adhuc nec cessaret
+          io<lb ed="#N" n="70" break="no"/>hanne non stante. sed cessauit statim quando iohes missus fuit in
+          car<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>cere. sicut dicit Cris. super ioh: ergo fuit institutus a iohne.
+        </p>
+        <p xml:id="v78d89-a32miy-d1e160">
+          ⁋
+          Respon<lb ed="#N" n="72" break="no"/>sio secundum opinionem antiquorum. quod ioh. fuit institutor
+          baptisma<lb ed="#N" n="73" break="no"/>tis sui. vtpote qui formam in nomine venturi posuit quod
+          intel<lb ed="#N" n="74" break="no"/>ligendum est ministerio: dominus vero auctoritate. et hoc concludit
+          pri<lb ed="#N" n="75" break="no"/>me rationes. Cuius enim precepto res fit: eius auctoritate fit.
+          <lb ed="#N" n="76"/>nec ille qui auctoritate et precepto superioris facit rem: vsurpa
+          <lb ed="#N" n="77"/>tor dicendus est. licet enim dominus esset institutor auctoritate: non
+          <lb ed="#N" n="78"/>tamen ab eo denomnabatur. sed a iohane. quia quicquid in illo fiebat. a
+          <lb ed="#N" n="79"/>iohne fiebat vt dictum est: et quia soli iohi officium baptizandi fuit
+          <lb ed="#N" n="80"/>concessum. Unde augustinus contra donatistas. Nulli prophetarum
+          nulli<lb ed="#N" n="81" break="no"/>prorsus hominum in diuinis scripturis est concessum baptizare in
+          <lb ed="#N" n="82"/>aqua penitentie in remissionem peccatorum: quod ioh. concessum est. Pret.
+          <lb ed="#N" n="83"/>non conueniebat quod denomnaretur a christo: ne confunderetur nomen bapti
+          <lb ed="#N" n="84"/>morum scilicet christi et iohnis.
+        </p>
+        <p xml:id="v78d89-a32miy-d1e191">
+          ⁋ Ad illud quod obiicitur. quod
+          desi<lb ed="#N" n="85" break="no"/>nente iohne desinebat baptisma iohis setc. Dicendum quod hoc
+          <lb ed="#N" n="86"/>fuit quia illi soli concessum fuit a domino officium illud sicut
+          pa<lb ed="#N" n="87" break="no"/>tet ex verbo augu. predicto.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

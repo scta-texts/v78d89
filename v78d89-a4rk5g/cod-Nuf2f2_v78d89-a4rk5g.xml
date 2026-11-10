@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 19, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 19, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="138"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4rk5g"><!-- q19m4 -->
+        <head xml:id="v78d89-a4rk5g-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a4rk5g-Hd1e103" type="question-title">Ad quae sit</head>
+        <p xml:id="v78d89-a4rk5g-d1e106">
+          <lb ed="#N" n="39"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e111">
+          <lb ed="#N" n="40"/>COnsequenter queritur de causa caracteris. Et queritur
+          <lb ed="#N" n="41"/>vtrum virtus imprimat caracterem sicut sacramentum.
+          <lb ed="#N" n="42"/>Et videtur quod sic: quia quod potest res maioris
+          virtu<lb ed="#N" n="43" break="no"/>tis: potest res minoris. Se vrtus maioris
+          pote<lb ed="#N" n="44" break="no"/>statis seu virtutis est in anima quom sacramentum etiam in distiguendo: quia
+          <lb ed="#N" n="45"/>non solum distinguit fidelem a non fideli vel ordinatum a non
+          or<lb ed="#N" n="46" break="no"/>dinato: sed etiam inter fideles distiguit bonum a malo.
+          Sacra<lb ed="#N" n="47" break="no"/>mentum autem non sic. sed sacramenta imprimunt caracterem: ergo virtus
+          <lb ed="#N" n="48"/>magis poterit imprimere caracterem quam sacramentum.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e133">
+          ⁋ Item caracter
+          <lb ed="#N" n="49"/>est signum conformatiuum siue configuratiuum. sed per virtutes
+          confi<lb ed="#N" n="50" break="no"/>guratur anima deo: ergo per virtutes imprimitur caracter.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e141">
+          ⁋ Item
+          <lb ed="#N" n="51"/>queritur vtrum imprimatur per sacramenta ve. le. et videtur quod sic: quia
+          ca<lb ed="#N" n="52" break="no"/>racter est signum distinctiuum distinguens poplum a non poplo. Sed
+          <lb ed="#N" n="53"/>dominus tempore legis habuit poplum qui debuit distigui siem et modo
+          <lb ed="#N" n="54"/>ergo si distinguebantur per sacramenta: patet quod in illis
+          imprimeba<lb ed="#N" n="55" break="no"/>tur signaculum distinctiuum. hoc autem est caracter: ergo etc.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e154">
+          ⁋ Item
+          <lb ed="#N" n="56"/>queritur vtrum per sacramenta noui testamenti et vidtur quod sic: quia quod potest in maius
+          <lb ed="#N" n="57"/>potest in minus sed omnia dant grati am que maior est quam caracter: ergo etc.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e161">
+          ⁋ Item
+          <lb ed="#N" n="58"/>omne agens sufficientis virtutis applicatum ad patiens bene
+          di<lb ed="#N" n="59" break="no"/>spositum imprimit in illud. sed omne sacramentum est sufficientis
+          <lb ed="#N" n="60"/>virtutis ad agendum in animam bene dispositam. ergo si anima
+          su<lb ed="#N" n="61" break="no"/>scipientis sacramentum bene disposita est ad ipsum: imprimit in eam suum
+          <lb ed="#N" n="62"/>effectum. Ile autem effectus est distiguere vt videtur. quia quodlibet
+          sa<lb ed="#N" n="63" break="no"/>cramentum distiguit habentem a non habente: ergo videtur quod quodlibet
+          <lb ed="#N" n="64"/>sacramentum imprimat caracterem.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e179">
+          ⁋ Item caracter efficit in anima
+          di<lb ed="#N" n="65" break="no"/>spositionem ad gratiam. sed omnia sacramenta efficiunt illud in anima: quare ergo
+          <lb ed="#N" n="66"/>non possunt efficere caracterem in anima.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e186">
+          ⁋ Quod autem non omnia
+          impri<lb ed="#N" n="67" break="no"/>mant caracterem videtur sic. Caracter est signum indelibile. ergo
+          <lb ed="#N" n="68"/>omne illud et solum est impressiuum caracteris quod non iteratur
+          circa<lb ed="#N" n="69" break="no"/>subiectum. sed tantum sunt tria sacramenta non iterabilia. vt baptismus
+          <lb ed="#N" n="70"/>confirmatio et ordo: ergo tantum illa tria imprimunt caracterem. et
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>hac ratione patet quod virtutes non possunt imprimere casraeteren
+          <lb ed="#N" n="72"/>cum caracter sit indelibilis. virtus autem delibilis.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e204">
+          ⁋
+          Respon<lb ed="#N" n="73" break="no"/>sio. Ad primum dicendum quod nec gratia in se: nec virtus sine gratia in
+          <lb ed="#N" n="74"/>virtutibus imprimit caracterem. et ratio huius tacta est. scilicet quod
+          <lb ed="#N" n="75"/>caracter est signum indelibile. gratia enim tam in se quam in
+          virtu<lb ed="#N" n="76" break="no"/>tibus delibilis est vnde non potest imprimere effectum cum
+          disposi<lb ed="#N" n="77" break="no"/>tione nobiliori id est cum indelibilitate. Sed sacramentum in quo
+          impri<lb ed="#N" n="78" break="no"/>mitur caracter quem scilicet imprimit caracter increatus interius
+          <lb ed="#N" n="79"/>operans. non minister exterius operans: perpetuum est. quod patet ex hoc
+          <lb ed="#N" n="80"/>quod non iteratur. et ideo potens est imprimere signum indelibile
+          si<lb ed="#N" n="81" break="no"/>ue perpetuum cuiusmodi est caracter. Item caracter est signum inte
+          <lb ed="#N" n="82"/>rius distinctiuum. quia ergo vt dicunt quidam significare non
+          con<lb ed="#N" n="83" break="no"/>uenit caracteri nisi ratione signi visibilis. ideo in solis
+          sacra<lb ed="#N" n="84" break="no"/>mentis que sunt signa visibilia: non in virtutibus que sunt
+          inuisibi<lb ed="#N" n="85" break="no"/>les imprimitur.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e236">
+          ⁋ Ad secundum quod queritur. dicendum quod
+          cara<lb ed="#N" n="86" break="no"/>cter est signum spiritualem distinguens interius. Ideo in sacramentis
+          <lb ed="#N" n="87"/>que sunt non carnalis popli sed spiritualis imprimitur. et ideo imprimi
+          <lb ed="#N" n="88"/>tur in sacramentis noue legis non in sacramentis veteris. Sed
+          <lb ed="#N" n="89"/>congruebat illi populo habere signum sensibile distictiuum non
+          perpe<lb ed="#N" n="90" break="no"/>tuum nec perfectu. quod imprimebatur in circumcisione. perpetuitas
+          <lb ed="#N" n="91"/>autem signi spiritualis id est caracteris secuta est incarnationem christi. quia
+          <lb ed="#N" n="92"/>sicut illa vnio naturarum est perpetua. et redemptio qua secuta est
+          in<lb ed="#N" n="93" break="no"/>carnationem semel facta est perpetua: sic caracter perpetuus est qui ex
+          <lb ed="#N" n="94"/>Itute mediatoris per passionem creatur.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e258">
+          ⁋ Ad hoc quod obiicitur. quod
+          <lb ed="#N" n="95"/>ilud quod potest in maius etc. dicendum quod illud non est generaliter verum. quia
+          <lb ed="#N" n="96"/>frequenter virtus creature ordinatur ad maius non ad minus. homo enim
+          <lb ed="#N" n="97"/>potest generare hominem non festucam.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e267">
+          ⁋ Ad aliud dicendum. quod tantum tria
+          <lb ed="#N" n="98"/>sacramenta imprimunt caracterem. quia caracter dicit significa
+          <lb ed="#N" n="99"/>tionem quandam in quea subiectus signatur a deo qui subiicitur secundum
+          dif<lb ed="#N" n="100" break="no"/>ferentem statum ad operandum. Et de hoc infra diffusius dicetur. hoc
+          <lb ed="#N" n="101"/>autem est in baptismo. confirmatione et ordine. non in aliis sacramentis.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e278">
+          ⁋ Ad
+          <lb ed="#N" n="102"/>hoc autem quod sequitur dicendum. quod non omne distictiuum in anima habet rationem
+          cara<lb ed="#N" n="103" break="no"/>cteris: sed distictiuum perpetuum. Unde sacramenta que perpetua sunt suo
+          <lb ed="#N" n="104"/>modo vt diximus. quia semel sumpta non iterantur: distictiuum per
+          <lb ed="#N" n="105"/>petuum imprimunt Alia vero imprimunt distictiuum non perpetuum
+          <lb ed="#N" n="106"/>quia sepius ea iterari oportet. Utpote eucharistia que est
+          viati<lb ed="#N" n="107" break="no"/>cum mentis: sepe sumitur propter frequentem indigentiam refectionis
+          spi<lb ed="#N" n="108" break="no"/>ritualis: sicut et viaticum corporis sepe sumi oportet propter
+          frequen<lb ed="#N" n="109" break="no"/>tem indigentiam refectionis corporis. Similiter est de aliis sacramentis iterabi
+          <lb ed="#N" n="110"/>libus. quia frequentes sunt et iterabiles indigentie: sterantur reme
+          <lb ed="#N" n="111"/>dia.
+        </p>
+        <p xml:id="v78d89-a4rk5g-d1e302">
+          ⁋ Ad illud quod obiicitur. quod omnia sacramenta disponunt ad gratiam
+          <lb ed="#N" n="112"/>dicendum quod actus disponendi ad gratiam non est proprius caracteris
+          <lb ed="#N" n="113"/>sed magis qui predeterminatus est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

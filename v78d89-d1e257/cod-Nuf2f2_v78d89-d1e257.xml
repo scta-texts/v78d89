@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="24"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e257"><!-- q3m3 -->
+        <head xml:id="v78d89-d1e257-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-d1e257-Hd1e103" type="question-title">Utrum illa scilicet decimationes sacrificium et oblationes erant alicuius meriti sive utilitatis</head>
+        <p xml:id="v78d89-d1e257-d1e106">
+          <lb ed="#N" n="29"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-d1e257-d1e111">
+          <lb ed="#N" n="30"/>TErcio queritur. vtrum illa scilicet decimationes
+          sacrifi<lb ed="#N" n="31" break="no"/>cium. et oblationes erant alicus vtilitatis siue
+          meri<lb ed="#N" n="32" break="no"/>ti. et dico quantum ad opst operatum quod sic. patet hug.
+          <lb ed="#N" n="33"/>Non est estimandum illa prima naturalis legis
+          <lb ed="#N" n="34"/>sacramenta ita homin ex necessitate indita. vt qui ea non fuisset exe
+          <lb ed="#N" n="35"/>cutus: reatum preuationis incurreret. quemadmodum qui fideliter
+          <lb ed="#N" n="36"/>ea coleret: meritum deuotionis sue inueniret: ex hoc patet quod
+          <lb ed="#N" n="37"/>erant alicuius meriti vel vtilitatis.
+        </p>
+        <p xml:id="v78d89-d1e257-d1e131">
+          ⁋ Contra operatum in lege
+          mo<lb ed="#N" n="38" break="no"/>ysi non iustificabat. nec aliquem effectum sanctificationis habe
+          <lb ed="#N" n="39"/>bat. igitur nec illa: vnde hug. que tempora posteriora fuerunt: effectu
+          <lb ed="#N" n="40"/>gre spiritualis digniora inueniuntur.
+        </p>
+        <p xml:id="v78d89-d1e257-d1e141">
+          ⁋ Respono. quod illis
+          mereban<lb ed="#N" n="41" break="no"/>tur fideles tempore legis nature. non tamen dico quod ipsum oblatum
+          ali<lb ed="#N" n="42" break="no"/>quem effectum sanctificationis habuit sicut nec oblata in lege.
+          Nihi<lb ed="#N" n="43" break="no"/>lominus et ratione significationis et operationis meruerunt fideles
+          <lb ed="#N" n="44"/>offerentes. significatio enim illorum ad illa que erant fidei:
+          opera<lb ed="#N" n="45" break="no"/>tio ad illa que morum: excitauit deuotionem que de necessitate erat
+          <lb ed="#N" n="46"/>illis ad meritum vt dicit hug. Ratio autem et causa meriti fuit fides
+          <lb ed="#N" n="47"/>et intentio offerentium. Unde in gen. Respexit dominus ad abel.
+          <lb ed="#N" n="48"/>Qui mentem offerentis non oblationem attendit: que placet ex
+          <lb ed="#N" n="49"/>mundicia offerentis: de his supra planius dictum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

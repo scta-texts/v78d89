@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 16, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 16, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="123"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a45cnm"><!-- q16m4 -->
+        <head xml:id="v78d89-a45cnm-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a45cnm-Hd1e103" type="question-title">Utrum diabolus posset baptizare</head>
+        <p xml:id="v78d89-a45cnm-d1e106">
+          <lb ed="#N" n="57"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-a45cnm-d1e111">
+          <lb ed="#N" n="58"/>OOnsequenter queritur. vtrum dyabolus posset bapti
+          <lb ed="#N" n="59"/>zare. Quod sic: videtur. Ponatur quod trasfiguraretur
+          <lb ed="#N" n="60"/>in sacerdotem sie quandoque tram sfigurat se in
+          ange<lb ed="#N" n="61" break="no"/>lum lucis: et baptizaret aliquem. videtur quod ille sit
+          <lb ed="#N" n="62"/>baptizatus. Augustinus. super ioh. Baptismus talis est qualis ille in
+          <lb ed="#N" n="63"/>cuius potestate datur. datur autem in potestate christi: ergo etc. igitur nihil deperit
+          <lb ed="#N" n="64"/>ipsi baptismo a quocunque ministretur.
+        </p>
+        <p xml:id="v78d89-a45cnm-d1e129">
+          ⁋ Item augustinus super ioh. Cum
+          <lb ed="#N" n="65"/>baptizat malus illud quod datum est verum est. nec impar propter
+          im<lb ed="#N" n="66" break="no"/>pares ministros: sed par et equale. propter hoc hic est qui baptizat.
+          sen<lb ed="#N" n="67" break="no"/>sus est verbi augustinus quod quia christus baptizat: a quocunque baptizantur
+          ean<lb ed="#N" n="68" break="no"/>dem efficaciam habet baptismus.
+        </p>
+        <p xml:id="v78d89-a45cnm-d1e141">
+          ⁋ Item efficacia baptismi est a
+          <lb ed="#N" n="69"/>materia debita et debita forma verborum. et non aliquo modo a
+          mi<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>nistro: ergo a quo proferantur verba debita cum aliis que requiruntur
+          <lb ed="#N" n="71"/>habebit efficaciam.
+        </p>
+        <p xml:id="v78d89-a45cnm-d1e151">
+          ⁋ Contra. vt dicit hug. deus ministranti
+          coopera<lb ed="#N" n="72" break="no"/>tur. cuius virtute per ministerium ministrantis quod sanctificandum est
+          sancti<lb ed="#N" n="73" break="no"/>ficatur. vt sit quidem vna virtus per vnum opost ad vnum effectum. hec
+          <lb ed="#N" n="74"/>hug. conueniunt igitur dominus et dispensator sacramentorum in vna virtute
+          <lb ed="#N" n="75"/>respectu vnius effectus. sed dominus et dyabolus in nullo conueniunt. pro
+          <lb ed="#N" n="76"/>batio. ii. corin. vi. Que conuentio christi ad belial. glo. deus et
+          dyabo<lb ed="#N" n="77" break="no"/>us non conueniunt: ergo etc.
+        </p>
+        <p xml:id="v78d89-a45cnm-d1e167">
+          ⁋ Responso sme preiudicio. quod si immergeret
+          <lb ed="#N" n="78"/>aliquem in aqua cum debita pronunciatione verborum: non baptizaret.
+          <lb ed="#N" n="79"/>Una ratio est peruersa intentio illius. tanta enim est eius peruersitas. quod
+          <lb ed="#N" n="80"/>nullo modo intendit salutem baptizati. Intentio autem requiritur ad
+          <lb ed="#N" n="81"/>efficaciam baptismatis. vnde quia non conuenit cum ecclesia in intentione
+          ba<lb ed="#N" n="82" break="no"/>ptizandi: non baptizat. quod autem hoc sit verum. patet ex quadam glo. super
+          <lb ed="#N" n="83"/>illud. ii. corin. vi. Que conuentio etc. que est. christus facit omnia bene.
+          dya<lb ed="#N" n="84" break="no"/>bolus male. quod non intelligitur quantum ad substantiam actus: quia dyabolus
+          <lb ed="#N" n="85"/>frequenter obedit deo in agendo: sed quantum ad intentionem. semper in omni
+          <lb ed="#N" n="86"/>bus intentio dei bona est: dyaboli mala.
+        </p>
+        <p xml:id="v78d89-a45cnm-d1e189">
+          ⁋ Sed ponatur quod haberet
+          <lb ed="#N" n="87"/>intentionem ecclesie et intenderet baptizare. Respondeo. quod non baptiza
+          <lb ed="#N" n="88"/>ret. Et est ratio vna. quia non est illi concessum ministerium dispensationis
+          <lb ed="#N" n="89"/>huiusmodi. vt enim dicit hug. Quod elementa sacramenta sunt. non natura pria
+          fa<lb ed="#N" n="90" break="no"/>cit sed apposita institutio per dispensationem. et gratia infusa per benedi
+          <lb ed="#N" n="91"/>ctionem. prima facta est per creatorem: secunda proposita per saluatorem.
+          <lb ed="#N" n="92"/>tercia anministrata per dispensatorem. hec hug. Dispensator vero dicitur
+          <lb ed="#N" n="93"/>qui dispensat. sed cui datum est ministerium dispensandi est sacerdos
+          re<lb ed="#N" n="94" break="no"/>gularitur. vnusquisque homo in articulo necessitatis. Alia est ratio quia
+          <lb ed="#N" n="95"/>neque actu neque potentia est de ecclesia. qui tales sunt: non posunt
+          sacra<lb ed="#N" n="96" break="no"/>menta ecclesie ministrare. he autem rationes sunt necessitatis. Ter
+          <lb ed="#N" n="97"/>cia est ratio congruentie. quia sicut mors fuit ministrata per hominem: ita
+          <lb ed="#N" n="98"/>et vita debet ministrari. huiusmodi rationem assignat Ansel. quare opertuit
+          <lb ed="#N" n="99"/>satisfactionem pro offensa originalis fieri per hominem scilicet quia offendit
+          <lb ed="#N" n="100"/>homo.
+        </p>
+        <p xml:id="v78d89-a45cnm-d1e222">
+          ⁋ Ad illud quod obem. quod efficacia baptismi est a materia et
+          <lb ed="#N" n="101"/>forma verborum. Dicendum quod non omnino. immo requiritur dispensator et
+          in<lb ed="#N" n="102" break="no"/>tentio recta dispensaroris: quorum vtrunque deficit in dyabolo.
+        </p>
+        <p xml:id="v78d89-a45cnm-d1e229">
+          <lb ed="#N" n="103"/>⁋ Ad illud augustinus. Baptismus est talis qualis est ille in cus potstate datur
+          <lb ed="#N" n="104"/>verum est vbi datur: sed non datur nisi mediante dispensatore a do prouiso
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

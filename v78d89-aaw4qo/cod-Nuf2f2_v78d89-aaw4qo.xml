@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 53, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 53, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="347"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aaw4qo"><!-- q53m4 -->
+        <head xml:id="v78d89-aaw4qo-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aaw4qo-Hd1e103" type="question-title">Utrum sub propria specie scilicet carnis sit sumendum</head>
+        <p xml:id="v78d89-aaw4qo-d1e106">
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-aaw4qo-d1e113">
+          <lb ed="#N" n="71"/>COnsequenter queritur. vtrum corpus christisit
+          su<lb ed="#N" n="72" break="no"/>mendum sub propria specie. Et primo vtrum
+          <lb ed="#N" n="73"/>debeat sic sumi. Secundo de causis propter
+          <lb ed="#N" n="74"/>quas non videtur quod debeat sic sumi.
+          Ter<lb ed="#N" n="75" break="no"/>cio queritur quid sit quod quandoque apparet in specie carnis vel
+          pue<lb ed="#N" n="76" break="no"/>ri in altari.
+        </p>
+        <div xml:id="v78d89-aaw4qo-Dd1e129">
+          <head xml:id="v78d89-aaw4qo-Hd1e131">Articulus 1</head>
+          <p xml:id="v78d89-aaw4qo-d1e133">
+            <lb ed="#N" n="77"/>Articulus primus
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e138">
+            <lb ed="#N" n="78"/>QUod autem debeat sumi in propria specie id est specie
+            car<lb ed="#N" n="79" break="no"/>nis videtur. In sumptione huius sacramenti.
+            ne<lb ed="#N" n="80" break="no"/>cessario sunt valde timor et deuotio et
+            reueren<lb ed="#N" n="81" break="no"/>tia. sed sumptio corporis christi sub propria specie valde excita
+            <lb ed="#N" n="82"/>ret sumentem ad iam dicta: ergo vt vtilius sibi sumeret sic
+            <lb ed="#N" n="83"/>sumere debet.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e154">
+            ⁋ Item corpus christi in veteri lege dabatur in
+            <lb ed="#N" n="84"/>figura sub specie carnis aliene scilicet agni paschalis. ergo cum
+            <lb ed="#N" n="85"/>in noua lege datur ipsum corpus inse: videtur quod debet
+            da<lb ed="#N" n="86" break="no"/>ri sub specie carnis proprie. cum non tantum sit elongatum
+            <lb ed="#N" n="87"/>signum continens veritatem et signans: quantum signum
+            si<lb ed="#N" n="88" break="no"/>gnans tantum.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e167">
+            ⁋ Item forma et species rerum non sunt
+            solum<lb ed="#N" n="89" break="no"/>modo principia essendi. sed principia cognoscendi siue
+            in<lb ed="#N" n="90" break="no"/>telligendi res quorum sunt principia. et hoc secundum ordinationem
+            <lb ed="#N" n="91"/>et prouidentiam diuinam. ergo si rei existentis in propria natura et
+            spe<lb ed="#N" n="92" break="no"/>cie debeat esse cognitio vel intellectus: oportet quod fiat foratia
+            <lb ed="#N" n="93"/>sine specie propria. Cum ergo corpus christi quando datur sub speciebus
+            <lb ed="#N" n="94"/>sacramentalibus intelligi debeat secundum suam veritatem: et esse vide
+            <lb ed="#N" n="95"/>tur quod debet dari sub propria specie.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e186">
+            ⁋ Contrarium huius patet
+            <lb ed="#N" n="96"/>a magistro senten. iiii. libro. xi. disti. cito. sub alia autem specie. Ubi
+            <lb ed="#N" n="97"/>ponuntur tres cause quare debuit corpus christi dari sub aliena specie
+            <lb ed="#N" n="98"/>Una est meritum fidei. Alia est vitatio horroris qui accideret
+            <lb ed="#N" n="99"/>ex gustu carnis crude et cruente. Tercia est irrisio
+            infideli<lb ed="#N" n="100" break="no"/>um et insultantium que fieret fidelibus.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e199">
+            ⁋ Responsio. quod corpus christi non
+            <lb ed="#N" n="101"/>debuit dari sub specie propria rationibus pretactis. sed sub specie panis
+            <lb ed="#N" n="102"/>et vini rationibus pluribus pretactis.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e206">
+            ⁋ Ad illud ergo quod perrimo
+            contra<lb ed="#N" n="103" break="no"/>hoc obiicitur. dicendum quod eisi sumptio carnis dominice ad maiorem de
+            <lb ed="#N" n="104"/>uotionem timorem et reuerentiam excitaret: tamen meritum fidei
+            <lb ed="#N" n="105"/>diminueret. et causam vel occasionem blasphemandi et de
+            <lb ed="#N" n="106"/>ridendi infidelibus prestaret. Unde Augustinus. nihil
+            rationabili<lb ed="#N" n="107" break="no"/>us quam vt sanguinis similitudinem sumamus. vt ita veritas
+            <lb ed="#N" n="108"/>non desit: et ridiculum nullum fiat a paganis: quod cruorem
+            occisi<lb ed="#N" n="109" break="no"/>hominis bibamus. Pre. etsi sumptio talis induceret quandoque de
+            <lb ed="#N" n="110"/>uotionem etc. in multis induceret horrorem et
+            abhominatio<lb ed="#N" n="111" break="no"/>nem. vnde resilirent a sumptione sacramenti. vt patet. vi. Ioh. vbi
+            di<lb ed="#N" n="112" break="no"/>citur. multi audientes ex discipulis eius dixerunt. durus est
+            <lb ed="#N" n="113"/>hic sermo quis potest eum audire etc.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e232">
+            ⁋ Ad aliud quod obiicitur.
+            <lb ed="#N" n="114"/>quod signum signans veritatem et continens. debet vicinius representare
+            <lb ed="#N" n="115"/>quam signum signans tantum etc. Dicendum quod agnus paschalis et
+            <lb ed="#N" n="116"/>alia sacramenta legis veteris. non tantum figurabat esse huius
+            <lb ed="#N" n="117"/>sacramenti: sed etiam christi passionem et eius oblationem pratri quam
+            <lb ed="#N" n="118"/>ipse fecit in cruce. huiusmodi autem oblationem vicinius representat obla
+            <lb ed="#N" n="119"/>tio facta in specie panis quam in specie carnis. Species enim painis expre
+            <lb ed="#N" n="120"/>sius est signum cibi spiritualis corporis mistici quam caro. quia nec
+            ci<lb ed="#N" n="121" break="no"/>bus generalis est nec ex diuersis colligitur sicut panis. Unde
+            <lb ed="#N" n="122"/>christo sumpto sub specie panis in cibum spiritualem: vicinius et
+            conuenien<lb ed="#N" n="123" break="no"/>tius representatur cibus siue refectio qua reficitur corpus
+            mi<lb ed="#N" n="124" break="no"/>sticum cibo huius sacramenti: quam si sumeretur sub specie carnis.
+            <lb ed="#N" n="125"/>Pre. quare magis conuenit sub specie panis poni quam sub
+            spe<lb ed="#N" n="126" break="no"/>cie propria scilicet carnis et sanguinis: haberi potest ex
+            supradi<lb ed="#N" n="127" break="no"/>ctis. vbi dictum est quare institutum est hoc sacramentum
+            confici<lb ed="#N" n="128" break="no"/>sub speciebus panis et vini.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e267">
+            ⁋ Ad aliud dicendum. quod alia est ratio
+            <lb ed="#N" n="129"/>intelligendi aliquid ex suppositione fidei. alia ex principiis
+            <lb ed="#N" n="130"/>rei. Prima autem ratio intelligendi requiritur in sacramentis et
+            <lb ed="#N" n="131"/>maxime in hoc: alia ratio requiritur in cognitione rerum
+            de<lb ed="#N" n="132" break="no"/>ductione rationis.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e278">
+            ⁋ Sed queritur si post consecrationem apparet
+            re<lb ed="#N" n="133" break="no"/>uera caro christi in sua forma. vt si appareret in forma vnius
+            <lb ed="#N" n="134"/>pueri vel carnis cruente vel digiti vel membra alicuius:
+            <lb ed="#N" n="135"/>an esset sumenda: Responsio quod non. per auctoritatem Hero.
+            su<lb ed="#N" n="136" break="no"/>per Lcui. dicentis. De hostia que in commemoratione fit edere licet:
+            <lb ed="#N" n="137"/>de illa vero quam christus in ara crucis obtulit secundum se nulli licet
+            <lb ed="#N" n="138"/>edere. Unde debet reponi in aliquo vale mundissimo et.
+            <pb ed="#N" n="348"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>habere pro reliquiis.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e301">
+            ⁋ Sed adhuc obiicitur contra hoc. quia
+            <lb ed="#N" n="2"/>ex quo sanxitum est in canone vt ex supradictis patet. quod ille qui
+            <lb ed="#N" n="3"/>celebrat et consecrat debet christi corpus sumere videtur quod
+            de<lb ed="#N" n="4" break="no"/>beat sumere in quacunque appareat specie vel forma. Ad hoc
+            <lb ed="#N" n="5"/>dicunt quidam quod ille cui istud acciderit: debet iterato celebra
+            <lb ed="#N" n="6"/>re et corpus christi sumere. et si ibidem adhuc accideret iterum
+            ali<lb ed="#N" n="7" break="no"/>am missam celebrare et in illa communicare. Hoc autem vt
+            esti<lb ed="#N" n="8" break="no"/>mo non oportet: sed in casu tali sufficere potest sumptio spiritualis.
+            <lb ed="#N" n="9"/>corpus autem christi sacramentaliter sub specie carnis sumere non debet.
+            <lb ed="#N" n="10"/>neque in alia specie: nisi illa solum in qua illud sumendum esse
+            <lb ed="#N" n="11"/>dominus instituit: hoc est sub specie panis.
+          </p>
+        </div>
+        <div xml:id="v78d89-aaw4qo-Dd1e327">
+          <head xml:id="v78d89-aaw4qo-Hd1e329">Articulus 2</head>
+          <p xml:id="v78d89-aaw4qo-d1e331">
+            <lb ed="#N" n="12"/>⁋ Articulus secundus.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e336">
+            <lb ed="#N" n="13"/>COnsequenter queritur de causis assignatis. Et
+            <lb ed="#N" n="14"/>primo de prima que est. vt fides haberet meritum.
+            <lb ed="#N" n="15"/>quia secundum Greg. Fides non habet meritum etc.
+            Si<lb ed="#N" n="16" break="no"/>enim hec causa vera est. quonlibet sacramentum sub alia specie de
+            <lb ed="#N" n="17"/>bet contineri quam sit illa in qua saluetur sua essentialis
+            veri<lb ed="#N" n="18" break="no"/>tas. sed hoc falsum est: quia aqua in sacramento
+            baptisma<lb ed="#N" n="19" break="no"/>tis et crisma in sacramento confirmationis in sua virtute
+            con<lb ed="#N" n="20" break="no"/>sistunt. ergo ista ratio non valet. Pre. tunc peccarent omnes qui
+            ra<lb ed="#N" n="21" break="no"/>tionem assignare querunt de credendis: quia tollunt
+            meri<lb ed="#N" n="22" break="no"/>tum fidei vt videtur. Pre. in quodlibet irrationabili posset
+            di<lb ed="#N" n="23" break="no"/>ci quod esset credendum et non esset querenda ratio: quia si ratio
+            que<lb ed="#N" n="24" break="no"/>ratur euacuatur meritum fidei.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e365">
+            ⁋ Responsio. quod hec causa bona
+            est.<lb ed="#N" n="25" break="no"/>est sumpta a Greg.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e370">
+            ⁋ Et dicendumm ad primum. quod secus est de hoc
+            <lb ed="#N" n="26"/>et de aliis sacramentis. In hoc enim sacramento accidunt mira
+            <lb ed="#N" n="27"/>bilia mirabilium. et hoc ex continentia huius sacramenti quantum
+            <lb ed="#N" n="28"/>ad quod differt hoc sacramentum ab aliis. illud enim quod est purum
+            <lb ed="#N" n="29"/>sacramentum hic scilicet species panis: non est solummodo signans sed
+            <lb ed="#N" n="30"/>continens rem signatam id est ipsum christum qui est auctor gratiarum
+            <lb ed="#N" n="31"/>in omnibus sacramentis. quantum autem ad fidem huius quo
+            ali<lb ed="#N" n="32" break="no"/>ter est de hoc et de aliis sacramentis: intelligitur ratio assigna
+            <lb ed="#N" n="33"/>ta. propter quod non est simile de hoc et de aliis sacramentis
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e391">
+            <lb ed="#N" n="34"/>⁋ Id aliud dicendum. quod ratio ex fide dupliciter queritur
+            <lb ed="#N" n="35"/>videlicet et que extrahitur ex principiis fidei. et hec
+            edifi<lb ed="#N" n="36" break="no"/>cat fidem: quia fidei principia supponit. et supponens fidi
+            <lb ed="#N" n="37"/>principia de ipso credito non dubitat. et hec inquisitio
+            ra<lb ed="#N" n="38" break="no"/>tionis meritum fidei non euacuat. Et est que non supponit
+            <lb ed="#N" n="39"/>fidei principia. sed ex phisicis rationibus nitur inquirere
+            <lb ed="#N" n="40"/>et hoc frequenter fidem euertit et meritum fidei euacuat.
+            <lb ed="#N" n="41"/>et de huiusmodi potest intelligi quod dicit Greg. et hec proprie
+            <lb ed="#N" n="42"/>ratio humana dicitur: alia dicitur diuina. Dicit enim
+            Gre<lb ed="#N" n="43" break="no"/>go. cui humana ratio prebet experimentum. Uel potest
+            dici<lb ed="#N" n="44" break="no"/>quod quidam assentiunt illis que fides dictat. innitendo
+            solum<lb ed="#N" n="45" break="no"/>modo rationibus humanis. et illi fidei meritum euacuant.
+            Qui<lb ed="#N" n="46" break="no"/>dam assentiunt ipsi veritati propter seipsam. et hoc habitu
+            fi<lb ed="#N" n="47" break="no"/>dei: nihilominus inuestigant et inquirunt rationes eorum que
+            <lb ed="#N" n="48"/>credunt. vt aliis ea que fidei sunt explanent et fidem si
+            ne<lb ed="#N" n="49" break="no"/>cessitas ingruat defendant. huius rationis experientia fidei
+            <lb ed="#N" n="50"/>meritum non euacuat.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e430">
+            ⁋ Ad aliud dicendum. quod irrationabile
+            <lb ed="#N" n="51"/>id est quod omnino est contrarium rationi vel supra rationem. nisi ex
+            sacra<lb ed="#N" n="52" break="no"/>scriptura vel ex verbis saluatoris vel sanctorum habeat
+            ful<lb ed="#N" n="53" break="no"/>cimentum: non est credendum. immo stultum esset credere
+            ali<lb ed="#N" n="54" break="no"/>quid quod est contra rationem vel etiam supra: nisi ex aliquo
+            <lb ed="#N" n="55"/>quod est fidedignum eius veritas appareret. quando autem
+            <lb ed="#N" n="56"/>aliquid est irrationabile id est tale quod in illud non potest ratio
+            hu<lb ed="#N" n="57" break="no"/>mana. et habet fulcimentum veritatis: eo quod dicitur in sacra
+            scri<lb ed="#N" n="58" break="no"/>ptura. vel ab ipsa veritate que mentiri non potest. credi
+            de<lb ed="#N" n="59" break="no"/>bet ex hac suppositione quod dictis sacre scripture vel verbis
+            <lb ed="#N" n="60"/>veritatis falsum subesse non potest.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e454">
+            ⁋ Item queritur de
+            secun<lb ed="#N" n="61" break="no"/>da causa que est. si corpus christi in propria forma daretur: mens
+            <lb ed="#N" n="62"/>hominis abhorreret. horror est enim homini carnem crudam
+            <lb ed="#N" n="63"/>comedere et sanguinem bibere. Sed hec causa nulla videtur
+            <lb ed="#N" n="64"/>quia cognitio ex fide quod esset caro saluatoris et sanguis ex
+            im<lb ed="#N" n="65" break="no"/>mensitate caritatis illius nobis data. et quantum beneficium
+            <lb ed="#N" n="66"/>et quamvtile ipsi sumenti: cum magna deuotione sumeretur et
+            si<lb ed="#N" n="67" break="no"/>ne omni horrore.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e472">
+            ⁋ Item in opere tam spirituali. non est aliquod
+            <lb ed="#N" n="68"/>sumendum in solacium sensus quod preiudicet intellectus. sed sicut
+            <lb ed="#N" n="69"/>horridum est sensui carnem huiusmodi et sanguinem sumere: ita
+            <lb ed="#N" n="70"/>difficile est intellectui credere oppositum illius quod apparm
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>sensui. ergo videtur quod melius esset horrorem generari in
+            <lb ed="#N" n="72"/>sensu vt certa veritas manifestaretur intellectui: quam facere
+            <lb ed="#N" n="73"/>aliquod in solacium sensus vnde posset oriri hesitatio in
+            in<lb ed="#N" n="74" break="no"/>tellectu.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e492">
+            ⁋ Responsio. quod hec causa rationabilis est. vt propter qdam
+            <lb ed="#N" n="75"/>non conueniret quod corpus christi sumeretur in
+            specie<lb ed="#N" n="76" break="no"/>te.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e499">
+            ⁋ Ad illud quod obiicitur primo contra. dicendum quod si cum
+            <lb ed="#N" n="77"/>magna deuotione sumeretur: nihilominus non sumere
+            <lb ed="#N" n="78"/>horrore. et si forte sumeretur sine horrore abhominatio
+            <lb ed="#N" n="79"/>non tamen sine horrore timoris qui oriretur ex
+            reue<lb ed="#N" n="80" break="no"/>et deuotione. vnde quantumcunque reuerentia et deuotione
+            affi<lb ed="#N" n="81" break="no"/>ceretur homo circa carnem domini et sanguinem:
+            no<lb ed="#N" n="82" break="no"/>meretur ipsa sine horrore timoris. immo forte quanto
+            re<lb ed="#N" n="83" break="no"/>uerentia et deuotio esset maior: tanto et horror maior
+            <lb ed="#N" n="84"/>cuteretur. et etiam infirmis semper incurreret horror abbomi
+            <lb ed="#N" n="85"/>nationis.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e522">
+            ⁋ Ad aliud dicendum. quod solacium
+            sensus<lb ed="#N" n="86" break="no"/>tota ratio quare sub specie velatur: sed quia velamen sit in senss
+            <lb ed="#N" n="87"/>solacium et in fidei meritum. quod accidit ex captiuitate
+            <lb ed="#N" n="88"/>lectus et illuminatione per fidem. Si enim ibi esset occultatio
+            quan<lb ed="#N" n="89" break="no"/>tum ad secundum et non esset reuelatio per fidem intellectui: t
+            <lb ed="#N" n="90"/>aliquod preiudicium fieret intellectui. nunc autem non est sic: et
+            <lb ed="#N" n="91"/>ratio non valet.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e538">
+            ⁋ Item queritur de tercia causa que est
+            <lb ed="#N" n="92"/>tollatur occasio irridendi infidelibus qui dicerent fideles
+            <lb ed="#N" n="93"/>cruorem occisi hominis bibere. Sed hec causa nulla vide
+            <lb ed="#N" n="94"/>quia infideles videntes vinum conuerti in sanguinem virtur
+            <lb ed="#N" n="95"/>verborum a consecrante: potius edificarentur in fide e
+            <lb ed="#N" n="96"/>riderent.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e551">
+            ⁋ Pre. sancti aliquando pro confirmatione fidei
+            ora<lb ed="#N" n="97" break="no"/>uerunt. quod dominus in propria specie corpus ostenderet sicut
+            <lb ed="#N" n="98"/>legitr de beato Orego. vapa. quod ad confirmana
+            obofi<lb ed="#N" n="99" break="no"/>dem orationibus suis obtinuit a domino formam panis
+            conuer<lb ed="#N" n="100" break="no"/>ti in carnem cruentam. igitur. hoc quod esset sub propria forma vel
+            spe<lb ed="#N" n="101" break="no"/>cie non ordinat ad fidei irrisionem: sed potius ad edificatione.
+            <lb ed="#N" n="102"/>fidei
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e567">
+            ⁋ Responsio. quod hec causa hona est et ab Ius asau
+            </p>
+          <p xml:id="v78d89-aaw4qo-d1e569">
+            <lb ed="#N" n="103"/>⁋ Ad primum contra hoc dicendum. quod infideles considerantes
+            cam<lb ed="#N" n="104" break="no"/>nem cri cruentam dentibus diuidi et sanguinem sumi in
+            po<lb ed="#N" n="105" break="no"/>tum. non ex hoc edificarentur ad fidem: sed potius
+            prouocare<lb ed="#N" n="106" break="no"/>tur ad irrisionem. quia buiusmoi assumpio et diuisio
+            boon<lb ed="#N" n="107" break="no"/>corruptibilium est corpus autem christi glorificatum. Pre. nec conuersig
+            <lb ed="#N" n="108"/>panis in carnem cruentam esset eis in fidei edificatesm. quia
+            <lb ed="#N" n="109"/>illa magis fictionem incantationem assererent quam veritatem
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e587">
+            <lb ed="#N" n="110"/>⁋ Ad aliud dicendum. quod quando orauerunt quod dominus ad manifestati
+            <lb ed="#N" n="111"/>onem virtutis huius sacramenti ostenderet corpus suum in forms
+            <lb ed="#N" n="112"/>siue specie carnis. hoc obtento orauerunt vt iterum esset sub foratia
+            <lb ed="#N" n="113"/>panis cum deberet assumi et ita fecit Greg. Qundo enim
+            matro<lb ed="#N" n="114" break="no"/>na que panem consecrandum obtulerat de. veritate sacramenti
+            du<lb ed="#N" n="115" break="no"/>bitabat. cum ad preces beati Greg. dominus veritatem ipsius
+            <lb ed="#N" n="116"/>reuelauerat: iterata prece eiusdem reuersa est species panis. de
+            <lb ed="#N" n="117"/>facto mulieri eidem credenti corpus christi sub specie panis
+            ex<lb ed="#N" n="118" break="no"/>stens communicauit. sic manifeste relinquens quod nunquam sub
+            pro<lb ed="#N" n="119" break="no"/>pria specie sumi debet.
+          </p>
+        </div>
+        <div xml:id="v78d89-aaw4qo-Dd1e612">
+          <head xml:id="v78d89-aaw4qo-Hd1e614">Articulus 3</head>
+          <p xml:id="v78d89-aaw4qo-d1e616">
+            <lb ed="#N" n="120"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e621">
+            <lb ed="#N" n="121"/>COnsequenter queritur quid sit illud. quod quando
+            <lb ed="#N" n="122"/>que apparet in specie carnis vel pueri in altari. an
+            <lb ed="#N" n="123"/>sit corpus christi: Quod sic: videtur. quia constat quod
+            <lb ed="#N" n="124"/>caro que videtur ibi non est caro animalis alicuius: nec
+            eti<lb ed="#N" n="125" break="no"/>am alicuius rei mortalis. quod patet per deductionem. ergo
+            <lb ed="#N" n="126"/>est caro christi.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e637">
+            ⁋ Item Givimundus de corpore domini. satis
+            mi<lb ed="#N" n="127" break="no"/>hi placet vt quando aliqua negligentia vel certe
+            miracu<lb ed="#N" n="128" break="no"/>lum nouum de tantis misteriis accidit id inde fieret. quod
+            ma<lb ed="#N" n="129" break="no"/>gnus vir sine dubitatione credendus dominus
+            Lanfran<lb ed="#N" n="130" break="no"/>cus se puerum in ytalia factum esse narrauit. Nam cum
+            <lb ed="#N" n="131"/>presbiter quidam missam celebrans inuentam super altare
+            ve<lb ed="#N" n="132" break="no"/>ram carnem et verum in calice sanguinem. secundum propriam carnis et
+            san<lb ed="#N" n="133" break="no"/>guinis speciem sumere trepidaret. rem protinus suo episcopo
+            consili<lb ed="#N" n="134" break="no"/>um quesiturus aperuit. Enistus autem cum multis coepiscopis
+            <lb ed="#N" n="135"/>ad hoc conuocatis calicem illum cum eadem carne et sanguine domini
+            <lb ed="#N" n="136"/>diligenter opertum et sigillatum inclusit in medio altaris pro
+            sun<lb ed="#N" n="137" break="no"/>mis reliquiis perpetualiter reseruandum. Ex istis verbis
+            vi<lb ed="#N" n="138" break="no"/>detur. quod caro illa erat caro christi: et sanguis similiter.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e666">
+            ⁋ Item secundum
+            <lb ed="#N" n="139"/>consuetudinem ecclesie tali casu contingente illud quod apparm
+            <lb ed="#N" n="140"/>in specie carnis adoratur. igitur in tali casu committeret
+            ydo<pb ed="#N" n="349"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>latria nisi esset ibi corpus christi.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e678">
+            ⁋ Item si non esset ibi corpus
+            <lb ed="#N" n="2"/>christi. videretur fictio quedam et illusio. quod minime
+            con<lb ed="#N" n="3" break="no"/>ueniret in sacramento veritatis. Ex his videtur quod illud sit
+            <lb ed="#N" n="4"/>corpus christi vel de corpore.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e687">
+            ⁋ Item auntque apparente carne ad
+            <lb ed="#N" n="5"/>tempus statim post apparet species panis: apparente
+            specie<lb ed="#N" n="6" break="no"/>panis constat quod corpus christi ibi est sacramentaliter: quia
+            <lb ed="#N" n="7"/>si defuisset substantia panis: fuisset reuersa. nec iterum
+            es<lb ed="#N" n="8" break="no"/>set corpus christi sub specie panis sacramentaliter: nisi itera
+            <lb ed="#N" n="9"/>ta esset forma verborum sacramenti. Ex hoc patet quod si de
+            <lb ed="#N" n="10"/>sit ipsum sacramentum. ergo semper sub specie fuit corpus christi.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e703">
+            <lb ed="#N" n="11"/>⁋ Item de conse. di. ii. de hac quidem hostia que in christi
+            con<lb ed="#N" n="12" break="no"/>memoratione mirabiliter fit edere licet. de illa vero quam christus
+            <lb ed="#N" n="13"/>in ara crucis obtulit secundum se nulli edere licet id est secundum sui
+            for<lb ed="#N" n="14" break="no"/>mam vel speciem in qua apparebat cum inter nos
+            conuersa<lb ed="#N" n="15" break="no"/>batur visione corporali nulli licet edere. q. do. si deus faceret
+            <lb ed="#N" n="16"/>vt appareret sanguis in calice vel humana caro in altari:
+            <lb ed="#N" n="17"/>non est sumendum. Ista autem cautela nulla est. nisi quam
+            <lb ed="#N" n="18"/>doque appareret sanguis christi in specie propria. similiter
+            ni<lb ed="#N" n="19" break="no"/>si et caro.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e725">
+            ⁋ Item iste videt in eleuatione corporis christi
+            specien<lb ed="#N" n="20" break="no"/>panis. alius vero in eodem loci continentia et dimensionem
+            spe<lb ed="#N" n="21" break="no"/>ciem carnis vel speciem pueri. similiter in sumptione. sed
+            con<lb ed="#N" n="22" break="no"/>stat quod sacerdos non sumit carnem vel corpus aliquod
+            ni<lb ed="#N" n="23" break="no"/>si christi: ergo idem fuit quod ab vtroque videbatur. sciliciet ab
+            <lb ed="#N" n="24"/>illo sub sacramento: et ab illo non sub sacramento.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e738">
+            ⁋
+            Con<lb ed="#N" n="25" break="no"/>tra. corpus christi non est nisi duobus modis scilicet vel
+            ma<lb ed="#N" n="26" break="no"/>nifestum in propria forma sit in celo: vel velatum sub
+            sacra<lb ed="#N" n="27" break="no"/>mento. sed casu predicto contingente neque est sic neque sic quia
+            <lb ed="#N" n="28"/>deficit iam ipsum sacramentum. ergo etc.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e749">
+            ⁋ Item corpus
+            <lb ed="#N" n="29"/>christi est incorruptibile et incomputribile. sed quandoque accidit
+            <lb ed="#N" n="30"/>quod caro que apparet in casu proposito propter temporis
+            diuturni<lb ed="#N" n="31" break="no"/>tatem corrumpitur et denigratur. siem est in marchia
+            terui<lb ed="#N" n="32" break="no"/>sina. ibi enim caro que apparuit sic a multis diebus videtur
+            <lb ed="#N" n="33"/>corrumpi vt constat ex certitudine sensus: ergo caro illa non
+            <lb ed="#N" n="34"/>est caro vel corpus christi.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e766">
+            ⁋ Item si dicatur quod ibi est caro christi
+            <lb ed="#N" n="35"/>sub specie panis et illa species panis obtegatur carne illa
+            <lb ed="#N" n="36"/>adhuc restat quod prima scilicet aut illa caro est caro christi aut
+            <lb ed="#N" n="37"/>alterius. non christi: quia non videtur rationi consonum. quod
+            <lb ed="#N" n="38"/>dominus velit quod caro sua in propria specie sit manifesta.
+            <lb ed="#N" n="39"/>et ipsa sic manifesta sit suipsius velate sub sacramento et
+            <lb ed="#N" n="40"/>opertulum et velamen. Que enim posset assignari ratio
+            illi<lb ed="#N" n="41" break="no"/>us duplicis velaminis et cum hoc sit dupliciter velate
+            re<lb ed="#N" n="42" break="no"/>uelatio. Si caro alterius: tunc queritur. aut bouis aut ouis
+            <lb ed="#N" n="43"/>aut cuius: Si diceretur quod est caro de nouo condita. hoc non
+            <lb ed="#N" n="44"/>videttur: quia nulla alia caro a carne christi ostenderet veritaten
+            <lb ed="#N" n="45"/>ipsius sacramenti scilicet quod caro christi vera: esset sub specie que
+            <lb ed="#N" n="46"/>est sacramentum.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e795">
+            ⁋ Item caro christi velatur ipso sacramento. ne
+            <lb ed="#N" n="47"/>euacuatur meritum fidei. ergo ex reuelatione ipsius
+            eua<lb ed="#N" n="48" break="no"/>cuatur. huiusmodi autem euacuatio fit in dispendium
+            hu<lb ed="#N" n="49" break="no"/>mane vtilitatis: ergo cum diuina prouidentia
+            condescen<lb ed="#N" n="50" break="no"/>dente humane vtilitati prouisum sit de hoc sacramento: non
+            <lb ed="#N" n="51"/>videtur quod caro christi in sua specie ostenditur.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e808">
+            ⁋ Responsio
+            <lb ed="#N" n="52"/>quod in casu proposito nihil me scire confiteor. vnede nihil
+            dif<lb ed="#N" n="53" break="no"/>finiendo vel asserendo dico. sed salua sententia meliori tantum
+            <lb ed="#N" n="54"/>opinando. videtur igitur insipiente mee quod quando post
+            con<lb ed="#N" n="55" break="no"/>uersionem panis in corpus christi et vini in sanguinem
+            ope<lb ed="#N" n="56" break="no"/>re mirabili apparet puer vel in eleuatione corporis christi
+            <lb ed="#N" n="57"/>vel alis seu frustum carnis et sanguinis in calice: quod est christus
+            <lb ed="#N" n="58"/>vel caro christi et sanguis. ex quo enim huiusmodi reuela
+            <lb ed="#N" n="59"/>tiones solent fieri in condescensione defectus fidei alicuius
+            <lb ed="#N" n="60"/>vt videlicet fides sacramenti huius roboraretur. Si autem
+            <lb ed="#N" n="61"/>caro vel sanguis sic apparens esset alicuius animalis vel
+            <lb ed="#N" n="62"/>subito creata. nullum argumentum veritatis induceret. sed
+            <lb ed="#N" n="63"/>solummodo caro vel sanguis christi. Unde non videtur quod ob
+            <lb ed="#N" n="64"/>causam pretactam debeat apparere caro vel sanguis
+            nisi<lb ed="#N" n="65" break="no"/>ipsius domini. Si enim virtute aliqua ostenderetur alicui
+            <lb ed="#N" n="66"/>hesitanti caro vel sanguis alienus. licet forte ex hac
+            osten<lb ed="#N" n="67" break="no"/>sione excitatus esset ad credulitatem vel fidem: non
+            tamen<lb ed="#N" n="68" break="no"/>proueniret hec credulitas ex signo vel ostensione veritatis
+            <lb ed="#N" n="69"/>sed potius falsitatis. quia ex hoc quod in tali apparentia
+            cre<lb ed="#N" n="70" break="no"/>ditur esse caro domini vel sanguis quod apparet: creditur
+            <lb ed="#N" n="71"/>veritas ipsius sacramenti. Si enim crederetur esse caro vel
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>sanguis bouis: nunquam propter hoc crederetur veritas
+            ipsi<lb ed="#N" n="73" break="no"/>us sacramenti. nec credi deberet. quia ergo ostensio ipsius
+            <lb ed="#N" n="74"/>sacramentalis debet fieri per indicia vera et non simulata
+            <lb ed="#N" n="75"/>vel ficta: videtur dicendum quod caro vel sangzuis in
+            huiusmo<lb ed="#N" n="76" break="no"/>di apperitione quando a domino est. est ipsius domini. a
+            do<lb ed="#N" n="77" break="no"/>mino esse dico: quia huiusmodi apparitiones quandoque accidunt
+            huma<lb ed="#N" n="78" break="no"/>na procuratione et forte dyabolica. propter hanc ergo rationem et
+            <lb ed="#N" n="79"/>alias pretactas et quia in enarratione Gipimundi nomina
+            <lb ed="#N" n="80"/>tur caro et sanguis domini: videtur debere dici sicut dictum
+            <lb ed="#N" n="81"/>est.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e878">
+            ⁋ Ad illud quod obiicitur. quod corpus christi non est nisi duo
+            <lb ed="#N" n="82"/>bus modis etc. Dicendum quod hoc verum est regulariter.
+            di<lb ed="#N" n="83" break="no"/>spensatiue tamen vt in condescensionem defectus alicuius
+            fi<lb ed="#N" n="84" break="no"/>dei. vel propter aliquam aliam differentiam ostendetur et apparet
+            <lb ed="#N" n="85"/>alio modo et maxime in casu pretacto et consimili.
+            Quan<lb ed="#N" n="86" break="no"/>doque enim corpus suum velatum ipso sacramento alicui reuelat
+            <lb ed="#N" n="87"/>vnde accidit quod corpus suum vni est velatum alii est reuelatum
+            <lb ed="#N" n="88"/>vt ex facti noticia et reuelatione fide digna certum habet.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e896">
+            <lb ed="#N" n="89"/>⁋ Ad illud quod obiicitur. quod caro que apparet quandoque
+            <lb ed="#N" n="90"/>computrescit etc. Dicendum quod hoc nunquam accidit quando ab
+            ipso<lb ed="#N" n="91" break="no"/>domino est huiusmodi apparitio: sed solummodo quando fit humana
+            procura<lb ed="#N" n="92" break="no"/>tione vel forte dyabolica operatione.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e907">
+            ⁋ Ad aliud dicendum
+            <lb ed="#N" n="93"/>quod non oportet quod ipse species sint obtecte carne que apparet. sed
+            <lb ed="#N" n="94"/>ipsa caro dei que velata est specie panis dispensatione
+            di<lb ed="#N" n="95" break="no"/>uina reuelatur vni vel pluribus: secundum quod diuina sapientia
+            de<lb ed="#N" n="96" break="no"/>creuit humane vtilitati congruere.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e919">
+            ⁋ Si autem quereretur
+            <lb ed="#N" n="97"/>quomodo posset caro christi aliter ostendi in propria specie
+            <lb ed="#N" n="98"/>et alii coexistenti specie velari sacramento. Preterea caro
+            <lb ed="#N" n="99"/>christi que est glorificata quomodo posset ostendi in specie
+            car<lb ed="#N" n="100" break="no"/>nis corruptibilis. Responsio. quod angelo assumpto corpore
+            <lb ed="#N" n="101"/>ostendit se cui vult: et cui non vult non ostendit se.
+            Smmili<lb ed="#N" n="102" break="no"/>ter diuina voluntate qua res et opera ordinantur secundum quod
+            vti<lb ed="#N" n="103" break="no"/>litate humane conueniunt. ostenditur corpus christi
+            vni<lb ed="#N" n="104" break="no"/>sine velamine et alii sub velamine. Preterea. licet dominus
+            <lb ed="#N" n="105"/>resurrexit a morte glorificatus: in carne tamen exhibuit se
+            <lb ed="#N" n="106"/>visibilem et palpabilem. Unde vltimo Math. habetur. quod
+            <lb ed="#N" n="107"/>mulieres tenuerunt pedes. et. xxii. Ioh. quod thomas misit
+            di<lb ed="#N" n="108" break="no"/>gitum in vulneribus pedum eius et manus in latere. Unde
+            pre<lb ed="#N" n="109" break="no"/>bens se palpabilem: se quasi mortalem ostendit cum
+            tamen<lb ed="#N" n="110" break="no"/>esset immortalis. Unde dominus secundum condescensionem
+            hu<lb ed="#N" n="111" break="no"/>mane infirmitatis ostendit se talem: qualem se congruit
+            <lb ed="#N" n="112"/>huic et qualis huic.
+          </p>
+          <p xml:id="v78d89-aaw4qo-d1e956">
+            ⁋ Ad aliud dicendum. quod licet in
+            me<lb ed="#N" n="113" break="no"/>ritum fidei congruat fidelibus quod corpus christi veletur.
+            hesi<lb ed="#N" n="114" break="no"/>tantibus tamen in fide congruit vt reueletur in roborationem
+            <lb ed="#N" n="115"/>fidei. Unde vtroque modo prouidet diuina prouidentia huma
+            <lb ed="#N" n="116"/>ne vtilitati.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 48, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 48, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="331"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9o07b"><!-- q48m4 -->
+        <head xml:id="v78d89-a9o07b-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a9o07b-Hd1e103" type="question-title">Utrum pugiles debent acce dere ad sacram communionem</head>
+        <p xml:id="v78d89-a9o07b-d1e106">
+          <lb ed="#N" n="38"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-a9o07b-d1e111">
+          <lb ed="#N" n="39"/>COnsequenter queritur vtrum pugiles debent acce
+          <lb ed="#N" n="40"/>dere ad sacram communionem. videtur quod sic: per hoc quod
+          <lb ed="#N" n="41"/>committere duellum vel monomachiam licitum est. et
+          <lb ed="#N" n="42"/>lmonomachia est pugna singularis a monos
+          <lb ed="#N" n="43"/>quod est vnum et machia quod est pugna. Quod sit licitum videtur per hoc
+          <lb ed="#N" n="44"/>quod dauid commisit duellum cum Golia. i. Reg. xvii. ob quod
+          magnam<lb ed="#N" n="45" break="no"/>consecutus est gloriam et commendationem in scriptura.
+        </p>
+        <p xml:id="v78d89-a9o07b-d1e129">
+          ⁋ Pret.
+          susti<lb ed="#N" n="46" break="no"/>netur ab ecclesia et ecclesiastice persone sua repetunt per
+          con<lb ed="#N" n="47" break="no"/>gressum huiusmodi. quod non sustineretur ab ecclesia si esset
+          illici<lb ed="#N" n="48" break="no"/>tum .
+        </p>
+        <p xml:id="v78d89-a9o07b-d1e139">
+          ⁋ Contra. temptare deum est prohibitum. Deuter. vi. Non
+          <lb ed="#N" n="49"/>temptabis dominum deum tuum. et idem repetitum est a domino. iiii.
+          Ma<lb ed="#N" n="50" break="no"/>thei. quasi simpliciter cauendum sed pugiles temptant: ergo
+          commit<lb ed="#N" n="51" break="no"/>tunt rem illicitam. sed nullus existens in proposito tali vel voluntate
+          <lb ed="#N" n="52"/>debet accedere ad sacram communionem. ergo etc.
+        </p>
+        <p xml:id="v78d89-a9o07b-d1e150">
+          ⁋ Item lex eam
+          <lb ed="#N" n="53"/>prohibet scCicete. de gladiatoribus. l. ii. dicunt quidam hoc licere in
+          lo<lb ed="#N" n="54" break="no"/>cis in quibus talis viget consuetudo. inducentes illud augustinus.
+          pro<lb ed="#N" n="55" break="no"/>se. quando mos erat: crimen non erat. sed illud fuit diuina
+          rela<lb ed="#N" n="56" break="no"/>tione concessum. quod quandoque dicitur mos. quandoque fas.
+        </p>
+        <p xml:id="v78d89-a9o07b-d1e161">
+          ⁋ Responsio. quod
+          <lb ed="#N" n="57"/>lex noua monomachiam non recipit. vt. ii. q. iiii. monomachia
+          <lb ed="#N" n="58"/>vbi dicitur. Monomachiam in lege non assumimus quam preceptam
+          <lb ed="#N" n="59"/>fuisse non reperimus. quam licet inasse quosdam legamus sicut
+          san<lb ed="#N" n="60" break="no"/>ctum dauid contra Goliam. vt sacra prodit historia: numquam
+          ta<lb ed="#N" n="61" break="no"/>men vt pro lege teneatur alicubi diuina sanxit auctoritas.
+          <lb ed="#N" n="62"/>cum hec et huiusmodi sectantes deum solummodo temptare
+          videan<lb ed="#N" n="63" break="no"/>tur. Dicendum ergo quod pugiles exultantes in proposito et
+          volum<lb ed="#N" n="64" break="no"/>tate pugnandi. non debent accedere ad sacram communionem
+          <lb ed="#N" n="65"/>cum mortaliter peccent. Mortaliter peccat qui monoma
+          <lb ed="#N" n="66"/>chiam precepit et qui eam facit. nec excusatur consuetudine
+          <lb ed="#N" n="67"/>licet ecclesia tolleret. sicut et meretrices et vsurarios
+          tolle<lb ed="#N" n="68" break="no"/>rat. nec ipsi excusantur per consuetudinem. similiter et illi qui
+          ar<lb ed="#N" n="69" break="no"/>ma benedicunt.
+        </p>
+        <p xml:id="v78d89-a9o07b-d1e192">
+          ⁋ Ad illud quod obiicitur de dauid. dicendum
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="70"/>quod priuilegia paucorum communem legem non faciunt. vt dicit
+          Hie<lb ed="#N" n="71" break="no"/>ro. Pret. pie presumitur dauid hoc fecisse instinctu diuino.
+          sim<lb ed="#N" n="72" break="no"/>pliciter igitur dicendum. quod quacumque ex causa siue timoris
+          si<lb ed="#N" n="73" break="no"/>ue amoris siue pretatis siue alterius cuiuscumque comittatur duel
+          <lb ed="#N" n="74"/>lum mortaliter peccat ille qui comittit nec propter vllam
+          penan<lb ed="#N" n="75" break="no"/>est consentiendum. xxxii. q. v. ita potius quelibet mala tolleret
+          <lb ed="#N" n="76"/>quam malo consentire decernat. Huius opinionis fuerunt
+          ple<lb ed="#N" n="77" break="no"/>rique vt in eorum scriptis patet et hoc: quia nulla causa
+          de<lb ed="#N" n="78" break="no"/>bet aliquis comittere causam suam sorti monomachie: ex quo
+          <lb ed="#N" n="79"/>fieri non potest sine dei temptatione. eo quod diuina iusticia
+          <lb ed="#N" n="80"/>siue misericordia in humano ponitur arbitrio. Iudith. viii.
+          <lb ed="#N" n="81"/>Sed durum videtur diffinire quod quando innocens
+          accusa<lb ed="#N" n="82" break="no"/>tur de crimine ad mortem. qui si duellum recusauerit
+          sta<lb ed="#N" n="83" break="no"/>tim suspendetur: quod tenetur potius se sustinere suspendi quam
+          <lb ed="#N" n="84"/>se defendere in duello. Propter hoc dicunt quidam quod duel
+          <lb ed="#N" n="85"/>lum oblatum in causa criminali licet suscipere: si alio modo
+          <lb ed="#N" n="86"/>vite dispendium non possit vitari. Similiter dicunt in
+          causa<lb ed="#N" n="87" break="no"/>ciuili. de rebus temporalibus ponentes. quod sicut layco licet
+          su<lb ed="#N" n="88" break="no"/>as res defendere armis et raptorem occidere. si aliter
+          defen<lb ed="#N" n="89" break="no"/>dere non possit: similiter licet in duello. non quod ipse offerat: sed
+          <lb ed="#N" n="90"/>quod a iudice offertur vel potius infertur. Prima opinio
+          secu<lb ed="#N" n="91" break="no"/>rior est et illi consentio quod nullo casu licet duellum offerre. neque
+          <lb ed="#N" n="92"/>illatum vel oblatum suscipere: cum monomachia sit in lege
+          ciui<lb ed="#N" n="93" break="no"/>li prohibita et eius prohibitio in canone approbata. Sed
+          susti<lb ed="#N" n="94" break="no"/>nebit ne innocens in causa criminali se suspendi in confusionem
+          <lb ed="#N" n="95"/>propriam et generis sui et patrie scandalum: credo quod sic in
+          ca<lb ed="#N" n="96" break="no"/>su isto cum confessione innocentie sue et reputatione humili se ista
+          <lb ed="#N" n="97"/>alias meruisse. Qmnino ergo videtur mihi quod existens in
+          volunta<lb ed="#N" n="98" break="no"/>te vel proposito aliqua causa committendi duellum. eo quod
+          prohibi<lb ed="#N" n="99" break="no"/>tum est et eo quod comittere causam suam sorti duelli est deum
+          tem<lb ed="#N" n="100" break="no"/>ptare: intendit facere quod illicitum est. non debet accedere ad
+          <lb ed="#N" n="101"/>sacram communionem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

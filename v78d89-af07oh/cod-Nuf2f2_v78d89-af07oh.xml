@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 81, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 81, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="524"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-af07oh"><!-- q81m2 -->
+        <head xml:id="v78d89-af07oh-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-af07oh-Hd1e103" type="question-title">Utrum aliquis debeat excommunicari</head>
+        <p xml:id="v78d89-af07oh-d1e106">
+          <lb ed="#N" n="129"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-af07oh-d1e111">
+          <lb ed="#N" n="130"/>A maiorem etiam euidentiam probleumatis potest
+          ad<lb ed="#N" n="131" break="no"/>lhuc queri si aliquis sit excommunicandus. Ei
+          vi<lb ed="#N" n="132" break="no"/>detur quod sic. in pluribus casibus de quibus. xi.
+          <lb ed="#N" n="133"/>q. iii. in pluribus locis habetur: quod etiam
+          vi<lb ed="#N" n="134" break="no"/>detur ex tactis tne probleumate precedenti.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e124">
+          ⁋ Contra. nemo est qui
+          <lb ed="#N" n="135"/>non sit diligendus ex caritate quamdiu est in hac vita. excommunicaio autem
+          <lb ed="#N" n="136"/>est separatio a communione que communio est per caritatem: ergo nemo est eiiciendus exta
+          <lb ed="#N" n="137"/>communionem.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e134">
+          ⁋ Item excommunicatio est separatio a communione fidelium et sacramentorum
+          <pb ed="#N" n="525"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>sed a sacramentis nullus est seperandus nec prohibendus: ergo
+          nul<lb ed="#N" n="2" break="no"/>lus est excommunicandus. maior patet. minor probatur sic. Omnis
+          fide<lb ed="#N" n="3" break="no"/>lis aut est iustus et sanus: aut peccator et infirmus. si iustus non est
+          <lb ed="#N" n="4"/>arcendus a sacramentis. si peccator et infirmus et indigens
+          medici<lb ed="#N" n="5" break="no"/>nis spiritualibus: magis est attrahendus quam arcendus: ergo etc.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e152">
+          ⁋ Item
+          <lb ed="#N" n="6"/>excommunicatio aut est morbus aut medicina. si morbus: ergo nulli est
+          <lb ed="#N" n="7"/>infligendus. quia omnium salus est desideranda. si medicina: ergo cum
+          <lb ed="#N" n="8"/>medicina sit omnibus optanda et non prosit nisi ei qui vult in ea per liberum arbitrium
+          <lb ed="#N" n="9"/>consentire: ergo nullus est excommunicandus nisi volens: et quilibet debet se
+          <lb ed="#N" n="10"/>velle excommunicari. quorum vtrumque falsum est.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e165">
+          ⁋ Item in
+          excommunicati<lb ed="#N" n="11" break="no"/>one traditur sathane excommunicatus. sicut patet in excommunicatione ipsius
+          <lb ed="#N" n="12"/>apostoli. aut ergo quantum ad animam: aut quantum ad corpus. sed quantum ad
+          <lb ed="#N" n="13"/>corpus non potest. illud videmus ad litteram: quantum ad animam non potest
+          <lb ed="#N" n="14"/>nec debet: ergo nullo modo videtur aliquis esse excommunicandus.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e176">
+          ⁋ Item. xi.
+          <lb ed="#N" n="15"/>q. i. Nemo episcoporum. habetur. quod anathema est eterne mortis
+          dam<lb ed="#N" n="16" break="no"/>natio. sed sicut de nemine desperandum est dum sit in via: sic
+          ne<lb ed="#N" n="17" break="no"/>mo dum est in via damnandus est morte eterna.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e185">
+          ⁋ Responsio. quod ex
+          mul<lb ed="#N" n="18" break="no"/>tis causis accidit quod aliqui sunt excommunicandi. Ad huius
+          euiden<lb ed="#N" n="19" break="no"/>tiam nota. quod sicut in disciplinalibus duplex est modus
+          demon<lb ed="#N" n="20" break="no"/>strandi scilicet ostensiuus et per impossibilem. Et in medicinis
+          corpo<lb ed="#N" n="21" break="no"/>ralibus duplex est modus medendi scilicet per medicamenta lenitiua
+          <lb ed="#N" n="22"/>et per medicamenta afflictiua. Quandoque enim curatur quis per
+          appositio<lb ed="#N" n="23" break="no"/>nem emplastri. quandoque per sectionem. sic est de medicina et
+          curatio<lb ed="#N" n="24" break="no"/>ne spirituali. quod duplex est modus curandi scilicet per monitiones
+          blan<lb ed="#N" n="25" break="no"/>das. et per increpationes duras. et hoc secundum duo genera hominum
+          <lb ed="#N" n="26"/>scilicet tractabiles et suasibiles: et rebelles et incorrigibiles. sic
+          <lb ed="#N" n="27"/>est ergo in ecclesia duplex modus curandi spiritualiter infirmos. per
+          <lb ed="#N" n="28"/>appositionem emplastri verbi dei quod est optimum medicamentum.
+          <lb ed="#N" n="29"/>Unde sapientia. xvi. Non herba neque malagina sanauit eos. sed
+          ser<lb ed="#N" n="30" break="no"/>mo tuus domine qui sonat omnia. et hoc quo ad tractabiles et
+          suasi<lb ed="#N" n="31" break="no"/>biles. et per sectionem anathematis quo ad rebelles et
+          incorrigi<lb ed="#N" n="32" break="no"/>biles.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e220">
+          ⁋ Ad illud ergo quod obiicitur. quod excommunicare est extra
+          commu<lb ed="#N" n="33" break="no"/>nionem eiicere que est per caritatem. Dicendum quod communio triplex est.
+          <lb ed="#N" n="34"/>quedam spiritualis omnino: et hoc est quantum ad dilectionem interiorem.
+          <lb ed="#N" n="35"/>quedam corporalis et hoc est quantum ad exteriorem conuersationem
+          <lb ed="#N" n="36"/>quedam medio modo et hoc est quantum ad sacramentorum susceptionem. et
+          preci<lb ed="#N" n="37" break="no"/>pue quantum ad sacramentum altaris. dico ergo quod a primo nullus potest nec debet
+          <lb ed="#N" n="38"/>excludi quamdiu est viator. nec excommunicatio dicit priuationem
+          illi<lb ed="#N" n="39" break="no"/>us communionis. quantum ad sacramentalem excluditur quilibet qui dicitur
+          excom<lb ed="#N" n="40" break="no"/>municatus siue maiori siue minori. Quantum ad conuersationem
+          <lb ed="#N" n="41"/>exteriorem attendit excommunicatio maior. in qua negatur communicatio
+          <lb ed="#N" n="42"/>secundum actus legitimos qui attenduntur in osculo: in salutatione: in
+          <lb ed="#N" n="43"/>conuiuio: in oratorio. Unde versus. Si pro delictis anathema
+          <lb ed="#N" n="44"/>quis efficiatur. os orare. vale: communio mensa negatur. Quod autem nullus
+          <lb ed="#N" n="45"/>communicet cum excommunicato. neque in oratione usque in cibo vel
+          po<lb ed="#N" n="46" break="no"/>tu vel osculo. vel dicat illi aue: habetur. xi. qui iii. excommunicatos.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e254">
+          <lb ed="#N" n="47"/>⁋ Ad illud quod obiicitur. quod nullus separandus est a sacramentis. dicendum
+          <lb ed="#N" n="48"/>quod imo. quoniam et si sacramenta sunt medicine: tamen non prosunt nisi
+          dispo<lb ed="#N" n="49" break="no"/>sitis. Unde sicut bonus medicus secundum artem prohibet infirmum non tantum
+          <lb ed="#N" n="50"/>a cibis. sed a medicinis propter dispositionem: sic in proposito est
+          in<lb ed="#N" n="51" break="no"/>telligendum. vtilius enim est alicui medicinam ad tempus subtrahi
+          <lb ed="#N" n="52"/>quam dari contra dispositionem: immo tali differre medicinam est
+          me<lb ed="#N" n="53" break="no"/>dicinalem. Ad illud quod obiicitur de excommunicatione vtrum sit
+          mor<lb ed="#N" n="54" break="no"/>bus vel medina. Dicendum quod sicut sectio de sua priuatione
+          <lb ed="#N" n="55"/>plaga est et dolorem facit: in comparatione tamen ad vulnus est
+          medi<lb ed="#N" n="56" break="no"/>cina. sic ipsa separatio a communione fidelium dicit malum et
+          <lb ed="#N" n="57"/>damnum: in comparatione tamen ad rebellem medicina est: vt eius
+          <lb ed="#N" n="58"/>rebellio et contumacia reprimatur. Unde sicut ille qui silogizat per
+          <lb ed="#N" n="59"/>impossibilem ad impossibile deducit. non vt ibi sistat: sed vt
+          re<lb ed="#N" n="60" break="no"/>deat ad veritatem. sic ecclesia separat et excommunicat: vt cum
+          humili<lb ed="#N" n="61" break="no"/>tate confusus de peccato redeat ad gremium ecclesie. et sic patet quod
+          <lb ed="#N" n="62"/>quamuis sit medicina. quia curat morbum rebellionis. quod nullus
+          <lb ed="#N" n="63"/>hanc medicinam debet appetere: nec debet dari querenti veram
+          me<lb ed="#N" n="64" break="no"/>dicinam: sed contemnenti.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e296">
+          ⁋ Ad illud quod obiicitur. quod excommunicare est
+          <lb ed="#N" n="65"/>tradere sathane. dicendum quod sathanas est tortor non tantum
+          ani<lb ed="#N" n="66" break="no"/>marum: verum etiam corporum. Tradere autem tortori est
+          duplici<lb ed="#N" n="67" break="no"/>ter. aut a protectione tortoris siue exponendo: aut iubendo
+          <lb ed="#N" n="68"/>tortori vt affligat. Excommunicare ergo secundum presentis ecclesie statum. est
+          <lb ed="#N" n="69"/>sathane tradere: protectionem subtrahendo et ei exponendo
+          <lb ed="#N" n="70"/>subtrahit enim suffragia ecclesie et sacramenta per que
+          muni<lb ed="#N" n="71" break="no"/>mur contra hostis insidias. In tempore autem ecclesie primitiue. quia
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>demones apostolis ipsis subiiciebantur: et manifestanda erat
+          <lb ed="#N" n="73"/>fides per miracula: non tantum exponebantur immo corporaliter ad
+          <lb ed="#N" n="74"/>mandatum apostolicum vexebantur. sicut dicitur i. Corin. v. in
+          tex<lb ed="#N" n="75" break="no"/>tu et in glo. et illud decuit in principio ecclesie fieri ad terrorem
+          <lb ed="#N" n="76"/>vel propter excellentiam apostolorum. Nunc autem quamuis non ita vexentur
+          <lb ed="#N" n="77"/>cum corpore et spiritu: vexandi tamen exponuntur. et pro tanto
+          di<lb ed="#N" n="78" break="no"/>cuntur tradi sathane.
+        </p>
+        <p xml:id="v78d89-af07oh-d1e331">
+          ⁋ Ad illud quod obiicitur. quod nullus
+          de<lb ed="#N" n="79" break="no"/>bet tradi damnationi eterne etc. Dicendum quod damnatio
+          su<lb ed="#N" n="80" break="no"/>mitur significatiue non effectiue. sub hoc sensu. anathema
+          <lb ed="#N" n="81"/>est mortis eterne damnatio. id est signum damnationis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

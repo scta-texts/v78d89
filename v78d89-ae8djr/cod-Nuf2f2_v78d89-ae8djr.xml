@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 77, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 77, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="490"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ae8djr"><!-- q77m3 -->
+        <head xml:id="v78d89-ae8djr-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ae8djr-Hd1e103" type="question-title">Utrum confitendae sint circumstantiae</head>
+        <p xml:id="v78d89-ae8djr-d1e106">
+          <lb ed="#N" n="105"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-ae8djr-d1e111">
+          <lb ed="#N" n="106"/>COnsequenter queritur. vtrum confitende sint
+          circumstan<lb ed="#N" n="107" break="no"/>tie. Et primo queritur in generali. vtrum sint confitende
+          <lb ed="#N" n="108"/>circunstantie. Secundo que sint confitende. Tercio
+          <lb ed="#N" n="109"/>quibus sint confitende. Quarto de comparatione
+          cir<lb ed="#N" n="110" break="no"/>cumstantie ad genus peccati.
+        </p>
+        <div xml:id="v78d89-ae8djr-Dd1e124">
+          <head xml:id="v78d89-ae8djr-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-ae8djr-d1e128">
+            <lb ed="#N" n="111"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e133">
+            <lb ed="#N" n="112"/>CIrca primum sic proceditur. In canone precipitur
+            confite<lb ed="#N" n="113" break="no"/>ri discreto sacerdoti. vnde de poenitentia dis. vi. Qui
+            <lb ed="#N" n="114"/>vult confiteri peccata vt iueniat gratiam: querat sacerdo
+            <lb ed="#N" n="115"/>tem scientem solvere et ligare. ne cum negligens circa se extiterit: ne
+            <lb ed="#N" n="116"/>gligatur ab illo qui eum misericorditer monet et petit: ne ambo in
+            <lb ed="#N" n="117"/>foueam cadant sed nisi essent circunstantie confitende cum equalis potestatis
+            <lb ed="#N" n="118"/>sit sacerdos simplex et literatus: et equalis virtutis sint claues
+            <lb ed="#N" n="119"/>istius et illius: nulla esset vtilitas magis confitendi isti quam illi.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e153">
+            <lb ed="#N" n="120"/>⁋ Item scientia informat iudicium. vnde non potest esse conueniens iudicium de
+            <lb ed="#N" n="121"/>quantitate peccati nisi preueniat cognitio earum que faciunt ad
+            ima<lb ed="#N" n="122" break="no"/>ginem peccati. scilicet circumstantiarum cognitio horum non potest esse sine
+            confes<lb ed="#N" n="123" break="no"/>sione. igitur etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e164">
+            ⁋ Item quedam circumstantie augent peccatum quodam
+            dimi<lb ed="#N" n="124" break="no"/>nuunt.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e170">
+            ⁋ Ad hoc igitur vt sciat sacerdos recte iudicare et sine
+            er<lb ed="#N" n="125" break="no"/>rore de quantitate peccati oportet quod sciat circumstantias. hoc autem
+            <lb ed="#N" n="126"/>non potest esse nisi penitens confiteatur illas.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e177">
+            ⁋ Item in lege moysi eo
+            <lb ed="#N" n="127"/>modo qui confitebantur per oblationes confitebantur circumstantias peccatorum.
+            <lb ed="#N" n="128"/>vnde leuit. v. Anima que peccauerit per ignorantiam feceritque vnum ex
+            <lb ed="#N" n="129"/>his que in lege prohibetur et peccati rea intellexerit iniquitate suam.
+            of<lb ed="#N" n="130" break="no"/>ferat arietem immaculatum ecce quod ex oblatione perpendebatur
+            cir<lb ed="#N" n="131" break="no"/>cumstantie peccatorum. multo fortius et in tempore euangelii quod maiorem
+            <lb ed="#N" n="132"/>humiliationem precipit et perfectiorem sunt confitende.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e193">
+            ⁋ Item inter alia est
+            <lb ed="#N" n="133"/>confessio necessaria propter duo. scilicet erubescentiam ex parte confitentis: et
+            iu<lb ed="#N" n="134" break="no"/>dicium discretum ex parte sacerdotis. sed confessio circumstantiarum plus
+            <lb ed="#N" n="135"/>operatur ad vtrumque predictorum quam confessio generis peccati. igitur etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e202">
+            <lb ed="#N" n="136"/>⁋ Item quandque magis aggrauat circumstantia quam ipsum genus peccati vt
+            <lb ed="#N" n="137"/>si quis in contemptum corporis christi haberet corpus christi in ore vel manum:
+            <lb ed="#N" n="138"/>dum aliquod peccatum carnis comittit. igitur genus peccati confitendum et
+            <lb ed="#N" n="139"/>circumstantia magis vt videtur.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e213">
+            ⁋ Item omne illud pro quo puniendus est
+            <pb ed="#N" n="491"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>peccator perpetualiter est confitendum sacerdoti. sed per
+            circumstanti<lb ed="#N" n="2" break="no"/>as peccati punientur damnati perpetualiter: ergo etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e224">
+            ⁋ Item ad hoc quod
+            <lb ed="#N" n="3"/>opst sit meritorium non sufficit tantum genus operis sed etiam modus.
+            <lb ed="#N" n="4"/>Similiter in confessione ad hoc quod sit meritoria non sufficit actus
+            confiten<lb ed="#N" n="5" break="no"/>di. sed requiritur modus. et ille maxime qui est necessarius et confitenti et
+            <lb ed="#N" n="6"/>confessionem audienti scilicet manifenitatio circumstantiarum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e236">
+            ⁋ Item lex
+            <lb ed="#N" n="7"/>euangelii addit ad lege nature lege scriptam. sed in illis confitebantur
+            <lb ed="#N" n="8"/>genus peccati: ergo et in lege euangelii tenentur confiteri circunstantias:
+            <lb ed="#N" n="9"/>cum nullius alterius posset fieri additio.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e245">
+            ⁋ Item Math. iii. Fa
+            <lb ed="#N" n="10"/>cite dignos fructus penitentie hoc est secundum quantitatem. sicut dicit glo.
+            ma<lb ed="#N" n="11" break="no"/>ioris ergo peccati maior penitentia facienda est. et ita sacerdos pro maio
+            <lb ed="#N" n="12"/>ri peccato debet iniungere maiorem penitentiam et pro minore minorem. et
+            ita<lb ed="#N" n="13" break="no"/>tenetur inquirere de circumstantiis aggruantibus peccatum et diminuenti
+            <lb ed="#N" n="14"/>bus et confitens tenetur confiteri illas.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e258">
+            ⁋ Item medicus corporalis habet
+            <lb ed="#N" n="15"/>considerare non solum genus morbi corporalis sed circunstantias. mul
+            <lb ed="#N" n="16"/>tofortius medicus spiritualis. hoc autem non potest esse nisi eas
+            cogno<lb ed="#N" n="17" break="no"/>scat per confessionem.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e267">
+            ⁋ Preter magis debet artare peccatorem voluntas
+            <lb ed="#N" n="18"/>vt curetur quam medicum. sed medicus id est sacerdos habet scire de
+            circu<lb ed="#N" n="19" break="no"/>stantiis vt sufficienter curare possit: ergo multo fortius et ipsius
+            egri<lb ed="#N" n="20" break="no"/>esst illas ondere.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e276">
+            ⁋ Contra. Bern. quod propter caritatem
+            inssitu<lb ed="#N" n="21" break="no"/>tum est contra caritatem obseuari non debet. sed quod fit in scandalum
+            proximi<lb ed="#N" n="22" break="no"/>fit contra caritatem: igitur cum confessio sit propter caritatem instituta:
+            <lb ed="#N" n="23"/>non debet fieri in scandalum proximi. sed ex confessione circumstantiarum
+            ori<lb ed="#N" n="24" break="no"/>tur scandalum in multis casibus. verbigrstria. Aliquis interficit fratiem
+            <lb ed="#N" n="25"/>scilicet qui erat frater sacerdotis ex alia parte. videtur. quod iste homincida
+            <lb ed="#N" n="26"/>non teneatur confiteri nisi simplex hominicidium. et quod non debeat
+            con<lb ed="#N" n="27" break="no"/>fiteri de circumstantia fratrnitatis ne scandalizet sacerdotemet
+            proi<lb ed="#N" n="28" break="no"/>uocet eum ad interficiendum se. Similis casus est si confitens
+            cogno<lb ed="#N" n="29" break="no"/>uit neptem suam que est filia sacerdotis. in his casibus vidtur quod non
+            te<lb ed="#N" n="30" break="no"/>neatur confiteri circumstantiam consanguinitatis: ne scandalizet
+            sacer<lb ed="#N" n="31" break="no"/>dotem. Similis est casus si sacerdos est lubricus et prouocetur ad
+            lu<lb ed="#N" n="32" break="no"/>curiam audiendo circumstantias. Similis casus est si sacerdos sit
+            <lb ed="#N" n="33"/>solitus reuelare confessiones.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e307">
+            ⁋ Item si confessio circumstantiarum esset
+            <lb ed="#N" n="34"/>omittenda hoc maxime esset propter scandalum. sed vriditur quod non propter
+            scan<lb ed="#N" n="35" break="no"/>dalum quia quando magis scandalizat factum quom circumnstantiam: non est
+            di<lb ed="#N" n="36" break="no"/>mittenda confessio propter facti scandalum. cum confessio facti sit de
+            ve<lb ed="#N" n="37" break="no"/>ritate vite. ergo etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e319">
+            ⁋ Item scandalum est dictum vel factum minus rectum
+            <lb ed="#N" n="38"/>prebens aliis occasionem ruine. ad scandalum igitur duo requiruntur
+            <lb ed="#N" n="39"/>scilicet quod sit dictum vel factum minus rectum: et quod prebeat occasionem
+            <lb ed="#N" n="40"/>ruine. sed confiteri peccatum suum et circunstantias aggrauantes peccatum
+            <lb ed="#N" n="41"/>non est factum vel dictum minus rectum igitur non est scandalum nec pars scausa
+            <lb ed="#N" n="42"/>dali.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e332">
+            ⁋ Item si papa cognuisset aliquam. non vdtur quod debernt
+            confiterei<lb ed="#N" n="43" break="no"/>se fuisse cognitam a papa: quia leuiter. xviii. dicitur. turpitudinem
+            <lb ed="#N" n="44"/>pratis tui non discooperies. ibi glo. quisquis turpitudinem spiritualium
+            <lb ed="#N" n="45"/>carnaliumue cognitor reuelat: totius legis transgressor est. in
+            <lb ed="#N" n="46"/>caritatem enim peccat que plenitudo legis est Ro. xiii. Item rtrdar
+            <lb ed="#N" n="47"/>guitur cham quia pratris verenda nndata nunciauit fratibus suis.
+            <lb ed="#N" n="48"/>fratres sui. scilicet sem et iafeth commendantur. quia pallio in humeris
+            <lb ed="#N" n="49"/>imposito verenda pratis operuerunt Gen. ix. vt patet ex benedictioni
+            <lb ed="#N" n="50"/>bus sequentibus. pratris autem verenda nuda fratibus nunciare: est peccatum
+            <lb ed="#N" n="51"/>pratis spiritualis aliis reuelare. nudata cooperire: est peccatum eius
+            oc<lb ed="#N" n="52" break="no"/>cultare. Unde greg. Quid est quod filii verenda pratis superiectis pal
+            <lb ed="#N" n="53"/>liis dorso auersi veniendo operuerunt: nisi quod bomnis subditis
+            pre<lb ed="#N" n="54" break="no"/>positorum suorum sic mala displicent. vt aliis nota occultent.
+            <lb ed="#N" n="55"/>Ex quo videtur quod nullus tenetur peccatum pratis reuelare.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e363">
+            ⁋ Preterea.
+            cir<lb ed="#N" n="56" break="no"/>cumstantie non sunt de esse peccati vt videtur. sed qusi extra existentes. vnde circumstam
+            <lb ed="#N" n="57"/>tia dictur a circum et stando. licet igitur peccatum sit confitendum. non vidtur quod
+            crcun<lb ed="#N" n="58" break="no"/>stantie sint confitende.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e372">
+            ⁋ Item gratia opponitur peccato. nec oportet gratiam
+            <lb ed="#N" n="59"/>proportionari peccato. quia minima gratia gratum scilicet faciens: sufficit ad
+            <lb ed="#N" n="60"/>expellendum peccatum quantumcunm sit grue. quantuncumque igitur aggrauetur
+            <lb ed="#N" n="61"/>peccatum circumstantiis praeexistente contritione sufficit confiteri ipsum genus
+            <lb ed="#N" n="62"/>peccati.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e383">
+            ⁋ Item non est necessae confiteri circumstantias nisi vt sciatur
+            ma<lb ed="#N" n="63" break="no"/>gnitudo peccati. Sed vt dicit augustinus quantitas et magntudo peccati tantum
+            <lb ed="#N" n="64"/>est diuini iudicii: igitur non est humani. igistur non est necesse confiteri peccatum vt
+            <lb ed="#N" n="65"/>sciatur eius magnitudo cum non possit ab homine sciri.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e392">
+            ⁋ Item trans
+            <lb ed="#N" n="66"/>lato pricipali transfertur illud quod est annexum. vnde heb. vii.
+            Tran<lb ed="#N" n="67" break="no"/>lato sacerdote necesse est vt et legis transtatio fiat. cum igitur peccatum
+            <lb ed="#N" n="68"/>sit pricipale circumstantie vero quasi adiacentia. transtato peccato per
+            <lb ed="#N" n="69"/>contritionem et satisfactionem tranfferentur et circumstantie. igirtur non est necesse
+            <lb ed="#N" n="70"/>confiteri circunstantias.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e406">
+            ⁋ Item circumstantie non augent quantitatem
+            <lb ed="#N" n="71"/>culpe. quod videtur per hoc. quod in bomnis circumstantie non augent
+            quan<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>titatem meriti: sed quantitas radicis id est caritas qua conuerti
+            <lb ed="#N" n="73"/>fur homo in deum. pari ratione cum peccatum sit auersio a deo: quantitas
+            <lb ed="#N" n="74"/>peccati existit ex libidine cordis non ex circumstantiis exterioribus.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e418">
+            <lb ed="#N" n="75"/>⁋ Item confiteri circunstantias singlares cum sint infinite est
+            impos<lb ed="#N" n="76" break="no"/>sibile. sed nullus tenetur ad impossibile. ergo etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e425">
+            ⁋ Item si tenemur
+            <lb ed="#N" n="77"/>ad confessionem circumstantiarum sicut ad confessionem generis peccati. quare
+            <lb ed="#N" n="78"/>vbi precipitur quod omnes fideles confiteantur non precipitur quod confiteantur
+            cir<lb ed="#N" n="79" break="no"/>cumstantie.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e434">
+            ⁋ Item nec alicubi in scriptura habetur preceptum de illorum
+            <lb ed="#N" n="80"/>confessione vt vidtur.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e439">
+            ⁋ Responsio. ad predicta. quod sicut habetur in quadam gl.
+            <lb ed="#N" n="81"/>super illud leuiter. v. iuxta mensuram peccati et estimationem offerent. vt
+            <lb ed="#N" n="82"/>pro qualitate et quentitate culpe mensurentur flagella penitentie. et deu.
+            <lb ed="#N" n="83"/>xxv. pro mensura peccati erit et plagarum modus. propter hoc ad hoc quod
+            pe<lb ed="#N" n="84" break="no"/>ne siue penitentie modo debito iniungantur oportet quod sciatur qualitas cul
+            <lb ed="#N" n="85"/>parum. Hoc autem non potest fieri nisi sciantur circumstantie propter quod necesse
+            <lb ed="#N" n="86"/>est ad hoc quod penas siue penitentias iniungant debitas sacerdotes quod
+            <lb ed="#N" n="87"/>sciant circumstantias. Preterea. quia peccator non erubuit efficaciter
+            di<lb ed="#N" n="88" break="no"/>uinam presentiam in peccando: debet erubescere peccatum suum penitendo quod
+            <lb ed="#N" n="89"/>maxime accidit in confessione circunstantiarum. Circunstantie autem quedam
+            <lb ed="#N" n="90"/>sunt persone. quedam negocii et continentur in hoc virsu. Quis quid vbi quo
+            <lb ed="#N" n="91"/>tiens per quod cur qumo quando. He autem circumstantie plenius exprimuntur de
+            <lb ed="#N" n="92"/>pe. dis. v. vbi dicitur consideret qualitatem criminis in loco. in tempore. in
+            perse<lb ed="#N" n="93" break="no"/>uerantia. in varietate persone. et quali hec fecerit temptatione et ipsius
+            <lb ed="#N" n="94"/>vicii multivlici excusatione. oportem enim penitentem fornicantem
+            <lb ed="#N" n="95"/>secundum excellentiam sui status autm officii: aut secundum modum
+            meretri<lb ed="#N" n="96" break="no"/>cis et in modo operis. et qualiter turpitudinem peregit si in loco
+            sacro<lb ed="#N" n="97" break="no"/>aut cui debuit excellentiam fidei vt sunt domus diuinorum et aliorum
+            <lb ed="#N" n="98"/>multorum. si in tempore oratioi constituto vt sunt festiuitates sanctorum et
+            <lb ed="#N" n="99"/>tempora ieiunii. consideret quantum perseuerauerit: et doleat quod perse
+            <lb ed="#N" n="100"/>ueranter peccauit. et quanta victus fuit impugnratione. sunt qui non
+            solum<lb ed="#N" n="101" break="no"/>non vicuntur: sed se vltro peccato offerunt. nec expectant ad temptationem
+            <lb ed="#N" n="102"/>sed preueniunt voluntatem: et pertractant secum quammltiplici actione
+            vi<lb ed="#N" n="103" break="no"/>cii delectabiliter peccauerint. omnis ista varietas confitenda est et
+            <lb ed="#N" n="104"/>deflenda. vt cum cognouerit quod peccatum est multum. et cito inueniat de
+            <lb ed="#N" n="105"/>um propicium.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e496">
+            ⁋ Ad hoc quod obicitur quod propter caritatem institutum est contra
+            ca<lb ed="#N" n="106" break="no"/>ritatem obseruari non debet etc. dicendum quod in casibus debet penitens petere
+            <lb ed="#N" n="107"/>licentiam a sacerdote proprio confitendi alii sacradoti peccata illa cum
+            <lb ed="#N" n="108"/>suis crcunstantiis. si vero non vult dare licentiam: confiteatur genera
+            pec<lb ed="#N" n="109" break="no"/>catorum et taceat circunstantias propter scandalum. Aii vero sacradoti
+            <lb ed="#N" n="110"/>discreto confiteatur easdem quasi consulendo ipsum de maioritate penitentie que
+            <lb ed="#N" n="111"/>iiungenda est pro ils circumstantiis. vel adeat superiorem. scilicet penitentiarium
+            <lb ed="#N" n="112"/>epicopi vel ipsum episcoum cui confiteatur vel alii obtenta licentia ab ipso.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e515">
+            <lb ed="#N" n="113"/>⁋ Ad hoc quod obicitur quod quandoe magis scandalizat factum quam circunstam
+            <lb ed="#N" n="114"/>tia. dicendum quod sicut dictum est de confessione circumstantiarum. quod quando
+            vehe<lb ed="#N" n="115" break="no"/>mens est presumptio de scandalo sacrdotis quod de licentia sua debet alii
+            con<lb ed="#N" n="116" break="no"/>fiteri. Si autem non potest obtinere licentiam: adeat superiorem. sicut dictum est.
+            <lb ed="#N" n="117"/>proreter. non est simile de confessione peccati et circumstantiarum. quia confessio peccati
+            <lb ed="#N" n="118"/>est de veritate vite quod non debet omitti propter scandalum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e531">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="119"/>obicitur. quod scandalum est factum vel dictum minus rectum etc. dicendum quod non
+            so<lb ed="#N" n="120" break="no"/>lummodo vitandum est scandalum actaum. sed passiuum infirmorum. vnde leuiter.
+            <lb ed="#N" n="121"/>xix. Non maledices surdo nec coram ceco pones offendicilitum
+            <lb ed="#N" n="122"/>Go. coram ceco offendiculum ponere: est discretam quidem rem agere
+            <lb ed="#N" n="123"/>sed ei qui lumen discretionis non habet scandali occasionem prebere. i.
+            <lb ed="#N" n="124"/>corum. viii. Si esca scandalizat frem meum non manducabo
+            car<lb ed="#N" n="125" break="no"/>nes ne frenm meum scandalizem. Marci. ix. Quisquis scandaliza
+            <lb ed="#N" n="126"/>uerit vnum de pusillis ills etc. ibi glo. in bono tempore aliquando
+            cauen<lb ed="#N" n="127" break="no"/>dum est scandalum proximi aliquando pro nihilo habendum inquantum possumus
+            <lb ed="#N" n="128"/>snden peccato vitare proximorum scandalum debemus. Si vero de veritate scanda
+            <lb ed="#N" n="129"/>lum sumitur: vtilius nasci permittitur quam veritas rtliquatur. vnde virus.
+            Scasa<lb ed="#N" n="130" break="no"/>dala non vitant doctor iudex boo vita. Illa notificatio
+            scanda<lb ed="#N" n="131" break="no"/>lum est factum vel dictum etc. est scandali actiui.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e562">
+            ⁋ Ad illud quod obicitur
+            <lb ed="#N" n="132"/>de cognita a papa. dicendum snden preiudicio. quod non debet expresse hoc confiterei
+            <lb ed="#N" n="133"/>sed sub domtria dicendo cognita sum a quodam de maioribus pralatis modi
+            <lb ed="#N" n="134"/>Asic aliquo modo non detegendo certam personam. Estio tamen quod tanta
+            <lb ed="#N" n="135"/>posset esse presumptio bonitatis et sanctitatis persione cui deberet
+            confiteri<lb ed="#N" n="136" break="no"/>quod in illo casau non esset ei timendum cum viri magne perfectionis compatiuntur
+            <lb ed="#N" n="137"/>peccatoribus et non scandalizantur de peccatis. et quantomagis enormia str
+            <lb ed="#N" n="138"/>tantomagis compatiuntur. ii. corum. xi. Quis infirmatur et ego non infir
+            <lb ed="#N" n="139"/>mor. quis scandalizatur et ego non vror.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e582">
+            ⁋ Ad aliud quod obicitur. quod
+            cir<lb ed="#N" n="140" break="no"/>cunstantie non sunt de esse peccati. quia sunt extra etc. dicendum quod sicut in actu
+            meri<lb ed="#N" n="141" break="no"/>torio quedam sunt de suba actus absolute. quedam non de suba abso
+            <lb ed="#N" n="142"/>lute sed de ipso inquantum est ordinatus in finem. Similiter de actu
+            <pb ed="#N" n="492"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>peccati quedam sunt de substantia deordinati actus: quedam sunt de
+            <lb ed="#N" n="2"/>ipso vt est tantum deordinatus. Licet igitur circumstantie non sint de
+            sub<lb ed="#N" n="3" break="no"/>stantia actus: sunt tamen de ipso vt est deordinatus. vnde licet non sint de esse
+            <lb ed="#N" n="4"/>peccati vt est peccatum: sunt tamen de esse ipsius vt est cau satum. vnde verius sunt
+            <lb ed="#N" n="5"/>de esse peccati inquantum est quantum quam inquantum est.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e606">
+            ⁋ Ad illud quod obicitur
+            <lb ed="#N" n="6"/>quod gratia opponitur peccato etc. dicendum quod licet gratia tollatur culpa vt est
+            <lb ed="#N" n="7"/>culpa: nihilominus adhuc restat emenda facienda deo et
+            eccle<lb ed="#N" n="8" break="no"/>sie. vnde non est plena reconciliatio ex infusione gratie: sed ad hoc quod
+            <lb ed="#N" n="9"/>sit plena requiritur confessio et sati sfactio iniuncta a sacerdote
+            <lb ed="#N" n="10"/>secundum quantitatem culpe. propter quod requiritur confessio circumstantiarum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e619">
+            <lb ed="#N" n="11"/>⁋ Ad hoc quod dicit augustin. quia magnitudo peccati tantum est diuini
+            iudicii<lb ed="#N" n="12" break="no"/>etc. dicendum quod hoc verum est precise loquendo. et si iudicium est illius cus
+            <lb ed="#N" n="13"/>est auctoritas: nihilominus ministerialiter est ipsius prelati. discretus
+            <lb ed="#N" n="14"/>enim psalatus secundum sclestiam sibi datam a domino et vnctionem quantum
+            necesse<lb ed="#N" n="15" break="no"/>est penitenti iudicat de quantitate peccati illius. et iuxta
+            quanti<lb ed="#N" n="16" break="no"/>tatem discretam iniungit penitentiam.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e636">
+            ⁋ Ad hoc quod obicitur. quod transtato
+            pri<lb ed="#N" n="17" break="no"/>cipali transfertur et illud quod est adiacens etc. dicendum sicut tactum est. quod
+            <lb ed="#N" n="18"/>circumstantie licet sint adiacentes peccato vt est peccatum: non tamen vt pec
+            <lb ed="#N" n="19"/>catum est tantum. vnde quia iudicandum est de peccato non tantum vt est peccatum. sed vt
+            <lb ed="#N" n="20"/>est quantum: necesse est vt fiat iudicium de peccato vt est circunstantionatum
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e647">
+            <lb ed="#N" n="21"/>⁋ Ad hoc quod obicitur. quod non augent quantitatem meriti etc. dicendum quod
+            <lb ed="#N" n="22"/>non est simile de bono meriti et malo demeriti. quantitas enim
+            bo<lb ed="#N" n="23" break="no"/>ni meritorii est a bono intrinseco. Bona enim facimus quia
+            boni<lb ed="#N" n="24" break="no"/>sumus. quantitas autem demeriti est ab actu extrifeco. quia enim
+            ma<lb ed="#N" n="25" break="no"/>la facimus mali sumus. Preterea. circumstatie licet speciem peccati non
+            <lb ed="#N" n="26"/>mutent: tamen libidinem augent et contemptum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e663">
+            ⁋ Ad hoc quod obiicitur
+            quo<lb ed="#N" n="27" break="no"/>circumstantie sunt de infinitate etc. dicendum quod licet peccati
+            simplici<lb ed="#N" n="28" break="no"/>ter possint esse circumnstantie infinite: nihilominus tamen peccati huiusmodi
+            <lb ed="#N" n="29"/>sunt circunstantie finite. non autem fit confessio nisi peccatorum et
+            de<lb ed="#N" n="30" break="no"/>terminatorum. quorum sunt circunstantie finite. vnde possibile est
+            con<lb ed="#N" n="31" break="no"/>fiteri circumstantias peccatorum confitendorum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e676">
+            ⁋ Ad illud quod queritur.
+            <lb ed="#N" n="32"/>quare non precipitur confessio circumstantiarum sicut generis peccati. dicendum
+            <lb ed="#N" n="33"/>quod et si vtrumque deordinet peccatorem: tamen illud quod primo et per se
+            de<lb ed="#N" n="34" break="no"/>ordinat et diuertit a deo et damnificat ecclesiam: est ipsum genus
+            <lb ed="#N" n="35"/>peccati. circumstantie autem deordinant consequenter. et propter hoc
+            simpli<lb ed="#N" n="36" break="no"/>citer et vniuersaliter est tentio ad confitendum genus peccati: non similiter
+            <lb ed="#N" n="37"/>circumstantias vt infra habebitur. et propter hoc conueniebat vt esset
+            <lb ed="#N" n="38"/>artatio per preceptum ad confessionem peccatorum quantum ad genus peccati. tamen
+            <lb ed="#N" n="39"/>determinatur in canone modus confitendi vbi exprimitur quod circum
+            <lb ed="#N" n="40"/>stantie sunt confitende sicut supra tactum est.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e698">
+            ⁋ Ad aliud quod obicitur. quod in
+            <lb ed="#N" n="41"/>nullo loco canonis precipitur confessio circumstantiarum. dicendum quod
+            <lb ed="#N" n="42"/>non precipitur et hoc fortasse ratione pretacta. insinuatur tamen debere
+            fieri<lb ed="#N" n="43" break="no"/>tam in lege veteri quam in noua. In veteri vbi precipiebatur pro eo
+            <lb ed="#N" n="44"/>dem genere peccato diuersis personis docitursa offerre. vt leuitur. iiii
+            <lb ed="#N" n="45"/>vbi precipitur sacerdoti quod offerat vitulum: principi hircum: anime
+            <lb ed="#N" n="46"/>capram. hac enim oblationum diffinitione dicfteursarum personarum innuitur
+            <lb ed="#N" n="47"/>quod confitende sunt circunstantie peccatorum. Item Ieremie. xi. dicitur.
+            <lb ed="#N" n="48"/>Quid est quod dilectus meus in domo mea facit scelera multa.
+            ecce<lb ed="#N" n="49" break="no"/>hic hortatur de circumstantia dilectionis que est circunstantia persone. et
+            <lb ed="#N" n="50"/>de circunstantia loci cum dicit. in domo mea. Item in noua
+            insinu<lb ed="#N" n="51" break="no"/>atur huiusmodi confessio debere fieri in licitis locis. sicut. ii. pe. ii.
+            <lb ed="#N" n="52"/>melius erat eis viam veritatis non agnoscere quoam post agnitam
+            re<lb ed="#N" n="53" break="no"/>rrorsum. conuerti ab eo quod traditum est eis sancto mandato. augmen
+            <lb ed="#N" n="54"/>tant enim peccatum bone circumstantie: quia augmentant obligationem qua
+            te<lb ed="#N" n="55" break="no"/>netur quis bona agere et mala vitare. vbi enim plus comitritur plus
+            <lb ed="#N" n="56"/>ab eo exigitur. vnde plus peccat qui plus tenetur vitare peccatum aliis
+            <lb ed="#N" n="57"/>paribus. Item in euangelio expressum est de circumstantiis. vnde ioh. iii.
+            <lb ed="#N" n="58"/>tu es magister in isrlis et hec ignoras. q. d. ignorantia magis est
+            <lb ed="#N" n="59"/>culpabilis in magistro quam in non magistro. et est magisterium vel
+            sci<lb ed="#N" n="60" break="no"/>entia circumstantia persone. similiter et ignorantia. Item de circumstam
+            <lb ed="#N" n="61"/>tia temporis legitur Marci. ix. vbi dominus interogauit pratrem luna
+            <lb ed="#N" n="62"/>tici. quantum temporis habet ex quo ei hoc acciderit et est tempus circumstam
+            <lb ed="#N" n="63"/>tia negocii. Item de circumstantia loci habetur Math. xxi. et ioh.
+            <lb ed="#N" n="64"/>ii. vbi dominus eiecit vendentes et ementes de templo dei. vbi non
+            <lb ed="#N" n="65"/>licebat talia facere cum esset domus oratiois. Hoc autem attendum
+            <lb ed="#N" n="66"/>quod rationes posite non concludunt confitentem teneri ad confessionem circum
+            <lb ed="#N" n="67"/>stantiarum tentione necessitatis: sed tentione congruitatis seu
+            vtili<lb ed="#N" n="68" break="no"/>tatis. Si autem alique sint confitende tentione necessitatis. et a
+            qui<lb ed="#N" n="69" break="no"/>bus infra tangetur.
+          </p>
+        </div>
+        <div xml:id="v78d89-ae8djr-Dd1e765">
+          <head xml:id="v78d89-ae8djr-Hd1e767">Articulus 2</head>
+          <p xml:id="v78d89-ae8djr-d1e769">
+            <lb ed="#N" n="70"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e774">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>COnsequenter queritur. Que circumstantie sint
+            confiten<lb ed="#N" n="72" break="no"/>de. Et primo queritur de alleuianiibus. Secundo de agust
+            <lb ed="#N" n="73"/>grauantibus.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e785">
+            <lb ed="#N" n="74"/>Crca primu duot. § 1
+            <lb ed="#N" n="75"/>tatur. videtur quod circumstantie alleuiantes sint confitende. quia propter hoe
+            <lb ed="#N" n="76"/>confitende sunt cirtunstantie: quia manifestant quantitatem peccati qua
+            co<lb ed="#N" n="77" break="no"/>gnita rectum sequitur iudicium. vnde de penitentia dis. vi. caueat sptar
+            <lb ed="#N" n="78"/>iudex sicut non commisit crimen nequicie: ita non careat munem
+            scente<lb ed="#N" n="79" break="no"/>tie. oportet vt sciat cognoscere quicquid debet iudicare. iudicaria
+            <lb ed="#N" n="80"/>autem potestas hoc postulat vt quod debet iudicare discernat No
+            <lb ed="#N" n="81"/>ta diligens igitur inquisitor subtilis innestigator sapienter et quae
+            <lb ed="#N" n="82"/>astute interroget a peccatore quod forsitan ignorat vel
+            verecu<lb ed="#N" n="83" break="no"/>dia velit occultare. sed ad cognitionem peccati valicet confessio
+            circu<lb ed="#N" n="84" break="no"/>stantiarum. non tamen aggrauantium sed diminuentium vtrorumque: igicur
+            <lb ed="#N" n="85"/>debet esse confessio.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e814">
+            ⁋ Item clauis dicitur errare iniungendo penitentiam
+            <lb ed="#N" n="86"/>nimiam sicut iniungendo diminutam. sed ad hoc laborare debet sanedos
+            <lb ed="#N" n="87"/>vt clauis non erret: similiter et confitens debet velle ne erret. erquo
+            <lb ed="#N" n="88"/>et sacerdos debet inquirere de circumstantiis diminuentibus ne
+            ex<lb ed="#N" n="89" break="no"/>cedat nimiam iniungendo penitentiam: et penitens simils confiteri: sicut de
+            <lb ed="#N" n="90"/>bet inquirere de aggrauantibus ne nimis diminutam iniungat
+            <lb ed="#N" n="91"/>penitentiam.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e831">
+            ⁋ Contra. in confessione peccati nulla debet esse excusatio
+            <lb ed="#N" n="92"/>v non super illud psalm. Ostium circumstantie labiis meis dicitur. ad hoc
+            po<lb ed="#N" n="93" break="no"/>ne ostium vt non excusem peccatum meum quod summum vicium dominatur
+            <lb ed="#N" n="94"/>hominibus. sed confitentes circumstantias diminuentes excusant se
+            ali<lb ed="#N" n="95" break="no"/>quo modo. igitur etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e842">
+            ⁋ Responsio. quod circumstantie diminuentes non
+            <lb ed="#N" n="96"/>sunt confitende generaliter. sed in casu.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e847">
+            ⁋ Ad hoc quod obitur
+            primo<lb ed="#N" n="97" break="no"/>quod propter hoc sunt circumstantie confitende vt sciatur quantitas peccati re
+            <lb ed="#N" n="98"/>dicendum quod confessio circumstantiarum non est solummodo vt
+            cognosca<lb ed="#N" n="99" break="no"/>tur quantitas peccati: sed vt humilitas et verecundia confitentis
+            re<lb ed="#N" n="100" break="no"/>spoedeat superbie et inuerecundie peccantis. maxime autem huiliar
+            <lb ed="#N" n="101"/>se penitens in confitendo circumstantias aggrauantes et
+            verecun<lb ed="#N" n="102" break="no"/>datur. non sic autem confitendo circumstantias diminuentes. vt ergooo
+            <lb ed="#N" n="103"/>milietur et erubescat quod superbie inuerecundie commisit: debet
+            <lb ed="#N" n="104"/>confiteri circumstantias aggrauantes.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e867">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="105"/>laborare debet sacerdos et confitens velle ne clauis erret
+            <lb ed="#N" n="106"/>etc. dicendum quod quandoque expedit quod sacerdos requirat qurod sciat
+            cir<lb ed="#N" n="107" break="no"/>cunstantias diminuentes. scilicet quando videt penitentem valde
+            aggra<lb ed="#N" n="108" break="no"/>uare peccatum suum. et lenire eum et consolari. vnde de penitentia dis. vi.
+            <lb ed="#N" n="109"/>Super eum viuet leniendo et consulendo spem promitiendo. et
+            lo<lb ed="#N" n="110" break="no"/>quitur ibi de sacerdote et penitente. et confitens requisitus bene potest
+            co<lb ed="#N" n="111" break="no"/>fiteri circumstantias diminuentes. non vt se ex cusense vt
+            veri<lb ed="#N" n="112" break="no"/>tatem respondeat et vt inquirentem dirigat. Preterea. quandque
+            confiten<lb ed="#N" n="113" break="no"/>da est aliqua circumstantia alleuians causa scandali fugiendi.
+            vtsi<lb ed="#N" n="114" break="no"/>aliquis de cuius bonitate esset magna presumptio interfecisset
+            la<lb ed="#N" n="115" break="no"/>tronem impetentem se de nocte et ad mortem. ne scandalizaret
+            <lb ed="#N" n="116"/>sacerdotem qui posset credere cum iugilatorem hominum et ypocritam
+            <lb ed="#N" n="117"/>si simpliciter et absolute confiteretur se commisisse homicidium
+            <lb ed="#N" n="118"/>debet exprimere casum et occasionem homicidii commiss. non
+            <lb ed="#N" n="119"/>vt se excuset: sed vt scandalum euitet.
+            <lb ed="#N" n="120"/>Qs
+            <lb ed="#N" n="121"/>dum queritur. vtrum teneamur confiteri omnes circumstantias
+            agt<lb ed="#N" n="122" break="no"/>grauantes. et dicunt quod non: sed illas que trahunt in aliud genus peccati
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e909">
+            <lb ed="#N" n="123"/>⁋ Contra. actus inquantum actus non est peccatum adinctum actui. ergonon
+            <lb ed="#N" n="124"/>deordinat actum nec facit illum esse peccatum vt coire non est peccatum: sed
+            <lb ed="#N" n="125"/>coire cum non sua est peccatum. Sed quod facit peccatum non est circumstantia
+            <lb ed="#N" n="126"/>neque est confitendum vt est circumstantia: sed vt peccatum. vt in casu
+            proposi<lb ed="#N" n="127" break="no"/>to. igitur illud quod trahit in aliud genus peccati non est confitendum vt
+            <lb ed="#N" n="128"/>circumstantia sed vt peccatum. Si igitur aliquis cognoscent aliquam in
+            <lb ed="#N" n="129"/>ecclesia. cum hoc quod in ecclesia facit peccatum. scilicet sacrilegium: debet
+            <lb ed="#N" n="130"/>confiteri vt peccatum non vt circunstatiem.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e929">
+            ⁋ cott. pososs
+            <lb ed="#N" n="131"/>quis adulteretur in ecclesia. iste committit peccatum in ecclesia et peccat
+            <lb ed="#N" n="132"/>peccato adulterii. sed constat quod vnico actu non peccat duplici
+            ge<lb ed="#N" n="133" break="no"/>nere peccati: igitur quod additur adulterio ex hoc quod perpetratur in
+            ec<lb ed="#N" n="134" break="no"/>clesia confitendum est vt circumstantia.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e941">
+            ⁋ Preter. in casu isto iste
+            con<lb ed="#N" n="135" break="no"/>mittit adulterium et sacrilegium quod istorum est confitendum vt peccatum
+            <lb ed="#N" n="136"/>et quod vt circunstantia: quod sacrilegium sit confitendum vt
+            circumstan<lb ed="#N" n="137" break="no"/>tia videtur. quia lacrilegium perpetratur ex hoc quod perpetratio huiusmodi
+            <lb ed="#N" n="138"/>facti in locc tali. locus autem inter circumstantias numeratur. vndede penitentia
+            <lb ed="#N" n="139"/>dis. vi. cognito crimine varietatis eius non dubitet iuestigare
+            <pb ed="#N" n="493"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>et locum et tempus etc. Contra. sacrilegium est grauius peccatum quam
+            adul<lb ed="#N" n="2" break="no"/>terium. igitur confitendum est vt pricipale: adulterium vt circumstantia.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e963">
+            <lb ed="#N" n="3"/>Responsio. sine preiudicio quod confitende sunt circumstantie
+            aggrauan<lb ed="#N" n="4" break="no"/>tes ex quibus apparet augmentum contemptus peccati. et cui dictat conscientia
+            <lb ed="#N" n="5"/>contemptum peccati maiorem esse ex circumstantia aliqua: tenetur illam
+            confiterei<lb ed="#N" n="6" break="no"/>et si non confitetur illam vt estimo non sufficienter dolet de peccato.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e974">
+            ⁋ Ad
+            <lb ed="#N" n="7"/>hoc quod queritur. vtrum confitende sunt solum ille que trahunt in aliud genus
+            <lb ed="#N" n="8"/>peccati. dicendum quod non: sed he et alie. nec videtur mihi quod que trahunt
+            <lb ed="#N" n="9"/>in aliud genus peccati inquantum tales confitende sunt et dicende circum
+            <lb ed="#N" n="10"/>stantie: cum sint quasi forme peccatorum et per se deformantes actum pec
+            <lb ed="#N" n="11"/>cati. vt comedere carnes in quadragesima et cognoscere suam in ec
+            <lb ed="#N" n="12"/>clesia cum habeat copiam aliorum locorum. comedere enim carnes non est
+            <lb ed="#N" n="13"/>peccatum nec cognoscere suam: sed comedere tempore tali et tali loco
+            cogno<lb ed="#N" n="14" break="no"/>scere peccatum est. Paet igitur quod designata per que dico tali tempore et tali loco
+            <lb ed="#N" n="15"/>deformant actus predictos et faciunt actus peccati. nec cognscere suam in
+            <lb ed="#N" n="16"/>ecclesia est fornicari nec adulterium nec committere incestum: sed
+            poti<lb ed="#N" n="17" break="no"/>us sacrilegium. vnde hoc quod dico in ecclesia est illud solum quod defortiat
+            <lb ed="#N" n="18"/>actum: et ita quod facit illum actum esse actum peccati distinctum ab aliis
+            <lb ed="#N" n="19"/>speciebus peccati. non videtur mihi dicenda circunstantia. sed forma peccati
+            po<lb ed="#N" n="20" break="no"/>tius.
+          </p>
+        </div>
+        <div xml:id="v78d89-ae8djr-Dd1e1008">
+          <head xml:id="v78d89-ae8djr-Hd1e1010">Articulus 3</head>
+          <p xml:id="v78d89-ae8djr-d1e1012">
+            <lb ed="#N" n="21"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1017">
+            <lb ed="#N" n="22"/>COnsequenter queritur. vtrum omnes tenentur ad confessionem
+            cir<lb ed="#N" n="23" break="no"/>cunstantiarum. aut aliqui sic. aut aliqui non. Quod omnes: videtur
+            <lb ed="#N" n="24"/>eisdem rationibus quibus ostenditur quod circunstantie sunt
+            confiten<lb ed="#N" n="25" break="no"/>de. quia de penitentia di. vi. vbi dicitur. Qui vult peccata confiteri vt inueniat
+            <lb ed="#N" n="26"/>gratiam: querat sacerdotem scientem soluere et ligare etc. vt supra. ecce quod
+            <lb ed="#N" n="27"/>vniuersaliter dicitur. Qui vult etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1033">
+            ⁋ Item sicut iste penitens necesse habet
+            <lb ed="#N" n="28"/>quod recte iudicetur de quantitate peccati sui. Similiter et ille et ita de
+            <lb ed="#N" n="29"/>singulis. igitur etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1040">
+            ⁋ Item necessaria est huic erubescentia pro peccato. et
+            <lb ed="#N" n="30"/>vt iusta pena sibi imponatur. similiter et illi. sed propter hoc necessaria est
+            confes<lb ed="#N" n="31" break="no"/>sio. igitur etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1048">
+            ⁋ Item omnibus necesse est facere dignos fructus penitentie. scilicet
+            <lb ed="#N" n="32"/>secundum quantitatem culpe ad quod requiritur confessio circumstantiarum. igitur
+            <lb ed="#N" n="33"/>etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1055">
+            ⁋ Contra. plus tenetur fidelis vel saltem equa ad confessionem fidei
+            <lb ed="#N" n="34"/>quam peccator. sed ad confessionem fidei expressam et distictam non tenentur omnes
+            <lb ed="#N" n="35"/>sed solummodo sapientes siue magis discreti: a simili videtur quod licet omnes
+            <lb ed="#N" n="36"/>teneantur ad confessionem peccatorum suorum non tamen omnes tenentur ad
+            confessi<lb ed="#N" n="37" break="no"/>onem expressam et distictam circumstantiarum. igitur non omnes tenentur ad
+            con<lb ed="#N" n="38" break="no"/>fessionem expressam et distictam circumstantiarum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1068">
+            ⁋ Quod concedimus.
+            di<lb ed="#N" n="39" break="no"/>cendum igitur quod est vlis tentio confitendi et perticularis. velis quantum ad
+            <lb ed="#N" n="40"/>peccatum siue genus peccati. omnes enim tenentur. scilicet sapientes et insipientes
+            <lb ed="#N" n="41"/>ad confitendum gemus peccati siue peccata sua quantum ad generea peccatorum. perti
+            <lb ed="#N" n="42"/>cularis tentio est quantum ad circumstantias peccati. non enim tenentur omnes
+            <lb ed="#N" n="43"/>ad confessionem circumstantiarum sed edocti et instructi quorum dictat
+            con<lb ed="#N" n="44" break="no"/>scletia illas esse confitendas. quilibet tamen requisitus a sacerdote et
+            instru<lb ed="#N" n="45" break="no"/>ctus tenetur eas confiteri. Dicendum igitur quod simplices cum nesciant
+            <lb ed="#N" n="46"/>circunstantias aggrauari peccata non tenentur eas confiteri: nisi postquam
+            <lb ed="#N" n="47"/>per inquisitionem vel instructionem intellexerint se teneri.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1090">
+            ⁋ Ad illud ergo quod
+            <lb ed="#N" n="48"/>obicitur de illo decreto. Qui vult confiteri peccata vt inueniat gratiam.
+            <lb ed="#N" n="49"/>querat sacerdotem scientem etc. dicendum quod hoc non dicitur quia sacerdotis est
+            so<lb ed="#N" n="50" break="no"/>lum potederare circumstantias confessas et secundum qualitaiem et quantitaten
+            <lb ed="#N" n="51"/>peccati penitentiam congruam iniungere: sed quia eius est informare simplices et inquirere
+            <lb ed="#N" n="52"/>peccata et peccatorum circumstantias et in illis confitendis illos instruere.
+            <lb ed="#N" n="53"/>omnea igitur debent querere sacerdotem discretum et sapientem vt peccata. o um
+            <lb ed="#N" n="54"/>et circumstantias potederare sciat et penitentiam conuenientem iniungat.
+            <lb ed="#N" n="55"/>simplices vt discrete et prudenter genera peccatorum et circumnstam
+            <lb ed="#N" n="56"/>tias inquirat: et ad hec confitenda illos instruat. et iuxta quod
+            expe<lb ed="#N" n="57" break="no"/>dit talibus penitentias iniungat. hoc est quod vult auctoritas supradicta cum
+            <lb ed="#N" n="58"/>subiungit. sacerdotem querat qui sciat soluere et ligare
+            <lb ed="#N" n="59"/>scire enim soluere et ligare est scire oflendere que
+            requirun<lb ed="#N" n="60" break="no"/>tur ad solutionem a peccato et ligare eum penitentia competenti.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1121">
+            ⁋ Ad aliud
+            <lb ed="#N" n="61"/>quod obicitur. quod sicut iste necessae habet quod recte iudicetur de peccato suo etc.
+            <lb ed="#N" n="62"/>dicendum quod hoc verum est. nec propter hoc necessae est quod confiteatur per se si non sit
+            di<lb ed="#N" n="63" break="no"/>scretus et edoctus sed quod confiteatur illas requisitus a sacerdote et
+            instru<lb ed="#N" n="64" break="no"/>ctus. propter enim ignorantiam et simplicitatem subditorum preceptum est
+            sacra<lb ed="#N" n="65" break="no"/>dotibus vt sint discreti et inquirant de circumstantiis peccatorum. vnde
+            <lb ed="#N" n="66"/>de pe. et re. sacerdos sit discretus et cautus vt in ore periti
+            medi<lb ed="#N" n="67" break="no"/>dici superinfundat vinum et oleum vulneribus sautiati. diligenter
+            <lb ed="#N" n="68"/>inquirens et peccatoris circunstantias et peccati. quibus prudenter intelligat
+            <lb ed="#N" n="69"/>quale debet ei prebere consilium: et cuiusmoodi remedium adhibere diuersis
+            <lb ed="#N" n="70"/>ex perimentis vtendo ad sanandum egrotum. Ex his patet qumo ad
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>alia respondendum est. quia licet vnicuique necessaria est erubescentia siue
+            conse¬<lb ed="#N" n="72" break="no"/>sio pro peccato. et quod confessio sua sit meritoria ex modo confitendi qui
+            <lb ed="#N" n="73"/>attenditur in confessione circumstantiarum. et facere dignos fructus
+            peniten<lb ed="#N" n="74" break="no"/>tie. non tamen necesse est quod vnusquisque confiteatur per se circumstantias
+            pecca<lb ed="#N" n="75" break="no"/>torum suorum: sed quod vel per se sit discretus vel edoctus. vel confiteatur
+            il<lb ed="#N" n="76" break="no"/>las requisitus et instructus a sacerdote. Si autem sit tanta
+            simplici<lb ed="#N" n="77" break="no"/>tas quod non videantur circunstantie sibi alicus potederis. nec requisitus
+            <lb ed="#N" n="78"/>fuerit nec instructus a sacerdote: non tenetur ad confessionem
+            cir<lb ed="#N" n="79" break="no"/>cumstantiarum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1167">
+            ⁋ Si autem obiiciatur quod ignorantia iuris nullum
+            excu<lb ed="#N" n="80" break="no"/>sat. hec autem ignorantia videtur esse iuris. Responsio. quod non est ignorantia
+            <lb ed="#N" n="81"/>iuris quantum ad omnes circusserntias: licet forte quantum ad quasdam. hoc
+            <lb ed="#N" n="82"/>infra plenius patebit.
+          </p>
+        </div>
+        <div xml:id="v78d89-ae8djr-Dd1e1177">
+          <head xml:id="v78d89-ae8djr-Hd1e1179">Articulus 4</head>
+          <p xml:id="v78d89-ae8djr-d1e1181">
+            <lb ed="#N" n="83"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1186">
+            <lb ed="#N" n="84"/>COnsequenter queritur de comparatione circunstantie confitende
+            <lb ed="#N" n="85"/>ad genus peccati. Et primo queritur. Quid est confitendum in
+            ca<lb ed="#N" n="86" break="no"/>su vt circumstantia et quid vt actus peccati. Cum
+            circa<lb ed="#N" n="87" break="no"/>eundem actum contingat mihi peccare et multa genera peccatorum comit
+            <lb ed="#N" n="88"/>tere. videtur quod quecunm sunt ibi deformantia et facientia nouum
+            ge<lb ed="#N" n="89" break="no"/>nus peccati: confitenda sunt vt peccata. verbigratra. virgo aliqua teradita
+            nu<lb ed="#N" n="90" break="no"/>ptui. statim post consensum expressum per verba de presenti. transfert se ad
+            <lb ed="#N" n="91"/>frugem melioris vite et conuolat ad religionem. post cognoscitur
+            <lb ed="#N" n="92"/>a fratre proprio carnali. constat quod cognscens eam in hoc causu comittit stu
+            <lb ed="#N" n="93"/>prum: adulterium: incestum et sacrilegium. committit igitur multa
+            ge<lb ed="#N" n="94" break="no"/>nera peccatorum in vno concubitu. Qinia igitur hec confitebitur vt peccata
+            <lb ed="#N" n="95"/>quiaqua ratione hoc: et illud. et ita nullum confitebitur vt circunstantiam.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1215">
+            ⁋
+            Si<lb ed="#N" n="96" break="no"/>diceretur quod in casu proposito non est nisi vnum peccatum: quia vno actu
+            sin<lb ed="#N" n="97" break="no"/>gulari non potest fieri nisi vnicum peccatum. Contra ponatur quod aliquis
+            vo<lb ed="#N" n="98" break="no"/>sens deflorare virginem et deflorando interficiat. constat quod vno actu
+            <lb ed="#N" n="99"/>singulari comittit stuprum et homincidium que sunt dicitursa generea pec
+            <lb ed="#N" n="100"/>catorum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1228">
+            ⁋ Responsio. sine preiudicio. quod vno actu singulari non
+            <lb ed="#N" n="101"/>comittitur nisi vnum peccatum. cum enim ad esse peccati requiritur actus et
+            defor<lb ed="#N" n="102" break="no"/>mitas. ad esse peccati multiplicis requiritur necessario mltiplex actus
+            <lb ed="#N" n="103"/>deformatus. vnde cum vnicus actus multipliciter deformetur non est
+            nisi<lb ed="#N" n="104" break="no"/>vnicum peccatum tamen multipliciter deformatum. vnde posito quod aliquis
+            <lb ed="#N" n="105"/>cognoscat sororem suam virginem ductam in vxorem et mominalem. non
+            con<lb ed="#N" n="106" break="no"/>mittit nisi vnum peccatum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1245">
+            ⁋ Ad hoc quod obicitur. quod eadem ratione perpetrat
+            <lb ed="#N" n="107"/>adulterium perpetrat incestum etc. dicendum quod comittit sacrilegium eo
+            <lb ed="#N" n="108"/>quod violat mulierem deo consecratam. alia autem non sunt dicenda peccata sed
+            <lb ed="#N" n="109"/>circumstantie peccati. vnde comittit sacrilegium cum virgine et consanguinea
+            <lb ed="#N" n="110"/>et ducta in vxorem.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1256">
+            ⁋ Si queratur adhuc sic. constat quod corrumpit
+            vir<lb ed="#N" n="111" break="no"/>ginem non suam: ergo comittit stuprum. similiter comittit adulterium. similiter
+            <lb ed="#N" n="112"/>incestum. Hec autem sunt peccata dioitersa: ergo peccat peccatis dicoiteursis.
+            Dicen<lb ed="#N" n="113" break="no"/>dum quod non sequitur: sed sequitur quod multis modis peccat peccando
+            vno<lb ed="#N" n="114" break="no"/>peccato. si peccato sacrilegii quod est maximum et precipue deformans
+            <lb ed="#N" n="115"/>actum peccati. iudicandum est enim peccatum a conditione que maxime deformat
+            <lb ed="#N" n="116"/>in eodem genere.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1272">
+            ⁋ Si obiiciatur quod circumstantia aliquando magis
+            gra<lb ed="#N" n="117" break="no"/>uat peccatum quam illud quod deordinat vt quasi forma. Dicendum quod hoc
+            acci<lb ed="#N" n="118" break="no"/>dit quando illud quod est quasi forma et circunstantia non sunt eiusdem
+            gene<lb ed="#N" n="119" break="no"/>ris. sicut si aliquis fornicatur in ecclesia iuxta corpus christi vel super
+            al<lb ed="#N" n="120" break="no"/>tare consecratum. sed quando sunt eiusdem genenis sicut adulterium stuprum
+            <lb ed="#N" n="121"/>incestus et sacrilegium: ab illo quod est quasi maxime deformans et aggta
+            <lb ed="#N" n="122"/>uans peccatum debet iudicari.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1288">
+            ⁋ Si obiiciatur quod quando comittitur
+            adul<lb ed="#N" n="123" break="no"/>terium in ecclesia et comittitur sacrilegium. nihilominus sicut dictum est
+            <lb ed="#N" n="124"/>beccatum hoc iudicandum est adulterium et non
+            sacri<lb ed="#N" n="125" break="no"/>legium. sed est circumstantia aggrauans et confitenda
+            <lb ed="#N" n="126"/>est quasi circumstantia. in alio casu dicitur sacrilegium
+            <lb ed="#N" n="127"/>peccatum: et adulterium circumstantia. et sic confuse
+            <lb ed="#N" n="128"/>quandoque dicitur peccatum quandoque circumstantia.
+            Di<lb ed="#N" n="129" break="no"/>cendum quod in vno istorum casuum committitur sacrilegium
+            <lb ed="#N" n="130"/>ex fedatione loci consecrati: in alio ex cognitione
+            perso<lb ed="#N" n="131" break="no"/>ne consecrate et fedatione. persona cognita er fedata est
+            <lb ed="#N" n="132"/>materia actus. vnde est substantialis actui locus in quo
+            <lb ed="#N" n="133"/>efficitur. feditas huius est omnino extra actum. vnde
+            fe<lb ed="#N" n="134" break="no"/>datio rei sacre in vno casu magis intranee et
+            essentiali<lb ed="#N" n="135" break="no"/>us respicit actum peccati quam in alio. propter quod in vno
+            iu<lb ed="#N" n="136" break="no"/>dicatur forma peccati. in alio circumstantia.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1321">
+            ⁋ Ad hoc quod
+            <lb ed="#N" n="137"/>obiicitur. quod qui deflorando virginem interficit illam vnico actu
+            <lb ed="#N" n="138"/>singulari committit duo peccata. Dicendum quod non est verum quia licet
+            <pb ed="#N" n="494"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>sit ibi vnicus actus exercitus primo scilicet actus diuisionis
+            seu<lb ed="#N" n="2" break="no"/>deflorationis: est tamen alius consequens scilicet actus interfectionis. vnde
+            deflo<lb ed="#N" n="3" break="no"/>rando committit peccatum stupri: et interficiendo peccatum homicidii.
+          </p>
+        </div>
+        <div xml:id="v78d89-ae8djr-Dd1e1340">
+          <head xml:id="v78d89-ae8djr-Hd1e1342">Articulus 5</head>
+          <p xml:id="v78d89-ae8djr-d1e1344">
+            <lb ed="#N" n="4"/>Articulus quintus
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1349">
+            <lb ed="#N" n="5"/>COnsequenter queritur. vtrum pricipalius circumstan
+            <lb ed="#N" n="6"/>tia confitenda sit an genus peccati. Quod genus peccati: vidtur
+            <lb ed="#N" n="7"/>sic. Si peccatum per se est confitendum. primo et principaliter
+            <lb ed="#N" n="8"/>illud est confitendum: penes quod primo et per se existit suba peccati. hoc autem
+            <lb ed="#N" n="9"/>est ipsum genus peccati. ergo etc.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1362">
+            ⁋ Item Hugo si forte contingeret tantam esse
+            vo<lb ed="#N" n="10" break="no"/>luntatem in eo qui non operatur quanta est in illo qui opst exercet. vbi volum
+            <lb ed="#N" n="11"/>tas eadem est: meritum dissimile esse non potestu. Ex hoc verbo videtur quod
+            me<lb ed="#N" n="12" break="no"/>ritum omne dependet ex voluntate: similiter et demeritum.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1371">
+            ⁋ Item psalmum.
+            <lb ed="#N" n="13"/>etenim in corde operamin. Glo. Quicquid vis et non potes: dominus
+            <lb ed="#N" n="14"/>factum reputat. Ex hoc videtur quod si non augeatur ex opere voluntas
+            <lb ed="#N" n="15"/>quod tantum peccat qui habet voluntatem cognoscendi mulierem in loco
+            sa<lb ed="#N" n="16" break="no"/>cro quantum si cognosceret eandem in eodem. igitur circumnstantia que est
+            <lb ed="#N" n="17"/>penes opst peccati exercitum in loco sacro non aggrauat peccatum: igistr
+            <lb ed="#N" n="18"/>huiusmodi circumstantia non est confitenda vel saltem non pricipaliter.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1388">
+            <lb ed="#N" n="19"/>⁋Contra. nullus actus sine circumstantia est peccatum. coire enim non
+            <lb ed="#N" n="20"/>est peccatum: licet coire cum non sua sit peccatum fornicari est actus circunstantio
+            <lb ed="#N" n="21"/>natus. coire igitur non est peccatum. sed coire cum tali: vel tali modo: vel
+            <lb ed="#N" n="22"/>tali tempore: vel tali loco est peccatum. Ex hoc videtur quod actus siue
+            circun<lb ed="#N" n="23" break="no"/>stantia non est peccatum sed cum circunstantia est peccatum: qua non posita non est
+            <lb ed="#N" n="24"/>peccatum. illud igitur quod est causa peccati simpliciter est circumstantia: igitur
+            cir<lb ed="#N" n="25" break="no"/>cunstantia est simpliciter et pricipaliter confitenda
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1406">
+            ⁋ Responsio. quod
+            prici<lb ed="#N" n="26" break="no"/>palius confitendum est genus peccati quam circunstantia.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1411">
+            ⁋ Ad hoc quod obiicitur
+            <lb ed="#N" n="27"/>quod nullus actus siue circumstantia est peccatum etc. dicendum quod actus vt
+            con<lb ed="#N" n="28" break="no"/>sideratur in genere actus simpliciter: non est peccatum. vt autem deformatus
+            con<lb ed="#N" n="29" break="no"/>trahitur ingenus moris per aliquid deformans est peccatum. et licet illud
+            <lb ed="#N" n="30"/>quod deformat actum ipsum exstns simpliciter in genere actus posset
+            di<lb ed="#N" n="31" break="no"/>ci circumstantia respectu actus simpliciter: non tamen dicitur
+            circumstan<lb ed="#N" n="32" break="no"/>tia peccati. quia est quasi forma peccati siue per se deformans illum et
+            contra<lb ed="#N" n="33" break="no"/>habes in genus peccati. sed circumstantia dicitur eo quod actum deformatum
+            <lb ed="#N" n="34"/>ratione loci vel temporis vel alicuius alterius circunstantie amplius de
+            <lb ed="#N" n="35"/>format.
+          </p>
+          <p xml:id="v78d89-ae8djr-d1e1433">
+            ⁋ Ad illud quod obiicitur quod voluntate tantum peccatur quam
+            <lb ed="#N" n="36"/>tum si opus sequatur vbi crescat voluntas ipso opere. et ad illud
+            <lb ed="#N" n="37"/>quicquid vis et non potes: dominus factum reputat. dicendum quod est
+            vo<lb ed="#N" n="38" break="no"/>luntas plena respectu operis non exercendi per corpus. sicut est in
+            spi<lb ed="#N" n="39" break="no"/>ritualibus peccatis vt in superbia. et quia voluntas in huiusmodi est tota
+            <lb ed="#N" n="40"/>intrans ad actum: quia in huiusmodi est voluntatis facultas: in his
+            re<lb ed="#N" n="41" break="no"/>putatur voluntas pro facto. est aut voluntas plena rrspecatu operis
+            <lb ed="#N" n="42"/>exercendi per corpus vt in carnalibus peccatis: et huiusmodi voluntas
+            ple<lb ed="#N" n="43" break="no"/>na reputatur pro facto quantum ad aliquid et quantum ad aliquid non
+            re<lb ed="#N" n="44" break="no"/>putatur. pro facto autem quantum ad hoc. quod ipsa voluntas vel meretur
+            pe<lb ed="#N" n="45" break="no"/>nam generalem. scilicet anime et corporis. scilicet quod est priuatio vtriusque
+            <lb ed="#N" n="46"/>stole et sensus que est combustio ignis eterni. quantum ad aliquid non
+            <lb ed="#N" n="47"/>reputatur pro facto: quia non tanta pena punietur peccatum voluntatis
+            <lb ed="#N" n="48"/>simpliciter et voluntatis vt est exiens in ops ministerio corporis.
+            <lb ed="#N" n="49"/>Corpus enim grauius punietur in igne eterno si voluntas progrediatur
+            <lb ed="#N" n="50"/>in actum intentum ministerio corporis: quam si non egrederetur. vnde
+            <lb ed="#N" n="51"/>augustinu. vnusquisque miser voluntate efficitur: sed miserior potestate. et
+            <lb ed="#N" n="52"/>loquitur de potestate progressiua in actum qua adimpletur desiderium
+            <lb ed="#N" n="53"/>voluntatis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

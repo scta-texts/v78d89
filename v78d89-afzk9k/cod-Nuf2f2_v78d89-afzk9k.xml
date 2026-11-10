@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 88, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 88, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="565"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-afzk9k"><!-- q88m2 -->
+        <head xml:id="v78d89-afzk9k-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-afzk9k-Hd1e103" type="question-title">Quid sit secundum rem</head>
+        <p xml:id="v78d89-afzk9k-d1e106">
+          <lb ed="#N" n="102"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-afzk9k-d1e111">
+          <lb ed="#N" n="103"/>cpedito de oratione quid sit secundum diffinitionem.
+          re<lb ed="#N" n="104" break="no"/>stat inquirere de oratione quid sit secundum rem. Queritur ergo
+          <lb ed="#N" n="105"/>primo vtrum sit virtus vel actus virtutis. habito quod sit
+          <lb ed="#N" n="106"/>actus virtutis. Secundo vtrum sit virtus generalis et
+          spe<lb ed="#N" n="107" break="no"/>cialis. habito quod specialis aliquo modo. Tercio queritur vtrum
+          <lb ed="#N" n="108"/>actus virtutis theologice vel cardinalis.
+        </p>
+        <div xml:id="v78d89-afzk9k-Dd1e127">
+          <head xml:id="v78d89-afzk9k-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-afzk9k-d1e131">
+            <lb ed="#N" n="109"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e136">
+            <lb ed="#N" n="110"/>QUeritur ergo primo vtrum oratio sit virtus vel actus virtutis.
+            <lb ed="#N" n="111"/>quod sit virius: videtur sic. quod est sanatiuum principium nostre
+            <lb ed="#N" n="112"/>mentis. illud potissime habet rationem virtutis. quia sicut mens
+            <lb ed="#N" n="113"/>nodo infirmatur nec languescit nisi per peccatum: ita non sanatur nisi per
+            ver<lb ed="#N" n="114" break="no"/>tutem. sed oratio est huiusmodi. Hiero. super illud Math. ix. hoc genus
+            de<lb ed="#N" n="115" break="no"/>moniorum etc. oratione sanantur pestes mentis. Et Isiude. de summo
+            bo<lb ed="#N" n="116" break="no"/>no. lidb. iii. ci. vii. orationibus mundamur.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e154">
+            ⁋ Pret. quod est meritorium
+            <lb ed="#N" n="117"/>salutis eterne habet rationem virtutis. quia sicut peccatum solum eternum
+            me<lb ed="#N" n="118" break="no"/>retur supplicium: ita et virtus primium. sed oratio est huiusmodi. vnde Augu.
+            <lb ed="#N" n="119"/>de ecclesiasticis dogmatibus. nullum credimus nisi orantem saluten
+            <lb ed="#N" n="120"/>promereri.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e165">
+            ⁋ Pret. circa opera laudabilia secundum phocum et
+            diffici<lb ed="#N" n="121" break="no"/>lia consistit virtus. oratio est huiusmodi in qua plurimum laborant virtutes
+            <lb ed="#N" n="122"/>animales et minus regimini corporis sunt intente. quia quantoplus
+            delecta<lb ed="#N" n="123" break="no"/>tur spiritus: tantoplus tabescit ipsa caro.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e175">
+            ⁋ Pret. si reddere proximo
+            <lb ed="#N" n="124"/>quod suum est. est virtutis: multo fortius reddere deo quod suum est erit
+            vir<lb ed="#N" n="125" break="no"/>tutis. sed hoc facit oratio. Math. vi. tamen oraueritis etc. glo. non est
+            <lb ed="#N" n="126"/>opus narrare. sed obsecrare quod est obsequium iusticie. reddit igitur
+            <lb ed="#N" n="127"/>vt videtur oratio debitum famulatum deo.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e186">
+            ⁋ Pret. circa actum
+            orandi<lb ed="#N" n="128" break="no"/>plurimum contingit deuiare et errare sicut habetur Math. vi. de
+            <lb ed="#N" n="129"/>ypocri. et ethnicis. et Math. xx. de filiis zebedei. et. xxiii. de
+            <lb ed="#N" n="130"/>phariseis longa oratione orantibus. ergo necessario virtute regulante in hoc
+            <lb ed="#N" n="131"/>actu indigemus. hec autem est oratio v videtur cum actus habitibus suis
+            <lb ed="#N" n="132"/>regantur.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e199">
+            ⁋ Ad oppositum. contemplationis secundum Hugo. tres sunt partes
+            <lb ed="#N" n="133"/>scilicet lectio. meditatio et oratio. sed due prime non sunt virtutes
+            simpli<lb ed="#N" n="134" break="no"/>citer. nec oratio vt videtur.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e206">
+            ⁋ Pret. quod non habet conrrietatem ad peccatum
+            <lb ed="#N" n="135"/>non est virtus. sed oratio est huiusmodi: quia stat cum peccatis. nec est assignare
+            <lb ed="#N" n="136"/>aliquod cui proprie dicatur resistere.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e213">
+            ⁋ Pret. secundum augustinu. virtus est bona
+            <lb ed="#N" n="137"/>qualitas mentis. sed oratio non est mentis qualitas cum sit actus: et ita non est
+            <lb ed="#N" n="138"/>virtus.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e220">
+            ⁋ Pret. secundum eundem. virtus est qua recte viuitur et nullus male vtitur
+            <lb ed="#N" n="139"/>sed oratione contingit male vti.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e226">
+            ⁋ Pret. secundum eandem virtutem operatur deus
+            <pb ed="#N" n="566"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>in nobis sine nobis. sed oratio est a nobis. ad minus numquam est sine
+            no<lb ed="#N" n="2" break="no"/>bis: ergo vt videtur oratio non est virtus.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e237">
+            ⁋ Responsio. ad hoc dicendum. quod cum
+            <lb ed="#N" n="3"/>actus orationis sit meritorius quantum est de se. et sit circa bona et
+            dif<lb ed="#N" n="4" break="no"/>ficile: concedendum est quod sit habitus a quo elicitur virtus que autem virtus illa sit
+            <lb ed="#N" n="5"/>postmodum patebit. Omnes igitur rationes que hoc probant concedende sunt
+            <lb ed="#N" n="6"/>scilicet quod oratio est actus virtutis et non virtus. Quare autem sit actus virtutis
+            <lb ed="#N" n="7"/>potest ratio assignari. scilicet quia a nobilissimis virtutibus elicitur. scilicet
+            <lb ed="#N" n="8"/>fide spe et caritate. prout dici augustnus. ad probam de orando deo. quod
+            fi<lb ed="#N" n="9" break="no"/>de spe et caritate continuato desiderio oramus. Quod autem sit actus
+            <lb ed="#N" n="10"/>virtutis patet per hoc. quod habet actum in gradu nobilissimo in via
+            <lb ed="#N" n="11"/>morum contemplationis quo. scilicet anima stabilitur. secundum enim Hug.
+            primun<lb ed="#N" n="12" break="no"/>gradum lectio. secundum meditatio. tercium oratio continet contemplatio.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e261">
+            <lb ed="#N" n="13"/>⁋ Ad illud quod obiicitur contra hoc. quod illud quod primum sanatiuum
+            mem<lb ed="#N" n="14" break="no"/>tis a culpa etc. Dicendum quod oratio non est primum sanatiuum
+            men<lb ed="#N" n="15" break="no"/>tis a culpa: licet sit sanatiuum pestis mentis. immo gratia est per se
+            <lb ed="#N" n="16"/>et primum sanatiuum a culpa.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e272">
+            ⁋ Ad illud Hiero. oratio sanat
+            <lb ed="#N" n="17"/>pestes mentis. potest dici. quod pestes huiusmodi sunt reliquie peccati ex quibus
+            <lb ed="#N" n="18"/>frequenter insurgit pugna contra animam. Infestatur ipsa anima et
+            mi<lb ed="#N" n="19" break="no"/>nus est valida ad exercitium bonum. et impetuosior ad malum.
+            <lb ed="#N" n="20"/>huiusmodi autem pestes frequentia orationis sanantur siue mens. vnde
+            Hie<lb ed="#N" n="21" break="no"/>ro. super illo hoc genus demoniorum. ita et ignauia oratione depellentur
+            <lb ed="#N" n="22"/>vel deponantur. vt supra dictum est. et plana erit responsio. Pret. gratia
+            <lb ed="#N" n="23"/>primum est sanatiuum mentis formaliter. scilicet a culpa siue morbo pec
+            <lb ed="#N" n="24"/>cati: oratio est sanatiuum mentis a morbo pene excitantis et
+            prouocan<lb ed="#N" n="25" break="no"/>tis ad peccatum. que pena pestis dici potest. sanatiuum dico effectiue
+            <lb ed="#N" n="26"/>id est meritorie.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e296">
+            ⁋ Ad illud quod dicit Isiud. quod oratioibus mundamur
+            <lb ed="#N" n="27"/>intelligitur a sordibus reliquiarum peccatorum.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e301">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="28"/>oratio est meritorium vite eterne et virtuti conuenit. potest dici quod
+            reuera<lb ed="#N" n="29" break="no"/>meritorium est. sed hoc non est ratione qua est virtus: sed ratione qua est actus
+            vir<lb ed="#N" n="30" break="no"/>tutis. Meritorium est enim aliquod vel quia comparatur ad illud quo
+            con<lb ed="#N" n="31" break="no"/>tingit mereri id est ad virtutem: vel quia est ab ipso quo meretur sicut actus
+            <lb ed="#N" n="32"/>ad habitum. et vtroque modo oratio est meritoria.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e315">
+            ⁋ Ad illud augustinus
+            <lb ed="#N" n="33"/>nullum credimus etc. intelligendum de orante oratione efficaci ad
+            im<lb ed="#N" n="34" break="no"/>petrandum. que est subnixa fide spe et caritate. que non habet huiusmodi
+            <lb ed="#N" n="35"/>efficaciam nisi inquantum est virtutis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e324">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="36"/>virtus est circa bonum et difficile etc. Dicendum quod hoc verum est
+            elicien<lb ed="#N" n="37" break="no"/>do actum suum siue frequentiam. siue actus et virtus eliciendo orationem
+            <lb ed="#N" n="38"/>siue frequentiam orationis est circa bonum et difficile. nec ex hoc sequitur
+            <lb ed="#N" n="39"/>quod oratio sit virtus sed actus elicitus a virtute.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e335">
+            ⁋ Ad illud quod obiicitur quod
+            <lb ed="#N" n="40"/>obsecrare est officium iusticie. Dicendum quod hoc verum est. nec ex hoc
+            ha<lb ed="#N" n="41" break="no"/>betur quod obsecrare sit virtus sed potius actus virtutis. obsequium enim
+            <lb ed="#N" n="42"/>proprie actum dicit non habitum.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e344">
+            ⁋ Ad illud quod obiicitur quod oratio
+            re<lb ed="#N" n="43" break="no"/>gulat deuium et errorem que accidunt orando: potest dici quod hoc non
+            <lb ed="#N" n="44"/>est verum: sed potius prudentia spiritus. siue virtutis prudentie que
+            do<lb ed="#N" n="45" break="no"/>cet tenere modum siue medium in actu orandi.
+          </p>
+        </div>
+        <div xml:id="v78d89-afzk9k-Dd1e355">
+          <head xml:id="v78d89-afzk9k-Hd1e357">Articulus 2</head>
+          <p xml:id="v78d89-afzk9k-d1e359">
+            <lb ed="#N" n="46"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e364">
+            <lb ed="#N" n="47"/>COnsequenter queritur vtrum sit actus virtutis generalis.
+            <lb ed="#N" n="48"/>vel spieictalis. Quod autem generalis videtur sic. vt habetur
+            <lb ed="#N" n="49"/>a phoo. finis speculationis est verum: finis autem virtutis
+            <lb ed="#N" n="50"/>bonum. sed finis orationis est huiusmodi: igitur erit equalis ambitus cum
+            vir<lb ed="#N" n="51" break="no"/>tute. sed virtus isto modo sumpta est virtus generalis. igitur.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e377">
+            ⁋ Pret.
+            <lb ed="#N" n="52"/>orare est colcre deum. quia colere dicit actum interiorem mentis. sicut
+            <lb ed="#N" n="53"/>habetur in glo. Exo. xx. que dicit. aliud est colere: aliud adorare.
+            <lb ed="#N" n="54"/>sedsicut dicit augu. in principio Encheriud. fide spe et caritate
+            <lb ed="#N" n="55"/>colitur deus. si ergo ad orationem concurrunt he virtutes: non erit tunc actus
+            <lb ed="#N" n="56"/>virtutis spetialis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e390">
+            ⁋ Pret. Hugo de virtute orandi dicit. quod oratio est
+            <lb ed="#N" n="57"/>conuersio in deum per pium et humilem affectum. fide spe et caritate
+            <lb ed="#N" n="58"/>subnixa. igitur vt prius.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e398">
+            ⁋ Pret. negociari videmus orationem
+            circa<lb ed="#N" n="59" break="no"/>actus omnium virtutum. quia contingit orare pro actu fidei spei et carita
+            <lb ed="#N" n="60"/>tis. et sic de omnibus fit. ergo non erit actus virtutis spetialis sed generalis
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e405">
+            <lb ed="#N" n="61"/>⁋ Item omnis bona actio est oratio super illud. i. Thess. v. sine
+            inter<lb ed="#N" n="62" break="no"/>missione orate. dicit glo. semper orat qui semper bene agit. non
+            <lb ed="#N" n="63"/>autem omnis operatio bona est operatio siue actus virtutis spietialis. ergo
+            <lb ed="#N" n="64"/>etc.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e416">
+            ⁋ Pret. numquam desinit iustus orare. nisi desinat iustus esse. et
+            iu<lb ed="#N" n="65" break="no"/>stus et orare se habent in quadam equalitate. sed esse iustus est a gene
+            <lb ed="#N" n="66"/>rali iusticia. vel abomnibus virtutibus: ergo et orare similiter. et ita vt
+            pri<lb ed="#N" n="67" break="no"/>us.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e425">
+            ⁋ Pret. videtur quod sit actus multarum virtutum. vtpote fidei
+            Ia<lb ed="#N" n="68" break="no"/>cobi. i. postulet autem in fide nil hesitans.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e430">
+            ⁋ Prec. Math. xvi.
+            <lb ed="#N" n="69"/>ibi sic orabitis. dicit glo. orandum est secundum magisterium fidei. Pret.
+            <lb ed="#N" n="70"/>videtur quod sit actus humilitatis. Eclssastici. xxxv. oratio humiliantis se
+            nu<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>bes penetrat. Pret. videtur quod sit actus prudentie: cum necessario
+            <lb ed="#N" n="72"/>requiratur in oratione discretio bonorum et malorum. que prudentia est
+            <lb ed="#N" n="73"/>Pret. videtur quod iusticie: quia facere bonum et declinare a malo sunt
+            <lb ed="#N" n="74"/>partes iusticie que in oratione petuntur.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e447">
+            ⁋ Pret. videtur quod sit
+            religi<lb ed="#N" n="75" break="no"/>onis. ii. paralip. nunc genua mea flectere etc. hoc dicitur de orante
+            <lb ed="#N" n="76"/>secundum quod orans est.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e455">
+            ⁋ Contra. omnis actio que egreditur a vi spieitiali
+            neces<lb ed="#N" n="77" break="no"/>sario egreditur ab habitu spetialiro. oratio est huiusmodi. quia ipsa est virtus
+            <lb ed="#N" n="78"/>affectiue. quia est pius affectus secundum augustinus.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e462">
+            ⁋ Pret. ordinatur oratio ad
+            <lb ed="#N" n="79"/>vnum actum liberi arbitrii. scilicet ad actum impetrationis et non ad
+            <lb ed="#N" n="80"/>omnes. ergo necessario est actus virtutis spieritiualis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e469">
+            ⁋ Pret. illa virtus cuius
+            <lb ed="#N" n="81"/>obiectum est spectiale. necessario est spectialis. Similiter cuiuscumque
+            virtu<lb ed="#N" n="82" break="no"/>tis actus est obiectum spetiale. et illius actus virtus est spectialis. sed
+            oratio<lb ed="#N" n="83" break="no"/>nis est obiectum spectiale: quia misericordia siue bonitas conditoris. ergo
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e478">
+            <lb ed="#N" n="84"/>⁋ Item habitus quo regulamur in credendo est habitus spietialis.
+            <lb ed="#N" n="85"/>similiter quo regulamur in sperando. similiter et diligendo. Similiter videtur
+            <lb ed="#N" n="86"/>quod habitus quo regulamur in impetrando. sed oratione impetramus
+            <lb ed="#N" n="87"/>ergo oratio est habitus spetialis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e489">
+            ⁋ Item partes satisfactionis sunt ieiunium
+            <lb ed="#N" n="88"/>elemosina et oratio. sed actus ieiunii est virtutis spetialis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e494">
+            ⁋ Responsio.
+            <lb ed="#N" n="89"/>dicendum quod actus iste scilicet oratio est actus virtutis spetialis et
+            quodan<lb ed="#N" n="90" break="no"/>modo generalis: vel vt potius dicatur actus plurimum virtutum.
+            <lb ed="#N" n="91"/>vt infra patebit.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e504">
+            ⁋ Ad illud quod obiicitur primo. quod est actus
+            vir<lb ed="#N" n="92" break="no"/>tutis generalis. quia finis eus est bonum etc. patet quod oratio non respicit
+            <lb ed="#N" n="93"/>bonum in illa communitate. quo virtus omnis respicit: sed sub ratione propria.
+            i<lb ed="#N" n="94" break="no"/>quantum scilicet habet aliquid ab ipso humiliter impetrare. et ideo est actus
+            <lb ed="#N" n="95"/>spectialis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e515">
+            ⁋ Ad aliud quod obiicitur quod ad orationem concurrunt omnes
+            vir<lb ed="#N" n="96" break="no"/>tutes theologice. sicut ad actus cultus dei. dicendum quod si eliciatur
+            <lb ed="#N" n="97"/>a virtutibus istis: tamen quia non est eorum actus principalis sed secundarius
+            <lb ed="#N" n="98"/>et ab illis in vnum concurrentibus elicitur: nihil impedit quin sit actus
+            <lb ed="#N" n="99"/>specialis. pluralitatem enim actuum principalium sequitur
+            plurali<lb ed="#N" n="100" break="no"/>tas habituum a quibus eliciuntur. sed non ad pluralitatem actuum se
+            <lb ed="#N" n="101"/>quentium: ideo cum oratio sit actus secundarius. bene potest a pluribus
+            virtu<lb ed="#N" n="102" break="no"/>tibus elici. et esse actus plurium virtutum: et tamen manebit actus
+            speci<lb ed="#N" n="103" break="no"/>alis. Istud planius patebit in sequenti probleumate.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e535">
+            ⁋ Ex
+            hia<lb ed="#N" n="104" break="no"/>patet responsio ad illud quod sequitur. quod licet oratio sit pluribus virtutibus
+            <lb ed="#N" n="105"/>enixa: hoc non est vt virtus principalis. sed secundaria. et ideo bene potest
+            <lb ed="#N" n="106"/>esse quod sit actus spetialis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e544">
+            ⁋ Ad illud quod obiicitur. quod negociatur
+            cir<lb ed="#N" n="107" break="no"/>ca actus plurium virtutum etc. Dicendum quod hoc verum est. nec ex hoc seqir
+            <lb ed="#N" n="108"/>quod sit actus proprie plurium virtutum elicitiue: sed potius plurium
+            impe<lb ed="#N" n="109" break="no"/>ratiue vel dispositiue siue aliquo modo innatiue. Unde negociatio
+            <lb ed="#N" n="110"/>quam sortitur multarum virtutum eam facit esse plurium virtutum quantum
+            <lb ed="#N" n="111"/>ad imperium vel dispositionem vel iuuamen: quia ab omnibus imperatur
+            <lb ed="#N" n="112"/>disponitur vel iuuatur. sed hoc non facit eam actum virtutis
+            gene<lb ed="#N" n="113" break="no"/>ralis: quia sic quelibet virtus vel quilibet actus virtutis posset
+            di<lb ed="#N" n="114" break="no"/>ci generalis. quia quelibet alteri potest imperare vel aliam iuuare
+            <lb ed="#N" n="115"/>vel ad aliam disponere. Elici autem ab omnibus vel a pluribus facit
+            <lb ed="#N" n="116"/>actum esse actum virtutis generalis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e568">
+            ⁋ Ad illud quod obiicitur quod
+            com<lb ed="#N" n="117" break="no"/>plectitur omneum actionem bonam. sed non omnis actio bona est virtutis
+            spirit<lb ed="#N" n="118" break="no"/>lis etc. potest dici quod oratio sumitur proprie et communiter. et commnissime. proprie
+            <lb ed="#N" n="119"/>vt est ascensus anime ad deum ad aliquid degustandum vel impetrandum
+            <lb ed="#N" n="120"/>vel exoluendum. Communiter prout comprehendit omneum actum contemplatiuum
+            <lb ed="#N" n="121"/>relatum ad deum. Commnissime prout comprehendit omnem actum bonum secundum
+            <lb ed="#N" n="122"/>quod dicitur. i. Thess. v. sine intermissione orate. dici glo. non cessat
+            <lb ed="#N" n="123"/>orare qui non cessat benefacere. Isto tercio modo sumitur in ratione
+            <lb ed="#N" n="124"/>obiecta. sed secundum quod primo modo sumitur intenditur hic de oratione. et propter
+            <lb ed="#N" n="125"/>hoc nihil est ad propositum quod obiectum est.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e590">
+            ⁋ hoc eodem modo
+            responden<lb ed="#N" n="126" break="no"/>dum est ad aliud quod obiicitur quod est actus multarum virtutum. potest
+            <lb ed="#N" n="127"/>dici quod est aliquo modo religionis. Est enim fidei imparantis.
+            Fi<lb ed="#N" n="128" break="no"/>des enim omnipotentie dei et essentialis bonitatis et summe
+            ardui<lb ed="#N" n="129" break="no"/>tatis imperat orare. hoc innuitur ex verbis glo. supraposite. que
+            <lb ed="#N" n="130"/>dicit. quod orandam est secundum magisterium fidei et humilitatis tanquam
+            <lb ed="#N" n="131"/>disponentis subiectum. Humilitas enim orantis orationem leuem
+            <lb ed="#N" n="132"/>efficit. et quasi habitam naturam ascendentis. vnde dicitur quod oratio
+            <lb ed="#N" n="133"/>humiliantis se nubes penetrat. reputat enim se insufficientem
+            <lb ed="#N" n="134"/>ideo orat. vnde augustinus si in potest ate haberet non peteret. prudentie
+            <lb ed="#N" n="135"/>est vt regulantis. religionis est inquantum est actus laudantis. in
+            <lb ed="#N" n="136"/>sticie quantum satisfactoria.
+          </p>
+        </div>
+        <div xml:id="v78d89-afzk9k-Dd1e617">
+          <head xml:id="v78d89-afzk9k-Hd1e619">Articulus 3</head>
+          <p xml:id="v78d89-afzk9k-d1e621">
+            <lb ed="#N" n="137"/>Articulus tercius
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e626">
+            <lb ed="#N" n="138"/>COnsequenter habito de oratione quod sit actus virtutis et
+            <lb ed="#N" n="139"/>actus spieitalis. queritur vtrum sit actus theologice. aut
+            <lb ed="#N" n="140"/>cardinalis. Quod theologice videtur sic. Augustinus d ciui.
+            <pb ed="#N" n="567"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>dei libr. x. ca. iiii. Sacrificamus deo hostiam humilitatis et laudis
+            <lb ed="#N" n="2"/>in ara cordis igne feruide caritatis. et sequitur. hic est dei
+            cul<lb ed="#N" n="3" break="no"/>tus. hec vera religio. hec recta pietas. hic plane habetur quod
+            <lb ed="#N" n="4"/>cultura interior nihil aliud est quam oratio. si cultura interior nihil
+            <lb ed="#N" n="5"/>aliud est quam oratio: ergo idem est oratio quod caritas vt videtur.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e650">
+            ⁋ Pret.
+            ca<lb ed="#N" n="6" break="no"/>ritas nihil videtur aliud esse quam amor siue desiderium boni. hoc
+            <lb ed="#N" n="7"/>idem est oratio vt ex dictis patet. ergo etc. hoc idem habetur ab augustinus
+            di<lb ed="#N" n="8" break="no"/>cente quod oratio est desiderium et caritas.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e659">
+            ⁋ Item nihil aliud est
+            ca<lb ed="#N" n="9" break="no"/>ritas quam voluntas boni. oratio autem nihil est aliud quam boni
+            adipi<lb ed="#N" n="10" break="no"/>scendi expressio. et si aliquando sit amouendi mali hoc est propter illud
+            <lb ed="#N" n="11"/>et ad illud ordinatum. sed voluntas alicuius et expressio eius eiusdem
+            <lb ed="#N" n="12"/>sunt virtutis: ergo oratio est actus caritatis vel eadem virtus quod
+            cari<lb ed="#N" n="13" break="no"/>tas.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e673">
+            ⁋ Pret. illa virtus theologica dicitur que non solum habet deum in
+            <lb ed="#N" n="14"/>ratione finis: sed obiecti. oratio est huiusmodi.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e678">
+            ⁋ Pret. illa virtus
+            theologi<lb ed="#N" n="15" break="no"/>ca dicitur que non habet superfluum in ascensu. virtus enim omnis cardinalis
+            <lb ed="#N" n="16"/>quia in medio consistit: superfluum habet in ascensu et diminutum in
+            <lb ed="#N" n="17"/>descensu. quorum neutrum perticipat virtutis theologice rationem. sed oratio
+            <lb ed="#N" n="18"/>est huiusmodi. quoniam quo plus et plus anima in oratione eleuatur: oratio melior
+            <lb ed="#N" n="19"/>et purior comprobatur.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e691">
+            ⁋ Pret. oratio pertinet ad impletionem primi prece
+            <lb ed="#N" n="20"/>pti vbi precipitur de vno deo adorando et colendo. sed precepta prime
+            <lb ed="#N" n="21"/>tabule theologicis virtutibus adimplentur: quia primum per fidem. secundum
+            <lb ed="#N" n="22"/>per spem. tercium per caritatem: ergo oratio adimpletur virtutibus
+            theologi<lb ed="#N" n="23" break="no"/>cis. sed actus habitum a quo elicitur implet: ergo oratio est actus
+            virtu<lb ed="#N" n="24" break="no"/>tis theologice.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e704">
+            ⁋ Contra. omnis actus virtutis theologice transit
+            <lb ed="#N" n="25"/>in deum vt obiectum. sed orare non transit in deum vt obiectum sed
+            poti<lb ed="#N" n="26" break="no"/>us in aliquid a deo obtinendum.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e711">
+            ⁋ Pret. omnis satisfactio
+            perti<lb ed="#N" n="27" break="no"/>net ad virtutem cardinalem. oratio est huiusmodi.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e716">
+            ⁋ Pret. oratione sanantur
+            pe<lb ed="#N" n="28" break="no"/>stes mentis. sed pestis mentis est superbia. ergo oratione sanatur superbia. sed
+            <lb ed="#N" n="29"/>contraria contrariis sanantur seu curantur secundum Greg. ergo est contraria
+            su<lb ed="#N" n="30" break="no"/>perbie. sed non contrariatur superbie nisi humilitas: ergo oratio est humilitas
+            <lb ed="#N" n="31"/>vel actus humilitatis. et ita actus virtutis cardinalis.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e728">
+            ⁋ Pre. orare
+            <lb ed="#N" n="32"/>non est credere nec sperare nec diligere. et non sunt plures actus
+            the<lb ed="#N" n="33" break="no"/>ologice: ergo vt prius.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e735">
+            ⁋ Pret. contingit orare superflue et
+            diminu<lb ed="#N" n="34" break="no"/>te. et debito modo cum debitis circumstantiis. scilicet quid quomo vel quando.
+            <lb ed="#N" n="35"/>Unde cum mater filiorum zebedei pro filiis suis peteret: dominus
+            respo<lb ed="#N" n="36" break="no"/>dit. nescitis quid petatis. Sed omnis virtus circa quam contingit esse
+            <lb ed="#N" n="37"/>superfluum. necessario est cardinalis. et ita vt prius.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e746">
+            ⁋ Responsio.
+            circa<lb ed="#N" n="38" break="no"/>hanc questionem diuersi diuersa sentiunt. Quidam enim dicunt quod
+            <lb ed="#N" n="39"/>oratio est virtutis cardinalis et species iusticie. Et ratio eorum est quod
+            si<lb ed="#N" n="40" break="no"/>cut in habitudine superioris ad inferius: ita vna virtus que est
+            vo<lb ed="#N" n="41" break="no"/>luntatis implendi preceptum. quia preceptum est. et ista est obedientia que
+            <lb ed="#N" n="42"/>est in genere virtutis cardinalis. sic in ordine inferioris ad
+            supe<lb ed="#N" n="43" break="no"/>rius est oratio que exprimit voluntatem boni impetrandi vel
+            mali<lb ed="#N" n="44" break="no"/>amouendi beneficio superioris. que et pari ratione poni debet in gene
+            <lb ed="#N" n="45"/>re virtutis cardinalis. sed ratio ista est minus sufficiens. et simile propositum
+            <lb ed="#N" n="46"/>non conuenit: quia oratio non impetrat debitum sicut obedientia.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e768">
+            ⁋ Pre.
+            <lb ed="#N" n="47"/>in obedientia non attenditur solummodo deus cui obediendum. sed homo
+            <lb ed="#N" n="48"/>scilicet praelatus qui est loco dei. et ideo necessario obedientia
+            respi<lb ed="#N" n="49" break="no"/>cit actum exteriorem. et ideo versatur circa actionem que est virtus
+            cardi<lb ed="#N" n="50" break="no"/>nalis. Pret. quia actionem illam attendit sub ratione debiti: ideo est
+            <lb ed="#N" n="51"/>iusticie specialis. hec autem non attenduntur in oratione. et intendo de
+            <lb ed="#N" n="52"/>oratione mentali que indebitum importat de sui ratione dico. neque
+            <lb ed="#N" n="53"/>actum exteriorem requirit. Pret. deum non tantum habet in fine finis sed
+            <lb ed="#N" n="54"/>obiecti. et quia non contingit excessum in oratione: non habet sub
+            virtu<lb ed="#N" n="55" break="no"/>te cardinali comprehendi.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e790">
+            ⁋ Aliter autem dicunt aliqui scilicet quod oratio
+            <lb ed="#N" n="56"/>est actus pietatis. que pietas et si aliquando complectatur fidem spem et
+            <lb ed="#N" n="57"/>caritatem. tamen si considerantur actus proprii illarum: videbitur bene quod ipsa
+            <lb ed="#N" n="58"/>aliqua illarum non est sed plus illis. nec actus eius illarum sed post
+            <lb ed="#N" n="59"/>illos. Unde quemadmodum dicunt latria radicatur in his tribus
+            <lb ed="#N" n="60"/>virtutibus: tamen vltra illas est. et habet actus exteriores vltra
+            <lb ed="#N" n="61"/>illarum actus. sicut exhibitionem sacrificii in altari: adorationem
+            <lb ed="#N" n="62"/>genuflectionem et huiusmodi. Unde si quereretur cuius virtutis sit
+            <lb ed="#N" n="63"/>actus adoratio: constat quod non est proprie actus fidei nec spei nec
+            <lb ed="#N" n="64"/>caritatis: sed pietatis siue latrie que habet illas tres
+            pri<lb ed="#N" n="65" break="no"/>mas. Sed dicunt quod ab illa pietate non solum egrediuntur
+            illi<lb ed="#N" n="66" break="no"/>exteriores. sed etiam interior que est oratio: que post considerationem
+            <lb ed="#N" n="67"/>defectuum nostrorum et potentie diuine que potest subuenire:
+            sapi<lb ed="#N" n="68" break="no"/>entie que nouit. et bonitatis que vult: orat vt suppleat
+            defe<lb ed="#N" n="69" break="no"/>ctus nostros. antecendunt ergo ille tres virtutes et earum actus
+            oratio<lb ed="#N" n="70" break="no"/>nem ad hoc vt sit meritoriam et efficax. Et quod ita sit: confirmant per
+            <lb ed="#N" n="71"/>verba Hugo. de orando deo qui dicit. non se homo ad deum
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>conuerteret per deuotionem: nisi crederet se ab eo saluari posse.
+            <lb ed="#N" n="73"/>et speraret eum misereri velle. postremo nisi eum plus. vt
+            supra<lb ed="#N" n="74" break="no"/>tactum est. Sed adhuc hec responsio est minus sufficiens. quia de
+            pie<lb ed="#N" n="75" break="no"/>tate cuius actus est oratio sicut dicunt. adhuc est questio vtrum sit
+            <lb ed="#N" n="76"/>cardinalis vel theologica. non cardinalis: quia proprie
+            respi<lb ed="#N" n="77" break="no"/>cit intentum vt obiectum. Pret. circa ipsam non contingit esse
+            ex<lb ed="#N" n="78" break="no"/>cessum. vnde transcendit conditiones virtutis cardinalis. Pret. si est
+            <lb ed="#N" n="79"/>theologica est consequens ad fidem spem et caritatem. ergo quatuor sunt
+            <lb ed="#N" n="80"/>virtutes theologice. quod directe est contra sanctos.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e849">
+            ⁋ Propter
+            <lb ed="#N" n="81"/>hoc videtur aliter dicendum. potest enim dici quod oratio est actus
+            specia<lb ed="#N" n="82" break="no"/>lis. non tamen est actus virtutis specialis: quia est actus fidei
+            spei<lb ed="#N" n="83" break="no"/>et caritatis. que simul concurrunt ad eliciendum istum actum.
+            <lb ed="#N" n="84"/>a fide enim incipit: et in caritate terminatur. prout dicit augustinus ad
+            <lb ed="#N" n="85"/>probam de orando deo. tanto illud quod valde magnum est (quod
+            <lb ed="#N" n="86"/>oculus non vidit. quia non est color. nec auris audiuit quia non
+            <lb ed="#N" n="87"/>est sonus. nec in cor hominis ascendit quia cor hominis illud debet
+            <lb ed="#N" n="88"/>ascendere) sumemus capacius: quanto illud est fidelius: credimus
+            <lb ed="#N" n="89"/>et speramus firmius: et desideramus ardentius. In ipsa enim fide
+            <lb ed="#N" n="90"/>spe et caritate continuato desiderio semper oramus. hec ille. Ex
+            <lb ed="#N" n="91"/>his patet quod oratio sit harum trium: consequens ad actus earum
+            <lb ed="#N" n="92"/>principalis. concedendum est ergo quod oratio sit actus virtutis
+            <lb ed="#N" n="93"/>theologice: sed non vnius sed trium. Si queratur cum fidei sit
+            <lb ed="#N" n="94"/>tendere in summam veritatem. spei in summam maiestatem. caritatis
+            <lb ed="#N" n="95"/>in summam bonitatem. et oratio nullum horum sit: quomo actus erit ista
+            <lb ed="#N" n="96"/>rum virtutum. Pret. quando erit specialis et elicitur in his
+            virtuti<lb ed="#N" n="97" break="no"/>bus concurrentibus in vnum. Dicendum quod orare non est actus
+            prin<lb ed="#N" n="98" break="no"/>cipalis sed secundarius istarum virtutum. et ideo non est aliquis
+            <lb ed="#N" n="99"/>predictarum sed illos subsequens. quia pluralitatem actuum
+            principa<lb ed="#N" n="100" break="no"/>lium sequitur plurificatio habituum non actum consequentium. ideo
+            <lb ed="#N" n="101"/>oratio potest ab his tribus virtutibus elici. et tamen manebit
+            specia<lb ed="#N" n="102" break="no"/>lis actus.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e900">
+            ⁋ Ad illud quod obiicitur. quod oratio non transit in deum
+            <lb ed="#N" n="103"/>vt in obiectum etc. Dicendum quod hoc non est verum. quia secundum Hug.
+            <lb ed="#N" n="104"/>obiectum orationis est summe potens. summe sapiens. summe bonum
+            <lb ed="#N" n="105"/>neque enim (sicut dicit homo per deuotionem se conuerteret ad deum
+            <lb ed="#N" n="106"/>nisi crederet se ab eo saluari posse etc. vt supra. Aliquid autem
+            <lb ed="#N" n="107"/>impetrandum est bene in oratione et quodammodo obiectum. sed
+            <lb ed="#N" n="108"/>hoc non est primo sed secundo. et illud non minuit virtutis
+            theo<lb ed="#N" n="109" break="no"/>logice rationem. quod manifeste apparet in caritate et fide
+            profun<lb ed="#N" n="110" break="no"/>dius intuenti. sed illud non videtur illud soluere sufficienter:
+            <lb ed="#N" n="111"/>quia nostri defectus maxime videntur nos mouere ad orandum. et
+            <lb ed="#N" n="112"/>omne illud quod tenet principaliter rationem mouentis et obiecti.
+            <lb ed="#N" n="113"/>ergo et oratio aliud videtur habere pro obiecto. Dicendum adhuc
+            <lb ed="#N" n="114"/>secundum Hugo. in principio de orando deo. quod licet duo sint que
+            mo<lb ed="#N" n="115" break="no"/>ueant hominem ad orandum propria miseria et diuina misericor
+            <lb ed="#N" n="116"/>dia: vnde dicit quo studio quo affectu orandum sit deus: ex
+            no<lb ed="#N" n="117" break="no"/>stra miseria et eius simul misericordia considerare possumus. cum mise
+            <lb ed="#N" n="118"/>ricordia diuina tenet in his duobus principatum. et se habet in
+            <lb ed="#N" n="119"/>ratione principaliter mouentis. siue vt melius dicitur in ratione mouen
+            <lb ed="#N" n="120"/>tis. miseria autem propria in oratione excitantis. vnde adhuc
+            ad<lb ed="#N" n="121" break="no"/>dit Hug. quid enim hominem ad orandi studium efficacius
+            excita<lb ed="#N" n="122" break="no"/>ret quam miseria et calamitas tantorum malorum quibus addictus
+            <lb ed="#N" n="123"/>premitur. Et quid iocundius ad effectum orandi traheret quam
+            miseri<lb ed="#N" n="124" break="no"/>cordia conditoris quam inter mala sua totiens erperitur. hec
+            hu<lb ed="#N" n="125" break="no"/>go. Illud autem quod solum est excitans obiecti proprie non tenet
+            ra<lb ed="#N" n="126" break="no"/>tionem. Aliter potest dici sed satis in idem redit. quod obiectum
+            ali<lb ed="#N" n="127" break="no"/>cuius habet determinari dupliciter. aut communiter: aut proprie. siue per
+            <lb ed="#N" n="128"/>se et per accidens. Illud enim dicitur obiectum commune hoc est secundum
+            comu<lb ed="#N" n="129" break="no"/>nem acceptionem et obiectum per accidens: quod habet rationem
+            mate<lb ed="#N" n="130" break="no"/>rialis. Illud vero dicitur obiectum proprie et per se: quod habet rationem
+            mo<lb ed="#N" n="131" break="no"/>tiui secundum hanc viam in oratione possumus dicere quod miseria
+            releuan<lb ed="#N" n="132" break="no"/>da et alia impetranda tenent materialem rationem. Ipsa autem mise
+            <lb ed="#N" n="133"/>ricordia diuina obiectum proprie rationi.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e970">
+            ⁋ Ad illud quod obiicitur
+            <lb ed="#N" n="134"/>quod satisfactio pertinet ad virtutem cardinalem etc. potest dici
+            reuera<lb ed="#N" n="135" break="no"/>quod oratio secundum quod est satisfactoria est actus virtutis cardinalis. et
+            vir<lb ed="#N" n="136" break="no"/>tutis specialis. scilicet iusticie quod infra plenius patebit. sed de hac
+            <lb ed="#N" n="137"/>materia non intenditur.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e981">
+            ⁋ Ad illud quod obiicitur. quod oratione
+            sanam<lb ed="#N" n="138" break="no"/>tur pestes mentis etc. potest dici vt supra tactum est quod pestes mem
+            <lb ed="#N" n="139"/>tis non dicuntur peccata principalia vt superbia etc. sed potius
+            reli<lb ed="#N" n="140" break="no"/>quie peccatorum. vel potest dici quod sunt occasiones materiales. vt
+            su<lb ed="#N" n="141" break="no"/>pra tactum est. communissime autem sumitur secundum quod illa sanantur pestes
+            <lb ed="#N" n="142"/>mentis. prout pestis peccata principalia dicuntur. Unde super illud
+            <pb ed="#N" n="568"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Math. xvii. hoc genus demoniorum etc. oratio generalis est. non
+            so<lb ed="#N" n="2" break="no"/>lum verbis: sed et omnibus que in obsequium dei fidei deuotione
+            geri<lb ed="#N" n="3" break="no"/>mus. sed hic non intenditur de oratione. neque tercio modo. neque secundo
+            <lb ed="#N" n="4"/>modo sumpta. vnde argumentum predictum nihil valet ad propositum.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e1007">
+            <lb ed="#N" n="5"/>⁋ Ad illud quod obiicitur. quod orare non est credere etc. dicendum quod hoc
+            <lb ed="#N" n="6"/>non est verum: sed consequens ad illas. est enim actus trium virtutum theolo
+            <lb ed="#N" n="7"/>gicarum. non principalis. sed potius consequens ad illas vt tactum est.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e1016">
+            <lb ed="#N" n="8"/>⁋ Ad illud quod omnis actus virtutis circa quem contingit esse supefluum est
+            <lb ed="#N" n="9"/>actus cardinalis: potest dici quod actus virtutis potest habere modum
+            debi<lb ed="#N" n="10" break="no"/>tum dupliciter. autm per aggregationem circumstantiarum: aut ex
+            medita<lb ed="#N" n="11" break="no"/>tione inter superfluum et diminatum. primo modo omnis virtus merito
+            <lb ed="#N" n="12"/>ria tam theologica quam cardinalis in actu suo debet habere modum:
+            <lb ed="#N" n="13"/>quia nullus actus est laudabilis nisi ad deum concurrant debite
+            cir<lb ed="#N" n="14" break="no"/>cumstantie. vnde etiam dominus modum in diligendo determinat Math. xxii.
+            <lb ed="#N" n="15"/>Secundo autem modo sola virtus cardinalis in suo actu habet modum. et
+            <lb ed="#N" n="16"/>hoc consistit circa obiectum causatum. et ideo habet tenere necessa
+            <lb ed="#N" n="17"/>rio medium inter superfluum et diminutum.
+          </p>
+          <p xml:id="v78d89-afzk9k-d1e1040">
+            ⁋ Hoc autem quod obiicitur
+            <lb ed="#N" n="18"/>quod contingit orare superflue etc. dicendum quod hoc non est verum. quia non
+            <lb ed="#N" n="19"/>contingit excessum esse in orando. sicut nec in credendo. sperando
+            di<lb ed="#N" n="20" break="no"/>ligendo. Similiter nec diminutionem prout dicit extremum. scilicet vicium.
+            <lb ed="#N" n="21"/>superfluam enim vel diminutum non cadunt in oratione prout vicium dicunt
+            <lb ed="#N" n="22"/>quia quantumcumque parum vel multum quis orat: actus orandi laudabi
+            <lb ed="#N" n="23"/>lis est. dummodo fiat cum debitis circunstantiis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

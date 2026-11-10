@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 89, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 89, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="570"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ag4cdj"><!-- q89m3 -->
+        <head xml:id="v78d89-ag4cdj-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ag4cdj-Hd1e103" type="question-title">De divisione quam ponit Ambro</head>
+        <p xml:id="v78d89-ag4cdj-d1e106">
+          <lb ed="#N" n="123"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-ag4cdj-d1e111">
+          <lb ed="#N" n="124"/>COnsequenter queritur de diuisione quam ponit
+          Am<lb ed="#N" n="125" break="no"/>bro. Diuidit enim orationem in dei laudem. supplicatio
+          <lb ed="#N" n="126"/>nem. postulationem et gratiarumactionem. Sed queritur quomo
+          <lb ed="#N" n="127"/>laus ponitur inter species orationis: cum nihil in ea
+          <lb ed="#N" n="128"/>petatur. petitio enim oris vel est pro malis amouendis. vel bonis
+          <lb ed="#N" n="129"/>adipiscendis. sed laus non dicitur respectu huiusmodi vel illius: sed potius
+          <lb ed="#N" n="130"/>est manifestatio summi boni. habetur in glo. super psalmus. exaltabo
+          te<lb ed="#N" n="131" break="no"/>deus meus rex.
+        </p>
+        <p xml:id="v78d89-ag4cdj-d1e131">
+          ⁋ Pret. queritur de differentia inter supplicationem et
+          po<lb ed="#N" n="132" break="no"/>stulationem. et videtur quod non sit differentia. quoniam qui supplicat rogat
+          <lb ed="#N" n="133"/>iudicem vt eum attente audiat. et idem facit qui postulat. ergo non
+          <lb ed="#N" n="134"/>differunt vt videtur.
+        </p>
+        <p xml:id="v78d89-ag4cdj-d1e141">
+          ⁋ Pret. queritur quomo differunt ista membra et
+          qua<lb ed="#N" n="135" break="no"/>liter adinuicem distiguuntur.
+        </p>
+        <p xml:id="v78d89-ag4cdj-d1e146">
+          ⁋ Responsio. ad hoc potest dici quod Am
+          <lb ed="#N" n="136"/>bro. sicut pretactum est non solum considerat orationem quantum ad ordinem
+          <lb ed="#N" n="137"/>petitorum. sic enim accipit apostolus: sed secundum modum petendi. modus autem
+          <lb ed="#N" n="138"/>hic est. vt ipse deus qui petitur sit in duplici causalitate respctu
+          <lb ed="#N" n="139"/>orationis. scilicet et sicut motiuum: et sicut finis. et ideo dicit ipse quod oratio
+          <pb ed="#N" n="571"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>nostera debet incipe a laude dei. et sic est species prima vt ostendatur
+          <lb ed="#N" n="2"/>ipse deus principium omnis boni in nobis. debet etiam terminari in
+          lau<lb ed="#N" n="3" break="no"/>dem dei vt etiam ostendatur esse finis: et sic est gratiarumactio. in medio
+          <lb ed="#N" n="4"/>autem ponit duas species que sic distinguuntur. Cum enim aliquis intendit
+          <lb ed="#N" n="5"/>rogare aliquem. primum est vt petat beniuole audiri.
+          beniuolen<lb ed="#N" n="6" break="no"/>tia autem obtenta sequitur secundum. vt dicat petitionem intentum. et
+          <lb ed="#N" n="7"/>secundum hoc sunt due species supplicatio que petit beniuolentiam: et
+          po<lb ed="#N" n="8" break="no"/>stulatio que continet petitionis expressionem. Et extendit se
+          postula<lb ed="#N" n="9" break="no"/>tio et respectu mali amouendi et boni adipiscendi. Ex iam
+          di<lb ed="#N" n="10" break="no"/>ctis patet ordo istarum specierum. quia enim secundum modum petendi attendi
+          <lb ed="#N" n="11"/>debet in primis ipse deus vt principium omnis boni in nobis: ideo primo
+          lo<lb ed="#N" n="12" break="no"/>co ponitur laus et precedit omnes alias. Pret. prius est captare
+          beni<lb ed="#N" n="13" break="no"/>uolentiam. qua obtenta intentam petitionem exprimere: et ideo species
+          <lb ed="#N" n="14"/>secunda ponitur ante terciam. vltimo ponitur gratiarumactio. quia tunc oratio
+          <lb ed="#N" n="15"/>in laudem dei terminatur quando ei redduntur gratie de bonis iam acceptis
+          <lb ed="#N" n="16"/>per hoc patet solutio ad vltimum.
+        </p>
+        <p xml:id="v78d89-ag4cdj-d1e196">
+          ⁋ Quod autem primo obiicitur quod laus
+          <lb ed="#N" n="17"/>sub oratione non continetur. Dicendum quod et si non contineatur quantum ad
+          <lb ed="#N" n="18"/>rationem petitorum: continetur tamen quantum ad modum petendi. secundum quod iam
+          <lb ed="#N" n="19"/>dictum est quod orans laudare debet deum et in principio et in fine
+          <lb ed="#N" n="20"/>patet similiter tercium quomo supplicatio et postulatio differunt
+          <lb ed="#N" n="21"/>et distinguuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

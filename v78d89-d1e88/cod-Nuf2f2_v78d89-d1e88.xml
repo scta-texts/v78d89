@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="1"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-d1e88"><!-- q1m2 -->
+        <head xml:id="v78d89-d1e88-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-d1e88-Hd1e103" type="question-title">Quae sit necessitas sacramentorum</head>
+        <p xml:id="v78d89-d1e88-d1e106">
+          <lb ed="#N" n="117"/>Membrum secundum.
+        </p>
+        <p xml:id="v78d89-d1e88-d1e111">
+          <lb ed="#N" n="118"/>Circa secundum sic est procedendum. Primo
+          que<lb ed="#N" n="119" break="no"/>ritur. vtrum necessaria essent in statu innocentie.
+          <pb ed="#N" n="2"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>Secundo vtrum in statu nature lapse. Tercio. que sit
+          <lb ed="#N" n="2"/>vtilitas ipsorum in statu nature lapse.
+        </p>
+        <div xml:id="v78d89-d1e88-Dd1e127">
+          <head xml:id="v78d89-d1e88-Hd1e129">Articulus 1</head>
+          <p xml:id="v78d89-d1e88-d1e131">
+            <lb ed="#N" n="3"/>⁋ Articulus primus.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e136">
+            <lb ed="#N" n="4"/>Circa primum sic videtur quod non sit necessitas in statu
+            <lb ed="#N" n="5"/>innocentie. Sacramenta enim sicut dicit Hugo. vasa sunt
+            me<lb ed="#N" n="6" break="no"/>dicinalia. Dicit enim Deus medicus. homo egrotus. gratia
+            <lb ed="#N" n="7"/>medicina. vas sacramentum. Non existente autem morbo non est necessarium vas
+            <lb ed="#N" n="8"/>medicinale pro homini. In statu autem innocentie non erat
+            mor<lb ed="#N" n="9" break="no"/>bus. non ergo fuit in statu illo vas medicinale. ergo nec sacramentum.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e152">
+            <lb ed="#N" n="10"/>⁋ Preterea. necessitas sacramentorum est ad reparationem lapsus per peccatum.
+            <lb ed="#N" n="11"/>vnde dicit Hugo. quia visibilia homo concupiscens corruptus fuerat:
+            <lb ed="#N" n="12"/>congrue reparandus in his visibilibus occasionem recipere
+            debe<lb ed="#N" n="13" break="no"/>bat. vt per eadem resurgeret per quem grauiter corruerat. In
+            sta<lb ed="#N" n="14" break="no"/>tu autem innocentie non fuit lapsus sed post. ergo in statu innocentie
+            <lb ed="#N" n="15"/>non fuerunt necessaria sacramenta.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e168">
+            ⁋ Item ad idem. in statu innocentie quasi
+            <lb ed="#N" n="16"/>immediate iungebatur homo deo. ergo non indigebat visibili
+            me<lb ed="#N" n="17" break="no"/>dio per quod adhereret deo qui est inuisibilis. sed sacramenta sunt
+            me<lb ed="#N" n="18" break="no"/>dia sensibilia et maxime visibilia. ergo non indigebat in statu
+            in<lb ed="#N" n="19" break="no"/>nocentie sacramentis.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e180">
+            ⁋ Item sacramenta dicuntur sacre rei signa. sacra autem
+            <lb ed="#N" n="20"/>illa res ad quam omnia ordinabantur erat Christus: secundum quod dicit augustinus
+            <lb ed="#N" n="21"/>in libro de ciuitate dei. hoc misterium vite eterne ab exordio humani
+            <lb ed="#N" n="22"/>generis per quedam signa et sacramenta temporibus congrua quibus oportuit
+            <lb ed="#N" n="23"/>predicatum est. misterium autem vite eterne christum designat.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e191">
+            ⁋ Item
+            <lb ed="#N" n="24"/>augustinus. contra faustum. prima sacramenta que obseruabantur prenunciaria alias
+            pre<lb ed="#N" n="25" break="no"/>miciaria erant christi venturi.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e198">
+            ⁋ Item in libro de cathecizandis
+            ru<lb ed="#N" n="26" break="no"/>dibus. Signa erant rerum spiritualium ad christum et ad eccelsiam
+            perti<lb ed="#N" n="27" break="no"/>nentium. Si autem non cecidisset homo per peccatum: non erat necessaria
+            repa<lb ed="#N" n="28" break="no"/>ratio. et ita nec reparator inquantum huiusmodi. Sacramenta autem ad sacram
+            <lb ed="#N" n="29"/>rem scilicet reparatorem referuntur. ergo non essent necessaria in statu innocentie.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e209">
+            <lb ed="#N" n="30"/>⁋ Item secundum statum illlum transiret homo ad immortalitatem
+            glorio<lb ed="#N" n="31" break="no"/>sam non mediante morte. sacrificia autem que et sacramenta dicta sunt:
+            <lb ed="#N" n="32"/>ordinata fuerunt ad vnam victimam per quam fieret nostre
+            mor<lb ed="#N" n="33" break="no"/>talitatis immutatio. secundum quod dicit augustinus. contra faustum. huius
+            sacri<lb ed="#N" n="34" break="no"/>ficii promissiuas figuras in victimis animalium celebrari
+            opor<lb ed="#N" n="35" break="no"/>tebat propter commendationem future carnis et sanguinis propter quam
+            <lb ed="#N" n="36"/>unam victimam fieret remissio peccatorum de carne et sanguine
+            <lb ed="#N" n="37"/>contractorum qui regnum dei non possidebunt. Eadem autem substantia
+            cor<lb ed="#N" n="38" break="no"/>poris in celestem mutabitur qualitatem quod ignis in sacrificio
+            si<lb ed="#N" n="39" break="no"/>gnificabat absorbens mortem in victoria. Cum ergo sacrificia
+            <lb ed="#N" n="40"/>que et sacramenta ordinantur ad illam immutationem
+            immortalita<lb ed="#N" n="41" break="no"/>tis. in statu autem primo non sit necessarium huiusmodi: non erant in
+            sta<lb ed="#N" n="42" break="no"/>tu primo necessaria sacramenta.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e240">
+            ⁋ Contra. super illud iii. galatas. An ex
+            <lb ed="#N" n="43"/>operibus legis spiritum accipistis. Glo. omne sacramentum cum
+            intel<lb ed="#N" n="44" break="no"/>ligitur: vel est ad contemplationem veritatis: vel ad bonos
+            mo<lb ed="#N" n="45" break="no"/>res refertur. Contemplatio veritatis in solius dei cognitione
+            <lb ed="#N" n="46"/>et dilectione dei fundata est. Boni vero mores in dilectione
+            <lb ed="#N" n="47"/>proximi. Cum isti fines attendantur in statu innocentie erant
+            sa<lb ed="#N" n="48" break="no"/>cramenta que per se ordinantur in illos fines necessaria in statu
+            inno<lb ed="#N" n="49" break="no"/>centie.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e258">
+            ⁋ Item sacramentorum vna vtilitas est eruditio. vt per illud
+            <lb ed="#N" n="50"/>quod foris in sacramento est: ad inuisibilem virtutem que intus in re
+            sa<lb ed="#N" n="51" break="no"/>cramenti constat cognoscendam mens humana erudiatur. sed huiusmodi
+            <lb ed="#N" n="52"/>cognitio inuisibilium per visibilia etiam in illo statu
+            videba<lb ed="#N" n="53" break="no"/>tur necessaria. Adhuc enim homo animalis erat: et per sensibilia
+            <lb ed="#N" n="54"/>ad intelligibilia ascendebat. secundum quod dicit beatus Bernardus.
+            Accola<lb ed="#N" n="55" break="no"/>terre sic ex consideratione sensibilium proficiens gradatim ad
+            <lb ed="#N" n="56"/>intelligibilia nitebatur peruenire. ergo sacramenta cum sint necessria ad
+            <lb ed="#N" n="57"/>huiusmodi eruditionem: in primo statu erant necessaria.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e279">
+            ⁋ Item
+            ma<lb ed="#N" n="58" break="no"/>trimonium institutum fuit in paradiso in statu innocentie.
+            ma<lb ed="#N" n="59" break="no"/>trimonium autem fuit signum conuentionis diuine nature et
+            huma<lb ed="#N" n="60" break="no"/>ne. ergo sacramenta etiam in illo tempore erant necessaria. Institutio enim
+            di<lb ed="#N" n="61" break="no"/>uina non imponebat necessitatem peccati.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e290">
+            ⁋ Item sacramentum
+            eukari<lb ed="#N" n="62" break="no"/>stie significat comunionem caritatis que est in membris eccelesie ad
+            <lb ed="#N" n="63"/>deum et in inuicem. sed hec intelligentia tunc temporis fuit necessaria
+            <lb ed="#N" n="64"/>sicut et finis tunc querebatur. ergo et sacramentum quod ad talem finem
+            <lb ed="#N" n="65"/>est ordinatum tunc fuit necessarium.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e301">
+            ⁋ Item si nunquam est lapsus
+            <lb ed="#N" n="66"/>hominis: cum natura non potest de se attingere ad ea que fidei
+            <lb ed="#N" n="67"/>Sunt: necessaria essent illi que ad fidem informarent. sacramenta autem
+            <lb ed="#N" n="68"/>sunt huiusmodi.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e310">
+            ⁋ Item in omni statu vie duo sunt necessaria ad
+            <lb ed="#N" n="69"/>salutem scilicet fides et mores. ergo et necessaria sunt in omni statu
+            re<lb ed="#N" n="70" break="no"/>gulantia in moribus scilicet precepta: et informantia in fide scilicet
+            sa<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>cramenta. ergo sicut in primo statu necessaria erant precepta:
+            <lb ed="#N" n="72"/>similiter et sacramenta.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e322">
+            ⁋ Item matrimonium ante lapsum fuit
+            in<lb ed="#N" n="73" break="no"/>stitutum in sacramentum vt officium: post lapsum in
+            reme<lb ed="#N" n="74" break="no"/>dium. Similiter videtur de circumcisione quod debuit ante lapsum
+            <lb ed="#N" n="75"/>institui in sacramentum scilicet circumcisionis omnis defectus in
+            glo<lb ed="#N" n="76" break="no"/>rificatione corporum post lapsum in remedium originalis.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e333">
+            <lb ed="#N" n="77"/>⁋ Si diceretur quod hoc fieri non debuit: quia circumcisio
+            pe<lb ed="#N" n="78" break="no"/>nam habet que non debet precedere culpam. Contra. non dico
+            <lb ed="#N" n="79"/>quod exerceretur actus circumcisionis sed solummodo institueretur.
+            <lb ed="#N" n="80"/>sicut matrimonium fuit institutum in officium: et inquantum huiusmodi
+            <lb ed="#N" n="81"/>fuit sacramentum vnionis duarum naturarum in christo. Numquam tamen in
+            sta<lb ed="#N" n="82" break="no"/>tu illo fuit accessus primorum parentum ad obsequium illud.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e350">
+            <lb ed="#N" n="83"/>⁋ Preterea. quare non fuit tunc institutum sacramentum
+            confirmati<lb ed="#N" n="84" break="no"/>onis in signum vnctionis christi. et ordinis in signum
+            sacerdo<lb ed="#N" n="85" break="no"/>tii christi.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e359">
+            ⁋ Ad hoc dici potest. quod sacramenta ordinata sunt ad
+            in<lb ed="#N" n="86" break="no"/>tellectum gratie et ad remedium quod per gratiam datur. Quantum ergo
+            <lb ed="#N" n="87"/>ad hoc quod ordinata sunt in remedium: non sunt necessaria in
+            sta<lb ed="#N" n="88" break="no"/>tu innocentie. quantum uero ad hoc quod ordinata sunt ad
+            intel<lb ed="#N" n="89" break="no"/>lectum: quia adiuncta erant ad intellectum gratie
+            remediali<lb ed="#N" n="90" break="no"/>tatis: nec sic fuerunt necessaria. Si vero in eis fuit intelligentia
+            <lb ed="#N" n="91"/>gratie alicuius perficientis ipsam naturam stantem: sic possunt dici
+            <lb ed="#N" n="92"/>necessaria.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e377">
+            ⁋ Ad obiecta ergo respondendum est: et ad prima obiecta
+            <lb ed="#N" n="93"/>sic. quod omnia illa referuntur vel ad remedium: vel ad
+            remedi<lb ed="#N" n="94" break="no"/>atorem: vel ad illud per quod est remedium: vel ad illud propter quod
+            <lb ed="#N" n="95"/>est remedium. et ideo secundum illam vtilitatem non fuerunt necessaria
+            sa<lb ed="#N" n="96" break="no"/>cramenta in statu innocentie. Aliam tamen habebant vtilitatem vt
+            <lb ed="#N" n="97"/>tactum est. quia ducebant ad intellectum gratie perficientis.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e390">
+            <lb ed="#N" n="98"/>⁋ Quod autem obiicitur quod tunc temporis non erant necessaria signa
+            sensi<lb ed="#N" n="99" break="no"/>bilia vt per que ducatur homo ad noticiam inuisibilium. potest dici
+            <lb ed="#N" n="100"/>quod in illo statu poterat homo dupliciter cognoscere
+            inuisibi<lb ed="#N" n="101" break="no"/>lia. et secundum modum intelligibilem: et secundum modum sensibilem
+            du<lb ed="#N" n="102" break="no"/>centem ad intellectum. et ex vna parte non fuerunt necessaria signa
+            <lb ed="#N" n="103"/>que dicuntur sacramenta. ex altera parte poterant esse necessaria quo
+            <lb ed="#N" n="104"/>ad aliquem intellectum: et quo ad alium non necessaria. Nam secundum
+            <lb ed="#N" n="105"/>quod respiciebant gratiam remediantem non erant necessaria. secundum autem
+            <lb ed="#N" n="106"/>quod aliqua respiciebant gratiam vnientem poterant esse
+            necessa<lb ed="#N" n="107" break="no"/>ria.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e414">
+            ⁋ Ad illud quod primo obiectum est ex altera parte. quod omne
+            <lb ed="#N" n="108"/>sacramentum est ad contemplationem veritatis vel referetur ad bonos
+            <lb ed="#N" n="109"/>mores. Dicendum quod hoc intelligendum est de veritate gratie
+            <lb ed="#N" n="110"/>reparantis et de bonis moribus qui faciunt ad reparationem.
+            <lb ed="#N" n="111"/>Circumcisio sacramentum fuit ad intelligendum
+            circumcisio<lb ed="#N" n="112" break="no"/>nem spiritualem in presenti que est a culpa: et in futuro que est a
+            <lb ed="#N" n="113"/>pena siue miseria. Sabbatum similiter ad cessationem ab opere
+            <lb ed="#N" n="114"/>seruili peccati in presenti: et ad quietem eternam in futuro. secundum quod
+            <lb ed="#N" n="115"/>dicitur vltimo. Ysaie. Erit sabbatum ex sabbato. et ita intelligendum
+            <lb ed="#N" n="116"/>est de aliis sacramentis.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e436">
+            ⁋ Ad secundum vero dicendum. quod licet
+            sa<lb ed="#N" n="117" break="no"/>cramenta instituta essent ad eruditionem: non tamen ad
+            <lb ed="#N" n="118"/>quamcunque noticiam: sed ad illam que est gratie reparantis. vt
+            <lb ed="#N" n="119"/>sic homo tenderet secundum huiusmodi signa ad reparationem sui
+            la<lb ed="#N" n="120" break="no"/>psus.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e448">
+            ⁋ Ad tercium vero dicendum. quod matrimonium in statu
+            in<lb ed="#N" n="121" break="no"/>nocentie institutum fuit ad officium: sed postea cessint in
+            re<lb ed="#N" n="122" break="no"/>medium originalis concupiscentie. Si vero fuit ad intellectum
+            vni<lb ed="#N" n="123" break="no"/>onis diuine nature cum humana. hoc poterat esse quo ad hoc
+            <lb ed="#N" n="124"/>quod per eam facta est reparatio. et sic non esset matrimonium
+            pro<lb ed="#N" n="125" break="no"/>ut sacramentum huiusmodi est rei sacre designatiuum in statu
+            in<lb ed="#N" n="126" break="no"/>nocentie. Si vero incarnatio futura esset ad completionem
+            <lb ed="#N" n="127"/>vniuersitatis etiam in statu primario. secundum hoc matrimonium
+            fu<lb ed="#N" n="128" break="no"/>isset sacramentum. hoc est sacre rei signum in statu innocentie.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e468">
+            ⁋ Ad
+            <lb ed="#N" n="129"/>quartum vero dicendum. quod licet sacramentum eukaristie signum esset comunionis
+            <lb ed="#N" n="130"/>membrorum ecclesie que est in caritate. tamen hoc fuit
+            me<lb ed="#N" n="131" break="no"/>diante corpore christi vero. et illud sacramentum prout
+            ordina<lb ed="#N" n="132" break="no"/>tum est ad conseruationem vite spiritualis anime labentis tamquam
+            nu<lb ed="#N" n="133" break="no"/>trimentum spirituale. vel ad deletionem venialium peccatorum. non esset
+            <lb ed="#N" n="134"/>necessarium in statu innocentie. cum anima non esset debilitata per
+            pec<lb ed="#N" n="135" break="no"/>catum. nec in veniale peccatum incidisset. Si tamen vnio
+            di<lb ed="#N" n="136" break="no"/>uine nature cum humana etiam si homo stetisset facta esset ad
+            <lb ed="#N" n="137"/>completionem humane nature: secundum hoc sacramentum
+            eu<lb ed="#N" n="138" break="no"/>karistie quo ad aliquem finem posset esse necessarium
+            <lb ed="#N" n="139"/>in statu innocentie. ex scripturis tamen sacris non
+            ple<lb ed="#N" n="140" break="no"/>ne est istud manifestum. Unde illi parti magis adhereo.
+            <lb ed="#N" n="141"/>quod sacramenta statu nature lapse respiciunt. Unde
+            <pb ed="#N" n="3"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>melius videtur aliter dicendum. Non ergo quod limpidior erat cognitio
+            <lb ed="#N" n="2"/>humana in statu innocentie quod nunc. anima enim ex culpa sua cecata
+            <lb ed="#N" n="3"/>est in se. vnde. i. dis. iiii. sententiarum. Dico qui ante peccatum deum sine medio
+            vi<lb ed="#N" n="4" break="no"/>debat. per peccatum habuit vt nequeat diuina capere nisi humanis ex
+            <lb ed="#N" n="5"/>citatus. preterea ex corruptione corporis aggrauatur. Corpus enim quod
+            <lb ed="#N" n="6"/>corrumpitur aggrauat animam. Sapientie. ix. vnde non ea libertate conuertit
+            <lb ed="#N" n="7"/>se ad prima lucem que in primo statu. Preterea impeditur aspectus eius
+            <lb ed="#N" n="8"/>per intentionem in opera sensitiue vel vegetatiue nunc magis quod tunc.
+            <lb ed="#N" n="9"/>Preterea ex pronitate concupiscentie corrupte quantum est de ipsa natura
+            <lb ed="#N" n="10"/>non subleuata spatiali gratia: ponit ipsa anima vmbram creaturarum inter
+            <lb ed="#N" n="11"/>se et primam lucem. propter quod minus limpide videt illam. Unde hugo.
+            <lb ed="#N" n="12"/>postquam per concupiscentiam abstractus a superiore auertebatur ad
+            inferi<lb ed="#N" n="13" break="no"/>ora conuersus precipitabatur. et illi se subiiciebat quod bonum suum
+            <lb ed="#N" n="14"/>faciebat vt iam ipsum inter se et deum medium inueniat. hoc enim medio
+            <lb ed="#N" n="15"/>diuidente humana mens obnubilatur ne creatorem suum cognoscere
+            <lb ed="#N" n="16"/>valeat. hec Hugo. Nihilominus referendo creaturam ad suam
+            <lb ed="#N" n="17"/>causam et non ponendo in illis terminum aspectus: fit manducatio
+            <lb ed="#N" n="18"/>ad creatorem per creaturas. Quibus his modis et causis humana
+            <lb ed="#N" n="19"/>anima post lapsum obtenenbrata est. propter que maxime indiget
+            manudu<lb ed="#N" n="20" break="no"/>ctionem creaturarum ad hoc quod cognoscat suum creatorem. Non sic fuit de
+            <lb ed="#N" n="21"/>homine in primo statu: cuius cognitio valde excellebat illam que est fidei
+            <lb ed="#N" n="22"/>modernorum. Cognitio enim primi hominis media fuit inter illam que est
+            <lb ed="#N" n="23"/>contemplationis in specie: et visionis fidei siue enigmatice. vnde
+            di<lb ed="#N" n="24" break="no"/>ci potest. quod visio hominis inquantum convertebatur ad creatorem suum proprie
+            <lb ed="#N" n="25"/>fuit per speculum. Speculum autem secundum Hugonem. dicitur cor si mundum fuerit
+            <lb ed="#N" n="26"/>et extersum et clarificatum. non autem per enigma sensus. sicut enim in
+            pa<lb ed="#N" n="27" break="no"/>tria licet create que sunt ad imaginem dei possent ducere in
+            cogni<lb ed="#N" n="28" break="no"/>tionem dei: tamen deus per se erit ratio et causa videndi. quia illi totaliter
+            inni<lb ed="#N" n="29" break="no"/>titur cognitiua intellectualis. sic erat quodammodo in primo statu: licet
+            <lb ed="#N" n="30"/>enigma sensus et sensibilium dictiuum sint in cognitionem creato
+            <lb ed="#N" n="31"/>ris: tamen quia homo fuit spirituali mente preditus in statu primo cognitio
+            <lb ed="#N" n="32"/>eius per speculum fuit rationis siue mentis. et innitebatur illi proprie
+            <lb ed="#N" n="33"/>conuertendo se ad speculandum creatorem. vnde dico sicut post lapsum
+            pri<lb ed="#N" n="34" break="no"/>mum et proprium ductivum in cognitionem dei fuit enigma creaturarum
+            <lb ed="#N" n="35"/>in patria ipsa lux prima in sua specie et primo et per se ratio
+            viden<lb ed="#N" n="36" break="no"/>di: sic in statu primo speculum mentis illustratum luce propria fuit
+            <lb ed="#N" n="37"/>causa videndi suum conditorem. Unde hugo. cognouit homo creatorem non ea
+            <lb ed="#N" n="38"/>cognitione que foris ex audito solo percipitur: sed ea potius que intus per
+            in<lb ed="#N" n="39" break="no"/>spirationem ministratur. Non ea que deus modo a credentibus absens fide
+            <lb ed="#N" n="40"/>queritur: sed ea que tunc per presentiam contemplationis scienti manifestus
+            cerne<lb ed="#N" n="41" break="no"/>batur. hec hugo. Unde ut determinat consequenter cognitio illa fuit
+            me<lb ed="#N" n="42" break="no"/>dia inter illam que fidei est et visionis in specie. Dicendum est igitur quod ad
+            <lb ed="#N" n="43"/>nulla cognoscenda saluti vel profectui necessaria in statu proprio necessaria
+            <lb ed="#N" n="44"/>fuit manducatio creaturarum. vnde nec sacramenta: nihilominus gratia
+            <lb ed="#N" n="45"/>necessaria fuit. que sola sufficiebat ad eleuationem nature cognitive ad
+            <lb ed="#N" n="46"/>ea que fidei erant. Preterea. sacramenta primo et per se informat ad fidem
+            <lb ed="#N" n="47"/>redemptoris: que non fuit necessaria ad salutem in primo statu vt dictum
+            <lb ed="#N" n="48"/>est.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e607">
+            ⁋ Sed obiicitur contra hoc. lapsus non est ratio institutionis sacramentorum
+            <lb ed="#N" n="49"/>quod patet. quia ante lapsum erat sacramentum matrimonii. huiusmodi sacramentum
+            ma<lb ed="#N" n="50" break="no"/>trimonii ante peccatum hominis legitur constitutum. Gen. non tamen propter peccatum
+            <lb ed="#N" n="51"/>sed ad sacramentum solum et ad officium. ad sacramentum propter eruditionem. ad
+            <lb ed="#N" n="52"/>officium propter exercitationem. hec hugo.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e618">
+            ⁋ Item ex verbis hugonis.
+            vi<lb ed="#N" n="53" break="no"/>detur quod manducatio creaturarum erat necessaria in statu illo.
+            Di<lb ed="#N" n="54" break="no"/>cit enim quod institutum est matrimonium ad sacramentum propter eruditionem.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e625">
+            <lb ed="#N" n="55"/>⁋ Responsio. quod lapsus non est ratio vel causa institutionis sacramenti simpliciter:
+            <lb ed="#N" n="56"/>sed sacramentorum que sunt ad remedium contra defectum ex culpa
+            ori<lb ed="#N" n="57" break="no"/>ginali vel actuali. qualia sunt omnia alia ab illo quod est
+            matrimo<lb ed="#N" n="58" break="no"/>nium. vnde cum sit sacramentum significans gratiam proficientem: cuius actus
+            exer<lb ed="#N" n="59" break="no"/>cetur sine subiectione exercentis respectu creature inferioris.
+            <lb ed="#N" n="60"/>est etiam sacramentum significans gratiam reparantem: cuius actus non exercetur sine
+            <lb ed="#N" n="61"/>subiectione huiusmodi. primo modo sumptum sacramentum bene posset institui
+            <lb ed="#N" n="62"/>ante lapsum. tale fuit matrimonium secundo modo sumptum.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e645">
+            ⁋ Ad aliud
+            <lb ed="#N" n="63"/>dicendum est. quod sacramentum matrimonii necessarium erat ad instructorum hominis in
+            pri<lb ed="#N" n="64" break="no"/>mo statu de coniunctione Ddei et anime vel nature diuine et humane in
+            <lb ed="#N" n="65"/>christo. quia hec reuera sine adminiculo cognouit. sed quia eius cognitio
+            <lb ed="#N" n="66"/>non fuit in actu: quantum ad hoc fuit sacramentum illud ad eruditionem
+            inquan<lb ed="#N" n="67" break="no"/>tum excitauit ad cosniderationem actualem huius coniunctionis. Ad
+            actu<lb ed="#N" n="68" break="no"/>alem igitur considerationem fuit expediens institutio huius sacramenti: non tamen
+            <lb ed="#N" n="69"/>necessarium ad cognitionem alicuius quod fides requirit. vt supra. tactum est. Ex
+            <lb ed="#N" n="70"/>his patet qualiter ad quintum et ad sextum dicendum est.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e666">
+            ⁋ Ad vltimum dicendum
+            <lb ed="#N" n="71"/>est. quod vna ratio communis est quare hec non sunt instituta in primo statu
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>in signum. quia inditum est naturaliter siue insertum rationi. quod deus
+            <lb ed="#N" n="73"/>nihil facit frustra. frustra autem esset huiusmodi instructio nisi
+            con<lb ed="#N" n="74" break="no"/>seqeretur actus siue exercitium. In exercitio autem huiusmodi homo
+            <lb ed="#N" n="75"/>subiiecert se infimis creaturis: quod esset contra ordinationem
+            di<lb ed="#N" n="76" break="no"/>uine prouidentie. nisi hoc fieret propter culpam hominis. Unde ex hac
+            <lb ed="#N" n="77"/>institutione anima predita excellenti cognitione. aut sentiret
+            di<lb ed="#N" n="78" break="no"/>uinam prouidentiam in suis effectibus sibi contrariam: quod esse non potest.
+            <lb ed="#N" n="79"/>aut presentiret casum suum: et ita in ipso pena precederet culpam.
+            <lb ed="#N" n="80"/>vnde etiam dicit hugo: Nemo est qui nesciat hominem rationalem
+            mu<lb ed="#N" n="81" break="no"/>tis et insensibilibus elementis conditione superiorem existere. si igitur
+            <lb ed="#N" n="82"/>institutum esset a deo. quod homo subiieceret se huiusmodi creaturis
+            <lb ed="#N" n="83"/>cum nulla inordinatio est a deo: presentiret hoc esse propter culpam
+            <lb ed="#N" n="84"/>hominis siue inordinationem. Item alia est ratio. Circumcisio proprie est
+            <lb ed="#N" n="85"/>sacramentum remissionis originalis illud enim proprie
+            signifi<lb ed="#N" n="86" break="no"/>catur. Similiter de confirmatione et in aliis sacrameta dicuntur eo quod
+            fi<lb ed="#N" n="87" break="no"/>gurant quod efficiunt in suscipientibus.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e88-Dd1e710">
+          <head xml:id="v78d89-d1e88-Hd1e712">Articulus 2</head>
+          <p xml:id="v78d89-d1e88-d1e714">
+            <lb ed="#N" n="88"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-d1e88-d1e719">
+            <lb ed="#N" n="89"/>ecunduo queritur. vtrum sacramenta necessaria fuerunt in statu
+            <lb ed="#N" n="90"/>nature lapse. Et videtur quod non. Si enim erant necessaria.
+            <lb ed="#N" n="91"/>aut erant necessaria propter rationem significationis: aut
+            <lb ed="#N" n="92"/>propter rationem causalitatis. sed quod sacramenta noue legis dicuntur
+            <lb ed="#N" n="93"/>necessaria ratione significationis non videtur pari enim ratione sacramenta
+            <lb ed="#N" n="94"/>paganorum dicerentur necessaria. nam et ipsi quedam sacramenta
+            habu<lb ed="#N" n="95" break="no"/>erunt. vtebantur enim sacrificiis sicut et hebrei. Et si illa ratione
+            <lb ed="#N" n="96"/>similitudinis significabant: et hec poterant significare. Cum
+            <lb ed="#N" n="97"/>ergo sacramenta paganorum non fuerunt necessaria licet significare
+            pos<lb ed="#N" n="98" break="no"/>sent: nec sacramenta hebreorum dicebantur vel debebant dici
+            ne<lb ed="#N" n="99" break="no"/>cessaria. licet significare possent.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e745">
+            ⁋ Forte dicetur quod sacramenta
+            <lb ed="#N" n="100"/>hebreorum instituta erant a domino ad significandum:
+            sacramen<lb ed="#N" n="101" break="no"/>ta vero paganorum non. et ideo illa fuerunt necessaria: non ista. Quid
+            <lb ed="#N" n="102"/>dicendum est de illis sacramentis que fuerunt tempore legis nature. vbi
+            <lb ed="#N" n="103"/>fuit in eo nulla institutio. sicut de sacrificio abel. et de
+            ob<lb ed="#N" n="104" break="no"/>latione panis et vini a melchisedech. et de datione
+            decima<lb ed="#N" n="105" break="no"/>rum ab abraham.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e761">
+            ⁋ Preterea. cum signa sint significantia
+            <lb ed="#N" n="106"/>ratione similitudinis. in aliis autem signis ratione similitudinis
+            pos<lb ed="#N" n="107" break="no"/>set signari res sacra sicut in istis. ergo aut quelibet essent
+            sacra<lb ed="#N" n="108" break="no"/>menta: aut nullum. sed non quelibet: ergo nullum erit necessarium ratione
+            <lb ed="#N" n="109"/>significationis in statu nature lapse. Si vero ratio causalitatis tantum
+            <lb ed="#N" n="110"/>non efficient sacramenta necessaria veteris legis: que non dicuntur
+            <lb ed="#N" n="111"/>efficere que figurant. nec sacramenta temporis legis nature. vt
+            <lb ed="#N" n="112"/>sacrificium decimatio et huiusmodi.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e780">
+            ⁋ Preterea. ipsa collatio
+            gra<lb ed="#N" n="113" break="no"/>tie immediate fit a deo per quam fit reparatio et a culpa et peccata.
+            <lb ed="#N" n="114"/>ergo non sunt necessaria sacramenta tanquam cause medie in causato.
+            <lb ed="#N" n="115"/>non ergo in statu nature lapse necessaria fuerunt sacramenta que
+            di<lb ed="#N" n="116" break="no"/>cuntur vel ratione significationis vel ratione causalitatis.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e791">
+            ⁋ Item
+            <lb ed="#N" n="117"/>hugo. Plus sanctificatio contulit quam creatio. quoniam in creatione
+            <lb ed="#N" n="118"/>acceperunt naturam vt essent: in sanctificatione gratiam vt bona
+            <lb ed="#N" n="119"/>et sancta essent. Ex hoc verbo patet. quod maius est sanctificare quam
+            <lb ed="#N" n="120"/>creare. cum ergo in opere creationis sit dominus tota causa: et in opere
+            san<lb ed="#N" n="121" break="no"/>ctificationis similiter debet esse. ergo non per sacramenta etc.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e804">
+            ⁋ Item
+            <lb ed="#N" n="122"/>sacramenta artant viam salutis. liberior enim et amplior esset
+            <lb ed="#N" n="123"/>via si sola gratia vel fide fieret purgatio. Cum ergo deus sit
+            sum<lb ed="#N" n="124" break="no"/>me bonus et liberalis: ab ipso debet via amplissima
+            indul<lb ed="#N" n="125" break="no"/>geri.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e815">
+            ⁋ Item homo naturaliter est constitutus medius inter
+            <lb ed="#N" n="126"/>deum et sensibilia. ad hoc ergo quod coniungatur per gratiam cum deo: non
+            <lb ed="#N" n="127"/>indiget sensibilibus tanquam mediis. sed ipsa conuersatione
+            volunta<lb ed="#N" n="128" break="no"/>tis. vt scilicet faciat homo quod in se est et non desit gratie dei. et
+            <lb ed="#N" n="129"/>dominus non deserit illi qui stat ad ostium et pulsat. secundum illud. iii.
+            <lb ed="#N" n="130"/>apocalipsi. Ego sto ad ostium et pulso. si quis aperuerit mihi
+            <lb ed="#N" n="131"/>ego intrabo etc. Non ergo sacramenta sunt necessaria cum sint
+            si<lb ed="#N" n="132" break="no"/>gna sensibilia ad mediationem faciendam inter deum et hominem.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e833">
+            <lb ed="#N" n="133"/>⁋ Item abakuc. ii. iustus ex sua fide viuit. Item actum. xv.
+            <lb ed="#N" n="134"/>Fide purificans corda eorum. Ecce quod fides purgat.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e840">
+            ⁋ Item
+            <lb ed="#N" n="135"/>cum virtutes sufficient ad opus quibus contingit mereri vitam
+            <lb ed="#N" n="136"/>eternam. relinquitur etc.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e848">
+            ⁋ Item hugo. capitulo. de fide. Iustus quamdiu
+            <lb ed="#N" n="137"/>in hoc corpore existens peregrinatur a domino viuere licet ex fide.
+            <lb ed="#N" n="138"/>quemdamodum cum eductus de hoc ergasculo fuerit et
+            intro<lb ed="#N" n="139" break="no"/>ductus in gaudium domini sui: viuere habebit ex contemplatione.
+            <lb ed="#N" n="140"/>hec hugo. Sicut igitur ibi sufficiet sola contemplatio ad
+            vi<lb ed="#N" n="141" break="no"/>tam: ita hic fides etc.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e861">
+            ⁋ Item constat quod sacramenta valent ad
+            <pb ed="#N" n="4"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>salutem. similiter virtutes. dona. beatitudines. et fructus que est
+            diffe<lb ed="#N" n="2" break="no"/>rentia.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e872">
+            ⁋ Contra. huiusmodi sacramenta dei sunt medicine spirituales que
+            fo<lb ed="#N" n="3" break="no"/>ris adhibentur per speciem visibilem: sed intus animam sanant per
+            inuisi<lb ed="#N" n="4" break="no"/>bilem veritatem. sed post lapsum necessaria est medicina morbo. ergo
+            <lb ed="#N" n="5"/>post necessaria sunt sacramenta.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e881">
+            ⁋ Item homo peccat per superbiam: sed
+            reme<lb ed="#N" n="6" break="no"/>dium contra superbiam est debita humiliatio et deuota. debita autem
+            <lb ed="#N" n="7"/>humiliatio et deuota est quando homo subdit se visibilibus
+            sacramen<lb ed="#N" n="8" break="no"/>tis propter deum. necessarium ergo fuit dare ad remedium superbie quod
+            <lb ed="#N" n="9"/>essent sacramenta in quibus homo se deuote deo humiliaret.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e892">
+            ⁋ Item homo
+            <lb ed="#N" n="10"/>per peccatum recesserat a deo et signum receperat dyaboli et ad
+            <lb ed="#N" n="11"/>ciuitatem babilonis pertinebat. ad hoc ergo quod redeat ad
+            reconcili<lb ed="#N" n="12" break="no"/>ationem cum deo necessaria fuit gratia. necessarium ergo fuit signum gratie
+            <lb ed="#N" n="13"/>per quod discerneretur vtrum pertinens ad ciuitatem hierusalem siue
+            ci<lb ed="#N" n="14" break="no"/>uitate dei et ad militiam dei pertineret. sicut per signa
+            milita<lb ed="#N" n="15" break="no"/>ria cognoscitur quis de cuius domini militia sit. sacramenta autem sunt
+            si<lb ed="#N" n="16" break="no"/>gna militie christi. ergo necessaria fuerunt redeunti ad deum et pertinenti
+            <lb ed="#N" n="17"/>ad vnitatem ciuitatis hierusalem.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e912">
+            ⁋ Item sacramenta sunt signa
+            sa<lb ed="#N" n="18" break="no"/>cre rei scilicet gratie reparantis. si autem non essent signa non haberent
+            intelle<lb ed="#N" n="19" break="no"/>ctus suam directionem per quam tenderet ad ipsam gratiam futurarum
+            <lb ed="#N" n="20"/>reperandam. nec effectus sequens intellectum haberet deuotionem. sicut
+            <lb ed="#N" n="21"/>est de homine ambulante in via et tendente ad aliquem terminum:
+            <lb ed="#N" n="22"/>et nullam habenti directionem per quem veniat ad illum terminum.
+            Ne<lb ed="#N" n="23" break="no"/>cessaria ergo fuerunt sacramenta in eo quod signa ad directionem
+            intelle<lb ed="#N" n="24" break="no"/>ctus. in eo vero quod ordinata sunt ad sanctificandum propter
+            de<lb ed="#N" n="25" break="no"/>uotionem affectus. ergo in tempore post lapsum necessaria fuerunt
+            sacra<lb ed="#N" n="26" break="no"/>menta.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e935">
+            ⁋ Ad quod dicendum. quod necessaria fuerunt sacramenta statim post
+            la<lb ed="#N" n="27" break="no"/>psum et de necessitate vite. vnde glo. super illo. qui est forma
+            futu<lb ed="#N" n="28" break="no"/>ri. v. ad romanos. dicit. Ex christi latere profluxerunt sacramenta scilicet aqua
+            ab<lb ed="#N" n="29" break="no"/>lutionis et sanguis redemptionis per que saluatur ecclesia. vnde. ii.
+            <lb ed="#N" n="30"/>ad ephe. Eramus natura filii ire. id est. debitores pene eterne
+            <lb ed="#N" n="31"/>vt exponit glo. Ad hoc debitum tollendum sunt sacramenta et maxime
+            <lb ed="#N" n="32"/>sacramentum baptismi et alia que fuerunt in remedium originalis
+            <lb ed="#N" n="33"/>peccati. Preterea. cum in abel et caym inciperet diuisio ciuitatis
+            <lb ed="#N" n="34"/>spiritualis hierusalem a ciuitate babilonis. oportuit esse signa
+            <lb ed="#N" n="35"/>aliqua sacra quibus distinguerentur ciues hierusalem a
+            ciui<lb ed="#N" n="36" break="no"/>bus babilonis. sicut videmus in aliis rebus. oues enim vnius
+            <lb ed="#N" n="37"/>gregis discernuntur ab ouibus alterius gregis proprio signo. et
+            <lb ed="#N" n="38"/>sacre edes a non sacris edibus propriis signis discernuntur. et
+            ci<lb ed="#N" n="39" break="no"/>uilitas nobilis aliquo signo dari consueuit. vt ciuilitas
+            ro<lb ed="#N" n="40" break="no"/>mana penula. et dignitas militaris accinctionem gladii. et
+            of<lb ed="#N" n="41" break="no"/>ficium traditione virge vel clauium. Ex quibus omnibus colligitur
+            <lb ed="#N" n="42"/>quod sacramenta scilicet sacre rei signa fuerunt necessaria homini post lapsum
+            <lb ed="#N" n="43"/>ad hoc quod discerneretur esse ciuis spiritualis hierusalem et de
+            gre<lb ed="#N" n="44" break="no"/>ge domini et de militia eius.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e977">
+            ⁋ Ad primum obiectum in contrarium
+            <lb ed="#N" n="45"/>dicendum quod differentia inter sacramenta hebreorum et sacramenta paganorum:
+            <lb ed="#N" n="46"/>secundum quod dicit augustinus. contra faustum. quod est differentia inter vnitionem
+            erran<lb ed="#N" n="47" break="no"/>tem et prefigurationem prenunciatem. Quod enim hebrei vtebantur
+            sa<lb ed="#N" n="48" break="no"/>cramentis hoc fuit ad prefigurationem veritatis future in christo et
+            <lb ed="#N" n="49"/>ecclesia. Quod autem vtebantur pagani: non fuit nisi in signum
+            supersti<lb ed="#N" n="50" break="no"/>tionis. vt in eis appareret religio per quam homines
+            seduce<lb ed="#N" n="51" break="no"/>rentur. Et ponit simile tale. Non est detestanda virginitas
+            sanctimo<lb ed="#N" n="52" break="no"/>nialium quia et vestales virgines fuerunt. nec ideo reprehendenda
+            <lb ed="#N" n="53"/>sunt sacrificia patrum quia et sunt sacrificia gentium.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e999">
+            ⁋ Ad
+            se<lb ed="#N" n="54" break="no"/>cundum vero dicendum. quod hec sacrificia seu sacramenta non omnia
+            institu<lb ed="#N" n="55" break="no"/>ta essent a deo a principio. sicut fuit de sacrificio abel: vel de
+            <lb ed="#N" n="56"/>decimatione abrahe: vel oblatione melchisedech. Nihilominus
+            <lb ed="#N" n="57"/>fuit inspiratio et acceptatio per quam dirigebantur quae vim
+            in<lb ed="#N" n="58" break="no"/>stitutionis supplebant. Unde quod posteriores faciebant propter
+            <lb ed="#N" n="59"/>institutionem: hoc priores faciebant sicut creditur per
+            inspiratio<lb ed="#N" n="60" break="no"/>nem.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1017">
+            ⁋ Ad tercium vero dicendum. quod licet sacramenta veteris legis vel
+            le<lb ed="#N" n="61" break="no"/>gis nature non haberent per se causalitatem gratie: non tamen erant
+            super<lb ed="#N" n="62" break="no"/>uacua. signa enim erant ductiua ad gratiam per christum suo tempore
+            confe<lb ed="#N" n="63" break="no"/>rendam. Intantum autem valuit fides vel per se vel cum sacrificiis
+            <lb ed="#N" n="64"/>et circumcisione ad dimissionem originalis peccati sicut dicit gregorius.
+            <lb ed="#N" n="65"/>quantum apud nos valet aqua baptisimatis. hoc egit apud
+            ve<lb ed="#N" n="66" break="no"/>teres vel pro paruulis sola fides vel pro maioribus virtus
+            sacri<lb ed="#N" n="67" break="no"/>ficii. vel pro his qui ex abrahe stirpe prodierunt misterium
+            circum<lb ed="#N" n="68" break="no"/>cisionis.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1037">
+            ⁋ Ad quartum vero dicendum. quod licet deus sine aliquo
+            me<lb ed="#N" n="69" break="no"/>dio confert sanctificationem gratie. nihilominus sacramenta fuerunt et sunt
+            <lb ed="#N" n="70"/>necessaria ad susceptionem gratie. vt disponatur ad gratiam qui subiicitur
+            <lb ed="#N" n="71"/>sacramentis: vel qui se subiicit. Non quia non possit deus dare
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>gratiam sine his. vnde Hugo. In illo spiritu quo docet hominem
+            <lb ed="#N" n="73"/>sine verbo: iustificare etiam valuit sine sacramento. quia virtus dei
+            <lb ed="#N" n="74"/>sine necessitate elementis non subditur. etiam si gratia dei ex
+            dispen<lb ed="#N" n="75" break="no"/>satione per sacramenta donetur. vnde contingit quod vbi est articulus
+            necessi<lb ed="#N" n="76" break="no"/>tatis et non est contemptus sacramenti: ipsa gratia datur sine sacramentis.
+            <lb ed="#N" n="77"/>Similiter in quibusdam ex praeelectione diuina: sicut contingit in
+            sanc<lb ed="#N" n="78" break="no"/>tificatis in vtero. Et dicit Hugo. Nullus in elementis sic
+            <lb ed="#N" n="79"/>legem diuine iusticie constituat: vt dicat hominem non iustificari
+            <lb ed="#N" n="80"/>posse sine his. cum ab his percipiendis vel articulus necessitatis
+            <lb ed="#N" n="81"/>excludit. vel sicut diximus ad hec percipienda ratio temporis non
+            con<lb ed="#N" n="82" break="no"/>stringit.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1072">
+            ⁋ Ad quintum dicendum. quod multiplex est ratio quare deus
+            <lb ed="#N" n="83"/>in omnibus que fiunt non est tota causa. quandoque ordo in rebus conditis
+            <lb ed="#N" n="84"/>in quibus est ordo quantum ad essentiam. virtutem. et operationem. vnde
+            <lb ed="#N" n="85"/>si queratur. quare non conseruat deus vt causa tota sicut creat.
+            respon<lb ed="#N" n="86" break="no"/>sio. quia si hoc: frustraretur ordo in rebus quantum ad virtutem et
+            <lb ed="#N" n="87"/>operationem. Ordo enim in rebus exigit quod superiora et nobiliora
+            in<lb ed="#N" n="88" break="no"/>fluunt in anima.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1089">
+            ⁋ Item si queratur. quare non iustificat vt tota causa
+            <lb ed="#N" n="89"/>sed infundendo gratiam. hoc est: quare non iustificat formaliter.
+            Respon<lb ed="#N" n="90" break="no"/>sio est. quia immensus est et indiffinibilis. quod autem aliud
+            perfi<lb ed="#N" n="91" break="no"/>cit formaliter diffinitur in illo quod perficit.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1098">
+            ⁋ Item si queratur. quare
+            <lb ed="#N" n="92"/>non glorificat vt tota causa: ita quod nihil interponeretur disponens
+            <lb ed="#N" n="93"/>inter creaturam que debet glorificari et deum scilicet neque gratia
+            <lb ed="#N" n="94"/>nec virtus nec donum neque aliquid huiusmodi. Responsio est propter
+            de<lb ed="#N" n="95" break="no"/>fectum creature in quem habet solum perfectionem nature. Natura autem
+            <lb ed="#N" n="96"/>inquantum natura nullo modo habet dispositionem necessitatis ad
+            fruen<lb ed="#N" n="97" break="no"/>dum deo sive vivendo cum deo per gloriam.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1114">
+            ⁋ Item in proposito si
+            que<lb ed="#N" n="98" break="no"/>ratur. quare non sanctificat deus sine sacramentis. Responsio. quia in hoc
+            dero<lb ed="#N" n="99" break="no"/>garetur sue diuine iusticie. In sanctificatione sacramentali
+            ostendi<lb ed="#N" n="100" break="no"/>tur plenitudo diuine misericordie et dispensatio diuine iusticie.
+            <lb ed="#N" n="101"/>Primum est in tollendo culpam et remissionem pene eterne.
+            Se<lb ed="#N" n="102" break="no"/>cundo est in subiiciendo peccaotrem pene et maxime in
+            subii<lb ed="#N" n="103" break="no"/>ciendo creature inferiori se cui adherendo peccauit. Unde
+            <lb ed="#N" n="104"/>hugo. Quia homo concupiscens visibilia corruptus fuerat:
+            con<lb ed="#N" n="105" break="no"/>grue reperandus in eisdem visibilibus salutis occasionem
+            reci<lb ed="#N" n="106" break="no"/>pere debeat: vt per eadem resurgeret per que corruat. Alia ratio
+            <lb ed="#N" n="107"/>est vtilitas ex parte recipientis. que est multiplex scilicet humiliatio
+            <lb ed="#N" n="108"/>eruditio et exercitatio: sicut dicit Hugo. et magister multipliciter in
+            <lb ed="#N" n="109"/>sententiis. Nec est simile de creatore qui producit res in esse ex
+            nihi<lb ed="#N" n="110" break="no"/>lo. propter quod requiritur infinita potentia nulla obstante causa
+            praete<lb ed="#N" n="111" break="no"/>rita: neque ordine rerum etc. vt patet.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1147">
+            ⁋ Ad sextum dicendum. quod hanc
+            <lb ed="#N" n="112"/>artationem requirit diuina bonitas. diuina enim bonitas duo
+            <lb ed="#N" n="113"/>recipit scilicet misericordiam et iusticiam. hec autem libertas qua homo
+            pur<lb ed="#N" n="114" break="no"/>garetur sola gratia: derogaret diuine iusticie et utilitati
+            recipi<lb ed="#N" n="115" break="no"/>entis. ut ex dictis patet.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1158">
+            ⁋ Ad septimum dicendum. quod licet homo sit
+            cre<lb ed="#N" n="116" break="no"/>atura media constituta inter deum et bona visibilia. et ita ex
+            <lb ed="#N" n="117"/>ordine nature non requirantur bona visibilia ad coniunctionem ipsius
+            <lb ed="#N" n="118"/>faciendam cum deo. nihilominus tamen visibilia bona in statu
+            <lb ed="#N" n="119"/>nature lapse sunt medium conueniens ut deo reconcilietur:
+            <lb ed="#N" n="120"/>dummodo hoc sit ex voluntate conditoris. vnde dicit Hugo.
+            <lb ed="#N" n="121"/>Nemo siquidem est qui nesciat hominem rationalem mutis et
+            in<lb ed="#N" n="122" break="no"/>sensibilibus elementis conditione superiorem existere: et tamen cum
+            <lb ed="#N" n="123"/>idem homo in his salutem querere iubetur ad expendiendam
+            <lb ed="#N" n="124"/>obedientie ipsius virtutem. quod aliud quam suo inferiori superior
+            <lb ed="#N" n="125"/>subiicitur. Hoc enim est quod infidelium oculi qui visibilia solum vident:
+            <lb ed="#N" n="126"/>sacramenta salutis venerari despiciunt. quia in eis quod foris est tantum
+            <lb ed="#N" n="127"/>contemptibile in specie cernentes: inuisibilem virtutem intus et
+            <lb ed="#N" n="128"/>fructum obedientie non cognoscunt.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1189">
+            ⁋ Ad illud quod
+            consequen<lb ed="#N" n="129" break="no"/>ter de fide et generaliter de virtutibus queritur. dicendum quod ut habetur.
+            <lb ed="#N" n="130"/>vii. Iob. Militia est vita hominis etc. In militia requiritur
+            <lb ed="#N" n="131"/>duplex genus armorum: ad tuendum et ad impugnandum. similiter
+            <lb ed="#N" n="132"/>in bello spirituali cum his requiritur vita et robur. Quatuor
+            <lb ed="#N" n="133"/>igitur requiruntur in bello huiusmodi scilicet vita spiritualis que habetur ex fide.
+            <lb ed="#N" n="134"/>robur. et ex aliis virtutibus duplex genus armorum scilicet sacramenta que
+            <lb ed="#N" n="135"/>dantur in munitionem. et opera virtutis ad impugnandum. Vnde hugo.
+            <lb ed="#N" n="136"/>Ut in hoc prelio inuictus stare possit et bonum suum
+            ille<lb ed="#N" n="137" break="no"/>sum custodire: dantur ei in sacramentis arma quibus se
+            muni<lb ed="#N" n="138" break="no"/>at. in operibus tela quibus hostem prosternat. vt scilicet fide
+            cari<lb ed="#N" n="139" break="no"/>tate et spe adiuncta: interius pariter roboretur et viuat.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1216">
+            ⁋ Ad
+            <lb ed="#N" n="140"/>hoc quod dicit Hugo. quod hic est vita ex fide sicut in patria ex
+            <lb ed="#N" n="141"/>contemplatione. dicendum quod verum est: sed vita non sufficit
+            <lb ed="#N" n="142"/>hic sed requiritur pugna propter quod etc. Nec intelligendum est
+            <pb ed="#N" n="5"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>quod vniuersaliter opera virtutum sunt ad impugnandum hostem humani generis.
+            <lb ed="#N" n="2"/>Sed hoc sic generaliter dicitur quod operibus virtutum impugnatur. quia semper
+            inten<lb ed="#N" n="3" break="no"/>dit et nititur ad opera contraria.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1236">
+            ⁋ Ad hoc quod postea queritur dicendum. quod
+            do<lb ed="#N" n="4" break="no"/>na beatitudines et fructus expediunt virtutes in eliciendo opera
+            <lb ed="#N" n="5"/>sua sed differenter. quia dona tollendo difficultates siue
+            impedimen<lb ed="#N" n="6" break="no"/>ta contracta ex originali. beatitudines tollendo impedimenta
+            ope<lb ed="#N" n="7" break="no"/>rum perfectionis. Fructus excitando et confirmando robur siue
+            virtu<lb ed="#N" n="8" break="no"/>tem agentis enim reficit quodammodo vnde confortat agentem. Ad
+            <lb ed="#N" n="9"/>hoc nota vt habetur a Gregorio. super illud Iob. Homo per peccatum cecidit in
+            se<lb ed="#N" n="10" break="no"/>ptem miserias que sunt stulticia. hebetudo. precipitatio. timor.
+            <lb ed="#N" n="11"/>ignorantia. duricia. superbia. his debilitate sunt potentie et
+            <lb ed="#N" n="12"/>motiue et cognitiue. hec autem vicia impedientia progressum
+            virtu<lb ed="#N" n="13" break="no"/>tum reprimunt dona. verbi. gratia. potentia intellectiua vicio hebetudinis
+            <lb ed="#N" n="14"/>minus habilis est ad actum fidei. quod cum tollitur per donum intellectus:
+            li<lb ed="#N" n="15" break="no"/>berius et expeditius elicit virtus fidei actus suos a potentia anime
+            <lb ed="#N" n="16"/>quam perficit. et ita de aliis. Beatitudines vero tollunt
+            impedimen<lb ed="#N" n="17" break="no"/>ta operum perfectionis: vt beatitudo paupertatis vt dicit glossa. matthei.
+            <lb ed="#N" n="18"/>v. facit vt contemptis omnibus deo viuatur. Beatitudo mititatis: vt
+            si<lb ed="#N" n="19" break="no"/>ne rancore vel ira omnia equanimiter sustineantur. Bona igitur
+            ex<lb ed="#N" n="20" break="no"/>pediunt virtutes tollendo difficultates originalis. Beatitudines
+            <lb ed="#N" n="21"/>quasi perfecta reddunt tollendo impedimenta perfectionis fructus.
+            ro<lb ed="#N" n="22" break="no"/>bur agentis excitando et agentem confortando.
+          </p>
+        </div>
+        <div xml:id="v78d89-d1e88-Dd1e1281">
+          <head xml:id="v78d89-d1e88-Hd1e1283">Articulus 3</head>
+          <p xml:id="v78d89-d1e88-d1e1285">
+            <lb ed="#N" n="23"/>⁋ Articulus tercius.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1290">
+            <lb ed="#N" n="24"/>SEquitur inquirere que sit vtilitas sacramentorum in statu
+            <lb ed="#N" n="25"/>nature lapse. et assignantur tres a hugone et magistro. iiii.
+            <lb ed="#N" n="26"/>sententiarum scilicet eruditio. humiliatio. et exercitatio.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1299">
+            ⁋ Contra
+            <lb ed="#N" n="27"/>hoc sic primo. videtur quod non fuerunt necessaria in statu nature lapse propter
+            e<lb ed="#N" n="28" break="no"/>ruditionem: secundum quod dicit hugo. homo enim (sicut dicit) agnoscere nullatenus
+            <lb ed="#N" n="29"/>posset diuina. nisi humana id est visibilibus excitatus. sed hoc non videtur
+            <lb ed="#N" n="30"/>verum. Non enim intantum est humana natura lapsa vt humanus intellectus
+            <lb ed="#N" n="31"/>non remanent in sua natura. sed dum remanet in sua natura: natus est ad
+            <lb ed="#N" n="32"/>capacitatem intelligibilium per se. vt affectiua ad capacitatem
+            <lb ed="#N" n="33"/>gratie vel virtutum. Ad intelligendum ergo illa non est necessarium ei medium
+            <lb ed="#N" n="34"/>sumptum ex sensibilibus. non ergo huiusmodi signa que dicuntur sacramenta necessaria
+            <lb ed="#N" n="35"/>sunt intellectui in statu nature lapse: vt erudiatur in comparatione gratie.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1321">
+            <lb ed="#N" n="36"/>⁋ Item dicuntur sacramenta esse vtilia propter hominis humiliationem. vt scilicet homo
+            sub<lb ed="#N" n="37" break="no"/>dens se signis sensibilibus obtinent gratiam sui conditoris quam
+            <lb ed="#N" n="38"/>amiserat per culpam. sed hoc non videtur conueniens medium ad
+            obtinen<lb ed="#N" n="39" break="no"/>dam gratiam diuinam. per hoc enim quod homo conuertit se ad mutabilia et
+            sen<lb ed="#N" n="40" break="no"/>sibilia: non immediate inherens incommutabili bono: amisit
+            grat<lb ed="#N" n="41" break="no"/>iam illius. ergo huiusmodi subiectio non est conueniens medium vt gratia
+            recu<lb ed="#N" n="42" break="no"/>peretur. Idem enim eodem modo se habens non est causa oppositorum propria. immo
+            si<lb ed="#N" n="43" break="no"/>cut conuersio ad mutabilia bona fuit causa amissionis gratie: ita
+            <lb ed="#N" n="44"/>contemptus illorum esset conueniens medium ad gratie recuperationem.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1344">
+            ⁋ Item
+            <lb ed="#N" n="45"/>non videntur necessaria esse propter exercitationem. Exercitatio enim hominum
+            ne<lb ed="#N" n="46" break="no"/>cessaria est vel propter necessitatem nature: vel propter meritum anime.
+            Pro<lb ed="#N" n="47" break="no"/>pter necessitatem autem nature non sunt necessaria sacramenta: cum corporalem
+            na<lb ed="#N" n="48" break="no"/>turam non sustentent in suo defectu. Propter merita etiam anime non
+            vi<lb ed="#N" n="49" break="no"/>dentur necessaria: cum ad illa sufficiant opera virtutum et donorum.
+            Neu<lb ed="#N" n="50" break="no"/>tro ergo modo videbuntur esse necessaria sacramenta ad exercitationem.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1360">
+            ⁋ Item
+            trip<lb ed="#N" n="51" break="no"/>lex est causa institutionis sacramentorum. humilitaio. eruditio.
+            exercita<lb ed="#N" n="52" break="no"/>tio. In omni statu sunt hec dona bona et laudabilia.
+            humi<lb ed="#N" n="53" break="no"/>liatio enim est actus humilitatis status autem ante lapsum non euacuat
+            <lb ed="#N" n="54"/>virtutem humilitatis. similiter nec eruditionem nec exercitationem: cum hec
+            <lb ed="#N" n="55"/>bona sint et laudabilia.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1373">
+            ⁋ Item conueniens videtur in omni statu
+            <lb ed="#N" n="56"/>deum venerari de bonis hominum prestitis scilicet muneribus et oblati
+            <lb ed="#N" n="57"/>omnibus vt illi dicatur illud i paralipomenorum vltimo. Que de manu tua
+            <lb ed="#N" n="58"/>domine cepimus dedimus tibi.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1382">
+            ⁋ Item vtilitas rei circa finem
+            <lb ed="#N" n="59"/>attenditur. sed vnius rei vnus est finis. ergo vna est vtilitas. Quod finis
+            <lb ed="#N" n="60"/>sit vnus patet. quia reformatio imaginis deformate per peccatum
+            re<lb ed="#N" n="61" break="no"/>formatio dico per gratiam.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1391">
+            ⁋ Ad hoc dicendum. quod cum ex lapsu in
+            pec<lb ed="#N" n="62" break="no"/>catum triplex sit defectus ipsius anime secundum tres vires. secundum
+            rationa<lb ed="#N" n="63" break="no"/>lem. irascibilem et concupiscibilem. secundum rationalem cecidit in
+            igno<lb ed="#N" n="64" break="no"/>rantiam. secundum irascibilem cecidit in superbiam vel inobedientiam.
+            <lb ed="#N" n="65"/>secundum concupiscibilem in concupiscentiam. necessarium fuit anime lapse vt
+            reuer<lb ed="#N" n="66" break="no"/>teretur per noticiam gratie et obedientiam in his que placent deo. et per
+            <lb ed="#N" n="67"/>exercitationem vtilium que appetenda sunt propter ipsam salutem.
+            Pri<lb ed="#N" n="68" break="no"/>mo enim necessaria fuit noticia gratie aut salutis: vt ad quam tendent.
+            <lb ed="#N" n="69"/>deinde obedientia siue humilitas: vt inclinaretur ad ea per que
+            <lb ed="#N" n="70"/>congruum esset tendere. tercio ipsa exercitatio in vtilibus aut
+            salu<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>bribus vt per eam gratiam et salutem consequeretur. et ideo data sunt sacramenta
+            <lb ed="#N" n="72"/>ad eruditionem: vt per id quod foris in specie visibili cernitur: ad
+            in<lb ed="#N" n="73" break="no"/>uisibilem virtutem que intus est cognoscendam melius erudiatur. Necessaria etiam
+            <lb ed="#N" n="74"/>erant propter humiliationem. vt sicut perniciosa fuit elatio superiori
+            nol<lb ed="#N" n="75" break="no"/>le subiici: sic laudabilis et fructuosa deuotio esset propter
+            superi<lb ed="#N" n="76" break="no"/>orem etiam inferioribus inclinari. Et quemadmodum damnabilis
+            <lb ed="#N" n="77"/>fuit superbia presentem despicere: sic laudabilis esset humilitas quasi
+            <lb ed="#N" n="78"/>absentem querere et perseueranti amore usque ad inuentionem ab
+            inqui<lb ed="#N" n="79" break="no"/>sitione non cessare. propter exercitationem etiam necessaria erant: vt vita
+            <lb ed="#N" n="80"/>humana mutabilis ne sua mutabilitate dissoluta deficeret ad
+            <lb ed="#N" n="81"/>deteriora. ideo talibus studiis nutrienda fuerat: in quibus et
+            re<lb ed="#N" n="82" break="no"/>rum varietate foris exercitata et emulatione virtutum intus
+            accen<lb ed="#N" n="83" break="no"/>sa proficiendi occasionem inueniret.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1442">
+            ⁋ Ad primum ergo dicendum. quod
+            ne<lb ed="#N" n="84" break="no"/>cessaria sunt sacramenta propter noticiam. licet homo secundum intellectum per se
+            <lb ed="#N" n="85"/>possit apprehendere intelligibilia. sunt enim quedam
+            intelligibi<lb ed="#N" n="86" break="no"/>lia ad que deducunt sensibilia. et sunt alia que seipsis cognoscuntur.
+            <lb ed="#N" n="87"/>In illis ergo intelligibilibus ad que ducunt sensibilia: necessarium est
+            <lb ed="#N" n="88"/>intellectui ut apprehendat illa sensibilia. et per sensibilia ad
+            <lb ed="#N" n="89"/>intelligibilia ducatur. Dona autem gratie sunt spiritualia que in sacramentis
+            <lb ed="#N" n="90"/>visibilibus ministrantur. vt ergo agnoscat homo gratiam quam accipit et per
+            <lb ed="#N" n="91"/>agnitionem proficiat ad dilectionem: proponitur ei sacramentum visibile
+            du<lb ed="#N" n="92" break="no"/>ctiuum ad gratiam intelligibilem sicut est de egro qui medicamentum
+            vi<lb ed="#N" n="93" break="no"/>dere non potest: sed vas in quo datur ac in ipsa vasis specie virtus ei
+            <lb ed="#N" n="94"/>exprimitur medicine.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1469">
+            ⁋ Ad secundum dicendum. quod licet subiectio
+            volun<lb ed="#N" n="95" break="no"/>taria que homo subiicit se rebus mutabilibus esset causa auersionis a
+            <lb ed="#N" n="96"/>deo: nihilominus potest causa esse disponens reconciliationis. sed aliter et
+            <lb ed="#N" n="97"/>aliter. In hoc enim quod subiicit se mutabilibus hominis quibus non debebat
+            <lb ed="#N" n="98"/>per libidinem auersus fuit a deo. In hoc autem quod subiicit se
+            visi<lb ed="#N" n="99" break="no"/>bilibus bonis ex voluntate diuina per deuotionem gratiam
+            reconciliati<lb ed="#N" n="100" break="no"/>onis accepit a deo. et ita secundum aliud et aliud fuit causa
+            auersio<lb ed="#N" n="101" break="no"/>nis et reconciliationis.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1487">
+            ⁋ Ad tercium dicendum. quod sacramenta necessaria sunt
+            <lb ed="#N" n="102"/>ad exercitationem non propter necessitatem nature corporalis: sed propter
+            indigen<lb ed="#N" n="103" break="no"/>tiam nature spiritualis que debilitata est: et in parte lesa. vt sic anima
+            paula<lb ed="#N" n="104" break="no"/>tim proficere. primo ad sanitatem: deinde ad robur et
+            perfectio<lb ed="#N" n="105" break="no"/>nem. et sic fidelis animus dum foris ad varia sancte
+            exercita<lb ed="#N" n="106" break="no"/>tionis media ducitur. magis ac magis intus ex ipsa deuotione
+            <lb ed="#N" n="107"/>ad sanctitatem innouetur.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1503">
+            ⁋ Ad illud quod sequitur dicendum. quod hec tria
+            <lb ed="#N" n="108"/>que sunt eam vniuersalis institutionis sacramentorum laudabilia sunt
+            <lb ed="#N" n="109"/>in statu post lapsum secundum quod huiusmodi. Humiliatio enim prout est vna
+            <lb ed="#N" n="110"/>iam dictarum sumitur prout exercetur in subiectione exercentis
+            re<lb ed="#N" n="111" break="no"/>spectu inferiorum creaturarum per obedientiam in recompensatione
+            <lb ed="#N" n="112"/>elationis que auertendo se a deo noluit illi subesse. vnde hec
+            hu<lb ed="#N" n="113" break="no"/>miliatio laudabilis est in recompensationem illius elationis
+            vi<lb ed="#N" n="114" break="no"/>tuperabilis. Unde hugo. Iustum est vt homo qui prius deum superbiendo
+            <lb ed="#N" n="115"/>deserens terrenis se per concupiscentiam subdidit: nunc per humilitatem
+            <lb ed="#N" n="116"/>deum requirens: eisdem se propter preceptum per obedientiam inclinaret.
+            <lb ed="#N" n="117"/>hec hugo. Quod autem obiicitur quod in statu illo erant omnes virtutes et
+            <lb ed="#N" n="118"/>ita humilitas. concedo: non tamen secundum actum huiusmodi. sed potius secundum actum
+            <lb ed="#N" n="119"/>reuerendi deum et huiusmodi. Hugo. humiliatio ibi necessaria non fuit
+            <lb ed="#N" n="120"/>vbi superbia nulla fuit. sed fuit qui erudiret ad maiorem cognitionem
+            <lb ed="#N" n="121"/>et virtus que promouetur ad maiorem perfectionem. Preterea. etsi
+            con<lb ed="#N" n="122" break="no"/>gruebat esse eruditionem: non tamen huiusmodi. quia eruditio habita ex
+            exerci<lb ed="#N" n="123" break="no"/>tatione sacramentorum attenditur in cognitione gratie reparantis ex
+            considera<lb ed="#N" n="124" break="no"/>tione specierum rerum ipsarum in quibus exercentur. vnde hugo: Propter
+            eru<lb ed="#N" n="125" break="no"/>ditionem instituta sunt sacramenta: vt per id quod foris in sacramento in
+            spe<lb ed="#N" n="126" break="no"/>cie visibili cernitur: ad inuisibilem virtutem que intus in re
+            sa<lb ed="#N" n="127" break="no"/>cramenti constat agnoscenda mens humana erudiatur etc.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1549">
+            ⁋ Si
+            <lb ed="#N" n="128"/>obiiceretur. Nonne bonum esset in omni statu habere ex aliquo
+            exerci<lb ed="#N" n="129" break="no"/>tio considerationem gratie dei. et dico quod sic. sed non debuit in illo
+            sta<lb ed="#N" n="130" break="no"/>tu erudiri ad cognoscendam gratiam reparantem: ne ex hoc presentiret
+            <lb ed="#N" n="131"/>lapsum suum. Preterea. etsi exercitationem bonam ibi esse
+            conuenie<lb ed="#N" n="132" break="no"/>bat: non tamen in sacramentis eius. ratio est hec ut dicit augustinus conuersus ab
+            <lb ed="#N" n="133"/>vno ad multa euanuit. conuersus de multis ad vnum vitam
+            <lb ed="#N" n="134"/>inuenit. Vnde ecclesiasticus. viii: Deus creauit hominem rectum et ipse
+            mi<lb ed="#N" n="135" break="no"/>scuit se multis malis questionibus. Glo. per liberum arbitrium. ergo quod
+            <lb ed="#N" n="136"/>mens humana per concupiscentiam inordinatam ad multa diuiditur propter quod
+            <lb ed="#N" n="137"/>stabilis in deo esse non potuit nec in ipso quiescere necessarium erat
+            <lb ed="#N" n="138"/>exercitium in sacramentis vt ab occupatione illa multiplici
+            auerte<lb ed="#N" n="139" break="no"/>retur et in illo exercitio ad standum in primo vno proficeret.
+            <lb ed="#N" n="140"/>et sic vitam in ipso haberet. Vnde hugo: Primum bonum erat in
+            <lb ed="#N" n="141"/>summo stare. secundum est ad superiora ascendere. et idcirco vita
+            <pb ed="#N" n="6"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>mutabilis. ne sua mutabilitate dissoluta ad deteriora semper
+            <lb ed="#N" n="2"/>deficeret: talibus studiis nutrienda fuerat in quibus
+            proficien<lb ed="#N" n="3" break="no"/>di occasionem inueniret. hec hugo: Huiusmodi autem exercitatio
+            <lb ed="#N" n="4"/>non erat necessaria in statu primo dum mens humana nondum
+            diui<lb ed="#N" n="5" break="no"/>sa erat.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1597">
+            ⁋ Ad illud quod sequitur dicendum. quod causa obsequii prestiti deo
+            <lb ed="#N" n="6"/>per oblationem creaturarum fuit conuersio inordinata ad
+            creatu<lb ed="#N" n="7" break="no"/>ras. vt sicut homo in culpa posuit creaturam medium inter ipsum
+            <lb ed="#N" n="8"/>et creatorem suum inordinate supponendo se creature. similiter in
+            pla<lb ed="#N" n="9" break="no"/>catione dei oportuit vt sensu poneret medium placationis. vnde
+            <lb ed="#N" n="10"/>si stetisset homo in statu innocentie: nullum tale obsequium esset
+            <lb ed="#N" n="11"/>deo prestitum. sed solum in laude dei et cultu interiori deo
+            serui<lb ed="#N" n="12" break="no"/>uisset. Vnde Hugo. quia homo visibilia concupiscens corruptus fuit:
+            con<lb ed="#N" n="13" break="no"/>grue reparandus in eisdem visibilibus salutis occasionem
+            reci<lb ed="#N" n="14" break="no"/>pere debebat. vt per eadem resurgeret per que corruerat.
+          </p>
+          <p xml:id="v78d89-d1e88-d1e1619">
+            ⁋ Ad
+            <lb ed="#N" n="15"/>vltimum dicendum. quod vtilitas vt dicit philosophus est occasio veniendi in
+            fi<lb ed="#N" n="16" break="no"/>nem. Vnde aliud est proprie loquendo vtilitas. et aliud finis.
+            Vtili<lb ed="#N" n="17" break="no"/>tas autem est sicut via. finis vero sicut terminus. vnde licet sacramentorum
+            <lb ed="#N" n="18"/>sit finis vnius sicut tactum est. scilicet reformatio per gratiam imaginis
+            defor<lb ed="#N" n="19" break="no"/>mitate per peccatum. nihilominus sunt plures vtilitates scilicet
+            tri<lb ed="#N" n="20" break="no"/>plex reparatio siue rectificatio trium virium motiuarum. sicut vnius
+            <lb ed="#N" n="21"/>termini plures sunt vie. Vel posset dici quod humiliatio refertur
+            <lb ed="#N" n="22"/>ad effectum. Eruditio ad intellectum. Exercitatio ad effectum
+            <lb ed="#N" n="23"/>siue operationem. et secundum hoc vtilitates distinguerentur secundum horum
+            tri<lb ed="#N" n="24" break="no"/>plicem rectificationem et nihilominus esset finis vnus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

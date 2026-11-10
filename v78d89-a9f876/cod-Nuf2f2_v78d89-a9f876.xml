@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 47, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 47, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="329"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a9f876"><!-- q47m3 -->
+        <head xml:id="v78d89-a9f876-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a9f876-Hd1e103" type="question-title">Si licet mulierem patientem fluxum menstrui et virum seminifluum communicare</head>
+        <p xml:id="v78d89-a9f876-d1e106">
+          <lb ed="#N" n="49"/>Membrum tercium
+        </p>
+        <p xml:id="v78d89-a9f876-d1e111">
+          <lb ed="#N" n="50"/>COnsequenter queritur si licet mulierem patientem
+          <lb ed="#N" n="51"/>fluxum menstrui et virum semifluum communicare. Quod
+          <lb ed="#N" n="52"/>sic: videtur. quia quod naturale est nulli debet
+          re<lb ed="#N" n="53" break="no"/>putari in causam meriti vel demeriti inquantum
+          <lb ed="#N" n="54"/>naturalem est. Si igitur homo meretur ex accessu ad corpus christi
+          <lb ed="#N" n="55"/>propter aliquod quod naturale est et omnino inuinicibile: non debet a
+          <lb ed="#N" n="56"/>tali accessu artari.
+        </p>
+        <p xml:id="v78d89-a9f876-d1e129">
+          ⁋ Contra. vt habetur Leui. xv. tales
+          immun<lb ed="#N" n="57" break="no"/>di sunt et quicquid ab illis tangitur et quicquid contingit illos. sed
+          <lb ed="#N" n="58"/>constat quod nihil immundum debet contingere corpus christi.
+        </p>
+        <p xml:id="v78d89-a9f876-d1e137">
+          ⁋ Si
+          di<lb ed="#N" n="59" break="no"/>ceretur quod ea que ibi dicuntur de huiusmodi patientibus figuratiue
+          <lb ed="#N" n="60"/>intelliguntur. Unde immundicia huiusmodi referenda est ad figura
+          <lb ed="#N" n="61"/>tum. Contra Leui. xviii. Ad mulierom que patitur etc. ibi
+          <lb ed="#N" n="62"/>glo. Augu. cum hec sufficienter prohibuisset hic etiam repetit:
+          for<lb ed="#N" n="63" break="no"/>te ne in superioribus videretur figuratiue accipiendum. vbi talia pro
+          <lb ed="#N" n="64"/>hibentur que remota obseruatione vmbrarum in nouo
+          te<lb ed="#N" n="65" break="no"/>stamento custodienda sunt. hec glo. Ex hac glo. videtur. quod
+          <lb ed="#N" n="66"/>illud quod de menstruata dicitur non attenditur figuratiue
+          <lb ed="#N" n="67"/>dictum.
+        </p>
+        <p xml:id="v78d89-a9f876-d1e159">
+          ⁋ Pret. videtur quod in nouo testamento
+          custodien<lb ed="#N" n="68" break="no"/>da sunt. quia maiorem requirit mundiciam nouum quam vetus.
+          <lb ed="#N" n="69"/>Responsio. sine preiudicio quod mulier vel vir in tali casu non
+          ha<cb ed="#N" n="b"/><lb ed="#N" n="70" break="no"/>bet necesse abstinere ab ingressu ecclesie. Unde Grego. inu
+          <lb ed="#N" n="71"/>quadam epistola. Mulier dum consuetudinem menstruam
+          <lb ed="#N" n="72"/>patitur prohiberi ecclesiam non debet: quia ei nature
+          super<lb ed="#N" n="73" break="no"/>fluitas in culpam reputarinon valet. similiter nec debet pro
+          <lb ed="#N" n="74"/>hiberi a communione sacramenti. Unde idem scilicet Greg.
+          San<lb ed="#N" n="75" break="no"/>cte communionis misterium in eisdem diebus percipere
+          pro<lb ed="#N" n="76" break="no"/>hiberi non potest. Si enim ex veneratione magna percipere
+          <lb ed="#N" n="77"/>non presumit laudanda est. sed si perceperit non est
+          iudican<lb ed="#N" n="78" break="no"/>da. Bonarum enim mentium est culpam ibi cognoscere
+          vbi<lb ed="#N" n="79" break="no"/>culpa non est. idem potest dici de viro semifluo.
+        </p>
+        <p xml:id="v78d89-a9f876-d1e189">
+          ⁋ Ad
+          hoc<lb ed="#N" n="80" break="no"/>quod igitur obiicitur. quod tales immundi sunt secundum legem et quic
+          <lb ed="#N" n="81"/>quid contingit etc. Dicendum quod illa immundicia legalis erat
+          <lb ed="#N" n="82"/>nec obseruanda quantum ad literam in nouo testamento: sed
+          quam<lb ed="#N" n="83" break="no"/>tum ad signatum. Unde existentes in fluxu peccati non
+          de<lb ed="#N" n="84" break="no"/>bent accedere ad sacram communionem.
+        </p>
+        <p xml:id="v78d89-a9f876-d1e202">
+          ⁋ Ad illud quod
+          di<lb ed="#N" n="85" break="no"/>cit augu. quod non videtur figuratiue accipiendum. Dicendum quod
+          <lb ed="#N" n="86"/>ipse loquitur de accessu ad menstruatam per copulam
+          carna<lb ed="#N" n="87" break="no"/>lem. quia accedere ad tales scienter et impudenter semper
+          <lb ed="#N" n="88"/>fuit peccatum et prohibitum. tamen maxime fuit iudeis per
+          <lb ed="#N" n="89"/>hibitum propter incontinentiam illorum: vt sic illorum
+          inconti<lb ed="#N" n="90" break="no"/>nentia artaretur siue reprimeretur. quod habetur expresse
+          <lb ed="#N" n="91"/>in glo. Leuiti. xv.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

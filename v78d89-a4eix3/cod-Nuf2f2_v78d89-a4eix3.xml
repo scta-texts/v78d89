@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 17, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 17, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="126"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4eix3"><!-- q17m4 -->
+        <head xml:id="v78d89-a4eix3-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a4eix3-Hd1e103" type="question-title">Utrum quando parturiens est in periculo mortis sit incidenda</head>
+        <p xml:id="v78d89-a4eix3-d1e106">
+          <lb ed="#N" n="115"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-a4eix3-d1e111">
+          <lb ed="#N" n="116"/>COnsequenter queritur de muliere perturiente que
+          <lb ed="#N" n="117"/>est in articulo mortis et desperatur de vita.
+          <lb ed="#N" n="118"/>vtrum possit dari consilium de secando eam vt
+          puer<lb ed="#N" n="119" break="no"/>viuus habeatur et baptizetur. Et videtur quod sic: quia
+          <lb ed="#N" n="120"/>consilium caritatis est optimum. caritas autem dictat quod preponenda
+          <lb ed="#N" n="121"/>est vita spiritualis vite corporali: et hec perdenda propter illam
+          saluan<lb ed="#N" n="122" break="no"/>dam: ergo non est contra consilium caritatis quod mulier de qua desperatur
+          <lb ed="#N" n="123"/>secetur vt puer viuus habreatur et baptizetur.
+        </p>
+        <p xml:id="v78d89-a4eix3-d1e131">
+          ⁋ Conter incertum est
+          si<lb ed="#N" n="124" break="no"/>puer viuus possit haberi vt baptizetur. certum est vt mulier pregnans
+          <lb ed="#N" n="125"/>occidetur. Non sunt autem facienda mala vt veniant bona: ergo non est
+          <lb ed="#N" n="126"/>dandum consilium vt mulier praegnans dum adhuc in ea superest vita
+          <lb ed="#N" n="127"/>secetur propter dictam rationem.
+        </p>
+        <p xml:id="v78d89-a4eix3-d1e143">
+          ⁋ Quod conceditur saluo iudicio
+          melio<lb ed="#N" n="128" break="no"/>ris sententie. dicit enim Augustinus tenenndum est certum et dimittendum
+          incer<lb ed="#N" n="129" break="no"/>tum. et planum est si est ibi peccatum homicidii. cum in ordine caritatis
+          <lb ed="#N" n="130"/>preponenda est salus propria aliene. non est secanda mulier dum
+          ad<lb ed="#N" n="131" break="no"/>huc superest vita ex qua sectione fiat mors vel mortis
+          accelera<lb ed="#N" n="132" break="no"/>tio. sed secus est si posset fieri sectio sine mortis periculo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

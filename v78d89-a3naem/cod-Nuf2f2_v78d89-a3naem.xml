@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 13, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 13, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="105"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a3naem"><!-- q13m3 -->
+        <head xml:id="v78d89-a3naem-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a3naem-Hd1e103" type="question-title">De forma huius sacramenti</head>
+        <p xml:id="v78d89-a3naem-d1e106">
+          <lb ed="#N" n="128"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a3naem-d1e111">
+          <lb ed="#N" n="129"/>SEquitur inquirere de forma huius
+          sacra<lb ed="#N" n="130" break="no"/>menti. Primo. de necessitate huius forme.
+          <lb ed="#N" n="131"/>Secundo. de integritate. Tercio. de
+          mu<lb ed="#N" n="132" break="no"/>tatione. Quarto. de comparatione
+          diuer<lb ed="#N" n="133" break="no"/>sarum formarum.
+        </p>
+        <div xml:id="v78d89-a3naem-Dd1e124">
+          <head xml:id="v78d89-a3naem-Hd1e126">Articulus 1</head>
+          <p xml:id="v78d89-a3naem-d1e128">
+            <lb ed="#N" n="134"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-a3naem-d1e133">
+            <lb ed="#N" n="135"/>CIrca primum queritur. vtrum necessaria est forma
+            voca<lb ed="#N" n="136" break="no"/>liter expressa. Quod videtur per hoc quod dominus
+            tradi<lb ed="#N" n="137" break="no"/>dit formam expressione vocali.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e142">
+            ⁋ Item verbum
+            <lb ed="#N" n="138"/>exterius formalem rationem tenet in hoc lacramento:
+            ele<pb ed="#N" n="106"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>mentum materialem. igitur sicut sine elemento non est
+            bapti<lb ed="#N" n="2" break="no"/>smus: sic nec sine verbo exteriori.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e153">
+            ⁋ Item ex institutione
+            ha<lb ed="#N" n="3" break="no"/>bent sacramenta virtutem. sed ex institutione est forma verborum
+            <lb ed="#N" n="4"/>sicut et materia. ergo necessaria est forma verborum ad
+            sancti<lb ed="#N" n="5" break="no"/>ficationem sacramentorum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e163">
+            ⁋ Contra. vt habetur. i. Ezech. Rota
+            <lb ed="#N" n="6"/>erat in rota id est vetus testamentum in nouo scilicet sicut signum in
+            <lb ed="#N" n="7"/>signato: et nouum in veteri sicut signatum in signo. igitur cum in
+            <lb ed="#N" n="8"/>nullo loco in veteri testamento prefiguratur forma sacramentorum
+            <lb ed="#N" n="9"/>noue legis esse proponenda sermone vocali: videtur quod non
+            re<lb ed="#N" n="10" break="no"/>quiritur in baptismo expressio aliqua vocalis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e176">
+            ⁋ Item artius
+            <lb ed="#N" n="11"/>seruituti astringitur qui verbo et facto seruire habet quam qui facto
+            <lb ed="#N" n="12"/>tantum. sed lex euangelica est lex libertatis. ergo minus debent filii
+            <lb ed="#N" n="13"/>ecclese artari in ministerio sacramentorum ad illam exercenda verbo
+            <lb ed="#N" n="14"/>et facto: quam filii synagoge qui subiecti erant legi timoris.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e187">
+            <lb ed="#N" n="15"/>⁋ Item in iustificatione impii requiritur fides sicut in
+            pur<lb ed="#N" n="16" break="no"/>gatione baptismali. sed ibi non requiritur expressio fidei per
+            <lb ed="#N" n="17"/>verba. igitur nec in purgatione baptismali.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e196">
+            ⁋ Item lex vetus
+            <lb ed="#N" n="18"/>hominem ordinauit exteriorem per se. lex noua interiorem hominem.
+            <lb ed="#N" n="19"/>In ordinatione hominis exterioris magis est necessaria expressio
+            vo<lb ed="#N" n="20" break="no"/>cis quam in ordinatione hominis interioris: quia ibi proprie vnctio
+            do<lb ed="#N" n="21" break="no"/>cet. igitur si in sacramentis legis moysi non exprimebatur forma
+            <lb ed="#N" n="22"/>expressione verborum: multofortius nec in sacramentis
+            no<lb ed="#N" n="23" break="no"/>ue legis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e212">
+            ⁋ Si diceretur quod sic: sicut in sacrificio zelotipie.
+            <lb ed="#N" n="24"/>Nume. v. Contra. verba illa non erant de substantia sacramenti
+            <lb ed="#N" n="25"/>sed exprimebant causam mulieris.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e219">
+            ⁋ Item eadem est forma
+            ba<lb ed="#N" n="26" break="no"/>ptizandi apud omnes. non autem expressio vocis est apud omnes.
+            <lb ed="#N" n="27"/>igitur vox expressa non est de forma baptismi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e227">
+            ⁋ Item
+            forma<lb ed="#N" n="28" break="no"/>vocis non est de necessitate baptismi. neque illa neque illa et sic
+            <lb ed="#N" n="29"/>de singulis: igitur nulla. igitur forma vocis non est etc.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e234">
+            ⁋ Item
+            <lb ed="#N" n="30"/>duo sunt genera operum dei respectu hominis scilicet creationis et
+            re<lb ed="#N" n="31" break="no"/>creationis. sed opus creationis exercuit sine verbo vocali.
+            si<lb ed="#N" n="32" break="no"/>militer vt videtur debet esse de operationibus recreationis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e243">
+            ⁋ Item
+            <lb ed="#N" n="33"/>quedam sunt opera nature: quedam gratie. et hoc vel gratisda
+            <lb ed="#N" n="34"/>te vel gratum facientis. sed in operibus nature deus operatur sine
+            <lb ed="#N" n="35"/>verbo sensibili. et in operibus gratie gratisdate vt in
+            operati<lb ed="#N" n="36" break="no"/>one miraculorum: quare ergo in operibus gratie gratum facientis que
+            <lb ed="#N" n="37"/>multonobilior est scilicet que conferter in sacramentis requinitur verbum
+            <lb ed="#N" n="38"/>sensibile.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e259">
+            ⁋ Item hugo. Si est nomen vocale cum in illo
+            no<lb ed="#N" n="39" break="no"/>mine sit salus. secundum illud. Deus in nomine tuo saluum me fac:
+            <lb ed="#N" n="40"/>surdis et mutis non esset salus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e266">
+            ⁋ Item accedit verbum ad
+            ele<lb ed="#N" n="41" break="no"/>mentum et fit sacramentum. non quia dicitur: sed quia creditur. ergo verbum
+            <lb ed="#N" n="42"/>fidei sufficit et non requiritur verbum vocale.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e273">
+            ⁋ Respondeo. quod de
+            <lb ed="#N" n="43"/>cebat diuinam sapicentiam quod existente lege gratie exercerentur
+            sacra<lb ed="#N" n="44" break="no"/>menta cum prolatione verbi sensibilis. cuius ratio est hec vt
+            di<lb ed="#N" n="45" break="no"/>cit hugo. Recte per verbum dei sanctificantur: que per verbum dei
+            <lb ed="#N" n="46"/>creata subsistunt. vnde verbum increatum est per quod res
+            rationa<lb ed="#N" n="47" break="no"/>lis scilicet homo existit et sanctificatur siue creatur et recreatur. sed
+            <lb ed="#N" n="48"/>ad hoc quod conuenienter recrearetur oportuit vt fieret sensibile
+            <lb ed="#N" n="49"/>quod ante erat insensibile. quia oportuit vt per nature huma
+            <lb ed="#N" n="50"/>ne assumptionem fieret sensibilis in iudicium. igitur verbi
+            incre<lb ed="#N" n="51" break="no"/>ati sensibilis facti per quod homo reparatur. et hoc mediantibus
+            <lb ed="#N" n="52"/>sacramentis conueniens fuit vt exercerentur mediante
+            sensibi<lb ed="#N" n="53" break="no"/>li verbo.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e300">
+            ⁋ Ad hoc igitur quod obiicitur. quod in nullo loco veteris
+            <lb ed="#N" n="54"/>testamenti figurata fuit forma verborum facienda in
+            sensi<lb ed="#N" n="55" break="no"/>bili voce. Unde cum rota erat in rota etc. dicendum quod rota dicitur
+            <lb ed="#N" n="56"/>esse in rota id est nouum testa. in veteri. non quia omnia que sunt
+            <lb ed="#N" n="57"/>in nouo testamento essent in veteri secundum omnem differentiam. sed quia
+            <lb ed="#N" n="58"/>omnia que erant in veteri et in nouo testamento ordinabantur
+            <lb ed="#N" n="59"/>ad intelligentiam eiusdem veritatis et ad obseruationem
+            eius<lb ed="#N" n="60" break="no"/>dem iusticie. quia vero in nouo testamento stabilitum est verbum
+            <lb ed="#N" n="61"/>in carne. ideo ad sanctificationem sacramentorum que habent virtu
+            <lb ed="#N" n="62"/>tem a verbo incarnato: instituta sunt verba que non erant
+            <lb ed="#N" n="63"/>in sacramentis veteris legis. Decuit enim vt sicut verbum
+            in<lb ed="#N" n="64" break="no"/>creatum factum erat infirmum: quod verbum creatum fieret
+            virtu<lb ed="#N" n="65" break="no"/>osum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e329">
+            ⁋ Ad hoc quod obiicitur. quod exercitio sacramentorum per
+            <lb ed="#N" n="66"/>verbum vocalem artius astringitur homo seruituti. dicendum quod
+            <lb ed="#N" n="67"/>artior obligatio diuino seruitio non maiorem inducit
+            ser<lb ed="#N" n="68" break="no"/>uitutem: sed potius libertatem ampliorem. Seruire enim deo
+            re<lb ed="#N" n="69" break="no"/>gnare est. vnde beata Agatha. Summa ingenuitas ista est in
+            <lb ed="#N" n="70"/>qua seruitus christi comprobatur. huiusmodi ergo artatio nobis est causa
+            <lb ed="#N" n="71"/>libertatis. vnde Brresionio. dicit. Ielix necessitas que libertatem
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="72"/>inducit.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e349">
+            ⁋ Ad aliud quod obiicitur. quod in iustificatione impii non
+            <lb ed="#N" n="73"/>requiritur sermo sensibilis. dicendum quod ad plenam
+            iustifica<lb ed="#N" n="74" break="no"/>tionem impii qua deo et ecclesie reconciliatur: requiritur verbu
+            <lb ed="#N" n="75"/>sensibile extenso nomine verbi id est nota sensibili. quia requiri
+            <lb ed="#N" n="76"/>tur confessio que nota aliqua habet propalari. In iustificatione
+            <lb ed="#N" n="77"/>igitur que fit per sacramentum: dico qua fit reconliatio ecclesie
+            <lb ed="#N" n="78"/>et membris eiusdem requiritur nota sensibilis sicut hoc. In
+            <lb ed="#N" n="79"/>iustificatione impii qua fit reconciliatio deo per gratiam non
+            <lb ed="#N" n="80"/>semper requiritur. Similiter nec in recreatione qua reparatur
+            de<lb ed="#N" n="81" break="no"/>formitas imaginis dei in anima ex contractu originalis non semper
+            <lb ed="#N" n="82"/>requiritur. quia quando que reparatur baptismo flaminis. quandoque
+            san<lb ed="#N" n="83" break="no"/>guinis vbi expressio vocalis non est necessaria.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e375">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="84"/>obiicitur de lege veteri que hominem exteriorem ordinabat etc.
+            <lb ed="#N" n="85"/>dicendum quod ordinatio exterior vel interior non est causa quare
+            sacra<lb ed="#N" n="86" break="no"/>menta quandoque exercebantur sine verbo sensibili: quandoque cum
+            ver<lb ed="#N" n="87" break="no"/>bo sensibili. sed duplex modus existendi ipsius verbi incre
+            <lb ed="#N" n="88"/>ati scilicet visibiliter et inuisibiliter. quia enim currente lege
+            moysi<lb ed="#N" n="89" break="no"/>verbum increatum nondum fuit visibile sicut tempore euangelii:
+            <lb ed="#N" n="90"/>sacramenta illius legis sine verbo sensibili exerceri debe
+            <lb ed="#N" n="91"/>bant. sacramenta legis euangelii cum verbo sensibili.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e395">
+            ⁋ Ad
+            <lb ed="#N" n="92"/>aliud quod obiicitur. quod eadem est forma baptizandi apud omnes:
+            <lb ed="#N" n="93"/>non vox eadem. Dicendum quod est loqui de forma
+            baptismi<lb ed="#N" n="94" break="no"/>essentiali simpliciter. et illa est in inuocatione trinitatis sub
+            pro<lb ed="#N" n="95" break="no"/>priis nominibus expressa cuiuscumque ydeomatis. et hec est
+            ea<lb ed="#N" n="96" break="no"/>dem apud omnes. Et est loqui de forma baptismi essentia
+            <lb ed="#N" n="97"/>li istis vel illis. et illa est in inuocatione trinitatis sub
+            pro<lb ed="#N" n="98" break="no"/>priis nominibus expressa huius singlaris ydeomatis vel illius.
+            <lb ed="#N" n="99"/>et hec non est eadem apud omnes prout forma attenditur in
+            for<lb ed="#N" n="100" break="no"/>ma sensibili. Quando ergo dicitur quod forma est eadem apud omnes.
+            <lb ed="#N" n="101"/>hoc verum est de forma essentiali simpliciter. cum autem dicitur non
+            <lb ed="#N" n="102"/>est eadem forma vocis. igitur etc. Dicendum quod non sequitur. sicut
+            <lb ed="#N" n="103"/>non sequitur homo vniuersale est vbique et semper: homo
+            parti<lb ed="#N" n="104" break="no"/>cularis non. sic igitur ad esse hominis velis non requiritur esse
+            ho<lb ed="#N" n="105" break="no"/>minis perticularis. et ratio huius est. quia illud quod vbique est scilicet
+            <lb ed="#N" n="106"/>homo vniuersale: habet esse ab homine perticlari. Similiter dico ex
+            per<lb ed="#N" n="107" break="no"/>te ista. licet expressio vocis non conueniat in idemptitatis
+            propri<lb ed="#N" n="108" break="no"/>etate cum forma essentiali simpliciter: nihilominus quia illa
+            for<lb ed="#N" n="109" break="no"/>ma non potest esse sine expressione hac vel illa: non sequitur si non
+            <lb ed="#N" n="110"/>sit eadem expressio quod expressio non sit de forma. et dico quod in
+            <lb ed="#N" n="111"/>argumento est fallacia figure dictionis a determinata
+            sup<lb ed="#N" n="112" break="no"/>positione ad indeterminatam. cum enim dicitur. non est eadem
+            ex<lb ed="#N" n="113" break="no"/>pressio vocis. quod dico expressio: determinatam habet suppositionem.
+            <lb ed="#N" n="114"/>cum infertur. igitur expressio non est de forma. quod dico expressio:
+            <lb ed="#N" n="115"/>iam habet indeterminatam.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e450">
+            ⁋ Ex hoc patet. quod illud argumen
+            <lb ed="#N" n="116"/>tum non valet. hec forma vocis non est de necessitate neque
+            il<lb ed="#N" n="117" break="no"/>la nequie illa. igitur forma vocis non est de necessitate baptilmi.
+            <lb ed="#N" n="118"/>ibi est processus a determinata suppositione ad
+            indetermina<lb ed="#N" n="119" break="no"/>tam. cum dicitur neque hec neque hec vnde nulla semper
+            discre<lb ed="#N" n="120" break="no"/>ta est suppositio. cum dicitur. igitur forma vocis non est etc. hoc est
+            <lb ed="#N" n="121"/>indeterminata suppositio.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e467">
+            ⁋ Ad quod obiicitur. quod opera creati
+            <lb ed="#N" n="122"/>onis exercuit deus sine verbo sensibili etc. Dicendum quod
+            <lb ed="#N" n="123"/>non sequitur. quia verbum increatum non factum est
+            sensi<lb ed="#N" n="124" break="no"/>bile vt crearet: sicut factum est sensibile vt recrearet.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e476">
+            ⁋ Ex
+            <lb ed="#N" n="125"/>his patet responsio ad aliud. quod verbum increatum est
+            sensi<lb ed="#N" n="126" break="no"/>bile factum. non propter opus nature vel gratie
+            gratisda<lb ed="#N" n="127" break="no"/>te: sed propter opus gratie gratum facientis. quia propter
+            mum<lb ed="#N" n="128" break="no"/>dationem et salutem anime. ideo decuit quod in operibus
+            mun<lb ed="#N" n="129" break="no"/>dationis esset expressio verbi sensibilis et non in aliis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e489">
+            ⁋ Ad
+            <lb ed="#N" n="130"/>aliud quod obiicitur dicendum. quod non negat hugo quin in
+            bapti<lb ed="#N" n="131" break="no"/>smo requiratur verbum vocale. sed intendit quod per hoc quod
+            di<lb ed="#N" n="132" break="no"/>citur in nomine. cum dicitur. baptizo te in nomine patris et
+            filu<lb ed="#N" n="133" break="no"/>et spiritus sancti. non intelligitur nomen vocale sed potius
+            men<lb ed="#N" n="134" break="no"/>tale: quod non est noticia fidei siue noticia que est fides.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e502">
+            <lb ed="#N" n="135"/>⁋ Ad vltimum dicendum. quod non negat verbo predicto quin
+            re<lb ed="#N" n="136" break="no"/>quiratur verbum exterius: sed ostenditur illud non sufficere sine fid.
+            <lb ed="#N" n="137"/>vnde exponitur non quia creditur tantum.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3naem-Dd1e513">
+          <head xml:id="v78d89-a3naem-Hd1e515">Articulus 2</head>
+          <p xml:id="v78d89-a3naem-d1e517">
+            <lb ed="#N" n="138"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-a3naem-d1e522">
+            <lb ed="#N" n="139"/>Onsequentur queritur de integritate forme. Primo
+            <lb ed="#N" n="140"/>ergo vtrum hoc pronomen ego requiratur. Secundo. vtrum
+            <lb ed="#N" n="141"/>Hhoc verbum baptizo. Tercio. vtrum
+            trinita<pb ed="#N" n="107"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tis expressio. Quarto. de aliis que exprimuntur in forma scilicet
+            <lb ed="#N" n="2"/>re et nomine.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e538">
+            <lb ed="#N" n="3"/>Queritur v primno. §. 1.
+            <lb ed="#N" n="4"/>Utrum hoc pronomen ego sit necessario de forma. Quod sic: videtur.
+            <lb ed="#N" n="5"/>quia hec forma integritatem requiritur quantum ad formam sensibilem
+            <lb ed="#N" n="6"/>et intelligibilem. et maxime quantum ad sensibilem. cum
+            sacramen<lb ed="#N" n="7" break="no"/>tum sensibile sit signum. igitur cum intellectus verbi non
+            suffi<lb ed="#N" n="8" break="no"/>cienter exprimitur nisi subintellecto pronone vel apposito. et
+            <lb ed="#N" n="9"/>sacramentum est signum sensibile: debet apponi pronomen non
+            <lb ed="#N" n="10"/>subintelligi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e558">
+            ⁋ Item hoc videtur per decretum illud. Si quis
+            pu<lb ed="#N" n="11" break="no"/>erum ter in aqua merserit. dicendo In nomine pa. et fi. et scililicet si non
+            <lb ed="#N" n="12"/>dicat Ego baptizo te: non baptizat.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e566">
+            ⁋ Item si sine hoc
+            prono<lb ed="#N" n="13" break="no"/>mine ego: est baptismus. ita erat in aliis quod sufficiet: quod illud
+            <lb ed="#N" n="14"/>quod est de forma implicite proferatur. et tunc erit baptismus
+            si<lb ed="#N" n="15" break="no"/>dicatur in nomine christi in quo intelligitur ipsa trinitas.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e575">
+            ⁋ Contra
+            <lb ed="#N" n="16"/>decimo ad roos. Corde creditur ad iusticiam etc. igitur confessio
+            <lb ed="#N" n="17"/>fidei necessaria est ad salutem. sed in confessione fidei non
+            requi<lb ed="#N" n="18" break="no"/>ritur expressio vocalis persone credentis. non enim in
+            confessi<lb ed="#N" n="19" break="no"/>one fidei dicitur ego credo in vnum deum etc. sed credo in
+            vnum<lb ed="#N" n="20" break="no"/>deum. a simili ex parte ista sufficit dicere baptizo: nec
+            requi<lb ed="#N" n="21" break="no"/>ritur appositio prononis ego. igitur hoc pronomen ego non est
+            ne<lb ed="#N" n="22" break="no"/>cessario de forma.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e593">
+            ⁋ Responsio. quod in sacramentis et maxime in
+            <lb ed="#N" n="23"/>hoc est necessitas facientis et necessitas faciendi. quantum ad
+            necessi<lb ed="#N" n="24" break="no"/>tatem fociendi non est necessario de forma. immo existimo
+            <lb ed="#N" n="25"/>quod baptizatus assequitur plenarie effectum sacramenti.
+            si<lb ed="#N" n="26" break="no"/>dicatur baptizo etc. sine appositione. nihilominus est de
+            forma<lb ed="#N" n="27" break="no"/>necessario quantum ad necessitatem facientis. scilicet vt coartetur
+            <lb ed="#N" n="28"/>intentio baptizantis. quia ecclesia baptizat sub hac
+            forma<lb ed="#N" n="29" break="no"/>ego baptizo etc. valde enim negligit qui aliquid de forma ecclesie
+            <lb ed="#N" n="30"/>omittit. Unde necessitatis est quantum ad illum ne peccet
+            negligen<lb ed="#N" n="31" break="no"/>do.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e615">
+            ⁋ Ad illud quod obiicitur per auctoritatem Leonis pape.
+            Dicen<lb ed="#N" n="32" break="no"/>dum quod intentio illius est si subtrahatur verbum quo exprimitur
+            <lb ed="#N" n="33"/>actus baptizandi vt immergeretur puer in nomine trinitatis:
+            <lb ed="#N" n="34"/>et non exprimeretur actus baptizandi: non esset baptizatus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e624">
+            <lb ed="#N" n="35"/>⁋ Ad aliud dicendum. quod non est simile de intellectu implicito
+            <lb ed="#N" n="36"/>huius prononis ego et ipsius trinitatis. quia trinitas expressa
+            <lb ed="#N" n="37"/>fuit in forma data a domino dicente. baptizantes eos in
+            no<lb ed="#N" n="38" break="no"/>mine pa. et fi. et scililicet quod autem ab eo fuit expressum: expresse debet
+            <lb ed="#N" n="39"/>proferri et explicite: non implicite.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e637">
+            <lb ed="#N" n="40"/>Consequenter quae. §. ii.
+            <lb ed="#N" n="41"/>ritur. Utrum hoc verbum baptizo sit de forma verborum. dicit
+            <lb ed="#N" n="42"/>decretalis quod sic.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e647">
+            ⁋ Item in decretis Alexan. pape. iii. dicitur.
+            <lb ed="#N" n="43"/>Si quis puerum in aqua ter merserit dicendo in nomine pa.
+            <lb ed="#N" n="44"/>et fi. et scililicet si non dicat ego baptizo te: talis mersio non facit
+            <lb ed="#N" n="45"/>baptismum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e656">
+            ⁋ Contra. In sacramento baptismatis deus est
+            <lb ed="#N" n="46"/>principaliter et intime operans et etiam quod minister operatur hoc habet
+            <lb ed="#N" n="47"/>a deo. vnde tota virtus sacramenti est a diuina operatione.
+            Si<lb ed="#N" n="48" break="no"/>igitur actus baptismatis est de forma et debeat exprimi in
+            for<lb ed="#N" n="49" break="no"/>ma: videtur quod potius debet exprimi vt est dei quam vt est hominis.
+            <lb ed="#N" n="50"/>vt dicatur baptizat te christus vel deus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e669">
+            ⁋ Item Io. i. Hic est qui
+            ba<lb ed="#N" n="51" break="no"/>ptizat. si ergo minister dicat baptizo: videtur dicere falsum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e674">
+            ⁋ Item
+            <lb ed="#N" n="52"/>si vterque operatur: quare magis opus ministri exprimitur quam opus
+            <lb ed="#N" n="53"/>dei.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e681">
+            ⁋ Item maius est exprimere facto quam verbo. igitur cum
+            <lb ed="#N" n="54"/>baptizans actum baptizandi exprimat facto: superfluit
+            expres<lb ed="#N" n="55" break="no"/>sio per verbum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e688">
+            ⁋ Item quando aliquis consentit in aliquam per verba de
+            <lb ed="#N" n="56"/>futuro. si secuta fuerit carnalis copula completum est
+            matri<lb ed="#N" n="57" break="no"/>monium secundum canones. nec opertet exprimere consensum animorum
+            <lb ed="#N" n="58"/>per verba de presenti: cum sensus sufficienter expressus sit facto.
+            <lb ed="#N" n="59"/>Eodem modo in proposito videtur. immo fortius est vinculum
+            <lb ed="#N" n="60"/>cum sic expressus sit consensus facto quam verbo. quia si esset
+            con<lb ed="#N" n="61" break="no"/>sensus solo verbo expressus: adhuc posset alter communiugum
+            <lb ed="#N" n="62"/>se transferre ad vitam artiorem sine alterius consensu. quod
+            fi<lb ed="#N" n="63" break="no"/>eri non licet et expresso consensu facto huiusmodi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e709">
+            ⁋ Item in signa
+            <lb ed="#N" n="64"/>tionibus nostris non dicitur Ego signo me in nomine pa. etc. quia
+            <lb ed="#N" n="65"/>signatio exprimitur per actum exercitum quem determinat ly
+            <lb ed="#N" n="66"/>in nomine pa. etc. similiter videtur in proposito.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e718">
+            ⁋ Item non dicitur in
+            <lb ed="#N" n="67"/>sacramento altaris conficio: a simili nec hoc baptizo.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e723">
+            ⁋ Item
+            <lb ed="#N" n="68"/>queritur vnde habetur hec forma baptizandi. scilicet baptizo te
+            <lb ed="#N" n="69"/>etc. ita quod actus exercitus exprimatur. Si dicatur quod ex illo
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>verbo domini Math. vltim. Ite docete omnes gentes
+            baptizan<lb ed="#N" n="71" break="no"/>tes eos in nomine pa. etc. Contra. non precipiebatur ibi actus vt
+            <lb ed="#N" n="72"/>verbo exprimendus: sed vt opere exercendus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e739">
+            ⁋ Item si baptizo
+            <lb ed="#N" n="73"/>est de forma baptismi: quia dominus dixit baptizantes etc. cum dominus
+            <lb ed="#N" n="74"/>miserat eos ad duo. ad docendum et ad baptizandum:
+            opor<lb ed="#N" n="75" break="no"/>tebat actum predicandi in predicatione exprimi vocaliter. quod non est
+            ve<lb ed="#N" n="76" break="no"/>rum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e750">
+            ⁋ Item queritur cum instruendo apostolos in forma baptizandi
+            pre<lb ed="#N" n="77" break="no"/>misit dominus de doctrina dicens. Euntes docete omnes gentes
+            <lb ed="#N" n="78"/>bap. etc. requiritur ne cum baptismo doctrina:
+          </p>
+          <p xml:id="v78d89-a3naem-d1e757">
+            ⁋ Item si necessaria
+            <lb ed="#N" n="79"/>est expressio actus vt dicitur quia necessaria relatio intentionis ad actum.
+            vi<lb ed="#N" n="80" break="no"/>detur quod tunc conueniret experimere actum intentionis vt diceretur
+            in<lb ed="#N" n="81" break="no"/>tendo baptizare te.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e767">
+            ⁋ Responsio. ad hoc dicendum. quod expressio actus
+            <lb ed="#N" n="82"/>baptizandi est de forma sicut statutum est in concilio. illud quod
+            sta<lb ed="#N" n="83" break="no"/>tutum fuit in concilio: factum fuit ad coartationem intentionis
+            ba<lb ed="#N" n="84" break="no"/>ptizandi et propter alia que i. patebunt et modo est de his que
+            ex<lb ed="#N" n="85" break="no"/>iguntur ad esse baptismi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e778">
+            ⁋ Ad primum obiectum contra hoc. dicendum quod
+            <lb ed="#N" n="86"/>differenter est de operatione dei et hominis. in omnibus operibus huiusmodi deus
+            <lb ed="#N" n="87"/>operatur et homo cooperatur. vnde actio hominis est quasi actio relata. vnde
+            <lb ed="#N" n="88"/>operatione hominis operatio christi intelligitur. non autem econuerso. propter
+            <lb ed="#N" n="89"/>quod sufficit et conuenit vt exprimatur actio hominis. Item alia est
+            <lb ed="#N" n="90"/>ratio cum operatio hominis exprimitur: exprimitur et modus
+            opera<lb ed="#N" n="91" break="no"/>tionis. modus autem operationis in hoc attenditur. quod sicut
+            ablu<lb ed="#N" n="92" break="no"/>itur corpus extra: sic purgatur anima intra. hoc autem requirit
+            sacra<lb ed="#N" n="93" break="no"/>mentum: quia efficit quod figurat. Si vero exprimeretur operatio
+            de<lb ed="#N" n="94" break="no"/>tantum exprimeretur operatio et non operationis modus. vnde licet tota
+            vir<lb ed="#N" n="95" break="no"/>tus sit penes operationem dei: non tamen totaliter exprimitur per actum
+            <lb ed="#N" n="96"/>dei. quia igitur virtus non solum attenditur in operatione: sed in modo
+            ope<lb ed="#N" n="97" break="no"/>rationis. melius exprimitur actus hominis quam si actus dei
+            expri<lb ed="#N" n="98" break="no"/>meretur. Preterea. sicut opertuit hominem homine redemi ad hoc quod
+            con<lb ed="#N" n="99" break="no"/>grua esset redemptio. oportuit enim vt per hominem fieret
+            satisfa<lb ed="#N" n="100" break="no"/>ctio sicut facta fuit preuaricatio: sic conuenit vt homo homini
+            mi<lb ed="#N" n="101" break="no"/>nistret sacramentum quo assequitur beneficium redemptionis. et
+            <lb ed="#N" n="102"/>hoc fuit de dispensatione diuine prouidentie que volebat
+            <lb ed="#N" n="103"/>vt ratione ministerii huius homo homini fortiori
+            copu<lb ed="#N" n="104" break="no"/>la vniretur. expressione autem huiusmodi innotescit quod homo
+            ho<lb ed="#N" n="105" break="no"/>mini subuenit in hoc ministerio.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e824">
+            ⁋ Ad aliud dicendum.
+            <lb ed="#N" n="106"/>quod deus baptizat auctoritate et hoc ministerio. quod
+            pa<lb ed="#N" n="107" break="no"/>tet per hoc quod homo baptizat in nomine patris et filii et
+            spi<lb ed="#N" n="108" break="no"/>ritussancti. per hoc enim excludit a se auctoritatem et
+            at<lb ed="#N" n="109" break="no"/>tribuit illam trinitati. Unde dicendo ego baptizo etc.
+            si<lb ed="#N" n="110" break="no"/>bi attribuit ministerium: deo auctoritatem. et ideo non
+            di<lb ed="#N" n="111" break="no"/>cit falsum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e840">
+            ⁋ Ex hoc patet responsio ad aliud quod
+            sequi<lb ed="#N" n="112" break="no"/>tur. et potest superaddi quod in actione ministri intelligitur
+            <lb ed="#N" n="113"/>actio dei et non econuerso.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e847">
+            ⁋ Ad aliud dicendum. quod
+            intin<lb ed="#N" n="114" break="no"/>ctio in aqua potest fieri multiplici de causa. vel ad
+            ablu<lb ed="#N" n="115" break="no"/>endum. vel ad lauandum extra. vel ad baptizandum. Si
+            <lb ed="#N" n="116"/>militer expressio trinitatis fit in multis operationibus.
+            <lb ed="#N" n="117"/>vnde immergens paruulum in actu exercito neque
+            expressi<lb ed="#N" n="118" break="no"/>one trinitatis exprimit nisi quod contingit. non autem exprimit
+            <lb ed="#N" n="119"/>qua intentione: que exprimitur per hoc quod dicitur baptizo.
+            <lb ed="#N" n="120"/>Sicut igitur intentio est de necessitate et est de essentia
+            bapti<lb ed="#N" n="121" break="no"/>smi: sic hoc verbum baptizo de necessitate est de
+            forma<lb ed="#N" n="122" break="no"/>verborum. per hoc enim exprimit baptizans se tingere non
+            <lb ed="#N" n="123"/>ad abluendum vel lauandum: sed ad baptizandum. vnde
+            ex<lb ed="#N" n="124" break="no"/>primit se tingere ad lauandum animam sine lauacro trinita
+            <lb ed="#N" n="125"/>tis fidei in fide trinitatis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e876">
+            ⁋ Ad aliud quod obiicitur de
+            car<lb ed="#N" n="126" break="no"/>nali copula. Dicendum est. quod illa copulatio carnalis non fit
+            <lb ed="#N" n="127"/>sine consensu: sed est signum consensus precedentis. propter
+            <lb ed="#N" n="128"/>quod non est simile. et licet ille consensus posset esse in
+            volu<lb ed="#N" n="129" break="no"/>ptatem non in matrimonium: tamen concubitus ille
+            inter<lb ed="#N" n="130" break="no"/>pretandus est in meliorem partem. nec si cognoscens
+            alle<lb ed="#N" n="131" break="no"/>garet contrarium audiendus est. Infamator enim sui non est
+            au<lb ed="#N" n="132" break="no"/>diendus cum allegaret propriam turpitudinem.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e895">
+            ⁋ Ad hoc
+            <lb ed="#N" n="133"/>quod obiicitur de signatione dicendum. quod actus huiusmodi scilicet exercitus
+            <lb ed="#N" n="134"/>in signatione est figuratio crucis que est ipsa signatio. vnde
+            <lb ed="#N" n="135"/>actus ille non potest fieri nisi intentione signandi. et ideo
+            <lb ed="#N" n="136"/>non oportet actum sermone significare: cum ipso opere
+            <lb ed="#N" n="137"/>satis dicatur. non sic in proposito.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e908">
+            ⁋ Ad aliud dicendum. quod
+            <lb ed="#N" n="138"/>vt referatur sicut dictum est intentio baptizantis ad actum
+            exer<lb ed="#N" n="139" break="no"/>citum: necessia est expressio huiusmodi et magis quam in aliis sacramen
+            <lb ed="#N" n="140"/>tis. quia enim illud sacramentum est sacramentum necessitatis:
+            ma<pb ed="#N" n="108"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>xima adhibenda est diligentia vt intentio referatur ad opost.
+            <lb ed="#N" n="2"/>Preterea. quia huiusmodi ablutio frequens est in operibus humanis.
+            <lb ed="#N" n="3"/>cuius frequentia est occasio vagandi animo baptizantis: necessaria est
+            <lb ed="#N" n="4"/>hec expressio ad repressionem huius vagationis. vnde propter istas cau
+            <lb ed="#N" n="5"/>sas instituta fuit hec expressio in forma baptizandi. Nec
+            <lb ed="#N" n="6"/>est huiusmodi expressio necessaria in sacramento altaris. tum quia non est
+            sa<lb ed="#N" n="7" break="no"/>cramentum necessitatis: tum quia opus est singulare. vnde communitas
+            <lb ed="#N" n="8"/>non est ibi causa euagationis: tum quia in hoc opere maxime homo
+            <lb ed="#N" n="9"/>reuocat se ad se propter magnitudinem sacramenti.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e939">
+            ⁋ Ad
+            ali<lb ed="#N" n="10" break="no"/>ud dicendum. quod non est simile de predicatione et baptizatione: quia in
+            pre<lb ed="#N" n="11" break="no"/>dicatione non requiritur relatio intentionis predicantis ad actum.
+            <lb ed="#N" n="12"/>quia ergo nulla necessitas fuit relationis intentionis ad actum: non
+            <lb ed="#N" n="13"/>oportebat vt actus exprimeretur ne esset vagatio animi ad
+            <lb ed="#N" n="14"/>aliud.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e952">
+            ⁋ Ad aliud dicendum. quod tunc necessaria fuit doctrina fidei: quia
+            <lb ed="#N" n="15"/>tunc baptizabant adultos ignorantes fidem. non sic est
+            modo<lb ed="#N" n="16" break="no"/>quando generaliter paruuli qui non sunt capaces doctrine baptizam
+            <lb ed="#N" n="17"/>tur. propter quod non est necessaria modo doctrina cum baptismo.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e961">
+            <lb ed="#N" n="18"/>⁋ Ad vltimum dicendum. quod cum actu baptizandi requiritur inten
+            <lb ed="#N" n="19"/>tio: non autem sufficit alterum per se. Sed si diceretur intendo
+            bapti<lb ed="#N" n="20" break="no"/>zare: non exprimeretur actus vt est actus: sed vt est intentus.
+            <lb ed="#N" n="21"/>vnde non exprimeretur actus cum intentione. sed quia
+            inten<lb ed="#N" n="22" break="no"/>tio est regula operis cum dicitur baptizo te etc. ipsi actui
+            coin<lb ed="#N" n="23" break="no"/>telligitur intentio. vnde cum dicitur baptizo te: intellectus verbi
+            <lb ed="#N" n="24"/>est tingo te cum intentione baptizandi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e979">
+            <lb ed="#N" n="25"/>Consequenter queri. §. tii
+            <lb ed="#N" n="26"/>tur. vtrum forma baptismi requirit expressionem trinitatis. Quod
+            <lb ed="#N" n="27"/>sic videtur. eo quod in forma expressa a domino trinitas
+            exprimi<lb ed="#N" n="28" break="no"/>tur.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e991">
+            ⁋ Item hoc idem videtur. quia in hoc sacramento anima
+            refor<lb ed="#N" n="29" break="no"/>matur ad expressam similitudinem trinitatis. Unde illud quod est
+            <lb ed="#N" n="30"/>ex parte ministerii formale: debet esse expressiuum trinitatis
+            <lb ed="#N" n="31"/>scilicet verbum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1000">
+            ⁋ Item Fulgentius. ministerium redemptionis
+            <lb ed="#N" n="32"/>nullo modo habetur si patris et filii et spiritus sancti
+            nomen<lb ed="#N" n="33" break="no"/>subtrahatur.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1007">
+            ⁋ Item damas. iiii. lidbo. Quicumque non in sanctam
+            <lb ed="#N" n="34"/>trinitatem baptizati sunt hos oportet rebaptizari.
+            bapti<lb ed="#N" n="35" break="no"/>zari in sanctam trinitatem: est baptizari inuocando ipsam
+            <lb ed="#N" n="36"/>trinitatem.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1016">
+            ⁋ Item Pelagius Gaudentio episcopo. Si
+            reue<lb ed="#N" n="37" break="no"/>ra hi qui de hereticis qui de locis dilectionis tue vicinis
+            <lb ed="#N" n="38"/>commemorari dicuntur: solummodo in nomine patris domini
+            bapti<lb ed="#N" n="39" break="no"/>zatos fuisse forsitan confitentur sine cuiusquam dubitationis
+            am<lb ed="#N" n="40" break="no"/>biguo eos ad catholicam fidem venientes: sancte
+            trinita<lb ed="#N" n="41" break="no"/>tis nomine baptizabis. igitur requiritur baptizatio in nomine
+            tri<lb ed="#N" n="42" break="no"/>nitatis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1032">
+            ⁋ Contra. in creatione hominis non exprimitur
+            trini<lb ed="#N" n="43" break="no"/>tas per verba designantia explicite personas: quamuis
+            indistin<lb ed="#N" n="44" break="no"/>cte significetur cum dicitur: faciamus hominem ad imaginem etc.
+            <lb ed="#N" n="45"/>ergo nec in sacramento recreationis est necessarium.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1041">
+            ⁋ Item cum
+            <lb ed="#N" n="46"/>per verbum dei omnium sit facta reformatio: videtur quod sufficeret
+            ex<lb ed="#N" n="47" break="no"/>pressio ipsius in reformatione. et hoc fundatur super quoddam
+            <lb ed="#N" n="48"/>verbum Hugo. non verbum dei sanctificantur que per verbum dei
+            <lb ed="#N" n="49"/>creata subsistunt. per verbum creare potuit: et per verbum
+            recre<lb ed="#N" n="50" break="no"/>are non poterit.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1055">
+            ⁋ Item homo gerit imaginem vnitatis sicut
+            <lb ed="#N" n="51"/>trinitatis. sed primum non exprimitur: ergo nec secundum debet
+            expri<lb ed="#N" n="52" break="no"/>mi. vel quare hoc et non illud.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1062">
+            ⁋ Item ambro. libo. de trini.
+            <lb ed="#N" n="53"/>Si vnum in sermone comprhendas: vel patrem vel filiam vel
+            <lb ed="#N" n="54"/>spiritum sanctum: fidem autem nec filii nec patris nec spiritus
+            san<lb ed="#N" n="55" break="no"/>cti abneges: plenum est fidei sacramentum. hec amb. ergo
+            ha<lb ed="#N" n="56" break="no"/>bens fidem trium personarum: baptizat inuocando vnam
+            solam<lb ed="#N" n="57" break="no"/>expressione vocali.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1075">
+            ⁋ Item trium personarum vna est poetans
+            <lb ed="#N" n="58"/>sapicentia bonitas. expressa ergo forma verborum qua fit
+            inuoca<lb ed="#N" n="59" break="no"/>tio quedam. vt potestate siue bonitate dei fiat ablutio
+            cul<lb ed="#N" n="60" break="no"/>pe et remissio pene debite ipsi baptizato. cum omnium trium
+            <lb ed="#N" n="61"/>sit vna bonitas vna poetans et vna actio: et eadem est vnius et
+            <lb ed="#N" n="62"/>omnium: non requiritur nisi inuocatio siue expressio vnius
+            perso<lb ed="#N" n="63" break="no"/>ne.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1091">
+            ⁋ Item videtur quod expressio huiusmodi non requiratur in forma.
+            <lb ed="#N" n="64"/>quia dicit augustinus. vnde est tanta vis aque vt corpus tingat
+            <lb ed="#N" n="65"/>et cor abluat: nisi faciente verbo. non quia dicitur: sed quia
+            credi<lb ed="#N" n="66" break="no"/>tur. ergo in baptismo non est necesse exprimere verba.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1100">
+            ⁋ Si
+            di<lb ed="#N" n="67" break="no"/>catur quod intelligitur sic. non quia dicitur tantum: sed quia creditur. Contra.
+            pa<lb ed="#N" n="68" break="no"/>ri ratione potest dici: non quia creditur sed quia dicitur. cum vtrumque requiratur.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1107">
+            <lb ed="#N" n="69"/>⁋ Item in primitiua ecclesia forma fuit in nomine christi. et ita in
+            <lb ed="#N" n="70"/>nomine filii. quare non adhuc similiter.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1115">
+            ⁋ Item si aliqua ratione tunc erat
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>baptizandum inuocando vnam personam: quare potius inuo
+            <lb ed="#N" n="72"/>cando filium quam patrem et spirium sanctum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1124">
+            ⁋ Item queritur. vtrum
+            suf<lb ed="#N" n="73" break="no"/>ficiat exprimere personam spiritus sancti. Nam sicut in hoc nomine
+            <lb ed="#N" n="74"/>christus intelligitur vngens et vnctus et vnctio: et ita trinitas. et
+            <lb ed="#N" n="75"/>ideo baptizabatur in nomine christi. Similiter in spiritusancto
+            intelligi<lb ed="#N" n="76" break="no"/>tur persona patris et persona filii a quibus procedit. ergo multo for
+            <lb ed="#N" n="77"/>tius vt videtur potest dari baptismus in nomine spiritus sancti.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1137">
+            ⁋ Item
+            <lb ed="#N" n="78"/>queritur. si dicatur. baptizo te in nomine trinitatis: sit seruata
+            <lb ed="#N" n="79"/>forma baptismi. Et videtur quod sic: per hoc quod dicitur in libro. senten.
+            <lb ed="#N" n="80"/>Quod si queratur in qua forma baptizabant discipuli: dici
+            po<lb ed="#N" n="81" break="no"/>test sane quod in nomine trinitatis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1148">
+            ⁋ Respondeo. quod forma
+            bapti<lb ed="#N" n="82" break="no"/>smi requirit expressionem trinitatis. quia ad illam reformatur
+            <lb ed="#N" n="83"/>imago anime in hoc sacramento que deformata fuit in primo
+            <lb ed="#N" n="84"/>peccato.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1157">
+            ⁋ Ad primum dicendum. quod opera creationis pertinent ad
+            na<lb ed="#N" n="85" break="no"/>turam vnde dicuntur naturalia opera. recreationis ad gratiam
+            <lb ed="#N" n="86"/>et ideo dicuntur gratuita. quia ergo anima per naturam non potest
+            eleuari<lb ed="#N" n="87" break="no"/>supra se ad expressam cognitionem trinitatis: non debuit in
+            cre<lb ed="#N" n="88" break="no"/>atione exprimi trinitas nisi solum implicite. Sed quia per
+            <lb ed="#N" n="89"/>gratiam eleuatur anima ad noticiam trinitatis expresse: ideo in
+            <lb ed="#N" n="90"/>hoc sacramento baptismi maxime debuit esse exprimi quoe
+            <lb ed="#N" n="91"/>introitus ad gratiam.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1175">
+            ⁋ Ad aliud dicendum. quod cum dicitur per
+            ver<lb ed="#N" n="92" break="no"/>bum fecit omnia. dictum est per applicationem non per
+            proprieta<lb ed="#N" n="93" break="no"/>tem. vnde sicut a tota trinitate facta sunt omnia: sic et per
+            <lb ed="#N" n="94"/>totam trinitatem. veruntamen sicut habitudo principii
+            appro<lb ed="#N" n="95" break="no"/>priatur patri: et habitudo finis spirituisa. sic hitudo medii
+            <lb ed="#N" n="96"/>filio qui est verbum patris.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1189">
+            ⁋ Ad aliud dicunt quidam. quod
+            <lb ed="#N" n="97"/>cum vnitas respiciat substantiam anime: trinitas vero potentias. et
+            <lb ed="#N" n="98"/>ipsa substantia non sit deformata siue corrupta sed potentie.
+            <lb ed="#N" n="99"/>ideo non reformatur proprie vnitas essentie ipsius anime sed trinitas
+            <lb ed="#N" n="100"/>potentiarum scilicet quod est ad imaginem trinitatis increate. ideo
+            so<lb ed="#N" n="101" break="no"/>lum trinitas exprimitur in forma. Hoc autem non assero scilicet quod
+            <lb ed="#N" n="102"/>ipsa substantia anime non deformatur per peccatum: sed quasi aliquorum
+            <lb ed="#N" n="103"/>dictum recito. Uel potest dici vt communiter dici solet. quod in hoc quod
+            <lb ed="#N" n="104"/>dico nomine intelligitur vnitas.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1209">
+            ⁋ Ad aliud dicendum. quod verbum
+            <lb ed="#N" n="105"/>ambro. intelligendum est in casu scilicet quando sacerdos deficit. vt
+            <lb ed="#N" n="106"/>si fuerit morte preuentus vel alio impedimento: vel quando
+            puer<lb ed="#N" n="107" break="no"/>moritur. Sed quia hoc presumitur ex diuina misericordia quod in
+            ta<lb ed="#N" n="108" break="no"/>li casu summus sacerdos supplet quod deficit: non tamen certum
+            <lb ed="#N" n="109"/>est vtrum baptizatus sit. Potest aliter dici. quod in baptismo
+            <lb ed="#N" n="110"/>non sufficit prolatio verborum nisi assit fides. Unde augustinu. super
+            <lb ed="#N" n="111"/>Io. vnde est hec tanta virtus aque: vt corpus tingat et
+            cor<lb ed="#N" n="112" break="no"/>abluat: nisi faciente verbo. non quia dicttur: sed quia creditur. Ad hoc
+            <lb ed="#N" n="113"/>igitur quod forma baptizandi plene obseruetur requiritur fides cum
+            <lb ed="#N" n="114"/>verbis expressis. potest autem esse plena fides etsi verbis non
+            <lb ed="#N" n="115"/>confiteatur. vult igitur ambro. quod quando creduntur tres persone licet non
+            <lb ed="#N" n="116"/>proferatur nisi vna: est plenum sacramentum quantum ad illam
+            ple<lb ed="#N" n="117" break="no"/>nitudinem que est ex fide. vnde dicit plenum esse fidei
+            sacra<lb ed="#N" n="118" break="no"/>mentum: non dicit plenum est sacramentum. quasi diceret. licet requiratur in
+            <lb ed="#N" n="119"/>sacramentis fides et confessio fidei secundum quod dicitur. x. roma.
+            <lb ed="#N" n="120"/>Corde creditur ad iusticiam: ore autem confessio fit etc. nihilomi
+            <lb ed="#N" n="121"/>nus si fides perfecta sit in corde: licet non sit confessio fidei in
+            ple<lb ed="#N" n="122" break="no"/>na distinctione personarum: nihil deperit ipsi sacramento propter
+            <lb ed="#N" n="123"/>defectum fidei. Aliter dicunt quidam. quod ibi ponitur signum pro
+            <lb ed="#N" n="124"/>signato. vnde cum dicitur plenum est fidei sacramentum. hoc est
+            <lb ed="#N" n="125"/>plena est fides que designatur per ipsum sacramentum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1257">
+            ⁋ Ad aliud dicendum.
+            <lb ed="#N" n="126"/>quod licet equalitas sit in personis in poetante et in omnibus et sint
+            eo<lb ed="#N" n="127" break="no"/>rum opera indistincta: tamen confessio vnius persone non est confessio
+            alte<lb ed="#N" n="128" break="no"/>rius. Quia ergo baptismus datur in confessione trinitatis. ideo
+            <lb ed="#N" n="129"/>non sufficit expressio vnius persone ad consequendum plenum
+            effe<lb ed="#N" n="130" break="no"/>ctum baptismatis: nisi forsitan in casu vt dicunt. Preterea
+            <lb ed="#N" n="131"/>eadem ratione posset concludi contrarium scilicet quod quia actio
+            significa<lb ed="#N" n="132" break="no"/>tionis que est mediante sacramento est per indifferentiam a tribus.
+            <lb ed="#N" n="133"/>igitur debet trium per indifferentiam fieri inuocatio. Preterea
+            <lb ed="#N" n="134"/>medium efficacius contrarium esset ad hanc conclusionem. vt si
+            di<lb ed="#N" n="135" break="no"/>ceretur. ab vna persona est virtus sanctificationis. igitur debet
+            <lb ed="#N" n="136"/>tantum vna inuocari.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1283">
+            ⁋ Ad aliud dicendum. quod in baptismo fit
+            du<lb ed="#N" n="137" break="no"/>plex configuratio respectu trinitatis scilicet in signo et in re.
+            <lb ed="#N" n="138"/>In signo per caracterem. In re per trinitatem creatam scilicet fidei
+            <lb ed="#N" n="139"/>spei et caritatis. et quia oportet signum copulari cum
+            princi<lb ed="#N" n="140" break="no"/>pali re cuius est signum mediante alio. ideo opartet quod fiat
+            cara<lb ed="#N" n="141" break="no"/>cter per verbum fidei trinitatis. Item verbum intelligibile filius
+            <pb ed="#N" n="109"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>dei fecit verbum visibile induens se carne. et ideo necessarium est
+            <lb ed="#N" n="2"/>verbum in voce representans in baptismo verbum in carne. et
+            fi<lb ed="#N" n="3" break="no"/>des in mente representans verbum intelligibile.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1307">
+            ⁋ Ad illud quod
+            <lb ed="#N" n="4"/>obiicitur. quod pari ratione posset dici. non quia creditur sed quia dicitur.
+            Di<lb ed="#N" n="5" break="no"/>cendum quod credere est ordinatum ante dicere: sicut verbum
+            intelli<lb ed="#N" n="6" break="no"/>gibile ante verbum in voce. et ideo conuenit dicere non quia dicitur: sed quia
+            <lb ed="#N" n="7"/>creditur. et non econuerso. Ideo dicit apostolus. Corde creditur ad
+            iu<lb ed="#N" n="8" break="no"/>sticiam: confes. autem etc.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1320">
+            ⁋ Ad aliud dicendum. quod illa forma que erat
+            <lb ed="#N" n="9"/>in nomine christi: constituta fuit ad tempus ab apostolis propter causam necessariam.
+            <lb ed="#N" n="10"/>In primitiua enim ecclesia eo quod nomen christi erat odiosum
+            incredi<lb ed="#N" n="11" break="no"/>bili et erubescibile infirmis. ideo statuerunt apostoli vt in nomine
+            <lb ed="#N" n="12"/>christi baptizaretur. vt increduli ad inuocationem nominis christi:
+            viden<lb ed="#N" n="13" break="no"/>tes spiritum sanctum scilicet in signo visibili descendere super
+            bapti<lb ed="#N" n="14" break="no"/>zatum: ad amorem illius nominis et venerationem allicerentur. quo
+            fa<lb ed="#N" n="15" break="no"/>cto redierunt ad formam sibi traditam a domino. cessante enim causa de
+            <lb ed="#N" n="16"/>buit effectus cessare. Item alia ratio fuit. quia baptismus per
+            immer<lb ed="#N" n="17" break="no"/>sionem et eleuationem significat passionem christi et resurrectionem. hoc
+            ha<lb ed="#N" n="18" break="no"/>betur in glo. vi. ro. super illud. Consepulti sumus cum illo per
+            ba<lb ed="#N" n="19" break="no"/>ptismum in mortem. sed passio et resurrectio solius christi sunt. Item
+            <lb ed="#N" n="20"/>in christo tota trinitas intelligitur. vt enim dicit Amb. intelligitur
+            <lb ed="#N" n="21"/>cum dicitur christus pater a quo vnctus est: et ipse qui vnctus est: et spiritus sanctus
+            <lb ed="#N" n="22"/>per quem vnctus est. et he rationes non congruerent si baptizatum esset
+            <lb ed="#N" n="23"/>vel in nomine patris tantum vel spiritus sancti tantum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1356">
+            ⁋ Ad aliud dicendum.
+            <lb ed="#N" n="24"/>quod si inuocato spiritusancto intelligantur alie persone: non
+            tamen<lb ed="#N" n="25" break="no"/>sufficit nisi exprimantur. Nam non solum exigitur intellectus
+            tri<lb ed="#N" n="26" break="no"/>nitatis: sed etiam confessio et ideo expressio. Secus autem fuit de hoc
+            <lb ed="#N" n="27"/>nomine christus in primitiua ecclesia. quia tune dispensatum fuit ex
+            cau<lb ed="#N" n="28" break="no"/>sa. sed non est dispensatum vt baptizetur in nomine spiritus sancti solum.
+            <lb ed="#N" n="29"/>nec fuit causa.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1372">
+            ⁋ Ad vltimum dicendum. quod per hoc nomen trinitas
+            <lb ed="#N" n="30"/>non exprimuntur persone distincte sed indistincte. oportet autem
+            di<lb ed="#N" n="31" break="no"/>stincte in haptismo exprimere personas.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1379">
+            ⁋ Ad hoc autem quod
+            <lb ed="#N" n="32"/>nagister in sententis. dicit: respondeo. quod discipuli baptizabant in nomine
+            <lb ed="#N" n="33"/>trinitatis exprimendo personas distincte. vnde addit magister et
+            <lb ed="#N" n="34"/>dicit. quod in ea forma in qua gentes baptizabant postea: et
+            il<lb ed="#N" n="35" break="no"/>la fuit forma explicita in que exprimebantur persone distincte.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1390">
+            <lb ed="#N" n="36"/>Cosequet queritur .§. iiii.
+            <lb ed="#N" n="37"/>de hoc quod dicitur. Baptizo te. quia videtur quod hoc quod dico te non sit de
+            <lb ed="#N" n="38"/>forma: sed quia debet dici baptizo iohnem vdl eum. cum in
+            forma<lb ed="#N" n="39" break="no"/>tradita a domino dicatur baptizantes eos.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1401">
+            ⁋ Item nullo nomine
+            prola<lb ed="#N" n="40" break="no"/>to. Ego baptizo te in nomine patris etc. numquid baptizatus esset:
+            <lb ed="#N" n="41"/>Respondeo. quod si diceretur baptizo iohnnem vel eum: non demonstram
+            <lb ed="#N" n="42"/>do ipsum baptizatum per hoc pronomen te: non esset forma
+            baptismi<lb ed="#N" n="43" break="no"/>seruata.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1412">
+            ⁋ Ad hoc quod obiicitur contra per forman datam a domino. dicendum
+            <lb ed="#N" n="44"/>quod dominus non vsus est relatiuo. quia non potuit vti demonstratiuo
+            <lb ed="#N" n="45"/>in forma generali data: sed nihilominus oportet dirigi sermo
+            <lb ed="#N" n="46"/>nem ad baptizatum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1422">
+            ⁋ Ad aliud videtur dicendum. quod
+            determinan<lb ed="#N" n="47" break="no"/>dum est nomen secundum beatum Dyo. vnde dicit in libro de ecclesiastica
+            hie<lb ed="#N" n="48" break="no"/>rarchia loquens de baptizando. Cum ad eum manuductus est
+            <lb ed="#N" n="49"/>summus sacerdos desuper stans. reclamantibus iterum ad
+            sum<lb ed="#N" n="50" break="no"/>mum sacerdotem iuxta aquam nomn perficiendi sacerdotibus. cum
+            <lb ed="#N" n="51"/>quidem ipsum summus sacerdos baptizat et vocat nomen
+            perfici<lb ed="#N" n="52" break="no"/>endi nomen baptizandi id est eius qui est baptizandus. sed intelligen
+            <lb ed="#N" n="53"/>dum est. quod b. Gyo. loquitur secundum consuetudinem ecclesie. Consuetudo autem
+            <lb ed="#N" n="54"/>ecclesie habet vt feratur actus determinate super illum cuius nomen
+            profer<lb ed="#N" n="55" break="no"/>tur. Unde dicendum sine preiudicio. quod nullo nomine imposito ipsi qui
+            <lb ed="#N" n="56"/>baptizatur: aliis concurrentibus que requiruntur in baptismate:
+            ba<lb ed="#N" n="57" break="no"/>ptizatus est.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1448">
+            ⁋ Item queritur de hoc quod dicitur in forma in nomine
+            <lb ed="#N" n="58"/>patris etc. quid dicatur hoc nomn cum dicitur in nomine pratis etc. aut vox
+            <lb ed="#N" n="59"/>aliqua. aut nomen aliquod interius. aut noticia. aut fides. aut
+            <lb ed="#N" n="60"/>confessio fidei. Quod non aliqua vox patet. quia non est vna aliqua vox que
+            pa<lb ed="#N" n="61" break="no"/>tri et filio et spirituisancto attribuitur in qua fiat baptismus. Quod non
+            <lb ed="#N" n="62"/>hoc nomn deus videtur. quia secundum hoc si diceretur in nomine dei aut
+            omni<lb ed="#N" n="63" break="no"/>potentis esset baptismus: cum tamen non fiat confessio trinitatis nec
+            <lb ed="#N" n="64"/>forma a domino statuta seruetur. Item nec aliquod nomen interius.
+            <lb ed="#N" n="65"/>tunc enim si illud exprimeretur esset completus baptismus. et videtur
+            <lb ed="#N" n="66"/>per illud quod dicitur ephe. iiii. Unus dominus vna fides vnum
+            bapti<lb ed="#N" n="67" break="no"/>sma. quod nomen domini est illud in quo est vnitas baptismi. Et
+            <lb ed="#N" n="68"/>Act. iiii. dicitur. Non est aliud nomn sub celo etc. et hoc patet esse
+            fal<lb ed="#N" n="69" break="no"/>sum: quia si tunc baptizaretur in nomine domini: baptizatum esset.
+            Si<lb ed="#N" n="70" break="no"/>vero nomen dicitur noticia sicut in psalmus. In isrlis magnum nomen erimus.
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>noticia autem est fides. tunc si aliquis in fide baptizatur trinitatis:
+            <lb ed="#N" n="72"/>baptizatus est. ergo non erant rebaptizandi qui in fide trinitatis
+            <lb ed="#N" n="73"/>baptizabantur: de quibus legitur Act. viii.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1487">
+            ⁋ Preterea. secundum hoc
+            sa<lb ed="#N" n="74" break="no"/>cerdos tacens baptizaret: neque requireretur nisi fides
+            patri<lb ed="#N" n="75" break="no"/>norum. Cum tamen dicatur Ro. x. Corde creditur ad iusticiam te.
+            exi<lb ed="#N" n="76" break="no"/>gitur ergo professio. ergo requiritur forma profitendi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1496">
+            ⁋ Preterea. quod dicitur in
+            <lb ed="#N" n="77"/>nomine et non in nominibus: cum tres persone in baptismo nominande
+            <lb ed="#N" n="78"/>sunt: quarum tria sunt nomina.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1503">
+            ⁋ Preterea. dicit Augustinus. accedit
+            <lb ed="#N" n="79"/>verbum ad elementum etc. Ex hoc videtur quod debet dici in forma: in
+            <lb ed="#N" n="80"/>verbo patris et filii et spiritus sancti.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1510">
+            ⁋ Responsio. vt dicit phus
+            <lb ed="#N" n="81"/>nomen dicitur inquantum sit nota. Et Ysido. Nomen dicitur inquantum nota
+            <lb ed="#N" n="82"/>men. Unde in nomine patris etc. idem est quod in not icia pratris etc.
+            <lb ed="#N" n="83"/>Noticiam autem dei non habemus nisi per fidem. illud igi tur nomn est
+            fi<lb ed="#N" n="84" break="no"/>des trinitatis. non solum latens in corde quod efficit iusticiam. ro.
+            <lb ed="#N" n="85"/>x. Corde creditur ad iusticiam ore autem etc. sed expresa verbo. ideo dominus
+            <lb ed="#N" n="86"/>dicit Math. vltmm. Ite docete omnes gentes baptizantes eos in
+            <lb ed="#N" n="87"/>nomine p. et fi. et scililicet in fide trinitatis expressa verbo. Ex his patet
+            <lb ed="#N" n="88"/>responsio ad primo quesita. quia non intellexit de hoc nomine deus vel dominus
+            <lb ed="#N" n="89"/>vel aliquo consimili. sed illud nomen est noticia siue fides trinita
+            <lb ed="#N" n="90"/>tis. vnde Hugo. Si nomen dei est noticia eius et fides est in
+            no<lb ed="#N" n="91" break="no"/>bis: nonne baptizantur in nomine qui in fide baptizantur pa. et fi. et
+            <lb ed="#N" n="92"/>cililicet hoc enim est vnum nomen et vnius nomen quo trinitas predicatur: et v
+            ni<lb ed="#N" n="93" break="no"/>tas non negatur. Et alibi dicit Hugo. expressius plus aliquid habere
+            <lb ed="#N" n="94"/>videtur quam fides. nam fides intus est et latet occulta: donec
+            no<lb ed="#N" n="95" break="no"/>minari incipiat. tunc quippe nomen esse incipit: quando nominari incipit
+            <lb ed="#N" n="96"/>et notificari vt cognoscatur. et sic quidem in nomine pa. et fi. et scililicet
+            ba<lb ed="#N" n="97" break="no"/>ptizamus. Ipse enim dixit. Ite docete omnes gentes etc. Si tingis
+            <lb ed="#N" n="98"/>et taces: tingis et non doces. crede ergo et confitere. loquere et merge:
+            <lb ed="#N" n="99"/>vt in confessione fidei mundentur que mundanda sunt.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1555">
+            ⁋ Ad aliud
+            di<lb ed="#N" n="100" break="no"/>cendum. quod fides trinitatis vna est. Epheo. iiii.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1560">
+            ⁋ nus deus
+            vna<lb ed="#N" n="101" break="no"/>fides vnum baptisma. ideo dicitur in nomine: non in nominibus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1565">
+            ⁋ Ad vltimum
+            <lb ed="#N" n="102"/>dicendum. quod rt ex dictis patet: baptismus debet fieri in confessione
+            fi<lb ed="#N" n="103" break="no"/>dei trinitatis. que confessio exprimitur per nomen non per verbum. Nomen
+            <lb ed="#N" n="104"/>enim dicitur inquantum fit nota vel notamen. non sic est de verbo: cum verbum
+            <lb ed="#N" n="105"/>sit operatum potius in hoc sacramento. Preterea. verbum pratris est filius. si ergo
+            <lb ed="#N" n="106"/>diceretur in verbo pratis etc. excluderetur virtus pratis ab actu
+            ba<lb ed="#N" n="107" break="no"/>ptizandi. et efficacia baptizandi filio attribui videntur et non pati.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3naem-Dd1e1582">
+          <head xml:id="v78d89-a3naem-Hd1e1584">Articulus 3</head>
+          <p xml:id="v78d89-a3naem-d1e1586">
+            <lb ed="#N" n="108"/>⁋ Articulus tercius
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1591">
+            <lb ed="#N" n="109"/>Onsequentur queritur de variatione forme: de qua
+            <lb ed="#N" n="110"/>prius ponende sunt opientiones magistrorum. vt
+            il<lb ed="#N" n="111" break="no"/>lis inspectis facilius ad veritatem pertingamus.
+            <lb ed="#N" n="112"/>Nonta ergo quod forma verborum diuersimode variatur. variatur
+            <lb ed="#N" n="113"/>enim secundum add itionem. subtractionem. transmuta tionem.
+            cor<lb ed="#N" n="114" break="no"/>ruptionem. i mmutationem. Secundum transmutationem quando
+            prepo<lb ed="#N" n="115" break="no"/>sterantur verba. Secundum additionem multiplicter. quia potest fieri
+            ad<lb ed="#N" n="116" break="no"/>ditio in principio in medio et in fine. In principio vt si
+            di<lb ed="#N" n="117" break="no"/>ceretur. Ego vero baptizo etc. In medio sic. Baptizo te in
+            <lb ed="#N" n="118"/>nomine patris et beate marie et filii et spiritus sancti. In fine
+            <lb ed="#N" n="119"/>et beate agnetis. Secundum transmutationem. vt si baptizo
+            po<lb ed="#N" n="120" break="no"/>natur in fine. vel sic alio modo fiat transmutatio. Secundum
+            <lb ed="#N" n="121"/>corruptionem. vt si aliquis verba ipsius forme corrupte pro
+            <lb ed="#N" n="122"/>ferat. vt si dicat. baptizo te in nomine patrias et filias etc.
+            <lb ed="#N" n="123"/>Secundum subtractionem siue diminutionem. vt si subtrahatur
+            <lb ed="#N" n="124"/>a forma dictio sillaba vel littera. vt si dicatur. In p. et fi.
+            <lb ed="#N" n="125"/>atcilicet etc. vel baptizo te in nomine p. et fi. etc. Secundum immutationem
+            <lb ed="#N" n="126"/>vt si dicatur. Ego baptizo te in nomine genitoris et geniti et pro
+            <lb ed="#N" n="127"/>cedentis de vtroque. Ista variatione facta circa formam:
+            queri<lb ed="#N" n="128" break="no"/>tur vtrum baptismus hab eat suam efficaciam. Giuersi
+            diuersi<lb ed="#N" n="129" break="no"/>mode sentiunt. dicunt enim quidam. quod si aliquo dictorum modo
+            <lb ed="#N" n="130"/>rum mutatur forma a christo instituta mutetur dico notabiliter vel
+            <lb ed="#N" n="131"/>enormiter: non est baptismus. Forma autem verborum consistit in
+            <lb ed="#N" n="132"/>tribus. in significa tione. integritate. et ordine. que tria opertet
+            <lb ed="#N" n="133"/>obseruari. Signific atio. vt si in pluribus linguis baptizetur.
+            <lb ed="#N" n="134"/>vt si institutio facta fuerit in hebreo et debebat fieri in
+            la<lb ed="#N" n="135" break="no"/>tino: debet fieri transtatio a verbo in verbum. non transferendo
+            no<lb ed="#N" n="136" break="no"/>mem equalens tantum. vt si loco pratris diceretur gignentis: non est
+            ba<lb ed="#N" n="137" break="no"/>ptismus secundum eos. Integritatem similiter seruare oportet. vt
+            si<lb ed="#N" n="138" break="no"/>omittatur dictio vel sillaba: nisi ab ignorante linguam
+            <lb ed="#N" n="139"/>non est baptismus. Sim iliter et ordinem obseruari
+            opor<lb ed="#N" n="140" break="no"/>tet. vt tali ordine proferantur que a deo fuerunt
+            insti<pb ed="#N" n="110"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>tuta. verbis enim tali ordine prolatis et non aliis: dedit deus
+            vir<lb ed="#N" n="2" break="no"/>tutem sanctificandi ab originali. Si autem corrupte proferantur
+            <lb ed="#N" n="3"/>aliqua verba ex sola ignorantia lingue: baptismus est. sic
+            <lb ed="#N" n="4"/>ponit hugheton et quidam alii modernorum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1674">
+            ⁋ Alorum est opentio
+            <lb ed="#N" n="5"/>quod dummodo seuetur sensus verborum institutorum quantumque
+            va<lb ed="#N" n="6" break="no"/>rientur. si tamen per illam variationem non intendit baptizans dogma
+            <lb ed="#N" n="7"/>tizare heresim: baptizatum est. nec debet rebaptizari. Ad
+            <lb ed="#N" n="8"/>istam opscentiom confirmandam sumunt pro se auctoritatem amb. iiii. libro sen.
+            <lb ed="#N" n="9"/>iii. dis. ca. hic queritur an baptismus. vbi dicitur. Si vnum in
+            ser<lb ed="#N" n="10" break="no"/>mone comprehendas: vel patrem vel filium vel spirmunsa. fidem autem
+            <lb ed="#N" n="11"/>nec pa. nec fi. nec cilicescilicet abneges: plenum est sacramentum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1692">
+            ⁋ Istarum
+            <lb ed="#N" n="12"/>autem opinionum quidam tenent medium. et hoc videtur mihi magis
+            <lb ed="#N" n="13"/>tenendum. vt de additione in principio medio vel fine
+            dum<lb ed="#N" n="14" break="no"/>modo addatur aliquid quod non neget factum. vt si adderetur: ego
+            <lb ed="#N" n="15"/>non baptizo te in nomine etc. vel adderetur in fine et dyaboli:
+            vel<lb ed="#N" n="16" break="no"/>in medio poneretur aliquid ex quo fieret multa interruptio
+            <lb ed="#N" n="17"/>verborum institutorum. debent enim forme verborum continue
+            profer<lb ed="#N" n="18" break="no"/>ri dummodo non intenditur dogmatizare heresim: baptizatum
+            <lb ed="#N" n="19"/>est. De corruptione verborum dicunt. quod si illa corruptio intel
+            <lb ed="#N" n="20"/>lectui non destituat: dummodo non intendatur dogmatizare
+            he<lb ed="#N" n="21" break="no"/>resim: baptizatum est. Similiter dicunt de subtractione et
+            di<lb ed="#N" n="22" break="no"/>minutione dummodo ex illa subtractione non pereat
+            intelle<lb ed="#N" n="23" break="no"/>ctus verborum. De transmutatione dicunt. quod si illa
+            transmuta<lb ed="#N" n="24" break="no"/>tio sensum forme non variat: nec intendat dogmatizare
+            he<lb ed="#N" n="25" break="no"/>resim: baptismus est. Si autem crederet patrem minorem filio
+            <lb ed="#N" n="26"/>et propter hoc transmutaret sic dicendo. baptizo te in nomine
+            fi<lb ed="#N" n="27" break="no"/>lii et patris etc. baptismus non est.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1730">
+            ⁋ Hec autem variatio
+            multi<lb ed="#N" n="28" break="no"/>plex est de qua intenditur. Primo igitur dicetur de variatione per
+            <lb ed="#N" n="29"/>immutationem. Secundo per corruptionem. Tercio per diminutionem.
+            <lb ed="#N" n="30"/>Quarto per additionem. Quinto per transmutationem.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1739">
+            <lb ed="#N" n="31"/>Cifca primum que c§ s
+            <lb ed="#N" n="32"/>ritur. vtrum hec forma sufficiat. Ego baptizo te in nomine
+            <lb ed="#N" n="33"/>genitoris et geniti et procedentis ab vtroque. Quod sic videtur. cum
+            <lb ed="#N" n="34"/>idem sit intellectus horum et illorum verborum. Non enim requiritur
+            <lb ed="#N" n="35"/>semper eadem vox audibilis numero. quia si hoc: non contingeret
+            ba<lb ed="#N" n="36" break="no"/>ptizare nisi in vna lingua. vbi autem est eadem forma
+            intelli<lb ed="#N" n="37" break="no"/>gibilis licet sint diuerse forme sensibiles pro vna reputantur.
+            <lb ed="#N" n="38"/>hec autem est causa quare baptizatum est in nomine christi sicut dicitur
+            <lb ed="#N" n="39"/>in libro sentetim. Similiter in diuersis ydeomatibus diuerse sunt
+            for<lb ed="#N" n="40" break="no"/>me sensibiles. vna intelligibilis: et sic baptismus. ergo cum ea
+            <lb ed="#N" n="41"/>dem forma intelligibilis sit in nomine genitoris et geniti et
+            fla<lb ed="#N" n="42" break="no"/>minis: et in nomine patris et filii etc. erit forma obseruata si
+            di<lb ed="#N" n="43" break="no"/>catur in nomine genitoris.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1770">
+            ⁋ Item forma baptismi est apud omnes
+            <lb ed="#N" n="44"/>eadem. sed forma audibilis non est eadem apud omnes nec esse
+            <lb ed="#N" n="45"/>potest: cum vnum ydeoma non innotescit omnibus. igitur suffiem quod
+            <lb ed="#N" n="46"/>sit idem intellectus verborum. igitur cum sit idem intellectus in his
+            <lb ed="#N" n="47"/>verbis in nomine genitoris: et in his in nomine patris etc. tam
+            <lb ed="#N" n="48"/>bona est hec vt illa forma.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1783">
+            ⁋ Respondeo sic sine preiudicio. quod
+            <lb ed="#N" n="49"/>si baptizaretur aliquis sub hac forma. baptizo te in nomine
+            ge<lb ed="#N" n="50" break="no"/>nitoris etc. non esset baptizatus. et ratio est. quia alius est intelle
+            <lb ed="#N" n="51"/>ctus istorum et illorum verborum quantum ad significata ex
+            impositi<lb ed="#N" n="52" break="no"/>one. licet enim idem sit pater quod genitor: et filius quod genitus.
+            <lb ed="#N" n="53"/>nihilominus quantum ad intellectum quem habent ex impositione:
+            geni<lb ed="#N" n="54" break="no"/>tor significat vt ab eo est alius per modum generationis
+            acti<lb ed="#N" n="55" break="no"/>ue. genitus vt est ab alio per modum regenerationis passiue. non
+            <lb ed="#N" n="56"/>sic est de his dictionibus pater et filius. licet enim ex
+            consequenti<lb ed="#N" n="57" break="no"/>dant intelligere huiusmodi modum: non tamen hoc est ex impositione.
+            <lb ed="#N" n="58"/>sed significant ea circa que notatur huiusmodi modus: ex
+            conse<lb ed="#N" n="59" break="no"/>quenti tamen modus insinuatur. vnde quando in diuersis linguis
+            ba<lb ed="#N" n="60" break="no"/>ptizatur: oportet quod in omnibus eadem sit significatio quantum ad
+            si<lb ed="#N" n="61" break="no"/>gnificatum ex impositione. non quod idem hic significetur ex
+            impo<lb ed="#N" n="62" break="no"/>sitione: ibi detur intelligi ex consequenti. Preterea. pater et filius
+            <lb ed="#N" n="63"/>et spiritus sanctus sunt nomina personarum. sed genitor et genitus et
+            <lb ed="#N" n="64"/>flamen sunt nomina notionum. et propter hoc quod in fide
+            vniuer<lb ed="#N" n="65" break="no"/>salis ecclesie est trinitas personarum de notionibus. ita est nisi apud
+            <lb ed="#N" n="66"/>vtentes fide et ratione fidei addita. ideo non est dicendum in nomine
+            <lb ed="#N" n="67"/>genitoris etc.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1827">
+            ⁋ Ad hoc quod obiicitur. quod non potest esse eadem
+            for<lb ed="#N" n="68" break="no"/>ma audibilis etc. Dicendum quod forma audibilis duplicem
+            <lb ed="#N" n="69"/>habet comparationem. Est enim medium inter auditum et significatum
+            <lb ed="#N" n="70"/>per ipsam. vnde vnam habet comparationem ad auditum que mouet: alia
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>ad significatum quod continet. quo ad primam comparationem
+            <lb ed="#N" n="72"/>non est forma audibilis eadem apud omnes: quo ad secundaum
+            <lb ed="#N" n="73"/>vna et eadem est apud omnes.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1845">
+            ⁋ Item in baptismo confertr
+            <lb ed="#N" n="74"/>gratia qua remittitur culpa et virtutes donantur que habi
+            <lb ed="#N" n="75"/>litant ad exercitium operum meritoriorum. hec autem respiciunt
+            <lb ed="#N" n="76"/>potentiam sapicentiam et bonitatem. potentiam qua ostenditur in
+            <lb ed="#N" n="77"/>excellentia effectus. scientiam qua sic prudenter prouidit
+            <lb ed="#N" n="78"/>homin. bonitatem qua sine merito. igitur vt videtur in forma
+            de<lb ed="#N" n="79" break="no"/>bet exprimi potentia. sapientia. bonitas. vt dicatur. Bapti
+            <lb ed="#N" n="80"/>zo te in nomine potentie sapiscentie et bonitatis dei. Responsio. vt
+            di<lb ed="#N" n="81" break="no"/>ctum est illud magis congruebat forme baptizandi quod
+            ma<lb ed="#N" n="82" break="no"/>gis consonat necessitati fidei et quo insinuatur reparatio
+            ima<lb ed="#N" n="83" break="no"/>ginis duplex in anima: et quo insinuatur auctor reparationis ad
+            <lb ed="#N" n="84"/>discre tionem potentie sapiscentie et bonitatis sine fide peruenitur.
+            <lb ed="#N" n="85"/>Prete rea. penes hoc non est anima ad imaginem dei: sed ratione
+            <lb ed="#N" n="86"/>puenientie in idemptitate essentie et discretionis personarum.
+            <lb ed="#N" n="87"/>propter quod non conuenit hec forma.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1879">
+            ⁋ Item similiter est questio
+            <lb ed="#N" n="88"/>de immutatione huius verbi baptizo. vt si dicatur intingo te:
+            <lb ed="#N" n="89"/>vel abluo te in nomine pa. etc. Et videtur quod hec forma sit recta.
+            <lb ed="#N" n="90"/>per hoc quod baptisma dicitur tinctio et ablutio: vt ex
+            diffinitio<lb ed="#N" n="91" break="no"/>nibus scum. positis patet. Si enim vt ex dictis diffinitionibus patet.
+            ba<lb ed="#N" n="92" break="no"/>ptismus est tinctio et ablutio. si dicatur intingo te vel abluo
+            <lb ed="#N" n="93"/>te: non videtur aliquid deperire forme.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1895">
+            ⁋ Contra. hec forma neque
+            <lb ed="#N" n="94"/>institutionem habet a concilio neque a verbis domini: quibus
+            signifi<lb ed="#N" n="95" break="no"/>cata fuit forma et instituta. quare non videtur conueniens.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1902">
+            ⁋ Quod
+            <lb ed="#N" n="96"/>concedimus respondendo vt smmum tactum est. quod intinctio et ablutio
+            <lb ed="#N" n="97"/>multiplici de causa solent fieri. vnde per hoc quod dicitur
+            intin<lb ed="#N" n="98" break="no"/>go et abluo non exprimitur intentio baptizantis sicut per hoc quod
+            <lb ed="#N" n="99"/>dico baptizo. propter quod minus conueniebat quod institueretur
+            <lb ed="#N" n="100"/>baptismus fieri in forma tali.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1915">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="101"/>baptismus dicitur tinctio vel ablutio etc. Dicendum quod ex hoc
+            <lb ed="#N" n="102"/>non sequitur. quod baptismus exercendus sit forma tali. quia
+            <lb ed="#N" n="103"/>diffinitiones ille licet quodam modo generali exprimant forman
+            <lb ed="#N" n="104"/>actus: non tamen exprimunt formam baptismi prescriptam in
+            conci<lb ed="#N" n="105" break="no"/>lio et institutam a domino. Presumendum enim est. quod quando praelati ad
+            <lb ed="#N" n="106"/>concilium congregantur de ordinatione scilicescilicet sunt illa que constituum
+            <lb ed="#N" n="107"/>tur ab ipsis. Multa enim relinquebantur ordinanda a
+            spi<lb ed="#N" n="108" break="no"/>ritusancto per ecclesiam.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1935">
+            <lb ed="#N" n="109"/>Tosequeter quritur . §. ii.
+            <lb ed="#N" n="110"/>de variatione per corruptionem. Queritur ergo. si corrupte proferantur
+            <lb ed="#N" n="111"/>verba que continentur in forma. vtrum sit baptismus. Quod sic.
+            <lb ed="#N" n="112"/>videtur. iiii. sententi. vi. dis. ca. queri solet. Racharias
+            bonifa<lb ed="#N" n="113" break="no"/>cio scribit. quod si contingit aliquem stringendo linguam per
+            igno<lb ed="#N" n="114" break="no"/>rantiam ydeomatis dicere baptizo te in nomine patria et filia
+            <lb ed="#N" n="115"/>et spiritus sancta. nouem rebaptizandus si sic est baptizatus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1953">
+            ⁋ Item
+            <lb ed="#N" n="116"/>si aliqua vetula ex simplicitate corrumpit verba dominice
+            ora<lb ed="#N" n="117" break="no"/>tionis: non propter hoc inutilis est oratio illa. ergo si baptizans
+            <lb ed="#N" n="118"/>ex simplicitate corrumpat formam: non impedit quin sit
+            bapti<lb ed="#N" n="119" break="no"/>zatus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1965">
+            ⁋ Contra. verbum corruptum vel nullius est
+            intelle<lb ed="#N" n="120" break="no"/>ctus: vel non est illius cuius est si integritate sua proferatur.
+            <lb ed="#N" n="121"/>vt patet. pa trias alterius est significationis quam patris vel
+            nul<lb ed="#N" n="122" break="no"/>lius. sed virtutem significandi non contulit deus nisi habentibus
+            <lb ed="#N" n="123"/>intellectum sue positionis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1976">
+            ⁋ Item duplex intentio
+            requiri<lb ed="#N" n="124" break="no"/>tur in hoc sacramento scilicet ministri et verbi. intentio autem
+            ver<lb ed="#N" n="125" break="no"/>bi est significare illud ad quod institutum est. sed non est
+            bapti<lb ed="#N" n="126" break="no"/>smus si deficiat intentio ex parte ministri. igitur similiter non erit
+            si<lb ed="#N" n="127" break="no"/>deficiat intentio verbi. immo melius videtur quod requiritur
+            <lb ed="#N" n="128"/>intentio verbi quam mini stri. quia verbum est de substantia
+            sacra<lb ed="#N" n="129" break="no"/>menti: non sic minister. patria enim non intendit significare
+            <lb ed="#N" n="130"/>quod patris: sed illud ad quod significandum imponitur.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e1994">
+            ⁋ Item
+            <lb ed="#N" n="131"/>si fiat corruptio ex parte principii sicut si ex parte finis. habet
+            ne<lb ed="#N" n="132" break="no"/>verbum virtutem sanctificandi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2001">
+            ⁋ Responsio. ad hoc dicendum illud
+            <lb ed="#N" n="133"/>quod dicit Facharias papa scribens bonifacio episcopo. quod si
+            il<lb ed="#N" n="134" break="no"/>le qui baptizauit non errorem introducens aut he resim. heod pro
+            <lb ed="#N" n="135"/>sola ignorantia romane locutionis infringens linguam etc.
+            <lb ed="#N" n="136"/>Nota quod orationes quandoque significant ex veritate im positionis:
+            <lb ed="#N" n="137"/>sicut que integre proferuntur. quandoque ex accommodatione vsus: sicut
+            <lb ed="#N" n="138"/>quando corrupte proferuntur. dummodo corruptio non tollat
+            aptitu<lb ed="#N" n="139" break="no"/>dinem significandi illud ad quod impositum est. verbi. grgo. perfecte
+            pro<lb ed="#N" n="140" break="no"/>nuncians et integre sermones denunciat illis quod sign ificant
+            <pb ed="#N" n="111"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>veritatem institutionis. Sed paruulus balbuciens quod significat
+            <lb ed="#N" n="2"/>accomodationem vsus. illum enim eundem intellectum quem instituet
+            <lb ed="#N" n="3"/>in ipso seuiusmodi integro accomodat vsus seruusmodi corrupto.
+            Dicen<lb ed="#N" n="4" break="no"/>dum igitur. quod dominus non contulit tantum vim significandi ex veritate
+            in<lb ed="#N" n="5" break="no"/>stitutionis: sed dedit significanti ex accomodatione vsus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2036">
+            ⁋ Cum
+            <lb ed="#N" n="6"/>igitur obiicitur quod sermones corrupti nullum intellectum significant.
+            <lb ed="#N" n="7"/>Dicendum quod hoc falsum est. significant enim ex accomodatione
+            <lb ed="#N" n="8"/>similiter habent intentionem proferendi illud idem quod in
+            integri<lb ed="#N" n="9" break="no"/>tate prolati.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2047">
+            ⁋ Ad hoc quod queritur de corruptione in principio
+            <lb ed="#N" n="10"/>Dicendum quod non est simile de corruptione in priencipio et in
+            fi<lb ed="#N" n="11" break="no"/>ne. corruptio enim in principio tollit significationem: in fine
+            <lb ed="#N" n="12"/>non tollit nisi discretionem consignationis.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2057">
+            <lb ed="#N" n="13"/>Consequenter que §. lii.
+            <lb ed="#N" n="14"/>ritur de variatione per diminutionem sic dicitur vlti. apocii. Si quis
+            <lb ed="#N" n="15"/>diminuerit de verbis prophetie huius: aufert eius partem deus de
+            li<lb ed="#N" n="16" break="no"/>bro vite. Si igitur damnabile est aliquid subtrahere vel
+            aufer<lb ed="#N" n="17" break="no"/>re de verbis pophetiarum huiusmodi: multofortius vt videtur est
+            damna<lb ed="#N" n="18" break="no"/>bile aliquid auferre de verbis domini. et spiritialiter de illis que
+            ad<lb ed="#N" n="19" break="no"/>necessitatem salutis proferenda sunt.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2075">
+            ⁋ Item oratio constat ex suis
+            <lb ed="#N" n="20"/>dictionibus. nec est oratio eadem que prius si subtrahatur sibi
+            <lb ed="#N" n="21"/>dictio vna. similiter est de dictione respectu sillabarum: et silla
+            <lb ed="#N" n="22"/>barum respectu listerarum. igitur subtracta litera vna vel non est
+            <lb ed="#N" n="23"/>dictio: vel non eadem que prius. et si non est eadem dictio que
+            <lb ed="#N" n="24"/>prius: ergo nec oratio cuius est pars eadem que illa cuius dictio in
+            <lb ed="#N" n="25"/>tegra erat pars. igitur subtracta sillaba deperit oratio: vel non
+            <lb ed="#N" n="26"/>est illa que prius.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2093">
+            ⁋ Responsio. dicendum quod si diminute diceretur
+            <lb ed="#N" n="27"/>forma ex aliqua necessitate. non aliqua intentione peruersa. dum
+            <lb ed="#N" n="28"/>modo illa diminutione non tolleretur intellectus sermmonis primus
+            <lb ed="#N" n="29"/>nec accomodatus: baptismus esset.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2102">
+            ⁋ Ad hoc quod obiicitur de
+            il<lb ed="#N" n="30" break="no"/>lo verbo apoci. Dicendum quod quidam erant qui propter hereses
+            su<lb ed="#N" n="31" break="no"/>as tuendas diminuebant de veritate scripture vel addebant
+            <lb ed="#N" n="32"/>quos anathematizat beatus ioh. hic fit questio de illis qui
+            <lb ed="#N" n="33"/>propter ignorantiam lingue vel aliqua alia ratione
+            excusabili<lb ed="#N" n="34" break="no"/>subtrahbunt aliquid de forma verborum prescriptorum a domino. vnde
+            <lb ed="#N" n="35"/>impertinentes sunt hi modi diminuendi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2118">
+            ⁋ Ad aliud quod
+            obiici<lb ed="#N" n="36" break="no"/>tur. quod subtracta liatera variatur essentialiter sillaba etc. Dicendum
+            <lb ed="#N" n="37"/>quod licet ex subtractione litere vel sillabe fit aliqua materialis
+            <lb ed="#N" n="38"/>variatio in oratione: non tamen quantum ad intellectum orationis
+            <lb ed="#N" n="39"/>et dico intellectum accomodatum. cum enim dicitur in nomine
+            pa<lb ed="#N" n="40" break="no"/>ti vel patri et filii et spiritus sancti: constat hic est quedam
+            ma<lb ed="#N" n="41" break="no"/>terialis variatio: nihilominus secundum accomodationem vsus idem
+            <lb ed="#N" n="42"/>significat quod ipsa integre prolata.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2136">
+            <lb ed="#N" n="43"/>veinde queritur .§. iti.
+            <lb ed="#N" n="44"/>de variatione per additionem. Contingit autem fieri additionem
+            <lb ed="#N" n="45"/>aliquando in principio. aliquando in medio. aliquando in
+            fi<lb ed="#N" n="46" break="no"/>ne. Et videtur quod cum additione forma obseruetur. Cum enim
+            for<lb ed="#N" n="47" break="no"/>ma verborum seruetur de quibus dicitur. accedit verbum ad elementum fit
+            <lb ed="#N" n="48"/>sacramenmm. efficitur sacramentum. existente autem sacramento si est ibi
+            <lb ed="#N" n="49"/>intinctio est baptismus: ergo ibi est baptismus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2155">
+            ⁋ Per simile etiam
+            <lb ed="#N" n="50"/>potest ostendi in aliis signis. si enim alia signa in debito numero et
+            <lb ed="#N" n="51"/>in debito ordine accepta. licet fiat additio: represen tent illud cus
+            <lb ed="#N" n="52"/>sint signa. pari ratione erit et in hoc signo licet ergo fiat additio: non
+            <lb ed="#N" n="53"/>propter hoc tollitur virtus verborum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2166">
+            ⁋ Ad hoc dicunt aliqui magistri quod
+            re<lb ed="#N" n="54" break="no"/>fert. vtrum ponatur in principio vel in medio vel in fine quod additur.
+            <lb ed="#N" n="55"/>Si enim ponatur in principio vt dicatur. In nomine beate marie vel
+            ce<lb ed="#N" n="56" break="no"/>tera. vel in medio vt dicatur in nomine pratis et beate marie: non est
+            ba<lb ed="#N" n="57" break="no"/>ptismus. integritas enim forme non seruatur cui data est virtus. Non
+            <lb ed="#N" n="58"/>enim insilis dictum est in nomine pa. et fi. et scililicet cum eo quod precessit ego
+            ba<lb ed="#N" n="59" break="no"/>ptizo te. Si vero ponatur post. vt addatur et beate marie: dicunt quod
+            <lb ed="#N" n="60"/>si illud additur ex sola deuotione: nec intendatur quod sit de essentia
+            for<lb ed="#N" n="61" break="no"/>me: baptizatus est. Si vero credat illud esse de essentia forme et propte
+            <lb ed="#N" n="62"/>hoc sic proferat non est baptizatus. Quod quia ex scripturis sacris non est
+            <lb ed="#N" n="63"/>diffinitum hoc videtur esse tenendum. quod si nomen virtutem dici. virtus autem
+            <lb ed="#N" n="64"/>baptizandi est penes trinitatem non penes creaturam: in nomine id est in
+            <lb ed="#N" n="65"/>virtute alicuius creature non fit baptismus. Unde cum dicitur in fine et
+            <lb ed="#N" n="66"/>beate marie et beati petri: repeti videtur in nomine. Si ergo nomen
+            virtu<lb ed="#N" n="67" break="no"/>tem dicit. videtur intelligi cum virtute beati petri et beate marie. et
+            <lb ed="#N" n="68"/>ita quod illo modo non sit baptismus. Si autem aliquid adderetur quo
+            nul<lb ed="#N" n="69" break="no"/>la fieret variatio ipsius forme. vt si adderetur beata virgo custodiat
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>paruulum istum. presumendum est quod sit baptizatus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2208">
+            ⁋ Ad obiectum
+            <lb ed="#N" n="71"/>autem dicendum. quod non est simile de isto signo et de aliis. Isti enim
+            <lb ed="#N" n="72"/>signo in sua integritate constituto nulla facta additione eius
+            <lb ed="#N" n="73"/>quod exterum est a virtute. siue insinuans baptismum fieri
+            virtu<lb ed="#N" n="74" break="no"/>te alterius quam ipsius trinitatis: data est virtus sacramenti.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2219">
+            <lb ed="#N" n="75"/>Consequenter quer §. v.
+            <lb ed="#N" n="76"/>tur de variatione forme per transmutationem. que fieret si hoc quod
+            di<lb ed="#N" n="77" break="no"/>co baptizo poneretur in fine: et hoc quod dico. In nomine pa. et fi. et
+            <lb ed="#N" n="78"/>spirituss. poneretur in prencipio. et queritur si sit baptismus huiusmodi
+            <lb ed="#N" n="79"/>facta transmutatione: quod sic: videtur. Ad veritatem et integritaten
+            <lb ed="#N" n="80"/>forme non intelligitur nisi intellectus siue figuratio forme cum
+            di<lb ed="#N" n="81" break="no"/>citur. In nomine pa. et fi. et scililicet baptizo te etc: et cum dicitur. Bapti
+            <lb ed="#N" n="82"/>zo te in nomine pa. etc. Quia secundum phsum nomina et verba
+            transposi<lb ed="#N" n="83" break="no"/>ta idem significant. et eadem est confessio fidei etc.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2241">
+            ⁋ Item siue fiat
+            <lb ed="#N" n="84"/>transmutatio siue non: prepositio cum suo casuali est determinatio
+            vir<lb ed="#N" n="85" break="no"/>bi. igitur idem intellectus exprimitur cum dicitur. Baptizo te in nomine
+            <lb ed="#N" n="86"/>etc et in nomine etc. baptizo te. ergo idem verbum secundum veritatem et
+            sub<lb ed="#N" n="87" break="no"/>stantiam et sic prolatum. ergo si hoc verbo prolato immergatur baptizandus in
+            <lb ed="#N" n="88"/>elemento conuenienti: accedit verbum ad elementum. ergo fit sacramentum.
+            <lb ed="#N" n="89"/>Si diceretur quod licet sit idem verbum intelligibile: tamen idem est verbum
+            <lb ed="#N" n="90"/>sensibile. hoc nihil est: quia vt ex dictis patet non semper requiritur idem
+            <lb ed="#N" n="91"/>verbum sensibile.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2261">
+            ⁋ Contra. non solum requiritur in forma
+            sacra<lb ed="#N" n="92" break="no"/>menti et maxime huius quod est necessitatis numerus dictionum: sed
+            <lb ed="#N" n="93"/>et ordo. ergo si ordo peruertitur non est forma conueniens.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2269">
+            ⁋ Pret.
+            con<lb ed="#N" n="94" break="no"/>stat quod ordo est de institutione forme et ordo vnicus. ergo ille est
+            ob<lb ed="#N" n="95" break="no"/>seruandus: nec videtur esse baptismus illo non obseruato.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2276">
+            ⁋ Responsio
+            <lb ed="#N" n="96"/>quod si fiat transmutatio pertium forme ex qua nulla est mutatio
+            intelle<lb ed="#N" n="97" break="no"/>ctus ipsius forme. vt si dicatur in nomine pa. et fi. et scililicet baptizo te. in
+            <lb ed="#N" n="98"/>immersione eius qui baptizatur baptismus est si baptizans intendit
+            <lb ed="#N" n="99"/>baptizare. Si autem fieret transmutatio aliqua ex qua
+            muta<lb ed="#N" n="100" break="no"/>retur intellectus forme: non esset baptismus vt si diceretur. In nomine
+            <lb ed="#N" n="101"/>pratris baptizo te et filii et spiritus sancti. hac prolatione insinuatur non
+            <lb ed="#N" n="102"/>esse fides et virtus vna qua baptizaretur. Pret. quia est in personis
+            <lb ed="#N" n="103"/>ordo nature qui designatur in forma illa et virtus vna. non
+            presu<lb ed="#N" n="104" break="no"/>mitur baptismus fieri vbi non obseruatur ordo ille in verbis: et
+            <lb ed="#N" n="105"/>diuersitas siue diuisio virtutis insinuatur. vt si diceretur.
+            ba<lb ed="#N" n="106" break="no"/>ptizo te in nomine spiritus sancti filii et patris. vnde de
+            institutio<lb ed="#N" n="107" break="no"/>ne est ordo personarum sicut. numerus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2305">
+            ⁋ Ad hoc quod obiicitur.
+            <lb ed="#N" n="108"/>quod nomina et verba transposita idem significant. quia per hanc aucto
+            <lb ed="#N" n="109"/>ritatem videtur. quod si diceretur. baptizo te in nomine spiritu sancti et
+            <lb ed="#N" n="110"/>filii et patris: esset baptismus. Dicendum quod verbum illud
+            intel<lb ed="#N" n="111" break="no"/>ligitur in enuntiationibus indefinitis quantum ad
+            transpositio<lb ed="#N" n="112" break="no"/>nem subiectorum et predicatorum quando est tercium adiacens. vt
+            <lb ed="#N" n="113"/>patet per exemplum phosopi quod subiungit verbo proposito quod est
+            <lb ed="#N" n="114"/>vt est albus homo et homo albus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2323">
+            ⁋ Ad illud quod ordo
+            verbo<lb ed="#N" n="115" break="no"/>rum secundum institutionem seruandus est etc. Dicendum quod hoc verum est
+            <lb ed="#N" n="116"/>quantum ad illa verba quibus exprimuntur persone diuine in quibus
+            <lb ed="#N" n="117"/>obseruandus est ordo expressionis per conformitatem ordini
+            emanati<lb ed="#N" n="118" break="no"/>onis. In aliis non est vis facienda in transmutatione: dummo
+            <lb ed="#N" n="119"/>do intellectus nullo modo varietur.
+          </p>
+        </div>
+        <div xml:id="v78d89-a3naem-Dd1e2337">
+          <head xml:id="v78d89-a3naem-Hd1e2339">Articulus 4</head>
+          <p xml:id="v78d89-a3naem-d1e2341">
+            <lb ed="#N" n="120"/>⁋ Articulus quartus
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2346">
+            <lb ed="#N" n="121"/>COnsequenter queritur de diuersitate formarum
+            <lb ed="#N" n="122"/>et comparatione. Primo ergo queritur de
+            diuersi<lb ed="#N" n="123" break="no"/>tate formarum. Secundo de comparatione forme
+            <lb ed="#N" n="124"/>christi ad formam discipulorum in primitiua ecclesia. Tercio de
+            <lb ed="#N" n="125"/>comparatione forme nostre ad formam grecorum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2359">
+            <lb ed="#N" n="126"/>Curba primu sio.. . 1.
+            <lb ed="#N" n="127"/>Institutio facta a domino scilicet ite baptizantes etc. facta fuit
+            <lb ed="#N" n="128"/>absolute sine omni conditione. igitur vt videtur debuit
+            sim<lb ed="#N" n="129" break="no"/>pliciter obseruari et nullo modo mutari. ergo illa forma que
+            <lb ed="#N" n="130"/>baptizabatur in primitiua ecclesia scilicet in nomine christi:
+            nul<lb ed="#N" n="131" break="no"/>la fuit.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2375">
+            ⁋ Item eadem ratione qua illa mutata fuit tunc ab
+            <lb ed="#N" n="132"/>ecclesia: et nunc similiter posset mutari.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2381">
+            ⁋ Responsio. quod est
+            forma<lb ed="#N" n="133" break="no"/>intelligibilis: et forma sensibilis. semper autem seruata fuit for
+            <lb ed="#N" n="134"/>ma intelligibilis. sed non semper sensibilis. Nam in eo quod dicitur
+            <lb ed="#N" n="135"/>christi: intelligitur trinitas cum incarnatione. non autem sensibiliter
+            ex<lb ed="#N" n="136" break="no"/>primitur. Hec enim fuit necessitate ingruente mutata: facta tamen
+            <lb ed="#N" n="137"/>inspiratione a donmino. Unde quedam est forma inspirata a domino ab
+            <pb ed="#N" n="112"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>apostolis constituta ad tempus ob necessitatem. altera constituta a domino
+            <lb ed="#N" n="2"/>vt enim dici veritas Math. xviii. vbi duo vel tres congregati sunt
+            <lb ed="#N" n="3"/>in nomine meo ibi ego sum in medio eorum. In conciliis autem erat
+            congre<lb ed="#N" n="4" break="no"/>gatio in nomine domini: vnde in medio illorum erat dominus inspirans illis quae
+            <lb ed="#N" n="5"/>congruebant ad salutem hominum. vnde constat illam mutationem ad tempus
+            fa<lb ed="#N" n="6" break="no"/>ctam fuisse ex inspiratione diuina.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2412">
+            ⁋ Ad hoc igitur quod obiicitur quod non
+            de<lb ed="#N" n="7" break="no"/>buit mutari quod absolute fuit institutum a domino. dicendum quod hoc
+            ve<lb ed="#N" n="8" break="no"/>rum est auctoritate humana: bene potuit tamen auctoritate diuina dispensante. Pre
+            <lb ed="#N" n="9"/>terea: non fuit ita mutata. quin intelligibiliter esset obseruata.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2421">
+            <lb ed="#N" n="10"/>⁋ Ad aliud quod obiicitur quod eadem ratione et nunc posset mutari. bene
+            <lb ed="#N" n="11"/>concedo si talis esset necessitas et ita dispensans auctoritas: aliter non.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2428">
+            <lb ed="#N" n="12"/>Comequeter quert§§.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2433">
+            ⁋
+            <lb ed="#N" n="13"/>tur que forma conuenientior fuit simpliciter. et videtur quod illa que fuit
+            <lb ed="#N" n="14"/>in nomine christi. quia vt habetur a Hugo. cum dicitur baptizo in nomine
+            <lb ed="#N" n="15"/>etc. nomen dicit noticiam fidei siue ipsam fidem. sed virtus
+            sacramen<lb ed="#N" n="16" break="no"/>ti baptismi est ex passione et typum gerit passionis. To. vi.
+            <lb ed="#N" n="17"/>Quicumque baptizati sumus in christo in morte ipsius baptizati
+            su<lb ed="#N" n="18" break="no"/>mus. igitur vt videtur in forma debet exprimi aliquo modo fides
+            <lb ed="#N" n="19"/>passionis. non autem exprimitur cum dicitur. In nomine pa. et fi. et scililicet
+            sed<lb ed="#N" n="20" break="no"/>aliquo modo exprimitur cum dicitur in nomine christi: quia per christum deus et homo
+            <lb ed="#N" n="21"/>signatur qui pro humano generi passus est. Cum autem dicitur in nomine
+            <lb ed="#N" n="22"/>pa. etc. per hoc quod dicitur filii: filius deus intelligitur: non filius homo. ergo etc.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2457">
+            <lb ed="#N" n="23"/>⁋ Item ioh. baptizabat in nomine venturi. sed baptismus ioh.
+            <lb ed="#N" n="24"/>fuit figura baptismi: igitur vt videtur baptismus christi debet fieri
+            <lb ed="#N" n="25"/>in nomine eius qui venit.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2467">
+            ⁋ Item in primitiua ecclesia
+            baptizaba<lb ed="#N" n="26" break="no"/>tur in nomine venturi. igitur verbis illis collata fuit virtus
+            san<lb ed="#N" n="27" break="no"/>ctificandi vel regenerandi. igitur habent adhuc eandem virtutem quod
+            <lb ed="#N" n="28"/>si non. quis eam abstulerit. Diuina virtus a nullo se subtrahit
+            <lb ed="#N" n="29"/>nisi causa subtractionis fuerit ex parte illius a quo est: subtractio
+            <lb ed="#N" n="30"/>nec ab homine vel aliqua creatura posset fieri.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2480">
+            ⁋ Responsio.
+            mul<lb ed="#N" n="31" break="no"/>tiplex est ratio quare forma baptismi instituta fuit in nomine
+            <lb ed="#N" n="32"/>trinitatis. Una ratio est ex parte auctoris reparationis
+            huma<lb ed="#N" n="33" break="no"/>ne. quamuis enim per christum facta est reparatio humana tanquam per
+            medi<lb ed="#N" n="34" break="no"/>atorem: nihilominus facta est a trinitate tanquam ab auctore.
+            <lb ed="#N" n="35"/>proprie enim et per se debetur operatio auctori: non ita mediatori.
+            vn<lb ed="#N" n="36" break="no"/>de quia trinitati debetur beneficium reparationis sicut cause et
+            <lb ed="#N" n="37"/>auctori per se: christo vt mediatori: conuenientius assignata fuit
+            for<lb ed="#N" n="38" break="no"/>ma christi baptismi in nomine trinitatis qua exprimitur a quo est
+            vir<lb ed="#N" n="39" break="no"/>tus sacramenti: quam si esset assignata in nomine media foris. iii. enim
+            <lb ed="#N" n="40"/>Ioh. dicitur. sic deus dilexit mundum vt vnigenitum daret. glo.
+            <lb ed="#N" n="41"/>aperit causam salutis nostre. scilicet dilectionem dei patris. ex quo
+            <lb ed="#N" n="42"/>omnis restitutio per filium suum in spiritu sancto. ecce quomo insinuat
+            <lb ed="#N" n="43"/>glo. quod reparatio facta est per ipsam trinitatem. ibi enim vocat
+            mun<lb ed="#N" n="44" break="no"/>dum naturam hominis reparabilis. Alia est ratio sumpta ex parte
+            <lb ed="#N" n="45"/>commembrorum. hec enim forma que est in nomine trinitatis expressa
+            ma<lb ed="#N" n="46" break="no"/>gis consonat necessitati fidei. si enim fieret baptismus in
+            inuoca<lb ed="#N" n="47" break="no"/>tione christi: posset credi virtus reparationis esse a christo non a
+            trini<lb ed="#N" n="48" break="no"/>tate. precipua autem causa introductionis legis euangelii fuit:
+            <lb ed="#N" n="49"/>vt fides trinitatis manifestaretur. vt enim habetur. v. math.
+            Cri<lb ed="#N" n="50" break="no"/>stus venit legem adimplere. hec autem adimpletio vt dicit augustinus.
+            <lb ed="#N" n="51"/>lib. q. no. te. fuit in manifestatione trinitatis. Unde augustinus lib.
+            <lb ed="#N" n="52"/>q. no. te. xx. q. Non dixit implere se legem aut prophetas: sed
+            <lb ed="#N" n="53"/>adimplere. adimplere non aliud significat quam plene addere.
+            <lb ed="#N" n="54"/>quid est addere prophetas: nisi cultum dei sub nomine trinita
+            <lb ed="#N" n="55"/>tis ordinare. hec augustinus propter hoc dico quod valde consonum fuit
+            <lb ed="#N" n="56"/>necessitati fidei. quod sacramenta et maxime sacramentum
+            necessi<lb ed="#N" n="57" break="no"/>tatis exprimeretur sub forma exprimente trinitatem. vt sic in
+            fi<lb ed="#N" n="58" break="no"/>de trinitatis roborarentur fideles. Item alia est ratio ex parte
+            <lb ed="#N" n="59"/>baptizati. scilicet reparatio ad imaginem creatoris que peccato
+            <lb ed="#N" n="60"/>deformata erat. Primus autem effectus baptismi est reparatio
+            ima<lb ed="#N" n="61" break="no"/>ginis deformate. quamuis enim baptismi effectus sit proprius
+            re<lb ed="#N" n="62" break="no"/>generatio filiorum dei et ecclesie. sicut dicitur. iii. ad titum.
+            Sal<lb ed="#N" n="63" break="no"/>uos nos fecit per lauacrum regenerationis et renouationis etc.
+            <lb ed="#N" n="64"/>que videtur esse proprie per christum: nihilominus hunc effectum precedit
+            <lb ed="#N" n="65"/>reparatio imaginis dei deformate. hec autem reformatio filiatio
+            <lb ed="#N" n="66"/>nem precedit. Requirit igitur primus effectus haptismi
+            appro<lb ed="#N" n="67" break="no"/>priate loquendo formam in qua exprimitur ipsa trinitas. propter
+            <lb ed="#N" n="68"/>quod in diffinitione baptismi assignata a Dama. notatur
+            repara<lb ed="#N" n="69" break="no"/>tio imaginis dei que est. baptismus est principium vite
+            spiritua<lb ed="#N" n="70" break="no"/>lis. sigillum et custodia et illuminatio mentis. hec igitur
+            triplici<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>ratione conuenit vt forma exprimeret trinitatem non christum.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2573">
+            <lb ed="#N" n="72"/>⁋ Ad hoc igitur quod obiicitur quod baptismus habet virtutem a
+            <lb ed="#N" n="73"/>passione christi propter quod conueniret vt forma christum exprimeret.
+            <lb ed="#N" n="74"/>Dicendum quod generaliter beneficium redemptionis et ita bapti
+            <lb ed="#N" n="75"/>mus est ab ipsa trinitate vt a causa per se et prima. et vt a
+            cau<lb ed="#N" n="76" break="no"/>sa cui debetur prima auctoritas: licet sit a christo vt a
+            media<lb ed="#N" n="77" break="no"/>tore. et quia esse rei et actio magis debetur auctori primo et per
+            <lb ed="#N" n="78"/>se quam auctori mediatori: magis conuenit vt in forma
+            baptismi<lb ed="#N" n="79" break="no"/>exprimatur trinitas quam christus.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2593">
+            ⁋ Ad aliud dicendum quod baptismus
+            <lb ed="#N" n="80"/>ioh. fuit temporalis. Unde augu. contra donatistas accepit hic
+            <lb ed="#N" n="81"/>ioh. certe dispensationis gratia non diu mansurum: sed quantum
+            <lb ed="#N" n="82"/>satis esset ad parandum viam domino. Quia igitur temporalis erat:
+            con<lb ed="#N" n="83" break="no"/>ueniebat vt forma illius temporalem concerneret conditionem. non
+            <lb ed="#N" n="84"/>sic fuit de baptismo christi qui perpetuus est. propter quod non
+            de<lb ed="#N" n="85" break="no"/>buit in forma illius exprimi aliquid quod conditionem temporis
+            desi<lb ed="#N" n="86" break="no"/>gnaret. nec oportet quod etsi erat figura baptismi christi. quod
+            pro<lb ed="#N" n="87" break="no"/>pter hoc conueniant in omnibus conditionibus formarum. sicut
+            <lb ed="#N" n="88"/>patet. in submersione et diluuio et in mari rubro fuit
+            ba<lb ed="#N" n="89" break="no"/>ptismum christi prefiguratum: nec tamen conueniebat cum
+            baptis<lb ed="#N" n="90" break="no"/>mo forma huiusmodi.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2619">
+            ⁋ Ad aliud dicendum. quod sicut baptismus
+            <lb ed="#N" n="91"/>in primitiua ecclesia dispensatoriessiebat et ob causam
+            ne<lb ed="#N" n="92" break="no"/>cessariam et ad tempus: similiter et virtus collata fuit
+            ver<lb ed="#N" n="93" break="no"/>bis dispensatorie et ad tempus id est instante causa
+            necessita<lb ed="#N" n="94" break="no"/>tis. qua cessante: quid mirum si virtus ad tempus data et pro
+            <lb ed="#N" n="95"/>pter causam spetialem cessauit.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2632">
+            <lb ed="#N" n="96"/>Consequenter due .§. lii.
+            <lb ed="#N" n="97"/>ritur vtrum sit conuenientior forma nostra quam forma grecorum. que
+            <lb ed="#N" n="98"/>est. baptizetur seruus christi in nomine pa. et fi. et. spiritus sancti.
+            Que<lb ed="#N" n="99" break="no"/>ritur vtrum hec forma sit bona. et vtrum ea posset baptizari
+            <lb ed="#N" n="100"/>in ecclesia romana. Quod sic: videtur. cum forma illa tradita est a
+            <lb ed="#N" n="101"/>sanctis congregatis in conciliis in quibus ordinata creduntur
+            <lb ed="#N" n="102"/>esse inspirata a spiritusancto.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2651">
+            ⁋ Item cum dicitur baptizetur etc. per
+            <lb ed="#N" n="103"/>hoc quod dicitur baptizetur: indifferenter potest intelligi operatio dei et
+            <lb ed="#N" n="104"/>ministri cum aliis que requiruntur. igitur vt videtur sufficientius
+            expri<lb ed="#N" n="105" break="no"/>muntur que requiruntur quam in forma qua vtitur romana
+            eccle<lb ed="#N" n="106" break="no"/>sia.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2662">
+            ⁋ Contra. iiii. Epheos. Unus dominus: vna fides: vnum
+            ba<lb ed="#N" n="107" break="no"/>ptisma. igitur si illa forma est recta et bona: nostra non est huiusmodi
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2667">
+            <lb ed="#N" n="108"/>⁋ Si diceretur quod illa forma est substantialiter eadem cum nostra
+            <lb ed="#N" n="109"/>Contra. non est eadem quantum ad formam sensibilem neque quantum ad
+            <lb ed="#N" n="110"/>formam intelligibilem. Alium enim intellectum habet baptizetur
+            <lb ed="#N" n="111"/>seruus christi: quam baptizo te.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2678">
+            ⁋ Item istud sacramentum proprie
+            di<lb ed="#N" n="112" break="no"/>stinctiuum est. ipso enim fideles distinguantur ab infidelibus.
+            Un<lb ed="#N" n="113" break="no"/>de maxime conuenit huic sacramento forma distinctum exprimens
+            <lb ed="#N" n="114"/>actum respectu baptizantis et respectu baptizati. Sed cum
+            <lb ed="#N" n="115"/>dicitur baptizetur seruus christi. non distinguitur vt est baptizantis
+            ne<lb ed="#N" n="116" break="no"/>que vt est baptizati: igitur vt videtur non est forma conueniens.
+            <lb ed="#N" n="117"/>cum enim dicitur baptizetur: non determinatur a quo. similiter hoc quod
+            <lb ed="#N" n="118"/>dico seruus: est terminus communis indeterminatam habens
+            sup<lb ed="#N" n="119" break="no"/>positionem.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2698">
+            ⁋ Si diceretur quod ex actu exercito mediantibus
+            <lb ed="#N" n="120"/>personis talibus scilicet baptizante et baptizato determinantur perso
+            <lb ed="#N" n="121"/>ne: et ita actus ipse determinatur. Contra. in sacramento
+            discre<lb ed="#N" n="122" break="no"/>tionis debet forma distinguere personas et actum: et non actus
+            <lb ed="#N" n="123"/>personas: aliter non habet discretionem a se et essentialiter: sed per
+            <lb ed="#N" n="124"/>accidens et ab alio.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2711">
+            ⁋ Pret. illa forma nihil factum
+            exprimi<lb ed="#N" n="125" break="no"/>tur: sed solum fieri optatur vel postulatur. proptersa minime
+            <lb ed="#N" n="126"/>conuenit sacramento baptismi quod est sacramentum fidei. de
+            <lb ed="#N" n="127"/>cuius effectu certificat fides forma debita cum immersione
+            <lb ed="#N" n="128"/>prolata.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2723">
+            ⁋ Ad videndam preeminentiam formarum
+            greco<lb ed="#N" n="129" break="no"/>rum et latinorum: oportet videre differentiam et dicere
+            cau<lb ed="#N" n="130" break="no"/>sam inter illam et hanc. Sciendum ergo quod forma hec ab
+            il<lb ed="#N" n="131" break="no"/>la distinguitur in tribus. Primum in expressione persone
+            ba<lb ed="#N" n="132" break="no"/>protizandi quia nos determinamus eius personam sub ratione secunde
+            <lb ed="#N" n="133"/>persone. videlicet vt ad quem dirigitur sermo: ipsi vero hoc
+            deter<lb ed="#N" n="134" break="no"/>minant in tercia dicentes baptizetur seruus christi. Secunda
+            dif<lb ed="#N" n="135" break="no"/>ferentia est in expressione baptizantis. Nam in forma
+            no<lb ed="#N" n="136" break="no"/>stra baptizans exprimitur in prima persona
+            determinan<lb ed="#N" n="137" break="no"/>do se. In forma vero grecorum non determinatur. sed
+            sim<lb ed="#N" n="138" break="no"/>pliciter et indistincte dicitur baptizetur seruus christi: non
+            <lb ed="#N" n="139"/>a me nec a te. Tercia differentia est. qui nos vtimur
+            ver<lb ed="#N" n="140" break="no"/>bo indicatiuo: ipsi vero vtuntur alio modo vtpote optatiuo vl
+            <pb ed="#N" n="113"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>deprecatiuo. Ratio autem huius diuersitatis est indeterminatio
+            scri<lb ed="#N" n="2" break="no"/>pture. quia in forma baptizandi scriptura exprimit tres
+            perso<lb ed="#N" n="3" break="no"/>nas distincte et ordinate. scilicet personam baptizantis vel baptiza
+            <lb ed="#N" n="4"/>ti vel actum. non sic determinate exprimit sed innuit exprimendum
+            di<lb ed="#N" n="5" break="no"/>cens. baptizantes eos etc. propterea patres et doctores
+            sequen<lb ed="#N" n="6" break="no"/>tes secundum diuersas considerationes formas diuersas instituerunt
+            <lb ed="#N" n="7"/>Greci vero in exprimendo actum baptizandi intelligere
+            potue<lb ed="#N" n="8" break="no"/>runt quod hoc fieret ad maiorem euidentiam significationis. et ideo
+            <lb ed="#N" n="9"/>cum actus exercitus satis exprimat actum qui fit ex parte nostra:
+            <lb ed="#N" n="10"/>voluerunt in verbo baptizandi exprimere actum qui fit ex
+            per<lb ed="#N" n="11" break="no"/>te dei. et quia ille non est a nobis nec a nostra potestate. sed ab
+            inui<lb ed="#N" n="12" break="no"/>sibili operatore: ideo actum illum exprimunt in tercia persona et
+            <lb ed="#N" n="13"/>sub modo deprecationis vel optationis. Et quoniam qui baptizatur
+            <lb ed="#N" n="14"/>frequenter caret intel lectu: ideo non ad ipsum dirigunt sermonem
+            <lb ed="#N" n="15"/>sed in tercia persona cum expmunt. volentes per hoc etiam vitare er
+            <lb ed="#N" n="16"/>rorem et scisma quod fuit in primitiua ecclesia. cui obuiabat apostolus
+            <lb ed="#N" n="17"/>dicens se non baptizasse: nec in nomine suo aliquem baptizatum esse.
+            <lb ed="#N" n="18"/>et ideo dicunt baptizetur seruus christi scilicet ab eo qui baptizat
+            inte<lb ed="#N" n="19" break="no"/>rius. latini autem considerauerunt et intellexerunt quod verbum bapti
+            <lb ed="#N" n="20"/>zandi exprimitur in forma ad determinationem intentionis. et quoniam
+            <lb ed="#N" n="21"/>intentio melius exprimitur per verbum indicatiuum et distinctius per
+            pri<lb ed="#N" n="22" break="no"/>mam et secundam personam que sunt certe et presentes. et demonstra
+            <lb ed="#N" n="23"/>te ne intentio euagetur: ideo vtuntur hac forma. ego baptizo te
+            <lb ed="#N" n="24"/>Et iterum quia indubitanter verum est hominem baptizari
+            sub<lb ed="#N" n="25" break="no"/>forma verborum prescripta. ad maiorem certitudinem fidei
+            expri<lb ed="#N" n="26" break="no"/>mendam verbo indicatiui modi qui certioris et plenioris
+            <lb ed="#N" n="27"/>est expressionis: et personis determinatis. prima scilicet et secunda
+            vo<lb ed="#N" n="28" break="no"/>luerunt et debuerunt vti. Et quia rectius considerauerunt: propter
+            <lb ed="#N" n="29"/>hoc enim principaliter actus baptizandi exprimitur. ideo formam
+            <lb ed="#N" n="30"/>tenemus magis laudabilem. Rursus quia forma ista
+            insti<lb ed="#N" n="31" break="no"/>tuta fuit a domino. dominus enim dans formam baptizandi
+            insinua<lb ed="#N" n="32" break="no"/>uit actum baptizandi debere exprimi actiue et non passiue.
+            di<lb ed="#N" n="33" break="no"/>cens baptizantes eos: omnis baptizans debet his verbis
+            <lb ed="#N" n="34"/>vti sicut dominus instituit. Pret. baptizantes vicem domini gerunt in
+            <lb ed="#N" n="35"/>hac parte et in eius persona baptizant. sed constat quod dominus ipse si
+            bapti<lb ed="#N" n="36" break="no"/>zaret hac forma vteretur qua nos vtimur: et propter hoc
+            forma<lb ed="#N" n="37" break="no"/>ista recta et certa est. et indubitanter creditur quod ab ore domini per
+            <lb ed="#N" n="38"/>apostolos ad romanam ecclesiam fuerit deriuata. que semper christi in
+            <lb ed="#N" n="39"/>stituta sine erroris fermento seruauit. quapropter hec
+            forma<lb ed="#N" n="40" break="no"/>indubitanter tenetur: et illa tanquam incerta minime approbatur: licet
+            <lb ed="#N" n="41"/>non omnino careat ratione. Utrum autem qui illa forma baptiz an
+            <lb ed="#N" n="42"/>tur pro baptizatis sint habendi: dici potest quod non est vsque
+            <lb ed="#N" n="43"/>quaque certum. sed in dubiis securior pars est eligenda: et ideo
+            <lb ed="#N" n="44"/>sanum consilium est quod sub conditione rebaptizentur. hoc
+            tamen<lb ed="#N" n="45" break="no"/>pro certo habendum est quod illa forma quam tenemus. nonsolum
+            hu<lb ed="#N" n="46" break="no"/>mano modo sed diuino illi prefertur. ad quod veritas et
+            sinceri<lb ed="#N" n="47" break="no"/>tas et auctoritas romane ecclesie prebet efficax et
+            irrefragabi<lb ed="#N" n="48" break="no"/>le argumentum. Ex dictis patet quod forma grecorum non est eadem
+            <lb ed="#N" n="49"/>cum forma latinorum. neque quantum ad formam sensibilem neque
+            quan<lb ed="#N" n="50" break="no"/>tum ad intelligibilem. vnde non illa forma debet baptismus
+            ce<lb ed="#N" n="51" break="no"/>lebrari. et vt dicunt quidam baptizati illa forma rebaptizantur
+            <lb ed="#N" n="52"/>in forma romane ecclesie.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2869">
+            ⁋ Ad hoc quod obiicitur. quod fuit
+            in<lb ed="#N" n="53" break="no"/>stituta a sanctis. bene concedo. sed ea que instituta sunt huma
+            <lb ed="#N" n="54"/>no arbitrio reuocari posunt. Eodem modo dicendum quod romana ec
+            <lb ed="#N" n="55"/>clesia que est caput ecclesiarum immo ipsa ecclesia: instituendo aliam
+            <lb ed="#N" n="56"/>illam ex consequenti reuocauit. vnde approbanda non est.
+          </p>
+          <p xml:id="v78d89-a3naem-d1e2880">
+            ⁋ Ad
+            <lb ed="#N" n="57"/>illud quod obiicitur. quod videtur sufficientius exprimere actum baptismi
+            <lb ed="#N" n="58"/>quam forma nostra. dicendum quod hoc non est verum. quia ibi neque deter
+            <lb ed="#N" n="59"/>minatur actus siue operatio diuina neque humana discrete dico quod
+            <lb ed="#N" n="60"/>requiritur in forma huius sacramenti. ex quo enim in hoc
+            sacramen<lb ed="#N" n="61" break="no"/>to expri nitur actus vt baptizans illud efficere intendat. sicut
+            ne<lb ed="#N" n="62" break="no"/>cessario iste vel ille baptizat: sic debet exprimi iste vel ille
+            <lb ed="#N" n="63"/>baptizans. et vt actus istius vel illius.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

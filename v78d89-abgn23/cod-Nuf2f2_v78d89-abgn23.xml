@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 57, Membrum 8</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 57, Membrum 8</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="386"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-abgn23"><!-- q57m8 -->
+        <head xml:id="v78d89-abgn23-Hd1e101">Membrum 8</head>
+        <head xml:id="v78d89-abgn23-Hd1e103" type="question-title">Utrum sine dolore penitentiali sive voluntate deletur quandoque culpa aliqua sive mor talis sive venialis</head>
+        <p xml:id="v78d89-abgn23-d1e106">
+          <lb ed="#N" n="135"/>Membrum octauum
+        </p>
+        <p xml:id="v78d89-abgn23-d1e111">
+          <lb ed="#N" n="136"/>COnsequenter queritur. vtrum sine dolore penitentiali
+          <lb ed="#N" n="137"/>siue voluntate deletur quandoque culpa aliqua siue mor
+          <lb ed="#N" n="138"/>talis siue venialis. Quod sic: videtur. ponatur quod
+          <lb ed="#N" n="139"/>aliquis nimis diligit vxorem suam sub deo tamen
+          <lb ed="#N" n="140"/>ita quod peccet venialiter dilihendo illam. non penitet de hoc amoene
+          <pb ed="#N" n="387"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>immo vult sic diligere. hac dilectione non tollitur gratia. contin
+          <lb ed="#N" n="2"/>gat quod decedit nec peniteat de hac dilectione: constat quod
+          sal<lb ed="#N" n="3" break="no"/>uabitur ex quo decedit in gratia. igitur remittitur sibi hoc pec
+          <lb ed="#N" n="4"/>catum illo: numquam penitente de hoc.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e137">
+          ⁋ Item auersio est causa
+          <lb ed="#N" n="5"/>per se peccati. Unde et si posset esse auersio sine
+          conuersione<lb ed="#N" n="6" break="no"/>peccaret homo sine conuersione ex sola auersione. A simili
+          vi<lb ed="#N" n="7" break="no"/>detur in contrario. quod si sit auersio peccatoris ad deum per
+          affec<lb ed="#N" n="8" break="no"/>ctum vel dilectionem sine auersione a creatura per dolorem
+          <lb ed="#N" n="9"/>et voluntatem penitendi remitteretur peccatum. et ita sine
+          motu<lb ed="#N" n="10" break="no"/>vel actu penitentie potest esse remissio peccati.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e154">
+          ⁋ Item velle auer
+          <lb ed="#N" n="11"/>ti a deo sine omni conuersione vel delectatione in: creatura
+          <lb ed="#N" n="12"/>sufficit ad peccatum. igitur videtur: velle conuerti sine omni dolo
+          <lb ed="#N" n="13"/>re et penitentia de delectatione in creatura sufficitad
+          me<lb ed="#N" n="14" break="no"/>ritum remissionis ex parte nostra.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e165">
+          ⁋ Item sicut est de viribus
+          <lb ed="#N" n="15"/>anime quod alique sunt imparate alique imparantes: similiter videtur
+          <lb ed="#N" n="16"/>quod in gratuitis penes imparantes est magis efficacia merem
+          <lb ed="#N" n="17"/>di quam penes imparatas. sed virtus caritatis imperat
+          peniten<lb ed="#N" n="18" break="no"/>tie virtuti. similiter et alie theologice et alie quedam vt ex
+          <lb ed="#N" n="19"/>dictis patet. igitur vt videtur motus illarum sunt maioris
+          effi<lb ed="#N" n="20" break="no"/>cacie ad impetrandum gratiam remissionis quam motus
+          peniten<lb ed="#N" n="21" break="no"/>tie. igitur si est mereri ex congruo gratiam qua remittitur peccatum
+          <lb ed="#N" n="22"/>motu penitentie informis: et quando quis grauiter penitet de
+          <lb ed="#N" n="23"/>peccato: dominus dat sibi gratiam qua deletur peccatum: multo
+          <lb ed="#N" n="24"/>fortius vt videtur merebitur ex congruo idem motu dilectionis
+          <lb ed="#N" n="25"/>vel fidei vel alicuius alterius virtutis imparantis. igitur vt
+          vi<lb ed="#N" n="26" break="no"/>detur sine motu penitentie datur gratia remissionis peccati
+          <lb ed="#N" n="27"/>vel contingit dari.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e196">
+          ⁋ Item omnis affectus siue doloris vel
+          gau<lb ed="#N" n="28" break="no"/>dii siue amoris vel odii generatur ex cognitione preexistenti.
+          <lb ed="#N" n="29"/>et hoc non est solum in affectionibus non gratuitis sed in gratui
+          <lb ed="#N" n="30"/>tis. Cognitio autem que precedit affectiones in gratuitis fidei
+          <lb ed="#N" n="31"/>est: ergo affectionem doloris de peccato precedit motus fidei. sed
+          <lb ed="#N" n="32"/>motus penitentie et fidei sunt diuersi: ergo non potest anima
+          mo<lb ed="#N" n="33" break="no"/>ueri simul his duobus motibus Quia vt dicit augustinus. Anima
+          <lb ed="#N" n="34"/>tota intelligit: tota diligit. sed contingit motum fidei
+          conti<lb ed="#N" n="35" break="no"/>nuari in peccatore vsque ad infusionem gratie remittentis: igitur
+          <lb ed="#N" n="36"/>fine omni motu penitentie contingit peccatum remitti.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e218">
+          ⁋ Item
+          <lb ed="#N" n="37"/>amor alicuius et odium non possunt simul inesse in anima.
+          mul<lb ed="#N" n="38" break="no"/>tofortius vt videtur nec diuersorum. probatio. maior est
+          oppo<lb ed="#N" n="39" break="no"/>sitio et diuersitas quando amor et odium referuntur ad diuersa
+          <lb ed="#N" n="40"/>siue opposita. vt ad bonum et malum: quam quando referuntur ad
+          <lb ed="#N" n="41"/>sdem. quia quando referuntur ad diuersa: est quasi dupler
+          opposi<lb ed="#N" n="42" break="no"/>fio. quia et ex parte affectuum et terminorum eorundem. quando
+          refe<lb ed="#N" n="43" break="no"/>runtur ad idem non est nisi vna. scilicet ex parte affectuum tantum. Ex
+          <lb ed="#N" n="44"/>his videtur quod amor dei et odium peccati non possunt simul esse
+          <lb ed="#N" n="45"/>igitur si sine dei amore non remittitur peccatum: non requiritur
+          <lb ed="#N" n="46"/>odium mali commissi ad eius remissionem. igitur sine odio
+          pecca<lb ed="#N" n="47" break="no"/>ti remittitur peccatum.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e244">
+          ⁋ Item vt vult phohus. Mors est
+          disso<lb ed="#N" n="48" break="no"/>lutio vite. vita est esse vel actus viuentis. infusio gratie
+          subi<lb ed="#N" n="49" break="no"/>ta est. Ponatur igitur quod in vltimo instanti vite vel
+          dissoluion<lb ed="#N" n="50" break="no"/>nis vite infunderetur gratia: actus penitendi nullo modo
+          <lb ed="#N" n="51"/>potest esse in instanti. constat: iste peccator saluaretur: quia decedit in
+          <lb ed="#N" n="52"/>gratia. nec tamen penituit: igitur sine actu penitentie potest saluari pec
+          <lb ed="#N" n="53"/>cator.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e260">
+          ⁋ Si diceretur quod penituit ante infusionem gratiem: sed
+          <lb ed="#N" n="54"/>hoc nihil est. quia illa penitentia gratuita non fuit: quia gratiam
+          <lb ed="#N" n="55"/>non habuit. In gratuitis enim opera sequuntur virtutes: in
+          pol<lb ed="#N" n="56" break="no"/>liticis precedunt. sed post non est secutus aliquis actus
+          peni<lb ed="#N" n="57" break="no"/>tentie ex quo in instanti vltimo decessit.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e272">
+          ⁋ Contra. augustinus
+          <lb ed="#N" n="58"/>de penitentia. Arbiter sue voluntatis non potest inchoare
+          no<lb ed="#N" n="59" break="no"/>uam vitam: nisi peniteat eum veteris vite. quo ad uouitatis
+          <lb ed="#N" n="60"/>indulgentiam perueniet: qui odi vetustatem non deposuit.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e281">
+          ⁋ Item
+          <lb ed="#N" n="61"/>dolor est sensus contrarii. sed vt in alia facultate dicitur scilicet
+          <lb ed="#N" n="62"/>in medicina. qui dolent aliquid corporis et dolorem non sentiunt.
+          <lb ed="#N" n="63"/>his mens egrotat. igitur a simili in morbo spirituali. qui habet
+          ali<lb ed="#N" n="64" break="no"/>quid doloris spiritus et illud non sentit: egrotat mente. sed
+          si<lb ed="#N" n="65" break="no"/>habet gratiam non egrotat mente: igitur si dolet spiritu dolorem
+          sen<lb ed="#N" n="66" break="no"/>tit. Sensus autem ille est dolor penitentie: igitur etc.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e297">
+          ⁋ Item idem
+          <lb ed="#N" n="67"/>habetur in glo. iii. math. super illud. facite dignos fructus
+          <lb ed="#N" n="68"/>penitentie. in qua dicitur. sine dolore nulla sunt vulnera:
+          si<lb ed="#N" n="69" break="no"/>vitalia membrorum non fuerint mortua. gratia est quod sentit.
+          <lb ed="#N" n="70"/>sentiens querit sanitatem.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e308">
+          ⁋ Item Math. iii. Penitentiam
+          <lb ed="#N" n="71"/>agite. glo. prima virtus est per perenitentiam veterem hominem perimere
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>et vicia odire. quod qui non facit: non modo virtutes non
+          appre<lb ed="#N" n="73" break="no"/>hendit: sed nec etiam supplicia fugit.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e319">
+          ⁋ Item de penitentia di.
+          <lb ed="#N" n="74"/>v. dolendum est et de dolore purgandum. Ex his patet
+          proposi<lb ed="#N" n="75" break="no"/>tum.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e326">
+          ⁋ Responsio sine preiudicio. quod sine dolore de peccato
+          <lb ed="#N" n="76"/>siue voluntate penitendi in generali vel spetiali non remittitur
+          <lb ed="#N" n="77"/>peccatum.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e334">
+          ⁋ Ad primum ergo dicendum. quod qui immoderate diligit vxo
+          <lb ed="#N" n="78"/>rem citra deum. licet dum existit in vigore corporali quando
+          vali<lb ed="#N" n="79" break="no"/>di sunt motus sensualitatis permaneat in voluntate diligern
+          <lb ed="#N" n="80"/>di: sic tamen in ipsa dissolutione a corpore pars rationalis abstrahitur
+          <lb ed="#N" n="81"/>a carne. vnde motus sensualitatis non habent efficaciam
+          alli<lb ed="#N" n="82" break="no"/>ciendi ad affectus carnales. Unde in huiusmodi abstractione
+          vir<lb ed="#N" n="83" break="no"/>tute gratie est voluntas peccandi: et tollitur culpa que fuit ex
+          <lb ed="#N" n="84"/>inordinato amore precedente. vnde illa voluntas
+          diligendi<lb ed="#N" n="85" break="no"/>inordinate tollitur gratia illa.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e354">
+          ⁋ Sed contra hoc opponitur
+          <lb ed="#N" n="86"/>sic. Ponatur quod talis dormiendo iugularetur vel decederet in
+          <lb ed="#N" n="87"/>frenesi videtur quod decedit in habituali voluntate peccati. igitur
+          <lb ed="#N" n="88"/>aut damnabitur aut remittetur sine dolore huiusmodi. Ex hoc
+          po<lb ed="#N" n="89" break="no"/>nunt quidam quod gratia in qua decedit tollit hoc peccatum
+          <lb ed="#N" n="90"/>post mortem. et ponunt illud pro se. i. corum. iii. Si cuius opus
+          <lb ed="#N" n="91"/>arserit detrimentum patietur. ipse autem saluabitur sic tamen quasi per
+          <lb ed="#N" n="92"/>ignem. glo. lignum fenum stipulam accipiuntur non bona oprera
+          <lb ed="#N" n="93"/>nec mala que sunt damnabilia: sed peccata venialia. Unde
+          <lb ed="#N" n="94"/>greg. quamuis hoc de igne tribulationis presentis possit
+          intelligi<lb ed="#N" n="95" break="no"/>tamen si quis de igne future purgationis accipiat:
+          pensan<lb ed="#N" n="96" break="no"/>dum sollicite est. quia cum dixit per ignem posse saluari.
+          <lb ed="#N" n="97"/>non quia super hoc fundamentum ferrum vel es vel plumbum
+          edifi<lb ed="#N" n="98" break="no"/>cat id est maiora peccata et ideo duriora et insolubilia: sed quia
+          <lb ed="#N" n="99"/>quis edificat lignum. fenum stipulam id est peccata venialia atet
+          <lb ed="#N" n="100"/>leuissima que ignis facile consumat: de quibus tamen licet
+          mi<lb ed="#N" n="101" break="no"/>nimis illic nihil purgationis quis obtinebit. nisi in hac
+          vi<lb ed="#N" n="102" break="no"/>ta positus hoc promereatur. hec glo. Arguitur igitur ex verbis
+          <lb ed="#N" n="103"/>glo. que dicit quod peccata venialia dicuntur lignum fenum
+          stipu<lb ed="#N" n="104" break="no"/>la que dicit glo. purganda per ignem. Si diceretur quod loqui
+          <lb ed="#N" n="105"/>tur de illis non vt culpe sunt. sed quantum ad penas: similiter
+          <lb ed="#N" n="106"/>pene mortalium tolluntur et soluuntur per ignem purgatorium. Cuius
+          <lb ed="#N" n="107"/>contrarium dicit glo. Dicit enim pensandum sollicite est. quia cum
+          <lb ed="#N" n="108"/>dixit per ignem posse saluari. non qui super hoc fundamentum etc.
+          <lb ed="#N" n="109"/>Unde videtur glo. comparare culpam culpe. Dicendum quod loquitur
+          <lb ed="#N" n="110"/>hic de mortalibus quorum culpa non tollitur per gratiam. quod patet ex
+          <lb ed="#N" n="111"/>ipsa glo. que dicit ferrum vel es vel plumbum edificat id est maiora
+          <lb ed="#N" n="112"/>peccata:et ideo duriora atet tunc insolubilia etc. Non autem
+          <lb ed="#N" n="113"/>essent insolubilia: si culpa esset deleta. Preterea. supposito quod
+          cul<lb ed="#N" n="114" break="no"/>pa remittitur post mortem. non est rationi consonum quod hoc sit existenti
+          <lb ed="#N" n="115"/>in voluntate peccati. cui contrarium ad presens suppono: scilicet quod omnis
+          <lb ed="#N" n="116"/>culpa deletur in presenti. De hoc enim infra erit questio. sicut enim vulte
+          <lb ed="#N" n="117"/>augustinus de ciui. dei. homini post vitam istam non additur nouum
+          meri<lb ed="#N" n="118" break="no"/>tum nec noua remissio culpe: sed datur ei pena vel premium secundum
+          <lb ed="#N" n="119"/>quod meruit in vita ista. vnde in purgatorio potest esse absolutio a
+          <lb ed="#N" n="120"/>pena: sed a culpa non. deletur ergo veniale illud de quo queritur in presenti.
+          <lb ed="#N" n="121"/>Si queritur a quo. dicimus quod a gratia finali. Unde augustinus in omeli. super
+          <lb ed="#N" n="122"/>ioh. viii. vbi dicitur. si filius nos liberauit. accipiens illud
+          <lb ed="#N" n="123"/>quod dicitur Ro. vii. Carne seruio legi peccati. vult dicere quod
+          serui<lb ed="#N" n="124" break="no"/>tus ista quamdiu viuimus in nostris animabus est: nisi dominus aliter
+          dispen<lb ed="#N" n="125" break="no"/>set per spaialem gratiam. sed tamen semper diminuitur in habentibus
+          cari<lb ed="#N" n="126" break="no"/>tatem. quamdiu tamen viuitur: non est perfecta liberatio ab huiusmodi seuitu
+          <lb ed="#N" n="127"/>te: quia corpus quod corrumpitur aggrauat animam Sapientia. ix. Unde
+          <lb ed="#N" n="128"/>cum ad hoc deuenitur quod anima soluitur a carne cum finali gratia: fit anima
+          <lb ed="#N" n="129"/>spiritualis et libera ab illa seruitute. Unde tunc gratia eo quod finals
+          <lb ed="#N" n="130"/>est et ita quasi in quodam complemento. et non est actualis voluntas
+          con<lb ed="#N" n="131" break="no"/>traria siue impediens actum gratie: preualet semper ipsum veniale. et
+          <lb ed="#N" n="132"/>delet ipsum ex virtute sue completionis et sui status quantum ad cul
+          <lb ed="#N" n="133"/>pam: et non quantum ad penam. immo illa soluetur in purgatorio. Si
+          <lb ed="#N" n="134"/>ergo queratur propter quid gratia alio tempore sine dolore vel voluntate non de
+          <lb ed="#N" n="135"/>leuit veniale sicut et nunc: patet solutio. quoniam non erat similis
+          <lb ed="#N" n="136"/>dispositio ipsius gratie quo ad statum sui complementi: neque etiam similis
+          <lb ed="#N" n="137"/>liberatio ipsius anime a seuitute supradicta. et propter voluntatem pec
+          <lb ed="#N" n="138"/>cati repugnantem.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e471">
+          ⁋ Ex his patet qualiter respondendum est de illo qui
+          dor<lb ed="#N" n="139" break="no"/>miendo iugulatur. estimo tamen quod si maneret in actuali voluntate
+          <lb ed="#N" n="140"/>peccati in morte: quod illa placentia iam progressa esset in contem
+          <lb ed="#N" n="141"/>ptum et iam esset peccatum mortale et quod damnaretur.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e480">
+          ⁋ Ad hoc
+          <lb ed="#N" n="142"/>quod obiicitur. quod auersio esset peccatu sine conuersione.
+          <pb ed="#N" n="388"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>similiter si sit conuersio sine auersione a creatura remitte
+          <lb ed="#N" n="2"/>tur etc. Responsio quod auersio quocumque modo fiat peccatum est
+          <lb ed="#N" n="3"/>quia omni modo inordinatio est. sed conuersio ad deum non quocunque
+          <lb ed="#N" n="4"/>modo fiat ordinata est: quia ad hoc quod ordinata sit: requiritur
+          auer<lb ed="#N" n="5" break="no"/>sio ab actu peccati per dolorem et detestationem et preexistente
+          <lb ed="#N" n="6"/>hac auersione tunc ordinata est conuersio. Unde super illud.
+          Iu<lb ed="#N" n="7" break="no"/>sticia ante ipsum ambulabit glo. prima hominis iusticia est vt
+          <lb ed="#N" n="8"/>puniat se malum.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e506">
+          ⁋ Ex hoc patet responsio ad aliud quod obiicit
+          <lb ed="#N" n="9"/>quod velle auerti sine omni conuersione sufficit ad peccatum ergo
+          <lb ed="#N" n="10"/>velle conuerti sufficit ad meritum. Dicendum quod non sequitur
+          ra<lb ed="#N" n="11" break="no"/>tione pretacta: quia alterum semper est ordinatum: reliquum non sempier
+          <lb ed="#N" n="12"/>ordinatum est.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e517">
+          ⁋ Ad aliud quod obiicitur. quod virtutes imparantes
+          <lb ed="#N" n="13"/>maioris sunt efficacie etc. dicendum. quod et si simpliciter sunt
+          <lb ed="#N" n="14"/>maioris efficacie: non tamen semper et quantum ad quecunm
+          meren<lb ed="#N" n="15" break="no"/>da. sicut in medicinalibus corporalibus quod est efficacius
+          simplici<lb ed="#N" n="16" break="no"/>ter non est efficacius ad omneum morbum curandum. immo vt
+          ordi<lb ed="#N" n="17" break="no"/>nantur iuxta conuenientes proportiones. conuenientiores sunt et
+          effi<lb ed="#N" n="18" break="no"/>caciores. vt enim dicit hiero. quod sanat oculum non sanat calca
+          <lb ed="#N" n="19"/>neum: sic est in spiritualibus. vnde et si motus caritatis sit
+          sim<lb ed="#N" n="20" break="no"/>pliciter maioris virtutis et efficacie: non tamen ad
+          impetran<lb ed="#N" n="21" break="no"/>dum gratiam remissionis actualis commissi.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e540">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="22"/>obiicitur quod omnis affectus generatur ex cognitione. dicendum quod
+          <lb ed="#N" n="23"/>hoc verum est. semper enim cognitio precedit huiusmodi affectus qui sunt
+          <lb ed="#N" n="24"/>gaudium dolor et huiusmodi. Sed cum subditur quod motus cognitie
+          <lb ed="#N" n="25"/>et affectiue non possunt simul currere etc. dicendum quod hoc
+          <lb ed="#N" n="26"/>est falsum. licet enim non simul veniunt in esse. immo qui cognitiue
+          <lb ed="#N" n="27"/>prius: cum iam existunt simul currere possunt.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e556">
+          ⁋ Cum obiicitur
+          <lb ed="#N" n="28"/>quod anima tota intelligit tota diligit etc. Responsio. quod hoc non
+          <lb ed="#N" n="29"/>dicitur quia intellectu et affectu diligat et affectu et intellectu
+          <lb ed="#N" n="30"/>cognoscat: sed tota idem est quod perfecta. vnde non vult dicere
+          <lb ed="#N" n="31"/>quod se tota intelligit vel se tota diligit: sed illa tota id estin
+          sui<lb ed="#N" n="32" break="no"/>perfectione in sua integritate et indiuisione intelligit id est non
+          <lb ed="#N" n="33"/>potentia diuisa a substantia: immo ipsa per potentiam. simitus
+          mo<lb ed="#N" n="34" break="no"/>dus loquendi est ibi. nihil aliud est animam intelligere quam texere
+          <lb ed="#N" n="35"/>vel edificare. vnde ibi intendit phous dicere. quod intelligere
+          me<lb ed="#N" n="36" break="no"/>diante motu et fantasia est actus hominis. similiter et
+          intelli<lb ed="#N" n="37" break="no"/>gere non fantasticum est actus anime. vult igitur dicere. quod huiusmodi
+          <lb ed="#N" n="38"/>actus intelligere diligere secundum quod sunt prime virtutis et
+          pri<lb ed="#N" n="39" break="no"/>me bonitatis: sunt actus anime.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e585">
+          ⁋ Ad id quod obiicitur. quod maior
+          <lb ed="#N" n="40"/>est oppositio cum amor et odium referuntur ad diuersa: quam quando
+          <lb ed="#N" n="41"/>referuntur ad idem. Dicendum quod hoc est verum materialiter
+          lo<lb ed="#N" n="42" break="no"/>quendo. formaliter autem non est ita. materialis autem oppositio
+          <lb ed="#N" n="43"/>non impedit quin opposita possunt simul esse: formalis
+          impe<lb ed="#N" n="44" break="no"/>dit quia formalis ponit opposita simul esse respectu eiusdem.
+          <lb ed="#N" n="45"/>naturalis non: sed respectu diuersorum.
+        </p>
+        <p xml:id="v78d89-abgn23-d1e601">
+          ⁋ Ad hoc quod obiicitur
+          <lb ed="#N" n="46"/>quod si in termino dissolutionis infundatur gratia nullus sequitur dolor
+          <lb ed="#N" n="47"/>vel pena etc. Dicendum quod et si homo extractus per gratiam
+          preuenien<lb ed="#N" n="48" break="no"/>tem doleat de peccatis et infundatur in instanti gratia
+          gratun<lb ed="#N" n="49" break="no"/>faciens. quia diuinum propositum quod est immobile gratiam
+          <lb ed="#N" n="50"/>infundit ad saluandum penitentem: tali tempore infundit quod potest
+          <lb ed="#N" n="51"/>dolere sufficienter ad salutem. vnde si dominus infundit gratiam
+          <lb ed="#N" n="52"/>alicui in vltimo instanti vite. Dicendum quod in illo instanti
+          <lb ed="#N" n="53"/>dolet: et ille dolor sufficit. licet enim affectio doloris in instanti
+          <lb ed="#N" n="54"/>non perducitur in esse: tamen cum actu existit in quolibet instanti et quolibet
+          <lb ed="#N" n="55"/>istanti affligit. Unde dico. quod quandocumque dominus infundit gratiam.
+          <lb ed="#N" n="56"/>sic illam infundit et in tali statu: quod sufficit ad salutem. siue in
+          <lb ed="#N" n="57"/>vltimo tempore siue alio quocumque tempore. Unde augustinus in eccle.
+          <lb ed="#N" n="58"/>dogma. xlvii. ci. Penitentiam abolere peccata indubitanter
+          <lb ed="#N" n="59"/>credimus. etiam si in vltimo vite spiritu admissorum peniteat: et
+          <lb ed="#N" n="60"/>publica vel simplici lamentatione prodantur peccata. quia
+          <lb ed="#N" n="61"/>propositum dei quo decreuit saluare quod perierat stat immobile. et
+          <lb ed="#N" n="62"/>ideo quia voluntas eius non mutatur: siue emendatione vite si
+          tem<lb ed="#N" n="63" break="no"/>pus conceditur: siue supplici confirmatione. si continuo
+          vi<lb ed="#N" n="64" break="no"/>ta exceditur: denia peccatorum fideliter presumatur: ab illo qui
+          <lb ed="#N" n="65"/>non vult mortem peccatoris sed vt conuertatur a perditione penitendo
+          <lb ed="#N" n="66"/>et saluatus miseratione domini viuat. Ex hoc verbo augustinus haentur
+          <lb ed="#N" n="67"/>quod non aboletur culpa nisi per penitentiam. et quandocunque
+          infun<lb ed="#N" n="68" break="no"/>dit eam: sufficit penitentia informata illa.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

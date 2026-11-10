@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 50, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 50, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="337"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aa6udo"><!-- q50m1 -->
+        <head xml:id="v78d89-aa6udo-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-aa6udo-Hd1e103" type="question-title">Utrum dispensandum est a mulieribus</head>
+        <p xml:id="v78d89-aa6udo-d1e106">
+          <pb ed="#N" n="337"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e115">
+          <lb ed="#N" n="2"/>Eprimo obiicitur sic: dominus datus est homini ad eius
+          <lb ed="#N" n="3"/>redemptionem et ad eiusdem refectionem. sed a muliere
+          <lb ed="#N" n="4"/>datus fuit homini simpliciter ad eius redemptionem
+          <lb ed="#N" n="5"/>similiter vel fortiori ratione videtur quod debeat vel possit
+          <lb ed="#N" n="6"/>dari a muliere homini singulari ad refectionem.
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e128">
+          ⁋ Pret. cum
+          <lb ed="#N" n="7"/>dispensatio dominici corporis debeat fieri cum timore et deuotione.
+          <lb ed="#N" n="8"/>mulieres magis sunt timorose et deuote. dicitur enim sexus
+          fe<lb ed="#N" n="9" break="no"/>mineus deuotus a beato Grego. videtur quod magis conueniat quod hec
+          <lb ed="#N" n="10"/>dispensatio fiat ab aliqua sexus feminei quam ab aliquo sexus
+          viri<lb ed="#N" n="11" break="no"/>lis. ergo videtur quod mulier possit deferre corpus christi et dare
+          in<lb ed="#N" n="12" break="no"/>firmis.
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e145">
+          ⁋ Item mulieribus datur corpus christi in vsum. quare non
+          <lb ed="#N" n="13"/>datur eis ad dispensandum: cum magis sit illud sumere in vsum
+          <lb ed="#N" n="14"/>quam dispensare. et cum maius periculum sit indigne vti quam indigne
+          <lb ed="#N" n="15"/>dispensare. Grauius enim peccat qui in mortali peccato sumit
+          cor<lb ed="#N" n="16" break="no"/>pus christi: quam qui in mortali alii dispensat.
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e156">
+          ⁋ Quod autem non sit dispere
+          <lb ed="#N" n="17"/>sandum a muliere habetur de conse. di. ii. peruenit. vbi inhibetur et
+          <lb ed="#N" n="18"/>damnatur huiusmodi dispensatio.
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e163">
+          ⁋ Responsio. quod dispensatio
+          sacramen<lb ed="#N" n="19" break="no"/>torum et officium spectat ad mediatores. mediatores vero
+          ge<lb ed="#N" n="20" break="no"/>runt curam reconciliationis cum deo. talibus autem potissime
+          con<lb ed="#N" n="21" break="no"/>gruit quod sint sexus virilis qui est sexus nobilior et
+          principa<lb ed="#N" n="22" break="no"/>lior et fortior: et primo et principali mediatori et
+          reconciliatori<lb ed="#N" n="23" break="no"/>scilicet christo domino conformior. Unde dispensatio sacramentorum nec
+          <lb ed="#N" n="24"/>mulieribus conuenit nec illis est concessa. nisi solius baptismi. et hoc
+          <lb ed="#N" n="25"/>est in necessitate.
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e181">
+          ⁋ Ad illud quod obiicitur. quod dominus datus est
+          ho<lb ed="#N" n="26" break="no"/>mini a femina ad redemptionem etc. Dicendum quod hoc dicitur et
+          ve<lb ed="#N" n="27" break="no"/>ritatem habet quodammodo loquendi. scilicet quia femina porta
+          <lb ed="#N" n="28"/>uit et genuit illum qui hominem redemit. Ex hoc autem non
+          sequi<lb ed="#N" n="29" break="no"/>tur neque per locum a simili neque a maiori: quod modus ille dandi qui
+          of<lb ed="#N" n="30" break="no"/>ficio mediatoris conuenit. debeat conuenire femine. sicut non
+          sequi<lb ed="#N" n="31" break="no"/>tur redemptor natus est de femina ergo corpus eiuus vt est sub
+          sa<lb ed="#N" n="32" break="no"/>cramento debet dispensari a femina.
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e199">
+          ⁋ Ad aliud dicendum est
+          <lb ed="#N" n="33"/>quod licet sexus femineus sit precipue deuotus. nihilominus infirmus
+          <lb ed="#N" n="34"/>est et minime conueniens officio mediatoris. quod quidem
+          officium<lb ed="#N" n="35" break="no"/>potissime conuenit sexui principali et nobiliori et christo
+          confor<lb ed="#N" n="36" break="no"/>miori.
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e210">
+          ⁋ Ad aliud dicendum quod non est simile de vsu et
+          dispen<lb ed="#N" n="37" break="no"/>satione. Usus enim omnibus indultus est fidelibus: sed
+          dispen<lb ed="#N" n="38" break="no"/>satio existentibus in officio mediatoris.
+        </p>
+        <p xml:id="v78d89-aa6udo-d1e218">
+          ⁋ Ad illud quod
+          <lb ed="#N" n="39"/>additur quod maius est sumere corpus christi in vsum quam etc.
+          Di<lb ed="#N" n="40" break="no"/>cendum quod et si sit maius quantum ad meritum vel demeritum
+          <lb ed="#N" n="41"/>id est et si sit maioris meriti vel demeriti: est tamen minus
+          <lb ed="#N" n="42"/>quantum ad minoritatem dignitatis officii. quia dispensatio
+          <lb ed="#N" n="43"/>est in dignitate excellentis officii: vsus autem est cuiuslibet
+          <lb ed="#N" n="44"/>fidelis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

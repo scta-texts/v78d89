@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 58, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 58, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="389"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-abmovp"><!-- q58m3 -->
+        <head xml:id="v78d89-abmovp-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-abmovp-Hd1e103" type="question-title">De virtute gratiae poenitentiae</head>
+        <p xml:id="v78d89-abmovp-d1e106">
+          <lb ed="#N" n="139"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-abmovp-d1e111">
+          <pb ed="#N" n="390"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>COnsequenter queritur de virtute gratie
+          peni<lb ed="#N" n="2" break="no"/>tentie. Et queritur Utrum penitentia inquantum est gratia
+          <lb ed="#N" n="3"/>deleantur peccata: aut inquantum est virtus. Quod inquam
+          <lb ed="#N" n="4"/>tum est gratia videtur sic. Gratia dicitur vt est
+          perfici<lb ed="#N" n="5" break="no"/>ens animam. Uirtus vt est habilitans potentias. sed cuius est animam
+          <lb ed="#N" n="6"/>perficere eius est animam reficere siue reparare: sicut fabrilignarii
+          <lb ed="#N" n="7"/>est domum perficere et ipsam minantem ruinam reparare. Reparatur
+          <lb ed="#N" n="8"/>autem anima ab illo quando deletur peccatum: ergo etc.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e135">
+          ⁋ Item vt dicit
+          <lb ed="#N" n="9"/>hugo. Hoc interesse videtur inter peccata et vicia. quod vicia sunt
+          <lb ed="#N" n="10"/>corruptiones anime. ex quibus si ratione non refrenentur peccata oriuntur:
+          <lb ed="#N" n="11"/>ita quod vicium est infirmitas spiritualis xorruptionis: peccatum autem
+          <lb ed="#N" n="12"/>ex corruptione oriens per consensum actus iniquitatis. hec hugo.
+          <lb ed="#N" n="13"/>Sed virtus et gratia distinguuntur in hoc. gratia
+          respi<lb ed="#N" n="14" break="no"/>cit ipsam animam cuius est culpa vt subiecti proprii: virtus autem
+          re<lb ed="#N" n="15" break="no"/>spicit potentias quarum proprie sunt vicia que dicuntur corruptio
+          <lb ed="#N" n="16"/>nes. igitur proprie loquendo gratia tollitur culpa: et virtute
+          vi<lb ed="#N" n="17" break="no"/>cia. Preterea. virtus et vicium se habent ad opposita: ergo virtus est
+          <lb ed="#N" n="18"/>proprie deletiua vicii.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e160">
+          ⁋ Item si virtute penitentie tolleretur cul
+          <lb ed="#N" n="19"/>pa: que est necessitas sacramenti penitentie: nulla vt videtur.
+          <lb ed="#N" n="20"/>Ex his videtur quod penitentia virtute non tollitur culpa: sed
+          peni<lb ed="#N" n="21" break="no"/>tentia vt est gratia
+        </p>
+        <p xml:id="v78d89-abmovp-d1e169">
+          ⁋ Contra. penitentia reformatur imago
+          <lb ed="#N" n="22"/>dei deformata per peccatum. Hec autem reformatio non potest esse
+          <lb ed="#N" n="23"/>per gratiam vt est gratia: sed vt est virtus. quod patet quia anima non
+          <lb ed="#N" n="24"/>dicitur imago ratione vnitatis essentie: sed ratione qua
+          consigura<lb ed="#N" n="25" break="no"/>tur deo vno ti essentia trino in personis vnitate essentie et
+          trini<lb ed="#N" n="26" break="no"/>tate personarum. si igitur gratia inquantum gratia non est reparatiua anime
+          <lb ed="#N" n="27"/>et potentiarum illius nisi inquantum est virtus. si per penitentiam
+          repara<lb ed="#N" n="28" break="no"/>tur imago dei hoc erit potius per penitentiam virtutem quam per penitentiam
+          <lb ed="#N" n="29"/>gratiam. sed quod delet culpam reparat imaginem: igitur penitentia
+          <lb ed="#N" n="30"/>virtus delet culpam.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e191">
+          ⁋ Item non tollitur culpa nisi cum gratia
+          con<lb ed="#N" n="31" break="no"/>currat voluntas nolens et dolens de culpa. igitur ad deleti
+          <lb ed="#N" n="32"/>onem culpe requiruntur duo. gratia et voluntas: nolens
+          pec<lb ed="#N" n="33" break="no"/>casse et dolens de peccato. Hec autem voluntas est a penitentia
+          <lb ed="#N" n="34"/>virtute cuius est expedire potentias in suos fines: igrtur gratia
+          <lb ed="#N" n="35"/>non delet culpam sed potius virtus. illud enim proprie delet de quo
+          <lb ed="#N" n="36"/>est dolor voluntatis de commisso.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e207">
+          ⁋ Item ad deletionem culpe
+          <lb ed="#N" n="37"/>requiritur conuersio ad bonum incommutabilem. Hac autem conuer
+          <lb ed="#N" n="38"/>sione vt causa consummante deletur culpa. sicut enim consummatur
+          cul<lb ed="#N" n="39" break="no"/>pa in auersione a bono incommutabili: similiter deletio
+          <lb ed="#N" n="40"/>culpe consummatur in conuersione ad idem. sed virtus est que
+          <lb ed="#N" n="41"/>proprie et per se conuertit et ordinat vtiliter subiectum suum ad
+          <lb ed="#N" n="42"/>bonum incommutabilem: quia virtus vt dicit augustinus in libro solilo. est
+          <lb ed="#N" n="43"/>recta ratio parueniens in finem: igitur virtus est qua per se deletur
+          <lb ed="#N" n="44"/>peccatum.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e227">
+          ⁋ Responsio. quod sicut in naturalibus eiusdem est
+          perfi<lb ed="#N" n="45" break="no"/>cere naturam et agere siue operari scilicet forme substantialis. quia
+          <lb ed="#N" n="46"/>quo res est eodem agit: similiter in spiritualibus. Unde sicut forma
+          sub<lb ed="#N" n="47" break="no"/>stantialis et virtus in naturalibus sunt nomna eiusdem. sed in hoc
+          <lb ed="#N" n="48"/>differunt quod forma dicitur inquantum perficit naturam: virtus
+          inquan<lb ed="#N" n="49" break="no"/>tum extendit se ad operationem: sic dico de gratia et virtute.
+          <lb ed="#N" n="50"/>scilicet quod idem nominant. sed gratia dicitur vt est perfectiua: virtus vt
+          <lb ed="#N" n="51"/>est operatiua. Preterea. intelligendum est quod nulla creatura se
+          to<lb ed="#N" n="52" break="no"/>ta agit. vnde nec anima se tota intelligit: neque se tota
+          dili<lb ed="#N" n="53" break="no"/>git. vt autem dicit boetius lib. de conso. In omni eo quod est
+          citra<lb ed="#N" n="54" break="no"/>primum. differt quod est ab esse vel quo est. Unde in anima
+          dif<lb ed="#N" n="55" break="no"/>fert quod est et quo. vnde in anima est aliquid vt quid: et aliquid
+          <lb ed="#N" n="56"/>vt quo. Unde cum anima agit non se tota agit: sed agit quo est. Unde
+          po<lb ed="#N" n="57" break="no"/>tentie anime quibus agit scilicet intelligit. diligit et memoratur: sunt ipsius
+          <lb ed="#N" n="58"/>anime. non ex ea parte eius que est quid: sed ex ea parte eius que est quo. Similiter
+          <lb ed="#N" n="59"/>dico. quod gratia est perfectio anime. non quia indifferenter respicit
+          <lb ed="#N" n="60"/>vt perfectibile quid in anima et quo: sed prius est immediatius
+          <lb ed="#N" n="61"/>illud quo est. Illud enim prius et propinquius respicit
+          gra<lb ed="#N" n="62" break="no"/>tia in anima quo ipsa anima conuersa est ad suam causam per
+          in<lb ed="#N" n="63" break="no"/>tellectum prime veritatis. et dilectionem summe bonitatis.
+          <lb ed="#N" n="64"/>et recordationem infinite maiestatis siue eternitatis. quia
+          <lb ed="#N" n="65"/>penes hoc proprie et primo est anima imago siue ad
+          imagi<lb ed="#N" n="66" break="no"/>nem dei. Unde sicut color dicitur qualitas corporis. primo tamen et
+          <lb ed="#N" n="67"/>pro se est qualitas superficiei. dicitur enim corpus coloratum quia
+          superfi<lb ed="#N" n="68" break="no"/>cies colorata. sic quodammodo dicitur gratia perfectio anime: quia
+          <lb ed="#N" n="69"/>est perfectio illius partis penes quam determinatur vltimitas
+          ani<lb ed="#N" n="70" break="no"/>me. hoc est penes illam partem qua est conuersa ad deum.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e286">
+          ⁋ Ad hoc
+          <lb ed="#N" n="71"/>igitur quod queritur. vtrum peccata deleantur penitentia vt est virtus
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="72"/>aut vt est gratia. dicendum quod vt est gratia. dico quantum ad
+          cub<lb ed="#N" n="73" break="no"/>pam.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e298">
+          ⁋ Ad illud quod obiicitur. quod penitentia reformatur imago
+          <lb ed="#N" n="74"/>dei deformata per peccatum. dicendum quod hoc est verum. et illa
+          <lb ed="#N" n="75"/>reformatio est per gratiam. gratia enim est perfectio primo et per
+          <lb ed="#N" n="76"/>se illius partis anime que est quo est. penes quam proprie est
+          ima<lb ed="#N" n="77" break="no"/>go dei. et illa pars est quo proprie et primo per peccatum
+          defor<lb ed="#N" n="78" break="no"/>matur. Intelligendum tamen quod est duplex perfectio. scilicet quantum ad este
+          <lb ed="#N" n="79"/>et quantum ad operari. prima perfectio facit bene esse: secunda
+          fa<lb ed="#N" n="80" break="no"/>cit bene operari. Quatum autem ad perfectionem que facit bene esse
+          <lb ed="#N" n="81"/>est reparatio imaginis per gratiam. quantum ad perfectionem que
+          fa<lb ed="#N" n="82" break="no"/>cit bene operari: reparatur imago per virtutem
+        </p>
+        <p xml:id="v78d89-abmovp-d1e320">
+          ⁋ Ad hoc quod obicitur quod anima
+          <lb ed="#N" n="83"/>est imago dei. non ratione vnitatis essentie sed ratione queo vnitate essentie
+          <lb ed="#N" n="84"/>et trinitate personarum configuratur deo trino et vno. dicendum quod ex
+          <lb ed="#N" n="85"/>hoc est reperire in perfectibili gratia. quia in illo est anima in quo
+          ra<lb ed="#N" n="86" break="no"/>dicantur proprie vires siue potentie quibus refertur anima ad vnum
+          <lb ed="#N" n="87"/>trinum vt tactum est.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e333">
+          ⁋ Ad id quod obiicitur. quod ad deletionem cupe
+          <lb ed="#N" n="88"/>requiritur operatio voluntatis cum gratia. hec autem volantas est
+          <lb ed="#N" n="89"/>a penitentia virtute etc. Dicendum quod bene verum est quod iequi
+          <lb ed="#N" n="90"/>ritur operatio virtutis penitentie cum operatione gratie: tamen proprie
+          <lb ed="#N" n="91"/>efficacia delendi culpam attribuenda est gratie. sed efficacia
+          <lb ed="#N" n="92"/>faciendi penitentem dignum deletione. que fit per gratiam
+          attri<lb ed="#N" n="93" break="no"/>buenda est penitentie virtuti: nisi enim voluntas nollet
+          peccasse<lb ed="#N" n="94" break="no"/>non esset dignum vt fieret deletio peccati.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e351">
+          ⁋ Ad quod obiicitur
+          <lb ed="#N" n="95"/>quod ad deletionem culpe requiritur conuersio voluntatis ad
+          bo<lb ed="#N" n="96" break="no"/>num incommutabile: hec autem conuersio fit per virtutem.
+          Dicen<lb ed="#N" n="97" break="no"/>dum quod hoc non est verum. immo potius per gratiam. hac enim
+          conuer<lb ed="#N" n="98" break="no"/>sione gratificatur anima deo. gratie enim multiplex est acius
+          <lb ed="#N" n="99"/>licet vnus sit secundum se et primus scilicet gratificare. viuificare. al
+          <lb ed="#N" n="100"/>similare. et huiusmodi.
+        </p>
+        <p xml:id="v78d89-abmovp-d1e367">
+          ⁋ Sed ad illud quod in prma parte
+          concludi<lb ed="#N" n="101" break="no"/>tur. quod si penitentia virtute delerentur peccata: penitentie
+          <lb ed="#N" n="102"/>sacramenti nulla esset necessitas. dicendum quod hoc non elt
+          <lb ed="#N" n="103"/>verum: quia ad hoc esset necessaria propter multas
+          vtilita<lb ed="#N" n="104" break="no"/>tes propter quas sacramenta sunt nec essaria. et
+          maxime<lb ed="#N" n="105" break="no"/>vt peccator ecclesie reconciliaretur cui preiudicatum est in
+          <lb ed="#N" n="106"/>peccato illius.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

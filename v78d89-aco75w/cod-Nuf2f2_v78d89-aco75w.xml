@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 67, Membrum 1</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 67, Membrum 1</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="433"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aco75w"><!-- q67m1 -->
+        <head xml:id="v78d89-aco75w-Hd1e101">Membrum 1</head>
+        <head xml:id="v78d89-aco75w-Hd1e103" type="question-title">Quid sit re</head>
+        <p xml:id="v78d89-aco75w-d1e106">
+          <lb ed="#N" n="109"/>⁋ Membrum primum
+        </p>
+        <p xml:id="v78d89-aco75w-d1e111">
+          <lb ed="#N" n="110"/>DE primo duo queruntur. Primum est. vtrum contritio
+          <lb ed="#N" n="111"/>sit dolor. Secundum. vtrum dolor contritionis sit
+          <lb ed="#N" n="112"/>actio vel passio.
+        </p>
+        <div xml:id="v78d89-aco75w-Dd1e120">
+          <head xml:id="v78d89-aco75w-Hd1e122">Articulus 1</head>
+          <p xml:id="v78d89-aco75w-d1e124">
+            <lb ed="#N" n="113"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-aco75w-d1e129">
+            <lb ed="#N" n="114"/>CIrca primum sic. penitentia est dolor et amaritudo
+            men<lb ed="#N" n="115" break="no"/>tis pro peccatis que quilque commisit. sed hoc non est confessio neque
+            <lb ed="#N" n="116"/>satisfactio. ergo contritio.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e138">
+            ⁋ Item augustinus. dolendum est et
+            <lb ed="#N" n="117"/>dolore purgandum. sed contritio est illud in penitentia quod peccata purgat. ergo
+            <lb ed="#N" n="118"/>contritio est dolor.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e145">
+            ⁋ Item describitur sic. Contritio est dolor pro
+            pec<lb ed="#N" n="119" break="no"/>catis assumptus cum proposito confitendi et satisfaciendi.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e151">
+            ⁋ Contra.
+            <lb ed="#N" n="120"/>Augustinus. xiiii. libro de ci. dei. xv cilio. distiguit duplicem dolorem scilicet
+            car<lb ed="#N" n="121" break="no"/>nis et mentis. dicit enim. dolor ex carne est quedam ab eius passione
+            dil<lb ed="#N" n="122" break="no"/>sensio: sicut anime dolor qui tristicia nuncupatur est dissensio ab aliis
+            <lb ed="#N" n="123"/>rebus que nobis nolentibus acciderunt. hec augustinus. Sed contritio nec est
+            <lb ed="#N" n="124"/>dolor carnis nec mentis. Quod non carnis patet. quia dolor iste est
+            dis<lb ed="#N" n="125" break="no"/>sensio a passionibus carnis siue grauaminibus. sed penitens ills
+            consen<lb ed="#N" n="126" break="no"/>tit et de illis gaudet. Nec est dolor mentis: quia ille est tristicia que est
+            <lb ed="#N" n="127"/>dissensio ab his que nobis nolentibus accidernt. sed si aliquis dolor
+            <lb ed="#N" n="128"/>requiritur in penitentia: ille est dolor de peccatis commissis. sed illa
+            <lb ed="#N" n="129"/>non acciderunt nobis nolentibus. Quia vt dicit augustinus. peccatum
+            <lb ed="#N" n="130"/>est ita voluntarium etc. ergo est dolor mentis.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e177">
+            ⁋ Si diceretur quod
+            <lb ed="#N" n="131"/>peccata licet in perpetratione fuerunt volita: nihilominus penitenti et
+            <lb ed="#N" n="132"/>contrito displicent et sunt nolita. Contra. dolor est ex
+            coniun<lb ed="#N" n="133" break="no"/>ctione disconuenientis. ergo ab oppositis ex dissensu a
+            discon<lb ed="#N" n="134" break="no"/>uenienti non dolor est sed gaudium. ergo si peccata displicent et per
+            <lb ed="#N" n="135"/>contritionem dissentit quis a peccatis: videtur quod contritio non sit
+            <lb ed="#N" n="136"/>dolor sed gaudium.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e193">
+            ⁋ Item contritus dolet de peccato facto. aut
+            <lb ed="#N" n="137"/>ergo quia vult ipsum esse factum: autm quia non vult. Si quia vult: cum
+            <pb ed="#N" n="434"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>factum sit tunc euenit quod vult. Si quia non vult: sed omnis volun
+            <lb ed="#N" n="2"/>tas est indiscreta que appetit impossibile et refugit necessarium.
+            <lb ed="#N" n="3"/>ergo cum voluntas contriti non sit talis: patet etc.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e209">
+            ⁋ Si dicas quod verum
+            <lb ed="#N" n="4"/>est de voluntate absoluta: sed non de velleitate: et talis est contritio.
+            <lb ed="#N" n="5"/>Contra. contritus hanc habet voluntatem a virtute et gratia
+            informa<lb ed="#N" n="6" break="no"/>tiua. sed omnis talis consistit in pleno consensu. ergo voluntas contriti non
+            <lb ed="#N" n="7"/>est velleitas sed plena voluntas. et ita nulla est ista ratio.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e220">
+            ⁋ Item
+            <lb ed="#N" n="8"/>differt dolor et timor. quia dolor est affectio de presenti malo: sed
+            ti<lb ed="#N" n="9" break="no"/>mor de futuro. sed peccatum est preteritum: et de eo est contritio. ergo non
+            <lb ed="#N" n="10"/>est dolor.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e229">
+            ⁋ Si diceretur. quod etsi peccatum perpetratum non sit presns
+            <lb ed="#N" n="11"/>in affectu: est tamen presns in aspectu. Similiter potest dici. quod illud quod
+            <lb ed="#N" n="12"/>est futurum est presns in aspectu. ergo dolor est de futuro malo.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e237">
+            ⁋ Item
+            <lb ed="#N" n="13"/>sicut penitentem necesse est dolere: similiter et necesse est pudere: similiter et
+            gau<lb ed="#N" n="14" break="no"/>dere. Augustinus. doleas et de dolore gaudeas.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e244">
+            ⁋ Responsio. dicendum quod
+            <lb ed="#N" n="15"/>sicut peccatum comittitur per consensum voluntatis rationalis: sic deletur
+            per<lb ed="#N" n="16" break="no"/>dissensum eiusdem. dissensus autem a re quam impossibile est non
+            <lb ed="#N" n="17"/>esse: est dolor. et dolorem aggrauat. igitur contritio que est dissensus: est
+            <lb ed="#N" n="18"/>dolor per essentiam.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e255">
+            ⁋ Ad illud ergo quod primo obiicitur. dicendum quod
+            re<lb ed="#N" n="19" break="no"/>uera est dolor mentis: et sicut tactum est. licet enim peccatum in
+            perpe<lb ed="#N" n="20" break="no"/>tratione fuerit voluntarium: nihilominus existente penitentia non est
+            vo<lb ed="#N" n="21" break="no"/>luntarium. vnde cum penitemus de peccatis dolemus. et dolor ille est
+            <lb ed="#N" n="22"/>de rebus que accidunt nobis nolentibus id est de his que vellemus non
+            <lb ed="#N" n="23"/>accidisse. Aliter dicunt aliqui. quod cum perpetratione peccati multa
+            <lb ed="#N" n="24"/>accidunt peccantibus nolentibus. vt offensa dei. lesio
+            natura<lb ed="#N" n="25" break="no"/>lium. priuatio gratuitorum et alia huiusmodo. de quibus dolendum est. vnde
+            <lb ed="#N" n="26"/>Augustinus. dolendum est non solum quia peccauit: sed quia virtute se prua
+            <lb ed="#N" n="27"/>uit. sed hoc non sufficit: immo debet esse dolor de eo quod fuit
+            volunta<lb ed="#N" n="28" break="no"/>rium scilicet de ipsa delectatione.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e279">
+            ⁋ Ad illud quod obiicitur. quod
+            dissen<lb ed="#N" n="29" break="no"/>sus a re disconuenienti adgenerat gaudium etc. Dicendum quod
+            <lb ed="#N" n="30"/>hoc verum est quando est tantum dissensus: vtpote quando dissentit ab
+            acti<lb ed="#N" n="31" break="no"/>one peccati: et illud refugit et aspernatur. et hoc casu non est
+            do<lb ed="#N" n="32" break="no"/>lor sed gaudium. Sed quando est dissensus cum coniunctione: tunc est
+            do<lb ed="#N" n="33" break="no"/>sor. et ita est in contritione: quia nollet peccasse: et tamen necessarium
+            <lb ed="#N" n="34"/>est ipsum peccasse.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e295">
+            ⁋ Ad illud quod obiicitur. quod voluntas rationa
+            <lb ed="#N" n="35"/>lis et discreta non est eius quod est simpliciter impossibile. dicendum
+            <lb ed="#N" n="36"/>quod non est inconueniens velle impossibilem velleitate a
+            bso<lb ed="#N" n="37" break="no"/>luta. Uel sic. Est loqui de impossibili quantum ad agenda:
+            <lb ed="#N" n="38"/>et secundum hunc respectum non est voluntas ordinata
+            impossi<lb ed="#N" n="39" break="no"/>bilium. Et est loqui de impossibili quantum ad facta: et secundum
+            <lb ed="#N" n="40"/>hunc respectum voluntas ordinata est impossibilium.
+            Ra<lb ed="#N" n="41" break="no"/>tionabiliter enim et ordinate licet velle non fecisse quod
+            deme<lb ed="#N" n="42" break="no"/>ritorie factum est: licet non fecisse sit impossibile. Bonus enim
+            <lb ed="#N" n="43"/>filius vellet patrem suum non esse mortuum.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e317">
+            ⁋ Ad aliud quod
+            <lb ed="#N" n="44"/>obiicitur. quod virtus est in pleno consensu etc. Dicendum quod
+            sen<lb ed="#N" n="45" break="no"/>sus diminutus siue semiplenus. aut est propter defectum ex
+            <lb ed="#N" n="46"/>parte voluntatis: sicut est de pigro. de quo prouerb. xiii. vult
+            <lb ed="#N" n="47"/>et non vult piger. et talis voluntas non est virtutis vel
+            gra<lb ed="#N" n="48" break="no"/>tie. aut propter defectum voliti: vt quando est impossibile esse. et
+            ta<lb ed="#N" n="49" break="no"/>lis bene est a virtute. vt patet in affectu pietatis: vbi quandoque
+            <lb ed="#N" n="50"/>est plenus consensus a parte voluntatis eo quod est reflexio
+            vo<lb ed="#N" n="51" break="no"/>luntatis super se. et sic vult se velle.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e338">
+            ⁋ Ad illud quod obiicitur. quod
+            <lb ed="#N" n="52"/>dolor est de presenti etc. Dicendum sicut tactum est: quod dolor est
+            <lb ed="#N" n="53"/>de presenti secundum aspectum.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e345">
+            ⁋ Ad illud quod obiicitur. quod similiter futurum
+            <lb ed="#N" n="54"/>est presens secundum aspectum etc. Dicendum quod hoc bene potest esse de
+            <lb ed="#N" n="55"/>futuro sed non inquantum futurum: sed inquantum est presns aspectui
+            <lb ed="#N" n="56"/>per presumptionem vel certitudinem. vt si constet alicui quod dam
+            <lb ed="#N" n="57"/>nificabitur cras in re multum dilecta: necessario dolet. non ex hoc quod
+            <lb ed="#N" n="58"/>damnum est futurum: sed iam presumptum vel certum. Preterea.
+            <lb ed="#N" n="59"/>peccatum de quo conteritur quis etsi non sit presns secundum
+            substan<lb ed="#N" n="60" break="no"/>tiam vel esse: tamen est presens in effectu scilicet
+            damnifica<lb ed="#N" n="61" break="no"/>tionis. nunquam enim recuperatur damnum quod incurrit peccator ex
+            <lb ed="#N" n="62"/>amissione temporis quo persistit in peccato et priuatione virtutum
+            <lb ed="#N" n="63"/>et aliorum in quibus damnificatur.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e369">
+            ⁋ Ad vltimum dicendum. quod
+            contri<lb ed="#N" n="64" break="no"/>tio est dolor per essentiam sicut infra patebit. dolor enim vno modo
+            <lb ed="#N" n="65"/>est dissensus voluntatis: qui dissensus est de essentia
+            contri<lb ed="#N" n="66" break="no"/>tionis. Ad huiusmodi autem dissensum sequitur pudor secundum quod
+            dis<lb ed="#N" n="67" break="no"/>sentitur a peccato tanquam a pudore. consequitur etiam gaudium
+            <lb ed="#N" n="68"/>secundum quod illo dissensu sentitur elongatio a peccato. vnde pudor et
+            <lb ed="#N" n="69"/>gaudium non se habent in illa propinquitate ad contritionem
+            <lb ed="#N" n="70"/>in qua se habet dolor.
+          </p>
+        </div>
+        <div xml:id="v78d89-aco75w-Dd1e389">
+          <head xml:id="v78d89-aco75w-Hd1e391">Articulus 2</head>
+          <p xml:id="v78d89-aco75w-d1e393">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>⁋ Articulus secundus
+          </p>
+          <p xml:id="v78d89-aco75w-d1e400">
+            <lb ed="#N" n="72"/>COnsequenter queritur. vtrum dolor contritionis sit actio
+            <lb ed="#N" n="73"/>vel passio. Quod actio: videtur. iiii. sententim di. xvi.
+            Co<lb ed="#N" n="74" break="no"/>punctio nobis ibi commendatur. Scindite corda
+            <lb ed="#N" n="75"/>vrata et non vestimenta vestra Iohelis. ii. Ex hoc patet quod contritio
+            scis<lb ed="#N" n="76" break="no"/>sio quedam cordis est. ergo actio est. non igitur passio.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e413">
+            ⁋ Item
+            contri<lb ed="#N" n="77" break="no"/>tione siue dolore qui est contritio meremur. igitur est actus virtutis
+            <lb ed="#N" n="78"/>vel ipsa virtus. igitur non est passio.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e420">
+            ⁋ Item confessio actus est
+            virtu<lb ed="#N" n="79" break="no"/>tis scilicet obedientie. secundum quod confessio est in precepto siue exequitur vt
+            <lb ed="#N" n="80"/>est in precepto. satisfactio est actus iusticie. similiter ergo videtur quod con
+            <lb ed="#N" n="81"/>tritio est actus alicuius virtutis.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e430">
+            ⁋ Item contritio est dolor anie
+            <lb ed="#N" n="82"/>sed dolor anime est dissensio ab his rebus que nobis nolentibus
+            acci<lb ed="#N" n="83" break="no"/>dunt secundum Augustinus dissensio anime actus est. ergo etc.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e437">
+            ⁋ Contra. Math.
+            <lb ed="#N" n="84"/>iii. Peniteniam agite. Glo. Sine dolore nulla sunt vulnera: n
+            <lb ed="#N" n="85"/>vitalia membrorum non fuerint circummortua. gratia est quod sentit:
+            sen<lb ed="#N" n="86" break="no"/>tiens querit sanitatem. hec glo. Dicit quod gratia est quod sentit.
+            co<lb ed="#N" n="87" break="no"/>stat quod hoc dicitur actiue scilicet quia facit vulneratum sentire. sed
+            sen<lb ed="#N" n="88" break="no"/>sus secundum quod vulnerati est: passio est. ergo dolor quem sentit vulne
+            <lb ed="#N" n="89"/>ratus mediante gratia passio est.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e453">
+            ⁋ Item in peccato est
+            dee<lb ed="#N" n="90" break="no"/>ctatio et consensus. in delectatione inchoatur: in consensu
+            consumma<lb ed="#N" n="91" break="no"/>tur. his duobus respondent duo in contritione que est remedium
+            pecca<lb ed="#N" n="92" break="no"/>ti. scilicet dolor et voluntas siue complacentia doloris. sicut igitur er
+            <lb ed="#N" n="93"/>parte peccati delectatio est passio. est enim passio mulcebris.
+            si<lb ed="#N" n="94" break="no"/>militer ex parte contritionis dolor respondens delectationi est passio.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e466">
+            <lb ed="#N" n="95"/>⁋ Item dolor timor gaudium passiones dicuntur a phoo. et
+            <lb ed="#N" n="96"/>ita vt prius.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e473">
+            ⁋ Responsio. quod dolor dicitur dupliciter. Uno modo ipse
+            <lb ed="#N" n="97"/>pissensus voluntatis ab ipso peccato. Alio modo passio
+            re<lb ed="#N" n="98" break="no"/>sultans in dissentiente ex illo dissensu. dissensus autem iste
+            <lb ed="#N" n="99"/>est de essentia contritionis: passio autem ipsa est effectus illuus
+            <lb ed="#N" n="100"/>Contritio ergo est dolor qui est dissensus per essentiam. dolor qu
+            <lb ed="#N" n="101"/>est passio per concomitantiam. Ex his patet responsio ad predicta
+            <lb ed="#N" n="102"/>parte.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e489">
+            ⁋ Ad illud ergo quod obiicitur. quod sensus doloris est passio ete.
+            <lb ed="#N" n="103"/>dicendum quod ille sensus non est de essentia contritionis: sed potius
+            dissen<lb ed="#N" n="104" break="no"/>sus a quo causatur. dolor ergo qui est contritio non est sensus de
+            deloqdi<lb ed="#N" n="105" break="no"/>tur glo. sed cum sensu. Unde dicit sine dolore nulla sunt vumena
+            <lb ed="#N" n="106"/>si vitalia membrorum non fuerint circummortua. et subditsnam
+            <lb ed="#N" n="107"/>dicens. gratia enim sentit etc. id est facit sentire scilicet vulnera: cuam qus
+            <lb ed="#N" n="108"/>sensu est dolor.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e506">
+            ⁋ Ad hoc quod obiicitur. quod in peccatoe
+            delecta<lb ed="#N" n="109" break="no"/>tio et consensus. delectatio illa passio est. ergo et in contriione do
+            <lb ed="#N" n="110"/>lor respondens delectationi debet esse pallio. Responsio. quod estquodam
+            <lb ed="#N" n="111"/>delectatio que relinquitur in anima ex comprehensione delectabilis
+            <lb ed="#N" n="112"/>que est pura passio: que inquantum huiusmodi nunquam est peccatum. vosthoc
+            <lb ed="#N" n="113"/>delectatio sequitur voluntaria. ad huiusmodi enim delectationem sequut
+            <lb ed="#N" n="114"/>vellem delectari: et tunc incipit esse peccatum. quia numquam est peccatum sme
+            <lb ed="#N" n="115"/>voluntate vera vel interpretatiua. Ad hoc sequitur consensus u
+            <lb ed="#N" n="116"/>opus: et tunc est consummatum peccatum. Dicendum est igitur quod
+            do<lb ed="#N" n="117" break="no"/>lor contritionis qui est dissensus proprie: respondet velle
+            delecia<lb ed="#N" n="118" break="no"/>ri. velle dico vere vel interpretatiue. Unde dolor voltarius qu
+            <lb ed="#N" n="119"/>est contritio respondet velle delectari. non autem respondet illi
+            delecta<lb ed="#N" n="120" break="no"/>tioni que relinquitur solum ex apprehensione delectabilis. dolor
+            <lb ed="#N" n="121"/>autem ille qui relinquitur ex apprehensione peccati: respondet
+            de<lb ed="#N" n="122" break="no"/>lectationi illi que est solum passio.
+          </p>
+          <p xml:id="v78d89-aco75w-d1e539">
+            ⁋ Ad vltimum patet responsio.
+            qa<lb ed="#N" n="123" break="no"/>dolor vno modo est passio sicut timor et gaudium. alio modo
+            <lb ed="#N" n="124"/>est actio.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

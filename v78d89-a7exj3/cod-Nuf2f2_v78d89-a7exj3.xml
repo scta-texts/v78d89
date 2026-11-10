@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 35, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 35, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="217"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7exj3"><!-- q35m3 -->
+        <head xml:id="v78d89-a7exj3-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-a7exj3-Hd1e103" type="question-title">Quantum ad effectum. circa primum quaeritur utrum angelus possit consecrare. secum do utrum laicus. tertio utrum solus episcopus</head>
+        <p xml:id="v78d89-a7exj3-d1e106">
+          <lb ed="#N" n="54"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-a7exj3-d1e111">
+          <lb ed="#N" n="55"/>COnsequenter queritur. vtrum solus episcopus possit
+          <lb ed="#N" n="56"/>consecrare. et videtur quod sic. Inter omnia
+          sacramen<lb ed="#N" n="57" break="no"/>ta sacramentum istud est maxima veneratione
+          tenen<lb ed="#N" n="58" break="no"/>dum: sed sacramentum confirmationis. quia magna
+          vene<lb ed="#N" n="59" break="no"/>ratione tenendum est: a solis pontificibus debet perfici. Unde
+          eu<lb ed="#N" n="60" break="no"/>sebius papa de conse. di. v. Manus impositionis sacramentum
+          <lb ed="#N" n="61"/>magna veneratione tenendum est. quod ab aliis perfici non potest
+          <lb ed="#N" n="62"/>msi a summis id est episcopis. A simili vel fortiori ratione videtur
+          <lb ed="#N" n="63"/>quod hoc sacramentum etc.
+        </p>
+        <p xml:id="v78d89-a7exj3-d1e133">
+          ⁋ Item maior solennitas
+          requi<lb ed="#N" n="64" break="no"/>ritur in consecratione corporis christi quam in confirmatione: eadem
+          ra<lb ed="#N" n="65" break="no"/>tione videtur quod solennior et excellentior requiritur minister in
+          <lb ed="#N" n="66"/>officio consecrationis quam in officio confirmationis.
+        </p>
+        <p xml:id="v78d89-a7exj3-d1e143">
+          ⁋ Item sicut
+          <lb ed="#N" n="67"/>habetur ab hug. et sacri canones idem determinant.
+          Consecra<lb ed="#N" n="68" break="no"/>tio monialium basilicarum et sacri crismatis ad solos episcopos: sed
+          <lb ed="#N" n="69"/>incomparabiliter maioris est potstatis et dignitatis consecratio
+          cor<lb ed="#N" n="70" break="no"/>horis christi et sanguinis quam aliqua predictarum: ergo videtur quod consecratio
+          cor<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>poris christi et saguinis ad solos episcopos pertinet: nec alicuius
+          alteri<lb ed="#N" n="72" break="no"/>us est potstas hec consecrandi.
+        </p>
+        <p xml:id="v78d89-a7exj3-d1e160">
+          ⁋ Contra. vt habetur ab Hug. et a sanctis
+          <lb ed="#N" n="73"/>pratribus institutoribus canonum. In sacramentis baptizandi et missam
+          <lb ed="#N" n="74"/>celebrandi communis est episcopis et simplicibus sacerdotibus dispensa
+          <lb ed="#N" n="75"/>tio. ergo potstas consecrandi non solummodo est episcoporum sed et aliorum sac
+          <lb ed="#N" n="76"/>dotum.
+        </p>
+        <p xml:id="v78d89-a7exj3-d1e171">
+          ⁋ Responsio. quod licet propter dignitatem et excellentiam
+          cor<lb ed="#N" n="77" break="no"/>poris christi deceret quod officium consecrationis huiusmodi solummodo esset
+          <lb ed="#N" n="78"/>pontificum: immo potius solummodo summi poetificis: tamen propter
+          <lb ed="#N" n="79"/>vtilitatem quam assequuntur fideles ex missarum frequentia et
+          ml<lb ed="#N" n="80" break="no"/>tiplicatione: aliter disposuit diuina sapicentia. cuius prouidentia
+          <lb ed="#N" n="81"/>regitur ecclesia in suis institutionibus. vnde multiplex est ratio
+          quare<lb ed="#N" n="82" break="no"/>potestas hec fuit data sacerdotibus simpliciter: non solummodo ponti
+          <lb ed="#N" n="83"/>ficibus. Una est diuini cultus dilatatio. Alia est humanorum
+          repara<lb ed="#N" n="84" break="no"/>tio. Tercia pene mortuorum mitigatio. Quarta beneficii
+          reden<lb ed="#N" n="85" break="no"/>ptionis frequens recordatio. Quinta diuine familiaritatis
+          <lb ed="#N" n="86"/>manifestatio. Sexta nostre elationis repressio. Ex hoc enim quod potstas
+          <lb ed="#N" n="87"/>hec est simpliciter sacerdotibus data et non solum potestificibus: ex
+          fre<lb ed="#N" n="88" break="no"/>quenti missarum celebratione cultus dei mulriplicatur. et quotidiani
+          <lb ed="#N" n="89"/>defectus nostri reparantur. et pene animarum existentium in purgatorio
+          <lb ed="#N" n="90"/>mitigantur. et beneficium redemptionis frequenter representatur et ad
+          <lb ed="#N" n="91"/>memoriam reducitur. et diuina familiaritas ex sue presentie
+          <lb ed="#N" n="92"/>frequenti exhibitione insinuatur. presentie dico in carne. et
+          exem<lb ed="#N" n="93" break="no"/>plum humilitatis nobis exhibetur: vnde elatio nostra reprimitur.
+          Effi<lb ed="#N" n="94" break="no"/>cax enim exemplum humiliatis est. quod dominus voluit corpus suum a
+          <lb ed="#N" n="95"/>simplicibus personis tractari.
+        </p>
+        <p xml:id="v78d89-a7exj3-d1e215">
+          ⁋ Ex his patet responsio ad obiecta. quia
+          <lb ed="#N" n="96"/>licet hoc sacramentum sit excellentissimum: tamen non conuenit vt a solis
+          <lb ed="#N" n="97"/>episcopis dispensetur. propter dispendium quod accideret ex raritate
+          <lb ed="#N" n="98"/>dispensationis: et commodum quod accidit ex frequentia. Nec sequi
+          <lb ed="#N" n="99"/>tur. maior requiritur solennitas in consecratione etc. igitur persona ex
+          <lb ed="#N" n="100"/>cellentior: quia solennitas huiusmodi attestatur celsitudini sacramenti: in
+          per<lb ed="#N" n="101" break="no"/>sona consecrante prouidetur nostre vtilitati. Quare ordinatum est.
+          <lb ed="#N" n="102"/>in eccleia quod consecratio monialium: basilicarum: et sacri crismatis
+          <lb ed="#N" n="103"/>et huiusmodi alia fiant a solis poestificibus: ratio est. vt ex eorum potstate et
+          <lb ed="#N" n="104"/>auctoritate manifestatis eisdem a subditis debita exhibeatur
+          obe<lb ed="#N" n="105" break="no"/>dientia et reuerentia. Si enim nulla sacramenta essent reseruata
+          <lb ed="#N" n="106"/>celebranda a solis pontificibus: inferiores erga suas
+          superio<lb ed="#N" n="107" break="no"/>res insolentes fie rent et inobedientes. vnde Hug. loquens de
+          pre<lb ed="#N" n="108" break="no"/>dictis de consecratione basilicarum et sacri crismatis et
+          manuum<lb ed="#N" n="109" break="no"/>impositione et comni benedictione super poplum dic. summis
+          sacer<lb ed="#N" n="110" break="no"/>dotibus supradicta idcirco singulariter resuata sunt: ne eadem
+          <lb ed="#N" n="111"/>prorsus auctoritas ab omnibus passim vendicata: inferiores
+          <lb ed="#N" n="112"/>erga suprapositos insolentes redderet: et somnuto obedientie
+          <lb ed="#N" n="113"/>vinculo scandalum generaret.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

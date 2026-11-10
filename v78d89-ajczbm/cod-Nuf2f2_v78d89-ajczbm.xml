@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 114, Membrum 3</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 114, Membrum 3</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="699"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-ajczbm"><!-- q114m3 -->
+        <head xml:id="v78d89-ajczbm-Hd1e101">Membrum 3</head>
+        <head xml:id="v78d89-ajczbm-Hd1e103" type="question-title">De comparatione utilitatis elemosynae diversis motibus collatae</head>
+        <p xml:id="v78d89-ajczbm-d1e106">
+          <lb ed="#N" n="130"/>⁋ Membrum tercium
+        </p>
+        <p xml:id="v78d89-ajczbm-d1e111">
+          <lb ed="#N" n="131"/>COnsequenter queritur de comparatione vtilitatis elemosyne dioitersis
+          <lb ed="#N" n="132"/>motibus collate. hoc ergo queritur de duobus que habent equalem
+          cari<lb ed="#N" n="133" break="no"/>tatem et equales faciunt elemosnas. si aliter cum grauamine:
+          a<lb ed="#N" n="134" break="no"/>liter cum hilaritate: an mereantur equaliter ill elemosnis quantum ad
+          dimis<lb ed="#N" n="135" break="no"/>sionem pene. videtur autem quod ille qui cum grauamine dat elemosnam magis
+          mere<lb ed="#N" n="136" break="no"/>autem quantum ad dimissionem pene. quia elemosyna est satisfactoria ex duobus
+          <lb ed="#N" n="137"/>ex caritate et quia penalis: ergo aliis paribus que magis est penalis
+          ma<lb ed="#N" n="138" break="no"/>gis est satisfactoria. Sed constat quod illa que fit cum gruamine magis est
+          <lb ed="#N" n="139"/>penalis ergo magis est satisfactoria: ergo meritoria maioris
+          dimissi<lb ed="#N" n="140" break="no"/>onis pene.
+        </p>
+        <p xml:id="v78d89-ajczbm-d1e135">
+          ⁋ Pre. maioris nobilitatis est natura quam fortuna.
+          <lb ed="#N" n="141"/>et magis ponderanda est in merito circumstantia nature quam
+          <lb ed="#N" n="142"/>fortune. Sed legitur mar. xii. et luc. xxi. quod mulier pauper que misit
+          <lb ed="#N" n="143"/>duo minuta in gazophilacium plus quam omnes misit. non in quantitate: sed in
+          <pb ed="#N" n="700"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>proportione. quia omne victum suum quod habuit misit alii vero ex
+          abun<lb ed="#N" n="2" break="no"/>danti miserunt. ergo circumstantia paupertatis facit ad
+          maiorita<lb ed="#N" n="3" break="no"/>tem meriti. vbi maius grauamen est.
+        </p>
+        <p xml:id="v78d89-ajczbm-d1e156">
+          ⁋ Pre. vbi maior pugna
+          <lb ed="#N" n="4"/>ibi maior victoria. et vbi maior victoria ibi maior merces.
+          <lb ed="#N" n="5"/>quia qui dominatur animo suo melior est expugnatore vrbium. proueb. xxi. ergo
+          <lb ed="#N" n="6"/>cum ille qui dat cum grauamine vincat anim suum in dando elemosnam:
+          <lb ed="#N" n="7"/>maiorem victoriam habet quam ille qui dat ex hilaritate: ergo maiorem
+          mer<lb ed="#N" n="8" break="no"/>cedem habet.
+        </p>
+        <p xml:id="v78d89-ajczbm-d1e169">
+          ⁋ Contra. ii. Cori. ix. hilarem datorem diligit deus.
+          <lb ed="#N" n="9"/>Set quod magis est deo acceptum magis est meritorium: ergo quanto
+          da<lb ed="#N" n="10" break="no"/>tor hilarior est: tanto donum eus est magis acceptum. et ita magis
+          sa<lb ed="#N" n="11" break="no"/>tisfactorium. Pre. glo. ibidem. quicquid boni facis cum hilaritate
+          <lb ed="#N" n="12"/>fac: et tunc bene facis. Et alia glo. Qui ex voluntate dat bona
+          <lb ed="#N" n="13"/>approbat deus et remunerat. ex his vicdtur quod qui dat non hilariter: non
+          <lb ed="#N" n="14"/>benefacit nec meritorie.
+        </p>
+        <p xml:id="v78d89-ajczbm-d1e185">
+          ⁋ Pre. augustinus qui dat vt careat tedio
+          in<lb ed="#N" n="15" break="no"/>terpellantis non vt reficiat viscera indigentis: et rem et meritum
+          <lb ed="#N" n="16"/>perdit. sed qui dat cum grauamine magis accedit ad dantem cum tedio
+          <lb ed="#N" n="17"/>quam qui dat cum hilaritate: ergo magis accedit ad perditionem meriti.
+          <lb ed="#N" n="18"/>et ita minnus habet de merito.
+        </p>
+        <p xml:id="v78d89-ajczbm-d1e196">
+          ⁋ Responio. ad hoc dicunt quidam quod equaliter
+          me<lb ed="#N" n="19" break="no"/>renter illi duo. et quantum ad vitam eternam et dimissionem pene:
+          graua<lb ed="#N" n="20" break="no"/>mem enim quod facit ad maioritatem meriti non attenditur secundum naturam
+          <lb ed="#N" n="21"/>huius vel illius: sed secundum bene dispositi hominis naturam. sicut in cibis
+          sanum<lb ed="#N" n="22" break="no"/>dicitur quod est sanum bene habenti corpus dispositum. et album dicitur quod album
+          iu<lb ed="#N" n="23" break="no"/>dicatur a bene disposito secundum visum. quantum autem ad naturam humanam
+          <lb ed="#N" n="24"/>bene dispositum equa graues et equa faciles sunt ille due elemosyne: et
+          ita<lb ed="#N" n="25" break="no"/>equae meritorie. Sed videtur quod hec solutio non sit vera. quia virtus est haitus
+          <lb ed="#N" n="26"/>voluntarius imediate consistens quo ad nos. sed medietas quo ad nos
+          <lb ed="#N" n="27"/>ditersificatur quantum ad dfoitursos: quia quod vni parum alii multum est. vt habeur
+          <lb ed="#N" n="28"/>a pho. ergo motus virtutis meritorius quantum ad dicitersos difitursas habet
+          me<lb ed="#N" n="29" break="no"/>dietates. non ergo secundum eandem medietatem iudicatur meritum elemosyne secundum
+          <lb ed="#N" n="30"/>naturam huius vel illius et sic elemosyna: que magis est satisfactoria quam que
+          <lb ed="#N" n="31"/>minus est penalis nature alterius. Uidetur ergo aliter dicendum sic scilicet quod si
+          graua<lb ed="#N" n="32" break="no"/>mem illud sit ex radice auaricie illius qui dat elemosynam. et de reliquiis
+          <lb ed="#N" n="33"/>illius non est magis satisfactoria quam alia. quia ex radice peccati
+          proue<lb ed="#N" n="34" break="no"/>nit. quia si hoc tunc de malo scilicet culpe reportaretur lucrum: sed si illud
+          <lb ed="#N" n="35"/>gguamen sit de natura complexionis illius magis est satisfactoria et
+          <lb ed="#N" n="36"/>meritoria quantum ad remissionem pene. Nec est verum quod sic dans cum
+          <lb ed="#N" n="37"/>grauamine magis accedit ad dantem inuite: quia inuite dare sonat
+          <lb ed="#N" n="38"/>in vicium. sed grauamen huiusmodi respicit illud quod nature est. Unde non
+          <lb ed="#N" n="39"/>sunt eiusdem ordinis.
+        </p>
+        <p xml:id="v78d89-ajczbm-d1e244">
+          ⁋ Ad hoc quod obicitur. quod hilarem datorem
+          dili<lb ed="#N" n="40" break="no"/>git deus etc. potest dici quod bene acceptat deus quod hilariter datur
+          remu<lb ed="#N" n="41" break="no"/>nerando aliquid gaudium spirituale. Ueli potest dici secundum quod glo.
+          expo<lb ed="#N" n="42" break="no"/>nit. quod ibi dicitur hilaris qui sponte et voluntarie dat. secundum quod
+          hilari<lb ed="#N" n="43" break="no"/>ter dare dicitur: qui dat modo contrario illi qui dat cum tristicia et
+          mur<lb ed="#N" n="44" break="no"/>mure. vnde glo. Quicquid bene facis cum hilaritate fac. et tunc bene
+          <lb ed="#N" n="45"/>facis. Si autem cum tristicia facis: fit de te: non tu facis id est non
+          repu<lb ed="#N" n="46" break="no"/>tatur tem facere quantum ad meritum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

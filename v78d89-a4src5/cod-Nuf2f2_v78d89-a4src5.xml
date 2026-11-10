@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 19, Membrum 5</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 19, Membrum 5</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="138"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a4src5"><!-- q19m5 -->
+        <head xml:id="v78d89-a4src5-Hd1e101">Membrum 5</head>
+        <head xml:id="v78d89-a4src5-Hd1e103" type="question-title">A quo habet quod sit indelebilis</head>
+        <p xml:id="v78d89-a4src5-d1e106">
+          <lb ed="#N" n="114"/>Membrum quintum
+        </p>
+        <p xml:id="v78d89-a4src5-d1e111">
+          <lb ed="#N" n="115"/>COnsequenter queritur vtrum caracter imprimatur
+          de<lb ed="#N" n="116" break="no"/>libiliter vel indelibiliter. Et quod indelibiliter videitur
+          <lb ed="#N" n="117"/>quia sacramenta in quibus imprmitr caracter nullatemus
+          iteramn<lb ed="#N" n="118" break="no"/>tur. Sed si deleretur: possent et deberent
+          iterari<lb ed="#N" n="119" break="no"/>ergo non deletur.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e124">
+          ⁋ Item caracter stat in culpa sicut patet in sacerdote
+          <lb ed="#N" n="120"/>malio. ergo non repugat culpe. stat etiam cum ignorantia vt in
+          paruu<lb ed="#N" n="121" break="no"/>lo baptizato: ergo videtur quod non habeat contrarium per quod deleatur. et est
+          <lb ed="#N" n="122"/>in subiecto perpetuo: ergo eius im pressio est indelibilis.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e134">
+          ⁋ Contra
+          <lb ed="#N" n="123"/>possibilem est aliquem baptizatum caracterem bestie habere. de quo habetur
+          <lb ed="#N" n="124"/>Apoc. xiiii. Sed nullus sil placere potest deo et dyabolo: ergo nullus
+          <lb ed="#N" n="125"/>silis pter habere signum huius et illius. ergo vnus caracter potest alterum delere
+          <lb ed="#N" n="126"/>et destruere.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e145">
+          ⁋ Item caracter bestie est delibilis. quia nullus est
+          <lb ed="#N" n="127"/>adeo malus quin possit fieri bonus. ergo a simili caracter christi. cum
+          <lb ed="#N" n="128"/>ille qui bonus est: possit malus fieri.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e152">
+          ⁋ Item caracter est indelibilis.
+          <lb ed="#N" n="129"/>quero vnde illud habeat: Si ab efficiente: sed gratia gratum faciens est
+          <lb ed="#N" n="130"/>a deo estim tamen delibilis. Si a subiecto: ergo quicquid est in anima est
+          inde<lb ed="#N" n="131" break="no"/>libilem.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e161">
+          ⁋ Preterea. quod magis fit delibile ratione subiecti:
+          vi<lb ed="#N" n="132" break="no"/>detur quod voluntarie recipitur. Sed quod subiacet voluntati est varia
+          <lb ed="#N" n="133"/>bile: ergo etc.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e168">
+          ⁋ Item quod in damnatis deleatur videtur. quia caracter
+          <lb ed="#N" n="134"/>aliquo modo habilitat ad gratiam. sed tunc erunt ipsi omnino abiles
+          <lb ed="#N" n="135"/>ergo carebunt caractere.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e175">
+          ⁋ Item quod post hanc vitam deleatur in
+          <lb ed="#N" n="136"/>beatis videtur: quia est ex parte. multo enim magis est imperfectum
+          <lb ed="#N" n="137"/>lumen quam fides. ergo si fides excidit et caracter.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e183">
+          ⁋ Responsio. quod
+          <lb ed="#N" n="138"/>communis opinio est quod caracter est proprietas indelibilis. et causa huius
+          <lb ed="#N" n="139"/>indelibilitatis. vt dicunt quidam sumitur. tum ex parte efficientis:
+          <lb ed="#N" n="140"/>tum ex parte finis. efficiens quidem duplex est. ipse deus qui
+          eter<lb ed="#N" n="141" break="no"/>nus est: et ex hoc sumitur ratio predicta. Est etiam efficiens ex parte
+          <pb ed="#N" n="139"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>nostra. scilicet ipse consensus suscipiens sacramentum. qui scilicet est
+          con<lb ed="#N" n="2" break="no"/>lensus imperpetuum. sicut patet in baptismo. quando dicit sine deter
+          <lb ed="#N" n="3"/>minatione: abrenuntio sathane. et credo in deum. et ratione huius
+          <lb ed="#N" n="4"/>consensus perpetui inter christum sponsum et animam sptnsam datur anime
+          <lb ed="#N" n="5"/>caracter tanquam anulus: qui ex sui memoria semper teneat animam
+          <lb ed="#N" n="6"/>in vnitate ecclesie. Uel si recedat: semper quantum est de se
+          re<lb ed="#N" n="7" break="no"/>uocet. et hec est causa finalis in presenti quare caracter sit
+          perpe<lb ed="#N" n="8" break="no"/>tuus. scilicet ista memoria perpetua istius consensus perpetui siue
+          <lb ed="#N" n="9"/>qui fiebat imperpetuum: cuius consensus signum est caracter. Est
+          <lb ed="#N" n="10"/>etiam alia ratio ex parte cause finalis in futuro quo ad damna
+          <lb ed="#N" n="11"/>tos. scilicet vt dicamus quod perpetuatur in eis caracter in
+          augmen<lb ed="#N" n="12" break="no"/>tum pene. vt scilicet sit in testimonium contra illos testificans quod
+          <lb ed="#N" n="13"/>plus deliquerunt: ex eo quod iam coniuncti per sacramentum
+          eccle<lb ed="#N" n="14" break="no"/>sie recesserunt impudice: vel ex eo quod habuerunt dispositionem
+          <lb ed="#N" n="15"/>ad coniunctionem scilicet caracterem et noluerunt commniungi. Est ergo qua
+          <lb ed="#N" n="16"/>druplex ratio perpetuationis caracteris assignata a quibusdam
+          <lb ed="#N" n="17"/>duplex ex causa efficientis: et duplex ex parte cause finalis.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e235">
+          <lb ed="#N" n="18"/>⁋ Licet autem hec assignatio non omnino videtur carere probabilita
+          <lb ed="#N" n="19"/>tem videtur tamen carere necessitate. Ratio enim illa indelibilitatis
+          <lb ed="#N" n="20"/>que sumpta est a perpetuitate efficientis id est dei: iam
+          improba<lb ed="#N" n="21" break="no"/>ta est. quia eadem ratione gratia gratum faciens esset indelibilis. Alia ratio
+          <lb ed="#N" n="22"/>sumpta ex parte efficientis id est ex parte nostra scilicet consensus in
+          perpe<lb ed="#N" n="23" break="no"/>tuam commniunctionem: quo contrahitur mstrimonium spirituale inter deum
+          <lb ed="#N" n="24"/>sponsum et animam sponsam: nullius est necessitatis. quia quamuis hoc
+          <lb ed="#N" n="25"/>posset dici de baptismo vbi est quedam contractio
+          matrimo<lb ed="#N" n="26" break="no"/>nii: non tamen ita est in aliis sacramentis scilicet confirmationis et
+          or<lb ed="#N" n="27" break="no"/>dinis. in quibus imprimuntur caracteres indelibiles. ex hoc patet
+          <lb ed="#N" n="28"/>infirmatio sumpte rationis ex parte finis que est memoria perpetua
+          <lb ed="#N" n="29"/>perpetui consensus. Alia ratio sumpta ex parte finis scilicet augmene
+          <lb ed="#N" n="30"/>tum pene in damnatis non videtur esse alicuius necessitatis:
+          <lb ed="#N" n="31"/>quia hac eadem ratione deberet aliud signum perpetuum in illis
+          <lb ed="#N" n="32"/>relinqui omnium virtutum: et generaliter omnium beneficiorum dei.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e270">
+          <lb ed="#N" n="33"/>⁋ Preterea. alii dicunt quod quia caracter est in anima secundum substa
+          <lb ed="#N" n="34"/>tiam vel essentiam et ipsa est perpetua et inuariabilis ideo et
+          cara<lb ed="#N" n="35" break="no"/>cter: sed istud supra improbatum est. Alii dicunt quod quia est in anima
+          <lb ed="#N" n="36"/>secundum potentiam cognitiuam que non subiacet varietati vt
+          volun<lb ed="#N" n="37" break="no"/>tas: quedam enim cognoscimus voluntate volente et ideo inua
+          <lb ed="#N" n="38"/>riabilis. Sed hoc non valet quia per ignorantiam expelluntur habitus
+          <lb ed="#N" n="39"/>cognitiui. sed non caracter.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e288">
+          ⁋ Preterea. aliter videtur dicendum.
+          <lb ed="#N" n="40"/>scilicet quod perpetuitas caracteris principaliter sumitur ab eius
+          con<lb ed="#N" n="41" break="no"/>ditione et natura. Unde notandum quod est habitus innatus: et hoc
+          <lb ed="#N" n="42"/>est indelibilis omnino. et habitus acquisitus: et hic quia est ex
+          acqui<lb ed="#N" n="43" break="no"/>sitione perdi potest. Et est habitus infusus vel datus. et hoc
+          <lb ed="#N" n="44"/>est dupliciter. quidam datus est ad dirigendum sicut habitus
+          <lb ed="#N" n="45"/>virtutum. et quia potentie possunt obliquari: ideo est delebilis.
+          <lb ed="#N" n="46"/>potest enim inuenire repugnantiam in subiecto. Et alius impres
+          <lb ed="#N" n="47"/>sus ad distinguendum: et huic directio vel obliquatio
+          poten<lb ed="#N" n="48" break="no"/>tie non repugnat. Si enim aliquid repugnaret: hoc solum
+          <lb ed="#N" n="49"/>esset opposita consignatio. sed opposita non potest esse quia solus
+          <lb ed="#N" n="50"/>deus potest suam imaginem consignare: ideo si debet opposito
+          si<lb ed="#N" n="51" break="no"/>gno signari: a solo deo fiet. sed ipse nunquam imprimit signum
+          <lb ed="#N" n="52"/>sibi contrarium. ideo necesse est quod caracter eternaliter perseue
+          <lb ed="#N" n="53"/>ret. Quoniam igitur caracter est proprietas existens in subiecto perpe
+          <lb ed="#N" n="54"/>tuo. in quo non potest habere repugnantiam: ideo eius
+          im<lb ed="#N" n="55" break="no"/>pressio est perpetua.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e325">
+          ⁋ Ad illud quod obiicitur de caractere
+          <lb ed="#N" n="56"/>bestie. dicendum quod caracter bestie non dicitur aliquod
+          signacu<lb ed="#N" n="57" break="no"/>lum quod dyabolus anime impresserit: sed culpa secundum eius
+          vo<lb ed="#N" n="58" break="no"/>luntatem perpetrata. in qua est per obstinationem disposita ad
+          per<lb ed="#N" n="59" break="no"/>petuitatem. et ideo non est omnino simile.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e336">
+          ⁋ Ad illud quod queritur
+          <lb ed="#N" n="60"/>vnde hoc habeat. dicendum quod a sui conditione subiecto
+          con<lb ed="#N" n="61" break="no"/>cordante non repugnante: non producente contrarium. nec subtra
+          <lb ed="#N" n="62"/>hente amminiculum.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e346">
+          ⁋ Ad illud quod obiicitur de damnatis.
+          dicen<lb ed="#N" n="63" break="no"/>dum quod in damnatis manet ad confessionem non ad
+          quantu<lb ed="#N" n="64" break="no"/>lumcumque decorem.
+        </p>
+        <p xml:id="v78d89-a4src5-d1e353">
+          ⁋ Ad hoc quod obiicitur quod est ex parte. dicendum
+          <lb ed="#N" n="65"/>quod imperfectio caracteris compatitur secum perfectionem glorie. non
+          <lb ed="#N" n="66"/>sic autem est de imperfectione fidei. quia fides secundum quod est virtus:
+          di<lb ed="#N" n="67" break="no"/>cit enigma et absentiam rei credite. et hoc repugnat
+          sta<lb ed="#N" n="68" break="no"/>tui glorie. et ideo euacuatur non secundum quod lumen tantum: sed secundum quod
+          <lb ed="#N" n="69"/>habet annexum enigma et absentiam rei in se quod est essentiale
+          <lb ed="#N" n="70"/>fidei secundum quod virtus. alioquin si videret certitudinaliter: non
+          <lb ed="#N" n="71"/>esset meritoria. non autem est simile de caractere quoniam dici
+          quan<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>dam consignationem et lumen quoddam. et istud non habet
+          oppo<lb ed="#N" n="73" break="no"/>sitionem ad lumen perfectum. nec habet oppositionem ad
+          tenebran<lb ed="#N" n="74" break="no"/>pene vel culpe propter lucis modicitatem: ideo nec ibi
+          eua<lb ed="#N" n="75" break="no"/>cuatur nec hic extinguitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

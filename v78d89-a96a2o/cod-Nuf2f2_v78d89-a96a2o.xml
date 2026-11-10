@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 45, Membrum 2</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 45, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="321"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a96a2o"><!-- q45m2 -->
+        <head xml:id="v78d89-a96a2o-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-a96a2o-Hd1e103" type="question-title">Utrum angeli sumunt corpus Christi aliquo modo</head>
+        <p xml:id="v78d89-a96a2o-d1e106">
+          <lb ed="#N" n="34"/>⁋ Membrum secundum
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e111">
+          <lb ed="#N" n="35"/>COnsequenter queritur. vtrum angeli sumunt
+          <lb ed="#N" n="36"/>corpus christi aliquo modo. quod sic: videtur. quia psalmus.
+          <lb ed="#N" n="37"/>dicit. Panem angelorum manducauit homo. glo.
+          <lb ed="#N" n="38"/>ibi. Manna interpretatur quid est hoc et
+          si<lb ed="#N" n="39" break="no"/>gninficat panem qui de celo descendit id est christum vel corpus christi
+          <lb ed="#N" n="40"/>quod vere est cibus angelorum. quo incurruptibiles
+          pascun<lb ed="#N" n="41" break="no"/>tur incorruptibiliter. Et post ibidem. Panis celi non
+          ali<lb ed="#N" n="42" break="no"/>ter est quam christus. de quo celestes id est angeli reficiuntur. Unde
+          ange<lb ed="#N" n="43" break="no"/>lus cibatur eodem cibo spiritualiquo et homo. hec
+          cibatio<lb ed="#N" n="44" break="no"/>quid est aliud quam manducatio: igitur angeli manducant.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e135">
+          ⁋ Item
+          <lb ed="#N" n="45"/>augustinus. Quid est christum manducare. et soluit postea. In ipso
+          ma<lb ed="#N" n="46" break="no"/>nere et habere ipsum inseipso manentem. hoc autem conuenit
+          an<lb ed="#N" n="47" break="no"/>gelis.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e145">
+          ⁋ Item ponatur quod angelus sumat sibi corpus quo
+          <lb ed="#N" n="48"/>assumpto comminuit speciem panis masticando siue comeden
+          <lb ed="#N" n="49"/>do cum motu cognitionis et dilectionis. nihil autem aliud
+          requi<lb ed="#N" n="50" break="no"/>ritur ad manducationem sacramenti quam masticatio cum motu
+          <lb ed="#N" n="51"/>cognitionis et dilectionis: igitur contingit angelum vere
+          <lb ed="#N" n="52"/>manducare corpus christi.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e158">
+          ⁋ Contra. in sumptione corporis
+          <lb ed="#N" n="53"/>christi requiritur triplex vnio manducantis cum cibo scilicet
+          na<lb ed="#N" n="54" break="no"/>ture. fidei et dilectionis. Unio enim per fidem et dilectionem
+          <lb ed="#N" n="55"/>presumpponit illam que est nature. Unde cum angelorum cum
+          <lb ed="#N" n="56"/>oorpore christi. non sit vnio nature: non contingit angelos ciba
+          <lb ed="#N" n="57"/>ri corpore christi prout est cibus sacramentalis. igitur non
+          ma<lb ed="#N" n="58" break="no"/>oucant corpus christimanducatione sacramentali.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e174">
+          ⁋ Quod
+          <lb ed="#N" n="59"/>concedimus.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e179">
+          ⁋ Ad obiecta srgo dicendum. quod proprie loquendo
+          <lb ed="#N" n="60"/>christus secundum diuinam naturamen cibus angelorum. secundum vtramque est
+          ci<lb ed="#N" n="61" break="no"/>bus hominum. quia in christo est duplex natura scilicet diuina et
+          hu<lb ed="#N" n="62" break="no"/>mana. In homine duplex corporalis et spiritualis. vnde
+          ho<lb ed="#N" n="63" break="no"/>mo in ipso plenam inuenit refectionem: sicut habetur in li. de
+          <lb ed="#N" n="64"/>anima et spiritu.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e192">
+          ⁋ Item est cibus hominum secundum duplicem statum
+          <lb ed="#N" n="65"/>scilicet viatoris et comprehensoris: sed differunt secundum differentiam
+          <lb ed="#N" n="66"/>modi videndi in via et in patria. quia in statu patrie siue
+          <lb ed="#N" n="67"/>comprehensoris videtur sine velamine. Fides enim videt per
+          spe<lb ed="#N" n="68" break="no"/>culum et enigma. Unde. i. corum. xiii. Uidemus nunc per
+          specu<lb ed="#N" n="69" break="no"/>lum et in enigmate tunc autem facie ad faciem. quia vero
+          co<lb ed="#N" n="70" break="no"/>gnitio viatoris inchoat: a sensu maxime inquantum conuertit
+          <cb ed="#N" n="b"/>
+          <lb ed="#N" n="71"/>se in anima ad cognoscendum per signa: oportet quod
+          velamensi<lb ed="#N" n="72" break="no"/>obiectum sensui. Quia vero est signum eius quod velatur: oporatet
+          <lb ed="#N" n="73"/>quod ducat in aliud quod comprehenditur ab intellectu. et non
+          <lb ed="#N" n="74"/>sumitur nisi a creatura que habet sensum ordinatum ad
+          <lb ed="#N" n="75"/>intellectum qualis est solus homo. vnde nec ab angelo sumitur nec
+          <lb ed="#N" n="76"/>a bruto. Quia igitur ex parte eius qui est habilis ad
+          suscipien<lb ed="#N" n="77" break="no"/>dum corpus christi requiritur vnio quedam nature requiritur
+          <lb ed="#N" n="78"/>et sensus ordinatus ad intellectum: neutrum est reperire in
+          <lb ed="#N" n="79"/>angelo: dici potest. quod angelus non manducat corpus christi.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e229">
+          ⁋ Ad
+          <lb ed="#N" n="80"/>primo igitur obiectum dicendum. quod christus dicitur cibus angelorum
+          <lb ed="#N" n="81"/>secundum deitatem. qui factus est cibus hominum inquantum carnem
+          as<lb ed="#N" n="82" break="no"/>sumpsit. Unde glo. ibi. Panem angelorum manducauit homo
+          <lb ed="#N" n="83"/>panis celi non aliter est quam christus. de quo celestes id est angeli
+          refi<lb ed="#N" n="84" break="no"/>ciuntur eius contemplatione. et hunc panem id est verbum. quo gratiadi
+          <lb ed="#N" n="85"/>cibo pascuntur angeli per carnem factum lac edit homo. hec
+          <lb ed="#N" n="86"/>glo. christus igitur est cibus angelorum secundum diuinitatem. nec dicit
+          <lb ed="#N" n="87"/>glo. quod corpus christi cibus angelorum sit: sed christus. vnde glo.
+          Man<lb ed="#N" n="88" break="no"/>na significat panem qui de celo descendit id est christum vel corpus
+          <lb ed="#N" n="89"/>christi qui vere est cibus angelorum. qui dicit non vt ostendatur
+          <lb ed="#N" n="90"/>christum esse cibum angelorum non corpus christi: nihilominus
+          ma<lb ed="#N" n="91" break="no"/>ximam assequuntur delectationem ex aspectu humanitatis christi
+          <lb ed="#N" n="92"/>Unde. i. pe. i. In quem desiderant angeli prospicere. glo.
+          Tan<lb ed="#N" n="93" break="no"/>ta est eius hominis qui passus est pro nobis posterior gloria. vt
+          <lb ed="#N" n="94"/>et angelice in celo virtutes. cum sint eterne felicitate perfecte
+          <lb ed="#N" n="95"/>nonsolum immortalis diuinitatis magnificentiam: sed etiam
+          <lb ed="#N" n="96"/>humanitatis eius assumpte claritatem semper afpicere
+          gau<lb ed="#N" n="97" break="no"/>deant. hec glo. Istud autem gaudium non dicitur cibus quia
+          <lb ed="#N" n="98"/>non est istud gaudium quo summe reficiuntur.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e274">
+          ⁋ Ad illud
+          <lb ed="#N" n="99"/>quod dicit augustinu. Quod in ipso manere et habere ipsum in
+          seipso<lb ed="#N" n="100" break="no"/>manentem: est manducare. Dicendum quod cum contingat multi
+          <lb ed="#N" n="101"/>pliciter manere in ipso et habere ipsum scilicet per gratiam siue per
+          <lb ed="#N" n="102"/>fidem operantem. per dilectionem. per fruitionem siue per gloriam: et per
+          <lb ed="#N" n="103"/>vnionem sacramentalem. Unio enim sacramentalis attenditur
+          <lb ed="#N" n="104"/>penes vnionem nature: et veram perceptionem siue sumptionem
+          <lb ed="#N" n="105"/>sacramenti. hoc dicitur manere in ipso et habere ipsum
+          ter<lb ed="#N" n="106" break="no"/>cio modo. Unde hyla. iiii. de trini. In christo pater et christus in
+          no<lb ed="#N" n="107" break="no"/>bis vnum in his esse non faciunt. si vere carnem corporis nostri christus
+          <lb ed="#N" n="108"/>assumpsit: et vere ille homo christus est. Nos que vere sub misterio
+          <lb ed="#N" n="109"/>carnem corporis eius sumimus: per hoc vnum erimus. hec
+          <lb ed="#N" n="110"/>hyla. Der hoc quod dicit vnum in his esse nos faciunt si
+          ve<lb ed="#N" n="111" break="no"/>re carnem corporis. et comnotatur vnio nature sumptio
+          sacra<lb ed="#N" n="112" break="no"/>menti. per hoc quod dicitur. Nos quoque vere sub misterio etc. Non
+          <lb ed="#N" n="113"/>dicit simpliciter nos quoque carnem sub misterio sumimus
+          <lb ed="#N" n="114"/>Tunc dicitur vere sumi quando efficaciam habet in sumente id est
+          quan<lb ed="#N" n="115" break="no"/>do non vane sumitur siue frustra.
+        </p>
+        <p xml:id="v78d89-a96a2o-d1e313">
+          ⁋ Ad ilud quod obiicitur
+          <lb ed="#N" n="116"/>quod angelus assumpto corpore potest masticare species etc. Iam
+          <lb ed="#N" n="117"/>patet responsio. quia etsi hec contingant. non tamen sumit per modum
+          <lb ed="#N" n="118"/>quo sumitur sacramentum: quia deficit vnio nature et
+          co<lb ed="#N" n="119" break="no"/>gnitio fidei siue cognitio procedens a cognitione velaminis
+          <lb ed="#N" n="120"/>ad illud quod est sub velamento. Cognitio autem angeli eoquod est
+          compre<lb ed="#N" n="121" break="no"/>haesoris illud quod primo capit cognoscendo: est primum bonum quo
+          <lb ed="#N" n="122"/>omnia alia cognoscit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

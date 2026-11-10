@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 36, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 36, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="222"/>
+        <cb ed="#N" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-a7nrrk"><!-- q36m4 -->
+        <head xml:id="v78d89-a7nrrk-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-a7nrrk-Hd1e103" type="question-title">In cuiusmodi panis debet hoc sacrificium celebrari</head>
+        <p xml:id="v78d89-a7nrrk-d1e106">
+          <lb ed="#N" n="34"/>⁋ Membrum quartum
+        </p>
+        <p xml:id="v78d89-a7nrrk-d1e111">
+          <lb ed="#N" n="35"/>COnsequenter queritur in cuiusmodi panis debet
+          <lb ed="#N" n="36"/>hoc sacrificium celebrari. vtrum sericio ant
+          li<lb ed="#N" n="37" break="no"/>neis: albis tantum an tinctis. Et videtur quod in
+          se<lb ed="#N" n="38" break="no"/>rico propter hostie nobilitatem.
+        </p>
+        <p xml:id="v78d89-a7nrrk-d1e122">
+          ⁋ Item videtur quod
+          <lb ed="#N" n="39"/>non tantum in albis. sed et rubeis: cum ipse ibt representetur sponsus ec
+          <lb ed="#N" n="40"/>clesie. non tantum illo statu quo fuit albus: sed et quo fuit
+          rubi<lb ed="#N" n="41" break="no"/>cundus. Iuxta illud cantir v. amicus meus candidus et
+          ru<lb ed="#N" n="42" break="no"/>bicundus.
+        </p>
+        <p xml:id="v78d89-a7nrrk-d1e134">
+          ⁋ Contra. de conse. dis. i. Consulto. vbi dicitur.
+          con<lb ed="#N" n="43" break="no"/>sulto omnium statuimus vt sacrificium altaris non in serico
+          pan<lb ed="#N" n="44" break="no"/>non. aut in tincto quisquam celebrare presumat. sed in puro
+          lin<lb ed="#N" n="45" break="no"/>theo ab episcopo consecrato. terreno scilicet lino procreato atet
+          con<lb ed="#N" n="46" break="no"/>texto. sicut corpus domini nostri ihu christi in sindone linea munda
+          <lb ed="#N" n="47"/>sepultum fuit. Hic igitur habetur plane quod in consecratione hac non
+          <lb ed="#N" n="48"/>est vtendum pratianis sericis aut tinctis: sed solummodo lineis et
+          <lb ed="#N" n="49"/>albis. et hoc intelligendum est de pallis et corporalibus.
+        </p>
+        <p xml:id="v78d89-a7nrrk-d1e152">
+          ⁋ Quod
+          <lb ed="#N" n="50"/>concedimus. et hoc duplici ratione scilicet mundicie maioris et
+          mi<lb ed="#N" n="51" break="no"/>sterii profundioris Inter omnia enim genera paianorum illa que
+          <lb ed="#N" n="52"/>sunt de lino puro ad candorem perspicuum perducta mundissima
+          <lb ed="#N" n="53"/>sunt. et melius possunt mundari: et profundius significant
+          <lb ed="#N" n="54"/>que domino contingebant. Nota ergo verba canonis. dicit enim
+          <lb ed="#N" n="55"/>in lino puro in quo notatur pruritas et innocentia omnimoda sine
+          <lb ed="#N" n="56"/>macula aliqua ipsius saluatoris. Purum est cui nihil est
+          <lb ed="#N" n="57"/>pmixtum quod est alterius nature. Item dicit terreno quo notatur
+          <lb ed="#N" n="58"/>corpus ipsius saluatoris passibilem et mortale. de corpore
+          <lb ed="#N" n="59"/>terreno virginis assumptum. Item dicit lino procreato atet
+          <lb ed="#N" n="60"/>contexto id est panno lineo multiplici tunsione ad candorem
+          <lb ed="#N" n="61"/>perducto: quo notatur quod christus multiplici cruciatu et pressura
+          <lb ed="#N" n="62"/>peruenit ad gloriam.
+        </p>
+        <p xml:id="v78d89-a7nrrk-d1e183">
+          ⁋ Ad illud quod obiicitur. quod vtendum
+          <lb ed="#N" n="63"/>esset paiano serico propter hostie preciositatem. dicendum quod
+          li<lb ed="#N" n="64" break="no"/>cet panis huiusmodi preciosior sit lineo: non tamen propinquitate
+          tam<lb ed="#N" n="65" break="no"/>ta corpus domini representat nec pannus tinctus sicut de lino.
+          <lb ed="#N" n="66"/>Preterea. vt tangitur in verbis canonis panus in quo
+          sa<lb ed="#N" n="67" break="no"/>crifitium altaris celebratr representat sindonem in quo
+          in<lb ed="#N" n="68" break="no"/>uolutum erat corpus domini in sepulcro. Et dicit hugo quod
+          cor<cb ed="#N" n="b"/><lb ed="#N" n="69" break="no"/>porais palla sindonem in quo inuolutum fuit corpus
+          <lb ed="#N" n="70"/>christi significat.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

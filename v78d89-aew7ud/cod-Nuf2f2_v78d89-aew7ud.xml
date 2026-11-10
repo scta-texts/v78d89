@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 80, Membrum 4</title>
+        <author ref="#WilliamOfMelitona">William of Melitona</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 80, Membrum 4</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="N" n="cod-Nuf2f2">Nuremberg 1482</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#N" n="523"/>
+        <cb ed="#N" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="v78d89-aew7ud"><!-- q80m4 -->
+        <head xml:id="v78d89-aew7ud-Hd1e101">Membrum 4</head>
+        <head xml:id="v78d89-aew7ud-Hd1e103" type="question-title">Utrum sit eadem potestas qua ligatur in foro penitentiali: qua in foro iudiciali</head>
+        <p xml:id="v78d89-aew7ud-d1e106">
+          <lb ed="#N" n="107"/>Membrum quartum
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e111">
+          <lb ed="#N" n="108"/>COnsequenter queritur. vtrum sit eadem
+          po<lb ed="#N" n="109" break="no"/>testas siue eadem clauis qua ligatur et soluit
+          <lb ed="#N" n="110"/>in foro penitentiali: et qua in foro iudiciali.
+          <lb ed="#N" n="111"/>Quod sic: videtur per hoc. quod aliter essent plures
+          cla<lb ed="#N" n="112" break="no"/>ues quod due. quod est falsum. quia ligare et soluere comuniter ac
+          <lb ed="#N" n="113"/>cipiuntur ad ligare et soluere: et in hoc foro et in illo.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e127">
+          ⁋ Item
+          vi<lb ed="#N" n="114" break="no"/>detur quod tantum materialiter differant et non formaliter. quia vtrobique
+          <lb ed="#N" n="115"/>est ligatio et solutio. Cum autem sit solutio vtrobique: fit
+          reconci<lb ed="#N" n="116" break="no"/>liatio que est quidam introitus in communionem ecclesie per hostium. ergo
+          <lb ed="#N" n="117"/>idem est effectus et finis principaliter. quare non erunt diuerse
+          <lb ed="#N" n="118"/>formaliter loquendo.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e141">
+          ⁋ Item auctoritas discernendi non
+          multipli<lb ed="#N" n="119" break="no"/>catur penes materiam que sunt bonum et malum: malum et malum.
+          <lb ed="#N" n="120"/>scilicet inter hoc genus mali et aliud genus mali: pari ratione nec ibi
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e148">
+          <lb ed="#N" n="121"/>⁋ Item ordo secundum se id est secundum suam substantiam non est potstas sed caracter.
+          <lb ed="#N" n="122"/>vnde eius actus continuus est distinguere. secundum hoc ergo actus eius non est
+          <lb ed="#N" n="123"/>consecrare: sed est potius potstatis annexe ordini sed vna tantum potestas est
+          <lb ed="#N" n="124"/>propria ordini alie conequenter annexe scilicet consecrare ligare et soluere
+          <lb ed="#N" n="125"/>in foro cause et penitentie. sed plus conueniunt in foro penitentie et in
+          foro<lb ed="#N" n="126" break="no"/>cause. ligare et soluere et consecrare. si ergo in magis differentibus
+          <lb ed="#N" n="127"/>non est ponenda diuersa clauium potestas: ergo nec in minus et ita vt
+          <lb ed="#N" n="128"/>prius.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e168">
+          ⁋ Contra. sacerdotes non habent potstatem ligandi vel
+          sol<lb ed="#N" n="129" break="no"/>uendi in foro cause: et tamen absoluunt in foro penitentie.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e173">
+          ⁋ Item potestas
+          <lb ed="#N" n="130"/>ligandi et soluendi non est ordo neque annexa ordini scilicet
+          sacer<lb ed="#N" n="131" break="no"/>dotali. quia aliquando est eius qui non habet ordinem sacerdotalem scilicet
+          ar<lb ed="#N" n="132" break="no"/>chidyaconi vel legati: alia autem annexa est ordini. ergo etc.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e182">
+          <lb ed="#N" n="133"/>⁋ Item hec committi potest: illa non. ergo etc.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e187">
+          ⁋ Item dicit Hug. de
+          <lb ed="#N" n="134"/>sancto Uict. Alia est potestas qua ligant ministri ecclesie veraciter
+          pe<lb ed="#N" n="135" break="no"/>nitentes debito iniuncte satisfactionis: et alia qua ligant
+          intermi<lb ed="#N" n="136" break="no"/>nabiliter delinquentes vinculo anathematis. Ecce quod alia est
+          <lb ed="#N" n="137"/>potstas qua ligatur in foro penitentiali: et alia qua in foro
+          iudici<lb ed="#N" n="138" break="no"/>ali.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e201">
+          ⁋ Item ad idem. illa potestas quelest ligandi et soluendi in foro
+          iu<lb ed="#N" n="139" break="no"/>diciali datur in consecratione episcopi: alia in consecratione sacerdo
+          <lb ed="#N" n="140"/>tum quando dicitur. quorum remiseritis peccata etc. Si ergo eadem esset
+          <pb ed="#N" n="524"/>
+          <cb ed="#N" n="a"/>
+          <lb ed="#N" n="1"/>clauis: superuacuum esset hane potestatem dare episcopo in consecranti
+          <lb ed="#N" n="2"/>one sua. Unde videtur quod ab alia claue procedat ligatio in
+          foro<lb ed="#N" n="3" break="no"/>penitentiali.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e219">
+          ⁋ Responso. quod ordo non est potstas. tamen multiplex potestas
+          <lb ed="#N" n="4"/>est annexa ordini consquenter se habens. Una autem est potstas ligandi et
+          <lb ed="#N" n="5"/>soluendi in foro penitentie et in foro cause. quod autem vna potestas patet
+          <lb ed="#N" n="6"/>quia licet sint actus diuersi: tamen ordinantur ad ops primi actus. ad
+          <lb ed="#N" n="7"/>hoc enim soluitur quis ab excommunicatione et redditur communioni
+          fideli<lb ed="#N" n="8" break="no"/>um: vt communicet sacramentis et digne accipiat sacramentum corpis christi vt sit
+          <lb ed="#N" n="9"/>in re sicut est in signo id est vt sit membrum verum ecclesie. Et nota quod
+          <lb ed="#N" n="10"/>potestas quantum ad actum consecrandi non est clauis sed potestas tantum. sed
+          <lb ed="#N" n="11"/>inquantum est ad actum ligandi soluendi siue in foro penitentie siue in
+          <lb ed="#N" n="12"/>foro cause est clauis. et actus consecrandi se haet primo loco et
+          essen<lb ed="#N" n="13" break="no"/>tialiter ad potestatem vt est potstas coniuncta ordini. Alii autem actus
+          <lb ed="#N" n="14"/>magis accidentaliter ordinantur ad ordinem. sed adhuc
+          propinqui<lb ed="#N" n="15" break="no"/>se tenet actus ligandi et soluendi in foro penitentie quam actus ligandi
+          <lb ed="#N" n="16"/>et soluendi in foro cause.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e250">
+          ⁋ Ad illud ergo quod primo obiicitur.
+          di<lb ed="#N" n="17" break="no"/>cendum quod licet sit vna potestas ligandi et soluendi hinc et inde:
+          <lb ed="#N" n="18"/>non tamen qui habet potestatem huius ad hunc actum habet eam ad illum actum
+          <lb ed="#N" n="19"/>quod euidenter patet in multis exemplis.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e259">
+          ⁋ Ad aliud quod
+          obiici<lb ed="#N" n="20" break="no"/>tur. quod hec potestas est annexa ordini sacerdotali: illa non etc.
+          <lb ed="#N" n="21"/>Dicendum quod quantum ad vtrumque actum est potestas annexa ordini.
+          <lb ed="#N" n="22"/>quia quando fit ligatio et solutio in foro iudiciali ab
+          archidyaco<lb ed="#N" n="23" break="no"/>no vel legato fit per demandationem a superiori ordinario. qui
+          <lb ed="#N" n="24"/>virtute clauium cum dignitate hoc potest demandare.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e272">
+          ⁋ Ad illud
+          <lb ed="#N" n="25"/>quod obiicitur. quod hec potestas committi potest etc. dicendum quod quantum ad actum
+          <lb ed="#N" n="26"/>ligandi et soluendi in foro penitentie committi non potest: quia hec potestas est
+          <lb ed="#N" n="27"/>propinquior ordini. quantum ad alium actum potest: quia non est ita propinqua.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e281">
+          <lb ed="#N" n="28"/>⁋ Ao illud quod dicit Hug. quod alia est potestas qua ligant etc.
+          Di<lb ed="#N" n="29" break="no"/>cendum quod hoc non habet veritatem quia sit alia in essentia: sed quia ad
+          <lb ed="#N" n="30"/>alium vsum se extendit.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e291">
+          ⁋ Ad illud quod obiicitur. quod hec datur in
+          <lb ed="#N" n="31"/>consecratione episcopali: alia in consecratione sacerdotali etc.
+          Dicen<lb ed="#N" n="32" break="no"/>dum quod claues dantur cum ordine sacerdotali cum dicitur.
+          Quo<lb ed="#N" n="33" break="no"/>rum remiseritis etc. et quando consecratur episcopus non confertur alia clauis: sed
+          <lb ed="#N" n="34"/>extenditur vsus illius prime clauis. nec differt in specie clauis quo
+          <lb ed="#N" n="35"/>vtitur in hoc foro et qua in illo. dico ergo quod clauis confertur in
+          or<lb ed="#N" n="36" break="no"/>dine quo ad vnum vsum. in consecratione episcopi extenditur ad alium
+          <lb ed="#N" n="37"/>vsum. vnde dicitur accipere baculum id est ampliorem potstatem. amplior
+          <lb ed="#N" n="38"/>enim est illa potestas qua potest separare a communione fidelium et a
+          lo<lb ed="#N" n="39" break="no"/>co orationum: quam illa qua solum soluit et ligat in foro penitentie. vnde
+          <lb ed="#N" n="40"/>non sequitur est alia potstas: ergo est alia clauis.
+        </p>
+        <p xml:id="v78d89-aew7ud-d1e315">
+          ⁋ Sed est ne vter
+          <lb ed="#N" n="41"/>que actus essentialis claui. Responso. quod actus essentialis clauis
+          <lb ed="#N" n="42"/>est soluere et ligare in foro penitentiali. alius autem est minus
+          <lb ed="#N" n="43"/>essentialis scilicet ligare et soluere in foro iudiciali: quia non est ita
+          <lb ed="#N" n="44"/>imediatus clauis. Et nota quod vna potestas sequitur ordinem. alia
+          di<lb ed="#N" n="45" break="no"/>gnitatem cum claue. inquantum autem est clauis sequitur ordinem
+          <lb ed="#N" n="46"/>cum claue quodammodo vel ratione demandantis vel exequaentis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
