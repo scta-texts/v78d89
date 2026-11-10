@@ -2,20 +2,25 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Quaestio 37, Pars 2, Membrum 2 [Nuremberg 1482 Transcription]</title>
+        <title>Quaestio 37, Pars 2, Membrum 2</title>
         <author ref="#WilliamOfMelitona">William of Melitona</author>
-        <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Quaestio 37, Pars 2, Membrum 2 [Nuremberg 1482 Transcription]</title>
-          <date when="2020-02-29">Februrary 29, 2020</date>
+          <title>Quaestio 37, Pars 2, Membrum 2</title>
+          <date when="2026-11-10">Nov 10, 2026</date>
         </edition>
       </editionStmt>
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -27,15 +32,14 @@
     <encodingDesc>
       <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
-        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
-          guidelines for a diplomatic edition.
-        </p>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2020-02-29" status="draft" n="0.0.0">
-          <p>Created file for the first time.</p>  
+        <change when="2026-11-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
@@ -43,786 +47,768 @@
   <text xml:lang="la">
     <front>
       <div xml:id="starts-on">
-        <pb ed="#N" n="263"/>
+        <pb ed="#N" n="238"/>
         <cb ed="#N" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="v78d89-e1e706">
-        <head xml:id="v78d89-e1e706-Hd1e97">Quaestio 37, Pars 2, Membrum 2 [Nuremberg 1482 Transcription]</head>
-        <div xml:id="v78d89-e1e706-Dd1e100">
-          <p xml:id="v78d89-e1e706-d1e102"><!--263.xml-->
-            <lb ed="#N" n="6"/>SEcunda pars principalis quae incipit ibi. Te igi 
-            <lb ed="#N" n="7"/>tur in qua agitur de consecratione oblate et di-uiditur  
-            <lb ed="#N" n="8"/>in quatuor. Primo postualtur hostiae deo  
-            <lb ed="#N" n="9"/>acceptae benedictio. Secundo fidelium promotio ibi 
-            <lb ed="#N" n="10"/>In primis quae tibi offerimus. Tertio hostiae benedictae in cor- 
-            <lb ed="#N" n="11"/>pus christi et sanguinem transmutatio ibi quam oblationem. Quarto 
-            <lb ed="#N" n="12"/>consecrationis consumatio ibi. Qui pridie quam pateretur.
+      <div xml:id="v78d89-e1e706"><!-- q37p2m2 -->
+        <head xml:id="v78d89-e1e706-Hd1e101">Membrum 2</head>
+        <head xml:id="v78d89-e1e706-Hd1e103" type="question-title">De oblatorum consecratione</head>
+        <p xml:id="v78d89-e1e706-d1e106">
+          <lb ed="#N" n="6"/>Membrum secundum
+        </p>
+        <p xml:id="v78d89-e1e706-d1e111">
+          <lb ed="#N" n="7"/>SEcunda pars principalis que incipit ibi. Te
+          igi<lb ed="#N" n="8" break="no"/>tur in qua agitur de consecratione rei oblate et
+          di<lb ed="#N" n="9" break="no"/>uiditur in quatuor. Primo postulatur hostie deo
+          <lb ed="#N" n="10"/>accepte benedictio. Secundo fidelium promotio ibi
+          <lb ed="#N" n="11"/>In primis que tibi offerimus. Tercio hostie benedicte in
+          cor<lb ed="#N" n="12" break="no"/>pus christi et sanguinem transmutatio ibi quam oblationem. Quarto
+          <lb ed="#N" n="13"/>consecrationis consumatio ibi. Qui pridie quam pateretur.
+        </p>
+        <div xml:id="v78d89-e1e706-Dd1e129">
+          <head xml:id="v78d89-e1e706-Hd1e131">Articulus 1</head>
+          <p xml:id="v78d89-e1e706-d1e133">
+            <lb ed="#N" n="14"/>⁋ Articulus primus
+          </p>
+          <p xml:id="v78d89-e1e706-d1e138">
+            <lb ed="#N" n="15"/>Ota ergo quod post laudis preconium sequitur secretum
+            <lb ed="#N" n="16"/>silentium. Nam vbi ihs honorifice fuit susceptus
+          </p>
+          <p xml:id="v78d89-e1e706-d1e145">
+            <lb ed="#N" n="17"/>⁋ hierosolimis a turbis. cum ramis palmarum et
+            lau<lb ed="#N" n="18" break="no"/>dibus. vt habetur Ioh. xii. iudei volebant eum capere. propter
+            <lb ed="#N" n="19"/>quod recessit ab eis et abiit in bethaniam et ibi abscondit se
+            <lb ed="#N" n="20"/>ab eis Ioh. xii. Non metu formidinis: sed prouidentia
+            dispen<lb ed="#N" n="21" break="no"/>satoris. quia nondum venerat hora eius. qua adueniente spo
+            <lb ed="#N" n="22"/>taneus ad passionem accessit. vnde Math. xxvi. Surgite
+            <lb ed="#N" n="23"/>inquit eamus. ecce appropiniquabit qui me tradet. vnde Ioh.
+            <lb ed="#N" n="24"/>xvi. Cohors et ministri cum venissent cum laternis et facibus et
+            <lb ed="#N" n="25"/>armis vt apprehenderent eum. Ipse autem sciens omnia que
+            ven<lb ed="#N" n="26" break="no"/>tura erant super eum: processit et dixit eis. quem queritis.
+            Respon<lb ed="#N" n="27" break="no"/>derunt ei ihum nazarenum. dixit eis. Ego sum. Illud ergo christi
+            la<lb ed="#N" n="28" break="no"/>tibulum hoc silentium secrete representat. Alia est causa huius
+            <lb ed="#N" n="29"/>secreti silentii. scilicet vt sine tumultu siue strepitu verborum
+            men<lb ed="#N" n="30" break="no"/>tis deuotio ad deum dirigatur: qui est exauditor cordis non
+            <lb ed="#N" n="31"/>vocis. Non enim est exorandus clamoribus qui renum scrutator
+            <lb ed="#N" n="32"/>est et cordium Hiere. xvii. Quod anna typum gerens ecclesie
+            insi<lb ed="#N" n="33" break="no"/>nuabat que non petitione hec tacita deuotione quod petiit
+            impe<lb ed="#N" n="34" break="no"/>trauit. dicitur enim primo Reg. i. Quod anna loquebatur in
+            cor<lb ed="#N" n="35" break="no"/>de suo tantumque labia illius mouebantur et vox penitus non
+            audie<lb ed="#N" n="36" break="no"/>batur. verba tamen sunt proferenda: ne quid petere vel intendere
+            <lb ed="#N" n="37"/>debeamus ignoremus. Altera est. ratione tanti misterii verba per
+            <lb ed="#N" n="38"/>quotidianum vsum vilescant et in locis non competentibus passim
+            <lb ed="#N" n="39"/>et indiscrete dicantur. et sic sint dicentibus in ruinam. Unde vt
+            <lb ed="#N" n="40"/>dicitur. Contigit vt quadam die pastores super lapidem quendam
+            <lb ed="#N" n="41"/>ponerent panem. qui ad horum verborum prolationem conuersus est in
+            <lb ed="#N" n="42"/>carnem. et forsitan transmutatus est panis in corpus christi. in quo
+            <lb ed="#N" n="43"/>diuinitus acerrima facta est vindicta: nam percussi sunt
+            di<lb ed="#N" n="44" break="no"/>uino iudicio celitus misso. vnde statutum fuit vt de cetero
+            <lb ed="#N" n="45"/>diceretur sub silentio. alia est ratio ne vilesceret ex manifesta
+            <lb ed="#N" n="46"/>prolatione: sicut sacra scriptura in quadam obscuritate
+            tradi<lb ed="#N" n="47" break="no"/>ta est ne vilesceret. Propter has causas dicitur sub silentio
+            <lb ed="#N" n="48"/>et ob hoc dicitur secreta: scilicet quia sub silentio pronunciatur. cum
+            <lb ed="#N" n="49"/>olim alta voce diceretur quousque aliter inoleuit consuetudo
+            pro<lb ed="#N" n="50" break="no"/>pter causas iam dictas.
+          </p>
+          <p xml:id="v78d89-e1e706-d1e221">
+            ⁋ Nota quod hec pars misse vsque ad
+            <lb ed="#N" n="51"/>orationem dominicam cum sua prefatione scilicet preceptis salutaribus
+            <lb ed="#N" n="52"/>etc. dicitur canon misse: quia regulariter in hac parte memoria
+            <lb ed="#N" n="53"/>dominice passionis recolitur. videlicet eorum que gesta sunt per
+            <lb ed="#N" n="54"/>ebdomadam ante paschalem a decima luna primi mensis quando
+            <lb ed="#N" n="55"/>ihs abiit hierosolimam: vsque ad decimansept imam quando surrexit
+            <lb ed="#N" n="56"/>a mortuis. Propter quod inter prefationem et canonem in plerisque
+            <lb ed="#N" n="57"/>sacramentariis imago crucifixi depingitur. vt non solum
+            intelle<lb ed="#N" n="58" break="no"/>ctus latere: sed etiam aspectus picture memoriam dominice passio
+            <lb ed="#N" n="59"/>nis inspiret. et forte diuina factum est prouidentia. licet
+            hu<lb ed="#N" n="60" break="no"/>mana industria procurauerit vt ab ea litera canon inciperet:
+            <lb ed="#N" n="61"/>que sui forma signum crucis ostendit et exprimit in figura
+            <lb ed="#N" n="62"/>Chau namque misterium crucis insinuat. dicente domino Ezech.
+            <lb ed="#N" n="63"/>ix. Signa thau in frontibus virorum dolentium et
+            gemen<lb ed="#N" n="64" break="no"/>tium. vel canon dicitur quia ex regulis patrum id est ex his que
+            <lb ed="#N" n="65"/>regulariter instituerunt obseruari est compositus.
+            Canon<lb ed="#N" n="66" break="no"/>enim grece regula latine dicitur. Et dicitur idem canon
+            se<lb ed="#N" n="67" break="no"/>creta et actio. quare canon dicitur et secreta dictum est. actio
+            <lb ed="#N" n="68"/>autem dicitur: quia tunc cum deo causa nostra agitur.
+          </p>
+          <p xml:id="v78d89-e1e706-d1e264">
+            ⁋ In
+            <lb ed="#N" n="69"/>hac vero parte que canon dicitur. non solummodo proferuntur
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="70"/>ea que requiruntur ad consecrationem corporis christi et ad
+            commemo<lb ed="#N" n="71" break="no"/>rationem consecrati: sed et memoria passionis representatur et
+            <lb ed="#N" n="72"/>conditiones eiusdem et hoc maxime per cruces. In hac ergo
+            <lb ed="#N" n="73"/>parte in qua postulatur munerum sanctificatio fiunt tres
+            <lb ed="#N" n="74"/>cruces: in signum triplicis traditionis domini scilicet a deo. a iuda
+            <lb ed="#N" n="75"/>a iudeis. de prima Ro. viii. Qui proprio filio suo non pepercit
+            <lb ed="#N" n="76"/>sed pro nobis omnibus tradidit illum. de secunda Math. xxvi.
+            <lb ed="#N" n="77"/>Querebat oportunitatem quomo eum traderet. de tercia Ioh.
+            <lb ed="#N" n="78"/>xviii. Gens tua et pontifices tui te mihi tradi. Prima
+            tra<lb ed="#N" n="79" break="no"/>ditio fuit ex gratia dilectionis. Ioh. iii. Sic deus dilexit
+            mun<lb ed="#N" n="80" break="no"/>dum vt filium suum vnigenitum etc. Secunda ex auaritia. vnde
+            Ma<lb ed="#N" n="81" break="no"/>thei. xxvi. Quid vultis mihi dare. et ego eum vobis tradam.
+            <lb ed="#N" n="82"/>Tercia ex inuidia. Martur. xv. Sciebat enim quod per inuidiam
+            <lb ed="#N" n="83"/>tradidissent eum. Deus enim tradidit eum ex dono. donum enim
+            <lb ed="#N" n="84"/>est datum non reddibile. iudas pro mumere. iudei in
+            sacrifici<lb ed="#N" n="85" break="no"/>um illibatum. ad hoc ergo designandum sacerdos facit tres
+            <lb ed="#N" n="86"/>cruces super hoitiam cum dicit hec dona hec mumera hec
+            san<lb ed="#N" n="87" break="no"/>cta sacrificia illibata. quasi commemorans illam traditionem quam
+            <lb ed="#N" n="88"/>deus fecit ex dono: iudas pro munere. iudei in sacrificium
+            illi<lb ed="#N" n="89" break="no"/>batum: singuli autem ad mortem scilicet crucis. Hec trina
+            tradi<lb ed="#N" n="90" break="no"/>tio tunc incepit. cum filius ex decreto dei patris ex consilio
+            <lb ed="#N" n="91"/>spiritus sancti. necno ex proprio beneplacito veniens hierosoliman
+            <lb ed="#N" n="92"/>semetipsum exposuit passioni. Qui exponens ad quid venit.
+            <lb ed="#N" n="93"/>dixit Ioh. iii. Si exaltatus fuero a terra: omnia traham
+            <lb ed="#N" n="94"/>ad meipsum. hoc autem dicebat significans qua morte esset
+            clari<lb ed="#N" n="95" break="no"/>ficaturus deum. vel hec tria dona munera sancta sacrificia
+            <lb ed="#N" n="96"/>illibata: ad indiuiduam trinitatem cuius opera indiuisa sunt
+            <lb ed="#N" n="97"/>possunt referri. que tota tradidit ipsum ad mortem: vt tota
+            re<lb ed="#N" n="98" break="no"/>dimeret nos a morte per ipsum. Q Nota ergo quod donum est dantis:
+            <lb ed="#N" n="99"/>munus accipientis: sacrificium offerentis. pater dedit. filius
+            ob<lb ed="#N" n="100" break="no"/>tulit. spiritus sanctus accepit: singuli tamen dederunt acceperunt
+            <lb ed="#N" n="101"/>obtulerunt: sed pater dicitur dedisse propter auctoritatem. filius
+            <lb ed="#N" n="102"/>obtulisse propter assumptam humanitatem spiritus sanctus accepisse
+            <lb ed="#N" n="103"/>propter appropriatam benignitatem siue liberalitatem. hec autem
+            <lb ed="#N" n="104"/>gratiosissima liberalitas est. quod deus dedit nobis in
+            do<lb ed="#N" n="105" break="no"/>num: hoc accipit a nobis in munus.
+          </p>
+          <p xml:id="v78d89-e1e706-d1e349">
+            ⁋ Sacerdos autem
+            conuer<lb ed="#N" n="106" break="no"/>tens sermonem ad patrem. dicens. te igitur clementissime pater etc.
+            <lb ed="#N" n="107"/>Sic patris auctoritatem insinuat ipsum solummodo inuocando.
+            <lb ed="#N" n="108"/>quem alloquitur tanquam presentem per gratiam: qui nusquam deest per
+            essenti<lb ed="#N" n="109" break="no"/>am potentiam et presentiam. Per ihm christum filium tuum dominum nostum
+            <lb ed="#N" n="110"/>vt per quem sicut per mediatorem dei et hominum Gal. iii. decurrunt
+            <lb ed="#N" n="111"/>ad nos dei beneficia confidens in verbo domini. dicentis Ioh.
+            <lb ed="#N" n="112"/>xvi. Si quid petieritis patrem in nomine meo hoc faciam
+            <lb ed="#N" n="113"/>vobis. Supplices rogamus ac petimus. duo hic notantur
+            <lb ed="#N" n="114"/>ex quibus petens obtinet quod intendit. scilicet clementia diuina
+            <lb ed="#N" n="115"/>cum dicit clementissime: et humilitas ex parte petentis cum
+            di<lb ed="#N" n="116" break="no"/>cit supplices. pluraliter loquitur significans se vrre omnium oratio
+            <lb ed="#N" n="117"/>nem deo effundere. et accumulat verba deprecatoria dicens:
+            <lb ed="#N" n="118"/>rogamus ac petimus. vt sic geminata postulatione melius
+            obtine<lb ed="#N" n="119" break="no"/>at quod intendit. Uti accepta habeas. hoc respicit diuinum
+            <lb ed="#N" n="120"/>beneplacitum. et benedicas hoc effectum beneplaciti. hec
+            dona<lb ed="#N" n="121" break="no"/>hec muera. hec sancta sacrificia illibata. Eadem autem sunt hec
+            <lb ed="#N" n="122"/>dona muera et sacrificia. que autem sacris offeruntur altaribus
+            mu<lb ed="#N" n="123" break="no"/>nera dicuntur et dona et sacrificia. vnde Math. v. Si offers
+            <lb ed="#N" n="124"/>munus tuum ante altare etc. Et Heb. v. dicitur de potestifice quod constitu
+            <lb ed="#N" n="125"/>tus est a deo vt offerat dona et sacrificia. pro peccatis horum autem
+            in<lb ed="#N" n="126" break="no"/>culcatio pie deuotionis est exercitatio vel in effabilis
+            commenda<lb ed="#N" n="127" break="no"/>tio sacramenti. non autem aliquiod inuenitur vocabulum quod tantum sacra
+            <lb ed="#N" n="128"/>mentum digne valeat appellare: nisi quod grece dicitur
+            euchari<lb ed="#N" n="129" break="no"/>stia. quod exponitur bona gratia. Dicuntur autem pluraliter dona mune
+            <lb ed="#N" n="130"/>ra et sacrificia. quia panis et vinum diuerse sunt species
+            substan<lb ed="#N" n="131" break="no"/>tiarum priusquam consecrentur. et deinde sunt species specierum.
+            <lb ed="#N" n="132"/>Dicuntur autem sancta et illibata: quia panis et vinum
+            signifi<lb ed="#N" n="133" break="no"/>cat sacrosanctum corpus et immaculatum sanguinem inu christi.
+            <lb ed="#N" n="134"/>Non autem dicuntur illibata quasi nondum gustata: sed potius
+            illi<lb ed="#N" n="135" break="no"/>bata id est immaculata: quia sine macula cordis et corporis opertet
+            <lb ed="#N" n="136"/>offerri. quatenus et cor ab iniquitate mundetur et corpus ab
+            immun<lb ed="#N" n="137" break="no"/>dicia. vel sic secundum Isid. distinguuntur. donum proprie dicitur quod a
+            <lb ed="#N" n="138"/>superiore inferiori confertur. Iaco. i. Omne datum optimum etc.
+            <lb ed="#N" n="139"/>Munus quod ab inferiore superiori presentatur. Sacrificium quod crea
+            <lb ed="#N" n="140"/>tori offertur. Insinuatur ergo his vocabulis tribus. quod hec
+            demon<pb ed="#N" n="239"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>strata sunt nobis a deo collata: a nobis deo presentata et
+            ob<lb ed="#N" n="2" break="no"/>lata: in verum et summum sacrificium transsubstantiata. Quidam autem
+            <lb ed="#N" n="3"/>distinguunt sic. hec dona scilicet nature. hec munera scilicet deuotionis
+            <lb ed="#N" n="4"/>nostre. hec sancta sacrificia illibata maiestati diuine. Ut
+            <lb ed="#N" n="5"/>hec dona referantur ad naturam. hec munera ad gratiam. hec
+            <lb ed="#N" n="6"/>sacrificia ad incorruptionis gloriam. et dicunt quod propterea
+            <lb ed="#N" n="7"/>cruces fiunt in missa: quia virtus misse crux christi est que
+            sa<lb ed="#N" n="8" break="no"/>cramentum altaris et omnia alia ecclesie sacramenta
+            con<lb ed="#N" n="9" break="no"/>secrat et sanctificat.
           </p>
         </div>
-        <div xml:id="v78d89-e1e706-Dd1e122" type="articulus">
-          <head xml:id="v78d89-e1e706-Hd1e124">Articulus 1</head>
-          <head xml:id="v78d89-e1e706-Hd1e121" type="question-title">postulatur hostiae Deo acceptae benedictio</head>
-          <p xml:id="v78d89-e1e706-d1e127">
-          <lb ed="#N" n="13"/>Tota ergo quod post laudis praeconium sequitur secretum  
-          <lb ed="#N" n="14"/>silentium. Nam vbi ihesus honorifice fuit susceptus  
-          <lb ed="#N" n="15"/>hierosolimis a turbis. cum ramis palmarum et lau  
-          <lb ed="#N" n="16"/>dibus vt habetur <ref xml:id="v78d89-e1e706-Rd1e137">Ioh. xii.</ref> iudaei volebant eum capere. propter  
-          <lb ed="#N" n="17"/>quod recessit ab eis et abiit in bethaniam et ibi abscondit se  
-          <lb ed="#N" n="18"/>ab eis Joh xii. Non metu formidinis : hoc prouidentia dispen- 
-          <lb ed="#N" n="19"/>satoris. quia nondum venerat hora eius qua adueniente spon 
-          <lb ed="#N" n="20"/>taneus ad passionem accessit. unde Math. xxvi. Surgite  
-          <lb ed="#N" n="21"/>inquit eamus. ecce appropinquabit qui me tradet. unde Johannes 
-          <lb ed="#N" n="22"/>xvi Cohors et ministri cum venissent cum laternis et facibus et 
-          <lb ed="#N" n="23"/>armis ut apprehenderent cum. Ipse autem sciens omnia quae ven 
-          <lb ed="#N" n="24"/>tura erant super eum: processit et dixit eis. quem quaeritis. Respon 
-          <lb ed="#N" n="25"/>derunt ei ihesum nazarenum. dixit eis. Ego sum. Illud ergo christi la 
-          <lb ed="#N" n="26"/>tibulum hoc silentium screte repraesentat. Alia est causa huius 
-          <lb ed="#N" n="27"/>secreti silentii. scilicet ut sine tumultu sive strepitu verborum nien- 
-          <lb ed="#N" n="28"/>tis deuotio ad deum dirigatur: quia est exanditor cordis non 
-          <lb ed="#N" n="29"/>vocis. Non enim est exorandus clamoribus qui renum scrutator  
-          <lb ed="#N" n="30"/>est et cordium <ref xml:id="v78d89-e1e706-Rd1e171">Hiere. xvii.</ref> Quod anna typum gerens ecclesiae insi 
-          <lb ed="#N" n="31"/>nuabat quae non petitione b tacita deuotione quod petiit impe- 
-          <lb ed="#N" n="32"/>trauit. dicitur enim <ref xml:id="v78d89-e1e706-Rd1e178">primo Reg. i.</ref> Quia nna loquebatur in cor- 
-          <lb ed="#N" n="33"/>deo suo tamquam labia illius mouebantur et vox penitus non audie-batur.  
-          <lb ed="#N" n="34"/>verba tamen sunt proferenda: ne quid petere vel intendere  
-          <lb ed="#N" n="35"/>debeamus ignoremus. Altera est. ratione tanti misterii verba per  
-          <lb ed="#N" n="36"/>quotidianum vsum vilescant et in locis non competentibus passim 
-          <lb ed="#N" n="37"/>et indiscrete dicantur. et sic sint dicentes in ruinam. Unde ut  
-          <lb ed="#N" n="38"/>dicitur. Contigit ut quadam die pastores super lapidem quemdam  
-          <lb ed="#N" n="39"/>poneret panem. qui ad horum verborum prolationem conversus est in- 
-          <lb ed="#N" n="40"/>carnem. forsitan transmutatus est panis in corpus christi. in quo  
-          <lb ed="#N" n="41"/>diuinitus accerrima facta est vindicta: nam percussi sunt di- 
-          <lb ed="#N" n="42"/>uino iudicio celitus misso. vnde statutum fuit vt de cetero  
-          <lb ed="#N" n="43"/>diceretur sub silentio. alia est ratio ne vilesceret ex manifesta  
-          <lb ed="#N" n="44"/>prolatione: sicut sacra scriptura in quadam obscuritate tradi 
-          <lb ed="#N" n="45"/>ta est ne vilesceret. Propter has causas dicitur sub silentio  
-          <lb ed="#N" n="46"/>et ob hoc dicitur secreta: scilicet quia sub silentio pronuntiatur. cum  
-          <lb ed="#N" n="47"/>olim alta voce diceretur quousque aliter inolevit consuetudo pro- 
-          <lb ed="#N" n="48"/>pter causas iam dictas
+        <div xml:id="v78d89-e1e706-Dd1e451">
+          <head xml:id="v78d89-e1e706-Hd1e453">Articulus 2</head>
+          <p xml:id="v78d89-e1e706-d1e455">
+            <lb ed="#N" n="10"/>⁋ Articulus secundus
           </p>
-          <p xml:id="v78d89-e1e706-d1e208">
-            ¶ Nota quod haec pars missae vsque ad  
-          <lb ed="#N" n="49"/>orationem dominicam cum sua praefatione scilicet praeceptis salutaribus  
-          <lb ed="#N" n="50"/>etc dicitur canon missae: quia regulariter in hac parte memoria  
-          <lb ed="#N" n="51"/>dominicae passionis recolitur. videlicet eorum quae gesta sunt per  
-          <lb ed="#N" n="52"/>ebdomadam ante paschalem a decima luna primi mensis quando  
-          <lb ed="#N" n="53"/>ihesus abiit hierosolimam: usque ad decimamseptimam quando surrexit  
-          <lb ed="#N" n="54"/>a mortuis. Propter quod inter praefationem et canonem in plerisque  
-          <lb ed="#N" n="55"/>sacramentariis imago crucifixi depingitur. vt non solum intelle 
-          <lb ed="#N" n="56"/>ctus litterae: sed etiam aspectus picturae memoriam dominicae passio 
-          <lb ed="#N" n="57"/>nis inspiret. et forte diuina factum est prouidentia. licet hu- 
-          <lb ed="#N" n="58"/>mana industria procurauerit vt ab ea littera canon inciperet:  
-          <lb ed="#N" n="59"/>quae sui forma signum crucis ostendit et exprimit in figura  
-          <lb ed="#N" n="60"/>Than namque misterium crucis insinuat. dicente domino Ezech.  
-          <lb ed="#N" n="61"/>ix. <quote xml:id="v78d89-e1e706-Qd1e238" source="http://scta.info/resource/ez9_4">Signa thau in frontibus virorum dolentium et gemen-tium</quote>.  
-          <lb ed="#N" n="62"/>vel canon dicitur quia ex regulis patrum id est ex his quae  
-          <lb ed="#N" n="63"/>regulariter instituerunt obseruari est compositus. Canon  
-          <lb ed="#N" n="64"/>enim graecae regula latinae dicitur. Et dicitur idem canon se- 
-          <lb ed="#N" n="65"/>creta et actio. quare canon dicitur et secreta dictum est. actio 
-          <lb ed="#N" n="66"/>autem dicitur: quia tunc cum deo causa nostra agitur. 
+          <p xml:id="v78d89-e1e706-d1e460">
+            <lb ed="#N" n="11"/>IN primis que tibi offerimus. In hac parte
+            postu<lb ed="#N" n="12" break="no"/>latur fidelium promotio a confecrante. Primo
+            imme<lb ed="#N" n="13" break="no"/>diate a deo ibi. In primis. Secundo mediantibus
+            <lb ed="#N" n="14"/>sanctis ibi. communicantes. Item in prima primo postulatur pro
+            <lb ed="#N" n="15"/>motio ipsius ecclesie et membrorum in generali. Secundo personarum
+            <lb ed="#N" n="16"/>quarundam in speciali ibi. Memento domine.
           </p>
-          <p xml:id="v78d89-e1e706-d1e259">
-            In 
-          <lb ed="#N" n="67"/>hac deo parte quae canon dicitur. non solummodo proferuntur 
-          <!--263b.xml-->
-          <cb ed="#N" n="b"/>
-          <lb ed="#N" n="68"/>ea quae sequiruntur ad consecrationem corporis christi et ad comemo- 
-          <lb ed="#N" n="69"/>rationem consecrati: sed et memoria passionis repraesentatur et 
-          <lb ed="#N" n="70"/>conditiones eiusdem et hoc maxime per cruces. In hac ergo  
-          <lb ed="#N" n="71"/>parte in qua postulatur munerum sanctificatio fiunt tres  
-          <lb ed="#N" n="72"/>cruces: in signum triplicis traditionis domini scilicet a deo. a iuda  
-          <lb ed="#N" n="73"/>a iudaeis. de prima <ref xml:id="v78d89-e1e706-Rd1e271">Ro. viii.</ref> <quote xml:id="v78d89-e1e706-Qd1e275" source="http://scta.info/resource/ro8_32">Qui proprio filio suo non pepercit  
-          <lb ed="#N" n="74"/>sed pro nobis omnibus tradidit illum</quote>. de secunda <ref xml:id="v78d89-e1e706-Rd1e280">Math. xxvi.</ref>  
-          <lb ed="#N" n="75"/><quote xml:id="v78d89-e1e706-Qd1e284" source="http://scta.info/resource/mt26_16">Quaerebat oportunitatem quomodo eum traderet</quote>. de tertia <ref xml:id="v78d89-e1e706-Rd1e287"><unclear>Job<!-- should be joh--></unclear>.  
-          <lb ed="#N" n="76"/>xviii</ref>. <quote xml:id="v78d89-e1e706-Qd1e295" source="http://scta.info/resource/io18_35">Gens tua et pontifices tui te mihi tradi</quote>. Prima tra 
-          <lb ed="#N" n="77"/>ditio fuit ex gratia dilectionis. <ref xml:id="v78d89-e1e706-Rd1e310">Joh. iii.</ref> <quote xml:id="v78d89-e1e706-Qd1e301" source="http://scta.info/resource/io3_16">Sic deus dilexit mun 
-          <lb ed="#N" n="78"/>dum vt filium suum unigenitum</quote> etc. Secunda ex auaritia. vnde <ref xml:id="v78d89-e1e706-Rd1e306">Ma- 
-          <lb ed="#N" n="79"/>thei. xxvi.</ref> <quote xml:id="v78d89-e1e706-Qd1e311" source="http://scta.info/resource/mt26_15">Quid vultis mihi dare. et ego eum vobis tradam</quote>.  
-          <lb ed="#N" n="80"/>Tertia ex inuidia. <ref xml:id="v78d89-e1e706-Rd1e316">Mar. xv</ref> <quote xml:id="v78d89-e1e706-Qd1e320" source="http://scta.info/resource/mc15_10">Sciebat enim quod per inuidiam  
-          <lb ed="#N" n="81"/>tradidissent eum</quote>. Deus enim tradidit eum ex dono. donum enim  
-          <lb ed="#N" n="82"/>est datum non reddibile. iudas pro munere. iudaei in sacrifici 
-          <lb ed="#N" n="83"/>um illibatum. ad hoc ergo designandum sacerdos facit tres  
-          <lb ed="#N" n="84"/>cruces super hostiam cum dicit haec dona haec munera haec san- 
-          <lb ed="#N" n="85"/>cta sacrificia illibata. quasi commemorans illam traditionem quam  
-          <lb ed="#N" n="86"/>deus fecit ex dono: iudas pro munere. iudaei in sacrificium illi- 
-          <lb ed="#N" n="87"/>batum: singuli autem ad mortem scilicet crucis. haec trina tradi 
-          <lb ed="#N" n="88"/>tio tunc incepti. cum filius ex decreto dei patris ex consilio  
-          <lb ed="#N" n="89"/>spiritus sancti. nec non ex proprio beneplacito beniens hierosolimam  
-          <lb ed="#N" n="90"/>semetipsum exposuit passioni. Qui exponens ad quid venit.  
-            <lb ed="#N" n="91"/>dixit Joh. iii.<quote xml:id="v78d89-e1e706-Qd1e346" source="http://scta.info/resource/io12_32 http://scta.info/resource/io12_33"> Si exaltatus fuero a terra: omnia trabam  
-          <lb ed="#N" n="92"/>ad meipsum. hoc autem dicebat significans qua morte esset clari 
-          <lb ed="#N" n="93"/>ficaturus deum</quote>. vel haec tria dona munera sancta sacrificia  
-          <lb ed="#N" n="94"/>illibata: ad indiuiduam trinitatem cuius opera indiuisa sunt  
-          <lb ed="#N" n="95"/>possunt referri. quae tota tradidit ipsum ad mortem: vt tota re 
-          <lb ed="#N" n="96"/>dimeret nos a morte per ipsum.
+          <p xml:id="v78d89-e1e706-d1e476">
+            ⁋ In primis ergo
+            <lb ed="#N" n="17"/>id est principaliter que tibi scilicet soli deo indiuidue
+            trinitati<lb ed="#N" n="18" break="no"/>offerimus. Hic datur intelligi cui debent sacrificia offerri pro
+            <lb ed="#N" n="19"/>ecclesia tua sancta id est deo siue cultui diuino dedicata scilicet
+            <lb ed="#N" n="20"/>ecclesia. Ut enim habetur in quadam glo. super illud Leut. xix.
+            <lb ed="#N" n="21"/>Sancti estote. illa sunt sancta: que a communibus vsibus debent
+            <lb ed="#N" n="22"/>separari et soli deo deseruire. Et sicut dicit Isido. Ecclesia est
+            <lb ed="#N" n="23"/>nomen grecum quod in latinum vertitur conuocatio. propter hoc quod omnes
+            <lb ed="#N" n="24"/>ad se conuocat: catholica id est vniuersalis. Isido. catholicus
+            vni<lb ed="#N" n="25" break="no"/>uersalis siue generalis interpretatur. idem greci vniuersale et
+            <lb ed="#N" n="26"/>catholicon vocant. Non enim sicut conuenticula hereticorum in
+            ali<lb ed="#N" n="27" break="no"/>quibus regionum pertibus coartatur: sed per totum orbem terrarum
+            <lb ed="#N" n="28"/>dilatura diffunditur. Hinc vniuersitas ab vno cognomnata
+            <lb ed="#N" n="29"/>est pro eo quod in vnitate colligitur. hec Isido. Quam pacificare
+            <lb ed="#N" n="30"/>contra conturbationem per hereticos et scismaticos ei illatam. hoc est
+            <lb ed="#N" n="31"/>vt pacem habeat ab hereticis et scismaticis. quam etiam custodi
+            <lb ed="#N" n="32"/>re digneris a demonibus et viciis. Et adunare que
+            disper<lb ed="#N" n="33" break="no"/>sa est inter paganos et alios infideles. Et regere inter
+            prospe<lb ed="#N" n="34" break="no"/>ra et aduersa. vel pacificare per inherentiam caritatis cum deo
+            <lb ed="#N" n="35"/>s. Ioh. iii. Qui manet in caritate in deo manet. tales
+            pacene<lb ed="#N" n="36" break="no"/>habent. vnde Ioh. xvii. In me pacem habebitis. Custodire.
+            <lb ed="#N" n="37"/>ne pereat ob ingruentiam periculorum siue temptationum. Quia
+            ni<lb ed="#N" n="38" break="no"/>si dominus custodierit ciuitatem: frustra vigilat qui custodit eam
+            <lb ed="#N" n="39"/>Adunare per conformitatem morum et voluntatum. vt multitudi
+            <lb ed="#N" n="40"/>nis credentium sit cor vnum et anima vna Act. iiii. Regere
+            impro<lb ed="#N" n="41" break="no"/>gressu virtutum vt dicat cum psalms. Dendnus regit me et nihil
+            mihi<lb ed="#N" n="42" break="no"/>deerit. Una cum famulo tuo papa nostro quem singulariter pro
+            <lb ed="#N" n="43"/>pter regimen et curam ecclesie preposuisti vniuersis. vt omnes
+            <lb ed="#N" n="44"/>ab vno sicut corpus a capite gubernentur vbi dixisti
+            petro<lb ed="#N" n="45" break="no"/>Math. xvi. Dabo tibi claues regni celorum etc. Unde papa
+            <lb ed="#N" n="46"/>dicitur pater patrum: quia summus sacerdos et pontifex maximus
+            <lb ed="#N" n="47"/>nominatur. dicitur etiam patriarcha romanus. Patriarcha enim
+            <lb ed="#N" n="48"/>greca lingua summus patrum interpretatur: quia primum id est apostolicum
+            <lb ed="#N" n="49"/>locum tenet. vt dicit Isido. Et antistite nostro. Isido.
+            an<lb ed="#N" n="50" break="no"/>tistes sacerdos dictus est ab eo quod ante stat. Primus enim est in
+            <lb ed="#N" n="51"/>ordine ecclesie et supra se nullum habet.
           </p>
-          <p xml:id="v78d89-e1e706-d1e319">
-            ¶ Nota ergo quod donum est dantis:  
-          <lb ed="#N" n="97"/>munus accipientis: sacrificium offerentis. pater dedit filius ob 
-          <lb ed="#N" n="98"/>tulit. spiritus sanctus accepit: singuli tamen dederunt acceperunt  
-          <lb ed="#N" n="99"/>obtulerunt: sed pater dicitur dedisse propter auctoritatem. filius  
-          <lb ed="#N" n="100"/>obtulisse propter assumptam humanitatem spiritus sanctus accepisse  
-          <lb ed="#N" n="101"/>propter appropriatam benignitatem sive liberalitatem. haec autem  
-          <lb ed="#N" n="102"/>gratiosissima liberalitas est. quod deus dedit nobis in do- 
-          <lb ed="#N" n="103"/>num: hoc accipit a nobis in munus 
+          <p xml:id="v78d89-e1e706-d1e554">
+            ⁋ Ex hoc verbo
+            Isi<lb ed="#N" n="52" break="no"/>do. videtur. quod idem sit papa et antistes cum nullum habeat
+            su<lb ed="#N" n="53" break="no"/>pra se.
           </p>
-          <p xml:id="v78d89-e1e706-d1e392">
-            Sacerdos autem conuer 
-          <lb ed="#N" n="104"/>tens sermonem ad patrem. dicens. <quote xml:id="v78d89-e1e706-Qd1e338" source="http://scta.info/resource/mnvhfy-d1e53-d1e99">te igitur clementissime pater</quote> etc  
-          <lb ed="#N" n="105"/>Sic patris auctoritatem insinuat ipsum solummodo inuocando 
-          <lb ed="#N" n="106"/>quem alloquitur tamquam praesentem per gratiam: qui nusquam deest per essenti 
-          <lb ed="#N" n="107"/>am potentiam et praesentiam. Per ihesum christum filium tuum dominum nostrum  
-          <lb ed="#N" n="108"/>vt per quem sicut per mediatorem dei et hominum <ref xml:id="v78d89-e1e706-Rd1e392">Gal. iii.</ref> de currunt  
-          <lb ed="#N" n="109"/>ad nos dei beneficia confidens in verbo domini. dicentis <ref xml:id="v78d89-e1e706-Rd1e397">Joh.  
-          <lb ed="#N" n="110"/>xvi</ref>. <quote xml:id="v78d89-e1e706-Qd1e402" source="http://scta.info/resource/io16_23">Si quid petieritis patrem in nomine meo hoc faciam  
-          <lb ed="#N" n="111"/>vobis</quote>. Supplices rogamus ac petimus. duo hic notantur  
-          <lb ed="#N" n="112"/>ex quibus petens obtinet quod intendit. scilicet clementia diuina  
-          <lb ed="#N" n="113"/>cum dicit clementissime: et humilitas ex parte petentis cum di 
-          <lb ed="#N" n="114"/>cit supplices. pluraliter loquitur significans se vitae omnium oratio 
-          <lb ed="#N" n="115"/>nem deo effundere. et accumulat verba de peccatoria dicens:  
-          <lb ed="#N" n="116"/>rogamus ac petimus. vt sic geminata postulatione melius obtine- 
-          <lb ed="#N" n="117"/>at quod intendit. Uti accepta habeas. hoc respicit diuinum 
-          <lb ed="#N" n="118"/>beneplacitum. et benedicas hoc effectum beneplaciti. haec dona  
-          <lb ed="#N" n="119"/>haec munera. haec snacta sacrifica illibata. Eadem autem sunt haec  
-          <lb ed="#N" n="120"/>dona mundera et sacrifica. quae autem sacris offeruntur altaribus mu- 
-          <lb ed="#N" n="121"/>nuera dicuntur et dona et sacrificia. vunde Math. v. <quote xml:id="v78d89-e1e706-Qd1e429" source="http://scta.info/resource/mt5_24">Si offere 
-          <lb ed="#N" n="122"/>manus tuum ante altare</quote> etc. Et heb. v. dicitur de pontifice quod constitu 
-          <lb ed="#N" n="123"/>tus est a deo <quote xml:id="v78d89-e1e706-Qd1e437" source="http://scta.info/resource/hebr5_1">vt offerat dona et sacrifica. pro peccatis</quote> horum autem in 
-          <lb ed="#N" n="124"/>culcatio piae deuotionis est exercitatio vel in effabilis commenda- 
-          <lb ed="#N" n="125"/>tio sacramenti. non autem aliquod inueritur vocabulum quod tantum sacra 
-          <lb ed="#N" n="126"/>mentum digne valeat appellare: nisi quod gracae dicitur euchari-stia.  
-          <lb ed="#N" n="127"/>quod exponitur bona gratia. Dicuntur autem pluraliter dona mune 
-          <lb ed="#N" n="128"/>ra et sacrificia. quia panis et vinum diuerse sunt species substan-tiarum  
-          <lb ed="#N" n="129"/>priusquam consecrentur. et deinde sunt species specierum.  
-          <lb ed="#N" n="130"/>Dicuntur autem sancta et illibata: quia panis et vinum signifi 
-          <lb ed="#N" n="131"/>cat sacrosanctum corpus et imaculatum sanguinem ihesu christi.  
-          <lb ed="#N" n="132"/>Non autem dicuntur illibata quasi nondum gustata: sed potius illi- 
-          <lb ed="#N" n="133"/>bata id est immaculata: quia sine macula cordis et corporis oportet  
-          <lb ed="#N" n="134"/>offerri. quatenus et cor ab iniquitate mundetur et corpus ab immun 
-          <lb ed="#N" n="135"/>dicia. vel sic secundum Istud. distinguuntur. donum proprie dicitur quod a  
-          <lb ed="#N" n="136"/>superiore inferiori confertur. Jaco. i. <quote xml:id="v78d89-e1e706-Qd1e468" source="http://scta.info/resource/iac1_17">Omne datum optimum</quote> etc  
-          <lb ed="#N" n="137"/>Munus quod ab inferiore superiori praesentatur. Sacrificium quod crea 
-          <lb ed="#N" n="138"/>tori offertur: Insinuatur ergo his vocabulis tribus. quod haec demon- 
-          <!--264.xml-->
-          <pb ed="#N" n="264"/>
-          <cb ed="#N" n="a"/>
-          <lb ed="#N" n="1"/>strata sunt nobis a deo collata: a nobis deo praesentata et ob 
-          <lb ed="#N" n="2"/>lata: in verum et summum sacrificium transsubstantiata. Quidam autem  
-          <lb ed="#N" n="3"/>distinguunt sic. haec dona scilicet naturae. haec munera scilicet duotionis  
-          <lb ed="#N" n="4"/>nostrae. haec sancta sacrificia illibata maiestati diuinae. Ut  
-          <lb ed="#N" n="5"/>haec dona refernatur ad naturam. haec munera ad gratiam. haec  
-          <lb ed="#N" n="6"/>sacrificia ad incorruptionis gloriam. et dicunt quod propterea  
-          <lb ed="#N" n="7"/>cruces fiunt in missa: quia virtus missae crux christi est quae sa 
-          <lb ed="#N" n="8"/>cramentum altaris et omnia alia ecclesiae sacramenta con- 
-          <lb ed="#N" n="9"/>secrat et sanctificat. 
+          <p xml:id="v78d89-e1e706-d1e562">
+            ⁋ Pret. ex hoc verbo videtur quod antistes sit simplex
+            sa<lb ed="#N" n="54" break="no"/>cerdos. et si hoc: tunc non fit commemoratio in missis de
+            pontifici<lb ed="#N" n="55" break="no"/>bus.
           </p>
-        </div>
-        <div xml:id="v78d89-e1e706-Dd1e443" type="articulus">
-          <head xml:id="v78d89-e1e706-Hd1e445">Articulus 2</head>
-          <head xml:id="v78d89-e1e706-Hd1e524" type="question-title">fidelium promotio</head>
-          <p xml:id="v78d89-e1e706-d1e448">
-          <lb ed="#N" n="10"/>In primis quae tibi offerimus. In hac parte postu<lb ed="#N" n="11"/>latur 
-          fidelium promotio a consecrante. Primo imme<lb ed="#N" n="12"/>diate 
-          a deo ibi. In primis. Secundo mediantibus  
-          <lb ed="#N" n="13"/>sanctis ibi. communicantes. Item in prima primo postulatur pro<lb ed="#N" n="14"/>motio 
-          ipsius ecclesiae et mmbrorum in generali. Secundo personarum  
-          <lb ed="#N" n="15"/>quarumdam in speciali ibi. Memento domine
+          <p xml:id="v78d89-e1e706-d1e569">
+            ⁋ Responsio. quod antistes pontifex dicitur vnde verbum Isido.
+            <lb ed="#N" n="56"/>sic debet intelligi. antistes sacerdos dictus ab eo quod ante stat id est
+            <lb ed="#N" n="57"/>sacerdos ille qui ante stat scilicet coniunctim. Sacerdos enim qui
+            <lb ed="#N" n="58"/>ante stat est sacerdos qui est pontifex.
           </p>
-          <p xml:id="v78d89-e1e706-d1e464">
-            ¶ In primis ergo  
-          <lb ed="#N" n="16"/>id est principaliter quae tibi scilicet soli deo indiuiduae trinitati  
-          <lb ed="#N" n="17"/>offerimus. hic datur intelligi cui debent sacrificia offerri pro  
-          <lb ed="#N" n="18"/>ecclesia. tua sancta id est deo siue cultui diuino dedicata scilicet  
-          <lb ed="#N" n="19"/>ecclesia. Ut enim habetur in quadam glo. super illud Leuit. xix.  
-          <lb ed="#N" n="20"/>Sancti estote. illa sunt sancta: quae a communibus vsibus debent  
-          <lb ed="#N" n="21"/>separari et soli deo deseruire. Et sicut dicit Isido. Ecclesia est  
-          <lb ed="#N" n="22"/>nomen graecum quod in latinum veritur conuocatio. propter hoc quod omnes  
-          <lb ed="#N" n="23"/>ad se conuocat: catholica id est vniuersalis. Isido. catholicus vni- 
-          <lb ed="#N" n="24"/>uersalis siue generalis interpretatur. idem graeci vuniuersale et  
-          <lb ed="#N" n="25"/>catholicon vocatur. Non enim sicut conuenticuls haereticorum in ali- 
-          <lb ed="#N" n="26"/>quibus regionum partibus coartatur: sed per totum orbem errarum  
-          <lb ed="#N" n="27"/>dilatura diffunditur. hinc vniversitas ab vno cognominatum  
-          <lb ed="#N" n="28"/>est pro eo quod in vnitate colligitur. haec Isido. Quam pacificare  
-          <lb ed="#N" n="29"/>contra conturbationem per haereticos et scismaticos ei illatam. hoc est  
-          <lb ed="#N" n="30"/>vt pacem habeat ab haereticis et scismaticis. quam etiam custodi 
-          <lb ed="#N" n="31"/>re digneris a daemonibus et viciis. Et adunare quae disper- 
-          <lb ed="#N" n="32"/>sa est inter paganos et alios infideles. Et rege inter prospe- 
-          <lb ed="#N" n="33"/>ra et aduersa. vel pacificare per inhaerentiam caritatis cum deo  
-          <lb ed="#N" n="34"/><ref xml:id="v78d89-e1e706-Rd1e566">i Johannes iii</ref>. <quote xml:id="v78d89-e1e706-Qd1e569" source="http://scta.info/resource/Iio3_16">Qui manet in caritate in deo manet</quote>. tales pacem  
-          <lb ed="#N" n="35"/>habent. vnde Johannes xvii. <quote xml:id="v78d89-e1e706-Qd1e574" source="http://scta.info/resource/io16_33">In me pacem habebitis</quote>. Custodire.  
-          <lb ed="#N" n="36"/>ne pereat ob ingruentiam periculorum siue temptationeum. Quia ni- 
-          <lb ed="#N" n="37"/>si dicens custodierit ciuitatem: frustra vigilat qui custodit eam 
-          <lb ed="#N" n="38"/>Adunare per conformitatem morum et voluntatum. vt in <quote xml:id="v78d89-e1e706-Qd1e584" source="http://scta.info/resource/act4_32">multitudi-nis  
-          <lb ed="#N" n="39"/>credentium sit cor unum et anima vna</quote> Act. iiii. Regere impro 
-          <lb ed="#N" n="40"/>gressu virtutum vt dicat cum psalmo Dominus regit me et nihil mihi  
-          <lb ed="#N" n="41"/>deerit. Una cum famulo tuo papa nostro quem singulariter pro 
-          <lb ed="#N" n="42"/>pter regimen et curam ecclesiae praeposuisti vniversis. vt omnes  
-          <lb ed="#N" n="43"/>ab vno sicut corpus a capite gubernentur vbi dixisti petro  
-          <lb ed="#N" n="44"/>Math. xvi. <quote xml:id="v78d89-e1e706-Qd1e600" source="http://scta.info/resource/mt16_19">Dabo tibi claues regni caelorum</quote> etc Unde papa  
-          <lb ed="#N" n="45"/>dicitur pater patrum: quia summus sacerdos et pontifiex maximus  
-          <lb ed="#N" n="46"/>nominatur. dicitur etiam patriarcha romanus. Patriarcha enim  
-          <lb ed="#N" n="47"/>graeca lingua summus patrum interpretatur: quia primum id est apostolicum  
-          <lb ed="#N" n="48"/>locum tenet. vt dicit Isido. Et antistite nostre. isido. an- 
-          <lb ed="#N" n="49"/>tistes sacerdos dictus est ab eo quod ante stat. Primus enim est in  
-          <lb ed="#N" n="50"/>ordine ecclesiae et supra se nullum habet
+          <p xml:id="v78d89-e1e706-d1e578">
+            ⁋ Ad primum dicendum
+            <lb ed="#N" n="59"/>quod antistes sicut potestifex nominat episcopos cuiuscumque dignitatis
+            <lb ed="#N" n="60"/>scilicet et pratriarchas et archiepsos et metropolitanos et episcopos. Et
+            <lb ed="#N" n="61"/>sic sumptus secundum Isido. non habet superiorem in ordine ecclesie. secundum
+            <lb ed="#N" n="62"/>tamen quod fit in canone misse commemoratio de antistite: intelligitur de
+            <lb ed="#N" n="63"/>antistite illius eccleie in qua celebratur. Unde dicitur antistite nostro
+            <lb ed="#N" n="64"/>Et rege nostro. quod autem orandum sit pro principe habetur. i. Thimo.
+            <lb ed="#N" n="65"/>ii. Obsecro primo omnium postulationes. obsecrationes et orationes
+            <lb ed="#N" n="66"/>gratiarumactiones fieri pro omnibus homibus pro regibus et pro
+            om<lb ed="#N" n="67" break="no"/>nibus qui in sublimitate sunt constituti. vt enim habetur ab
+            Hu<lb ed="#N" n="68" break="no"/>Sone. Ecclesia est multitudo fidelium et vniuersitas christiano
+            <lb ed="#N" n="69"/>rum. que vniuersitas duos ordines complectitur. scilicet laycos et
+            <lb ed="#N" n="70"/>clericos quasi duo latera vnius corporis. sinistrum scilicet layci
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>quia terrene vite necessaria tractant. dextrum clerici quia ea
+            <lb ed="#N" n="72"/>que ad spiritualem vitam pertinent ministrant. due autem sunt vite
+            cor<lb ed="#N" n="73" break="no"/>respondentes. terrena et celestis: corporalis et spiritualis. Et
+            du<lb ed="#N" n="74" break="no"/>plex potstas secularis et spiritualis. Secularis caput habet
+            re<lb ed="#N" n="75" break="no"/>gem. Spiritualis habet summum pontificem. Spiritualis potestas
+            prior<lb ed="#N" n="76" break="no"/>est terrena siue seculari et dignitate scilicet quantum vita spiritualis
+            <lb ed="#N" n="77"/>dignior est quam terrena et spiritus quam corpus. Et institutio est. quod
+            <lb ed="#N" n="78"/>patet per hoc quod in lege veteri primum a deo sacerdotium institu
+            <lb ed="#N" n="79"/>tum est. postea per sacerdotium iubente domino regalis potstas
+            ordi<lb ed="#N" n="80" break="no"/>nata est. et prior etiam est potstas. Nam spiritualis potestas terrenam
+            <lb ed="#N" n="81"/>potestatem instituere habet vt sit et iudicare habet si bona non
+            <lb ed="#N" n="82"/>fuerit. Spiritualis potstas primum instituta est: et cum deuiat a
+            so<lb ed="#N" n="83" break="no"/>lo deo iudicari debet. Unde. i. Corin. ii. Spiritualis iudicat
+            <lb ed="#N" n="84"/>omnia et ipse a nemine iudicatur. Quod regalis potestas ordinata est
+            <lb ed="#N" n="85"/>et instituta per spiritualem. patet per hoc. quia adhuc in ecclesia
+            sa<lb ed="#N" n="86" break="no"/>cerdotalis dignitas regalem potstatem sacrat. et sanctificans per
+            <lb ed="#N" n="87"/>benedictionem et formans per institutionem. Unde regalis potstas
+            <lb ed="#N" n="88"/>iure inferior estimatur. Istam ergo duplici potestate indiget et
+            <lb ed="#N" n="89"/>et regitur ecclesia in membris et duplex vita moderatur. propter
+            <lb ed="#N" n="90"/>quod pro vtraque orat ecclesia. primo tamen pro spirituali quasi
+            <lb ed="#N" n="91"/>digniori: secundo pro seculari quasi inferiori. Et omnibus
+            or<lb ed="#N" n="92" break="no"/>thodoxis qui sub vtraque potestate fidem tenent apostolicam et
+            ve<lb ed="#N" n="93" break="no"/>nerantur. Ut enim dicit Isido. Orthodoxus est recte credens
+            <lb ed="#N" n="94"/>et vt credit viuens. ortho enim grece recte dicitur latine.
+            doxa<lb ed="#N" n="95" break="no"/>gloria. hoc est vir recte glorie. Tales enim sunt recte
+            glorio<lb ed="#N" n="96" break="no"/>si. qui deum recte fidei confessione glorificant. atque
+            catholi<lb ed="#N" n="97" break="no"/>ce et apostolice fidei cultoribus.
           </p>
-          <p xml:id="v78d89-e1e706-d1e542">
-            ¶ Ex hoc verbo Isi 
-          <lb ed="#N" n="51"/>do. videtur quod idem sit papa et antistes cum nullum habeat su-pra  
-          <lb ed="#N" n="52"/>se.
+          <p xml:id="v78d89-e1e706-d1e667">
+            ⁋ Hoc videtur superflue
+            aper<lb ed="#N" n="98" break="no"/>positum cum tales sint orthodoxi. Responsio. quod hoc non
+            super<lb ed="#N" n="99" break="no"/>fluit. quia expressius cultus fidei per hoc additum declaratur
+            <lb ed="#N" n="100"/>quantum est ex parte sermonis. Dicitur autem apostolice fidei. quia
+            <lb ed="#N" n="101"/>apostoli fuerunt fidei fundatores supra primum fundamentum scilicet
+            <lb ed="#N" n="102"/>christum qui est fundamentum eorum. Epheo. ii. Superedificati super
+            <lb ed="#N" n="103"/>fundamentum apostolorum. ergo apostolici et prophete dicuntur
+            funda<lb ed="#N" n="104" break="no"/>menta. Unde psalmus. Fundamenta eius in montibus sanctis christus
+            <lb ed="#N" n="105"/>est primum et maximum fundamentum.
+            <lb ed="#N" n="106"/>Aemento domine ci. 1.
+            <lb ed="#N" n="107"/>famulorum. In hac parte specialius postulatur fidelium
+            <lb ed="#N" n="108"/>promotio a consecrante. In parte enim precedenti
+            postu<lb ed="#N" n="109" break="no"/>latur promotio ecclesie cum membris cunctis in
+            generali<lb ed="#N" n="110" break="no"/>scilicet prelatis et subditis ibi. Cum famulo tuo papa etc.
+            <lb ed="#N" n="111"/>Hic specialius postulatur promotio virorum ac mulierum ibi.
+            me<lb ed="#N" n="112" break="no"/>mento domine famulorum famularumque tuarum. sacerdotum et
+            astan<lb ed="#N" n="113" break="no"/>tium ibi. Et omnium circunstantium. pro quibus tibi offerimus
+            <lb ed="#N" n="114"/>vel qui tibi offerunt hoc sacrificium laudis. nostrum et
+            nostro<lb ed="#N" n="115" break="no"/>rum ibi pro se suisque omnibus. post subditur quantum ad quid
+            po<lb ed="#N" n="116" break="no"/>stulatur eorum promotio ibi. Pro redemptione animarum suarum
+            <lb ed="#N" n="117"/>Et a quo ibi. Tibi reddunt vota sua etc. Dicit ergo.
+            Me<lb ed="#N" n="118" break="no"/>mento domine.
           </p>
-          <p xml:id="v78d89-e1e706-d1e549">
-            ¶ Praeterea ex hoc verbo videtur quod antistes sit simplex sa 
-          <lb ed="#N" n="53"/>cerdos . et si hoc: tunc non fit commemoratio in missis de pontifici- 
-          <lb ed="#N" n="54"/>bus.
+          <p xml:id="v78d89-e1e706-d1e715">
+            ⁋ Hic queritur cum nihil ignoret dei sapientia
+            <lb ed="#N" n="119"/>nec alicuius valet obliuisci: quid est quod postulatur vt
+            memo<lb ed="#N" n="120" break="no"/>retur aliquorum. Responsio. deus dicitur scire quos approbat. Unde
+            <lb ed="#N" n="121"/>ii. Thimo. ii. Nouit dominus qui sunt eius. et dicitur nescire quos
+            <lb ed="#N" n="122"/>reprobat. vnde Math. vii. Numquam noui vos. Rursus dicitur
+            <lb ed="#N" n="123"/>obliuisci malorum: cum malus ad bonum conuertitur. vnde Ezech.
+            <lb ed="#N" n="124"/>xviii. Si impius egerit penitentiam omnium iniquitatum eius non
+            re<lb ed="#N" n="125" break="no"/>cordabor. Et dicitur obliuisci bonorum cum bonus ad malum
+            peruer<lb ed="#N" n="126" break="no"/>titur. vnde Ezech. Si iustus auerterit se a iusticia sua omnes
+            <lb ed="#N" n="127"/>iusticias eius non recordabor. Deus ergo quandoque recordatur ad
+            mi<lb ed="#N" n="128" break="no"/>serandum. vnde Iob. vii. Memento mei deus quia ventus est
+            vi<lb ed="#N" n="129" break="no"/>ta mea. Quandoque recordatur ad puniendum. vnde psalms. Memento
+            do<lb ed="#N" n="130" break="no"/>mine filiorum edom in die hierusalem. Cum ergo petitur vt
+            aliquo<lb ed="#N" n="131" break="no"/>rum meminerit: petitur vt illorum misereatur secundum illud reminiscere
+            <lb ed="#N" n="132"/>miserationum tuarum domine et misericordiarum tuarum que a seclo sunt. Ex
+            <lb ed="#N" n="133"/>hac autem serie verborum. Memento do. fa. fa tm. et omnium circumstantium
+            <lb ed="#N" n="134"/>patet quod hoc sit locus. vbi conuenit quod sacerdos pro his quos vult spietialiter
+            <lb ed="#N" n="135"/>imploret scilicet per notam copulationis que non solet copulare partem
+            <lb ed="#N" n="136"/>contentam toti continenti. Quod enim dico famulorum famularumque tuarum
+            <lb ed="#N" n="137"/>continet quod dico omnium circumstantium. viuorum autem debet hic
+            <lb ed="#N" n="138"/>fieri commemoratio. in sequentibuas vero occurrit locus in quo fiet
+            <lb ed="#N" n="139"/>memoria defunctorum.
           </p>
-          <p xml:id="v78d89-e1e706-d1e557">
-            ¶ Responsio. quod antistes pontifex dicitur vunde verbum Isido. 
-          <lb ed="#N" n="55"/>sic debet intelligi. antistes sacerdos dictus ab eo quod ante state id est  
-          <lb ed="#N" n="56"/>sacerdos ille qui ante stat scilicet coniunctim. Sacerdos enim qui  
-          <lb ed="#N" n="57"/>ante stat est sacerdos qui est pontifiex.
+          <p xml:id="v78d89-e1e706-d1e763">
+            ⁋ Et omnium circumstantium. hic euidenter
+            <lb ed="#N" n="140"/>apparet quam sanctum et salubre sit missarum solenniis interesse.
+            <pb ed="#N" n="240"/>
+            <cb ed="#N" n="a"/>
+            <lb ed="#N" n="1"/>Cum pro circumstantibus fiat oratio spieitialis et sacrificium
+            euchari<lb ed="#N" n="2" break="no"/>stie pro eisdem offeratur. propter quod scriptum est de conse.
+            <lb ed="#N" n="3"/>dis. i. Cum ad celebrandas missas in dei nomine conuenerit
+            <lb ed="#N" n="4"/>populus: ante non discedat quam missa compleatur.
           </p>
-          <p xml:id="v78d89-e1e706-d1e566">
-            ¶ Ad primum dicendum  
-          <lb ed="#N" n="58"/>quod antistes sicut pontifex nominat episcopos cuiuscumque dignitatis  
-          <lb ed="#N" n="59"/>scilicet et patriarchas et archiepiscopus et metropolitanos et episcopos. Et  
-          <lb ed="#N" n="60"/>sic sumptus secundum Isido. non habet superiorem in ordine ecclesiae. secundum  
-          <lb ed="#N" n="61"/>tamen quod fit in canone missae commemoratio de antistite: intelligitur de  
-          <lb ed="#N" n="62"/>antistete illius ecclesiae in qua celebratur. Unde dicit antistite nostro  
-          <lb ed="#N" n="63"/>Et rege nostro. quod autem orandum sit pro principe habetur 1 Thimo.  
-            <lb ed="#N" n="64"/>ii. <quote xml:id="v78d89-e1e706-Qd1e658" source="http://scta.info/resource/Itim2_1 http://scta.info/resource/Itim2_2">Obsecro primo omnium postulationes. obsecrationes et orationes  
-          <lb ed="#N" n="65"/>gratiarum actiones fieri pro omnibus hominibus pro regibus et pro om 
-          <lb ed="#N" n="66"/>nibus qui in sublimitate sunt constituti</quote>. vt enim habetur ab hu 
-          <lb ed="#N" n="67"/>gone. Ecclesia est multitudo fidelium et vniuersitas christiano 
-          <lb ed="#N" n="68"/>rum. quae vniuersitas duos ordines complectitur scilicet laycos et  
-          <lb ed="#N" n="69"/>clericos quasi duo latera vnius corporis. sinistrum scilicet layci  
-          <!--264b.xml-->
-          <cb ed="#N" n="b"/>
-          <lb ed="#N" n="70"/>quia terrenae vitae necessaria tractant. dextrum clerici quia ea  
-          <lb ed="#N" n="71"/>quae ad spiritualem vitam pertinent ministrant. duae autem sunt vitae cor 
-          <lb ed="#N" n="72"/>respondentes. terrenam et caelestis: corporalis et spiritualis. Et du- 
-          <lb ed="#N" n="73"/>plex potestas saecularis et spiritualis. Saecularis caput habet re- 
-          <lb ed="#N" n="74"/>gem. Spiritualis habet summum pontificem. Spiritualis potestas prior  
-          <lb ed="#N" n="75"/>est terrena siue saeculari et dignitate scilicet quantum vita spiritualis  
-          <lb ed="#N" n="76"/>dignior est quam terrena et spiritus quam corpus. Et institutio est. quod  
-          <lb ed="#N" n="77"/>patet per hoc quod in lege veteri primum a deo sacerdotium institu 
-          <lb ed="#N" n="78"/>tum est. postea per sacerdotium iubente domino regalis potestas ordi 
-          <lb ed="#N" n="79"/>nata est. et prior etiam est potestas. Nam spiritualis potestas terrenam  
-          <lb ed="#N" n="80"/>potestatem instituere habet vt sit et iudicare habet si bona non  
-          <lb ed="#N" n="81"/>fuerit. Spiritualis potestas primum instituta est: et cum deuiat a so- 
-          <lb ed="#N" n="82"/>lo deo iudicari debet. Unde i. Corin ii Spiritualis iudicat  
-          <lb ed="#N" n="83"/>omnia et ipse a nemine iudicatur. Quia regalis potestas ordinata est  
-          <lb ed="#N" n="84"/>et instituta per spiritualem. patet per hoc. quia adhuc in ecclesia sa 
-          <lb ed="#N" n="85"/>cerdotalis dignitas regalem potestatem sacrat. et sanctificans per  
-          <lb ed="#N" n="86"/>benedictionem et formans per institutionem. Unde regalis potestas  
-          <lb ed="#N" n="87"/>iure inferior aestimatur. Ista ergo duplici potestate indiget et  
-          <lb ed="#N" n="88"/>et regitur ecclesia in membris et duplex vita moderatur. propter  
-          <lb ed="#N" n="89"/>quod pro utraque orat ecclesia. primo tamen pro spirituali qua si  
-          <lb ed="#N" n="90"/>digniori: secundo pro saeculari quasi inferiori. Et omnibus or 
-          <lb ed="#N" n="91"/>thodoxis qui sub vtraque potestate fidem tenent apostolicam et ve- 
-          <lb ed="#N" n="92"/>nerantur. Ut enim dicit Isido. Orthodoxus est recte credens  
-          <lb ed="#N" n="93"/>et vt credit viuens. ortho enim graecae recte dicitur latinae. doxa  
-          <lb ed="#N" n="94"/>gloria. hoc eset vir recte gloriae. Tales enim sunt recte glorio- 
-          <lb ed="#N" n="95"/>si. qui deum recte fidei confessione glorificant. atque catholi 
-          <lb ed="#N" n="96"/>cae et apostolicae fidei cultoribus.
+          <p xml:id="v78d89-e1e706-d1e782">
+            ⁋ Hic oritur
+            <lb ed="#N" n="5"/>questio. vtrum antequam solennitas misse complertur liceat discendere
+            <lb ed="#N" n="6"/>Quod non: videtur de conse. di. i. vbi dicitur. omnes fideles qui
+            con<lb ed="#N" n="7" break="no"/>ueniunt in solennitatibus sanctis ad ecclesiam et scripturas
+            apo<lb ed="#N" n="8" break="no"/>stolorum et euangelistarum audiant. qui autem non perseuerauerit
+            <lb ed="#N" n="9"/>in oratione vsquedum missa peragatur nec sanctam communionem percipiunt
+            <lb ed="#N" n="10"/>velut inquietudines ecclesie commouentes conuenit communione
+            pri<lb ed="#N" n="11" break="no"/>uari. Item eodem infra. Missas die dominica secularibus totas
+            au<lb ed="#N" n="12" break="no"/>dire speitiali ordine precipimus: ita vt ante benedictionem
+            sacerdo<lb ed="#N" n="13" break="no"/>tis egredi populus non presumat. quod si fecerint: ab episcopo publice
+            <lb ed="#N" n="14"/>confundantur. Ex his videtur quod non licet discedere ante missarum
+            con<lb ed="#N" n="15" break="no"/>sumationem et sacerdotis benedictionem. cum non perseuerantes conue
+            <lb ed="#N" n="16"/>nit communione preuari. cum hoc non conuenit nisi propter delictum
+            <lb ed="#N" n="17"/>grande. Et cum datur preceptum in canone quod tota missa audiatur
+            <lb ed="#N" n="18"/>maxime in dominica.
           </p>
-          <p xml:id="v78d89-e1e706-d1e657">
-            ¶ hoc videtur supeflue ap 
-          <lb ed="#N" n="97"/>positum cum tales sint orthdoxi. Responsio quod hoc non super- 
-          <lb ed="#N" n="98"/>fluit. quia expressius cultus fidei per hoc additum declaratur  
-          <lb ed="#N" n="99"/>quantum est ex parte sermonis. Dicitur autem apostolicae fidei. quia  
-          <lb ed="#N" n="100"/>apostoli fuerunt fidei fundatores supra primum fundamentum scilicet  
-          <lb ed="#N" n="101"/>christum qui est fundamentum eorum. Ephe ii Superaedificati super  
-          <lb ed="#N" n="102"/>fundamentum apostolorum ergo apostolici et prophetae dicuntur funda- 
-          <lb ed="#N" n="103"/>menta. Unde psalmus fundamenta eius in montibus sanctis christus  
-          <lb ed="#N" n="104"/>est primum et maximum fundamentum.
+          <p xml:id="v78d89-e1e706-d1e815">
+            ⁋ Responsio. quod qui ex consuetudine vel
+            supersti<lb ed="#N" n="19" break="no"/>tione recedunt ab ecclesia ante missarum consumationem in
+            solennita<lb ed="#N" n="20" break="no"/>tibus: peccant grauiter. et sic intelligi potest quod dicitur in primo
+            <lb ed="#N" n="21"/>decreto. Qui non perseuerauerit etc id est qui habent consuetudinem
+            <lb ed="#N" n="22"/>non perseuerare etc. vel qui ex superstitione habent quod non perseuerant.
+            <lb ed="#N" n="23"/>Et attendendum est quod ibi dicitur velut inquietudines ecclesie
+            con<lb ed="#N" n="24" break="no"/>mouentes hoc autem quasi causa institutionis interseritur. qua
+            <lb ed="#N" n="25"/>cessante cessabit pariter quod vrgebat. et ita non priuabitur
+            commu<lb ed="#N" n="26" break="no"/>nione id est non excommunicatur. vel potest dici quod hoc olim obtinuit modo
+            <lb ed="#N" n="27"/>non.
           </p>
-          <div xml:id="v78d89-e1e706-Dd1e774">
-            <head xml:id="v78d89-e1e706-Hd1e776">1</head>
-          <p xml:id="v78d89-e1e706-d1e677">
-          <lb ed="#N" n="105"/>Memento domine  
-          <lb ed="#N" n="106"/>famulorum. In hac parte specialius postulatur fidelium  
-          <lb ed="#N" n="107"/>promotio a consecrante. In parte enim praecedenti postu-latur  
-          <lb ed="#N" n="108"/>promotio ecclesiae cum membris cunctis in generali 
-          <lb ed="#N" n="109"/>scilicet praelatis et subditis ibi. Cum famulo tuo papa etc  
-          <lb ed="#N" n="110"/>hic specialius postulatur promotio virorum ac mulierum ibi. me- 
-          <lb ed="#N" n="111"/>mento domine famulorum famularumque tuarum. sacerdotum et astan 
-          <lb ed="#N" n="112"/>tium ibi. Et omnium circumstantium. pro quibus tibi offerimus  
-          <lb ed="#N" n="113"/>vel qui tibi offerunt hoc sacrificium laudis. nostrum et nostro 
-          <lb ed="#N" n="114"/>rum ibi prosae suisque omnibus. post subditur quantum ad quid po 
-          <lb ed="#N" n="115"/>stulatur eorum promotio ibi. Pro redemptione animarum suaru  
-          <lb ed="#N" n="116"/>Et a quo ibi. Tibi reddunt vota sua etc. Dicit ergo. Me- 
-          <lb ed="#N" n="117"/>mento domine.
+          <p xml:id="v78d89-e1e706-d1e837">
+            ⁋ Ad aliud quod dicitur. Precipimus missas totas audire
+            <lb ed="#N" n="28"/>etc. Dicendum quod preceptum illud ordinationem sonat. vt est sensus
+            <lb ed="#N" n="29"/>precipimus id est ordinamus. vnde tales contra ordinationem canonis
+            <lb ed="#N" n="30"/>faciunt nisi alia cogat necessitas. et si ex consuetudine faciunt
+            <lb ed="#N" n="31"/>sine causa vrgente grauiter peccant.
           </p>
-          <p xml:id="v78d89-e1e706-d1e708">
-            ¶ hic quaeritur cum nihil ignoret dei sapientia  
-          <lb ed="#N" n="118"/>nec alicuius valet obliuisci: quid est quod postulatur vt memo 
-          <lb ed="#N" n="119"/>retur aliquorum. 
+          <p xml:id="v78d89-e1e706-d1e848">
+            ⁋ Quorum tibi fides
+            co<lb ed="#N" n="32" break="no"/>gnita est et nota deuotio. quasi diceret. qui propiciaris
+            fideli<lb ed="#N" n="33" break="no"/>bus et deuotis. qui solus vides in conscientiis qui recte credunt
+            <lb ed="#N" n="34"/>et deuote sumunt. vtpote qui es scrutator renum et cordium
+            Hie<lb ed="#N" n="35" break="no"/>re. xvii. qui absconditorum es cognitor et nosti omnia antequam fiant
+            <lb ed="#N" n="36"/>Dan. xiiii. Pro quibus tibi offerimus. vel qui tibi offerunt. quasi
+            <lb ed="#N" n="37"/>diceret. Memento domine. non solum eorum pro quibus offerimus. sed et
+            <lb ed="#N" n="38"/>sacerdotum qui offerunt. Cum enim sacerdos offert pro
+            populo<lb ed="#N" n="39" break="no"/>nihilominus pro se. vel ideo dicit pro quibus tibi offerimus vel
+            <lb ed="#N" n="40"/>qui tibi offerunt. quia non solum offerunt sacerdotes. sed
+            vniuersi<lb ed="#N" n="41" break="no"/>fideles. Nam quod specialiter adimpletur ministerio sacerdotum:
+            <lb ed="#N" n="42"/>pluraliter agitur voto fidelium. hoc sacrificium laudis. hoc
+            dici<lb ed="#N" n="43" break="no"/>tur quia propter hoc maxime laudare deum debemus quod non solum
+            <lb ed="#N" n="44"/>se dederit pro nobis in precium: sed etiam se dederit nobis in cibum.
+            <lb ed="#N" n="45"/>vt per precium redimeret nos a morte: per cibum aleret nos ad
+            vi<lb ed="#N" n="46" break="no"/>tam. Unde qui manducat me viuet propter me Iob. vi.
+            Pro<lb ed="#N" n="47" break="no"/>se suisque omnibus videlicet consanguineis vel affinibus
+            familia<lb ed="#N" n="48" break="no"/>sribus vel amicis. licet enim teneamur diligere inimicos. secundum
+            il<lb ed="#N" n="49" break="no"/>lud Math. diligite inimicos vratros: seruare tamen debemus
+            or<lb ed="#N" n="50" break="no"/>dinem caritatis. Can. ii. Introduxit me rex in cellam
+            vinari<lb ed="#N" n="51" break="no"/>am ordinauit in me caritatem. Estimo nihilominus quod si
+            sacer<lb ed="#N" n="52" break="no"/>dos proferendo hec verba cum suos inimicos amplecteretur
+            vtili<lb ed="#N" n="53" break="no"/>us sibi et deo acceptabilius ipsa eadem proferret. Pro redemptione
+            <lb ed="#N" n="54"/>animarum suarum quasi non pro temporali lucro vel appetitu terreno sed pro
+            <lb ed="#N" n="55"/>redemptione animarum suarum id est remissione peccati. Pro spe
+            salu<lb ed="#N" n="56" break="no"/>tis. et incol scilicet id est pro salute vel incolumitate sperata. Spe namque
+            <lb ed="#N" n="57"/>salui facti sumus Ro. viii. Pro salute mentis et incolumitate
+            <lb ed="#N" n="58"/>corporis. Nam vtraque sanitas est ab illo qui dicit. Salus
+            <lb ed="#N" n="59"/>populi ego sum. verum vtraque sanitas prouenit ex redemptione
+            <lb ed="#N" n="60"/>anime id est de remissione peccati sicut econtra de reatu peccati
+            pro<lb ed="#N" n="61" break="no"/>cedit infirmitas vtriusque secundum sententiam veritatis. Ioh. v.
+            Ec<lb ed="#N" n="62" break="no"/>ce inquit sanus factus es. iam noli amplius peccare ne deterius
+            <lb ed="#N" n="63"/>aliud tibi contingat. Porro tria sunt hominis bona corporalia
+            <lb ed="#N" n="64"/>spiritualia et eterna. videlicet infima. media et suprima. pro
+            qui<lb ed="#N" n="65" break="no"/>bus sacerdos se dicit offerre. pro corporalibus id est incolumitate. pro
+            <lb ed="#N" n="66"/>spiritualibus id est redemptione. pro eternis id est salute. Nam et dominus
+            <lb ed="#N" n="67"/>docet nos pro his tribus orare Math. v. Pro eternis vnde
+            <lb ed="#N" n="68"/>adueniat regnum tuum. Pro spiritualibus vnde fiat voluntas
+            <lb ed="#N" n="69"/>tua sicut in celo et in terra. Pro corporalibus vnde Panem
+            <lb ed="#N" n="70"/>nostrum quotidianum da nobis hodie.
           </p>
-            <p xml:id="v78d89-e1e706-d1e81z">
-            Responsio. deus dicitur scire quos approbat. Unde  
-          <lb ed="#N" n="120"/>ii Thimo. ii. Novit dominus qui sunt eius. et dicitur nescire quos  
-          <lb ed="#N" n="121"/>reprobat. vnde Math. vii. Numquam noui vos. Rursus dicitur  
-          <lb ed="#N" n="122"/>obliuisci malorum: cum malus ad bonum conuertitur. vnde Ezech.  
-          <lb ed="#N" n="123"/>xviii. Si impius egerit penitentiam omnium iniquitatu eius nonre- 
-          <lb ed="#N" n="124"/>cordabor. et dicitur obliuisci bonorum cum bonus ad malum peruer- 
-          <lb ed="#N" n="125"/>titur. vnde Ezech. Si iustus auerterit se a iustitia sua omnes  
-          <lb ed="#N" n="126"/>iustitias eius non recordabor. Deus ergo quandoque recordatur ad mi 
-          <lb ed="#N" n="127"/>serandum. unde Joh. vii. memento mei deus quia ventus est vi- 
-          <lb ed="#N" n="128"/>ta mea. Quandoque recordatur ad puniendum. unde psalmus. Memento do- 
-          <lb ed="#N" n="129"/>mine mea. Quandoque recordatur ad puniendum. vnde psalmus Memento do- 
-          <lb ed="#N" n="130"/>mine memimerit: petitur vt illorum misereatur secundum illud remiscere  
-          <lb ed="#N" n="131"/>miserationum tuarum domine et misericordiarum tuarum quae a saeculo sunt. Ex  
-          <lb ed="#N" n="132"/>hac aut serie uerborum. Memento do. fa. a. t. et omnium circumstantium  
-          <lb ed="#N" n="133"/>patet quod hoc sit locus. ubi conuenti quod sacerdos pro his quos vult specialiter  
-          <lb ed="#N" n="134"/>imploret scilicet per notam copulationis quae non solet copulare partem  
-          <lb ed="#N" n="135"/>contentam toti continenti. Quia enim doc famulorum famularumque tuarum  
-          <lb ed="#N" n="136"/>continet quod dico omnium circumstantium. viuorum autem debet hic  
-          <lb ed="#N" n="137"/>fieri commemoratio. in sequentibus uero occurrit locus in quo fiet  
-          <lb ed="#N" n="138"/>memoria defunctorum.
+          <p xml:id="v78d89-e1e706-d1e935">
+            ⁋ Queritur cum dica
+            <lb ed="#N" n="71"/>tur. ii. Corin. xii. Quod virtus in infirm itate perficitur. et
+            cum<cb ed="#N" n="b"/><lb ed="#N" n="72" break="no"/>infirmior tunc potens sum: quid est quod pro corporis incolumitate
+            <lb ed="#N" n="73"/>sacrificium offertur ab ecclesia. Responsio. vt infirmitati nostre
+            <lb ed="#N" n="74"/>condescendens nobis occasionem impatientie precludat. et
+            conserua<lb ed="#N" n="75" break="no"/>ta vel reddita sanitate gratiarumactiones domino referamus.
           </p>
-          <p xml:id="v78d89-e1e706-d1e756">
-            ¶ Et omnium circumstantium. hic euidenter  
-          <lb ed="#N" n="139"/>apparet quam sanctum et salubre sit missarum solemniis interesse. 
-          <!--265.xml-->
-          <pb ed="#N" n="265"/>
-          <cb ed="#N" n="a"/>
-          <lb ed="#N" n="1"/>Cum pro circumstantibus fiat oratio specialis et sacrificium euchari- 
-            <lb ed="#N" n="2"/>stiae pro eisdem offeratur. propter quod scriptum est <ref xml:id="v78d89-e1e706-Rd1e771" target="http://scta.info/resource/gd-p3d1-d1e1054">de conse. 
-          <lb ed="#N" n="3"/>dis. i.</ref> <quote xml:id="v78d89-e1e706-Qd1e776">Cum ad celebrandas missas in dei nomine conuenerit  
-          <lb ed="#N" n="4"/>populus: ante non discedat quam missa compleatur</quote>.
+          <p xml:id="v78d89-e1e706-d1e949">
+            <lb ed="#N" n="76"/>⁋ Cibi reddunt vota sua. hic queritur cum noltra demus et
+            alie<lb ed="#N" n="77" break="no"/>na reddamus. quomo dicuntur vota si sua reddunt et non potius
+            do<lb ed="#N" n="78" break="no"/>nant: vel si reddant quomo sua sunt et non potius dei. Responsio.
+            vo<lb ed="#N" n="79" break="no"/>tum et hominis est et dei. sed dei propter auctoritatem gratie: hominis
+            <lb ed="#N" n="80"/>propter libertatem arbitrii. propter quod dicitur. i. Corin. xv. Non
+            <lb ed="#N" n="81"/>autem ego sed gratia dei mecum. et. i. Corin. iii. coadiutores sumus
+            <lb ed="#N" n="82"/>dei. Eterno deo viuo et vero. dii dicuntur et homines et
+            demo<lb ed="#N" n="83" break="no"/>nes et imagines. sed homines adoptione: demones vsurpatione:
+            <lb ed="#N" n="84"/>immagines nuncupatione. Per adoptionem vt ibi. Ego dixi dii
+            <lb ed="#N" n="85"/>estis et filii excelsi omnes. Per vsurpationem vt ibi. Omnes
+            <lb ed="#N" n="86"/>dii gentium demonia. Per nuncupationem vt ibi appellauerunt
+            <lb ed="#N" n="87"/>deos opera manuum hominum. Primi sunt viui et veri sed non eter
+            <lb ed="#N" n="88"/>ni. Secundi sunt viui sed nec eterni nec veri. Tercii nec sunt
+            vi<lb ed="#N" n="89" break="no"/>ui nec veri nec eterni: sed ille solus est eternus et viuus et verus:
+            immo<lb ed="#N" n="90" break="no"/>vita veritas et eternitas qui deus est per essentiam. qui de se dicit
+            <lb ed="#N" n="91"/>Isa. xliiii. absque me non est deus. Licet autem hec obsecratio
+            spirit<lb ed="#N" n="92" break="no"/>siter dirigatur ad patrem propter auctoritatem principii vt dictum est
+            <lb ed="#N" n="93"/>secundum quod ipse filius docet nos orare dicens Math. vi. Pater
+            no<lb ed="#N" n="94" break="no"/>ster qui es in celis sanctificetur nomen tuum etc. Propter quod in
+            <lb ed="#N" n="95"/>principio canonis dicitur. Te igitur clementissime pater per ihum
+            <lb ed="#N" n="96"/>cchristum filium tuum dominum nostrum supplices rogamus ac petimus Itamen
+            in<lb ed="#N" n="97" break="no"/>diuidue trinitati sacrificium laudis offertur. scilicet tam patri quam
+            <lb ed="#N" n="98"/>Filio quam vtriusque spiritui. quorum sicut indiuisibilis est
+            maie<lb ed="#N" n="99" break="no"/>stas: sic et indiuisibilis adoratio. iuxta quod veritas dicit. Ue
+            <lb ed="#N" n="100"/>ri adoratores adorant patrem in spiritu et veritate nam qui deum
+            sa<lb ed="#N" n="101" break="no"/>tagit veraciter adorare: patrem adorat in spiritu et veritate id st in
+            <lb ed="#N" n="102"/>filio. quia pater essentialiter est in filio et filius naturaliter
+            <lb ed="#N" n="103"/>est in patre. et spiritus sanctus est substantialiter in vtroque. Unde
+            <lb ed="#N" n="104"/>Ioh. xiiii. Ego in patre et pater in me est. quare ita potest non
+            <lb ed="#N" n="105"/>indiscrete distingui. cum dicitur eterno deo viuo et vero: vt
+            <lb ed="#N" n="106"/>quod est commune secundum essentiam approprietur propter noticiam eternita
+            <lb ed="#N" n="107"/>tis patri ratione principii: quia pater a nullo est et omnia sunt
+            <lb ed="#N" n="108"/>ab ipso. filius per generationem. spiritus sanctus per processionem. cetera
+            <lb ed="#N" n="109"/>per creationem. Ueritas filio: qui de se dicit Ioh. xiiii. Ego sum
+            <lb ed="#N" n="110"/>veritas. Et de quo dicit psalmus. Ueritas de terra orta est.
+            Ui<lb ed="#N" n="111" break="no"/>ta spiritui sancto sicut habetur in simbolo. Credo in spirum sanctum
+            <lb ed="#N" n="112"/>dominum et viuificantem. qui ex patre filioque procedit. Totius ergo
+            <lb ed="#N" n="113"/>indiuidue trinitatis indiuisa est adoratio. que
+            principali<lb ed="#N" n="114" break="no"/>ter exhibetur in hoc sacrificio.
           </p>
-          <p xml:id="v78d89-e1e706-d1e783">
-            ¶ hic oritur  
-          <lb ed="#N" n="5"/>quaestio. vtrum antequam solemnitas missae compleatur liceat discedere  
-            <lb ed="#N" n="6"/>Quia non: didetur <ref xml:id="v78d89-e1e706-Rd1e867" target="http://scta.info/resource/gd-p3d1-d1e1008">de conse. di. i.</ref> vbi dicitur. <quote xml:id="v78d89-e1e706-Qd1e870">omnes fideles qui con 
-          <lb ed="#N" n="7"/>ueniunt in solenitatibus sanctis ad ecclesiam et scripturas apo 
-          <lb ed="#N" n="8"/>stolorum et euangelistarum audiant. qui autem non perseuerauerit  
-          <lb ed="#N" n="9"/>im oratione vsqedum missa peragatur nec sanctam communionem percipiunt  
-          <lb ed="#N" n="10"/>velut inquietudines ecclesiae conmouentes conuenit communione pri 
-          <lb ed="#N" n="11"/>uari</quote>. Item <ref xml:id="v78d89-e1e706-Rd1e883" target="http://scta.info/resource/gd-p3d1-d1e1039">eodem infra</ref>. <quote xml:id="v78d89-e1e706-Qd1e887">Missas die dominica secularibus totas au  
-          <lb ed="#N" n="12"/>dire speciali ordine praecipimus ita vt ante benedictionem sacerdo  
-          <lb ed="#N" n="13"/>tis egredi populus non praesumat. quod si fecerint: ab episcopo publice  
-          <lb ed="#N" n="14"/>confundantur</quote>. Ex his videtur quod non licet discedem ante missarum con- 
-          <lb ed="#N" n="15"/>umationem et sacerdotis benedictionem. cum non perseuerantes conue 
-          <lb ed="#N" n="16"/>nit communione praeuari. cum hoc non conuenit nisi propter delictum  
-          <lb ed="#N" n="17"/>grande. Et cum datur praeceptum in canone quod tota missa audiatur  
-          <lb ed="#N" n="18"/>maxime in dominica.
+          <p xml:id="v78d89-e1e706-d1e1037">
+            <lb ed="#N" n="115"/>Comuicates et me .§. ii.
+            <lb ed="#N" n="116"/>moriam venerantes. Hic mediantibus sanctis postulatur
+            fideli<lb ed="#N" n="117" break="no"/>um promotio. Primo ergo ponitur sanctorum
+            commemora<lb ed="#N" n="118" break="no"/>tio. Secundo commemorantis postulatio. ibi quorum
+            meri<lb ed="#N" n="119" break="no"/>tis etc. Dicitur ergo communicantes scilicet sanctis id est nos
+            <lb ed="#N" n="120"/>existentes in communione sanctorum scilicet per fidem. In
+            <lb ed="#N" n="121"/>via enim communicamus sanctis per fidem. quam ipsi habuerunt
+            <lb ed="#N" n="122"/>et nos habemus. In patria vero perticipabimus eis prouisionem
+            <lb ed="#N" n="123"/>speciei: quam ipsi habent et nos habebimus. Nos enim fidem
+            ha<lb ed="#N" n="124" break="no"/>bemus et spem: illi visionem speciei et rem. Communicamus ergo et
+            ve<lb ed="#N" n="125" break="no"/>neramur memoriam sanctorum et precipue gloriose virginis et beato
+            <lb ed="#N" n="126"/>rum apostolorum et martirum vt eorum suffragio de fide perducamur
+            <lb ed="#N" n="127"/>ad speciem: de spe ad ipsam rem. In hac autem commemoratione
+            san<lb ed="#N" n="128" break="no"/>ctorum conseruat ecclesia quod antiquitus fieri solebat. vt in orationibus
+            <lb ed="#N" n="129"/>patrum memoria recoleretur. quatenus eorum meritis
+            suffraganti<lb ed="#N" n="130" break="no"/>bus: facilius quod petebant impetrarent. sicut moyses pro
+            populo<lb ed="#N" n="131" break="no"/>peccante intercedens inquit Exo. xxxii. Recordare abraham et
+            <lb ed="#N" n="132"/>ysaac et iacob seruorum tuorum. sic azarias in fornace Dan. iii.
+            <lb ed="#N" n="133"/>Ne auferas a nobis misericordiam tuam domine deus noster propter
+            abra<lb ed="#N" n="134" break="no"/>ham dilectum tuum et ysaac seruum tuum et iacob sanctum tuum.
           </p>
-          <p xml:id="v78d89-e1e706-d1e816">
-            ¶ Responsio. quod qui ex consuetudine vel supersti- 
-          <lb ed="#N" n="19"/>tione recedunt ab ecclesia ante missarum consumationem in solemnita-  
-          <lb ed="#N" n="20"/>tibus: peccant grauiter. et sic intelligi pont quod dicitur in primo  
-          <lb ed="#N" n="21"/>decreto. Qui non perseuerauerit etc. id est qui habet consuetudinem  
-          <lb ed="#N" n="22"/>non perseuerare etc. vel qui ex superstitione habent quod non persuerant.  
-          <lb ed="#N" n="23"/>Et attendendum est quod ibi dicitur velut inquietudines ecclesiae com 
-          <lb ed="#N" n="24"/>mouentes hoc autem quasi causa institutionis interseritur. qua  
-          <lb ed="#N" n="25"/>cessante cessabit paritur quod vrgebat. et ita non priuabitur commu- 
-          <lb ed="#N" n="26"/>tione. id est non excommunicatur. vel potest dici quod hoc olim obtinuit modo 
-          <lb ed="#N" n="27"/>non.
+          <p xml:id="v78d89-e1e706-d1e1083">
+            ⁋ Hic
+            <lb ed="#N" n="135"/>queritur cur in canone nulla fit commemoratio confessorum. cum tamen inter
+            <lb ed="#N" n="136"/>sanctos memoria eorum honorifice veneretur ecclesia. Responsio. quod
+            <lb ed="#N" n="137"/>canon misse prius fuit editus quam memoriam confessorum celebraret ec
+            <lb ed="#N" n="138"/>clesia. Nam omnes fere sancti qui commemorantur in canone
+            <lb ed="#N" n="139"/>precesserunt siluestrum preter iohnem et paulum marcellinum et
+            pe<lb ed="#N" n="140" break="no"/>trum qui primo successerunt. Ecclia vero post tempora beati
+            siluestri<lb ed="#N" n="141" break="no"/>cepit sanctorum confessorum memoriam celebrare.
           </p>
-          <p xml:id="v78d89-e1e706-d1e838">
-            ¶ Ad aliud quod dicitur. Precipimus missas totas audire  
-          <lb ed="#N" n="28"/>etc Dicendum quod praeceptum illud ordinationem sonat. vt est sensus  
-          <lb ed="#N" n="29"/>praecipimus id est ordinamus. vnde tales contra ordinationem canonis  
-          <lb ed="#N" n="30"/>faciunt nisi alia cogat necessitas. et si ex consuetudine faciunt  
-          <lb ed="#N" n="31"/>sine causa vrgente grauiter peccant.
+          <p xml:id="v78d89-e1e706-d1e1101">
+            ⁋ Quorum
+            me<pb ed="#N" n="241"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>ritis. hic facta commemoratione sanctorum subditur postulatio
+            comme<lb ed="#N" n="2" break="no"/>morantis. Hic igitur primo postulatur beneficium diuine
+            prote<lb ed="#N" n="3" break="no"/>ctionis scilicet a malo. Secundo beneficium diuine perductionis ad
+            <lb ed="#N" n="4"/>bonum scilicet ibi. hanc igitur oblationem. dicitur ergo quorum scilicet
+            predi<lb ed="#N" n="5" break="no"/>ctorum sanctorum meritis precibusque concedas. Multum enim solent
+            <lb ed="#N" n="6"/>merita sanctorum precedentium succedentibus suffragari.
+            Unde<lb ed="#N" n="7" break="no"/>cum Ezechias diuinum postularet auxilium. responsum est sibi
+            pro<lb ed="#N" n="8" break="no"/>tegam vrbem hanc et saluabo eam propter me et propter dauid
+            <lb ed="#N" n="9"/>seruum meum Isa. xxxvii. Ut in omnibus protectionis tue munia
+            <lb ed="#N" n="10"/>mur auxilio. hic notandum quod in hac commemoratione que fit ante
+            <lb ed="#N" n="11"/>consecrationem corporis christi: postulatur suffragium sanctorum. In ea
+            <lb ed="#N" n="12"/>vero que fit post consecrationem corporis christi: sanctorum consortium
+            <lb ed="#N" n="13"/>imploratur. quia nimirum antequam corpus christi quod est
+            vniuer<lb ed="#N" n="14" break="no"/>salis ecclesia consecretur id est antequam regnum adueniat:
+            necessari<lb ed="#N" n="15" break="no"/>um est nobis in via sanctorum suffragium. vt meritis eorum et
+            <lb ed="#N" n="16"/>precibus diuine protectionis muniamur auxilio. sed vbi corpus
+            <lb ed="#N" n="17"/>christi fuerit consecratum id est vbi regnum aduenerit: assequemur
+            <lb ed="#N" n="18"/>in patria sanctorum consortium. vt societatem et partem cum
+            san<lb ed="#N" n="19" break="no"/>ctis apostolis et martiribus habeamus. quod in commemoratione
+            <lb ed="#N" n="20"/>sanctorum infra postulatur vt patet ibidem.
           </p>
-          <p xml:id="v78d89-e1e706-d1e849">
-            ¶ Quorum tibi fides co- 
-          <lb ed="#N" n="32"/>gnita est et nota deuotio. quasi diceret. qui propiciaris fideli- 
-          <lb ed="#N" n="33"/>bus et deuotis. qui solus vides in conscientiis qui recte credunt  
-          <lb ed="#N" n="34"/>et deuote sumunt. vtpote qui es scrutator renum et cordium hie-  
-          <lb ed="#N" n="35"/>re. xvii. qui absconditorum es cognitor et nosti omnia antequam fiant  
-          <lb ed="#N" n="36"/>Dan. xiiii. Pro quibus tibi offerimus. vel qui tibi offerunt. quasi 
-          <lb ed="#N" n="37"/>diceret. Memento domine. non solum eorum pro quibus offerimus. sed et  
-          <lb ed="#N" n="38"/>sacerdotum qui offerunt. Cum enim sacerdos offert pro populo 
-          <lb ed="#N" n="39"/>nihilominus pro se. vel ideo dicit pro quibus tibi offerimus vel 
-          <lb ed="#N" n="40"/>qui tibi offerunt. quia non solum offerunt sacerdotes. sed vniuersi 
-          <lb ed="#N" n="41"/>fideles. Nam quod specialiter adimpletur ministerio sacerdotum:  
-          <lb ed="#N" n="42"/>pluraliter agitur voto fidelium. hoc sacrificium laudis. hoc dici 
-          <lb ed="#N" n="43"/>tur quia propter hoc maxime laudare deum debemus quod non solum 
-          <lb ed="#N" n="44"/>se dederit pro nobis in praecium: sed etiam se dederit nobis in cibum.  
-          <lb ed="#N" n="45"/>vt per precium redimeret nos a morte: per cibum aleret nos ad vi 
-          <lb ed="#N" n="46"/>tam. Unde qui manducat me viuet propter me Joh. vi. Pro 
-          <lb ed="#N" n="47"/>se suisque omnibus videlicet consanguineis vel affinibus familiam.  
-          <lb ed="#N" n="48"/>ribus vel amicis. licet ei teneamur diligem inimicos. secundum il- 
-          <lb ed="#N" n="49"/>lud Math. diligite inimicos vestros: seruare tamen debemus or- 
-          <lb ed="#N" n="50"/>dinem caritatis. Can. ii. Introduxit me rex in cellam vinari 
-          <lb ed="#N" n="51"/>am ordinauit in me caritatem. AEstimo nihilominus quod si sacer  
-          <lb ed="#N" n="52"/>dos proferendo haec verba cum suos inimicos amplecteretur vtili 
-          <lb ed="#N" n="53"/>us sibi et deo acceptabilius ipsa eadem proferret. Pro redemptione 
-          <lb ed="#N" n="54"/>animarum suarum quasi non pro temporali lucro vel appetitu terreno sed pro 
-          <lb ed="#N" n="55"/>redemptione animarum suarum id est remissione peccati. Pro spe salu  
-          <lb ed="#N" n="56"/>tis. et incol. s.i. pro salute vel incolumitate sperata. Spe namque 
-          <lb ed="#N" n="57"/>salui facti sumus Ro. viii. Pro salute mentis et incolumitate  
-          <lb ed="#N" n="58"/>corporis. Nam vtraque sanitas est ab illo qui dicit. Salus  
-          <lb ed="#N" n="59"/>populi ego sum. verum vtraquem sanitas prouenit ex redemptione 
-          <lb ed="#N" n="60"/>animae id est de remissione peccati sicut econtra de reatu peccati pro- 
-          <lb ed="#N" n="61"/>cedit infirmitas vtriusque secundum sententiam veritatis. Joh. v. Ec-  
-          <lb ed="#N" n="62"/>ce inquit sanus factus es. iam noli amplius peccare ne deterius  
-          <lb ed="#N" n="63"/>aliud tibi contingat. Porro tria sunt hominis bona corpalia  
-          <lb ed="#N" n="64"/>putalia et eterna. videlicet infima media et suprima. pro qui-  
-          <lb ed="#N" n="65"/>bus sacerdos se dicit offerre. pro corpalibus id est incolumitate. pro- 
-          <lb ed="#N" n="66"/>spiritualibus id est redemptione. pro aeternis id est salute. Nam et dominus  
-          <lb ed="#N" n="67"/>docet nos pro his tribus orare Math. v. Pro aeternis vnde tua 
-          <lb ed="#N" n="68"/>adueniat regnam tuum. Pro spiritualibus vnde fiat voluntas  
-          <lb ed="#N" n="69"/>tua sicut in celo et in terra. Pro corporalibus unde Panem  
-          <lb ed="#N" n="70"/>nostrum quotidianum da nobis hodie.
+          <p xml:id="v78d89-e1e706-d1e1149">
+            <lb ed="#N" n="21"/>vanc iuituroola . §. iii.
+            <lb ed="#N" n="22"/>tionem. hic postulatur beneficium diuine perductionis ad bonum
+            <lb ed="#N" n="23"/>quantum ad quatuor que sunt. Cultus acceptatio ibi.
+            Quesu<lb ed="#N" n="24" break="no"/>sumus domine vt pla. ac. Pacis reformatio ibi. diesque nostros in
+            <lb ed="#N" n="25"/>tua. p. d. A penis damnatorum segregatio ibi. atque ab eterna
+            <lb ed="#N" n="26"/>damnatione etc. Cum electis premiatio ibi. et in electorum etc. Facta
+            <lb ed="#N" n="27"/>ergo mentione de sanctis et eorum memorie veneratione
+            subiun<lb ed="#N" n="28" break="no"/>gitur de oblatione sacrificii cum dicitur. hanc igitur
+            oblatio<lb ed="#N" n="29" break="no"/>nem etc. sic insinuans. quoniam non est locus offerendi
+            sacrifi<lb ed="#N" n="30" break="no"/>cium vnitatis extra vnitatem ecclesie. Sanctorum ergo
+            me<lb ed="#N" n="31" break="no"/>morie in sacrificio communicamus: quatenus in communione
+            san<lb ed="#N" n="32" break="no"/>ctorum sacrificium offeramus
           </p>
-          <p xml:id="v78d89-e1e706-d1e936">
-            ¶ Queritur cum dica  
-          <lb ed="#N" n="71"/>tur. ii. Corin. xii. Quia <quote xml:id="v78d89-e1e706-Qd1e940" source="http://scta.info/resource/IIcor12_9">virtus in infirmitate perficitur</quote>. et cum  
-          <!--265.xml b-->
-          <cb ed="#N" n="b"/>
-          <lb ed="#N" n="72"/>infirmior tunc potens sum: quid est quod pro corporis incolumitate 
-          <lb ed="#N" n="73"/>sacrificium offertur ab ecclesia: Responsio. vt infirmitati nostrae  
-          <lb ed="#N" n="74"/>descendens nobis occasionem impatientie praecludat. et conserua-  
-          <lb ed="#N" n="75"/>ta vel reddita sanitate gratiarum actiones domino referamus.
+          <p xml:id="v78d89-e1e706-d1e1178">
+            ⁋ Hanc igitur oblationem de
+            <lb ed="#N" n="33"/>qua supradictum est. hec dona hec munera hec sancta
+            sa<lb ed="#N" n="34" break="no"/>crificia illibata. seruitutis nostre sed et cuncte fa. t. Ifla
+            con<lb ed="#N" n="35" break="no"/>iungit: quia non solum offerunt sacerdotes. sed vniuersi fide
+            <lb ed="#N" n="36"/>les vt tactum est. Nota quod due sunt species seruitutis. vna que
+            <lb ed="#N" n="37"/>foli creatori debetur et dicitur latria. altera que creature
+            impen<lb ed="#N" n="38" break="no"/>ditur et dicitur dulia. de hac duplici dicitur Math. xxii.
+            Red<lb ed="#N" n="39" break="no"/>dite que sunt cesaris cesari et que sunt dei deo. Ad latriam
+            <lb ed="#N" n="40"/>pertinent. altaria. templa. sacerdotia. sacrificia et huiusmodi. que
+            <lb ed="#N" n="41"/>e solummodo cultui dei sunt dedicata. qui gloriatur in concilio
+            san<lb ed="#N" n="42" break="no"/>ctorum magnus et terribilis iliceto. qui incir. eius sunt. Non enim
+            <lb ed="#N" n="43"/>proprie loquendo sanctis ad honorem dei dedicantur templa.
+            con<lb ed="#N" n="44" break="no"/>secrantur altaria. sacerdotia statuuntur. sacrificia
+            offerun<lb ed="#N" n="45" break="no"/>tur. sed deo potius ad honorem sanctorum. ne forte si secus
+            age<lb ed="#N" n="46" break="no"/>retur: non theosebia sed ydolatria committeretur. Hinc dixit dominus
+            <lb ed="#N" n="47"/>Math. iiii. dominum deum tuum adorabis. et illi soli seruies id est
+            soli<lb ed="#N" n="48" break="no"/>deo seruitutem cultus impendes. de qua hic dicitur. hanc
+            ob<lb ed="#N" n="49" break="no"/>lationem seruitutis nostre etc. quesumus domine vt placatus id est
+            si<lb ed="#N" n="50" break="no"/>ne offensa accipias id est sit tibi accepta et grata. diesque nostros
+            <lb ed="#N" n="51"/>etc. Beatus greg. has txes petitiones dicitur in canone
+            addidis<lb ed="#N" n="52" break="no"/>se. scilicet dies nostros in tua pace disponas. per eum qui pro nobis
+            <lb ed="#N" n="53"/>traditus est in manus eorum qui oderunt pacem. atque ab eterna
+            dan<lb ed="#N" n="54" break="no"/>natione nos eripi. per eum qui pro nobis temporali morte damnatus est
+            <lb ed="#N" n="55"/>iuxta illud et condemnauerunt eum morti. Et in electorum tuorum
+            iu<lb ed="#N" n="56" break="no"/>beas grege numerari. per eum qui pronobis deputatus est cum iniquis
+            <lb ed="#N" n="57"/>Isa. iiii.
           </p>
-          <p xml:id="v78d89-e1e706-d1e957">
-          <lb ed="#N" n="76"/>¶ Tibi reddunt vota sua. hic quaeritur cum nostra demus et alie-  
-          <lb ed="#N" n="77"/>na reddamus. quomodo dicuntur vota si sua reddunt et non potius do 
-          <lb ed="#N" n="78"/>nant: vel si reddant quomodo sua sunt et non potius dei. Responsio vo- 
-          <lb ed="#N" n="79"/>tum et hominis est et dei. sed dei propter auctoritatem gratiae: hominis  
-          <lb ed="#N" n="80"/>propter libertatem arbitrii. propter quod dicitur. i Corin xv <quote xml:id="v78d89-e1e706-Qd1e970" source="http://scta.info/resource/Icor15_10">Non 
-          <lb ed="#N" n="81"/>autem ego sed gratia dei mecum</quote>. et i Corin. iii. <quote xml:id="v78d89-e1e706-Qd1e975" source="http://scta.info/resource/Icor3_9">coadiutores sumus  
-          <lb ed="#N" n="82"/>dei</quote>. AEterno deo viuo et vero. dii dicuntur et homines et daemo- 
-          <lb ed="#N" n="83"/>nes et imagines. sed homines adoptione: daemones vsurpatione: 
-          <lb ed="#N" n="84"/>imagines nuncupatione. Per adoptionem vt ibi. Ego dixi dii 
-          <lb ed="#N" n="85"/>estis et filum excessi omnes. Per vsurpationem vt ibi. Omnes  
-          <lb ed="#N" n="86"/>dii gentium daemonia. Per nuncupationem vt ibi appellauerunt  
-          <lb ed="#N" n="87"/>deos opera manuum hominum. Primi sunt viui et veri sed non aeter  
-          <lb ed="#N" n="88"/>ni. Secundi sunt viui sed nec aeterni nec veri. Tercii nec sunt vi 
-          <lb ed="#N" n="89"/>ui nec veri nec aeterni: sed ille solus est aeternus et viuus et verus : immo  
-          <lb ed="#N" n="90"/>dita veritas et aeternitas qui deus est per essentiam. qui de se dicit  
-          <lb ed="#N" n="91"/>Isa. xliiii. absque me non est deus. Licet autem haec obsecratio span- 
-          <lb ed="#N" n="92"/>liter dirigatur ad patrem propter auctoritatem principii vt dictum est  
-          <lb ed="#N" n="93"/>secundum quod ipse filius docet nos orare dicens Math. vi. <quote xml:id="v78d89-e1e706-Qd1e1004" source="http://scta.info/resource/mt6_9">Pater no- 
-          <lb ed="#N" n="94"/>ster qui es in caelis sanctificetur nomen tuum</quote> etc. Propter quod in 
-          <lb ed="#N" n="95"/>principio canonis dicitur. <quote xml:id="v78d89-e1e706-Qd1e1011" source="http://scta.info/resource/mnvhfy-d1e53-d1e99">Te igitur clementissime pater per ihesum  
-          <lb ed="#N" n="96"/>christum filium tuum dominum nostrum supplices rogamus ac petimus</quote>: tamen in- 
-          <lb ed="#N" n="97"/>diuidue trinitati sacrificium laudis offertur. scilicet tam patri quam 
-          <lb ed="#N" n="98"/>ilio quam vtriusque spiritui. quorum sicut indiuisibilis est maie- 
-          <lb ed="#N" n="99"/>tas: sic et indiuisibilis adoratio. iuxta quod veritas dicit. Ue  
-          <lb ed="#N" n="100"/>ri adoratores adorant patrem in spiritu et veritate nam qui deum sa- 
-          <lb ed="#N" n="101"/>tagit vcraciter adorare: patrem adorat in spiritu et veritate id est in 
-          <lb ed="#N" n="102"/>filio. quia pater essentialiter est in filio et filius naturaliter  
-          <lb ed="#N" n="103"/>est in patre. et spiritus sanctus est substantialiter in vtroqu. Unde  
-          <lb ed="#N" n="104"/>Joh. xiiii. Ego in patre et pater in me est. quare ita potest non 
-          <lb ed="#N" n="105"/>indiscrete distingui. cum dicitur aeterno deo viuo et vero: vt  
-          <lb ed="#N" n="106"/>quod est commune secundum essentiam approprietur propter noticiam aeternita  
-          <lb ed="#N" n="107"/>tis patri ratione principii: quia pater a nullo est et omnia sunt  
-          <lb ed="#N" n="108"/>ab ipso. filius per generationem. spiritus sanctus per processionem. cetera  
-          <lb ed="#N" n="109"/>et creationem. Veritas filio: qui de se dicit Joh. xiii. Ego sum  
-          <lb ed="#N" n="110"/>veritas. Et de quo dicit psalmus. Veritas de terra orta est. Ui- 
-          <lb ed="#N" n="111"/>ta spiritus sancto sicut habetur in simbolo. Credo in spiritum sanctum  
-          <lb ed="#N" n="112"/>dominum et viuificantem. qui ex patre filioque procedit. Totius ergo  
-          <lb ed="#N" n="113"/>indiuidue trinitatis indiuisa est adoratio. quae principali- 
-          <lb ed="#N" n="114"/>ter exhibetur in hoc sacrificio.
+          <p xml:id="v78d89-e1e706-d1e1235">
+            ⁋ Nota hic quod est pax pectoris. Gal. v. fructus spiritus
+            <lb ed="#N" n="58"/>caritas. gaudium. pax. patientia. hanc pacem reliquit dominus
+            apo<lb ed="#N" n="59" break="no"/>stolis Ioh. xiiii. Pacem inquit relinquo vobis. Item est pax
+            <lb ed="#N" n="60"/>temporis. psalmus. Orietur in diebus eius iusticia et habundantia
+            <lb ed="#N" n="61"/>pacis. hanc pacem incessanter postulat ecclesia dicens. Da
+            pa<lb ed="#N" n="62" break="no"/>cem domine in diebus nostris etc. Item est pax eternitatis Ioh.
+            <lb ed="#N" n="63"/>xiiii. Pacem meam do vobis. non quomo hic mundus dat: ego do
+            vo<lb ed="#N" n="64" break="no"/>bis. hic est pax super pacem. psalmus. In pace in idipsum dormiam et
+            <lb ed="#N" n="65"/>requiescam. Propter hanc triplicem pacem ter postulatur
+            pax<lb ed="#N" n="66" break="no"/>in missa. Primo cum dicitur dies nostros in tua pace
+            dispo<lb ed="#N" n="67" break="no"/>nas. Secundo cum dicitur. da propicius pacem in diebus nostris
           </p>
-          </div>
-          <div xml:id="v78d89-e1e706-Dd1e1172">
-            <head xml:id="v78d89-e1e706-Hd1e1174">2</head>
-          <p xml:id="v78d89-e1e706-d1e1057">
-          <lb ed="#N" n="115"/>Comunicantes ex me 
-          <lb ed="#N" n="116"/>moriam venerantes. Sic mediantibus sanctis postulatur fideli- 
-          <lb ed="#N" n="117"/>um promotio. Primo ergo ponitur sanctorum commemora- 
-          <lb ed="#N" n="118"/>tio. Secundo commemorantis postulatio. ibi quorum meri-  
-          <lb ed="#N" n="119"/>tis etc. Dicitur ergo comunicantes scilicet sanctis id est nos  
-          <lb ed="#N" n="120"/>existentes in comunione sanctorum scilicet per fidem. In - 
-          <lb ed="#N" n="121"/>via enim communicamus sanctis per fidem. quam ipsi habuerunt  
-          <lb ed="#N" n="122"/>et nos habemus. In patria uero participabimus eis prouisionem  
-          <lb ed="#N" n="123"/>speciei: quam ipsi habent et nos habebimus. Nos enim fidem ha- 
-          <lb ed="#N" n="124"/>emus et spem: illi visionem speciei et rem. Comunicamus ergo et ve- 
-          <lb ed="#N" n="125"/>nueramur memoriam sanctorum et praecipue gloriosae virginis et beato  
-          <lb ed="#N" n="126"/>rum apostolorum et martirum vt eorum suffragio de fide perducamur 
-          <lb ed="#N" n="127"/>ad spem: de spe ad ipam rem. In hac autem commemoratione san 
-          <lb ed="#N" n="128"/>ctorum conseruat ecclesia quod antiquitus fieri solebat vt in orationibus  
-          <lb ed="#N" n="129"/>patrum memoria recoleretur. quatenus eorum meritis suffraganti-  
-          <lb ed="#N" n="130"/>dus: facilius quod petebant impetrarent. sicut moyses pro populo  
-          <lb ed="#N" n="131"/>peccante intercedens inquit Exo. xxxii. Recordare abraham et  
-          <lb ed="#N" n="132"/>ysaac et iacob seruorum tuorum. sic azarias in fornace Dan. iii 
-          <lb ed="#N" n="133"/>Ne auferas a nobis misericordiam tuam domine deus noster propter abra- 
-          <lb ed="#N" n="134"/>ham dilectum tuum et ysaac seruum tuum et iacob sanctum tuum.
-          </p>
-          <p xml:id="v78d89-e1e706-d1e1103">
-            ¶ hic  
-          <lb ed="#N" n="135"/>quaeritur cur in canone nulla fit commenoratio confessorum. cum tamen inter 
-          <lb ed="#N" n="136"/>sanctos memoria eorum honorificae veneretur ecceia. Responsione quod  
-          <lb ed="#N" n="137"/>canon missae prius fuit editus quam memoriam confessorum celebraret ec  
-          <lb ed="#N" n="138"/>clesia. Nam omnes fere sancti qui commemorantur in canone  
-          <lb ed="#N" n="139"/>praecesserunt siluestrum praeter iohannem et paulum marcellinum et pe 
-          <lb ed="#N" n="140"/>trum qui primo successerunt. Ecclesia vero post tempora beati siluestri 
-          <lb ed="#N" n="141"/>cepit sanctorum confessorum memoriam celebrare.
-          </p>
-          <p xml:id="v78d89-e1e706-d1e1121">
-            ¶ Quorum me- 
-          <!--266.xml-->
-          <pb ed="#N" n="266"/>
-          <cb ed="#N" n="a"/>
-          <lb ed="#N" n="1"/>ritis. hic facta commemoratione sanctorum subditur postulatio comme- 
-          <lb ed="#N" n="2"/>morantis. Hic igitur primo postulatur beneficium diuinae prote-  
-          <lb ed="#N" n="3"/>ctionis scilicet a malo. Secundo beneficium diuinae perductionis ad  
-          <lb ed="#N" n="4"/>bonum scilicet ibi. hanc igitur oblationem. dicitur ergo quorum scilicet praedi- 
-          <lb ed="#N" n="5"/>ctorum sanctorum meritis praecibusque concedas. Multum enim solent 
-          <lb ed="#N" n="6"/>merita sanctorum praecedentium succedentibus suffragari. Unde  
-          <lb ed="#N" n="7"/>cum Ezechias diuinum postularet auxilium. responsum est sibi pro- 
-          <lb ed="#N" n="8"/>tegam vrbem hanc et saluabo eam propter me et propter dauid  
-          <lb ed="#N" n="9"/>seruum meum Isa. xxxvii. Ut in omnibus protectionis tuae munia  
-          <lb ed="#N" n="10"/>tur auxilio. hic notandum quod in hac commemoratione quae sit ante  
-          <lb ed="#N" n="11"/>cosecrationem corporis christi: postulatur suffragium sanctorum. In ea 
-          <lb ed="#N" n="12"/>vero quae fit post consecrationem corporis christi: sanctorum consortium  
-          <lb ed="#N" n="13"/>imploratur. quia nimirum antequam corpus christi quod est vniuer- 
-          <lb ed="#N" n="14"/>salis ecclesia consecretur id est antequam regnum adueniat: necessari- 
-          <lb ed="#N" n="15"/>um est nobis in via sanctorum suffragium. vt meritis eorum et 
-          <lb ed="#N" n="16"/>precibus diuinae protectionis muniamur auxilio. sed vbi corpus  
-          <lb ed="#N" n="17"/>christi fuerit consecratum id est vbi regnum aduenerit: assequemur  
-          <lb ed="#N" n="18"/>in patria sanctorum consortium. vt societatem et partem cum san 
-          <lb ed="#N" n="19"/>ctis apostolis et martiribus habeamus. quod in commemoratione  
-          <lb ed="#N" n="20"/>sanctorum infra postulatur vt prtem ibidem.
-          </p>
-          </div>
-          <div xml:id="v78d89-e1e706-Dd1e1294">
-            <head xml:id="v78d89-e1e706-Hd1e1296">3</head>
-            <p xml:id="v78d89-e1e706-d1e1298">
-          <lb ed="#N" n="21"/>hanc igitur obla  
-          <lb ed="#N" n="22"/>tionem. hic postualtur beneficium diuinae perductionis ad bonum 
-          <lb ed="#N" n="23"/>quantum ad quatuor quae sunt. Cultus acceptatio ibi. Quesu 
-          <lb ed="#N" n="24"/>sumus domine vt placet ac Pacis reformatio ibi. diesque nostros in- 
-          <lb ed="#N" n="25"/>tua. p.d. A penis damnatorum segregatio ibi. atquem ab aeterna  
-          <lb ed="#N" n="26"/>damnatione etc. Eum electis primiatio ibi. et in electorum etc Bacta 
-          <lb ed="#N" n="27"/>ergo mentione de sanctis et eorum memorie veneratione subiun-  
-          <lb ed="#N" n="28"/>gitur de oblatione sacrificii cum dicitur. hanc igitur oblatio- 
-          <lb ed="#N" n="29"/>nem etc sic insinuans. quoniam non est locus offerendi sacrifi- 
-          <lb ed="#N" n="30"/>cium vnitatis extra vnitatem ecclesiae. Sanctorum ergo me- 
-          <lb ed="#N" n="31"/>morie in sacrificio communicamus: quatenus in communione san 
-          <lb ed="#N" n="32"/>ctorum sacrificium offeramus
-          </p>
-          <p xml:id="v78d89-e1e706-d1e1199">
-            ¶ hanc igitur oblationem de 
-          <lb ed="#N" n="33"/>qua supradictum est. haec dona haec munera haec sancta sa- 
-          <lb ed="#N" n="34"/>crifica illibata. seruitutis nostrae sed et cunctae fa. t. Ista con 
-          <lb ed="#N" n="35"/>iungit: quia non solum offerunt sacerdotes. sed vniuersi fide  
-          <lb ed="#N" n="36"/>les vt tactum est. Nota quod duae sunt species seruitutis. vna quae  
-          <lb ed="#N" n="37"/>soli creatori debetur et dicitur latria. altera quae creature impen- 
-          <lb ed="#N" n="38"/>ditur et dicitur dulia. de hac duplici dicitur Math. xxii. Red-  
-          <lb ed="#N" n="39"/>dite quae sunt cesaris cesari et quae sunt dei deo. Ad latriam  
-          <lb ed="#N" n="40"/>pertinent. altaria. templa. sacerdotia. sacrificia et huiusmodi quae  
-          <lb ed="#N" n="41"/>solummodo cultui dei sunt dedicata. qui gloriatur in concilio san- 
-          <lb ed="#N" n="42"/>ctorum magnus et terribilis s. o. qui incir. eius sunt. Non enim  
-          <lb ed="#N" n="43"/>poprie loquendo sanctis ad honorem dei dedicantur templa. con 
-          <lb ed="#N" n="44"/>secrantur altaria. sacerdotia statuuntur. sacrificia offerun- 
-          <lb ed="#N" n="45"/>tur. sed deo potius ad honorem sanctorum. ne forte si secus age-  
-          <lb ed="#N" n="46"/>retur: non theosebia sed ydolatria conmitteretur. Hinc dixit dominus  
-          <lb ed="#N" n="47"/>Math. iiii. dominum deum tuum adorabis. et illi soli seruies. id est soli 
-          <lb ed="#N" n="48"/>deo seruitutem cultus impendes. de qua hic dicitur. hanc ob- 
-          <lb ed="#N" n="49"/>lationem seruitutis nostrae etc. quaesumus domine vt placatus id est si- 
-          <lb ed="#N" n="50"/>ne offensa accipias. id est sit tibi accepta et grata. diesque nostros  
-          <lb ed="#N" n="51"/>etc Beatus greg. has tres petitiones dicitur in canone addidis-  
-          <lb ed="#N" n="52"/>se. scilicet dices nostros in tua pace disponas. per eum qui pro nobis  
-          <lb ed="#N" n="53"/>traditus est in manus eorum qui oderunt pacem. atque ab aeterna dam- 
-          <lb ed="#N" n="54"/>natione nos eripi. per eum qui pro nobis temporali morte damnatus est  
-          <lb ed="#N" n="55"/>iuxta illud et condemnauerunt eum morti. Et in electorum tuorum iu 
-          <lb ed="#N" n="56"/>beas grege numerari. per eum qui pro nobis deputatus est cum iniquis  
-          <lb ed="#N" n="57"/>Isa viii
-          </p>
-          <p xml:id="v78d89-e1e706-d1e1256">
-            ¶ Nota hic quod est pax pectoris. Gal. v <quote xml:id="v78d89-e1e706-Qd1e1359" source="http://scta.info/resource/gal5_22" synch="1-8">fructus spiritus  
-          <lb ed="#N" n="58"/>caritas. gaudium. pax. patientia</quote>. hanc pacem reliquit dominus apo 
-          <lb ed="#N" n="59"/>tolis Joh. xiiii. Pacem inquit relinquo vobis. Item est pax 
-          <lb ed="#N" n="60"/>temporis. psalmus. Orietur in diebus eius iusticia et habundantia  
-          <lb ed="#N" n="61"/>pacis. hanc pacem incessanter postulat ecclesia dicens. Da pa 
-          <lb ed="#N" n="62"/>cem domine in diebus nostris etc Item est pax aeternitatis Joh.  
-          <lb ed="#N" n="63"/>xiiii. Pacem meam do vobis. non quomodo hic mundus dat: ego do vo  
-          <lb ed="#N" n="64"/>bis. hic est pax super pacem. psalmus. In pace in idipsum dormiam et  
-          <lb ed="#N" n="65"/>requiescam. Propter hanc triplicem pacem ter postualtur pax 
-          <lb ed="#N" n="66"/>in missa. Primo cum dicitur dies nostros in tua pace dispo- 
-          <lb ed="#N" n="67"/>nas. Secundo cum dicitur. da propicius pacem in diebus nostris  
-          <lb ed="#N" n="68"/>Tertio cum dicitur dona nobis pacem. vt de pace temporis per pacem  
-          <lb ed="#N" n="69"/>pectoris: transeamus ad pacem aeternitatis. Ob hoc in canone  
-          <lb ed="#N" n="70"/>missae sacerdos ter osculatur altare.
-          </p>
-          </div>
-        </div>
-        <div xml:id="v78d89-e1e706-Dd1e1288" type="articulus">
-          <head xml:id="v78d89-e1e706-Hd1e1290">Articulus 3</head> <!--dbcheck-->
-          <p xml:id="v78d89-e1e706-d1e1295">
-          <!--266.xml b-->
-          <cb ed="#N" n="b"/>
-          <lb ed="#N" n="71"/>Uam oblationem. hic postulatur hostiae benedictae in  
-          <lb ed="#N" n="72"/>verum et sumum sacrificium transmutatio. Dicitur ergo  
-          <lb ed="#N" n="73"/>quam oblationem tu deus facere digneris in omni- 
-          <lb ed="#N" n="74"/>pus benedictam. hoc est transmutare in illam hostiam quae est 
-          <lb ed="#N" n="75"/>omnino benedicta. haec autem vocabula benedictam ascriptam etc  
-          <lb ed="#N" n="76"/>multipliciter exponuntur. Uno modo secundum augustinum et habetur de 
-          <lb ed="#N" n="77"/>conse. di. ii. vtrum sub figura. qui dicit sic. hanc ergo obla- 
-          <lb ed="#N" n="78"/>tionem benedictam per quam benedicimur. Ascriptam per quam ho- 
-          <lb ed="#N" n="79"/>mines in celo ascribuntur. Ratam per quam in visceribus christi cen- 
-          <lb ed="#N" n="80"/>seamur. Rationabilem per quam a bestiali sensu exuamur. Ac-  
-          <lb ed="#N" n="81"/>ceptabilem et qui nobis ipsis displicemus: per hanc accepta-  
-          <lb ed="#N" n="82"/>biles eius vnico filio simus. nihil autem rationabilius quam ut 
-          <lb ed="#N" n="83"/>nos qui iam similitudinem mortis eius in baptismo accepi 
-          <lb ed="#N" n="84"/>mus: similitudinem quoque carnis et sanguis sumamus. et haec  
-          <lb ed="#N" n="85"/>expostio est secundum distinctionem effectuum ipsius sacramenti.
-          </p>
-          <p xml:id="v78d89-e1e706-d1e1334">
-            ¶ Alio 
-          <lb ed="#N" n="86"/>modo sic secundum Inno. Quam oblationem tu deus facias transmu- 
-          <lb ed="#N" n="87"/>tari i ea hostiam quae est omnino benedicta. ascripta. rata. ratio- 
-          <lb ed="#N" n="88"/>nabilis et acceptabilis. Benedicta dicitur salutaris hostia 
-          <lb ed="#N" n="89"/>id est ab omini causa maledictionis immunis tam originali quam  
-          <lb ed="#N" n="90"/>actuali tam crimiali quam veniali. Luc. i. benedictus fructus ve- 
-          <lb ed="#N" n="91"/>ris tui. Ascripta dicitur id eest figuris et scripturis veteribus desi 
-          <lb ed="#N" n="92"/>gnata. tam in agno paschali Exo. xii. quam in manna celesti Exo-  
-          <lb ed="#N" n="93"/>di. xvi. tam in ysaac immolando Gen. xxii. quam in abel immolato  
-          <lb ed="#N" n="94"/>Gen. iiii. Apoc. xiii. hic est agnus qui occisus est ab origine mun 
-          <lb ed="#N" n="95"/>di. Rata dicitur quasi non transitoria sicut vetus quae cessit vbi 
-          <lb ed="#N" n="96"/>noua successit: sed quae permanet ineternum secundum ordinem melchi.  
-          <lb ed="#N" n="97"/>Rationabilis dicitur id est habens effectum congruum quasi non pena-  
-          <lb ed="#N" n="98"/>lis sicut legalis erat quae sanguine hircorum et thaurorum non po- 
-          <lb ed="#N" n="99"/>terat a peccato mundare: sed quae sanguine proprio conscientias  
-          <lb ed="#N" n="100"/>emundat ab operibus mortis. heb. ix. Acceptabile dicitu 
-          <lb ed="#N" n="101"/>quasi non illa de qua dicit propheta sacrificium et oblationem no- 
-          <lb ed="#N" n="102"/>luisti. sicut dicit dominus non accipiam de domo tua vitulos.  
-          <lb ed="#N" n="103"/>neque de gregi. t. hircos: sed illa de qua Eccei. xxxv. Sacrifici 
-          <lb ed="#N" n="104"/>um iusti acceptum est. Et <ref xml:id="v78d89-e1e706-Rd1e1481">Ecci. xlv.</ref> <quote xml:id="v78d89-e1e706-Qd1e1484" source="http://scta.info/resource/sir45_20">Ipsum elegit ab omni vi<lb ed="#N" n="105"/>uente 
-            offerre sacrificium deo incensum et bonum odorem</quote>. Secundum  
-          <lb ed="#N" n="106"/>hanc expositionem recte subiungitur. vt fiat corpus et sanguis dile  
-          <lb ed="#N" n="107"/>ctissimi filum tui domini nostri ihesu christi. haec autem expositio tangit con- 
-          <lb ed="#N" n="108"/>ditiones ipsius vere hostiae. et primo vt considerate in se. se-  
-          <lb ed="#N" n="109"/>cundo in compatione ad prefigurationem legis. tertio secundum compara- 
-          <lb ed="#N" n="110"/>tionem ad mutationem legis quae habebat aliam succedentem:  
-          <lb ed="#N" n="111"/>quantum ad oblationem hostiarum. quod non habuit hostia ista.  
-          <lb ed="#N" n="112"/>quarto secundum compationem ad effectum. quinto pecum comparatio-  
-          <lb ed="#N" n="113"/>nem ad illum cui offertur.
-          </p>
-          <p xml:id="v78d89-e1e706-d1e1397">
-            ¶ Alio modo sic. Quam oblationem be<lb ed="#N" n="114"/>nedictam. 
-            scilicet per consecrationem. ascriptam per approbationem. ratam per 
-          <lb ed="#N" n="115"/>confirmationem. id est quam oblationem consecratam approbatam et con  
-          <lb ed="#N" n="116"/>firmatam a te: digneris facere rationabilem hostiam scilicet et acce-  
-          <lb ed="#N" n="117"/>ptabilem. rationabilem inquam id est talem quae diuinae rationi conue- 
-          <lb ed="#N" n="118"/>niat. et acceptabilem id est quae beneplacito diuino complaceat ut  
-          <lb ed="#N" n="119"/>nobis corpus et sanguis fiat etc Refert dicere rationabile et  
-          <lb ed="#N" n="120"/>rationale. quia rationabile dicitur quod secundum consonantiam rationis pro- 
-          <lb ed="#N" n="121"/>cedit. Rationale quod vtitur ratione. Uel petimus. vt deus hanc  
-          <lb ed="#N" n="122"/>hostiam consecret confirmet et acceptet. vt consecret: ibi be  
-          <lb ed="#N" n="123"/>nedictam. Confirmat quantum ad duo. scilicet diuinam memoriam  
-          <lb ed="#N" n="124"/>ibi ascriptam id est talem quae de memoria sua nulla possit ob 
-          <lb ed="#N" n="125"/>liuione deleri. Et petimus eam ratam fieri id est talem quae de pro- 
-          <lb ed="#N" n="126"/>posito suo nulla possit mutatione conuelli vt acceptet quantum  
-          <lb ed="#N" n="127"/>ad duo scilicet iudicium rationis ibi rationabilem: et beneplaci  
-          <lb ed="#N" n="128"/>tum voluntatis ibi acceptabilem. Consecratio refertur quantum ad  
-          <lb ed="#N" n="129"/>ipsum sacramentum. Confirmatio ad praemium. Acceptatio ad me- 
-          <lb ed="#N" n="130"/>ritum. Quia oblatio a memoria dei non deleatur vel a proposito dei 
-          <lb ed="#N" n="131"/>non auellatur: hoc intelligitur quantum ad praemium oblationis praemi 
-          <lb ed="#N" n="132"/>um inquam fidelium. acceptatio autem dei respicit meritum fidelium
-          </p>
-          <p xml:id="v78d89-e1e706-d1e1442">
-          <lb ed="#N" n="133"/>¶ Quare autem fiunt tot cruces. haec potest ratio assignari. Iu- 
-          <lb ed="#N" n="134"/>das quarta feria maioris ebdomadae dominum vendidit trigin 
-          <lb ed="#N" n="135"/>ta argenteis in reconpensationem damni quod videbatur incur  
-          <lb ed="#N" n="136"/>risse ex infusione vngenti super caput domini. <ref xml:id="v78d89-e1e706-Rd1e1562">Joh. xii.</ref> <quote xml:id="v78d89-e1e706-Qd1e1566" source="http://scta.info/resource/io12_5 http://scta.info/resource/io12_6">Quare in<lb ed="#N" n="137"/>quit 
-          hoc vngentum non veniit trecentis denariis et datum est
-          <lb ed="#N" n="138"/>egenis: dixit autem hoc non quia de egenis pertinebat ad eum:  
-          <lb ed="#N" n="139"/>sed quia fur erat et loculos habens ea quae mittebantur porta-  
-          <!--267.xml-->
-          <pb ed="#N" n="267"/>
-          <cb ed="#N" n="a"/>
-          <lb ed="#N" n="1"/>bat</quote>. Quilibet autem argenteus valebat decem denarios vsuales  
-          <lb ed="#N" n="2"/>et ita dannum uvngenti quod valuerat trecentos denarios. xxx 
-          <lb ed="#N" n="3"/>recompensauit argenteis. Si vero dicamus argenteos fuisse  
-          <lb ed="#N" n="4"/>denarios vsuales. Dicemus quod iudas vendidit christum quasi 
-          <lb ed="#N" n="5"/>vile mancipium pro. xxx. qui sunt decima pars trecentorum de- 
-          <lb ed="#N" n="6"/>nariorum quod valuerat vngentum. propter quod dominus despecti-  
-          <lb ed="#N" n="7"/>ue loquitur per prophetam <ref xml:id="v78d89-e1e706-Rd1e1597">Zach. xi.</ref> appenderunt inquit mercedem 
-          <lb ed="#N" n="8"/>meam. xxx argenteis decorum praecium quo appraeciatus sum ab 
-          <lb ed="#N" n="9"/>eis. Ad designandum igitur praecii quantitatem quo christus est ven  
-          <lb ed="#N" n="10"/>ditus sacerdos facit hic tres cruces communiter super oblatam  
-          <lb ed="#N" n="11"/>et calicem cum dicit. benedictam. ascriptam. ratam. trecen 
-          <lb ed="#N" n="12"/>ti paritur et. xxx. multiplicationem suscipiunt a ternario. Post-  
-          <lb ed="#N" n="13"/>modum vero ad designandum venditionem et emptionem duas cru 
-          <lb ed="#N" n="14"/>ces exprimit sigillatim vnam super oblatam et alteram super calicem 
-          <lb ed="#N" n="15"/>cum dicit vt fiat corpus et sanguis.
-          </p>
-          <p xml:id="v78d89-e1e706-d1e1499">
-            ¶ Adhuc autem expositio 
-          <lb ed="#N" n="16"/>vocabulorum istorum benedictam etc. potest sumi a quadam opposi 
-          <lb ed="#N" n="17"/>tione ad venditonem iude sic. Iudas vendidit dominum. sed illa 
-          <lb ed="#N" n="18"/>venditio fuit maledicta praescripta irrita. iniqua et detestabi- 
-          <lb ed="#N" n="19"/>lis. sed tu deus hanc oblationem digneris facere benedictam. ascri 
-          <lb ed="#N" n="20"/>ptam. ratam. rationabilem et acceptabilem. Iudas enim dilexit 
-          <lb ed="#N" n="21"/>maledictionem et venit ei et noluit benedictionem et prolongabitur ab  
-          <lb ed="#N" n="22"/>eo: sed tu deus hanc oblationem digneris facem benedictam per quam nos  
-          <lb ed="#N" n="23"/>in celestibus benedicas. Iudas deletus est de libro viuentium et cum  
-          <lb ed="#N" n="24"/>iustis non scribetur: sed tu deus hanc oblationem digneris facere ascri- 
-          <lb ed="#N" n="25"/>ptam per quam nos inter electos ascribas. Iudas laqueo se 
-          <lb ed="#N" n="26"/>suspendit et epatum eius alter accipit: sed tu deus hanc oblationem  
-          <lb ed="#N" n="27"/>digneris facere ratam. per quam ratum sit nostrae salutis promissum.  
-          <lb ed="#N" n="28"/>Iudas exit condemnatus et oratio eius facta est in peccatum: sed tu deus  
-          <lb ed="#N" n="29"/>hanc oblationem facere digneris. rationabilem per quam rationabile 
-          <lb ed="#N" n="30"/>fiat obsequium seruitutis nostrae. Iudas reddidit mala pro bonis  
-          <lb ed="#N" n="31"/>et odium pro dilectione retribuit: sed tu deus hanc oblationem facere di 
-          <lb ed="#N" n="32"/>gneris acceptabilem per quam tibi nos reddas acceptos. vel ideo 
-          <lb ed="#N" n="33"/>facit tres cruces communiter super oblatam et calicem: quod christus tria commu 
-          <lb ed="#N" n="34"/>niter egit circa panem et vinum. accepit benedixit et dedit. Post-  
-          <lb ed="#N" n="35"/>modum crucem fecit vnam specialiter super oblatam quod dixit commedite  
-          <lb ed="#N" n="36"/>hoc est corpus meum. Et alteram facit spanliter super calicem quia di- 
-          <lb ed="#N" n="37"/>xit. Bibite hic est sanguis meus. et secundum hunc sensum rectae sub-  
-          <lb ed="#N" n="38"/>iungitur. Qui pridie quam pateretur etc vel potius quia iudas ven-  
-          <lb ed="#N" n="39"/>didit christum sacerdotibus scribis et phariseis ad crucifigendum  
-          <lb ed="#N" n="40"/>idcireo sacerdos ad notandum tres emptores facit tres eru- 
-          <lb ed="#N" n="41"/>ces communiter super oblatam et calicem cum dicit. Benedi-  
-          <lb ed="#N" n="42"/>ctam ascriptam ratam. ad notandum vero discrete venditorem  
-          <lb ed="#N" n="43"/>et venditum: facit duas cruces discrete super oblatam et calicem  
-          <lb ed="#N" n="44"/>cum dicit vt fiat corpus et sanguis
+          <p xml:id="v78d89-e1e706-d1e1260">
+            <lb ed="#N" n="68"/>Cercio cum dicitur dona nobis pacem. vt de pace temporis per
+            pacene<lb ed="#N" n="69" break="no"/>pectoris: transeamus ad pacem eternitatis. Ob hoc in canone
+            <lb ed="#N" n="70"/>misse sacerdos ter olculatur altare.
           </p>
         </div>
-        <div xml:id="v78d89-e1e706-Dd1e1566" type="articulus">
-          <head xml:id="v78d89-e1e706-Hd1e1568">Articulus 4</head> <!-- dbcheck -->
-          <p xml:id="v78d89-e1e706-d1e1573">
-          <lb ed="#N" n="45"/>Ui pridie quam pateretur. In hac parte exprimitur consecra 
-          <lb ed="#N" n="46"/>tionis consumatio. Et primo exprimitur consecratio cor- 
-          <lb ed="#N" n="47"/>poris. Secundo consecratio sanguis ibi. Simili modo 
-          <lb ed="#N" n="48"/>dicitur ergo. Qui pridie quam pateretur id est die praecedente immediate  
-          <lb ed="#N" n="49"/>diem passionis. Eleuatis oculis in celum ad te d. p. s.o. hic  
-          <lb ed="#N" n="50"/>insinuatur arduitas facti et dignitas sacramenti. Non enim fe-  
-          <lb ed="#N" n="51"/>cit sic domins in institutione alicuius alterius sacramenti. de hac  
-          <lb ed="#N" n="52"/>habetur <ref xml:id="v78d89-e1e706-Rd1e1592" target="http://scta.info/resource/gd-p3d2-d1e217">de conse. di. ii.</ref> <quote xml:id="v78d89-e1e706-Qd1e1595">Nihil in sacrificiis maius esse potest  
-          <lb ed="#N" n="53"/>quam corpus et sanguis christi. nec oblatio vlla hac potior est: sed  
-          <lb ed="#N" n="54"/>omnes precellit haec. quae pura conscientia domino offerenda est  
-          <lb ed="#N" n="55"/>et pura mente sumenda. atque ab omnibus veneranda. et sicut  
-          <lb ed="#N" n="56"/>potior est ceteris: ita potius excoli et venerari debet</quote>. Duae  
-          <lb ed="#N" n="57"/>autem tamen cruces hic fiunt. Una in consecratione panis: al-  
-          <lb ed="#N" n="58"/>tera in consecratione vini. ad significandum. quod morte christi  
-          <lb ed="#N" n="59"/>hic specialiter repraesentata duplex homins natura scilicet corpus et 
-          <lb ed="#N" n="60"/>anima redempta est. Item hic signatur dominum in duplici natu  
-          <lb ed="#N" n="61"/>ra scilicet corpore et anima passionem sustinuisse. Dicto autem hoc  
-          <lb ed="#N" n="62"/>est corpus meum: ad cuius prolationem panis mutatur in corpus  
-          <lb ed="#N" n="63"/>christi. et consequenter a sacerdote cum mediocri inclinatione  
-          <lb ed="#N" n="64"/>corpore domini adorato: immo ipso domino qui ibi praesentialiter est. et  
-          <lb ed="#N" n="65"/>verus deus et verus homo: debet eleuari reuerenter. ita quod a cir 
-          <lb ed="#N" n="66"/>cumstantibus possit videri. et post adorato a populo debet re- 
-          <lb ed="#N" n="67"/>poni in loco suo. In adoratione corporis christi potest esse error  
-          <lb ed="#N" n="68"/>si simpliciter adoratur. cum fortasse qui videtur consecrare non 
-          <lb ed="#N" n="69"/>consecrat. vel quia non est sacerdos: vel quia non intendit conse- 
-          <!--267.xml-->
-          <cb ed="#N" n="b"/>
-          <lb ed="#N" n="70"/>crare. vel quia non dicit verba consecratoria. tales non conse- 
-          <lb ed="#N" n="71"/>crant. Unde nec hostia eleuata est adoranda nec quod sub illa 
-          <lb ed="#N" n="72"/>specie continetur. Propter quod sine praeiudicio dico quod saluator de- 
-          <lb ed="#N" n="73"/>bet adorari. qui creditur esse sub illa specie quae ibi tractatur sub  
-          <lb ed="#N" n="74"/>hoc sensu verborum. Adoro te ihesum christe saluator qui per mortem  
-          <lb ed="#N" n="75"/>tuam redemisti mudum quem credo esse sub hac specie quam video
+        <div xml:id="v78d89-e1e706-Dd1e1270">
+          <head xml:id="v78d89-e1e706-Hd1e1272">Articulus 3</head>
+          <p xml:id="v78d89-e1e706-d1e1274">
+            <cb ed="#N" n="b"/>
+            <lb ed="#N" n="71"/>⁋ Articulus tercius
           </p>
-          <p xml:id="v78d89-e1e706-d1e1653">
-          <lb ed="#N" n="76"/>¶ Simili modo postquam cenatum est id est post cenam veteris paschae.  
-          <lb ed="#N" n="77"/>scilicet quando dominus hoc sacramentum instituit et apostolis sumendum distri 
-          <lb ed="#N" n="78"/>buit: et vt idem postea in memoriam sui agerent praecepit. quia de his  
-          <lb ed="#N" n="79"/>supra dictum est haec sufficiant.  
+          <p xml:id="v78d89-e1e706-d1e1281">
+            <lb ed="#N" n="72"/>QUam oblationem. Hic postulatur hostie benedicte in
+            <lb ed="#N" n="73"/>verum et summum sacrificium transmutatio. Dicitur ergo
+            <lb ed="#N" n="74"/>quam oblationem tu deus facere digneris in
+            omni<lb ed="#N" n="75" break="no"/>bus benedictam. hoc est transmutare in illam hostiam que est
+            <lb ed="#N" n="76"/>omnino benedicta. Hec autem vocabula benedictam ascriptam etc.
+            <lb ed="#N" n="77"/>multipliciter exponuntur. Uno modo secundum augustinus et habetur de
+            <lb ed="#N" n="78"/>conse. di. ii. vtrum subfigura. qui dicit sic. hanc ergo
+            obla<lb ed="#N" n="79" break="no"/>tionem benedictam per quam benedicimur. Ascriptam per quam
+            ho<lb ed="#N" n="80" break="no"/>mines in celo ascribuntur. Ratam per quam in visceribus christi
+            cen<lb ed="#N" n="81" break="no"/>seamur. Rationabilem per quam a bestiali sensu exuamur.
+            Ac<lb ed="#N" n="82" break="no"/>ceptabilem vt qui nobis ipsis displicemus: per hanc
+            accepta<lb ed="#N" n="83" break="no"/>biles eius vnico filio simus. nihil autem rationabilius quam vt
+            <lb ed="#N" n="84"/>nos qui iam similitudinem mortis eius in baptismo
+            accepi<lb ed="#N" n="85" break="no"/>mus: similitudinem quoque carnis et sanguinis sumamus. et hec
+            <lb ed="#N" n="86"/>expositio est secundum distinctionem effectuum ipsius sacramenti.
+          </p>
+          <p xml:id="v78d89-e1e706-d1e1316">
+            ⁋ Alio
+            <lb ed="#N" n="87"/>modo sic secundum Inno. Quam oblationem tu deus facias
+            transmu<lb ed="#N" n="88" break="no"/>tari in eam hostiam que est omnino benedicta. ascripta. rata.
+            ratio<lb ed="#N" n="89" break="no"/>nabilis et acceptabilis. Benedicta dicitur salutaris hostia
+            <lb ed="#N" n="90"/>id est ab omni causa maledictionis immunis tam originali quam
+            <lb ed="#N" n="91"/>actuali tam criminali quam veniali. Luc. i. benedictus fructus
+            ven<lb ed="#N" n="92" break="no"/>tris tui. Ascripta dicitur id est figuris et scripturis veteribus
+            desi<lb ed="#N" n="93" break="no"/>gnata. tam in agno paschali Exo. xii. quam in manna celesti
+            Exo<lb ed="#N" n="94" break="no"/>di. xvi. tam in ysaac immolando Gen. xxii. quam in abel immolato
+            <lb ed="#N" n="95"/>Gen. iiii. Apoci. xiii. hic est agnus qui occisus est ab origine
+            mun<lb ed="#N" n="96" break="no"/>di. Rata dicitur quasi non transitoria sicut vetus que cessit vbi
+            <lb ed="#N" n="97"/>noua successit: sed que permanet ineternum secundum ordinem melchi.
+            <lb ed="#N" n="98"/>Rationabilis dicitur id est habens effectum congruum quasi non
+            pena<lb ed="#N" n="99" break="no"/>lis sicut legalis erat que sanguine hircorum et thaurorum non
+            po<lb ed="#N" n="100" break="no"/>terat a peccato mundare: sed que sanguine proprio conscientias
+            <lb ed="#N" n="101"/>emundat ab operibus mortis. Heb. ix. Acceptabile dicitur
+            <lb ed="#N" n="102"/>quasi non illa de qua dicit propha. sacrificium et oblationem
+            no<lb ed="#N" n="103" break="no"/>luisti. sicut dicit dominus. non accipiam de domo tua vitulos.
+            <lb ed="#N" n="104"/>neque de gregi. t. hircos: sed illa de qua Eccesisti. xxxv.
+            Sacrifici<lb ed="#N" n="105" break="no"/>um iusti acceptum est. Et Eccesiasti. xlv. Ipisum elegit ab omni
+            vi<lb ed="#N" n="106" break="no"/>uente offerre sacrificium deo incensum et bonum odorem. Secundum
+            <lb ed="#N" n="107"/>hanc expositionem recte subiungitur. vt fiat corpus et sanguis dile
+            <lb ed="#N" n="108"/>ctissimi filii tui domini nostri ihu christi. hec autem expositio tangit
+            con<lb ed="#N" n="109" break="no"/>ditiones ipsius vere hostie. et primo vt considerate in se.
+            se<lb ed="#N" n="110" break="no"/>cundo in comparatione ad prefigurationem legis. tercio secundum
+            compara<lb ed="#N" n="111" break="no"/>tionem ad mutationem legis que habebat aliam succedentem:
+            <lb ed="#N" n="112"/>aratum ad oblationem hostiarum. quod non habuit hostia ista.
+            <lb ed="#N" n="113"/>quarto secundum comparationem ad effectum. quinto secundum
+            comparatio<lb ed="#N" n="114" break="no"/>nem ad illum cui offertur.
+          </p>
+          <p xml:id="v78d89-e1e706-d1e1379">
+            ⁋ Alio modo sic. Quam oblationem
+            be<lb ed="#N" n="115" break="no"/>nedictam. scilicet per consecrationem. ascriptam per approbationem. ratam per
+            <lb ed="#N" n="116"/>confirmationem id est quam oblationem consecratam approbatam et
+            con<lb ed="#N" n="117" break="no"/>firmatam a te: digneris facere rationabilem hostiam scilicet et
+            acce<lb ed="#N" n="118" break="no"/>ptabilem. rationabilem inquam id est talem que diuine rationi
+            conue<lb ed="#N" n="119" break="no"/>niat. et acceptabilem id est que beneplacito diuino complaceat vt
+            <lb ed="#N" n="120"/>nobis corpus et sanguis fiat etc. Refert dicere rationabile et
+            <lb ed="#N" n="121"/>rationale. quia rationabile dicitur quod secundum consonantiam rationis
+            pro<lb ed="#N" n="122" break="no"/>cedit. Rationale quod vtitur ratione. Uel petimus. vt deus hanc
+            <lb ed="#N" n="123"/>hostiam consecret confirmet et acceptet. vt consecret: ibi
+            be<lb ed="#N" n="124" break="no"/>nedictam. Confirmat quantum ad duo. scilicet diuinam memoriam
+            <lb ed="#N" n="125"/>ibi ascriptam id est talem que de memoria sua nulla possit ob
+            <lb ed="#N" n="126"/>liuione deleri. Et petimus eam ratam fieri id est talem que de pro
+            <lb ed="#N" n="127"/>posito suo nulla possit mutatione conuelli. vt acceptet quantum
+            <lb ed="#N" n="128"/>ad duo scilicet iudicium rationis ibi rationabilem: et
+            beneplaci<lb ed="#N" n="129" break="no"/>tum voluntatis ibi acceptabilem. Consecratio refertur quantum ad
+            <lb ed="#N" n="130"/>ipsum sacramentum. Confirmatio ad premium. Acceptatio ad
+            me<lb ed="#N" n="131" break="no"/>ritum. Quod oblatio a memoria dei non deleatur vel a proposito dei
+            <lb ed="#N" n="132"/>non auellatur: hoc intelligitur quantum ad premium oblationis premi
+            <lb ed="#N" n="133"/>um inquam fidelium. acceptatio autem dei respicit meritum fidelium
+          </p>
+          <p xml:id="v78d89-e1e706-d1e1424">
+            <lb ed="#N" n="134"/>⁋ Quare autem fiunt tot cruces. hec potest ratio assignari.
+            Iu<lb ed="#N" n="135" break="no"/>das quarta feria maioris ebdomade dominum vendidit
+            trigin<lb ed="#N" n="136" break="no"/>ta argenteis in recompensationem damni quod videbatur
+            incur<lb ed="#N" n="137" break="no"/>risse ex infusione vngenti super caput domini. Ioh. xii. Quare
+            in<lb ed="#N" n="138" break="no"/>quit hoc vngentum non veniit trecentis denariis et datum est
+            <lb ed="#N" n="139"/>egenis: dixit autem hoc non quia de egenis pertinebat ad eum:
+            <lb ed="#N" n="140"/>sed quia fur erat et loculos habens ea que mittebantur
+            porta<pb ed="#N" n="242"/><cb ed="#N" n="a"/><lb ed="#N" n="1" break="no"/>bat. Quilibet autem argenteus valebat decem denarios vsuales
+            <lb ed="#N" n="2"/>et ita dannum vngenti quod valuerat trecentos denarios. xxx
+            <lb ed="#N" n="3"/>recompensauit argenteis. Si vero dicamus argenteos fuisse
+            <lb ed="#N" n="4"/>denarios vsuales. Dicemus quod iudas vendidit christum quasi
+            <lb ed="#N" n="5"/>vile mancipium pro. xxx. qui sunt decima pars trecentorum
+            de<lb ed="#N" n="6" break="no"/>nariorum quod valuerat vngentum. propter quod dominus
+            despecti<lb ed="#N" n="7" break="no"/>ue loquitur per propham ach. xi. appenderunt inquit mercedem
+            <lb ed="#N" n="8"/>meam. xxx. argenteis decorum precium quo appreciatus sum ab
+            <lb ed="#N" n="9"/>eis. Ad designandum igitur precii quantitatem quo christus est
+            ven<lb ed="#N" n="10" break="no"/>ditus sacerdos facit hic tres cruces communiter super oblatam
+            <lb ed="#N" n="11"/>et calicem cum dicit. benedictam. ascriptam. ratam.
+            trecen<lb ed="#N" n="12" break="no"/>ti pariter et. xxx. multiplicationem suscipiunt a ternario.
+            Post<lb ed="#N" n="13" break="no"/>modum vero ad designandum venditionem et emptionem duas
+            cru<lb ed="#N" n="14" break="no"/>ces exprimit sigillatim vnam super oblatam et alteram super
+            calicem<lb ed="#N" n="15" break="no"/>cum dicit vt fiat corpus et sanguis.
+          </p>
+          <p xml:id="v78d89-e1e706-d1e1476">
+            ⁋ Adhuc autem expositio
+            <lb ed="#N" n="16"/>vocabulorum istorum benedictam etc. potest sumi a quadam opposi
+            <lb ed="#N" n="17"/>tione ad venditionem iude sic. Iudas vendidit dominum. sed
+            illa<lb ed="#N" n="18" break="no"/>venditio fuit maledicta prescripta irrita. iniqua et
+            detestabi<lb ed="#N" n="19" break="no"/>lis. sed tu deus hanc oblationem digneris facere benedictam.
+            ascri<lb ed="#N" n="20" break="no"/>ptam. ratam. rationabilem et acceptabilem. Iudas enim dilexit
+            <lb ed="#N" n="21"/>maledictionem et venit ei et noluit benedictionem et prolongabitur ab
+            <lb ed="#N" n="22"/>eo: sed tu deus hanc oblationem digneris facere benedictam per quam nos
+            <lb ed="#N" n="23"/>in celestibus benedicas. Iudas deletus est de libro viuentium et cum
+            <lb ed="#N" n="24"/>iustis non scribetur: sed tu deus hanc oblationem digneris facere
+            ascri<lb ed="#N" n="25" break="no"/>ptam per quam nos inter electos ascribas. Iudas laqueo se
+            <lb ed="#N" n="26"/>suspendit et episcopatum eius alter accipit: sed tu deus hanc oblationem
+            <lb ed="#N" n="27"/>digneris facere ratam. per quam raptum sit nostre salutis promissum.
+            <lb ed="#N" n="28"/>Iudas exit condennatus et oratio eius facta est in peccatum: sed tu deus
+            <lb ed="#N" n="29"/>hanc oblationem facere digneris. rationabilem per quam rationabile
+            <lb ed="#N" n="30"/>fiat obsequium seruitutis nostre. Iudas reddidit mala pro bonis
+            <lb ed="#N" n="31"/>et odium pro dilectione retribuit: sed tu deus hanc oblationem facere
+            di<lb ed="#N" n="32" break="no"/>gneris acceptabilem per quam tibi nos reddas acceptos. vel ideo
+            <lb ed="#N" n="33"/>facit tres cruces communiter super oblatam et calicem: quia christus tria
+            commu<lb ed="#N" n="34" break="no"/>niter egit circa panem et vinum. accepit benedixit et dedit.
+            Post<lb ed="#N" n="35" break="no"/>modum crucem fecit vnam spiritialiter super ablatam quia dixit commedite
+            <lb ed="#N" n="36"/>hoc est corpus meum. Et alteram facit speialiter super calicem quia
+            di<lb ed="#N" n="37" break="no"/>xit. Dibite hic est sanguis meus. et secundum hunc sensum recte
+            sub<lb ed="#N" n="38" break="no"/>iungitur. Qui pridie quam pateretur etc. vel potius quia iudas
+            ven<lb ed="#N" n="39" break="no"/>didit christum sacerdotibus scribis et phariseis ad crucifigendum
+            <lb ed="#N" n="40"/>idcirco sacerdos ad notandum tres emptores facit tres
+            cru<lb ed="#N" n="41" break="no"/>ces comuniter super oblatam et calicem cum dicit.
+            Benedi<lb ed="#N" n="42" break="no"/>ctam ascriptam ratam. ad notandum vero discrete venditorem
+            <lb ed="#N" n="43"/>et venditum: facit duas cruces discrete super oblatam et calicem
+            <lb ed="#N" n="44"/>cum dicit vt fiat corpus et sanguis.
+          </p>
+        </div>
+        <div xml:id="v78d89-e1e706-Dd1e1542">
+          <head xml:id="v78d89-e1e706-Hd1e1544">Articulus 4</head>
+          <p xml:id="v78d89-e1e706-d1e1546">
+            <lb ed="#N" n="45"/>Articulus quartus
+          </p>
+          <p xml:id="v78d89-e1e706-d1e1551">
+            <lb ed="#N" n="46"/>QUi pridie quam pateretur. In hac parte exprimitur
+            consecra<lb ed="#N" n="47" break="no"/>tionis consumatio. Et primo exprimitur consecratio
+            cor<lb ed="#N" n="48" break="no"/>poris. Secundo consecratio sanguinis ibi. Simili modo.
+            <lb ed="#N" n="49"/>dicitur ergo. Qui pridie quam pateretur id est die precedente immediate
+            <lb ed="#N" n="50"/>diem passionis. Eleuatis oculis in celum ad te d. pscilicet o. Hic
+            <lb ed="#N" n="51"/>insinuatur arduitas facti et dignitas sacramenti. Non enim
+            fe<lb ed="#N" n="52" break="no"/>cit sic dominus in institutione alicuius alterius sacramenti. de hac
+            <lb ed="#N" n="53"/>habetur de conse. di. ii. Nihil in sacrificiis maius esse potest
+            <lb ed="#N" n="54"/>quam corpus et sanguis christi. nec oblatio vlla hac potior est: sed
+            <lb ed="#N" n="55"/>omnes precellit hec. que pura conscientia domino offerenda est
+            <lb ed="#N" n="56"/>et pura mente sumenda. atque ab omnibus veneranda. et sicut
+            <lb ed="#N" n="57"/>potior est ceteris: ita potius excoli et venerari debet. Due
+            <lb ed="#N" n="58"/>autem tantum cruces hic fiunt. Una in consecratione panis:
+            al<lb ed="#N" n="59" break="no"/>tera in consecratione vini. ad significandum. quod morte christi
+            <lb ed="#N" n="60"/>hic spirtialiter representata duplex hominis natura scilicet corpus et
+            <lb ed="#N" n="61"/>anima redempta est. Item hic signatur dominum in duplici natu
+            <lb ed="#N" n="62"/>ra scilicet corpore et anima passionem sustinuisse. Dicto autem hoc
+            <lb ed="#N" n="63"/>est corpus meum: ad cuius prolationem panis mutatur in corpus
+            <lb ed="#N" n="64"/>christi. et consequenter a sacerdote cum mediocri inclinatione
+            <lb ed="#N" n="65"/>corpore domine adorato: immo ipso domino qui ibi presentialiter est. et
+            <lb ed="#N" n="66"/>verus deus et verus homo: debet eleuari reuerenter. ita quod a
+            cir<lb ed="#N" n="67" break="no"/>cumstantibus possit videri. et post adorato a populo debet
+            re<lb ed="#N" n="68" break="no"/>poni in loco suo. In adoratione corporis christi potest esse error
+            <lb ed="#N" n="69"/>si simpliciter adoratur. cum fortasse qui videtur consecrare non
+            <lb ed="#N" n="70"/>consecrat. vel quia non est sacerdos: vel quia non intendit
+            conse<cb ed="#N" n="b"/><lb ed="#N" n="71" break="no"/>crare. vel quia non dicit verba consecratoria. tales non
+            conse<lb ed="#N" n="72" break="no"/>crant. Unde nec hostia eleuata est adoranda nec quod sub illa
+            <lb ed="#N" n="73"/>specie continetur. Propter quod sine preiudicio dico. quod saluator
+            de<lb ed="#N" n="74" break="no"/>bet adorari. qui creditur esse sub illa specie que ibi tractatur
+            sub<lb ed="#N" n="75" break="no"/>hoc sensu verborum. Adoro te ihum christe saluator qui per mortem
+            <lb ed="#N" n="76"/>tuam redemisti mundum quem credo esse sub hac specie quam video
+          </p>
+          <p xml:id="v78d89-e1e706-d1e1622">
+            <lb ed="#N" n="77"/>⁋ Simili modo postquam cenatum est id est post cenam veteris pasche.
+            <lb ed="#N" n="78"/>scilicet quando dominus hoc sacramentum instituit et apostolis sumendum
+            distri<lb ed="#N" n="79" break="no"/>buit: et vt idem postea in memoriam sui agerent precepit. quia de his
+            <lb ed="#N" n="80"/>supra dictum est hec sufficiant.
           </p>
         </div>
       </div>
